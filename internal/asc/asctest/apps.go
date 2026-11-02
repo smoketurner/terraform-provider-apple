@@ -15,6 +15,7 @@ func (s *Server) AddApp(name, bundleID, sku string) string {
 	attrs := alloc(&a.Attributes)
 	attrs.Name, attrs.BundleId, attrs.Sku, attrs.PrimaryLocale = new(name), new(bundleID), new(sku), new("en-US")
 	s.apps[a.Id] = a
+	s.addAppTestFlight(a.Id)
 	return a.Id
 }
 

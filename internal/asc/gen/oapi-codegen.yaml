@@ -16,8 +16,50 @@ output-options:
   overlay:
     path: overlay.yaml
   include-operation-ids:
+    - apps_betaTesters_deleteToManyRelationship
     - apps_getCollection
     - apps_getInstance
+    - betaAppLocalizations_createInstance
+    - betaAppLocalizations_deleteInstance
+    - betaAppLocalizations_getInstance
+    - betaAppLocalizations_updateInstance
+    - betaAppReviewDetails_getCollection
+    - betaAppReviewDetails_updateInstance
+    - betaAppReviewSubmissions_createInstance
+    - betaBuildLocalizations_createInstance
+    - betaBuildLocalizations_deleteInstance
+    - betaBuildLocalizations_getInstance
+    - betaBuildLocalizations_updateInstance
+    - betaGroups_betaRecruitmentCriteria_getToOneRelated
+    - betaGroups_createInstance
+    - betaGroups_deleteInstance
+    - betaGroups_getCollection
+    - betaGroups_getInstance
+    - betaGroups_updateInstance
+    - betaLicenseAgreements_getCollection
+    - betaLicenseAgreements_updateInstance
+    - betaRecruitmentCriteria_createInstance
+    - betaRecruitmentCriteria_deleteInstance
+    - betaRecruitmentCriteria_updateInstance
+    - betaRecruitmentCriterionOptions_getCollection
+    - betaTesterInvitations_createInstance
+    - betaTesters_betaGroups_createToManyRelationship
+    - betaTesters_betaGroups_deleteToManyRelationship
+    - betaTesters_betaGroups_getToManyRelationship
+    - betaTesters_createInstance
+    - betaTesters_deleteInstance
+    - betaTesters_getCollection
+    - betaTesters_getInstance
+    - buildBetaDetails_getCollection
+    - buildBetaDetails_updateInstance
+    - buildBetaNotifications_createInstance
+    - builds_betaGroups_createToManyRelationship
+    - builds_betaGroups_deleteToManyRelationship
+    - builds_getCollection
+    - builds_getInstance
+    - builds_individualTesters_createToManyRelationship
+    - builds_individualTesters_deleteToManyRelationship
+    - builds_updateInstance
     - bundleIdCapabilities_createInstance
     - bundleIdCapabilities_deleteInstance
     - bundleIdCapabilities_updateInstance
@@ -50,6 +92,7 @@ output-options:
     - passTypeIds_getCollection
     - passTypeIds_getInstance
     - passTypeIds_updateInstance
+    - preReleaseVersions_getCollection
     - profiles_bundleId_getToOneRelationship
     - profiles_certificates_getToManyRelationship
     - profiles_createInstance

@@ -6,6 +6,7 @@ import (
 	"context"
 	"os"
 
+	"github.com/hashicorp/terraform-plugin-framework/action"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
@@ -16,7 +17,10 @@ import (
 	"github.com/smoketurner/terraform-provider-apple/internal/asc"
 )
 
-var _ provider.Provider = &appleProvider{}
+var (
+	_ provider.Provider            = &appleProvider{}
+	_ provider.ProviderWithActions = &appleProvider{}
+)
 
 type appleProvider struct {
 	version string
@@ -123,10 +127,35 @@ func (p *appleProvider) Configure(ctx context.Context, req provider.ConfigureReq
 	}
 	resp.ResourceData = client
 	resp.DataSourceData = client
+	resp.ActionData = client
+}
+
+func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
+	return []func() action.Action{
+		newAddBuildTestersAction,
+		newAddBuildToBetaGroupsAction,
+		newDeleteBetaTesterAction,
+		newExpireBuildAction,
+		newInviteBetaTesterAction,
+		newNotifyBetaTestersAction,
+		newRemoveBetaTestersFromAppAction,
+		newRemoveBuildFromBetaGroupsAction,
+		newRemoveBuildTestersAction,
+		newSetBuildExportComplianceAction,
+		newSubmitBetaReviewAction,
+	}
 }
 
 func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource {
 	return []func() resource.Resource{
+		newBetaAppLocalizationResource,
+		newBetaAppReviewDetailResource,
+		newBetaBuildLocalizationResource,
+		newBetaGroupResource,
+		newBetaGroupTesterResource,
+		newBetaLicenseAgreementResource,
+		newBetaRecruitmentCriteriaResource,
+		newBuildBetaDetailResource,
 		newBundleIDResource,
 		newBundleIDCapabilityResource,
 		newCertificateResource,
@@ -141,6 +170,12 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 	return []func() datasource.DataSource{
 		newAppDataSource,
 		newAppsDataSource,
+		newBetaGroupsDataSource,
+		newBetaRecruitmentCriterionOptionsDataSource,
+		newBetaTesterDataSource,
+		newBetaTestersDataSource,
+		newBuildDataSource,
+		newBuildsDataSource,
 		newBundleIDDataSource,
 		newBundleIDsDataSource,
 		newCertificateDataSource,
@@ -151,6 +186,7 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newIdentifiersDataSource[merchantIDsData](merchantIDKind),
 		newIdentifierDataSource(passTypeIDKind),
 		newIdentifiersDataSource[passTypeIDsData](passTypeIDKind),
+		newPreReleaseVersionsDataSource,
 		newProfileDataSource,
 		newProfilesDataSource,
 	}

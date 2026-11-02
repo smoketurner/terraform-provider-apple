@@ -6,7 +6,7 @@ Manage App Store Connect as code with Terraform, through the
 Built on the [Terraform Plugin Framework](https://developer.hashicorp.com/terraform/plugin/framework), with an API
 client generated from Apple's OpenAPI spec. It will be published to the Terraform Registry as `smoketurner/apple`.
 
-**Status:** in development, working toward v0.1.0, which covers code signing. The
+**Status:** in development. v0.1.0 covers code signing; TestFlight is next. The
 [roadmap](https://github.com/smoketurner/terraform-provider-apple/issues/17) lists every group of API operations
 planned after that, and [`coverage.yaml`](coverage.yaml) maps each of the spec's operations to its status.
 
@@ -18,5 +18,7 @@ planned after that, and [`coverage.yaml`](coverage.yaml) maps each of the spec's
 | Provisioning profiles | `apple_profile`, `data.apple_profile`, `data.apple_profiles` |
 | Merchant and pass type IDs | `apple_merchant_id`, `apple_pass_type_id`, `data.apple_merchant_id`, `data.apple_merchant_ids`, `data.apple_pass_type_id`, `data.apple_pass_type_ids` |
 | Apps (read-only) | `data.apple_app`, `data.apple_apps` |
+| TestFlight | `apple_beta_group`, `apple_beta_group_tester`, `apple_beta_app_localization`, `apple_beta_build_localization`, `apple_beta_app_review_detail`, `apple_beta_license_agreement`, `apple_build_beta_detail`, `apple_beta_recruitment_criteria`, `data.apple_build`, `data.apple_builds`, `data.apple_pre_release_versions`, `data.apple_beta_groups`, `data.apple_beta_tester`, `data.apple_beta_testers`, `data.apple_beta_recruitment_criterion_options` |
+| TestFlight actions (Terraform 1.14+) | `apple_add_build_to_beta_groups`, `apple_remove_build_from_beta_groups`, `apple_add_build_testers`, `apple_remove_build_testers`, `apple_set_build_export_compliance`, `apple_submit_beta_review`, `apple_notify_beta_testers`, `apple_invite_beta_tester`, `apple_expire_build`, `apple_remove_beta_testers_from_app`, `apple_delete_beta_tester` |
 
 See the [documentation](docs/index.md) for API key setup and [CONTRIBUTING.md](CONTRIBUTING.md) for development.

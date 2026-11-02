@@ -103,6 +103,13 @@ func (c *Client) getJSON(ctx context.Context, link string, out any) error {
 	return nil
 }
 
+// Follow fetches a pagination link from a response into out, for
+// collections whose pages carry more than their data, such as included
+// objects. All covers the common case.
+func (c *Client) Follow(ctx context.Context, link string, out any) error {
+	return c.getJSON(ctx, link, out)
+}
+
 // All returns the data of every page of a collection. first is the decoded
 // first page, data returns a page's items and next its links.next URL (nil
 // on the last page).
