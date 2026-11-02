@@ -1,0 +1,27 @@
+# OpenAPI Overlay applied by oapi-codegen to api/openapi.oas.json. It renames
+# the Go types of JSON:API "type" enums whose default names collide with a
+# component schema of the same name, e.g. Certificate.type ("certificates")
+# and the CertificateType schema (DEVELOPMENT, DISTRIBUTION, ...).
+overlay: 1.0.0
+info:
+  title: App Store Connect API Go names
+  version: 1.0.0
+actions:
+  - target: $.components.schemas.AppAssetLibraryPlacement.properties.type
+    update:
+      x-go-type-name: AppAssetLibraryPlacementResourceType
+  - target: $.components.schemas.BuildBundle.properties.type
+    update:
+      x-go-type-name: BuildBundleResourceType
+  - target: $.components.schemas.Certificate.properties.type
+    update:
+      x-go-type-name: CertificateResourceType
+  - target: $.components.schemas.InAppPurchase.properties.type
+    update:
+      x-go-type-name: InAppPurchaseResourceType
+  - target: $.components.schemas.ScmProvider.properties.type
+    update:
+      x-go-type-name: ScmProviderResourceType
+  - target: $.components.schemas.WebhookEvent.properties.type
+    update:
+      x-go-type-name: WebhookEventResourceType

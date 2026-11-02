@@ -1,0 +1,59 @@
+name: API spec watch
+
+# Weekly, compares the latest App Store Connect OpenAPI spec with coverage.yaml
+# and the vendored spec, and opens or updates one issue (labeled api-spec) per new
+# operation and per new request field on an operation the provider covers.
+# Closed issues are left closed.
+on:
+  schedule:
+    - cron: "23 7 * * 1"
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: api-spec-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    name: Watch the App Store Connect API spec
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+          cache: false
+      - name: Download the latest spec
+        run: go run ./internal/apispec/cmd/apispec fetch -o "$RUNNER_TEMP/latest.json" >> "$GITHUB_STEP_SUMMARY"
+      - name: Find changes
+        run: |
+          go run ./internal/apispec/cmd/apispec watch \
+            -pinned api/openapi.oas.json -latest "$RUNNER_TEMP/latest.json" \
+            -manifest coverage.yaml > "$RUNNER_TEMP/findings.json"
+          echo "$(jq length "$RUNNER_TEMP/findings.json") changes found" >> "$GITHUB_STEP_SUMMARY"
+      - name: Open or update issues
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh label create api-spec --color 5319e7 --description "Change in the App Store Connect OpenAPI spec" --force
+          existing=$(gh issue list --label api-spec --state all --limit 1000 --json number,title,state)
+          jq -c '.[]' "$RUNNER_TEMP/findings.json" | while read -r finding; do
+            title=$(jq -r .title <<<"$finding")
+            jq -r .body <<<"$finding" > "$RUNNER_TEMP/body.md"
+            match=$(jq -r --arg title "$title" \
+              'map(select(.title == $title)) | first // empty | "\(.number) \(.state)"' <<<"$existing")
+            if [ -z "$match" ]; then
+              gh issue create --title "$title" --body-file "$RUNNER_TEMP/body.md" --label api-spec
+            elif [ "${match#* }" = OPEN ]; then
+              gh issue edit "${match% *}" --body-file "$RUNNER_TEMP/body.md"
+            fi
+          done
