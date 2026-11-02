@@ -27,6 +27,16 @@ Manage App Store Connect as code through the [App Store Connect API](https://dev
   request that hits the limit a few times, then fails with the remaining quota from the `X-Rate-Limit` header.
 * **Retries.** Server errors are retried for reads, updates and deletes. Creates are not retried after a server
   error, because the object may already exist.
+* **Imports by natural key.** Resources import by their App Store Connect ID or by a natural key: the bundle identifier,
+  certificate serial number, device UDID, profile name, or merchant or pass type identifier. On Terraform 1.12+ they
+  also import by identity.
+* **Certificates are revoked on destroy.** App Store Connect cannot renew a certificate, so `apple_certificate`
+  replaces it, by the first apply within `early_renewal_hours` of its expiration date. Distribution certificates are
+  limited to one of each type per team, so replace them without `create_before_destroy`.
+* **Invalid profiles are replaced.** A provisioning profile becomes invalid when one of its certificates is revoked or
+  expires, one of its devices is disabled, or its bundle ID's capabilities change. The next plan replaces it.
+* **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
+  the device, which still counts toward the team's device limit until the membership year renews.
 
 ## Debugging
 

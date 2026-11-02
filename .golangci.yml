@@ -33,6 +33,13 @@ linters:
     presets:
       - common-false-positives
       - std-error-handling
+    rules:
+      # The fake API's handlers implement the generated gen.ServerInterface,
+      # whose method names (BundleIdsGetCollection, ...) follow the spec's
+      # operationIds, and the package documents them as a group.
+      - path: internal/asc/asctest/
+        linters: [revive]
+        text: "^(var-naming|exported): (method|exported method) "
 issues:
   max-issues-per-linter: 0
   max-same-issues: 0
