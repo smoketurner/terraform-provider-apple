@@ -25,6 +25,8 @@ output-options:
     - androidToIosAppMappingDetails_deleteInstance
     - androidToIosAppMappingDetails_getInstance
     - androidToIosAppMappingDetails_updateInstance
+    - appAvailabilitiesV2_createInstance
+    - appAvailabilitiesV2_territoryAvailabilities_getToManyRelated
     - appCategories_getCollection
     - appEncryptionDeclarations_createInstance
     - appEncryptionDeclarations_getInstance
@@ -34,6 +36,10 @@ output-options:
     - appInfos_ageRatingDeclaration_getToOneRelated
     - appInfos_appInfoLocalizations_getToManyRelated
     - appInfos_updateInstance
+    - appPricePointsV3_equalizations_getToManyRelated
+    - appPriceSchedules_baseTerritory_getToOneRelated
+    - appPriceSchedules_createInstance
+    - appPriceSchedules_manualPrices_getToManyRelated
     - appStoreReviewDetails_createInstance
     - appStoreReviewDetails_updateInstance
     - appStoreVersionLocalizations_createInstance
@@ -53,7 +59,10 @@ output-options:
     - appStoreVersions_getInstance
     - appStoreVersions_updateInstance
     - appTags_updateInstance
+    - apps_appAvailabilityV2_getToOneRelated
     - apps_appInfos_getToManyRelated
+    - apps_appPricePoints_getToManyRelated
+    - apps_appPriceSchedule_getToOneRelated
     - apps_appStoreVersions_getToManyRelated
     - apps_appTags_getToManyRelated
     - apps_betaTesters_deleteToManyRelationship
@@ -123,6 +132,7 @@ output-options:
     - devices_getCollection
     - devices_getInstance
     - devices_updateInstance
+    - endAppAvailabilityPreOrders_createInstance
     - endUserLicenseAgreements_createInstance
     - endUserLicenseAgreements_deleteInstance
     - endUserLicenseAgreements_territories_getToManyRelationship
@@ -151,6 +161,8 @@ output-options:
     - reviewSubmissions_createInstance
     - reviewSubmissions_getCollection
     - reviewSubmissions_updateInstance
+    - territories_getCollection
+    - territoryAvailabilities_updateInstance
     - userInvitations_createInstance
     - userInvitations_deleteInstance
     - userInvitations_getCollection

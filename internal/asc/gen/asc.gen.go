@@ -1988,6 +1988,81 @@ func (e AppAssetLibraryVideoType) Valid() bool {
 	}
 }
 
+// Defines values for AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataType.
+const (
+	AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataTypeTerritoryAvailabilities AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataType = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataType enum.
+func (e AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataType) Valid() bool {
+	switch e {
+	case AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataTypeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAvailabilityV2Type.
+const (
+	AppAvailabilityV2TypeAppAvailabilities AppAvailabilityV2Type = "appAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilityV2Type enum.
+func (e AppAvailabilityV2Type) Valid() bool {
+	switch e {
+	case AppAvailabilityV2TypeAppAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAvailabilityV2CreateRequestDataRelationshipsAppDataType.
+const (
+	AppAvailabilityV2CreateRequestDataRelationshipsAppDataTypeApps AppAvailabilityV2CreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilityV2CreateRequestDataRelationshipsAppDataType enum.
+func (e AppAvailabilityV2CreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AppAvailabilityV2CreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataType.
+const (
+	AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataTypeTerritoryAvailabilities AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataType = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataType enum.
+func (e AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataType) Valid() bool {
+	switch e {
+	case AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataTypeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAvailabilityV2CreateRequestDataType.
+const (
+	AppAvailabilityV2CreateRequestDataTypeAppAvailabilities AppAvailabilityV2CreateRequestDataType = "appAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilityV2CreateRequestDataType enum.
+func (e AppAvailabilityV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case AppAvailabilityV2CreateRequestDataTypeAppAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppBetaTestersLinkagesRequestDataType.
 const (
 	AppBetaTestersLinkagesRequestDataTypeBetaTesters AppBetaTestersLinkagesRequestDataType = "betaTesters"
@@ -3206,6 +3281,261 @@ const (
 func (e AppPreviewSetType) Valid() bool {
 	switch e {
 	case AppPreviewSetTypeAppPreviewSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPricePointV3RelationshipsAppDataType.
+const (
+	AppPricePointV3RelationshipsAppDataTypeApps AppPricePointV3RelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppPricePointV3RelationshipsAppDataType enum.
+func (e AppPricePointV3RelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AppPricePointV3RelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPricePointV3RelationshipsTerritoryDataType.
+const (
+	AppPricePointV3RelationshipsTerritoryDataTypeTerritories AppPricePointV3RelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the AppPricePointV3RelationshipsTerritoryDataType enum.
+func (e AppPricePointV3RelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case AppPricePointV3RelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPricePointV3Type.
+const (
+	AppPricePointV3TypeAppPricePoints AppPricePointV3Type = "appPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the AppPricePointV3Type enum.
+func (e AppPricePointV3Type) Valid() bool {
+	switch e {
+	case AppPricePointV3TypeAppPricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleRelationshipsAppDataType.
+const (
+	AppPriceScheduleRelationshipsAppDataTypeApps AppPriceScheduleRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleRelationshipsAppDataType enum.
+func (e AppPriceScheduleRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleRelationshipsAutomaticPricesDataType.
+const (
+	AppPriceScheduleRelationshipsAutomaticPricesDataTypeAppPrices AppPriceScheduleRelationshipsAutomaticPricesDataType = "appPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleRelationshipsAutomaticPricesDataType enum.
+func (e AppPriceScheduleRelationshipsAutomaticPricesDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleRelationshipsAutomaticPricesDataTypeAppPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleRelationshipsBaseTerritoryDataType.
+const (
+	AppPriceScheduleRelationshipsBaseTerritoryDataTypeTerritories AppPriceScheduleRelationshipsBaseTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleRelationshipsBaseTerritoryDataType enum.
+func (e AppPriceScheduleRelationshipsBaseTerritoryDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleRelationshipsBaseTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleRelationshipsManualPricesDataType.
+const (
+	AppPriceScheduleRelationshipsManualPricesDataTypeAppPrices AppPriceScheduleRelationshipsManualPricesDataType = "appPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleRelationshipsManualPricesDataType enum.
+func (e AppPriceScheduleRelationshipsManualPricesDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleRelationshipsManualPricesDataTypeAppPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleType.
+const (
+	AppPriceScheduleTypeAppPriceSchedules AppPriceScheduleType = "appPriceSchedules"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleType enum.
+func (e AppPriceScheduleType) Valid() bool {
+	switch e {
+	case AppPriceScheduleTypeAppPriceSchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleCreateRequestDataRelationshipsAppDataType.
+const (
+	AppPriceScheduleCreateRequestDataRelationshipsAppDataTypeApps AppPriceScheduleCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleCreateRequestDataRelationshipsAppDataType enum.
+func (e AppPriceScheduleCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataType.
+const (
+	AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataTypeTerritories AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataType enum.
+func (e AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataType.
+const (
+	AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataTypeAppPrices AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataType = "appPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataType enum.
+func (e AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataTypeAppPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceScheduleCreateRequestDataType.
+const (
+	AppPriceScheduleCreateRequestDataTypeAppPriceSchedules AppPriceScheduleCreateRequestDataType = "appPriceSchedules"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceScheduleCreateRequestDataType enum.
+func (e AppPriceScheduleCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppPriceScheduleCreateRequestDataTypeAppPriceSchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceV2RelationshipsAppPricePointDataType.
+const (
+	AppPriceV2RelationshipsAppPricePointDataTypeAppPricePoints AppPriceV2RelationshipsAppPricePointDataType = "appPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceV2RelationshipsAppPricePointDataType enum.
+func (e AppPriceV2RelationshipsAppPricePointDataType) Valid() bool {
+	switch e {
+	case AppPriceV2RelationshipsAppPricePointDataTypeAppPricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceV2RelationshipsTerritoryDataType.
+const (
+	AppPriceV2RelationshipsTerritoryDataTypeTerritories AppPriceV2RelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceV2RelationshipsTerritoryDataType enum.
+func (e AppPriceV2RelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case AppPriceV2RelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceV2Type.
+const (
+	AppPriceV2TypeAppPrices AppPriceV2Type = "appPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceV2Type enum.
+func (e AppPriceV2Type) Valid() bool {
+	switch e {
+	case AppPriceV2TypeAppPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceV2InlineCreateRelationshipsAppPricePointDataType.
+const (
+	AppPriceV2InlineCreateRelationshipsAppPricePointDataTypeAppPricePoints AppPriceV2InlineCreateRelationshipsAppPricePointDataType = "appPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceV2InlineCreateRelationshipsAppPricePointDataType enum.
+func (e AppPriceV2InlineCreateRelationshipsAppPricePointDataType) Valid() bool {
+	switch e {
+	case AppPriceV2InlineCreateRelationshipsAppPricePointDataTypeAppPricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceV2InlineCreateType.
+const (
+	AppPriceV2InlineCreateTypeAppPrices AppPriceV2InlineCreateType = "appPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceV2InlineCreateType enum.
+func (e AppPriceV2InlineCreateType) Valid() bool {
+	switch e {
+	case AppPriceV2InlineCreateTypeAppPrices:
 		return true
 	default:
 		return false
@@ -6983,6 +7313,51 @@ func (e DeviceUpdateRequestDataType) Valid() bool {
 	}
 }
 
+// Defines values for EndAppAvailabilityPreOrderType.
+const (
+	EndAppAvailabilityPreOrderTypeEndAppAvailabilityPreOrders EndAppAvailabilityPreOrderType = "endAppAvailabilityPreOrders"
+)
+
+// Valid indicates whether the value is a known member of the EndAppAvailabilityPreOrderType enum.
+func (e EndAppAvailabilityPreOrderType) Valid() bool {
+	switch e {
+	case EndAppAvailabilityPreOrderTypeEndAppAvailabilityPreOrders:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataType.
+const (
+	EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataTypeTerritoryAvailabilities EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataType = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataType enum.
+func (e EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataType) Valid() bool {
+	switch e {
+	case EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataTypeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for EndAppAvailabilityPreOrderCreateRequestDataType.
+const (
+	EndAppAvailabilityPreOrderCreateRequestDataTypeEndAppAvailabilityPreOrders EndAppAvailabilityPreOrderCreateRequestDataType = "endAppAvailabilityPreOrders"
+)
+
+// Valid indicates whether the value is a known member of the EndAppAvailabilityPreOrderCreateRequestDataType enum.
+func (e EndAppAvailabilityPreOrderCreateRequestDataType) Valid() bool {
+	switch e {
+	case EndAppAvailabilityPreOrderCreateRequestDataTypeEndAppAvailabilityPreOrders:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for EndUserLicenseAgreementRelationshipsAppDataType.
 const (
 	EndUserLicenseAgreementRelationshipsAppDataTypeApps EndUserLicenseAgreementRelationshipsAppDataType = "apps"
@@ -10079,6 +10454,252 @@ func (e TerritoryType) Valid() bool {
 	}
 }
 
+// Defines values for TerritoryAvailabilityAttributesContentStatuses.
+const (
+	TerritoryAvailabilityAttributesContentStatusesAVAILABLE                                    TerritoryAvailabilityAttributesContentStatuses = "AVAILABLE"
+	TerritoryAvailabilityAttributesContentStatusesAVAILABLEFORPREORDER                         TerritoryAvailabilityAttributesContentStatuses = "AVAILABLE_FOR_PREORDER"
+	TerritoryAvailabilityAttributesContentStatusesAVAILABLEFORPREORDERONDATE                   TerritoryAvailabilityAttributesContentStatuses = "AVAILABLE_FOR_PREORDER_ON_DATE"
+	TerritoryAvailabilityAttributesContentStatusesAVAILABLEFORSALEUNRELEASEDAPP                TerritoryAvailabilityAttributesContentStatuses = "AVAILABLE_FOR_SALE_UNRELEASED_APP"
+	TerritoryAvailabilityAttributesContentStatusesBRAZILGAMBLINGNOTVERIFIED                    TerritoryAvailabilityAttributesContentStatuses = "BRAZIL_GAMBLING_NOT_VERIFIED"
+	TerritoryAvailabilityAttributesContentStatusesBRAZILREQUIREDTAXID                          TerritoryAvailabilityAttributesContentStatuses = "BRAZIL_REQUIRED_TAX_ID"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELL                                   TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLADULTONLY                          TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_ADULT_ONLY"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCASINO                             TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_CASINO"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCASINOWITHOUTAGEVERIFICATION       TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_CASINO_WITHOUT_AGE_VERIFICATION"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCASINOWITHOUTGRAC                  TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_CASINO_WITHOUT_GRAC"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCONTESTS                           TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_CONTESTS"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENT                           TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTALCOHOLTOBACCODRUGS        TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_ALCOHOL_TOBACCO_DRUGS"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTGAMBLING                   TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_GAMBLING"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSE                    TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_INTENSE"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEALCOHOLTOBACCODRUGS TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_INTENSE_ALCOHOL_TOBACCO_DRUGS"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEGAMBLING            TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_INTENSE_GAMBLING"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSESEXUALCONTENTNUDITY TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_INTENSE_SEXUAL_CONTENT_NUDITY"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEVIOLENCE            TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_INTENSE_VIOLENCE"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEWITHOUTGRAC         TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_INTENSE_WITHOUT_GRAC"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTSEXUALCONTENTNUDITY        TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_SEXUAL_CONTENT_NUDITY"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTVIOLENCE                   TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_VIOLENCE"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTWITHOUTGRAC                TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_FREQUENT_WITHOUT_GRAC"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLGAMBLING                           TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_GAMBLING"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLGAMBLINGCONTESTS                   TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_GAMBLING_CONTESTS"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTALCOHOLTOBACCODRUGS      TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_INFREQUENT_ALCOHOL_TOBACCO_DRUGS"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTMILDALCOHOLTOBACCODRUGS  TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_INFREQUENT_MILD_ALCOHOL_TOBACCO_DRUGS"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTMILDSEXUALCONTENTNUDITY  TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_INFREQUENT_MILD_SEXUAL_CONTENT_NUDITY"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTSEXUALCONTENTNUDITY      TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_INFREQUENT_SEXUAL_CONTENT_NUDITY"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLNINETEENPLUSWITHOUTGRAC            TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_NINETEEN_PLUS_WITHOUT_GRAC"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLNONIOSGAMES                        TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_NON_IOS_GAMES"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLRESTRICTEDRATING                   TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_RESTRICTED_RATING"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLSEVENTEENPLUSAPPS                  TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_SEVENTEEN_PLUS_APPS"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLSEVENTEENPLUSGAMES                 TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_SEVENTEEN_PLUS_GAMES"
+	TerritoryAvailabilityAttributesContentStatusesCANNOTSELLSEXUALLYEXPLICIT                   TerritoryAvailabilityAttributesContentStatuses = "CANNOT_SELL_SEXUALLY_EXPLICIT"
+	TerritoryAvailabilityAttributesContentStatusesICPNUMBERINVALID                             TerritoryAvailabilityAttributesContentStatuses = "ICP_NUMBER_INVALID"
+	TerritoryAvailabilityAttributesContentStatusesICPNUMBERMISSING                             TerritoryAvailabilityAttributesContentStatuses = "ICP_NUMBER_MISSING"
+	TerritoryAvailabilityAttributesContentStatusesMISSINGGRN                                   TerritoryAvailabilityAttributesContentStatuses = "MISSING_GRN"
+	TerritoryAvailabilityAttributesContentStatusesMISSINGRATING                                TerritoryAvailabilityAttributesContentStatuses = "MISSING_RATING"
+	TerritoryAvailabilityAttributesContentStatusesPREORDERONUNRELEASEDAPP                      TerritoryAvailabilityAttributesContentStatuses = "PREORDER_ON_UNRELEASED_APP"
+	TerritoryAvailabilityAttributesContentStatusesPROCESSINGTOAVAILABLE                        TerritoryAvailabilityAttributesContentStatuses = "PROCESSING_TO_AVAILABLE"
+	TerritoryAvailabilityAttributesContentStatusesPROCESSINGTONOTAVAILABLE                     TerritoryAvailabilityAttributesContentStatuses = "PROCESSING_TO_NOT_AVAILABLE"
+	TerritoryAvailabilityAttributesContentStatusesPROCESSINGTOPREORDER                         TerritoryAvailabilityAttributesContentStatuses = "PROCESSING_TO_PRE_ORDER"
+	TerritoryAvailabilityAttributesContentStatusesTRADERSTATUSNOTPROVIDED                      TerritoryAvailabilityAttributesContentStatuses = "TRADER_STATUS_NOT_PROVIDED"
+	TerritoryAvailabilityAttributesContentStatusesTRADERSTATUSVERIFICATIONFAILED               TerritoryAvailabilityAttributesContentStatuses = "TRADER_STATUS_VERIFICATION_FAILED"
+	TerritoryAvailabilityAttributesContentStatusesTRADERSTATUSVERIFICATIONSTATUSMISSING        TerritoryAvailabilityAttributesContentStatuses = "TRADER_STATUS_VERIFICATION_STATUS_MISSING"
+	TerritoryAvailabilityAttributesContentStatusesUNVERIFIEDGRN                                TerritoryAvailabilityAttributesContentStatuses = "UNVERIFIED_GRN"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryAvailabilityAttributesContentStatuses enum.
+func (e TerritoryAvailabilityAttributesContentStatuses) Valid() bool {
+	switch e {
+	case TerritoryAvailabilityAttributesContentStatusesAVAILABLE:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesAVAILABLEFORPREORDER:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesAVAILABLEFORPREORDERONDATE:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesAVAILABLEFORSALEUNRELEASEDAPP:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesBRAZILGAMBLINGNOTVERIFIED:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesBRAZILREQUIREDTAXID:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELL:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLADULTONLY:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCASINO:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCASINOWITHOUTAGEVERIFICATION:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCASINOWITHOUTGRAC:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLCONTESTS:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENT:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTALCOHOLTOBACCODRUGS:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTGAMBLING:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSE:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEALCOHOLTOBACCODRUGS:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEGAMBLING:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSESEXUALCONTENTNUDITY:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEVIOLENCE:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTINTENSEWITHOUTGRAC:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTSEXUALCONTENTNUDITY:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTVIOLENCE:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLFREQUENTWITHOUTGRAC:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLGAMBLING:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLGAMBLINGCONTESTS:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTALCOHOLTOBACCODRUGS:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTMILDALCOHOLTOBACCODRUGS:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTMILDSEXUALCONTENTNUDITY:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLINFREQUENTSEXUALCONTENTNUDITY:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLNINETEENPLUSWITHOUTGRAC:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLNONIOSGAMES:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLRESTRICTEDRATING:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLSEVENTEENPLUSAPPS:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLSEVENTEENPLUSGAMES:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesCANNOTSELLSEXUALLYEXPLICIT:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesICPNUMBERINVALID:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesICPNUMBERMISSING:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesMISSINGGRN:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesMISSINGRATING:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesPREORDERONUNRELEASEDAPP:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesPROCESSINGTOAVAILABLE:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesPROCESSINGTONOTAVAILABLE:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesPROCESSINGTOPREORDER:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesTRADERSTATUSNOTPROVIDED:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesTRADERSTATUSVERIFICATIONFAILED:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesTRADERSTATUSVERIFICATIONSTATUSMISSING:
+		return true
+	case TerritoryAvailabilityAttributesContentStatusesUNVERIFIEDGRN:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for TerritoryAvailabilityRelationshipsTerritoryDataType.
+const (
+	TerritoryAvailabilityRelationshipsTerritoryDataTypeTerritories TerritoryAvailabilityRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryAvailabilityRelationshipsTerritoryDataType enum.
+func (e TerritoryAvailabilityRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case TerritoryAvailabilityRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for TerritoryAvailabilityType.
+const (
+	TerritoryAvailabilityTypeTerritoryAvailabilities TerritoryAvailabilityType = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryAvailabilityType enum.
+func (e TerritoryAvailabilityType) Valid() bool {
+	switch e {
+	case TerritoryAvailabilityTypeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataType.
+const (
+	TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataTypeTerritories TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataType enum.
+func (e TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for TerritoryAvailabilityInlineCreateType.
+const (
+	TerritoryAvailabilityInlineCreateTypeTerritoryAvailabilities TerritoryAvailabilityInlineCreateType = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryAvailabilityInlineCreateType enum.
+func (e TerritoryAvailabilityInlineCreateType) Valid() bool {
+	switch e {
+	case TerritoryAvailabilityInlineCreateTypeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for TerritoryAvailabilityUpdateRequestDataType.
+const (
+	TerritoryAvailabilityUpdateRequestDataTypeTerritoryAvailabilities TerritoryAvailabilityUpdateRequestDataType = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryAvailabilityUpdateRequestDataType enum.
+func (e TerritoryAvailabilityUpdateRequestDataType) Valid() bool {
+	switch e {
+	case TerritoryAvailabilityUpdateRequestDataTypeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for TerritoryInlineCreateType.
+const (
+	TerritoryInlineCreateTypeTerritories TerritoryInlineCreateType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryInlineCreateType enum.
+func (e TerritoryInlineCreateType) Valid() bool {
+	switch e {
+	case TerritoryInlineCreateTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for UserRelationshipsVisibleAppsDataType.
 const (
 	UserRelationshipsVisibleAppsDataTypeApps UserRelationshipsVisibleAppsDataType = "apps"
@@ -11006,6 +11627,108 @@ const (
 func (e AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude) Valid() bool {
 	switch e {
 	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsIncludeAppInfo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories.
+const (
+	AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritoriesCurrency AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories enum.
+func (e AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices.
+const (
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesAppPricePoint AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices = "appPricePoint"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesEndDate       AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices = "endDate"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesManual        AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices = "manual"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesStartDate     AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices = "startDate"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesTerritory     AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices enum.
+func (e AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices) Valid() bool {
+	switch e {
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesAppPricePoint:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesEndDate:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesManual:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesStartDate:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints.
+const (
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsApp           AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints = "app"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsCustomerPrice AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints = "customerPrice"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsEqualizations AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints = "equalizations"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsProceeds      AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints = "proceeds"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsTerritory     AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints enum.
+func (e AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints) Valid() bool {
+	switch e {
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsApp:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsCustomerPrice:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsEqualizations:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsProceeds:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories.
+const (
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritoriesCurrency AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories enum.
+func (e AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude.
+const (
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsIncludeAppPricePoint AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude = "appPricePoint"
+	AppPriceSchedulesManualPricesGetToManyRelatedParamsIncludeTerritory     AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude enum.
+func (e AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsIncludeAppPricePoint:
+		return true
+	case AppPriceSchedulesManualPricesGetToManyRelatedParamsIncludeTerritory:
 		return true
 	default:
 		return false
@@ -14960,6 +15683,69 @@ func (e AppsGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities.
+const (
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilitiesAvailableInNewTerritories AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities = "availableInNewTerritories"
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilitiesTerritoryAvailabilities   AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities enum.
+func (e AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities) Valid() bool {
+	switch e {
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilitiesAvailableInNewTerritories:
+		return true
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilitiesTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities.
+const (
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesAvailable           AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities = "available"
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesContentStatuses     AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities = "contentStatuses"
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesPreOrderEnabled     AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities = "preOrderEnabled"
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesPreOrderPublishDate AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities = "preOrderPublishDate"
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesReleaseDate         AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities = "releaseDate"
+	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesTerritory           AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities enum.
+func (e AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities) Valid() bool {
+	switch e {
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesAvailable:
+		return true
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesContentStatuses:
+		return true
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesPreOrderEnabled:
+		return true
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesPreOrderPublishDate:
+		return true
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesReleaseDate:
+		return true
+	case AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilitiesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppAvailabilityV2GetToOneRelatedParamsInclude.
+const (
+	AppsAppAvailabilityV2GetToOneRelatedParamsIncludeTerritoryAvailabilities AppsAppAvailabilityV2GetToOneRelatedParamsInclude = "territoryAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppAvailabilityV2GetToOneRelatedParamsInclude enum.
+func (e AppsAppAvailabilityV2GetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppAvailabilityV2GetToOneRelatedParamsIncludeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppsAppInfosGetToManyRelatedParamsFieldsAppInfos.
 const (
 	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAgeRatingDeclaration    AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "ageRatingDeclaration"
@@ -15398,6 +16184,522 @@ func (e AppsAppInfosGetToManyRelatedParamsInclude) Valid() bool {
 	case AppsAppInfosGetToManyRelatedParamsIncludeSecondarySubcategoryOne:
 		return true
 	case AppsAppInfosGetToManyRelatedParamsIncludeSecondarySubcategoryTwo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints.
+const (
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsApp           AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints = "app"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsCustomerPrice AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints = "customerPrice"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsEqualizations AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints = "equalizations"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsProceeds      AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints = "proceeds"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsTerritory     AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints enum.
+func (e AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints) Valid() bool {
+	switch e {
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsApp:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsCustomerPrice:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsEqualizations:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsProceeds:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPricePointsGetToManyRelatedParamsFieldsApps.
+const (
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations              AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAccessibilityUrl                       AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey             AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests                AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppAvailabilityV2                      AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppClips                               AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appClips"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppCustomProductPages                  AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppEvents                              AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appEvents"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppInfos                               AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appInfos"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppPricePoints                         AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appPricePoints"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppPriceSchedule                       AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppStoreIcon                           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appStoreIcon"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppStoreVersions                       AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appStoreVersions"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppTags                                AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "appTags"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAssetLibrary                           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "assetLibrary"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBackgroundAssets                       AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "backgroundAssets"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaAppLocalizations                   AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaGroups                             AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "betaGroups"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaTesters                            AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "betaTesters"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBuildUploads                           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "buildUploads"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBuilds                                 AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "builds"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBundleId                               AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "bundleId"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsCiProduct                              AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "ciProduct"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsContentRightsDeclaration               AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsCustomerReviews                        AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "customerReviews"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsGameCenterDetail                       AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsInAppPurchases                         AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "inAppPurchases"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsInAppPurchasesV2                       AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsName                                   AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "name"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPerfPowerMetrics                       AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPerformanceOverviews                   AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "performanceOverviews"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "primaryLocale"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "searchKeywords"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSku                                    AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "sku"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionGroups                     AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsWebhooks                               AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPricePointsGetToManyRelatedParamsFieldsApps enum.
+func (e AppsAppPricePointsGetToManyRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsName:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSku:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPricePointsGetToManyRelatedParamsFieldsTerritories.
+const (
+	AppsAppPricePointsGetToManyRelatedParamsFieldsTerritoriesCurrency AppsAppPricePointsGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPricePointsGetToManyRelatedParamsFieldsTerritories enum.
+func (e AppsAppPricePointsGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPricePointsGetToManyRelatedParamsInclude.
+const (
+	AppsAppPricePointsGetToManyRelatedParamsIncludeApp       AppsAppPricePointsGetToManyRelatedParamsInclude = "app"
+	AppsAppPricePointsGetToManyRelatedParamsIncludeTerritory AppsAppPricePointsGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPricePointsGetToManyRelatedParamsInclude enum.
+func (e AppsAppPricePointsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppPricePointsGetToManyRelatedParamsIncludeApp:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsIncludeTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules.
+const (
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesApp             AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules = "app"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesAutomaticPrices AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules = "automaticPrices"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesBaseTerritory   AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules = "baseTerritory"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesManualPrices    AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules = "manualPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules enum.
+func (e AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules) Valid() bool {
+	switch e {
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesApp:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesAutomaticPrices:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesBaseTerritory:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedulesManualPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps.
+const (
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAccessibilityDeclarations              AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAccessibilityUrl                       AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAlternativeDistributionKey             AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAnalyticsReportRequests                AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppAvailabilityV2                      AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppClips                               AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appClips"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppCustomProductPages                  AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppEvents                              AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appEvents"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppInfos                               AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appInfos"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppPricePoints                         AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appPricePoints"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppPriceSchedule                       AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppStoreIcon                           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appStoreIcon"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppStoreVersions                       AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appStoreVersions"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppTags                                AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "appTags"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAssetLibrary                           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "assetLibrary"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBackgroundAssets                       AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "backgroundAssets"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaAppLocalizations                   AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaGroups                             AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "betaGroups"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaTesters                            AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "betaTesters"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBuildUploads                           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "buildUploads"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBuilds                                 AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "builds"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBundleId                               AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "bundleId"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsCiProduct                              AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "ciProduct"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsContentRightsDeclaration               AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsCustomerReviews                        AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "customerReviews"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsGameCenterDetail                       AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsInAppPurchases                         AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "inAppPurchases"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsInAppPurchasesV2                       AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsName                                   AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "name"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPerfPowerMetrics                       AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPerformanceOverviews                   AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "performanceOverviews"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPrimaryLocale                          AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "primaryLocale"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPromotedPurchases                      AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsReviewSubmissions                      AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSearchKeywords                         AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "searchKeywords"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSku                                    AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "sku"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionGroups                     AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsWebhooks                               AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps enum.
+func (e AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsName:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSku:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritories.
+const (
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritoriesCurrency AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritories enum.
+func (e AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices.
+const (
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesAppPricePoint AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices = "appPricePoint"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesEndDate       AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices = "endDate"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesManual        AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices = "manual"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesStartDate     AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices = "startDate"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesTerritory     AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices enum.
+func (e AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices) Valid() bool {
+	switch e {
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesAppPricePoint:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesEndDate:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesManual:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesStartDate:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppPriceScheduleGetToOneRelatedParamsInclude.
+const (
+	AppsAppPriceScheduleGetToOneRelatedParamsIncludeApp             AppsAppPriceScheduleGetToOneRelatedParamsInclude = "app"
+	AppsAppPriceScheduleGetToOneRelatedParamsIncludeAutomaticPrices AppsAppPriceScheduleGetToOneRelatedParamsInclude = "automaticPrices"
+	AppsAppPriceScheduleGetToOneRelatedParamsIncludeBaseTerritory   AppsAppPriceScheduleGetToOneRelatedParamsInclude = "baseTerritory"
+	AppsAppPriceScheduleGetToOneRelatedParamsIncludeManualPrices    AppsAppPriceScheduleGetToOneRelatedParamsInclude = "manualPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppPriceScheduleGetToOneRelatedParamsInclude enum.
+func (e AppsAppPriceScheduleGetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppPriceScheduleGetToOneRelatedParamsIncludeApp:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsIncludeAutomaticPrices:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsIncludeBaseTerritory:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsIncludeManualPrices:
 		return true
 	default:
 		return false
@@ -23924,6 +25226,21 @@ func (e ReviewSubmissionsGetCollectionParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for TerritoriesGetCollectionParamsFieldsTerritories.
+const (
+	TerritoriesGetCollectionParamsFieldsTerritoriesCurrency TerritoriesGetCollectionParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the TerritoriesGetCollectionParamsFieldsTerritories enum.
+func (e TerritoriesGetCollectionParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case TerritoriesGetCollectionParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for UserInvitationsGetCollectionParamsFilterRoles.
 const (
 	UserInvitationsGetCollectionParamsFilterRolesACCESSTOREPORTS             UserInvitationsGetCollectionParamsFilterRoles = "ACCESS_TO_REPORTS"
@@ -24764,6 +26081,309 @@ const (
 func (e UsersGetInstanceParamsInclude) Valid() bool {
 	switch e {
 	case UsersGetInstanceParamsIncludeVisibleApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities.
+const (
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesAvailable           AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities = "available"
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesContentStatuses     AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities = "contentStatuses"
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesPreOrderEnabled     AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities = "preOrderEnabled"
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesPreOrderPublishDate AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities = "preOrderPublishDate"
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesReleaseDate         AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities = "releaseDate"
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesTerritory           AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities enum.
+func (e AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities) Valid() bool {
+	switch e {
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesAvailable:
+		return true
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesContentStatuses:
+		return true
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesPreOrderEnabled:
+		return true
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesPreOrderPublishDate:
+		return true
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesReleaseDate:
+		return true
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritories.
+const (
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoriesCurrency AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritories enum.
+func (e AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude.
+const (
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsIncludeTerritory AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude enum.
+func (e AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsIncludeTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints.
+const (
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsApp           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints = "app"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsCustomerPrice AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints = "customerPrice"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsEqualizations AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints = "equalizations"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsProceeds      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints = "proceeds"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsTerritory     AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints enum.
+func (e AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints) Valid() bool {
+	switch e {
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsApp:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsCustomerPrice:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsEqualizations:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsProceeds:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps.
+const (
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations              AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAccessibilityUrl                       AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "accessibilityUrl"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey             AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests                AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppAvailabilityV2                      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppClips                               AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appClips"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppCustomProductPages                  AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appCustomProductPages"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations              AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppEvents                              AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appEvents"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppInfos                               AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appInfos"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppPricePoints                         AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appPricePoints"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppPriceSchedule                       AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appPriceSchedule"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppStoreIcon                           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appStoreIcon"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppStoreVersions                       AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appStoreVersions"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppTags                                AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "appTags"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAssetLibrary                           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "assetLibrary"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBackgroundAssets                       AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "backgroundAssets"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaAppLocalizations                   AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail                    AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaGroups                             AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "betaGroups"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement                   AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaTesters                            AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "betaTesters"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBuildUploads                           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "buildUploads"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBuilds                                 AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "builds"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBundleId                               AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "bundleId"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsCiProduct                              AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "ciProduct"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsContentRightsDeclaration               AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsCustomerReviews                        AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "customerReviews"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement                AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsGameCenterDetail                       AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "gameCenterDetail"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions              AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsInAppPurchases                         AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "inAppPurchases"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsInAppPurchasesV2                       AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail                AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsName                                   AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "name"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPerfPowerMetrics                       AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPerformanceOverviews                   AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "performanceOverviews"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "primaryLocale"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "searchKeywords"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSku                                    AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "sku"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod                AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionGroups                     AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "subscriptionGroups"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsWebhooks                               AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps enum.
+func (e AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsName:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSku:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritories.
+const (
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritoriesCurrency AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritories enum.
+func (e AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude.
+const (
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsIncludeApp       AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude = "app"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsIncludeTerritory AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude enum.
+func (e AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsIncludeApp:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsIncludeTerritory:
 		return true
 	default:
 		return false
@@ -26086,6 +27706,73 @@ type AppAssetLibraryVideoWaitingForReviewAttributes struct {
 	VideoAsset           *string                       `json:"videoAsset,omitempty"`
 }
 
+// AppAvailabilityV2 defines model for AppAvailabilityV2.
+type AppAvailabilityV2 struct {
+	Attributes *struct {
+		AvailableInNewTerritories *bool `json:"availableInNewTerritories,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		TerritoryAvailabilities *struct {
+			Data *[]struct {
+				Id   string                                                        `json:"id"`
+				Type AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"territoryAvailabilities,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppAvailabilityV2Type `json:"type"`
+}
+
+// AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataType defines model for AppAvailabilityV2.Relationships.TerritoryAvailabilities.Data.Type.
+type AppAvailabilityV2RelationshipsTerritoryAvailabilitiesDataType string
+
+// AppAvailabilityV2Type defines model for AppAvailabilityV2.Type.
+type AppAvailabilityV2Type string
+
+// AppAvailabilityV2CreateRequest defines model for AppAvailabilityV2CreateRequest.
+type AppAvailabilityV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AvailableInNewTerritories bool `json:"availableInNewTerritories"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                     `json:"id"`
+					Type AppAvailabilityV2CreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+			TerritoryAvailabilities struct {
+				Data []struct {
+					Id   string                                                                         `json:"id"`
+					Type AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"territoryAvailabilities"`
+		} `json:"relationships"`
+		Type AppAvailabilityV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]TerritoryAvailabilityInlineCreate `json:"included,omitempty"`
+}
+
+// AppAvailabilityV2CreateRequestDataRelationshipsAppDataType defines model for AppAvailabilityV2CreateRequest.Data.Relationships.App.Data.Type.
+type AppAvailabilityV2CreateRequestDataRelationshipsAppDataType string
+
+// AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataType defines model for AppAvailabilityV2CreateRequest.Data.Relationships.TerritoryAvailabilities.Data.Type.
+type AppAvailabilityV2CreateRequestDataRelationshipsTerritoryAvailabilitiesDataType string
+
+// AppAvailabilityV2CreateRequestDataType defines model for AppAvailabilityV2CreateRequest.Data.Type.
+type AppAvailabilityV2CreateRequestDataType string
+
+// AppAvailabilityV2Response defines model for AppAvailabilityV2Response.
+type AppAvailabilityV2Response struct {
+	Data     AppAvailabilityV2        `json:"data"`
+	Included *[]TerritoryAvailability `json:"included,omitempty"`
+	Links    DocumentLinks            `json:"links"`
+}
+
 // AppBetaTestersLinkagesRequest defines model for AppBetaTestersLinkagesRequest.
 type AppBetaTestersLinkagesRequest struct {
 	Data []struct {
@@ -26912,6 +28599,238 @@ type AppPreviewSetRelationshipsAppStoreVersionLocalizationDataType string
 
 // AppPreviewSetType defines model for AppPreviewSet.Type.
 type AppPreviewSetType string
+
+// AppPricePointV3 defines model for AppPricePointV3.
+type AppPricePointV3 struct {
+	Attributes *struct {
+		CustomerPrice *string `json:"customerPrice,omitempty"`
+		Proceeds      *string `json:"proceeds,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		App *struct {
+			Data *struct {
+				Id   string                                  `json:"id"`
+				Type AppPricePointV3RelationshipsAppDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"app,omitempty"`
+		Equalizations *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"equalizations,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                        `json:"id"`
+				Type AppPricePointV3RelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppPricePointV3Type `json:"type"`
+}
+
+// AppPricePointV3RelationshipsAppDataType defines model for AppPricePointV3.Relationships.App.Data.Type.
+type AppPricePointV3RelationshipsAppDataType string
+
+// AppPricePointV3RelationshipsTerritoryDataType defines model for AppPricePointV3.Relationships.Territory.Data.Type.
+type AppPricePointV3RelationshipsTerritoryDataType string
+
+// AppPricePointV3Type defines model for AppPricePointV3.Type.
+type AppPricePointV3Type string
+
+// AppPricePointsV3Response defines model for AppPricePointsV3Response.
+type AppPricePointsV3Response struct {
+	Data     []AppPricePointV3                         `json:"data"`
+	Included *[]AppPricePointsV3Response_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                        `json:"links"`
+	Meta     *PagingInformation                        `json:"meta,omitempty"`
+}
+
+// AppPricePointsV3Response_Included_Item defines model for AppPricePointsV3Response.included.Item.
+type AppPricePointsV3Response_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppPriceSchedule defines model for AppPriceSchedule.
+type AppPriceSchedule struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		App *struct {
+			Data *struct {
+				Id   string                                   `json:"id"`
+				Type AppPriceScheduleRelationshipsAppDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"app,omitempty"`
+		AutomaticPrices *struct {
+			Data *[]struct {
+				Id   string                                               `json:"id"`
+				Type AppPriceScheduleRelationshipsAutomaticPricesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"automaticPrices,omitempty"`
+		BaseTerritory *struct {
+			Data *struct {
+				Id   string                                             `json:"id"`
+				Type AppPriceScheduleRelationshipsBaseTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"baseTerritory,omitempty"`
+		ManualPrices *struct {
+			Data *[]struct {
+				Id   string                                            `json:"id"`
+				Type AppPriceScheduleRelationshipsManualPricesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"manualPrices,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppPriceScheduleType `json:"type"`
+}
+
+// AppPriceScheduleRelationshipsAppDataType defines model for AppPriceSchedule.Relationships.App.Data.Type.
+type AppPriceScheduleRelationshipsAppDataType string
+
+// AppPriceScheduleRelationshipsAutomaticPricesDataType defines model for AppPriceSchedule.Relationships.AutomaticPrices.Data.Type.
+type AppPriceScheduleRelationshipsAutomaticPricesDataType string
+
+// AppPriceScheduleRelationshipsBaseTerritoryDataType defines model for AppPriceSchedule.Relationships.BaseTerritory.Data.Type.
+type AppPriceScheduleRelationshipsBaseTerritoryDataType string
+
+// AppPriceScheduleRelationshipsManualPricesDataType defines model for AppPriceSchedule.Relationships.ManualPrices.Data.Type.
+type AppPriceScheduleRelationshipsManualPricesDataType string
+
+// AppPriceScheduleType defines model for AppPriceSchedule.Type.
+type AppPriceScheduleType string
+
+// AppPriceScheduleCreateRequest defines model for AppPriceScheduleCreateRequest.
+type AppPriceScheduleCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                    `json:"id"`
+					Type AppPriceScheduleCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+			BaseTerritory struct {
+				Data struct {
+					Id   string                                                              `json:"id"`
+					Type AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataType `json:"type"`
+				} `json:"data"`
+			} `json:"baseTerritory"`
+			ManualPrices struct {
+				Data []struct {
+					Id   string                                                             `json:"id"`
+					Type AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"manualPrices"`
+		} `json:"relationships"`
+		Type AppPriceScheduleCreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]AppPriceScheduleCreateRequest_Included_Item `json:"included,omitempty"`
+}
+
+// AppPriceScheduleCreateRequestDataRelationshipsAppDataType defines model for AppPriceScheduleCreateRequest.Data.Relationships.App.Data.Type.
+type AppPriceScheduleCreateRequestDataRelationshipsAppDataType string
+
+// AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataType defines model for AppPriceScheduleCreateRequest.Data.Relationships.BaseTerritory.Data.Type.
+type AppPriceScheduleCreateRequestDataRelationshipsBaseTerritoryDataType string
+
+// AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataType defines model for AppPriceScheduleCreateRequest.Data.Relationships.ManualPrices.Data.Type.
+type AppPriceScheduleCreateRequestDataRelationshipsManualPricesDataType string
+
+// AppPriceScheduleCreateRequestDataType defines model for AppPriceScheduleCreateRequest.Data.Type.
+type AppPriceScheduleCreateRequestDataType string
+
+// AppPriceScheduleCreateRequest_Included_Item defines model for AppPriceScheduleCreateRequest.included.Item.
+type AppPriceScheduleCreateRequest_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppPriceScheduleResponse defines model for AppPriceScheduleResponse.
+type AppPriceScheduleResponse struct {
+	Data     AppPriceSchedule                          `json:"data"`
+	Included *[]AppPriceScheduleResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                             `json:"links"`
+}
+
+// AppPriceScheduleResponse_Included_Item defines model for AppPriceScheduleResponse.included.Item.
+type AppPriceScheduleResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppPriceV2 defines model for AppPriceV2.
+type AppPriceV2 struct {
+	Attributes *struct {
+		EndDate   *openapi_types.Date `json:"endDate,omitempty"`
+		Manual    *bool               `json:"manual,omitempty"`
+		StartDate *openapi_types.Date `json:"startDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppPricePoint *struct {
+			Data *struct {
+				Id   string                                       `json:"id"`
+				Type AppPriceV2RelationshipsAppPricePointDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appPricePoint,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                   `json:"id"`
+				Type AppPriceV2RelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppPriceV2Type `json:"type"`
+}
+
+// AppPriceV2RelationshipsAppPricePointDataType defines model for AppPriceV2.Relationships.AppPricePoint.Data.Type.
+type AppPriceV2RelationshipsAppPricePointDataType string
+
+// AppPriceV2RelationshipsTerritoryDataType defines model for AppPriceV2.Relationships.Territory.Data.Type.
+type AppPriceV2RelationshipsTerritoryDataType string
+
+// AppPriceV2Type defines model for AppPriceV2.Type.
+type AppPriceV2Type string
+
+// AppPriceV2InlineCreate defines model for AppPriceV2InlineCreate.
+type AppPriceV2InlineCreate struct {
+	Attributes *struct {
+		EndDate   *openapi_types.Date `json:"endDate,omitempty"`
+		StartDate *openapi_types.Date `json:"startDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		AppPricePoint *struct {
+			Data *struct {
+				Id   string                                                   `json:"id"`
+				Type AppPriceV2InlineCreateRelationshipsAppPricePointDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appPricePoint,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppPriceV2InlineCreateType `json:"type"`
+}
+
+// AppPriceV2InlineCreateRelationshipsAppPricePointDataType defines model for AppPriceV2InlineCreate.Relationships.AppPricePoint.Data.Type.
+type AppPriceV2InlineCreateRelationshipsAppPricePointDataType string
+
+// AppPriceV2InlineCreateType defines model for AppPriceV2InlineCreate.Type.
+type AppPriceV2InlineCreateType string
+
+// AppPricesV2Response defines model for AppPricesV2Response.
+type AppPricesV2Response struct {
+	Data     []AppPriceV2                         `json:"data"`
+	Included *[]AppPricesV2Response_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                   `json:"links"`
+	Meta     *PagingInformation                   `json:"meta,omitempty"`
+}
+
+// AppPricesV2Response_Included_Item defines model for AppPricesV2Response.included.Item.
+type AppPricesV2Response_Included_Item struct {
+	union json.RawMessage
+}
 
 // AppResponse defines model for AppResponse.
 type AppResponse struct {
@@ -29777,6 +31696,43 @@ type DocumentLinks struct {
 	Self string `json:"self"`
 }
 
+// EndAppAvailabilityPreOrder defines model for EndAppAvailabilityPreOrder.
+type EndAppAvailabilityPreOrder struct {
+	Id    string                         `json:"id"`
+	Links *ResourceLinks                 `json:"links,omitempty"`
+	Type  EndAppAvailabilityPreOrderType `json:"type"`
+}
+
+// EndAppAvailabilityPreOrderType defines model for EndAppAvailabilityPreOrder.Type.
+type EndAppAvailabilityPreOrderType string
+
+// EndAppAvailabilityPreOrderCreateRequest defines model for EndAppAvailabilityPreOrderCreateRequest.
+type EndAppAvailabilityPreOrderCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			TerritoryAvailabilities struct {
+				Data []struct {
+					Id   string                                                                                  `json:"id"`
+					Type EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"territoryAvailabilities"`
+		} `json:"relationships"`
+		Type EndAppAvailabilityPreOrderCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataType defines model for EndAppAvailabilityPreOrderCreateRequest.Data.Relationships.TerritoryAvailabilities.Data.Type.
+type EndAppAvailabilityPreOrderCreateRequestDataRelationshipsTerritoryAvailabilitiesDataType string
+
+// EndAppAvailabilityPreOrderCreateRequestDataType defines model for EndAppAvailabilityPreOrderCreateRequest.Data.Type.
+type EndAppAvailabilityPreOrderCreateRequestDataType string
+
+// EndAppAvailabilityPreOrderResponse defines model for EndAppAvailabilityPreOrderResponse.
+type EndAppAvailabilityPreOrderResponse struct {
+	Data  EndAppAvailabilityPreOrder `json:"data"`
+	Links DocumentLinks              `json:"links"`
+}
+
 // EndUserLicenseAgreement defines model for EndUserLicenseAgreement.
 type EndUserLicenseAgreement struct {
 	Attributes *struct {
@@ -31748,6 +33704,13 @@ type SubscriptionVersionRelationshipsSubscriptionDataType string
 // SubscriptionVersionType defines model for SubscriptionVersion.Type.
 type SubscriptionVersionType string
 
+// TerritoriesResponse defines model for TerritoriesResponse.
+type TerritoriesResponse struct {
+	Data  []Territory        `json:"data"`
+	Links PagedDocumentLinks `json:"links"`
+	Meta  *PagingInformation `json:"meta,omitempty"`
+}
+
 // Territory defines model for Territory.
 type Territory struct {
 	Attributes *struct {
@@ -31760,6 +33723,108 @@ type Territory struct {
 
 // TerritoryType defines model for Territory.Type.
 type TerritoryType string
+
+// TerritoryAvailabilitiesResponse defines model for TerritoryAvailabilitiesResponse.
+type TerritoryAvailabilitiesResponse struct {
+	Data     []TerritoryAvailability `json:"data"`
+	Included *[]Territory            `json:"included,omitempty"`
+	Links    PagedDocumentLinks      `json:"links"`
+	Meta     *PagingInformation      `json:"meta,omitempty"`
+}
+
+// TerritoryAvailability defines model for TerritoryAvailability.
+type TerritoryAvailability struct {
+	Attributes *struct {
+		Available           *bool                                             `json:"available,omitempty"`
+		ContentStatuses     *[]TerritoryAvailabilityAttributesContentStatuses `json:"contentStatuses,omitempty"`
+		PreOrderEnabled     *bool                                             `json:"preOrderEnabled,omitempty"`
+		PreOrderPublishDate *openapi_types.Date                               `json:"preOrderPublishDate,omitempty"`
+		ReleaseDate         *openapi_types.Date                               `json:"releaseDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Territory *struct {
+			Data *struct {
+				Id   string                                              `json:"id"`
+				Type TerritoryAvailabilityRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type TerritoryAvailabilityType `json:"type"`
+}
+
+// TerritoryAvailabilityAttributesContentStatuses defines model for TerritoryAvailability.Attributes.ContentStatuses.
+type TerritoryAvailabilityAttributesContentStatuses string
+
+// TerritoryAvailabilityRelationshipsTerritoryDataType defines model for TerritoryAvailability.Relationships.Territory.Data.Type.
+type TerritoryAvailabilityRelationshipsTerritoryDataType string
+
+// TerritoryAvailabilityType defines model for TerritoryAvailability.Type.
+type TerritoryAvailabilityType string
+
+// TerritoryAvailabilityInlineCreate defines model for TerritoryAvailabilityInlineCreate.
+type TerritoryAvailabilityInlineCreate struct {
+	Attributes *struct {
+		Available       *bool               `json:"available,omitempty"`
+		PreOrderEnabled *bool               `json:"preOrderEnabled,omitempty"`
+		ReleaseDate     *openapi_types.Date `json:"releaseDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		Territory *struct {
+			Data *struct {
+				Id   string                                                          `json:"id"`
+				Type TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type TerritoryAvailabilityInlineCreateType `json:"type"`
+}
+
+// TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataType defines model for TerritoryAvailabilityInlineCreate.Relationships.Territory.Data.Type.
+type TerritoryAvailabilityInlineCreateRelationshipsTerritoryDataType string
+
+// TerritoryAvailabilityInlineCreateType defines model for TerritoryAvailabilityInlineCreate.Type.
+type TerritoryAvailabilityInlineCreateType string
+
+// TerritoryAvailabilityResponse defines model for TerritoryAvailabilityResponse.
+type TerritoryAvailabilityResponse struct {
+	Data     TerritoryAvailability `json:"data"`
+	Included *[]Territory          `json:"included,omitempty"`
+	Links    DocumentLinks         `json:"links"`
+}
+
+// TerritoryAvailabilityUpdateRequest defines model for TerritoryAvailabilityUpdateRequest.
+type TerritoryAvailabilityUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Available       *bool               `json:"available,omitempty"`
+			PreOrderEnabled *bool               `json:"preOrderEnabled,omitempty"`
+			ReleaseDate     *openapi_types.Date `json:"releaseDate,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                     `json:"id"`
+		Type TerritoryAvailabilityUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// TerritoryAvailabilityUpdateRequestDataType defines model for TerritoryAvailabilityUpdateRequest.Data.Type.
+type TerritoryAvailabilityUpdateRequestDataType string
+
+// TerritoryInlineCreate defines model for TerritoryInlineCreate.
+type TerritoryInlineCreate struct {
+	Id   *string                   `json:"id,omitempty"`
+	Type TerritoryInlineCreateType `json:"type"`
+}
+
+// TerritoryInlineCreateType defines model for TerritoryInlineCreate.Type.
+type TerritoryInlineCreateType string
+
+// TerritoryResponse defines model for TerritoryResponse.
+type TerritoryResponse struct {
+	Data  Territory     `json:"data"`
+	Links DocumentLinks `json:"links"`
+}
 
 // UploadOperation defines model for UploadOperation.
 type UploadOperation struct {
@@ -31946,6 +34011,9 @@ type UsersResponse struct {
 	Meta     *PagingInformation `json:"meta,omitempty"`
 }
 
+// Csv defines model for csv.
+type Csv = string
+
 // AccessibilityDeclarationsGetInstanceParams defines parameters for AccessibilityDeclarationsGetInstance.
 type AccessibilityDeclarationsGetInstanceParams struct {
 	// FieldsAccessibilityDeclarations the fields to include for returned resources of type accessibilityDeclarations
@@ -32067,6 +34135,54 @@ type AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos string
 
 // AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude defines parameters for AppInfosAppInfoLocalizationsGetToManyRelated.
 type AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude string
+
+// AppPriceSchedulesBaseTerritoryGetToOneRelatedParams defines parameters for AppPriceSchedulesBaseTerritoryGetToOneRelated.
+type AppPriceSchedulesBaseTerritoryGetToOneRelatedParams struct {
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+}
+
+// AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories defines parameters for AppPriceSchedulesBaseTerritoryGetToOneRelated.
+type AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories string
+
+// AppPriceSchedulesManualPricesGetToManyRelatedParams defines parameters for AppPriceSchedulesManualPricesGetToManyRelated.
+type AppPriceSchedulesManualPricesGetToManyRelatedParams struct {
+	// FilterStartDate filter by attribute 'startDate'
+	FilterStartDate *[]string `form:"filter[startDate],omitempty" json:"filter[startDate],omitempty"`
+
+	// FilterEndDate filter by attribute 'endDate'
+	FilterEndDate *[]string `form:"filter[endDate],omitempty" json:"filter[endDate],omitempty"`
+
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FieldsAppPrices the fields to include for returned resources of type appPrices
+	FieldsAppPrices *[]AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices `form:"fields[appPrices],omitempty" json:"fields[appPrices],omitempty"`
+
+	// FieldsAppPricePoints the fields to include for returned resources of type appPricePoints
+	FieldsAppPricePoints *[]AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints `form:"fields[appPricePoints],omitempty" json:"fields[appPricePoints],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices defines parameters for AppPriceSchedulesManualPricesGetToManyRelated.
+type AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPrices string
+
+// AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints defines parameters for AppPriceSchedulesManualPricesGetToManyRelated.
+type AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsAppPricePoints string
+
+// AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories defines parameters for AppPriceSchedulesManualPricesGetToManyRelated.
+type AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories string
+
+// AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude defines parameters for AppPriceSchedulesManualPricesGetToManyRelated.
+type AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude string
 
 // AppStoreVersionsGetInstanceParams defines parameters for AppStoreVersionsGetInstance.
 type AppStoreVersionsGetInstanceParams struct {
@@ -32750,6 +34866,30 @@ type AppsGetInstanceParamsFieldsAndroidToIosAppMappingDetails string
 // AppsGetInstanceParamsInclude defines parameters for AppsGetInstance.
 type AppsGetInstanceParamsInclude string
 
+// AppsAppAvailabilityV2GetToOneRelatedParams defines parameters for AppsAppAvailabilityV2GetToOneRelated.
+type AppsAppAvailabilityV2GetToOneRelatedParams struct {
+	// FieldsAppAvailabilities the fields to include for returned resources of type appAvailabilities
+	FieldsAppAvailabilities *[]AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities `form:"fields[appAvailabilities],omitempty" json:"fields[appAvailabilities],omitempty"`
+
+	// FieldsTerritoryAvailabilities the fields to include for returned resources of type territoryAvailabilities
+	FieldsTerritoryAvailabilities *[]AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities `form:"fields[territoryAvailabilities],omitempty" json:"fields[territoryAvailabilities],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppAvailabilityV2GetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitTerritoryAvailabilities maximum number of related territoryAvailabilities returned (when they are included)
+	LimitTerritoryAvailabilities *int `form:"limit[territoryAvailabilities],omitempty" json:"limit[territoryAvailabilities],omitempty"`
+}
+
+// AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities defines parameters for AppsAppAvailabilityV2GetToOneRelated.
+type AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities string
+
+// AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities defines parameters for AppsAppAvailabilityV2GetToOneRelated.
+type AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities string
+
+// AppsAppAvailabilityV2GetToOneRelatedParamsInclude defines parameters for AppsAppAvailabilityV2GetToOneRelated.
+type AppsAppAvailabilityV2GetToOneRelatedParamsInclude string
+
 // AppsAppInfosGetToManyRelatedParams defines parameters for AppsAppInfosGetToManyRelated.
 type AppsAppInfosGetToManyRelatedParams struct {
 	// FieldsAppInfos the fields to include for returned resources of type appInfos
@@ -32794,6 +34934,78 @@ type AppsAppInfosGetToManyRelatedParamsFieldsAppCategories string
 
 // AppsAppInfosGetToManyRelatedParamsInclude defines parameters for AppsAppInfosGetToManyRelated.
 type AppsAppInfosGetToManyRelatedParamsInclude string
+
+// AppsAppPricePointsGetToManyRelatedParams defines parameters for AppsAppPricePointsGetToManyRelated.
+type AppsAppPricePointsGetToManyRelatedParams struct {
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FieldsAppPricePoints the fields to include for returned resources of type appPricePoints
+	FieldsAppPricePoints *[]AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints `form:"fields[appPricePoints],omitempty" json:"fields[appPricePoints],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsAppPricePointsGetToManyRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]AppsAppPricePointsGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppPricePointsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints defines parameters for AppsAppPricePointsGetToManyRelated.
+type AppsAppPricePointsGetToManyRelatedParamsFieldsAppPricePoints string
+
+// AppsAppPricePointsGetToManyRelatedParamsFieldsApps defines parameters for AppsAppPricePointsGetToManyRelated.
+type AppsAppPricePointsGetToManyRelatedParamsFieldsApps string
+
+// AppsAppPricePointsGetToManyRelatedParamsFieldsTerritories defines parameters for AppsAppPricePointsGetToManyRelated.
+type AppsAppPricePointsGetToManyRelatedParamsFieldsTerritories string
+
+// AppsAppPricePointsGetToManyRelatedParamsInclude defines parameters for AppsAppPricePointsGetToManyRelated.
+type AppsAppPricePointsGetToManyRelatedParamsInclude string
+
+// AppsAppPriceScheduleGetToOneRelatedParams defines parameters for AppsAppPriceScheduleGetToOneRelated.
+type AppsAppPriceScheduleGetToOneRelatedParams struct {
+	// FieldsAppPriceSchedules the fields to include for returned resources of type appPriceSchedules
+	FieldsAppPriceSchedules *[]AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules `form:"fields[appPriceSchedules],omitempty" json:"fields[appPriceSchedules],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// FieldsAppPrices the fields to include for returned resources of type appPrices
+	FieldsAppPrices *[]AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices `form:"fields[appPrices],omitempty" json:"fields[appPrices],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppPriceScheduleGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitManualPrices maximum number of related manualPrices returned (when they are included)
+	LimitManualPrices *int `form:"limit[manualPrices],omitempty" json:"limit[manualPrices],omitempty"`
+
+	// LimitAutomaticPrices maximum number of related automaticPrices returned (when they are included)
+	LimitAutomaticPrices *int `form:"limit[automaticPrices],omitempty" json:"limit[automaticPrices],omitempty"`
+}
+
+// AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules defines parameters for AppsAppPriceScheduleGetToOneRelated.
+type AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPriceSchedules string
+
+// AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps defines parameters for AppsAppPriceScheduleGetToOneRelated.
+type AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps string
+
+// AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritories defines parameters for AppsAppPriceScheduleGetToOneRelated.
+type AppsAppPriceScheduleGetToOneRelatedParamsFieldsTerritories string
+
+// AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices defines parameters for AppsAppPriceScheduleGetToOneRelated.
+type AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices string
+
+// AppsAppPriceScheduleGetToOneRelatedParamsInclude defines parameters for AppsAppPriceScheduleGetToOneRelated.
+type AppsAppPriceScheduleGetToOneRelatedParamsInclude string
 
 // AppsAppStoreVersionsGetToManyRelatedParams defines parameters for AppsAppStoreVersionsGetToManyRelated.
 type AppsAppStoreVersionsGetToManyRelatedParams struct {
@@ -34339,6 +36551,18 @@ type ReviewSubmissionsGetCollectionParamsFieldsActors string
 // ReviewSubmissionsGetCollectionParamsInclude defines parameters for ReviewSubmissionsGetCollection.
 type ReviewSubmissionsGetCollectionParamsInclude string
 
+// TerritoriesGetCollectionParams defines parameters for TerritoriesGetCollection.
+type TerritoriesGetCollectionParams struct {
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]TerritoriesGetCollectionParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// TerritoriesGetCollectionParamsFieldsTerritories defines parameters for TerritoriesGetCollection.
+type TerritoriesGetCollectionParamsFieldsTerritories string
+
 // UserInvitationsGetCollectionParams defines parameters for UserInvitationsGetCollection.
 type UserInvitationsGetCollectionParams struct {
 	// FilterEmail filter by attribute 'email'
@@ -34459,6 +36683,63 @@ type UsersVisibleAppsGetToManyRelationshipParams struct {
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
+// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams defines parameters for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated.
+type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams struct {
+	// FieldsTerritoryAvailabilities the fields to include for returned resources of type territoryAvailabilities
+	FieldsTerritoryAvailabilities *[]AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities `form:"fields[territoryAvailabilities],omitempty" json:"fields[territoryAvailabilities],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities defines parameters for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated.
+type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities string
+
+// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritories defines parameters for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated.
+type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritories string
+
+// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude defines parameters for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated.
+type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude string
+
+// AppPricePointsV3EqualizationsGetToManyRelatedParams defines parameters for AppPricePointsV3EqualizationsGetToManyRelated.
+type AppPricePointsV3EqualizationsGetToManyRelatedParams struct {
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FieldsAppPricePoints the fields to include for returned resources of type appPricePoints
+	FieldsAppPricePoints *[]AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints `form:"fields[appPricePoints],omitempty" json:"fields[appPricePoints],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints defines parameters for AppPricePointsV3EqualizationsGetToManyRelated.
+type AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppPricePoints string
+
+// AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps defines parameters for AppPricePointsV3EqualizationsGetToManyRelated.
+type AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps string
+
+// AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritories defines parameters for AppPricePointsV3EqualizationsGetToManyRelated.
+type AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsTerritories string
+
+// AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude defines parameters for AppPricePointsV3EqualizationsGetToManyRelated.
+type AppPricePointsV3EqualizationsGetToManyRelatedParamsInclude string
+
 // AccessibilityDeclarationsCreateInstanceJSONRequestBody defines body for AccessibilityDeclarationsCreateInstance for application/json ContentType.
 type AccessibilityDeclarationsCreateInstanceJSONRequestBody = AccessibilityDeclarationCreateRequest
 
@@ -34485,6 +36766,9 @@ type AppInfoLocalizationsUpdateInstanceJSONRequestBody = AppInfoLocalizationUpda
 
 // AppInfosUpdateInstanceJSONRequestBody defines body for AppInfosUpdateInstance for application/json ContentType.
 type AppInfosUpdateInstanceJSONRequestBody = AppInfoUpdateRequest
+
+// AppPriceSchedulesCreateInstanceJSONRequestBody defines body for AppPriceSchedulesCreateInstance for application/json ContentType.
+type AppPriceSchedulesCreateInstanceJSONRequestBody = AppPriceScheduleCreateRequest
 
 // AppStoreReviewDetailsCreateInstanceJSONRequestBody defines body for AppStoreReviewDetailsCreateInstance for application/json ContentType.
 type AppStoreReviewDetailsCreateInstanceJSONRequestBody = AppStoreReviewDetailCreateRequest
@@ -34618,6 +36902,9 @@ type DevicesCreateInstanceJSONRequestBody = DeviceCreateRequest
 // DevicesUpdateInstanceJSONRequestBody defines body for DevicesUpdateInstance for application/json ContentType.
 type DevicesUpdateInstanceJSONRequestBody = DeviceUpdateRequest
 
+// EndAppAvailabilityPreOrdersCreateInstanceJSONRequestBody defines body for EndAppAvailabilityPreOrdersCreateInstance for application/json ContentType.
+type EndAppAvailabilityPreOrdersCreateInstanceJSONRequestBody = EndAppAvailabilityPreOrderCreateRequest
+
 // EndUserLicenseAgreementsCreateInstanceJSONRequestBody defines body for EndUserLicenseAgreementsCreateInstance for application/json ContentType.
 type EndUserLicenseAgreementsCreateInstanceJSONRequestBody = EndUserLicenseAgreementCreateRequest
 
@@ -34648,6 +36935,9 @@ type ReviewSubmissionsCreateInstanceJSONRequestBody = ReviewSubmissionCreateRequ
 // ReviewSubmissionsUpdateInstanceJSONRequestBody defines body for ReviewSubmissionsUpdateInstance for application/json ContentType.
 type ReviewSubmissionsUpdateInstanceJSONRequestBody = ReviewSubmissionUpdateRequest
 
+// TerritoryAvailabilitiesUpdateInstanceJSONRequestBody defines body for TerritoryAvailabilitiesUpdateInstance for application/json ContentType.
+type TerritoryAvailabilitiesUpdateInstanceJSONRequestBody = TerritoryAvailabilityUpdateRequest
+
 // UserInvitationsCreateInstanceJSONRequestBody defines body for UserInvitationsCreateInstance for application/json ContentType.
 type UserInvitationsCreateInstanceJSONRequestBody = UserInvitationCreateRequest
 
@@ -34659,6 +36949,9 @@ type UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody = UserVisibleAppsLi
 
 // UsersVisibleAppsCreateToManyRelationshipJSONRequestBody defines body for UsersVisibleAppsCreateToManyRelationship for application/json ContentType.
 type UsersVisibleAppsCreateToManyRelationshipJSONRequestBody = UserVisibleAppsLinkagesRequest
+
+// AppAvailabilitiesV2CreateInstanceJSONRequestBody defines body for AppAvailabilitiesV2CreateInstance for application/json ContentType.
+type AppAvailabilitiesV2CreateInstanceJSONRequestBody = AppAvailabilityV2CreateRequest
 
 // AsAppAssetLibraryImageAwaitingUploadAttributes returns the union data inside the AppAssetLibraryImage_Attributes as a AppAssetLibraryImageAwaitingUploadAttributes
 func (t AppAssetLibraryImage_Attributes) AsAppAssetLibraryImageAwaitingUploadAttributes() (AppAssetLibraryImageAwaitingUploadAttributes, error) {
@@ -35918,6 +38211,407 @@ func (t AppInfosResponse_Included_Item) MarshalJSON() ([]byte, error) {
 }
 
 func (t *AppInfosResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsApp returns the union data inside the AppPricePointsV3Response_Included_Item as a App
+func (t AppPricePointsV3Response_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppPricePointsV3Response_Included_Item as the provided App
+func (t *AppPricePointsV3Response_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppPricePointsV3Response_Included_Item, using the provided App
+func (t *AppPricePointsV3Response_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the AppPricePointsV3Response_Included_Item as a Territory
+func (t AppPricePointsV3Response_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the AppPricePointsV3Response_Included_Item as the provided Territory
+func (t *AppPricePointsV3Response_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the AppPricePointsV3Response_Included_Item, using the provided Territory
+func (t *AppPricePointsV3Response_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppPricePointsV3Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppPricePointsV3Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "apps":
+		return t.AsApp()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppPricePointsV3Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppPricePointsV3Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppPriceV2InlineCreate returns the union data inside the AppPriceScheduleCreateRequest_Included_Item as a AppPriceV2InlineCreate
+func (t AppPriceScheduleCreateRequest_Included_Item) AsAppPriceV2InlineCreate() (AppPriceV2InlineCreate, error) {
+	var body AppPriceV2InlineCreate
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPriceV2InlineCreate overwrites any union data inside the AppPriceScheduleCreateRequest_Included_Item as the provided AppPriceV2InlineCreate
+func (t *AppPriceScheduleCreateRequest_Included_Item) FromAppPriceV2InlineCreate(v AppPriceV2InlineCreate) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppPriceV2InlineCreate performs a merge with any union data inside the AppPriceScheduleCreateRequest_Included_Item, using the provided AppPriceV2InlineCreate
+func (t *AppPriceScheduleCreateRequest_Included_Item) MergeAppPriceV2InlineCreate(v AppPriceV2InlineCreate) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritoryInlineCreate returns the union data inside the AppPriceScheduleCreateRequest_Included_Item as a TerritoryInlineCreate
+func (t AppPriceScheduleCreateRequest_Included_Item) AsTerritoryInlineCreate() (TerritoryInlineCreate, error) {
+	var body TerritoryInlineCreate
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritoryInlineCreate overwrites any union data inside the AppPriceScheduleCreateRequest_Included_Item as the provided TerritoryInlineCreate
+func (t *AppPriceScheduleCreateRequest_Included_Item) FromTerritoryInlineCreate(v TerritoryInlineCreate) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeTerritoryInlineCreate performs a merge with any union data inside the AppPriceScheduleCreateRequest_Included_Item, using the provided TerritoryInlineCreate
+func (t *AppPriceScheduleCreateRequest_Included_Item) MergeTerritoryInlineCreate(v TerritoryInlineCreate) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppPriceScheduleCreateRequest_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppPriceScheduleCreateRequest_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppPriceV2 returns the union data inside the AppPriceScheduleResponse_Included_Item as a AppPriceV2
+func (t AppPriceScheduleResponse_Included_Item) AsAppPriceV2() (AppPriceV2, error) {
+	var body AppPriceV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPriceV2 overwrites any union data inside the AppPriceScheduleResponse_Included_Item as the provided AppPriceV2
+func (t *AppPriceScheduleResponse_Included_Item) FromAppPriceV2(v AppPriceV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPrices"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPriceV2 performs a merge with any union data inside the AppPriceScheduleResponse_Included_Item, using the provided AppPriceV2
+func (t *AppPriceScheduleResponse_Included_Item) MergeAppPriceV2(v AppPriceV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPrices"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the AppPriceScheduleResponse_Included_Item as a App
+func (t AppPriceScheduleResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppPriceScheduleResponse_Included_Item as the provided App
+func (t *AppPriceScheduleResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppPriceScheduleResponse_Included_Item, using the provided App
+func (t *AppPriceScheduleResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the AppPriceScheduleResponse_Included_Item as a Territory
+func (t AppPriceScheduleResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the AppPriceScheduleResponse_Included_Item as the provided Territory
+func (t *AppPriceScheduleResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the AppPriceScheduleResponse_Included_Item, using the provided Territory
+func (t *AppPriceScheduleResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppPriceScheduleResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppPriceScheduleResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appPrices":
+		return t.AsAppPriceV2()
+	case "apps":
+		return t.AsApp()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppPriceScheduleResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppPriceScheduleResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppPricePointV3 returns the union data inside the AppPricesV2Response_Included_Item as a AppPricePointV3
+func (t AppPricesV2Response_Included_Item) AsAppPricePointV3() (AppPricePointV3, error) {
+	var body AppPricePointV3
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPricePointV3 overwrites any union data inside the AppPricesV2Response_Included_Item as the provided AppPricePointV3
+func (t *AppPricesV2Response_Included_Item) FromAppPricePointV3(v AppPricePointV3) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPricePointV3 performs a merge with any union data inside the AppPricesV2Response_Included_Item, using the provided AppPricePointV3
+func (t *AppPricesV2Response_Included_Item) MergeAppPricePointV3(v AppPricePointV3) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the AppPricesV2Response_Included_Item as a Territory
+func (t AppPricesV2Response_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the AppPricesV2Response_Included_Item as the provided Territory
+func (t *AppPricesV2Response_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the AppPricesV2Response_Included_Item, using the provided Territory
+func (t *AppPricesV2Response_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppPricesV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppPricesV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appPricePoints":
+		return t.AsAppPricePointV3()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppPricesV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppPricesV2Response_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -42581,6 +45275,20 @@ type ClientInterface interface {
 	// AppInfosAppInfoLocalizationsGetToManyRelated performs a GET /v1/appInfos/{id}/appInfoLocalizations (the `AppInfosAppInfoLocalizationsGetToManyRelated` operationId) request.
 	AppInfosAppInfoLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppPriceSchedulesCreateInstanceWithBody performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppPriceSchedulesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPriceSchedulesCreateInstance performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppPriceSchedulesCreateInstance(ctx context.Context, body AppPriceSchedulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPriceSchedulesBaseTerritoryGetToOneRelated performs a GET /v1/appPriceSchedules/{id}/baseTerritory (the `AppPriceSchedulesBaseTerritoryGetToOneRelated` operationId) request.
+	AppPriceSchedulesBaseTerritoryGetToOneRelated(ctx context.Context, id string, params *AppPriceSchedulesBaseTerritoryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPriceSchedulesManualPricesGetToManyRelated performs a GET /v1/appPriceSchedules/{id}/manualPrices (the `AppPriceSchedulesManualPricesGetToManyRelated` operationId) request.
+	AppPriceSchedulesManualPricesGetToManyRelated(ctx context.Context, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppStoreReviewDetailsCreateInstanceWithBody performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppStoreReviewDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -42707,8 +45415,17 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppsUpdateInstance(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
+	AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsAppInfosGetToManyRelated performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
 	AppsAppInfosGetToManyRelated(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAppPricePointsGetToManyRelated performs a GET /v1/apps/{id}/appPricePoints (the `AppsAppPricePointsGetToManyRelated` operationId) request.
+	AppsAppPricePointsGetToManyRelated(ctx context.Context, id string, params *AppsAppPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAppPriceScheduleGetToOneRelated performs a GET /v1/apps/{id}/appPriceSchedule (the `AppsAppPriceScheduleGetToOneRelated` operationId) request.
+	AppsAppPriceScheduleGetToOneRelated(ctx context.Context, id string, params *AppsAppPriceScheduleGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsAppStoreVersionsGetToManyRelated performs a GET /v1/apps/{id}/appStoreVersions (the `AppsAppStoreVersionsGetToManyRelated` operationId) request.
 	AppsAppStoreVersionsGetToManyRelated(ctx context.Context, id string, params *AppsAppStoreVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -43068,6 +45785,14 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	DevicesUpdateInstance(ctx context.Context, id string, body DevicesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// EndAppAvailabilityPreOrdersCreateInstanceWithBody performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	EndAppAvailabilityPreOrdersCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// EndAppAvailabilityPreOrdersCreateInstance performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	EndAppAvailabilityPreOrdersCreateInstance(ctx context.Context, body EndAppAvailabilityPreOrdersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// EndUserLicenseAgreementsCreateInstanceWithBody performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	EndUserLicenseAgreementsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -43202,6 +45927,17 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	ReviewSubmissionsUpdateInstance(ctx context.Context, id string, body ReviewSubmissionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// TerritoriesGetCollection performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
+	TerritoriesGetCollection(ctx context.Context, params *TerritoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// TerritoryAvailabilitiesUpdateInstanceWithBody performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	TerritoryAvailabilitiesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// TerritoryAvailabilitiesUpdateInstance performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	TerritoryAvailabilitiesUpdateInstance(ctx context.Context, id string, body TerritoryAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// UserInvitationsGetCollection performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
 	UserInvitationsGetCollection(ctx context.Context, params *UserInvitationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -43251,6 +45987,20 @@ type ClientInterface interface {
 	// UsersVisibleAppsCreateToManyRelationship performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type.
 	UsersVisibleAppsCreateToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAvailabilitiesV2CreateInstanceWithBody performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppAvailabilitiesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAvailabilitiesV2CreateInstance performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppAvailabilitiesV2CreateInstance(ctx context.Context, body AppAvailabilitiesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPricePointsV3EqualizationsGetToManyRelated performs a GET /v3/appPricePoints/{id}/equalizations (the `AppPricePointsV3EqualizationsGetToManyRelated` operationId) request.
+	AppPricePointsV3EqualizationsGetToManyRelated(ctx context.Context, id string, params *AppPricePointsV3EqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 }
 
 // AccessibilityDeclarationsCreateInstanceWithBody performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request,
@@ -43612,6 +46362,60 @@ func (c *Client) AppInfosAgeRatingDeclarationGetToOneRelated(ctx context.Context
 // AppInfosAppInfoLocalizationsGetToManyRelated performs a GET /v1/appInfos/{id}/appInfoLocalizations (the `AppInfosAppInfoLocalizationsGetToManyRelated` operationId) request.
 func (c *Client) AppInfosAppInfoLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppInfosAppInfoLocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPriceSchedulesCreateInstanceWithBody performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppPriceSchedulesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPriceSchedulesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPriceSchedulesCreateInstance performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppPriceSchedulesCreateInstance(ctx context.Context, body AppPriceSchedulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPriceSchedulesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPriceSchedulesBaseTerritoryGetToOneRelated performs a GET /v1/appPriceSchedules/{id}/baseTerritory (the `AppPriceSchedulesBaseTerritoryGetToOneRelated` operationId) request.
+func (c *Client) AppPriceSchedulesBaseTerritoryGetToOneRelated(ctx context.Context, id string, params *AppPriceSchedulesBaseTerritoryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPriceSchedulesBaseTerritoryGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPriceSchedulesManualPricesGetToManyRelated performs a GET /v1/appPriceSchedules/{id}/manualPrices (the `AppPriceSchedulesManualPricesGetToManyRelated` operationId) request.
+func (c *Client) AppPriceSchedulesManualPricesGetToManyRelated(ctx context.Context, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPriceSchedulesManualPricesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -44088,9 +46892,48 @@ func (c *Client) AppsUpdateInstance(ctx context.Context, id string, body AppsUpd
 	return c.Client.Do(req)
 }
 
+// AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
+func (c *Client) AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppAvailabilityV2GetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppsAppInfosGetToManyRelated performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
 func (c *Client) AppsAppInfosGetToManyRelated(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsAppInfosGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAppPricePointsGetToManyRelated performs a GET /v1/apps/{id}/appPricePoints (the `AppsAppPricePointsGetToManyRelated` operationId) request.
+func (c *Client) AppsAppPricePointsGetToManyRelated(ctx context.Context, id string, params *AppsAppPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppPricePointsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAppPriceScheduleGetToOneRelated performs a GET /v1/apps/{id}/appPriceSchedule (the `AppsAppPriceScheduleGetToOneRelated` operationId) request.
+func (c *Client) AppsAppPriceScheduleGetToOneRelated(ctx context.Context, id string, params *AppsAppPriceScheduleGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppPriceScheduleGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -45439,6 +48282,34 @@ func (c *Client) DevicesUpdateInstance(ctx context.Context, id string, body Devi
 	return c.Client.Do(req)
 }
 
+// EndAppAvailabilityPreOrdersCreateInstanceWithBody performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) EndAppAvailabilityPreOrdersCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndAppAvailabilityPreOrdersCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// EndAppAvailabilityPreOrdersCreateInstance performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) EndAppAvailabilityPreOrdersCreateInstance(ctx context.Context, body EndAppAvailabilityPreOrdersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndAppAvailabilityPreOrdersCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // EndUserLicenseAgreementsCreateInstanceWithBody performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) EndUserLicenseAgreementsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -45953,6 +48824,47 @@ func (c *Client) ReviewSubmissionsUpdateInstance(ctx context.Context, id string,
 	return c.Client.Do(req)
 }
 
+// TerritoriesGetCollection performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
+func (c *Client) TerritoriesGetCollection(ctx context.Context, params *TerritoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTerritoriesGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// TerritoryAvailabilitiesUpdateInstanceWithBody performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) TerritoryAvailabilitiesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTerritoryAvailabilitiesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// TerritoryAvailabilitiesUpdateInstance performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) TerritoryAvailabilitiesUpdateInstance(ctx context.Context, id string, body TerritoryAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewTerritoryAvailabilitiesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // UserInvitationsGetCollection performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
 func (c *Client) UserInvitationsGetCollection(ctx context.Context, params *UserInvitationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewUserInvitationsGetCollectionRequest(c.Server, params)
@@ -46133,6 +49045,60 @@ func (c *Client) UsersVisibleAppsCreateToManyRelationshipWithBody(ctx context.Co
 // Takes a body of the `application/json` content type.
 func (c *Client) UsersVisibleAppsCreateToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewUsersVisibleAppsCreateToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAvailabilitiesV2CreateInstanceWithBody performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppAvailabilitiesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAvailabilitiesV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAvailabilitiesV2CreateInstance performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppAvailabilitiesV2CreateInstance(ctx context.Context, body AppAvailabilitiesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAvailabilitiesV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
+func (c *Client) AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPricePointsV3EqualizationsGetToManyRelated performs a GET /v3/appPricePoints/{id}/equalizations (the `AppPricePointsV3EqualizationsGetToManyRelated` operationId) request.
+func (c *Client) AppPricePointsV3EqualizationsGetToManyRelated(ctx context.Context, id string, params *AppPricePointsV3EqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPricePointsV3EqualizationsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -47120,6 +50086,252 @@ func NewAppInfosAppInfoLocalizationsGetToManyRelatedRequest(server string, id st
 		if params.FieldsAppInfos != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appInfos]", *params.FieldsAppInfos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppPriceSchedulesCreateInstanceRequest calls the generic AppPriceSchedulesCreateInstance builder with application/json body
+func NewAppPriceSchedulesCreateInstanceRequest(server string, body AppPriceSchedulesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppPriceSchedulesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppPriceSchedulesCreateInstanceRequestWithBody constructs an http.Request for the AppPriceSchedulesCreateInstance method, with any body, and a specified content type
+func NewAppPriceSchedulesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPriceSchedules")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppPriceSchedulesBaseTerritoryGetToOneRelatedRequest constructs an http.Request for the AppPriceSchedulesBaseTerritoryGetToOneRelated method
+func NewAppPriceSchedulesBaseTerritoryGetToOneRelatedRequest(server string, id string, params *AppPriceSchedulesBaseTerritoryGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPriceSchedules/%s/baseTerritory", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppPriceSchedulesManualPricesGetToManyRelatedRequest constructs an http.Request for the AppPriceSchedulesManualPricesGetToManyRelated method
+func NewAppPriceSchedulesManualPricesGetToManyRelatedRequest(server string, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPriceSchedules/%s/manualPrices", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterStartDate != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[startDate]", *params.FilterStartDate, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterEndDate != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[endDate]", *params.FilterEndDate, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPrices]", *params.FieldsAppPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPricePoints]", *params.FieldsAppPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -49751,6 +52963,103 @@ func NewAppsUpdateInstanceRequestWithBody(server string, id string, contentType 
 	return req, nil
 }
 
+// NewAppsAppAvailabilityV2GetToOneRelatedRequest constructs an http.Request for the AppsAppAvailabilityV2GetToOneRelated method
+func NewAppsAppAvailabilityV2GetToOneRelatedRequest(server string, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appAvailabilityV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppAvailabilities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAvailabilities]", *params.FieldsAppAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritoryAvailabilities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territoryAvailabilities]", *params.FieldsTerritoryAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitTerritoryAvailabilities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[territoryAvailabilities]", *params.LimitTerritoryAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppsAppInfosGetToManyRelatedRequest constructs an http.Request for the AppsAppInfosGetToManyRelated method
 func NewAppsAppInfosGetToManyRelatedRequest(server string, id string, params *AppsAppInfosGetToManyRelatedParams) (*http.Request, error) {
 	var err error
@@ -49873,6 +53182,260 @@ func NewAppsAppInfosGetToManyRelatedRequest(server string, id string, params *Ap
 		if params.LimitAppInfoLocalizations != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appInfoLocalizations]", *params.LimitAppInfoLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsAppPricePointsGetToManyRelatedRequest constructs an http.Request for the AppsAppPricePointsGetToManyRelated method
+func NewAppsAppPricePointsGetToManyRelatedRequest(server string, id string, params *AppsAppPricePointsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appPricePoints", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPricePoints]", *params.FieldsAppPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsAppPriceScheduleGetToOneRelatedRequest constructs an http.Request for the AppsAppPriceScheduleGetToOneRelated method
+func NewAppsAppPriceScheduleGetToOneRelatedRequest(server string, id string, params *AppsAppPriceScheduleGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appPriceSchedule", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppPriceSchedules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPriceSchedules]", *params.FieldsAppPriceSchedules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPrices]", *params.FieldsAppPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitManualPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[manualPrices]", *params.LimitManualPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAutomaticPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[automaticPrices]", *params.LimitAutomaticPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -55273,6 +58836,46 @@ func NewDevicesUpdateInstanceRequestWithBody(server string, id string, contentTy
 	return req, nil
 }
 
+// NewEndAppAvailabilityPreOrdersCreateInstanceRequest calls the generic EndAppAvailabilityPreOrdersCreateInstance builder with application/json body
+func NewEndAppAvailabilityPreOrdersCreateInstanceRequest(server string, body EndAppAvailabilityPreOrdersCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewEndAppAvailabilityPreOrdersCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewEndAppAvailabilityPreOrdersCreateInstanceRequestWithBody constructs an http.Request for the EndAppAvailabilityPreOrdersCreateInstance method, with any body, and a specified content type
+func NewEndAppAvailabilityPreOrdersCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/endAppAvailabilityPreOrders")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewEndUserLicenseAgreementsCreateInstanceRequest calls the generic EndUserLicenseAgreementsCreateInstance builder with application/json body
 func NewEndUserLicenseAgreementsCreateInstanceRequest(server string, body EndUserLicenseAgreementsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -57577,6 +61180,119 @@ func NewReviewSubmissionsUpdateInstanceRequestWithBody(server string, id string,
 	return req, nil
 }
 
+// NewTerritoriesGetCollectionRequest constructs an http.Request for the TerritoriesGetCollection method
+func NewTerritoriesGetCollectionRequest(server string, params *TerritoriesGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/territories")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewTerritoryAvailabilitiesUpdateInstanceRequest calls the generic TerritoryAvailabilitiesUpdateInstance builder with application/json body
+func NewTerritoryAvailabilitiesUpdateInstanceRequest(server string, id string, body TerritoryAvailabilitiesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewTerritoryAvailabilitiesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewTerritoryAvailabilitiesUpdateInstanceRequestWithBody constructs an http.Request for the TerritoryAvailabilitiesUpdateInstance method, with any body, and a specified content type
+func NewTerritoryAvailabilitiesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/territoryAvailabilities/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewUserInvitationsGetCollectionRequest constructs an http.Request for the UserInvitationsGetCollection method
 func NewUserInvitationsGetCollectionRequest(server string, params *UserInvitationsGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -58284,6 +62000,264 @@ func NewUsersVisibleAppsCreateToManyRelationshipRequestWithBody(server string, i
 	return req, nil
 }
 
+// NewAppAvailabilitiesV2CreateInstanceRequest calls the generic AppAvailabilitiesV2CreateInstance builder with application/json body
+func NewAppAvailabilitiesV2CreateInstanceRequest(server string, body AppAvailabilitiesV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppAvailabilitiesV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppAvailabilitiesV2CreateInstanceRequestWithBody constructs an http.Request for the AppAvailabilitiesV2CreateInstance method, with any body, and a specified content type
+func NewAppAvailabilitiesV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/appAvailabilities")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedRequest constructs an http.Request for the AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated method
+func NewAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedRequest(server string, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/appAvailabilities/%s/territoryAvailabilities", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsTerritoryAvailabilities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territoryAvailabilities]", *params.FieldsTerritoryAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppPricePointsV3EqualizationsGetToManyRelatedRequest constructs an http.Request for the AppPricePointsV3EqualizationsGetToManyRelated method
+func NewAppPricePointsV3EqualizationsGetToManyRelatedRequest(server string, id string, params *AppPricePointsV3EqualizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v3/appPricePoints/%s/equalizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPricePoints]", *params.FieldsAppPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 func (c *Client) applyEditors(ctx context.Context, req *http.Request, additionalEditors []RequestEditorFn) error {
 	for _, r := range c.RequestEditors {
 		if err := r(ctx, req); err != nil {
@@ -58463,6 +62437,26 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppInfosAppInfoLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppInfosAppInfoLocalizationsGetToManyRelatedResponse, error)
 
+	// AppPriceSchedulesCreateInstanceWithBodyWithResponse performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPriceSchedulesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPriceSchedulesCreateInstanceResponse, error)
+
+	// AppPriceSchedulesCreateInstanceWithResponse performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppPriceSchedulesCreateInstanceWithResponse(ctx context.Context, body AppPriceSchedulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPriceSchedulesCreateInstanceResponse, error)
+
+	// AppPriceSchedulesBaseTerritoryGetToOneRelatedWithResponse performs a GET /v1/appPriceSchedules/{id}/baseTerritory (the `AppPriceSchedulesBaseTerritoryGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPriceSchedulesBaseTerritoryGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppPriceSchedulesBaseTerritoryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse, error)
+
+	// AppPriceSchedulesManualPricesGetToManyRelatedWithResponse performs a GET /v1/appPriceSchedules/{id}/manualPrices (the `AppPriceSchedulesManualPricesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPriceSchedulesManualPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppPriceSchedulesManualPricesGetToManyRelatedResponse, error)
+
 	// AppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -58633,10 +62627,25 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppsUpdateInstanceWithResponse(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppsUpdateInstanceResponse, error)
 
+	// AppsAppAvailabilityV2GetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppAvailabilityV2GetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppAvailabilityV2GetToOneRelatedResponse, error)
+
 	// AppsAppInfosGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsAppInfosGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppInfosGetToManyRelatedResponse, error)
+
+	// AppsAppPricePointsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appPricePoints (the `AppsAppPricePointsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppPricePointsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppPricePointsGetToManyRelatedResponse, error)
+
+	// AppsAppPriceScheduleGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appPriceSchedule (the `AppsAppPriceScheduleGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppPriceScheduleGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAppPriceScheduleGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppPriceScheduleGetToOneRelatedResponse, error)
 
 	// AppsAppStoreVersionsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appStoreVersions (the `AppsAppStoreVersionsGetToManyRelated` operationId) request.
 	//
@@ -59128,6 +63137,16 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	DevicesUpdateInstanceWithResponse(ctx context.Context, id string, body DevicesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*DevicesUpdateInstanceResponse, error)
 
+	// EndAppAvailabilityPreOrdersCreateInstanceWithBodyWithResponse performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	EndAppAvailabilityPreOrdersCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*EndAppAvailabilityPreOrdersCreateInstanceResponse, error)
+
+	// EndAppAvailabilityPreOrdersCreateInstanceWithResponse performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	EndAppAvailabilityPreOrdersCreateInstanceWithResponse(ctx context.Context, body EndAppAvailabilityPreOrdersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*EndAppAvailabilityPreOrdersCreateInstanceResponse, error)
+
 	// EndUserLicenseAgreementsCreateInstanceWithBodyWithResponse performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -59318,6 +63337,21 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	ReviewSubmissionsUpdateInstanceWithResponse(ctx context.Context, id string, body ReviewSubmissionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*ReviewSubmissionsUpdateInstanceResponse, error)
 
+	// TerritoriesGetCollectionWithResponse performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	TerritoriesGetCollectionWithResponse(ctx context.Context, params *TerritoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*TerritoriesGetCollectionResponse, error)
+
+	// TerritoryAvailabilitiesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	TerritoryAvailabilitiesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*TerritoryAvailabilitiesUpdateInstanceResponse, error)
+
+	// TerritoryAvailabilitiesUpdateInstanceWithResponse performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	TerritoryAvailabilitiesUpdateInstanceWithResponse(ctx context.Context, id string, body TerritoryAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*TerritoryAvailabilitiesUpdateInstanceResponse, error)
+
 	// UserInvitationsGetCollectionWithResponse performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -59387,6 +63421,26 @@ type ClientWithResponsesInterface interface {
 	// UsersVisibleAppsCreateToManyRelationshipWithResponse performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	UsersVisibleAppsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersVisibleAppsCreateToManyRelationshipResponse, error)
+
+	// AppAvailabilitiesV2CreateInstanceWithBodyWithResponse performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAvailabilitiesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2CreateInstanceResponse, error)
+
+	// AppAvailabilitiesV2CreateInstanceWithResponse performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppAvailabilitiesV2CreateInstanceWithResponse(ctx context.Context, body AppAvailabilitiesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2CreateInstanceResponse, error)
+
+	// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedWithResponse performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse, error)
+
+	// AppPricePointsV3EqualizationsGetToManyRelatedWithResponse performs a GET /v3/appPricePoints/{id}/equalizations (the `AppPricePointsV3EqualizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPricePointsV3EqualizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppPricePointsV3EqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppPricePointsV3EqualizationsGetToManyRelatedResponse, error)
 }
 
 type AccessibilityDeclarationsCreateInstanceResponse struct {
@@ -60821,6 +64875,241 @@ func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPriceSchedulesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppPriceScheduleResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppPriceSchedulesCreateInstanceResponse) GetJSON201() *AppPriceScheduleResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPriceSchedulesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPriceSchedulesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPriceSchedulesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppPriceSchedulesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppPriceSchedulesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPriceSchedulesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPriceSchedulesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPriceSchedulesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPriceSchedulesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPriceSchedulesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *TerritoryResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) GetJSON200() *TerritoryResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPriceSchedulesManualPricesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPricesV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) GetJSON200() *AppPricesV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -62597,6 +66886,82 @@ func (r AppsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type AppsAppAvailabilityV2GetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAvailabilityV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) GetJSON200() *AppAvailabilityV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppAvailabilityV2GetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppsAppInfosGetToManyRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -62667,6 +67032,158 @@ func (r AppsAppInfosGetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsAppInfosGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAppPricePointsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPricePointsV3Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppPricePointsGetToManyRelatedResponse) GetJSON200() *AppPricePointsV3Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppPricePointsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppPricePointsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppPricePointsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppPricePointsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppPricePointsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppPricePointsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppPricePointsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppPricePointsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppPricePointsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAppPriceScheduleGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPriceScheduleResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) GetJSON200() *AppPriceScheduleResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppPriceScheduleGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -67871,6 +72388,89 @@ func (r DevicesUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type EndAppAvailabilityPreOrdersCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *EndAppAvailabilityPreOrderResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetJSON201() *EndAppAvailabilityPreOrderResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r EndAppAvailabilityPreOrdersCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type EndUserLicenseAgreementsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -70034,6 +74634,165 @@ func (r ReviewSubmissionsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type TerritoriesGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *TerritoriesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r TerritoriesGetCollectionResponse) GetJSON200() *TerritoriesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r TerritoriesGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r TerritoriesGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r TerritoriesGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r TerritoriesGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r TerritoriesGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r TerritoriesGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r TerritoriesGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r TerritoriesGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type TerritoryAvailabilitiesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *TerritoryAvailabilityResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON200() *TerritoryAvailabilityResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r TerritoryAvailabilitiesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type UserInvitationsGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -70801,6 +75560,241 @@ func (r UsersVisibleAppsCreateToManyRelationshipResponse) ContentType() string {
 	return ""
 }
 
+type AppAvailabilitiesV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppAvailabilityV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetJSON201() *AppAvailabilityV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAvailabilitiesV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAvailabilitiesV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAvailabilitiesV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAvailabilitiesV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *TerritoryAvailabilitiesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) GetJSON200() *TerritoryAvailabilitiesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPricePointsV3EqualizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPricePointsV3Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) GetJSON200() *AppPricePointsV3Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPricePointsV3EqualizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 // AccessibilityDeclarationsCreateInstanceWithBodyWithResponse performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -71096,6 +76090,50 @@ func (c *ClientWithResponses) AppInfosAppInfoLocalizationsGetToManyRelatedWithRe
 		return nil, err
 	}
 	return ParseAppInfosAppInfoLocalizationsGetToManyRelatedResponse(rsp)
+}
+
+// AppPriceSchedulesCreateInstanceWithBodyWithResponse performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPriceSchedulesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPriceSchedulesCreateInstanceResponse, error) {
+	rsp, err := c.AppPriceSchedulesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPriceSchedulesCreateInstanceResponse(rsp)
+}
+
+// AppPriceSchedulesCreateInstanceWithResponse performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPriceSchedulesCreateInstanceWithResponse(ctx context.Context, body AppPriceSchedulesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPriceSchedulesCreateInstanceResponse, error) {
+	rsp, err := c.AppPriceSchedulesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPriceSchedulesCreateInstanceResponse(rsp)
+}
+
+// AppPriceSchedulesBaseTerritoryGetToOneRelatedWithResponse performs a GET /v1/appPriceSchedules/{id}/baseTerritory (the `AppPriceSchedulesBaseTerritoryGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPriceSchedulesBaseTerritoryGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppPriceSchedulesBaseTerritoryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse, error) {
+	rsp, err := c.AppPriceSchedulesBaseTerritoryGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPriceSchedulesBaseTerritoryGetToOneRelatedResponse(rsp)
+}
+
+// AppPriceSchedulesManualPricesGetToManyRelatedWithResponse performs a GET /v1/appPriceSchedules/{id}/manualPrices (the `AppPriceSchedulesManualPricesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPriceSchedulesManualPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppPriceSchedulesManualPricesGetToManyRelatedResponse, error) {
+	rsp, err := c.AppPriceSchedulesManualPricesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPriceSchedulesManualPricesGetToManyRelatedResponse(rsp)
 }
 
 // AppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
@@ -71472,6 +76510,17 @@ func (c *ClientWithResponses) AppsUpdateInstanceWithResponse(ctx context.Context
 	return ParseAppsUpdateInstanceResponse(rsp)
 }
 
+// AppsAppAvailabilityV2GetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppAvailabilityV2GetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppAvailabilityV2GetToOneRelatedResponse, error) {
+	rsp, err := c.AppsAppAvailabilityV2GetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppAvailabilityV2GetToOneRelatedResponse(rsp)
+}
+
 // AppsAppInfosGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -71481,6 +76530,28 @@ func (c *ClientWithResponses) AppsAppInfosGetToManyRelatedWithResponse(ctx conte
 		return nil, err
 	}
 	return ParseAppsAppInfosGetToManyRelatedResponse(rsp)
+}
+
+// AppsAppPricePointsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appPricePoints (the `AppsAppPricePointsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppPricePointsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppPricePointsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsAppPricePointsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppPricePointsGetToManyRelatedResponse(rsp)
+}
+
+// AppsAppPriceScheduleGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appPriceSchedule (the `AppsAppPriceScheduleGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppPriceScheduleGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAppPriceScheduleGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppPriceScheduleGetToOneRelatedResponse, error) {
+	rsp, err := c.AppsAppPriceScheduleGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppPriceScheduleGetToOneRelatedResponse(rsp)
 }
 
 // AppsAppStoreVersionsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appStoreVersions (the `AppsAppStoreVersionsGetToManyRelated` operationId) request.
@@ -72561,6 +77632,28 @@ func (c *ClientWithResponses) DevicesUpdateInstanceWithResponse(ctx context.Cont
 	return ParseDevicesUpdateInstanceResponse(rsp)
 }
 
+// EndAppAvailabilityPreOrdersCreateInstanceWithBodyWithResponse performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndAppAvailabilityPreOrdersCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*EndAppAvailabilityPreOrdersCreateInstanceResponse, error) {
+	rsp, err := c.EndAppAvailabilityPreOrdersCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndAppAvailabilityPreOrdersCreateInstanceResponse(rsp)
+}
+
+// EndAppAvailabilityPreOrdersCreateInstanceWithResponse performs a POST /v1/endAppAvailabilityPreOrders (the `EndAppAvailabilityPreOrdersCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndAppAvailabilityPreOrdersCreateInstanceWithResponse(ctx context.Context, body EndAppAvailabilityPreOrdersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*EndAppAvailabilityPreOrdersCreateInstanceResponse, error) {
+	rsp, err := c.EndAppAvailabilityPreOrdersCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndAppAvailabilityPreOrdersCreateInstanceResponse(rsp)
+}
+
 // EndUserLicenseAgreementsCreateInstanceWithBodyWithResponse performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -72979,6 +78072,39 @@ func (c *ClientWithResponses) ReviewSubmissionsUpdateInstanceWithResponse(ctx co
 	return ParseReviewSubmissionsUpdateInstanceResponse(rsp)
 }
 
+// TerritoriesGetCollectionWithResponse performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) TerritoriesGetCollectionWithResponse(ctx context.Context, params *TerritoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*TerritoriesGetCollectionResponse, error) {
+	rsp, err := c.TerritoriesGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseTerritoriesGetCollectionResponse(rsp)
+}
+
+// TerritoryAvailabilitiesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) TerritoryAvailabilitiesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*TerritoryAvailabilitiesUpdateInstanceResponse, error) {
+	rsp, err := c.TerritoryAvailabilitiesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseTerritoryAvailabilitiesUpdateInstanceResponse(rsp)
+}
+
+// TerritoryAvailabilitiesUpdateInstanceWithResponse performs a PATCH /v1/territoryAvailabilities/{id} (the `TerritoryAvailabilitiesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) TerritoryAvailabilitiesUpdateInstanceWithResponse(ctx context.Context, id string, body TerritoryAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*TerritoryAvailabilitiesUpdateInstanceResponse, error) {
+	rsp, err := c.TerritoryAvailabilitiesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseTerritoryAvailabilitiesUpdateInstanceResponse(rsp)
+}
+
 // UserInvitationsGetCollectionWithResponse performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -73131,6 +78257,50 @@ func (c *ClientWithResponses) UsersVisibleAppsCreateToManyRelationshipWithRespon
 		return nil, err
 	}
 	return ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp)
+}
+
+// AppAvailabilitiesV2CreateInstanceWithBodyWithResponse performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAvailabilitiesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2CreateInstanceResponse, error) {
+	rsp, err := c.AppAvailabilitiesV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAvailabilitiesV2CreateInstanceResponse(rsp)
+}
+
+// AppAvailabilitiesV2CreateInstanceWithResponse performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAvailabilitiesV2CreateInstanceWithResponse(ctx context.Context, body AppAvailabilitiesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2CreateInstanceResponse, error) {
+	rsp, err := c.AppAvailabilitiesV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAvailabilitiesV2CreateInstanceResponse(rsp)
+}
+
+// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedWithResponse performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse, error) {
+	rsp, err := c.AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse(rsp)
+}
+
+// AppPricePointsV3EqualizationsGetToManyRelatedWithResponse performs a GET /v3/appPricePoints/{id}/equalizations (the `AppPricePointsV3EqualizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPricePointsV3EqualizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppPricePointsV3EqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppPricePointsV3EqualizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppPricePointsV3EqualizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPricePointsV3EqualizationsGetToManyRelatedResponse(rsp)
 }
 
 // ParseAccessibilityDeclarationsCreateInstanceResponse parses an HTTP response from a AccessibilityDeclarationsCreateInstanceWithResponse call
@@ -74265,6 +79435,196 @@ func ParseAppInfosAppInfoLocalizationsGetToManyRelatedResponse(rsp *http.Respons
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppInfoLocalizationsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPriceSchedulesCreateInstanceResponse parses an HTTP response from a AppPriceSchedulesCreateInstanceWithResponse call
+func ParseAppPriceSchedulesCreateInstanceResponse(rsp *http.Response) (*AppPriceSchedulesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPriceSchedulesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppPriceScheduleResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPriceSchedulesBaseTerritoryGetToOneRelatedResponse parses an HTTP response from a AppPriceSchedulesBaseTerritoryGetToOneRelatedWithResponse call
+func ParseAppPriceSchedulesBaseTerritoryGetToOneRelatedResponse(rsp *http.Response) (*AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPriceSchedulesBaseTerritoryGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest TerritoryResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPriceSchedulesManualPricesGetToManyRelatedResponse parses an HTTP response from a AppPriceSchedulesManualPricesGetToManyRelatedWithResponse call
+func ParseAppPriceSchedulesManualPricesGetToManyRelatedResponse(rsp *http.Response) (*AppPriceSchedulesManualPricesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPriceSchedulesManualPricesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPricesV2Response
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -75762,6 +81122,67 @@ func ParseAppsUpdateInstanceResponse(rsp *http.Response) (*AppsUpdateInstanceRes
 	return response, nil
 }
 
+// ParseAppsAppAvailabilityV2GetToOneRelatedResponse parses an HTTP response from a AppsAppAvailabilityV2GetToOneRelatedWithResponse call
+func ParseAppsAppAvailabilityV2GetToOneRelatedResponse(rsp *http.Response) (*AppsAppAvailabilityV2GetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppAvailabilityV2GetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAvailabilityV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppsAppInfosGetToManyRelatedResponse parses an HTTP response from a AppsAppInfosGetToManyRelatedWithResponse call
 func ParseAppsAppInfosGetToManyRelatedResponse(rsp *http.Response) (*AppsAppInfosGetToManyRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -75778,6 +81199,131 @@ func ParseAppsAppInfosGetToManyRelatedResponse(rsp *http.Response) (*AppsAppInfo
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppInfosResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAppPricePointsGetToManyRelatedResponse parses an HTTP response from a AppsAppPricePointsGetToManyRelatedWithResponse call
+func ParseAppsAppPricePointsGetToManyRelatedResponse(rsp *http.Response) (*AppsAppPricePointsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppPricePointsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPricePointsV3Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	case rsp.StatusCode == 200:
+		// Content-type (text/csv) unsupported
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAppPriceScheduleGetToOneRelatedResponse parses an HTTP response from a AppsAppPriceScheduleGetToOneRelatedWithResponse call
+func ParseAppsAppPriceScheduleGetToOneRelatedResponse(rsp *http.Response) (*AppsAppPriceScheduleGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppPriceScheduleGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPriceScheduleResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -80085,6 +85631,74 @@ func ParseDevicesUpdateInstanceResponse(rsp *http.Response) (*DevicesUpdateInsta
 	return response, nil
 }
 
+// ParseEndAppAvailabilityPreOrdersCreateInstanceResponse parses an HTTP response from a EndAppAvailabilityPreOrdersCreateInstanceWithResponse call
+func ParseEndAppAvailabilityPreOrdersCreateInstanceResponse(rsp *http.Response) (*EndAppAvailabilityPreOrdersCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &EndAppAvailabilityPreOrdersCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest EndAppAvailabilityPreOrderResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseEndUserLicenseAgreementsCreateInstanceResponse parses an HTTP response from a EndUserLicenseAgreementsCreateInstanceWithResponse call
 func ParseEndUserLicenseAgreementsCreateInstanceResponse(rsp *http.Response) (*EndUserLicenseAgreementsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -81840,6 +87454,135 @@ func ParseReviewSubmissionsUpdateInstanceResponse(rsp *http.Response) (*ReviewSu
 	return response, nil
 }
 
+// ParseTerritoriesGetCollectionResponse parses an HTTP response from a TerritoriesGetCollectionWithResponse call
+func ParseTerritoriesGetCollectionResponse(rsp *http.Response) (*TerritoriesGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &TerritoriesGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest TerritoriesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseTerritoryAvailabilitiesUpdateInstanceResponse parses an HTTP response from a TerritoryAvailabilitiesUpdateInstanceWithResponse call
+func ParseTerritoryAvailabilitiesUpdateInstanceResponse(rsp *http.Response) (*TerritoryAvailabilitiesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &TerritoryAvailabilitiesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest TerritoryAvailabilityResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseUserInvitationsGetCollectionResponse parses an HTTP response from a UserInvitationsGetCollectionWithResponse call
 func ParseUserInvitationsGetCollectionResponse(rsp *http.Response) (*UserInvitationsGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -82469,6 +88212,199 @@ func ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp *http.Response) (
 	return response, nil
 }
 
+// ParseAppAvailabilitiesV2CreateInstanceResponse parses an HTTP response from a AppAvailabilitiesV2CreateInstanceWithResponse call
+func ParseAppAvailabilitiesV2CreateInstanceResponse(rsp *http.Response) (*AppAvailabilitiesV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAvailabilitiesV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppAvailabilityV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse parses an HTTP response from a AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedWithResponse call
+func ParseAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse(rsp *http.Response) (*AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest TerritoryAvailabilitiesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPricePointsV3EqualizationsGetToManyRelatedResponse parses an HTTP response from a AppPricePointsV3EqualizationsGetToManyRelatedWithResponse call
+func ParseAppPricePointsV3EqualizationsGetToManyRelatedResponse(rsp *http.Response) (*AppPricePointsV3EqualizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPricePointsV3EqualizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPricePointsV3Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	case rsp.StatusCode == 200:
+		// Content-type (text/csv) unsupported
+
+	}
+
+	return response, nil
+}
+
 // ServerInterface represents all server handlers.
 type ServerInterface interface {
 
@@ -82525,6 +88461,15 @@ type ServerInterface interface {
 
 	// (GET /v1/appInfos/{id}/appInfoLocalizations)
 	AppInfosAppInfoLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppInfosAppInfoLocalizationsGetToManyRelatedParams)
+
+	// (POST /v1/appPriceSchedules)
+	AppPriceSchedulesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/appPriceSchedules/{id}/baseTerritory)
+	AppPriceSchedulesBaseTerritoryGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppPriceSchedulesBaseTerritoryGetToOneRelatedParams)
+
+	// (GET /v1/appPriceSchedules/{id}/manualPrices)
+	AppPriceSchedulesManualPricesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppPriceSchedulesManualPricesGetToManyRelatedParams)
 
 	// (POST /v1/appStoreReviewDetails)
 	AppStoreReviewDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -82592,8 +88537,17 @@ type ServerInterface interface {
 	// (PATCH /v1/apps/{id})
 	AppsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/apps/{id}/appAvailabilityV2)
+	AppsAppAvailabilityV2GetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppAvailabilityV2GetToOneRelatedParams)
+
 	// (GET /v1/apps/{id}/appInfos)
 	AppsAppInfosGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppInfosGetToManyRelatedParams)
+
+	// (GET /v1/apps/{id}/appPricePoints)
+	AppsAppPricePointsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppPricePointsGetToManyRelatedParams)
+
+	// (GET /v1/apps/{id}/appPriceSchedule)
+	AppsAppPriceScheduleGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppPriceScheduleGetToOneRelatedParams)
 
 	// (GET /v1/apps/{id}/appStoreVersions)
 	AppsAppStoreVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppStoreVersionsGetToManyRelatedParams)
@@ -82793,6 +88747,9 @@ type ServerInterface interface {
 	// (PATCH /v1/devices/{id})
 	DevicesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (POST /v1/endAppAvailabilityPreOrders)
+	EndAppAvailabilityPreOrdersCreateInstance(w http.ResponseWriter, r *http.Request)
+
 	// (POST /v1/endUserLicenseAgreements)
 	EndUserLicenseAgreementsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -82877,6 +88834,12 @@ type ServerInterface interface {
 	// (PATCH /v1/reviewSubmissions/{id})
 	ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/territories)
+	TerritoriesGetCollection(w http.ResponseWriter, r *http.Request, params TerritoriesGetCollectionParams)
+
+	// (PATCH /v1/territoryAvailabilities/{id})
+	TerritoryAvailabilitiesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (GET /v1/userInvitations)
 	UserInvitationsGetCollection(w http.ResponseWriter, r *http.Request, params UserInvitationsGetCollectionParams)
 
@@ -82906,6 +88869,15 @@ type ServerInterface interface {
 
 	// (POST /v1/users/{id}/relationships/visibleApps)
 	UsersVisibleAppsCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v2/appAvailabilities)
+	AppAvailabilitiesV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v2/appAvailabilities/{id}/territoryAvailabilities)
+	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams)
+
+	// (GET /v3/appPricePoints/{id}/equalizations)
+	AppPricePointsV3EqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppPricePointsV3EqualizationsGetToManyRelatedParams)
 }
 
 // ServerInterfaceWrapper converts contexts to parameters.
@@ -83597,6 +89569,195 @@ func (siw *ServerInterfaceWrapper) AppInfosAppInfoLocalizationsGetToManyRelated(
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppInfosAppInfoLocalizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPriceSchedulesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppPriceSchedulesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPriceSchedulesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPriceSchedulesBaseTerritoryGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppPriceSchedulesBaseTerritoryGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppPriceSchedulesBaseTerritoryGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPriceSchedulesBaseTerritoryGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPriceSchedulesManualPricesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppPriceSchedulesManualPricesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppPriceSchedulesManualPricesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[startDate]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[startDate]", r.URL.Query(), &params.FilterStartDate, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[startDate]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[startDate]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[endDate]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[endDate]", r.URL.Query(), &params.FilterEndDate, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[endDate]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[endDate]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPrices]", r.URL.Query(), &params.FieldsAppPrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPricePoints]", r.URL.Query(), &params.FieldsAppPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPriceSchedulesManualPricesGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -85895,6 +92056,87 @@ func (siw *ServerInterfaceWrapper) AppsUpdateInstance(w http.ResponseWriter, r *
 	handler.ServeHTTP(w, r)
 }
 
+// AppsAppAvailabilityV2GetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppAvailabilityV2GetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppAvailabilityV2GetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[appAvailabilities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAvailabilities]", r.URL.Query(), &params.FieldsAppAvailabilities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAvailabilities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAvailabilities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territoryAvailabilities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territoryAvailabilities]", r.URL.Query(), &params.FieldsTerritoryAvailabilities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territoryAvailabilities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territoryAvailabilities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[territoryAvailabilities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[territoryAvailabilities]", r.URL.Query(), &params.LimitTerritoryAvailabilities, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[territoryAvailabilities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[territoryAvailabilities]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppAvailabilityV2GetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppsAppInfosGetToManyRelated operation middleware
 func (siw *ServerInterfaceWrapper) AppsAppInfosGetToManyRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -86019,6 +92261,233 @@ func (siw *ServerInterfaceWrapper) AppsAppInfosGetToManyRelated(w http.ResponseW
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsAppInfosGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAppPricePointsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppPricePointsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppPricePointsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPricePoints]", r.URL.Query(), &params.FieldsAppPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppPricePointsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAppPriceScheduleGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppPriceScheduleGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppPriceScheduleGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[appPriceSchedules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPriceSchedules]", r.URL.Query(), &params.FieldsAppPriceSchedules, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPriceSchedules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPriceSchedules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPrices]", r.URL.Query(), &params.FieldsAppPrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[manualPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[manualPrices]", r.URL.Query(), &params.LimitManualPrices, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[manualPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[manualPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[automaticPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[automaticPrices]", r.URL.Query(), &params.LimitAutomaticPrices, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[automaticPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[automaticPrices]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppPriceScheduleGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -90289,6 +96758,20 @@ func (siw *ServerInterfaceWrapper) DevicesUpdateInstance(w http.ResponseWriter, 
 	handler.ServeHTTP(w, r)
 }
 
+// EndAppAvailabilityPreOrdersCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) EndAppAvailabilityPreOrdersCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.EndAppAvailabilityPreOrdersCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // EndUserLicenseAgreementsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) EndUserLicenseAgreementsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -92135,6 +98618,78 @@ func (siw *ServerInterfaceWrapper) ReviewSubmissionsUpdateInstance(w http.Respon
 	handler.ServeHTTP(w, r)
 }
 
+// TerritoriesGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) TerritoriesGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params TerritoriesGetCollectionParams
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.TerritoriesGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// TerritoryAvailabilitiesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) TerritoryAvailabilitiesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.TerritoryAvailabilitiesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // UserInvitationsGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) UserInvitationsGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -92676,6 +99231,208 @@ func (siw *ServerInterfaceWrapper) UsersVisibleAppsCreateToManyRelationship(w ht
 	handler.ServeHTTP(w, r)
 }
 
+// AppAvailabilitiesV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAvailabilitiesV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAvailabilitiesV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[territoryAvailabilities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territoryAvailabilities]", r.URL.Query(), &params.FieldsTerritoryAvailabilities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territoryAvailabilities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territoryAvailabilities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPricePointsV3EqualizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppPricePointsV3EqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppPricePointsV3EqualizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPricePoints]", r.URL.Query(), &params.FieldsAppPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPricePointsV3EqualizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 type UnescapedCookieParamError struct {
 	ParamName string
 	Err       error
@@ -92814,6 +99571,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appInfos/{id}", wrapper.AppInfosUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appInfos/{id}/ageRatingDeclaration", wrapper.AppInfosAgeRatingDeclarationGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appInfos/{id}/appInfoLocalizations", wrapper.AppInfosAppInfoLocalizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appPriceSchedules", wrapper.AppPriceSchedulesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appPriceSchedules/{id}/baseTerritory", wrapper.AppPriceSchedulesBaseTerritoryGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appPriceSchedules/{id}/manualPrices", wrapper.AppPriceSchedulesManualPricesGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreReviewDetails", wrapper.AppStoreReviewDetailsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewDetails/{id}", wrapper.AppStoreReviewDetailsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations", wrapper.AppStoreVersionLocalizationsCreateInstance)
@@ -92836,7 +99596,10 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps", wrapper.AppsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appAvailabilityV2", wrapper.AppsAppAvailabilityV2GetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appInfos", wrapper.AppsAppInfosGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPricePoints", wrapper.AppsAppPricePointsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPriceSchedule", wrapper.AppsAppPriceScheduleGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appStoreVersions", wrapper.AppsAppStoreVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appTags", wrapper.AppsAppTagsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
@@ -92903,6 +99666,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/devices", wrapper.DevicesCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/devices/{id}", wrapper.DevicesGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/devices/{id}", wrapper.DevicesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/endAppAvailabilityPreOrders", wrapper.EndAppAvailabilityPreOrdersCreateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/endUserLicenseAgreements", wrapper.EndUserLicenseAgreementsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsUpdateInstance)
@@ -92931,6 +99695,8 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/reviewSubmissions", wrapper.ReviewSubmissionsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/reviewSubmissions", wrapper.ReviewSubmissionsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/reviewSubmissions/{id}", wrapper.ReviewSubmissionsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/territories", wrapper.TerritoriesGetCollection)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/territoryAvailabilities/{id}", wrapper.TerritoryAvailabilitiesUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/userInvitations", wrapper.UserInvitationsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/userInvitations", wrapper.UserInvitationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/userInvitations/{id}", wrapper.UserInvitationsDeleteInstance)
@@ -92941,6 +99707,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsDeleteToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsGetToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsCreateToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/appAvailabilities", wrapper.AppAvailabilitiesV2CreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/appAvailabilities/{id}/territoryAvailabilities", wrapper.AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v3/appPricePoints/{id}/equalizations", wrapper.AppPricePointsV3EqualizationsGetToManyRelated)
 
 	return m
 }

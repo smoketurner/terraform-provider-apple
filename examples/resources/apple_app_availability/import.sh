@@ -1,0 +1,1 @@
+terraform import apple_app_availability.example 1234567890

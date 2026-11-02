@@ -1,0 +1,1 @@
+terraform import apple_app_price_schedule.example 1234567890
