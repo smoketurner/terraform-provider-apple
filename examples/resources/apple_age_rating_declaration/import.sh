@@ -1,0 +1,1 @@
+terraform import apple_age_rating_declaration.example 1234567890

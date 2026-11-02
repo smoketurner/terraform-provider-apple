@@ -64,6 +64,10 @@ provider "apple" {
 * **Users join by invitation.** `apple_user` sends an invitation, which expires after 3 days (the next apply sends a new
   one), and manages the user's roles once they accept. `apple_user_visible_app` grants one app at a time, once the
   invitation is accepted.
+* **App information follows the version being prepared.** App info, its localizations and the age rating apply to the
+  app info of the version in preparation and take effect when it is released. They need a version in an editable state;
+  otherwise applying fails and names the problem. The resources are keyed by app and locale, because App Store Connect
+  creates new records with each version.
 * **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
   the device, which still counts toward the team's device limit until the membership year renews.
 

@@ -1,0 +1,1 @@
+terraform import apple_end_user_license_agreement.example 1234567890

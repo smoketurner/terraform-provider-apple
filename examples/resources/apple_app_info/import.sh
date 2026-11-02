@@ -1,0 +1,1 @@
+terraform import apple_app_info.example 1234567890
