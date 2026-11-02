@@ -126,7 +126,15 @@ func (p *appleProvider) Configure(ctx context.Context, req provider.ConfigureReq
 }
 
 func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource {
-	return nil
+	return []func() resource.Resource{
+		newBundleIDResource,
+		newBundleIDCapabilityResource,
+		newCertificateResource,
+		newDeviceResource,
+		newProfileResource,
+		newIdentifierResource(merchantIDKind),
+		newIdentifierResource(passTypeIDKind),
+	}
 }
 
 func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataSource {
