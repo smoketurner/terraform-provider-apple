@@ -169,6 +169,12 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 	return []func() datasource.DataSource{
 		newAppDataSource,
 		newAppsDataSource,
+		newBetaGroupsDataSource,
+		newBetaRecruitmentCriterionOptionsDataSource,
+		newBetaTesterDataSource,
+		newBetaTestersDataSource,
+		newBuildDataSource,
+		newBuildsDataSource,
 		newBundleIDDataSource,
 		newBundleIDsDataSource,
 		newCertificateDataSource,
@@ -179,6 +185,7 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newIdentifiersDataSource[merchantIDsData](merchantIDKind),
 		newIdentifierDataSource(passTypeIDKind),
 		newIdentifiersDataSource[passTypeIDsData](passTypeIDKind),
+		newPreReleaseVersionsDataSource,
 		newProfileDataSource,
 		newProfilesDataSource,
 	}
