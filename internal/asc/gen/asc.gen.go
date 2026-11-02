@@ -20,6 +20,993 @@ import (
 	openapi_types "github.com/oapi-codegen/runtime/types"
 )
 
+// Defines values for AccessibilityDeclarationAttributesState.
+const (
+	AccessibilityDeclarationAttributesStateDRAFT     AccessibilityDeclarationAttributesState = "DRAFT"
+	AccessibilityDeclarationAttributesStatePUBLISHED AccessibilityDeclarationAttributesState = "PUBLISHED"
+	AccessibilityDeclarationAttributesStateREPLACED  AccessibilityDeclarationAttributesState = "REPLACED"
+)
+
+// Valid indicates whether the value is a known member of the AccessibilityDeclarationAttributesState enum.
+func (e AccessibilityDeclarationAttributesState) Valid() bool {
+	switch e {
+	case AccessibilityDeclarationAttributesStateDRAFT:
+		return true
+	case AccessibilityDeclarationAttributesStatePUBLISHED:
+		return true
+	case AccessibilityDeclarationAttributesStateREPLACED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AccessibilityDeclarationType.
+const (
+	AccessibilityDeclarationTypeAccessibilityDeclarations AccessibilityDeclarationType = "accessibilityDeclarations"
+)
+
+// Valid indicates whether the value is a known member of the AccessibilityDeclarationType enum.
+func (e AccessibilityDeclarationType) Valid() bool {
+	switch e {
+	case AccessibilityDeclarationTypeAccessibilityDeclarations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AccessibilityDeclarationCreateRequestDataRelationshipsAppDataType.
+const (
+	AccessibilityDeclarationCreateRequestDataRelationshipsAppDataTypeApps AccessibilityDeclarationCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AccessibilityDeclarationCreateRequestDataRelationshipsAppDataType enum.
+func (e AccessibilityDeclarationCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AccessibilityDeclarationCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AccessibilityDeclarationCreateRequestDataType.
+const (
+	AccessibilityDeclarationCreateRequestDataTypeAccessibilityDeclarations AccessibilityDeclarationCreateRequestDataType = "accessibilityDeclarations"
+)
+
+// Valid indicates whether the value is a known member of the AccessibilityDeclarationCreateRequestDataType enum.
+func (e AccessibilityDeclarationCreateRequestDataType) Valid() bool {
+	switch e {
+	case AccessibilityDeclarationCreateRequestDataTypeAccessibilityDeclarations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AccessibilityDeclarationUpdateRequestDataType.
+const (
+	AccessibilityDeclarationUpdateRequestDataTypeAccessibilityDeclarations AccessibilityDeclarationUpdateRequestDataType = "accessibilityDeclarations"
+)
+
+// Valid indicates whether the value is a known member of the AccessibilityDeclarationUpdateRequestDataType enum.
+func (e AccessibilityDeclarationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AccessibilityDeclarationUpdateRequestDataTypeAccessibilityDeclarations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesAgeRatingOverride.
+const (
+	AgeRatingDeclarationAttributesAgeRatingOverrideNINEPLUS      AgeRatingDeclarationAttributesAgeRatingOverride = "NINE_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideNONE          AgeRatingDeclarationAttributesAgeRatingOverride = "NONE"
+	AgeRatingDeclarationAttributesAgeRatingOverrideSEVENTEENPLUS AgeRatingDeclarationAttributesAgeRatingOverride = "SEVENTEEN_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideSIXTEENPLUS   AgeRatingDeclarationAttributesAgeRatingOverride = "SIXTEEN_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideTHIRTEENPLUS  AgeRatingDeclarationAttributesAgeRatingOverride = "THIRTEEN_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideUNRATED       AgeRatingDeclarationAttributesAgeRatingOverride = "UNRATED"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesAgeRatingOverride enum.
+func (e AgeRatingDeclarationAttributesAgeRatingOverride) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesAgeRatingOverrideNINEPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideNONE:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideSEVENTEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideSIXTEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideTHIRTEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideUNRATED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesAgeRatingOverrideV2.
+const (
+	AgeRatingDeclarationAttributesAgeRatingOverrideV2EIGHTEENPLUS AgeRatingDeclarationAttributesAgeRatingOverrideV2 = "EIGHTEEN_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideV2NINEPLUS     AgeRatingDeclarationAttributesAgeRatingOverrideV2 = "NINE_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideV2NONE         AgeRatingDeclarationAttributesAgeRatingOverrideV2 = "NONE"
+	AgeRatingDeclarationAttributesAgeRatingOverrideV2SIXTEENPLUS  AgeRatingDeclarationAttributesAgeRatingOverrideV2 = "SIXTEEN_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideV2THIRTEENPLUS AgeRatingDeclarationAttributesAgeRatingOverrideV2 = "THIRTEEN_PLUS"
+	AgeRatingDeclarationAttributesAgeRatingOverrideV2UNRATED      AgeRatingDeclarationAttributesAgeRatingOverrideV2 = "UNRATED"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesAgeRatingOverrideV2 enum.
+func (e AgeRatingDeclarationAttributesAgeRatingOverrideV2) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesAgeRatingOverrideV2EIGHTEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideV2NINEPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideV2NONE:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideV2SIXTEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideV2THIRTEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesAgeRatingOverrideV2UNRATED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences.
+const (
+	AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENT          AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences = "FREQUENT"
+	AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENTORINTENSE AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENT        AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences = "INFREQUENT"
+	AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENTORMILD  AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesNONE              AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences enum.
+func (e AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferencesNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesContests.
+const (
+	AgeRatingDeclarationAttributesContestsFREQUENT          AgeRatingDeclarationAttributesContests = "FREQUENT"
+	AgeRatingDeclarationAttributesContestsFREQUENTORINTENSE AgeRatingDeclarationAttributesContests = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesContestsINFREQUENT        AgeRatingDeclarationAttributesContests = "INFREQUENT"
+	AgeRatingDeclarationAttributesContestsINFREQUENTORMILD  AgeRatingDeclarationAttributesContests = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesContestsNONE              AgeRatingDeclarationAttributesContests = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesContests enum.
+func (e AgeRatingDeclarationAttributesContests) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesContestsFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesContestsFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesContestsINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesContestsINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesContestsNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesGamblingSimulated.
+const (
+	AgeRatingDeclarationAttributesGamblingSimulatedFREQUENT          AgeRatingDeclarationAttributesGamblingSimulated = "FREQUENT"
+	AgeRatingDeclarationAttributesGamblingSimulatedFREQUENTORINTENSE AgeRatingDeclarationAttributesGamblingSimulated = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesGamblingSimulatedINFREQUENT        AgeRatingDeclarationAttributesGamblingSimulated = "INFREQUENT"
+	AgeRatingDeclarationAttributesGamblingSimulatedINFREQUENTORMILD  AgeRatingDeclarationAttributesGamblingSimulated = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesGamblingSimulatedNONE              AgeRatingDeclarationAttributesGamblingSimulated = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesGamblingSimulated enum.
+func (e AgeRatingDeclarationAttributesGamblingSimulated) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesGamblingSimulatedFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesGamblingSimulatedFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesGamblingSimulatedINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesGamblingSimulatedINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesGamblingSimulatedNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesGunsOrOtherWeapons.
+const (
+	AgeRatingDeclarationAttributesGunsOrOtherWeaponsFREQUENT          AgeRatingDeclarationAttributesGunsOrOtherWeapons = "FREQUENT"
+	AgeRatingDeclarationAttributesGunsOrOtherWeaponsFREQUENTORINTENSE AgeRatingDeclarationAttributesGunsOrOtherWeapons = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesGunsOrOtherWeaponsINFREQUENT        AgeRatingDeclarationAttributesGunsOrOtherWeapons = "INFREQUENT"
+	AgeRatingDeclarationAttributesGunsOrOtherWeaponsINFREQUENTORMILD  AgeRatingDeclarationAttributesGunsOrOtherWeapons = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesGunsOrOtherWeaponsNONE              AgeRatingDeclarationAttributesGunsOrOtherWeapons = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesGunsOrOtherWeapons enum.
+func (e AgeRatingDeclarationAttributesGunsOrOtherWeapons) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesGunsOrOtherWeaponsFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesGunsOrOtherWeaponsFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesGunsOrOtherWeaponsINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesGunsOrOtherWeaponsINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesGunsOrOtherWeaponsNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesHorrorOrFearThemes.
+const (
+	AgeRatingDeclarationAttributesHorrorOrFearThemesFREQUENT          AgeRatingDeclarationAttributesHorrorOrFearThemes = "FREQUENT"
+	AgeRatingDeclarationAttributesHorrorOrFearThemesFREQUENTORINTENSE AgeRatingDeclarationAttributesHorrorOrFearThemes = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesHorrorOrFearThemesINFREQUENT        AgeRatingDeclarationAttributesHorrorOrFearThemes = "INFREQUENT"
+	AgeRatingDeclarationAttributesHorrorOrFearThemesINFREQUENTORMILD  AgeRatingDeclarationAttributesHorrorOrFearThemes = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesHorrorOrFearThemesNONE              AgeRatingDeclarationAttributesHorrorOrFearThemes = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesHorrorOrFearThemes enum.
+func (e AgeRatingDeclarationAttributesHorrorOrFearThemes) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesHorrorOrFearThemesFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesHorrorOrFearThemesFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesHorrorOrFearThemesINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesHorrorOrFearThemesINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesHorrorOrFearThemesNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesKoreaAgeRatingOverride.
+const (
+	AgeRatingDeclarationAttributesKoreaAgeRatingOverrideALL          AgeRatingDeclarationAttributesKoreaAgeRatingOverride = "ALL"
+	AgeRatingDeclarationAttributesKoreaAgeRatingOverrideFIFTEENPLUS  AgeRatingDeclarationAttributesKoreaAgeRatingOverride = "FIFTEEN_PLUS"
+	AgeRatingDeclarationAttributesKoreaAgeRatingOverrideNINETEENPLUS AgeRatingDeclarationAttributesKoreaAgeRatingOverride = "NINETEEN_PLUS"
+	AgeRatingDeclarationAttributesKoreaAgeRatingOverrideNONE         AgeRatingDeclarationAttributesKoreaAgeRatingOverride = "NONE"
+	AgeRatingDeclarationAttributesKoreaAgeRatingOverrideTWELVEPLUS   AgeRatingDeclarationAttributesKoreaAgeRatingOverride = "TWELVE_PLUS"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesKoreaAgeRatingOverride enum.
+func (e AgeRatingDeclarationAttributesKoreaAgeRatingOverride) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesKoreaAgeRatingOverrideALL:
+		return true
+	case AgeRatingDeclarationAttributesKoreaAgeRatingOverrideFIFTEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesKoreaAgeRatingOverrideNINETEENPLUS:
+		return true
+	case AgeRatingDeclarationAttributesKoreaAgeRatingOverrideNONE:
+		return true
+	case AgeRatingDeclarationAttributesKoreaAgeRatingOverrideTWELVEPLUS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesMatureOrSuggestiveThemes.
+const (
+	AgeRatingDeclarationAttributesMatureOrSuggestiveThemesFREQUENT          AgeRatingDeclarationAttributesMatureOrSuggestiveThemes = "FREQUENT"
+	AgeRatingDeclarationAttributesMatureOrSuggestiveThemesFREQUENTORINTENSE AgeRatingDeclarationAttributesMatureOrSuggestiveThemes = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesMatureOrSuggestiveThemesINFREQUENT        AgeRatingDeclarationAttributesMatureOrSuggestiveThemes = "INFREQUENT"
+	AgeRatingDeclarationAttributesMatureOrSuggestiveThemesINFREQUENTORMILD  AgeRatingDeclarationAttributesMatureOrSuggestiveThemes = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesMatureOrSuggestiveThemesNONE              AgeRatingDeclarationAttributesMatureOrSuggestiveThemes = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesMatureOrSuggestiveThemes enum.
+func (e AgeRatingDeclarationAttributesMatureOrSuggestiveThemes) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesMatureOrSuggestiveThemesFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesMatureOrSuggestiveThemesFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesMatureOrSuggestiveThemesINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesMatureOrSuggestiveThemesINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesMatureOrSuggestiveThemesNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesMedicalOrTreatmentInformation.
+const (
+	AgeRatingDeclarationAttributesMedicalOrTreatmentInformationFREQUENT          AgeRatingDeclarationAttributesMedicalOrTreatmentInformation = "FREQUENT"
+	AgeRatingDeclarationAttributesMedicalOrTreatmentInformationFREQUENTORINTENSE AgeRatingDeclarationAttributesMedicalOrTreatmentInformation = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesMedicalOrTreatmentInformationINFREQUENT        AgeRatingDeclarationAttributesMedicalOrTreatmentInformation = "INFREQUENT"
+	AgeRatingDeclarationAttributesMedicalOrTreatmentInformationINFREQUENTORMILD  AgeRatingDeclarationAttributesMedicalOrTreatmentInformation = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesMedicalOrTreatmentInformationNONE              AgeRatingDeclarationAttributesMedicalOrTreatmentInformation = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesMedicalOrTreatmentInformation enum.
+func (e AgeRatingDeclarationAttributesMedicalOrTreatmentInformation) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesMedicalOrTreatmentInformationFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesMedicalOrTreatmentInformationFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesMedicalOrTreatmentInformationINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesMedicalOrTreatmentInformationINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesMedicalOrTreatmentInformationNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesProfanityOrCrudeHumor.
+const (
+	AgeRatingDeclarationAttributesProfanityOrCrudeHumorFREQUENT          AgeRatingDeclarationAttributesProfanityOrCrudeHumor = "FREQUENT"
+	AgeRatingDeclarationAttributesProfanityOrCrudeHumorFREQUENTORINTENSE AgeRatingDeclarationAttributesProfanityOrCrudeHumor = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesProfanityOrCrudeHumorINFREQUENT        AgeRatingDeclarationAttributesProfanityOrCrudeHumor = "INFREQUENT"
+	AgeRatingDeclarationAttributesProfanityOrCrudeHumorINFREQUENTORMILD  AgeRatingDeclarationAttributesProfanityOrCrudeHumor = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesProfanityOrCrudeHumorNONE              AgeRatingDeclarationAttributesProfanityOrCrudeHumor = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesProfanityOrCrudeHumor enum.
+func (e AgeRatingDeclarationAttributesProfanityOrCrudeHumor) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesProfanityOrCrudeHumorFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesProfanityOrCrudeHumorFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesProfanityOrCrudeHumorINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesProfanityOrCrudeHumorINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesProfanityOrCrudeHumorNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesSexualContentGraphicAndNudity.
+const (
+	AgeRatingDeclarationAttributesSexualContentGraphicAndNudityFREQUENT          AgeRatingDeclarationAttributesSexualContentGraphicAndNudity = "FREQUENT"
+	AgeRatingDeclarationAttributesSexualContentGraphicAndNudityFREQUENTORINTENSE AgeRatingDeclarationAttributesSexualContentGraphicAndNudity = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesSexualContentGraphicAndNudityINFREQUENT        AgeRatingDeclarationAttributesSexualContentGraphicAndNudity = "INFREQUENT"
+	AgeRatingDeclarationAttributesSexualContentGraphicAndNudityINFREQUENTORMILD  AgeRatingDeclarationAttributesSexualContentGraphicAndNudity = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesSexualContentGraphicAndNudityNONE              AgeRatingDeclarationAttributesSexualContentGraphicAndNudity = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesSexualContentGraphicAndNudity enum.
+func (e AgeRatingDeclarationAttributesSexualContentGraphicAndNudity) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesSexualContentGraphicAndNudityFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentGraphicAndNudityFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentGraphicAndNudityINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentGraphicAndNudityINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentGraphicAndNudityNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesSexualContentOrNudity.
+const (
+	AgeRatingDeclarationAttributesSexualContentOrNudityFREQUENT          AgeRatingDeclarationAttributesSexualContentOrNudity = "FREQUENT"
+	AgeRatingDeclarationAttributesSexualContentOrNudityFREQUENTORINTENSE AgeRatingDeclarationAttributesSexualContentOrNudity = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesSexualContentOrNudityINFREQUENT        AgeRatingDeclarationAttributesSexualContentOrNudity = "INFREQUENT"
+	AgeRatingDeclarationAttributesSexualContentOrNudityINFREQUENTORMILD  AgeRatingDeclarationAttributesSexualContentOrNudity = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesSexualContentOrNudityNONE              AgeRatingDeclarationAttributesSexualContentOrNudity = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesSexualContentOrNudity enum.
+func (e AgeRatingDeclarationAttributesSexualContentOrNudity) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesSexualContentOrNudityFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentOrNudityFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentOrNudityINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentOrNudityINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesSexualContentOrNudityNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesViolenceCartoonOrFantasy.
+const (
+	AgeRatingDeclarationAttributesViolenceCartoonOrFantasyFREQUENT          AgeRatingDeclarationAttributesViolenceCartoonOrFantasy = "FREQUENT"
+	AgeRatingDeclarationAttributesViolenceCartoonOrFantasyFREQUENTORINTENSE AgeRatingDeclarationAttributesViolenceCartoonOrFantasy = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesViolenceCartoonOrFantasyINFREQUENT        AgeRatingDeclarationAttributesViolenceCartoonOrFantasy = "INFREQUENT"
+	AgeRatingDeclarationAttributesViolenceCartoonOrFantasyINFREQUENTORMILD  AgeRatingDeclarationAttributesViolenceCartoonOrFantasy = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesViolenceCartoonOrFantasyNONE              AgeRatingDeclarationAttributesViolenceCartoonOrFantasy = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesViolenceCartoonOrFantasy enum.
+func (e AgeRatingDeclarationAttributesViolenceCartoonOrFantasy) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesViolenceCartoonOrFantasyFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesViolenceCartoonOrFantasyFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesViolenceCartoonOrFantasyINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesViolenceCartoonOrFantasyINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesViolenceCartoonOrFantasyNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesViolenceRealistic.
+const (
+	AgeRatingDeclarationAttributesViolenceRealisticFREQUENT          AgeRatingDeclarationAttributesViolenceRealistic = "FREQUENT"
+	AgeRatingDeclarationAttributesViolenceRealisticFREQUENTORINTENSE AgeRatingDeclarationAttributesViolenceRealistic = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesViolenceRealisticINFREQUENT        AgeRatingDeclarationAttributesViolenceRealistic = "INFREQUENT"
+	AgeRatingDeclarationAttributesViolenceRealisticINFREQUENTORMILD  AgeRatingDeclarationAttributesViolenceRealistic = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesViolenceRealisticNONE              AgeRatingDeclarationAttributesViolenceRealistic = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesViolenceRealistic enum.
+func (e AgeRatingDeclarationAttributesViolenceRealistic) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesViolenceRealisticFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic.
+const (
+	AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENT          AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic = "FREQUENT"
+	AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENTORINTENSE AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENT        AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic = "INFREQUENT"
+	AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENTORMILD  AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticNONE              AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic enum.
+func (e AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENT:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadisticNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationType.
+const (
+	AgeRatingDeclarationTypeAgeRatingDeclarations AgeRatingDeclarationType = "ageRatingDeclarations"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationType enum.
+func (e AgeRatingDeclarationType) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationTypeAgeRatingDeclarations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideNINEPLUS      AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride = "NINE_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideNONE          AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride = "NONE"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideSEVENTEENPLUS AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride = "SEVENTEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideSIXTEENPLUS   AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride = "SIXTEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideTHIRTEENPLUS  AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride = "THIRTEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideUNRATED       AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride = "UNRATED"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideNINEPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideNONE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideSEVENTEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideSIXTEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideTHIRTEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideUNRATED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2EIGHTEENPLUS AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 = "EIGHTEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2NINEPLUS     AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 = "NINE_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2NONE         AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 = "NONE"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2SIXTEENPLUS  AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 = "SIXTEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2THIRTEENPLUS AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 = "THIRTEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2UNRATED      AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 = "UNRATED"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2EIGHTEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2NINEPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2NONE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2SIXTEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2THIRTEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2UNRATED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesNONE              AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferencesNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesContests.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesContestsFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesContests = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesContestsFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesContests = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesContestsINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesContests = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesContestsINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesContests = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesContestsNONE              AgeRatingDeclarationUpdateRequestDataAttributesContests = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesContests enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesContests) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesContestsFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesContestsFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesContestsINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesContestsINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesContestsNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedNONE              AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulatedNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsNONE              AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeaponsNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesNONE              AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemesNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideALL          AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride = "ALL"
+	AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideFIFTEENPLUS  AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride = "FIFTEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideNINETEENPLUS AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride = "NINETEEN_PLUS"
+	AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideNONE         AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride = "NONE"
+	AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideTWELVEPLUS   AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride = "TWELVE_PLUS"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideALL:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideFIFTEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideNINETEENPLUS:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideNONE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverrideTWELVEPLUS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesNONE              AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemesNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationNONE              AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformationNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorNONE              AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumorNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityNONE              AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudityNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityNONE              AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudityNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyNONE              AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasyNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticNONE              AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic.
+const (
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENT          AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic = "FREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENTORINTENSE AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic = "FREQUENT_OR_INTENSE"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENT        AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic = "INFREQUENT"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENTORMILD  AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic = "INFREQUENT_OR_MILD"
+	AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticNONE              AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic = "NONE"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic enum.
+func (e AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticFREQUENTORINTENSE:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENT:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticINFREQUENTORMILD:
+		return true
+	case AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadisticNONE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AgeRatingDeclarationUpdateRequestDataType.
+const (
+	AgeRatingDeclarationUpdateRequestDataTypeAgeRatingDeclarations AgeRatingDeclarationUpdateRequestDataType = "ageRatingDeclarations"
+)
+
+// Valid indicates whether the value is a known member of the AgeRatingDeclarationUpdateRequestDataType enum.
+func (e AgeRatingDeclarationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AgeRatingDeclarationUpdateRequestDataTypeAgeRatingDeclarations:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AndroidToIosAppMappingDetailType.
 const (
 	AndroidToIosAppMappingDetailTypeAndroidToIosAppMappingDetails AndroidToIosAppMappingDetailType = "androidToIosAppMappingDetails"
@@ -29,6 +1016,51 @@ const (
 func (e AndroidToIosAppMappingDetailType) Valid() bool {
 	switch e {
 	case AndroidToIosAppMappingDetailTypeAndroidToIosAppMappingDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataType.
+const (
+	AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataTypeApps AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataType enum.
+func (e AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AndroidToIosAppMappingDetailCreateRequestDataType.
+const (
+	AndroidToIosAppMappingDetailCreateRequestDataTypeAndroidToIosAppMappingDetails AndroidToIosAppMappingDetailCreateRequestDataType = "androidToIosAppMappingDetails"
+)
+
+// Valid indicates whether the value is a known member of the AndroidToIosAppMappingDetailCreateRequestDataType enum.
+func (e AndroidToIosAppMappingDetailCreateRequestDataType) Valid() bool {
+	switch e {
+	case AndroidToIosAppMappingDetailCreateRequestDataTypeAndroidToIosAppMappingDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AndroidToIosAppMappingDetailUpdateRequestDataType.
+const (
+	AndroidToIosAppMappingDetailUpdateRequestDataTypeAndroidToIosAppMappingDetails AndroidToIosAppMappingDetailUpdateRequestDataType = "androidToIosAppMappingDetails"
+)
+
+// Valid indicates whether the value is a known member of the AndroidToIosAppMappingDetailUpdateRequestDataType enum.
+func (e AndroidToIosAppMappingDetailUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AndroidToIosAppMappingDetailUpdateRequestDataTypeAndroidToIosAppMappingDetails:
 		return true
 	default:
 		return false
@@ -452,6 +1484,51 @@ const (
 func (e AppBetaTestersLinkagesRequestDataType) Valid() bool {
 	switch e {
 	case AppBetaTestersLinkagesRequestDataTypeBetaTesters:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCategoryRelationshipsParentDataType.
+const (
+	AppCategoryRelationshipsParentDataTypeAppCategories AppCategoryRelationshipsParentDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppCategoryRelationshipsParentDataType enum.
+func (e AppCategoryRelationshipsParentDataType) Valid() bool {
+	switch e {
+	case AppCategoryRelationshipsParentDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCategoryRelationshipsSubcategoriesDataType.
+const (
+	AppCategoryRelationshipsSubcategoriesDataTypeAppCategories AppCategoryRelationshipsSubcategoriesDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppCategoryRelationshipsSubcategoriesDataType enum.
+func (e AppCategoryRelationshipsSubcategoriesDataType) Valid() bool {
+	switch e {
+	case AppCategoryRelationshipsSubcategoriesDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCategoryType.
+const (
+	AppCategoryTypeAppCategories AppCategoryType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppCategoryType enum.
+func (e AppCategoryType) Valid() bool {
+	switch e {
+	case AppCategoryTypeAppCategories:
 		return true
 	default:
 		return false
@@ -1085,6 +2162,186 @@ func (e AppInfoType) Valid() bool {
 	}
 }
 
+// Defines values for AppInfoLocalizationRelationshipsAppInfoDataType.
+const (
+	AppInfoLocalizationRelationshipsAppInfoDataTypeAppInfos AppInfoLocalizationRelationshipsAppInfoDataType = "appInfos"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoLocalizationRelationshipsAppInfoDataType enum.
+func (e AppInfoLocalizationRelationshipsAppInfoDataType) Valid() bool {
+	switch e {
+	case AppInfoLocalizationRelationshipsAppInfoDataTypeAppInfos:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoLocalizationType.
+const (
+	AppInfoLocalizationTypeAppInfoLocalizations AppInfoLocalizationType = "appInfoLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoLocalizationType enum.
+func (e AppInfoLocalizationType) Valid() bool {
+	switch e {
+	case AppInfoLocalizationTypeAppInfoLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataType.
+const (
+	AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataTypeAppInfos AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataType = "appInfos"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataType enum.
+func (e AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataType) Valid() bool {
+	switch e {
+	case AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataTypeAppInfos:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoLocalizationCreateRequestDataType.
+const (
+	AppInfoLocalizationCreateRequestDataTypeAppInfoLocalizations AppInfoLocalizationCreateRequestDataType = "appInfoLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoLocalizationCreateRequestDataType enum.
+func (e AppInfoLocalizationCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppInfoLocalizationCreateRequestDataTypeAppInfoLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoLocalizationUpdateRequestDataType.
+const (
+	AppInfoLocalizationUpdateRequestDataTypeAppInfoLocalizations AppInfoLocalizationUpdateRequestDataType = "appInfoLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoLocalizationUpdateRequestDataType enum.
+func (e AppInfoLocalizationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppInfoLocalizationUpdateRequestDataTypeAppInfoLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataType.
+const (
+	AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataTypeAppCategories AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataType enum.
+func (e AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataType) Valid() bool {
+	switch e {
+	case AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataType.
+const (
+	AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataTypeAppCategories AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataType enum.
+func (e AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataType) Valid() bool {
+	switch e {
+	case AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataType.
+const (
+	AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataTypeAppCategories AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataType enum.
+func (e AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataType) Valid() bool {
+	switch e {
+	case AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataType.
+const (
+	AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataTypeAppCategories AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataType enum.
+func (e AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataType) Valid() bool {
+	switch e {
+	case AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataType.
+const (
+	AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataTypeAppCategories AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataType enum.
+func (e AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataType) Valid() bool {
+	switch e {
+	case AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataType.
+const (
+	AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataTypeAppCategories AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataType = "appCategories"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataType enum.
+func (e AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataType) Valid() bool {
+	switch e {
+	case AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataTypeAppCategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfoUpdateRequestDataType.
+const (
+	AppInfoUpdateRequestDataTypeAppInfos AppInfoUpdateRequestDataType = "appInfos"
+)
+
+// Valid indicates whether the value is a known member of the AppInfoUpdateRequestDataType enum.
+func (e AppInfoUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppInfoUpdateRequestDataTypeAppInfos:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreAgeRating.
 const (
 	AppStoreAgeRatingALL           AppStoreAgeRating = "ALL"
@@ -1586,6 +2843,84 @@ func (e AppStoreVersionState) Valid() bool {
 	case AppStoreVersionStateWAITINGFOREXPORTCOMPLIANCE:
 		return true
 	case AppStoreVersionStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppTagRelationshipsTerritoriesDataType.
+const (
+	AppTagRelationshipsTerritoriesDataTypeTerritories AppTagRelationshipsTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the AppTagRelationshipsTerritoriesDataType enum.
+func (e AppTagRelationshipsTerritoriesDataType) Valid() bool {
+	switch e {
+	case AppTagRelationshipsTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppTagType.
+const (
+	AppTagTypeAppTags AppTagType = "appTags"
+)
+
+// Valid indicates whether the value is a known member of the AppTagType enum.
+func (e AppTagType) Valid() bool {
+	switch e {
+	case AppTagTypeAppTags:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppTagUpdateRequestDataType.
+const (
+	AppTagUpdateRequestDataTypeAppTags AppTagUpdateRequestDataType = "appTags"
+)
+
+// Valid indicates whether the value is a known member of the AppTagUpdateRequestDataType enum.
+func (e AppTagUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppTagUpdateRequestDataTypeAppTags:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppUpdateRequestDataAttributesContentRightsDeclaration.
+const (
+	AppUpdateRequestDataAttributesContentRightsDeclarationDOESNOTUSETHIRDPARTYCONTENT AppUpdateRequestDataAttributesContentRightsDeclaration = "DOES_NOT_USE_THIRD_PARTY_CONTENT"
+	AppUpdateRequestDataAttributesContentRightsDeclarationUSESTHIRDPARTYCONTENT       AppUpdateRequestDataAttributesContentRightsDeclaration = "USES_THIRD_PARTY_CONTENT"
+)
+
+// Valid indicates whether the value is a known member of the AppUpdateRequestDataAttributesContentRightsDeclaration enum.
+func (e AppUpdateRequestDataAttributesContentRightsDeclaration) Valid() bool {
+	switch e {
+	case AppUpdateRequestDataAttributesContentRightsDeclarationDOESNOTUSETHIRDPARTYCONTENT:
+		return true
+	case AppUpdateRequestDataAttributesContentRightsDeclarationUSESTHIRDPARTYCONTENT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppUpdateRequestDataType.
+const (
+	AppUpdateRequestDataTypeApps AppUpdateRequestDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppUpdateRequestDataType enum.
+func (e AppUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppUpdateRequestDataTypeApps:
 		return true
 	default:
 		return false
@@ -3869,6 +5204,96 @@ func (e EndUserLicenseAgreementType) Valid() bool {
 	}
 }
 
+// Defines values for EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataType.
+const (
+	EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataTypeApps EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataType enum.
+func (e EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataType.
+const (
+	EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataTypeTerritories EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataType enum.
+func (e EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataType) Valid() bool {
+	switch e {
+	case EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for EndUserLicenseAgreementCreateRequestDataType.
+const (
+	EndUserLicenseAgreementCreateRequestDataTypeEndUserLicenseAgreements EndUserLicenseAgreementCreateRequestDataType = "endUserLicenseAgreements"
+)
+
+// Valid indicates whether the value is a known member of the EndUserLicenseAgreementCreateRequestDataType enum.
+func (e EndUserLicenseAgreementCreateRequestDataType) Valid() bool {
+	switch e {
+	case EndUserLicenseAgreementCreateRequestDataTypeEndUserLicenseAgreements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for EndUserLicenseAgreementTerritoriesLinkagesResponseDataType.
+const (
+	EndUserLicenseAgreementTerritoriesLinkagesResponseDataTypeTerritories EndUserLicenseAgreementTerritoriesLinkagesResponseDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the EndUserLicenseAgreementTerritoriesLinkagesResponseDataType enum.
+func (e EndUserLicenseAgreementTerritoriesLinkagesResponseDataType) Valid() bool {
+	switch e {
+	case EndUserLicenseAgreementTerritoriesLinkagesResponseDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataType.
+const (
+	EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataTypeTerritories EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataType enum.
+func (e EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataType) Valid() bool {
+	switch e {
+	case EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for EndUserLicenseAgreementUpdateRequestDataType.
+const (
+	EndUserLicenseAgreementUpdateRequestDataTypeEndUserLicenseAgreements EndUserLicenseAgreementUpdateRequestDataType = "endUserLicenseAgreements"
+)
+
+// Valid indicates whether the value is a known member of the EndUserLicenseAgreementUpdateRequestDataType enum.
+func (e EndUserLicenseAgreementUpdateRequestDataType) Valid() bool {
+	switch e {
+	case EndUserLicenseAgreementUpdateRequestDataTypeEndUserLicenseAgreements:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for ExternalBetaState.
 const (
 	ExternalBetaStateBETAAPPROVED             ExternalBetaState = "BETA_APPROVED"
@@ -4478,6 +5903,27 @@ func (e InternalBetaState) Valid() bool {
 	case InternalBetaStatePROCESSINGEXCEPTION:
 		return true
 	case InternalBetaStateREADYFORBETATESTING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for KidsAgeBand.
+const (
+	KidsAgeBandFIVEANDUNDER KidsAgeBand = "FIVE_AND_UNDER"
+	KidsAgeBandNINETOELEVEN KidsAgeBand = "NINE_TO_ELEVEN"
+	KidsAgeBandSIXTOEIGHT   KidsAgeBand = "SIX_TO_EIGHT"
+)
+
+// Valid indicates whether the value is a known member of the KidsAgeBand enum.
+func (e KidsAgeBand) Valid() bool {
+	switch e {
+	case KidsAgeBandFIVEANDUNDER:
+		return true
+	case KidsAgeBandNINETOELEVEN:
+		return true
+	case KidsAgeBandSIXTOEIGHT:
 		return true
 	default:
 		return false
@@ -5288,6 +6734,21 @@ func (e SubscriptionStatusUrlVersion) Valid() bool {
 	}
 }
 
+// Defines values for TerritoryType.
+const (
+	TerritoryTypeTerritories TerritoryType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the TerritoryType enum.
+func (e TerritoryType) Valid() bool {
+	switch e {
+	case TerritoryTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for UserRelationshipsVisibleAppsDataType.
 const (
 	UserRelationshipsVisibleAppsDataTypeApps UserRelationshipsVisibleAppsDataType = "apps"
@@ -5483,6 +6944,348 @@ const (
 func (e UserVisibleAppsLinkagesResponseDataType) Valid() bool {
 	switch e {
 	case UserVisibleAppsLinkagesResponseDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations.
+const (
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsDeviceFamily                           AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "deviceFamily"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsState                                  AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "state"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsAudioDescriptions              AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsAudioDescriptions"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsCaptions                       AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsCaptions"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsDarkInterface                  AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsDarkInterface"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsDifferentiateWithoutColorAlone AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsDifferentiateWithoutColorAlone"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsLargerText                     AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsLargerText"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsReducedMotion                  AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsReducedMotion"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsSufficientContrast             AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsSufficientContrast"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsVoiceControl                   AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsVoiceControl"
+	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsVoiceover                      AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "supportsVoiceover"
+)
+
+// Valid indicates whether the value is a known member of the AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations enum.
+func (e AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations) Valid() bool {
+	switch e {
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsDeviceFamily:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsState:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsAudioDescriptions:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsCaptions:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsDarkInterface:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsDifferentiateWithoutColorAlone:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsLargerText:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsReducedMotion:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsSufficientContrast:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsVoiceControl:
+		return true
+	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsVoiceover:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails.
+const (
+	AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetailsAppSigningKeyPublicCertificateSha256Fingerprints AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails = "appSigningKeyPublicCertificateSha256Fingerprints"
+	AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetailsPackageName                                      AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails = "packageName"
+)
+
+// Valid indicates whether the value is a known member of the AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails enum.
+func (e AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails) Valid() bool {
+	switch e {
+	case AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetailsAppSigningKeyPublicCertificateSha256Fingerprints:
+		return true
+	case AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetailsPackageName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCategoriesGetCollectionParamsFilterPlatforms.
+const (
+	AppCategoriesGetCollectionParamsFilterPlatformsIOS      AppCategoriesGetCollectionParamsFilterPlatforms = "IOS"
+	AppCategoriesGetCollectionParamsFilterPlatformsMACOS    AppCategoriesGetCollectionParamsFilterPlatforms = "MAC_OS"
+	AppCategoriesGetCollectionParamsFilterPlatformsTVOS     AppCategoriesGetCollectionParamsFilterPlatforms = "TV_OS"
+	AppCategoriesGetCollectionParamsFilterPlatformsVISIONOS AppCategoriesGetCollectionParamsFilterPlatforms = "VISION_OS"
+)
+
+// Valid indicates whether the value is a known member of the AppCategoriesGetCollectionParamsFilterPlatforms enum.
+func (e AppCategoriesGetCollectionParamsFilterPlatforms) Valid() bool {
+	switch e {
+	case AppCategoriesGetCollectionParamsFilterPlatformsIOS:
+		return true
+	case AppCategoriesGetCollectionParamsFilterPlatformsMACOS:
+		return true
+	case AppCategoriesGetCollectionParamsFilterPlatformsTVOS:
+		return true
+	case AppCategoriesGetCollectionParamsFilterPlatformsVISIONOS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCategoriesGetCollectionParamsFieldsAppCategories.
+const (
+	AppCategoriesGetCollectionParamsFieldsAppCategoriesParent        AppCategoriesGetCollectionParamsFieldsAppCategories = "parent"
+	AppCategoriesGetCollectionParamsFieldsAppCategoriesPlatforms     AppCategoriesGetCollectionParamsFieldsAppCategories = "platforms"
+	AppCategoriesGetCollectionParamsFieldsAppCategoriesSubcategories AppCategoriesGetCollectionParamsFieldsAppCategories = "subcategories"
+)
+
+// Valid indicates whether the value is a known member of the AppCategoriesGetCollectionParamsFieldsAppCategories enum.
+func (e AppCategoriesGetCollectionParamsFieldsAppCategories) Valid() bool {
+	switch e {
+	case AppCategoriesGetCollectionParamsFieldsAppCategoriesParent:
+		return true
+	case AppCategoriesGetCollectionParamsFieldsAppCategoriesPlatforms:
+		return true
+	case AppCategoriesGetCollectionParamsFieldsAppCategoriesSubcategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCategoriesGetCollectionParamsInclude.
+const (
+	AppCategoriesGetCollectionParamsIncludeParent        AppCategoriesGetCollectionParamsInclude = "parent"
+	AppCategoriesGetCollectionParamsIncludeSubcategories AppCategoriesGetCollectionParamsInclude = "subcategories"
+)
+
+// Valid indicates whether the value is a known member of the AppCategoriesGetCollectionParamsInclude enum.
+func (e AppCategoriesGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case AppCategoriesGetCollectionParamsIncludeParent:
+		return true
+	case AppCategoriesGetCollectionParamsIncludeSubcategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations.
+const (
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAdvertising                                 AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "advertising"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAgeAssurance                                AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "ageAssurance"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverride                           AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "ageRatingOverride"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverrideV2                         AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "ageRatingOverrideV2"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAlcoholTobaccoOrDrugUseOrReferences         AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "alcoholTobaccoOrDrugUseOrReferences"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsContests                                    AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "contests"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsDeveloperAgeRatingInfoUrl                   AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "developerAgeRatingInfoUrl"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGambling                                    AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "gambling"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGamblingSimulated                           AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "gamblingSimulated"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGracRatingClassificationNumber              AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "gracRatingClassificationNumber"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGunsOrOtherWeapons                          AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "gunsOrOtherWeapons"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsHealthOrWellnessTopics                      AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "healthOrWellnessTopics"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsHorrorOrFearThemes                          AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "horrorOrFearThemes"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsKidsAgeBand                                 AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "kidsAgeBand"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsKoreaAgeRatingOverride                      AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "koreaAgeRatingOverride"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsLootBox                                     AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "lootBox"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsMatureOrSuggestiveThemes                    AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "matureOrSuggestiveThemes"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsMedicalOrTreatmentInformation               AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "medicalOrTreatmentInformation"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsMessagingAndChat                            AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "messagingAndChat"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsParentalControls                            AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "parentalControls"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsProfanityOrCrudeHumor                       AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "profanityOrCrudeHumor"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSexualContentGraphicAndNudity               AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "sexualContentGraphicAndNudity"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSexualContentOrNudity                       AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "sexualContentOrNudity"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSocialMedia                                 AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "socialMedia"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSocialMediaAgeRestricted                    AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "socialMediaAgeRestricted"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsUnrestrictedWebAccess                       AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "unrestrictedWebAccess"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsUserGeneratedContent                        AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "userGeneratedContent"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsViolenceCartoonOrFantasy                    AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "violenceCartoonOrFantasy"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsViolenceRealistic                           AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "violenceRealistic"
+	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsViolenceRealisticProlongedGraphicOrSadistic AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "violenceRealisticProlongedGraphicOrSadistic"
+)
+
+// Valid indicates whether the value is a known member of the AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations enum.
+func (e AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations) Valid() bool {
+	switch e {
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAdvertising:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAgeAssurance:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverride:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverrideV2:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAlcoholTobaccoOrDrugUseOrReferences:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsContests:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsDeveloperAgeRatingInfoUrl:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGambling:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGamblingSimulated:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGracRatingClassificationNumber:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsGunsOrOtherWeapons:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsHealthOrWellnessTopics:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsHorrorOrFearThemes:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsKidsAgeBand:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsKoreaAgeRatingOverride:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsLootBox:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsMatureOrSuggestiveThemes:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsMedicalOrTreatmentInformation:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsMessagingAndChat:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsParentalControls:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsProfanityOrCrudeHumor:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSexualContentGraphicAndNudity:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSexualContentOrNudity:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSocialMedia:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsSocialMediaAgeRestricted:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsUnrestrictedWebAccess:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsUserGeneratedContent:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsViolenceCartoonOrFantasy:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsViolenceRealistic:
+		return true
+	case AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsViolenceRealisticProlongedGraphicOrSadistic:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations.
+const (
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsAppInfo           AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations = "appInfo"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsLocale            AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations = "locale"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsName              AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations = "name"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyChoicesUrl AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations = "privacyChoicesUrl"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyText AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations = "privacyPolicyText"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyUrl  AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations = "privacyPolicyUrl"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsSubtitle          AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations = "subtitle"
+)
+
+// Valid indicates whether the value is a known member of the AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations enum.
+func (e AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations) Valid() bool {
+	switch e {
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsAppInfo:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsLocale:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsName:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyChoicesUrl:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyText:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyUrl:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizationsSubtitle:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos.
+const (
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAgeRatingDeclaration    AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "ageRatingDeclaration"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosApp                     AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "app"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAppInfoLocalizations    AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "appInfoLocalizations"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAppStoreAgeRating       AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "appStoreAgeRating"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAppStoreState           AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "appStoreState"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAustraliaAgeRating      AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "australiaAgeRating"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosBrazilAgeRating         AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "brazilAgeRating"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosBrazilAgeRatingV2       AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "brazilAgeRatingV2"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosFranceAgeRating         AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "franceAgeRating"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosKoreaAgeRating          AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "koreaAgeRating"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosPrimaryCategory         AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "primaryCategory"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryOne   AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "primarySubcategoryOne"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryTwo   AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "primarySubcategoryTwo"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosSecondaryCategory       AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "secondaryCategory"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryOne AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "secondarySubcategoryOne"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryTwo AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "secondarySubcategoryTwo"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosState                   AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "state"
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosTerritoryAgeRatings     AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos = "territoryAgeRatings"
+)
+
+// Valid indicates whether the value is a known member of the AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos enum.
+func (e AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos) Valid() bool {
+	switch e {
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAgeRatingDeclaration:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosApp:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAppInfoLocalizations:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAppStoreAgeRating:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAppStoreState:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosAustraliaAgeRating:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosBrazilAgeRating:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosBrazilAgeRatingV2:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosFranceAgeRating:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosKoreaAgeRating:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosPrimaryCategory:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryOne:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryTwo:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosSecondaryCategory:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryOne:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryTwo:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosState:
+		return true
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfosTerritoryAgeRatings:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude.
+const (
+	AppInfosAppInfoLocalizationsGetToManyRelatedParamsIncludeAppInfo AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude = "appInfo"
+)
+
+// Valid indicates whether the value is a known member of the AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude enum.
+func (e AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppInfosAppInfoLocalizationsGetToManyRelatedParamsIncludeAppInfo:
 		return true
 	default:
 		return false
@@ -8291,6 +10094,540 @@ func (e AppsGetInstanceParamsInclude) Valid() bool {
 	case AppsGetInstanceParamsIncludeSubscriptionGracePeriod:
 		return true
 	case AppsGetInstanceParamsIncludeSubscriptionGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppInfosGetToManyRelatedParamsFieldsAppInfos.
+const (
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAgeRatingDeclaration    AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "ageRatingDeclaration"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosApp                     AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "app"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAppInfoLocalizations    AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "appInfoLocalizations"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAppStoreAgeRating       AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "appStoreAgeRating"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAppStoreState           AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "appStoreState"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAustraliaAgeRating      AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "australiaAgeRating"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosBrazilAgeRating         AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "brazilAgeRating"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosBrazilAgeRatingV2       AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "brazilAgeRatingV2"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosFranceAgeRating         AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "franceAgeRating"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosKoreaAgeRating          AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "koreaAgeRating"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosPrimaryCategory         AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "primaryCategory"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryOne   AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "primarySubcategoryOne"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryTwo   AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "primarySubcategoryTwo"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosSecondaryCategory       AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "secondaryCategory"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryOne AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "secondarySubcategoryOne"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryTwo AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "secondarySubcategoryTwo"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosState                   AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "state"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfosTerritoryAgeRatings     AppsAppInfosGetToManyRelatedParamsFieldsAppInfos = "territoryAgeRatings"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppInfosGetToManyRelatedParamsFieldsAppInfos enum.
+func (e AppsAppInfosGetToManyRelatedParamsFieldsAppInfos) Valid() bool {
+	switch e {
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAgeRatingDeclaration:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosApp:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAppInfoLocalizations:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAppStoreAgeRating:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAppStoreState:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosAustraliaAgeRating:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosBrazilAgeRating:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosBrazilAgeRatingV2:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosFranceAgeRating:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosKoreaAgeRating:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosPrimaryCategory:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryOne:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosPrimarySubcategoryTwo:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosSecondaryCategory:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryOne:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosSecondarySubcategoryTwo:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosState:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfosTerritoryAgeRatings:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppInfosGetToManyRelatedParamsFieldsApps.
+const (
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations              AppsAppInfosGetToManyRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAccessibilityUrl                       AppsAppInfosGetToManyRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey             AppsAppInfosGetToManyRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests                AppsAppInfosGetToManyRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsAppInfosGetToManyRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppAvailabilityV2                      AppsAppInfosGetToManyRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppClips                               AppsAppInfosGetToManyRelatedParamsFieldsApps = "appClips"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppCustomProductPages                  AppsAppInfosGetToManyRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsAppInfosGetToManyRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppEvents                              AppsAppInfosGetToManyRelatedParamsFieldsApps = "appEvents"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppInfos                               AppsAppInfosGetToManyRelatedParamsFieldsApps = "appInfos"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppPricePoints                         AppsAppInfosGetToManyRelatedParamsFieldsApps = "appPricePoints"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppPriceSchedule                       AppsAppInfosGetToManyRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppStoreIcon                           AppsAppInfosGetToManyRelatedParamsFieldsApps = "appStoreIcon"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsAppInfosGetToManyRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppStoreVersions                       AppsAppInfosGetToManyRelatedParamsFieldsApps = "appStoreVersions"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAppTags                                AppsAppInfosGetToManyRelatedParamsFieldsApps = "appTags"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsAssetLibrary                           AppsAppInfosGetToManyRelatedParamsFieldsApps = "assetLibrary"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBackgroundAssets                       AppsAppInfosGetToManyRelatedParamsFieldsApps = "backgroundAssets"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaAppLocalizations                   AppsAppInfosGetToManyRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsAppInfosGetToManyRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsAppInfosGetToManyRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsAppInfosGetToManyRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaGroups                             AppsAppInfosGetToManyRelatedParamsFieldsApps = "betaGroups"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsAppInfosGetToManyRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaTesters                            AppsAppInfosGetToManyRelatedParamsFieldsApps = "betaTesters"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBuildUploads                           AppsAppInfosGetToManyRelatedParamsFieldsApps = "buildUploads"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBuilds                                 AppsAppInfosGetToManyRelatedParamsFieldsApps = "builds"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsBundleId                               AppsAppInfosGetToManyRelatedParamsFieldsApps = "bundleId"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsCiProduct                              AppsAppInfosGetToManyRelatedParamsFieldsApps = "ciProduct"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsContentRightsDeclaration               AppsAppInfosGetToManyRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsAppInfosGetToManyRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsCustomerReviews                        AppsAppInfosGetToManyRelatedParamsFieldsApps = "customerReviews"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsAppInfosGetToManyRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsGameCenterDetail                       AppsAppInfosGetToManyRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsAppInfosGetToManyRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsInAppPurchases                         AppsAppInfosGetToManyRelatedParamsFieldsApps = "inAppPurchases"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsInAppPurchasesV2                       AppsAppInfosGetToManyRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsAppInfosGetToManyRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsAppInfosGetToManyRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsName                                   AppsAppInfosGetToManyRelatedParamsFieldsApps = "name"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsPerfPowerMetrics                       AppsAppInfosGetToManyRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsPerformanceOverviews                   AppsAppInfosGetToManyRelatedParamsFieldsApps = "performanceOverviews"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppInfosGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsAppInfosGetToManyRelatedParamsFieldsApps = "primaryLocale"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsAppInfosGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsAppInfosGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsAppInfosGetToManyRelatedParamsFieldsApps = "searchKeywords"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSku                                    AppsAppInfosGetToManyRelatedParamsFieldsApps = "sku"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsAppInfosGetToManyRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsAppInfosGetToManyRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionGroups                     AppsAppInfosGetToManyRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsAppInfosGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsAppInfosGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsAppInfosGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsAppInfosGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsWebhooks                               AppsAppInfosGetToManyRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppInfosGetToManyRelatedParamsFieldsApps enum.
+func (e AppsAppInfosGetToManyRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsName:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSku:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations.
+const (
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAdvertising                                 AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "advertising"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAgeAssurance                                AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "ageAssurance"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverride                           AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "ageRatingOverride"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverrideV2                         AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "ageRatingOverrideV2"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAlcoholTobaccoOrDrugUseOrReferences         AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "alcoholTobaccoOrDrugUseOrReferences"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsContests                                    AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "contests"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsDeveloperAgeRatingInfoUrl                   AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "developerAgeRatingInfoUrl"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGambling                                    AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "gambling"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGamblingSimulated                           AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "gamblingSimulated"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGracRatingClassificationNumber              AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "gracRatingClassificationNumber"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGunsOrOtherWeapons                          AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "gunsOrOtherWeapons"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsHealthOrWellnessTopics                      AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "healthOrWellnessTopics"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsHorrorOrFearThemes                          AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "horrorOrFearThemes"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsKidsAgeBand                                 AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "kidsAgeBand"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsKoreaAgeRatingOverride                      AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "koreaAgeRatingOverride"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsLootBox                                     AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "lootBox"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsMatureOrSuggestiveThemes                    AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "matureOrSuggestiveThemes"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsMedicalOrTreatmentInformation               AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "medicalOrTreatmentInformation"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsMessagingAndChat                            AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "messagingAndChat"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsParentalControls                            AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "parentalControls"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsProfanityOrCrudeHumor                       AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "profanityOrCrudeHumor"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSexualContentGraphicAndNudity               AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "sexualContentGraphicAndNudity"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSexualContentOrNudity                       AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "sexualContentOrNudity"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSocialMedia                                 AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "socialMedia"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSocialMediaAgeRestricted                    AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "socialMediaAgeRestricted"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsUnrestrictedWebAccess                       AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "unrestrictedWebAccess"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsUserGeneratedContent                        AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "userGeneratedContent"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsViolenceCartoonOrFantasy                    AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "violenceCartoonOrFantasy"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsViolenceRealistic                           AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "violenceRealistic"
+	AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsViolenceRealisticProlongedGraphicOrSadistic AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations = "violenceRealisticProlongedGraphicOrSadistic"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations enum.
+func (e AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations) Valid() bool {
+	switch e {
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAdvertising:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAgeAssurance:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverride:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAgeRatingOverrideV2:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsAlcoholTobaccoOrDrugUseOrReferences:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsContests:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsDeveloperAgeRatingInfoUrl:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGambling:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGamblingSimulated:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGracRatingClassificationNumber:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsGunsOrOtherWeapons:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsHealthOrWellnessTopics:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsHorrorOrFearThemes:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsKidsAgeBand:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsKoreaAgeRatingOverride:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsLootBox:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsMatureOrSuggestiveThemes:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsMedicalOrTreatmentInformation:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsMessagingAndChat:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsParentalControls:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsProfanityOrCrudeHumor:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSexualContentGraphicAndNudity:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSexualContentOrNudity:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSocialMedia:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsSocialMediaAgeRestricted:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsUnrestrictedWebAccess:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsUserGeneratedContent:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsViolenceCartoonOrFantasy:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsViolenceRealistic:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarationsViolenceRealisticProlongedGraphicOrSadistic:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations.
+const (
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsAppInfo           AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations = "appInfo"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsLocale            AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations = "locale"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsName              AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations = "name"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyChoicesUrl AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations = "privacyChoicesUrl"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyText AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations = "privacyPolicyText"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyUrl  AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations = "privacyPolicyUrl"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsSubtitle          AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations = "subtitle"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations enum.
+func (e AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations) Valid() bool {
+	switch e {
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsAppInfo:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsLocale:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsName:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyChoicesUrl:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyText:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsPrivacyPolicyUrl:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizationsSubtitle:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppInfosGetToManyRelatedParamsFieldsAppCategories.
+const (
+	AppsAppInfosGetToManyRelatedParamsFieldsAppCategoriesParent        AppsAppInfosGetToManyRelatedParamsFieldsAppCategories = "parent"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppCategoriesPlatforms     AppsAppInfosGetToManyRelatedParamsFieldsAppCategories = "platforms"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppCategoriesSubcategories AppsAppInfosGetToManyRelatedParamsFieldsAppCategories = "subcategories"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppInfosGetToManyRelatedParamsFieldsAppCategories enum.
+func (e AppsAppInfosGetToManyRelatedParamsFieldsAppCategories) Valid() bool {
+	switch e {
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppCategoriesParent:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppCategoriesPlatforms:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppCategoriesSubcategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppInfosGetToManyRelatedParamsInclude.
+const (
+	AppsAppInfosGetToManyRelatedParamsIncludeAgeRatingDeclaration    AppsAppInfosGetToManyRelatedParamsInclude = "ageRatingDeclaration"
+	AppsAppInfosGetToManyRelatedParamsIncludeApp                     AppsAppInfosGetToManyRelatedParamsInclude = "app"
+	AppsAppInfosGetToManyRelatedParamsIncludeAppInfoLocalizations    AppsAppInfosGetToManyRelatedParamsInclude = "appInfoLocalizations"
+	AppsAppInfosGetToManyRelatedParamsIncludePrimaryCategory         AppsAppInfosGetToManyRelatedParamsInclude = "primaryCategory"
+	AppsAppInfosGetToManyRelatedParamsIncludePrimarySubcategoryOne   AppsAppInfosGetToManyRelatedParamsInclude = "primarySubcategoryOne"
+	AppsAppInfosGetToManyRelatedParamsIncludePrimarySubcategoryTwo   AppsAppInfosGetToManyRelatedParamsInclude = "primarySubcategoryTwo"
+	AppsAppInfosGetToManyRelatedParamsIncludeSecondaryCategory       AppsAppInfosGetToManyRelatedParamsInclude = "secondaryCategory"
+	AppsAppInfosGetToManyRelatedParamsIncludeSecondarySubcategoryOne AppsAppInfosGetToManyRelatedParamsInclude = "secondarySubcategoryOne"
+	AppsAppInfosGetToManyRelatedParamsIncludeSecondarySubcategoryTwo AppsAppInfosGetToManyRelatedParamsInclude = "secondarySubcategoryTwo"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppInfosGetToManyRelatedParamsInclude enum.
+func (e AppsAppInfosGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppInfosGetToManyRelatedParamsIncludeAgeRatingDeclaration:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludeApp:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludeAppInfoLocalizations:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludePrimaryCategory:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludePrimarySubcategoryOne:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludePrimarySubcategoryTwo:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludeSecondaryCategory:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludeSecondarySubcategoryOne:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsIncludeSecondarySubcategoryTwo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppTagsGetToManyRelatedParamsSort.
+const (
+	AppsAppTagsGetToManyRelatedParamsSortMinusName AppsAppTagsGetToManyRelatedParamsSort = "-name"
+	AppsAppTagsGetToManyRelatedParamsSortName      AppsAppTagsGetToManyRelatedParamsSort = "name"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppTagsGetToManyRelatedParamsSort enum.
+func (e AppsAppTagsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppsAppTagsGetToManyRelatedParamsSortMinusName:
+		return true
+	case AppsAppTagsGetToManyRelatedParamsSortName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppTagsGetToManyRelatedParamsFieldsAppTags.
+const (
+	AppsAppTagsGetToManyRelatedParamsFieldsAppTagsName              AppsAppTagsGetToManyRelatedParamsFieldsAppTags = "name"
+	AppsAppTagsGetToManyRelatedParamsFieldsAppTagsTerritories       AppsAppTagsGetToManyRelatedParamsFieldsAppTags = "territories"
+	AppsAppTagsGetToManyRelatedParamsFieldsAppTagsVisibleInAppStore AppsAppTagsGetToManyRelatedParamsFieldsAppTags = "visibleInAppStore"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppTagsGetToManyRelatedParamsFieldsAppTags enum.
+func (e AppsAppTagsGetToManyRelatedParamsFieldsAppTags) Valid() bool {
+	switch e {
+	case AppsAppTagsGetToManyRelatedParamsFieldsAppTagsName:
+		return true
+	case AppsAppTagsGetToManyRelatedParamsFieldsAppTagsTerritories:
+		return true
+	case AppsAppTagsGetToManyRelatedParamsFieldsAppTagsVisibleInAppStore:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppTagsGetToManyRelatedParamsFieldsTerritories.
+const (
+	AppsAppTagsGetToManyRelatedParamsFieldsTerritoriesCurrency AppsAppTagsGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppTagsGetToManyRelatedParamsFieldsTerritories enum.
+func (e AppsAppTagsGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case AppsAppTagsGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppTagsGetToManyRelatedParamsInclude.
+const (
+	AppsAppTagsGetToManyRelatedParamsIncludeTerritories AppsAppTagsGetToManyRelatedParamsInclude = "territories"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppTagsGetToManyRelatedParamsInclude enum.
+func (e AppsAppTagsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppTagsGetToManyRelatedParamsIncludeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements.
+const (
+	AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsAgreementText AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements = "agreementText"
+	AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsApp           AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements = "app"
+	AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsTerritories   AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements = "territories"
+)
+
+// Valid indicates whether the value is a known member of the AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements enum.
+func (e AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements) Valid() bool {
+	switch e {
+	case AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsAgreementText:
+		return true
+	case AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsApp:
+		return true
+	case AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsTerritories:
 		return true
 	default:
 		return false
@@ -16265,6 +18602,287 @@ func (e UsersGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// AccessibilityDeclaration defines model for AccessibilityDeclaration.
+type AccessibilityDeclaration struct {
+	Attributes *struct {
+		DeviceFamily                           *DeviceFamily                            `json:"deviceFamily,omitempty"`
+		State                                  *AccessibilityDeclarationAttributesState `json:"state,omitempty"`
+		SupportsAudioDescriptions              *bool                                    `json:"supportsAudioDescriptions,omitempty"`
+		SupportsCaptions                       *bool                                    `json:"supportsCaptions,omitempty"`
+		SupportsDarkInterface                  *bool                                    `json:"supportsDarkInterface,omitempty"`
+		SupportsDifferentiateWithoutColorAlone *bool                                    `json:"supportsDifferentiateWithoutColorAlone,omitempty"`
+		SupportsLargerText                     *bool                                    `json:"supportsLargerText,omitempty"`
+		SupportsReducedMotion                  *bool                                    `json:"supportsReducedMotion,omitempty"`
+		SupportsSufficientContrast             *bool                                    `json:"supportsSufficientContrast,omitempty"`
+		SupportsVoiceControl                   *bool                                    `json:"supportsVoiceControl,omitempty"`
+		SupportsVoiceover                      *bool                                    `json:"supportsVoiceover,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                       `json:"id"`
+	Links *ResourceLinks               `json:"links,omitempty"`
+	Type  AccessibilityDeclarationType `json:"type"`
+}
+
+// AccessibilityDeclarationAttributesState defines model for AccessibilityDeclaration.Attributes.State.
+type AccessibilityDeclarationAttributesState string
+
+// AccessibilityDeclarationType defines model for AccessibilityDeclaration.Type.
+type AccessibilityDeclarationType string
+
+// AccessibilityDeclarationCreateRequest defines model for AccessibilityDeclarationCreateRequest.
+type AccessibilityDeclarationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			DeviceFamily                           DeviceFamily `json:"deviceFamily"`
+			SupportsAudioDescriptions              *bool        `json:"supportsAudioDescriptions,omitempty"`
+			SupportsCaptions                       *bool        `json:"supportsCaptions,omitempty"`
+			SupportsDarkInterface                  *bool        `json:"supportsDarkInterface,omitempty"`
+			SupportsDifferentiateWithoutColorAlone *bool        `json:"supportsDifferentiateWithoutColorAlone,omitempty"`
+			SupportsLargerText                     *bool        `json:"supportsLargerText,omitempty"`
+			SupportsReducedMotion                  *bool        `json:"supportsReducedMotion,omitempty"`
+			SupportsSufficientContrast             *bool        `json:"supportsSufficientContrast,omitempty"`
+			SupportsVoiceControl                   *bool        `json:"supportsVoiceControl,omitempty"`
+			SupportsVoiceover                      *bool        `json:"supportsVoiceover,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                            `json:"id"`
+					Type AccessibilityDeclarationCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type AccessibilityDeclarationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AccessibilityDeclarationCreateRequestDataRelationshipsAppDataType defines model for AccessibilityDeclarationCreateRequest.Data.Relationships.App.Data.Type.
+type AccessibilityDeclarationCreateRequestDataRelationshipsAppDataType string
+
+// AccessibilityDeclarationCreateRequestDataType defines model for AccessibilityDeclarationCreateRequest.Data.Type.
+type AccessibilityDeclarationCreateRequestDataType string
+
+// AccessibilityDeclarationResponse defines model for AccessibilityDeclarationResponse.
+type AccessibilityDeclarationResponse struct {
+	Data  AccessibilityDeclaration `json:"data"`
+	Links DocumentLinks            `json:"links"`
+}
+
+// AccessibilityDeclarationUpdateRequest defines model for AccessibilityDeclarationUpdateRequest.
+type AccessibilityDeclarationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Publish                                *bool `json:"publish,omitempty"`
+			SupportsAudioDescriptions              *bool `json:"supportsAudioDescriptions,omitempty"`
+			SupportsCaptions                       *bool `json:"supportsCaptions,omitempty"`
+			SupportsDarkInterface                  *bool `json:"supportsDarkInterface,omitempty"`
+			SupportsDifferentiateWithoutColorAlone *bool `json:"supportsDifferentiateWithoutColorAlone,omitempty"`
+			SupportsLargerText                     *bool `json:"supportsLargerText,omitempty"`
+			SupportsReducedMotion                  *bool `json:"supportsReducedMotion,omitempty"`
+			SupportsSufficientContrast             *bool `json:"supportsSufficientContrast,omitempty"`
+			SupportsVoiceControl                   *bool `json:"supportsVoiceControl,omitempty"`
+			SupportsVoiceover                      *bool `json:"supportsVoiceover,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                        `json:"id"`
+		Type AccessibilityDeclarationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AccessibilityDeclarationUpdateRequestDataType defines model for AccessibilityDeclarationUpdateRequest.Data.Type.
+type AccessibilityDeclarationUpdateRequestDataType string
+
+// AgeRatingDeclaration defines model for AgeRatingDeclaration.
+type AgeRatingDeclaration struct {
+	Attributes *struct {
+		Advertising  *bool `json:"advertising,omitempty"`
+		AgeAssurance *bool `json:"ageAssurance,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		AgeRatingOverride                           *AgeRatingDeclarationAttributesAgeRatingOverride                           `json:"ageRatingOverride,omitempty"`
+		AgeRatingOverrideV2                         *AgeRatingDeclarationAttributesAgeRatingOverrideV2                         `json:"ageRatingOverrideV2,omitempty"`
+		AlcoholTobaccoOrDrugUseOrReferences         *AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences         `json:"alcoholTobaccoOrDrugUseOrReferences,omitempty"`
+		Contests                                    *AgeRatingDeclarationAttributesContests                                    `json:"contests,omitempty"`
+		DeveloperAgeRatingInfoUrl                   *string                                                                    `json:"developerAgeRatingInfoUrl,omitempty"`
+		Gambling                                    *bool                                                                      `json:"gambling,omitempty"`
+		GamblingSimulated                           *AgeRatingDeclarationAttributesGamblingSimulated                           `json:"gamblingSimulated,omitempty"`
+		GracRatingClassificationNumber              *string                                                                    `json:"gracRatingClassificationNumber,omitempty"`
+		GunsOrOtherWeapons                          *AgeRatingDeclarationAttributesGunsOrOtherWeapons                          `json:"gunsOrOtherWeapons,omitempty"`
+		HealthOrWellnessTopics                      *bool                                                                      `json:"healthOrWellnessTopics,omitempty"`
+		HorrorOrFearThemes                          *AgeRatingDeclarationAttributesHorrorOrFearThemes                          `json:"horrorOrFearThemes,omitempty"`
+		KidsAgeBand                                 *KidsAgeBand                                                               `json:"kidsAgeBand,omitempty"`
+		KoreaAgeRatingOverride                      *AgeRatingDeclarationAttributesKoreaAgeRatingOverride                      `json:"koreaAgeRatingOverride,omitempty"`
+		LootBox                                     *bool                                                                      `json:"lootBox,omitempty"`
+		MatureOrSuggestiveThemes                    *AgeRatingDeclarationAttributesMatureOrSuggestiveThemes                    `json:"matureOrSuggestiveThemes,omitempty"`
+		MedicalOrTreatmentInformation               *AgeRatingDeclarationAttributesMedicalOrTreatmentInformation               `json:"medicalOrTreatmentInformation,omitempty"`
+		MessagingAndChat                            *bool                                                                      `json:"messagingAndChat,omitempty"`
+		ParentalControls                            *bool                                                                      `json:"parentalControls,omitempty"`
+		ProfanityOrCrudeHumor                       *AgeRatingDeclarationAttributesProfanityOrCrudeHumor                       `json:"profanityOrCrudeHumor,omitempty"`
+		SexualContentGraphicAndNudity               *AgeRatingDeclarationAttributesSexualContentGraphicAndNudity               `json:"sexualContentGraphicAndNudity,omitempty"`
+		SexualContentOrNudity                       *AgeRatingDeclarationAttributesSexualContentOrNudity                       `json:"sexualContentOrNudity,omitempty"`
+		SocialMedia                                 *bool                                                                      `json:"socialMedia,omitempty"`
+		SocialMediaAgeRestricted                    *bool                                                                      `json:"socialMediaAgeRestricted,omitempty"`
+		UnrestrictedWebAccess                       *bool                                                                      `json:"unrestrictedWebAccess,omitempty"`
+		UserGeneratedContent                        *bool                                                                      `json:"userGeneratedContent,omitempty"`
+		ViolenceCartoonOrFantasy                    *AgeRatingDeclarationAttributesViolenceCartoonOrFantasy                    `json:"violenceCartoonOrFantasy,omitempty"`
+		ViolenceRealistic                           *AgeRatingDeclarationAttributesViolenceRealistic                           `json:"violenceRealistic,omitempty"`
+		ViolenceRealisticProlongedGraphicOrSadistic *AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic `json:"violenceRealisticProlongedGraphicOrSadistic,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                   `json:"id"`
+	Links *ResourceLinks           `json:"links,omitempty"`
+	Type  AgeRatingDeclarationType `json:"type"`
+}
+
+// AgeRatingDeclarationAttributesAgeRatingOverride defines model for AgeRatingDeclaration.Attributes.AgeRatingOverride.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type AgeRatingDeclarationAttributesAgeRatingOverride string
+
+// AgeRatingDeclarationAttributesAgeRatingOverrideV2 defines model for AgeRatingDeclaration.Attributes.AgeRatingOverrideV2.
+type AgeRatingDeclarationAttributesAgeRatingOverrideV2 string
+
+// AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences defines model for AgeRatingDeclaration.Attributes.AlcoholTobaccoOrDrugUseOrReferences.
+type AgeRatingDeclarationAttributesAlcoholTobaccoOrDrugUseOrReferences string
+
+// AgeRatingDeclarationAttributesContests defines model for AgeRatingDeclaration.Attributes.Contests.
+type AgeRatingDeclarationAttributesContests string
+
+// AgeRatingDeclarationAttributesGamblingSimulated defines model for AgeRatingDeclaration.Attributes.GamblingSimulated.
+type AgeRatingDeclarationAttributesGamblingSimulated string
+
+// AgeRatingDeclarationAttributesGunsOrOtherWeapons defines model for AgeRatingDeclaration.Attributes.GunsOrOtherWeapons.
+type AgeRatingDeclarationAttributesGunsOrOtherWeapons string
+
+// AgeRatingDeclarationAttributesHorrorOrFearThemes defines model for AgeRatingDeclaration.Attributes.HorrorOrFearThemes.
+type AgeRatingDeclarationAttributesHorrorOrFearThemes string
+
+// AgeRatingDeclarationAttributesKoreaAgeRatingOverride defines model for AgeRatingDeclaration.Attributes.KoreaAgeRatingOverride.
+type AgeRatingDeclarationAttributesKoreaAgeRatingOverride string
+
+// AgeRatingDeclarationAttributesMatureOrSuggestiveThemes defines model for AgeRatingDeclaration.Attributes.MatureOrSuggestiveThemes.
+type AgeRatingDeclarationAttributesMatureOrSuggestiveThemes string
+
+// AgeRatingDeclarationAttributesMedicalOrTreatmentInformation defines model for AgeRatingDeclaration.Attributes.MedicalOrTreatmentInformation.
+type AgeRatingDeclarationAttributesMedicalOrTreatmentInformation string
+
+// AgeRatingDeclarationAttributesProfanityOrCrudeHumor defines model for AgeRatingDeclaration.Attributes.ProfanityOrCrudeHumor.
+type AgeRatingDeclarationAttributesProfanityOrCrudeHumor string
+
+// AgeRatingDeclarationAttributesSexualContentGraphicAndNudity defines model for AgeRatingDeclaration.Attributes.SexualContentGraphicAndNudity.
+type AgeRatingDeclarationAttributesSexualContentGraphicAndNudity string
+
+// AgeRatingDeclarationAttributesSexualContentOrNudity defines model for AgeRatingDeclaration.Attributes.SexualContentOrNudity.
+type AgeRatingDeclarationAttributesSexualContentOrNudity string
+
+// AgeRatingDeclarationAttributesViolenceCartoonOrFantasy defines model for AgeRatingDeclaration.Attributes.ViolenceCartoonOrFantasy.
+type AgeRatingDeclarationAttributesViolenceCartoonOrFantasy string
+
+// AgeRatingDeclarationAttributesViolenceRealistic defines model for AgeRatingDeclaration.Attributes.ViolenceRealistic.
+type AgeRatingDeclarationAttributesViolenceRealistic string
+
+// AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic defines model for AgeRatingDeclaration.Attributes.ViolenceRealisticProlongedGraphicOrSadistic.
+type AgeRatingDeclarationAttributesViolenceRealisticProlongedGraphicOrSadistic string
+
+// AgeRatingDeclarationType defines model for AgeRatingDeclaration.Type.
+type AgeRatingDeclarationType string
+
+// AgeRatingDeclarationResponse defines model for AgeRatingDeclarationResponse.
+type AgeRatingDeclarationResponse struct {
+	Data  AgeRatingDeclaration `json:"data"`
+	Links DocumentLinks        `json:"links"`
+}
+
+// AgeRatingDeclarationUpdateRequest defines model for AgeRatingDeclarationUpdateRequest.
+type AgeRatingDeclarationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Advertising  *bool `json:"advertising,omitempty"`
+			AgeAssurance *bool `json:"ageAssurance,omitempty"`
+			// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+			AgeRatingOverride                           *AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride                           `json:"ageRatingOverride,omitempty"`
+			AgeRatingOverrideV2                         *AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2                         `json:"ageRatingOverrideV2,omitempty"`
+			AlcoholTobaccoOrDrugUseOrReferences         *AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences         `json:"alcoholTobaccoOrDrugUseOrReferences,omitempty"`
+			Contests                                    *AgeRatingDeclarationUpdateRequestDataAttributesContests                                    `json:"contests,omitempty"`
+			DeveloperAgeRatingInfoUrl                   *string                                                                                     `json:"developerAgeRatingInfoUrl,omitempty"`
+			Gambling                                    *bool                                                                                       `json:"gambling,omitempty"`
+			GamblingSimulated                           *AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated                           `json:"gamblingSimulated,omitempty"`
+			GracRatingClassificationNumber              *string                                                                                     `json:"gracRatingClassificationNumber,omitempty"`
+			GunsOrOtherWeapons                          *AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons                          `json:"gunsOrOtherWeapons,omitempty"`
+			HealthOrWellnessTopics                      *bool                                                                                       `json:"healthOrWellnessTopics,omitempty"`
+			HorrorOrFearThemes                          *AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes                          `json:"horrorOrFearThemes,omitempty"`
+			KidsAgeBand                                 *KidsAgeBand                                                                                `json:"kidsAgeBand,omitempty"`
+			KoreaAgeRatingOverride                      *AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride                      `json:"koreaAgeRatingOverride,omitempty"`
+			LootBox                                     *bool                                                                                       `json:"lootBox,omitempty"`
+			MatureOrSuggestiveThemes                    *AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes                    `json:"matureOrSuggestiveThemes,omitempty"`
+			MedicalOrTreatmentInformation               *AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation               `json:"medicalOrTreatmentInformation,omitempty"`
+			MessagingAndChat                            *bool                                                                                       `json:"messagingAndChat,omitempty"`
+			ParentalControls                            *bool                                                                                       `json:"parentalControls,omitempty"`
+			ProfanityOrCrudeHumor                       *AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor                       `json:"profanityOrCrudeHumor,omitempty"`
+			SexualContentGraphicAndNudity               *AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity               `json:"sexualContentGraphicAndNudity,omitempty"`
+			SexualContentOrNudity                       *AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity                       `json:"sexualContentOrNudity,omitempty"`
+			SocialMedia                                 *bool                                                                                       `json:"socialMedia,omitempty"`
+			SocialMediaAgeRestricted                    *bool                                                                                       `json:"socialMediaAgeRestricted,omitempty"`
+			UnrestrictedWebAccess                       *bool                                                                                       `json:"unrestrictedWebAccess,omitempty"`
+			UserGeneratedContent                        *bool                                                                                       `json:"userGeneratedContent,omitempty"`
+			ViolenceCartoonOrFantasy                    *AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy                    `json:"violenceCartoonOrFantasy,omitempty"`
+			ViolenceRealistic                           *AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic                           `json:"violenceRealistic,omitempty"`
+			ViolenceRealisticProlongedGraphicOrSadistic *AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic `json:"violenceRealisticProlongedGraphicOrSadistic,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                    `json:"id"`
+		Type AgeRatingDeclarationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.AgeRatingOverride.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverride string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.AgeRatingOverrideV2.
+type AgeRatingDeclarationUpdateRequestDataAttributesAgeRatingOverrideV2 string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.AlcoholTobaccoOrDrugUseOrReferences.
+type AgeRatingDeclarationUpdateRequestDataAttributesAlcoholTobaccoOrDrugUseOrReferences string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesContests defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.Contests.
+type AgeRatingDeclarationUpdateRequestDataAttributesContests string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.GamblingSimulated.
+type AgeRatingDeclarationUpdateRequestDataAttributesGamblingSimulated string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.GunsOrOtherWeapons.
+type AgeRatingDeclarationUpdateRequestDataAttributesGunsOrOtherWeapons string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.HorrorOrFearThemes.
+type AgeRatingDeclarationUpdateRequestDataAttributesHorrorOrFearThemes string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.KoreaAgeRatingOverride.
+type AgeRatingDeclarationUpdateRequestDataAttributesKoreaAgeRatingOverride string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.MatureOrSuggestiveThemes.
+type AgeRatingDeclarationUpdateRequestDataAttributesMatureOrSuggestiveThemes string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.MedicalOrTreatmentInformation.
+type AgeRatingDeclarationUpdateRequestDataAttributesMedicalOrTreatmentInformation string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.ProfanityOrCrudeHumor.
+type AgeRatingDeclarationUpdateRequestDataAttributesProfanityOrCrudeHumor string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.SexualContentGraphicAndNudity.
+type AgeRatingDeclarationUpdateRequestDataAttributesSexualContentGraphicAndNudity string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.SexualContentOrNudity.
+type AgeRatingDeclarationUpdateRequestDataAttributesSexualContentOrNudity string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.ViolenceCartoonOrFantasy.
+type AgeRatingDeclarationUpdateRequestDataAttributesViolenceCartoonOrFantasy string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.ViolenceRealistic.
+type AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealistic string
+
+// AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic defines model for AgeRatingDeclarationUpdateRequest.Data.Attributes.ViolenceRealisticProlongedGraphicOrSadistic.
+type AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGraphicOrSadistic string
+
+// AgeRatingDeclarationUpdateRequestDataType defines model for AgeRatingDeclarationUpdateRequest.Data.Type.
+type AgeRatingDeclarationUpdateRequestDataType string
+
 // AndroidToIosAppMappingDetail defines model for AndroidToIosAppMappingDetail.
 type AndroidToIosAppMappingDetail struct {
 	Attributes *struct {
@@ -16278,6 +18896,52 @@ type AndroidToIosAppMappingDetail struct {
 
 // AndroidToIosAppMappingDetailType defines model for AndroidToIosAppMappingDetail.Type.
 type AndroidToIosAppMappingDetailType string
+
+// AndroidToIosAppMappingDetailCreateRequest defines model for AndroidToIosAppMappingDetailCreateRequest.
+type AndroidToIosAppMappingDetailCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AppSigningKeyPublicCertificateSha256Fingerprints []string `json:"appSigningKeyPublicCertificateSha256Fingerprints"`
+			PackageName                                      string   `json:"packageName"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                                `json:"id"`
+					Type AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type AndroidToIosAppMappingDetailCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataType defines model for AndroidToIosAppMappingDetailCreateRequest.Data.Relationships.App.Data.Type.
+type AndroidToIosAppMappingDetailCreateRequestDataRelationshipsAppDataType string
+
+// AndroidToIosAppMappingDetailCreateRequestDataType defines model for AndroidToIosAppMappingDetailCreateRequest.Data.Type.
+type AndroidToIosAppMappingDetailCreateRequestDataType string
+
+// AndroidToIosAppMappingDetailResponse defines model for AndroidToIosAppMappingDetailResponse.
+type AndroidToIosAppMappingDetailResponse struct {
+	Data  AndroidToIosAppMappingDetail `json:"data"`
+	Links DocumentLinks                `json:"links"`
+}
+
+// AndroidToIosAppMappingDetailUpdateRequest defines model for AndroidToIosAppMappingDetailUpdateRequest.
+type AndroidToIosAppMappingDetailUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			AppSigningKeyPublicCertificateSha256Fingerprints *[]string `json:"appSigningKeyPublicCertificateSha256Fingerprints,omitempty"`
+			PackageName                                      *string   `json:"packageName,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                            `json:"id"`
+		Type AndroidToIosAppMappingDetailUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AndroidToIosAppMappingDetailUpdateRequestDataType defines model for AndroidToIosAppMappingDetailUpdateRequest.Data.Type.
+type AndroidToIosAppMappingDetailUpdateRequestDataType string
 
 // App defines model for App.
 type App struct {
@@ -16647,6 +19311,50 @@ type AppBetaTestersLinkagesRequest struct {
 // AppBetaTestersLinkagesRequestDataType defines model for AppBetaTestersLinkagesRequest.Data.Type.
 type AppBetaTestersLinkagesRequestDataType string
 
+// AppCategoriesResponse defines model for AppCategoriesResponse.
+type AppCategoriesResponse struct {
+	Data     []AppCategory      `json:"data"`
+	Included *[]AppCategory     `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
+// AppCategory defines model for AppCategory.
+type AppCategory struct {
+	Attributes *struct {
+		Platforms *[]Platform `json:"platforms,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Parent *struct {
+			Data *struct {
+				Id   string                                 `json:"id"`
+				Type AppCategoryRelationshipsParentDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"parent,omitempty"`
+		Subcategories *struct {
+			Data *[]struct {
+				Id   string                                        `json:"id"`
+				Type AppCategoryRelationshipsSubcategoriesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"subcategories,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppCategoryType `json:"type"`
+}
+
+// AppCategoryRelationshipsParentDataType defines model for AppCategory.Relationships.Parent.Data.Type.
+type AppCategoryRelationshipsParentDataType string
+
+// AppCategoryRelationshipsSubcategoriesDataType defines model for AppCategory.Relationships.Subcategories.Data.Type.
+type AppCategoryRelationshipsSubcategoriesDataType string
+
+// AppCategoryType defines model for AppCategory.Type.
+type AppCategoryType string
+
 // AppClip defines model for AppClip.
 type AppClip struct {
 	Attributes *struct {
@@ -16990,6 +19698,189 @@ type AppInfoRelationshipsSecondarySubcategoryTwoDataType string
 // AppInfoType defines model for AppInfo.Type.
 type AppInfoType string
 
+// AppInfoLocalization defines model for AppInfoLocalization.
+type AppInfoLocalization struct {
+	Attributes *struct {
+		Locale            *string `json:"locale,omitempty"`
+		Name              *string `json:"name,omitempty"`
+		PrivacyChoicesUrl *string `json:"privacyChoicesUrl,omitempty"`
+		PrivacyPolicyText *string `json:"privacyPolicyText,omitempty"`
+		PrivacyPolicyUrl  *string `json:"privacyPolicyUrl,omitempty"`
+		Subtitle          *string `json:"subtitle,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppInfo *struct {
+			Data *struct {
+				Id   string                                          `json:"id"`
+				Type AppInfoLocalizationRelationshipsAppInfoDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appInfo,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppInfoLocalizationType `json:"type"`
+}
+
+// AppInfoLocalizationRelationshipsAppInfoDataType defines model for AppInfoLocalization.Relationships.AppInfo.Data.Type.
+type AppInfoLocalizationRelationshipsAppInfoDataType string
+
+// AppInfoLocalizationType defines model for AppInfoLocalization.Type.
+type AppInfoLocalizationType string
+
+// AppInfoLocalizationCreateRequest defines model for AppInfoLocalizationCreateRequest.
+type AppInfoLocalizationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Locale            string  `json:"locale"`
+			Name              string  `json:"name"`
+			PrivacyChoicesUrl *string `json:"privacyChoicesUrl,omitempty"`
+			PrivacyPolicyText *string `json:"privacyPolicyText,omitempty"`
+			PrivacyPolicyUrl  *string `json:"privacyPolicyUrl,omitempty"`
+			Subtitle          *string `json:"subtitle,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppInfo struct {
+				Data struct {
+					Id   string                                                           `json:"id"`
+					Type AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appInfo"`
+		} `json:"relationships"`
+		Type AppInfoLocalizationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataType defines model for AppInfoLocalizationCreateRequest.Data.Relationships.AppInfo.Data.Type.
+type AppInfoLocalizationCreateRequestDataRelationshipsAppInfoDataType string
+
+// AppInfoLocalizationCreateRequestDataType defines model for AppInfoLocalizationCreateRequest.Data.Type.
+type AppInfoLocalizationCreateRequestDataType string
+
+// AppInfoLocalizationResponse defines model for AppInfoLocalizationResponse.
+type AppInfoLocalizationResponse struct {
+	Data     AppInfoLocalization `json:"data"`
+	Included *[]AppInfo          `json:"included,omitempty"`
+	Links    DocumentLinks       `json:"links"`
+}
+
+// AppInfoLocalizationUpdateRequest defines model for AppInfoLocalizationUpdateRequest.
+type AppInfoLocalizationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Name              *string `json:"name,omitempty"`
+			PrivacyChoicesUrl *string `json:"privacyChoicesUrl,omitempty"`
+			PrivacyPolicyText *string `json:"privacyPolicyText,omitempty"`
+			PrivacyPolicyUrl  *string `json:"privacyPolicyUrl,omitempty"`
+			Subtitle          *string `json:"subtitle,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                   `json:"id"`
+		Type AppInfoLocalizationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppInfoLocalizationUpdateRequestDataType defines model for AppInfoLocalizationUpdateRequest.Data.Type.
+type AppInfoLocalizationUpdateRequestDataType string
+
+// AppInfoLocalizationsResponse defines model for AppInfoLocalizationsResponse.
+type AppInfoLocalizationsResponse struct {
+	Data     []AppInfoLocalization `json:"data"`
+	Included *[]AppInfo            `json:"included,omitempty"`
+	Links    PagedDocumentLinks    `json:"links"`
+	Meta     *PagingInformation    `json:"meta,omitempty"`
+}
+
+// AppInfoResponse defines model for AppInfoResponse.
+type AppInfoResponse struct {
+	Data     AppInfo                          `json:"data"`
+	Included *[]AppInfoResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                    `json:"links"`
+}
+
+// AppInfoResponse_Included_Item defines model for AppInfoResponse.included.Item.
+type AppInfoResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppInfoUpdateRequest defines model for AppInfoUpdateRequest.
+type AppInfoUpdateRequest struct {
+	Data struct {
+		Id            string `json:"id"`
+		Relationships *struct {
+			PrimaryCategory *struct {
+				Data *struct {
+					Id   string                                                       `json:"id"`
+					Type AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"primaryCategory,omitempty"`
+			PrimarySubcategoryOne *struct {
+				Data *struct {
+					Id   string                                                             `json:"id"`
+					Type AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"primarySubcategoryOne,omitempty"`
+			PrimarySubcategoryTwo *struct {
+				Data *struct {
+					Id   string                                                             `json:"id"`
+					Type AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"primarySubcategoryTwo,omitempty"`
+			SecondaryCategory *struct {
+				Data *struct {
+					Id   string                                                         `json:"id"`
+					Type AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"secondaryCategory,omitempty"`
+			SecondarySubcategoryOne *struct {
+				Data *struct {
+					Id   string                                                               `json:"id"`
+					Type AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"secondarySubcategoryOne,omitempty"`
+			SecondarySubcategoryTwo *struct {
+				Data *struct {
+					Id   string                                                               `json:"id"`
+					Type AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"secondarySubcategoryTwo,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type AppInfoUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataType defines model for AppInfoUpdateRequest.Data.Relationships.PrimaryCategory.Data.Type.
+type AppInfoUpdateRequestDataRelationshipsPrimaryCategoryDataType string
+
+// AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataType defines model for AppInfoUpdateRequest.Data.Relationships.PrimarySubcategoryOne.Data.Type.
+type AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryOneDataType string
+
+// AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataType defines model for AppInfoUpdateRequest.Data.Relationships.PrimarySubcategoryTwo.Data.Type.
+type AppInfoUpdateRequestDataRelationshipsPrimarySubcategoryTwoDataType string
+
+// AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataType defines model for AppInfoUpdateRequest.Data.Relationships.SecondaryCategory.Data.Type.
+type AppInfoUpdateRequestDataRelationshipsSecondaryCategoryDataType string
+
+// AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataType defines model for AppInfoUpdateRequest.Data.Relationships.SecondarySubcategoryOne.Data.Type.
+type AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryOneDataType string
+
+// AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataType defines model for AppInfoUpdateRequest.Data.Relationships.SecondarySubcategoryTwo.Data.Type.
+type AppInfoUpdateRequestDataRelationshipsSecondarySubcategoryTwoDataType string
+
+// AppInfoUpdateRequestDataType defines model for AppInfoUpdateRequest.Data.Type.
+type AppInfoUpdateRequestDataType string
+
+// AppInfosResponse defines model for AppInfosResponse.
+type AppInfosResponse struct {
+	Data     []AppInfo                         `json:"data"`
+	Included *[]AppInfosResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                `json:"links"`
+	Meta     *PagingInformation                `json:"meta,omitempty"`
+}
+
+// AppInfosResponse_Included_Item defines model for AppInfosResponse.included.Item.
+type AppInfosResponse_Included_Item struct {
+	union json.RawMessage
+}
+
 // AppResponse defines model for AppResponse.
 type AppResponse struct {
 	Data     App                          `json:"data"`
@@ -17227,6 +20118,87 @@ type AppStoreVersionExperimentV2Type string
 
 // AppStoreVersionState defines model for AppStoreVersionState.
 type AppStoreVersionState string
+
+// AppTag defines model for AppTag.
+type AppTag struct {
+	Attributes *struct {
+		Name              *string `json:"name,omitempty"`
+		VisibleInAppStore *bool   `json:"visibleInAppStore,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Territories *struct {
+			Data *[]struct {
+				Id   string                                 `json:"id"`
+				Type AppTagRelationshipsTerritoriesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"territories,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppTagType `json:"type"`
+}
+
+// AppTagRelationshipsTerritoriesDataType defines model for AppTag.Relationships.Territories.Data.Type.
+type AppTagRelationshipsTerritoriesDataType string
+
+// AppTagType defines model for AppTag.Type.
+type AppTagType string
+
+// AppTagResponse defines model for AppTagResponse.
+type AppTagResponse struct {
+	Data     AppTag        `json:"data"`
+	Included *[]Territory  `json:"included,omitempty"`
+	Links    DocumentLinks `json:"links"`
+}
+
+// AppTagUpdateRequest defines model for AppTagUpdateRequest.
+type AppTagUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			VisibleInAppStore *bool `json:"visibleInAppStore,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                      `json:"id"`
+		Type AppTagUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppTagUpdateRequestDataType defines model for AppTagUpdateRequest.Data.Type.
+type AppTagUpdateRequestDataType string
+
+// AppTagsResponse defines model for AppTagsResponse.
+type AppTagsResponse struct {
+	Data     []AppTag           `json:"data"`
+	Included *[]Territory       `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
+// AppUpdateRequest defines model for AppUpdateRequest.
+type AppUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			AccessibilityUrl                       *string                                                 `json:"accessibilityUrl,omitempty"`
+			BundleId                               *string                                                 `json:"bundleId,omitempty"`
+			ContentRightsDeclaration               *AppUpdateRequestDataAttributesContentRightsDeclaration `json:"contentRightsDeclaration,omitempty"`
+			PrimaryLocale                          *string                                                 `json:"primaryLocale,omitempty"`
+			StreamlinedPurchasingEnabled           *bool                                                   `json:"streamlinedPurchasingEnabled,omitempty"`
+			SubscriptionStatusUrl                  *string                                                 `json:"subscriptionStatusUrl,omitempty"`
+			SubscriptionStatusUrlForSandbox        *string                                                 `json:"subscriptionStatusUrlForSandbox,omitempty"`
+			SubscriptionStatusUrlVersion           *SubscriptionStatusUrlVersion                           `json:"subscriptionStatusUrlVersion,omitempty"`
+			SubscriptionStatusUrlVersionForSandbox *SubscriptionStatusUrlVersion                           `json:"subscriptionStatusUrlVersionForSandbox,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                   `json:"id"`
+		Type AppUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppUpdateRequestDataAttributesContentRightsDeclaration defines model for AppUpdateRequest.Data.Attributes.ContentRightsDeclaration.
+type AppUpdateRequestDataAttributesContentRightsDeclaration string
+
+// AppUpdateRequestDataType defines model for AppUpdateRequest.Data.Type.
+type AppUpdateRequestDataType string
 
 // AppVersionState defines model for AppVersionState.
 type AppVersionState string
@@ -19030,6 +22002,95 @@ type EndUserLicenseAgreementRelationshipsTerritoriesDataType string
 // EndUserLicenseAgreementType defines model for EndUserLicenseAgreement.Type.
 type EndUserLicenseAgreementType string
 
+// EndUserLicenseAgreementCreateRequest defines model for EndUserLicenseAgreementCreateRequest.
+type EndUserLicenseAgreementCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AgreementText string `json:"agreementText"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                           `json:"id"`
+					Type EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+			Territories struct {
+				Data []struct {
+					Id   string                                                                   `json:"id"`
+					Type EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"territories"`
+		} `json:"relationships"`
+		Type EndUserLicenseAgreementCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataType defines model for EndUserLicenseAgreementCreateRequest.Data.Relationships.App.Data.Type.
+type EndUserLicenseAgreementCreateRequestDataRelationshipsAppDataType string
+
+// EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataType defines model for EndUserLicenseAgreementCreateRequest.Data.Relationships.Territories.Data.Type.
+type EndUserLicenseAgreementCreateRequestDataRelationshipsTerritoriesDataType string
+
+// EndUserLicenseAgreementCreateRequestDataType defines model for EndUserLicenseAgreementCreateRequest.Data.Type.
+type EndUserLicenseAgreementCreateRequestDataType string
+
+// EndUserLicenseAgreementResponse defines model for EndUserLicenseAgreementResponse.
+type EndUserLicenseAgreementResponse struct {
+	Data     EndUserLicenseAgreement                          `json:"data"`
+	Included *[]EndUserLicenseAgreementResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                    `json:"links"`
+}
+
+// EndUserLicenseAgreementResponse_Included_Item defines model for EndUserLicenseAgreementResponse.included.Item.
+type EndUserLicenseAgreementResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// EndUserLicenseAgreementTerritoriesLinkagesResponse defines model for EndUserLicenseAgreementTerritoriesLinkagesResponse.
+type EndUserLicenseAgreementTerritoriesLinkagesResponse struct {
+	Data []struct {
+		Id   string                                                     `json:"id"`
+		Type EndUserLicenseAgreementTerritoriesLinkagesResponseDataType `json:"type"`
+	} `json:"data"`
+	Links PagedDocumentLinks `json:"links"`
+	Meta  *PagingInformation `json:"meta,omitempty"`
+}
+
+// EndUserLicenseAgreementTerritoriesLinkagesResponseDataType defines model for EndUserLicenseAgreementTerritoriesLinkagesResponse.Data.Type.
+type EndUserLicenseAgreementTerritoriesLinkagesResponseDataType string
+
+// EndUserLicenseAgreementUpdateRequest defines model for EndUserLicenseAgreementUpdateRequest.
+type EndUserLicenseAgreementUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			AgreementText *string `json:"agreementText,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			Territories *struct {
+				Data *[]struct {
+					Id   string                                                                   `json:"id"`
+					Type EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"territories,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type EndUserLicenseAgreementUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataType defines model for EndUserLicenseAgreementUpdateRequest.Data.Relationships.Territories.Data.Type.
+type EndUserLicenseAgreementUpdateRequestDataRelationshipsTerritoriesDataType string
+
+// EndUserLicenseAgreementUpdateRequestDataType defines model for EndUserLicenseAgreementUpdateRequest.Data.Type.
+type EndUserLicenseAgreementUpdateRequestDataType string
+
+// EndUserLicenseAgreementWithoutIncludesResponse defines model for EndUserLicenseAgreementWithoutIncludesResponse.
+type EndUserLicenseAgreementWithoutIncludesResponse struct {
+	Data  EndUserLicenseAgreement `json:"data"`
+	Links DocumentLinks           `json:"links"`
+}
+
 // ErrorLinks defines model for ErrorLinks.
 type ErrorLinks struct {
 	About      *string                `json:"about,omitempty"`
@@ -19421,6 +22482,9 @@ type InAppPurchaseResourceType string
 
 // InternalBetaState defines model for InternalBetaState.
 type InternalBetaState string
+
+// KidsAgeBand defines model for KidsAgeBand.
+type KidsAgeBand string
 
 // MerchantId defines model for MerchantId.
 type MerchantId struct {
@@ -20002,6 +23066,19 @@ type SubscriptionGroupType string
 // SubscriptionStatusUrlVersion defines model for SubscriptionStatusUrlVersion.
 type SubscriptionStatusUrlVersion string
 
+// Territory defines model for Territory.
+type Territory struct {
+	Attributes *struct {
+		Currency *string `json:"currency,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string         `json:"id"`
+	Links *ResourceLinks `json:"links,omitempty"`
+	Type  TerritoryType  `json:"type"`
+}
+
+// TerritoryType defines model for Territory.Type.
+type TerritoryType string
+
 // User defines model for User.
 type User struct {
 	Attributes *struct {
@@ -20177,6 +23254,90 @@ type UsersResponse struct {
 	Links    PagedDocumentLinks `json:"links"`
 	Meta     *PagingInformation `json:"meta,omitempty"`
 }
+
+// AccessibilityDeclarationsGetInstanceParams defines parameters for AccessibilityDeclarationsGetInstance.
+type AccessibilityDeclarationsGetInstanceParams struct {
+	// FieldsAccessibilityDeclarations the fields to include for returned resources of type accessibilityDeclarations
+	FieldsAccessibilityDeclarations *[]AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations `form:"fields[accessibilityDeclarations],omitempty" json:"fields[accessibilityDeclarations],omitempty"`
+}
+
+// AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations defines parameters for AccessibilityDeclarationsGetInstance.
+type AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations string
+
+// AndroidToIosAppMappingDetailsGetInstanceParams defines parameters for AndroidToIosAppMappingDetailsGetInstance.
+type AndroidToIosAppMappingDetailsGetInstanceParams struct {
+	// FieldsAndroidToIosAppMappingDetails the fields to include for returned resources of type androidToIosAppMappingDetails
+	FieldsAndroidToIosAppMappingDetails *[]AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails `form:"fields[androidToIosAppMappingDetails],omitempty" json:"fields[androidToIosAppMappingDetails],omitempty"`
+}
+
+// AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails defines parameters for AndroidToIosAppMappingDetailsGetInstance.
+type AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails string
+
+// AppCategoriesGetCollectionParams defines parameters for AppCategoriesGetCollection.
+type AppCategoriesGetCollectionParams struct {
+	// FilterPlatforms filter by attribute 'platforms'
+	FilterPlatforms *[]AppCategoriesGetCollectionParamsFilterPlatforms `form:"filter[platforms],omitempty" json:"filter[platforms],omitempty"`
+
+	// ExistsParent filter by existence or non-existence of related 'parent'
+	ExistsParent *bool `form:"exists[parent],omitempty" json:"exists[parent],omitempty"`
+
+	// FieldsAppCategories the fields to include for returned resources of type appCategories
+	FieldsAppCategories *[]AppCategoriesGetCollectionParamsFieldsAppCategories `form:"fields[appCategories],omitempty" json:"fields[appCategories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppCategoriesGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitSubcategories maximum number of related subcategories returned (when they are included)
+	LimitSubcategories *int `form:"limit[subcategories],omitempty" json:"limit[subcategories],omitempty"`
+}
+
+// AppCategoriesGetCollectionParamsFilterPlatforms defines parameters for AppCategoriesGetCollection.
+type AppCategoriesGetCollectionParamsFilterPlatforms string
+
+// AppCategoriesGetCollectionParamsFieldsAppCategories defines parameters for AppCategoriesGetCollection.
+type AppCategoriesGetCollectionParamsFieldsAppCategories string
+
+// AppCategoriesGetCollectionParamsInclude defines parameters for AppCategoriesGetCollection.
+type AppCategoriesGetCollectionParamsInclude string
+
+// AppInfosAgeRatingDeclarationGetToOneRelatedParams defines parameters for AppInfosAgeRatingDeclarationGetToOneRelated.
+type AppInfosAgeRatingDeclarationGetToOneRelatedParams struct {
+	// FieldsAgeRatingDeclarations the fields to include for returned resources of type ageRatingDeclarations
+	FieldsAgeRatingDeclarations *[]AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations `form:"fields[ageRatingDeclarations],omitempty" json:"fields[ageRatingDeclarations],omitempty"`
+}
+
+// AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations defines parameters for AppInfosAgeRatingDeclarationGetToOneRelated.
+type AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations string
+
+// AppInfosAppInfoLocalizationsGetToManyRelatedParams defines parameters for AppInfosAppInfoLocalizationsGetToManyRelated.
+type AppInfosAppInfoLocalizationsGetToManyRelatedParams struct {
+	// FilterLocale filter by attribute 'locale'
+	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
+
+	// FieldsAppInfoLocalizations the fields to include for returned resources of type appInfoLocalizations
+	FieldsAppInfoLocalizations *[]AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations `form:"fields[appInfoLocalizations],omitempty" json:"fields[appInfoLocalizations],omitempty"`
+
+	// FieldsAppInfos the fields to include for returned resources of type appInfos
+	FieldsAppInfos *[]AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos `form:"fields[appInfos],omitempty" json:"fields[appInfos],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations defines parameters for AppInfosAppInfoLocalizationsGetToManyRelated.
+type AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfoLocalizations string
+
+// AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos defines parameters for AppInfosAppInfoLocalizationsGetToManyRelated.
+type AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos string
+
+// AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude defines parameters for AppInfosAppInfoLocalizationsGetToManyRelated.
+type AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude string
 
 // AppsGetCollectionParams defines parameters for AppsGetCollection.
 type AppsGetCollectionParams struct {
@@ -20668,6 +23829,96 @@ type AppsGetInstanceParamsFieldsAndroidToIosAppMappingDetails string
 
 // AppsGetInstanceParamsInclude defines parameters for AppsGetInstance.
 type AppsGetInstanceParamsInclude string
+
+// AppsAppInfosGetToManyRelatedParams defines parameters for AppsAppInfosGetToManyRelated.
+type AppsAppInfosGetToManyRelatedParams struct {
+	// FieldsAppInfos the fields to include for returned resources of type appInfos
+	FieldsAppInfos *[]AppsAppInfosGetToManyRelatedParamsFieldsAppInfos `form:"fields[appInfos],omitempty" json:"fields[appInfos],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsAppInfosGetToManyRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsAgeRatingDeclarations the fields to include for returned resources of type ageRatingDeclarations
+	FieldsAgeRatingDeclarations *[]AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations `form:"fields[ageRatingDeclarations],omitempty" json:"fields[ageRatingDeclarations],omitempty"`
+
+	// FieldsAppInfoLocalizations the fields to include for returned resources of type appInfoLocalizations
+	FieldsAppInfoLocalizations *[]AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations `form:"fields[appInfoLocalizations],omitempty" json:"fields[appInfoLocalizations],omitempty"`
+
+	// FieldsAppCategories the fields to include for returned resources of type appCategories
+	FieldsAppCategories *[]AppsAppInfosGetToManyRelatedParamsFieldsAppCategories `form:"fields[appCategories],omitempty" json:"fields[appCategories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppInfosGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppInfoLocalizations maximum number of related appInfoLocalizations returned (when they are included)
+	LimitAppInfoLocalizations *int `form:"limit[appInfoLocalizations],omitempty" json:"limit[appInfoLocalizations],omitempty"`
+}
+
+// AppsAppInfosGetToManyRelatedParamsFieldsAppInfos defines parameters for AppsAppInfosGetToManyRelated.
+type AppsAppInfosGetToManyRelatedParamsFieldsAppInfos string
+
+// AppsAppInfosGetToManyRelatedParamsFieldsApps defines parameters for AppsAppInfosGetToManyRelated.
+type AppsAppInfosGetToManyRelatedParamsFieldsApps string
+
+// AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations defines parameters for AppsAppInfosGetToManyRelated.
+type AppsAppInfosGetToManyRelatedParamsFieldsAgeRatingDeclarations string
+
+// AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations defines parameters for AppsAppInfosGetToManyRelated.
+type AppsAppInfosGetToManyRelatedParamsFieldsAppInfoLocalizations string
+
+// AppsAppInfosGetToManyRelatedParamsFieldsAppCategories defines parameters for AppsAppInfosGetToManyRelated.
+type AppsAppInfosGetToManyRelatedParamsFieldsAppCategories string
+
+// AppsAppInfosGetToManyRelatedParamsInclude defines parameters for AppsAppInfosGetToManyRelated.
+type AppsAppInfosGetToManyRelatedParamsInclude string
+
+// AppsAppTagsGetToManyRelatedParams defines parameters for AppsAppTagsGetToManyRelated.
+type AppsAppTagsGetToManyRelatedParams struct {
+	// FilterVisibleInAppStore filter by attribute 'visibleInAppStore'
+	FilterVisibleInAppStore *[]string `form:"filter[visibleInAppStore],omitempty" json:"filter[visibleInAppStore],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppsAppTagsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppTags the fields to include for returned resources of type appTags
+	FieldsAppTags *[]AppsAppTagsGetToManyRelatedParamsFieldsAppTags `form:"fields[appTags],omitempty" json:"fields[appTags],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]AppsAppTagsGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppTagsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitTerritories maximum number of related territories returned (when they are included)
+	LimitTerritories *int `form:"limit[territories],omitempty" json:"limit[territories],omitempty"`
+}
+
+// AppsAppTagsGetToManyRelatedParamsSort defines parameters for AppsAppTagsGetToManyRelated.
+type AppsAppTagsGetToManyRelatedParamsSort string
+
+// AppsAppTagsGetToManyRelatedParamsFieldsAppTags defines parameters for AppsAppTagsGetToManyRelated.
+type AppsAppTagsGetToManyRelatedParamsFieldsAppTags string
+
+// AppsAppTagsGetToManyRelatedParamsFieldsTerritories defines parameters for AppsAppTagsGetToManyRelated.
+type AppsAppTagsGetToManyRelatedParamsFieldsTerritories string
+
+// AppsAppTagsGetToManyRelatedParamsInclude defines parameters for AppsAppTagsGetToManyRelated.
+type AppsAppTagsGetToManyRelatedParamsInclude string
+
+// AppsEndUserLicenseAgreementGetToOneRelatedParams defines parameters for AppsEndUserLicenseAgreementGetToOneRelated.
+type AppsEndUserLicenseAgreementGetToOneRelatedParams struct {
+	// FieldsEndUserLicenseAgreements the fields to include for returned resources of type endUserLicenseAgreements
+	FieldsEndUserLicenseAgreements *[]AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements `form:"fields[endUserLicenseAgreements],omitempty" json:"fields[endUserLicenseAgreements],omitempty"`
+}
+
+// AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements defines parameters for AppsEndUserLicenseAgreementGetToOneRelated.
+type AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements string
 
 // BetaAppLocalizationsGetInstanceParams defines parameters for BetaAppLocalizationsGetInstance.
 type BetaAppLocalizationsGetInstanceParams struct {
@@ -21575,6 +24826,12 @@ type DevicesGetInstanceParams struct {
 // DevicesGetInstanceParamsFieldsDevices defines parameters for DevicesGetInstance.
 type DevicesGetInstanceParamsFieldsDevices string
 
+// EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams defines parameters for EndUserLicenseAgreementsTerritoriesGetToManyRelationship.
+type EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams struct {
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
 // MerchantIdsGetCollectionParams defines parameters for MerchantIdsGetCollection.
 type MerchantIdsGetCollectionParams struct {
 	// FilterName filter by attribute 'name'
@@ -22103,6 +25360,36 @@ type UsersVisibleAppsGetToManyRelationshipParams struct {
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
+// AccessibilityDeclarationsCreateInstanceJSONRequestBody defines body for AccessibilityDeclarationsCreateInstance for application/json ContentType.
+type AccessibilityDeclarationsCreateInstanceJSONRequestBody = AccessibilityDeclarationCreateRequest
+
+// AccessibilityDeclarationsUpdateInstanceJSONRequestBody defines body for AccessibilityDeclarationsUpdateInstance for application/json ContentType.
+type AccessibilityDeclarationsUpdateInstanceJSONRequestBody = AccessibilityDeclarationUpdateRequest
+
+// AgeRatingDeclarationsUpdateInstanceJSONRequestBody defines body for AgeRatingDeclarationsUpdateInstance for application/json ContentType.
+type AgeRatingDeclarationsUpdateInstanceJSONRequestBody = AgeRatingDeclarationUpdateRequest
+
+// AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody defines body for AndroidToIosAppMappingDetailsCreateInstance for application/json ContentType.
+type AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody = AndroidToIosAppMappingDetailCreateRequest
+
+// AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody defines body for AndroidToIosAppMappingDetailsUpdateInstance for application/json ContentType.
+type AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody = AndroidToIosAppMappingDetailUpdateRequest
+
+// AppInfoLocalizationsCreateInstanceJSONRequestBody defines body for AppInfoLocalizationsCreateInstance for application/json ContentType.
+type AppInfoLocalizationsCreateInstanceJSONRequestBody = AppInfoLocalizationCreateRequest
+
+// AppInfoLocalizationsUpdateInstanceJSONRequestBody defines body for AppInfoLocalizationsUpdateInstance for application/json ContentType.
+type AppInfoLocalizationsUpdateInstanceJSONRequestBody = AppInfoLocalizationUpdateRequest
+
+// AppInfosUpdateInstanceJSONRequestBody defines body for AppInfosUpdateInstance for application/json ContentType.
+type AppInfosUpdateInstanceJSONRequestBody = AppInfoUpdateRequest
+
+// AppTagsUpdateInstanceJSONRequestBody defines body for AppTagsUpdateInstance for application/json ContentType.
+type AppTagsUpdateInstanceJSONRequestBody = AppTagUpdateRequest
+
+// AppsUpdateInstanceJSONRequestBody defines body for AppsUpdateInstance for application/json ContentType.
+type AppsUpdateInstanceJSONRequestBody = AppUpdateRequest
+
 // AppsBetaTestersDeleteToManyRelationshipJSONRequestBody defines body for AppsBetaTestersDeleteToManyRelationship for application/json ContentType.
 type AppsBetaTestersDeleteToManyRelationshipJSONRequestBody = AppBetaTestersLinkagesRequest
 
@@ -22196,6 +25483,12 @@ type DevicesCreateInstanceJSONRequestBody = DeviceCreateRequest
 // DevicesUpdateInstanceJSONRequestBody defines body for DevicesUpdateInstance for application/json ContentType.
 type DevicesUpdateInstanceJSONRequestBody = DeviceUpdateRequest
 
+// EndUserLicenseAgreementsCreateInstanceJSONRequestBody defines body for EndUserLicenseAgreementsCreateInstance for application/json ContentType.
+type EndUserLicenseAgreementsCreateInstanceJSONRequestBody = EndUserLicenseAgreementCreateRequest
+
+// EndUserLicenseAgreementsUpdateInstanceJSONRequestBody defines body for EndUserLicenseAgreementsUpdateInstance for application/json ContentType.
+type EndUserLicenseAgreementsUpdateInstanceJSONRequestBody = EndUserLicenseAgreementUpdateRequest
+
 // MerchantIdsCreateInstanceJSONRequestBody defines body for MerchantIdsCreateInstance for application/json ContentType.
 type MerchantIdsCreateInstanceJSONRequestBody = MerchantIdCreateRequest
 
@@ -22222,6 +25515,352 @@ type UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody = UserVisibleAppsLi
 
 // UsersVisibleAppsCreateToManyRelationshipJSONRequestBody defines body for UsersVisibleAppsCreateToManyRelationship for application/json ContentType.
 type UsersVisibleAppsCreateToManyRelationshipJSONRequestBody = UserVisibleAppsLinkagesRequest
+
+// AsAgeRatingDeclaration returns the union data inside the AppInfoResponse_Included_Item as a AgeRatingDeclaration
+func (t AppInfoResponse_Included_Item) AsAgeRatingDeclaration() (AgeRatingDeclaration, error) {
+	var body AgeRatingDeclaration
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAgeRatingDeclaration overwrites any union data inside the AppInfoResponse_Included_Item as the provided AgeRatingDeclaration
+func (t *AppInfoResponse_Included_Item) FromAgeRatingDeclaration(v AgeRatingDeclaration) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ageRatingDeclarations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAgeRatingDeclaration performs a merge with any union data inside the AppInfoResponse_Included_Item, using the provided AgeRatingDeclaration
+func (t *AppInfoResponse_Included_Item) MergeAgeRatingDeclaration(v AgeRatingDeclaration) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ageRatingDeclarations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCategory returns the union data inside the AppInfoResponse_Included_Item as a AppCategory
+func (t AppInfoResponse_Included_Item) AsAppCategory() (AppCategory, error) {
+	var body AppCategory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCategory overwrites any union data inside the AppInfoResponse_Included_Item as the provided AppCategory
+func (t *AppInfoResponse_Included_Item) FromAppCategory(v AppCategory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCategories"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCategory performs a merge with any union data inside the AppInfoResponse_Included_Item, using the provided AppCategory
+func (t *AppInfoResponse_Included_Item) MergeAppCategory(v AppCategory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCategories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppInfoLocalization returns the union data inside the AppInfoResponse_Included_Item as a AppInfoLocalization
+func (t AppInfoResponse_Included_Item) AsAppInfoLocalization() (AppInfoLocalization, error) {
+	var body AppInfoLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppInfoLocalization overwrites any union data inside the AppInfoResponse_Included_Item as the provided AppInfoLocalization
+func (t *AppInfoResponse_Included_Item) FromAppInfoLocalization(v AppInfoLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appInfoLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppInfoLocalization performs a merge with any union data inside the AppInfoResponse_Included_Item, using the provided AppInfoLocalization
+func (t *AppInfoResponse_Included_Item) MergeAppInfoLocalization(v AppInfoLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appInfoLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the AppInfoResponse_Included_Item as a App
+func (t AppInfoResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppInfoResponse_Included_Item as the provided App
+func (t *AppInfoResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppInfoResponse_Included_Item, using the provided App
+func (t *AppInfoResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppInfoResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppInfoResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "ageRatingDeclarations":
+		return t.AsAgeRatingDeclaration()
+	case "appCategories":
+		return t.AsAppCategory()
+	case "appInfoLocalizations":
+		return t.AsAppInfoLocalization()
+	case "apps":
+		return t.AsApp()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppInfoResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppInfoResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAgeRatingDeclaration returns the union data inside the AppInfosResponse_Included_Item as a AgeRatingDeclaration
+func (t AppInfosResponse_Included_Item) AsAgeRatingDeclaration() (AgeRatingDeclaration, error) {
+	var body AgeRatingDeclaration
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAgeRatingDeclaration overwrites any union data inside the AppInfosResponse_Included_Item as the provided AgeRatingDeclaration
+func (t *AppInfosResponse_Included_Item) FromAgeRatingDeclaration(v AgeRatingDeclaration) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ageRatingDeclarations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAgeRatingDeclaration performs a merge with any union data inside the AppInfosResponse_Included_Item, using the provided AgeRatingDeclaration
+func (t *AppInfosResponse_Included_Item) MergeAgeRatingDeclaration(v AgeRatingDeclaration) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ageRatingDeclarations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCategory returns the union data inside the AppInfosResponse_Included_Item as a AppCategory
+func (t AppInfosResponse_Included_Item) AsAppCategory() (AppCategory, error) {
+	var body AppCategory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCategory overwrites any union data inside the AppInfosResponse_Included_Item as the provided AppCategory
+func (t *AppInfosResponse_Included_Item) FromAppCategory(v AppCategory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCategories"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCategory performs a merge with any union data inside the AppInfosResponse_Included_Item, using the provided AppCategory
+func (t *AppInfosResponse_Included_Item) MergeAppCategory(v AppCategory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCategories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppInfoLocalization returns the union data inside the AppInfosResponse_Included_Item as a AppInfoLocalization
+func (t AppInfosResponse_Included_Item) AsAppInfoLocalization() (AppInfoLocalization, error) {
+	var body AppInfoLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppInfoLocalization overwrites any union data inside the AppInfosResponse_Included_Item as the provided AppInfoLocalization
+func (t *AppInfosResponse_Included_Item) FromAppInfoLocalization(v AppInfoLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appInfoLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppInfoLocalization performs a merge with any union data inside the AppInfosResponse_Included_Item, using the provided AppInfoLocalization
+func (t *AppInfosResponse_Included_Item) MergeAppInfoLocalization(v AppInfoLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appInfoLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the AppInfosResponse_Included_Item as a App
+func (t AppInfosResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppInfosResponse_Included_Item as the provided App
+func (t *AppInfosResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppInfosResponse_Included_Item, using the provided App
+func (t *AppInfosResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppInfosResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppInfosResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "ageRatingDeclarations":
+		return t.AsAgeRatingDeclaration()
+	case "appCategories":
+		return t.AsAppCategory()
+	case "appInfoLocalizations":
+		return t.AsAppInfoLocalization()
+	case "apps":
+		return t.AsApp()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppInfosResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppInfosResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
 
 // AsAndroidToIosAppMappingDetail returns the union data inside the AppResponse_Included_Item as a AndroidToIosAppMappingDetail
 func (t AppResponse_Included_Item) AsAndroidToIosAppMappingDetail() (AndroidToIosAppMappingDetail, error) {
@@ -25825,6 +29464,107 @@ func (t *BundleIdsResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsApp returns the union data inside the EndUserLicenseAgreementResponse_Included_Item as a App
+func (t EndUserLicenseAgreementResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the EndUserLicenseAgreementResponse_Included_Item as the provided App
+func (t *EndUserLicenseAgreementResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the EndUserLicenseAgreementResponse_Included_Item, using the provided App
+func (t *EndUserLicenseAgreementResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the EndUserLicenseAgreementResponse_Included_Item as a Territory
+func (t EndUserLicenseAgreementResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the EndUserLicenseAgreementResponse_Included_Item as the provided Territory
+func (t *EndUserLicenseAgreementResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the EndUserLicenseAgreementResponse_Included_Item, using the provided Territory
+func (t *EndUserLicenseAgreementResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t EndUserLicenseAgreementResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t EndUserLicenseAgreementResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "apps":
+		return t.AsApp()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t EndUserLicenseAgreementResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *EndUserLicenseAgreementResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsErrorLinksAssociated0 returns the union data inside the ErrorLinks_Associated as a ErrorLinksAssociated0
 func (t ErrorLinks_Associated) AsErrorLinksAssociated0() (ErrorLinksAssociated0, error) {
 	var body ErrorLinksAssociated0
@@ -26398,11 +30138,124 @@ func WithRequestEditorFn(fn RequestEditorFn) ClientOption {
 // The interface specification for the client above.
 type ClientInterface interface {
 
+	// AccessibilityDeclarationsCreateInstanceWithBody performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AccessibilityDeclarationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AccessibilityDeclarationsCreateInstance performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AccessibilityDeclarationsCreateInstance(ctx context.Context, body AccessibilityDeclarationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AccessibilityDeclarationsDeleteInstance performs a DELETE /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsDeleteInstance` operationId) request.
+	AccessibilityDeclarationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AccessibilityDeclarationsGetInstance performs a GET /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsGetInstance` operationId) request.
+	AccessibilityDeclarationsGetInstance(ctx context.Context, id string, params *AccessibilityDeclarationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AccessibilityDeclarationsUpdateInstanceWithBody performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AccessibilityDeclarationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AccessibilityDeclarationsUpdateInstance performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AccessibilityDeclarationsUpdateInstance(ctx context.Context, id string, body AccessibilityDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AgeRatingDeclarationsUpdateInstanceWithBody performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AgeRatingDeclarationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AgeRatingDeclarationsUpdateInstance performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AgeRatingDeclarationsUpdateInstance(ctx context.Context, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AndroidToIosAppMappingDetailsCreateInstanceWithBody performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AndroidToIosAppMappingDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AndroidToIosAppMappingDetailsCreateInstance performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AndroidToIosAppMappingDetailsCreateInstance(ctx context.Context, body AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AndroidToIosAppMappingDetailsDeleteInstance performs a DELETE /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsDeleteInstance` operationId) request.
+	AndroidToIosAppMappingDetailsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AndroidToIosAppMappingDetailsGetInstance performs a GET /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsGetInstance` operationId) request.
+	AndroidToIosAppMappingDetailsGetInstance(ctx context.Context, id string, params *AndroidToIosAppMappingDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AndroidToIosAppMappingDetailsUpdateInstanceWithBody performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AndroidToIosAppMappingDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AndroidToIosAppMappingDetailsUpdateInstance performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AndroidToIosAppMappingDetailsUpdateInstance(ctx context.Context, id string, body AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
+	AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfoLocalizationsCreateInstanceWithBody performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppInfoLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfoLocalizationsCreateInstance performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppInfoLocalizationsCreateInstance(ctx context.Context, body AppInfoLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfoLocalizationsDeleteInstance performs a DELETE /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsDeleteInstance` operationId) request.
+	AppInfoLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfoLocalizationsUpdateInstanceWithBody performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppInfoLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfoLocalizationsUpdateInstance performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppInfoLocalizationsUpdateInstance(ctx context.Context, id string, body AppInfoLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfosUpdateInstanceWithBody performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppInfosUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfosUpdateInstance performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppInfosUpdateInstance(ctx context.Context, id string, body AppInfosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfosAgeRatingDeclarationGetToOneRelated performs a GET /v1/appInfos/{id}/ageRatingDeclaration (the `AppInfosAgeRatingDeclarationGetToOneRelated` operationId) request.
+	AppInfosAgeRatingDeclarationGetToOneRelated(ctx context.Context, id string, params *AppInfosAgeRatingDeclarationGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppInfosAppInfoLocalizationsGetToManyRelated performs a GET /v1/appInfos/{id}/appInfoLocalizations (the `AppInfosAppInfoLocalizationsGetToManyRelated` operationId) request.
+	AppInfosAppInfoLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppTagsUpdateInstanceWithBody performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppTagsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppTagsUpdateInstance performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppTagsUpdateInstance(ctx context.Context, id string, body AppTagsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsGetCollection performs a GET /v1/apps (the `AppsGetCollection` operationId) request.
 	AppsGetCollection(ctx context.Context, params *AppsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsGetInstance performs a GET /v1/apps/{id} (the `AppsGetInstance` operationId) request.
 	AppsGetInstance(ctx context.Context, id string, params *AppsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsUpdateInstanceWithBody performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsUpdateInstance performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppsUpdateInstance(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAppInfosGetToManyRelated performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
+	AppsAppInfosGetToManyRelated(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAppTagsGetToManyRelated performs a GET /v1/apps/{id}/appTags (the `AppsAppTagsGetToManyRelated` operationId) request.
+	AppsAppTagsGetToManyRelated(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsEndUserLicenseAgreementGetToOneRelated performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
+	AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsBetaTestersDeleteToManyRelationshipWithBody performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -26745,6 +30598,28 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	DevicesUpdateInstance(ctx context.Context, id string, body DevicesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// EndUserLicenseAgreementsCreateInstanceWithBody performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	EndUserLicenseAgreementsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// EndUserLicenseAgreementsCreateInstance performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	EndUserLicenseAgreementsCreateInstance(ctx context.Context, body EndUserLicenseAgreementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// EndUserLicenseAgreementsDeleteInstance performs a DELETE /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsDeleteInstance` operationId) request.
+	EndUserLicenseAgreementsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// EndUserLicenseAgreementsUpdateInstanceWithBody performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	EndUserLicenseAgreementsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// EndUserLicenseAgreementsUpdateInstance performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	EndUserLicenseAgreementsUpdateInstance(ctx context.Context, id string, body EndUserLicenseAgreementsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// EndUserLicenseAgreementsTerritoriesGetToManyRelationship performs a GET /v1/endUserLicenseAgreements/{id}/relationships/territories (the `EndUserLicenseAgreementsTerritoriesGetToManyRelationship` operationId) request.
+	EndUserLicenseAgreementsTerritoriesGetToManyRelationship(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// MerchantIdsGetCollection performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 	MerchantIdsGetCollection(ctx context.Context, params *MerchantIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -26881,6 +30756,362 @@ type ClientInterface interface {
 	UsersVisibleAppsCreateToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 }
 
+// AccessibilityDeclarationsCreateInstanceWithBody performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AccessibilityDeclarationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAccessibilityDeclarationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AccessibilityDeclarationsCreateInstance performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AccessibilityDeclarationsCreateInstance(ctx context.Context, body AccessibilityDeclarationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAccessibilityDeclarationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AccessibilityDeclarationsDeleteInstance performs a DELETE /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsDeleteInstance` operationId) request.
+func (c *Client) AccessibilityDeclarationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAccessibilityDeclarationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AccessibilityDeclarationsGetInstance performs a GET /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsGetInstance` operationId) request.
+func (c *Client) AccessibilityDeclarationsGetInstance(ctx context.Context, id string, params *AccessibilityDeclarationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAccessibilityDeclarationsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AccessibilityDeclarationsUpdateInstanceWithBody performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AccessibilityDeclarationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAccessibilityDeclarationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AccessibilityDeclarationsUpdateInstance performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AccessibilityDeclarationsUpdateInstance(ctx context.Context, id string, body AccessibilityDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAccessibilityDeclarationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AgeRatingDeclarationsUpdateInstanceWithBody performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AgeRatingDeclarationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAgeRatingDeclarationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AgeRatingDeclarationsUpdateInstance performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AgeRatingDeclarationsUpdateInstance(ctx context.Context, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAgeRatingDeclarationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AndroidToIosAppMappingDetailsCreateInstanceWithBody performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AndroidToIosAppMappingDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAndroidToIosAppMappingDetailsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AndroidToIosAppMappingDetailsCreateInstance performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AndroidToIosAppMappingDetailsCreateInstance(ctx context.Context, body AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAndroidToIosAppMappingDetailsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AndroidToIosAppMappingDetailsDeleteInstance performs a DELETE /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsDeleteInstance` operationId) request.
+func (c *Client) AndroidToIosAppMappingDetailsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAndroidToIosAppMappingDetailsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AndroidToIosAppMappingDetailsGetInstance performs a GET /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsGetInstance` operationId) request.
+func (c *Client) AndroidToIosAppMappingDetailsGetInstance(ctx context.Context, id string, params *AndroidToIosAppMappingDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAndroidToIosAppMappingDetailsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AndroidToIosAppMappingDetailsUpdateInstanceWithBody performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AndroidToIosAppMappingDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAndroidToIosAppMappingDetailsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AndroidToIosAppMappingDetailsUpdateInstance performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AndroidToIosAppMappingDetailsUpdateInstance(ctx context.Context, id string, body AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAndroidToIosAppMappingDetailsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
+func (c *Client) AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCategoriesGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfoLocalizationsCreateInstanceWithBody performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppInfoLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfoLocalizationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfoLocalizationsCreateInstance performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppInfoLocalizationsCreateInstance(ctx context.Context, body AppInfoLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfoLocalizationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfoLocalizationsDeleteInstance performs a DELETE /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsDeleteInstance` operationId) request.
+func (c *Client) AppInfoLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfoLocalizationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfoLocalizationsUpdateInstanceWithBody performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppInfoLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfoLocalizationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfoLocalizationsUpdateInstance performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppInfoLocalizationsUpdateInstance(ctx context.Context, id string, body AppInfoLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfoLocalizationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfosUpdateInstanceWithBody performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppInfosUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfosUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfosUpdateInstance performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppInfosUpdateInstance(ctx context.Context, id string, body AppInfosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfosUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfosAgeRatingDeclarationGetToOneRelated performs a GET /v1/appInfos/{id}/ageRatingDeclaration (the `AppInfosAgeRatingDeclarationGetToOneRelated` operationId) request.
+func (c *Client) AppInfosAgeRatingDeclarationGetToOneRelated(ctx context.Context, id string, params *AppInfosAgeRatingDeclarationGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfosAgeRatingDeclarationGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppInfosAppInfoLocalizationsGetToManyRelated performs a GET /v1/appInfos/{id}/appInfoLocalizations (the `AppInfosAppInfoLocalizationsGetToManyRelated` operationId) request.
+func (c *Client) AppInfosAppInfoLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppInfosAppInfoLocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppTagsUpdateInstanceWithBody performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppTagsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppTagsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppTagsUpdateInstance performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppTagsUpdateInstance(ctx context.Context, id string, body AppTagsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppTagsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppsGetCollection performs a GET /v1/apps (the `AppsGetCollection` operationId) request.
 func (c *Client) AppsGetCollection(ctx context.Context, params *AppsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsGetCollectionRequest(c.Server, params)
@@ -26897,6 +31128,73 @@ func (c *Client) AppsGetCollection(ctx context.Context, params *AppsGetCollectio
 // AppsGetInstance performs a GET /v1/apps/{id} (the `AppsGetInstance` operationId) request.
 func (c *Client) AppsGetInstance(ctx context.Context, id string, params *AppsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsUpdateInstanceWithBody performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsUpdateInstance performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppsUpdateInstance(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAppInfosGetToManyRelated performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
+func (c *Client) AppsAppInfosGetToManyRelated(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppInfosGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAppTagsGetToManyRelated performs a GET /v1/apps/{id}/appTags (the `AppsAppTagsGetToManyRelated` operationId) request.
+func (c *Client) AppsAppTagsGetToManyRelated(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppTagsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsEndUserLicenseAgreementGetToOneRelated performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
+func (c *Client) AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsEndUserLicenseAgreementGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -28178,6 +32476,88 @@ func (c *Client) DevicesUpdateInstance(ctx context.Context, id string, body Devi
 	return c.Client.Do(req)
 }
 
+// EndUserLicenseAgreementsCreateInstanceWithBody performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) EndUserLicenseAgreementsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndUserLicenseAgreementsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// EndUserLicenseAgreementsCreateInstance performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) EndUserLicenseAgreementsCreateInstance(ctx context.Context, body EndUserLicenseAgreementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndUserLicenseAgreementsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// EndUserLicenseAgreementsDeleteInstance performs a DELETE /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsDeleteInstance` operationId) request.
+func (c *Client) EndUserLicenseAgreementsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndUserLicenseAgreementsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// EndUserLicenseAgreementsUpdateInstanceWithBody performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) EndUserLicenseAgreementsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndUserLicenseAgreementsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// EndUserLicenseAgreementsUpdateInstance performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) EndUserLicenseAgreementsUpdateInstance(ctx context.Context, id string, body EndUserLicenseAgreementsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndUserLicenseAgreementsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// EndUserLicenseAgreementsTerritoriesGetToManyRelationship performs a GET /v1/endUserLicenseAgreements/{id}/relationships/territories (the `EndUserLicenseAgreementsTerritoriesGetToManyRelationship` operationId) request.
+func (c *Client) EndUserLicenseAgreementsTerritoriesGetToManyRelationship(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewEndUserLicenseAgreementsTerritoriesGetToManyRelationshipRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // MerchantIdsGetCollection performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 func (c *Client) MerchantIdsGetCollection(ctx context.Context, params *MerchantIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewMerchantIdsGetCollectionRequest(c.Server, params)
@@ -28701,6 +33081,916 @@ func (c *Client) UsersVisibleAppsCreateToManyRelationship(ctx context.Context, i
 		return nil, err
 	}
 	return c.Client.Do(req)
+}
+
+// NewAccessibilityDeclarationsCreateInstanceRequest calls the generic AccessibilityDeclarationsCreateInstance builder with application/json body
+func NewAccessibilityDeclarationsCreateInstanceRequest(server string, body AccessibilityDeclarationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAccessibilityDeclarationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAccessibilityDeclarationsCreateInstanceRequestWithBody constructs an http.Request for the AccessibilityDeclarationsCreateInstance method, with any body, and a specified content type
+func NewAccessibilityDeclarationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/accessibilityDeclarations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAccessibilityDeclarationsDeleteInstanceRequest constructs an http.Request for the AccessibilityDeclarationsDeleteInstance method
+func NewAccessibilityDeclarationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/accessibilityDeclarations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAccessibilityDeclarationsGetInstanceRequest constructs an http.Request for the AccessibilityDeclarationsGetInstance method
+func NewAccessibilityDeclarationsGetInstanceRequest(server string, id string, params *AccessibilityDeclarationsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/accessibilityDeclarations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAccessibilityDeclarations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[accessibilityDeclarations]", *params.FieldsAccessibilityDeclarations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAccessibilityDeclarationsUpdateInstanceRequest calls the generic AccessibilityDeclarationsUpdateInstance builder with application/json body
+func NewAccessibilityDeclarationsUpdateInstanceRequest(server string, id string, body AccessibilityDeclarationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAccessibilityDeclarationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAccessibilityDeclarationsUpdateInstanceRequestWithBody constructs an http.Request for the AccessibilityDeclarationsUpdateInstance method, with any body, and a specified content type
+func NewAccessibilityDeclarationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/accessibilityDeclarations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAgeRatingDeclarationsUpdateInstanceRequest calls the generic AgeRatingDeclarationsUpdateInstance builder with application/json body
+func NewAgeRatingDeclarationsUpdateInstanceRequest(server string, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAgeRatingDeclarationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAgeRatingDeclarationsUpdateInstanceRequestWithBody constructs an http.Request for the AgeRatingDeclarationsUpdateInstance method, with any body, and a specified content type
+func NewAgeRatingDeclarationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ageRatingDeclarations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAndroidToIosAppMappingDetailsCreateInstanceRequest calls the generic AndroidToIosAppMappingDetailsCreateInstance builder with application/json body
+func NewAndroidToIosAppMappingDetailsCreateInstanceRequest(server string, body AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAndroidToIosAppMappingDetailsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAndroidToIosAppMappingDetailsCreateInstanceRequestWithBody constructs an http.Request for the AndroidToIosAppMappingDetailsCreateInstance method, with any body, and a specified content type
+func NewAndroidToIosAppMappingDetailsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/androidToIosAppMappingDetails")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAndroidToIosAppMappingDetailsDeleteInstanceRequest constructs an http.Request for the AndroidToIosAppMappingDetailsDeleteInstance method
+func NewAndroidToIosAppMappingDetailsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/androidToIosAppMappingDetails/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAndroidToIosAppMappingDetailsGetInstanceRequest constructs an http.Request for the AndroidToIosAppMappingDetailsGetInstance method
+func NewAndroidToIosAppMappingDetailsGetInstanceRequest(server string, id string, params *AndroidToIosAppMappingDetailsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/androidToIosAppMappingDetails/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAndroidToIosAppMappingDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[androidToIosAppMappingDetails]", *params.FieldsAndroidToIosAppMappingDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAndroidToIosAppMappingDetailsUpdateInstanceRequest calls the generic AndroidToIosAppMappingDetailsUpdateInstance builder with application/json body
+func NewAndroidToIosAppMappingDetailsUpdateInstanceRequest(server string, id string, body AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAndroidToIosAppMappingDetailsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAndroidToIosAppMappingDetailsUpdateInstanceRequestWithBody constructs an http.Request for the AndroidToIosAppMappingDetailsUpdateInstance method, with any body, and a specified content type
+func NewAndroidToIosAppMappingDetailsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/androidToIosAppMappingDetails/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCategoriesGetCollectionRequest constructs an http.Request for the AppCategoriesGetCollection method
+func NewAppCategoriesGetCollectionRequest(server string, params *AppCategoriesGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCategories")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlatforms != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[platforms]", *params.FilterPlatforms, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.ExistsParent != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "exists[parent]", *params.ExistsParent, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "boolean", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCategories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCategories]", *params.FieldsAppCategories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitSubcategories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[subcategories]", *params.LimitSubcategories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppInfoLocalizationsCreateInstanceRequest calls the generic AppInfoLocalizationsCreateInstance builder with application/json body
+func NewAppInfoLocalizationsCreateInstanceRequest(server string, body AppInfoLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppInfoLocalizationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppInfoLocalizationsCreateInstanceRequestWithBody constructs an http.Request for the AppInfoLocalizationsCreateInstance method, with any body, and a specified content type
+func NewAppInfoLocalizationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appInfoLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppInfoLocalizationsDeleteInstanceRequest constructs an http.Request for the AppInfoLocalizationsDeleteInstance method
+func NewAppInfoLocalizationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appInfoLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppInfoLocalizationsUpdateInstanceRequest calls the generic AppInfoLocalizationsUpdateInstance builder with application/json body
+func NewAppInfoLocalizationsUpdateInstanceRequest(server string, id string, body AppInfoLocalizationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppInfoLocalizationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppInfoLocalizationsUpdateInstanceRequestWithBody constructs an http.Request for the AppInfoLocalizationsUpdateInstance method, with any body, and a specified content type
+func NewAppInfoLocalizationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appInfoLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppInfosUpdateInstanceRequest calls the generic AppInfosUpdateInstance builder with application/json body
+func NewAppInfosUpdateInstanceRequest(server string, id string, body AppInfosUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppInfosUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppInfosUpdateInstanceRequestWithBody constructs an http.Request for the AppInfosUpdateInstance method, with any body, and a specified content type
+func NewAppInfosUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appInfos/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppInfosAgeRatingDeclarationGetToOneRelatedRequest constructs an http.Request for the AppInfosAgeRatingDeclarationGetToOneRelated method
+func NewAppInfosAgeRatingDeclarationGetToOneRelatedRequest(server string, id string, params *AppInfosAgeRatingDeclarationGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appInfos/%s/ageRatingDeclaration", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAgeRatingDeclarations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ageRatingDeclarations]", *params.FieldsAgeRatingDeclarations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppInfosAppInfoLocalizationsGetToManyRelatedRequest constructs an http.Request for the AppInfosAppInfoLocalizationsGetToManyRelated method
+func NewAppInfosAppInfoLocalizationsGetToManyRelatedRequest(server string, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appInfos/%s/appInfoLocalizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppInfoLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appInfoLocalizations]", *params.FieldsAppInfoLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppInfos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appInfos]", *params.FieldsAppInfos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppTagsUpdateInstanceRequest calls the generic AppTagsUpdateInstance builder with application/json body
+func NewAppTagsUpdateInstanceRequest(server string, id string, body AppTagsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppTagsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppTagsUpdateInstanceRequestWithBody constructs an http.Request for the AppTagsUpdateInstance method, with any body, and a specified content type
+func NewAppTagsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appTags/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
 }
 
 // NewAppsGetCollectionRequest constructs an http.Request for the AppsGetCollection method
@@ -29983,6 +35273,392 @@ func NewAppsGetInstanceRequest(server string, id string, params *AppsGetInstance
 		if params.LimitSubscriptionGroups != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[subscriptionGroups]", *params.LimitSubscriptionGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsUpdateInstanceRequest calls the generic AppsUpdateInstance builder with application/json body
+func NewAppsUpdateInstanceRequest(server string, id string, body AppsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppsUpdateInstanceRequestWithBody constructs an http.Request for the AppsUpdateInstance method, with any body, and a specified content type
+func NewAppsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppsAppInfosGetToManyRelatedRequest constructs an http.Request for the AppsAppInfosGetToManyRelated method
+func NewAppsAppInfosGetToManyRelatedRequest(server string, id string, params *AppsAppInfosGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appInfos", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppInfos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appInfos]", *params.FieldsAppInfos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAgeRatingDeclarations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ageRatingDeclarations]", *params.FieldsAgeRatingDeclarations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppInfoLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appInfoLocalizations]", *params.FieldsAppInfoLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCategories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCategories]", *params.FieldsAppCategories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppInfoLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appInfoLocalizations]", *params.LimitAppInfoLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsAppTagsGetToManyRelatedRequest constructs an http.Request for the AppsAppTagsGetToManyRelated method
+func NewAppsAppTagsGetToManyRelatedRequest(server string, id string, params *AppsAppTagsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appTags", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterVisibleInAppStore != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[visibleInAppStore]", *params.FilterVisibleInAppStore, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppTags != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appTags]", *params.FieldsAppTags, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[territories]", *params.LimitTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsEndUserLicenseAgreementGetToOneRelatedRequest constructs an http.Request for the AppsEndUserLicenseAgreementGetToOneRelated method
+func NewAppsEndUserLicenseAgreementGetToOneRelatedRequest(server string, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/endUserLicenseAgreement", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsEndUserLicenseAgreements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[endUserLicenseAgreements]", *params.FieldsEndUserLicenseAgreements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -34829,6 +40505,188 @@ func NewDevicesUpdateInstanceRequestWithBody(server string, id string, contentTy
 	return req, nil
 }
 
+// NewEndUserLicenseAgreementsCreateInstanceRequest calls the generic EndUserLicenseAgreementsCreateInstance builder with application/json body
+func NewEndUserLicenseAgreementsCreateInstanceRequest(server string, body EndUserLicenseAgreementsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewEndUserLicenseAgreementsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewEndUserLicenseAgreementsCreateInstanceRequestWithBody constructs an http.Request for the EndUserLicenseAgreementsCreateInstance method, with any body, and a specified content type
+func NewEndUserLicenseAgreementsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/endUserLicenseAgreements")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewEndUserLicenseAgreementsDeleteInstanceRequest constructs an http.Request for the EndUserLicenseAgreementsDeleteInstance method
+func NewEndUserLicenseAgreementsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/endUserLicenseAgreements/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewEndUserLicenseAgreementsUpdateInstanceRequest calls the generic EndUserLicenseAgreementsUpdateInstance builder with application/json body
+func NewEndUserLicenseAgreementsUpdateInstanceRequest(server string, id string, body EndUserLicenseAgreementsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewEndUserLicenseAgreementsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewEndUserLicenseAgreementsUpdateInstanceRequestWithBody constructs an http.Request for the EndUserLicenseAgreementsUpdateInstance method, with any body, and a specified content type
+func NewEndUserLicenseAgreementsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/endUserLicenseAgreements/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewEndUserLicenseAgreementsTerritoriesGetToManyRelationshipRequest constructs an http.Request for the EndUserLicenseAgreementsTerritoriesGetToManyRelationship method
+func NewEndUserLicenseAgreementsTerritoriesGetToManyRelationshipRequest(server string, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/endUserLicenseAgreements/%s/relationships/territories", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewMerchantIdsGetCollectionRequest constructs an http.Request for the MerchantIdsGetCollection method
 func NewMerchantIdsGetCollectionRequest(server string, params *MerchantIdsGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -37401,6 +43259,136 @@ func WithBaseURL(baseURL string) ClientOption {
 // ClientWithResponsesInterface is the interface specification for the client with responses above.
 type ClientWithResponsesInterface interface {
 
+	// AccessibilityDeclarationsCreateInstanceWithBodyWithResponse performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AccessibilityDeclarationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsCreateInstanceResponse, error)
+
+	// AccessibilityDeclarationsCreateInstanceWithResponse performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AccessibilityDeclarationsCreateInstanceWithResponse(ctx context.Context, body AccessibilityDeclarationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsCreateInstanceResponse, error)
+
+	// AccessibilityDeclarationsDeleteInstanceWithResponse performs a DELETE /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AccessibilityDeclarationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsDeleteInstanceResponse, error)
+
+	// AccessibilityDeclarationsGetInstanceWithResponse performs a GET /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AccessibilityDeclarationsGetInstanceWithResponse(ctx context.Context, id string, params *AccessibilityDeclarationsGetInstanceParams, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsGetInstanceResponse, error)
+
+	// AccessibilityDeclarationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AccessibilityDeclarationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsUpdateInstanceResponse, error)
+
+	// AccessibilityDeclarationsUpdateInstanceWithResponse performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AccessibilityDeclarationsUpdateInstanceWithResponse(ctx context.Context, id string, body AccessibilityDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsUpdateInstanceResponse, error)
+
+	// AgeRatingDeclarationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AgeRatingDeclarationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AgeRatingDeclarationsUpdateInstanceResponse, error)
+
+	// AgeRatingDeclarationsUpdateInstanceWithResponse performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AgeRatingDeclarationsUpdateInstanceWithResponse(ctx context.Context, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AgeRatingDeclarationsUpdateInstanceResponse, error)
+
+	// AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsCreateInstanceResponse, error)
+
+	// AndroidToIosAppMappingDetailsCreateInstanceWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AndroidToIosAppMappingDetailsCreateInstanceWithResponse(ctx context.Context, body AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsCreateInstanceResponse, error)
+
+	// AndroidToIosAppMappingDetailsDeleteInstanceWithResponse performs a DELETE /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AndroidToIosAppMappingDetailsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsDeleteInstanceResponse, error)
+
+	// AndroidToIosAppMappingDetailsGetInstanceWithResponse performs a GET /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AndroidToIosAppMappingDetailsGetInstanceWithResponse(ctx context.Context, id string, params *AndroidToIosAppMappingDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsGetInstanceResponse, error)
+
+	// AndroidToIosAppMappingDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AndroidToIosAppMappingDetailsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsUpdateInstanceResponse, error)
+
+	// AndroidToIosAppMappingDetailsUpdateInstanceWithResponse performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AndroidToIosAppMappingDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsUpdateInstanceResponse, error)
+
+	// AppCategoriesGetCollectionWithResponse performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCategoriesGetCollectionWithResponse(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*AppCategoriesGetCollectionResponse, error)
+
+	// AppInfoLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppInfoLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsCreateInstanceResponse, error)
+
+	// AppInfoLocalizationsCreateInstanceWithResponse performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppInfoLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppInfoLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsCreateInstanceResponse, error)
+
+	// AppInfoLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppInfoLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsDeleteInstanceResponse, error)
+
+	// AppInfoLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppInfoLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsUpdateInstanceResponse, error)
+
+	// AppInfoLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppInfoLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppInfoLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsUpdateInstanceResponse, error)
+
+	// AppInfosUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppInfosUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppInfosUpdateInstanceResponse, error)
+
+	// AppInfosUpdateInstanceWithResponse performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppInfosUpdateInstanceWithResponse(ctx context.Context, id string, body AppInfosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppInfosUpdateInstanceResponse, error)
+
+	// AppInfosAgeRatingDeclarationGetToOneRelatedWithResponse performs a GET /v1/appInfos/{id}/ageRatingDeclaration (the `AppInfosAgeRatingDeclarationGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppInfosAgeRatingDeclarationGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppInfosAgeRatingDeclarationGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppInfosAgeRatingDeclarationGetToOneRelatedResponse, error)
+
+	// AppInfosAppInfoLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appInfos/{id}/appInfoLocalizations (the `AppInfosAppInfoLocalizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppInfosAppInfoLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppInfosAppInfoLocalizationsGetToManyRelatedResponse, error)
+
+	// AppTagsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppTagsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppTagsUpdateInstanceResponse, error)
+
+	// AppTagsUpdateInstanceWithResponse performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppTagsUpdateInstanceWithResponse(ctx context.Context, id string, body AppTagsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppTagsUpdateInstanceResponse, error)
+
 	// AppsGetCollectionWithResponse performs a GET /v1/apps (the `AppsGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -37410,6 +43398,31 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsGetInstanceWithResponse(ctx context.Context, id string, params *AppsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppsGetInstanceResponse, error)
+
+	// AppsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppsUpdateInstanceResponse, error)
+
+	// AppsUpdateInstanceWithResponse performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppsUpdateInstanceWithResponse(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppsUpdateInstanceResponse, error)
+
+	// AppsAppInfosGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppInfosGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppInfosGetToManyRelatedResponse, error)
+
+	// AppsAppTagsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appTags (the `AppsAppTagsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppTagsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppTagsGetToManyRelatedResponse, error)
+
+	// AppsEndUserLicenseAgreementGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsEndUserLicenseAgreementGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsEndUserLicenseAgreementGetToOneRelatedResponse, error)
 
 	// AppsBetaTestersDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -37876,6 +43889,36 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	DevicesUpdateInstanceWithResponse(ctx context.Context, id string, body DevicesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*DevicesUpdateInstanceResponse, error)
 
+	// EndUserLicenseAgreementsCreateInstanceWithBodyWithResponse performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	EndUserLicenseAgreementsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsCreateInstanceResponse, error)
+
+	// EndUserLicenseAgreementsCreateInstanceWithResponse performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	EndUserLicenseAgreementsCreateInstanceWithResponse(ctx context.Context, body EndUserLicenseAgreementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsCreateInstanceResponse, error)
+
+	// EndUserLicenseAgreementsDeleteInstanceWithResponse performs a DELETE /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	EndUserLicenseAgreementsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsDeleteInstanceResponse, error)
+
+	// EndUserLicenseAgreementsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	EndUserLicenseAgreementsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsUpdateInstanceResponse, error)
+
+	// EndUserLicenseAgreementsUpdateInstanceWithResponse performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	EndUserLicenseAgreementsUpdateInstanceWithResponse(ctx context.Context, id string, body EndUserLicenseAgreementsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsUpdateInstanceResponse, error)
+
+	// EndUserLicenseAgreementsTerritoriesGetToManyRelationshipWithResponse performs a GET /v1/endUserLicenseAgreements/{id}/relationships/territories (the `EndUserLicenseAgreementsTerritoriesGetToManyRelationship` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	EndUserLicenseAgreementsTerritoriesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse, error)
+
 	// MerchantIdsGetCollectionWithResponse performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -38072,6 +44115,1375 @@ type ClientWithResponsesInterface interface {
 	UsersVisibleAppsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersVisibleAppsCreateToManyRelationshipResponse, error)
 }
 
+type AccessibilityDeclarationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AccessibilityDeclarationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetJSON201() *AccessibilityDeclarationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AccessibilityDeclarationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AccessibilityDeclarationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AccessibilityDeclarationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AccessibilityDeclarationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AccessibilityDeclarationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AccessibilityDeclarationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AccessibilityDeclarationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AccessibilityDeclarationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AccessibilityDeclarationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AccessibilityDeclarationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AccessibilityDeclarationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AccessibilityDeclarationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AccessibilityDeclarationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AccessibilityDeclarationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AccessibilityDeclarationsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AccessibilityDeclarationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AccessibilityDeclarationsGetInstanceResponse) GetJSON200() *AccessibilityDeclarationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AccessibilityDeclarationsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AccessibilityDeclarationsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AccessibilityDeclarationsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AccessibilityDeclarationsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AccessibilityDeclarationsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AccessibilityDeclarationsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AccessibilityDeclarationsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AccessibilityDeclarationsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AccessibilityDeclarationsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AccessibilityDeclarationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AccessibilityDeclarationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON200() *AccessibilityDeclarationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AccessibilityDeclarationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AccessibilityDeclarationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AccessibilityDeclarationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AccessibilityDeclarationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AgeRatingDeclarationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AgeRatingDeclarationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON200() *AgeRatingDeclarationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AgeRatingDeclarationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AgeRatingDeclarationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AgeRatingDeclarationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AgeRatingDeclarationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AndroidToIosAppMappingDetailsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AndroidToIosAppMappingDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetJSON201() *AndroidToIosAppMappingDetailResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AndroidToIosAppMappingDetailsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AndroidToIosAppMappingDetailsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AndroidToIosAppMappingDetailsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AndroidToIosAppMappingDetailsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AndroidToIosAppMappingDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) GetJSON200() *AndroidToIosAppMappingDetailResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AndroidToIosAppMappingDetailsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AndroidToIosAppMappingDetailsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AndroidToIosAppMappingDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON200() *AndroidToIosAppMappingDetailResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCategoriesGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCategoriesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCategoriesGetCollectionResponse) GetJSON200() *AppCategoriesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCategoriesGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCategoriesGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCategoriesGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCategoriesGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCategoriesGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCategoriesGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCategoriesGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCategoriesGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppInfoLocalizationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppInfoLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppInfoLocalizationsCreateInstanceResponse) GetJSON201() *AppInfoLocalizationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppInfoLocalizationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppInfoLocalizationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppInfoLocalizationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppInfoLocalizationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppInfoLocalizationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppInfoLocalizationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppInfoLocalizationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppInfoLocalizationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppInfoLocalizationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppInfoLocalizationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppInfoLocalizationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppInfoLocalizationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppInfoLocalizationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppInfoLocalizationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppInfoLocalizationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppInfoLocalizationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppInfoLocalizationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppInfoLocalizationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppInfoLocalizationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppInfoLocalizationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppInfoLocalizationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppInfoLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON200() *AppInfoLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppInfoLocalizationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppInfoLocalizationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppInfoLocalizationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppInfoLocalizationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppInfosUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppInfoResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON200() *AppInfoResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppInfosUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppInfosUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppInfosUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppInfosUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppInfosUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppInfosAgeRatingDeclarationGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AgeRatingDeclarationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) GetJSON200() *AgeRatingDeclarationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppInfosAgeRatingDeclarationGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppInfosAppInfoLocalizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppInfoLocalizationsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) GetJSON200() *AppInfoLocalizationsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppTagsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppTagResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON200() *AppTagResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppTagsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppTagsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppTagsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppTagsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppTagsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppsGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -38211,6 +45623,324 @@ func (r AppsGetInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON200() *AppResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAppInfosGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppInfosResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppInfosGetToManyRelatedResponse) GetJSON200() *AppInfosResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppInfosGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppInfosGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppInfosGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppInfosGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppInfosGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppInfosGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppInfosGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppInfosGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppInfosGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAppTagsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppTagsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppTagsGetToManyRelatedResponse) GetJSON200() *AppTagsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppTagsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppTagsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppTagsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppTagsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppTagsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppTagsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppTagsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppTagsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppTagsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsEndUserLicenseAgreementGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *EndUserLicenseAgreementWithoutIncludesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) GetJSON200() *EndUserLicenseAgreementWithoutIncludesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -43104,6 +50834,324 @@ func (r DevicesUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type EndUserLicenseAgreementsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *EndUserLicenseAgreementResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetJSON201() *EndUserLicenseAgreementResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r EndUserLicenseAgreementsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r EndUserLicenseAgreementsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r EndUserLicenseAgreementsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r EndUserLicenseAgreementsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type EndUserLicenseAgreementsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r EndUserLicenseAgreementsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type EndUserLicenseAgreementsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *EndUserLicenseAgreementResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON200() *EndUserLicenseAgreementResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r EndUserLicenseAgreementsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *EndUserLicenseAgreementTerritoriesLinkagesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) GetJSON200() *EndUserLicenseAgreementTerritoriesLinkagesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type MerchantIdsGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -45391,6 +53439,292 @@ func (r UsersVisibleAppsCreateToManyRelationshipResponse) ContentType() string {
 	return ""
 }
 
+// AccessibilityDeclarationsCreateInstanceWithBodyWithResponse performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AccessibilityDeclarationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsCreateInstanceResponse, error) {
+	rsp, err := c.AccessibilityDeclarationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAccessibilityDeclarationsCreateInstanceResponse(rsp)
+}
+
+// AccessibilityDeclarationsCreateInstanceWithResponse performs a POST /v1/accessibilityDeclarations (the `AccessibilityDeclarationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AccessibilityDeclarationsCreateInstanceWithResponse(ctx context.Context, body AccessibilityDeclarationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsCreateInstanceResponse, error) {
+	rsp, err := c.AccessibilityDeclarationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAccessibilityDeclarationsCreateInstanceResponse(rsp)
+}
+
+// AccessibilityDeclarationsDeleteInstanceWithResponse performs a DELETE /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AccessibilityDeclarationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsDeleteInstanceResponse, error) {
+	rsp, err := c.AccessibilityDeclarationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAccessibilityDeclarationsDeleteInstanceResponse(rsp)
+}
+
+// AccessibilityDeclarationsGetInstanceWithResponse performs a GET /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AccessibilityDeclarationsGetInstanceWithResponse(ctx context.Context, id string, params *AccessibilityDeclarationsGetInstanceParams, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsGetInstanceResponse, error) {
+	rsp, err := c.AccessibilityDeclarationsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAccessibilityDeclarationsGetInstanceResponse(rsp)
+}
+
+// AccessibilityDeclarationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AccessibilityDeclarationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsUpdateInstanceResponse, error) {
+	rsp, err := c.AccessibilityDeclarationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAccessibilityDeclarationsUpdateInstanceResponse(rsp)
+}
+
+// AccessibilityDeclarationsUpdateInstanceWithResponse performs a PATCH /v1/accessibilityDeclarations/{id} (the `AccessibilityDeclarationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AccessibilityDeclarationsUpdateInstanceWithResponse(ctx context.Context, id string, body AccessibilityDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AccessibilityDeclarationsUpdateInstanceResponse, error) {
+	rsp, err := c.AccessibilityDeclarationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAccessibilityDeclarationsUpdateInstanceResponse(rsp)
+}
+
+// AgeRatingDeclarationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AgeRatingDeclarationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AgeRatingDeclarationsUpdateInstanceResponse, error) {
+	rsp, err := c.AgeRatingDeclarationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAgeRatingDeclarationsUpdateInstanceResponse(rsp)
+}
+
+// AgeRatingDeclarationsUpdateInstanceWithResponse performs a PATCH /v1/ageRatingDeclarations/{id} (the `AgeRatingDeclarationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AgeRatingDeclarationsUpdateInstanceWithResponse(ctx context.Context, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AgeRatingDeclarationsUpdateInstanceResponse, error) {
+	rsp, err := c.AgeRatingDeclarationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAgeRatingDeclarationsUpdateInstanceResponse(rsp)
+}
+
+// AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsCreateInstanceResponse, error) {
+	rsp, err := c.AndroidToIosAppMappingDetailsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAndroidToIosAppMappingDetailsCreateInstanceResponse(rsp)
+}
+
+// AndroidToIosAppMappingDetailsCreateInstanceWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AndroidToIosAppMappingDetailsCreateInstanceWithResponse(ctx context.Context, body AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsCreateInstanceResponse, error) {
+	rsp, err := c.AndroidToIosAppMappingDetailsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAndroidToIosAppMappingDetailsCreateInstanceResponse(rsp)
+}
+
+// AndroidToIosAppMappingDetailsDeleteInstanceWithResponse performs a DELETE /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AndroidToIosAppMappingDetailsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsDeleteInstanceResponse, error) {
+	rsp, err := c.AndroidToIosAppMappingDetailsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAndroidToIosAppMappingDetailsDeleteInstanceResponse(rsp)
+}
+
+// AndroidToIosAppMappingDetailsGetInstanceWithResponse performs a GET /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AndroidToIosAppMappingDetailsGetInstanceWithResponse(ctx context.Context, id string, params *AndroidToIosAppMappingDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsGetInstanceResponse, error) {
+	rsp, err := c.AndroidToIosAppMappingDetailsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAndroidToIosAppMappingDetailsGetInstanceResponse(rsp)
+}
+
+// AndroidToIosAppMappingDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AndroidToIosAppMappingDetailsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsUpdateInstanceResponse, error) {
+	rsp, err := c.AndroidToIosAppMappingDetailsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAndroidToIosAppMappingDetailsUpdateInstanceResponse(rsp)
+}
+
+// AndroidToIosAppMappingDetailsUpdateInstanceWithResponse performs a PATCH /v1/androidToIosAppMappingDetails/{id} (the `AndroidToIosAppMappingDetailsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AndroidToIosAppMappingDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsUpdateInstanceResponse, error) {
+	rsp, err := c.AndroidToIosAppMappingDetailsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAndroidToIosAppMappingDetailsUpdateInstanceResponse(rsp)
+}
+
+// AppCategoriesGetCollectionWithResponse performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCategoriesGetCollectionWithResponse(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*AppCategoriesGetCollectionResponse, error) {
+	rsp, err := c.AppCategoriesGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCategoriesGetCollectionResponse(rsp)
+}
+
+// AppInfoLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfoLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppInfoLocalizationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfoLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppInfoLocalizationsCreateInstanceWithResponse performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfoLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppInfoLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppInfoLocalizationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfoLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppInfoLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfoLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsDeleteInstanceResponse, error) {
+	rsp, err := c.AppInfoLocalizationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfoLocalizationsDeleteInstanceResponse(rsp)
+}
+
+// AppInfoLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfoLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.AppInfoLocalizationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfoLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// AppInfoLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/appInfoLocalizations/{id} (the `AppInfoLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfoLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppInfoLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppInfoLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.AppInfoLocalizationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfoLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// AppInfosUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfosUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppInfosUpdateInstanceResponse, error) {
+	rsp, err := c.AppInfosUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfosUpdateInstanceResponse(rsp)
+}
+
+// AppInfosUpdateInstanceWithResponse performs a PATCH /v1/appInfos/{id} (the `AppInfosUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfosUpdateInstanceWithResponse(ctx context.Context, id string, body AppInfosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppInfosUpdateInstanceResponse, error) {
+	rsp, err := c.AppInfosUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfosUpdateInstanceResponse(rsp)
+}
+
+// AppInfosAgeRatingDeclarationGetToOneRelatedWithResponse performs a GET /v1/appInfos/{id}/ageRatingDeclaration (the `AppInfosAgeRatingDeclarationGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfosAgeRatingDeclarationGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppInfosAgeRatingDeclarationGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppInfosAgeRatingDeclarationGetToOneRelatedResponse, error) {
+	rsp, err := c.AppInfosAgeRatingDeclarationGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfosAgeRatingDeclarationGetToOneRelatedResponse(rsp)
+}
+
+// AppInfosAppInfoLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appInfos/{id}/appInfoLocalizations (the `AppInfosAppInfoLocalizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppInfosAppInfoLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppInfosAppInfoLocalizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppInfosAppInfoLocalizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppInfosAppInfoLocalizationsGetToManyRelatedResponse(rsp)
+}
+
+// AppTagsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppTagsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppTagsUpdateInstanceResponse, error) {
+	rsp, err := c.AppTagsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppTagsUpdateInstanceResponse(rsp)
+}
+
+// AppTagsUpdateInstanceWithResponse performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppTagsUpdateInstanceWithResponse(ctx context.Context, id string, body AppTagsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppTagsUpdateInstanceResponse, error) {
+	rsp, err := c.AppTagsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppTagsUpdateInstanceResponse(rsp)
+}
+
 // AppsGetCollectionWithResponse performs a GET /v1/apps (the `AppsGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -45411,6 +53745,61 @@ func (c *ClientWithResponses) AppsGetInstanceWithResponse(ctx context.Context, i
 		return nil, err
 	}
 	return ParseAppsGetInstanceResponse(rsp)
+}
+
+// AppsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppsUpdateInstanceResponse, error) {
+	rsp, err := c.AppsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsUpdateInstanceResponse(rsp)
+}
+
+// AppsUpdateInstanceWithResponse performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsUpdateInstanceWithResponse(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppsUpdateInstanceResponse, error) {
+	rsp, err := c.AppsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsUpdateInstanceResponse(rsp)
+}
+
+// AppsAppInfosGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppInfosGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppInfosGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsAppInfosGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppInfosGetToManyRelatedResponse(rsp)
+}
+
+// AppsAppTagsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appTags (the `AppsAppTagsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppTagsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppTagsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsAppTagsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppTagsGetToManyRelatedResponse(rsp)
+}
+
+// AppsEndUserLicenseAgreementGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsEndUserLicenseAgreementGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsEndUserLicenseAgreementGetToOneRelatedResponse, error) {
+	rsp, err := c.AppsEndUserLicenseAgreementGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse(rsp)
 }
 
 // AppsBetaTestersDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request,
@@ -46436,6 +54825,72 @@ func (c *ClientWithResponses) DevicesUpdateInstanceWithResponse(ctx context.Cont
 	return ParseDevicesUpdateInstanceResponse(rsp)
 }
 
+// EndUserLicenseAgreementsCreateInstanceWithBodyWithResponse performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndUserLicenseAgreementsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsCreateInstanceResponse, error) {
+	rsp, err := c.EndUserLicenseAgreementsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndUserLicenseAgreementsCreateInstanceResponse(rsp)
+}
+
+// EndUserLicenseAgreementsCreateInstanceWithResponse performs a POST /v1/endUserLicenseAgreements (the `EndUserLicenseAgreementsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndUserLicenseAgreementsCreateInstanceWithResponse(ctx context.Context, body EndUserLicenseAgreementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsCreateInstanceResponse, error) {
+	rsp, err := c.EndUserLicenseAgreementsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndUserLicenseAgreementsCreateInstanceResponse(rsp)
+}
+
+// EndUserLicenseAgreementsDeleteInstanceWithResponse performs a DELETE /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndUserLicenseAgreementsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsDeleteInstanceResponse, error) {
+	rsp, err := c.EndUserLicenseAgreementsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndUserLicenseAgreementsDeleteInstanceResponse(rsp)
+}
+
+// EndUserLicenseAgreementsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndUserLicenseAgreementsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsUpdateInstanceResponse, error) {
+	rsp, err := c.EndUserLicenseAgreementsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndUserLicenseAgreementsUpdateInstanceResponse(rsp)
+}
+
+// EndUserLicenseAgreementsUpdateInstanceWithResponse performs a PATCH /v1/endUserLicenseAgreements/{id} (the `EndUserLicenseAgreementsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndUserLicenseAgreementsUpdateInstanceWithResponse(ctx context.Context, id string, body EndUserLicenseAgreementsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsUpdateInstanceResponse, error) {
+	rsp, err := c.EndUserLicenseAgreementsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndUserLicenseAgreementsUpdateInstanceResponse(rsp)
+}
+
+// EndUserLicenseAgreementsTerritoriesGetToManyRelationshipWithResponse performs a GET /v1/endUserLicenseAgreements/{id}/relationships/territories (the `EndUserLicenseAgreementsTerritoriesGetToManyRelationship` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) EndUserLicenseAgreementsTerritoriesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse, error) {
+	rsp, err := c.EndUserLicenseAgreementsTerritoriesGetToManyRelationship(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseEndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse(rsp)
+}
+
 // MerchantIdsGetCollectionWithResponse performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -46865,6 +55320,1129 @@ func (c *ClientWithResponses) UsersVisibleAppsCreateToManyRelationshipWithRespon
 	return ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp)
 }
 
+// ParseAccessibilityDeclarationsCreateInstanceResponse parses an HTTP response from a AccessibilityDeclarationsCreateInstanceWithResponse call
+func ParseAccessibilityDeclarationsCreateInstanceResponse(rsp *http.Response) (*AccessibilityDeclarationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AccessibilityDeclarationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AccessibilityDeclarationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAccessibilityDeclarationsDeleteInstanceResponse parses an HTTP response from a AccessibilityDeclarationsDeleteInstanceWithResponse call
+func ParseAccessibilityDeclarationsDeleteInstanceResponse(rsp *http.Response) (*AccessibilityDeclarationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AccessibilityDeclarationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAccessibilityDeclarationsGetInstanceResponse parses an HTTP response from a AccessibilityDeclarationsGetInstanceWithResponse call
+func ParseAccessibilityDeclarationsGetInstanceResponse(rsp *http.Response) (*AccessibilityDeclarationsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AccessibilityDeclarationsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AccessibilityDeclarationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAccessibilityDeclarationsUpdateInstanceResponse parses an HTTP response from a AccessibilityDeclarationsUpdateInstanceWithResponse call
+func ParseAccessibilityDeclarationsUpdateInstanceResponse(rsp *http.Response) (*AccessibilityDeclarationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AccessibilityDeclarationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AccessibilityDeclarationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAgeRatingDeclarationsUpdateInstanceResponse parses an HTTP response from a AgeRatingDeclarationsUpdateInstanceWithResponse call
+func ParseAgeRatingDeclarationsUpdateInstanceResponse(rsp *http.Response) (*AgeRatingDeclarationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AgeRatingDeclarationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AgeRatingDeclarationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAndroidToIosAppMappingDetailsCreateInstanceResponse parses an HTTP response from a AndroidToIosAppMappingDetailsCreateInstanceWithResponse call
+func ParseAndroidToIosAppMappingDetailsCreateInstanceResponse(rsp *http.Response) (*AndroidToIosAppMappingDetailsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AndroidToIosAppMappingDetailsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AndroidToIosAppMappingDetailResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAndroidToIosAppMappingDetailsDeleteInstanceResponse parses an HTTP response from a AndroidToIosAppMappingDetailsDeleteInstanceWithResponse call
+func ParseAndroidToIosAppMappingDetailsDeleteInstanceResponse(rsp *http.Response) (*AndroidToIosAppMappingDetailsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AndroidToIosAppMappingDetailsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAndroidToIosAppMappingDetailsGetInstanceResponse parses an HTTP response from a AndroidToIosAppMappingDetailsGetInstanceWithResponse call
+func ParseAndroidToIosAppMappingDetailsGetInstanceResponse(rsp *http.Response) (*AndroidToIosAppMappingDetailsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AndroidToIosAppMappingDetailsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AndroidToIosAppMappingDetailResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAndroidToIosAppMappingDetailsUpdateInstanceResponse parses an HTTP response from a AndroidToIosAppMappingDetailsUpdateInstanceWithResponse call
+func ParseAndroidToIosAppMappingDetailsUpdateInstanceResponse(rsp *http.Response) (*AndroidToIosAppMappingDetailsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AndroidToIosAppMappingDetailsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AndroidToIosAppMappingDetailResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCategoriesGetCollectionResponse parses an HTTP response from a AppCategoriesGetCollectionWithResponse call
+func ParseAppCategoriesGetCollectionResponse(rsp *http.Response) (*AppCategoriesGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCategoriesGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCategoriesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppInfoLocalizationsCreateInstanceResponse parses an HTTP response from a AppInfoLocalizationsCreateInstanceWithResponse call
+func ParseAppInfoLocalizationsCreateInstanceResponse(rsp *http.Response) (*AppInfoLocalizationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppInfoLocalizationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppInfoLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppInfoLocalizationsDeleteInstanceResponse parses an HTTP response from a AppInfoLocalizationsDeleteInstanceWithResponse call
+func ParseAppInfoLocalizationsDeleteInstanceResponse(rsp *http.Response) (*AppInfoLocalizationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppInfoLocalizationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppInfoLocalizationsUpdateInstanceResponse parses an HTTP response from a AppInfoLocalizationsUpdateInstanceWithResponse call
+func ParseAppInfoLocalizationsUpdateInstanceResponse(rsp *http.Response) (*AppInfoLocalizationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppInfoLocalizationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppInfoLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppInfosUpdateInstanceResponse parses an HTTP response from a AppInfosUpdateInstanceWithResponse call
+func ParseAppInfosUpdateInstanceResponse(rsp *http.Response) (*AppInfosUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppInfosUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppInfoResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppInfosAgeRatingDeclarationGetToOneRelatedResponse parses an HTTP response from a AppInfosAgeRatingDeclarationGetToOneRelatedWithResponse call
+func ParseAppInfosAgeRatingDeclarationGetToOneRelatedResponse(rsp *http.Response) (*AppInfosAgeRatingDeclarationGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppInfosAgeRatingDeclarationGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AgeRatingDeclarationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppInfosAppInfoLocalizationsGetToManyRelatedResponse parses an HTTP response from a AppInfosAppInfoLocalizationsGetToManyRelatedWithResponse call
+func ParseAppInfosAppInfoLocalizationsGetToManyRelatedResponse(rsp *http.Response) (*AppInfosAppInfoLocalizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppInfosAppInfoLocalizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppInfoLocalizationsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppTagsUpdateInstanceResponse parses an HTTP response from a AppTagsUpdateInstanceWithResponse call
+func ParseAppTagsUpdateInstanceResponse(rsp *http.Response) (*AppTagsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppTagsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppTagResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppsGetCollectionResponse parses an HTTP response from a AppsGetCollectionWithResponse call
 func ParseAppsGetCollectionResponse(rsp *http.Response) (*AppsGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -46935,6 +56513,264 @@ func ParseAppsGetInstanceResponse(rsp *http.Response) (*AppsGetInstanceResponse,
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsUpdateInstanceResponse parses an HTTP response from a AppsUpdateInstanceWithResponse call
+func ParseAppsUpdateInstanceResponse(rsp *http.Response) (*AppsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAppInfosGetToManyRelatedResponse parses an HTTP response from a AppsAppInfosGetToManyRelatedWithResponse call
+func ParseAppsAppInfosGetToManyRelatedResponse(rsp *http.Response) (*AppsAppInfosGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppInfosGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppInfosResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAppTagsGetToManyRelatedResponse parses an HTTP response from a AppsAppTagsGetToManyRelatedWithResponse call
+func ParseAppsAppTagsGetToManyRelatedResponse(rsp *http.Response) (*AppsAppTagsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppTagsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppTagsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse parses an HTTP response from a AppsEndUserLicenseAgreementGetToOneRelatedWithResponse call
+func ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse(rsp *http.Response) (*AppsEndUserLicenseAgreementGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsEndUserLicenseAgreementGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest EndUserLicenseAgreementWithoutIncludesResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -50988,6 +60824,267 @@ func ParseDevicesUpdateInstanceResponse(rsp *http.Response) (*DevicesUpdateInsta
 	return response, nil
 }
 
+// ParseEndUserLicenseAgreementsCreateInstanceResponse parses an HTTP response from a EndUserLicenseAgreementsCreateInstanceWithResponse call
+func ParseEndUserLicenseAgreementsCreateInstanceResponse(rsp *http.Response) (*EndUserLicenseAgreementsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &EndUserLicenseAgreementsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest EndUserLicenseAgreementResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseEndUserLicenseAgreementsDeleteInstanceResponse parses an HTTP response from a EndUserLicenseAgreementsDeleteInstanceWithResponse call
+func ParseEndUserLicenseAgreementsDeleteInstanceResponse(rsp *http.Response) (*EndUserLicenseAgreementsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &EndUserLicenseAgreementsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseEndUserLicenseAgreementsUpdateInstanceResponse parses an HTTP response from a EndUserLicenseAgreementsUpdateInstanceWithResponse call
+func ParseEndUserLicenseAgreementsUpdateInstanceResponse(rsp *http.Response) (*EndUserLicenseAgreementsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &EndUserLicenseAgreementsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest EndUserLicenseAgreementResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseEndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse parses an HTTP response from a EndUserLicenseAgreementsTerritoriesGetToManyRelationshipWithResponse call
+func ParseEndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse(rsp *http.Response) (*EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest EndUserLicenseAgreementTerritoriesLinkagesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseMerchantIdsGetCollectionResponse parses an HTTP response from a MerchantIdsGetCollectionWithResponse call
 func ParseMerchantIdsGetCollectionResponse(rsp *http.Response) (*MerchantIdsGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -52849,11 +62946,74 @@ func ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp *http.Response) (
 // ServerInterface represents all server handlers.
 type ServerInterface interface {
 
+	// (POST /v1/accessibilityDeclarations)
+	AccessibilityDeclarationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/accessibilityDeclarations/{id})
+	AccessibilityDeclarationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/accessibilityDeclarations/{id})
+	AccessibilityDeclarationsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AccessibilityDeclarationsGetInstanceParams)
+
+	// (PATCH /v1/accessibilityDeclarations/{id})
+	AccessibilityDeclarationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/ageRatingDeclarations/{id})
+	AgeRatingDeclarationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/androidToIosAppMappingDetails)
+	AndroidToIosAppMappingDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/androidToIosAppMappingDetails/{id})
+	AndroidToIosAppMappingDetailsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/androidToIosAppMappingDetails/{id})
+	AndroidToIosAppMappingDetailsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AndroidToIosAppMappingDetailsGetInstanceParams)
+
+	// (PATCH /v1/androidToIosAppMappingDetails/{id})
+	AndroidToIosAppMappingDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appCategories)
+	AppCategoriesGetCollection(w http.ResponseWriter, r *http.Request, params AppCategoriesGetCollectionParams)
+
+	// (POST /v1/appInfoLocalizations)
+	AppInfoLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appInfoLocalizations/{id})
+	AppInfoLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/appInfoLocalizations/{id})
+	AppInfoLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/appInfos/{id})
+	AppInfosUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appInfos/{id}/ageRatingDeclaration)
+	AppInfosAgeRatingDeclarationGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppInfosAgeRatingDeclarationGetToOneRelatedParams)
+
+	// (GET /v1/appInfos/{id}/appInfoLocalizations)
+	AppInfosAppInfoLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppInfosAppInfoLocalizationsGetToManyRelatedParams)
+
+	// (PATCH /v1/appTags/{id})
+	AppTagsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (GET /v1/apps)
 	AppsGetCollection(w http.ResponseWriter, r *http.Request, params AppsGetCollectionParams)
 
 	// (GET /v1/apps/{id})
 	AppsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppsGetInstanceParams)
+
+	// (PATCH /v1/apps/{id})
+	AppsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/apps/{id}/appInfos)
+	AppsAppInfosGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppInfosGetToManyRelatedParams)
+
+	// (GET /v1/apps/{id}/appTags)
+	AppsAppTagsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppTagsGetToManyRelatedParams)
+
+	// (GET /v1/apps/{id}/endUserLicenseAgreement)
+	AppsEndUserLicenseAgreementGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsEndUserLicenseAgreementGetToOneRelatedParams)
 
 	// (DELETE /v1/apps/{id}/relationships/betaTesters)
 	AppsBetaTestersDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
@@ -53041,6 +63201,18 @@ type ServerInterface interface {
 	// (PATCH /v1/devices/{id})
 	DevicesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (POST /v1/endUserLicenseAgreements)
+	EndUserLicenseAgreementsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/endUserLicenseAgreements/{id})
+	EndUserLicenseAgreementsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/endUserLicenseAgreements/{id})
+	EndUserLicenseAgreementsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/endUserLicenseAgreements/{id}/relationships/territories)
+	EndUserLicenseAgreementsTerritoriesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams)
+
 	// (GET /v1/merchantIds)
 	MerchantIdsGetCollection(w http.ResponseWriter, r *http.Request, params MerchantIdsGetCollectionParams)
 
@@ -53140,6 +63312,600 @@ type ServerInterfaceWrapper struct {
 }
 
 type MiddlewareFunc func(http.Handler) http.Handler
+
+// AccessibilityDeclarationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AccessibilityDeclarationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AccessibilityDeclarationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AccessibilityDeclarationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AccessibilityDeclarationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AccessibilityDeclarationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AccessibilityDeclarationsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AccessibilityDeclarationsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AccessibilityDeclarationsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[accessibilityDeclarations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[accessibilityDeclarations]", r.URL.Query(), &params.FieldsAccessibilityDeclarations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[accessibilityDeclarations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[accessibilityDeclarations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AccessibilityDeclarationsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AccessibilityDeclarationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AccessibilityDeclarationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AccessibilityDeclarationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AgeRatingDeclarationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AgeRatingDeclarationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AgeRatingDeclarationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AndroidToIosAppMappingDetailsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AndroidToIosAppMappingDetailsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AndroidToIosAppMappingDetailsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AndroidToIosAppMappingDetailsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AndroidToIosAppMappingDetailsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AndroidToIosAppMappingDetailsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AndroidToIosAppMappingDetailsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AndroidToIosAppMappingDetailsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AndroidToIosAppMappingDetailsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[androidToIosAppMappingDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[androidToIosAppMappingDetails]", r.URL.Query(), &params.FieldsAndroidToIosAppMappingDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[androidToIosAppMappingDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[androidToIosAppMappingDetails]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AndroidToIosAppMappingDetailsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AndroidToIosAppMappingDetailsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AndroidToIosAppMappingDetailsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AndroidToIosAppMappingDetailsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCategoriesGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) AppCategoriesGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppCategoriesGetCollectionParams
+
+	// ------------- Optional query parameter "filter[platforms]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[platforms]", r.URL.Query(), &params.FilterPlatforms, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[platforms]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[platforms]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "exists[parent]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "exists[parent]", r.URL.Query(), &params.ExistsParent, runtime.BindQueryParameterOptions{Type: "boolean", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "exists[parent]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "exists[parent]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCategories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCategories]", r.URL.Query(), &params.FieldsAppCategories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCategories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCategories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[subcategories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[subcategories]", r.URL.Query(), &params.LimitSubcategories, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[subcategories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[subcategories]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCategoriesGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppInfoLocalizationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppInfoLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppInfoLocalizationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppInfoLocalizationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppInfoLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppInfoLocalizationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppInfoLocalizationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppInfoLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppInfoLocalizationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppInfosUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppInfosUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppInfosUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppInfosAgeRatingDeclarationGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppInfosAgeRatingDeclarationGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppInfosAgeRatingDeclarationGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[ageRatingDeclarations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ageRatingDeclarations]", r.URL.Query(), &params.FieldsAgeRatingDeclarations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ageRatingDeclarations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ageRatingDeclarations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppInfosAgeRatingDeclarationGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppInfosAppInfoLocalizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppInfosAppInfoLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppInfosAppInfoLocalizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appInfoLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appInfoLocalizations]", r.URL.Query(), &params.FieldsAppInfoLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appInfoLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appInfoLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appInfos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appInfos]", r.URL.Query(), &params.FieldsAppInfos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appInfos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appInfos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppInfosAppInfoLocalizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppTagsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppTagsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppTagsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
 
 // AppsGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) AppsGetCollection(w http.ResponseWriter, r *http.Request) {
@@ -54494,6 +65260,327 @@ func (siw *ServerInterfaceWrapper) AppsGetInstance(w http.ResponseWriter, r *htt
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAppInfosGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppInfosGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppInfosGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[appInfos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appInfos]", r.URL.Query(), &params.FieldsAppInfos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appInfos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appInfos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ageRatingDeclarations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ageRatingDeclarations]", r.URL.Query(), &params.FieldsAgeRatingDeclarations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ageRatingDeclarations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ageRatingDeclarations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appInfoLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appInfoLocalizations]", r.URL.Query(), &params.FieldsAppInfoLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appInfoLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appInfoLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCategories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCategories]", r.URL.Query(), &params.FieldsAppCategories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCategories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCategories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appInfoLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appInfoLocalizations]", r.URL.Query(), &params.LimitAppInfoLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appInfoLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appInfoLocalizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppInfosGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAppTagsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppTagsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppTagsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[visibleInAppStore]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[visibleInAppStore]", r.URL.Query(), &params.FilterVisibleInAppStore, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[visibleInAppStore]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[visibleInAppStore]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appTags]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appTags]", r.URL.Query(), &params.FieldsAppTags, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appTags]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appTags]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[territories]", r.URL.Query(), &params.LimitTerritories, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[territories]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppTagsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsEndUserLicenseAgreementGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsEndUserLicenseAgreementGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsEndUserLicenseAgreementGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[endUserLicenseAgreements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[endUserLicenseAgreements]", r.URL.Query(), &params.FieldsEndUserLicenseAgreements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[endUserLicenseAgreements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[endUserLicenseAgreements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsEndUserLicenseAgreementGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -58261,6 +69348,114 @@ func (siw *ServerInterfaceWrapper) DevicesUpdateInstance(w http.ResponseWriter, 
 	handler.ServeHTTP(w, r)
 }
 
+// EndUserLicenseAgreementsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) EndUserLicenseAgreementsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.EndUserLicenseAgreementsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// EndUserLicenseAgreementsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) EndUserLicenseAgreementsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.EndUserLicenseAgreementsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// EndUserLicenseAgreementsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) EndUserLicenseAgreementsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.EndUserLicenseAgreementsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// EndUserLicenseAgreementsTerritoriesGetToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) EndUserLicenseAgreementsTerritoriesGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.EndUserLicenseAgreementsTerritoriesGetToManyRelationship(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // MerchantIdsGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) MerchantIdsGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -60443,8 +71638,29 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 		ErrorHandlerFunc:   options.ErrorHandlerFunc,
 	}
 
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/accessibilityDeclarations", wrapper.AccessibilityDeclarationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/accessibilityDeclarations/{id}", wrapper.AccessibilityDeclarationsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/accessibilityDeclarations/{id}", wrapper.AccessibilityDeclarationsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/accessibilityDeclarations/{id}", wrapper.AccessibilityDeclarationsUpdateInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/ageRatingDeclarations/{id}", wrapper.AgeRatingDeclarationsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails", wrapper.AndroidToIosAppMappingDetailsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCategories", wrapper.AppCategoriesGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appInfoLocalizations", wrapper.AppInfoLocalizationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appInfoLocalizations/{id}", wrapper.AppInfoLocalizationsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appInfoLocalizations/{id}", wrapper.AppInfoLocalizationsUpdateInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appInfos/{id}", wrapper.AppInfosUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appInfos/{id}/ageRatingDeclaration", wrapper.AppInfosAgeRatingDeclarationGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appInfos/{id}/appInfoLocalizations", wrapper.AppInfosAppInfoLocalizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appTags/{id}", wrapper.AppTagsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps", wrapper.AppsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appInfos", wrapper.AppsAppInfosGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appTags", wrapper.AppsAppTagsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsDeleteInstance)
@@ -60507,6 +71723,10 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/devices", wrapper.DevicesCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/devices/{id}", wrapper.DevicesGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/devices/{id}", wrapper.DevicesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/endUserLicenseAgreements", wrapper.EndUserLicenseAgreementsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}/relationships/territories", wrapper.EndUserLicenseAgreementsTerritoriesGetToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds", wrapper.MerchantIdsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/merchantIds", wrapper.MerchantIdsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/merchantIds/{id}", wrapper.MerchantIdsDeleteInstance)

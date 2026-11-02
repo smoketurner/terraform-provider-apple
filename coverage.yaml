@@ -15,13 +15,13 @@
 # operations. Run `make generate` and `make api-coverage` after changing this
 # file.
 operations:
-  accessibilityDeclarations_createInstance: {status: planned, issue: 5}
-  accessibilityDeclarations_deleteInstance: {status: planned, issue: 5}
-  accessibilityDeclarations_getInstance: {status: planned, issue: 5}
-  accessibilityDeclarations_updateInstance: {status: planned, issue: 5}
+  accessibilityDeclarations_createInstance: {status: covered, by: [apple_accessibility_declaration]}
+  accessibilityDeclarations_deleteInstance: {status: covered, by: [apple_accessibility_declaration]}
+  accessibilityDeclarations_getInstance: {status: covered, by: [apple_accessibility_declaration]}
+  accessibilityDeclarations_updateInstance: {status: covered, by: [apple_accessibility_declaration]}
   actors_getCollection: {status: out_of_scope, reason: "actors identify who made changes recorded by other operations, which the provider does not expose"}
   actors_getInstance: {status: out_of_scope, reason: "actors identify who made changes recorded by other operations, which the provider does not expose"}
-  ageRatingDeclarations_updateInstance: {status: planned, issue: 5}
+  ageRatingDeclarations_updateInstance: {status: covered, by: [apple_age_rating_declaration]}
   alternativeDistributionDomains_createInstance: {status: planned, issue: 15}
   alternativeDistributionDomains_deleteInstance: {status: planned, issue: 15}
   alternativeDistributionDomains_getCollection: {status: planned, issue: 15}
@@ -53,10 +53,10 @@ operations:
   analyticsReports_getInstance: {status: planned, issue: 16}
   analyticsReports_instances_getToManyRelated: {status: planned, issue: 16}
   analyticsReports_instances_getToManyRelationship: {status: planned, issue: 16}
-  androidToIosAppMappingDetails_createInstance: {status: planned, issue: 5}
-  androidToIosAppMappingDetails_deleteInstance: {status: planned, issue: 5}
-  androidToIosAppMappingDetails_getInstance: {status: planned, issue: 5}
-  androidToIosAppMappingDetails_updateInstance: {status: planned, issue: 5}
+  androidToIosAppMappingDetails_createInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
+  androidToIosAppMappingDetails_deleteInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
+  androidToIosAppMappingDetails_getInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
+  androidToIosAppMappingDetails_updateInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
   appAssetLibraries_getInstance: {status: planned, issue: 14}
   appAssetLibraries_images_getToManyRelated: {status: planned, issue: 14}
   appAssetLibraries_images_getToManyRelationship: {status: planned, issue: 14}
@@ -84,7 +84,7 @@ operations:
   appAvailabilitiesV2_getInstance: {status: planned, issue: 6}
   appAvailabilitiesV2_territoryAvailabilities_getToManyRelated: {status: planned, issue: 6}
   appAvailabilitiesV2_territoryAvailabilities_getToManyRelationship: {status: planned, issue: 6}
-  appCategories_getCollection: {status: planned, issue: 5}
+  appCategories_getCollection: {status: covered, by: [data.apple_app_categories]}
   appCategories_getInstance: {status: planned, issue: 5}
   appCategories_parent_getToOneRelated: {status: planned, issue: 5}
   appCategories_parent_getToOneRelationship: {status: planned, issue: 5}
@@ -185,13 +185,13 @@ operations:
   appEvents_localizations_getToManyRelated: {status: planned, issue: 11}
   appEvents_localizations_getToManyRelationship: {status: planned, issue: 11}
   appEvents_updateInstance: {status: planned, issue: 11}
-  appInfoLocalizations_createInstance: {status: planned, issue: 5}
-  appInfoLocalizations_deleteInstance: {status: planned, issue: 5}
+  appInfoLocalizations_createInstance: {status: covered, by: [apple_app_info_localization]}
+  appInfoLocalizations_deleteInstance: {status: covered, by: [apple_app_info_localization]}
   appInfoLocalizations_getInstance: {status: planned, issue: 5}
-  appInfoLocalizations_updateInstance: {status: planned, issue: 5}
-  appInfos_ageRatingDeclaration_getToOneRelated: {status: planned, issue: 5}
+  appInfoLocalizations_updateInstance: {status: covered, by: [apple_app_info_localization]}
+  appInfos_ageRatingDeclaration_getToOneRelated: {status: covered, by: [apple_age_rating_declaration]}
   appInfos_ageRatingDeclaration_getToOneRelationship: {status: planned, issue: 5}
-  appInfos_appInfoLocalizations_getToManyRelated: {status: planned, issue: 5}
+  appInfos_appInfoLocalizations_getToManyRelated: {status: covered, by: [apple_app_info_localization]}
   appInfos_appInfoLocalizations_getToManyRelationship: {status: planned, issue: 5}
   appInfos_getInstance: {status: planned, issue: 5}
   appInfos_primaryCategory_getToOneRelated: {status: planned, issue: 5}
@@ -208,7 +208,7 @@ operations:
   appInfos_secondarySubcategoryTwo_getToOneRelationship: {status: planned, issue: 5}
   appInfos_territoryAgeRatings_getToManyRelated: {status: planned, issue: 5}
   appInfos_territoryAgeRatings_getToManyRelationship: {status: planned, issue: 5}
-  appInfos_updateInstance: {status: planned, issue: 5}
+  appInfos_updateInstance: {status: covered, by: [apple_app_info]}
   appPreviewSets_appPreviews_getToManyRelated: {status: planned, issue: 14}
   appPreviewSets_appPreviews_getToManyRelationship: {status: planned, issue: 14}
   appPreviewSets_appPreviews_replaceToManyRelationship: {status: planned, issue: 14}
@@ -328,8 +328,8 @@ operations:
   appStoreVersions_updateInstance: {status: planned, issue: 5}
   appTags_territories_getToManyRelated: {status: planned, issue: 6}
   appTags_territories_getToManyRelationship: {status: planned, issue: 6}
-  appTags_updateInstance: {status: planned, issue: 5}
-  apps_accessibilityDeclarations_getToManyRelated: {status: planned, issue: 5}
+  appTags_updateInstance: {status: covered, by: [apple_app_tag]}
+  apps_accessibilityDeclarations_getToManyRelated: {status: out_of_scope, reason: "apple_accessibility_declaration reads each declaration by ID"}
   apps_accessibilityDeclarations_getToManyRelationship: {status: planned, issue: 5}
   apps_alternativeDistributionKey_getToOneRelated: {status: planned, issue: 15}
   apps_alternativeDistributionKey_getToOneRelationship: {status: planned, issue: 15}
@@ -347,7 +347,7 @@ operations:
   apps_appEncryptionDeclarations_getToManyRelationship: {status: planned, issue: 5}
   apps_appEvents_getToManyRelated: {status: planned, issue: 11}
   apps_appEvents_getToManyRelationship: {status: planned, issue: 11}
-  apps_appInfos_getToManyRelated: {status: planned, issue: 5}
+  apps_appInfos_getToManyRelated: {status: covered, by: [apple_age_rating_declaration, apple_app_info, apple_app_info_localization]}
   apps_appInfos_getToManyRelationship: {status: planned, issue: 5}
   apps_appPricePoints_getToManyRelated: {status: planned, issue: 6}
   apps_appPricePoints_getToManyRelationship: {status: planned, issue: 6}
@@ -357,7 +357,7 @@ operations:
   apps_appStoreVersionExperimentsV2_getToManyRelationship: {status: planned, issue: 10}
   apps_appStoreVersions_getToManyRelated: {status: planned, issue: 5}
   apps_appStoreVersions_getToManyRelationship: {status: planned, issue: 5}
-  apps_appTags_getToManyRelated: {status: planned, issue: 5}
+  apps_appTags_getToManyRelated: {status: covered, by: [apple_app_tag]}
   apps_appTags_getToManyRelationship: {status: planned, issue: 5}
   apps_assetLibrary_getToOneRelated: {status: planned, issue: 5}
   apps_assetLibrary_getToOneRelationship: {status: planned, issue: 5}
@@ -386,7 +386,7 @@ operations:
   apps_customerReviewSummarizations_getToManyRelated: {status: planned, issue: 5}
   apps_customerReviews_getToManyRelated: {status: planned, issue: 5}
   apps_customerReviews_getToManyRelationship: {status: planned, issue: 5}
-  apps_endUserLicenseAgreement_getToOneRelated: {status: planned, issue: 5}
+  apps_endUserLicenseAgreement_getToOneRelated: {status: covered, by: [apple_end_user_license_agreement]}
   apps_endUserLicenseAgreement_getToOneRelationship: {status: planned, issue: 5}
   apps_gameCenterDetail_getToOneRelated: {status: planned, issue: 13}
   apps_gameCenterDetail_getToOneRelationship: {status: planned, issue: 13}
@@ -415,7 +415,7 @@ operations:
   apps_subscriptionGracePeriod_getToOneRelationship: {status: planned, issue: 7}
   apps_subscriptionGroups_getToManyRelated: {status: planned, issue: 7}
   apps_subscriptionGroups_getToManyRelationship: {status: planned, issue: 7}
-  apps_updateInstance: {status: planned, issue: 5}
+  apps_updateInstance: {status: covered, by: [apple_app_settings]}
   apps_webhooks_getToManyRelated: {status: planned, issue: 9}
   apps_webhooks_getToManyRelationship: {status: planned, issue: 9}
   backgroundAssetUploadFiles_createInstance: {status: planned, issue: 14}
@@ -650,12 +650,12 @@ operations:
   devices_updateInstance: {status: covered, by: [apple_device]}
   diagnosticSignatures_logs_getToManyRelated: {status: planned, issue: 16}
   endAppAvailabilityPreOrders_createInstance: {status: planned, issue: 6}
-  endUserLicenseAgreements_createInstance: {status: planned, issue: 5}
-  endUserLicenseAgreements_deleteInstance: {status: planned, issue: 5}
-  endUserLicenseAgreements_getInstance: {status: planned, issue: 5}
+  endUserLicenseAgreements_createInstance: {status: covered, by: [apple_end_user_license_agreement]}
+  endUserLicenseAgreements_deleteInstance: {status: covered, by: [apple_end_user_license_agreement]}
+  endUserLicenseAgreements_getInstance: {status: out_of_scope, reason: "apple_end_user_license_agreement reads the agreement through apps_endUserLicenseAgreement_getToOneRelated"}
   endUserLicenseAgreements_territories_getToManyRelated: {status: planned, issue: 6}
-  endUserLicenseAgreements_territories_getToManyRelationship: {status: planned, issue: 6}
-  endUserLicenseAgreements_updateInstance: {status: planned, issue: 5}
+  endUserLicenseAgreements_territories_getToManyRelationship: {status: covered, by: [apple_end_user_license_agreement]}
+  endUserLicenseAgreements_updateInstance: {status: covered, by: [apple_end_user_license_agreement]}
   financeReports_getCollection: {status: planned, issue: 16}
   gameCenterAchievementImagesV2_createInstance: {status: planned, issue: 13}
   gameCenterAchievementImagesV2_deleteInstance: {status: planned, issue: 13}

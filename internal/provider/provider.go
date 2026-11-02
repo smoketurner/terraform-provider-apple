@@ -148,6 +148,13 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 
 func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource {
 	return []func() resource.Resource{
+		newAccessibilityResource,
+		newAgeRatingResource,
+		newAndroidMappingResource,
+		newAppInfoLocalizationResource,
+		newAppInfoResource,
+		newAppSettingsResource,
+		newAppTagResource,
 		newBetaAppLocalizationResource,
 		newBetaAppReviewDetailResource,
 		newBetaBuildLocalizationResource,
@@ -157,6 +164,7 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newBetaRecruitmentCriteriaResource,
 		newBuildBetaDetailResource,
 		newBundleIDResource,
+		newEULAResource,
 		newBundleIDCapabilityResource,
 		newCertificateResource,
 		newDeviceResource,
@@ -170,6 +178,7 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 
 func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataSource {
 	return []func() datasource.DataSource{
+		newAppCategoriesDataSource,
 		newAppDataSource,
 		newAppsDataSource,
 		newBetaGroupsDataSource,

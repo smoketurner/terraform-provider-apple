@@ -16,9 +16,30 @@ output-options:
   overlay:
     path: overlay.yaml
   include-operation-ids:
+    - accessibilityDeclarations_createInstance
+    - accessibilityDeclarations_deleteInstance
+    - accessibilityDeclarations_getInstance
+    - accessibilityDeclarations_updateInstance
+    - ageRatingDeclarations_updateInstance
+    - androidToIosAppMappingDetails_createInstance
+    - androidToIosAppMappingDetails_deleteInstance
+    - androidToIosAppMappingDetails_getInstance
+    - androidToIosAppMappingDetails_updateInstance
+    - appCategories_getCollection
+    - appInfoLocalizations_createInstance
+    - appInfoLocalizations_deleteInstance
+    - appInfoLocalizations_updateInstance
+    - appInfos_ageRatingDeclaration_getToOneRelated
+    - appInfos_appInfoLocalizations_getToManyRelated
+    - appInfos_updateInstance
+    - appTags_updateInstance
+    - apps_appInfos_getToManyRelated
+    - apps_appTags_getToManyRelated
     - apps_betaTesters_deleteToManyRelationship
+    - apps_endUserLicenseAgreement_getToOneRelated
     - apps_getCollection
     - apps_getInstance
+    - apps_updateInstance
     - betaAppLocalizations_createInstance
     - betaAppLocalizations_deleteInstance
     - betaAppLocalizations_getInstance
@@ -80,6 +101,10 @@ output-options:
     - devices_getCollection
     - devices_getInstance
     - devices_updateInstance
+    - endUserLicenseAgreements_createInstance
+    - endUserLicenseAgreements_deleteInstance
+    - endUserLicenseAgreements_territories_getToManyRelationship
+    - endUserLicenseAgreements_updateInstance
     - merchantIds_certificates_getToManyRelated
     - merchantIds_createInstance
     - merchantIds_deleteInstance

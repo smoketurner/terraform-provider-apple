@@ -68,6 +68,8 @@ type Server struct {
 	certLimits map[gen.CertificateType]int
 	tf         *testflight
 	users      *usersState
+	appInfos   map[string]*appInfo
+	appMeta    *appMetaState
 
 	failNext map[string][]int
 	requests []string
@@ -99,6 +101,8 @@ func NewServer() *Server {
 		certLimits:   defaultCertLimits(),
 		tf:           newTestflight(),
 		users:        newUsersState(),
+		appInfos:     map[string]*appInfo{},
+		appMeta:      newAppMetaState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

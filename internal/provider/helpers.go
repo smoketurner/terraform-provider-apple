@@ -8,6 +8,7 @@ import (
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
+	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/diag"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
@@ -146,3 +147,21 @@ var emailRegexp = regexp.MustCompile(`^[^@\s]+@[^@\s]+$`)
 // localeRegexp matches the locales App Store Connect uses, e.g. "en-US",
 // "fr", "zh-Hans".
 var localeRegexp = regexp.MustCompile(`^[a-z]{2,3}(-[A-Za-z0-9]{2,4})*$`)
+
+// stringsValue converts strings to a set; it cannot fail.
+func stringsValue(values []string) types.Set {
+	elems := []attr.Value{}
+	for _, v := range values {
+		elems = append(elems, types.StringValue(v))
+	}
+	return types.SetValueMust(types.StringType, elems)
+}
+
+// stringsList converts strings to a list; it cannot fail.
+func stringsList(values []string) types.List {
+	elems := []attr.Value{}
+	for _, v := range values {
+		elems = append(elems, types.StringValue(v))
+	}
+	return types.ListValueMust(types.StringType, elems)
+}

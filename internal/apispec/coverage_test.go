@@ -86,7 +86,7 @@ func TestCoveredOperationsAreCalled(t *testing.T) {
 	called := providerCalls(t)
 	for _, id := range loadManifest(t).Covered() {
 		method := goName(id)
-		if !called[method] && !called[method+"WithResponse"] {
+		if !called[method] && !called[method+"WithResponse"] && !called[method+"WithBodyWithResponse"] {
 			t.Errorf("coverage.yaml marks %s covered, but internal/provider never calls %sWithResponse", id, method)
 		}
 	}
