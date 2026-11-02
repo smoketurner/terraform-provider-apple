@@ -8096,237 +8096,6 @@ func (e AppsGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
-// Defines values for BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations.
-const (
-	BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsApp               BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations = "app"
-	BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsDescription       BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations = "description"
-	BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsFeedbackEmail     BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations = "feedbackEmail"
-	BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsLocale            BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations = "locale"
-	BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsMarketingUrl      BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations = "marketingUrl"
-	BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsPrivacyPolicyUrl  BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations = "privacyPolicyUrl"
-	BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsTvOsPrivacyPolicy BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations = "tvOsPrivacyPolicy"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations enum.
-func (e BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations) Valid() bool {
-	switch e {
-	case BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsApp:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsDescription:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsFeedbackEmail:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsLocale:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsMarketingUrl:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsPrivacyPolicyUrl:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizationsTvOsPrivacyPolicy:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppLocalizationsGetCollectionParamsFieldsApps.
-const (
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAccessibilityDeclarations              BetaAppLocalizationsGetCollectionParamsFieldsApps = "accessibilityDeclarations"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAccessibilityUrl                       BetaAppLocalizationsGetCollectionParamsFieldsApps = "accessibilityUrl"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAlternativeDistributionKey             BetaAppLocalizationsGetCollectionParamsFieldsApps = "alternativeDistributionKey"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAnalyticsReportRequests                BetaAppLocalizationsGetCollectionParamsFieldsApps = "analyticsReportRequests"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails          BetaAppLocalizationsGetCollectionParamsFieldsApps = "androidToIosAppMappingDetails"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppAvailabilityV2                      BetaAppLocalizationsGetCollectionParamsFieldsApps = "appAvailabilityV2"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppClips                               BetaAppLocalizationsGetCollectionParamsFieldsApps = "appClips"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppCustomProductPages                  BetaAppLocalizationsGetCollectionParamsFieldsApps = "appCustomProductPages"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppEncryptionDeclarations              BetaAppLocalizationsGetCollectionParamsFieldsApps = "appEncryptionDeclarations"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppEvents                              BetaAppLocalizationsGetCollectionParamsFieldsApps = "appEvents"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppInfos                               BetaAppLocalizationsGetCollectionParamsFieldsApps = "appInfos"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppPricePoints                         BetaAppLocalizationsGetCollectionParamsFieldsApps = "appPricePoints"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppPriceSchedule                       BetaAppLocalizationsGetCollectionParamsFieldsApps = "appPriceSchedule"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppStoreIcon                           BetaAppLocalizationsGetCollectionParamsFieldsApps = "appStoreIcon"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2           BetaAppLocalizationsGetCollectionParamsFieldsApps = "appStoreVersionExperimentsV2"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppStoreVersions                       BetaAppLocalizationsGetCollectionParamsFieldsApps = "appStoreVersions"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAppTags                                BetaAppLocalizationsGetCollectionParamsFieldsApps = "appTags"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsAssetLibrary                           BetaAppLocalizationsGetCollectionParamsFieldsApps = "assetLibrary"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBackgroundAssets                       BetaAppLocalizationsGetCollectionParamsFieldsApps = "backgroundAssets"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaAppLocalizations                   BetaAppLocalizationsGetCollectionParamsFieldsApps = "betaAppLocalizations"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaAppReviewDetail                    BetaAppLocalizationsGetCollectionParamsFieldsApps = "betaAppReviewDetail"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions           BetaAppLocalizationsGetCollectionParamsFieldsApps = "betaFeedbackCrashSubmissions"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions      BetaAppLocalizationsGetCollectionParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaGroups                             BetaAppLocalizationsGetCollectionParamsFieldsApps = "betaGroups"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaLicenseAgreement                   BetaAppLocalizationsGetCollectionParamsFieldsApps = "betaLicenseAgreement"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaTesters                            BetaAppLocalizationsGetCollectionParamsFieldsApps = "betaTesters"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBuildUploads                           BetaAppLocalizationsGetCollectionParamsFieldsApps = "buildUploads"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBuilds                                 BetaAppLocalizationsGetCollectionParamsFieldsApps = "builds"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsBundleId                               BetaAppLocalizationsGetCollectionParamsFieldsApps = "bundleId"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsCiProduct                              BetaAppLocalizationsGetCollectionParamsFieldsApps = "ciProduct"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsContentRightsDeclaration               BetaAppLocalizationsGetCollectionParamsFieldsApps = "contentRightsDeclaration"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsCustomerReviewSummarizations           BetaAppLocalizationsGetCollectionParamsFieldsApps = "customerReviewSummarizations"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsCustomerReviews                        BetaAppLocalizationsGetCollectionParamsFieldsApps = "customerReviews"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsEndUserLicenseAgreement                BetaAppLocalizationsGetCollectionParamsFieldsApps = "endUserLicenseAgreement"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsGameCenterDetail                       BetaAppLocalizationsGetCollectionParamsFieldsApps = "gameCenterDetail"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsGameCenterEnabledVersions              BetaAppLocalizationsGetCollectionParamsFieldsApps = "gameCenterEnabledVersions"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsInAppPurchases                         BetaAppLocalizationsGetCollectionParamsFieldsApps = "inAppPurchases"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsInAppPurchasesV2                       BetaAppLocalizationsGetCollectionParamsFieldsApps = "inAppPurchasesV2"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids                 BetaAppLocalizationsGetCollectionParamsFieldsApps = "isOrEverWasMadeForKids"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsMarketplaceSearchDetail                BetaAppLocalizationsGetCollectionParamsFieldsApps = "marketplaceSearchDetail"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsName                                   BetaAppLocalizationsGetCollectionParamsFieldsApps = "name"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsPerfPowerMetrics                       BetaAppLocalizationsGetCollectionParamsFieldsApps = "perfPowerMetrics"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsPerformanceOverviews                   BetaAppLocalizationsGetCollectionParamsFieldsApps = "performanceOverviews"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsPreReleaseVersions                     BetaAppLocalizationsGetCollectionParamsFieldsApps = "preReleaseVersions"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsPrimaryLocale                          BetaAppLocalizationsGetCollectionParamsFieldsApps = "primaryLocale"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsPromotedPurchases                      BetaAppLocalizationsGetCollectionParamsFieldsApps = "promotedPurchases"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsReviewSubmissions                      BetaAppLocalizationsGetCollectionParamsFieldsApps = "reviewSubmissions"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSearchKeywords                         BetaAppLocalizationsGetCollectionParamsFieldsApps = "searchKeywords"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSku                                    BetaAppLocalizationsGetCollectionParamsFieldsApps = "sku"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled           BetaAppLocalizationsGetCollectionParamsFieldsApps = "streamlinedPurchasingEnabled"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionGracePeriod                BetaAppLocalizationsGetCollectionParamsFieldsApps = "subscriptionGracePeriod"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionGroups                     BetaAppLocalizationsGetCollectionParamsFieldsApps = "subscriptionGroups"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrl                  BetaAppLocalizationsGetCollectionParamsFieldsApps = "subscriptionStatusUrl"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox        BetaAppLocalizationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlForSandbox"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion           BetaAppLocalizationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersion"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox BetaAppLocalizationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
-	BetaAppLocalizationsGetCollectionParamsFieldsAppsWebhooks                               BetaAppLocalizationsGetCollectionParamsFieldsApps = "webhooks"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppLocalizationsGetCollectionParamsFieldsApps enum.
-func (e BetaAppLocalizationsGetCollectionParamsFieldsApps) Valid() bool {
-	switch e {
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAccessibilityDeclarations:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAccessibilityUrl:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAlternativeDistributionKey:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAnalyticsReportRequests:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppAvailabilityV2:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppClips:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppCustomProductPages:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppEncryptionDeclarations:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppEvents:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppInfos:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppPricePoints:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppPriceSchedule:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppStoreIcon:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppStoreVersions:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAppTags:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsAssetLibrary:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBackgroundAssets:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaAppLocalizations:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaAppReviewDetail:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaGroups:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaLicenseAgreement:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBetaTesters:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBuildUploads:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBuilds:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsBundleId:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsCiProduct:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsContentRightsDeclaration:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsCustomerReviewSummarizations:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsCustomerReviews:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsEndUserLicenseAgreement:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsGameCenterDetail:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsGameCenterEnabledVersions:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsInAppPurchases:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsInAppPurchasesV2:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsMarketplaceSearchDetail:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsName:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsPerfPowerMetrics:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsPerformanceOverviews:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsPreReleaseVersions:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsPrimaryLocale:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsPromotedPurchases:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsReviewSubmissions:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSearchKeywords:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSku:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionGracePeriod:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionGroups:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrl:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
-		return true
-	case BetaAppLocalizationsGetCollectionParamsFieldsAppsWebhooks:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppLocalizationsGetCollectionParamsInclude.
-const (
-	BetaAppLocalizationsGetCollectionParamsIncludeApp BetaAppLocalizationsGetCollectionParamsInclude = "app"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppLocalizationsGetCollectionParamsInclude enum.
-func (e BetaAppLocalizationsGetCollectionParamsInclude) Valid() bool {
-	switch e {
-	case BetaAppLocalizationsGetCollectionParamsIncludeApp:
-		return true
-	default:
-		return false
-	}
-}
-
 // Defines values for BetaAppLocalizationsGetInstanceParamsFieldsBetaAppLocalizations.
 const (
 	BetaAppLocalizationsGetInstanceParamsFieldsBetaAppLocalizationsApp               BetaAppLocalizationsGetInstanceParamsFieldsBetaAppLocalizations = "app"
@@ -8789,645 +8558,6 @@ const (
 func (e BetaAppReviewDetailsGetCollectionParamsInclude) Valid() bool {
 	switch e {
 	case BetaAppReviewDetailsGetCollectionParamsIncludeApp:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails.
-const (
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsApp                 BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "app"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactEmail        BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "contactEmail"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactFirstName    BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "contactFirstName"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactLastName     BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "contactLastName"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactPhone        BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "contactPhone"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsDemoAccountName     BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "demoAccountName"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsDemoAccountPassword BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "demoAccountPassword"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsDemoAccountRequired BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "demoAccountRequired"
-	BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsNotes               BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails = "notes"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails enum.
-func (e BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails) Valid() bool {
-	switch e {
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsApp:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactEmail:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactFirstName:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactLastName:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsContactPhone:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsDemoAccountName:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsDemoAccountPassword:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsDemoAccountRequired:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetailsNotes:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewDetailsGetInstanceParamsFieldsApps.
-const (
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAccessibilityDeclarations              BetaAppReviewDetailsGetInstanceParamsFieldsApps = "accessibilityDeclarations"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAccessibilityUrl                       BetaAppReviewDetailsGetInstanceParamsFieldsApps = "accessibilityUrl"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAlternativeDistributionKey             BetaAppReviewDetailsGetInstanceParamsFieldsApps = "alternativeDistributionKey"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAnalyticsReportRequests                BetaAppReviewDetailsGetInstanceParamsFieldsApps = "analyticsReportRequests"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          BetaAppReviewDetailsGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppAvailabilityV2                      BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appAvailabilityV2"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppClips                               BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appClips"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppCustomProductPages                  BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appCustomProductPages"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppEncryptionDeclarations              BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppEvents                              BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appEvents"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppInfos                               BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appInfos"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppPricePoints                         BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appPricePoints"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppPriceSchedule                       BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appPriceSchedule"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppStoreIcon                           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appStoreIcon"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppStoreVersions                       BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appStoreVersions"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppTags                                BetaAppReviewDetailsGetInstanceParamsFieldsApps = "appTags"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsAssetLibrary                           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "assetLibrary"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBackgroundAssets                       BetaAppReviewDetailsGetInstanceParamsFieldsApps = "backgroundAssets"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaAppLocalizations                   BetaAppReviewDetailsGetInstanceParamsFieldsApps = "betaAppLocalizations"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaAppReviewDetail                    BetaAppReviewDetailsGetInstanceParamsFieldsApps = "betaAppReviewDetail"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      BetaAppReviewDetailsGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaGroups                             BetaAppReviewDetailsGetInstanceParamsFieldsApps = "betaGroups"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaLicenseAgreement                   BetaAppReviewDetailsGetInstanceParamsFieldsApps = "betaLicenseAgreement"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaTesters                            BetaAppReviewDetailsGetInstanceParamsFieldsApps = "betaTesters"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBuildUploads                           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "buildUploads"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBuilds                                 BetaAppReviewDetailsGetInstanceParamsFieldsApps = "builds"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsBundleId                               BetaAppReviewDetailsGetInstanceParamsFieldsApps = "bundleId"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsCiProduct                              BetaAppReviewDetailsGetInstanceParamsFieldsApps = "ciProduct"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsContentRightsDeclaration               BetaAppReviewDetailsGetInstanceParamsFieldsApps = "contentRightsDeclaration"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsCustomerReviewSummarizations           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "customerReviewSummarizations"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsCustomerReviews                        BetaAppReviewDetailsGetInstanceParamsFieldsApps = "customerReviews"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsEndUserLicenseAgreement                BetaAppReviewDetailsGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsGameCenterDetail                       BetaAppReviewDetailsGetInstanceParamsFieldsApps = "gameCenterDetail"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsGameCenterEnabledVersions              BetaAppReviewDetailsGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsInAppPurchases                         BetaAppReviewDetailsGetInstanceParamsFieldsApps = "inAppPurchases"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsInAppPurchasesV2                       BetaAppReviewDetailsGetInstanceParamsFieldsApps = "inAppPurchasesV2"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 BetaAppReviewDetailsGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsMarketplaceSearchDetail                BetaAppReviewDetailsGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsName                                   BetaAppReviewDetailsGetInstanceParamsFieldsApps = "name"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsPerfPowerMetrics                       BetaAppReviewDetailsGetInstanceParamsFieldsApps = "perfPowerMetrics"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsPerformanceOverviews                   BetaAppReviewDetailsGetInstanceParamsFieldsApps = "performanceOverviews"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsPreReleaseVersions                     BetaAppReviewDetailsGetInstanceParamsFieldsApps = "preReleaseVersions"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsPrimaryLocale                          BetaAppReviewDetailsGetInstanceParamsFieldsApps = "primaryLocale"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsPromotedPurchases                      BetaAppReviewDetailsGetInstanceParamsFieldsApps = "promotedPurchases"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsReviewSubmissions                      BetaAppReviewDetailsGetInstanceParamsFieldsApps = "reviewSubmissions"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSearchKeywords                         BetaAppReviewDetailsGetInstanceParamsFieldsApps = "searchKeywords"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSku                                    BetaAppReviewDetailsGetInstanceParamsFieldsApps = "sku"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionGracePeriod                BetaAppReviewDetailsGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionGroups                     BetaAppReviewDetailsGetInstanceParamsFieldsApps = "subscriptionGroups"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  BetaAppReviewDetailsGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        BetaAppReviewDetailsGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           BetaAppReviewDetailsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox BetaAppReviewDetailsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
-	BetaAppReviewDetailsGetInstanceParamsFieldsAppsWebhooks                               BetaAppReviewDetailsGetInstanceParamsFieldsApps = "webhooks"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewDetailsGetInstanceParamsFieldsApps enum.
-func (e BetaAppReviewDetailsGetInstanceParamsFieldsApps) Valid() bool {
-	switch e {
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAccessibilityDeclarations:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAccessibilityUrl:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAlternativeDistributionKey:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAnalyticsReportRequests:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppAvailabilityV2:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppClips:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppCustomProductPages:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppEvents:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppInfos:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppPricePoints:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppPriceSchedule:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppStoreIcon:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppStoreVersions:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAppTags:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsAssetLibrary:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBackgroundAssets:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaAppLocalizations:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaAppReviewDetail:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaGroups:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaLicenseAgreement:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBetaTesters:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBuildUploads:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBuilds:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsBundleId:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsCiProduct:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsContentRightsDeclaration:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsCustomerReviews:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsGameCenterDetail:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsInAppPurchases:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsInAppPurchasesV2:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsName:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsPerfPowerMetrics:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsPerformanceOverviews:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsPreReleaseVersions:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsPrimaryLocale:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsPromotedPurchases:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsReviewSubmissions:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSearchKeywords:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSku:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionGroups:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
-		return true
-	case BetaAppReviewDetailsGetInstanceParamsFieldsAppsWebhooks:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewDetailsGetInstanceParamsInclude.
-const (
-	BetaAppReviewDetailsGetInstanceParamsIncludeApp BetaAppReviewDetailsGetInstanceParamsInclude = "app"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewDetailsGetInstanceParamsInclude enum.
-func (e BetaAppReviewDetailsGetInstanceParamsInclude) Valid() bool {
-	switch e {
-	case BetaAppReviewDetailsGetInstanceParamsIncludeApp:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState.
-const (
-	BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateAPPROVED         BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState = "APPROVED"
-	BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateINREVIEW         BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState = "IN_REVIEW"
-	BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateREJECTED         BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState = "REJECTED"
-	BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateWAITINGFORREVIEW BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState = "WAITING_FOR_REVIEW"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState enum.
-func (e BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState) Valid() bool {
-	switch e {
-	case BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateAPPROVED:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateINREVIEW:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateREJECTED:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewStateWAITINGFORREVIEW:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions.
-const (
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissionsBetaReviewState BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions = "betaReviewState"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissionsBuild           BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions = "build"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissionsSubmittedDate   BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions = "submittedDate"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions enum.
-func (e BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions) Valid() bool {
-	switch e {
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissionsBetaReviewState:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissionsBuild:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissionsSubmittedDate:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds.
-const (
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsApp                        BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "app"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsAppEncryptionDeclaration   BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "appEncryptionDeclaration"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsAppStoreVersion            BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "appStoreVersion"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBetaAppReviewSubmission    BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "betaAppReviewSubmission"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBetaBuildLocalizations     BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "betaBuildLocalizations"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBetaGroups                 BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "betaGroups"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildAudienceType          BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "buildAudienceType"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildBetaDetail            BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "buildBetaDetail"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildBundles               BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "buildBundles"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildUpload                BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "buildUpload"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsComputedMinMacOsVersion    BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "computedMinMacOsVersion"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsComputedMinVisionOsVersion BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "computedMinVisionOsVersion"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsDiagnosticSignatures       BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "diagnosticSignatures"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsExpirationDate             BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "expirationDate"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsExpired                    BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "expired"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsIconAssetToken             BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "iconAssetToken"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsIcons                      BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "icons"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsIndividualTesters          BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "individualTesters"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsLsMinimumSystemVersion     BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "lsMinimumSystemVersion"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsMinOsVersion               BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "minOsVersion"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsPerfPowerMetrics           BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "perfPowerMetrics"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsPreReleaseVersion          BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "preReleaseVersion"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsProcessingState            BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "processingState"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsUploadedDate               BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "uploadedDate"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsUsesNonExemptEncryption    BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "usesNonExemptEncryption"
-	BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsVersion                    BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds = "version"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds enum.
-func (e BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds) Valid() bool {
-	switch e {
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsApp:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsAppEncryptionDeclaration:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsAppStoreVersion:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBetaAppReviewSubmission:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBetaBuildLocalizations:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBetaGroups:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildAudienceType:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildBetaDetail:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildBundles:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsBuildUpload:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsComputedMinMacOsVersion:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsComputedMinVisionOsVersion:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsDiagnosticSignatures:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsExpirationDate:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsExpired:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsIconAssetToken:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsIcons:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsIndividualTesters:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsLsMinimumSystemVersion:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsMinOsVersion:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsPerfPowerMetrics:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsPreReleaseVersion:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsProcessingState:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsUploadedDate:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsUsesNonExemptEncryption:
-		return true
-	case BetaAppReviewSubmissionsGetCollectionParamsFieldsBuildsVersion:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewSubmissionsGetCollectionParamsInclude.
-const (
-	BetaAppReviewSubmissionsGetCollectionParamsIncludeBuild BetaAppReviewSubmissionsGetCollectionParamsInclude = "build"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewSubmissionsGetCollectionParamsInclude enum.
-func (e BetaAppReviewSubmissionsGetCollectionParamsInclude) Valid() bool {
-	switch e {
-	case BetaAppReviewSubmissionsGetCollectionParamsIncludeBuild:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions.
-const (
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissionsBetaReviewState BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions = "betaReviewState"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissionsBuild           BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions = "build"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissionsSubmittedDate   BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions = "submittedDate"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions enum.
-func (e BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions) Valid() bool {
-	switch e {
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissionsBetaReviewState:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissionsBuild:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissionsSubmittedDate:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds.
-const (
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsApp                        BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "app"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsAppEncryptionDeclaration   BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "appEncryptionDeclaration"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsAppStoreVersion            BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "appStoreVersion"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBetaAppReviewSubmission    BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "betaAppReviewSubmission"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBetaBuildLocalizations     BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "betaBuildLocalizations"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBetaGroups                 BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "betaGroups"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildAudienceType          BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "buildAudienceType"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildBetaDetail            BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "buildBetaDetail"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildBundles               BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "buildBundles"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildUpload                BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "buildUpload"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsComputedMinMacOsVersion    BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "computedMinMacOsVersion"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsComputedMinVisionOsVersion BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "computedMinVisionOsVersion"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsDiagnosticSignatures       BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "diagnosticSignatures"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsExpirationDate             BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "expirationDate"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsExpired                    BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "expired"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsIconAssetToken             BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "iconAssetToken"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsIcons                      BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "icons"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsIndividualTesters          BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "individualTesters"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsLsMinimumSystemVersion     BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "lsMinimumSystemVersion"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsMinOsVersion               BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "minOsVersion"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsPerfPowerMetrics           BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "perfPowerMetrics"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsPreReleaseVersion          BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "preReleaseVersion"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsProcessingState            BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "processingState"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsUploadedDate               BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "uploadedDate"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsUsesNonExemptEncryption    BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "usesNonExemptEncryption"
-	BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsVersion                    BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds = "version"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds enum.
-func (e BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds) Valid() bool {
-	switch e {
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsApp:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsAppEncryptionDeclaration:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsAppStoreVersion:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBetaAppReviewSubmission:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBetaBuildLocalizations:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBetaGroups:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildAudienceType:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildBetaDetail:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildBundles:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsBuildUpload:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsComputedMinMacOsVersion:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsComputedMinVisionOsVersion:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsDiagnosticSignatures:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsExpirationDate:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsExpired:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsIconAssetToken:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsIcons:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsIndividualTesters:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsLsMinimumSystemVersion:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsMinOsVersion:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsPerfPowerMetrics:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsPreReleaseVersion:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsProcessingState:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsUploadedDate:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsUsesNonExemptEncryption:
-		return true
-	case BetaAppReviewSubmissionsGetInstanceParamsFieldsBuildsVersion:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaAppReviewSubmissionsGetInstanceParamsInclude.
-const (
-	BetaAppReviewSubmissionsGetInstanceParamsIncludeBuild BetaAppReviewSubmissionsGetInstanceParamsInclude = "build"
-)
-
-// Valid indicates whether the value is a known member of the BetaAppReviewSubmissionsGetInstanceParamsInclude enum.
-func (e BetaAppReviewSubmissionsGetInstanceParamsInclude) Valid() bool {
-	switch e {
-	case BetaAppReviewSubmissionsGetInstanceParamsIncludeBuild:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations.
-const (
-	BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizationsBuild    BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations = "build"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizationsLocale   BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations = "locale"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizationsWhatsNew BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations = "whatsNew"
-)
-
-// Valid indicates whether the value is a known member of the BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations enum.
-func (e BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations) Valid() bool {
-	switch e {
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizationsBuild:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizationsLocale:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizationsWhatsNew:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaBuildLocalizationsGetCollectionParamsFieldsBuilds.
-const (
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsApp                        BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "app"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsAppEncryptionDeclaration   BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "appEncryptionDeclaration"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsAppStoreVersion            BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "appStoreVersion"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBetaAppReviewSubmission    BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "betaAppReviewSubmission"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBetaBuildLocalizations     BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "betaBuildLocalizations"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBetaGroups                 BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "betaGroups"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildAudienceType          BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "buildAudienceType"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildBetaDetail            BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "buildBetaDetail"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildBundles               BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "buildBundles"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildUpload                BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "buildUpload"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsComputedMinMacOsVersion    BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "computedMinMacOsVersion"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsComputedMinVisionOsVersion BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "computedMinVisionOsVersion"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsDiagnosticSignatures       BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "diagnosticSignatures"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsExpirationDate             BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "expirationDate"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsExpired                    BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "expired"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsIconAssetToken             BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "iconAssetToken"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsIcons                      BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "icons"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsIndividualTesters          BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "individualTesters"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsLsMinimumSystemVersion     BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "lsMinimumSystemVersion"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsMinOsVersion               BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "minOsVersion"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsPerfPowerMetrics           BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "perfPowerMetrics"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsPreReleaseVersion          BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "preReleaseVersion"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsProcessingState            BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "processingState"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsUploadedDate               BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "uploadedDate"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsUsesNonExemptEncryption    BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "usesNonExemptEncryption"
-	BetaBuildLocalizationsGetCollectionParamsFieldsBuildsVersion                    BetaBuildLocalizationsGetCollectionParamsFieldsBuilds = "version"
-)
-
-// Valid indicates whether the value is a known member of the BetaBuildLocalizationsGetCollectionParamsFieldsBuilds enum.
-func (e BetaBuildLocalizationsGetCollectionParamsFieldsBuilds) Valid() bool {
-	switch e {
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsApp:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsAppEncryptionDeclaration:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsAppStoreVersion:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBetaAppReviewSubmission:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBetaBuildLocalizations:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBetaGroups:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildAudienceType:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildBetaDetail:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildBundles:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsBuildUpload:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsComputedMinMacOsVersion:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsComputedMinVisionOsVersion:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsDiagnosticSignatures:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsExpirationDate:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsExpired:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsIconAssetToken:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsIcons:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsIndividualTesters:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsLsMinimumSystemVersion:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsMinOsVersion:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsPerfPowerMetrics:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsPreReleaseVersion:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsProcessingState:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsUploadedDate:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsUsesNonExemptEncryption:
-		return true
-	case BetaBuildLocalizationsGetCollectionParamsFieldsBuildsVersion:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaBuildLocalizationsGetCollectionParamsInclude.
-const (
-	BetaBuildLocalizationsGetCollectionParamsIncludeBuild BetaBuildLocalizationsGetCollectionParamsInclude = "build"
-)
-
-// Valid indicates whether the value is a known member of the BetaBuildLocalizationsGetCollectionParamsInclude enum.
-func (e BetaBuildLocalizationsGetCollectionParamsInclude) Valid() bool {
-	switch e {
-	case BetaBuildLocalizationsGetCollectionParamsIncludeBuild:
 		return true
 	default:
 		return false
@@ -10664,222 +9794,6 @@ func (e BetaLicenseAgreementsGetCollectionParamsInclude) Valid() bool {
 	}
 }
 
-// Defines values for BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements.
-const (
-	BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreementsAgreementText BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements = "agreementText"
-	BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreementsApp           BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements = "app"
-)
-
-// Valid indicates whether the value is a known member of the BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements enum.
-func (e BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements) Valid() bool {
-	switch e {
-	case BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreementsAgreementText:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreementsApp:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaLicenseAgreementsGetInstanceParamsFieldsApps.
-const (
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAccessibilityDeclarations              BetaLicenseAgreementsGetInstanceParamsFieldsApps = "accessibilityDeclarations"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAccessibilityUrl                       BetaLicenseAgreementsGetInstanceParamsFieldsApps = "accessibilityUrl"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAlternativeDistributionKey             BetaLicenseAgreementsGetInstanceParamsFieldsApps = "alternativeDistributionKey"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAnalyticsReportRequests                BetaLicenseAgreementsGetInstanceParamsFieldsApps = "analyticsReportRequests"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          BetaLicenseAgreementsGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppAvailabilityV2                      BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appAvailabilityV2"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppClips                               BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appClips"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppCustomProductPages                  BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appCustomProductPages"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppEncryptionDeclarations              BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppEvents                              BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appEvents"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppInfos                               BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appInfos"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppPricePoints                         BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appPricePoints"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppPriceSchedule                       BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appPriceSchedule"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppStoreIcon                           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appStoreIcon"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppStoreVersions                       BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appStoreVersions"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppTags                                BetaLicenseAgreementsGetInstanceParamsFieldsApps = "appTags"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsAssetLibrary                           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "assetLibrary"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBackgroundAssets                       BetaLicenseAgreementsGetInstanceParamsFieldsApps = "backgroundAssets"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaAppLocalizations                   BetaLicenseAgreementsGetInstanceParamsFieldsApps = "betaAppLocalizations"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaAppReviewDetail                    BetaLicenseAgreementsGetInstanceParamsFieldsApps = "betaAppReviewDetail"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      BetaLicenseAgreementsGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaGroups                             BetaLicenseAgreementsGetInstanceParamsFieldsApps = "betaGroups"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaLicenseAgreement                   BetaLicenseAgreementsGetInstanceParamsFieldsApps = "betaLicenseAgreement"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaTesters                            BetaLicenseAgreementsGetInstanceParamsFieldsApps = "betaTesters"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBuildUploads                           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "buildUploads"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBuilds                                 BetaLicenseAgreementsGetInstanceParamsFieldsApps = "builds"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsBundleId                               BetaLicenseAgreementsGetInstanceParamsFieldsApps = "bundleId"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsCiProduct                              BetaLicenseAgreementsGetInstanceParamsFieldsApps = "ciProduct"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsContentRightsDeclaration               BetaLicenseAgreementsGetInstanceParamsFieldsApps = "contentRightsDeclaration"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsCustomerReviewSummarizations           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "customerReviewSummarizations"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsCustomerReviews                        BetaLicenseAgreementsGetInstanceParamsFieldsApps = "customerReviews"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsEndUserLicenseAgreement                BetaLicenseAgreementsGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsGameCenterDetail                       BetaLicenseAgreementsGetInstanceParamsFieldsApps = "gameCenterDetail"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsGameCenterEnabledVersions              BetaLicenseAgreementsGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsInAppPurchases                         BetaLicenseAgreementsGetInstanceParamsFieldsApps = "inAppPurchases"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsInAppPurchasesV2                       BetaLicenseAgreementsGetInstanceParamsFieldsApps = "inAppPurchasesV2"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 BetaLicenseAgreementsGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsMarketplaceSearchDetail                BetaLicenseAgreementsGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsName                                   BetaLicenseAgreementsGetInstanceParamsFieldsApps = "name"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsPerfPowerMetrics                       BetaLicenseAgreementsGetInstanceParamsFieldsApps = "perfPowerMetrics"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsPerformanceOverviews                   BetaLicenseAgreementsGetInstanceParamsFieldsApps = "performanceOverviews"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsPreReleaseVersions                     BetaLicenseAgreementsGetInstanceParamsFieldsApps = "preReleaseVersions"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsPrimaryLocale                          BetaLicenseAgreementsGetInstanceParamsFieldsApps = "primaryLocale"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsPromotedPurchases                      BetaLicenseAgreementsGetInstanceParamsFieldsApps = "promotedPurchases"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsReviewSubmissions                      BetaLicenseAgreementsGetInstanceParamsFieldsApps = "reviewSubmissions"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSearchKeywords                         BetaLicenseAgreementsGetInstanceParamsFieldsApps = "searchKeywords"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSku                                    BetaLicenseAgreementsGetInstanceParamsFieldsApps = "sku"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionGracePeriod                BetaLicenseAgreementsGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionGroups                     BetaLicenseAgreementsGetInstanceParamsFieldsApps = "subscriptionGroups"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  BetaLicenseAgreementsGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        BetaLicenseAgreementsGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           BetaLicenseAgreementsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox BetaLicenseAgreementsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
-	BetaLicenseAgreementsGetInstanceParamsFieldsAppsWebhooks                               BetaLicenseAgreementsGetInstanceParamsFieldsApps = "webhooks"
-)
-
-// Valid indicates whether the value is a known member of the BetaLicenseAgreementsGetInstanceParamsFieldsApps enum.
-func (e BetaLicenseAgreementsGetInstanceParamsFieldsApps) Valid() bool {
-	switch e {
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAccessibilityDeclarations:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAccessibilityUrl:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAlternativeDistributionKey:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAnalyticsReportRequests:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppAvailabilityV2:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppClips:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppCustomProductPages:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppEvents:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppInfos:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppPricePoints:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppPriceSchedule:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppStoreIcon:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppStoreVersions:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAppTags:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsAssetLibrary:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBackgroundAssets:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaAppLocalizations:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaAppReviewDetail:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaGroups:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaLicenseAgreement:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBetaTesters:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBuildUploads:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBuilds:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsBundleId:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsCiProduct:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsContentRightsDeclaration:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsCustomerReviews:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsGameCenterDetail:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsInAppPurchases:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsInAppPurchasesV2:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsName:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsPerfPowerMetrics:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsPerformanceOverviews:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsPreReleaseVersions:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsPrimaryLocale:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsPromotedPurchases:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsReviewSubmissions:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSearchKeywords:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSku:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionGroups:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
-		return true
-	case BetaLicenseAgreementsGetInstanceParamsFieldsAppsWebhooks:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BetaLicenseAgreementsGetInstanceParamsInclude.
-const (
-	BetaLicenseAgreementsGetInstanceParamsIncludeApp BetaLicenseAgreementsGetInstanceParamsInclude = "app"
-)
-
-// Valid indicates whether the value is a known member of the BetaLicenseAgreementsGetInstanceParamsInclude enum.
-func (e BetaLicenseAgreementsGetInstanceParamsInclude) Valid() bool {
-	switch e {
-	case BetaLicenseAgreementsGetInstanceParamsIncludeApp:
-		return true
-	default:
-		return false
-	}
-}
-
 // Defines values for BetaRecruitmentCriterionOptionsGetCollectionParamsFieldsBetaRecruitmentCriterionOptions.
 const (
 	BetaRecruitmentCriterionOptionsGetCollectionParamsFieldsBetaRecruitmentCriterionOptionsDeviceFamilyOsVersions BetaRecruitmentCriterionOptionsGetCollectionParamsFieldsBetaRecruitmentCriterionOptions = "deviceFamilyOsVersions"
@@ -11870,135 +10784,6 @@ const (
 func (e BuildBetaDetailsGetCollectionParamsInclude) Valid() bool {
 	switch e {
 	case BuildBetaDetailsGetCollectionParamsIncludeBuild:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails.
-const (
-	BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsAutoNotifyEnabled  BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails = "autoNotifyEnabled"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsBuild              BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails = "build"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsExternalBuildState BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails = "externalBuildState"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsInternalBuildState BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails = "internalBuildState"
-)
-
-// Valid indicates whether the value is a known member of the BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails enum.
-func (e BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails) Valid() bool {
-	switch e {
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsAutoNotifyEnabled:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsBuild:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsExternalBuildState:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetailsInternalBuildState:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BuildBetaDetailsGetInstanceParamsFieldsBuilds.
-const (
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsApp                        BuildBetaDetailsGetInstanceParamsFieldsBuilds = "app"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsAppEncryptionDeclaration   BuildBetaDetailsGetInstanceParamsFieldsBuilds = "appEncryptionDeclaration"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsAppStoreVersion            BuildBetaDetailsGetInstanceParamsFieldsBuilds = "appStoreVersion"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsBetaAppReviewSubmission    BuildBetaDetailsGetInstanceParamsFieldsBuilds = "betaAppReviewSubmission"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsBetaBuildLocalizations     BuildBetaDetailsGetInstanceParamsFieldsBuilds = "betaBuildLocalizations"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsBetaGroups                 BuildBetaDetailsGetInstanceParamsFieldsBuilds = "betaGroups"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildAudienceType          BuildBetaDetailsGetInstanceParamsFieldsBuilds = "buildAudienceType"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildBetaDetail            BuildBetaDetailsGetInstanceParamsFieldsBuilds = "buildBetaDetail"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildBundles               BuildBetaDetailsGetInstanceParamsFieldsBuilds = "buildBundles"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildUpload                BuildBetaDetailsGetInstanceParamsFieldsBuilds = "buildUpload"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsComputedMinMacOsVersion    BuildBetaDetailsGetInstanceParamsFieldsBuilds = "computedMinMacOsVersion"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsComputedMinVisionOsVersion BuildBetaDetailsGetInstanceParamsFieldsBuilds = "computedMinVisionOsVersion"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsDiagnosticSignatures       BuildBetaDetailsGetInstanceParamsFieldsBuilds = "diagnosticSignatures"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsExpirationDate             BuildBetaDetailsGetInstanceParamsFieldsBuilds = "expirationDate"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsExpired                    BuildBetaDetailsGetInstanceParamsFieldsBuilds = "expired"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsIconAssetToken             BuildBetaDetailsGetInstanceParamsFieldsBuilds = "iconAssetToken"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsIcons                      BuildBetaDetailsGetInstanceParamsFieldsBuilds = "icons"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsIndividualTesters          BuildBetaDetailsGetInstanceParamsFieldsBuilds = "individualTesters"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsLsMinimumSystemVersion     BuildBetaDetailsGetInstanceParamsFieldsBuilds = "lsMinimumSystemVersion"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsMinOsVersion               BuildBetaDetailsGetInstanceParamsFieldsBuilds = "minOsVersion"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsPerfPowerMetrics           BuildBetaDetailsGetInstanceParamsFieldsBuilds = "perfPowerMetrics"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsPreReleaseVersion          BuildBetaDetailsGetInstanceParamsFieldsBuilds = "preReleaseVersion"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsProcessingState            BuildBetaDetailsGetInstanceParamsFieldsBuilds = "processingState"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsUploadedDate               BuildBetaDetailsGetInstanceParamsFieldsBuilds = "uploadedDate"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsUsesNonExemptEncryption    BuildBetaDetailsGetInstanceParamsFieldsBuilds = "usesNonExemptEncryption"
-	BuildBetaDetailsGetInstanceParamsFieldsBuildsVersion                    BuildBetaDetailsGetInstanceParamsFieldsBuilds = "version"
-)
-
-// Valid indicates whether the value is a known member of the BuildBetaDetailsGetInstanceParamsFieldsBuilds enum.
-func (e BuildBetaDetailsGetInstanceParamsFieldsBuilds) Valid() bool {
-	switch e {
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsApp:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsAppEncryptionDeclaration:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsAppStoreVersion:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsBetaAppReviewSubmission:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsBetaBuildLocalizations:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsBetaGroups:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildAudienceType:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildBetaDetail:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildBundles:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsBuildUpload:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsComputedMinMacOsVersion:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsComputedMinVisionOsVersion:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsDiagnosticSignatures:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsExpirationDate:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsExpired:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsIconAssetToken:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsIcons:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsIndividualTesters:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsLsMinimumSystemVersion:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsMinOsVersion:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsPerfPowerMetrics:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsPreReleaseVersion:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsProcessingState:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsUploadedDate:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsUsesNonExemptEncryption:
-		return true
-	case BuildBetaDetailsGetInstanceParamsFieldsBuildsVersion:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BuildBetaDetailsGetInstanceParamsInclude.
-const (
-	BuildBetaDetailsGetInstanceParamsIncludeBuild BuildBetaDetailsGetInstanceParamsInclude = "build"
-)
-
-// Valid indicates whether the value is a known member of the BuildBetaDetailsGetInstanceParamsInclude enum.
-func (e BuildBetaDetailsGetInstanceParamsInclude) Valid() bool {
-	switch e {
-	case BuildBetaDetailsGetInstanceParamsIncludeBuild:
 		return true
 	default:
 		return false
@@ -15983,321 +14768,6 @@ func (e PreReleaseVersionsGetCollectionParamsInclude) Valid() bool {
 	}
 }
 
-// Defines values for PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions.
-const (
-	PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsApp      PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions = "app"
-	PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsBuilds   PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions = "builds"
-	PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsPlatform PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions = "platform"
-	PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsVersion  PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions = "version"
-)
-
-// Valid indicates whether the value is a known member of the PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions enum.
-func (e PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions) Valid() bool {
-	switch e {
-	case PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsApp:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsBuilds:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsPlatform:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersionsVersion:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for PreReleaseVersionsGetInstanceParamsFieldsBuilds.
-const (
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsApp                        PreReleaseVersionsGetInstanceParamsFieldsBuilds = "app"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsAppEncryptionDeclaration   PreReleaseVersionsGetInstanceParamsFieldsBuilds = "appEncryptionDeclaration"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsAppStoreVersion            PreReleaseVersionsGetInstanceParamsFieldsBuilds = "appStoreVersion"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsBetaAppReviewSubmission    PreReleaseVersionsGetInstanceParamsFieldsBuilds = "betaAppReviewSubmission"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsBetaBuildLocalizations     PreReleaseVersionsGetInstanceParamsFieldsBuilds = "betaBuildLocalizations"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsBetaGroups                 PreReleaseVersionsGetInstanceParamsFieldsBuilds = "betaGroups"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildAudienceType          PreReleaseVersionsGetInstanceParamsFieldsBuilds = "buildAudienceType"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildBetaDetail            PreReleaseVersionsGetInstanceParamsFieldsBuilds = "buildBetaDetail"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildBundles               PreReleaseVersionsGetInstanceParamsFieldsBuilds = "buildBundles"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildUpload                PreReleaseVersionsGetInstanceParamsFieldsBuilds = "buildUpload"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsComputedMinMacOsVersion    PreReleaseVersionsGetInstanceParamsFieldsBuilds = "computedMinMacOsVersion"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsComputedMinVisionOsVersion PreReleaseVersionsGetInstanceParamsFieldsBuilds = "computedMinVisionOsVersion"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsDiagnosticSignatures       PreReleaseVersionsGetInstanceParamsFieldsBuilds = "diagnosticSignatures"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsExpirationDate             PreReleaseVersionsGetInstanceParamsFieldsBuilds = "expirationDate"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsExpired                    PreReleaseVersionsGetInstanceParamsFieldsBuilds = "expired"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsIconAssetToken             PreReleaseVersionsGetInstanceParamsFieldsBuilds = "iconAssetToken"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsIcons                      PreReleaseVersionsGetInstanceParamsFieldsBuilds = "icons"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsIndividualTesters          PreReleaseVersionsGetInstanceParamsFieldsBuilds = "individualTesters"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsLsMinimumSystemVersion     PreReleaseVersionsGetInstanceParamsFieldsBuilds = "lsMinimumSystemVersion"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsMinOsVersion               PreReleaseVersionsGetInstanceParamsFieldsBuilds = "minOsVersion"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsPerfPowerMetrics           PreReleaseVersionsGetInstanceParamsFieldsBuilds = "perfPowerMetrics"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsPreReleaseVersion          PreReleaseVersionsGetInstanceParamsFieldsBuilds = "preReleaseVersion"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsProcessingState            PreReleaseVersionsGetInstanceParamsFieldsBuilds = "processingState"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsUploadedDate               PreReleaseVersionsGetInstanceParamsFieldsBuilds = "uploadedDate"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsUsesNonExemptEncryption    PreReleaseVersionsGetInstanceParamsFieldsBuilds = "usesNonExemptEncryption"
-	PreReleaseVersionsGetInstanceParamsFieldsBuildsVersion                    PreReleaseVersionsGetInstanceParamsFieldsBuilds = "version"
-)
-
-// Valid indicates whether the value is a known member of the PreReleaseVersionsGetInstanceParamsFieldsBuilds enum.
-func (e PreReleaseVersionsGetInstanceParamsFieldsBuilds) Valid() bool {
-	switch e {
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsApp:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsAppEncryptionDeclaration:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsAppStoreVersion:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsBetaAppReviewSubmission:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsBetaBuildLocalizations:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsBetaGroups:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildAudienceType:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildBetaDetail:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildBundles:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsBuildUpload:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsComputedMinMacOsVersion:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsComputedMinVisionOsVersion:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsDiagnosticSignatures:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsExpirationDate:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsExpired:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsIconAssetToken:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsIcons:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsIndividualTesters:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsLsMinimumSystemVersion:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsMinOsVersion:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsPerfPowerMetrics:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsPreReleaseVersion:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsProcessingState:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsUploadedDate:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsUsesNonExemptEncryption:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsBuildsVersion:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for PreReleaseVersionsGetInstanceParamsFieldsApps.
-const (
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAccessibilityDeclarations              PreReleaseVersionsGetInstanceParamsFieldsApps = "accessibilityDeclarations"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAccessibilityUrl                       PreReleaseVersionsGetInstanceParamsFieldsApps = "accessibilityUrl"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAlternativeDistributionKey             PreReleaseVersionsGetInstanceParamsFieldsApps = "alternativeDistributionKey"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAnalyticsReportRequests                PreReleaseVersionsGetInstanceParamsFieldsApps = "analyticsReportRequests"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          PreReleaseVersionsGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppAvailabilityV2                      PreReleaseVersionsGetInstanceParamsFieldsApps = "appAvailabilityV2"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppClips                               PreReleaseVersionsGetInstanceParamsFieldsApps = "appClips"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppCustomProductPages                  PreReleaseVersionsGetInstanceParamsFieldsApps = "appCustomProductPages"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppEncryptionDeclarations              PreReleaseVersionsGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppEvents                              PreReleaseVersionsGetInstanceParamsFieldsApps = "appEvents"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppInfos                               PreReleaseVersionsGetInstanceParamsFieldsApps = "appInfos"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppPricePoints                         PreReleaseVersionsGetInstanceParamsFieldsApps = "appPricePoints"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppPriceSchedule                       PreReleaseVersionsGetInstanceParamsFieldsApps = "appPriceSchedule"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppStoreIcon                           PreReleaseVersionsGetInstanceParamsFieldsApps = "appStoreIcon"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           PreReleaseVersionsGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppStoreVersions                       PreReleaseVersionsGetInstanceParamsFieldsApps = "appStoreVersions"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAppTags                                PreReleaseVersionsGetInstanceParamsFieldsApps = "appTags"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsAssetLibrary                           PreReleaseVersionsGetInstanceParamsFieldsApps = "assetLibrary"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBackgroundAssets                       PreReleaseVersionsGetInstanceParamsFieldsApps = "backgroundAssets"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBetaAppLocalizations                   PreReleaseVersionsGetInstanceParamsFieldsApps = "betaAppLocalizations"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBetaAppReviewDetail                    PreReleaseVersionsGetInstanceParamsFieldsApps = "betaAppReviewDetail"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           PreReleaseVersionsGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      PreReleaseVersionsGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBetaGroups                             PreReleaseVersionsGetInstanceParamsFieldsApps = "betaGroups"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBetaLicenseAgreement                   PreReleaseVersionsGetInstanceParamsFieldsApps = "betaLicenseAgreement"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBetaTesters                            PreReleaseVersionsGetInstanceParamsFieldsApps = "betaTesters"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBuildUploads                           PreReleaseVersionsGetInstanceParamsFieldsApps = "buildUploads"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBuilds                                 PreReleaseVersionsGetInstanceParamsFieldsApps = "builds"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsBundleId                               PreReleaseVersionsGetInstanceParamsFieldsApps = "bundleId"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsCiProduct                              PreReleaseVersionsGetInstanceParamsFieldsApps = "ciProduct"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsContentRightsDeclaration               PreReleaseVersionsGetInstanceParamsFieldsApps = "contentRightsDeclaration"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsCustomerReviewSummarizations           PreReleaseVersionsGetInstanceParamsFieldsApps = "customerReviewSummarizations"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsCustomerReviews                        PreReleaseVersionsGetInstanceParamsFieldsApps = "customerReviews"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsEndUserLicenseAgreement                PreReleaseVersionsGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsGameCenterDetail                       PreReleaseVersionsGetInstanceParamsFieldsApps = "gameCenterDetail"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsGameCenterEnabledVersions              PreReleaseVersionsGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsInAppPurchases                         PreReleaseVersionsGetInstanceParamsFieldsApps = "inAppPurchases"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsInAppPurchasesV2                       PreReleaseVersionsGetInstanceParamsFieldsApps = "inAppPurchasesV2"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 PreReleaseVersionsGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsMarketplaceSearchDetail                PreReleaseVersionsGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsName                                   PreReleaseVersionsGetInstanceParamsFieldsApps = "name"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsPerfPowerMetrics                       PreReleaseVersionsGetInstanceParamsFieldsApps = "perfPowerMetrics"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsPerformanceOverviews                   PreReleaseVersionsGetInstanceParamsFieldsApps = "performanceOverviews"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsPreReleaseVersions                     PreReleaseVersionsGetInstanceParamsFieldsApps = "preReleaseVersions"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsPrimaryLocale                          PreReleaseVersionsGetInstanceParamsFieldsApps = "primaryLocale"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsPromotedPurchases                      PreReleaseVersionsGetInstanceParamsFieldsApps = "promotedPurchases"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsReviewSubmissions                      PreReleaseVersionsGetInstanceParamsFieldsApps = "reviewSubmissions"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSearchKeywords                         PreReleaseVersionsGetInstanceParamsFieldsApps = "searchKeywords"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSku                                    PreReleaseVersionsGetInstanceParamsFieldsApps = "sku"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           PreReleaseVersionsGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionGracePeriod                PreReleaseVersionsGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionGroups                     PreReleaseVersionsGetInstanceParamsFieldsApps = "subscriptionGroups"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  PreReleaseVersionsGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        PreReleaseVersionsGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           PreReleaseVersionsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox PreReleaseVersionsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
-	PreReleaseVersionsGetInstanceParamsFieldsAppsWebhooks                               PreReleaseVersionsGetInstanceParamsFieldsApps = "webhooks"
-)
-
-// Valid indicates whether the value is a known member of the PreReleaseVersionsGetInstanceParamsFieldsApps enum.
-func (e PreReleaseVersionsGetInstanceParamsFieldsApps) Valid() bool {
-	switch e {
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAccessibilityDeclarations:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAccessibilityUrl:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAlternativeDistributionKey:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAnalyticsReportRequests:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppAvailabilityV2:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppClips:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppCustomProductPages:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppEvents:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppInfos:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppPricePoints:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppPriceSchedule:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppStoreIcon:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppStoreVersions:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAppTags:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsAssetLibrary:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBackgroundAssets:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBetaAppLocalizations:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBetaAppReviewDetail:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBetaGroups:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBetaLicenseAgreement:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBetaTesters:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBuildUploads:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBuilds:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsBundleId:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsCiProduct:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsContentRightsDeclaration:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsCustomerReviews:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsGameCenterDetail:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsInAppPurchases:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsInAppPurchasesV2:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsName:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsPerfPowerMetrics:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsPerformanceOverviews:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsPreReleaseVersions:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsPrimaryLocale:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsPromotedPurchases:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsReviewSubmissions:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSearchKeywords:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSku:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionGroups:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
-		return true
-	case PreReleaseVersionsGetInstanceParamsFieldsAppsWebhooks:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for PreReleaseVersionsGetInstanceParamsInclude.
-const (
-	PreReleaseVersionsGetInstanceParamsIncludeApp    PreReleaseVersionsGetInstanceParamsInclude = "app"
-	PreReleaseVersionsGetInstanceParamsIncludeBuilds PreReleaseVersionsGetInstanceParamsInclude = "builds"
-)
-
-// Valid indicates whether the value is a known member of the PreReleaseVersionsGetInstanceParamsInclude enum.
-func (e PreReleaseVersionsGetInstanceParamsInclude) Valid() bool {
-	switch e {
-	case PreReleaseVersionsGetInstanceParamsIncludeApp:
-		return true
-	case PreReleaseVersionsGetInstanceParamsIncludeBuilds:
-		return true
-	default:
-		return false
-	}
-}
-
 // Defines values for ProfilesGetCollectionParamsFilterProfileType.
 const (
 	ProfilesGetCollectionParamsFilterProfileTypeIOSAPPADHOC               ProfilesGetCollectionParamsFilterProfileType = "IOS_APP_ADHOC"
@@ -17811,14 +16281,6 @@ type BetaAppLocalizationUpdateRequest struct {
 // BetaAppLocalizationUpdateRequestDataType defines model for BetaAppLocalizationUpdateRequest.Data.Type.
 type BetaAppLocalizationUpdateRequestDataType string
 
-// BetaAppLocalizationsResponse defines model for BetaAppLocalizationsResponse.
-type BetaAppLocalizationsResponse struct {
-	Data     []BetaAppLocalization `json:"data"`
-	Included *[]App                `json:"included,omitempty"`
-	Links    PagedDocumentLinks    `json:"links"`
-	Meta     *PagingInformation    `json:"meta,omitempty"`
-}
-
 // BetaAppReviewDetail defines model for BetaAppReviewDetail.
 type BetaAppReviewDetail struct {
 	Attributes *struct {
@@ -17941,14 +16403,6 @@ type BetaAppReviewSubmissionResponse struct {
 	Links    DocumentLinks           `json:"links"`
 }
 
-// BetaAppReviewSubmissionsResponse defines model for BetaAppReviewSubmissionsResponse.
-type BetaAppReviewSubmissionsResponse struct {
-	Data     []BetaAppReviewSubmission `json:"data"`
-	Included *[]Build                  `json:"included,omitempty"`
-	Links    PagedDocumentLinks        `json:"links"`
-	Meta     *PagingInformation        `json:"meta,omitempty"`
-}
-
 // BetaBuildLocalization defines model for BetaBuildLocalization.
 type BetaBuildLocalization struct {
 	Attributes *struct {
@@ -18020,14 +16474,6 @@ type BetaBuildLocalizationUpdateRequest struct {
 
 // BetaBuildLocalizationUpdateRequestDataType defines model for BetaBuildLocalizationUpdateRequest.Data.Type.
 type BetaBuildLocalizationUpdateRequestDataType string
-
-// BetaBuildLocalizationsResponse defines model for BetaBuildLocalizationsResponse.
-type BetaBuildLocalizationsResponse struct {
-	Data     []BetaBuildLocalization `json:"data"`
-	Included *[]Build                `json:"included,omitempty"`
-	Links    PagedDocumentLinks      `json:"links"`
-	Meta     *PagingInformation      `json:"meta,omitempty"`
-}
 
 // BetaGroup defines model for BetaGroup.
 type BetaGroup struct {
@@ -20138,18 +18584,6 @@ type PrereleaseVersionRelationshipsBuildsDataType string
 // PrereleaseVersionType defines model for PrereleaseVersion.Type.
 type PrereleaseVersionType string
 
-// PrereleaseVersionResponse defines model for PrereleaseVersionResponse.
-type PrereleaseVersionResponse struct {
-	Data     PrereleaseVersion                          `json:"data"`
-	Included *[]PrereleaseVersionResponse_Included_Item `json:"included,omitempty"`
-	Links    DocumentLinks                              `json:"links"`
-}
-
-// PrereleaseVersionResponse_Included_Item defines model for PrereleaseVersionResponse.included.Item.
-type PrereleaseVersionResponse_Included_Item struct {
-	union json.RawMessage
-}
-
 // Profile defines model for Profile.
 type Profile struct {
 	Attributes *struct {
@@ -21012,36 +19446,6 @@ type AppsGetInstanceParamsFieldsAndroidToIosAppMappingDetails string
 // AppsGetInstanceParamsInclude defines parameters for AppsGetInstance.
 type AppsGetInstanceParamsInclude string
 
-// BetaAppLocalizationsGetCollectionParams defines parameters for BetaAppLocalizationsGetCollection.
-type BetaAppLocalizationsGetCollectionParams struct {
-	// FilterLocale filter by attribute 'locale'
-	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
-
-	// FilterApp filter by id(s) of related 'app'
-	FilterApp *[]string `form:"filter[app],omitempty" json:"filter[app],omitempty"`
-
-	// FieldsBetaAppLocalizations the fields to include for returned resources of type betaAppLocalizations
-	FieldsBetaAppLocalizations *[]BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations `form:"fields[betaAppLocalizations],omitempty" json:"fields[betaAppLocalizations],omitempty"`
-
-	// FieldsApps the fields to include for returned resources of type apps
-	FieldsApps *[]BetaAppLocalizationsGetCollectionParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
-
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]BetaAppLocalizationsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-}
-
-// BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations defines parameters for BetaAppLocalizationsGetCollection.
-type BetaAppLocalizationsGetCollectionParamsFieldsBetaAppLocalizations string
-
-// BetaAppLocalizationsGetCollectionParamsFieldsApps defines parameters for BetaAppLocalizationsGetCollection.
-type BetaAppLocalizationsGetCollectionParamsFieldsApps string
-
-// BetaAppLocalizationsGetCollectionParamsInclude defines parameters for BetaAppLocalizationsGetCollection.
-type BetaAppLocalizationsGetCollectionParamsInclude string
-
 // BetaAppLocalizationsGetInstanceParams defines parameters for BetaAppLocalizationsGetInstance.
 type BetaAppLocalizationsGetInstanceParams struct {
 	// FieldsBetaAppLocalizations the fields to include for returned resources of type betaAppLocalizations
@@ -21089,111 +19493,6 @@ type BetaAppReviewDetailsGetCollectionParamsFieldsApps string
 
 // BetaAppReviewDetailsGetCollectionParamsInclude defines parameters for BetaAppReviewDetailsGetCollection.
 type BetaAppReviewDetailsGetCollectionParamsInclude string
-
-// BetaAppReviewDetailsGetInstanceParams defines parameters for BetaAppReviewDetailsGetInstance.
-type BetaAppReviewDetailsGetInstanceParams struct {
-	// FieldsBetaAppReviewDetails the fields to include for returned resources of type betaAppReviewDetails
-	FieldsBetaAppReviewDetails *[]BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails `form:"fields[betaAppReviewDetails],omitempty" json:"fields[betaAppReviewDetails],omitempty"`
-
-	// FieldsApps the fields to include for returned resources of type apps
-	FieldsApps *[]BetaAppReviewDetailsGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]BetaAppReviewDetailsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-}
-
-// BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails defines parameters for BetaAppReviewDetailsGetInstance.
-type BetaAppReviewDetailsGetInstanceParamsFieldsBetaAppReviewDetails string
-
-// BetaAppReviewDetailsGetInstanceParamsFieldsApps defines parameters for BetaAppReviewDetailsGetInstance.
-type BetaAppReviewDetailsGetInstanceParamsFieldsApps string
-
-// BetaAppReviewDetailsGetInstanceParamsInclude defines parameters for BetaAppReviewDetailsGetInstance.
-type BetaAppReviewDetailsGetInstanceParamsInclude string
-
-// BetaAppReviewSubmissionsGetCollectionParams defines parameters for BetaAppReviewSubmissionsGetCollection.
-type BetaAppReviewSubmissionsGetCollectionParams struct {
-	// FilterBetaReviewState filter by attribute 'betaReviewState'
-	FilterBetaReviewState *[]BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState `form:"filter[betaReviewState],omitempty" json:"filter[betaReviewState],omitempty"`
-
-	// FilterBuild filter by id(s) of related 'build'
-	FilterBuild []string `form:"filter[build]" json:"filter[build]"`
-
-	// FieldsBetaAppReviewSubmissions the fields to include for returned resources of type betaAppReviewSubmissions
-	FieldsBetaAppReviewSubmissions *[]BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions `form:"fields[betaAppReviewSubmissions],omitempty" json:"fields[betaAppReviewSubmissions],omitempty"`
-
-	// FieldsBuilds the fields to include for returned resources of type builds
-	FieldsBuilds *[]BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds `form:"fields[builds],omitempty" json:"fields[builds],omitempty"`
-
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]BetaAppReviewSubmissionsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-}
-
-// BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState defines parameters for BetaAppReviewSubmissionsGetCollection.
-type BetaAppReviewSubmissionsGetCollectionParamsFilterBetaReviewState string
-
-// BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions defines parameters for BetaAppReviewSubmissionsGetCollection.
-type BetaAppReviewSubmissionsGetCollectionParamsFieldsBetaAppReviewSubmissions string
-
-// BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds defines parameters for BetaAppReviewSubmissionsGetCollection.
-type BetaAppReviewSubmissionsGetCollectionParamsFieldsBuilds string
-
-// BetaAppReviewSubmissionsGetCollectionParamsInclude defines parameters for BetaAppReviewSubmissionsGetCollection.
-type BetaAppReviewSubmissionsGetCollectionParamsInclude string
-
-// BetaAppReviewSubmissionsGetInstanceParams defines parameters for BetaAppReviewSubmissionsGetInstance.
-type BetaAppReviewSubmissionsGetInstanceParams struct {
-	// FieldsBetaAppReviewSubmissions the fields to include for returned resources of type betaAppReviewSubmissions
-	FieldsBetaAppReviewSubmissions *[]BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions `form:"fields[betaAppReviewSubmissions],omitempty" json:"fields[betaAppReviewSubmissions],omitempty"`
-
-	// FieldsBuilds the fields to include for returned resources of type builds
-	FieldsBuilds *[]BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds `form:"fields[builds],omitempty" json:"fields[builds],omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]BetaAppReviewSubmissionsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-}
-
-// BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions defines parameters for BetaAppReviewSubmissionsGetInstance.
-type BetaAppReviewSubmissionsGetInstanceParamsFieldsBetaAppReviewSubmissions string
-
-// BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds defines parameters for BetaAppReviewSubmissionsGetInstance.
-type BetaAppReviewSubmissionsGetInstanceParamsFieldsBuilds string
-
-// BetaAppReviewSubmissionsGetInstanceParamsInclude defines parameters for BetaAppReviewSubmissionsGetInstance.
-type BetaAppReviewSubmissionsGetInstanceParamsInclude string
-
-// BetaBuildLocalizationsGetCollectionParams defines parameters for BetaBuildLocalizationsGetCollection.
-type BetaBuildLocalizationsGetCollectionParams struct {
-	// FilterLocale filter by attribute 'locale'
-	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
-
-	// FilterBuild filter by id(s) of related 'build'
-	FilterBuild *[]string `form:"filter[build],omitempty" json:"filter[build],omitempty"`
-
-	// FieldsBetaBuildLocalizations the fields to include for returned resources of type betaBuildLocalizations
-	FieldsBetaBuildLocalizations *[]BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations `form:"fields[betaBuildLocalizations],omitempty" json:"fields[betaBuildLocalizations],omitempty"`
-
-	// FieldsBuilds the fields to include for returned resources of type builds
-	FieldsBuilds *[]BetaBuildLocalizationsGetCollectionParamsFieldsBuilds `form:"fields[builds],omitempty" json:"fields[builds],omitempty"`
-
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]BetaBuildLocalizationsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-}
-
-// BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations defines parameters for BetaBuildLocalizationsGetCollection.
-type BetaBuildLocalizationsGetCollectionParamsFieldsBetaBuildLocalizations string
-
-// BetaBuildLocalizationsGetCollectionParamsFieldsBuilds defines parameters for BetaBuildLocalizationsGetCollection.
-type BetaBuildLocalizationsGetCollectionParamsFieldsBuilds string
-
-// BetaBuildLocalizationsGetCollectionParamsInclude defines parameters for BetaBuildLocalizationsGetCollection.
-type BetaBuildLocalizationsGetCollectionParamsInclude string
 
 // BetaBuildLocalizationsGetInstanceParams defines parameters for BetaBuildLocalizationsGetInstance.
 type BetaBuildLocalizationsGetInstanceParams struct {
@@ -21375,27 +19674,6 @@ type BetaLicenseAgreementsGetCollectionParamsFieldsApps string
 // BetaLicenseAgreementsGetCollectionParamsInclude defines parameters for BetaLicenseAgreementsGetCollection.
 type BetaLicenseAgreementsGetCollectionParamsInclude string
 
-// BetaLicenseAgreementsGetInstanceParams defines parameters for BetaLicenseAgreementsGetInstance.
-type BetaLicenseAgreementsGetInstanceParams struct {
-	// FieldsBetaLicenseAgreements the fields to include for returned resources of type betaLicenseAgreements
-	FieldsBetaLicenseAgreements *[]BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements `form:"fields[betaLicenseAgreements],omitempty" json:"fields[betaLicenseAgreements],omitempty"`
-
-	// FieldsApps the fields to include for returned resources of type apps
-	FieldsApps *[]BetaLicenseAgreementsGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]BetaLicenseAgreementsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-}
-
-// BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements defines parameters for BetaLicenseAgreementsGetInstance.
-type BetaLicenseAgreementsGetInstanceParamsFieldsBetaLicenseAgreements string
-
-// BetaLicenseAgreementsGetInstanceParamsFieldsApps defines parameters for BetaLicenseAgreementsGetInstance.
-type BetaLicenseAgreementsGetInstanceParamsFieldsApps string
-
-// BetaLicenseAgreementsGetInstanceParamsInclude defines parameters for BetaLicenseAgreementsGetInstance.
-type BetaLicenseAgreementsGetInstanceParamsInclude string
-
 // BetaRecruitmentCriterionOptionsGetCollectionParams defines parameters for BetaRecruitmentCriterionOptionsGetCollection.
 type BetaRecruitmentCriterionOptionsGetCollectionParams struct {
 	// FieldsBetaRecruitmentCriterionOptions the fields to include for returned resources of type betaRecruitmentCriterionOptions
@@ -21563,27 +19841,6 @@ type BuildBetaDetailsGetCollectionParamsFieldsBuilds string
 
 // BuildBetaDetailsGetCollectionParamsInclude defines parameters for BuildBetaDetailsGetCollection.
 type BuildBetaDetailsGetCollectionParamsInclude string
-
-// BuildBetaDetailsGetInstanceParams defines parameters for BuildBetaDetailsGetInstance.
-type BuildBetaDetailsGetInstanceParams struct {
-	// FieldsBuildBetaDetails the fields to include for returned resources of type buildBetaDetails
-	FieldsBuildBetaDetails *[]BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails `form:"fields[buildBetaDetails],omitempty" json:"fields[buildBetaDetails],omitempty"`
-
-	// FieldsBuilds the fields to include for returned resources of type builds
-	FieldsBuilds *[]BuildBetaDetailsGetInstanceParamsFieldsBuilds `form:"fields[builds],omitempty" json:"fields[builds],omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]BuildBetaDetailsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-}
-
-// BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails defines parameters for BuildBetaDetailsGetInstance.
-type BuildBetaDetailsGetInstanceParamsFieldsBuildBetaDetails string
-
-// BuildBetaDetailsGetInstanceParamsFieldsBuilds defines parameters for BuildBetaDetailsGetInstance.
-type BuildBetaDetailsGetInstanceParamsFieldsBuilds string
-
-// BuildBetaDetailsGetInstanceParamsInclude defines parameters for BuildBetaDetailsGetInstance.
-type BuildBetaDetailsGetInstanceParamsInclude string
 
 // BuildsGetCollectionParams defines parameters for BuildsGetCollection.
 type BuildsGetCollectionParams struct {
@@ -22385,36 +20642,6 @@ type PreReleaseVersionsGetCollectionParamsFieldsApps string
 
 // PreReleaseVersionsGetCollectionParamsInclude defines parameters for PreReleaseVersionsGetCollection.
 type PreReleaseVersionsGetCollectionParamsInclude string
-
-// PreReleaseVersionsGetInstanceParams defines parameters for PreReleaseVersionsGetInstance.
-type PreReleaseVersionsGetInstanceParams struct {
-	// FieldsPreReleaseVersions the fields to include for returned resources of type preReleaseVersions
-	FieldsPreReleaseVersions *[]PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions `form:"fields[preReleaseVersions],omitempty" json:"fields[preReleaseVersions],omitempty"`
-
-	// FieldsBuilds the fields to include for returned resources of type builds
-	FieldsBuilds *[]PreReleaseVersionsGetInstanceParamsFieldsBuilds `form:"fields[builds],omitempty" json:"fields[builds],omitempty"`
-
-	// FieldsApps the fields to include for returned resources of type apps
-	FieldsApps *[]PreReleaseVersionsGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]PreReleaseVersionsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-
-	// LimitBuilds maximum number of related builds returned (when they are included)
-	LimitBuilds *int `form:"limit[builds],omitempty" json:"limit[builds],omitempty"`
-}
-
-// PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions defines parameters for PreReleaseVersionsGetInstance.
-type PreReleaseVersionsGetInstanceParamsFieldsPreReleaseVersions string
-
-// PreReleaseVersionsGetInstanceParamsFieldsBuilds defines parameters for PreReleaseVersionsGetInstance.
-type PreReleaseVersionsGetInstanceParamsFieldsBuilds string
-
-// PreReleaseVersionsGetInstanceParamsFieldsApps defines parameters for PreReleaseVersionsGetInstance.
-type PreReleaseVersionsGetInstanceParamsFieldsApps string
-
-// PreReleaseVersionsGetInstanceParamsInclude defines parameters for PreReleaseVersionsGetInstance.
-type PreReleaseVersionsGetInstanceParamsInclude string
 
 // ProfilesGetCollectionParams defines parameters for ProfilesGetCollection.
 type ProfilesGetCollectionParams struct {
@@ -26468,107 +24695,6 @@ func (t *PreReleaseVersionsResponse_Included_Item) UnmarshalJSON(b []byte) error
 	return err
 }
 
-// AsApp returns the union data inside the PrereleaseVersionResponse_Included_Item as a App
-func (t PrereleaseVersionResponse_Included_Item) AsApp() (App, error) {
-	var body App
-	err := json.Unmarshal(t.union, &body)
-	return body, err
-}
-
-// FromApp overwrites any union data inside the PrereleaseVersionResponse_Included_Item as the provided App
-func (t *PrereleaseVersionResponse_Included_Item) FromApp(v App) error {
-	b, err := json.Marshal(v)
-	if err != nil {
-		return err
-	}
-	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
-	t.union = b
-	return err
-}
-
-// MergeApp performs a merge with any union data inside the PrereleaseVersionResponse_Included_Item, using the provided App
-func (t *PrereleaseVersionResponse_Included_Item) MergeApp(v App) error {
-	b, err := json.Marshal(v)
-	if err != nil {
-		return err
-	}
-	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
-	if err != nil {
-		return err
-	}
-
-	merged, err := runtime.JSONMerge(t.union, b)
-	t.union = merged
-	return err
-}
-
-// AsBuild returns the union data inside the PrereleaseVersionResponse_Included_Item as a Build
-func (t PrereleaseVersionResponse_Included_Item) AsBuild() (Build, error) {
-	var body Build
-	err := json.Unmarshal(t.union, &body)
-	return body, err
-}
-
-// FromBuild overwrites any union data inside the PrereleaseVersionResponse_Included_Item as the provided Build
-func (t *PrereleaseVersionResponse_Included_Item) FromBuild(v Build) error {
-	b, err := json.Marshal(v)
-	if err != nil {
-		return err
-	}
-	b, err = runtime.JSONMerge(b, []byte(`{"type":"builds"}`))
-	t.union = b
-	return err
-}
-
-// MergeBuild performs a merge with any union data inside the PrereleaseVersionResponse_Included_Item, using the provided Build
-func (t *PrereleaseVersionResponse_Included_Item) MergeBuild(v Build) error {
-	b, err := json.Marshal(v)
-	if err != nil {
-		return err
-	}
-	b, err = runtime.JSONMerge(b, []byte(`{"type":"builds"}`))
-	if err != nil {
-		return err
-	}
-
-	merged, err := runtime.JSONMerge(t.union, b)
-	t.union = merged
-	return err
-}
-
-func (t PrereleaseVersionResponse_Included_Item) Discriminator() (string, error) {
-	var discriminator struct {
-		Discriminator string `json:"type"`
-	}
-	err := json.Unmarshal(t.union, &discriminator)
-	return discriminator.Discriminator, err
-}
-
-func (t PrereleaseVersionResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
-	discriminator, err := t.Discriminator()
-	if err != nil {
-		return nil, err
-	}
-	switch discriminator {
-	case "apps":
-		return t.AsApp()
-	case "builds":
-		return t.AsBuild()
-	default:
-		return nil, errors.New("unknown discriminator value: " + discriminator)
-	}
-}
-
-func (t PrereleaseVersionResponse_Included_Item) MarshalJSON() ([]byte, error) {
-	b, err := t.union.MarshalJSON()
-	return b, err
-}
-
-func (t *PrereleaseVersionResponse_Included_Item) UnmarshalJSON(b []byte) error {
-	err := t.union.UnmarshalJSON(b)
-	return err
-}
-
 // AsBundleId returns the union data inside the ProfileResponse_Included_Item as a BundleId
 func (t ProfileResponse_Included_Item) AsBundleId() (BundleId, error) {
 	var body BundleId
@@ -26931,9 +25057,6 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppsBetaTestersDeleteToManyRelationship(ctx context.Context, id string, body AppsBetaTestersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// BetaAppLocalizationsGetCollection performs a GET /v1/betaAppLocalizations (the `BetaAppLocalizationsGetCollection` operationId) request.
-	BetaAppLocalizationsGetCollection(ctx context.Context, params *BetaAppLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
 	// BetaAppLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	BetaAppLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -26959,9 +25082,6 @@ type ClientInterface interface {
 	// BetaAppReviewDetailsGetCollection performs a GET /v1/betaAppReviewDetails (the `BetaAppReviewDetailsGetCollection` operationId) request.
 	BetaAppReviewDetailsGetCollection(ctx context.Context, params *BetaAppReviewDetailsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// BetaAppReviewDetailsGetInstance performs a GET /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsGetInstance` operationId) request.
-	BetaAppReviewDetailsGetInstance(ctx context.Context, id string, params *BetaAppReviewDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
 	// BetaAppReviewDetailsUpdateInstanceWithBody performs a PATCH /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	BetaAppReviewDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -26970,9 +25090,6 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	BetaAppReviewDetailsUpdateInstance(ctx context.Context, id string, body BetaAppReviewDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// BetaAppReviewSubmissionsGetCollection performs a GET /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsGetCollection` operationId) request.
-	BetaAppReviewSubmissionsGetCollection(ctx context.Context, params *BetaAppReviewSubmissionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
 	// BetaAppReviewSubmissionsCreateInstanceWithBody performs a POST /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	BetaAppReviewSubmissionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -26980,12 +25097,6 @@ type ClientInterface interface {
 	// BetaAppReviewSubmissionsCreateInstance performs a POST /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsCreateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	BetaAppReviewSubmissionsCreateInstance(ctx context.Context, body BetaAppReviewSubmissionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// BetaAppReviewSubmissionsGetInstance performs a GET /v1/betaAppReviewSubmissions/{id} (the `BetaAppReviewSubmissionsGetInstance` operationId) request.
-	BetaAppReviewSubmissionsGetInstance(ctx context.Context, id string, params *BetaAppReviewSubmissionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// BetaBuildLocalizationsGetCollection performs a GET /v1/betaBuildLocalizations (the `BetaBuildLocalizationsGetCollection` operationId) request.
-	BetaBuildLocalizationsGetCollection(ctx context.Context, params *BetaBuildLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// BetaBuildLocalizationsCreateInstanceWithBody performs a POST /v1/betaBuildLocalizations (the `BetaBuildLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -27039,9 +25150,6 @@ type ClientInterface interface {
 
 	// BetaLicenseAgreementsGetCollection performs a GET /v1/betaLicenseAgreements (the `BetaLicenseAgreementsGetCollection` operationId) request.
 	BetaLicenseAgreementsGetCollection(ctx context.Context, params *BetaLicenseAgreementsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// BetaLicenseAgreementsGetInstance performs a GET /v1/betaLicenseAgreements/{id} (the `BetaLicenseAgreementsGetInstance` operationId) request.
-	BetaLicenseAgreementsGetInstance(ctx context.Context, id string, params *BetaLicenseAgreementsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// BetaLicenseAgreementsUpdateInstanceWithBody performs a PATCH /v1/betaLicenseAgreements/{id} (the `BetaLicenseAgreementsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -27119,9 +25227,6 @@ type ClientInterface interface {
 
 	// BuildBetaDetailsGetCollection performs a GET /v1/buildBetaDetails (the `BuildBetaDetailsGetCollection` operationId) request.
 	BuildBetaDetailsGetCollection(ctx context.Context, params *BuildBetaDetailsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// BuildBetaDetailsGetInstance performs a GET /v1/buildBetaDetails/{id} (the `BuildBetaDetailsGetInstance` operationId) request.
-	BuildBetaDetailsGetInstance(ctx context.Context, id string, params *BuildBetaDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// BuildBetaDetailsUpdateInstanceWithBody performs a PATCH /v1/buildBetaDetails/{id} (the `BuildBetaDetailsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -27344,9 +25449,6 @@ type ClientInterface interface {
 	// PreReleaseVersionsGetCollection performs a GET /v1/preReleaseVersions (the `PreReleaseVersionsGetCollection` operationId) request.
 	PreReleaseVersionsGetCollection(ctx context.Context, params *PreReleaseVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// PreReleaseVersionsGetInstance performs a GET /v1/preReleaseVersions/{id} (the `PreReleaseVersionsGetInstance` operationId) request.
-	PreReleaseVersionsGetInstance(ctx context.Context, id string, params *PreReleaseVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
 	// ProfilesGetCollection performs a GET /v1/profiles (the `ProfilesGetCollection` operationId) request.
 	ProfilesGetCollection(ctx context.Context, params *ProfilesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -27418,19 +25520,6 @@ func (c *Client) AppsBetaTestersDeleteToManyRelationshipWithBody(ctx context.Con
 // Takes a body of the `application/json` content type.
 func (c *Client) AppsBetaTestersDeleteToManyRelationship(ctx context.Context, id string, body AppsBetaTestersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsBetaTestersDeleteToManyRelationshipRequest(c.Server, id, body)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// BetaAppLocalizationsGetCollection performs a GET /v1/betaAppLocalizations (the `BetaAppLocalizationsGetCollection` operationId) request.
-func (c *Client) BetaAppLocalizationsGetCollection(ctx context.Context, params *BetaAppLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBetaAppLocalizationsGetCollectionRequest(c.Server, params)
 	if err != nil {
 		return nil, err
 	}
@@ -27536,19 +25625,6 @@ func (c *Client) BetaAppReviewDetailsGetCollection(ctx context.Context, params *
 	return c.Client.Do(req)
 }
 
-// BetaAppReviewDetailsGetInstance performs a GET /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsGetInstance` operationId) request.
-func (c *Client) BetaAppReviewDetailsGetInstance(ctx context.Context, id string, params *BetaAppReviewDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBetaAppReviewDetailsGetInstanceRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
 // BetaAppReviewDetailsUpdateInstanceWithBody performs a PATCH /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsUpdateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) BetaAppReviewDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -27577,19 +25653,6 @@ func (c *Client) BetaAppReviewDetailsUpdateInstance(ctx context.Context, id stri
 	return c.Client.Do(req)
 }
 
-// BetaAppReviewSubmissionsGetCollection performs a GET /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsGetCollection` operationId) request.
-func (c *Client) BetaAppReviewSubmissionsGetCollection(ctx context.Context, params *BetaAppReviewSubmissionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBetaAppReviewSubmissionsGetCollectionRequest(c.Server, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
 // BetaAppReviewSubmissionsCreateInstanceWithBody performs a POST /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) BetaAppReviewSubmissionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -27608,32 +25671,6 @@ func (c *Client) BetaAppReviewSubmissionsCreateInstanceWithBody(ctx context.Cont
 // Takes a body of the `application/json` content type.
 func (c *Client) BetaAppReviewSubmissionsCreateInstance(ctx context.Context, body BetaAppReviewSubmissionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewBetaAppReviewSubmissionsCreateInstanceRequest(c.Server, body)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// BetaAppReviewSubmissionsGetInstance performs a GET /v1/betaAppReviewSubmissions/{id} (the `BetaAppReviewSubmissionsGetInstance` operationId) request.
-func (c *Client) BetaAppReviewSubmissionsGetInstance(ctx context.Context, id string, params *BetaAppReviewSubmissionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBetaAppReviewSubmissionsGetInstanceRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// BetaBuildLocalizationsGetCollection performs a GET /v1/betaBuildLocalizations (the `BetaBuildLocalizationsGetCollection` operationId) request.
-func (c *Client) BetaBuildLocalizationsGetCollection(ctx context.Context, params *BetaBuildLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBetaBuildLocalizationsGetCollectionRequest(c.Server, params)
 	if err != nil {
 		return nil, err
 	}
@@ -27837,19 +25874,6 @@ func (c *Client) BetaGroupsBetaRecruitmentCriteriaGetToOneRelated(ctx context.Co
 // BetaLicenseAgreementsGetCollection performs a GET /v1/betaLicenseAgreements (the `BetaLicenseAgreementsGetCollection` operationId) request.
 func (c *Client) BetaLicenseAgreementsGetCollection(ctx context.Context, params *BetaLicenseAgreementsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewBetaLicenseAgreementsGetCollectionRequest(c.Server, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// BetaLicenseAgreementsGetInstance performs a GET /v1/betaLicenseAgreements/{id} (the `BetaLicenseAgreementsGetInstance` operationId) request.
-func (c *Client) BetaLicenseAgreementsGetInstance(ctx context.Context, id string, params *BetaLicenseAgreementsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBetaLicenseAgreementsGetInstanceRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -28137,19 +26161,6 @@ func (c *Client) BetaTestersBetaGroupsCreateToManyRelationship(ctx context.Conte
 // BuildBetaDetailsGetCollection performs a GET /v1/buildBetaDetails (the `BuildBetaDetailsGetCollection` operationId) request.
 func (c *Client) BuildBetaDetailsGetCollection(ctx context.Context, params *BuildBetaDetailsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewBuildBetaDetailsGetCollectionRequest(c.Server, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// BuildBetaDetailsGetInstance performs a GET /v1/buildBetaDetails/{id} (the `BuildBetaDetailsGetInstance` operationId) request.
-func (c *Client) BuildBetaDetailsGetInstance(ctx context.Context, id string, params *BuildBetaDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBuildBetaDetailsGetInstanceRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -28981,19 +26992,6 @@ func (c *Client) PassTypeIdsCertificatesGetToManyRelated(ctx context.Context, id
 // PreReleaseVersionsGetCollection performs a GET /v1/preReleaseVersions (the `PreReleaseVersionsGetCollection` operationId) request.
 func (c *Client) PreReleaseVersionsGetCollection(ctx context.Context, params *PreReleaseVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewPreReleaseVersionsGetCollectionRequest(c.Server, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// PreReleaseVersionsGetInstance performs a GET /v1/preReleaseVersions/{id} (the `PreReleaseVersionsGetInstance` operationId) request.
-func (c *Client) PreReleaseVersionsGetInstance(ctx context.Context, id string, params *PreReleaseVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewPreReleaseVersionsGetInstanceRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -30460,120 +28458,6 @@ func NewAppsBetaTestersDeleteToManyRelationshipRequestWithBody(server string, id
 	return req, nil
 }
 
-// NewBetaAppLocalizationsGetCollectionRequest constructs an http.Request for the BetaAppLocalizationsGetCollection method
-func NewBetaAppLocalizationsGetCollectionRequest(server string, params *BetaAppLocalizationsGetCollectionParams) (*http.Request, error) {
-	var err error
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/betaAppLocalizations")
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FilterLocale != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FilterApp != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[app]", *params.FilterApp, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBetaAppLocalizations != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaAppLocalizations]", *params.FieldsBetaAppLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsApps != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewBetaAppLocalizationsCreateInstanceRequest calls the generic BetaAppLocalizationsCreateInstance builder with application/json body
 func NewBetaAppLocalizationsCreateInstanceRequest(server string, body BetaAppLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -30882,91 +28766,6 @@ func NewBetaAppReviewDetailsGetCollectionRequest(server string, params *BetaAppR
 	return req, nil
 }
 
-// NewBetaAppReviewDetailsGetInstanceRequest constructs an http.Request for the BetaAppReviewDetailsGetInstance method
-func NewBetaAppReviewDetailsGetInstanceRequest(server string, id string, params *BetaAppReviewDetailsGetInstanceParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/betaAppReviewDetails/%s", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsBetaAppReviewDetails != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaAppReviewDetails]", *params.FieldsBetaAppReviewDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsApps != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewBetaAppReviewDetailsUpdateInstanceRequest calls the generic BetaAppReviewDetailsUpdateInstance builder with application/json body
 func NewBetaAppReviewDetailsUpdateInstanceRequest(server string, id string, body BetaAppReviewDetailsUpdateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -31014,120 +28813,6 @@ func NewBetaAppReviewDetailsUpdateInstanceRequestWithBody(server string, id stri
 	return req, nil
 }
 
-// NewBetaAppReviewSubmissionsGetCollectionRequest constructs an http.Request for the BetaAppReviewSubmissionsGetCollection method
-func NewBetaAppReviewSubmissionsGetCollectionRequest(server string, params *BetaAppReviewSubmissionsGetCollectionParams) (*http.Request, error) {
-	var err error
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/betaAppReviewSubmissions")
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FilterBetaReviewState != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[betaReviewState]", *params.FilterBetaReviewState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FilterBuild != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[build]", params.FilterBuild, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBetaAppReviewSubmissions != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaAppReviewSubmissions]", *params.FieldsBetaAppReviewSubmissions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBuilds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[builds]", *params.FieldsBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewBetaAppReviewSubmissionsCreateInstanceRequest calls the generic BetaAppReviewSubmissionsCreateInstance builder with application/json body
 func NewBetaAppReviewSubmissionsCreateInstanceRequest(server string, body BetaAppReviewSubmissionsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -31164,205 +28849,6 @@ func NewBetaAppReviewSubmissionsCreateInstanceRequestWithBody(server string, con
 	}
 
 	req.Header.Add("Content-Type", contentType)
-
-	return req, nil
-}
-
-// NewBetaAppReviewSubmissionsGetInstanceRequest constructs an http.Request for the BetaAppReviewSubmissionsGetInstance method
-func NewBetaAppReviewSubmissionsGetInstanceRequest(server string, id string, params *BetaAppReviewSubmissionsGetInstanceParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/betaAppReviewSubmissions/%s", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsBetaAppReviewSubmissions != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaAppReviewSubmissions]", *params.FieldsBetaAppReviewSubmissions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBuilds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[builds]", *params.FieldsBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
-// NewBetaBuildLocalizationsGetCollectionRequest constructs an http.Request for the BetaBuildLocalizationsGetCollection method
-func NewBetaBuildLocalizationsGetCollectionRequest(server string, params *BetaBuildLocalizationsGetCollectionParams) (*http.Request, error) {
-	var err error
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/betaBuildLocalizations")
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FilterLocale != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FilterBuild != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[build]", *params.FilterBuild, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBetaBuildLocalizations != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaBuildLocalizations]", *params.FieldsBetaBuildLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBuilds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[builds]", *params.FieldsBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
 
 	return req, nil
 }
@@ -32225,91 +29711,6 @@ func NewBetaLicenseAgreementsGetCollectionRequest(server string, params *BetaLic
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
-// NewBetaLicenseAgreementsGetInstanceRequest constructs an http.Request for the BetaLicenseAgreementsGetInstance method
-func NewBetaLicenseAgreementsGetInstanceRequest(server string, id string, params *BetaLicenseAgreementsGetInstanceParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/betaLicenseAgreements/%s", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsBetaLicenseAgreements != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaLicenseAgreements]", *params.FieldsBetaLicenseAgreements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsApps != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -33330,91 +30731,6 @@ func NewBuildBetaDetailsGetCollectionRequest(server string, params *BuildBetaDet
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
-// NewBuildBetaDetailsGetInstanceRequest constructs an http.Request for the BuildBetaDetailsGetInstance method
-func NewBuildBetaDetailsGetInstanceRequest(server string, id string, params *BuildBetaDetailsGetInstanceParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/buildBetaDetails/%s", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsBuildBetaDetails != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[buildBetaDetails]", *params.FieldsBuildBetaDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBuilds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[builds]", *params.FieldsBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -37178,115 +34494,6 @@ func NewPreReleaseVersionsGetCollectionRequest(server string, params *PreRelease
 	return req, nil
 }
 
-// NewPreReleaseVersionsGetInstanceRequest constructs an http.Request for the PreReleaseVersionsGetInstance method
-func NewPreReleaseVersionsGetInstanceRequest(server string, id string, params *PreReleaseVersionsGetInstanceParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/preReleaseVersions/%s", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsPreReleaseVersions != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[preReleaseVersions]", *params.FieldsPreReleaseVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsBuilds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[builds]", *params.FieldsBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsApps != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.LimitBuilds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[builds]", *params.LimitBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewProfilesGetCollectionRequest constructs an http.Request for the ProfilesGetCollection method
 func NewProfilesGetCollectionRequest(server string, params *ProfilesGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -37912,11 +35119,6 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppsBetaTestersDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body AppsBetaTestersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppsBetaTestersDeleteToManyRelationshipResponse, error)
 
-	// BetaAppLocalizationsGetCollectionWithResponse performs a GET /v1/betaAppLocalizations (the `BetaAppLocalizationsGetCollection` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BetaAppLocalizationsGetCollectionWithResponse(ctx context.Context, params *BetaAppLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaAppLocalizationsGetCollectionResponse, error)
-
 	// BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -37952,11 +35154,6 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	BetaAppReviewDetailsGetCollectionWithResponse(ctx context.Context, params *BetaAppReviewDetailsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaAppReviewDetailsGetCollectionResponse, error)
 
-	// BetaAppReviewDetailsGetInstanceWithResponse performs a GET /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsGetInstance` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BetaAppReviewDetailsGetInstanceWithResponse(ctx context.Context, id string, params *BetaAppReviewDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaAppReviewDetailsGetInstanceResponse, error)
-
 	// BetaAppReviewDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -37967,11 +35164,6 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	BetaAppReviewDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body BetaAppReviewDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppReviewDetailsUpdateInstanceResponse, error)
 
-	// BetaAppReviewSubmissionsGetCollectionWithResponse performs a GET /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsGetCollection` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BetaAppReviewSubmissionsGetCollectionWithResponse(ctx context.Context, params *BetaAppReviewSubmissionsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaAppReviewSubmissionsGetCollectionResponse, error)
-
 	// BetaAppReviewSubmissionsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -37981,16 +35173,6 @@ type ClientWithResponsesInterface interface {
 	// BetaAppReviewSubmissionsCreateInstanceWithResponse performs a POST /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsCreateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	BetaAppReviewSubmissionsCreateInstanceWithResponse(ctx context.Context, body BetaAppReviewSubmissionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppReviewSubmissionsCreateInstanceResponse, error)
-
-	// BetaAppReviewSubmissionsGetInstanceWithResponse performs a GET /v1/betaAppReviewSubmissions/{id} (the `BetaAppReviewSubmissionsGetInstance` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BetaAppReviewSubmissionsGetInstanceWithResponse(ctx context.Context, id string, params *BetaAppReviewSubmissionsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaAppReviewSubmissionsGetInstanceResponse, error)
-
-	// BetaBuildLocalizationsGetCollectionWithResponse performs a GET /v1/betaBuildLocalizations (the `BetaBuildLocalizationsGetCollection` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BetaBuildLocalizationsGetCollectionWithResponse(ctx context.Context, params *BetaBuildLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaBuildLocalizationsGetCollectionResponse, error)
 
 	// BetaBuildLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaBuildLocalizations (the `BetaBuildLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -38066,11 +35248,6 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	BetaLicenseAgreementsGetCollectionWithResponse(ctx context.Context, params *BetaLicenseAgreementsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaLicenseAgreementsGetCollectionResponse, error)
-
-	// BetaLicenseAgreementsGetInstanceWithResponse performs a GET /v1/betaLicenseAgreements/{id} (the `BetaLicenseAgreementsGetInstance` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BetaLicenseAgreementsGetInstanceWithResponse(ctx context.Context, id string, params *BetaLicenseAgreementsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaLicenseAgreementsGetInstanceResponse, error)
 
 	// BetaLicenseAgreementsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaLicenseAgreements/{id} (the `BetaLicenseAgreementsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -38176,11 +35353,6 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	BuildBetaDetailsGetCollectionWithResponse(ctx context.Context, params *BuildBetaDetailsGetCollectionParams, reqEditors ...RequestEditorFn) (*BuildBetaDetailsGetCollectionResponse, error)
-
-	// BuildBetaDetailsGetInstanceWithResponse performs a GET /v1/buildBetaDetails/{id} (the `BuildBetaDetailsGetInstance` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BuildBetaDetailsGetInstanceWithResponse(ctx context.Context, id string, params *BuildBetaDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*BuildBetaDetailsGetInstanceResponse, error)
 
 	// BuildBetaDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/buildBetaDetails/{id} (the `BuildBetaDetailsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -38487,11 +35659,6 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	PreReleaseVersionsGetCollectionWithResponse(ctx context.Context, params *PreReleaseVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*PreReleaseVersionsGetCollectionResponse, error)
 
-	// PreReleaseVersionsGetInstanceWithResponse performs a GET /v1/preReleaseVersions/{id} (the `PreReleaseVersionsGetInstance` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	PreReleaseVersionsGetInstanceWithResponse(ctx context.Context, id string, params *PreReleaseVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*PreReleaseVersionsGetInstanceResponse, error)
-
 	// ProfilesGetCollectionWithResponse performs a GET /v1/profiles (the `ProfilesGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -38755,75 +35922,6 @@ func (r AppsBetaTestersDeleteToManyRelationshipResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsBetaTestersDeleteToManyRelationshipResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type BetaAppLocalizationsGetCollectionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BetaAppLocalizationsResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BetaAppLocalizationsGetCollectionResponse) GetJSON200() *BetaAppLocalizationsResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BetaAppLocalizationsGetCollectionResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BetaAppLocalizationsGetCollectionResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BetaAppLocalizationsGetCollectionResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BetaAppLocalizationsGetCollectionResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BetaAppLocalizationsGetCollectionResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BetaAppLocalizationsGetCollectionResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BetaAppLocalizationsGetCollectionResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BetaAppLocalizationsGetCollectionResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -39217,82 +36315,6 @@ func (r BetaAppReviewDetailsGetCollectionResponse) ContentType() string {
 	return ""
 }
 
-type BetaAppReviewDetailsGetInstanceResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BetaAppReviewDetailResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BetaAppReviewDetailsGetInstanceResponse) GetJSON200() *BetaAppReviewDetailResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BetaAppReviewDetailsGetInstanceResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BetaAppReviewDetailsGetInstanceResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BetaAppReviewDetailsGetInstanceResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r BetaAppReviewDetailsGetInstanceResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BetaAppReviewDetailsGetInstanceResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BetaAppReviewDetailsGetInstanceResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BetaAppReviewDetailsGetInstanceResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BetaAppReviewDetailsGetInstanceResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BetaAppReviewDetailsGetInstanceResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
 type BetaAppReviewDetailsUpdateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -39383,75 +36405,6 @@ func (r BetaAppReviewDetailsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
-type BetaAppReviewSubmissionsGetCollectionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BetaAppReviewSubmissionsResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BetaAppReviewSubmissionsGetCollectionResponse) GetJSON200() *BetaAppReviewSubmissionsResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BetaAppReviewSubmissionsGetCollectionResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BetaAppReviewSubmissionsGetCollectionResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BetaAppReviewSubmissionsGetCollectionResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BetaAppReviewSubmissionsGetCollectionResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BetaAppReviewSubmissionsGetCollectionResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BetaAppReviewSubmissionsGetCollectionResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BetaAppReviewSubmissionsGetCollectionResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BetaAppReviewSubmissionsGetCollectionResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
 type BetaAppReviewSubmissionsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -39529,151 +36482,6 @@ func (r BetaAppReviewSubmissionsCreateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r BetaAppReviewSubmissionsCreateInstanceResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type BetaAppReviewSubmissionsGetInstanceResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BetaAppReviewSubmissionResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BetaAppReviewSubmissionsGetInstanceResponse) GetJSON200() *BetaAppReviewSubmissionResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BetaAppReviewSubmissionsGetInstanceResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BetaAppReviewSubmissionsGetInstanceResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BetaAppReviewSubmissionsGetInstanceResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r BetaAppReviewSubmissionsGetInstanceResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BetaAppReviewSubmissionsGetInstanceResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BetaAppReviewSubmissionsGetInstanceResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BetaAppReviewSubmissionsGetInstanceResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BetaAppReviewSubmissionsGetInstanceResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BetaAppReviewSubmissionsGetInstanceResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type BetaBuildLocalizationsGetCollectionResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BetaBuildLocalizationsResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BetaBuildLocalizationsGetCollectionResponse) GetJSON200() *BetaBuildLocalizationsResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BetaBuildLocalizationsGetCollectionResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BetaBuildLocalizationsGetCollectionResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BetaBuildLocalizationsGetCollectionResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BetaBuildLocalizationsGetCollectionResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BetaBuildLocalizationsGetCollectionResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BetaBuildLocalizationsGetCollectionResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BetaBuildLocalizationsGetCollectionResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BetaBuildLocalizationsGetCollectionResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -40524,82 +37332,6 @@ func (r BetaLicenseAgreementsGetCollectionResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r BetaLicenseAgreementsGetCollectionResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type BetaLicenseAgreementsGetInstanceResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BetaLicenseAgreementResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BetaLicenseAgreementsGetInstanceResponse) GetJSON200() *BetaLicenseAgreementResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BetaLicenseAgreementsGetInstanceResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BetaLicenseAgreementsGetInstanceResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BetaLicenseAgreementsGetInstanceResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r BetaLicenseAgreementsGetInstanceResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BetaLicenseAgreementsGetInstanceResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BetaLicenseAgreementsGetInstanceResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BetaLicenseAgreementsGetInstanceResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BetaLicenseAgreementsGetInstanceResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BetaLicenseAgreementsGetInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -41692,82 +38424,6 @@ func (r BuildBetaDetailsGetCollectionResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r BuildBetaDetailsGetCollectionResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type BuildBetaDetailsGetInstanceResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BuildBetaDetailResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BuildBetaDetailsGetInstanceResponse) GetJSON200() *BuildBetaDetailResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BuildBetaDetailsGetInstanceResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BuildBetaDetailsGetInstanceResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BuildBetaDetailsGetInstanceResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r BuildBetaDetailsGetInstanceResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BuildBetaDetailsGetInstanceResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BuildBetaDetailsGetInstanceResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BuildBetaDetailsGetInstanceResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BuildBetaDetailsGetInstanceResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BuildBetaDetailsGetInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -45071,82 +41727,6 @@ func (r PreReleaseVersionsGetCollectionResponse) ContentType() string {
 	return ""
 }
 
-type PreReleaseVersionsGetInstanceResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *PrereleaseVersionResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r PreReleaseVersionsGetInstanceResponse) GetJSON200() *PrereleaseVersionResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r PreReleaseVersionsGetInstanceResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r PreReleaseVersionsGetInstanceResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r PreReleaseVersionsGetInstanceResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r PreReleaseVersionsGetInstanceResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r PreReleaseVersionsGetInstanceResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r PreReleaseVersionsGetInstanceResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r PreReleaseVersionsGetInstanceResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r PreReleaseVersionsGetInstanceResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r PreReleaseVersionsGetInstanceResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
 type ProfilesGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -45716,17 +42296,6 @@ func (c *ClientWithResponses) AppsBetaTestersDeleteToManyRelationshipWithRespons
 	return ParseAppsBetaTestersDeleteToManyRelationshipResponse(rsp)
 }
 
-// BetaAppLocalizationsGetCollectionWithResponse performs a GET /v1/betaAppLocalizations (the `BetaAppLocalizationsGetCollection` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BetaAppLocalizationsGetCollectionWithResponse(ctx context.Context, params *BetaAppLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaAppLocalizationsGetCollectionResponse, error) {
-	rsp, err := c.BetaAppLocalizationsGetCollection(ctx, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBetaAppLocalizationsGetCollectionResponse(rsp)
-}
-
 // BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -45804,17 +42373,6 @@ func (c *ClientWithResponses) BetaAppReviewDetailsGetCollectionWithResponse(ctx 
 	return ParseBetaAppReviewDetailsGetCollectionResponse(rsp)
 }
 
-// BetaAppReviewDetailsGetInstanceWithResponse performs a GET /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsGetInstance` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BetaAppReviewDetailsGetInstanceWithResponse(ctx context.Context, id string, params *BetaAppReviewDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaAppReviewDetailsGetInstanceResponse, error) {
-	rsp, err := c.BetaAppReviewDetailsGetInstance(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBetaAppReviewDetailsGetInstanceResponse(rsp)
-}
-
 // BetaAppReviewDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaAppReviewDetails/{id} (the `BetaAppReviewDetailsUpdateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -45837,17 +42395,6 @@ func (c *ClientWithResponses) BetaAppReviewDetailsUpdateInstanceWithResponse(ctx
 	return ParseBetaAppReviewDetailsUpdateInstanceResponse(rsp)
 }
 
-// BetaAppReviewSubmissionsGetCollectionWithResponse performs a GET /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsGetCollection` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BetaAppReviewSubmissionsGetCollectionWithResponse(ctx context.Context, params *BetaAppReviewSubmissionsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaAppReviewSubmissionsGetCollectionResponse, error) {
-	rsp, err := c.BetaAppReviewSubmissionsGetCollection(ctx, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBetaAppReviewSubmissionsGetCollectionResponse(rsp)
-}
-
 // BetaAppReviewSubmissionsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppReviewSubmissions (the `BetaAppReviewSubmissionsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -45868,28 +42415,6 @@ func (c *ClientWithResponses) BetaAppReviewSubmissionsCreateInstanceWithResponse
 		return nil, err
 	}
 	return ParseBetaAppReviewSubmissionsCreateInstanceResponse(rsp)
-}
-
-// BetaAppReviewSubmissionsGetInstanceWithResponse performs a GET /v1/betaAppReviewSubmissions/{id} (the `BetaAppReviewSubmissionsGetInstance` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BetaAppReviewSubmissionsGetInstanceWithResponse(ctx context.Context, id string, params *BetaAppReviewSubmissionsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaAppReviewSubmissionsGetInstanceResponse, error) {
-	rsp, err := c.BetaAppReviewSubmissionsGetInstance(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBetaAppReviewSubmissionsGetInstanceResponse(rsp)
-}
-
-// BetaBuildLocalizationsGetCollectionWithResponse performs a GET /v1/betaBuildLocalizations (the `BetaBuildLocalizationsGetCollection` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BetaBuildLocalizationsGetCollectionWithResponse(ctx context.Context, params *BetaBuildLocalizationsGetCollectionParams, reqEditors ...RequestEditorFn) (*BetaBuildLocalizationsGetCollectionResponse, error) {
-	rsp, err := c.BetaBuildLocalizationsGetCollection(ctx, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBetaBuildLocalizationsGetCollectionResponse(rsp)
 }
 
 // BetaBuildLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaBuildLocalizations (the `BetaBuildLocalizationsCreateInstance` operationId) request,
@@ -46055,17 +42580,6 @@ func (c *ClientWithResponses) BetaLicenseAgreementsGetCollectionWithResponse(ctx
 		return nil, err
 	}
 	return ParseBetaLicenseAgreementsGetCollectionResponse(rsp)
-}
-
-// BetaLicenseAgreementsGetInstanceWithResponse performs a GET /v1/betaLicenseAgreements/{id} (the `BetaLicenseAgreementsGetInstance` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BetaLicenseAgreementsGetInstanceWithResponse(ctx context.Context, id string, params *BetaLicenseAgreementsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaLicenseAgreementsGetInstanceResponse, error) {
-	rsp, err := c.BetaLicenseAgreementsGetInstance(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBetaLicenseAgreementsGetInstanceResponse(rsp)
 }
 
 // BetaLicenseAgreementsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaLicenseAgreements/{id} (the `BetaLicenseAgreementsUpdateInstance` operationId) request,
@@ -46297,17 +42811,6 @@ func (c *ClientWithResponses) BuildBetaDetailsGetCollectionWithResponse(ctx cont
 		return nil, err
 	}
 	return ParseBuildBetaDetailsGetCollectionResponse(rsp)
-}
-
-// BuildBetaDetailsGetInstanceWithResponse performs a GET /v1/buildBetaDetails/{id} (the `BuildBetaDetailsGetInstance` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BuildBetaDetailsGetInstanceWithResponse(ctx context.Context, id string, params *BuildBetaDetailsGetInstanceParams, reqEditors ...RequestEditorFn) (*BuildBetaDetailsGetInstanceResponse, error) {
-	rsp, err := c.BuildBetaDetailsGetInstance(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBuildBetaDetailsGetInstanceResponse(rsp)
 }
 
 // BuildBetaDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/buildBetaDetails/{id} (the `BuildBetaDetailsUpdateInstance` operationId) request,
@@ -46981,17 +43484,6 @@ func (c *ClientWithResponses) PreReleaseVersionsGetCollectionWithResponse(ctx co
 	return ParsePreReleaseVersionsGetCollectionResponse(rsp)
 }
 
-// PreReleaseVersionsGetInstanceWithResponse performs a GET /v1/preReleaseVersions/{id} (the `PreReleaseVersionsGetInstance` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) PreReleaseVersionsGetInstanceWithResponse(ctx context.Context, id string, params *PreReleaseVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*PreReleaseVersionsGetInstanceResponse, error) {
-	rsp, err := c.PreReleaseVersionsGetInstance(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParsePreReleaseVersionsGetInstanceResponse(rsp)
-}
-
 // ProfilesGetCollectionWithResponse performs a GET /v1/profiles (the `ProfilesGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -47256,60 +43748,6 @@ func ParseAppsBetaTestersDeleteToManyRelationshipResponse(rsp *http.Response) (*
 			return nil, err
 		}
 		response.JSON422 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseBetaAppLocalizationsGetCollectionResponse parses an HTTP response from a BetaAppLocalizationsGetCollectionWithResponse call
-func ParseBetaAppLocalizationsGetCollectionResponse(rsp *http.Response) (*BetaAppLocalizationsGetCollectionResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BetaAppLocalizationsGetCollectionResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BetaAppLocalizationsResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -47638,67 +44076,6 @@ func ParseBetaAppReviewDetailsGetCollectionResponse(rsp *http.Response) (*BetaAp
 	return response, nil
 }
 
-// ParseBetaAppReviewDetailsGetInstanceResponse parses an HTTP response from a BetaAppReviewDetailsGetInstanceWithResponse call
-func ParseBetaAppReviewDetailsGetInstanceResponse(rsp *http.Response) (*BetaAppReviewDetailsGetInstanceResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BetaAppReviewDetailsGetInstanceResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BetaAppReviewDetailResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
 // ParseBetaAppReviewDetailsUpdateInstanceResponse parses an HTTP response from a BetaAppReviewDetailsUpdateInstanceWithResponse call
 func ParseBetaAppReviewDetailsUpdateInstanceResponse(rsp *http.Response) (*BetaAppReviewDetailsUpdateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -47774,60 +44151,6 @@ func ParseBetaAppReviewDetailsUpdateInstanceResponse(rsp *http.Response) (*BetaA
 	return response, nil
 }
 
-// ParseBetaAppReviewSubmissionsGetCollectionResponse parses an HTTP response from a BetaAppReviewSubmissionsGetCollectionWithResponse call
-func ParseBetaAppReviewSubmissionsGetCollectionResponse(rsp *http.Response) (*BetaAppReviewSubmissionsGetCollectionResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BetaAppReviewSubmissionsGetCollectionResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BetaAppReviewSubmissionsResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
 // ParseBetaAppReviewSubmissionsCreateInstanceResponse parses an HTTP response from a BetaAppReviewSubmissionsCreateInstanceWithResponse call
 func ParseBetaAppReviewSubmissionsCreateInstanceResponse(rsp *http.Response) (*BetaAppReviewSubmissionsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -47883,121 +44206,6 @@ func ParseBetaAppReviewSubmissionsCreateInstanceResponse(rsp *http.Response) (*B
 			return nil, err
 		}
 		response.JSON422 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseBetaAppReviewSubmissionsGetInstanceResponse parses an HTTP response from a BetaAppReviewSubmissionsGetInstanceWithResponse call
-func ParseBetaAppReviewSubmissionsGetInstanceResponse(rsp *http.Response) (*BetaAppReviewSubmissionsGetInstanceResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BetaAppReviewSubmissionsGetInstanceResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BetaAppReviewSubmissionResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseBetaBuildLocalizationsGetCollectionResponse parses an HTTP response from a BetaBuildLocalizationsGetCollectionWithResponse call
-func ParseBetaBuildLocalizationsGetCollectionResponse(rsp *http.Response) (*BetaBuildLocalizationsGetCollectionResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BetaBuildLocalizationsGetCollectionResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BetaBuildLocalizationsResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -48689,67 +44897,6 @@ func ParseBetaLicenseAgreementsGetCollectionResponse(rsp *http.Response) (*BetaL
 			return nil, err
 		}
 		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseBetaLicenseAgreementsGetInstanceResponse parses an HTTP response from a BetaLicenseAgreementsGetInstanceWithResponse call
-func ParseBetaLicenseAgreementsGetInstanceResponse(rsp *http.Response) (*BetaLicenseAgreementsGetInstanceResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BetaLicenseAgreementsGetInstanceResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BetaLicenseAgreementResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -49647,67 +45794,6 @@ func ParseBuildBetaDetailsGetCollectionResponse(rsp *http.Response) (*BuildBetaD
 			return nil, err
 		}
 		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseBuildBetaDetailsGetInstanceResponse parses an HTTP response from a BuildBetaDetailsGetInstanceWithResponse call
-func ParseBuildBetaDetailsGetInstanceResponse(rsp *http.Response) (*BuildBetaDetailsGetInstanceResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BuildBetaDetailsGetInstanceResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BuildBetaDetailResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -52415,67 +48501,6 @@ func ParsePreReleaseVersionsGetCollectionResponse(rsp *http.Response) (*PreRelea
 	return response, nil
 }
 
-// ParsePreReleaseVersionsGetInstanceResponse parses an HTTP response from a PreReleaseVersionsGetInstanceWithResponse call
-func ParsePreReleaseVersionsGetInstanceResponse(rsp *http.Response) (*PreReleaseVersionsGetInstanceResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &PreReleaseVersionsGetInstanceResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest PrereleaseVersionResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
 // ParseProfilesGetCollectionResponse parses an HTTP response from a ProfilesGetCollectionWithResponse call
 func ParseProfilesGetCollectionResponse(rsp *http.Response) (*ProfilesGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -52911,9 +48936,6 @@ type ServerInterface interface {
 	// (DELETE /v1/apps/{id}/relationships/betaTesters)
 	AppsBetaTestersDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
 
-	// (GET /v1/betaAppLocalizations)
-	BetaAppLocalizationsGetCollection(w http.ResponseWriter, r *http.Request, params BetaAppLocalizationsGetCollectionParams)
-
 	// (POST /v1/betaAppLocalizations)
 	BetaAppLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -52929,23 +48951,11 @@ type ServerInterface interface {
 	// (GET /v1/betaAppReviewDetails)
 	BetaAppReviewDetailsGetCollection(w http.ResponseWriter, r *http.Request, params BetaAppReviewDetailsGetCollectionParams)
 
-	// (GET /v1/betaAppReviewDetails/{id})
-	BetaAppReviewDetailsGetInstance(w http.ResponseWriter, r *http.Request, id string, params BetaAppReviewDetailsGetInstanceParams)
-
 	// (PATCH /v1/betaAppReviewDetails/{id})
 	BetaAppReviewDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
-	// (GET /v1/betaAppReviewSubmissions)
-	BetaAppReviewSubmissionsGetCollection(w http.ResponseWriter, r *http.Request, params BetaAppReviewSubmissionsGetCollectionParams)
-
 	// (POST /v1/betaAppReviewSubmissions)
 	BetaAppReviewSubmissionsCreateInstance(w http.ResponseWriter, r *http.Request)
-
-	// (GET /v1/betaAppReviewSubmissions/{id})
-	BetaAppReviewSubmissionsGetInstance(w http.ResponseWriter, r *http.Request, id string, params BetaAppReviewSubmissionsGetInstanceParams)
-
-	// (GET /v1/betaBuildLocalizations)
-	BetaBuildLocalizationsGetCollection(w http.ResponseWriter, r *http.Request, params BetaBuildLocalizationsGetCollectionParams)
 
 	// (POST /v1/betaBuildLocalizations)
 	BetaBuildLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -52979,9 +48989,6 @@ type ServerInterface interface {
 
 	// (GET /v1/betaLicenseAgreements)
 	BetaLicenseAgreementsGetCollection(w http.ResponseWriter, r *http.Request, params BetaLicenseAgreementsGetCollectionParams)
-
-	// (GET /v1/betaLicenseAgreements/{id})
-	BetaLicenseAgreementsGetInstance(w http.ResponseWriter, r *http.Request, id string, params BetaLicenseAgreementsGetInstanceParams)
 
 	// (PATCH /v1/betaLicenseAgreements/{id})
 	BetaLicenseAgreementsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
@@ -53024,9 +49031,6 @@ type ServerInterface interface {
 
 	// (GET /v1/buildBetaDetails)
 	BuildBetaDetailsGetCollection(w http.ResponseWriter, r *http.Request, params BuildBetaDetailsGetCollectionParams)
-
-	// (GET /v1/buildBetaDetails/{id})
-	BuildBetaDetailsGetInstance(w http.ResponseWriter, r *http.Request, id string, params BuildBetaDetailsGetInstanceParams)
 
 	// (PATCH /v1/buildBetaDetails/{id})
 	BuildBetaDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
@@ -53153,9 +49157,6 @@ type ServerInterface interface {
 
 	// (GET /v1/preReleaseVersions)
 	PreReleaseVersionsGetCollection(w http.ResponseWriter, r *http.Request, params PreReleaseVersionsGetCollectionParams)
-
-	// (GET /v1/preReleaseVersions/{id})
-	PreReleaseVersionsGetInstance(w http.ResponseWriter, r *http.Request, id string, params PreReleaseVersionsGetInstanceParams)
 
 	// (GET /v1/profiles)
 	ProfilesGetCollection(w http.ResponseWriter, r *http.Request, params ProfilesGetCollectionParams)
@@ -54576,104 +50577,6 @@ func (siw *ServerInterfaceWrapper) AppsBetaTestersDeleteToManyRelationship(w htt
 	handler.ServeHTTP(w, r)
 }
 
-// BetaAppLocalizationsGetCollection operation middleware
-func (siw *ServerInterfaceWrapper) BetaAppLocalizationsGetCollection(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BetaAppLocalizationsGetCollectionParams
-
-	// ------------- Optional query parameter "filter[locale]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "filter[app]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[app]", r.URL.Query(), &params.FilterApp, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[app]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[app]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[betaAppLocalizations]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaAppLocalizations]", r.URL.Query(), &params.FieldsBetaAppLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaAppLocalizations]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaAppLocalizations]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[apps]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BetaAppLocalizationsGetCollection(w, r, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // BetaAppLocalizationsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) BetaAppLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -54893,74 +50796,6 @@ func (siw *ServerInterfaceWrapper) BetaAppReviewDetailsGetCollection(w http.Resp
 	handler.ServeHTTP(w, r)
 }
 
-// BetaAppReviewDetailsGetInstance operation middleware
-func (siw *ServerInterfaceWrapper) BetaAppReviewDetailsGetInstance(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BetaAppReviewDetailsGetInstanceParams
-
-	// ------------- Optional query parameter "fields[betaAppReviewDetails]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaAppReviewDetails]", r.URL.Query(), &params.FieldsBetaAppReviewDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaAppReviewDetails]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaAppReviewDetails]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[apps]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BetaAppReviewDetailsGetInstance(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // BetaAppReviewDetailsUpdateInstance operation middleware
 func (siw *ServerInterfaceWrapper) BetaAppReviewDetailsUpdateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -54987,275 +50822,11 @@ func (siw *ServerInterfaceWrapper) BetaAppReviewDetailsUpdateInstance(w http.Res
 	handler.ServeHTTP(w, r)
 }
 
-// BetaAppReviewSubmissionsGetCollection operation middleware
-func (siw *ServerInterfaceWrapper) BetaAppReviewSubmissionsGetCollection(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BetaAppReviewSubmissionsGetCollectionParams
-
-	// ------------- Optional query parameter "filter[betaReviewState]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[betaReviewState]", r.URL.Query(), &params.FilterBetaReviewState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[betaReviewState]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[betaReviewState]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Required query parameter "filter[build]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, true, "filter[build]", r.URL.Query(), &params.FilterBuild, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[build]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[build]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[betaAppReviewSubmissions]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaAppReviewSubmissions]", r.URL.Query(), &params.FieldsBetaAppReviewSubmissions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaAppReviewSubmissions]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaAppReviewSubmissions]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[builds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[builds]", r.URL.Query(), &params.FieldsBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[builds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[builds]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BetaAppReviewSubmissionsGetCollection(w, r, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // BetaAppReviewSubmissionsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) BetaAppReviewSubmissionsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.BetaAppReviewSubmissionsCreateInstance(w, r)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// BetaAppReviewSubmissionsGetInstance operation middleware
-func (siw *ServerInterfaceWrapper) BetaAppReviewSubmissionsGetInstance(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BetaAppReviewSubmissionsGetInstanceParams
-
-	// ------------- Optional query parameter "fields[betaAppReviewSubmissions]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaAppReviewSubmissions]", r.URL.Query(), &params.FieldsBetaAppReviewSubmissions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaAppReviewSubmissions]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaAppReviewSubmissions]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[builds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[builds]", r.URL.Query(), &params.FieldsBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[builds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[builds]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BetaAppReviewSubmissionsGetInstance(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// BetaBuildLocalizationsGetCollection operation middleware
-func (siw *ServerInterfaceWrapper) BetaBuildLocalizationsGetCollection(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BetaBuildLocalizationsGetCollectionParams
-
-	// ------------- Optional query parameter "filter[locale]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "filter[build]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[build]", r.URL.Query(), &params.FilterBuild, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[build]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[build]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[betaBuildLocalizations]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaBuildLocalizations]", r.URL.Query(), &params.FieldsBetaBuildLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaBuildLocalizations]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaBuildLocalizations]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[builds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[builds]", r.URL.Query(), &params.FieldsBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[builds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[builds]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BetaBuildLocalizationsGetCollection(w, r, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -55970,74 +51541,6 @@ func (siw *ServerInterfaceWrapper) BetaLicenseAgreementsGetCollection(w http.Res
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.BetaLicenseAgreementsGetCollection(w, r, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// BetaLicenseAgreementsGetInstance operation middleware
-func (siw *ServerInterfaceWrapper) BetaLicenseAgreementsGetInstance(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BetaLicenseAgreementsGetInstanceParams
-
-	// ------------- Optional query parameter "fields[betaLicenseAgreements]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaLicenseAgreements]", r.URL.Query(), &params.FieldsBetaLicenseAgreements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaLicenseAgreements]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaLicenseAgreements]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[apps]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BetaLicenseAgreementsGetInstance(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -56809,74 +52312,6 @@ func (siw *ServerInterfaceWrapper) BuildBetaDetailsGetCollection(w http.Response
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.BuildBetaDetailsGetCollection(w, r, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// BuildBetaDetailsGetInstance operation middleware
-func (siw *ServerInterfaceWrapper) BuildBetaDetailsGetInstance(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BuildBetaDetailsGetInstanceParams
-
-	// ------------- Optional query parameter "fields[buildBetaDetails]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[buildBetaDetails]", r.URL.Query(), &params.FieldsBuildBetaDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[buildBetaDetails]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[buildBetaDetails]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[builds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[builds]", r.URL.Query(), &params.FieldsBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[builds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[builds]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BuildBetaDetailsGetInstance(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -59936,100 +55371,6 @@ func (siw *ServerInterfaceWrapper) PreReleaseVersionsGetCollection(w http.Respon
 	handler.ServeHTTP(w, r)
 }
 
-// PreReleaseVersionsGetInstance operation middleware
-func (siw *ServerInterfaceWrapper) PreReleaseVersionsGetInstance(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params PreReleaseVersionsGetInstanceParams
-
-	// ------------- Optional query parameter "fields[preReleaseVersions]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[preReleaseVersions]", r.URL.Query(), &params.FieldsPreReleaseVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[preReleaseVersions]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[preReleaseVersions]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[builds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[builds]", r.URL.Query(), &params.FieldsBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[builds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[builds]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[apps]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "limit[builds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[builds]", r.URL.Query(), &params.LimitBuilds, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[builds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[builds]", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.PreReleaseVersionsGetInstance(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // ProfilesGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) ProfilesGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -60612,18 +55953,13 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps", wrapper.AppsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppReviewDetails", wrapper.BetaAppReviewDetailsGetCollection)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppReviewDetails/{id}", wrapper.BetaAppReviewDetailsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/betaAppReviewDetails/{id}", wrapper.BetaAppReviewDetailsUpdateInstance)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppReviewSubmissions", wrapper.BetaAppReviewSubmissionsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppReviewSubmissions", wrapper.BetaAppReviewSubmissionsCreateInstance)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppReviewSubmissions/{id}", wrapper.BetaAppReviewSubmissionsGetInstance)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaBuildLocalizations", wrapper.BetaBuildLocalizationsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaBuildLocalizations", wrapper.BetaBuildLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaBuildLocalizations/{id}", wrapper.BetaBuildLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaBuildLocalizations/{id}", wrapper.BetaBuildLocalizationsGetInstance)
@@ -60635,7 +55971,6 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/betaGroups/{id}", wrapper.BetaGroupsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaGroups/{id}/betaRecruitmentCriteria", wrapper.BetaGroupsBetaRecruitmentCriteriaGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaLicenseAgreements", wrapper.BetaLicenseAgreementsGetCollection)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaLicenseAgreements/{id}", wrapper.BetaLicenseAgreementsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/betaLicenseAgreements/{id}", wrapper.BetaLicenseAgreementsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaRecruitmentCriteria", wrapper.BetaRecruitmentCriteriaCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaRecruitmentCriteria/{id}", wrapper.BetaRecruitmentCriteriaDeleteInstance)
@@ -60650,7 +55985,6 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaTesters/{id}/relationships/betaGroups", wrapper.BetaTestersBetaGroupsGetToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaTesters/{id}/relationships/betaGroups", wrapper.BetaTestersBetaGroupsCreateToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBetaDetails", wrapper.BuildBetaDetailsGetCollection)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBetaDetails/{id}", wrapper.BuildBetaDetailsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/buildBetaDetails/{id}", wrapper.BuildBetaDetailsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/buildBetaNotifications", wrapper.BuildBetaNotificationsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/builds", wrapper.BuildsGetCollection)
@@ -60693,7 +56027,6 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/passTypeIds/{id}", wrapper.PassTypeIdsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/passTypeIds/{id}/certificates", wrapper.PassTypeIdsCertificatesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/preReleaseVersions", wrapper.PreReleaseVersionsGetCollection)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/preReleaseVersions/{id}", wrapper.PreReleaseVersionsGetInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles", wrapper.ProfilesGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/profiles", wrapper.ProfilesCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/profiles/{id}", wrapper.ProfilesDeleteInstance)

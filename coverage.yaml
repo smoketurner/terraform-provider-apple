@@ -363,24 +363,24 @@ operations:
   apps_assetLibrary_getToOneRelationship: {status: planned, issue: 5}
   apps_backgroundAssets_getToManyRelated: {status: planned, issue: 14}
   apps_backgroundAssets_getToManyRelationship: {status: planned, issue: 14}
-  apps_betaAppLocalizations_getToManyRelated: {status: planned, issue: 3}
-  apps_betaAppLocalizations_getToManyRelationship: {status: planned, issue: 3}
-  apps_betaAppReviewDetail_getToOneRelated: {status: planned, issue: 3}
-  apps_betaAppReviewDetail_getToOneRelationship: {status: planned, issue: 3}
+  apps_betaAppLocalizations_getToManyRelated: {status: out_of_scope, reason: "apple_beta_app_localization reads each localization by ID"}
+  apps_betaAppLocalizations_getToManyRelationship: {status: out_of_scope, reason: "apple_beta_app_localization reads each localization by ID"}
+  apps_betaAppReviewDetail_getToOneRelated: {status: out_of_scope, reason: "betaAppReviewDetails_getCollection with filter[app] returns the same detail"}
+  apps_betaAppReviewDetail_getToOneRelationship: {status: out_of_scope, reason: "betaAppReviewDetails_getCollection with filter[app] returns the same detail"}
   apps_betaFeedbackCrashSubmissions_getToManyRelated: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
   apps_betaFeedbackCrashSubmissions_getToManyRelationship: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
   apps_betaFeedbackScreenshotSubmissions_getToManyRelated: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
   apps_betaFeedbackScreenshotSubmissions_getToManyRelationship: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
-  apps_betaGroups_getToManyRelated: {status: planned, issue: 3}
-  apps_betaGroups_getToManyRelationship: {status: planned, issue: 3}
-  apps_betaLicenseAgreement_getToOneRelated: {status: planned, issue: 3}
-  apps_betaLicenseAgreement_getToOneRelationship: {status: planned, issue: 3}
+  apps_betaGroups_getToManyRelated: {status: out_of_scope, reason: "betaGroups_getCollection with filter[app] (data.apple_beta_groups) returns the same groups"}
+  apps_betaGroups_getToManyRelationship: {status: out_of_scope, reason: "betaGroups_getCollection with filter[app] (data.apple_beta_groups) returns the same groups"}
+  apps_betaLicenseAgreement_getToOneRelated: {status: out_of_scope, reason: "betaLicenseAgreements_getCollection with filter[app] returns the same agreement"}
+  apps_betaLicenseAgreement_getToOneRelationship: {status: out_of_scope, reason: "betaLicenseAgreements_getCollection with filter[app] returns the same agreement"}
   apps_betaTesterUsages_getMetrics: {status: planned, issue: 16}
-  apps_betaTesters_deleteToManyRelationship: {status: in_progress, issue: 3}
+  apps_betaTesters_deleteToManyRelationship: {status: covered, by: [action.apple_remove_beta_testers_from_app]}
   apps_buildUploads_getToManyRelated: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   apps_buildUploads_getToManyRelationship: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
-  apps_builds_getToManyRelated: {status: planned, issue: 3}
-  apps_builds_getToManyRelationship: {status: planned, issue: 3}
+  apps_builds_getToManyRelated: {status: out_of_scope, reason: "builds_getCollection with filter[app] (data.apple_builds) returns the same builds"}
+  apps_builds_getToManyRelationship: {status: out_of_scope, reason: "builds_getCollection with filter[app] (data.apple_builds) returns the same builds"}
   apps_ciProduct_getToOneRelated: {status: planned, issue: 8}
   apps_ciProduct_getToOneRelationship: {status: planned, issue: 8}
   apps_customerReviewSummarizations_getToManyRelated: {status: planned, issue: 5}
@@ -402,8 +402,8 @@ operations:
   apps_marketplaceSearchDetail_getToOneRelationship: {status: planned, issue: 15}
   apps_perfPowerMetrics_getToManyRelated: {status: planned, issue: 5}
   apps_performanceOverviews_getToManyRelated: {status: planned, issue: 5}
-  apps_preReleaseVersions_getToManyRelated: {status: planned, issue: 3}
-  apps_preReleaseVersions_getToManyRelationship: {status: planned, issue: 3}
+  apps_preReleaseVersions_getToManyRelated: {status: out_of_scope, reason: "preReleaseVersions_getCollection with filter[app] (data.apple_pre_release_versions) returns the same versions"}
+  apps_preReleaseVersions_getToManyRelationship: {status: out_of_scope, reason: "preReleaseVersions_getCollection with filter[app] (data.apple_pre_release_versions) returns the same versions"}
   apps_promotedPurchases_getToManyRelated: {status: planned, issue: 7}
   apps_promotedPurchases_getToManyRelationship: {status: planned, issue: 7}
   apps_promotedPurchases_replaceToManyRelationship: {status: planned, issue: 7}
@@ -442,28 +442,28 @@ operations:
   betaAppClipInvocations_updateInstance: {status: planned, issue: 12}
   betaAppLocalizations_app_getToOneRelated: {status: planned, issue: 5}
   betaAppLocalizations_app_getToOneRelationship: {status: planned, issue: 5}
-  betaAppLocalizations_createInstance: {status: in_progress, issue: 3}
-  betaAppLocalizations_deleteInstance: {status: in_progress, issue: 3}
-  betaAppLocalizations_getCollection: {status: in_progress, issue: 3}
-  betaAppLocalizations_getInstance: {status: in_progress, issue: 3}
-  betaAppLocalizations_updateInstance: {status: in_progress, issue: 3}
+  betaAppLocalizations_createInstance: {status: covered, by: [apple_beta_app_localization]}
+  betaAppLocalizations_deleteInstance: {status: covered, by: [apple_beta_app_localization]}
+  betaAppLocalizations_getCollection: {status: out_of_scope, reason: "apple_beta_app_localization reads each localization by ID"}
+  betaAppLocalizations_getInstance: {status: covered, by: [apple_beta_app_localization]}
+  betaAppLocalizations_updateInstance: {status: covered, by: [apple_beta_app_localization]}
   betaAppReviewDetails_app_getToOneRelated: {status: planned, issue: 5}
   betaAppReviewDetails_app_getToOneRelationship: {status: planned, issue: 5}
-  betaAppReviewDetails_getCollection: {status: in_progress, issue: 3}
-  betaAppReviewDetails_getInstance: {status: in_progress, issue: 3}
-  betaAppReviewDetails_updateInstance: {status: in_progress, issue: 3}
-  betaAppReviewSubmissions_build_getToOneRelated: {status: planned, issue: 3}
-  betaAppReviewSubmissions_build_getToOneRelationship: {status: planned, issue: 3}
-  betaAppReviewSubmissions_createInstance: {status: in_progress, issue: 3}
-  betaAppReviewSubmissions_getCollection: {status: in_progress, issue: 3}
-  betaAppReviewSubmissions_getInstance: {status: in_progress, issue: 3}
-  betaBuildLocalizations_build_getToOneRelated: {status: planned, issue: 3}
-  betaBuildLocalizations_build_getToOneRelationship: {status: planned, issue: 3}
-  betaBuildLocalizations_createInstance: {status: in_progress, issue: 3}
-  betaBuildLocalizations_deleteInstance: {status: in_progress, issue: 3}
-  betaBuildLocalizations_getCollection: {status: in_progress, issue: 3}
-  betaBuildLocalizations_getInstance: {status: in_progress, issue: 3}
-  betaBuildLocalizations_updateInstance: {status: in_progress, issue: 3}
+  betaAppReviewDetails_getCollection: {status: covered, by: [apple_beta_app_review_detail]}
+  betaAppReviewDetails_getInstance: {status: out_of_scope, reason: "apple_beta_app_review_detail finds the detail through betaAppReviewDetails_getCollection with filter[app]"}
+  betaAppReviewDetails_updateInstance: {status: covered, by: [apple_beta_app_review_detail]}
+  betaAppReviewSubmissions_build_getToOneRelated: {status: out_of_scope, reason: "a submission is made for a known build; data.apple_build reports its review"}
+  betaAppReviewSubmissions_build_getToOneRelationship: {status: out_of_scope, reason: "a submission is made for a known build; data.apple_build reports its review"}
+  betaAppReviewSubmissions_createInstance: {status: covered, by: [action.apple_submit_beta_review]}
+  betaAppReviewSubmissions_getCollection: {status: out_of_scope, reason: "data.apple_build reports a build's beta review as external_build_state"}
+  betaAppReviewSubmissions_getInstance: {status: out_of_scope, reason: "data.apple_build reports a build's beta review as external_build_state"}
+  betaBuildLocalizations_build_getToOneRelated: {status: out_of_scope, reason: "apple_beta_build_localization reads its build with include=build"}
+  betaBuildLocalizations_build_getToOneRelationship: {status: out_of_scope, reason: "apple_beta_build_localization reads its build with include=build"}
+  betaBuildLocalizations_createInstance: {status: covered, by: [apple_beta_build_localization]}
+  betaBuildLocalizations_deleteInstance: {status: covered, by: [apple_beta_build_localization]}
+  betaBuildLocalizations_getCollection: {status: out_of_scope, reason: "apple_beta_build_localization reads each localization by ID"}
+  betaBuildLocalizations_getInstance: {status: covered, by: [apple_beta_build_localization]}
+  betaBuildLocalizations_updateInstance: {status: covered, by: [apple_beta_build_localization]}
   betaCrashLogs_getInstance: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
   betaFeedbackCrashSubmissions_crashLog_getToOneRelated: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
   betaFeedbackCrashSubmissions_crashLog_getToOneRelationship: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
@@ -473,65 +473,65 @@ operations:
   betaFeedbackScreenshotSubmissions_getInstance: {status: out_of_scope, reason: "tester feedback and crash logs are runtime data, not configuration"}
   betaGroups_app_getToOneRelated: {status: planned, issue: 5}
   betaGroups_app_getToOneRelationship: {status: planned, issue: 5}
-  betaGroups_betaRecruitmentCriteria_getToOneRelated: {status: in_progress, issue: 3}
-  betaGroups_betaRecruitmentCriteria_getToOneRelationship: {status: planned, issue: 3}
-  betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelated: {status: planned, issue: 3}
-  betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelationship: {status: planned, issue: 3}
+  betaGroups_betaRecruitmentCriteria_getToOneRelated: {status: covered, by: [apple_beta_recruitment_criteria]}
+  betaGroups_betaRecruitmentCriteria_getToOneRelationship: {status: out_of_scope, reason: "the getToOneRelated operation returns the criteria itself"}
+  betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelated: {status: out_of_scope, reason: "build compatibility with tester criteria is advice shown in App Store Connect, not configuration"}
+  betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelationship: {status: out_of_scope, reason: "build compatibility with tester criteria is advice shown in App Store Connect, not configuration"}
   betaGroups_betaTesterUsages_getMetrics: {status: planned, issue: 16}
-  betaGroups_betaTesters_createToManyRelationship: {status: planned, issue: 3}
-  betaGroups_betaTesters_deleteToManyRelationship: {status: planned, issue: 3}
-  betaGroups_betaTesters_getToManyRelated: {status: planned, issue: 3}
-  betaGroups_betaTesters_getToManyRelationship: {status: planned, issue: 3}
-  betaGroups_builds_createToManyRelationship: {status: planned, issue: 3}
-  betaGroups_builds_deleteToManyRelationship: {status: planned, issue: 3}
-  betaGroups_builds_getToManyRelated: {status: planned, issue: 3}
-  betaGroups_builds_getToManyRelationship: {status: planned, issue: 3}
-  betaGroups_createInstance: {status: in_progress, issue: 3}
-  betaGroups_deleteInstance: {status: in_progress, issue: 3}
-  betaGroups_getCollection: {status: in_progress, issue: 3}
-  betaGroups_getInstance: {status: in_progress, issue: 3}
+  betaGroups_betaTesters_createToManyRelationship: {status: out_of_scope, reason: "apple_beta_tester manages group membership through betaTesters_betaGroups"}
+  betaGroups_betaTesters_deleteToManyRelationship: {status: out_of_scope, reason: "apple_beta_tester manages group membership through betaTesters_betaGroups"}
+  betaGroups_betaTesters_getToManyRelated: {status: out_of_scope, reason: "betaTesters_getCollection with filter[betaGroups] (data.apple_beta_testers) returns the same testers"}
+  betaGroups_betaTesters_getToManyRelationship: {status: out_of_scope, reason: "betaTesters_getCollection with filter[betaGroups] (data.apple_beta_testers) returns the same testers"}
+  betaGroups_builds_createToManyRelationship: {status: out_of_scope, reason: "action.apple_add_build_to_beta_groups uses builds_betaGroups_createToManyRelationship"}
+  betaGroups_builds_deleteToManyRelationship: {status: out_of_scope, reason: "action.apple_remove_build_from_beta_groups uses builds_betaGroups_deleteToManyRelationship"}
+  betaGroups_builds_getToManyRelated: {status: out_of_scope, reason: "builds_getCollection with filter[betaGroups] (data.apple_builds) returns the same builds"}
+  betaGroups_builds_getToManyRelationship: {status: out_of_scope, reason: "builds_getCollection with filter[betaGroups] (data.apple_builds) returns the same builds"}
+  betaGroups_createInstance: {status: covered, by: [apple_beta_group]}
+  betaGroups_deleteInstance: {status: covered, by: [apple_beta_group]}
+  betaGroups_getCollection: {status: covered, by: [data.apple_beta_groups]}
+  betaGroups_getInstance: {status: covered, by: [apple_beta_group]}
   betaGroups_publicLinkUsages_getMetrics: {status: planned, issue: 16}
-  betaGroups_updateInstance: {status: in_progress, issue: 3}
+  betaGroups_updateInstance: {status: covered, by: [apple_beta_group]}
   betaLicenseAgreements_app_getToOneRelated: {status: planned, issue: 5}
   betaLicenseAgreements_app_getToOneRelationship: {status: planned, issue: 5}
-  betaLicenseAgreements_getCollection: {status: in_progress, issue: 3}
-  betaLicenseAgreements_getInstance: {status: in_progress, issue: 3}
-  betaLicenseAgreements_updateInstance: {status: in_progress, issue: 3}
-  betaRecruitmentCriteria_createInstance: {status: in_progress, issue: 3}
-  betaRecruitmentCriteria_deleteInstance: {status: in_progress, issue: 3}
-  betaRecruitmentCriteria_updateInstance: {status: in_progress, issue: 3}
-  betaRecruitmentCriterionOptions_getCollection: {status: in_progress, issue: 3}
-  betaTesterInvitations_createInstance: {status: in_progress, issue: 3}
+  betaLicenseAgreements_getCollection: {status: covered, by: [apple_beta_license_agreement]}
+  betaLicenseAgreements_getInstance: {status: out_of_scope, reason: "apple_beta_license_agreement finds the agreement through betaLicenseAgreements_getCollection with filter[app]"}
+  betaLicenseAgreements_updateInstance: {status: covered, by: [apple_beta_license_agreement]}
+  betaRecruitmentCriteria_createInstance: {status: covered, by: [apple_beta_recruitment_criteria]}
+  betaRecruitmentCriteria_deleteInstance: {status: covered, by: [apple_beta_recruitment_criteria]}
+  betaRecruitmentCriteria_updateInstance: {status: covered, by: [apple_beta_recruitment_criteria]}
+  betaRecruitmentCriterionOptions_getCollection: {status: covered, by: [data.apple_beta_recruitment_criterion_options]}
+  betaTesterInvitations_createInstance: {status: covered, by: [action.apple_invite_beta_tester]}
   betaTesters_apps_deleteToManyRelationship: {status: planned, issue: 5}
   betaTesters_apps_getToManyRelated: {status: planned, issue: 5}
   betaTesters_apps_getToManyRelationship: {status: planned, issue: 5}
-  betaTesters_betaGroups_createToManyRelationship: {status: in_progress, issue: 3}
-  betaTesters_betaGroups_deleteToManyRelationship: {status: in_progress, issue: 3}
-  betaTesters_betaGroups_getToManyRelated: {status: planned, issue: 3}
-  betaTesters_betaGroups_getToManyRelationship: {status: in_progress, issue: 3}
+  betaTesters_betaGroups_createToManyRelationship: {status: covered, by: [apple_beta_tester]}
+  betaTesters_betaGroups_deleteToManyRelationship: {status: covered, by: [apple_beta_tester]}
+  betaTesters_betaGroups_getToManyRelated: {status: out_of_scope, reason: "the getToManyRelationship operation returns the group IDs apple_beta_tester needs"}
+  betaTesters_betaGroups_getToManyRelationship: {status: covered, by: [apple_beta_tester]}
   betaTesters_betaTesterUsages_getMetrics: {status: planned, issue: 16}
-  betaTesters_builds_createToManyRelationship: {status: planned, issue: 3}
-  betaTesters_builds_deleteToManyRelationship: {status: planned, issue: 3}
-  betaTesters_builds_getToManyRelated: {status: planned, issue: 3}
-  betaTesters_builds_getToManyRelationship: {status: planned, issue: 3}
-  betaTesters_createInstance: {status: in_progress, issue: 3}
-  betaTesters_deleteInstance: {status: in_progress, issue: 3}
-  betaTesters_getCollection: {status: in_progress, issue: 3}
-  betaTesters_getInstance: {status: in_progress, issue: 3}
-  buildBetaDetails_build_getToOneRelated: {status: planned, issue: 3}
-  buildBetaDetails_build_getToOneRelationship: {status: planned, issue: 3}
-  buildBetaDetails_getCollection: {status: in_progress, issue: 3}
-  buildBetaDetails_getInstance: {status: in_progress, issue: 3}
-  buildBetaDetails_updateInstance: {status: in_progress, issue: 3}
-  buildBetaNotifications_createInstance: {status: in_progress, issue: 3}
+  betaTesters_builds_createToManyRelationship: {status: out_of_scope, reason: "action.apple_add_build_testers uses builds_individualTesters_createToManyRelationship"}
+  betaTesters_builds_deleteToManyRelationship: {status: out_of_scope, reason: "action.apple_remove_build_testers uses builds_individualTesters_deleteToManyRelationship"}
+  betaTesters_builds_getToManyRelated: {status: out_of_scope, reason: "builds_getCollection lists builds; testers given a build individually come from data.apple_beta_testers with build_id"}
+  betaTesters_builds_getToManyRelationship: {status: out_of_scope, reason: "builds_getCollection lists builds; testers given a build individually come from data.apple_beta_testers with build_id"}
+  betaTesters_createInstance: {status: covered, by: [apple_beta_tester]}
+  betaTesters_deleteInstance: {status: covered, by: [apple_beta_tester]}
+  betaTesters_getCollection: {status: covered, by: [apple_beta_tester, data.apple_beta_tester, data.apple_beta_testers]}
+  betaTesters_getInstance: {status: covered, by: [apple_beta_tester, data.apple_beta_tester]}
+  buildBetaDetails_build_getToOneRelated: {status: out_of_scope, reason: "apple_build_beta_detail is looked up by its build"}
+  buildBetaDetails_build_getToOneRelationship: {status: out_of_scope, reason: "apple_build_beta_detail is looked up by its build"}
+  buildBetaDetails_getCollection: {status: covered, by: [apple_build_beta_detail]}
+  buildBetaDetails_getInstance: {status: out_of_scope, reason: "apple_build_beta_detail finds the detail through buildBetaDetails_getCollection with filter[build]"}
+  buildBetaDetails_updateInstance: {status: covered, by: [apple_build_beta_detail]}
+  buildBetaNotifications_createInstance: {status: covered, by: [action.apple_notify_beta_testers]}
   buildBundles_appClipDomainCacheStatus_getToOneRelated: {status: planned, issue: 12}
   buildBundles_appClipDomainCacheStatus_getToOneRelationship: {status: planned, issue: 12}
   buildBundles_appClipDomainDebugStatus_getToOneRelated: {status: planned, issue: 12}
   buildBundles_appClipDomainDebugStatus_getToOneRelationship: {status: planned, issue: 12}
   buildBundles_betaAppClipInvocations_getToManyRelated: {status: planned, issue: 12}
   buildBundles_betaAppClipInvocations_getToManyRelationship: {status: planned, issue: 12}
-  buildBundles_buildBundleFileSizes_getToManyRelated: {status: planned, issue: 3}
-  buildBundles_buildBundleFileSizes_getToManyRelationship: {status: planned, issue: 3}
+  buildBundles_buildBundleFileSizes_getToManyRelated: {status: planned, issue: 16}
+  buildBundles_buildBundleFileSizes_getToManyRelationship: {status: planned, issue: 16}
   buildUploadFiles_createInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   buildUploadFiles_getInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   buildUploadFiles_updateInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
@@ -547,29 +547,29 @@ operations:
   builds_appStoreVersion_getToOneRelationship: {status: planned, issue: 5}
   builds_app_getToOneRelated: {status: planned, issue: 5}
   builds_app_getToOneRelationship: {status: planned, issue: 5}
-  builds_betaAppReviewSubmission_getToOneRelated: {status: planned, issue: 3}
-  builds_betaAppReviewSubmission_getToOneRelationship: {status: planned, issue: 3}
-  builds_betaBuildLocalizations_getToManyRelated: {status: planned, issue: 3}
-  builds_betaBuildLocalizations_getToManyRelationship: {status: planned, issue: 3}
+  builds_betaAppReviewSubmission_getToOneRelated: {status: out_of_scope, reason: "data.apple_build reports a build's beta review as external_build_state"}
+  builds_betaAppReviewSubmission_getToOneRelationship: {status: out_of_scope, reason: "data.apple_build reports a build's beta review as external_build_state"}
+  builds_betaBuildLocalizations_getToManyRelated: {status: out_of_scope, reason: "apple_beta_build_localization reads each localization by ID"}
+  builds_betaBuildLocalizations_getToManyRelationship: {status: out_of_scope, reason: "apple_beta_build_localization reads each localization by ID"}
   builds_betaBuildUsages_getMetrics: {status: planned, issue: 16}
-  builds_betaGroups_createToManyRelationship: {status: in_progress, issue: 3}
-  builds_betaGroups_deleteToManyRelationship: {status: in_progress, issue: 3}
-  builds_buildBetaDetail_getToOneRelated: {status: planned, issue: 3}
-  builds_buildBetaDetail_getToOneRelationship: {status: planned, issue: 3}
+  builds_betaGroups_createToManyRelationship: {status: covered, by: [action.apple_add_build_to_beta_groups]}
+  builds_betaGroups_deleteToManyRelationship: {status: covered, by: [action.apple_remove_build_from_beta_groups]}
+  builds_buildBetaDetail_getToOneRelated: {status: out_of_scope, reason: "buildBetaDetails_getCollection with filter[build] returns the same detail"}
+  builds_buildBetaDetail_getToOneRelationship: {status: out_of_scope, reason: "buildBetaDetails_getCollection with filter[build] returns the same detail"}
   builds_diagnosticSignatures_getToManyRelated: {status: planned, issue: 16}
   builds_diagnosticSignatures_getToManyRelationship: {status: planned, issue: 16}
-  builds_getCollection: {status: in_progress, issue: 3}
-  builds_getInstance: {status: in_progress, issue: 3}
-  builds_icons_getToManyRelated: {status: planned, issue: 3}
-  builds_icons_getToManyRelationship: {status: planned, issue: 3}
-  builds_individualTesters_createToManyRelationship: {status: in_progress, issue: 3}
-  builds_individualTesters_deleteToManyRelationship: {status: in_progress, issue: 3}
-  builds_individualTesters_getToManyRelated: {status: planned, issue: 3}
-  builds_individualTesters_getToManyRelationship: {status: planned, issue: 3}
+  builds_getCollection: {status: covered, by: [data.apple_build, data.apple_builds]}
+  builds_getInstance: {status: covered, by: [data.apple_build]}
+  builds_icons_getToManyRelated: {status: planned, issue: 14}
+  builds_icons_getToManyRelationship: {status: planned, issue: 14}
+  builds_individualTesters_createToManyRelationship: {status: covered, by: [action.apple_add_build_testers]}
+  builds_individualTesters_deleteToManyRelationship: {status: covered, by: [action.apple_remove_build_testers]}
+  builds_individualTesters_getToManyRelated: {status: out_of_scope, reason: "betaTesters_getCollection with filter[builds] (data.apple_beta_testers with build_id) returns the same testers"}
+  builds_individualTesters_getToManyRelationship: {status: out_of_scope, reason: "betaTesters_getCollection with filter[builds] (data.apple_beta_testers with build_id) returns the same testers"}
   builds_perfPowerMetrics_getToManyRelated: {status: planned, issue: 16}
-  builds_preReleaseVersion_getToOneRelated: {status: planned, issue: 3}
-  builds_preReleaseVersion_getToOneRelationship: {status: planned, issue: 3}
-  builds_updateInstance: {status: in_progress, issue: 3}
+  builds_preReleaseVersion_getToOneRelated: {status: out_of_scope, reason: "data.apple_build reads the version with include=preReleaseVersion"}
+  builds_preReleaseVersion_getToOneRelationship: {status: out_of_scope, reason: "data.apple_build reads the version with include=preReleaseVersion"}
+  builds_updateInstance: {status: covered, by: [action.apple_expire_build, action.apple_set_build_export_compliance]}
   bundleIdCapabilities_createInstance: {status: covered, by: [apple_bundle_id_capability]}
   bundleIdCapabilities_deleteInstance: {status: covered, by: [apple_bundle_id_capability]}
   bundleIdCapabilities_updateInstance: {status: covered, by: [apple_bundle_id_capability]}
@@ -1113,10 +1113,10 @@ operations:
   passTypeIds_updateInstance: {status: covered, by: [apple_pass_type_id]}
   preReleaseVersions_app_getToOneRelated: {status: planned, issue: 5}
   preReleaseVersions_app_getToOneRelationship: {status: planned, issue: 5}
-  preReleaseVersions_builds_getToManyRelated: {status: planned, issue: 3}
-  preReleaseVersions_builds_getToManyRelationship: {status: planned, issue: 3}
-  preReleaseVersions_getCollection: {status: in_progress, issue: 3}
-  preReleaseVersions_getInstance: {status: in_progress, issue: 3}
+  preReleaseVersions_builds_getToManyRelated: {status: out_of_scope, reason: "builds_getCollection with filter[preReleaseVersion.version] (data.apple_builds) returns the same builds"}
+  preReleaseVersions_builds_getToManyRelationship: {status: out_of_scope, reason: "builds_getCollection with filter[preReleaseVersion.version] (data.apple_builds) returns the same builds"}
+  preReleaseVersions_getCollection: {status: covered, by: [data.apple_pre_release_versions]}
+  preReleaseVersions_getInstance: {status: out_of_scope, reason: "data.apple_pre_release_versions lists versions, and data.apple_build includes a build's version"}
   profiles_bundleId_getToOneRelated: {status: out_of_scope, reason: "apple_profile needs only the bundle ID's ID, which the getToOneRelationship operation returns"}
   profiles_bundleId_getToOneRelationship: {status: covered, by: [apple_profile, data.apple_profile]}
   profiles_certificates_getToManyRelated: {status: out_of_scope, reason: "apple_profile needs only the certificate IDs, which the getToManyRelationship operation returns"}

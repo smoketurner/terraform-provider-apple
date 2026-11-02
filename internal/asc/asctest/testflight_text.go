@@ -3,7 +3,6 @@ package asctest
 import (
 	"net/http"
 
-	"github.com/smoketurner/terraform-provider-apple/internal/asc"
 	"github.com/smoketurner/terraform-provider-apple/internal/asc/gen"
 )
 
@@ -21,22 +20,6 @@ func (s *Server) renderAppLocalization(r *http.Request, l *appLocalization, with
 		d.Id, d.Type = l.appID, "apps"
 	}
 	return out
-}
-
-func (s *Server) BetaAppLocalizationsGetCollection(w http.ResponseWriter, r *http.Request, params gen.BetaAppLocalizationsGetCollectionParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	var items []gen.BetaAppLocalization
-	for _, l := range sortedValues(s.tf.appLocalizations) {
-		if matches(params.FilterApp, l.appID) && matches(params.FilterLocale, asc.Value(l.Attributes.Locale)) {
-			items = append(items, s.renderAppLocalization(r, l, includes(params.Include, "app")))
-		}
-	}
-	data, links, meta, ok := page(w, r, items, params.Limit, maxLimit)
-	if !ok {
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BetaAppLocalizationsResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
 // BetaAppLocalizationsCreateInstance adds a locale's beta app information. An
@@ -139,22 +122,6 @@ func (s *Server) renderBuildLocalization(r *http.Request, l *buildLocalization, 
 	return out
 }
 
-func (s *Server) BetaBuildLocalizationsGetCollection(w http.ResponseWriter, r *http.Request, params gen.BetaBuildLocalizationsGetCollectionParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	var items []gen.BetaBuildLocalization
-	for _, l := range sortedValues(s.tf.buildLocalizations) {
-		if matches(params.FilterBuild, l.buildID) && matches(params.FilterLocale, asc.Value(l.Attributes.Locale)) {
-			items = append(items, s.renderBuildLocalization(r, l, includes(params.Include, "build")))
-		}
-	}
-	data, links, meta, ok := page(w, r, items, params.Limit, maxLimit)
-	if !ok {
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BetaBuildLocalizationsResponse{Data: nonNil(data), Links: links, Meta: meta})
-}
-
 // BetaBuildLocalizationsCreateInstance adds a locale's "What to Test" text
 // to a build. A build has at most one localization per locale.
 func (s *Server) BetaBuildLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
@@ -239,17 +206,6 @@ func (s *Server) BetaAppReviewDetailsGetCollection(w http.ResponseWriter, r *htt
 	writeJSON(w, http.StatusOK, gen.BetaAppReviewDetailsResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
-func (s *Server) BetaAppReviewDetailsGetInstance(w http.ResponseWriter, r *http.Request, id string, _ gen.BetaAppReviewDetailsGetInstanceParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	d, ok := s.tf.reviewDetails[id]
-	if !ok {
-		notFound(w, "betaAppReviewDetails", id)
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BetaAppReviewDetailResponse{Data: *d, Links: docLinks(r)})
-}
-
 func (s *Server) BetaAppReviewDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string) {
 	var req gen.BetaAppReviewDetailUpdateRequest
 	if !decode(w, r, &req) {
@@ -292,17 +248,6 @@ func (s *Server) BetaLicenseAgreementsGetCollection(w http.ResponseWriter, r *ht
 		return
 	}
 	writeJSON(w, http.StatusOK, gen.BetaLicenseAgreementsResponse{Data: nonNil(data), Links: links, Meta: meta})
-}
-
-func (s *Server) BetaLicenseAgreementsGetInstance(w http.ResponseWriter, r *http.Request, id string, _ gen.BetaLicenseAgreementsGetInstanceParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	l, ok := s.tf.licenses[id]
-	if !ok {
-		notFound(w, "betaLicenseAgreements", id)
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BetaLicenseAgreementResponse{Data: *l, Links: docLinks(r)})
 }
 
 func (s *Server) BetaLicenseAgreementsUpdateInstance(w http.ResponseWriter, r *http.Request, id string) {

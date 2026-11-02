@@ -116,11 +116,11 @@ func TestBetaReviewRules(t *testing.T) {
 	}
 
 	s.ApproveBetaReview(missing)
-	detail, err := c.BuildBetaDetailsGetInstanceWithResponse(t.Context(), missing, nil)
+	detail, err := c.BuildBetaDetailsGetCollectionWithResponse(t.Context(), &gen.BuildBetaDetailsGetCollectionParams{FilterBuild: &[]string{missing}})
 	if err := asc.Err(detail, err); err != nil {
 		t.Fatal(err)
 	}
-	if got := *detail.JSON200.Data.Attributes.ExternalBuildState; got != gen.ExternalBetaStateBETAAPPROVED {
+	if got := *detail.JSON200.Data[0].Attributes.ExternalBuildState; got != gen.ExternalBetaStateBETAAPPROVED {
 		t.Errorf("external state = %s", got)
 	}
 	if err := submitReview(t, c, second); err != nil {

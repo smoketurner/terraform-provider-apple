@@ -155,9 +155,15 @@ action "apple_remove_beta_testers_from_app" "ann" {
 		},
 		resource.TestStep{
 			Config: base + triggerAction("2", "apple_set_build_export_compliance.no_encryption", "apple_add_build_to_beta_groups.both",
-				"apple_add_build_testers.ann", "apple_submit_beta_review.build"),
+				"apple_add_build_testers.ann", "apple_submit_beta_review.build") + `
+data "apple_beta_testers" "build" {
+  build_id   = local.build_id
+  depends_on = [terraform_data.trigger]
+}
+`,
 			Check: resource.ComposeAggregateTestCheckFunc(
 				env.checkBuild(buildID, []string{"apple_beta_tester.ann"}, []string{"apple_beta_group.external", "apple_beta_group.internal"}),
+				resource.TestCheckResourceAttr("data.apple_beta_testers.build", "beta_testers.#", "1"),
 				env.checkBuildStates(buildID, gen.InternalBetaStateINBETATESTING, gen.ExternalBetaStateWAITINGFORBETAREVIEW),
 			),
 		},

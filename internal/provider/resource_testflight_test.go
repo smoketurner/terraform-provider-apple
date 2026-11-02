@@ -323,11 +323,11 @@ resource "apple_build_beta_detail" "build" {
 	checkFake := func(text string, notify bool) resource.TestCheckFunc {
 		return func(*terraform.State) error {
 			ctx := context.Background()
-			lic, err := env.client.BetaLicenseAgreementsGetInstanceWithResponse(ctx, appID, nil)
+			lic, err := env.client.BetaLicenseAgreementsGetCollectionWithResponse(ctx, &gen.BetaLicenseAgreementsGetCollectionParams{FilterApp: &[]string{appID}})
 			if err := asc.Err(lic, err); err != nil {
 				return err
 			}
-			if got := *lic.JSON200.Data.Attributes.AgreementText; got != text {
+			if got := *lic.JSON200.Data[0].Attributes.AgreementText; got != text {
 				return fmt.Errorf("agreement text = %q, want %q", got, text)
 			}
 			d, err := findBuildBetaDetail(ctx, env.client, buildID)

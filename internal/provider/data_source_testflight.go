@@ -443,6 +443,7 @@ var newBetaTesterDataSource = lookupDataSource("beta_tester", "Looks up a beta t
 type betaTestersData struct {
 	AppID       types.String     `tfsdk:"app_id"`
 	BetaGroupID types.String     `tfsdk:"beta_group_id"`
+	BuildID     types.String     `tfsdk:"build_id"`
 	Emails      types.Set        `tfsdk:"emails"`
 	BetaTesters []betaTesterData `tfsdk:"beta_testers"`
 }
@@ -451,6 +452,7 @@ var newBetaTestersDataSource = listDataSource("beta_testers", "Lists the beta te
 	map[string]schema.Attribute{
 		"app_id":        schema.StringAttribute{MarkdownDescription: "Only testers of this app.", Optional: true},
 		"beta_group_id": schema.StringAttribute{MarkdownDescription: "Only testers in this beta group.", Optional: true},
+		"build_id":      schema.StringAttribute{MarkdownDescription: "Only testers given this build individually.", Optional: true},
 		"emails":        dsFilter("Email addresses to match."),
 		"beta_testers":  listOf("The matching testers, ordered by ID.", betaTesterDataAttributes),
 	},
@@ -461,6 +463,9 @@ var newBetaTestersDataSource = listDataSource("beta_testers", "Lists the beta te
 		}
 		if !m.BetaGroupID.IsNull() {
 			params.FilterBetaGroups = &[]string{m.BetaGroupID.ValueString()}
+		}
+		if !m.BuildID.IsNull() {
+			params.FilterBuilds = &[]string{m.BuildID.ValueString()}
 		}
 		all, err := findBetaTesters(ctx, c, params)
 		if err != nil {

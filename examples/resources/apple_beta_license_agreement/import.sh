@@ -1,0 +1,1 @@
+terraform import apple_beta_license_agreement.example 1234567890

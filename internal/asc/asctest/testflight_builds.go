@@ -287,19 +287,6 @@ func (s *Server) PreReleaseVersionsGetCollection(w http.ResponseWriter, r *http.
 	writeJSON(w, http.StatusOK, gen.PreReleaseVersionsResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
-func (s *Server) PreReleaseVersionsGetInstance(w http.ResponseWriter, r *http.Request, id string, _ gen.PreReleaseVersionsGetInstanceParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	p, ok := s.tf.preReleaseVersions[id]
-	if !ok {
-		notFound(w, "preReleaseVersions", id)
-		return
-	}
-	item := p.PrereleaseVersion
-	item.Links = resourceLinks(r, "preReleaseVersions", p.Id)
-	writeJSON(w, http.StatusOK, gen.PrereleaseVersionResponse{Data: item, Links: docLinks(r)})
-}
-
 func (s *Server) BuildBetaDetailsGetCollection(w http.ResponseWriter, r *http.Request, params gen.BuildBetaDetailsGetCollectionParams) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -314,17 +301,6 @@ func (s *Server) BuildBetaDetailsGetCollection(w http.ResponseWriter, r *http.Re
 		return
 	}
 	writeJSON(w, http.StatusOK, gen.BuildBetaDetailsResponse{Data: nonNil(data), Links: links, Meta: meta})
-}
-
-func (s *Server) BuildBetaDetailsGetInstance(w http.ResponseWriter, r *http.Request, id string, _ gen.BuildBetaDetailsGetInstanceParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	b, ok := s.tf.builds[id]
-	if !ok {
-		notFound(w, "buildBetaDetails", id)
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BuildBetaDetailResponse{Data: b.detail, Links: docLinks(r)})
 }
 
 func (s *Server) BuildBetaDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string) {
@@ -407,31 +383,4 @@ func (s *Server) BetaAppReviewSubmissionsCreateInstance(w http.ResponseWriter, r
 	s.tf.submissions[sub.Id] = sub
 	s.refreshBuildStates(b)
 	writeJSON(w, http.StatusCreated, gen.BetaAppReviewSubmissionResponse{Data: sub.BetaAppReviewSubmission, Links: docLinks(r)})
-}
-
-func (s *Server) BetaAppReviewSubmissionsGetCollection(w http.ResponseWriter, r *http.Request, params gen.BetaAppReviewSubmissionsGetCollectionParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	var items []gen.BetaAppReviewSubmission
-	for _, sub := range sortedValues(s.tf.submissions) {
-		if matches(&params.FilterBuild, sub.buildID) && matches(params.FilterBetaReviewState, string(*sub.Attributes.BetaReviewState)) {
-			items = append(items, sub.BetaAppReviewSubmission)
-		}
-	}
-	data, links, meta, ok := page(w, r, items, params.Limit, maxLimit)
-	if !ok {
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BetaAppReviewSubmissionsResponse{Data: nonNil(data), Links: links, Meta: meta})
-}
-
-func (s *Server) BetaAppReviewSubmissionsGetInstance(w http.ResponseWriter, r *http.Request, id string, _ gen.BetaAppReviewSubmissionsGetInstanceParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	sub, ok := s.tf.submissions[id]
-	if !ok {
-		notFound(w, "betaAppReviewSubmissions", id)
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BetaAppReviewSubmissionResponse{Data: sub.BetaAppReviewSubmission, Links: docLinks(r)})
 }

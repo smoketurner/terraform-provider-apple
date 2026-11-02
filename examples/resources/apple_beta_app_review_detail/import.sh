@@ -1,0 +1,1 @@
+terraform import apple_beta_app_review_detail.example 1234567890
