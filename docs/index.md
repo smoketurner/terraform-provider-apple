@@ -72,6 +72,10 @@ provider "apple" {
   preparation, adopting it if it exists. Once a version is approved it can't be edited, so changing its configuration
   creates the next version; destroying it deletes only a version that was never submitted. Its localizations, review
   details and phased release are keyed by version, so they follow it. Submitting, canceling and releasing are actions.
+* **Availability is set per territory.** An app isn't sold anywhere until it has an availability. Creating
+  `apple_app_availability` creates one with every territory unavailable; each `apple_app_territory_availability` then
+  makes the app available in one territory, and destroying it makes the app unavailable there. Use `for_each` over
+  `data.apple_territories` to sell everywhere.
 * **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
   the device, which still counts toward the team's device limit until the membership year renews.
 

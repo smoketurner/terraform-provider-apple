@@ -137,6 +137,7 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 		newAssignEncryptionDeclarationAction,
 		newCancelReviewSubmissionAction,
 		newDeleteBetaTesterAction,
+		newEndPreOrdersAction,
 		newExpireBuildAction,
 		newInviteBetaTesterAction,
 		newNotifyBetaTestersAction,
@@ -158,6 +159,9 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newAppInfoLocalizationResource,
 		newAppInfoResource,
 		newAppSettingsResource,
+		newAvailabilityResource,
+		newPriceScheduleResource,
+		newTerritoryAvailabilityResource,
 		newAppStoreVersionResource,
 		newVersionLocalizationResource,
 		newReviewDetailResource,
@@ -188,6 +192,9 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataSource {
 	return []func() datasource.DataSource{
 		newAppCategoriesDataSource,
+		newAppPricePointsDataSource,
+		newPricePointEqualizationsDataSource,
+		newTerritoriesDataSource,
 		newAppDataSource,
 		newAppsDataSource,
 		newBetaGroupsDataSource,

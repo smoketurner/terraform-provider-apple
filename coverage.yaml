@@ -80,10 +80,10 @@ operations:
   appAssetLibraryVideos_placements_getToManyRelated: {status: planned, issue: 14}
   appAssetLibraryVideos_placements_getToManyRelationship: {status: planned, issue: 14}
   appAssetLibraryVideos_updateInstance: {status: planned, issue: 14}
-  appAvailabilitiesV2_createInstance: {status: planned, issue: 6}
-  appAvailabilitiesV2_getInstance: {status: planned, issue: 6}
-  appAvailabilitiesV2_territoryAvailabilities_getToManyRelated: {status: planned, issue: 6}
-  appAvailabilitiesV2_territoryAvailabilities_getToManyRelationship: {status: planned, issue: 6}
+  appAvailabilitiesV2_createInstance: {status: covered, by: [apple_app_availability]}
+  appAvailabilitiesV2_getInstance: {status: out_of_scope, reason: "availability is read through the app, whose ID the resources already have"}
+  appAvailabilitiesV2_territoryAvailabilities_getToManyRelated: {status: covered, by: [apple_app_availability, apple_app_territory_availability, action.apple_end_pre_orders]}
+  appAvailabilitiesV2_territoryAvailabilities_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appCategories_getCollection: {status: covered, by: [data.apple_app_categories]}
   appCategories_getInstance: {status: planned, issue: 5}
   appCategories_parent_getToOneRelated: {status: planned, issue: 5}
@@ -219,17 +219,17 @@ operations:
   appPreviews_deleteInstance: {status: planned, issue: 14}
   appPreviews_getInstance: {status: planned, issue: 14}
   appPreviews_updateInstance: {status: planned, issue: 14}
-  appPricePointsV3_equalizations_getToManyRelated: {status: planned, issue: 6}
-  appPricePointsV3_equalizations_getToManyRelationship: {status: planned, issue: 6}
-  appPricePointsV3_getInstance: {status: planned, issue: 6}
-  appPriceSchedules_automaticPrices_getToManyRelated: {status: planned, issue: 6}
-  appPriceSchedules_automaticPrices_getToManyRelationship: {status: planned, issue: 6}
-  appPriceSchedules_baseTerritory_getToOneRelated: {status: planned, issue: 6}
-  appPriceSchedules_baseTerritory_getToOneRelationship: {status: planned, issue: 6}
-  appPriceSchedules_createInstance: {status: planned, issue: 6}
-  appPriceSchedules_getInstance: {status: planned, issue: 6}
-  appPriceSchedules_manualPrices_getToManyRelated: {status: planned, issue: 6}
-  appPriceSchedules_manualPrices_getToManyRelationship: {status: planned, issue: 6}
+  appPricePointsV3_equalizations_getToManyRelated: {status: covered, by: [data.apple_app_price_point_equalizations]}
+  appPricePointsV3_equalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appPricePointsV3_getInstance: {status: out_of_scope, reason: "price points are found by listing the app's price points, which returns the same attributes"}
+  appPriceSchedules_automaticPrices_getToManyRelated: {status: out_of_scope, reason: "automatic prices are equalized from the base territory price; data.apple_app_price_point_equalizations shows them"}
+  appPriceSchedules_automaticPrices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appPriceSchedules_baseTerritory_getToOneRelated: {status: covered, by: [apple_app_price_schedule]}
+  appPriceSchedules_baseTerritory_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appPriceSchedules_createInstance: {status: covered, by: [apple_app_price_schedule]}
+  appPriceSchedules_getInstance: {status: out_of_scope, reason: "the price schedule is read through the app, whose ID the resource already has"}
+  appPriceSchedules_manualPrices_getToManyRelated: {status: covered, by: [apple_app_price_schedule]}
+  appPriceSchedules_manualPrices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appScreenshotSets_appScreenshots_getToManyRelated: {status: planned, issue: 14}
   appScreenshotSets_appScreenshots_getToManyRelationship: {status: planned, issue: 14}
   appScreenshotSets_appScreenshots_replaceToManyRelationship: {status: planned, issue: 14}
@@ -326,8 +326,8 @@ operations:
   appStoreVersions_routingAppCoverage_getToOneRelated: {status: planned, issue: 5}
   appStoreVersions_routingAppCoverage_getToOneRelationship: {status: planned, issue: 5}
   appStoreVersions_updateInstance: {status: covered, by: [apple_app_store_version]}
-  appTags_territories_getToManyRelated: {status: planned, issue: 6}
-  appTags_territories_getToManyRelationship: {status: planned, issue: 6}
+  appTags_territories_getToManyRelated: {status: out_of_scope, reason: "the territories of an app tag are assigned by Apple and not configurable"}
+  appTags_territories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appTags_updateInstance: {status: covered, by: [apple_app_tag]}
   apps_accessibilityDeclarations_getToManyRelated: {status: out_of_scope, reason: "apple_accessibility_declaration reads each declaration by ID"}
   apps_accessibilityDeclarations_getToManyRelationship: {status: planned, issue: 5}
@@ -337,8 +337,8 @@ operations:
   apps_analyticsReportRequests_getToManyRelationship: {status: planned, issue: 16}
   apps_androidToIosAppMappingDetails_getToManyRelated: {status: planned, issue: 5}
   apps_androidToIosAppMappingDetails_getToManyRelationship: {status: planned, issue: 5}
-  apps_appAvailabilityV2_getToOneRelated: {status: planned, issue: 6}
-  apps_appAvailabilityV2_getToOneRelationship: {status: planned, issue: 6}
+  apps_appAvailabilityV2_getToOneRelated: {status: covered, by: [apple_app_availability, apple_app_territory_availability]}
+  apps_appAvailabilityV2_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appClips_getToManyRelated: {status: planned, issue: 12}
   apps_appClips_getToManyRelationship: {status: planned, issue: 12}
   apps_appCustomProductPages_getToManyRelated: {status: planned, issue: 10}
@@ -349,10 +349,10 @@ operations:
   apps_appEvents_getToManyRelationship: {status: planned, issue: 11}
   apps_appInfos_getToManyRelated: {status: covered, by: [apple_age_rating_declaration, apple_app_info, apple_app_info_localization]}
   apps_appInfos_getToManyRelationship: {status: planned, issue: 5}
-  apps_appPricePoints_getToManyRelated: {status: planned, issue: 6}
-  apps_appPricePoints_getToManyRelationship: {status: planned, issue: 6}
-  apps_appPriceSchedule_getToOneRelated: {status: planned, issue: 6}
-  apps_appPriceSchedule_getToOneRelationship: {status: planned, issue: 6}
+  apps_appPricePoints_getToManyRelated: {status: covered, by: [data.apple_app_price_points]}
+  apps_appPricePoints_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  apps_appPriceSchedule_getToOneRelated: {status: covered, by: [apple_app_price_schedule]}
+  apps_appPriceSchedule_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appStoreVersionExperimentsV2_getToManyRelated: {status: planned, issue: 10}
   apps_appStoreVersionExperimentsV2_getToManyRelationship: {status: planned, issue: 10}
   apps_appStoreVersions_getToManyRelated: {status: covered, by: [apple_app_store_version]}
@@ -649,11 +649,11 @@ operations:
   devices_getInstance: {status: covered, by: [apple_device, data.apple_device]}
   devices_updateInstance: {status: covered, by: [apple_device]}
   diagnosticSignatures_logs_getToManyRelated: {status: planned, issue: 16}
-  endAppAvailabilityPreOrders_createInstance: {status: planned, issue: 6}
+  endAppAvailabilityPreOrders_createInstance: {status: covered, by: [action.apple_end_pre_orders]}
   endUserLicenseAgreements_createInstance: {status: covered, by: [apple_end_user_license_agreement]}
   endUserLicenseAgreements_deleteInstance: {status: covered, by: [apple_end_user_license_agreement]}
   endUserLicenseAgreements_getInstance: {status: out_of_scope, reason: "apple_end_user_license_agreement reads the agreement through apps_endUserLicenseAgreement_getToOneRelated"}
-  endUserLicenseAgreements_territories_getToManyRelated: {status: planned, issue: 6}
+  endUserLicenseAgreements_territories_getToManyRelated: {status: out_of_scope, reason: "apple_end_user_license_agreement reads territory IDs through the relationship linkage"}
   endUserLicenseAgreements_territories_getToManyRelationship: {status: covered, by: [apple_end_user_license_agreement]}
   endUserLicenseAgreements_updateInstance: {status: covered, by: [apple_end_user_license_agreement]}
   financeReports_getCollection: {status: planned, issue: 16}
@@ -1287,8 +1287,8 @@ operations:
   subscriptions_versions_getToManyRelationship: {status: planned, issue: 7}
   subscriptions_winBackOffers_getToManyRelated: {status: planned, issue: 7}
   subscriptions_winBackOffers_getToManyRelationship: {status: planned, issue: 7}
-  territories_getCollection: {status: planned, issue: 6}
-  territoryAvailabilities_updateInstance: {status: planned, issue: 6}
+  territories_getCollection: {status: covered, by: [data.apple_territories, apple_app_availability]}
+  territoryAvailabilities_updateInstance: {status: covered, by: [apple_app_territory_availability]}
   userInvitations_createInstance: {status: covered, by: [apple_user]}
   userInvitations_deleteInstance: {status: covered, by: [apple_user]}
   userInvitations_getCollection: {status: covered, by: [apple_user, data.apple_user_invitations]}
