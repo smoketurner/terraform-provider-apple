@@ -1,0 +1,170 @@
+name: CI
+
+on:
+  pull_request:
+  # Required checks must also run on merge queue groups, or the queue waits
+  # for checks that never report.
+  merge_group:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Pull requests get fast feedback; the merge queue runs the full suite on the
+# exact commit that lands; pushes to main only refresh the caches that pull
+# requests restore from. Skipped jobs report success, so required checks
+# still pass on pull requests.
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      # Each job keys its own cache: setup-go saves a key only once, so jobs
+      # sharing one key would keep whichever build cache finished first.
+      - run: echo lint > .cache-key
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: |
+            go.sum
+            .cache-key
+      - uses: golangci/golangci-lint-action@ba0d7d2ec06a0ea1cb5fa41b2e4a3ab91d21278a # v9.3.0
+        with:
+          version: v2.14.0
+
+  generate:
+    name: Generated files are current
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - run: echo generate > .cache-key
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: |
+            go.sum
+            tools/go.sum
+            .cache-key
+      - uses: hashicorp/setup-terraform@dfe3c3f87815947d99a8997f908cb6525fc44e9e # v4.0.1
+        with:
+          terraform_wrapper: false
+      - run: go mod tidy && (cd tools && go mod tidy)
+      - run: make generate
+      - name: Check for uncommitted changes
+        run: |
+          git diff --compact-summary --exit-code || \
+            (echo; echo "Run 'go mod tidy' and 'make generate', then commit the changes."; exit 1)
+      - run: cd tools && go run github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs validate --provider-dir .. --provider-name apple
+
+  # Checks coverage.yaml and the generated client against the vendored
+  # App Store Connect OpenAPI spec, after verifying the spec against the
+  # checksum pinned in internal/apispec/pin.go.
+  api-coverage:
+    name: API coverage
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - run: echo api-coverage > .cache-key
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: |
+            go.sum
+            .cache-key
+      - run: make api-coverage
+
+  test:
+    name: Test (Terraform ${{ matrix.terraform }})
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        # The oldest Terraform the provider supports, a middle release and the
+        # latest.
+        terraform: ["1.8.*", "1.12.*", "1.16.*"]
+    env:
+      # Older Terraform versions run only in the merge queue and manual runs.
+      # Their legs still start and skip every step, because a matrix job
+      # skipped with a job-level `if` may not report under the expanded check
+      # name the ruleset requires.
+      RUN_TESTS: ${{ matrix.terraform == '1.16.*' || github.event_name == 'merge_group' || github.event_name == 'workflow_dispatch' }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        if: env.RUN_TESTS == 'true'
+        with:
+          persist-credentials: false
+      # The Go build is identical across the Terraform matrix, so the legs
+      # share one race-build cache.
+      - run: echo test-race > .cache-key
+        if: env.RUN_TESTS == 'true'
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        if: env.RUN_TESTS == 'true'
+        with:
+          go-version-file: go.mod
+          cache-dependency-path: |
+            go.sum
+            .cache-key
+      - uses: hashicorp/setup-terraform@dfe3c3f87815947d99a8997f908cb6525fc44e9e # v4.0.1
+        if: env.RUN_TESTS == 'true'
+        with:
+          terraform_version: ${{ matrix.terraform }}
+          terraform_wrapper: false
+      # Acceptance tests run against the in-memory fake App Store Connect API.
+      - run: go test -race -cover -timeout 10m ./...
+        if: env.RUN_TESTS == 'true'
+
+  release-build:
+    name: Release build
+    if: github.event_name == 'merge_group' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+          cache: false
+      - uses: goreleaser/goreleaser-action@a4f02ab5355a589de60d917a659ce617ed19b3de # v7.3.0
+        with:
+          version: v2.18.2
+          args: release --snapshot --clean --skip=sign,publish
+
+  workflows:
+    name: Workflow security
+    if: github.event_name != 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      security-events: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7.0.0
+        with:
+          go-version-file: go.mod
+          cache: false
+      - name: actionlint
+        run: go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.12
+      - uses: zizmorcore/zizmor-action@85b2b9fb8e3325e7a23d7d0a9d7ba5ae0f999e3e # v0.7.1

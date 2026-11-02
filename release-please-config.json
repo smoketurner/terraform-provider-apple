@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "release-type": "go",
+  "include-component-in-tag": false,
+  "bump-minor-pre-major": true,
+  "bump-patch-for-minor-pre-major": false,
+  "draft": true,
+  "force-tag-creation": true,
+  "initial-version": "0.1.0",
+  "packages": {
+    ".": {
+      "package-name": "terraform-provider-apple",
+      "changelog-path": "CHANGELOG.md"
+    }
+  }
+}

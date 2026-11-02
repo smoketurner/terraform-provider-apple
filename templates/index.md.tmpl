@@ -1,0 +1,36 @@
+---
+page_title: "Provider: Apple"
+description: |-
+  Manage App Store Connect with an App Store Connect API key.
+---
+
+# Apple Provider
+
+Manage App Store Connect as code through the [App Store Connect API](https://developer.apple.com/documentation/appstoreconnectapi).
+
+## Setup
+
+1. In App Store Connect, open **Users and Access**, then **Integrations**, and generate a team API key with a role
+   that allows the changes you declare. Copy the **Issuer ID** shown above the key list and the key's **Key ID**, and
+   download the `.p8` private key, which App Store Connect lets you download only once.
+2. Pass the issuer ID, key ID and the contents of the `.p8` file as `issuer_id`, `key_id` and `private_key`, or set
+   `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_ID` and `APP_STORE_CONNECT_PRIVATE_KEY`.
+3. To use an individual API key from your user profile instead, leave `issuer_id` unset.
+
+{{ tffile "examples/provider/provider.tf" }}
+
+## Behavior
+
+* **Authentication.** The provider signs a JSON Web Token with the private key and renews it before it expires.
+  Tokens never live longer than the 20 minutes App Store Connect allows.
+* **Rate limits.** App Store Connect allows a number of requests per API key per rolling hour. The provider retries a
+  request that hits the limit a few times, then fails with the remaining quota from the `X-Rate-Limit` header.
+* **Retries.** Server errors are retried for reads, updates and deletes. Creates are not retried after a server
+  error, because the object may already exist.
+
+## Debugging
+
+Set `TF_LOG=DEBUG` to see each request's status and rate limit. Errors from App Store Connect include the HTTP
+method, path, error code and the request field the error refers to.
+
+{{ .SchemaMarkdown | trimspace }}
