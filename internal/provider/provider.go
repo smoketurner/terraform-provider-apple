@@ -127,6 +127,14 @@ func (p *appleProvider) Configure(ctx context.Context, req provider.ConfigureReq
 
 func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource {
 	return []func() resource.Resource{
+		newBetaAppLocalizationResource,
+		newBetaAppReviewDetailResource,
+		newBetaBuildLocalizationResource,
+		newBetaGroupResource,
+		newBetaLicenseAgreementResource,
+		newBetaRecruitmentCriteriaResource,
+		newBetaTesterResource,
+		newBuildBetaDetailResource,
 		newBundleIDResource,
 		newBundleIDCapabilityResource,
 		newCertificateResource,

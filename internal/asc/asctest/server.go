@@ -19,6 +19,7 @@ import (
 	"encoding/pem"
 	"errors"
 	"fmt"
+	"maps"
 	"math/big"
 	"net/http"
 	"net/http/httptest"
@@ -65,6 +66,7 @@ type Server struct {
 	apps         map[string]*gen.App
 	// certLimits caps the active certificates of a type.
 	certLimits map[gen.CertificateType]int
+	tf         *testflight
 
 	failNext map[string][]int
 	requests []string
@@ -94,6 +96,7 @@ func NewServer() *Server {
 		passTypeIDs:  map[string]*gen.PassTypeId{},
 		apps:         map[string]*gen.App{},
 		certLimits:   defaultCertLimits(),
+		tf:           newTestflight(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{
@@ -312,13 +315,14 @@ func page[T any](w http.ResponseWriter, r *http.Request, items []T, limit *int, 
 	return out, links, meta, true
 }
 
+// sortedKeys returns the map's keys in order.
+func sortedKeys[T any](m map[string]T) []string {
+	return slices.Sorted(maps.Keys(m))
+}
+
 // sortedValues returns the map's values ordered by ID.
 func sortedValues[T any](m map[string]T) []T {
-	keys := make([]string, 0, len(m))
-	for k := range m {
-		keys = append(keys, k)
-	}
-	slices.Sort(keys)
+	keys := sortedKeys(m)
 	out := make([]T, len(keys))
 	for i, k := range keys {
 		out[i] = m[k]

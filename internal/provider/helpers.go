@@ -3,6 +3,7 @@ package provider
 import (
 	"context"
 	"fmt"
+	"regexp"
 	"strings"
 	"time"
 
@@ -138,3 +139,20 @@ const listAll = 200
 
 // linkageLimit is the page size for relationship linkages.
 const linkageLimit = 1000
+
+// emailRegexp loosely checks an email address; App Store Connect validates it.
+var emailRegexp = regexp.MustCompile(`^[^@\s]+@[^@\s]+$`)
+
+// optionalReplacedString is an optional attribute that cannot change in
+// place.
+func optionalReplacedString(desc string) schema.StringAttribute {
+	return schema.StringAttribute{
+		MarkdownDescription: desc,
+		Optional:            true,
+		PlanModifiers:       []planmodifier.String{stringplanmodifier.RequiresReplace()},
+	}
+}
+
+// localeRegexp matches the locales App Store Connect uses, e.g. "en-US",
+// "fr", "zh-Hans".
+var localeRegexp = regexp.MustCompile(`^[a-z]{2,3}(-[A-Za-z0-9]{2,4})*$`)
