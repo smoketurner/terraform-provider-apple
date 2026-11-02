@@ -40,7 +40,7 @@ jobs:
             .cache-key
       - uses: golangci/golangci-lint-action@ba0d7d2ec06a0ea1cb5fa41b2e4a3ab91d21278a # v9.3.0
         with:
-          version: v2.14.0
+          version: v2.15.0
 
   generate:
     name: Generated files are current
@@ -98,13 +98,13 @@ jobs:
       matrix:
         # The oldest Terraform the provider supports, a middle release and the
         # latest.
-        terraform: ["1.8.*", "1.12.*", "1.16.*"]
+        terraform: ["1.8.*", "1.12.*", "1.17.*"]
     env:
       # Older Terraform versions run only in the merge queue and manual runs.
       # Their legs still start and skip every step, because a matrix job
       # skipped with a job-level `if` may not report under the expanded check
       # name the ruleset requires.
-      RUN_TESTS: ${{ matrix.terraform == '1.16.*' || github.event_name == 'merge_group' || github.event_name == 'workflow_dispatch' }}
+      RUN_TESTS: ${{ matrix.terraform == '1.17.*' || github.event_name == 'merge_group' || github.event_name == 'workflow_dispatch' }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         if: env.RUN_TESTS == 'true'
@@ -146,7 +146,7 @@ jobs:
           cache: false
       - uses: goreleaser/goreleaser-action@a4f02ab5355a589de60d917a659ce617ed19b3de # v7.3.0
         with:
-          version: v2.18.2
+          version: v2.19.0
           args: release --snapshot --clean --skip=sign,publish
 
   workflows:
