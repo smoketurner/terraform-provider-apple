@@ -25,3 +25,9 @@ actions:
   - target: $.components.schemas.WebhookEvent.properties.type
     update:
       x-go-type-name: WebhookEventResourceType
+  # The spec lists the common attributes twice in these unions, which would
+  # generate their union methods twice.
+  - target: $.components.schemas.AppAssetLibraryImage.properties.attributes.oneOf[4]
+    remove: true
+  - target: $.components.schemas.AppAssetLibraryVideo.properties.attributes.oneOf[4]
+    remove: true

@@ -1,0 +1,1 @@
+terraform import apple_app_encryption_declaration.example 1234567890

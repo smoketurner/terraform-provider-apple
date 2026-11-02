@@ -1,0 +1,1 @@
+terraform import apple_app_store_version_localization.en_us 1234567890/en-US

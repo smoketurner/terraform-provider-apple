@@ -26,14 +26,35 @@ output-options:
     - androidToIosAppMappingDetails_getInstance
     - androidToIosAppMappingDetails_updateInstance
     - appCategories_getCollection
+    - appEncryptionDeclarations_createInstance
+    - appEncryptionDeclarations_getInstance
     - appInfoLocalizations_createInstance
     - appInfoLocalizations_deleteInstance
     - appInfoLocalizations_updateInstance
     - appInfos_ageRatingDeclaration_getToOneRelated
     - appInfos_appInfoLocalizations_getToManyRelated
     - appInfos_updateInstance
+    - appStoreReviewDetails_createInstance
+    - appStoreReviewDetails_updateInstance
+    - appStoreVersionLocalizations_createInstance
+    - appStoreVersionLocalizations_deleteInstance
+    - appStoreVersionLocalizations_updateInstance
+    - appStoreVersionPhasedReleases_createInstance
+    - appStoreVersionPhasedReleases_deleteInstance
+    - appStoreVersionPhasedReleases_updateInstance
+    - appStoreVersionReleaseRequests_createInstance
+    - appStoreVersions_appStoreReviewDetail_getToOneRelated
+    - appStoreVersions_appStoreVersionLocalizations_getToManyRelated
+    - appStoreVersions_appStoreVersionPhasedRelease_getToOneRelated
+    - appStoreVersions_build_getToOneRelationship
+    - appStoreVersions_build_updateToOneRelationship
+    - appStoreVersions_createInstance
+    - appStoreVersions_deleteInstance
+    - appStoreVersions_getInstance
+    - appStoreVersions_updateInstance
     - appTags_updateInstance
     - apps_appInfos_getToManyRelated
+    - apps_appStoreVersions_getToManyRelated
     - apps_appTags_getToManyRelated
     - apps_betaTesters_deleteToManyRelationship
     - apps_endUserLicenseAgreement_getToOneRelated
@@ -74,6 +95,7 @@ output-options:
     - buildBetaDetails_getCollection
     - buildBetaDetails_updateInstance
     - buildBetaNotifications_createInstance
+    - builds_appEncryptionDeclaration_updateToOneRelationship
     - builds_betaGroups_createToManyRelationship
     - builds_betaGroups_deleteToManyRelationship
     - builds_getCollection
@@ -125,6 +147,10 @@ output-options:
     - profiles_devices_getToManyRelationship
     - profiles_getCollection
     - profiles_getInstance
+    - reviewSubmissionItems_createInstance
+    - reviewSubmissions_createInstance
+    - reviewSubmissions_getCollection
+    - reviewSubmissions_updateInstance
     - userInvitations_createInstance
     - userInvitations_deleteInstance
     - userInvitations_getCollection

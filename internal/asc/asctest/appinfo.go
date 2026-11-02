@@ -74,39 +74,15 @@ func (s *Server) newAppInfo(appID string, state gen.AppInfoAttributesState) *app
 	return info
 }
 
-// ReleaseApp makes the app's editable app info the live one, as releasing a
-// version does.
-func (s *Server) ReleaseApp(appID string) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	for id, info := range s.appInfos {
-		if info.appID != appID {
-			continue
-		}
-		switch {
-		case *info.Attributes.State == gen.AppInfoAttributesStateREADYFORDISTRIBUTION:
-			delete(s.appInfos, id)
-		case info.editable():
-			info.Attributes.State = new(gen.AppInfoAttributesStateREADYFORDISTRIBUTION)
-		}
-	}
-}
-
-// PrepareVersion creates an editable app info for the app's next version,
+// prepareAppInfo creates an editable app info for the app's next version,
 // copied from the live one, as creating a version does. Its localizations
 // and age rating declaration get new IDs.
-func (s *Server) PrepareVersion(appID string) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
+func (s *Server) prepareAppInfo(appID string) {
 	var live *appInfo
 	for _, info := range s.appInfos {
-		if info.appID != appID {
-			continue
+		if info.appID == appID {
+			live = info
 		}
-		if info.editable() {
-			return
-		}
-		live = info
 	}
 	next := s.newAppInfo(appID, gen.AppInfoAttributesStatePREPAREFORSUBMISSION)
 	if live == nil {

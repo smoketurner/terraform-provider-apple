@@ -16,7 +16,7 @@ func (s *Server) AddApp(name, bundleID, sku string) string {
 	attrs.Name, attrs.BundleId, attrs.Sku, attrs.PrimaryLocale = new(name), new(bundleID), new(sku), new("en-US")
 	s.apps[a.Id] = a
 	s.addAppTestFlight(a.Id)
-	s.newAppInfo(a.Id, gen.AppInfoAttributesStatePREPAREFORSUBMISSION)
+	s.newVersion(a.Id, gen.PlatformIOS, "1.0")
 	return a.Id
 }
 

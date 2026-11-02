@@ -158,9 +158,9 @@ operations:
   appEncryptionDeclarations_app_getToOneRelated: {status: planned, issue: 5}
   appEncryptionDeclarations_app_getToOneRelationship: {status: planned, issue: 5}
   appEncryptionDeclarations_builds_createToManyRelationship: {status: planned, issue: 5}
-  appEncryptionDeclarations_createInstance: {status: planned, issue: 5}
+  appEncryptionDeclarations_createInstance: {status: covered, by: [apple_app_encryption_declaration]}
   appEncryptionDeclarations_getCollection: {status: planned, issue: 5}
-  appEncryptionDeclarations_getInstance: {status: planned, issue: 5}
+  appEncryptionDeclarations_getInstance: {status: covered, by: [apple_app_encryption_declaration]}
   appEventLocalizations_appEventScreenshots_getToManyRelated: {status: planned, issue: 11}
   appEventLocalizations_appEventScreenshots_getToManyRelationship: {status: planned, issue: 11}
   appEventLocalizations_appEventVideoClips_getToManyRelated: {status: planned, issue: 11}
@@ -246,9 +246,9 @@ operations:
   appStoreReviewAttachments_updateInstance: {status: planned, issue: 5}
   appStoreReviewDetails_appStoreReviewAttachments_getToManyRelated: {status: planned, issue: 5}
   appStoreReviewDetails_appStoreReviewAttachments_getToManyRelationship: {status: planned, issue: 5}
-  appStoreReviewDetails_createInstance: {status: planned, issue: 5}
+  appStoreReviewDetails_createInstance: {status: covered, by: [apple_app_store_review_detail]}
   appStoreReviewDetails_getInstance: {status: planned, issue: 5}
-  appStoreReviewDetails_updateInstance: {status: planned, issue: 5}
+  appStoreReviewDetails_updateInstance: {status: covered, by: [apple_app_store_review_detail]}
   appStoreVersionExperimentTreatmentLocalizations_appPreviewSets_getToManyRelated: {status: planned, issue: 14}
   appStoreVersionExperimentTreatmentLocalizations_appPreviewSets_getToManyRelationship: {status: planned, issue: 14}
   appStoreVersionExperimentTreatmentLocalizations_appScreenshotSets_getToManyRelated: {status: planned, issue: 14}
@@ -280,8 +280,8 @@ operations:
   appStoreVersionLocalizations_appPreviewSets_getToManyRelationship: {status: planned, issue: 14}
   appStoreVersionLocalizations_appScreenshotSets_getToManyRelated: {status: planned, issue: 14}
   appStoreVersionLocalizations_appScreenshotSets_getToManyRelationship: {status: planned, issue: 14}
-  appStoreVersionLocalizations_createInstance: {status: planned, issue: 5}
-  appStoreVersionLocalizations_deleteInstance: {status: planned, issue: 5}
+  appStoreVersionLocalizations_createInstance: {status: covered, by: [apple_app_store_version_localization]}
+  appStoreVersionLocalizations_deleteInstance: {status: covered, by: [apple_app_store_version_localization]}
   appStoreVersionLocalizations_getInstance: {status: planned, issue: 5}
   appStoreVersionLocalizations_placements_getToManyRelated: {status: planned, issue: 5}
   appStoreVersionLocalizations_placements_getToManyRelationship: {status: planned, issue: 5}
@@ -289,43 +289,43 @@ operations:
   appStoreVersionLocalizations_searchKeywords_deleteToManyRelationship: {status: planned, issue: 5}
   appStoreVersionLocalizations_searchKeywords_getToManyRelated: {status: planned, issue: 5}
   appStoreVersionLocalizations_searchKeywords_getToManyRelationship: {status: planned, issue: 5}
-  appStoreVersionLocalizations_updateInstance: {status: planned, issue: 5}
-  appStoreVersionPhasedReleases_createInstance: {status: planned, issue: 5}
-  appStoreVersionPhasedReleases_deleteInstance: {status: planned, issue: 5}
-  appStoreVersionPhasedReleases_updateInstance: {status: planned, issue: 5}
+  appStoreVersionLocalizations_updateInstance: {status: covered, by: [apple_app_store_version_localization]}
+  appStoreVersionPhasedReleases_createInstance: {status: covered, by: [apple_app_store_version_phased_release]}
+  appStoreVersionPhasedReleases_deleteInstance: {status: covered, by: [apple_app_store_version_phased_release]}
+  appStoreVersionPhasedReleases_updateInstance: {status: covered, by: [apple_app_store_version_phased_release]}
   appStoreVersionPromotions_createInstance: {status: planned, issue: 5}
-  appStoreVersionReleaseRequests_createInstance: {status: planned, issue: 5}
+  appStoreVersionReleaseRequests_createInstance: {status: covered, by: [action.apple_release_version]}
   appStoreVersionSubmissions_deleteInstance: {status: planned, issue: 5}
   appStoreVersions_alternativeDistributionPackage_getToOneRelated: {status: planned, issue: 15}
   appStoreVersions_alternativeDistributionPackage_getToOneRelationship: {status: planned, issue: 15}
   appStoreVersions_appClipDefaultExperience_getToOneRelated: {status: planned, issue: 12}
   appStoreVersions_appClipDefaultExperience_getToOneRelationship: {status: planned, issue: 12}
   appStoreVersions_appClipDefaultExperience_updateToOneRelationship: {status: planned, issue: 12}
-  appStoreVersions_appStoreReviewDetail_getToOneRelated: {status: planned, issue: 5}
+  appStoreVersions_appStoreReviewDetail_getToOneRelated: {status: covered, by: [apple_app_store_review_detail]}
   appStoreVersions_appStoreReviewDetail_getToOneRelationship: {status: planned, issue: 5}
   appStoreVersions_appStoreVersionExperimentsV2_getToManyRelated: {status: planned, issue: 10}
   appStoreVersions_appStoreVersionExperimentsV2_getToManyRelationship: {status: planned, issue: 10}
   appStoreVersions_appStoreVersionExperiments_getToManyRelated: {status: planned, issue: 10}
   appStoreVersions_appStoreVersionExperiments_getToManyRelationship: {status: planned, issue: 10}
-  appStoreVersions_appStoreVersionLocalizations_getToManyRelated: {status: planned, issue: 5}
+  appStoreVersions_appStoreVersionLocalizations_getToManyRelated: {status: covered, by: [apple_app_store_version_localization]}
   appStoreVersions_appStoreVersionLocalizations_getToManyRelationship: {status: planned, issue: 5}
-  appStoreVersions_appStoreVersionPhasedRelease_getToOneRelated: {status: planned, issue: 5}
+  appStoreVersions_appStoreVersionPhasedRelease_getToOneRelated: {status: covered, by: [apple_app_store_version_phased_release]}
   appStoreVersions_appStoreVersionPhasedRelease_getToOneRelationship: {status: planned, issue: 5}
   appStoreVersions_appStoreVersionSubmission_getToOneRelated: {status: planned, issue: 5}
   appStoreVersions_appStoreVersionSubmission_getToOneRelationship: {status: planned, issue: 5}
   appStoreVersions_build_getToOneRelated: {status: planned, issue: 5}
-  appStoreVersions_build_getToOneRelationship: {status: planned, issue: 5}
-  appStoreVersions_build_updateToOneRelationship: {status: planned, issue: 5}
-  appStoreVersions_createInstance: {status: planned, issue: 5}
+  appStoreVersions_build_getToOneRelationship: {status: covered, by: [apple_app_store_version]}
+  appStoreVersions_build_updateToOneRelationship: {status: covered, by: [apple_app_store_version]}
+  appStoreVersions_createInstance: {status: covered, by: [apple_app_store_version]}
   appStoreVersions_customerReviews_getToManyRelated: {status: planned, issue: 5}
   appStoreVersions_customerReviews_getToManyRelationship: {status: planned, issue: 5}
-  appStoreVersions_deleteInstance: {status: planned, issue: 5}
+  appStoreVersions_deleteInstance: {status: covered, by: [apple_app_store_version]}
   appStoreVersions_gameCenterAppVersion_getToOneRelated: {status: planned, issue: 13}
   appStoreVersions_gameCenterAppVersion_getToOneRelationship: {status: planned, issue: 13}
-  appStoreVersions_getInstance: {status: planned, issue: 5}
+  appStoreVersions_getInstance: {status: covered, by: [apple_app_store_version, action.apple_submit_for_review, action.apple_cancel_review_submission]}
   appStoreVersions_routingAppCoverage_getToOneRelated: {status: planned, issue: 5}
   appStoreVersions_routingAppCoverage_getToOneRelationship: {status: planned, issue: 5}
-  appStoreVersions_updateInstance: {status: planned, issue: 5}
+  appStoreVersions_updateInstance: {status: covered, by: [apple_app_store_version]}
   appTags_territories_getToManyRelated: {status: planned, issue: 6}
   appTags_territories_getToManyRelationship: {status: planned, issue: 6}
   appTags_updateInstance: {status: covered, by: [apple_app_tag]}
@@ -355,7 +355,7 @@ operations:
   apps_appPriceSchedule_getToOneRelationship: {status: planned, issue: 6}
   apps_appStoreVersionExperimentsV2_getToManyRelated: {status: planned, issue: 10}
   apps_appStoreVersionExperimentsV2_getToManyRelationship: {status: planned, issue: 10}
-  apps_appStoreVersions_getToManyRelated: {status: planned, issue: 5}
+  apps_appStoreVersions_getToManyRelated: {status: covered, by: [apple_app_store_version]}
   apps_appStoreVersions_getToManyRelationship: {status: planned, issue: 5}
   apps_appTags_getToManyRelated: {status: covered, by: [apple_app_tag]}
   apps_appTags_getToManyRelationship: {status: planned, issue: 5}
@@ -542,7 +542,7 @@ operations:
   buildUploads_getInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   builds_appEncryptionDeclaration_getToOneRelated: {status: planned, issue: 5}
   builds_appEncryptionDeclaration_getToOneRelationship: {status: planned, issue: 5}
-  builds_appEncryptionDeclaration_updateToOneRelationship: {status: planned, issue: 5}
+  builds_appEncryptionDeclaration_updateToOneRelationship: {status: covered, by: [action.apple_assign_encryption_declaration]}
   builds_appStoreVersion_getToOneRelated: {status: planned, issue: 5}
   builds_appStoreVersion_getToOneRelationship: {status: planned, issue: 5}
   builds_app_getToOneRelated: {status: planned, issue: 5}
@@ -1131,15 +1131,15 @@ operations:
   promotedPurchases_deleteInstance: {status: planned, issue: 7}
   promotedPurchases_getInstance: {status: planned, issue: 7}
   promotedPurchases_updateInstance: {status: planned, issue: 7}
-  reviewSubmissionItems_createInstance: {status: planned, issue: 5}
+  reviewSubmissionItems_createInstance: {status: covered, by: [action.apple_submit_for_review]}
   reviewSubmissionItems_deleteInstance: {status: planned, issue: 5}
   reviewSubmissionItems_updateInstance: {status: planned, issue: 5}
-  reviewSubmissions_createInstance: {status: planned, issue: 5}
-  reviewSubmissions_getCollection: {status: planned, issue: 5}
+  reviewSubmissions_createInstance: {status: covered, by: [action.apple_submit_for_review]}
+  reviewSubmissions_getCollection: {status: covered, by: [action.apple_submit_for_review, action.apple_cancel_review_submission]}
   reviewSubmissions_getInstance: {status: planned, issue: 5}
   reviewSubmissions_items_getToManyRelated: {status: planned, issue: 5}
   reviewSubmissions_items_getToManyRelationship: {status: planned, issue: 5}
-  reviewSubmissions_updateInstance: {status: planned, issue: 5}
+  reviewSubmissions_updateInstance: {status: covered, by: [action.apple_submit_for_review, action.apple_cancel_review_submission]}
   routingAppCoverages_createInstance: {status: planned, issue: 5}
   routingAppCoverages_deleteInstance: {status: planned, issue: 5}
   routingAppCoverages_getInstance: {status: planned, issue: 5}
