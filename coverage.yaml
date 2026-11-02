@@ -19,8 +19,8 @@ operations:
   accessibilityDeclarations_deleteInstance: {status: planned, issue: 5}
   accessibilityDeclarations_getInstance: {status: planned, issue: 5}
   accessibilityDeclarations_updateInstance: {status: planned, issue: 5}
-  actors_getCollection: {status: planned, issue: 4}
-  actors_getInstance: {status: planned, issue: 4}
+  actors_getCollection: {status: out_of_scope, reason: "actors identify who made changes recorded by other operations, which the provider does not expose"}
+  actors_getInstance: {status: out_of_scope, reason: "actors identify who made changes recorded by other operations, which the provider does not expose"}
   ageRatingDeclarations_updateInstance: {status: planned, issue: 5}
   alternativeDistributionDomains_createInstance: {status: planned, issue: 15}
   alternativeDistributionDomains_deleteInstance: {status: planned, issue: 15}
@@ -1289,21 +1289,21 @@ operations:
   subscriptions_winBackOffers_getToManyRelationship: {status: planned, issue: 7}
   territories_getCollection: {status: planned, issue: 6}
   territoryAvailabilities_updateInstance: {status: planned, issue: 6}
-  userInvitations_createInstance: {status: planned, issue: 4}
-  userInvitations_deleteInstance: {status: planned, issue: 4}
-  userInvitations_getCollection: {status: planned, issue: 4}
-  userInvitations_getInstance: {status: planned, issue: 4}
-  userInvitations_visibleApps_getToManyRelated: {status: planned, issue: 4}
-  userInvitations_visibleApps_getToManyRelationship: {status: planned, issue: 4}
-  users_deleteInstance: {status: planned, issue: 4}
-  users_getCollection: {status: planned, issue: 4}
-  users_getInstance: {status: planned, issue: 4}
-  users_updateInstance: {status: planned, issue: 4}
-  users_visibleApps_createToManyRelationship: {status: planned, issue: 4}
-  users_visibleApps_deleteToManyRelationship: {status: planned, issue: 4}
-  users_visibleApps_getToManyRelated: {status: planned, issue: 4}
-  users_visibleApps_getToManyRelationship: {status: planned, issue: 4}
-  users_visibleApps_replaceToManyRelationship: {status: planned, issue: 4}
+  userInvitations_createInstance: {status: covered, by: [apple_user]}
+  userInvitations_deleteInstance: {status: covered, by: [apple_user]}
+  userInvitations_getCollection: {status: covered, by: [apple_user, data.apple_user_invitations]}
+  userInvitations_getInstance: {status: out_of_scope, reason: "apple_user finds an invitation through userInvitations_getCollection with filter[email]"}
+  userInvitations_visibleApps_getToManyRelated: {status: out_of_scope, reason: "apple_user invites without app access; apple_user_visible_app grants apps once the invitation is accepted"}
+  userInvitations_visibleApps_getToManyRelationship: {status: out_of_scope, reason: "apple_user invites without app access; apple_user_visible_app grants apps once the invitation is accepted"}
+  users_deleteInstance: {status: covered, by: [apple_user]}
+  users_getCollection: {status: covered, by: [apple_user, apple_user_visible_app, data.apple_user, data.apple_users]}
+  users_getInstance: {status: covered, by: [apple_user_visible_app, data.apple_user]}
+  users_updateInstance: {status: covered, by: [apple_user]}
+  users_visibleApps_createToManyRelationship: {status: covered, by: [apple_user_visible_app]}
+  users_visibleApps_deleteToManyRelationship: {status: covered, by: [apple_user_visible_app]}
+  users_visibleApps_getToManyRelated: {status: out_of_scope, reason: "the getToManyRelationship operation returns the app IDs apple_user_visible_app needs"}
+  users_visibleApps_getToManyRelationship: {status: covered, by: [apple_user_visible_app]}
+  users_visibleApps_replaceToManyRelationship: {status: out_of_scope, reason: "apple_user_visible_app adds and removes one app at a time, so configurations can each grant their own apps"}
   webhookDeliveries_createInstance: {status: planned, issue: 9}
   webhookPings_createInstance: {status: planned, issue: 9}
   webhooks_createInstance: {status: planned, issue: 9}

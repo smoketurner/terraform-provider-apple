@@ -5288,6 +5288,207 @@ func (e SubscriptionStatusUrlVersion) Valid() bool {
 	}
 }
 
+// Defines values for UserRelationshipsVisibleAppsDataType.
+const (
+	UserRelationshipsVisibleAppsDataTypeApps UserRelationshipsVisibleAppsDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the UserRelationshipsVisibleAppsDataType enum.
+func (e UserRelationshipsVisibleAppsDataType) Valid() bool {
+	switch e {
+	case UserRelationshipsVisibleAppsDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserType.
+const (
+	UserTypeUsers UserType = "users"
+)
+
+// Valid indicates whether the value is a known member of the UserType enum.
+func (e UserType) Valid() bool {
+	switch e {
+	case UserTypeUsers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationRelationshipsVisibleAppsDataType.
+const (
+	UserInvitationRelationshipsVisibleAppsDataTypeApps UserInvitationRelationshipsVisibleAppsDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationRelationshipsVisibleAppsDataType enum.
+func (e UserInvitationRelationshipsVisibleAppsDataType) Valid() bool {
+	switch e {
+	case UserInvitationRelationshipsVisibleAppsDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationType.
+const (
+	UserInvitationTypeUserInvitations UserInvitationType = "userInvitations"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationType enum.
+func (e UserInvitationType) Valid() bool {
+	switch e {
+	case UserInvitationTypeUserInvitations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationCreateRequestDataRelationshipsVisibleAppsDataType.
+const (
+	UserInvitationCreateRequestDataRelationshipsVisibleAppsDataTypeApps UserInvitationCreateRequestDataRelationshipsVisibleAppsDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationCreateRequestDataRelationshipsVisibleAppsDataType enum.
+func (e UserInvitationCreateRequestDataRelationshipsVisibleAppsDataType) Valid() bool {
+	switch e {
+	case UserInvitationCreateRequestDataRelationshipsVisibleAppsDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationCreateRequestDataType.
+const (
+	UserInvitationCreateRequestDataTypeUserInvitations UserInvitationCreateRequestDataType = "userInvitations"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationCreateRequestDataType enum.
+func (e UserInvitationCreateRequestDataType) Valid() bool {
+	switch e {
+	case UserInvitationCreateRequestDataTypeUserInvitations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserRole.
+const (
+	UserRoleACCESSTOREPORTS             UserRole = "ACCESS_TO_REPORTS"
+	UserRoleACCOUNTHOLDER               UserRole = "ACCOUNT_HOLDER"
+	UserRoleADMIN                       UserRole = "ADMIN"
+	UserRoleAPPMANAGER                  UserRole = "APP_MANAGER"
+	UserRoleCLOUDMANAGEDAPPDISTRIBUTION UserRole = "CLOUD_MANAGED_APP_DISTRIBUTION"
+	UserRoleCLOUDMANAGEDDEVELOPERID     UserRole = "CLOUD_MANAGED_DEVELOPER_ID"
+	UserRoleCREATEAPPS                  UserRole = "CREATE_APPS"
+	UserRoleCUSTOMERSUPPORT             UserRole = "CUSTOMER_SUPPORT"
+	UserRoleDEVELOPER                   UserRole = "DEVELOPER"
+	UserRoleFINANCE                     UserRole = "FINANCE"
+	UserRoleGENERATEINDIVIDUALKEYS      UserRole = "GENERATE_INDIVIDUAL_KEYS"
+	UserRoleMARKETING                   UserRole = "MARKETING"
+	UserRoleSALES                       UserRole = "SALES"
+)
+
+// Valid indicates whether the value is a known member of the UserRole enum.
+func (e UserRole) Valid() bool {
+	switch e {
+	case UserRoleACCESSTOREPORTS:
+		return true
+	case UserRoleACCOUNTHOLDER:
+		return true
+	case UserRoleADMIN:
+		return true
+	case UserRoleAPPMANAGER:
+		return true
+	case UserRoleCLOUDMANAGEDAPPDISTRIBUTION:
+		return true
+	case UserRoleCLOUDMANAGEDDEVELOPERID:
+		return true
+	case UserRoleCREATEAPPS:
+		return true
+	case UserRoleCUSTOMERSUPPORT:
+		return true
+	case UserRoleDEVELOPER:
+		return true
+	case UserRoleFINANCE:
+		return true
+	case UserRoleGENERATEINDIVIDUALKEYS:
+		return true
+	case UserRoleMARKETING:
+		return true
+	case UserRoleSALES:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserUpdateRequestDataRelationshipsVisibleAppsDataType.
+const (
+	UserUpdateRequestDataRelationshipsVisibleAppsDataTypeApps UserUpdateRequestDataRelationshipsVisibleAppsDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the UserUpdateRequestDataRelationshipsVisibleAppsDataType enum.
+func (e UserUpdateRequestDataRelationshipsVisibleAppsDataType) Valid() bool {
+	switch e {
+	case UserUpdateRequestDataRelationshipsVisibleAppsDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserUpdateRequestDataType.
+const (
+	UserUpdateRequestDataTypeUsers UserUpdateRequestDataType = "users"
+)
+
+// Valid indicates whether the value is a known member of the UserUpdateRequestDataType enum.
+func (e UserUpdateRequestDataType) Valid() bool {
+	switch e {
+	case UserUpdateRequestDataTypeUsers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserVisibleAppsLinkagesRequestDataType.
+const (
+	UserVisibleAppsLinkagesRequestDataTypeApps UserVisibleAppsLinkagesRequestDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the UserVisibleAppsLinkagesRequestDataType enum.
+func (e UserVisibleAppsLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case UserVisibleAppsLinkagesRequestDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserVisibleAppsLinkagesResponseDataType.
+const (
+	UserVisibleAppsLinkagesResponseDataTypeApps UserVisibleAppsLinkagesResponseDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the UserVisibleAppsLinkagesResponseDataType enum.
+func (e UserVisibleAppsLinkagesResponseDataType) Valid() bool {
+	switch e {
+	case UserVisibleAppsLinkagesResponseDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppsGetCollectionParamsFilterAppStoreVersionsAppStoreState.
 const (
 	AppsGetCollectionParamsFilterAppStoreVersionsAppStoreStateACCEPTED                   AppsGetCollectionParamsFilterAppStoreVersionsAppStoreState = "ACCEPTED"
@@ -15218,6 +15419,852 @@ func (e ProfilesGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for UserInvitationsGetCollectionParamsFilterRoles.
+const (
+	UserInvitationsGetCollectionParamsFilterRolesACCESSTOREPORTS             UserInvitationsGetCollectionParamsFilterRoles = "ACCESS_TO_REPORTS"
+	UserInvitationsGetCollectionParamsFilterRolesACCOUNTHOLDER               UserInvitationsGetCollectionParamsFilterRoles = "ACCOUNT_HOLDER"
+	UserInvitationsGetCollectionParamsFilterRolesADMIN                       UserInvitationsGetCollectionParamsFilterRoles = "ADMIN"
+	UserInvitationsGetCollectionParamsFilterRolesAPPMANAGER                  UserInvitationsGetCollectionParamsFilterRoles = "APP_MANAGER"
+	UserInvitationsGetCollectionParamsFilterRolesCLOUDMANAGEDAPPDISTRIBUTION UserInvitationsGetCollectionParamsFilterRoles = "CLOUD_MANAGED_APP_DISTRIBUTION"
+	UserInvitationsGetCollectionParamsFilterRolesCLOUDMANAGEDDEVELOPERID     UserInvitationsGetCollectionParamsFilterRoles = "CLOUD_MANAGED_DEVELOPER_ID"
+	UserInvitationsGetCollectionParamsFilterRolesCREATEAPPS                  UserInvitationsGetCollectionParamsFilterRoles = "CREATE_APPS"
+	UserInvitationsGetCollectionParamsFilterRolesCUSTOMERSUPPORT             UserInvitationsGetCollectionParamsFilterRoles = "CUSTOMER_SUPPORT"
+	UserInvitationsGetCollectionParamsFilterRolesDEVELOPER                   UserInvitationsGetCollectionParamsFilterRoles = "DEVELOPER"
+	UserInvitationsGetCollectionParamsFilterRolesFINANCE                     UserInvitationsGetCollectionParamsFilterRoles = "FINANCE"
+	UserInvitationsGetCollectionParamsFilterRolesGENERATEINDIVIDUALKEYS      UserInvitationsGetCollectionParamsFilterRoles = "GENERATE_INDIVIDUAL_KEYS"
+	UserInvitationsGetCollectionParamsFilterRolesMARKETING                   UserInvitationsGetCollectionParamsFilterRoles = "MARKETING"
+	UserInvitationsGetCollectionParamsFilterRolesSALES                       UserInvitationsGetCollectionParamsFilterRoles = "SALES"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationsGetCollectionParamsFilterRoles enum.
+func (e UserInvitationsGetCollectionParamsFilterRoles) Valid() bool {
+	switch e {
+	case UserInvitationsGetCollectionParamsFilterRolesACCESSTOREPORTS:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesACCOUNTHOLDER:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesADMIN:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesAPPMANAGER:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesCLOUDMANAGEDAPPDISTRIBUTION:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesCLOUDMANAGEDDEVELOPERID:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesCREATEAPPS:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesCUSTOMERSUPPORT:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesDEVELOPER:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesFINANCE:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesGENERATEINDIVIDUALKEYS:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesMARKETING:
+		return true
+	case UserInvitationsGetCollectionParamsFilterRolesSALES:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationsGetCollectionParamsSort.
+const (
+	UserInvitationsGetCollectionParamsSortEmail         UserInvitationsGetCollectionParamsSort = "email"
+	UserInvitationsGetCollectionParamsSortLastName      UserInvitationsGetCollectionParamsSort = "lastName"
+	UserInvitationsGetCollectionParamsSortMinusEmail    UserInvitationsGetCollectionParamsSort = "-email"
+	UserInvitationsGetCollectionParamsSortMinusLastName UserInvitationsGetCollectionParamsSort = "-lastName"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationsGetCollectionParamsSort enum.
+func (e UserInvitationsGetCollectionParamsSort) Valid() bool {
+	switch e {
+	case UserInvitationsGetCollectionParamsSortEmail:
+		return true
+	case UserInvitationsGetCollectionParamsSortLastName:
+		return true
+	case UserInvitationsGetCollectionParamsSortMinusEmail:
+		return true
+	case UserInvitationsGetCollectionParamsSortMinusLastName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationsGetCollectionParamsFieldsUserInvitations.
+const (
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsAllAppsVisible      UserInvitationsGetCollectionParamsFieldsUserInvitations = "allAppsVisible"
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsEmail               UserInvitationsGetCollectionParamsFieldsUserInvitations = "email"
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsExpirationDate      UserInvitationsGetCollectionParamsFieldsUserInvitations = "expirationDate"
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsFirstName           UserInvitationsGetCollectionParamsFieldsUserInvitations = "firstName"
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsLastName            UserInvitationsGetCollectionParamsFieldsUserInvitations = "lastName"
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsProvisioningAllowed UserInvitationsGetCollectionParamsFieldsUserInvitations = "provisioningAllowed"
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsRoles               UserInvitationsGetCollectionParamsFieldsUserInvitations = "roles"
+	UserInvitationsGetCollectionParamsFieldsUserInvitationsVisibleApps         UserInvitationsGetCollectionParamsFieldsUserInvitations = "visibleApps"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationsGetCollectionParamsFieldsUserInvitations enum.
+func (e UserInvitationsGetCollectionParamsFieldsUserInvitations) Valid() bool {
+	switch e {
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsAllAppsVisible:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsEmail:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsExpirationDate:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsFirstName:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsLastName:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsProvisioningAllowed:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsRoles:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsUserInvitationsVisibleApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationsGetCollectionParamsFieldsApps.
+const (
+	UserInvitationsGetCollectionParamsFieldsAppsAccessibilityDeclarations              UserInvitationsGetCollectionParamsFieldsApps = "accessibilityDeclarations"
+	UserInvitationsGetCollectionParamsFieldsAppsAccessibilityUrl                       UserInvitationsGetCollectionParamsFieldsApps = "accessibilityUrl"
+	UserInvitationsGetCollectionParamsFieldsAppsAlternativeDistributionKey             UserInvitationsGetCollectionParamsFieldsApps = "alternativeDistributionKey"
+	UserInvitationsGetCollectionParamsFieldsAppsAnalyticsReportRequests                UserInvitationsGetCollectionParamsFieldsApps = "analyticsReportRequests"
+	UserInvitationsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails          UserInvitationsGetCollectionParamsFieldsApps = "androidToIosAppMappingDetails"
+	UserInvitationsGetCollectionParamsFieldsAppsAppAvailabilityV2                      UserInvitationsGetCollectionParamsFieldsApps = "appAvailabilityV2"
+	UserInvitationsGetCollectionParamsFieldsAppsAppClips                               UserInvitationsGetCollectionParamsFieldsApps = "appClips"
+	UserInvitationsGetCollectionParamsFieldsAppsAppCustomProductPages                  UserInvitationsGetCollectionParamsFieldsApps = "appCustomProductPages"
+	UserInvitationsGetCollectionParamsFieldsAppsAppEncryptionDeclarations              UserInvitationsGetCollectionParamsFieldsApps = "appEncryptionDeclarations"
+	UserInvitationsGetCollectionParamsFieldsAppsAppEvents                              UserInvitationsGetCollectionParamsFieldsApps = "appEvents"
+	UserInvitationsGetCollectionParamsFieldsAppsAppInfos                               UserInvitationsGetCollectionParamsFieldsApps = "appInfos"
+	UserInvitationsGetCollectionParamsFieldsAppsAppPricePoints                         UserInvitationsGetCollectionParamsFieldsApps = "appPricePoints"
+	UserInvitationsGetCollectionParamsFieldsAppsAppPriceSchedule                       UserInvitationsGetCollectionParamsFieldsApps = "appPriceSchedule"
+	UserInvitationsGetCollectionParamsFieldsAppsAppStoreIcon                           UserInvitationsGetCollectionParamsFieldsApps = "appStoreIcon"
+	UserInvitationsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2           UserInvitationsGetCollectionParamsFieldsApps = "appStoreVersionExperimentsV2"
+	UserInvitationsGetCollectionParamsFieldsAppsAppStoreVersions                       UserInvitationsGetCollectionParamsFieldsApps = "appStoreVersions"
+	UserInvitationsGetCollectionParamsFieldsAppsAppTags                                UserInvitationsGetCollectionParamsFieldsApps = "appTags"
+	UserInvitationsGetCollectionParamsFieldsAppsAssetLibrary                           UserInvitationsGetCollectionParamsFieldsApps = "assetLibrary"
+	UserInvitationsGetCollectionParamsFieldsAppsBackgroundAssets                       UserInvitationsGetCollectionParamsFieldsApps = "backgroundAssets"
+	UserInvitationsGetCollectionParamsFieldsAppsBetaAppLocalizations                   UserInvitationsGetCollectionParamsFieldsApps = "betaAppLocalizations"
+	UserInvitationsGetCollectionParamsFieldsAppsBetaAppReviewDetail                    UserInvitationsGetCollectionParamsFieldsApps = "betaAppReviewDetail"
+	UserInvitationsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions           UserInvitationsGetCollectionParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	UserInvitationsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions      UserInvitationsGetCollectionParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	UserInvitationsGetCollectionParamsFieldsAppsBetaGroups                             UserInvitationsGetCollectionParamsFieldsApps = "betaGroups"
+	UserInvitationsGetCollectionParamsFieldsAppsBetaLicenseAgreement                   UserInvitationsGetCollectionParamsFieldsApps = "betaLicenseAgreement"
+	UserInvitationsGetCollectionParamsFieldsAppsBetaTesters                            UserInvitationsGetCollectionParamsFieldsApps = "betaTesters"
+	UserInvitationsGetCollectionParamsFieldsAppsBuildUploads                           UserInvitationsGetCollectionParamsFieldsApps = "buildUploads"
+	UserInvitationsGetCollectionParamsFieldsAppsBuilds                                 UserInvitationsGetCollectionParamsFieldsApps = "builds"
+	UserInvitationsGetCollectionParamsFieldsAppsBundleId                               UserInvitationsGetCollectionParamsFieldsApps = "bundleId"
+	UserInvitationsGetCollectionParamsFieldsAppsCiProduct                              UserInvitationsGetCollectionParamsFieldsApps = "ciProduct"
+	UserInvitationsGetCollectionParamsFieldsAppsContentRightsDeclaration               UserInvitationsGetCollectionParamsFieldsApps = "contentRightsDeclaration"
+	UserInvitationsGetCollectionParamsFieldsAppsCustomerReviewSummarizations           UserInvitationsGetCollectionParamsFieldsApps = "customerReviewSummarizations"
+	UserInvitationsGetCollectionParamsFieldsAppsCustomerReviews                        UserInvitationsGetCollectionParamsFieldsApps = "customerReviews"
+	UserInvitationsGetCollectionParamsFieldsAppsEndUserLicenseAgreement                UserInvitationsGetCollectionParamsFieldsApps = "endUserLicenseAgreement"
+	UserInvitationsGetCollectionParamsFieldsAppsGameCenterDetail                       UserInvitationsGetCollectionParamsFieldsApps = "gameCenterDetail"
+	UserInvitationsGetCollectionParamsFieldsAppsGameCenterEnabledVersions              UserInvitationsGetCollectionParamsFieldsApps = "gameCenterEnabledVersions"
+	UserInvitationsGetCollectionParamsFieldsAppsInAppPurchases                         UserInvitationsGetCollectionParamsFieldsApps = "inAppPurchases"
+	UserInvitationsGetCollectionParamsFieldsAppsInAppPurchasesV2                       UserInvitationsGetCollectionParamsFieldsApps = "inAppPurchasesV2"
+	UserInvitationsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids                 UserInvitationsGetCollectionParamsFieldsApps = "isOrEverWasMadeForKids"
+	UserInvitationsGetCollectionParamsFieldsAppsMarketplaceSearchDetail                UserInvitationsGetCollectionParamsFieldsApps = "marketplaceSearchDetail"
+	UserInvitationsGetCollectionParamsFieldsAppsName                                   UserInvitationsGetCollectionParamsFieldsApps = "name"
+	UserInvitationsGetCollectionParamsFieldsAppsPerfPowerMetrics                       UserInvitationsGetCollectionParamsFieldsApps = "perfPowerMetrics"
+	UserInvitationsGetCollectionParamsFieldsAppsPerformanceOverviews                   UserInvitationsGetCollectionParamsFieldsApps = "performanceOverviews"
+	UserInvitationsGetCollectionParamsFieldsAppsPreReleaseVersions                     UserInvitationsGetCollectionParamsFieldsApps = "preReleaseVersions"
+	UserInvitationsGetCollectionParamsFieldsAppsPrimaryLocale                          UserInvitationsGetCollectionParamsFieldsApps = "primaryLocale"
+	UserInvitationsGetCollectionParamsFieldsAppsPromotedPurchases                      UserInvitationsGetCollectionParamsFieldsApps = "promotedPurchases"
+	UserInvitationsGetCollectionParamsFieldsAppsReviewSubmissions                      UserInvitationsGetCollectionParamsFieldsApps = "reviewSubmissions"
+	UserInvitationsGetCollectionParamsFieldsAppsSearchKeywords                         UserInvitationsGetCollectionParamsFieldsApps = "searchKeywords"
+	UserInvitationsGetCollectionParamsFieldsAppsSku                                    UserInvitationsGetCollectionParamsFieldsApps = "sku"
+	UserInvitationsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled           UserInvitationsGetCollectionParamsFieldsApps = "streamlinedPurchasingEnabled"
+	UserInvitationsGetCollectionParamsFieldsAppsSubscriptionGracePeriod                UserInvitationsGetCollectionParamsFieldsApps = "subscriptionGracePeriod"
+	UserInvitationsGetCollectionParamsFieldsAppsSubscriptionGroups                     UserInvitationsGetCollectionParamsFieldsApps = "subscriptionGroups"
+	UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrl                  UserInvitationsGetCollectionParamsFieldsApps = "subscriptionStatusUrl"
+	UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox        UserInvitationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion           UserInvitationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersion"
+	UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox UserInvitationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	UserInvitationsGetCollectionParamsFieldsAppsWebhooks                               UserInvitationsGetCollectionParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationsGetCollectionParamsFieldsApps enum.
+func (e UserInvitationsGetCollectionParamsFieldsApps) Valid() bool {
+	switch e {
+	case UserInvitationsGetCollectionParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAccessibilityUrl:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppClips:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppCustomProductPages:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppEvents:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppInfos:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppPricePoints:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppPriceSchedule:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppStoreIcon:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppStoreVersions:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAppTags:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsAssetLibrary:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBackgroundAssets:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBetaGroups:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBetaTesters:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBuildUploads:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBuilds:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsBundleId:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsCiProduct:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsCustomerReviews:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsGameCenterDetail:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsInAppPurchases:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsName:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsPerformanceOverviews:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsPreReleaseVersions:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsPrimaryLocale:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsReviewSubmissions:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSearchKeywords:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSku:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSubscriptionGroups:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UserInvitationsGetCollectionParamsInclude.
+const (
+	UserInvitationsGetCollectionParamsIncludeVisibleApps UserInvitationsGetCollectionParamsInclude = "visibleApps"
+)
+
+// Valid indicates whether the value is a known member of the UserInvitationsGetCollectionParamsInclude enum.
+func (e UserInvitationsGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case UserInvitationsGetCollectionParamsIncludeVisibleApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetCollectionParamsFilterRoles.
+const (
+	UsersGetCollectionParamsFilterRolesACCESSTOREPORTS             UsersGetCollectionParamsFilterRoles = "ACCESS_TO_REPORTS"
+	UsersGetCollectionParamsFilterRolesACCOUNTHOLDER               UsersGetCollectionParamsFilterRoles = "ACCOUNT_HOLDER"
+	UsersGetCollectionParamsFilterRolesADMIN                       UsersGetCollectionParamsFilterRoles = "ADMIN"
+	UsersGetCollectionParamsFilterRolesAPPMANAGER                  UsersGetCollectionParamsFilterRoles = "APP_MANAGER"
+	UsersGetCollectionParamsFilterRolesCLOUDMANAGEDAPPDISTRIBUTION UsersGetCollectionParamsFilterRoles = "CLOUD_MANAGED_APP_DISTRIBUTION"
+	UsersGetCollectionParamsFilterRolesCLOUDMANAGEDDEVELOPERID     UsersGetCollectionParamsFilterRoles = "CLOUD_MANAGED_DEVELOPER_ID"
+	UsersGetCollectionParamsFilterRolesCREATEAPPS                  UsersGetCollectionParamsFilterRoles = "CREATE_APPS"
+	UsersGetCollectionParamsFilterRolesCUSTOMERSUPPORT             UsersGetCollectionParamsFilterRoles = "CUSTOMER_SUPPORT"
+	UsersGetCollectionParamsFilterRolesDEVELOPER                   UsersGetCollectionParamsFilterRoles = "DEVELOPER"
+	UsersGetCollectionParamsFilterRolesFINANCE                     UsersGetCollectionParamsFilterRoles = "FINANCE"
+	UsersGetCollectionParamsFilterRolesGENERATEINDIVIDUALKEYS      UsersGetCollectionParamsFilterRoles = "GENERATE_INDIVIDUAL_KEYS"
+	UsersGetCollectionParamsFilterRolesMARKETING                   UsersGetCollectionParamsFilterRoles = "MARKETING"
+	UsersGetCollectionParamsFilterRolesSALES                       UsersGetCollectionParamsFilterRoles = "SALES"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetCollectionParamsFilterRoles enum.
+func (e UsersGetCollectionParamsFilterRoles) Valid() bool {
+	switch e {
+	case UsersGetCollectionParamsFilterRolesACCESSTOREPORTS:
+		return true
+	case UsersGetCollectionParamsFilterRolesACCOUNTHOLDER:
+		return true
+	case UsersGetCollectionParamsFilterRolesADMIN:
+		return true
+	case UsersGetCollectionParamsFilterRolesAPPMANAGER:
+		return true
+	case UsersGetCollectionParamsFilterRolesCLOUDMANAGEDAPPDISTRIBUTION:
+		return true
+	case UsersGetCollectionParamsFilterRolesCLOUDMANAGEDDEVELOPERID:
+		return true
+	case UsersGetCollectionParamsFilterRolesCREATEAPPS:
+		return true
+	case UsersGetCollectionParamsFilterRolesCUSTOMERSUPPORT:
+		return true
+	case UsersGetCollectionParamsFilterRolesDEVELOPER:
+		return true
+	case UsersGetCollectionParamsFilterRolesFINANCE:
+		return true
+	case UsersGetCollectionParamsFilterRolesGENERATEINDIVIDUALKEYS:
+		return true
+	case UsersGetCollectionParamsFilterRolesMARKETING:
+		return true
+	case UsersGetCollectionParamsFilterRolesSALES:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetCollectionParamsSort.
+const (
+	UsersGetCollectionParamsSortLastName      UsersGetCollectionParamsSort = "lastName"
+	UsersGetCollectionParamsSortMinusLastName UsersGetCollectionParamsSort = "-lastName"
+	UsersGetCollectionParamsSortMinusUsername UsersGetCollectionParamsSort = "-username"
+	UsersGetCollectionParamsSortUsername      UsersGetCollectionParamsSort = "username"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetCollectionParamsSort enum.
+func (e UsersGetCollectionParamsSort) Valid() bool {
+	switch e {
+	case UsersGetCollectionParamsSortLastName:
+		return true
+	case UsersGetCollectionParamsSortMinusLastName:
+		return true
+	case UsersGetCollectionParamsSortMinusUsername:
+		return true
+	case UsersGetCollectionParamsSortUsername:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetCollectionParamsFieldsUsers.
+const (
+	UsersGetCollectionParamsFieldsUsersAllAppsVisible      UsersGetCollectionParamsFieldsUsers = "allAppsVisible"
+	UsersGetCollectionParamsFieldsUsersFirstName           UsersGetCollectionParamsFieldsUsers = "firstName"
+	UsersGetCollectionParamsFieldsUsersLastName            UsersGetCollectionParamsFieldsUsers = "lastName"
+	UsersGetCollectionParamsFieldsUsersProvisioningAllowed UsersGetCollectionParamsFieldsUsers = "provisioningAllowed"
+	UsersGetCollectionParamsFieldsUsersRoles               UsersGetCollectionParamsFieldsUsers = "roles"
+	UsersGetCollectionParamsFieldsUsersUsername            UsersGetCollectionParamsFieldsUsers = "username"
+	UsersGetCollectionParamsFieldsUsersVisibleApps         UsersGetCollectionParamsFieldsUsers = "visibleApps"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetCollectionParamsFieldsUsers enum.
+func (e UsersGetCollectionParamsFieldsUsers) Valid() bool {
+	switch e {
+	case UsersGetCollectionParamsFieldsUsersAllAppsVisible:
+		return true
+	case UsersGetCollectionParamsFieldsUsersFirstName:
+		return true
+	case UsersGetCollectionParamsFieldsUsersLastName:
+		return true
+	case UsersGetCollectionParamsFieldsUsersProvisioningAllowed:
+		return true
+	case UsersGetCollectionParamsFieldsUsersRoles:
+		return true
+	case UsersGetCollectionParamsFieldsUsersUsername:
+		return true
+	case UsersGetCollectionParamsFieldsUsersVisibleApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetCollectionParamsFieldsApps.
+const (
+	UsersGetCollectionParamsFieldsAppsAccessibilityDeclarations              UsersGetCollectionParamsFieldsApps = "accessibilityDeclarations"
+	UsersGetCollectionParamsFieldsAppsAccessibilityUrl                       UsersGetCollectionParamsFieldsApps = "accessibilityUrl"
+	UsersGetCollectionParamsFieldsAppsAlternativeDistributionKey             UsersGetCollectionParamsFieldsApps = "alternativeDistributionKey"
+	UsersGetCollectionParamsFieldsAppsAnalyticsReportRequests                UsersGetCollectionParamsFieldsApps = "analyticsReportRequests"
+	UsersGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails          UsersGetCollectionParamsFieldsApps = "androidToIosAppMappingDetails"
+	UsersGetCollectionParamsFieldsAppsAppAvailabilityV2                      UsersGetCollectionParamsFieldsApps = "appAvailabilityV2"
+	UsersGetCollectionParamsFieldsAppsAppClips                               UsersGetCollectionParamsFieldsApps = "appClips"
+	UsersGetCollectionParamsFieldsAppsAppCustomProductPages                  UsersGetCollectionParamsFieldsApps = "appCustomProductPages"
+	UsersGetCollectionParamsFieldsAppsAppEncryptionDeclarations              UsersGetCollectionParamsFieldsApps = "appEncryptionDeclarations"
+	UsersGetCollectionParamsFieldsAppsAppEvents                              UsersGetCollectionParamsFieldsApps = "appEvents"
+	UsersGetCollectionParamsFieldsAppsAppInfos                               UsersGetCollectionParamsFieldsApps = "appInfos"
+	UsersGetCollectionParamsFieldsAppsAppPricePoints                         UsersGetCollectionParamsFieldsApps = "appPricePoints"
+	UsersGetCollectionParamsFieldsAppsAppPriceSchedule                       UsersGetCollectionParamsFieldsApps = "appPriceSchedule"
+	UsersGetCollectionParamsFieldsAppsAppStoreIcon                           UsersGetCollectionParamsFieldsApps = "appStoreIcon"
+	UsersGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2           UsersGetCollectionParamsFieldsApps = "appStoreVersionExperimentsV2"
+	UsersGetCollectionParamsFieldsAppsAppStoreVersions                       UsersGetCollectionParamsFieldsApps = "appStoreVersions"
+	UsersGetCollectionParamsFieldsAppsAppTags                                UsersGetCollectionParamsFieldsApps = "appTags"
+	UsersGetCollectionParamsFieldsAppsAssetLibrary                           UsersGetCollectionParamsFieldsApps = "assetLibrary"
+	UsersGetCollectionParamsFieldsAppsBackgroundAssets                       UsersGetCollectionParamsFieldsApps = "backgroundAssets"
+	UsersGetCollectionParamsFieldsAppsBetaAppLocalizations                   UsersGetCollectionParamsFieldsApps = "betaAppLocalizations"
+	UsersGetCollectionParamsFieldsAppsBetaAppReviewDetail                    UsersGetCollectionParamsFieldsApps = "betaAppReviewDetail"
+	UsersGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions           UsersGetCollectionParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	UsersGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions      UsersGetCollectionParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	UsersGetCollectionParamsFieldsAppsBetaGroups                             UsersGetCollectionParamsFieldsApps = "betaGroups"
+	UsersGetCollectionParamsFieldsAppsBetaLicenseAgreement                   UsersGetCollectionParamsFieldsApps = "betaLicenseAgreement"
+	UsersGetCollectionParamsFieldsAppsBetaTesters                            UsersGetCollectionParamsFieldsApps = "betaTesters"
+	UsersGetCollectionParamsFieldsAppsBuildUploads                           UsersGetCollectionParamsFieldsApps = "buildUploads"
+	UsersGetCollectionParamsFieldsAppsBuilds                                 UsersGetCollectionParamsFieldsApps = "builds"
+	UsersGetCollectionParamsFieldsAppsBundleId                               UsersGetCollectionParamsFieldsApps = "bundleId"
+	UsersGetCollectionParamsFieldsAppsCiProduct                              UsersGetCollectionParamsFieldsApps = "ciProduct"
+	UsersGetCollectionParamsFieldsAppsContentRightsDeclaration               UsersGetCollectionParamsFieldsApps = "contentRightsDeclaration"
+	UsersGetCollectionParamsFieldsAppsCustomerReviewSummarizations           UsersGetCollectionParamsFieldsApps = "customerReviewSummarizations"
+	UsersGetCollectionParamsFieldsAppsCustomerReviews                        UsersGetCollectionParamsFieldsApps = "customerReviews"
+	UsersGetCollectionParamsFieldsAppsEndUserLicenseAgreement                UsersGetCollectionParamsFieldsApps = "endUserLicenseAgreement"
+	UsersGetCollectionParamsFieldsAppsGameCenterDetail                       UsersGetCollectionParamsFieldsApps = "gameCenterDetail"
+	UsersGetCollectionParamsFieldsAppsGameCenterEnabledVersions              UsersGetCollectionParamsFieldsApps = "gameCenterEnabledVersions"
+	UsersGetCollectionParamsFieldsAppsInAppPurchases                         UsersGetCollectionParamsFieldsApps = "inAppPurchases"
+	UsersGetCollectionParamsFieldsAppsInAppPurchasesV2                       UsersGetCollectionParamsFieldsApps = "inAppPurchasesV2"
+	UsersGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids                 UsersGetCollectionParamsFieldsApps = "isOrEverWasMadeForKids"
+	UsersGetCollectionParamsFieldsAppsMarketplaceSearchDetail                UsersGetCollectionParamsFieldsApps = "marketplaceSearchDetail"
+	UsersGetCollectionParamsFieldsAppsName                                   UsersGetCollectionParamsFieldsApps = "name"
+	UsersGetCollectionParamsFieldsAppsPerfPowerMetrics                       UsersGetCollectionParamsFieldsApps = "perfPowerMetrics"
+	UsersGetCollectionParamsFieldsAppsPerformanceOverviews                   UsersGetCollectionParamsFieldsApps = "performanceOverviews"
+	UsersGetCollectionParamsFieldsAppsPreReleaseVersions                     UsersGetCollectionParamsFieldsApps = "preReleaseVersions"
+	UsersGetCollectionParamsFieldsAppsPrimaryLocale                          UsersGetCollectionParamsFieldsApps = "primaryLocale"
+	UsersGetCollectionParamsFieldsAppsPromotedPurchases                      UsersGetCollectionParamsFieldsApps = "promotedPurchases"
+	UsersGetCollectionParamsFieldsAppsReviewSubmissions                      UsersGetCollectionParamsFieldsApps = "reviewSubmissions"
+	UsersGetCollectionParamsFieldsAppsSearchKeywords                         UsersGetCollectionParamsFieldsApps = "searchKeywords"
+	UsersGetCollectionParamsFieldsAppsSku                                    UsersGetCollectionParamsFieldsApps = "sku"
+	UsersGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled           UsersGetCollectionParamsFieldsApps = "streamlinedPurchasingEnabled"
+	UsersGetCollectionParamsFieldsAppsSubscriptionGracePeriod                UsersGetCollectionParamsFieldsApps = "subscriptionGracePeriod"
+	UsersGetCollectionParamsFieldsAppsSubscriptionGroups                     UsersGetCollectionParamsFieldsApps = "subscriptionGroups"
+	UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrl                  UsersGetCollectionParamsFieldsApps = "subscriptionStatusUrl"
+	UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox        UsersGetCollectionParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion           UsersGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersion"
+	UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox UsersGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	UsersGetCollectionParamsFieldsAppsWebhooks                               UsersGetCollectionParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetCollectionParamsFieldsApps enum.
+func (e UsersGetCollectionParamsFieldsApps) Valid() bool {
+	switch e {
+	case UsersGetCollectionParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAccessibilityUrl:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppClips:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppCustomProductPages:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppEvents:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppInfos:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppPricePoints:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppPriceSchedule:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppStoreIcon:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppStoreVersions:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAppTags:
+		return true
+	case UsersGetCollectionParamsFieldsAppsAssetLibrary:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBackgroundAssets:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBetaGroups:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBetaTesters:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBuildUploads:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBuilds:
+		return true
+	case UsersGetCollectionParamsFieldsAppsBundleId:
+		return true
+	case UsersGetCollectionParamsFieldsAppsCiProduct:
+		return true
+	case UsersGetCollectionParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case UsersGetCollectionParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case UsersGetCollectionParamsFieldsAppsCustomerReviews:
+		return true
+	case UsersGetCollectionParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case UsersGetCollectionParamsFieldsAppsGameCenterDetail:
+		return true
+	case UsersGetCollectionParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case UsersGetCollectionParamsFieldsAppsInAppPurchases:
+		return true
+	case UsersGetCollectionParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case UsersGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case UsersGetCollectionParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case UsersGetCollectionParamsFieldsAppsName:
+		return true
+	case UsersGetCollectionParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case UsersGetCollectionParamsFieldsAppsPerformanceOverviews:
+		return true
+	case UsersGetCollectionParamsFieldsAppsPreReleaseVersions:
+		return true
+	case UsersGetCollectionParamsFieldsAppsPrimaryLocale:
+		return true
+	case UsersGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case UsersGetCollectionParamsFieldsAppsReviewSubmissions:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSearchKeywords:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSku:
+		return true
+	case UsersGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSubscriptionGroups:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case UsersGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case UsersGetCollectionParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetCollectionParamsInclude.
+const (
+	UsersGetCollectionParamsIncludeVisibleApps UsersGetCollectionParamsInclude = "visibleApps"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetCollectionParamsInclude enum.
+func (e UsersGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case UsersGetCollectionParamsIncludeVisibleApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetInstanceParamsFieldsUsers.
+const (
+	UsersGetInstanceParamsFieldsUsersAllAppsVisible      UsersGetInstanceParamsFieldsUsers = "allAppsVisible"
+	UsersGetInstanceParamsFieldsUsersFirstName           UsersGetInstanceParamsFieldsUsers = "firstName"
+	UsersGetInstanceParamsFieldsUsersLastName            UsersGetInstanceParamsFieldsUsers = "lastName"
+	UsersGetInstanceParamsFieldsUsersProvisioningAllowed UsersGetInstanceParamsFieldsUsers = "provisioningAllowed"
+	UsersGetInstanceParamsFieldsUsersRoles               UsersGetInstanceParamsFieldsUsers = "roles"
+	UsersGetInstanceParamsFieldsUsersUsername            UsersGetInstanceParamsFieldsUsers = "username"
+	UsersGetInstanceParamsFieldsUsersVisibleApps         UsersGetInstanceParamsFieldsUsers = "visibleApps"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetInstanceParamsFieldsUsers enum.
+func (e UsersGetInstanceParamsFieldsUsers) Valid() bool {
+	switch e {
+	case UsersGetInstanceParamsFieldsUsersAllAppsVisible:
+		return true
+	case UsersGetInstanceParamsFieldsUsersFirstName:
+		return true
+	case UsersGetInstanceParamsFieldsUsersLastName:
+		return true
+	case UsersGetInstanceParamsFieldsUsersProvisioningAllowed:
+		return true
+	case UsersGetInstanceParamsFieldsUsersRoles:
+		return true
+	case UsersGetInstanceParamsFieldsUsersUsername:
+		return true
+	case UsersGetInstanceParamsFieldsUsersVisibleApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetInstanceParamsFieldsApps.
+const (
+	UsersGetInstanceParamsFieldsAppsAccessibilityDeclarations              UsersGetInstanceParamsFieldsApps = "accessibilityDeclarations"
+	UsersGetInstanceParamsFieldsAppsAccessibilityUrl                       UsersGetInstanceParamsFieldsApps = "accessibilityUrl"
+	UsersGetInstanceParamsFieldsAppsAlternativeDistributionKey             UsersGetInstanceParamsFieldsApps = "alternativeDistributionKey"
+	UsersGetInstanceParamsFieldsAppsAnalyticsReportRequests                UsersGetInstanceParamsFieldsApps = "analyticsReportRequests"
+	UsersGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          UsersGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
+	UsersGetInstanceParamsFieldsAppsAppAvailabilityV2                      UsersGetInstanceParamsFieldsApps = "appAvailabilityV2"
+	UsersGetInstanceParamsFieldsAppsAppClips                               UsersGetInstanceParamsFieldsApps = "appClips"
+	UsersGetInstanceParamsFieldsAppsAppCustomProductPages                  UsersGetInstanceParamsFieldsApps = "appCustomProductPages"
+	UsersGetInstanceParamsFieldsAppsAppEncryptionDeclarations              UsersGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
+	UsersGetInstanceParamsFieldsAppsAppEvents                              UsersGetInstanceParamsFieldsApps = "appEvents"
+	UsersGetInstanceParamsFieldsAppsAppInfos                               UsersGetInstanceParamsFieldsApps = "appInfos"
+	UsersGetInstanceParamsFieldsAppsAppPricePoints                         UsersGetInstanceParamsFieldsApps = "appPricePoints"
+	UsersGetInstanceParamsFieldsAppsAppPriceSchedule                       UsersGetInstanceParamsFieldsApps = "appPriceSchedule"
+	UsersGetInstanceParamsFieldsAppsAppStoreIcon                           UsersGetInstanceParamsFieldsApps = "appStoreIcon"
+	UsersGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           UsersGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
+	UsersGetInstanceParamsFieldsAppsAppStoreVersions                       UsersGetInstanceParamsFieldsApps = "appStoreVersions"
+	UsersGetInstanceParamsFieldsAppsAppTags                                UsersGetInstanceParamsFieldsApps = "appTags"
+	UsersGetInstanceParamsFieldsAppsAssetLibrary                           UsersGetInstanceParamsFieldsApps = "assetLibrary"
+	UsersGetInstanceParamsFieldsAppsBackgroundAssets                       UsersGetInstanceParamsFieldsApps = "backgroundAssets"
+	UsersGetInstanceParamsFieldsAppsBetaAppLocalizations                   UsersGetInstanceParamsFieldsApps = "betaAppLocalizations"
+	UsersGetInstanceParamsFieldsAppsBetaAppReviewDetail                    UsersGetInstanceParamsFieldsApps = "betaAppReviewDetail"
+	UsersGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           UsersGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	UsersGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      UsersGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	UsersGetInstanceParamsFieldsAppsBetaGroups                             UsersGetInstanceParamsFieldsApps = "betaGroups"
+	UsersGetInstanceParamsFieldsAppsBetaLicenseAgreement                   UsersGetInstanceParamsFieldsApps = "betaLicenseAgreement"
+	UsersGetInstanceParamsFieldsAppsBetaTesters                            UsersGetInstanceParamsFieldsApps = "betaTesters"
+	UsersGetInstanceParamsFieldsAppsBuildUploads                           UsersGetInstanceParamsFieldsApps = "buildUploads"
+	UsersGetInstanceParamsFieldsAppsBuilds                                 UsersGetInstanceParamsFieldsApps = "builds"
+	UsersGetInstanceParamsFieldsAppsBundleId                               UsersGetInstanceParamsFieldsApps = "bundleId"
+	UsersGetInstanceParamsFieldsAppsCiProduct                              UsersGetInstanceParamsFieldsApps = "ciProduct"
+	UsersGetInstanceParamsFieldsAppsContentRightsDeclaration               UsersGetInstanceParamsFieldsApps = "contentRightsDeclaration"
+	UsersGetInstanceParamsFieldsAppsCustomerReviewSummarizations           UsersGetInstanceParamsFieldsApps = "customerReviewSummarizations"
+	UsersGetInstanceParamsFieldsAppsCustomerReviews                        UsersGetInstanceParamsFieldsApps = "customerReviews"
+	UsersGetInstanceParamsFieldsAppsEndUserLicenseAgreement                UsersGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
+	UsersGetInstanceParamsFieldsAppsGameCenterDetail                       UsersGetInstanceParamsFieldsApps = "gameCenterDetail"
+	UsersGetInstanceParamsFieldsAppsGameCenterEnabledVersions              UsersGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
+	UsersGetInstanceParamsFieldsAppsInAppPurchases                         UsersGetInstanceParamsFieldsApps = "inAppPurchases"
+	UsersGetInstanceParamsFieldsAppsInAppPurchasesV2                       UsersGetInstanceParamsFieldsApps = "inAppPurchasesV2"
+	UsersGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 UsersGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
+	UsersGetInstanceParamsFieldsAppsMarketplaceSearchDetail                UsersGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
+	UsersGetInstanceParamsFieldsAppsName                                   UsersGetInstanceParamsFieldsApps = "name"
+	UsersGetInstanceParamsFieldsAppsPerfPowerMetrics                       UsersGetInstanceParamsFieldsApps = "perfPowerMetrics"
+	UsersGetInstanceParamsFieldsAppsPerformanceOverviews                   UsersGetInstanceParamsFieldsApps = "performanceOverviews"
+	UsersGetInstanceParamsFieldsAppsPreReleaseVersions                     UsersGetInstanceParamsFieldsApps = "preReleaseVersions"
+	UsersGetInstanceParamsFieldsAppsPrimaryLocale                          UsersGetInstanceParamsFieldsApps = "primaryLocale"
+	UsersGetInstanceParamsFieldsAppsPromotedPurchases                      UsersGetInstanceParamsFieldsApps = "promotedPurchases"
+	UsersGetInstanceParamsFieldsAppsReviewSubmissions                      UsersGetInstanceParamsFieldsApps = "reviewSubmissions"
+	UsersGetInstanceParamsFieldsAppsSearchKeywords                         UsersGetInstanceParamsFieldsApps = "searchKeywords"
+	UsersGetInstanceParamsFieldsAppsSku                                    UsersGetInstanceParamsFieldsApps = "sku"
+	UsersGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           UsersGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
+	UsersGetInstanceParamsFieldsAppsSubscriptionGracePeriod                UsersGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
+	UsersGetInstanceParamsFieldsAppsSubscriptionGroups                     UsersGetInstanceParamsFieldsApps = "subscriptionGroups"
+	UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  UsersGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
+	UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        UsersGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           UsersGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
+	UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox UsersGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	UsersGetInstanceParamsFieldsAppsWebhooks                               UsersGetInstanceParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetInstanceParamsFieldsApps enum.
+func (e UsersGetInstanceParamsFieldsApps) Valid() bool {
+	switch e {
+	case UsersGetInstanceParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAccessibilityUrl:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppClips:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppCustomProductPages:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppEvents:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppInfos:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppPricePoints:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppPriceSchedule:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppStoreIcon:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppStoreVersions:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAppTags:
+		return true
+	case UsersGetInstanceParamsFieldsAppsAssetLibrary:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBackgroundAssets:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBetaGroups:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBetaTesters:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBuildUploads:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBuilds:
+		return true
+	case UsersGetInstanceParamsFieldsAppsBundleId:
+		return true
+	case UsersGetInstanceParamsFieldsAppsCiProduct:
+		return true
+	case UsersGetInstanceParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case UsersGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case UsersGetInstanceParamsFieldsAppsCustomerReviews:
+		return true
+	case UsersGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case UsersGetInstanceParamsFieldsAppsGameCenterDetail:
+		return true
+	case UsersGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case UsersGetInstanceParamsFieldsAppsInAppPurchases:
+		return true
+	case UsersGetInstanceParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case UsersGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case UsersGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case UsersGetInstanceParamsFieldsAppsName:
+		return true
+	case UsersGetInstanceParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case UsersGetInstanceParamsFieldsAppsPerformanceOverviews:
+		return true
+	case UsersGetInstanceParamsFieldsAppsPreReleaseVersions:
+		return true
+	case UsersGetInstanceParamsFieldsAppsPrimaryLocale:
+		return true
+	case UsersGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case UsersGetInstanceParamsFieldsAppsReviewSubmissions:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSearchKeywords:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSku:
+		return true
+	case UsersGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSubscriptionGroups:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case UsersGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case UsersGetInstanceParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for UsersGetInstanceParamsInclude.
+const (
+	UsersGetInstanceParamsIncludeVisibleApps UsersGetInstanceParamsInclude = "visibleApps"
+)
+
+// Valid indicates whether the value is a known member of the UsersGetInstanceParamsInclude enum.
+func (e UsersGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case UsersGetInstanceParamsIncludeVisibleApps:
+		return true
+	default:
+		return false
+	}
+}
+
 // AndroidToIosAppMappingDetail defines model for AndroidToIosAppMappingDetail.
 type AndroidToIosAppMappingDetail struct {
 	Attributes *struct {
@@ -18955,6 +20002,182 @@ type SubscriptionGroupType string
 // SubscriptionStatusUrlVersion defines model for SubscriptionStatusUrlVersion.
 type SubscriptionStatusUrlVersion string
 
+// User defines model for User.
+type User struct {
+	Attributes *struct {
+		AllAppsVisible      *bool       `json:"allAppsVisible,omitempty"`
+		FirstName           *string     `json:"firstName,omitempty"`
+		LastName            *string     `json:"lastName,omitempty"`
+		ProvisioningAllowed *bool       `json:"provisioningAllowed,omitempty"`
+		Roles               *[]UserRole `json:"roles,omitempty"`
+		Username            *string     `json:"username,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		VisibleApps *struct {
+			Data *[]struct {
+				Id   string                               `json:"id"`
+				Type UserRelationshipsVisibleAppsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"visibleApps,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type UserType `json:"type"`
+}
+
+// UserRelationshipsVisibleAppsDataType defines model for User.Relationships.VisibleApps.Data.Type.
+type UserRelationshipsVisibleAppsDataType string
+
+// UserType defines model for User.Type.
+type UserType string
+
+// UserInvitation defines model for UserInvitation.
+type UserInvitation struct {
+	Attributes *struct {
+		AllAppsVisible      *bool                `json:"allAppsVisible,omitempty"`
+		Email               *openapi_types.Email `json:"email,omitempty"`
+		ExpirationDate      *DateTime            `json:"expirationDate,omitempty"`
+		FirstName           *string              `json:"firstName,omitempty"`
+		LastName            *string              `json:"lastName,omitempty"`
+		ProvisioningAllowed *bool                `json:"provisioningAllowed,omitempty"`
+		Roles               *[]UserRole          `json:"roles,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		VisibleApps *struct {
+			Data *[]struct {
+				Id   string                                         `json:"id"`
+				Type UserInvitationRelationshipsVisibleAppsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"visibleApps,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type UserInvitationType `json:"type"`
+}
+
+// UserInvitationRelationshipsVisibleAppsDataType defines model for UserInvitation.Relationships.VisibleApps.Data.Type.
+type UserInvitationRelationshipsVisibleAppsDataType string
+
+// UserInvitationType defines model for UserInvitation.Type.
+type UserInvitationType string
+
+// UserInvitationCreateRequest defines model for UserInvitationCreateRequest.
+type UserInvitationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AllAppsVisible      *bool               `json:"allAppsVisible,omitempty"`
+			Email               openapi_types.Email `json:"email"`
+			FirstName           string              `json:"firstName"`
+			LastName            string              `json:"lastName"`
+			ProvisioningAllowed *bool               `json:"provisioningAllowed,omitempty"`
+			Roles               []UserRole          `json:"roles"`
+		} `json:"attributes"`
+		Relationships *struct {
+			VisibleApps *struct {
+				Data *[]struct {
+					Id   string                                                          `json:"id"`
+					Type UserInvitationCreateRequestDataRelationshipsVisibleAppsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"visibleApps,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type UserInvitationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// UserInvitationCreateRequestDataRelationshipsVisibleAppsDataType defines model for UserInvitationCreateRequest.Data.Relationships.VisibleApps.Data.Type.
+type UserInvitationCreateRequestDataRelationshipsVisibleAppsDataType string
+
+// UserInvitationCreateRequestDataType defines model for UserInvitationCreateRequest.Data.Type.
+type UserInvitationCreateRequestDataType string
+
+// UserInvitationResponse defines model for UserInvitationResponse.
+type UserInvitationResponse struct {
+	Data     UserInvitation `json:"data"`
+	Included *[]App         `json:"included,omitempty"`
+	Links    DocumentLinks  `json:"links"`
+}
+
+// UserInvitationsResponse defines model for UserInvitationsResponse.
+type UserInvitationsResponse struct {
+	Data     []UserInvitation   `json:"data"`
+	Included *[]App             `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
+// UserResponse defines model for UserResponse.
+type UserResponse struct {
+	Data     User          `json:"data"`
+	Included *[]App        `json:"included,omitempty"`
+	Links    DocumentLinks `json:"links"`
+}
+
+// UserRole defines model for UserRole.
+type UserRole string
+
+// UserUpdateRequest defines model for UserUpdateRequest.
+type UserUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			AllAppsVisible      *bool       `json:"allAppsVisible,omitempty"`
+			ProvisioningAllowed *bool       `json:"provisioningAllowed,omitempty"`
+			Roles               *[]UserRole `json:"roles,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			VisibleApps *struct {
+				Data *[]struct {
+					Id   string                                                `json:"id"`
+					Type UserUpdateRequestDataRelationshipsVisibleAppsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"visibleApps,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type UserUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// UserUpdateRequestDataRelationshipsVisibleAppsDataType defines model for UserUpdateRequest.Data.Relationships.VisibleApps.Data.Type.
+type UserUpdateRequestDataRelationshipsVisibleAppsDataType string
+
+// UserUpdateRequestDataType defines model for UserUpdateRequest.Data.Type.
+type UserUpdateRequestDataType string
+
+// UserVisibleAppsLinkagesRequest defines model for UserVisibleAppsLinkagesRequest.
+type UserVisibleAppsLinkagesRequest struct {
+	Data []struct {
+		Id   string                                 `json:"id"`
+		Type UserVisibleAppsLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// UserVisibleAppsLinkagesRequestDataType defines model for UserVisibleAppsLinkagesRequest.Data.Type.
+type UserVisibleAppsLinkagesRequestDataType string
+
+// UserVisibleAppsLinkagesResponse defines model for UserVisibleAppsLinkagesResponse.
+type UserVisibleAppsLinkagesResponse struct {
+	Data []struct {
+		Id   string                                  `json:"id"`
+		Type UserVisibleAppsLinkagesResponseDataType `json:"type"`
+	} `json:"data"`
+	Links PagedDocumentLinks `json:"links"`
+	Meta  *PagingInformation `json:"meta,omitempty"`
+}
+
+// UserVisibleAppsLinkagesResponseDataType defines model for UserVisibleAppsLinkagesResponse.Data.Type.
+type UserVisibleAppsLinkagesResponseDataType string
+
+// UsersResponse defines model for UsersResponse.
+type UsersResponse struct {
+	Data     []User             `json:"data"`
+	Included *[]App             `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
 // AppsGetCollectionParams defines parameters for AppsGetCollection.
 type AppsGetCollectionParams struct {
 	// FilterName filter by attribute 'name'
@@ -20760,6 +21983,126 @@ type ProfilesDevicesGetToManyRelationshipParams struct {
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
+// UserInvitationsGetCollectionParams defines parameters for UserInvitationsGetCollection.
+type UserInvitationsGetCollectionParams struct {
+	// FilterEmail filter by attribute 'email'
+	FilterEmail *[]string `form:"filter[email],omitempty" json:"filter[email],omitempty"`
+
+	// FilterRoles filter by attribute 'roles'
+	FilterRoles *[]UserInvitationsGetCollectionParamsFilterRoles `form:"filter[roles],omitempty" json:"filter[roles],omitempty"`
+
+	// FilterVisibleApps filter by id(s) of related 'visibleApps'
+	FilterVisibleApps *[]string `form:"filter[visibleApps],omitempty" json:"filter[visibleApps],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]UserInvitationsGetCollectionParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsUserInvitations the fields to include for returned resources of type userInvitations
+	FieldsUserInvitations *[]UserInvitationsGetCollectionParamsFieldsUserInvitations `form:"fields[userInvitations],omitempty" json:"fields[userInvitations],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]UserInvitationsGetCollectionParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]UserInvitationsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVisibleApps maximum number of related visibleApps returned (when they are included)
+	LimitVisibleApps *int `form:"limit[visibleApps],omitempty" json:"limit[visibleApps],omitempty"`
+}
+
+// UserInvitationsGetCollectionParamsFilterRoles defines parameters for UserInvitationsGetCollection.
+type UserInvitationsGetCollectionParamsFilterRoles string
+
+// UserInvitationsGetCollectionParamsSort defines parameters for UserInvitationsGetCollection.
+type UserInvitationsGetCollectionParamsSort string
+
+// UserInvitationsGetCollectionParamsFieldsUserInvitations defines parameters for UserInvitationsGetCollection.
+type UserInvitationsGetCollectionParamsFieldsUserInvitations string
+
+// UserInvitationsGetCollectionParamsFieldsApps defines parameters for UserInvitationsGetCollection.
+type UserInvitationsGetCollectionParamsFieldsApps string
+
+// UserInvitationsGetCollectionParamsInclude defines parameters for UserInvitationsGetCollection.
+type UserInvitationsGetCollectionParamsInclude string
+
+// UsersGetCollectionParams defines parameters for UsersGetCollection.
+type UsersGetCollectionParams struct {
+	// FilterUsername filter by attribute 'username'
+	FilterUsername *[]string `form:"filter[username],omitempty" json:"filter[username],omitempty"`
+
+	// FilterRoles filter by attribute 'roles'
+	FilterRoles *[]UsersGetCollectionParamsFilterRoles `form:"filter[roles],omitempty" json:"filter[roles],omitempty"`
+
+	// FilterVisibleApps filter by id(s) of related 'visibleApps'
+	FilterVisibleApps *[]string `form:"filter[visibleApps],omitempty" json:"filter[visibleApps],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]UsersGetCollectionParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsUsers the fields to include for returned resources of type users
+	FieldsUsers *[]UsersGetCollectionParamsFieldsUsers `form:"fields[users],omitempty" json:"fields[users],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]UsersGetCollectionParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]UsersGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVisibleApps maximum number of related visibleApps returned (when they are included)
+	LimitVisibleApps *int `form:"limit[visibleApps],omitempty" json:"limit[visibleApps],omitempty"`
+}
+
+// UsersGetCollectionParamsFilterRoles defines parameters for UsersGetCollection.
+type UsersGetCollectionParamsFilterRoles string
+
+// UsersGetCollectionParamsSort defines parameters for UsersGetCollection.
+type UsersGetCollectionParamsSort string
+
+// UsersGetCollectionParamsFieldsUsers defines parameters for UsersGetCollection.
+type UsersGetCollectionParamsFieldsUsers string
+
+// UsersGetCollectionParamsFieldsApps defines parameters for UsersGetCollection.
+type UsersGetCollectionParamsFieldsApps string
+
+// UsersGetCollectionParamsInclude defines parameters for UsersGetCollection.
+type UsersGetCollectionParamsInclude string
+
+// UsersGetInstanceParams defines parameters for UsersGetInstance.
+type UsersGetInstanceParams struct {
+	// FieldsUsers the fields to include for returned resources of type users
+	FieldsUsers *[]UsersGetInstanceParamsFieldsUsers `form:"fields[users],omitempty" json:"fields[users],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]UsersGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]UsersGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVisibleApps maximum number of related visibleApps returned (when they are included)
+	LimitVisibleApps *int `form:"limit[visibleApps],omitempty" json:"limit[visibleApps],omitempty"`
+}
+
+// UsersGetInstanceParamsFieldsUsers defines parameters for UsersGetInstance.
+type UsersGetInstanceParamsFieldsUsers string
+
+// UsersGetInstanceParamsFieldsApps defines parameters for UsersGetInstance.
+type UsersGetInstanceParamsFieldsApps string
+
+// UsersGetInstanceParamsInclude defines parameters for UsersGetInstance.
+type UsersGetInstanceParamsInclude string
+
+// UsersVisibleAppsGetToManyRelationshipParams defines parameters for UsersVisibleAppsGetToManyRelationship.
+type UsersVisibleAppsGetToManyRelationshipParams struct {
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
 // AppsBetaTestersDeleteToManyRelationshipJSONRequestBody defines body for AppsBetaTestersDeleteToManyRelationship for application/json ContentType.
 type AppsBetaTestersDeleteToManyRelationshipJSONRequestBody = AppBetaTestersLinkagesRequest
 
@@ -20867,6 +22210,18 @@ type PassTypeIdsUpdateInstanceJSONRequestBody = PassTypeIdUpdateRequest
 
 // ProfilesCreateInstanceJSONRequestBody defines body for ProfilesCreateInstance for application/json ContentType.
 type ProfilesCreateInstanceJSONRequestBody = ProfileCreateRequest
+
+// UserInvitationsCreateInstanceJSONRequestBody defines body for UserInvitationsCreateInstance for application/json ContentType.
+type UserInvitationsCreateInstanceJSONRequestBody = UserInvitationCreateRequest
+
+// UsersUpdateInstanceJSONRequestBody defines body for UsersUpdateInstance for application/json ContentType.
+type UsersUpdateInstanceJSONRequestBody = UserUpdateRequest
+
+// UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody defines body for UsersVisibleAppsDeleteToManyRelationship for application/json ContentType.
+type UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody = UserVisibleAppsLinkagesRequest
+
+// UsersVisibleAppsCreateToManyRelationshipJSONRequestBody defines body for UsersVisibleAppsCreateToManyRelationship for application/json ContentType.
+type UsersVisibleAppsCreateToManyRelationshipJSONRequestBody = UserVisibleAppsLinkagesRequest
 
 // AsAndroidToIosAppMappingDetail returns the union data inside the AppResponse_Included_Item as a AndroidToIosAppMappingDetail
 func (t AppResponse_Included_Item) AsAndroidToIosAppMappingDetail() (AndroidToIosAppMappingDetail, error) {
@@ -25474,6 +26829,56 @@ type ClientInterface interface {
 
 	// ProfilesDevicesGetToManyRelationship performs a GET /v1/profiles/{id}/relationships/devices (the `ProfilesDevicesGetToManyRelationship` operationId) request.
 	ProfilesDevicesGetToManyRelationship(ctx context.Context, id string, params *ProfilesDevicesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UserInvitationsGetCollection performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
+	UserInvitationsGetCollection(ctx context.Context, params *UserInvitationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UserInvitationsCreateInstanceWithBody performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	UserInvitationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UserInvitationsCreateInstance performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	UserInvitationsCreateInstance(ctx context.Context, body UserInvitationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UserInvitationsDeleteInstance performs a DELETE /v1/userInvitations/{id} (the `UserInvitationsDeleteInstance` operationId) request.
+	UserInvitationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersGetCollection performs a GET /v1/users (the `UsersGetCollection` operationId) request.
+	UsersGetCollection(ctx context.Context, params *UsersGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersDeleteInstance performs a DELETE /v1/users/{id} (the `UsersDeleteInstance` operationId) request.
+	UsersDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersGetInstance performs a GET /v1/users/{id} (the `UsersGetInstance` operationId) request.
+	UsersGetInstance(ctx context.Context, id string, params *UsersGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersUpdateInstanceWithBody performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	UsersUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersUpdateInstance performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	UsersUpdateInstance(ctx context.Context, id string, body UsersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersVisibleAppsDeleteToManyRelationshipWithBody performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	UsersVisibleAppsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersVisibleAppsDeleteToManyRelationship performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	UsersVisibleAppsDeleteToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersVisibleAppsGetToManyRelationship performs a GET /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsGetToManyRelationship` operationId) request.
+	UsersVisibleAppsGetToManyRelationship(ctx context.Context, id string, params *UsersVisibleAppsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersVisibleAppsCreateToManyRelationshipWithBody performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	UsersVisibleAppsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// UsersVisibleAppsCreateToManyRelationship performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	UsersVisibleAppsCreateToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 }
 
 // AppsGetCollection performs a GET /v1/apps (the `AppsGetCollection` operationId) request.
@@ -27098,6 +28503,196 @@ func (c *Client) ProfilesCertificatesGetToManyRelationship(ctx context.Context, 
 // ProfilesDevicesGetToManyRelationship performs a GET /v1/profiles/{id}/relationships/devices (the `ProfilesDevicesGetToManyRelationship` operationId) request.
 func (c *Client) ProfilesDevicesGetToManyRelationship(ctx context.Context, id string, params *ProfilesDevicesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewProfilesDevicesGetToManyRelationshipRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UserInvitationsGetCollection performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
+func (c *Client) UserInvitationsGetCollection(ctx context.Context, params *UserInvitationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserInvitationsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UserInvitationsCreateInstanceWithBody performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) UserInvitationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserInvitationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UserInvitationsCreateInstance performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) UserInvitationsCreateInstance(ctx context.Context, body UserInvitationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserInvitationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UserInvitationsDeleteInstance performs a DELETE /v1/userInvitations/{id} (the `UserInvitationsDeleteInstance` operationId) request.
+func (c *Client) UserInvitationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUserInvitationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersGetCollection performs a GET /v1/users (the `UsersGetCollection` operationId) request.
+func (c *Client) UsersGetCollection(ctx context.Context, params *UsersGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersDeleteInstance performs a DELETE /v1/users/{id} (the `UsersDeleteInstance` operationId) request.
+func (c *Client) UsersDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersGetInstance performs a GET /v1/users/{id} (the `UsersGetInstance` operationId) request.
+func (c *Client) UsersGetInstance(ctx context.Context, id string, params *UsersGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersUpdateInstanceWithBody performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) UsersUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersUpdateInstance performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) UsersUpdateInstance(ctx context.Context, id string, body UsersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersVisibleAppsDeleteToManyRelationshipWithBody performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) UsersVisibleAppsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersVisibleAppsDeleteToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersVisibleAppsDeleteToManyRelationship performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) UsersVisibleAppsDeleteToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersVisibleAppsDeleteToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersVisibleAppsGetToManyRelationship performs a GET /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsGetToManyRelationship` operationId) request.
+func (c *Client) UsersVisibleAppsGetToManyRelationship(ctx context.Context, id string, params *UsersVisibleAppsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersVisibleAppsGetToManyRelationshipRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersVisibleAppsCreateToManyRelationshipWithBody performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) UsersVisibleAppsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersVisibleAppsCreateToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// UsersVisibleAppsCreateToManyRelationship performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) UsersVisibleAppsCreateToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewUsersVisibleAppsCreateToManyRelationshipRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -35055,6 +36650,713 @@ func NewProfilesDevicesGetToManyRelationshipRequest(server string, id string, pa
 	return req, nil
 }
 
+// NewUserInvitationsGetCollectionRequest constructs an http.Request for the UserInvitationsGetCollection method
+func NewUserInvitationsGetCollectionRequest(server string, params *UserInvitationsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/userInvitations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterEmail != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[email]", *params.FilterEmail, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterRoles != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[roles]", *params.FilterRoles, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVisibleApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[visibleApps]", *params.FilterVisibleApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsUserInvitations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[userInvitations]", *params.FieldsUserInvitations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVisibleApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[visibleApps]", *params.LimitVisibleApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewUserInvitationsCreateInstanceRequest calls the generic UserInvitationsCreateInstance builder with application/json body
+func NewUserInvitationsCreateInstanceRequest(server string, body UserInvitationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewUserInvitationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewUserInvitationsCreateInstanceRequestWithBody constructs an http.Request for the UserInvitationsCreateInstance method, with any body, and a specified content type
+func NewUserInvitationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/userInvitations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewUserInvitationsDeleteInstanceRequest constructs an http.Request for the UserInvitationsDeleteInstance method
+func NewUserInvitationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/userInvitations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewUsersGetCollectionRequest constructs an http.Request for the UsersGetCollection method
+func NewUsersGetCollectionRequest(server string, params *UsersGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/users")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterUsername != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[username]", *params.FilterUsername, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterRoles != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[roles]", *params.FilterRoles, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVisibleApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[visibleApps]", *params.FilterVisibleApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsUsers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[users]", *params.FieldsUsers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVisibleApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[visibleApps]", *params.LimitVisibleApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewUsersDeleteInstanceRequest constructs an http.Request for the UsersDeleteInstance method
+func NewUsersDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/users/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewUsersGetInstanceRequest constructs an http.Request for the UsersGetInstance method
+func NewUsersGetInstanceRequest(server string, id string, params *UsersGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/users/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsUsers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[users]", *params.FieldsUsers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVisibleApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[visibleApps]", *params.LimitVisibleApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewUsersUpdateInstanceRequest calls the generic UsersUpdateInstance builder with application/json body
+func NewUsersUpdateInstanceRequest(server string, id string, body UsersUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewUsersUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewUsersUpdateInstanceRequestWithBody constructs an http.Request for the UsersUpdateInstance method, with any body, and a specified content type
+func NewUsersUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/users/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewUsersVisibleAppsDeleteToManyRelationshipRequest calls the generic UsersVisibleAppsDeleteToManyRelationship builder with application/json body
+func NewUsersVisibleAppsDeleteToManyRelationshipRequest(server string, id string, body UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewUsersVisibleAppsDeleteToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewUsersVisibleAppsDeleteToManyRelationshipRequestWithBody constructs an http.Request for the UsersVisibleAppsDeleteToManyRelationship method, with any body, and a specified content type
+func NewUsersVisibleAppsDeleteToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/users/%s/relationships/visibleApps", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewUsersVisibleAppsGetToManyRelationshipRequest constructs an http.Request for the UsersVisibleAppsGetToManyRelationship method
+func NewUsersVisibleAppsGetToManyRelationshipRequest(server string, id string, params *UsersVisibleAppsGetToManyRelationshipParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/users/%s/relationships/visibleApps", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewUsersVisibleAppsCreateToManyRelationshipRequest calls the generic UsersVisibleAppsCreateToManyRelationship builder with application/json body
+func NewUsersVisibleAppsCreateToManyRelationshipRequest(server string, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewUsersVisibleAppsCreateToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewUsersVisibleAppsCreateToManyRelationshipRequestWithBody constructs an http.Request for the UsersVisibleAppsCreateToManyRelationship method, with any body, and a specified content type
+func NewUsersVisibleAppsCreateToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/users/%s/relationships/visibleApps", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 func (c *Client) applyEditors(ctx context.Context, req *http.Request, additionalEditors []RequestEditorFn) error {
 	for _, r := range c.RequestEditors {
 		if err := r(ctx, req); err != nil {
@@ -35698,6 +38000,76 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	ProfilesDevicesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *ProfilesDevicesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*ProfilesDevicesGetToManyRelationshipResponse, error)
+
+	// UserInvitationsGetCollectionWithResponse performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UserInvitationsGetCollectionWithResponse(ctx context.Context, params *UserInvitationsGetCollectionParams, reqEditors ...RequestEditorFn) (*UserInvitationsGetCollectionResponse, error)
+
+	// UserInvitationsCreateInstanceWithBodyWithResponse performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UserInvitationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UserInvitationsCreateInstanceResponse, error)
+
+	// UserInvitationsCreateInstanceWithResponse performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	UserInvitationsCreateInstanceWithResponse(ctx context.Context, body UserInvitationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*UserInvitationsCreateInstanceResponse, error)
+
+	// UserInvitationsDeleteInstanceWithResponse performs a DELETE /v1/userInvitations/{id} (the `UserInvitationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UserInvitationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*UserInvitationsDeleteInstanceResponse, error)
+
+	// UsersGetCollectionWithResponse performs a GET /v1/users (the `UsersGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UsersGetCollectionWithResponse(ctx context.Context, params *UsersGetCollectionParams, reqEditors ...RequestEditorFn) (*UsersGetCollectionResponse, error)
+
+	// UsersDeleteInstanceWithResponse performs a DELETE /v1/users/{id} (the `UsersDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UsersDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*UsersDeleteInstanceResponse, error)
+
+	// UsersGetInstanceWithResponse performs a GET /v1/users/{id} (the `UsersGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UsersGetInstanceWithResponse(ctx context.Context, id string, params *UsersGetInstanceParams, reqEditors ...RequestEditorFn) (*UsersGetInstanceResponse, error)
+
+	// UsersUpdateInstanceWithBodyWithResponse performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UsersUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UsersUpdateInstanceResponse, error)
+
+	// UsersUpdateInstanceWithResponse performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	UsersUpdateInstanceWithResponse(ctx context.Context, id string, body UsersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersUpdateInstanceResponse, error)
+
+	// UsersVisibleAppsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UsersVisibleAppsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UsersVisibleAppsDeleteToManyRelationshipResponse, error)
+
+	// UsersVisibleAppsDeleteToManyRelationshipWithResponse performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	UsersVisibleAppsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersVisibleAppsDeleteToManyRelationshipResponse, error)
+
+	// UsersVisibleAppsGetToManyRelationshipWithResponse performs a GET /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsGetToManyRelationship` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UsersVisibleAppsGetToManyRelationshipWithResponse(ctx context.Context, id string, params *UsersVisibleAppsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*UsersVisibleAppsGetToManyRelationshipResponse, error)
+
+	// UsersVisibleAppsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	UsersVisibleAppsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UsersVisibleAppsCreateToManyRelationshipResponse, error)
+
+	// UsersVisibleAppsCreateToManyRelationshipWithResponse performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	UsersVisibleAppsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersVisibleAppsCreateToManyRelationshipResponse, error)
 }
 
 type AppsGetCollectionResponse struct {
@@ -42252,6 +44624,773 @@ func (r ProfilesDevicesGetToManyRelationshipResponse) ContentType() string {
 	return ""
 }
 
+type UserInvitationsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *UserInvitationsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r UserInvitationsGetCollectionResponse) GetJSON200() *UserInvitationsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UserInvitationsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UserInvitationsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UserInvitationsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UserInvitationsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UserInvitationsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UserInvitationsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UserInvitationsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UserInvitationsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UserInvitationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *UserInvitationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r UserInvitationsCreateInstanceResponse) GetJSON201() *UserInvitationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UserInvitationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UserInvitationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UserInvitationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r UserInvitationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r UserInvitationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UserInvitationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UserInvitationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UserInvitationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UserInvitationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UserInvitationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UserInvitationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UserInvitationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UserInvitationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UserInvitationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r UserInvitationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UserInvitationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UserInvitationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UserInvitationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UserInvitationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UserInvitationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UsersGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *UsersResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r UsersGetCollectionResponse) GetJSON200() *UsersResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UsersGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UsersGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UsersGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UsersGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UsersGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UsersGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UsersGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UsersGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UsersDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UsersDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UsersDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UsersDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r UsersDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UsersDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UsersDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UsersDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UsersDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UsersDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UsersGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *UserResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r UsersGetInstanceResponse) GetJSON200() *UserResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UsersGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UsersGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UsersGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r UsersGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UsersGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UsersGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UsersGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UsersGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UsersGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UsersUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *UserResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON200() *UserResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UsersUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UsersUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UsersUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UsersUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UsersUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UsersVisibleAppsDeleteToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UsersVisibleAppsDeleteToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UsersVisibleAppsGetToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *UserVisibleAppsLinkagesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r UsersVisibleAppsGetToManyRelationshipResponse) GetJSON200() *UserVisibleAppsLinkagesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UsersVisibleAppsGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UsersVisibleAppsGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UsersVisibleAppsGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r UsersVisibleAppsGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UsersVisibleAppsGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UsersVisibleAppsGetToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UsersVisibleAppsGetToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UsersVisibleAppsGetToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UsersVisibleAppsGetToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type UsersVisibleAppsCreateToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r UsersVisibleAppsCreateToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 // AppsGetCollectionWithResponse performs a GET /v1/apps (the `AppsGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -43570,6 +46709,160 @@ func (c *ClientWithResponses) ProfilesDevicesGetToManyRelationshipWithResponse(c
 		return nil, err
 	}
 	return ParseProfilesDevicesGetToManyRelationshipResponse(rsp)
+}
+
+// UserInvitationsGetCollectionWithResponse performs a GET /v1/userInvitations (the `UserInvitationsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UserInvitationsGetCollectionWithResponse(ctx context.Context, params *UserInvitationsGetCollectionParams, reqEditors ...RequestEditorFn) (*UserInvitationsGetCollectionResponse, error) {
+	rsp, err := c.UserInvitationsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUserInvitationsGetCollectionResponse(rsp)
+}
+
+// UserInvitationsCreateInstanceWithBodyWithResponse performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UserInvitationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UserInvitationsCreateInstanceResponse, error) {
+	rsp, err := c.UserInvitationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUserInvitationsCreateInstanceResponse(rsp)
+}
+
+// UserInvitationsCreateInstanceWithResponse performs a POST /v1/userInvitations (the `UserInvitationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UserInvitationsCreateInstanceWithResponse(ctx context.Context, body UserInvitationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*UserInvitationsCreateInstanceResponse, error) {
+	rsp, err := c.UserInvitationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUserInvitationsCreateInstanceResponse(rsp)
+}
+
+// UserInvitationsDeleteInstanceWithResponse performs a DELETE /v1/userInvitations/{id} (the `UserInvitationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UserInvitationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*UserInvitationsDeleteInstanceResponse, error) {
+	rsp, err := c.UserInvitationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUserInvitationsDeleteInstanceResponse(rsp)
+}
+
+// UsersGetCollectionWithResponse performs a GET /v1/users (the `UsersGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersGetCollectionWithResponse(ctx context.Context, params *UsersGetCollectionParams, reqEditors ...RequestEditorFn) (*UsersGetCollectionResponse, error) {
+	rsp, err := c.UsersGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersGetCollectionResponse(rsp)
+}
+
+// UsersDeleteInstanceWithResponse performs a DELETE /v1/users/{id} (the `UsersDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*UsersDeleteInstanceResponse, error) {
+	rsp, err := c.UsersDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersDeleteInstanceResponse(rsp)
+}
+
+// UsersGetInstanceWithResponse performs a GET /v1/users/{id} (the `UsersGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersGetInstanceWithResponse(ctx context.Context, id string, params *UsersGetInstanceParams, reqEditors ...RequestEditorFn) (*UsersGetInstanceResponse, error) {
+	rsp, err := c.UsersGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersGetInstanceResponse(rsp)
+}
+
+// UsersUpdateInstanceWithBodyWithResponse performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UsersUpdateInstanceResponse, error) {
+	rsp, err := c.UsersUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersUpdateInstanceResponse(rsp)
+}
+
+// UsersUpdateInstanceWithResponse performs a PATCH /v1/users/{id} (the `UsersUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersUpdateInstanceWithResponse(ctx context.Context, id string, body UsersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersUpdateInstanceResponse, error) {
+	rsp, err := c.UsersUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersUpdateInstanceResponse(rsp)
+}
+
+// UsersVisibleAppsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersVisibleAppsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UsersVisibleAppsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.UsersVisibleAppsDeleteToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersVisibleAppsDeleteToManyRelationshipResponse(rsp)
+}
+
+// UsersVisibleAppsDeleteToManyRelationshipWithResponse performs a DELETE /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersVisibleAppsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersVisibleAppsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.UsersVisibleAppsDeleteToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersVisibleAppsDeleteToManyRelationshipResponse(rsp)
+}
+
+// UsersVisibleAppsGetToManyRelationshipWithResponse performs a GET /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsGetToManyRelationship` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersVisibleAppsGetToManyRelationshipWithResponse(ctx context.Context, id string, params *UsersVisibleAppsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*UsersVisibleAppsGetToManyRelationshipResponse, error) {
+	rsp, err := c.UsersVisibleAppsGetToManyRelationship(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersVisibleAppsGetToManyRelationshipResponse(rsp)
+}
+
+// UsersVisibleAppsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersVisibleAppsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*UsersVisibleAppsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.UsersVisibleAppsCreateToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp)
+}
+
+// UsersVisibleAppsCreateToManyRelationshipWithResponse performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) UsersVisibleAppsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersVisibleAppsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.UsersVisibleAppsCreateToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp)
 }
 
 // ParseAppsGetCollectionResponse parses an HTTP response from a AppsGetCollectionWithResponse call
@@ -48924,6 +52217,635 @@ func ParseProfilesDevicesGetToManyRelationshipResponse(rsp *http.Response) (*Pro
 	return response, nil
 }
 
+// ParseUserInvitationsGetCollectionResponse parses an HTTP response from a UserInvitationsGetCollectionWithResponse call
+func ParseUserInvitationsGetCollectionResponse(rsp *http.Response) (*UserInvitationsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UserInvitationsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest UserInvitationsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUserInvitationsCreateInstanceResponse parses an HTTP response from a UserInvitationsCreateInstanceWithResponse call
+func ParseUserInvitationsCreateInstanceResponse(rsp *http.Response) (*UserInvitationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UserInvitationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest UserInvitationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUserInvitationsDeleteInstanceResponse parses an HTTP response from a UserInvitationsDeleteInstanceWithResponse call
+func ParseUserInvitationsDeleteInstanceResponse(rsp *http.Response) (*UserInvitationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UserInvitationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUsersGetCollectionResponse parses an HTTP response from a UsersGetCollectionWithResponse call
+func ParseUsersGetCollectionResponse(rsp *http.Response) (*UsersGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UsersGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest UsersResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUsersDeleteInstanceResponse parses an HTTP response from a UsersDeleteInstanceWithResponse call
+func ParseUsersDeleteInstanceResponse(rsp *http.Response) (*UsersDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UsersDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUsersGetInstanceResponse parses an HTTP response from a UsersGetInstanceWithResponse call
+func ParseUsersGetInstanceResponse(rsp *http.Response) (*UsersGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UsersGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest UserResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUsersUpdateInstanceResponse parses an HTTP response from a UsersUpdateInstanceWithResponse call
+func ParseUsersUpdateInstanceResponse(rsp *http.Response) (*UsersUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UsersUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest UserResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUsersVisibleAppsDeleteToManyRelationshipResponse parses an HTTP response from a UsersVisibleAppsDeleteToManyRelationshipWithResponse call
+func ParseUsersVisibleAppsDeleteToManyRelationshipResponse(rsp *http.Response) (*UsersVisibleAppsDeleteToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UsersVisibleAppsDeleteToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUsersVisibleAppsGetToManyRelationshipResponse parses an HTTP response from a UsersVisibleAppsGetToManyRelationshipWithResponse call
+func ParseUsersVisibleAppsGetToManyRelationshipResponse(rsp *http.Response) (*UsersVisibleAppsGetToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UsersVisibleAppsGetToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest UserVisibleAppsLinkagesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseUsersVisibleAppsCreateToManyRelationshipResponse parses an HTTP response from a UsersVisibleAppsCreateToManyRelationshipWithResponse call
+func ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp *http.Response) (*UsersVisibleAppsCreateToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &UsersVisibleAppsCreateToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ServerInterface represents all server handlers.
 type ServerInterface interface {
 
@@ -49178,6 +53100,36 @@ type ServerInterface interface {
 
 	// (GET /v1/profiles/{id}/relationships/devices)
 	ProfilesDevicesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params ProfilesDevicesGetToManyRelationshipParams)
+
+	// (GET /v1/userInvitations)
+	UserInvitationsGetCollection(w http.ResponseWriter, r *http.Request, params UserInvitationsGetCollectionParams)
+
+	// (POST /v1/userInvitations)
+	UserInvitationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/userInvitations/{id})
+	UserInvitationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/users)
+	UsersGetCollection(w http.ResponseWriter, r *http.Request, params UsersGetCollectionParams)
+
+	// (DELETE /v1/users/{id})
+	UsersDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/users/{id})
+	UsersGetInstance(w http.ResponseWriter, r *http.Request, id string, params UsersGetInstanceParams)
+
+	// (PATCH /v1/users/{id})
+	UsersUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (DELETE /v1/users/{id}/relationships/visibleApps)
+	UsersVisibleAppsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/users/{id}/relationships/visibleApps)
+	UsersVisibleAppsGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params UsersVisibleAppsGetToManyRelationshipParams)
+
+	// (POST /v1/users/{id}/relationships/visibleApps)
+	UsersVisibleAppsCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
 }
 
 // ServerInterfaceWrapper converts contexts to parameters.
@@ -55830,6 +59782,547 @@ func (siw *ServerInterfaceWrapper) ProfilesDevicesGetToManyRelationship(w http.R
 	handler.ServeHTTP(w, r)
 }
 
+// UserInvitationsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) UserInvitationsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params UserInvitationsGetCollectionParams
+
+	// ------------- Optional query parameter "filter[email]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[email]", r.URL.Query(), &params.FilterEmail, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[email]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[email]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[roles]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[roles]", r.URL.Query(), &params.FilterRoles, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[roles]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[roles]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[visibleApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[visibleApps]", r.URL.Query(), &params.FilterVisibleApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[visibleApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[visibleApps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[userInvitations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[userInvitations]", r.URL.Query(), &params.FieldsUserInvitations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[userInvitations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[userInvitations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[visibleApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[visibleApps]", r.URL.Query(), &params.LimitVisibleApps, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[visibleApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[visibleApps]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UserInvitationsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UserInvitationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) UserInvitationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UserInvitationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UserInvitationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) UserInvitationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UserInvitationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UsersGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) UsersGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params UsersGetCollectionParams
+
+	// ------------- Optional query parameter "filter[username]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[username]", r.URL.Query(), &params.FilterUsername, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[username]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[username]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[roles]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[roles]", r.URL.Query(), &params.FilterRoles, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[roles]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[roles]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[visibleApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[visibleApps]", r.URL.Query(), &params.FilterVisibleApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[visibleApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[visibleApps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[users]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[users]", r.URL.Query(), &params.FieldsUsers, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[users]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[users]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[visibleApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[visibleApps]", r.URL.Query(), &params.LimitVisibleApps, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[visibleApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[visibleApps]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UsersGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UsersDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) UsersDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UsersDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UsersGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) UsersGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params UsersGetInstanceParams
+
+	// ------------- Optional query parameter "fields[users]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[users]", r.URL.Query(), &params.FieldsUsers, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[users]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[users]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[visibleApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[visibleApps]", r.URL.Query(), &params.LimitVisibleApps, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[visibleApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[visibleApps]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UsersGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UsersUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) UsersUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UsersUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UsersVisibleAppsDeleteToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) UsersVisibleAppsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UsersVisibleAppsDeleteToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UsersVisibleAppsGetToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) UsersVisibleAppsGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params UsersVisibleAppsGetToManyRelationshipParams
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UsersVisibleAppsGetToManyRelationship(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// UsersVisibleAppsCreateToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) UsersVisibleAppsCreateToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.UsersVisibleAppsCreateToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 type UnescapedCookieParamError struct {
 	ParamName string
 	Err       error
@@ -56034,6 +60527,16 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/relationships/bundleId", wrapper.ProfilesBundleIdGetToOneRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/relationships/certificates", wrapper.ProfilesCertificatesGetToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/relationships/devices", wrapper.ProfilesDevicesGetToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/userInvitations", wrapper.UserInvitationsGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/userInvitations", wrapper.UserInvitationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/userInvitations/{id}", wrapper.UserInvitationsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/users", wrapper.UsersGetCollection)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/users/{id}", wrapper.UsersDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/users/{id}", wrapper.UsersGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/users/{id}", wrapper.UsersUpdateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsDeleteToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsGetToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsCreateToManyRelationship)
 
 	return m
 }
