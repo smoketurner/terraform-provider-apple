@@ -6,6 +6,7 @@ import (
 	"context"
 	"os"
 
+	"github.com/hashicorp/terraform-plugin-framework/action"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/provider"
@@ -16,7 +17,10 @@ import (
 	"github.com/smoketurner/terraform-provider-apple/internal/asc"
 )
 
-var _ provider.Provider = &appleProvider{}
+var (
+	_ provider.Provider            = &appleProvider{}
+	_ provider.ProviderWithActions = &appleProvider{}
+)
 
 type appleProvider struct {
 	version string
@@ -123,6 +127,22 @@ func (p *appleProvider) Configure(ctx context.Context, req provider.ConfigureReq
 	}
 	resp.ResourceData = client
 	resp.DataSourceData = client
+	resp.ActionData = client
+}
+
+func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
+	return []func() action.Action{
+		newAddBuildTestersAction,
+		newAddBuildToBetaGroupsAction,
+		newExpireBuildAction,
+		newInviteBetaTesterAction,
+		newNotifyBetaTestersAction,
+		newRemoveBetaTestersFromAppAction,
+		newRemoveBuildFromBetaGroupsAction,
+		newRemoveBuildTestersAction,
+		newSetBuildExportComplianceAction,
+		newSubmitBetaReviewAction,
+	}
 }
 
 func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource {

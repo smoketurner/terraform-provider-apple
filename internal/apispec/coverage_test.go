@@ -11,6 +11,7 @@ import (
 	"testing"
 	"unicode"
 
+	"github.com/hashicorp/terraform-plugin-framework/action"
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	fwprovider "github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/resource"
@@ -175,13 +176,13 @@ func providerCalls(t *testing.T) map[string]bool {
 }
 
 // TestManifestNamesExist checks every "by" entry against the provider's
-// registered resources and data sources.
+// registered resources, data sources and actions.
 func TestManifestNamesExist(t *testing.T) {
 	names := providerNames(t)
 	for id, e := range loadManifest(t).Operations {
 		for _, by := range e.By {
 			if !names[by] {
-				t.Errorf("%s: %q is not a resource or data source of the provider", id, by)
+				t.Errorf("%s: %q is not a resource, data source or action of the provider", id, by)
 			}
 		}
 	}
@@ -205,6 +206,13 @@ func providerNames(t *testing.T) map[string]bool {
 		var resp datasource.MetadataResponse
 		f().Metadata(ctx, datasource.MetadataRequest{ProviderTypeName: prefix}, &resp)
 		names["data."+resp.TypeName] = true
+	}
+	if pa, ok := p.(fwprovider.ProviderWithActions); ok {
+		for _, f := range pa.Actions(ctx) {
+			var resp action.MetadataResponse
+			f().Metadata(ctx, action.MetadataRequest{ProviderTypeName: prefix}, &resp)
+			names["action."+resp.TypeName] = true
+		}
 	}
 	return names
 }
