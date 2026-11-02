@@ -2,6 +2,7 @@ package provider
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"regexp"
 	"slices"
@@ -48,12 +49,19 @@ func (e *testEnv) checkBuild(buildID string, wantTesters, wantGroups []string) r
 		testers, groups := e.fake.BuildTesters(buildID)
 		resolve := func(refs []string) []string {
 			var out []string
+			// A reference is a resource address, for its ID, or
+			// "<address>.<attribute>".
 			for _, r := range refs {
-				rs, ok := s.RootModule().Resources[r]
+				if rs, ok := s.RootModule().Resources[r]; ok {
+					out = append(out, rs.Primary.ID)
+					continue
+				}
+				i := strings.LastIndex(r, ".")
+				rs, ok := s.RootModule().Resources[r[:i]]
 				if !ok {
 					return []string{"missing " + r}
 				}
-				out = append(out, rs.Primary.ID)
+				out = append(out, rs.Primary.Attributes[r[i+1:]])
 			}
 			slices.Sort(out)
 			return out
@@ -85,7 +93,7 @@ func TestAccBuildDistributionActions(t *testing.T) {
 	env := newTestEnv(t)
 	appID, locals := env.testflightApp()
 	buildID := env.fake.AddBuild(appID, asctest.BuildOptions{Version: "42", Marketing: "1.0"})
-	base := locals + internalGroup + externalGroup("") + testerConfig("apple_beta_group.internal.id") + fmt.Sprintf(`
+	base := locals + internalGroup + externalGroup("") + testerConfig("ann", "apple_beta_group.internal.id") + fmt.Sprintf(`
 locals {
   build_id = %q
 }
@@ -110,13 +118,13 @@ action "apple_remove_build_from_beta_groups" "external" {
 action "apple_add_build_testers" "ann" {
   config {
     build_id        = local.build_id
-    beta_tester_ids = [apple_beta_tester.ann.id]
+    beta_tester_ids = [apple_beta_group_tester.ann.beta_tester_id]
   }
 }
 action "apple_remove_build_testers" "ann" {
   config {
     build_id        = local.build_id
-    beta_tester_ids = [apple_beta_tester.ann.id]
+    beta_tester_ids = [apple_beta_group_tester.ann.beta_tester_id]
   }
 }
 action "apple_submit_beta_review" "build" {
@@ -132,7 +140,7 @@ action "apple_notify_beta_testers" "build" {
 action "apple_invite_beta_tester" "ann" {
   config {
     app_id         = local.app_id
-    beta_tester_id = apple_beta_tester.ann.id
+    beta_tester_id = apple_beta_group_tester.ann.beta_tester_id
   }
 }
 action "apple_expire_build" "build" {
@@ -140,10 +148,15 @@ action "apple_expire_build" "build" {
     build_id = local.build_id
   }
 }
+action "apple_delete_beta_tester" "ann" {
+  config {
+    beta_tester_id = apple_beta_group_tester.ann.beta_tester_id
+  }
+}
 action "apple_remove_beta_testers_from_app" "ann" {
   config {
     app_id          = local.app_id
-    beta_tester_ids = [apple_beta_tester.ann.id]
+    beta_tester_ids = [apple_beta_group_tester.ann.beta_tester_id]
   }
 }
 `, buildID)
@@ -162,7 +175,7 @@ data "apple_beta_testers" "build" {
 }
 `,
 			Check: resource.ComposeAggregateTestCheckFunc(
-				env.checkBuild(buildID, []string{"apple_beta_tester.ann"}, []string{"apple_beta_group.external", "apple_beta_group.internal"}),
+				env.checkBuild(buildID, []string{"apple_beta_group_tester.ann.beta_tester_id"}, []string{"apple_beta_group.external", "apple_beta_group.internal"}),
 				resource.TestCheckResourceAttr("data.apple_beta_testers.build", "beta_testers.#", "1"),
 				env.checkBuildStates(buildID, gen.InternalBetaStateINBETATESTING, gen.ExternalBetaStateWAITINGFORBETAREVIEW),
 			),
@@ -207,7 +220,19 @@ data "apple_beta_testers" "build" {
 			Config:      base + triggerAction("5", "apple_notify_beta_testers.build"),
 			ExpectError: regexp.MustCompile(`The build has expired`),
 		},
-		resource.TestStep{Config: base + triggerAction("5", "apple_set_build_export_compliance.no_encryption")},
+		resource.TestStep{
+			// Deleting the tester removes them everywhere; the membership
+			// resource then plans to add them again.
+			Config: base + triggerAction("6", "apple_delete_beta_tester.ann"),
+			Check: func(*terraform.State) error {
+				if _, err := betaTesterByEmail(context.Background(), env.client, "ann@example.com"); !errors.Is(err, errNoMatch) {
+					return fmt.Errorf("tester lookup after delete: %w, want no match", err)
+				}
+				return nil
+			},
+			ExpectNonEmptyPlan: true,
+		},
+		resource.TestStep{Config: base + triggerAction("6", "apple_set_build_export_compliance.no_encryption")},
 	)
 }
 

@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"regexp"
+	"slices"
 	"strings"
 	"testing"
 
@@ -129,100 +130,206 @@ feedback_enabled = false`), `"Public"`, `"Renamed"`, 1),
 	})
 }
 
-func testerConfig(groups string) string {
+// testerConfig adds ann@example.com to a beta group, as the membership
+// resource name.
+func testerConfig(name, group string) string {
 	return `
-resource "apple_beta_tester" "ann" {
-  email          = "ann@example.com"
-  first_name     = "Ann"
-  last_name      = "Tester"
-  beta_group_ids = [` + groups + `]
+resource "apple_beta_group_tester" "` + name + `" {
+  beta_group_id = ` + group + `
+  email         = "ann@example.com"
+  first_name    = "Ann"
+  last_name     = "Tester"
 }
 `
 }
 
-func TestAccBetaTester(t *testing.T) {
+// testerGroups returns the IDs of ann@example.com's groups at App Store
+// Connect, or nil when she does not exist.
+func (e *testEnv) testerGroups() ([]string, error) {
+	ctx := context.Background()
+	tester, err := betaTesterByEmail(ctx, e.client, "ann@example.com")
+	if errors.Is(err, errNoMatch) {
+		return nil, nil
+	}
+	if err != nil {
+		return nil, err
+	}
+	return betaTesterGroupIDs(ctx, e.client, tester.Id)
+}
+
+// checkTesterGroups checks ann@example.com's groups against the IDs of the
+// named resources.
+func (e *testEnv) checkTesterGroups(groups ...string) resource.TestCheckFunc {
+	return func(s *terraform.State) error {
+		got, err := e.testerGroups()
+		if err != nil {
+			return err
+		}
+		var want []string
+		for _, g := range groups {
+			want = append(want, s.RootModule().Resources[g].Primary.ID)
+		}
+		slices.Sort(want)
+		if !slices.Equal(got, want) {
+			return fmt.Errorf("tester groups = %v, want %v", got, want)
+		}
+		return nil
+	}
+}
+
+func TestAccBetaGroupTester(t *testing.T) {
 	env := newTestEnv(t)
 	_, locals := env.testflightApp()
 	groups := internalGroup + externalGroup("")
-	var id string
+	both := locals + groups + testerConfig("internal", "apple_beta_group.internal.id") + testerConfig("external", "apple_beta_group.external.id")
+	var testerID string
 	env.run(resource.TestCase{
-		CheckDestroy: func(*terraform.State) error {
-			if _, err := betaTesterByEmail(context.Background(), env.client, "ann@example.com"); err == nil {
-				return errors.New("tester still exists")
-			}
-			return nil
-		},
 		Steps: []resource.TestStep{
 			{
-				Config: locals + groups + testerConfig("apple_beta_group.internal.id"),
+				Config: locals + groups + testerConfig("internal", "apple_beta_group.internal.id"),
 				Check: resource.ComposeAggregateTestCheckFunc(
-					captureAttr("apple_beta_tester.ann", "id", &id),
-					resource.TestCheckResourceAttrPair("apple_beta_tester.ann", "beta_group_ids.0", "apple_beta_group.internal", "id"),
-					resource.TestCheckResourceAttr("apple_beta_tester.ann", "state", "INVITED"),
-					resource.TestCheckResourceAttr("apple_beta_tester.ann", "invite_type", "EMAIL"),
+					captureAttr("apple_beta_group_tester.internal", "beta_tester_id", &testerID),
+					resource.TestCheckResourceAttr("apple_beta_group_tester.internal", "state", "INVITED"),
+					resource.TestCheckResourceAttr("apple_beta_group_tester.internal", "invite_type", "EMAIL"),
+					env.checkTesterGroups("apple_beta_group.internal"),
 				),
 			},
-			{ResourceName: "apple_beta_tester.ann", ImportState: true, ImportStateVerify: true},
-			{ResourceName: "apple_beta_tester.ann", ImportState: true, ImportStateVerify: true, ImportStateId: "ANN@example.com"},
 			{
-				// Groups change in place.
-				Config:           locals + groups + testerConfig("apple_beta_group.external.id"),
-				ConfigPlanChecks: expectAction("apple_beta_tester.ann", plancheck.ResourceActionUpdate),
+				// Import by email, in any case, or by tester ID. Names are
+				// used only when creating a tester, so they are not read.
+				ResourceName: "apple_beta_group_tester.internal", ImportState: true, ImportStateVerify: true,
+				ImportStateVerifyIgnore:              []string{"first_name", "last_name"},
+				ImportStateVerifyIdentifierAttribute: "beta_tester_id",
+				ImportStateIdFunc: func(s *terraform.State) (string, error) {
+					return s.RootModule().Resources["apple_beta_group.internal"].Primary.ID + "/ANN@example.com", nil
+				},
+			},
+			{
+				ResourceName: "apple_beta_group_tester.internal", ImportState: true, ImportStateVerify: true,
+				ImportStateVerifyIgnore:              []string{"first_name", "last_name"},
+				ImportStateVerifyIdentifierAttribute: "beta_tester_id",
+				ImportStateIdFunc: func(s *terraform.State) (string, error) {
+					return s.RootModule().Resources["apple_beta_group.internal"].Primary.ID + "/" + testerID, nil
+				},
+			},
+			{
+				ResourceName:  "apple_beta_group_tester.internal",
+				ImportState:   true,
+				ImportStateId: "G1/nobody@example.com",
+				ExpectError:   regexp.MustCompile(`No beta tester has the ID or email "nobody@example.com"`),
+			},
+			{
+				// The same tester joins a second group.
+				Config: both,
 				Check: resource.ComposeAggregateTestCheckFunc(
-					resource.TestCheckResourceAttrPtr("apple_beta_tester.ann", "id", &id),
-					resource.TestCheckResourceAttr("apple_beta_tester.ann", "beta_group_ids.#", "1"),
-					resource.TestCheckResourceAttrPair("apple_beta_tester.ann", "beta_group_ids.0", "apple_beta_group.external", "id"),
+					resource.TestCheckResourceAttrPtr("apple_beta_group_tester.external", "beta_tester_id", &testerID),
+					env.checkTesterGroups("apple_beta_group.internal", "apple_beta_group.external"),
+				),
+			},
+			{
+				// Names apply only to new testers: changing them updates
+				// state alone.
+				Config:           strings.Replace(both, `"Ann"`, `"Annie"`, 1),
+				ConfigPlanChecks: expectAction("apple_beta_group_tester.internal", plancheck.ResourceActionUpdate),
+			},
+			{
+				// Destroying one membership leaves the tester's other group.
+				Config: locals + groups + testerConfig("external", "apple_beta_group.external.id"),
+				Check: resource.ComposeAggregateTestCheckFunc(
+					resource.TestCheckResourceAttrPtr("apple_beta_group_tester.external", "beta_tester_id", &testerID),
+					env.checkTesterGroups("apple_beta_group.external"),
+				),
+			},
+			{
+				// A membership removed outside Terraform is added again.
+				PreConfig: env.outside(func(ctx context.Context, c *asc.Client) error {
+					groups, err := betaTesterGroupIDs(ctx, c, testerID)
+					if err != nil {
+						return err
+					}
+					out, err := c.BetaTestersBetaGroupsDeleteToManyRelationshipWithResponse(ctx, testerID, groupLinkage(groups[0]))
+					return asc.Err(out, err)
+				}),
+				Config:           locals + groups + testerConfig("external", "apple_beta_group.external.id"),
+				ConfigPlanChecks: expectAction("apple_beta_group_tester.external", plancheck.ResourceActionCreate),
+				Check: resource.ComposeAggregateTestCheckFunc(
+					resource.TestCheckResourceAttrPtr("apple_beta_group_tester.external", "beta_tester_id", &testerID),
+					env.checkTesterGroups("apple_beta_group.external"),
 				),
 			},
 			{
 				// A tester deleted outside Terraform is created again.
 				PreConfig: env.outside(func(ctx context.Context, c *asc.Client) error {
-					out, err := c.BetaTestersDeleteInstanceWithResponse(ctx, id)
+					out, err := c.BetaTestersDeleteInstanceWithResponse(ctx, testerID)
 					return asc.Err(out, err)
 				}),
-				Config:           locals + groups + testerConfig("apple_beta_group.external.id"),
-				ConfigPlanChecks: expectAction("apple_beta_tester.ann", plancheck.ResourceActionCreate),
+				Config:           locals + groups + testerConfig("external", "apple_beta_group.external.id"),
+				ConfigPlanChecks: expectAction("apple_beta_group_tester.external", plancheck.ResourceActionCreate),
+				Check:            env.checkTesterGroups("apple_beta_group.external"),
 			},
 			{
-				Config:           locals + groups + strings.Replace(testerConfig("apple_beta_group.external.id"), `"Ann"`, `"Annie"`, 1),
-				ConfigPlanChecks: expectAction("apple_beta_tester.ann", plancheck.ResourceActionDestroyBeforeCreate),
+				// Moving the membership to another group replaces it.
+				Config:           locals + groups + testerConfig("external", "apple_beta_group.internal.id"),
+				ConfigPlanChecks: expectAction("apple_beta_group_tester.external", plancheck.ResourceActionDestroyBeforeCreate),
+				Check:            env.checkTesterGroups("apple_beta_group.internal"),
 			},
 		},
 	})
 }
 
-// TestAccBetaTesterAdopt checks that a tester already registered, for
-// example by another app's configuration, is adopted.
-func TestAccBetaTesterAdopt(t *testing.T) {
+// TestAccBetaGroupTesterOtherApp checks that a tester another
+// configuration manages for another app is adopted, and that destroying the
+// membership leaves the other app's group alone.
+func TestAccBetaGroupTesterOtherApp(t *testing.T) {
 	env := newTestEnv(t)
-	appID, locals := env.testflightApp()
-	var existing string
+	_, locals := env.testflightApp()
+	otherApp := env.fake.AddApp("Other", "com.example.other", "EX2")
+	var otherGroup string
 	env.run(resource.TestCase{
+		CheckDestroy: func(*terraform.State) error {
+			got, err := env.testerGroups()
+			if err != nil {
+				return err
+			}
+			if !slices.Equal(got, []string{otherGroup}) {
+				return fmt.Errorf("after destroy, tester groups = %v, want only the other app's %s", got, otherGroup)
+			}
+			return nil
+		},
 		Steps: []resource.TestStep{
-			{Config: locals + internalGroup},
 			{
 				PreConfig: env.outside(func(ctx context.Context, c *asc.Client) error {
-					groups, err := c.BetaGroupsGetCollectionWithResponse(ctx, &gen.BetaGroupsGetCollectionParams{FilterApp: &[]string{appID}})
-					if err := asc.Err(groups, err); err != nil {
+					var group gen.BetaGroupCreateRequest
+					group.Data.Type = gen.BetaGroupCreateRequestDataTypeBetaGroups
+					group.Data.Attributes.Name, group.Data.Attributes.IsInternalGroup = "Other Team", new(true)
+					group.Data.Relationships.App.Data.Id = otherApp
+					group.Data.Relationships.App.Data.Type = gen.BetaGroupCreateRequestDataRelationshipsAppDataTypeApps
+					g, err := c.BetaGroupsCreateInstanceWithResponse(ctx, group)
+					if err := asc.Err(g, err); err != nil {
 						return err
 					}
+					otherGroup = g.JSON201.Data.Id
 					var body gen.BetaTesterCreateRequest
 					body.Data.Type = gen.BetaTesterCreateRequestDataTypeBetaTesters
 					body.Data.Attributes.Email = openapi_types.Email("ann@example.com")
-					body.Data.Attributes.FirstName, body.Data.Attributes.LastName = new("Ann"), new("Tester")
 					e := asc.Append(&asc.Alloc(&asc.Alloc(&body.Data.Relationships).BetaGroups).Data)
-					e.Id, e.Type = groups.JSON200.Data[0].Id, gen.BetaTesterCreateRequestDataRelationshipsBetaGroupsDataTypeBetaGroups
+					e.Id, e.Type = otherGroup, gen.BetaTesterCreateRequestDataRelationshipsBetaGroupsDataTypeBetaGroups
 					out, err := c.BetaTestersCreateInstanceWithResponse(ctx, body)
-					if err := asc.Err(out, err); err != nil {
+					return asc.Err(out, err)
+				}),
+				Config: locals + internalGroup + testerConfig("internal", "apple_beta_group.internal.id"),
+				Check: func(*terraform.State) error {
+					got, err := env.testerGroups()
+					if err != nil {
 						return err
 					}
-					existing = out.JSON201.Data.Id
+					if len(got) != 2 || !slices.Contains(got, otherGroup) {
+						return fmt.Errorf("tester groups = %v, want this app's group and %s", got, otherGroup)
+					}
 					return nil
-				}),
-				Config: locals + internalGroup + testerConfig("apple_beta_group.internal.id"),
-				Check:  resource.TestCheckResourceAttrPtr("apple_beta_tester.ann", "id", &existing),
+				},
 			},
-			{Config: locals + internalGroup + testerConfig("apple_beta_group.internal.id"), PlanOnly: true},
+			{Config: locals + internalGroup + testerConfig("internal", "apple_beta_group.internal.id"), PlanOnly: true},
 		},
 	})
 }

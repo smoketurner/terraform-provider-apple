@@ -259,3 +259,17 @@ var newRemoveBetaTestersFromAppAction = newAction("remove_beta_testers_from_app"
 		out, err := c.AppsBetaTestersDeleteToManyRelationshipWithResponse(ctx, m.AppID.ValueString(), body)
 		return fmt.Sprintf("Removed %d testers from app %s", len(body.Data), m.AppID.ValueString()), asc.Err(out, err)
 	})
+
+type deleteTesterModel struct {
+	BetaTesterID types.String `tfsdk:"beta_tester_id"`
+}
+
+var newDeleteBetaTesterAction = newAction("delete_beta_tester",
+	"Deletes a beta tester, which removes their access to every app of the account, including groups other "+
+		"configurations manage. To remove a tester from one group, destroy their `apple_beta_group_tester`; from one "+
+		"app, use `apple_remove_beta_testers_from_app`.",
+	map[string]schema.Attribute{"beta_tester_id": actionString("App Store Connect ID of the beta tester.")},
+	func(ctx context.Context, c *asc.Client, m *deleteTesterModel) (string, error) {
+		out, err := c.BetaTestersDeleteInstanceWithResponse(ctx, m.BetaTesterID.ValueString())
+		return "Deleted beta tester " + m.BetaTesterID.ValueString(), asc.Err(out, err)
+	})

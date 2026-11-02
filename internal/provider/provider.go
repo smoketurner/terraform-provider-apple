@@ -134,6 +134,7 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 	return []func() action.Action{
 		newAddBuildTestersAction,
 		newAddBuildToBetaGroupsAction,
+		newDeleteBetaTesterAction,
 		newExpireBuildAction,
 		newInviteBetaTesterAction,
 		newNotifyBetaTestersAction,
@@ -151,9 +152,9 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newBetaAppReviewDetailResource,
 		newBetaBuildLocalizationResource,
 		newBetaGroupResource,
+		newBetaGroupTesterResource,
 		newBetaLicenseAgreementResource,
 		newBetaRecruitmentCriteriaResource,
-		newBetaTesterResource,
 		newBuildBetaDetailResource,
 		newBundleIDResource,
 		newBundleIDCapabilityResource,

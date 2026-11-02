@@ -403,9 +403,14 @@ type betaTesterData struct {
 }
 
 func (m *betaTesterData) apply(t *gen.BetaTester) {
-	var r betaTesterModel
-	r.apply(t)
-	*m = betaTesterData{ID: r.ID, Email: r.Email, FirstName: r.FirstName, LastName: r.LastName, InviteType: r.InviteType, State: r.State}
+	a := asc.Value(t.Attributes)
+	m.ID = types.StringValue(t.Id)
+	m.Email = types.StringNull()
+	if a.Email != nil {
+		m.Email = types.StringValue(string(*a.Email))
+	}
+	m.FirstName, m.LastName = stringValue(a.FirstName), stringValue(a.LastName)
+	m.InviteType, m.State = stringValue(a.InviteType), stringValue(a.State)
 }
 
 var betaTesterDataAttributes = map[string]schema.Attribute{

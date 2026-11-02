@@ -91,8 +91,8 @@ data "apple_pre_release_versions" "all" {
 func TestAccBetaGroupAndTesterDataSources(t *testing.T) {
 	env := newTestEnv(t)
 	_, locals := env.testflightApp()
-	cfg := locals + internalGroup + externalGroup("public_link_enabled = true") + testerConfig("apple_beta_group.internal.id")
-	deps := "depends_on = [apple_beta_group.internal, apple_beta_group.external, apple_beta_tester.ann]"
+	cfg := locals + internalGroup + externalGroup("public_link_enabled = true") + testerConfig("ann", "apple_beta_group.internal.id")
+	deps := "depends_on = [apple_beta_group.internal, apple_beta_group.external, apple_beta_group_tester.ann]"
 	env.run(resource.TestCase{
 		Steps: []resource.TestStep{
 			{
@@ -124,7 +124,7 @@ data "apple_beta_recruitment_criterion_options" "all" {}
 					resource.TestCheckResourceAttr("data.apple_beta_groups.all", "beta_groups.#", "2"),
 					resource.TestCheckResourceAttr("data.apple_beta_groups.external", "beta_groups.#", "1"),
 					resource.TestCheckResourceAttrPair("data.apple_beta_groups.external", "beta_groups.0.public_link", "apple_beta_group.external", "public_link"),
-					resource.TestCheckResourceAttrPair("data.apple_beta_tester.ann", "id", "apple_beta_tester.ann", "id"),
+					resource.TestCheckResourceAttrPair("data.apple_beta_tester.ann", "id", "apple_beta_group_tester.ann", "beta_tester_id"),
 					resource.TestCheckResourceAttr("data.apple_beta_testers.internal", "beta_testers.#", "1"),
 					resource.TestCheckResourceAttr("data.apple_beta_testers.external", "beta_testers.#", "0"),
 					resource.TestCheckResourceAttr("data.apple_beta_recruitment_criterion_options.all", "options.#", "3"),

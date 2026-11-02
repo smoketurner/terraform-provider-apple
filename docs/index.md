@@ -55,6 +55,9 @@ provider "apple" {
 * **TestFlight builds are distributed with actions.** Builds come from uploads, so adding them to groups and testers,
   submitting them for beta review, notifying testers and expiring them are actions (Terraform 1.14+), typically
   triggered when `data.apple_build` returns a new build. Groups, testers and test information are resources.
+* **Testers are managed by group membership.** Testers belong to the whole account, so `apple_beta_group_tester`
+  adds a tester to one group and destroying it removes them from that group only. Several configurations can add the
+  same tester to their own apps' groups. The `apple_delete_beta_tester` action deletes a tester everywhere.
 * **Per-app and per-build settings are adopted.** App Store Connect creates an app's beta app review detail and beta
   license agreement, and a build's beta detail. Their resources manage the existing object, and destroying one leaves
   the current settings in place.

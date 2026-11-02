@@ -478,8 +478,8 @@ operations:
   betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelated: {status: out_of_scope, reason: "build compatibility with tester criteria is advice shown in App Store Connect, not configuration"}
   betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelationship: {status: out_of_scope, reason: "build compatibility with tester criteria is advice shown in App Store Connect, not configuration"}
   betaGroups_betaTesterUsages_getMetrics: {status: planned, issue: 16}
-  betaGroups_betaTesters_createToManyRelationship: {status: out_of_scope, reason: "apple_beta_tester manages group membership through betaTesters_betaGroups"}
-  betaGroups_betaTesters_deleteToManyRelationship: {status: out_of_scope, reason: "apple_beta_tester manages group membership through betaTesters_betaGroups"}
+  betaGroups_betaTesters_createToManyRelationship: {status: out_of_scope, reason: "apple_beta_group_tester manages group membership through betaTesters_betaGroups"}
+  betaGroups_betaTesters_deleteToManyRelationship: {status: out_of_scope, reason: "apple_beta_group_tester manages group membership through betaTesters_betaGroups"}
   betaGroups_betaTesters_getToManyRelated: {status: out_of_scope, reason: "betaTesters_getCollection with filter[betaGroups] (data.apple_beta_testers) returns the same testers"}
   betaGroups_betaTesters_getToManyRelationship: {status: out_of_scope, reason: "betaTesters_getCollection with filter[betaGroups] (data.apple_beta_testers) returns the same testers"}
   betaGroups_builds_createToManyRelationship: {status: out_of_scope, reason: "action.apple_add_build_to_beta_groups uses builds_betaGroups_createToManyRelationship"}
@@ -505,19 +505,19 @@ operations:
   betaTesters_apps_deleteToManyRelationship: {status: planned, issue: 5}
   betaTesters_apps_getToManyRelated: {status: planned, issue: 5}
   betaTesters_apps_getToManyRelationship: {status: planned, issue: 5}
-  betaTesters_betaGroups_createToManyRelationship: {status: covered, by: [apple_beta_tester]}
-  betaTesters_betaGroups_deleteToManyRelationship: {status: covered, by: [apple_beta_tester]}
-  betaTesters_betaGroups_getToManyRelated: {status: out_of_scope, reason: "the getToManyRelationship operation returns the group IDs apple_beta_tester needs"}
-  betaTesters_betaGroups_getToManyRelationship: {status: covered, by: [apple_beta_tester]}
+  betaTesters_betaGroups_createToManyRelationship: {status: covered, by: [apple_beta_group_tester]}
+  betaTesters_betaGroups_deleteToManyRelationship: {status: covered, by: [apple_beta_group_tester]}
+  betaTesters_betaGroups_getToManyRelated: {status: out_of_scope, reason: "the getToManyRelationship operation returns the group IDs apple_beta_group_tester needs"}
+  betaTesters_betaGroups_getToManyRelationship: {status: covered, by: [apple_beta_group_tester]}
   betaTesters_betaTesterUsages_getMetrics: {status: planned, issue: 16}
   betaTesters_builds_createToManyRelationship: {status: out_of_scope, reason: "action.apple_add_build_testers uses builds_individualTesters_createToManyRelationship"}
   betaTesters_builds_deleteToManyRelationship: {status: out_of_scope, reason: "action.apple_remove_build_testers uses builds_individualTesters_deleteToManyRelationship"}
   betaTesters_builds_getToManyRelated: {status: out_of_scope, reason: "builds_getCollection lists builds; testers given a build individually come from data.apple_beta_testers with build_id"}
   betaTesters_builds_getToManyRelationship: {status: out_of_scope, reason: "builds_getCollection lists builds; testers given a build individually come from data.apple_beta_testers with build_id"}
-  betaTesters_createInstance: {status: covered, by: [apple_beta_tester]}
-  betaTesters_deleteInstance: {status: covered, by: [apple_beta_tester]}
-  betaTesters_getCollection: {status: covered, by: [apple_beta_tester, data.apple_beta_tester, data.apple_beta_testers]}
-  betaTesters_getInstance: {status: covered, by: [apple_beta_tester, data.apple_beta_tester]}
+  betaTesters_createInstance: {status: covered, by: [apple_beta_group_tester]}
+  betaTesters_deleteInstance: {status: covered, by: [action.apple_delete_beta_tester]}
+  betaTesters_getCollection: {status: covered, by: [apple_beta_group_tester, data.apple_beta_tester, data.apple_beta_testers]}
+  betaTesters_getInstance: {status: covered, by: [apple_beta_group_tester, data.apple_beta_tester]}
   buildBetaDetails_build_getToOneRelated: {status: out_of_scope, reason: "apple_build_beta_detail is looked up by its build"}
   buildBetaDetails_build_getToOneRelationship: {status: out_of_scope, reason: "apple_build_beta_detail is looked up by its build"}
   buildBetaDetails_getCollection: {status: covered, by: [apple_build_beta_detail]}

@@ -3,12 +3,12 @@
 page_title: "apple_beta_group Resource - apple"
 subcategory: ""
 description: |-
-  Creates a TestFlight beta group. Internal groups are for App Store Connect users; external groups are for anyone, invited by email or a public link. An app needs an internal group before it can have an external one. Add builds to a group with the apple_add_build_to_beta_groups action, and testers with apple_beta_tester.
+  Creates a TestFlight beta group. Internal groups are for App Store Connect users; external groups are for anyone, invited by email or a public link. An app needs an internal group before it can have an external one. Add builds to a group with the apple_add_build_to_beta_groups action, and testers with apple_beta_group_tester.
 ---
 
 # apple_beta_group (Resource)
 
-Creates a TestFlight beta group. Internal groups are for App Store Connect users; external groups are for anyone, invited by email or a public link. An app needs an internal group before it can have an external one. Add builds to a group with the `apple_add_build_to_beta_groups` action, and testers with `apple_beta_tester`.
+Creates a TestFlight beta group. Internal groups are for App Store Connect users; external groups are for anyone, invited by email or a public link. An app needs an internal group before it can have an external one. Add builds to a group with the `apple_add_build_to_beta_groups` action, and testers with `apple_beta_group_tester`.
 
 ## Example Usage
 
