@@ -1,0 +1,1 @@
+terraform import apple_app_store_version_phased_release.ios 1234567890

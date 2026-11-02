@@ -134,15 +134,19 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 	return []func() action.Action{
 		newAddBuildTestersAction,
 		newAddBuildToBetaGroupsAction,
+		newAssignEncryptionDeclarationAction,
+		newCancelReviewSubmissionAction,
 		newDeleteBetaTesterAction,
 		newExpireBuildAction,
 		newInviteBetaTesterAction,
 		newNotifyBetaTestersAction,
 		newRemoveBetaTestersFromAppAction,
 		newRemoveBuildFromBetaGroupsAction,
+		newReleaseVersionAction,
 		newRemoveBuildTestersAction,
 		newSetBuildExportComplianceAction,
 		newSubmitBetaReviewAction,
+		newSubmitForReviewAction,
 	}
 }
 
@@ -154,6 +158,11 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newAppInfoLocalizationResource,
 		newAppInfoResource,
 		newAppSettingsResource,
+		newAppStoreVersionResource,
+		newVersionLocalizationResource,
+		newReviewDetailResource,
+		newPhasedReleaseResource,
+		newEncryptionDeclarationResource,
 		newAppTagResource,
 		newBetaAppLocalizationResource,
 		newBetaAppReviewDetailResource,

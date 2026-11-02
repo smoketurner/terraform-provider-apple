@@ -70,6 +70,7 @@ type Server struct {
 	users      *usersState
 	appInfos   map[string]*appInfo
 	appMeta    *appMetaState
+	versions   *versionsState
 
 	failNext map[string][]int
 	requests []string
@@ -103,6 +104,7 @@ func NewServer() *Server {
 		users:        newUsersState(),
 		appInfos:     map[string]*appInfo{},
 		appMeta:      newAppMetaState(),
+		versions:     newVersionsState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

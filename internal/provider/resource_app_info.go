@@ -29,7 +29,7 @@ var editableAppInfoStates = enum(gen.AppInfoAttributesStatePREPAREFORSUBMISSION,
 	gen.AppInfoAttributesStateWAITINGFORREVIEW, gen.AppInfoAttributesStateREJECTED, gen.AppInfoAttributesStateDEVELOPERREJECTED)
 
 // errNotEditable reports that no app info of an app can be edited.
-var errNotEditable = errors.New("no version of the app is in an editable state; create a new App Store version first, " +
+var errNotEditable = errors.New("no version of the app is in an editable state; create the next version with apple_app_store_version first, " +
 	"or wait for review to finish")
 
 // appInfos returns an app's app info that can be edited, if any, and the

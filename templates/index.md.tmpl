@@ -51,6 +51,10 @@ Manage App Store Connect as code through the [App Store Connect API](https://dev
   app info of the version in preparation and take effect when it is released. They need a version in an editable state;
   otherwise applying fails and names the problem. The resources are keyed by app and locale, because App Store Connect
   creates new records with each version.
+* **A released version is replaced by the next one.** `apple_app_store_version` manages the platform's version in
+  preparation, adopting it if it exists. Once a version is approved it can't be edited, so changing its configuration
+  creates the next version; destroying it deletes only a version that was never submitted. Its localizations, review
+  details and phased release are keyed by version, so they follow it. Submitting, canceling and releasing are actions.
 * **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
   the device, which still counts toward the team's device limit until the membership year renews.
 
