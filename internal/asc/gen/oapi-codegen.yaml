@@ -100,3 +100,13 @@ output-options:
     - profiles_devices_getToManyRelationship
     - profiles_getCollection
     - profiles_getInstance
+    - userInvitations_createInstance
+    - userInvitations_deleteInstance
+    - userInvitations_getCollection
+    - users_deleteInstance
+    - users_getCollection
+    - users_getInstance
+    - users_updateInstance
+    - users_visibleApps_createToManyRelationship
+    - users_visibleApps_deleteToManyRelationship
+    - users_visibleApps_getToManyRelationship

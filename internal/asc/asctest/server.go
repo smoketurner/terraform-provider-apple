@@ -67,6 +67,7 @@ type Server struct {
 	// certLimits caps the active certificates of a type.
 	certLimits map[gen.CertificateType]int
 	tf         *testflight
+	users      *usersState
 
 	failNext map[string][]int
 	requests []string
@@ -97,6 +98,7 @@ func NewServer() *Server {
 		apps:         map[string]*gen.App{},
 		certLimits:   defaultCertLimits(),
 		tf:           newTestflight(),
+		users:        newUsersState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

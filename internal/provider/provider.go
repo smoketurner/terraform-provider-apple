@@ -161,6 +161,8 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newCertificateResource,
 		newDeviceResource,
 		newProfileResource,
+		newUserResource,
+		newUserVisibleAppResource,
 		newIdentifierResource(merchantIDKind),
 		newIdentifierResource(passTypeIDKind),
 	}
@@ -189,5 +191,8 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newPreReleaseVersionsDataSource,
 		newProfileDataSource,
 		newProfilesDataSource,
+		newUserDataSource,
+		newUserInvitationsDataSource,
+		newUsersDataSource,
 	}
 }

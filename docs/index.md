@@ -61,6 +61,9 @@ provider "apple" {
 * **Per-app and per-build settings are adopted.** App Store Connect creates an app's beta app review detail and beta
   license agreement, and a build's beta detail. Their resources manage the existing object, and destroying one leaves
   the current settings in place.
+* **Users join by invitation.** `apple_user` sends an invitation, which expires after 3 days (the next apply sends a new
+  one), and manages the user's roles once they accept. `apple_user_visible_app` grants one app at a time, once the
+  invitation is accepted.
 * **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
   the device, which still counts toward the team's device limit until the membership year renews.
 
