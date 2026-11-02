@@ -138,26 +138,6 @@ func (s *Server) BundleIdsBundleIdCapabilitiesGetToManyRelated(w http.ResponseWr
 	writeJSON(w, http.StatusOK, gen.BundleIdCapabilitiesWithoutIncludesResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
-func (s *Server) BundleIdsBundleIdCapabilitiesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params gen.BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	if _, ok := s.bundleIDs[id]; !ok {
-		notFound(w, "bundleIds", id)
-		return
-	}
-	caps, links, meta, ok := page(w, r, s.bundleCapabilities(id), params.Limit, maxLinkageLimit)
-	if !ok {
-		return
-	}
-	resp := gen.BundleIdBundleIdCapabilitiesLinkagesResponse{Links: links, Meta: meta}
-	for _, c := range caps {
-		e := push(&resp.Data)
-		e.Id, e.Type = c.Id, "bundleIdCapabilities"
-	}
-	resp.Data = nonNil(resp.Data)
-	writeJSON(w, http.StatusOK, resp)
-}
-
 func (s *Server) BundleIdsProfilesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params gen.BundleIdsProfilesGetToManyRelatedParams) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -175,33 +155,7 @@ func (s *Server) BundleIdsProfilesGetToManyRelated(w http.ResponseWriter, r *htt
 	if !ok {
 		return
 	}
-	writeJSON(w, http.StatusOK, gen.ProfilesResponse{Data: nonNil(data), Links: links, Meta: meta})
-}
-
-func (s *Server) BundleIdsProfilesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params gen.BundleIdsProfilesGetToManyRelationshipParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	if _, ok := s.bundleIDs[id]; !ok {
-		notFound(w, "bundleIds", id)
-		return
-	}
-	var ids []string
-	for _, p := range sortedValues(s.profiles) {
-		if p.bundleID == id {
-			ids = append(ids, p.Id)
-		}
-	}
-	ids, links, meta, ok := page(w, r, ids, params.Limit, maxLinkageLimit)
-	if !ok {
-		return
-	}
-	resp := gen.BundleIdProfilesLinkagesResponse{Links: links, Meta: meta}
-	for _, pid := range ids {
-		e := push(&resp.Data)
-		e.Id, e.Type = pid, "profiles"
-	}
-	resp.Data = nonNil(resp.Data)
-	writeJSON(w, http.StatusOK, resp)
+	writeJSON(w, http.StatusOK, gen.ProfilesWithoutIncludesResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
 // BundleIdCapabilitiesCreateInstance enables a capability. Changing a bundle

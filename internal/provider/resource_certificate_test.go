@@ -43,7 +43,8 @@ resource "apple_certificate" %q {
   csr_content      = <<-EOT
 %sEOT
 %s
-}`, name, certType, csr, extra)
+}
+`, name, certType, csr, extra)
 }
 
 // checkCertificateContent checks that certificate_content is a DER

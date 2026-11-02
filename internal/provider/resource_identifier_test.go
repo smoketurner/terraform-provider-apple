@@ -18,7 +18,8 @@ func identifierConfig(typeName, value, name string) string {
 resource "apple_%s" "test" {
   identifier = %q
   name       = %q
-}`, typeName, value, name)
+}
+`, typeName, value, name)
 }
 
 func TestAccIdentifiers(t *testing.T) {

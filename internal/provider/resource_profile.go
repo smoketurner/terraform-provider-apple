@@ -103,8 +103,8 @@ func (r *profileResource) Schema(_ context.Context, _ resource.SchemaRequest, re
 				PlanModifiers:       keep,
 			},
 			"profile_content": schema.StringAttribute{
-				MarkdownDescription: "The profile, base64-encoded, for writing to a `.mobileprovision` or `.provisionprofile` file " +
-					"with `filebase64decode`-style functions.",
+				MarkdownDescription: "The profile, base64-encoded. Write it to a `.mobileprovision` or `.provisionprofile` " +
+					"file with the `content_base64` argument of `local_sensitive_file`.",
 				Computed:      true,
 				Sensitive:     true,
 				PlanModifiers: keep,

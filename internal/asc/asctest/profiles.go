@@ -162,22 +162,6 @@ func (s *Server) ProfilesDeleteInstance(w http.ResponseWriter, _ *http.Request, 
 	w.WriteHeader(http.StatusNoContent)
 }
 
-func (s *Server) ProfilesBundleIdGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, _ gen.ProfilesBundleIdGetToOneRelatedParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	p, ok := s.profiles[id]
-	if !ok {
-		notFound(w, "profiles", id)
-		return
-	}
-	b, ok := s.bundleIDs[p.bundleID]
-	if !ok {
-		notFound(w, "bundleIds", p.bundleID)
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.BundleIdResponse{Data: *b, Links: docLinks(r)})
-}
-
 func (s *Server) ProfilesBundleIdGetToOneRelationship(w http.ResponseWriter, r *http.Request, id string) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -189,27 +173,6 @@ func (s *Server) ProfilesBundleIdGetToOneRelationship(w http.ResponseWriter, r *
 	resp := gen.ProfileBundleIdLinkageResponse{Links: docLinks(r)}
 	resp.Data.Id, resp.Data.Type = p.bundleID, "bundleIds"
 	writeJSON(w, http.StatusOK, resp)
-}
-
-func (s *Server) ProfilesCertificatesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params gen.ProfilesCertificatesGetToManyRelatedParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	p, ok := s.profiles[id]
-	if !ok {
-		notFound(w, "profiles", id)
-		return
-	}
-	var items []gen.Certificate
-	for _, cid := range p.certificateIDs {
-		if c, ok := s.certificates[cid]; ok {
-			items = append(items, c.Certificate)
-		}
-	}
-	data, links, meta, ok := page(w, r, items, params.Limit, maxLimit)
-	if !ok {
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.CertificatesResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
 // ProfilesCertificatesGetToManyRelationship lists the profile's certificate
@@ -233,25 +196,6 @@ func (s *Server) ProfilesCertificatesGetToManyRelationship(w http.ResponseWriter
 	}
 	resp.Data = nonNil(resp.Data)
 	writeJSON(w, http.StatusOK, resp)
-}
-
-func (s *Server) ProfilesDevicesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params gen.ProfilesDevicesGetToManyRelatedParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	p, ok := s.profiles[id]
-	if !ok {
-		notFound(w, "profiles", id)
-		return
-	}
-	var items []gen.Device
-	for _, did := range p.deviceIDs {
-		items = append(items, *s.devices[did])
-	}
-	data, links, meta, ok := page(w, r, items, params.Limit, maxLimit)
-	if !ok {
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.DevicesResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
 func (s *Server) ProfilesDevicesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params gen.ProfilesDevicesGetToManyRelationshipParams) {

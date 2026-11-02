@@ -23,7 +23,8 @@ resource "apple_device" "test" {
   udid     = %q
   platform = %q
 %s
-}`, name, testUDID, platform, extra)
+}
+`, name, testUDID, platform, extra)
 }
 
 // checkDeviceStatus checks the device's status at App Store Connect.

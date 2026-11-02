@@ -20,7 +20,8 @@ resource "apple_bundle_id" "test" {
   name       = "` + name + `"
   platform   = "IOS"
 ` + extra + `
-}`
+}
+`
 }
 
 func TestAccBundleID(t *testing.T) {

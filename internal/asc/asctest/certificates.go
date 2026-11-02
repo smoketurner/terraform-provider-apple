@@ -274,22 +274,6 @@ func (s *Server) CertificatesDeleteInstance(w http.ResponseWriter, _ *http.Reque
 	w.WriteHeader(http.StatusNoContent)
 }
 
-func (s *Server) CertificatesPassTypeIdGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, _ gen.CertificatesPassTypeIdGetToOneRelatedParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	c, ok := s.certificates[id]
-	if !ok {
-		notFound(w, "certificates", id)
-		return
-	}
-	p, ok := s.passTypeIDs[c.passTypeID]
-	if !ok {
-		notFound(w, "passTypeIds", c.passTypeID)
-		return
-	}
-	writeJSON(w, http.StatusOK, gen.PassTypeIdResponse{Data: *p, Links: docLinks(r)})
-}
-
 // CertificatesPassTypeIdGetToOneRelationship returns the linkage, with null
 // data for a certificate that has no pass type ID.
 func (s *Server) CertificatesPassTypeIdGetToOneRelationship(w http.ResponseWriter, r *http.Request, id string) {

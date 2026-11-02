@@ -392,8 +392,8 @@ operations:
   apps_gameCenterDetail_getToOneRelationship: {status: planned, issue: 13}
   apps_gameCenterEnabledVersions_getToManyRelated: {status: planned, issue: 13}
   apps_gameCenterEnabledVersions_getToManyRelationship: {status: planned, issue: 13}
-  apps_getCollection: {status: in_progress, issue: 2}
-  apps_getInstance: {status: in_progress, issue: 2}
+  apps_getCollection: {status: covered, by: [data.apple_app, data.apple_apps]}
+  apps_getInstance: {status: covered, by: [data.apple_app]}
   apps_inAppPurchasesV2_getToManyRelated: {status: planned, issue: 7}
   apps_inAppPurchasesV2_getToManyRelationship: {status: planned, issue: 7}
   apps_inAppPurchases_getToManyRelated: {status: planned, issue: 7}
@@ -570,27 +570,27 @@ operations:
   builds_preReleaseVersion_getToOneRelated: {status: planned, issue: 3}
   builds_preReleaseVersion_getToOneRelationship: {status: planned, issue: 3}
   builds_updateInstance: {status: planned, issue: 3}
-  bundleIdCapabilities_createInstance: {status: in_progress, issue: 2}
-  bundleIdCapabilities_deleteInstance: {status: in_progress, issue: 2}
-  bundleIdCapabilities_updateInstance: {status: in_progress, issue: 2}
+  bundleIdCapabilities_createInstance: {status: covered, by: [apple_bundle_id_capability]}
+  bundleIdCapabilities_deleteInstance: {status: covered, by: [apple_bundle_id_capability]}
+  bundleIdCapabilities_updateInstance: {status: covered, by: [apple_bundle_id_capability]}
   bundleIds_app_getToOneRelated: {status: planned, issue: 5}
   bundleIds_app_getToOneRelationship: {status: planned, issue: 5}
-  bundleIds_bundleIdCapabilities_getToManyRelated: {status: in_progress, issue: 2}
-  bundleIds_bundleIdCapabilities_getToManyRelationship: {status: in_progress, issue: 2}
-  bundleIds_createInstance: {status: in_progress, issue: 2}
-  bundleIds_deleteInstance: {status: in_progress, issue: 2}
-  bundleIds_getCollection: {status: in_progress, issue: 2}
-  bundleIds_getInstance: {status: in_progress, issue: 2}
-  bundleIds_profiles_getToManyRelated: {status: in_progress, issue: 2}
-  bundleIds_profiles_getToManyRelationship: {status: in_progress, issue: 2}
-  bundleIds_updateInstance: {status: in_progress, issue: 2}
-  certificates_createInstance: {status: in_progress, issue: 2}
-  certificates_deleteInstance: {status: in_progress, issue: 2}
-  certificates_getCollection: {status: in_progress, issue: 2}
-  certificates_getInstance: {status: in_progress, issue: 2}
-  certificates_passTypeId_getToOneRelated: {status: in_progress, issue: 2}
-  certificates_passTypeId_getToOneRelationship: {status: in_progress, issue: 2}
-  certificates_updateInstance: {status: in_progress, issue: 2}
+  bundleIds_bundleIdCapabilities_getToManyRelated: {status: covered, by: [apple_bundle_id_capability]}
+  bundleIds_bundleIdCapabilities_getToManyRelationship: {status: out_of_scope, reason: "the getToManyRelated operation returns the same capabilities with their settings"}
+  bundleIds_createInstance: {status: covered, by: [apple_bundle_id]}
+  bundleIds_deleteInstance: {status: covered, by: [apple_bundle_id]}
+  bundleIds_getCollection: {status: covered, by: [apple_bundle_id, apple_bundle_id_capability, data.apple_bundle_id, data.apple_bundle_ids]}
+  bundleIds_getInstance: {status: covered, by: [apple_bundle_id, apple_bundle_id_capability, data.apple_bundle_id]}
+  bundleIds_profiles_getToManyRelated: {status: covered, by: [data.apple_profiles]}
+  bundleIds_profiles_getToManyRelationship: {status: out_of_scope, reason: "the getToManyRelated operation returns the same profiles with their attributes"}
+  bundleIds_updateInstance: {status: covered, by: [apple_bundle_id]}
+  certificates_createInstance: {status: covered, by: [apple_certificate]}
+  certificates_deleteInstance: {status: covered, by: [apple_certificate]}
+  certificates_getCollection: {status: covered, by: [apple_certificate, data.apple_certificate, data.apple_certificates]}
+  certificates_getInstance: {status: covered, by: [apple_certificate, data.apple_certificate]}
+  certificates_passTypeId_getToOneRelated: {status: out_of_scope, reason: "apple_certificate needs only the pass type ID, which the getToOneRelationship operation returns"}
+  certificates_passTypeId_getToOneRelationship: {status: covered, by: [apple_certificate]}
+  certificates_updateInstance: {status: covered, by: [apple_certificate]}
   ciArtifacts_getInstance: {status: planned, issue: 8}
   ciBuildActions_artifacts_getToManyRelated: {status: planned, issue: 8}
   ciBuildActions_artifacts_getToManyRelationship: {status: planned, issue: 8}
@@ -644,10 +644,10 @@ operations:
   customerReviews_getInstance: {status: planned, issue: 5}
   customerReviews_response_getToOneRelated: {status: planned, issue: 5}
   customerReviews_response_getToOneRelationship: {status: planned, issue: 5}
-  devices_createInstance: {status: in_progress, issue: 2}
-  devices_getCollection: {status: in_progress, issue: 2}
-  devices_getInstance: {status: in_progress, issue: 2}
-  devices_updateInstance: {status: in_progress, issue: 2}
+  devices_createInstance: {status: covered, by: [apple_device]}
+  devices_getCollection: {status: covered, by: [apple_device, data.apple_device, data.apple_devices]}
+  devices_getInstance: {status: covered, by: [apple_device, data.apple_device]}
+  devices_updateInstance: {status: covered, by: [apple_device]}
   diagnosticSignatures_logs_getToManyRelated: {status: planned, issue: 16}
   endAppAvailabilityPreOrders_createInstance: {status: planned, issue: 6}
   endUserLicenseAgreements_createInstance: {status: planned, issue: 5}
@@ -1092,41 +1092,41 @@ operations:
   marketplaceWebhooks_deleteInstance: {status: planned, issue: 15}
   marketplaceWebhooks_getCollection: {status: planned, issue: 15}
   marketplaceWebhooks_updateInstance: {status: planned, issue: 15}
-  merchantIds_certificates_getToManyRelated: {status: in_progress, issue: 2}
-  merchantIds_certificates_getToManyRelationship: {status: in_progress, issue: 2}
-  merchantIds_createInstance: {status: in_progress, issue: 2}
-  merchantIds_deleteInstance: {status: in_progress, issue: 2}
-  merchantIds_getCollection: {status: in_progress, issue: 2}
-  merchantIds_getInstance: {status: in_progress, issue: 2}
-  merchantIds_updateInstance: {status: in_progress, issue: 2}
+  merchantIds_certificates_getToManyRelated: {status: covered, by: [data.apple_certificates]}
+  merchantIds_certificates_getToManyRelationship: {status: out_of_scope, reason: "the getToManyRelated operation returns the same certificates with their attributes"}
+  merchantIds_createInstance: {status: covered, by: [apple_merchant_id]}
+  merchantIds_deleteInstance: {status: covered, by: [apple_merchant_id]}
+  merchantIds_getCollection: {status: covered, by: [apple_merchant_id, data.apple_merchant_id, data.apple_merchant_ids]}
+  merchantIds_getInstance: {status: covered, by: [apple_merchant_id, data.apple_merchant_id]}
+  merchantIds_updateInstance: {status: covered, by: [apple_merchant_id]}
   nominations_createInstance: {status: planned, issue: 5}
   nominations_deleteInstance: {status: planned, issue: 5}
   nominations_getCollection: {status: planned, issue: 5}
   nominations_getInstance: {status: planned, issue: 5}
   nominations_updateInstance: {status: planned, issue: 5}
-  passTypeIds_certificates_getToManyRelated: {status: in_progress, issue: 2}
-  passTypeIds_certificates_getToManyRelationship: {status: in_progress, issue: 2}
-  passTypeIds_createInstance: {status: in_progress, issue: 2}
-  passTypeIds_deleteInstance: {status: in_progress, issue: 2}
-  passTypeIds_getCollection: {status: in_progress, issue: 2}
-  passTypeIds_getInstance: {status: in_progress, issue: 2}
-  passTypeIds_updateInstance: {status: in_progress, issue: 2}
+  passTypeIds_certificates_getToManyRelated: {status: covered, by: [data.apple_certificates]}
+  passTypeIds_certificates_getToManyRelationship: {status: out_of_scope, reason: "the getToManyRelated operation returns the same certificates with their attributes"}
+  passTypeIds_createInstance: {status: covered, by: [apple_pass_type_id]}
+  passTypeIds_deleteInstance: {status: covered, by: [apple_pass_type_id]}
+  passTypeIds_getCollection: {status: covered, by: [apple_pass_type_id, data.apple_pass_type_id, data.apple_pass_type_ids]}
+  passTypeIds_getInstance: {status: covered, by: [apple_pass_type_id, data.apple_pass_type_id]}
+  passTypeIds_updateInstance: {status: covered, by: [apple_pass_type_id]}
   preReleaseVersions_app_getToOneRelated: {status: planned, issue: 5}
   preReleaseVersions_app_getToOneRelationship: {status: planned, issue: 5}
   preReleaseVersions_builds_getToManyRelated: {status: planned, issue: 3}
   preReleaseVersions_builds_getToManyRelationship: {status: planned, issue: 3}
   preReleaseVersions_getCollection: {status: planned, issue: 3}
   preReleaseVersions_getInstance: {status: planned, issue: 3}
-  profiles_bundleId_getToOneRelated: {status: in_progress, issue: 2}
-  profiles_bundleId_getToOneRelationship: {status: in_progress, issue: 2}
-  profiles_certificates_getToManyRelated: {status: in_progress, issue: 2}
-  profiles_certificates_getToManyRelationship: {status: in_progress, issue: 2}
-  profiles_createInstance: {status: in_progress, issue: 2}
-  profiles_deleteInstance: {status: in_progress, issue: 2}
-  profiles_devices_getToManyRelated: {status: in_progress, issue: 2}
-  profiles_devices_getToManyRelationship: {status: in_progress, issue: 2}
-  profiles_getCollection: {status: in_progress, issue: 2}
-  profiles_getInstance: {status: in_progress, issue: 2}
+  profiles_bundleId_getToOneRelated: {status: out_of_scope, reason: "apple_profile needs only the bundle ID's ID, which the getToOneRelationship operation returns"}
+  profiles_bundleId_getToOneRelationship: {status: covered, by: [apple_profile, data.apple_profile]}
+  profiles_certificates_getToManyRelated: {status: out_of_scope, reason: "apple_profile needs only the certificate IDs, which the getToManyRelationship operation returns"}
+  profiles_certificates_getToManyRelationship: {status: covered, by: [apple_profile, data.apple_profile]}
+  profiles_createInstance: {status: covered, by: [apple_profile]}
+  profiles_deleteInstance: {status: covered, by: [apple_profile]}
+  profiles_devices_getToManyRelated: {status: out_of_scope, reason: "apple_profile needs only the device IDs, which the getToManyRelationship operation returns"}
+  profiles_devices_getToManyRelationship: {status: covered, by: [apple_profile, data.apple_profile]}
+  profiles_getCollection: {status: covered, by: [apple_profile, data.apple_profile, data.apple_profiles]}
+  profiles_getInstance: {status: covered, by: [apple_profile, data.apple_profile]}
   promotedPurchases_createInstance: {status: planned, issue: 7}
   promotedPurchases_deleteInstance: {status: planned, issue: 7}
   promotedPurchases_getInstance: {status: planned, issue: 7}

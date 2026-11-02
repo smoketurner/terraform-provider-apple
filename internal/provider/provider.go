@@ -138,5 +138,20 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 }
 
 func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataSource {
-	return nil
+	return []func() datasource.DataSource{
+		newAppDataSource,
+		newAppsDataSource,
+		newBundleIDDataSource,
+		newBundleIDsDataSource,
+		newCertificateDataSource,
+		newCertificatesDataSource,
+		newDeviceDataSource,
+		newDevicesDataSource,
+		newIdentifierDataSource(merchantIDKind),
+		newIdentifiersDataSource[merchantIDsData](merchantIDKind),
+		newIdentifierDataSource(passTypeIDKind),
+		newIdentifiersDataSource[passTypeIDsData](passTypeIDKind),
+		newProfileDataSource,
+		newProfilesDataSource,
+	}
 }

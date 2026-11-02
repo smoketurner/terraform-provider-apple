@@ -132,26 +132,6 @@ func (s *Server) MerchantIdsCertificatesGetToManyRelated(w http.ResponseWriter, 
 	writeJSON(w, http.StatusOK, gen.CertificatesResponse{Data: nonNil(data), Links: links, Meta: meta})
 }
 
-func (s *Server) MerchantIdsCertificatesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params gen.MerchantIdsCertificatesGetToManyRelationshipParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	if _, ok := s.merchantIDs[id]; !ok {
-		notFound(w, "merchantIds", id)
-		return
-	}
-	certs, links, meta, ok := page(w, r, s.certificatesFor(id, merchantOf), params.Limit, maxLinkageLimit)
-	if !ok {
-		return
-	}
-	resp := gen.MerchantIdCertificatesLinkagesResponse{Links: links, Meta: meta}
-	for _, c := range certs {
-		e := push(&resp.Data)
-		e.Id, e.Type = c.Id, "certificates"
-	}
-	resp.Data = nonNil(resp.Data)
-	writeJSON(w, http.StatusOK, resp)
-}
-
 func (s *Server) PassTypeIdsGetCollection(w http.ResponseWriter, r *http.Request, params gen.PassTypeIdsGetCollectionParams) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
@@ -244,24 +224,4 @@ func (s *Server) PassTypeIdsCertificatesGetToManyRelated(w http.ResponseWriter, 
 		return
 	}
 	writeJSON(w, http.StatusOK, gen.CertificatesResponse{Data: nonNil(data), Links: links, Meta: meta})
-}
-
-func (s *Server) PassTypeIdsCertificatesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params gen.PassTypeIdsCertificatesGetToManyRelationshipParams) {
-	s.mu.Lock()
-	defer s.mu.Unlock()
-	if _, ok := s.passTypeIDs[id]; !ok {
-		notFound(w, "passTypeIds", id)
-		return
-	}
-	certs, links, meta, ok := page(w, r, s.certificatesFor(id, passTypeOf), params.Limit, maxLinkageLimit)
-	if !ok {
-		return
-	}
-	resp := gen.PassTypeIdCertificatesLinkagesResponse{Links: links, Meta: meta}
-	for _, c := range certs {
-		e := push(&resp.Data)
-		e.Id, e.Type = c.Id, "certificates"
-	}
-	resp.Data = nonNil(resp.Data)
-	writeJSON(w, http.StatusOK, resp)
 }

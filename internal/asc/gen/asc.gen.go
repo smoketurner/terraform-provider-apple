@@ -2140,21 +2140,6 @@ func (e BundleIdType) Valid() bool {
 	}
 }
 
-// Defines values for BundleIdBundleIdCapabilitiesLinkagesResponseDataType.
-const (
-	BundleIdBundleIdCapabilitiesLinkagesResponseDataTypeBundleIdCapabilities BundleIdBundleIdCapabilitiesLinkagesResponseDataType = "bundleIdCapabilities"
-)
-
-// Valid indicates whether the value is a known member of the BundleIdBundleIdCapabilitiesLinkagesResponseDataType enum.
-func (e BundleIdBundleIdCapabilitiesLinkagesResponseDataType) Valid() bool {
-	switch e {
-	case BundleIdBundleIdCapabilitiesLinkagesResponseDataTypeBundleIdCapabilities:
-		return true
-	default:
-		return false
-	}
-}
-
 // Defines values for BundleIdCapabilityType.
 const (
 	BundleIdCapabilityTypeBundleIdCapabilities BundleIdCapabilityType = "bundleIdCapabilities"
@@ -2245,21 +2230,6 @@ func (e BundleIdPlatform) Valid() bool {
 	case BundleIdPlatformMACOS:
 		return true
 	case BundleIdPlatformUNIVERSAL:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for BundleIdProfilesLinkagesResponseDataType.
-const (
-	BundleIdProfilesLinkagesResponseDataTypeProfiles BundleIdProfilesLinkagesResponseDataType = "profiles"
-)
-
-// Valid indicates whether the value is a known member of the BundleIdProfilesLinkagesResponseDataType enum.
-func (e BundleIdProfilesLinkagesResponseDataType) Valid() bool {
-	switch e {
-	case BundleIdProfilesLinkagesResponseDataTypeProfiles:
 		return true
 	default:
 		return false
@@ -3418,21 +3388,6 @@ func (e MerchantIdType) Valid() bool {
 	}
 }
 
-// Defines values for MerchantIdCertificatesLinkagesResponseDataType.
-const (
-	MerchantIdCertificatesLinkagesResponseDataTypeCertificates MerchantIdCertificatesLinkagesResponseDataType = "certificates"
-)
-
-// Valid indicates whether the value is a known member of the MerchantIdCertificatesLinkagesResponseDataType enum.
-func (e MerchantIdCertificatesLinkagesResponseDataType) Valid() bool {
-	switch e {
-	case MerchantIdCertificatesLinkagesResponseDataTypeCertificates:
-		return true
-	default:
-		return false
-	}
-}
-
 // Defines values for MerchantIdCreateRequestDataType.
 const (
 	MerchantIdCreateRequestDataTypeMerchantIds MerchantIdCreateRequestDataType = "merchantIds"
@@ -3487,21 +3442,6 @@ const (
 func (e PassTypeIdType) Valid() bool {
 	switch e {
 	case PassTypeIdTypePassTypeIds:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for PassTypeIdCertificatesLinkagesResponseDataType.
-const (
-	PassTypeIdCertificatesLinkagesResponseDataTypeCertificates PassTypeIdCertificatesLinkagesResponseDataType = "certificates"
-)
-
-// Valid indicates whether the value is a known member of the PassTypeIdCertificatesLinkagesResponseDataType enum.
-func (e PassTypeIdCertificatesLinkagesResponseDataType) Valid() bool {
-	switch e {
-	case PassTypeIdCertificatesLinkagesResponseDataTypeCertificates:
 		return true
 	default:
 		return false
@@ -8008,81 +7948,6 @@ func (e CertificatesGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
-// Defines values for CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds.
-const (
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIdsCertificates CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds = "certificates"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIdsIdentifier   CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds = "identifier"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIdsName         CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds = "name"
-)
-
-// Valid indicates whether the value is a known member of the CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds enum.
-func (e CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds) Valid() bool {
-	switch e {
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIdsCertificates:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIdsIdentifier:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIdsName:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates.
-const (
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesActivated          CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "activated"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesCertificateContent CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "certificateContent"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesCertificateType    CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "certificateType"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesDisplayName        CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "displayName"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesExpirationDate     CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "expirationDate"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesName               CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "name"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesPassTypeId         CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "passTypeId"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesPlatform           CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "platform"
-	CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesSerialNumber       CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates = "serialNumber"
-)
-
-// Valid indicates whether the value is a known member of the CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates enum.
-func (e CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates) Valid() bool {
-	switch e {
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesActivated:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesCertificateContent:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesCertificateType:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesDisplayName:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesExpirationDate:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesName:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesPassTypeId:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesPlatform:
-		return true
-	case CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificatesSerialNumber:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for CertificatesPassTypeIdGetToOneRelatedParamsInclude.
-const (
-	CertificatesPassTypeIdGetToOneRelatedParamsIncludeCertificates CertificatesPassTypeIdGetToOneRelatedParamsInclude = "certificates"
-)
-
-// Valid indicates whether the value is a known member of the CertificatesPassTypeIdGetToOneRelatedParamsInclude enum.
-func (e CertificatesPassTypeIdGetToOneRelatedParamsInclude) Valid() bool {
-	switch e {
-	case CertificatesPassTypeIdGetToOneRelatedParamsIncludeCertificates:
-		return true
-	default:
-		return false
-	}
-}
-
 // Defines values for DevicesGetCollectionParamsFilterPlatform.
 const (
 	DevicesGetCollectionParamsFilterPlatformIOS       DevicesGetCollectionParamsFilterPlatform = "IOS"
@@ -9382,111 +9247,6 @@ func (e ProfilesGetInstanceParamsInclude) Valid() bool {
 	case ProfilesGetInstanceParamsIncludeCertificates:
 		return true
 	case ProfilesGetInstanceParamsIncludeDevices:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds.
-const (
-	ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsApp                  ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds = "app"
-	ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsBundleIdCapabilities ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds = "bundleIdCapabilities"
-	ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsIdentifier           ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds = "identifier"
-	ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsName                 ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds = "name"
-	ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsPlatform             ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds = "platform"
-	ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsProfiles             ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds = "profiles"
-	ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsSeedId               ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds = "seedId"
-)
-
-// Valid indicates whether the value is a known member of the ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds enum.
-func (e ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds) Valid() bool {
-	switch e {
-	case ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsApp:
-		return true
-	case ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsBundleIdCapabilities:
-		return true
-	case ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsIdentifier:
-		return true
-	case ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsName:
-		return true
-	case ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsPlatform:
-		return true
-	case ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsProfiles:
-		return true
-	case ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIdsSeedId:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates.
-const (
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesActivated          ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "activated"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesCertificateContent ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "certificateContent"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesCertificateType    ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "certificateType"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesDisplayName        ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "displayName"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesExpirationDate     ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "expirationDate"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesName               ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "name"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesPassTypeId         ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "passTypeId"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesPlatform           ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "platform"
-	ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesSerialNumber       ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates = "serialNumber"
-)
-
-// Valid indicates whether the value is a known member of the ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates enum.
-func (e ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates) Valid() bool {
-	switch e {
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesActivated:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesCertificateContent:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesCertificateType:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesDisplayName:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesExpirationDate:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesName:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesPassTypeId:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesPlatform:
-		return true
-	case ProfilesCertificatesGetToManyRelatedParamsFieldsCertificatesSerialNumber:
-		return true
-	default:
-		return false
-	}
-}
-
-// Defines values for ProfilesDevicesGetToManyRelatedParamsFieldsDevices.
-const (
-	ProfilesDevicesGetToManyRelatedParamsFieldsDevicesAddedDate   ProfilesDevicesGetToManyRelatedParamsFieldsDevices = "addedDate"
-	ProfilesDevicesGetToManyRelatedParamsFieldsDevicesDeviceClass ProfilesDevicesGetToManyRelatedParamsFieldsDevices = "deviceClass"
-	ProfilesDevicesGetToManyRelatedParamsFieldsDevicesModel       ProfilesDevicesGetToManyRelatedParamsFieldsDevices = "model"
-	ProfilesDevicesGetToManyRelatedParamsFieldsDevicesName        ProfilesDevicesGetToManyRelatedParamsFieldsDevices = "name"
-	ProfilesDevicesGetToManyRelatedParamsFieldsDevicesPlatform    ProfilesDevicesGetToManyRelatedParamsFieldsDevices = "platform"
-	ProfilesDevicesGetToManyRelatedParamsFieldsDevicesStatus      ProfilesDevicesGetToManyRelatedParamsFieldsDevices = "status"
-	ProfilesDevicesGetToManyRelatedParamsFieldsDevicesUdid        ProfilesDevicesGetToManyRelatedParamsFieldsDevices = "udid"
-)
-
-// Valid indicates whether the value is a known member of the ProfilesDevicesGetToManyRelatedParamsFieldsDevices enum.
-func (e ProfilesDevicesGetToManyRelatedParamsFieldsDevices) Valid() bool {
-	switch e {
-	case ProfilesDevicesGetToManyRelatedParamsFieldsDevicesAddedDate:
-		return true
-	case ProfilesDevicesGetToManyRelatedParamsFieldsDevicesDeviceClass:
-		return true
-	case ProfilesDevicesGetToManyRelatedParamsFieldsDevicesModel:
-		return true
-	case ProfilesDevicesGetToManyRelatedParamsFieldsDevicesName:
-		return true
-	case ProfilesDevicesGetToManyRelatedParamsFieldsDevicesPlatform:
-		return true
-	case ProfilesDevicesGetToManyRelatedParamsFieldsDevicesStatus:
-		return true
-	case ProfilesDevicesGetToManyRelatedParamsFieldsDevicesUdid:
 		return true
 	default:
 		return false
@@ -10849,19 +10609,6 @@ type BundleIdRelationshipsProfilesDataType string
 // BundleIdType defines model for BundleId.Type.
 type BundleIdType string
 
-// BundleIdBundleIdCapabilitiesLinkagesResponse defines model for BundleIdBundleIdCapabilitiesLinkagesResponse.
-type BundleIdBundleIdCapabilitiesLinkagesResponse struct {
-	Data []struct {
-		Id   string                                               `json:"id"`
-		Type BundleIdBundleIdCapabilitiesLinkagesResponseDataType `json:"type"`
-	} `json:"data"`
-	Links PagedDocumentLinks `json:"links"`
-	Meta  *PagingInformation `json:"meta,omitempty"`
-}
-
-// BundleIdBundleIdCapabilitiesLinkagesResponseDataType defines model for BundleIdBundleIdCapabilitiesLinkagesResponse.Data.Type.
-type BundleIdBundleIdCapabilitiesLinkagesResponseDataType string
-
 // BundleIdCapabilitiesWithoutIncludesResponse defines model for BundleIdCapabilitiesWithoutIncludesResponse.
 type BundleIdCapabilitiesWithoutIncludesResponse struct {
 	Data  []BundleIdCapability `json:"data"`
@@ -10948,19 +10695,6 @@ type BundleIdCreateRequestDataType string
 // BundleIdPlatform defines model for BundleIdPlatform.
 type BundleIdPlatform string
 
-// BundleIdProfilesLinkagesResponse defines model for BundleIdProfilesLinkagesResponse.
-type BundleIdProfilesLinkagesResponse struct {
-	Data []struct {
-		Id   string                                   `json:"id"`
-		Type BundleIdProfilesLinkagesResponseDataType `json:"type"`
-	} `json:"data"`
-	Links PagedDocumentLinks `json:"links"`
-	Meta  *PagingInformation `json:"meta,omitempty"`
-}
-
-// BundleIdProfilesLinkagesResponseDataType defines model for BundleIdProfilesLinkagesResponse.Data.Type.
-type BundleIdProfilesLinkagesResponseDataType string
-
 // BundleIdResponse defines model for BundleIdResponse.
 type BundleIdResponse struct {
 	Data     BundleId                          `json:"data"`
@@ -10986,12 +10720,6 @@ type BundleIdUpdateRequest struct {
 
 // BundleIdUpdateRequestDataType defines model for BundleIdUpdateRequest.Data.Type.
 type BundleIdUpdateRequestDataType string
-
-// BundleIdWithoutIncludesResponse defines model for BundleIdWithoutIncludesResponse.
-type BundleIdWithoutIncludesResponse struct {
-	Data  BundleId      `json:"data"`
-	Links DocumentLinks `json:"links"`
-}
 
 // BundleIdsResponse defines model for BundleIdsResponse.
 type BundleIdsResponse struct {
@@ -11150,13 +10878,6 @@ type CertificatesResponse struct {
 	Meta     *PagingInformation `json:"meta,omitempty"`
 }
 
-// CertificatesWithoutIncludesResponse defines model for CertificatesWithoutIncludesResponse.
-type CertificatesWithoutIncludesResponse struct {
-	Data  []Certificate      `json:"data"`
-	Links PagedDocumentLinks `json:"links"`
-	Meta  *PagingInformation `json:"meta,omitempty"`
-}
-
 // CiProduct defines model for CiProduct.
 type CiProduct struct {
 	Attributes *struct {
@@ -11282,13 +11003,6 @@ type DeviceUpdateRequestDataType string
 
 // DevicesResponse defines model for DevicesResponse.
 type DevicesResponse struct {
-	Data  []Device           `json:"data"`
-	Links PagedDocumentLinks `json:"links"`
-	Meta  *PagingInformation `json:"meta,omitempty"`
-}
-
-// DevicesWithoutIncludesResponse defines model for DevicesWithoutIncludesResponse.
-type DevicesWithoutIncludesResponse struct {
 	Data  []Device           `json:"data"`
 	Links PagedDocumentLinks `json:"links"`
 	Meta  *PagingInformation `json:"meta,omitempty"`
@@ -11764,19 +11478,6 @@ type MerchantIdRelationshipsCertificatesDataType string
 // MerchantIdType defines model for MerchantId.Type.
 type MerchantIdType string
 
-// MerchantIdCertificatesLinkagesResponse defines model for MerchantIdCertificatesLinkagesResponse.
-type MerchantIdCertificatesLinkagesResponse struct {
-	Data []struct {
-		Id   string                                         `json:"id"`
-		Type MerchantIdCertificatesLinkagesResponseDataType `json:"type"`
-	} `json:"data"`
-	Links PagedDocumentLinks `json:"links"`
-	Meta  *PagingInformation `json:"meta,omitempty"`
-}
-
-// MerchantIdCertificatesLinkagesResponseDataType defines model for MerchantIdCertificatesLinkagesResponse.Data.Type.
-type MerchantIdCertificatesLinkagesResponseDataType string
-
 // MerchantIdCreateRequest defines model for MerchantIdCreateRequest.
 type MerchantIdCreateRequest struct {
 	Data struct {
@@ -11862,19 +11563,6 @@ type PassTypeIdRelationshipsCertificatesDataType string
 
 // PassTypeIdType defines model for PassTypeId.Type.
 type PassTypeIdType string
-
-// PassTypeIdCertificatesLinkagesResponse defines model for PassTypeIdCertificatesLinkagesResponse.
-type PassTypeIdCertificatesLinkagesResponse struct {
-	Data []struct {
-		Id   string                                         `json:"id"`
-		Type PassTypeIdCertificatesLinkagesResponseDataType `json:"type"`
-	} `json:"data"`
-	Links PagedDocumentLinks `json:"links"`
-	Meta  *PagingInformation `json:"meta,omitempty"`
-}
-
-// PassTypeIdCertificatesLinkagesResponseDataType defines model for PassTypeIdCertificatesLinkagesResponse.Data.Type.
-type PassTypeIdCertificatesLinkagesResponseDataType string
 
 // PassTypeIdCreateRequest defines model for PassTypeIdCreateRequest.
 type PassTypeIdCreateRequest struct {
@@ -12944,18 +12632,6 @@ type BundleIdsProfilesGetToManyRelatedParams struct {
 // BundleIdsProfilesGetToManyRelatedParamsFieldsProfiles defines parameters for BundleIdsProfilesGetToManyRelated.
 type BundleIdsProfilesGetToManyRelatedParamsFieldsProfiles string
 
-// BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams defines parameters for BundleIdsBundleIdCapabilitiesGetToManyRelationship.
-type BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams struct {
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-}
-
-// BundleIdsProfilesGetToManyRelationshipParams defines parameters for BundleIdsProfilesGetToManyRelationship.
-type BundleIdsProfilesGetToManyRelationshipParams struct {
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-}
-
 // CertificatesGetCollectionParams defines parameters for CertificatesGetCollection.
 type CertificatesGetCollectionParams struct {
 	// FilterDisplayName filter by attribute 'displayName'
@@ -13021,30 +12697,6 @@ type CertificatesGetInstanceParamsFieldsPassTypeIds string
 
 // CertificatesGetInstanceParamsInclude defines parameters for CertificatesGetInstance.
 type CertificatesGetInstanceParamsInclude string
-
-// CertificatesPassTypeIdGetToOneRelatedParams defines parameters for CertificatesPassTypeIdGetToOneRelated.
-type CertificatesPassTypeIdGetToOneRelatedParams struct {
-	// FieldsPassTypeIds the fields to include for returned resources of type passTypeIds
-	FieldsPassTypeIds *[]CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds `form:"fields[passTypeIds],omitempty" json:"fields[passTypeIds],omitempty"`
-
-	// FieldsCertificates the fields to include for returned resources of type certificates
-	FieldsCertificates *[]CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates `form:"fields[certificates],omitempty" json:"fields[certificates],omitempty"`
-
-	// Include comma-separated list of relationships to include
-	Include *[]CertificatesPassTypeIdGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
-
-	// LimitCertificates maximum number of related certificates returned (when they are included)
-	LimitCertificates *int `form:"limit[certificates],omitempty" json:"limit[certificates],omitempty"`
-}
-
-// CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds defines parameters for CertificatesPassTypeIdGetToOneRelated.
-type CertificatesPassTypeIdGetToOneRelatedParamsFieldsPassTypeIds string
-
-// CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates defines parameters for CertificatesPassTypeIdGetToOneRelated.
-type CertificatesPassTypeIdGetToOneRelatedParamsFieldsCertificates string
-
-// CertificatesPassTypeIdGetToOneRelatedParamsInclude defines parameters for CertificatesPassTypeIdGetToOneRelated.
-type CertificatesPassTypeIdGetToOneRelatedParamsInclude string
 
 // DevicesGetCollectionParams defines parameters for DevicesGetCollection.
 type DevicesGetCollectionParams struct {
@@ -13202,12 +12854,6 @@ type MerchantIdsCertificatesGetToManyRelatedParamsFieldsPassTypeIds string
 // MerchantIdsCertificatesGetToManyRelatedParamsInclude defines parameters for MerchantIdsCertificatesGetToManyRelated.
 type MerchantIdsCertificatesGetToManyRelatedParamsInclude string
 
-// MerchantIdsCertificatesGetToManyRelationshipParams defines parameters for MerchantIdsCertificatesGetToManyRelationship.
-type MerchantIdsCertificatesGetToManyRelationshipParams struct {
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-}
-
 // PassTypeIdsGetCollectionParams defines parameters for PassTypeIdsGetCollection.
 type PassTypeIdsGetCollectionParams struct {
 	// FilterName filter by attribute 'name'
@@ -13319,12 +12965,6 @@ type PassTypeIdsCertificatesGetToManyRelatedParamsFieldsPassTypeIds string
 // PassTypeIdsCertificatesGetToManyRelatedParamsInclude defines parameters for PassTypeIdsCertificatesGetToManyRelated.
 type PassTypeIdsCertificatesGetToManyRelatedParamsInclude string
 
-// PassTypeIdsCertificatesGetToManyRelationshipParams defines parameters for PassTypeIdsCertificatesGetToManyRelationship.
-type PassTypeIdsCertificatesGetToManyRelationshipParams struct {
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-}
-
 // ProfilesGetCollectionParams defines parameters for ProfilesGetCollection.
 type ProfilesGetCollectionParams struct {
 	// FilterName filter by attribute 'name'
@@ -13429,39 +13069,6 @@ type ProfilesGetInstanceParamsFieldsCertificates string
 
 // ProfilesGetInstanceParamsInclude defines parameters for ProfilesGetInstance.
 type ProfilesGetInstanceParamsInclude string
-
-// ProfilesBundleIdGetToOneRelatedParams defines parameters for ProfilesBundleIdGetToOneRelated.
-type ProfilesBundleIdGetToOneRelatedParams struct {
-	// FieldsBundleIds the fields to include for returned resources of type bundleIds
-	FieldsBundleIds *[]ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds `form:"fields[bundleIds],omitempty" json:"fields[bundleIds],omitempty"`
-}
-
-// ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds defines parameters for ProfilesBundleIdGetToOneRelated.
-type ProfilesBundleIdGetToOneRelatedParamsFieldsBundleIds string
-
-// ProfilesCertificatesGetToManyRelatedParams defines parameters for ProfilesCertificatesGetToManyRelated.
-type ProfilesCertificatesGetToManyRelatedParams struct {
-	// FieldsCertificates the fields to include for returned resources of type certificates
-	FieldsCertificates *[]ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates `form:"fields[certificates],omitempty" json:"fields[certificates],omitempty"`
-
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-}
-
-// ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates defines parameters for ProfilesCertificatesGetToManyRelated.
-type ProfilesCertificatesGetToManyRelatedParamsFieldsCertificates string
-
-// ProfilesDevicesGetToManyRelatedParams defines parameters for ProfilesDevicesGetToManyRelated.
-type ProfilesDevicesGetToManyRelatedParams struct {
-	// FieldsDevices the fields to include for returned resources of type devices
-	FieldsDevices *[]ProfilesDevicesGetToManyRelatedParamsFieldsDevices `form:"fields[devices],omitempty" json:"fields[devices],omitempty"`
-
-	// Limit maximum resources per page
-	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
-}
-
-// ProfilesDevicesGetToManyRelatedParamsFieldsDevices defines parameters for ProfilesDevicesGetToManyRelated.
-type ProfilesDevicesGetToManyRelatedParamsFieldsDevices string
 
 // ProfilesCertificatesGetToManyRelationshipParams defines parameters for ProfilesCertificatesGetToManyRelationship.
 type ProfilesCertificatesGetToManyRelationshipParams struct {
@@ -16102,12 +15709,6 @@ type ClientInterface interface {
 	// BundleIdsProfilesGetToManyRelated performs a GET /v1/bundleIds/{id}/profiles (the `BundleIdsProfilesGetToManyRelated` operationId) request.
 	BundleIdsProfilesGetToManyRelated(ctx context.Context, id string, params *BundleIdsProfilesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// BundleIdsBundleIdCapabilitiesGetToManyRelationship performs a GET /v1/bundleIds/{id}/relationships/bundleIdCapabilities (the `BundleIdsBundleIdCapabilitiesGetToManyRelationship` operationId) request.
-	BundleIdsBundleIdCapabilitiesGetToManyRelationship(ctx context.Context, id string, params *BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// BundleIdsProfilesGetToManyRelationship performs a GET /v1/bundleIds/{id}/relationships/profiles (the `BundleIdsProfilesGetToManyRelationship` operationId) request.
-	BundleIdsProfilesGetToManyRelationship(ctx context.Context, id string, params *BundleIdsProfilesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
 	// CertificatesGetCollection performs a GET /v1/certificates (the `CertificatesGetCollection` operationId) request.
 	CertificatesGetCollection(ctx context.Context, params *CertificatesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -16132,9 +15733,6 @@ type ClientInterface interface {
 	// CertificatesUpdateInstance performs a PATCH /v1/certificates/{id} (the `CertificatesUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	CertificatesUpdateInstance(ctx context.Context, id string, body CertificatesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// CertificatesPassTypeIdGetToOneRelated performs a GET /v1/certificates/{id}/passTypeId (the `CertificatesPassTypeIdGetToOneRelated` operationId) request.
-	CertificatesPassTypeIdGetToOneRelated(ctx context.Context, id string, params *CertificatesPassTypeIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// CertificatesPassTypeIdGetToOneRelationship performs a GET /v1/certificates/{id}/relationships/passTypeId (the `CertificatesPassTypeIdGetToOneRelationship` operationId) request.
 	CertificatesPassTypeIdGetToOneRelationship(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -16189,9 +15787,6 @@ type ClientInterface interface {
 	// MerchantIdsCertificatesGetToManyRelated performs a GET /v1/merchantIds/{id}/certificates (the `MerchantIdsCertificatesGetToManyRelated` operationId) request.
 	MerchantIdsCertificatesGetToManyRelated(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// MerchantIdsCertificatesGetToManyRelationship performs a GET /v1/merchantIds/{id}/relationships/certificates (the `MerchantIdsCertificatesGetToManyRelationship` operationId) request.
-	MerchantIdsCertificatesGetToManyRelationship(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
 	// PassTypeIdsGetCollection performs a GET /v1/passTypeIds (the `PassTypeIdsGetCollection` operationId) request.
 	PassTypeIdsGetCollection(ctx context.Context, params *PassTypeIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -16220,9 +15815,6 @@ type ClientInterface interface {
 	// PassTypeIdsCertificatesGetToManyRelated performs a GET /v1/passTypeIds/{id}/certificates (the `PassTypeIdsCertificatesGetToManyRelated` operationId) request.
 	PassTypeIdsCertificatesGetToManyRelated(ctx context.Context, id string, params *PassTypeIdsCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
-	// PassTypeIdsCertificatesGetToManyRelationship performs a GET /v1/passTypeIds/{id}/relationships/certificates (the `PassTypeIdsCertificatesGetToManyRelationship` operationId) request.
-	PassTypeIdsCertificatesGetToManyRelationship(ctx context.Context, id string, params *PassTypeIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
 	// ProfilesGetCollection performs a GET /v1/profiles (the `ProfilesGetCollection` operationId) request.
 	ProfilesGetCollection(ctx context.Context, params *ProfilesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -16239,15 +15831,6 @@ type ClientInterface interface {
 
 	// ProfilesGetInstance performs a GET /v1/profiles/{id} (the `ProfilesGetInstance` operationId) request.
 	ProfilesGetInstance(ctx context.Context, id string, params *ProfilesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// ProfilesBundleIdGetToOneRelated performs a GET /v1/profiles/{id}/bundleId (the `ProfilesBundleIdGetToOneRelated` operationId) request.
-	ProfilesBundleIdGetToOneRelated(ctx context.Context, id string, params *ProfilesBundleIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// ProfilesCertificatesGetToManyRelated performs a GET /v1/profiles/{id}/certificates (the `ProfilesCertificatesGetToManyRelated` operationId) request.
-	ProfilesCertificatesGetToManyRelated(ctx context.Context, id string, params *ProfilesCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
-
-	// ProfilesDevicesGetToManyRelated performs a GET /v1/profiles/{id}/devices (the `ProfilesDevicesGetToManyRelated` operationId) request.
-	ProfilesDevicesGetToManyRelated(ctx context.Context, id string, params *ProfilesDevicesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// ProfilesBundleIdGetToOneRelationship performs a GET /v1/profiles/{id}/relationships/bundleId (the `ProfilesBundleIdGetToOneRelationship` operationId) request.
 	ProfilesBundleIdGetToOneRelationship(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -16475,32 +16058,6 @@ func (c *Client) BundleIdsProfilesGetToManyRelated(ctx context.Context, id strin
 	return c.Client.Do(req)
 }
 
-// BundleIdsBundleIdCapabilitiesGetToManyRelationship performs a GET /v1/bundleIds/{id}/relationships/bundleIdCapabilities (the `BundleIdsBundleIdCapabilitiesGetToManyRelationship` operationId) request.
-func (c *Client) BundleIdsBundleIdCapabilitiesGetToManyRelationship(ctx context.Context, id string, params *BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBundleIdsBundleIdCapabilitiesGetToManyRelationshipRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// BundleIdsProfilesGetToManyRelationship performs a GET /v1/bundleIds/{id}/relationships/profiles (the `BundleIdsProfilesGetToManyRelationship` operationId) request.
-func (c *Client) BundleIdsProfilesGetToManyRelationship(ctx context.Context, id string, params *BundleIdsProfilesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewBundleIdsProfilesGetToManyRelationshipRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
 // CertificatesGetCollection performs a GET /v1/certificates (the `CertificatesGetCollection` operationId) request.
 func (c *Client) CertificatesGetCollection(ctx context.Context, params *CertificatesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewCertificatesGetCollectionRequest(c.Server, params)
@@ -16586,19 +16143,6 @@ func (c *Client) CertificatesUpdateInstanceWithBody(ctx context.Context, id stri
 // Takes a body of the `application/json` content type.
 func (c *Client) CertificatesUpdateInstance(ctx context.Context, id string, body CertificatesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewCertificatesUpdateInstanceRequest(c.Server, id, body)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// CertificatesPassTypeIdGetToOneRelated performs a GET /v1/certificates/{id}/passTypeId (the `CertificatesPassTypeIdGetToOneRelated` operationId) request.
-func (c *Client) CertificatesPassTypeIdGetToOneRelated(ctx context.Context, id string, params *CertificatesPassTypeIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewCertificatesPassTypeIdGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -16812,19 +16356,6 @@ func (c *Client) MerchantIdsCertificatesGetToManyRelated(ctx context.Context, id
 	return c.Client.Do(req)
 }
 
-// MerchantIdsCertificatesGetToManyRelationship performs a GET /v1/merchantIds/{id}/relationships/certificates (the `MerchantIdsCertificatesGetToManyRelationship` operationId) request.
-func (c *Client) MerchantIdsCertificatesGetToManyRelationship(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewMerchantIdsCertificatesGetToManyRelationshipRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
 // PassTypeIdsGetCollection performs a GET /v1/passTypeIds (the `PassTypeIdsGetCollection` operationId) request.
 func (c *Client) PassTypeIdsGetCollection(ctx context.Context, params *PassTypeIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewPassTypeIdsGetCollectionRequest(c.Server, params)
@@ -16933,19 +16464,6 @@ func (c *Client) PassTypeIdsCertificatesGetToManyRelated(ctx context.Context, id
 	return c.Client.Do(req)
 }
 
-// PassTypeIdsCertificatesGetToManyRelationship performs a GET /v1/passTypeIds/{id}/relationships/certificates (the `PassTypeIdsCertificatesGetToManyRelationship` operationId) request.
-func (c *Client) PassTypeIdsCertificatesGetToManyRelationship(ctx context.Context, id string, params *PassTypeIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewPassTypeIdsCertificatesGetToManyRelationshipRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
 // ProfilesGetCollection performs a GET /v1/profiles (the `ProfilesGetCollection` operationId) request.
 func (c *Client) ProfilesGetCollection(ctx context.Context, params *ProfilesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewProfilesGetCollectionRequest(c.Server, params)
@@ -17003,45 +16521,6 @@ func (c *Client) ProfilesDeleteInstance(ctx context.Context, id string, reqEdito
 // ProfilesGetInstance performs a GET /v1/profiles/{id} (the `ProfilesGetInstance` operationId) request.
 func (c *Client) ProfilesGetInstance(ctx context.Context, id string, params *ProfilesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewProfilesGetInstanceRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// ProfilesBundleIdGetToOneRelated performs a GET /v1/profiles/{id}/bundleId (the `ProfilesBundleIdGetToOneRelated` operationId) request.
-func (c *Client) ProfilesBundleIdGetToOneRelated(ctx context.Context, id string, params *ProfilesBundleIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewProfilesBundleIdGetToOneRelatedRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// ProfilesCertificatesGetToManyRelated performs a GET /v1/profiles/{id}/certificates (the `ProfilesCertificatesGetToManyRelated` operationId) request.
-func (c *Client) ProfilesCertificatesGetToManyRelated(ctx context.Context, id string, params *ProfilesCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewProfilesCertificatesGetToManyRelatedRequest(c.Server, id, params)
-	if err != nil {
-		return nil, err
-	}
-	req = req.WithContext(ctx)
-	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
-		return nil, err
-	}
-	return c.Client.Do(req)
-}
-
-// ProfilesDevicesGetToManyRelated performs a GET /v1/profiles/{id}/devices (the `ProfilesDevicesGetToManyRelated` operationId) request.
-func (c *Client) ProfilesDevicesGetToManyRelated(ctx context.Context, id string, params *ProfilesDevicesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
-	req, err := NewProfilesDevicesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -19125,128 +18604,6 @@ func NewBundleIdsProfilesGetToManyRelatedRequest(server string, id string, param
 	return req, nil
 }
 
-// NewBundleIdsBundleIdCapabilitiesGetToManyRelationshipRequest constructs an http.Request for the BundleIdsBundleIdCapabilitiesGetToManyRelationship method
-func NewBundleIdsBundleIdCapabilitiesGetToManyRelationshipRequest(server string, id string, params *BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/bundleIds/%s/relationships/bundleIdCapabilities", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
-// NewBundleIdsProfilesGetToManyRelationshipRequest constructs an http.Request for the BundleIdsProfilesGetToManyRelationship method
-func NewBundleIdsProfilesGetToManyRelationshipRequest(server string, id string, params *BundleIdsProfilesGetToManyRelationshipParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/bundleIds/%s/relationships/profiles", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewCertificatesGetCollectionRequest constructs an http.Request for the CertificatesGetCollection method
 func NewCertificatesGetCollectionRequest(server string, params *CertificatesGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -19599,103 +18956,6 @@ func NewCertificatesUpdateInstanceRequestWithBody(server string, id string, cont
 	}
 
 	req.Header.Add("Content-Type", contentType)
-
-	return req, nil
-}
-
-// NewCertificatesPassTypeIdGetToOneRelatedRequest constructs an http.Request for the CertificatesPassTypeIdGetToOneRelated method
-func NewCertificatesPassTypeIdGetToOneRelatedRequest(server string, id string, params *CertificatesPassTypeIdGetToOneRelatedParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/certificates/%s/passTypeId", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsPassTypeIds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[passTypeIds]", *params.FieldsPassTypeIds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.FieldsCertificates != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[certificates]", *params.FieldsCertificates, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Include != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.LimitCertificates != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[certificates]", *params.LimitCertificates, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
 
 	return req, nil
 }
@@ -20533,67 +19793,6 @@ func NewMerchantIdsCertificatesGetToManyRelatedRequest(server string, id string,
 	return req, nil
 }
 
-// NewMerchantIdsCertificatesGetToManyRelationshipRequest constructs an http.Request for the MerchantIdsCertificatesGetToManyRelationship method
-func NewMerchantIdsCertificatesGetToManyRelationshipRequest(server string, id string, params *MerchantIdsCertificatesGetToManyRelationshipParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/merchantIds/%s/relationships/certificates", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewPassTypeIdsGetCollectionRequest constructs an http.Request for the PassTypeIdsGetCollection method
 func NewPassTypeIdsGetCollectionRequest(server string, params *PassTypeIdsGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -21119,67 +20318,6 @@ func NewPassTypeIdsCertificatesGetToManyRelatedRequest(server string, id string,
 	return req, nil
 }
 
-// NewPassTypeIdsCertificatesGetToManyRelationshipRequest constructs an http.Request for the PassTypeIdsCertificatesGetToManyRelationship method
-func NewPassTypeIdsCertificatesGetToManyRelationshipRequest(server string, id string, params *PassTypeIdsCertificatesGetToManyRelationshipParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/passTypeIds/%s/relationships/certificates", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewProfilesGetCollectionRequest constructs an http.Request for the ProfilesGetCollection method
 func NewProfilesGetCollectionRequest(server string, params *ProfilesGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -21585,213 +20723,6 @@ func NewProfilesGetInstanceRequest(server string, id string, params *ProfilesGet
 	return req, nil
 }
 
-// NewProfilesBundleIdGetToOneRelatedRequest constructs an http.Request for the ProfilesBundleIdGetToOneRelated method
-func NewProfilesBundleIdGetToOneRelatedRequest(server string, id string, params *ProfilesBundleIdGetToOneRelatedParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/profiles/%s/bundleId", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsBundleIds != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[bundleIds]", *params.FieldsBundleIds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
-// NewProfilesCertificatesGetToManyRelatedRequest constructs an http.Request for the ProfilesCertificatesGetToManyRelated method
-func NewProfilesCertificatesGetToManyRelatedRequest(server string, id string, params *ProfilesCertificatesGetToManyRelatedParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/profiles/%s/certificates", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsCertificates != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[certificates]", *params.FieldsCertificates, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
-// NewProfilesDevicesGetToManyRelatedRequest constructs an http.Request for the ProfilesDevicesGetToManyRelated method
-func NewProfilesDevicesGetToManyRelatedRequest(server string, id string, params *ProfilesDevicesGetToManyRelatedParams) (*http.Request, error) {
-	var err error
-
-	var pathParam0 string
-
-	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
-	if err != nil {
-		return nil, err
-	}
-
-	serverURL, err := url.Parse(server)
-	if err != nil {
-		return nil, err
-	}
-
-	operationPath := fmt.Sprintf("/v1/profiles/%s/devices", pathParam0)
-	if operationPath[0] == '/' {
-		operationPath = "." + operationPath
-	}
-
-	queryURL, err := serverURL.Parse(operationPath)
-	if err != nil {
-		return nil, err
-	}
-
-	if params != nil {
-		// queryValues collects non-styled parameters (passthrough, JSON)
-		// that are safe to round-trip through url.Values.Encode().
-		queryValues := queryURL.Query()
-		// rawQueryFragments collects pre-encoded query fragments from
-		// styled parameters, preserving literal commas as delimiters
-		// per the OpenAPI spec (e.g. "color=blue,black,brown").
-		var rawQueryFragments []string
-
-		if params.FieldsDevices != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[devices]", *params.FieldsDevices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if params.Limit != nil {
-
-			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
-				return nil, err
-			} else {
-				for _, qp := range strings.Split(queryFrag, "&") {
-					rawQueryFragments = append(rawQueryFragments, qp)
-				}
-			}
-
-		}
-
-		if encoded := queryValues.Encode(); encoded != "" {
-			rawQueryFragments = append(rawQueryFragments, encoded)
-		}
-		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
-	}
-
-	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
-	if err != nil {
-		return nil, err
-	}
-
-	return req, nil
-}
-
 // NewProfilesBundleIdGetToOneRelationshipRequest constructs an http.Request for the ProfilesBundleIdGetToOneRelationship method
 func NewProfilesBundleIdGetToOneRelationshipRequest(server string, id string) (*http.Request, error) {
 	var err error
@@ -22072,16 +21003,6 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	BundleIdsProfilesGetToManyRelatedWithResponse(ctx context.Context, id string, params *BundleIdsProfilesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*BundleIdsProfilesGetToManyRelatedResponse, error)
 
-	// BundleIdsBundleIdCapabilitiesGetToManyRelationshipWithResponse performs a GET /v1/bundleIds/{id}/relationships/bundleIdCapabilities (the `BundleIdsBundleIdCapabilitiesGetToManyRelationship` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BundleIdsBundleIdCapabilitiesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse, error)
-
-	// BundleIdsProfilesGetToManyRelationshipWithResponse performs a GET /v1/bundleIds/{id}/relationships/profiles (the `BundleIdsProfilesGetToManyRelationship` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	BundleIdsProfilesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *BundleIdsProfilesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*BundleIdsProfilesGetToManyRelationshipResponse, error)
-
 	// CertificatesGetCollectionWithResponse performs a GET /v1/certificates (the `CertificatesGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -22116,11 +21037,6 @@ type ClientWithResponsesInterface interface {
 	// CertificatesUpdateInstanceWithResponse performs a PATCH /v1/certificates/{id} (the `CertificatesUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	CertificatesUpdateInstanceWithResponse(ctx context.Context, id string, body CertificatesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*CertificatesUpdateInstanceResponse, error)
-
-	// CertificatesPassTypeIdGetToOneRelatedWithResponse performs a GET /v1/certificates/{id}/passTypeId (the `CertificatesPassTypeIdGetToOneRelated` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	CertificatesPassTypeIdGetToOneRelatedWithResponse(ctx context.Context, id string, params *CertificatesPassTypeIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*CertificatesPassTypeIdGetToOneRelatedResponse, error)
 
 	// CertificatesPassTypeIdGetToOneRelationshipWithResponse performs a GET /v1/certificates/{id}/relationships/passTypeId (the `CertificatesPassTypeIdGetToOneRelationship` operationId) request.
 	//
@@ -22197,11 +21113,6 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	MerchantIdsCertificatesGetToManyRelatedWithResponse(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*MerchantIdsCertificatesGetToManyRelatedResponse, error)
 
-	// MerchantIdsCertificatesGetToManyRelationshipWithResponse performs a GET /v1/merchantIds/{id}/relationships/certificates (the `MerchantIdsCertificatesGetToManyRelationship` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	MerchantIdsCertificatesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*MerchantIdsCertificatesGetToManyRelationshipResponse, error)
-
 	// PassTypeIdsGetCollectionWithResponse performs a GET /v1/passTypeIds (the `PassTypeIdsGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -22242,11 +21153,6 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	PassTypeIdsCertificatesGetToManyRelatedWithResponse(ctx context.Context, id string, params *PassTypeIdsCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*PassTypeIdsCertificatesGetToManyRelatedResponse, error)
 
-	// PassTypeIdsCertificatesGetToManyRelationshipWithResponse performs a GET /v1/passTypeIds/{id}/relationships/certificates (the `PassTypeIdsCertificatesGetToManyRelationship` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	PassTypeIdsCertificatesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *PassTypeIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*PassTypeIdsCertificatesGetToManyRelationshipResponse, error)
-
 	// ProfilesGetCollectionWithResponse performs a GET /v1/profiles (the `ProfilesGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -22271,21 +21177,6 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	ProfilesGetInstanceWithResponse(ctx context.Context, id string, params *ProfilesGetInstanceParams, reqEditors ...RequestEditorFn) (*ProfilesGetInstanceResponse, error)
-
-	// ProfilesBundleIdGetToOneRelatedWithResponse performs a GET /v1/profiles/{id}/bundleId (the `ProfilesBundleIdGetToOneRelated` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	ProfilesBundleIdGetToOneRelatedWithResponse(ctx context.Context, id string, params *ProfilesBundleIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*ProfilesBundleIdGetToOneRelatedResponse, error)
-
-	// ProfilesCertificatesGetToManyRelatedWithResponse performs a GET /v1/profiles/{id}/certificates (the `ProfilesCertificatesGetToManyRelated` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	ProfilesCertificatesGetToManyRelatedWithResponse(ctx context.Context, id string, params *ProfilesCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ProfilesCertificatesGetToManyRelatedResponse, error)
-
-	// ProfilesDevicesGetToManyRelatedWithResponse performs a GET /v1/profiles/{id}/devices (the `ProfilesDevicesGetToManyRelated` operationId) request.
-	//
-	// Returns a wrapper object for the known response body format(s).
-	ProfilesDevicesGetToManyRelatedWithResponse(ctx context.Context, id string, params *ProfilesDevicesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ProfilesDevicesGetToManyRelatedResponse, error)
 
 	// ProfilesBundleIdGetToOneRelationshipWithResponse performs a GET /v1/profiles/{id}/relationships/bundleId (the `ProfilesBundleIdGetToOneRelationship` operationId) request.
 	//
@@ -23229,158 +22120,6 @@ func (r BundleIdsProfilesGetToManyRelatedResponse) ContentType() string {
 	return ""
 }
 
-type BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BundleIdBundleIdCapabilitiesLinkagesResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) GetJSON200() *BundleIdBundleIdCapabilitiesLinkagesResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type BundleIdsProfilesGetToManyRelationshipResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BundleIdProfilesLinkagesResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r BundleIdsProfilesGetToManyRelationshipResponse) GetJSON200() *BundleIdProfilesLinkagesResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r BundleIdsProfilesGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r BundleIdsProfilesGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r BundleIdsProfilesGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r BundleIdsProfilesGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r BundleIdsProfilesGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r BundleIdsProfilesGetToManyRelationshipResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r BundleIdsProfilesGetToManyRelationshipResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r BundleIdsProfilesGetToManyRelationshipResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r BundleIdsProfilesGetToManyRelationshipResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
 type CertificatesGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -23762,82 +22501,6 @@ func (r CertificatesUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r CertificatesUpdateInstanceResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type CertificatesPassTypeIdGetToOneRelatedResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *PassTypeIdResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) GetJSON200() *PassTypeIdResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r CertificatesPassTypeIdGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -24701,82 +23364,6 @@ func (r MerchantIdsCertificatesGetToManyRelatedResponse) ContentType() string {
 	return ""
 }
 
-type MerchantIdsCertificatesGetToManyRelationshipResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *MerchantIdCertificatesLinkagesResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) GetJSON200() *MerchantIdCertificatesLinkagesResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r MerchantIdsCertificatesGetToManyRelationshipResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
 type PassTypeIdsGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -25240,82 +23827,6 @@ func (r PassTypeIdsCertificatesGetToManyRelatedResponse) ContentType() string {
 	return ""
 }
 
-type PassTypeIdsCertificatesGetToManyRelationshipResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *PassTypeIdCertificatesLinkagesResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) GetJSON200() *PassTypeIdCertificatesLinkagesResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r PassTypeIdsCertificatesGetToManyRelationshipResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
 type ProfilesGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -25607,234 +24118,6 @@ func (r ProfilesGetInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r ProfilesGetInstanceResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type ProfilesBundleIdGetToOneRelatedResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *BundleIdWithoutIncludesResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r ProfilesBundleIdGetToOneRelatedResponse) GetJSON200() *BundleIdWithoutIncludesResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r ProfilesBundleIdGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r ProfilesBundleIdGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r ProfilesBundleIdGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r ProfilesBundleIdGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r ProfilesBundleIdGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r ProfilesBundleIdGetToOneRelatedResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r ProfilesBundleIdGetToOneRelatedResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r ProfilesBundleIdGetToOneRelatedResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r ProfilesBundleIdGetToOneRelatedResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type ProfilesCertificatesGetToManyRelatedResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *CertificatesWithoutIncludesResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r ProfilesCertificatesGetToManyRelatedResponse) GetJSON200() *CertificatesWithoutIncludesResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r ProfilesCertificatesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r ProfilesCertificatesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r ProfilesCertificatesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r ProfilesCertificatesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r ProfilesCertificatesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r ProfilesCertificatesGetToManyRelatedResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r ProfilesCertificatesGetToManyRelatedResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r ProfilesCertificatesGetToManyRelatedResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r ProfilesCertificatesGetToManyRelatedResponse) ContentType() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Header.Get("Content-Type")
-	}
-	return ""
-}
-
-type ProfilesDevicesGetToManyRelatedResponse struct {
-	Body         []byte
-	HTTPResponse *http.Response
-	// JSON200 the response for an HTTP 200 `application/json` response
-	JSON200 *DevicesWithoutIncludesResponse
-	// JSON400 the response for an HTTP 400 `application/json` response
-	JSON400 *ErrorResponse
-	// JSON401 the response for an HTTP 401 `application/json` response
-	JSON401 *ErrorResponse
-	// JSON403 the response for an HTTP 403 `application/json` response
-	JSON403 *ErrorResponse
-	// JSON404 the response for an HTTP 404 `application/json` response
-	JSON404 *ErrorResponse
-	// JSON429 the response for an HTTP 429 `application/json` response
-	JSON429 *ErrorResponse
-}
-
-// GetJSON200 returns the response for an HTTP 200 `application/json` response
-func (r ProfilesDevicesGetToManyRelatedResponse) GetJSON200() *DevicesWithoutIncludesResponse {
-	return r.JSON200
-}
-
-// GetJSON400 returns the response for an HTTP 400 `application/json` response
-func (r ProfilesDevicesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
-	return r.JSON400
-}
-
-// GetJSON401 returns the response for an HTTP 401 `application/json` response
-func (r ProfilesDevicesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
-	return r.JSON401
-}
-
-// GetJSON403 returns the response for an HTTP 403 `application/json` response
-func (r ProfilesDevicesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
-	return r.JSON403
-}
-
-// GetJSON404 returns the response for an HTTP 404 `application/json` response
-func (r ProfilesDevicesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
-	return r.JSON404
-}
-
-// GetJSON429 returns the response for an HTTP 429 `application/json` response
-func (r ProfilesDevicesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
-	return r.JSON429
-}
-
-// GetBody returns the raw response body bytes
-func (r ProfilesDevicesGetToManyRelatedResponse) GetBody() []byte {
-	return r.Body
-}
-
-// Status returns HTTPResponse.Status
-func (r ProfilesDevicesGetToManyRelatedResponse) Status() string {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.Status
-	}
-	return http.StatusText(0)
-}
-
-// StatusCode returns HTTPResponse.StatusCode
-func (r ProfilesDevicesGetToManyRelatedResponse) StatusCode() int {
-	if r.HTTPResponse != nil {
-		return r.HTTPResponse.StatusCode
-	}
-	return 0
-}
-
-// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
-func (r ProfilesDevicesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -26245,28 +24528,6 @@ func (c *ClientWithResponses) BundleIdsProfilesGetToManyRelatedWithResponse(ctx 
 	return ParseBundleIdsProfilesGetToManyRelatedResponse(rsp)
 }
 
-// BundleIdsBundleIdCapabilitiesGetToManyRelationshipWithResponse performs a GET /v1/bundleIds/{id}/relationships/bundleIdCapabilities (the `BundleIdsBundleIdCapabilitiesGetToManyRelationship` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BundleIdsBundleIdCapabilitiesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse, error) {
-	rsp, err := c.BundleIdsBundleIdCapabilitiesGetToManyRelationship(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse(rsp)
-}
-
-// BundleIdsProfilesGetToManyRelationshipWithResponse performs a GET /v1/bundleIds/{id}/relationships/profiles (the `BundleIdsProfilesGetToManyRelationship` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) BundleIdsProfilesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *BundleIdsProfilesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*BundleIdsProfilesGetToManyRelationshipResponse, error) {
-	rsp, err := c.BundleIdsProfilesGetToManyRelationship(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseBundleIdsProfilesGetToManyRelationshipResponse(rsp)
-}
-
 // CertificatesGetCollectionWithResponse performs a GET /v1/certificates (the `CertificatesGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -26342,17 +24603,6 @@ func (c *ClientWithResponses) CertificatesUpdateInstanceWithResponse(ctx context
 		return nil, err
 	}
 	return ParseCertificatesUpdateInstanceResponse(rsp)
-}
-
-// CertificatesPassTypeIdGetToOneRelatedWithResponse performs a GET /v1/certificates/{id}/passTypeId (the `CertificatesPassTypeIdGetToOneRelated` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) CertificatesPassTypeIdGetToOneRelatedWithResponse(ctx context.Context, id string, params *CertificatesPassTypeIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*CertificatesPassTypeIdGetToOneRelatedResponse, error) {
-	rsp, err := c.CertificatesPassTypeIdGetToOneRelated(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseCertificatesPassTypeIdGetToOneRelatedResponse(rsp)
 }
 
 // CertificatesPassTypeIdGetToOneRelationshipWithResponse performs a GET /v1/certificates/{id}/relationships/passTypeId (the `CertificatesPassTypeIdGetToOneRelationship` operationId) request.
@@ -26520,17 +24770,6 @@ func (c *ClientWithResponses) MerchantIdsCertificatesGetToManyRelatedWithRespons
 	return ParseMerchantIdsCertificatesGetToManyRelatedResponse(rsp)
 }
 
-// MerchantIdsCertificatesGetToManyRelationshipWithResponse performs a GET /v1/merchantIds/{id}/relationships/certificates (the `MerchantIdsCertificatesGetToManyRelationship` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) MerchantIdsCertificatesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*MerchantIdsCertificatesGetToManyRelationshipResponse, error) {
-	rsp, err := c.MerchantIdsCertificatesGetToManyRelationship(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseMerchantIdsCertificatesGetToManyRelationshipResponse(rsp)
-}
-
 // PassTypeIdsGetCollectionWithResponse performs a GET /v1/passTypeIds (the `PassTypeIdsGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -26619,17 +24858,6 @@ func (c *ClientWithResponses) PassTypeIdsCertificatesGetToManyRelatedWithRespons
 	return ParsePassTypeIdsCertificatesGetToManyRelatedResponse(rsp)
 }
 
-// PassTypeIdsCertificatesGetToManyRelationshipWithResponse performs a GET /v1/passTypeIds/{id}/relationships/certificates (the `PassTypeIdsCertificatesGetToManyRelationship` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) PassTypeIdsCertificatesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *PassTypeIdsCertificatesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*PassTypeIdsCertificatesGetToManyRelationshipResponse, error) {
-	rsp, err := c.PassTypeIdsCertificatesGetToManyRelationship(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParsePassTypeIdsCertificatesGetToManyRelationshipResponse(rsp)
-}
-
 // ProfilesGetCollectionWithResponse performs a GET /v1/profiles (the `ProfilesGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -26683,39 +24911,6 @@ func (c *ClientWithResponses) ProfilesGetInstanceWithResponse(ctx context.Contex
 		return nil, err
 	}
 	return ParseProfilesGetInstanceResponse(rsp)
-}
-
-// ProfilesBundleIdGetToOneRelatedWithResponse performs a GET /v1/profiles/{id}/bundleId (the `ProfilesBundleIdGetToOneRelated` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) ProfilesBundleIdGetToOneRelatedWithResponse(ctx context.Context, id string, params *ProfilesBundleIdGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*ProfilesBundleIdGetToOneRelatedResponse, error) {
-	rsp, err := c.ProfilesBundleIdGetToOneRelated(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseProfilesBundleIdGetToOneRelatedResponse(rsp)
-}
-
-// ProfilesCertificatesGetToManyRelatedWithResponse performs a GET /v1/profiles/{id}/certificates (the `ProfilesCertificatesGetToManyRelated` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) ProfilesCertificatesGetToManyRelatedWithResponse(ctx context.Context, id string, params *ProfilesCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ProfilesCertificatesGetToManyRelatedResponse, error) {
-	rsp, err := c.ProfilesCertificatesGetToManyRelated(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseProfilesCertificatesGetToManyRelatedResponse(rsp)
-}
-
-// ProfilesDevicesGetToManyRelatedWithResponse performs a GET /v1/profiles/{id}/devices (the `ProfilesDevicesGetToManyRelated` operationId) request.
-//
-// Returns a wrapper object for the known response body format(s).
-func (c *ClientWithResponses) ProfilesDevicesGetToManyRelatedWithResponse(ctx context.Context, id string, params *ProfilesDevicesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ProfilesDevicesGetToManyRelatedResponse, error) {
-	rsp, err := c.ProfilesDevicesGetToManyRelated(ctx, id, params, reqEditors...)
-	if err != nil {
-		return nil, err
-	}
-	return ParseProfilesDevicesGetToManyRelatedResponse(rsp)
 }
 
 // ProfilesBundleIdGetToOneRelationshipWithResponse performs a GET /v1/profiles/{id}/relationships/bundleId (the `ProfilesBundleIdGetToOneRelationship` operationId) request.
@@ -27503,128 +25698,6 @@ func ParseBundleIdsProfilesGetToManyRelatedResponse(rsp *http.Response) (*Bundle
 	return response, nil
 }
 
-// ParseBundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse parses an HTTP response from a BundleIdsBundleIdCapabilitiesGetToManyRelationshipWithResponse call
-func ParseBundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse(rsp *http.Response) (*BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BundleIdsBundleIdCapabilitiesGetToManyRelationshipResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BundleIdBundleIdCapabilitiesLinkagesResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseBundleIdsProfilesGetToManyRelationshipResponse parses an HTTP response from a BundleIdsProfilesGetToManyRelationshipWithResponse call
-func ParseBundleIdsProfilesGetToManyRelationshipResponse(rsp *http.Response) (*BundleIdsProfilesGetToManyRelationshipResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &BundleIdsProfilesGetToManyRelationshipResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BundleIdProfilesLinkagesResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
 // ParseCertificatesGetCollectionResponse parses an HTTP response from a CertificatesGetCollectionWithResponse call
 func ParseCertificatesGetCollectionResponse(rsp *http.Response) (*CertificatesGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -27927,67 +26000,6 @@ func ParseCertificatesUpdateInstanceResponse(rsp *http.Response) (*CertificatesU
 			return nil, err
 		}
 		response.JSON422 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseCertificatesPassTypeIdGetToOneRelatedResponse parses an HTTP response from a CertificatesPassTypeIdGetToOneRelatedWithResponse call
-func ParseCertificatesPassTypeIdGetToOneRelatedResponse(rsp *http.Response) (*CertificatesPassTypeIdGetToOneRelatedResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &CertificatesPassTypeIdGetToOneRelatedResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest PassTypeIdResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -28696,67 +26708,6 @@ func ParseMerchantIdsCertificatesGetToManyRelatedResponse(rsp *http.Response) (*
 	return response, nil
 }
 
-// ParseMerchantIdsCertificatesGetToManyRelationshipResponse parses an HTTP response from a MerchantIdsCertificatesGetToManyRelationshipWithResponse call
-func ParseMerchantIdsCertificatesGetToManyRelationshipResponse(rsp *http.Response) (*MerchantIdsCertificatesGetToManyRelationshipResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &MerchantIdsCertificatesGetToManyRelationshipResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest MerchantIdCertificatesLinkagesResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
 // ParsePassTypeIdsGetCollectionResponse parses an HTTP response from a PassTypeIdsGetCollectionWithResponse call
 func ParsePassTypeIdsGetCollectionResponse(rsp *http.Response) (*PassTypeIdsGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -29133,67 +27084,6 @@ func ParsePassTypeIdsCertificatesGetToManyRelatedResponse(rsp *http.Response) (*
 	return response, nil
 }
 
-// ParsePassTypeIdsCertificatesGetToManyRelationshipResponse parses an HTTP response from a PassTypeIdsCertificatesGetToManyRelationshipWithResponse call
-func ParsePassTypeIdsCertificatesGetToManyRelationshipResponse(rsp *http.Response) (*PassTypeIdsCertificatesGetToManyRelationshipResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &PassTypeIdsCertificatesGetToManyRelationshipResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest PassTypeIdCertificatesLinkagesResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
 // ParseProfilesGetCollectionResponse parses an HTTP response from a ProfilesGetCollectionWithResponse call
 func ParseProfilesGetCollectionResponse(rsp *http.Response) (*ProfilesGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -29389,189 +27279,6 @@ func ParseProfilesGetInstanceResponse(rsp *http.Response) (*ProfilesGetInstanceR
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest ProfileResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseProfilesBundleIdGetToOneRelatedResponse parses an HTTP response from a ProfilesBundleIdGetToOneRelatedWithResponse call
-func ParseProfilesBundleIdGetToOneRelatedResponse(rsp *http.Response) (*ProfilesBundleIdGetToOneRelatedResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &ProfilesBundleIdGetToOneRelatedResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest BundleIdWithoutIncludesResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseProfilesCertificatesGetToManyRelatedResponse parses an HTTP response from a ProfilesCertificatesGetToManyRelatedWithResponse call
-func ParseProfilesCertificatesGetToManyRelatedResponse(rsp *http.Response) (*ProfilesCertificatesGetToManyRelatedResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &ProfilesCertificatesGetToManyRelatedResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest CertificatesWithoutIncludesResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON200 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON400 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON401 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON403 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON404 = &dest
-
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
-		var dest ErrorResponse
-		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
-			return nil, err
-		}
-		response.JSON429 = &dest
-
-	}
-
-	return response, nil
-}
-
-// ParseProfilesDevicesGetToManyRelatedResponse parses an HTTP response from a ProfilesDevicesGetToManyRelatedWithResponse call
-func ParseProfilesDevicesGetToManyRelatedResponse(rsp *http.Response) (*ProfilesDevicesGetToManyRelatedResponse, error) {
-	bodyBytes, err := io.ReadAll(rsp.Body)
-	defer func() { _ = rsp.Body.Close() }()
-	if err != nil {
-		return nil, err
-	}
-
-	response := &ProfilesDevicesGetToManyRelatedResponse{
-		Body:         bodyBytes,
-		HTTPResponse: rsp,
-	}
-
-	switch {
-	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
-		var dest DevicesWithoutIncludesResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -29839,12 +27546,6 @@ type ServerInterface interface {
 	// (GET /v1/bundleIds/{id}/profiles)
 	BundleIdsProfilesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params BundleIdsProfilesGetToManyRelatedParams)
 
-	// (GET /v1/bundleIds/{id}/relationships/bundleIdCapabilities)
-	BundleIdsBundleIdCapabilitiesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams)
-
-	// (GET /v1/bundleIds/{id}/relationships/profiles)
-	BundleIdsProfilesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params BundleIdsProfilesGetToManyRelationshipParams)
-
 	// (GET /v1/certificates)
 	CertificatesGetCollection(w http.ResponseWriter, r *http.Request, params CertificatesGetCollectionParams)
 
@@ -29859,9 +27560,6 @@ type ServerInterface interface {
 
 	// (PATCH /v1/certificates/{id})
 	CertificatesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
-
-	// (GET /v1/certificates/{id}/passTypeId)
-	CertificatesPassTypeIdGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params CertificatesPassTypeIdGetToOneRelatedParams)
 
 	// (GET /v1/certificates/{id}/relationships/passTypeId)
 	CertificatesPassTypeIdGetToOneRelationship(w http.ResponseWriter, r *http.Request, id string)
@@ -29896,9 +27594,6 @@ type ServerInterface interface {
 	// (GET /v1/merchantIds/{id}/certificates)
 	MerchantIdsCertificatesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params MerchantIdsCertificatesGetToManyRelatedParams)
 
-	// (GET /v1/merchantIds/{id}/relationships/certificates)
-	MerchantIdsCertificatesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params MerchantIdsCertificatesGetToManyRelationshipParams)
-
 	// (GET /v1/passTypeIds)
 	PassTypeIdsGetCollection(w http.ResponseWriter, r *http.Request, params PassTypeIdsGetCollectionParams)
 
@@ -29917,9 +27612,6 @@ type ServerInterface interface {
 	// (GET /v1/passTypeIds/{id}/certificates)
 	PassTypeIdsCertificatesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params PassTypeIdsCertificatesGetToManyRelatedParams)
 
-	// (GET /v1/passTypeIds/{id}/relationships/certificates)
-	PassTypeIdsCertificatesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params PassTypeIdsCertificatesGetToManyRelationshipParams)
-
 	// (GET /v1/profiles)
 	ProfilesGetCollection(w http.ResponseWriter, r *http.Request, params ProfilesGetCollectionParams)
 
@@ -29931,15 +27623,6 @@ type ServerInterface interface {
 
 	// (GET /v1/profiles/{id})
 	ProfilesGetInstance(w http.ResponseWriter, r *http.Request, id string, params ProfilesGetInstanceParams)
-
-	// (GET /v1/profiles/{id}/bundleId)
-	ProfilesBundleIdGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params ProfilesBundleIdGetToOneRelatedParams)
-
-	// (GET /v1/profiles/{id}/certificates)
-	ProfilesCertificatesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params ProfilesCertificatesGetToManyRelatedParams)
-
-	// (GET /v1/profiles/{id}/devices)
-	ProfilesDevicesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params ProfilesDevicesGetToManyRelatedParams)
 
 	// (GET /v1/profiles/{id}/relationships/bundleId)
 	ProfilesBundleIdGetToOneRelationship(w http.ResponseWriter, r *http.Request, id string)
@@ -31886,90 +29569,6 @@ func (siw *ServerInterfaceWrapper) BundleIdsProfilesGetToManyRelated(w http.Resp
 	handler.ServeHTTP(w, r)
 }
 
-// BundleIdsBundleIdCapabilitiesGetToManyRelationship operation middleware
-func (siw *ServerInterfaceWrapper) BundleIdsBundleIdCapabilitiesGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BundleIdsBundleIdCapabilitiesGetToManyRelationshipParams
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BundleIdsBundleIdCapabilitiesGetToManyRelationship(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// BundleIdsProfilesGetToManyRelationship operation middleware
-func (siw *ServerInterfaceWrapper) BundleIdsProfilesGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params BundleIdsProfilesGetToManyRelationshipParams
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.BundleIdsProfilesGetToManyRelationship(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // CertificatesGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) CertificatesGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -32232,87 +29831,6 @@ func (siw *ServerInterfaceWrapper) CertificatesUpdateInstance(w http.ResponseWri
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.CertificatesUpdateInstance(w, r, id)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// CertificatesPassTypeIdGetToOneRelated operation middleware
-func (siw *ServerInterfaceWrapper) CertificatesPassTypeIdGetToOneRelated(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params CertificatesPassTypeIdGetToOneRelatedParams
-
-	// ------------- Optional query parameter "fields[passTypeIds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[passTypeIds]", r.URL.Query(), &params.FieldsPassTypeIds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[passTypeIds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[passTypeIds]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "fields[certificates]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[certificates]", r.URL.Query(), &params.FieldsCertificates, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[certificates]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[certificates]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "include" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "limit[certificates]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[certificates]", r.URL.Query(), &params.LimitCertificates, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[certificates]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[certificates]", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.CertificatesPassTypeIdGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -32971,48 +30489,6 @@ func (siw *ServerInterfaceWrapper) MerchantIdsCertificatesGetToManyRelated(w htt
 	handler.ServeHTTP(w, r)
 }
 
-// MerchantIdsCertificatesGetToManyRelationship operation middleware
-func (siw *ServerInterfaceWrapper) MerchantIdsCertificatesGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params MerchantIdsCertificatesGetToManyRelationshipParams
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.MerchantIdsCertificatesGetToManyRelationship(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // PassTypeIdsGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) PassTypeIdsGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -33443,48 +30919,6 @@ func (siw *ServerInterfaceWrapper) PassTypeIdsCertificatesGetToManyRelated(w htt
 	handler.ServeHTTP(w, r)
 }
 
-// PassTypeIdsCertificatesGetToManyRelationship operation middleware
-func (siw *ServerInterfaceWrapper) PassTypeIdsCertificatesGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params PassTypeIdsCertificatesGetToManyRelationshipParams
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.PassTypeIdsCertificatesGetToManyRelationship(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // ProfilesGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) ProfilesGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -33834,158 +31268,6 @@ func (siw *ServerInterfaceWrapper) ProfilesGetInstance(w http.ResponseWriter, r 
 	handler.ServeHTTP(w, r)
 }
 
-// ProfilesBundleIdGetToOneRelated operation middleware
-func (siw *ServerInterfaceWrapper) ProfilesBundleIdGetToOneRelated(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params ProfilesBundleIdGetToOneRelatedParams
-
-	// ------------- Optional query parameter "fields[bundleIds]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[bundleIds]", r.URL.Query(), &params.FieldsBundleIds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[bundleIds]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[bundleIds]", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.ProfilesBundleIdGetToOneRelated(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// ProfilesCertificatesGetToManyRelated operation middleware
-func (siw *ServerInterfaceWrapper) ProfilesCertificatesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params ProfilesCertificatesGetToManyRelatedParams
-
-	// ------------- Optional query parameter "fields[certificates]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[certificates]", r.URL.Query(), &params.FieldsCertificates, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[certificates]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[certificates]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.ProfilesCertificatesGetToManyRelated(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
-// ProfilesDevicesGetToManyRelated operation middleware
-func (siw *ServerInterfaceWrapper) ProfilesDevicesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
-
-	var err error
-	_ = err
-
-	// ------------- Path parameter "id" -------------
-	var id string
-
-	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
-	if err != nil {
-		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
-		return
-	}
-
-	// Parameter object where we will unmarshal all parameters from the context
-	var params ProfilesDevicesGetToManyRelatedParams
-
-	// ------------- Optional query parameter "fields[devices]" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[devices]", r.URL.Query(), &params.FieldsDevices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[devices]"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[devices]", Err: err})
-		}
-		return
-	}
-
-	// ------------- Optional query parameter "limit" -------------
-
-	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
-	if err != nil {
-		var requiredError *runtime.RequiredParameterError
-		if errors.As(err, &requiredError) {
-			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
-		} else {
-			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
-		}
-		return
-	}
-
-	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		siw.Handler.ProfilesDevicesGetToManyRelated(w, r, id, params)
-	}))
-
-	for _, middleware := range siw.HandlerMiddlewares {
-		handler = middleware(handler)
-	}
-
-	handler.ServeHTTP(w, r)
-}
-
 // ProfilesBundleIdGetToOneRelationship operation middleware
 func (siw *ServerInterfaceWrapper) ProfilesBundleIdGetToOneRelationship(w http.ResponseWriter, r *http.Request) {
 
@@ -34228,14 +31510,11 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/bundleIds/{id}", wrapper.BundleIdsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/bundleIds/{id}/bundleIdCapabilities", wrapper.BundleIdsBundleIdCapabilitiesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/bundleIds/{id}/profiles", wrapper.BundleIdsProfilesGetToManyRelated)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/bundleIds/{id}/relationships/bundleIdCapabilities", wrapper.BundleIdsBundleIdCapabilitiesGetToManyRelationship)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/bundleIds/{id}/relationships/profiles", wrapper.BundleIdsProfilesGetToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/certificates", wrapper.CertificatesGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/certificates", wrapper.CertificatesCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/certificates/{id}", wrapper.CertificatesDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/certificates/{id}", wrapper.CertificatesGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/certificates/{id}", wrapper.CertificatesUpdateInstance)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/certificates/{id}/passTypeId", wrapper.CertificatesPassTypeIdGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/certificates/{id}/relationships/passTypeId", wrapper.CertificatesPassTypeIdGetToOneRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/devices", wrapper.DevicesGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/devices", wrapper.DevicesCreateInstance)
@@ -34247,21 +31526,16 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds/{id}", wrapper.MerchantIdsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/merchantIds/{id}", wrapper.MerchantIdsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds/{id}/certificates", wrapper.MerchantIdsCertificatesGetToManyRelated)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds/{id}/relationships/certificates", wrapper.MerchantIdsCertificatesGetToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/passTypeIds", wrapper.PassTypeIdsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/passTypeIds", wrapper.PassTypeIdsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/passTypeIds/{id}", wrapper.PassTypeIdsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/passTypeIds/{id}", wrapper.PassTypeIdsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/passTypeIds/{id}", wrapper.PassTypeIdsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/passTypeIds/{id}/certificates", wrapper.PassTypeIdsCertificatesGetToManyRelated)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/passTypeIds/{id}/relationships/certificates", wrapper.PassTypeIdsCertificatesGetToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles", wrapper.ProfilesGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/profiles", wrapper.ProfilesCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/profiles/{id}", wrapper.ProfilesDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}", wrapper.ProfilesGetInstance)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/bundleId", wrapper.ProfilesBundleIdGetToOneRelated)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/certificates", wrapper.ProfilesCertificatesGetToManyRelated)
-	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/devices", wrapper.ProfilesDevicesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/relationships/bundleId", wrapper.ProfilesBundleIdGetToOneRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/relationships/certificates", wrapper.ProfilesCertificatesGetToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/profiles/{id}/relationships/devices", wrapper.ProfilesDevicesGetToManyRelationship)
