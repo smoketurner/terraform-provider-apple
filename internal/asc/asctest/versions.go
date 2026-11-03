@@ -31,8 +31,9 @@ type version struct {
 
 type reviewSubmission struct {
 	gen.ReviewSubmission
-	appID    string
-	versions []string
+	appID       string
+	versions    []string
+	iapVersions []string
 }
 
 type versionsState struct {
@@ -725,8 +726,15 @@ func (s *Server) ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *h
 		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no reviewSubmissions with id '"+rel.ReviewSubmission.Data.Id+"'", "/data/relationships/reviewSubmission")
 		return
 	}
+	item := map[string]any{"type": "reviewSubmissionItems", "id": s.newID("T"), "attributes": map[string]any{"state": "READY_FOR_REVIEW"}}
+	if rel.InAppPurchaseVersion != nil && rel.InAppPurchaseVersion.Data != nil {
+		if s.addIAPVersionItem(w, sub, rel.InAppPurchaseVersion.Data.Id) {
+			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
+		}
+		return
+	}
 	if rel.AppStoreVersion == nil || rel.AppStoreVersion.Data == nil {
-		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The fake supports only App Store version items.", "/data/relationships")
+		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The fake supports only App Store version and in-app purchase version items.", "/data/relationships")
 		return
 	}
 	v := s.editableVersion(w, rel.AppStoreVersion.Data.Id)
@@ -743,7 +751,6 @@ func (s *Server) ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *h
 	}
 	sub.versions = append(sub.versions, v.Id)
 	s.setVersionState(v, gen.AppVersionStateREADYFORREVIEW)
-	item := map[string]any{"type": "reviewSubmissionItems", "id": s.newID("T"), "attributes": map[string]any{"state": "READY_FOR_REVIEW"}}
 	writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
 }
 
@@ -764,7 +771,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 	in := asc.Value(req.Data.Attributes)
 	switch {
 	case asc.Value(in.Submitted):
-		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions) == 0 {
+		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions)+len(sub.iapVersions) == 0 {
 			stateError(w, "Only a submission with items, ready for review, can be submitted.")
 			return
 		}
@@ -773,6 +780,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		for _, vid := range sub.versions {
 			s.setVersionState(s.versions.versions[vid], gen.AppVersionStateWAITINGFORREVIEW)
 		}
+		s.setIAPVersionStates(sub, gen.InAppPurchaseVersionAttributesStateWAITINGFORREVIEW)
 	case asc.Value(in.Canceled):
 		if !slices.Contains(openSubmissionStates, *sub.Attributes.State) {
 			stateError(w, "The submission is not open.")
@@ -782,6 +790,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		for _, vid := range sub.versions {
 			s.setVersionState(s.versions.versions[vid], gen.AppVersionStateDEVELOPERREJECTED)
 		}
+		s.setIAPVersionStates(sub, gen.InAppPurchaseVersionAttributesStateDEVELOPERREJECTED)
 	}
 	writeJSON(w, http.StatusOK, gen.ReviewSubmissionResponse{Data: sub.ReviewSubmission, Links: docLinks(r)})
 }

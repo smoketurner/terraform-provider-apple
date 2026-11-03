@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_localization.en_us 6446452615/en-US

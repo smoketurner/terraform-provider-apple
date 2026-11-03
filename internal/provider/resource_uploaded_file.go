@@ -28,9 +28,10 @@ type fileAPI struct {
 	// existing returns the parent's current file, for parents with one
 	// file, which a new upload replaces; nil for parents with many.
 	existing func(ctx context.Context, c *asc.Client, parentID string) (string, error)
-	get      func(ctx context.Context, c *asc.Client, id string) (checksum string, err error)
-	reserve  func(ctx context.Context, c *asc.Client, parentID, name string, size int) (string, []gen.UploadOperation, error)
-	commit   func(ctx context.Context, c *asc.Client, id, checksum string) (failure string, err error)
+	// get returns a file's checksum, or "" when the API doesn't report one.
+	get     func(ctx context.Context, c *asc.Client, id string) (checksum string, err error)
+	reserve func(ctx context.Context, c *asc.Client, parentID, name string, size int) (string, []gen.UploadOperation, error)
+	commit  func(ctx context.Context, c *asc.Client, id, checksum string) (failure string, err error)
 	// remove deletes a file; nil when the API can't.
 	remove func(ctx context.Context, c *asc.Client, id string) error
 }
@@ -183,7 +184,11 @@ func (r *uploadedFileResource) Read(ctx context.Context, req resource.ReadReques
 		apiError(&resp.Diagnostics, "read "+r.api.noun, err)
 		return
 	}
-	resp.Diagnostics.Append(resp.State.SetAttribute(ctx, path.Root("checksum"), sum)...)
+	// Some files, such as in-app purchase images, don't report a checksum;
+	// keep the uploaded one.
+	if sum != "" {
+		resp.Diagnostics.Append(resp.State.SetAttribute(ctx, path.Root("checksum"), sum)...)
+	}
 }
 
 // Update changes only the file path: a changed checksum replaces the

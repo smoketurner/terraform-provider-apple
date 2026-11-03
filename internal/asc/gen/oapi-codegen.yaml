@@ -98,6 +98,7 @@ output-options:
     - apps_endUserLicenseAgreement_getToOneRelated
     - apps_getCollection
     - apps_getInstance
+    - apps_inAppPurchasesV2_getToManyRelated
     - apps_searchKeywords_getToManyRelated
     - apps_updateInstance
     - apps_webhooks_getToManyRelated
@@ -168,6 +169,26 @@ output-options:
     - endUserLicenseAgreements_deleteInstance
     - endUserLicenseAgreements_territories_getToManyRelationship
     - endUserLicenseAgreements_updateInstance
+    - inAppPurchaseAppStoreReviewScreenshots_createInstance
+    - inAppPurchaseAppStoreReviewScreenshots_deleteInstance
+    - inAppPurchaseAppStoreReviewScreenshots_getInstance
+    - inAppPurchaseAppStoreReviewScreenshots_updateInstance
+    - inAppPurchaseImagesV2_createInstance
+    - inAppPurchaseImagesV2_deleteInstance
+    - inAppPurchaseImagesV2_getInstance
+    - inAppPurchaseImagesV2_updateInstance
+    - inAppPurchaseLocalizationsV2_createInstance
+    - inAppPurchaseLocalizationsV2_deleteInstance
+    - inAppPurchaseLocalizationsV2_updateInstance
+    - inAppPurchaseVersions_createInstance
+    - inAppPurchaseVersions_image_getToOneRelated
+    - inAppPurchaseVersions_localizations_getToManyRelated
+    - inAppPurchasesV2_appStoreReviewScreenshot_getToOneRelated
+    - inAppPurchasesV2_createInstance
+    - inAppPurchasesV2_deleteInstance
+    - inAppPurchasesV2_getInstance
+    - inAppPurchasesV2_updateInstance
+    - inAppPurchasesV2_versions_getToManyRelated
     - merchantIds_certificates_getToManyRelated
     - merchantIds_createInstance
     - merchantIds_deleteInstance

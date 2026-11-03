@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase.coins 1234567890/6446452615
