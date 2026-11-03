@@ -80,6 +80,7 @@ type Server struct {
 	iapPricing  *iapPricingState
 	subs        *subscriptionsState
 	subPricing  *subscriptionPricingState
+	offers      *offersState
 	bg          *backgroundAssetsState
 
 	failNext map[string][]int
@@ -124,6 +125,7 @@ func NewServer() *Server {
 		iapPricing:   newIAPPricingState(),
 		subs:         newSubscriptionsState(),
 		subPricing:   newSubscriptionPricingState(),
+		offers:       newOffersState(),
 		bg:           newBackgroundAssetsState(),
 		failNext:     map[string][]int{},
 	}

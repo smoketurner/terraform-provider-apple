@@ -100,6 +100,8 @@ output-options:
     - apps_getCollection
     - apps_getInstance
     - apps_inAppPurchasesV2_getToManyRelated
+    - apps_promotedPurchases_getToManyRelated
+    - apps_promotedPurchases_replaceToManyRelationship
     - apps_searchKeywords_getToManyRelated
     - apps_subscriptionGracePeriod_getToOneRelated
     - apps_subscriptionGroups_getToManyRelated
@@ -238,6 +240,10 @@ output-options:
     - profiles_devices_getToManyRelationship
     - profiles_getCollection
     - profiles_getInstance
+    - promotedPurchases_createInstance
+    - promotedPurchases_deleteInstance
+    - promotedPurchases_getInstance
+    - promotedPurchases_updateInstance
     - reviewSubmissionItems_createInstance
     - reviewSubmissions_createInstance
     - reviewSubmissions_getCollection
@@ -269,6 +275,9 @@ output-options:
     - subscriptionImagesV2_deleteInstance
     - subscriptionImagesV2_getInstance
     - subscriptionImagesV2_updateInstance
+    - subscriptionIntroductoryOffers_createInstance
+    - subscriptionIntroductoryOffers_deleteInstance
+    - subscriptionIntroductoryOffers_updateInstance
     - subscriptionLocalizationsV2_createInstance
     - subscriptionLocalizationsV2_deleteInstance
     - subscriptionLocalizationsV2_updateInstance
@@ -279,6 +288,11 @@ output-options:
     - subscriptionPricePoints_equalizations_getToManyRelated
     - subscriptionPrices_createInstance
     - subscriptionPrices_deleteInstance
+    - subscriptionPromotionalOffers_createInstance
+    - subscriptionPromotionalOffers_deleteInstance
+    - subscriptionPromotionalOffers_getInstance
+    - subscriptionPromotionalOffers_prices_getToManyRelated
+    - subscriptionPromotionalOffers_updateInstance
     - subscriptionVersions_createInstance
     - subscriptionVersions_image_getToOneRelated
     - subscriptionVersions_localizations_getToManyRelated
@@ -286,6 +300,7 @@ output-options:
     - subscriptions_createInstance
     - subscriptions_deleteInstance
     - subscriptions_getInstance
+    - subscriptions_introductoryOffers_getToManyRelated
     - subscriptions_planAvailabilities_getToManyRelated
     - subscriptions_pricePoints_getToManyRelated
     - subscriptions_prices_getToManyRelated
@@ -310,3 +325,8 @@ output-options:
     - webhooks_deliveries_getToManyRelated
     - webhooks_getInstance
     - webhooks_updateInstance
+    - winBackOffers_createInstance
+    - winBackOffers_deleteInstance
+    - winBackOffers_getInstance
+    - winBackOffers_prices_getToManyRelated
+    - winBackOffers_updateInstance
