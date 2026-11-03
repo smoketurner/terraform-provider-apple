@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_offer_code_one_time_use_codes.batch 9876543210/1234567890

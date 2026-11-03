@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_offer_code.half 6446452615/9876543210
