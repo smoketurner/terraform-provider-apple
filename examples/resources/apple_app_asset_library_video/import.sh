@@ -1,0 +1,1 @@
+terraform import apple_app_asset_library_video.tour 1234567890/f4000005-e036-8f0b-8018-d259974bee62

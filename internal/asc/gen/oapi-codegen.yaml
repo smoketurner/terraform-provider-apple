@@ -25,9 +25,27 @@ output-options:
     - androidToIosAppMappingDetails_deleteInstance
     - androidToIosAppMappingDetails_getInstance
     - androidToIosAppMappingDetails_updateInstance
+    - appAssetLibraries_images_getToManyRelated
+    - appAssetLibraries_videos_getToManyRelated
+    - appAssetLibraryImages_createInstance
+    - appAssetLibraryImages_deleteInstance
+    - appAssetLibraryImages_getInstance
+    - appAssetLibraryImages_placements_getToManyRelated
+    - appAssetLibraryImages_updateInstance
+    - appAssetLibraryPlacementOrderingRequests_createInstance
+    - appAssetLibraryPlacements_createInstance
+    - appAssetLibraryPlacements_deleteInstance
+    - appAssetLibraryPlacements_getInstance
+    - appAssetLibraryRefData_getCollection
+    - appAssetLibraryVideos_createInstance
+    - appAssetLibraryVideos_deleteInstance
+    - appAssetLibraryVideos_getInstance
+    - appAssetLibraryVideos_placements_getToManyRelated
+    - appAssetLibraryVideos_updateInstance
     - appAvailabilitiesV2_createInstance
     - appAvailabilitiesV2_territoryAvailabilities_getToManyRelated
     - appCategories_getCollection
+    - appCustomProductPageLocalizations_placements_getToManyRelated
     - appEncryptionDeclarationDocuments_createInstance
     - appEncryptionDeclarationDocuments_getInstance
     - appEncryptionDeclarationDocuments_updateInstance
@@ -65,10 +83,12 @@ output-options:
     - appStoreReviewAttachments_updateInstance
     - appStoreReviewDetails_createInstance
     - appStoreReviewDetails_updateInstance
+    - appStoreVersionExperimentTreatmentLocalizations_placements_getToManyRelated
     - appStoreVersionLocalizations_appPreviewSets_getToManyRelated
     - appStoreVersionLocalizations_appScreenshotSets_getToManyRelated
     - appStoreVersionLocalizations_createInstance
     - appStoreVersionLocalizations_deleteInstance
+    - appStoreVersionLocalizations_placements_getToManyRelated
     - appStoreVersionLocalizations_searchKeywords_createToManyRelationship
     - appStoreVersionLocalizations_searchKeywords_deleteToManyRelationship
     - appStoreVersionLocalizations_searchKeywords_getToManyRelated
@@ -94,6 +114,7 @@ output-options:
     - apps_appPriceSchedule_getToOneRelated
     - apps_appStoreVersions_getToManyRelated
     - apps_appTags_getToManyRelated
+    - apps_assetLibrary_getToOneRelated
     - apps_backgroundAssets_getToManyRelated
     - apps_betaTesters_deleteToManyRelationship
     - apps_endUserLicenseAgreement_getToOneRelated
