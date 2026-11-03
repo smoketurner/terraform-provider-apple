@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_availability.coins 6446452615

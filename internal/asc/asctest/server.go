@@ -77,6 +77,7 @@ type Server struct {
 	media       *mediaState
 	files       map[string]*uploadedFile
 	iap         *iapState
+	iapPricing  *iapPricingState
 
 	failNext map[string][]int
 	requests []string
@@ -117,6 +118,7 @@ func NewServer() *Server {
 		media:        newMediaState(),
 		files:        map[string]*uploadedFile{},
 		iap:          newIAPState(),
+		iapPricing:   newIAPPricingState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

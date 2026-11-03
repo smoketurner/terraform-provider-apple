@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_price_schedule.coins 6446452615
