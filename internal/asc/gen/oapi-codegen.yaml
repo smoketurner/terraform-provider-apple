@@ -186,6 +186,17 @@ output-options:
     - inAppPurchaseLocalizationsV2_createInstance
     - inAppPurchaseLocalizationsV2_deleteInstance
     - inAppPurchaseLocalizationsV2_updateInstance
+    - inAppPurchaseOfferCodeCustomCodes_createInstance
+    - inAppPurchaseOfferCodeCustomCodes_getInstance
+    - inAppPurchaseOfferCodeCustomCodes_updateInstance
+    - inAppPurchaseOfferCodeOneTimeUseCodes_createInstance
+    - inAppPurchaseOfferCodeOneTimeUseCodes_getInstance
+    - inAppPurchaseOfferCodeOneTimeUseCodes_updateInstance
+    - inAppPurchaseOfferCodeOneTimeUseCodes_values_getToOneRelated
+    - inAppPurchaseOfferCodes_createInstance
+    - inAppPurchaseOfferCodes_getInstance
+    - inAppPurchaseOfferCodes_prices_getToManyRelated
+    - inAppPurchaseOfferCodes_updateInstance
     - inAppPurchasePricePoints_equalizations_getToManyRelated
     - inAppPurchasePriceSchedules_baseTerritory_getToOneRelated
     - inAppPurchasePriceSchedules_createInstance
@@ -268,6 +279,17 @@ output-options:
     - subscriptionLocalizationsV2_createInstance
     - subscriptionLocalizationsV2_deleteInstance
     - subscriptionLocalizationsV2_updateInstance
+    - subscriptionOfferCodeCustomCodes_createInstance
+    - subscriptionOfferCodeCustomCodes_getInstance
+    - subscriptionOfferCodeCustomCodes_updateInstance
+    - subscriptionOfferCodeOneTimeUseCodes_createInstance
+    - subscriptionOfferCodeOneTimeUseCodes_getInstance
+    - subscriptionOfferCodeOneTimeUseCodes_updateInstance
+    - subscriptionOfferCodeOneTimeUseCodes_values_getToOneRelated
+    - subscriptionOfferCodes_createInstance
+    - subscriptionOfferCodes_getInstance
+    - subscriptionOfferCodes_prices_getToManyRelated
+    - subscriptionOfferCodes_updateInstance
     - subscriptionPlanAvailabilities_availableTerritories_getToManyRelated
     - subscriptionPlanAvailabilities_availableTerritories_replaceToManyRelationship
     - subscriptionPlanAvailabilities_createInstance
