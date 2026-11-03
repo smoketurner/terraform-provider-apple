@@ -165,7 +165,7 @@ func TestAccScreenshotSet(t *testing.T) {
 				// and uploads the file again.
 				PreConfig:   func() { env.fake.FailNext("PUT", "/upload", 403) },
 				Config:      locals + screenshotSetConfig("APP_IPHONE_67", c, a, b),
-				ExpectError: regexp.MustCompile(`(?s)uploading.*2-editor.png:\s+upload operation 0: HTTP 403`),
+				ExpectError: regexp.MustCompile(`(?s)uploading.*2-editor.png:\s+upload\s+operation\s+0:\s+HTTP\s+403`),
 			},
 			{
 				Config: locals + screenshotSetConfig("APP_IPHONE_67", c, a, b),
