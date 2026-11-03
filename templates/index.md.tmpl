@@ -62,8 +62,8 @@ Manage App Store Connect as code through the [App Store Connect API](https://dev
 * **Screenshots and previews are uploaded from files.** A screenshot or preview set lists its files in order. Apply
   uploads new files, uploads a file again when its contents change (compared by MD5 checksum), deletes removed files and
   sets the order. Paths are relative to where Terraform runs, so use `${path.module}`.
-* **In-app purchase metadata follows the version being prepared.** An in-app purchase's localizations and image
-  belong to a version that goes through App Review. Their resources are keyed by purchase and locale: changes go to the
+* **In-app purchase and subscription metadata follows the version being prepared.** The localizations and image of
+  an in-app purchase, subscription or subscription group belong to a version that goes through App Review. Their resources are keyed by purchase and locale: changes go to the
   version being prepared, and once the current version has been reviewed, applying starts the next one.
 * **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
   the device, which still counts toward the team's device limit until the membership year renews.

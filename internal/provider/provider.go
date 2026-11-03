@@ -152,6 +152,7 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 		newSubmitBetaReviewAction,
 		newSubmitForReviewAction,
 		newSubmitIAPAction,
+		newSubmitSubscriptionAction,
 	}
 }
 
@@ -179,6 +180,12 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newIAPPriceScheduleResource,
 		newIAPAvailabilityResource,
 		newSandboxTesterResource,
+		newSubscriptionGroupResource,
+		newGroupLocalizationResource,
+		newSubscriptionResource,
+		newSubscriptionLocalizationResource,
+		newSubscriptionImageResource,
+		newSubscriptionReviewScreenshotResource,
 		newNominationResource,
 		newWebhookResource,
 		newSearchKeywordResource,
@@ -222,6 +229,8 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newIAPPricePointsDataSource,
 		newIAPPricePointEqualizationsDataSource,
 		newSandboxTestersDataSource,
+		newSubscriptionGroupsDataSource,
+		newSubscriptionsDataSource,
 		newAppDataSource,
 		newAppsDataSource,
 		newBetaGroupsDataSource,

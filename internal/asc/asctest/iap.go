@@ -98,11 +98,9 @@ func (s *Server) InAppPurchasesV2CreateInstance(w http.ResponseWriter, r *http.R
 		conflict(w, "ENTITY_ERROR.ATTRIBUTE.INVALID", "inAppPurchaseType is invalid.", "/data/attributes/inAppPurchaseType")
 		return
 	}
-	for _, p := range s.iap.iaps {
-		if p.appID == appID && *p.Attributes.ProductId == in.ProductId {
-			conflict(w, "ENTITY_ERROR.ATTRIBUTE.INVALID.DUPLICATE", "The product ID "+in.ProductId+" is already used.", "/data/attributes/productId")
-			return
-		}
+	if s.productIDUsed(appID, in.ProductId) {
+		conflict(w, "ENTITY_ERROR.ATTRIBUTE.INVALID.DUPLICATE", "The product ID "+in.ProductId+" is already used.", "/data/attributes/productId")
+		return
 	}
 	p := &iap{appID: appID, InAppPurchaseV2: gen.InAppPurchaseV2{Id: s.newID("P"), Type: gen.InAppPurchaseV2TypeInAppPurchases}}
 	a := alloc(&p.Attributes)

@@ -100,6 +100,7 @@ output-options:
     - apps_getInstance
     - apps_inAppPurchasesV2_getToManyRelated
     - apps_searchKeywords_getToManyRelated
+    - apps_subscriptionGroups_getToManyRelated
     - apps_updateInstance
     - apps_webhooks_getToManyRelated
     - betaAppLocalizations_createInstance
@@ -234,6 +235,37 @@ output-options:
     - sandboxTestersClearPurchaseHistoryRequestV2_createInstance
     - sandboxTestersV2_getCollection
     - sandboxTestersV2_updateInstance
+    - subscriptionAppStoreReviewScreenshots_createInstance
+    - subscriptionAppStoreReviewScreenshots_deleteInstance
+    - subscriptionAppStoreReviewScreenshots_getInstance
+    - subscriptionAppStoreReviewScreenshots_updateInstance
+    - subscriptionGroupLocalizationsV2_createInstance
+    - subscriptionGroupLocalizationsV2_deleteInstance
+    - subscriptionGroupLocalizationsV2_updateInstance
+    - subscriptionGroupVersions_createInstance
+    - subscriptionGroupVersions_localizations_getToManyRelated
+    - subscriptionGroups_createInstance
+    - subscriptionGroups_deleteInstance
+    - subscriptionGroups_getInstance
+    - subscriptionGroups_subscriptions_getToManyRelated
+    - subscriptionGroups_updateInstance
+    - subscriptionGroups_versions_getToManyRelated
+    - subscriptionImagesV2_createInstance
+    - subscriptionImagesV2_deleteInstance
+    - subscriptionImagesV2_getInstance
+    - subscriptionImagesV2_updateInstance
+    - subscriptionLocalizationsV2_createInstance
+    - subscriptionLocalizationsV2_deleteInstance
+    - subscriptionLocalizationsV2_updateInstance
+    - subscriptionVersions_createInstance
+    - subscriptionVersions_image_getToOneRelated
+    - subscriptionVersions_localizations_getToManyRelated
+    - subscriptions_appStoreReviewScreenshot_getToOneRelated
+    - subscriptions_createInstance
+    - subscriptions_deleteInstance
+    - subscriptions_getInstance
+    - subscriptions_updateInstance
+    - subscriptions_versions_getToManyRelated
     - territories_getCollection
     - territoryAvailabilities_updateInstance
     - userInvitations_createInstance

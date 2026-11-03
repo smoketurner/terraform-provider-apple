@@ -1,0 +1,1 @@
+terraform import apple_subscription_review_screenshot.monthly 1234567890

@@ -59,7 +59,7 @@ import {
 
 #### Required
 
-- `in_app_purchase_id` (String) App Store Connect ID of the in-app purchase.
+- `in_app_purchase_id` (String) App Store Connect ID of the in-app purchase, e.g. `apple_in_app_purchase.example.id`.
 - `locale` (String) Locale, e.g. `en-US`.
 
 The [`terraform import` command](https://developer.hashicorp.com/terraform/cli/commands/import) can be used, for example:

@@ -2,10 +2,7 @@ package provider
 
 import (
 	"context"
-	"errors"
 	"fmt"
-	"slices"
-	"sync"
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/stringvalidator"
 	actionschema "github.com/hashicorp/terraform-plugin-framework/action/schema"
@@ -32,91 +29,32 @@ import (
 
 var iapTypes = enum(gen.InAppPurchaseTypeCONSUMABLE, gen.InAppPurchaseTypeNONCONSUMABLE, gen.InAppPurchaseTypeNONRENEWINGSUBSCRIPTION)
 
-var iapVersionsInReview = enum(gen.InAppPurchaseVersionAttributesStateREADYFORREVIEW, gen.InAppPurchaseVersionAttributesStateWAITINGFORREVIEW,
-	gen.InAppPurchaseVersionAttributesStateINREVIEW)
-
-var errIAPInReview = errors.New("the in-app purchase is in review; its metadata can change once review finishes")
-
-// iapVersions returns a purchase's version being prepared, if any, and the
-// one to read: that version, or else the latest one that isn't replaced.
-func iapVersions(ctx context.Context, c *asc.Client, iapID string) (draft, current, latest *gen.InAppPurchaseVersion, err error) {
-	out, err := c.InAppPurchasesV2VersionsGetToManyRelatedWithResponse(ctx, iapID, &gen.InAppPurchasesV2VersionsGetToManyRelatedParams{Limit: new(listAll)})
-	if err := asc.Err(out, err); err != nil {
-		return nil, nil, nil, err
-	}
-	for i := range out.JSON200.Data {
-		v := &out.JSON200.Data[i]
-		a := asc.Value(v.Attributes)
-		if latest == nil || asc.Value(a.Version) > asc.Value(latest.Attributes.Version) {
-			latest = v
+// iapMetadata reads and starts the versions of in-app purchases.
+var iapMetadata = metadataVersions{
+	noun: "in-app purchase",
+	list: func(ctx context.Context, c *asc.Client, iapID string) ([]versionInfo, error) {
+		out, err := c.InAppPurchasesV2VersionsGetToManyRelatedWithResponse(ctx, iapID, &gen.InAppPurchasesV2VersionsGetToManyRelatedParams{Limit: new(listAll)})
+		if err := asc.Err(out, err); err != nil {
+			return nil, err
 		}
-		state := asc.Value(a.State)
-		switch {
-		case state == gen.InAppPurchaseVersionAttributesStatePREPAREFORSUBMISSION:
-			draft = v
-		case state != gen.InAppPurchaseVersionAttributesStateREPLACEDWITHNEWVERSION &&
-			(current == nil || asc.Value(a.Version) > asc.Value(current.Attributes.Version)):
-			current = v
+		var vs []versionInfo
+		for _, v := range out.JSON200.Data {
+			a := asc.Value(v.Attributes)
+			vs = append(vs, versionInfo{id: v.Id, number: asc.Value(a.Version), state: string(asc.Value(a.State))})
 		}
-	}
-	if draft != nil {
-		current = draft
-	}
-	return draft, current, latest, nil
-}
-
-// iapVersionLocks serializes starting a purchase's next version: the
-// localization and image resources of one purchase apply in parallel, and
-// only one of them may create the version.
-var iapVersionLocks = struct {
-	sync.Mutex
-	byIAP map[string]*sync.Mutex
-}{byIAP: map[string]*sync.Mutex{}}
-
-// lockIAPVersions locks starting a purchase's next version and returns the
-// unlock function.
-func lockIAPVersions(iapID string) func() {
-	iapVersionLocks.Lock()
-	lock, ok := iapVersionLocks.byIAP[iapID]
-	if !ok {
-		lock = &sync.Mutex{}
-		iapVersionLocks.byIAP[iapID] = lock
-	}
-	iapVersionLocks.Unlock()
-	lock.Lock()
-	return lock.Unlock
-}
-
-// editableIAPVersion returns the purchase's version being prepared,
-// starting one when the latest has been reviewed.
-func editableIAPVersion(ctx context.Context, c *asc.Client, iapID string) (string, error) {
-	defer lockIAPVersions(iapID)()
-	draft, _, latest, err := iapVersions(ctx, c, iapID)
-	if err != nil {
-		return "", err
-	}
-	if draft != nil {
-		return draft.Id, nil
-	}
-	if latest != nil && slices.Contains(iapVersionsInReview, string(asc.Value(latest.Attributes.State))) {
-		return "", errIAPInReview
-	}
-	var body gen.InAppPurchaseVersionCreateRequest
-	body.Data.Type = gen.InAppPurchaseVersionCreateRequestDataTypeInAppPurchaseVersions
-	body.Data.Relationships.InAppPurchase.Data.Id = iapID
-	body.Data.Relationships.InAppPurchase.Data.Type = gen.InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataTypeInAppPurchases
-	out, err := c.InAppPurchaseVersionsCreateInstanceWithResponse(ctx, body)
-	err = asc.Err(out, err)
-	if asc.HasCode(err, "STATE_ERROR") {
-		// Another client started the version first; use it.
-		if draft, _, _, lerr := iapVersions(ctx, c, iapID); lerr == nil && draft != nil {
-			return draft.Id, nil
+		return vs, nil
+	},
+	create: func(ctx context.Context, c *asc.Client, iapID string) (string, error) {
+		var body gen.InAppPurchaseVersionCreateRequest
+		body.Data.Type = gen.InAppPurchaseVersionCreateRequestDataTypeInAppPurchaseVersions
+		body.Data.Relationships.InAppPurchase.Data.Id = iapID
+		body.Data.Relationships.InAppPurchase.Data.Type = gen.InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataTypeInAppPurchases
+		out, err := c.InAppPurchaseVersionsCreateInstanceWithResponse(ctx, body)
+		if err := asc.Err(out, err); err != nil {
+			return "", err
 		}
-	}
-	if err != nil {
-		return "", err
-	}
-	return out.JSON201.Data.Id, nil
+		return out.JSON201.Data.Id, nil
+	},
 }
 
 // ---- apple_in_app_purchase ----
@@ -280,204 +218,65 @@ func (r *iapResource) Delete(ctx context.Context, req resource.DeleteRequest, re
 
 // ---- apple_in_app_purchase_localization ----
 
-var (
-	_ resource.ResourceWithConfigure   = &iapLocalizationResource{}
-	_ resource.ResourceWithImportState = &iapLocalizationResource{}
-	_ resource.ResourceWithIdentity    = &iapLocalizationResource{}
-)
-
-type iapLocalizationResource struct {
-	resourceIdentity
-	client *asc.Client
-}
-
-type iapLocalizationModel struct {
-	IAPID       types.String `tfsdk:"in_app_purchase_id"`
-	Locale      types.String `tfsdk:"locale"`
-	Name        types.String `tfsdk:"name"`
-	Description types.String `tfsdk:"description"`
-	ID          types.String `tfsdk:"id"`
-}
-
-func newIAPLocalizationResource() resource.Resource {
-	return &iapLocalizationResource{resourceIdentity: resourceIdentity{attrs: []identityAttribute{
-		{name: "in_app_purchase_id", description: "App Store Connect ID of the in-app purchase.", state: "in_app_purchase_id"},
-		{name: "locale", description: "Locale, e.g. `en-US`.", state: "locale"},
-	}}}
-}
-
-func (r *iapLocalizationResource) Metadata(_ context.Context, req resource.MetadataRequest, resp *resource.MetadataResponse) {
-	resp.TypeName = req.ProviderTypeName + "_in_app_purchase_localization"
-}
-
-func (r *iapLocalizationResource) Schema(_ context.Context, _ resource.SchemaRequest, resp *resource.SchemaResponse) {
-	resp.Schema = schema.Schema{
-		MarkdownDescription: "Sets an in-app purchase's display name and description for one locale. Changes go to the " +
-			"version being prepared; when the current version has been reviewed, applying starts the next one. Changes " +
-			"fail while a version is in review. Destroying the resource deletes the localization from the version being " +
-			"prepared, and otherwise leaves it. Import it with `<in_app_purchase_id>/<locale>`.",
-		Attributes: map[string]schema.Attribute{
-			"in_app_purchase_id": replacedString("App Store Connect ID of the in-app purchase, e.g. `apple_in_app_purchase.example.id`."),
-			"locale":             replacedString("Locale, e.g. `en-US`.", localeValidator),
-			"name":               schema.StringAttribute{MarkdownDescription: "Display name, 2 to 35 characters.", Required: true, Validators: []validator.String{stringvalidator.LengthBetween(2, 35)}},
-			"description":        optionalString("Description, up to 55 characters.", stringvalidator.LengthAtMost(55)),
-			"id":                 schema.StringAttribute{MarkdownDescription: "App Store Connect ID of the localization, which changes with each version.", Computed: true},
-		},
-	}
-}
-
-func (r *iapLocalizationResource) Configure(_ context.Context, req resource.ConfigureRequest, resp *resource.ConfigureResponse) {
-	r.client = clientFromResource(req, resp)
-}
-
-func (r *iapLocalizationResource) ImportState(ctx context.Context, req resource.ImportStateRequest, resp *resource.ImportStateResponse) {
-	r.importState(ctx, r.client, req, resp)
-}
-
-func (m *iapLocalizationModel) apply(l *gen.InAppPurchaseLocalizationV2) {
+func iapLocalizationValues(l gen.InAppPurchaseLocalizationV2) localization {
 	a := asc.Value(l.Attributes)
-	m.ID, m.Name, m.Description = types.StringValue(l.Id), stringValue(a.Name), stringValue(a.Description)
+	return localization{id: l.Id, locale: asc.Value(a.Locale), values: map[string]*string{"name": a.Name, "description": a.Description}}
 }
 
-func findIAPLocalization(ctx context.Context, c *asc.Client, versionID, locale string) (*gen.InAppPurchaseLocalizationV2, error) {
-	out, err := c.InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse(ctx, versionID, &gen.InAppPurchaseVersionsLocalizationsGetToManyRelatedParams{Limit: new(listAll)})
-	if err := asc.Err(out, err); err != nil {
-		return nil, err
-	}
-	for i := range out.JSON200.Data {
-		if asc.Value(asc.Value(out.JSON200.Data[i].Attributes).Locale) == locale {
-			return &out.JSON200.Data[i], nil
-		}
-	}
-	return nil, errNoMatch
-}
-
-// write sets the locale's localization in the version being prepared:
-// a version starts with copies of the previous one's localizations, so it
-// updates the copy when there is one.
-func (r *iapLocalizationResource) write(ctx context.Context, plan *iapLocalizationModel) (*gen.InAppPurchaseLocalizationV2, error) {
-	versionID, err := editableIAPVersion(ctx, r.client, plan.IAPID.ValueString())
-	if err != nil {
-		return nil, err
-	}
-	existing, err := findIAPLocalization(ctx, r.client, versionID, plan.Locale.ValueString())
-	switch {
-	case err == nil:
-		var current iapLocalizationModel
-		current.apply(existing)
-		var body gen.InAppPurchaseLocalizationV2UpdateRequest
-		body.Data.Type, body.Data.Id = gen.InAppPurchaseLocalizationV2UpdateRequestDataTypeInAppPurchaseLocalizations, existing.Id
-		a := asc.Alloc(&body.Data.Attributes)
-		a.Name, a.Description = new(plan.Name.ValueString()), changedString(plan.Description, current.Description)
-		out, err := r.client.InAppPurchaseLocalizationsV2UpdateInstanceWithResponse(ctx, existing.Id, body)
+var iapLocalizationAPI = localizationAPI{
+	typeName:    "in_app_purchase_localization",
+	description: "Sets an in-app purchase's display name and description for one locale.",
+	parent:      "in_app_purchase_id",
+	parentDesc:  "App Store Connect ID of the in-app purchase, e.g. `apple_in_app_purchase.example.id`.",
+	versions:    iapMetadata,
+	fields: []localizationField{
+		{attr: "name", json: "name", desc: "Display name, 2 to 35 characters.", required: true, min: 2, max: 35},
+		{attr: "description", json: "description", desc: "Description, up to 55 characters.", max: 55},
+	},
+	list: func(ctx context.Context, c *asc.Client, versionID string) ([]localization, error) {
+		out, err := c.InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse(ctx, versionID, &gen.InAppPurchaseVersionsLocalizationsGetToManyRelatedParams{Limit: new(listAll)})
 		if err := asc.Err(out, err); err != nil {
 			return nil, err
 		}
-		return &out.JSON200.Data, nil
-	case errors.Is(err, errNoMatch):
+		var ls []localization
+		for _, l := range out.JSON200.Data {
+			ls = append(ls, iapLocalizationValues(l))
+		}
+		return ls, nil
+	},
+	create: func(ctx context.Context, c *asc.Client, versionID, locale string, values map[string]*string) (*localization, error) {
 		var body gen.InAppPurchaseLocalizationV2CreateRequest
 		body.Data.Type = gen.InAppPurchaseLocalizationV2CreateRequestDataTypeInAppPurchaseLocalizations
 		a := &body.Data.Attributes
-		a.Locale, a.Name, a.Description = plan.Locale.ValueString(), plan.Name.ValueString(), knownString(plan.Description)
+		a.Locale, a.Name, a.Description = locale, asc.Value(values["name"]), values["description"]
 		body.Data.Relationships.Version.Data.Id = versionID
 		body.Data.Relationships.Version.Data.Type = gen.InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataTypeInAppPurchaseVersions
-		out, err := r.client.InAppPurchaseLocalizationsV2CreateInstanceWithResponse(ctx, body)
+		out, err := c.InAppPurchaseLocalizationsV2CreateInstanceWithResponse(ctx, body)
 		if err := asc.Err(out, err); err != nil {
 			return nil, err
 		}
-		return &out.JSON201.Data, nil
-	}
-	return nil, err
-}
-
-func (r *iapLocalizationResource) Create(ctx context.Context, req resource.CreateRequest, resp *resource.CreateResponse) {
-	defer r.setIdentity(ctx, resp.Identity, &resp.Diagnostics, &resp.State)
-	var plan iapLocalizationModel
-	resp.Diagnostics.Append(req.Plan.Get(ctx, &plan)...)
-	if resp.Diagnostics.HasError() {
-		return
-	}
-	l, err := r.write(ctx, &plan)
-	if err != nil {
-		apiError(&resp.Diagnostics, "set in-app purchase localization", err)
-		return
-	}
-	plan.apply(l)
-	resp.Diagnostics.Append(resp.State.Set(ctx, &plan)...)
-}
-
-func (r *iapLocalizationResource) Read(ctx context.Context, req resource.ReadRequest, resp *resource.ReadResponse) {
-	defer r.setIdentity(ctx, resp.Identity, &resp.Diagnostics, &resp.State, &req.State)
-	var state iapLocalizationModel
-	resp.Diagnostics.Append(req.State.Get(ctx, &state)...)
-	if resp.Diagnostics.HasError() {
-		return
-	}
-	_, current, _, err := iapVersions(ctx, r.client, state.IAPID.ValueString())
-	var l *gen.InAppPurchaseLocalizationV2
-	if err == nil && current == nil {
-		err = errNoMatch
-	}
-	if err == nil {
-		l, err = findIAPLocalization(ctx, r.client, current.Id, state.Locale.ValueString())
-	}
-	if asc.IsNotFound(err) || errors.Is(err, errNoMatch) {
-		resp.State.RemoveResource(ctx)
-		return
-	}
-	if err != nil {
-		apiError(&resp.Diagnostics, "read in-app purchase localization", err)
-		return
-	}
-	state.apply(l)
-	resp.Diagnostics.Append(resp.State.Set(ctx, &state)...)
-}
-
-func (r *iapLocalizationResource) Update(ctx context.Context, req resource.UpdateRequest, resp *resource.UpdateResponse) {
-	defer r.setIdentity(ctx, resp.Identity, &resp.Diagnostics, &resp.State)
-	var plan iapLocalizationModel
-	resp.Diagnostics.Append(req.Plan.Get(ctx, &plan)...)
-	if resp.Diagnostics.HasError() {
-		return
-	}
-	l, err := r.write(ctx, &plan)
-	if err != nil {
-		apiError(&resp.Diagnostics, "set in-app purchase localization", err)
-		return
-	}
-	plan.apply(l)
-	resp.Diagnostics.Append(resp.State.Set(ctx, &plan)...)
-}
-
-// Delete removes the locale from the version being prepared; reviewed
-// versions keep it.
-func (r *iapLocalizationResource) Delete(ctx context.Context, req resource.DeleteRequest, resp *resource.DeleteResponse) {
-	var state iapLocalizationModel
-	resp.Diagnostics.Append(req.State.Get(ctx, &state)...)
-	if resp.Diagnostics.HasError() {
-		return
-	}
-	draft, _, _, err := iapVersions(ctx, r.client, state.IAPID.ValueString())
-	if asc.IsNotFound(err) || err == nil && draft == nil {
-		return
-	}
-	var l *gen.InAppPurchaseLocalizationV2
-	if err == nil {
-		l, err = findIAPLocalization(ctx, r.client, draft.Id, state.Locale.ValueString())
-	}
-	if errors.Is(err, errNoMatch) {
-		return
-	}
-	if err == nil {
-		out, e := r.client.InAppPurchaseLocalizationsV2DeleteInstanceWithResponse(ctx, l.Id)
-		if err = asc.Err(out, e); asc.IsNotFound(err) {
-			err = nil
+		l := iapLocalizationValues(out.JSON201.Data)
+		return &l, nil
+	},
+	update: func(ctx context.Context, c *asc.Client, id string, values map[string]*string) (*localization, error) {
+		var body gen.InAppPurchaseLocalizationV2UpdateRequest
+		body.Data.Type, body.Data.Id = gen.InAppPurchaseLocalizationV2UpdateRequestDataTypeInAppPurchaseLocalizations, id
+		a := asc.Alloc(&body.Data.Attributes)
+		a.Name, a.Description = values["name"], clearable(values["description"])
+		out, err := c.InAppPurchaseLocalizationsV2UpdateInstanceWithResponse(ctx, id, body)
+		if err := asc.Err(out, err); err != nil {
+			return nil, err
 		}
-	}
-	if err != nil {
-		apiError(&resp.Diagnostics, "delete in-app purchase localization", err)
-	}
+		l := iapLocalizationValues(out.JSON200.Data)
+		return &l, nil
+	},
+	remove: func(ctx context.Context, c *asc.Client, id string) error {
+		out, err := c.InAppPurchaseLocalizationsV2DeleteInstanceWithResponse(ctx, id)
+		return asc.Err(out, err)
+	},
 }
+
+var newIAPLocalizationResource = newVersionedLocalizationResource(iapLocalizationAPI)
 
 // ---- images ----
 
@@ -491,7 +290,7 @@ var iapImageAPI = fileAPI{
 	parent:     "in_app_purchase_id",
 	parentDesc: "App Store Connect ID of the in-app purchase, e.g. `apple_in_app_purchase.example.id`.",
 	existing: func(ctx context.Context, c *asc.Client, iapID string) (string, error) {
-		versionID, err := editableIAPVersion(ctx, c, iapID)
+		versionID, err := iapMetadata.editable(ctx, c, iapID)
 		if err != nil {
 			return "", err
 		}
@@ -506,7 +305,7 @@ var iapImageAPI = fileAPI{
 		return "", asc.Err(out, err)
 	},
 	reserve: func(ctx context.Context, c *asc.Client, iapID, name string, size int) (string, []gen.UploadOperation, error) {
-		versionID, err := editableIAPVersion(ctx, c, iapID)
+		versionID, err := iapMetadata.editable(ctx, c, iapID)
 		if err != nil {
 			return "", nil, err
 		}
@@ -619,7 +418,7 @@ var newSubmitIAPAction = newAction("submit_in_app_purchase",
 		},
 	},
 	func(ctx context.Context, c *asc.Client, m *submitIAPModel) (string, error) {
-		draft, _, _, err := iapVersions(ctx, c, m.IAPID.ValueString())
+		draft, _, _, err := iapMetadata.find(ctx, c, m.IAPID.ValueString())
 		if err != nil {
 			return "", err
 		}
@@ -639,7 +438,7 @@ var newSubmitIAPAction = newAction("submit_in_app_purchase",
 		item.Data.Relationships.ReviewSubmission.Data.Id = submissionID
 		item.Data.Relationships.ReviewSubmission.Data.Type = gen.ReviewSubmissionItemCreateRequestDataRelationshipsReviewSubmissionDataTypeReviewSubmissions
 		v := asc.Alloc(&asc.Alloc(&item.Data.Relationships.InAppPurchaseVersion).Data)
-		v.Id, v.Type = draft.Id, gen.ReviewSubmissionItemCreateRequestDataRelationshipsInAppPurchaseVersionDataTypeInAppPurchaseVersions
+		v.Id, v.Type = draft.id, gen.ReviewSubmissionItemCreateRequestDataRelationshipsInAppPurchaseVersionDataTypeInAppPurchaseVersions
 		out, err := c.ReviewSubmissionItemsCreateInstanceWithResponse(ctx, item)
 		if err := asc.Err(out, err); err != nil {
 			return "", err
