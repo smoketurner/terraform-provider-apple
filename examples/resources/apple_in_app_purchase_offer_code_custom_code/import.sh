@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_offer_code_custom_code.half 9876543210/1234567890

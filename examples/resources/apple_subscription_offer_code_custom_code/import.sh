@@ -1,0 +1,1 @@
+terraform import apple_subscription_offer_code_custom_code.spring 9876543210/1234567890
