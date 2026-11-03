@@ -83,6 +83,7 @@ type Server struct {
 	offers      *offersState
 	offerCodes  *offerCodesState
 	bg          *backgroundAssetsState
+	lib         *assetLibraryState
 
 	failNext map[string][]int
 	requests []string
@@ -129,6 +130,7 @@ func NewServer() *Server {
 		offers:       newOffersState(),
 		offerCodes:   newOfferCodesState(),
 		bg:           newBackgroundAssetsState(),
+		lib:          newAssetLibraryState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

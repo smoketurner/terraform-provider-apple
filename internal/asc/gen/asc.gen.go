@@ -1544,6 +1544,21 @@ func (e AppType) Valid() bool {
 	}
 }
 
+// Defines values for AppAssetLibraryType.
+const (
+	AppAssetLibraryTypeAppAssetLibraries AppAssetLibraryType = "appAssetLibraries"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryType enum.
+func (e AppAssetLibraryType) Valid() bool {
+	switch e {
+	case AppAssetLibraryTypeAppAssetLibraries:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryAssetCategory.
 const (
 	AppAssetLibraryAssetCategoryAPPSCREENSHOTSANDPREVIEWS AppAssetLibraryAssetCategory = "APP_SCREENSHOTS_AND_PREVIEWS"
@@ -1610,6 +1625,120 @@ func (e AppAssetLibraryAssetState) Valid() bool {
 	}
 }
 
+// Defines values for AppAssetLibraryDisplayClass.
+const (
+	AppAssetLibraryDisplayClassDEFAULT                          AppAssetLibraryDisplayClass = "DEFAULT"
+	AppAssetLibraryDisplayClassIPAD105DISPLAY                   AppAssetLibraryDisplayClass = "IPAD_105_DISPLAY"
+	AppAssetLibraryDisplayClassIPAD11DISPLAY                    AppAssetLibraryDisplayClass = "IPAD_11_DISPLAY"
+	AppAssetLibraryDisplayClassIPAD129DISPLAY                   AppAssetLibraryDisplayClass = "IPAD_129_DISPLAY"
+	AppAssetLibraryDisplayClassIPAD13DISPLAY                    AppAssetLibraryDisplayClass = "IPAD_13_DISPLAY"
+	AppAssetLibraryDisplayClassIPAD97DISPLAY                    AppAssetLibraryDisplayClass = "IPAD_97_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEDUO                        AppAssetLibraryDisplayClass = "IPHONE_DUO"
+	AppAssetLibraryDisplayClassIPHONEDYNAMICISLANDLARGEDISPLAY  AppAssetLibraryDisplayClass = "IPHONE_DYNAMIC_ISLAND_LARGE_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEDYNAMICISLANDMEDIUMDISPLAY AppAssetLibraryDisplayClass = "IPHONE_DYNAMIC_ISLAND_MEDIUM_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEFACEIDLARGEDISPLAY         AppAssetLibraryDisplayClass = "IPHONE_FACE_ID_LARGE_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEFACEIDMEDIUMDISPLAY        AppAssetLibraryDisplayClass = "IPHONE_FACE_ID_MEDIUM_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEHOMEBUTTON35DISPLAY        AppAssetLibraryDisplayClass = "IPHONE_HOME_BUTTON_35_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEHOMEBUTTON40DISPLAY        AppAssetLibraryDisplayClass = "IPHONE_HOME_BUTTON_40_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEHOMEBUTTONLARGEDISPLAY     AppAssetLibraryDisplayClass = "IPHONE_HOME_BUTTON_LARGE_DISPLAY"
+	AppAssetLibraryDisplayClassIPHONEHOMEBUTTONMEDIUMDISPLAY    AppAssetLibraryDisplayClass = "IPHONE_HOME_BUTTON_MEDIUM_DISPLAY"
+	AppAssetLibraryDisplayClassWATCHSERIES10                    AppAssetLibraryDisplayClass = "WATCH_SERIES_10"
+	AppAssetLibraryDisplayClassWATCHSERIES3                     AppAssetLibraryDisplayClass = "WATCH_SERIES_3"
+	AppAssetLibraryDisplayClassWATCHSERIES4                     AppAssetLibraryDisplayClass = "WATCH_SERIES_4"
+	AppAssetLibraryDisplayClassWATCHSERIES7                     AppAssetLibraryDisplayClass = "WATCH_SERIES_7"
+	AppAssetLibraryDisplayClassWATCHULTRA                       AppAssetLibraryDisplayClass = "WATCH_ULTRA"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryDisplayClass enum.
+func (e AppAssetLibraryDisplayClass) Valid() bool {
+	switch e {
+	case AppAssetLibraryDisplayClassDEFAULT:
+		return true
+	case AppAssetLibraryDisplayClassIPAD105DISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPAD11DISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPAD129DISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPAD13DISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPAD97DISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEDUO:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEDYNAMICISLANDLARGEDISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEDYNAMICISLANDMEDIUMDISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEFACEIDLARGEDISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEFACEIDMEDIUMDISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEHOMEBUTTON35DISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEHOMEBUTTON40DISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEHOMEBUTTONLARGEDISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassIPHONEHOMEBUTTONMEDIUMDISPLAY:
+		return true
+	case AppAssetLibraryDisplayClassWATCHSERIES10:
+		return true
+	case AppAssetLibraryDisplayClassWATCHSERIES3:
+		return true
+	case AppAssetLibraryDisplayClassWATCHSERIES4:
+		return true
+	case AppAssetLibraryDisplayClassWATCHSERIES7:
+		return true
+	case AppAssetLibraryDisplayClassWATCHULTRA:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryFeature.
+const (
+	AppAssetLibraryFeatureAPPCLIPS                 AppAssetLibraryFeature = "APP_CLIPS"
+	AppAssetLibraryFeatureAPPLEADS                 AppAssetLibraryFeature = "APPLE_ADS"
+	AppAssetLibraryFeatureAPPSTOREVERSIONS         AppAssetLibraryFeature = "APP_STORE_VERSIONS"
+	AppAssetLibraryFeatureCUSTOMPRODUCTPAGES       AppAssetLibraryFeature = "CUSTOM_PRODUCT_PAGES"
+	AppAssetLibraryFeatureGAMECENTER               AppAssetLibraryFeature = "GAME_CENTER"
+	AppAssetLibraryFeatureINAPPEVENTS              AppAssetLibraryFeature = "IN_APP_EVENTS"
+	AppAssetLibraryFeatureINAPPPURCHASES           AppAssetLibraryFeature = "IN_APP_PURCHASES"
+	AppAssetLibraryFeaturePRODUCTPAGEOPTIMIZATIONS AppAssetLibraryFeature = "PRODUCT_PAGE_OPTIMIZATIONS"
+	AppAssetLibraryFeatureRETENTIONMESSAGING       AppAssetLibraryFeature = "RETENTION_MESSAGING"
+	AppAssetLibraryFeatureSUBSCRIPTIONS            AppAssetLibraryFeature = "SUBSCRIPTIONS"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryFeature enum.
+func (e AppAssetLibraryFeature) Valid() bool {
+	switch e {
+	case AppAssetLibraryFeatureAPPCLIPS:
+		return true
+	case AppAssetLibraryFeatureAPPLEADS:
+		return true
+	case AppAssetLibraryFeatureAPPSTOREVERSIONS:
+		return true
+	case AppAssetLibraryFeatureCUSTOMPRODUCTPAGES:
+		return true
+	case AppAssetLibraryFeatureGAMECENTER:
+		return true
+	case AppAssetLibraryFeatureINAPPEVENTS:
+		return true
+	case AppAssetLibraryFeatureINAPPPURCHASES:
+		return true
+	case AppAssetLibraryFeaturePRODUCTPAGEOPTIMIZATIONS:
+		return true
+	case AppAssetLibraryFeatureRETENTIONMESSAGING:
+		return true
+	case AppAssetLibraryFeatureSUBSCRIPTIONS:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryImageRelationshipsPlacementsDataType.
 const (
 	AppAssetLibraryImageRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppAssetLibraryImageRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
@@ -1634,6 +1763,66 @@ const (
 func (e AppAssetLibraryImageType) Valid() bool {
 	switch e {
 	case AppAssetLibraryImageTypeAppAssetLibraryImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataType.
+const (
+	AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataTypeAppAssetLibraries AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataType = "appAssetLibraries"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataType enum.
+func (e AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataTypeAppAssetLibraries:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataType.
+const (
+	AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataType enum.
+func (e AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImageCreateRequestDataType.
+const (
+	AppAssetLibraryImageCreateRequestDataTypeAppAssetLibraryImages AppAssetLibraryImageCreateRequestDataType = "appAssetLibraryImages"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImageCreateRequestDataType enum.
+func (e AppAssetLibraryImageCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryImageCreateRequestDataTypeAppAssetLibraryImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImageUpdateRequestDataType.
+const (
+	AppAssetLibraryImageUpdateRequestDataTypeAppAssetLibraryImages AppAssetLibraryImageUpdateRequestDataType = "appAssetLibraryImages"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImageUpdateRequestDataType enum.
+func (e AppAssetLibraryImageUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryImageUpdateRequestDataTypeAppAssetLibraryImages:
 		return true
 	default:
 		return false
@@ -1733,6 +1922,111 @@ func (e AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionLocalizationDa
 	}
 }
 
+// Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataTypeAppEventLocalizations AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataType = "appEventLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataTypeAppEventLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType = "appStoreVersionExperimentTreatmentLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType = "appStoreVersionLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataTypeAppAssetLibraryImages AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType = "appAssetLibraryImages"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataTypeAppAssetLibraryImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataTypeAppAssetLibraryVideos AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType = "appAssetLibraryVideos"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataTypeAppAssetLibraryVideos:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementCreateRequestDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataTypeAppAssetLibraryPlacements AppAssetLibraryPlacementCreateRequestDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryPlacementImageRelationshipsAppCustomProductPageLocalizationDataType.
 const (
 	AppAssetLibraryPlacementImageRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppAssetLibraryPlacementImageRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
@@ -1802,6 +2096,147 @@ const (
 func (e AppAssetLibraryPlacementImageRelationshipsImageDataType) Valid() bool {
 	switch e {
 	case AppAssetLibraryPlacementImageRelationshipsImageDataTypeAppAssetLibraryImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataType.
+const (
+	AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataTypeAppAssetLibraryPlacements AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataType enum.
+func (e AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestType.
+const (
+	AppAssetLibraryPlacementOrderingRequestTypeAppAssetLibraryPlacementOrderingRequests AppAssetLibraryPlacementOrderingRequestType = "appAssetLibraryPlacementOrderingRequests"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestType enum.
+func (e AppAssetLibraryPlacementOrderingRequestType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestTypeAppAssetLibraryPlacementOrderingRequests:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType.
+const (
+	AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType enum.
+func (e AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType.
+const (
+	AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType = "appStoreVersionExperimentTreatmentLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType enum.
+func (e AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType.
+const (
+	AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType = "appStoreVersionLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType enum.
+func (e AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataType.
+const (
+	AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataTypeAppAssetLibraryPlacements AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataType enum.
+func (e AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestCreateRequestDataType.
+const (
+	AppAssetLibraryPlacementOrderingRequestCreateRequestDataTypeAppAssetLibraryPlacementOrderingRequests AppAssetLibraryPlacementOrderingRequestCreateRequestDataType = "appAssetLibraryPlacementOrderingRequests"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestCreateRequestDataType enum.
+func (e AppAssetLibraryPlacementOrderingRequestCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestCreateRequestDataTypeAppAssetLibraryPlacementOrderingRequests:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementPlatform.
+const (
+	AppAssetLibraryPlacementPlatformANY               AppAssetLibraryPlacementPlatform = "ANY"
+	AppAssetLibraryPlacementPlatformIMESSAGEAPPSTORE  AppAssetLibraryPlacementPlatform = "IMESSAGE_APP_STORE"
+	AppAssetLibraryPlacementPlatformIPADAPPSTORE      AppAssetLibraryPlacementPlatform = "IPAD_APP_STORE"
+	AppAssetLibraryPlacementPlatformIPHONEAPPSTORE    AppAssetLibraryPlacementPlatform = "IPHONE_APP_STORE"
+	AppAssetLibraryPlacementPlatformMACAPPSTORE       AppAssetLibraryPlacementPlatform = "MAC_APP_STORE"
+	AppAssetLibraryPlacementPlatformTVAPPSTORE        AppAssetLibraryPlacementPlatform = "TV_APP_STORE"
+	AppAssetLibraryPlacementPlatformVISIONPROAPPSTORE AppAssetLibraryPlacementPlatform = "VISION_PRO_APP_STORE"
+	AppAssetLibraryPlacementPlatformWATCHAPPSTORE     AppAssetLibraryPlacementPlatform = "WATCH_APP_STORE"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementPlatform enum.
+func (e AppAssetLibraryPlacementPlatform) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementPlatformANY:
+		return true
+	case AppAssetLibraryPlacementPlatformIMESSAGEAPPSTORE:
+		return true
+	case AppAssetLibraryPlacementPlatformIPADAPPSTORE:
+		return true
+	case AppAssetLibraryPlacementPlatformIPHONEAPPSTORE:
+		return true
+	case AppAssetLibraryPlacementPlatformMACAPPSTORE:
+		return true
+	case AppAssetLibraryPlacementPlatformTVAPPSTORE:
+		return true
+	case AppAssetLibraryPlacementPlatformVISIONPROAPPSTORE:
+		return true
+	case AppAssetLibraryPlacementPlatformWATCHAPPSTORE:
 		return true
 	default:
 		return false
@@ -1958,6 +2393,21 @@ func (e AppAssetLibraryPlacementVideoRelationshipsVideoDataType) Valid() bool {
 	}
 }
 
+// Defines values for AppAssetLibraryRefDatumType.
+const (
+	AppAssetLibraryRefDatumTypeAppAssetLibraryRefData AppAssetLibraryRefDatumType = "appAssetLibraryRefData"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryRefDatumType enum.
+func (e AppAssetLibraryRefDatumType) Valid() bool {
+	switch e {
+	case AppAssetLibraryRefDatumTypeAppAssetLibraryRefData:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryVideoRelationshipsPlacementsDataType.
 const (
 	AppAssetLibraryVideoRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppAssetLibraryVideoRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
@@ -1982,6 +2432,66 @@ const (
 func (e AppAssetLibraryVideoType) Valid() bool {
 	switch e {
 	case AppAssetLibraryVideoTypeAppAssetLibraryVideos:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataType.
+const (
+	AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataTypeAppAssetLibraries AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataType = "appAssetLibraries"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataType enum.
+func (e AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataTypeAppAssetLibraries:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataType.
+const (
+	AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataType enum.
+func (e AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideoCreateRequestDataType.
+const (
+	AppAssetLibraryVideoCreateRequestDataTypeAppAssetLibraryVideos AppAssetLibraryVideoCreateRequestDataType = "appAssetLibraryVideos"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideoCreateRequestDataType enum.
+func (e AppAssetLibraryVideoCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideoCreateRequestDataTypeAppAssetLibraryVideos:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideoUpdateRequestDataType.
+const (
+	AppAssetLibraryVideoUpdateRequestDataTypeAppAssetLibraryVideos AppAssetLibraryVideoUpdateRequestDataType = "appAssetLibraryVideos"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideoUpdateRequestDataType enum.
+func (e AppAssetLibraryVideoUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideoUpdateRequestDataTypeAppAssetLibraryVideos:
 		return true
 	default:
 		return false
@@ -2801,6 +3311,81 @@ const (
 func (e AppEventType) Valid() bool {
 	switch e {
 	case AppEventTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationRelationshipsAppEventDataType.
+const (
+	AppEventLocalizationRelationshipsAppEventDataTypeAppEvents AppEventLocalizationRelationshipsAppEventDataType = "appEvents"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationRelationshipsAppEventDataType enum.
+func (e AppEventLocalizationRelationshipsAppEventDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationRelationshipsAppEventDataTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationRelationshipsAppEventScreenshotsDataType.
+const (
+	AppEventLocalizationRelationshipsAppEventScreenshotsDataTypeAppEventScreenshots AppEventLocalizationRelationshipsAppEventScreenshotsDataType = "appEventScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationRelationshipsAppEventScreenshotsDataType enum.
+func (e AppEventLocalizationRelationshipsAppEventScreenshotsDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationRelationshipsAppEventScreenshotsDataTypeAppEventScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationRelationshipsAppEventVideoClipsDataType.
+const (
+	AppEventLocalizationRelationshipsAppEventVideoClipsDataTypeAppEventVideoClips AppEventLocalizationRelationshipsAppEventVideoClipsDataType = "appEventVideoClips"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationRelationshipsAppEventVideoClipsDataType enum.
+func (e AppEventLocalizationRelationshipsAppEventVideoClipsDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationRelationshipsAppEventVideoClipsDataTypeAppEventVideoClips:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationRelationshipsPlacementsDataType.
+const (
+	AppEventLocalizationRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppEventLocalizationRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationRelationshipsPlacementsDataType enum.
+func (e AppEventLocalizationRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationType.
+const (
+	AppEventLocalizationTypeAppEventLocalizations AppEventLocalizationType = "appEventLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationType enum.
+func (e AppEventLocalizationType) Valid() bool {
+	switch e {
+	case AppEventLocalizationTypeAppEventLocalizations:
 		return true
 	default:
 		return false
@@ -17627,6 +18212,1968 @@ func (e AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappi
 	}
 }
 
+// Defines values for AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory.
+const (
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategoryAPPSCREENSHOTSANDPREVIEWS AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory = "APP_SCREENSHOTS_AND_PREVIEWS"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategoryCREATIVEASSETS            AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory = "CREATIVE_ASSETS"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory enum.
+func (e AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory) Valid() bool {
+	switch e {
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategoryAPPSCREENSHOTSANDPREVIEWS:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategoryCREATIVEASSETS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesImagesGetToManyRelatedParamsFilterState.
+const (
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateACCEPTED             AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "ACCEPTED"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateAPPROVED             AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "APPROVED"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateARCHIVED             AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "ARCHIVED"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateAWAITINGUPLOAD       AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "AWAITING_UPLOAD"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateCOMPLETE             AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "COMPLETE"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateFAILED               AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "FAILED"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateINREVIEW             AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "IN_REVIEW"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "PREPARE_FOR_SUBMISSION"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateREADYFORREVIEW       AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "READY_FOR_REVIEW"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateREJECTED             AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "REJECTED"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateUPLOADCOMPLETE       AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "UPLOAD_COMPLETE"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateWAITINGFORREVIEW     AppAssetLibrariesImagesGetToManyRelatedParamsFilterState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesImagesGetToManyRelatedParamsFilterState enum.
+func (e AppAssetLibrariesImagesGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateACCEPTED:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateAPPROVED:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateARCHIVED:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateAWAITINGUPLOAD:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateCOMPLETE:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateINREVIEW:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateREADYFORREVIEW:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateREJECTED:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateUPLOADCOMPLETE:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFilterStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesImagesGetToManyRelatedParamsSort.
+const (
+	AppAssetLibrariesImagesGetToManyRelatedParamsSortCreatedDate           AppAssetLibrariesImagesGetToManyRelatedParamsSort = "createdDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsSortLastModifiedDate      AppAssetLibrariesImagesGetToManyRelatedParamsSort = "lastModifiedDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsSortMinusCreatedDate      AppAssetLibrariesImagesGetToManyRelatedParamsSort = "-createdDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsSortMinusLastModifiedDate AppAssetLibrariesImagesGetToManyRelatedParamsSort = "-lastModifiedDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsSortMinusReferenceName    AppAssetLibrariesImagesGetToManyRelatedParamsSort = "-referenceName"
+	AppAssetLibrariesImagesGetToManyRelatedParamsSortReferenceName         AppAssetLibrariesImagesGetToManyRelatedParamsSort = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesImagesGetToManyRelatedParamsSort enum.
+func (e AppAssetLibrariesImagesGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppAssetLibrariesImagesGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsSortLastModifiedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsSortMinusLastModifiedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsSortMinusReferenceName:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsSortReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages.
+const (
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory         AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "category"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate      AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName         AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileName"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize         AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset       AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements       AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "placements"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName    AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId           AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "specId"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesState            AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "state"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails     AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages enum.
+func (e AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesImagesGetToManyRelatedParamsInclude.
+const (
+	AppAssetLibrariesImagesGetToManyRelatedParamsIncludePlacements AppAssetLibrariesImagesGetToManyRelatedParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesImagesGetToManyRelatedParamsInclude enum.
+func (e AppAssetLibrariesImagesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibrariesImagesGetToManyRelatedParamsIncludePlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory.
+const (
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategoryAPPSCREENSHOTSANDPREVIEWS AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory = "APP_SCREENSHOTS_AND_PREVIEWS"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategoryCREATIVEASSETS            AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory = "CREATIVE_ASSETS"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory enum.
+func (e AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory) Valid() bool {
+	switch e {
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategoryAPPSCREENSHOTSANDPREVIEWS:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategoryCREATIVEASSETS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesVideosGetToManyRelatedParamsFilterState.
+const (
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateACCEPTED             AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "ACCEPTED"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateAPPROVED             AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "APPROVED"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateARCHIVED             AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "ARCHIVED"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateAWAITINGUPLOAD       AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "AWAITING_UPLOAD"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateCOMPLETE             AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "COMPLETE"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateFAILED               AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "FAILED"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateINREVIEW             AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "IN_REVIEW"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "PREPARE_FOR_SUBMISSION"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateREADYFORREVIEW       AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "READY_FOR_REVIEW"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateREJECTED             AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "REJECTED"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateUPLOADCOMPLETE       AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "UPLOAD_COMPLETE"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateWAITINGFORREVIEW     AppAssetLibrariesVideosGetToManyRelatedParamsFilterState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesVideosGetToManyRelatedParamsFilterState enum.
+func (e AppAssetLibrariesVideosGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateACCEPTED:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateAPPROVED:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateARCHIVED:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateAWAITINGUPLOAD:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateCOMPLETE:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateINREVIEW:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateREADYFORREVIEW:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateREJECTED:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateUPLOADCOMPLETE:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFilterStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesVideosGetToManyRelatedParamsSort.
+const (
+	AppAssetLibrariesVideosGetToManyRelatedParamsSortCreatedDate           AppAssetLibrariesVideosGetToManyRelatedParamsSort = "createdDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsSortLastModifiedDate      AppAssetLibrariesVideosGetToManyRelatedParamsSort = "lastModifiedDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsSortMinusCreatedDate      AppAssetLibrariesVideosGetToManyRelatedParamsSort = "-createdDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsSortMinusLastModifiedDate AppAssetLibrariesVideosGetToManyRelatedParamsSort = "-lastModifiedDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsSortMinusReferenceName    AppAssetLibrariesVideosGetToManyRelatedParamsSort = "-referenceName"
+	AppAssetLibrariesVideosGetToManyRelatedParamsSortReferenceName         AppAssetLibrariesVideosGetToManyRelatedParamsSort = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesVideosGetToManyRelatedParamsSort enum.
+func (e AppAssetLibrariesVideosGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppAssetLibrariesVideosGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsSortLastModifiedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsSortMinusLastModifiedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsSortMinusReferenceName:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsSortReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos.
+const (
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory             AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "category"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate          AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName             AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize             AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements           AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "placements"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName        AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId               AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "specId"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosState                AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "state"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails         AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations     AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset           AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos enum.
+func (e AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibrariesVideosGetToManyRelatedParamsInclude.
+const (
+	AppAssetLibrariesVideosGetToManyRelatedParamsIncludePlacements AppAssetLibrariesVideosGetToManyRelatedParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibrariesVideosGetToManyRelatedParamsInclude enum.
+func (e AppAssetLibrariesVideosGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibrariesVideosGetToManyRelatedParamsIncludePlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages.
+const (
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesCategory         AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "category"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesCreatedDate      AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesFileName         AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "fileName"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesFileSize         AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesImageAsset       AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesLastModifiedDate AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesPlacements       AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "placements"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesReferenceName    AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesSpecId           AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "specId"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesState            AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "state"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesStateDetails     AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesUploadOperations AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages enum.
+func (e AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesGetInstanceParamsInclude.
+const (
+	AppAssetLibraryImagesGetInstanceParamsIncludePlacements AppAssetLibraryImagesGetInstanceParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesGetInstanceParamsInclude enum.
+func (e AppAssetLibraryImagesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesGetInstanceParamsIncludePlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW                 AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_PREVIEW"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT              AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_SCREENSHOT"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_STORE_SEARCH_RESULTS_ASSET"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_CARD_ASSET"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_DETAILS_PAGE_ASSET"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "IMESSAGE_APP_SCREENSHOT"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "PRODUCT_PAGE_HEADER_ASSET"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "RETENTION_MESSAGE_ASSET"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "SEARCH_RESULTS_ADS_ASSET"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET           AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType = "TODAY_TAB_ADS_ASSET"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING            AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState = "ASSET_PROCESSING"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStateFAILED                     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState = "FAILED"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState = "PARENT_APPROVED"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState = "PARENT_IN_REVIEW"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState = "PARENT_PREPARE_FOR_SUBMISSION"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW       AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState = "PARENT_READY_FOR_REVIEW"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState = "PARENT_WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortCreatedDate                 AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort = "createdDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortLastModifiedDate            AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort = "lastModifiedDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortMinusCreatedDate            AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort = "-createdDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate       AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort = "-lastModifiedDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort = "-placementGroupPosition"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortPlacementGroupPosition      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort = "placementGroupPosition"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortLastModifiedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSortPlacementGroupPosition:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory         AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "category"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName         AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileName"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize         AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset       AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements       AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "placements"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId           AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "specId"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState            AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "state"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "category"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements           AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "placements"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName        AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId               AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "specId"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState                AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "state"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails         AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset           AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent            AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEvent"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips  AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale              AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "locale"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "longDescription"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName                AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "name"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "placements"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription       AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "description"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale            AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements        AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppEventLocalization                           AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "appEventLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeImage                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "image"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeVideo                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppEventLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsInclude.
+const (
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsIncludeOrderedPlacements AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsInclude = "orderedPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsInclude enum.
+func (e AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsIncludeOrderedPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequests.
+const (
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequestsOrderedPlacements AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequests = "orderedPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequests enum.
+func (e AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequests) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequestsOrderedPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesCategory         AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "category"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesCreatedDate      AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesFileName         AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "fileName"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesFileSize         AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesImageAsset       AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesLastModifiedDate AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesPlacements       AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "placements"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesReferenceName    AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesSpecId           AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "specId"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesState            AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "state"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesStateDetails     AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesUploadOperations AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosCategory             AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "category"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosCreatedDate          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosFileName             AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosFileSize             AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosPlacements           AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "placements"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosReferenceName        AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosSpecId               AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "specId"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosState                AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "state"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosStateDetails         AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosUploadOperations     AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosVideoAsset           AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsAppEvent            AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "appEvent"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsAppEventScreenshots AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsAppEventVideoClips  AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsLocale              AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "locale"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsLongDescription     AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "longDescription"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsName                AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "name"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsPlacements          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "placements"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsShortDescription    AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsDescription       AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "description"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsKeywords          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsLocale            AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsPlacements        AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsLocale                      AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsInclude.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsIncludeAppCustomProductPageLocalization               AppAssetLibraryPlacementsGetInstanceParamsInclude = "appCustomProductPageLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsIncludeAppEventLocalization                           AppAssetLibraryPlacementsGetInstanceParamsInclude = "appEventLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryPlacementsGetInstanceParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsIncludeAppStoreVersionLocalization                    AppAssetLibraryPlacementsGetInstanceParamsInclude = "appStoreVersionLocalization"
+	AppAssetLibraryPlacementsGetInstanceParamsIncludeImage                                          AppAssetLibraryPlacementsGetInstanceParamsInclude = "image"
+	AppAssetLibraryPlacementsGetInstanceParamsIncludeVideo                                          AppAssetLibraryPlacementsGetInstanceParamsInclude = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsInclude enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsIncludeAppEventLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsIncludeAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsIncludeImage:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsIncludeVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData.
+const (
+	AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataDisplayClasses         AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData = "displayClasses"
+	AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataFeatures               AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData = "features"
+	AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataImageSpecs             AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData = "imageSpecs"
+	AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataPlacementProfileGroups AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData = "placementProfileGroups"
+	AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataPlacementTypes         AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData = "placementTypes"
+	AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataVideoSpecs             AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData = "videoSpecs"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData enum.
+func (e AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData) Valid() bool {
+	switch e {
+	case AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataDisplayClasses:
+		return true
+	case AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataFeatures:
+		return true
+	case AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataImageSpecs:
+		return true
+	case AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataPlacementProfileGroups:
+		return true
+	case AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataPlacementTypes:
+		return true
+	case AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefDataVideoSpecs:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos.
+const (
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosCategory             AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "category"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosCreatedDate          AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosFileName             AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosFileSize             AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosPlacements           AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "placements"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosReferenceName        AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosSpecId               AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "specId"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosState                AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "state"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosStateDetails         AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosUploadOperations     AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosVideoAsset           AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos enum.
+func (e AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosGetInstanceParamsInclude.
+const (
+	AppAssetLibraryVideosGetInstanceParamsIncludePlacements AppAssetLibraryVideosGetInstanceParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosGetInstanceParamsInclude enum.
+func (e AppAssetLibraryVideosGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosGetInstanceParamsIncludePlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW                 AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_PREVIEW"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT              AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_SCREENSHOT"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_STORE_SEARCH_RESULTS_ASSET"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_CARD_ASSET"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_DETAILS_PAGE_ASSET"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "IMESSAGE_APP_SCREENSHOT"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "PRODUCT_PAGE_HEADER_ASSET"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "RETENTION_MESSAGE_ASSET"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "SEARCH_RESULTS_ADS_ASSET"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET           AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType = "TODAY_TAB_ADS_ASSET"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING            AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState = "ASSET_PROCESSING"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStateFAILED                     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState = "FAILED"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState = "PARENT_APPROVED"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState = "PARENT_IN_REVIEW"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState = "PARENT_PREPARE_FOR_SUBMISSION"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW       AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState = "PARENT_READY_FOR_REVIEW"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState = "PARENT_WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortCreatedDate                 AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort = "createdDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortLastModifiedDate            AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort = "lastModifiedDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortMinusCreatedDate            AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort = "-createdDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate       AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort = "-lastModifiedDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort = "-placementGroupPosition"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortPlacementGroupPosition      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort = "placementGroupPosition"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortLastModifiedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSortPlacementGroupPosition:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory         AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "category"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName         AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileName"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize         AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset       AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements       AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "placements"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId           AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "specId"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState            AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "state"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "category"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements           AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "placements"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName        AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId               AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "specId"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState                AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "state"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails         AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset           AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent            AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEvent"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips  AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale              AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "locale"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "longDescription"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName                AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "name"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "placements"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription       AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "description"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale            AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements        AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppEventLocalization                           AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "appEventLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeImage                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "image"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeVideo                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppEventLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeVideo:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppCategoriesGetCollectionParamsFilterPlatforms.
 const (
 	AppCategoriesGetCollectionParamsFilterPlatformsIOS      AppCategoriesGetCollectionParamsFilterPlatforms = "IOS"
@@ -17684,6 +20231,438 @@ func (e AppCategoriesGetCollectionParamsInclude) Valid() bool {
 	case AppCategoriesGetCollectionParamsIncludeParent:
 		return true
 	case AppCategoriesGetCollectionParamsIncludeSubcategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW                 AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_PREVIEW"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT              AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_SCREENSHOT"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_STORE_SEARCH_RESULTS_ASSET"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_CARD_ASSET"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_DETAILS_PAGE_ASSET"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "IMESSAGE_APP_SCREENSHOT"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "PRODUCT_PAGE_HEADER_ASSET"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "RETENTION_MESSAGE_ASSET"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "SEARCH_RESULTS_ADS_ASSET"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET           AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "TODAY_TAB_ADS_ASSET"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING            AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState = "ASSET_PROCESSING"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStateFAILED                     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState = "FAILED"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_APPROVED"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_IN_REVIEW"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_PREPARE_FOR_SUBMISSION"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW       AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_READY_FOR_REVIEW"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortCreatedDate                 AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort = "createdDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortLastModifiedDate            AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort = "lastModifiedDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortMinusCreatedDate            AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort = "-createdDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate       AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort = "-lastModifiedDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort = "-placementGroupPosition"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortPlacementGroupPosition      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort = "placementGroupPosition"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortLastModifiedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSortPlacementGroupPosition:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory         AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "category"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName         AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileName"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize         AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset       AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements       AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "placements"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId           AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "specId"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState            AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "state"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "category"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements           AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "placements"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName        AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId               AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "specId"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState                AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "state"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails         AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset           AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent            AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEvent"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips  AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale              AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "locale"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "longDescription"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName                AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "name"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "placements"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription       AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "description"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale            AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements        AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppEventLocalization                           AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "appEventLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeImage                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "image"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppEventLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo:
 		return true
 	default:
 		return false
@@ -19094,6 +22073,438 @@ func (e AppStoreReviewAttachmentsGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW                 AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_PREVIEW"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT              AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_SCREENSHOT"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_STORE_SEARCH_RESULTS_ASSET"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_CARD_ASSET"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_DETAILS_PAGE_ASSET"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "IMESSAGE_APP_SCREENSHOT"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "PRODUCT_PAGE_HEADER_ASSET"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "RETENTION_MESSAGE_ASSET"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "SEARCH_RESULTS_ADS_ASSET"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET           AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "TODAY_TAB_ADS_ASSET"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING            AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState = "ASSET_PROCESSING"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStateFAILED                     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState = "FAILED"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_APPROVED"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_IN_REVIEW"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_PREPARE_FOR_SUBMISSION"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW       AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_READY_FOR_REVIEW"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortCreatedDate                 AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort = "createdDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortLastModifiedDate            AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort = "lastModifiedDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortMinusCreatedDate            AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort = "-createdDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate       AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort = "-lastModifiedDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort = "-placementGroupPosition"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortPlacementGroupPosition      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort = "placementGroupPosition"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortLastModifiedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSortPlacementGroupPosition:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory         AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "category"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName         AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileName"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize         AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset       AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements       AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "placements"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId           AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "specId"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState            AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "state"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "category"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements           AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "placements"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName        AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId               AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "specId"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState                AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "state"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails         AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset           AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent            AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEvent"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips  AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale              AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "locale"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "longDescription"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName                AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "name"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "placements"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription       AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "description"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale            AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements        AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppEventLocalization                           AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "appEventLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeImage                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "image"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppEventLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType.
 const (
 	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeAPPLETV        AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "APPLE_TV"
@@ -19664,6 +23075,438 @@ func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclu
 	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
 		return true
 	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW                 AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_PREVIEW"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT              AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_SCREENSHOT"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_STORE_SEARCH_RESULTS_ASSET"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_CARD_ASSET"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "EVENT_DETAILS_PAGE_ASSET"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "IMESSAGE_APP_SCREENSHOT"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "PRODUCT_PAGE_HEADER_ASSET"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "RETENTION_MESSAGE_ASSET"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "SEARCH_RESULTS_ADS_ASSET"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET           AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "TODAY_TAB_ADS_ASSET"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSCREENSHOT:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPSTORESEARCHRESULTSASSET:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTCARDASSET:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeEVENTDETAILSPAGEASSET:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeIMESSAGEAPPSCREENSHOT:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypePRODUCTPAGEHEADERASSET:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeRETENTIONMESSAGEASSET:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeSEARCHRESULTSADSASSET:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeTODAYTABADSASSET:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING            AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState = "ASSET_PROCESSING"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStateFAILED                     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState = "FAILED"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_APPROVED"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_IN_REVIEW"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_PREPARE_FOR_SUBMISSION"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW       AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_READY_FOR_REVIEW"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState = "PARENT_WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStateASSETPROCESSING:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTAPPROVED:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTINREVIEW:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTPREPAREFORSUBMISSION:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTREADYFORREVIEW:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterStatePARENTWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortCreatedDate                 AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort = "createdDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortLastModifiedDate            AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort = "lastModifiedDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortMinusCreatedDate            AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort = "-createdDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate       AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort = "-lastModifiedDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort = "-placementGroupPosition"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortPlacementGroupPosition      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort = "placementGroupPosition"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortLastModifiedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortMinusLastModifiedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortMinusPlacementGroupPosition:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSortPlacementGroupPosition:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory         AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "category"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "createdDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName         AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileName"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize         AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "fileSize"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset       AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "imageAsset"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "lastModifiedDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements       AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "placements"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "referenceName"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId           AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "specId"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState            AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "state"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "stateDetails"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCategory:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesCreatedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileName:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesFileSize:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesImageAsset:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesLastModifiedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesPlacements:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesReferenceName:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesSpecId:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesState:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesStateDetails:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "category"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "createdDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileName"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "fileSize"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "lastModifiedDate"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements           AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "placements"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameImage"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "previewFrameTimeCode"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName        AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "referenceName"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId               AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "specId"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState                AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "state"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails         AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "stateDetails"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "uploadOperations"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset           AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos = "videoAsset"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCategory:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosCreatedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileName:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosFileSize:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosLastModifiedDate:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPlacements:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameImage:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosPreviewFrameTimeCode:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosReferenceName:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosSpecId:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosState:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosStateDetails:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosUploadOperations:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideosVideoAsset:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent            AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEvent"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips  AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale              AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "locale"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "longDescription"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName                AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "name"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "placements"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription       AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "description"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale            AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements        AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppEventLocalization                           AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "appEventLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeImage                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "image"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppEventLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo:
 		return true
 	default:
 		return false
@@ -25664,6 +29507,24 @@ const (
 func (e AppsAppTagsGetToManyRelatedParamsInclude) Valid() bool {
 	switch e {
 	case AppsAppTagsGetToManyRelatedParamsIncludeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries.
+const (
+	AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibrariesImages AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries = "images"
+	AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibrariesVideos AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries = "videos"
+)
+
+// Valid indicates whether the value is a known member of the AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries enum.
+func (e AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries) Valid() bool {
+	switch e {
+	case AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibrariesImages:
+		return true
+	case AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibrariesVideos:
 		return true
 	default:
 		return false
@@ -44666,11 +48527,35 @@ type AppRelationshipsSubscriptionGroupsDataType string
 // AppType defines model for App.Type.
 type AppType string
 
+// AppAssetLibrary defines model for AppAssetLibrary.
+type AppAssetLibrary struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Images *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"images,omitempty"`
+		Videos *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"videos,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppAssetLibraryType `json:"type"`
+}
+
+// AppAssetLibraryType defines model for AppAssetLibrary.Type.
+type AppAssetLibraryType string
+
 // AppAssetLibraryAssetCategory defines model for AppAssetLibraryAssetCategory.
 type AppAssetLibraryAssetCategory string
 
 // AppAssetLibraryAssetState defines model for AppAssetLibraryAssetState.
 type AppAssetLibraryAssetState string
+
+// AppAssetLibraryDisplayClass defines model for AppAssetLibraryDisplayClass.
+type AppAssetLibraryDisplayClass string
+
+// AppAssetLibraryFeature defines model for AppAssetLibraryFeature.
+type AppAssetLibraryFeature string
 
 // AppAssetLibraryImage defines model for AppAssetLibraryImage.
 type AppAssetLibraryImage struct {
@@ -44772,6 +48657,42 @@ type AppAssetLibraryImageCommonAttributes struct {
 	StateDetails     *[]StateDetail                `json:"stateDetails,omitempty"`
 }
 
+// AppAssetLibraryImageCreateRequest defines model for AppAssetLibraryImageCreateRequest.
+type AppAssetLibraryImageCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Category      AppAssetLibraryAssetCategory `json:"category"`
+			FileName      string                       `json:"fileName"`
+			FileSize      int64                        `json:"fileSize"`
+			ReferenceName *string                      `json:"referenceName,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			AssetLibrary struct {
+				Data struct {
+					Id   string                                                                 `json:"id"`
+					Type AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataType `json:"type"`
+				} `json:"data"`
+			} `json:"assetLibrary"`
+			Placements *struct {
+				Data *[]struct {
+					Id   string                                                               `json:"id"`
+					Type AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"placements,omitempty"`
+		} `json:"relationships"`
+		Type AppAssetLibraryImageCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataType defines model for AppAssetLibraryImageCreateRequest.Data.Relationships.AssetLibrary.Data.Type.
+type AppAssetLibraryImageCreateRequestDataRelationshipsAssetLibraryDataType string
+
+// AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataType defines model for AppAssetLibraryImageCreateRequest.Data.Relationships.Placements.Data.Type.
+type AppAssetLibraryImageCreateRequestDataRelationshipsPlacementsDataType string
+
+// AppAssetLibraryImageCreateRequestDataType defines model for AppAssetLibraryImageCreateRequest.Data.Type.
+type AppAssetLibraryImageCreateRequestDataType string
+
 // AppAssetLibraryImageFailedAttributes defines model for AppAssetLibraryImageFailedAttributes.
 type AppAssetLibraryImageFailedAttributes struct {
 	Category         *AppAssetLibraryAssetCategory `json:"category,omitempty"`
@@ -44829,6 +48750,29 @@ type AppAssetLibraryImageRejectedAttributes struct {
 	StateDetails     *[]StateDetail                `json:"stateDetails,omitempty"`
 }
 
+// AppAssetLibraryImageResponse defines model for AppAssetLibraryImageResponse.
+type AppAssetLibraryImageResponse struct {
+	Data     AppAssetLibraryImage        `json:"data"`
+	Included *[]AppAssetLibraryPlacement `json:"included,omitempty"`
+	Links    DocumentLinks               `json:"links"`
+}
+
+// AppAssetLibraryImageUpdateRequest defines model for AppAssetLibraryImageUpdateRequest.
+type AppAssetLibraryImageUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Archived      *bool   `json:"archived,omitempty"`
+			ReferenceName *string `json:"referenceName,omitempty"`
+			Uploaded      *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                    `json:"id"`
+		Type AppAssetLibraryImageUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppAssetLibraryImageUpdateRequestDataType defines model for AppAssetLibraryImageUpdateRequest.Data.Type.
+type AppAssetLibraryImageUpdateRequestDataType string
+
 // AppAssetLibraryImageUploadCompleteAttributes defines model for AppAssetLibraryImageUploadCompleteAttributes.
 type AppAssetLibraryImageUploadCompleteAttributes struct {
 	Category         *AppAssetLibraryAssetCategory `json:"category,omitempty"`
@@ -44856,6 +48800,14 @@ type AppAssetLibraryImageWaitingForReviewAttributes struct {
 	SpecId           *string                       `json:"specId,omitempty"`
 	State            AppAssetLibraryAssetState     `json:"state"`
 	StateDetails     *[]StateDetail                `json:"stateDetails,omitempty"`
+}
+
+// AppAssetLibraryImagesResponse defines model for AppAssetLibraryImagesResponse.
+type AppAssetLibraryImagesResponse struct {
+	Data     []AppAssetLibraryImage      `json:"data"`
+	Included *[]AppAssetLibraryPlacement `json:"included,omitempty"`
+	Links    PagedDocumentLinks          `json:"links"`
+	Meta     *PagingInformation          `json:"meta,omitempty"`
 }
 
 // AppAssetLibraryMediaType defines model for AppAssetLibraryMediaType.
@@ -44926,6 +48878,128 @@ type AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionExperimentTreatme
 // AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionLocalizationDataType defines model for AppAssetLibraryPlacementCommonRelationships.AppStoreVersionLocalization.Data.Type.
 type AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionLocalizationDataType string
 
+// AppAssetLibraryPlacementCreateRequest defines model for AppAssetLibraryPlacementCreateRequest.
+type AppAssetLibraryPlacementCreateRequest struct {
+	Data AppAssetLibraryPlacementCreateRequest_Data `json:"data"`
+}
+
+// AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.AppCustomProductPageLocalization.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType string
+
+// AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.AppEventLocalization.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataType string
+
+// AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.AppStoreVersionExperimentTreatmentLocalization.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType string
+
+// AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.AppStoreVersionLocalization.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType string
+
+// AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.Image.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType string
+
+// AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.Video.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType string
+
+// AppAssetLibraryPlacementCreateRequestDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataType string
+
+// AppAssetLibraryPlacementCreateRequestData0 defines model for AppAssetLibraryPlacementCreateRequest.Data.0.
+type AppAssetLibraryPlacementCreateRequestData0 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequestData1 defines model for AppAssetLibraryPlacementCreateRequest.Data.1.
+type AppAssetLibraryPlacementCreateRequestData1 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequestData2 defines model for AppAssetLibraryPlacementCreateRequest.Data.2.
+type AppAssetLibraryPlacementCreateRequestData2 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequestData3 defines model for AppAssetLibraryPlacementCreateRequest.Data.3.
+type AppAssetLibraryPlacementCreateRequestData3 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequestData4 defines model for AppAssetLibraryPlacementCreateRequest.Data.4.
+type AppAssetLibraryPlacementCreateRequestData4 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequestData5 defines model for AppAssetLibraryPlacementCreateRequest.Data.5.
+type AppAssetLibraryPlacementCreateRequestData5 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequestData6 defines model for AppAssetLibraryPlacementCreateRequest.Data.6.
+type AppAssetLibraryPlacementCreateRequestData6 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequestData7 defines model for AppAssetLibraryPlacementCreateRequest.Data.7.
+type AppAssetLibraryPlacementCreateRequestData7 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementCreateRequest_Data defines model for AppAssetLibraryPlacementCreateRequest.Data.
+type AppAssetLibraryPlacementCreateRequest_Data struct {
+	Attributes *struct {
+		PlacementGroup *string                       `json:"placementGroup,omitempty"`
+		PlacementType  *AppAssetLibraryPlacementType `json:"placementType,omitempty"`
+	} `json:"attributes,omitempty"`
+	Relationships *struct {
+		AppCustomProductPageLocalization *struct {
+			Data *struct {
+				Id   string                                                                                         `json:"id"`
+				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appCustomProductPageLocalization,omitempty"`
+		AppEventLocalization *struct {
+			Data *struct {
+				Id   string                                                                             `json:"id"`
+				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppEventLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appEventLocalization,omitempty"`
+		AppStoreVersionExperimentTreatmentLocalization *struct {
+			Data *struct {
+				Id   string                                                                                                       `json:"id"`
+				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersionExperimentTreatmentLocalization,omitempty"`
+		AppStoreVersionLocalization *struct {
+			Data *struct {
+				Id   string                                                                                    `json:"id"`
+				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersionLocalization,omitempty"`
+		Image *struct {
+			Data *struct {
+				Id   string                                                              `json:"id"`
+				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"image,omitempty"`
+		Video *struct {
+			Data *struct {
+				Id   string                                                              `json:"id"`
+				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"video,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type  AppAssetLibraryPlacementCreateRequestDataType `json:"type"`
+	union json.RawMessage
+}
+
 // AppAssetLibraryPlacementImageRelationships defines model for AppAssetLibraryPlacementImageRelationships.
 type AppAssetLibraryPlacementImageRelationships struct {
 	AppCustomProductPageLocalization *struct {
@@ -44974,6 +49048,123 @@ type AppAssetLibraryPlacementImageRelationshipsAppStoreVersionLocalizationDataTy
 
 // AppAssetLibraryPlacementImageRelationshipsImageDataType defines model for AppAssetLibraryPlacementImageRelationships.Image.Data.Type.
 type AppAssetLibraryPlacementImageRelationshipsImageDataType string
+
+// AppAssetLibraryPlacementOrderingRequest defines model for AppAssetLibraryPlacementOrderingRequest.
+type AppAssetLibraryPlacementOrderingRequest struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		OrderedPlacements *struct {
+			Data *[]struct {
+				Id   string                                                                        `json:"id"`
+				Type AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Meta *PagingInformation `json:"meta,omitempty"`
+		} `json:"orderedPlacements,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppAssetLibraryPlacementOrderingRequestType `json:"type"`
+}
+
+// AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataType defines model for AppAssetLibraryPlacementOrderingRequest.Relationships.OrderedPlacements.Data.Type.
+type AppAssetLibraryPlacementOrderingRequestRelationshipsOrderedPlacementsDataType string
+
+// AppAssetLibraryPlacementOrderingRequestType defines model for AppAssetLibraryPlacementOrderingRequest.Type.
+type AppAssetLibraryPlacementOrderingRequestType string
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequest defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.
+type AppAssetLibraryPlacementOrderingRequestCreateRequest struct {
+	Data AppAssetLibraryPlacementOrderingRequestCreateRequest_Data `json:"data"`
+}
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.Relationships.AppCustomProductPageLocalization.Data.Type.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType string
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.Relationships.AppStoreVersionExperimentTreatmentLocalization.Data.Type.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType string
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.Relationships.AppStoreVersionLocalization.Data.Type.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType string
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataType defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.Relationships.OrderedPlacements.Data.Type.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataType string
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestDataType defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.Type.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestDataType string
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestData0 defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.0.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestData0 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestData1 defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.1.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestData1 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequestData2 defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.2.
+type AppAssetLibraryPlacementOrderingRequestCreateRequestData2 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
+// AppAssetLibraryPlacementOrderingRequestCreateRequest_Data defines model for AppAssetLibraryPlacementOrderingRequestCreateRequest.Data.
+type AppAssetLibraryPlacementOrderingRequestCreateRequest_Data struct {
+	Attributes *struct {
+		PlacementGroup *string `json:"placementGroup,omitempty"`
+	} `json:"attributes,omitempty"`
+	Relationships *struct {
+		AppCustomProductPageLocalization *struct {
+			Data *struct {
+				Id   string                                                                                                        `json:"id"`
+				Type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appCustomProductPageLocalization,omitempty"`
+		AppStoreVersionExperimentTreatmentLocalization *struct {
+			Data *struct {
+				Id   string                                                                                                                      `json:"id"`
+				Type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersionExperimentTreatmentLocalization,omitempty"`
+		AppStoreVersionLocalization *struct {
+			Data *struct {
+				Id   string                                                                                                   `json:"id"`
+				Type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersionLocalization,omitempty"`
+		OrderedPlacements *struct {
+			Data *[]struct {
+				Id   string                                                                                         `json:"id"`
+				Type AppAssetLibraryPlacementOrderingRequestCreateRequestDataRelationshipsOrderedPlacementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"orderedPlacements,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type  AppAssetLibraryPlacementOrderingRequestCreateRequestDataType `json:"type"`
+	union json.RawMessage
+}
+
+// AppAssetLibraryPlacementOrderingRequestResponse defines model for AppAssetLibraryPlacementOrderingRequestResponse.
+type AppAssetLibraryPlacementOrderingRequestResponse struct {
+	Data     AppAssetLibraryPlacementOrderingRequest `json:"data"`
+	Included *[]AppAssetLibraryPlacement             `json:"included,omitempty"`
+	Links    DocumentLinks                           `json:"links"`
+}
+
+// AppAssetLibraryPlacementPlatform defines model for AppAssetLibraryPlacementPlatform.
+type AppAssetLibraryPlacementPlatform string
+
+// AppAssetLibraryPlacementResponse defines model for AppAssetLibraryPlacementResponse.
+type AppAssetLibraryPlacementResponse struct {
+	Data     AppAssetLibraryPlacement                          `json:"data"`
+	Included *[]AppAssetLibraryPlacementResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                     `json:"links"`
+}
+
+// AppAssetLibraryPlacementResponse_Included_Item defines model for AppAssetLibraryPlacementResponse.included.Item.
+type AppAssetLibraryPlacementResponse_Included_Item struct {
+	union json.RawMessage
+}
 
 // AppAssetLibraryPlacementState defines model for AppAssetLibraryPlacementState.
 type AppAssetLibraryPlacementState string
@@ -45029,6 +49220,114 @@ type AppAssetLibraryPlacementVideoRelationshipsAppStoreVersionLocalizationDataTy
 
 // AppAssetLibraryPlacementVideoRelationshipsVideoDataType defines model for AppAssetLibraryPlacementVideoRelationships.Video.Data.Type.
 type AppAssetLibraryPlacementVideoRelationshipsVideoDataType string
+
+// AppAssetLibraryPlacementsResponse defines model for AppAssetLibraryPlacementsResponse.
+type AppAssetLibraryPlacementsResponse struct {
+	Data     []AppAssetLibraryPlacement                         `json:"data"`
+	Included *[]AppAssetLibraryPlacementsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                 `json:"links"`
+	Meta     *PagingInformation                                 `json:"meta,omitempty"`
+}
+
+// AppAssetLibraryPlacementsResponse_Included_Item defines model for AppAssetLibraryPlacementsResponse.included.Item.
+type AppAssetLibraryPlacementsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppAssetLibraryRefDataResponse defines model for AppAssetLibraryRefDataResponse.
+type AppAssetLibraryRefDataResponse struct {
+	Data  []AppAssetLibraryRefDatum `json:"data"`
+	Links PagedDocumentLinks        `json:"links"`
+	Meta  *PagingInformation        `json:"meta,omitempty"`
+}
+
+// AppAssetLibraryRefDatum defines model for AppAssetLibraryRefDatum.
+type AppAssetLibraryRefDatum struct {
+	Attributes *struct {
+		DisplayClasses *[]struct {
+			DeviceFamily     *DeviceFamily                `json:"deviceFamily,omitempty"`
+			DisplayClassId   *AppAssetLibraryDisplayClass `json:"displayClassId,omitempty"`
+			ScreenDimensions *[]string                    `json:"screenDimensions,omitempty"`
+		} `json:"displayClasses,omitempty"`
+		Features *[]struct {
+			FeatureId         *AppAssetLibraryFeature `json:"featureId,omitempty"`
+			PlacementPolicies *[]struct {
+				GroupLimits *[]struct {
+					GroupIds *[]string `json:"groupIds,omitempty"`
+					MaxCount *int      `json:"maxCount,omitempty"`
+				} `json:"groupLimits,omitempty"`
+				PlacementType *AppAssetLibraryPlacementType `json:"placementType,omitempty"`
+			} `json:"placementPolicies,omitempty"`
+		} `json:"features,omitempty"`
+		ImageSpecs *[]struct {
+			AlphaAllowed             *bool                           `json:"alphaAllowed,omitempty"`
+			AspectRatio              *string                         `json:"aspectRatio,omitempty"`
+			CompatiblePlacementTypes *[]AppAssetLibraryPlacementType `json:"compatiblePlacementTypes,omitempty"`
+			Dimensions               *struct {
+				MaxHeight *int `json:"maxHeight,omitempty"`
+				MaxWidth  *int `json:"maxWidth,omitempty"`
+				MinHeight *int `json:"minHeight,omitempty"`
+				MinWidth  *int `json:"minWidth,omitempty"`
+			} `json:"dimensions,omitempty"`
+			FileExtensions *[]string `json:"fileExtensions,omitempty"`
+			MaxFileSize    *int64    `json:"maxFileSize,omitempty"`
+			MimeTypes      *[]string `json:"mimeTypes,omitempty"`
+			ShortName      *string   `json:"shortName,omitempty"`
+			SpecId         *string   `json:"specId,omitempty"`
+			UniversalAsset *bool     `json:"universalAsset,omitempty"`
+		} `json:"imageSpecs,omitempty"`
+		PlacementProfileGroups *[]struct {
+			DisplayClassId          *AppAssetLibraryDisplayClass      `json:"displayClassId,omitempty"`
+			PlacementProfileGroupId *string                           `json:"placementProfileGroupId,omitempty"`
+			Platform                *AppAssetLibraryPlacementPlatform `json:"platform,omitempty"`
+		} `json:"placementProfileGroups,omitempty"`
+		PlacementTypes *[]struct {
+			AcceptsAssetCategories *[]AppAssetLibraryAssetCategory `json:"acceptsAssetCategories,omitempty"`
+			PlacementTypeId        *AppAssetLibraryPlacementType   `json:"placementTypeId,omitempty"`
+			SpecMappings           *[]struct {
+				PlacementGroupId *string   `json:"placementGroupId,omitempty"`
+				Specs            *[]string `json:"specs,omitempty"`
+			} `json:"specMappings,omitempty"`
+		} `json:"placementTypes,omitempty"`
+		VideoSpecs *[]struct {
+			AspectRatio              *string                         `json:"aspectRatio,omitempty"`
+			AudioRequired            *bool                           `json:"audioRequired,omitempty"`
+			CompatiblePlacementTypes *[]AppAssetLibraryPlacementType `json:"compatiblePlacementTypes,omitempty"`
+			Dimensions               *struct {
+				MaxHeight *int `json:"maxHeight,omitempty"`
+				MaxWidth  *int `json:"maxWidth,omitempty"`
+				MinHeight *int `json:"minHeight,omitempty"`
+				MinWidth  *int `json:"minWidth,omitempty"`
+			} `json:"dimensions,omitempty"`
+			Duration *struct {
+				Max *openapi_types.Duration `json:"max,omitempty"`
+				Min *openapi_types.Duration `json:"min,omitempty"`
+			} `json:"duration,omitempty"`
+			FileExtensions *[]string `json:"fileExtensions,omitempty"`
+			FrameRates     *[]struct {
+				MaxFps *int `json:"maxFps,omitempty"`
+				MinFps *int `json:"minFps,omitempty"`
+			} `json:"frameRates,omitempty"`
+			MaxFileSize    *int64    `json:"maxFileSize,omitempty"`
+			MimeTypes      *[]string `json:"mimeTypes,omitempty"`
+			ShortName      *string   `json:"shortName,omitempty"`
+			SpecId         *string   `json:"specId,omitempty"`
+			UniversalAsset *bool     `json:"universalAsset,omitempty"`
+		} `json:"videoSpecs,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                      `json:"id"`
+	Links *ResourceLinks              `json:"links,omitempty"`
+	Type  AppAssetLibraryRefDatumType `json:"type"`
+}
+
+// AppAssetLibraryRefDatumType defines model for AppAssetLibraryRefDatum.Type.
+type AppAssetLibraryRefDatumType string
+
+// AppAssetLibraryResponse defines model for AppAssetLibraryResponse.
+type AppAssetLibraryResponse struct {
+	Data  AppAssetLibrary `json:"data"`
+	Links DocumentLinks   `json:"links"`
+}
 
 // AppAssetLibraryVideo defines model for AppAssetLibraryVideo.
 type AppAssetLibraryVideo struct {
@@ -45140,6 +49439,43 @@ type AppAssetLibraryVideoCommonAttributes struct {
 	VideoAsset           *string                       `json:"videoAsset,omitempty"`
 }
 
+// AppAssetLibraryVideoCreateRequest defines model for AppAssetLibraryVideoCreateRequest.
+type AppAssetLibraryVideoCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Category             AppAssetLibraryAssetCategory `json:"category"`
+			FileName             string                       `json:"fileName"`
+			FileSize             int64                        `json:"fileSize"`
+			PreviewFrameTimeCode *string                      `json:"previewFrameTimeCode,omitempty"`
+			ReferenceName        *string                      `json:"referenceName,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			AssetLibrary struct {
+				Data struct {
+					Id   string                                                                 `json:"id"`
+					Type AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataType `json:"type"`
+				} `json:"data"`
+			} `json:"assetLibrary"`
+			Placements *struct {
+				Data *[]struct {
+					Id   string                                                               `json:"id"`
+					Type AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"placements,omitempty"`
+		} `json:"relationships"`
+		Type AppAssetLibraryVideoCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataType defines model for AppAssetLibraryVideoCreateRequest.Data.Relationships.AssetLibrary.Data.Type.
+type AppAssetLibraryVideoCreateRequestDataRelationshipsAssetLibraryDataType string
+
+// AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataType defines model for AppAssetLibraryVideoCreateRequest.Data.Relationships.Placements.Data.Type.
+type AppAssetLibraryVideoCreateRequestDataRelationshipsPlacementsDataType string
+
+// AppAssetLibraryVideoCreateRequestDataType defines model for AppAssetLibraryVideoCreateRequest.Data.Type.
+type AppAssetLibraryVideoCreateRequestDataType string
+
 // AppAssetLibraryVideoFailedAttributes defines model for AppAssetLibraryVideoFailedAttributes.
 type AppAssetLibraryVideoFailedAttributes struct {
 	Category             *AppAssetLibraryAssetCategory `json:"category,omitempty"`
@@ -45205,6 +49541,30 @@ type AppAssetLibraryVideoRejectedAttributes struct {
 	VideoAsset           *string                       `json:"videoAsset,omitempty"`
 }
 
+// AppAssetLibraryVideoResponse defines model for AppAssetLibraryVideoResponse.
+type AppAssetLibraryVideoResponse struct {
+	Data     AppAssetLibraryVideo        `json:"data"`
+	Included *[]AppAssetLibraryPlacement `json:"included,omitempty"`
+	Links    DocumentLinks               `json:"links"`
+}
+
+// AppAssetLibraryVideoUpdateRequest defines model for AppAssetLibraryVideoUpdateRequest.
+type AppAssetLibraryVideoUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Archived             *bool   `json:"archived,omitempty"`
+			PreviewFrameTimeCode *string `json:"previewFrameTimeCode,omitempty"`
+			ReferenceName        *string `json:"referenceName,omitempty"`
+			Uploaded             *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                    `json:"id"`
+		Type AppAssetLibraryVideoUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppAssetLibraryVideoUpdateRequestDataType defines model for AppAssetLibraryVideoUpdateRequest.Data.Type.
+type AppAssetLibraryVideoUpdateRequestDataType string
+
 // AppAssetLibraryVideoUploadCompleteAttributes defines model for AppAssetLibraryVideoUploadCompleteAttributes.
 type AppAssetLibraryVideoUploadCompleteAttributes struct {
 	Category             *AppAssetLibraryAssetCategory `json:"category,omitempty"`
@@ -45236,6 +49596,14 @@ type AppAssetLibraryVideoWaitingForReviewAttributes struct {
 	State                AppAssetLibraryAssetState     `json:"state"`
 	StateDetails         *[]StateDetail                `json:"stateDetails,omitempty"`
 	VideoAsset           *string                       `json:"videoAsset,omitempty"`
+}
+
+// AppAssetLibraryVideosResponse defines model for AppAssetLibraryVideosResponse.
+type AppAssetLibraryVideosResponse struct {
+	Data     []AppAssetLibraryVideo      `json:"data"`
+	Included *[]AppAssetLibraryPlacement `json:"included,omitempty"`
+	Links    PagedDocumentLinks          `json:"links"`
+	Meta     *PagingInformation          `json:"meta,omitempty"`
 }
 
 // AppAvailabilityV2 defines model for AppAvailabilityV2.
@@ -45832,6 +50200,66 @@ type AppEventRelationshipsLocalizationsDataType string
 
 // AppEventType defines model for AppEvent.Type.
 type AppEventType string
+
+// AppEventLocalization defines model for AppEventLocalization.
+type AppEventLocalization struct {
+	Attributes *struct {
+		Locale           *string `json:"locale,omitempty"`
+		LongDescription  *string `json:"longDescription,omitempty"`
+		Name             *string `json:"name,omitempty"`
+		ShortDescription *string `json:"shortDescription,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppEvent *struct {
+			Data *struct {
+				Id   string                                            `json:"id"`
+				Type AppEventLocalizationRelationshipsAppEventDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appEvent,omitempty"`
+		AppEventScreenshots *struct {
+			Data *[]struct {
+				Id   string                                                       `json:"id"`
+				Type AppEventLocalizationRelationshipsAppEventScreenshotsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"appEventScreenshots,omitempty"`
+		AppEventVideoClips *struct {
+			Data *[]struct {
+				Id   string                                                      `json:"id"`
+				Type AppEventLocalizationRelationshipsAppEventVideoClipsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"appEventVideoClips,omitempty"`
+		Placements *struct {
+			Data *[]struct {
+				Id   string                                              `json:"id"`
+				Type AppEventLocalizationRelationshipsPlacementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"placements,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppEventLocalizationType `json:"type"`
+}
+
+// AppEventLocalizationRelationshipsAppEventDataType defines model for AppEventLocalization.Relationships.AppEvent.Data.Type.
+type AppEventLocalizationRelationshipsAppEventDataType string
+
+// AppEventLocalizationRelationshipsAppEventScreenshotsDataType defines model for AppEventLocalization.Relationships.AppEventScreenshots.Data.Type.
+type AppEventLocalizationRelationshipsAppEventScreenshotsDataType string
+
+// AppEventLocalizationRelationshipsAppEventVideoClipsDataType defines model for AppEventLocalization.Relationships.AppEventVideoClips.Data.Type.
+type AppEventLocalizationRelationshipsAppEventVideoClipsDataType string
+
+// AppEventLocalizationRelationshipsPlacementsDataType defines model for AppEventLocalization.Relationships.Placements.Data.Type.
+type AppEventLocalizationRelationshipsPlacementsDataType string
+
+// AppEventLocalizationType defines model for AppEventLocalization.Type.
+type AppEventLocalizationType string
 
 // AppInfo defines model for AppInfo.
 type AppInfo struct {
@@ -56578,6 +61006,444 @@ type AndroidToIosAppMappingDetailsGetInstanceParams struct {
 // AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails defines parameters for AndroidToIosAppMappingDetailsGetInstance.
 type AndroidToIosAppMappingDetailsGetInstanceParamsFieldsAndroidToIosAppMappingDetails string
 
+// AppAssetLibrariesImagesGetToManyRelatedParams defines parameters for AppAssetLibrariesImagesGetToManyRelated.
+type AppAssetLibrariesImagesGetToManyRelatedParams struct {
+	// FilterCategory filter by attribute 'category'
+	FilterCategory *[]AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory `form:"filter[category],omitempty" json:"filter[category],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppAssetLibrariesImagesGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterReferenceName filter by attribute 'referenceName'
+	FilterReferenceName *[]string `form:"filter[referenceName],omitempty" json:"filter[referenceName],omitempty"`
+
+	// FilterSpecId filter by attribute 'specId'
+	FilterSpecId *[]string `form:"filter[specId],omitempty" json:"filter[specId],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppAssetLibrariesImagesGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibrariesImagesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory defines parameters for AppAssetLibrariesImagesGetToManyRelated.
+type AppAssetLibrariesImagesGetToManyRelatedParamsFilterCategory string
+
+// AppAssetLibrariesImagesGetToManyRelatedParamsFilterState defines parameters for AppAssetLibrariesImagesGetToManyRelated.
+type AppAssetLibrariesImagesGetToManyRelatedParamsFilterState string
+
+// AppAssetLibrariesImagesGetToManyRelatedParamsSort defines parameters for AppAssetLibrariesImagesGetToManyRelated.
+type AppAssetLibrariesImagesGetToManyRelatedParamsSort string
+
+// AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages defines parameters for AppAssetLibrariesImagesGetToManyRelated.
+type AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryImages string
+
+// AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibrariesImagesGetToManyRelated.
+type AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibrariesImagesGetToManyRelatedParamsInclude defines parameters for AppAssetLibrariesImagesGetToManyRelated.
+type AppAssetLibrariesImagesGetToManyRelatedParamsInclude string
+
+// AppAssetLibrariesVideosGetToManyRelatedParams defines parameters for AppAssetLibrariesVideosGetToManyRelated.
+type AppAssetLibrariesVideosGetToManyRelatedParams struct {
+	// FilterCategory filter by attribute 'category'
+	FilterCategory *[]AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory `form:"filter[category],omitempty" json:"filter[category],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppAssetLibrariesVideosGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterReferenceName filter by attribute 'referenceName'
+	FilterReferenceName *[]string `form:"filter[referenceName],omitempty" json:"filter[referenceName],omitempty"`
+
+	// FilterSpecId filter by attribute 'specId'
+	FilterSpecId *[]string `form:"filter[specId],omitempty" json:"filter[specId],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppAssetLibrariesVideosGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibrariesVideosGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory defines parameters for AppAssetLibrariesVideosGetToManyRelated.
+type AppAssetLibrariesVideosGetToManyRelatedParamsFilterCategory string
+
+// AppAssetLibrariesVideosGetToManyRelatedParamsFilterState defines parameters for AppAssetLibrariesVideosGetToManyRelated.
+type AppAssetLibrariesVideosGetToManyRelatedParamsFilterState string
+
+// AppAssetLibrariesVideosGetToManyRelatedParamsSort defines parameters for AppAssetLibrariesVideosGetToManyRelated.
+type AppAssetLibrariesVideosGetToManyRelatedParamsSort string
+
+// AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos defines parameters for AppAssetLibrariesVideosGetToManyRelated.
+type AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryVideos string
+
+// AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibrariesVideosGetToManyRelated.
+type AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibrariesVideosGetToManyRelatedParamsInclude defines parameters for AppAssetLibrariesVideosGetToManyRelated.
+type AppAssetLibrariesVideosGetToManyRelatedParamsInclude string
+
+// AppAssetLibraryImagesGetInstanceParams defines parameters for AppAssetLibraryImagesGetInstance.
+type AppAssetLibraryImagesGetInstanceParams struct {
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibraryImagesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages defines parameters for AppAssetLibraryImagesGetInstance.
+type AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryImages string
+
+// AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibraryImagesGetInstance.
+type AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibraryImagesGetInstanceParamsInclude defines parameters for AppAssetLibraryImagesGetInstance.
+type AppAssetLibraryImagesGetInstanceParamsInclude string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParams defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParams struct {
+	// FilterPlacementType filter by attribute 'placementType'
+	FilterPlacementType *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType `form:"filter[placementType],omitempty" json:"filter[placementType],omitempty"`
+
+	// FilterPlacementGroup filter by attribute 'placementGroup'
+	FilterPlacementGroup *[]string `form:"filter[placementGroup],omitempty" json:"filter[placementGroup],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterVideo filter by id(s) of related 'video'
+	FilterVideo *[]string `form:"filter[video],omitempty" json:"filter[video],omitempty"`
+
+	// FilterAppEventLocalization filter by id(s) of related 'appEventLocalization'
+	FilterAppEventLocalization *[]string `form:"filter[appEventLocalization],omitempty" json:"filter[appEventLocalization],omitempty"`
+
+	// FilterAppStoreVersionLocalization filter by id(s) of related 'appStoreVersionLocalization'
+	FilterAppStoreVersionLocalization *[]string `form:"filter[appStoreVersionLocalization],omitempty" json:"filter[appStoreVersionLocalization],omitempty"`
+
+	// FilterAppCustomProductPageLocalization filter by id(s) of related 'appCustomProductPageLocalization'
+	FilterAppCustomProductPageLocalization *[]string `form:"filter[appCustomProductPageLocalization],omitempty" json:"filter[appCustomProductPageLocalization],omitempty"`
+
+	// FilterAppStoreVersionExperimentTreatmentLocalization filter by id(s) of related 'appStoreVersionExperimentTreatmentLocalization'
+	FilterAppStoreVersionExperimentTreatmentLocalization *[]string `form:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty" json:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterPlacementType string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFilterState string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsSort string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude string
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams defines parameters for AppAssetLibraryPlacementOrderingRequestsCreateInstance.
+type AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams struct {
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitOrderedPlacements maximum number of related orderedPlacements returned (when they are included)
+	LimitOrderedPlacements *int `form:"limit[orderedPlacements],omitempty" json:"limit[orderedPlacements],omitempty"`
+
+	// FieldsAppAssetLibraryPlacementOrderingRequests the fields to include for returned resources of type appAssetLibraryPlacementOrderingRequests
+	FieldsAppAssetLibraryPlacementOrderingRequests *[]AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequests `form:"fields[appAssetLibraryPlacementOrderingRequests],omitempty" json:"fields[appAssetLibraryPlacementOrderingRequests],omitempty"`
+}
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibraryPlacementOrderingRequestsCreateInstance.
+type AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsInclude defines parameters for AppAssetLibraryPlacementOrderingRequestsCreateInstance.
+type AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsInclude string
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequests defines parameters for AppAssetLibraryPlacementOrderingRequestsCreateInstance.
+type AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementOrderingRequests string
+
+// AppAssetLibraryPlacementsGetInstanceParams defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParams struct {
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibraryPlacementsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryImages string
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryVideos string
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppEventLocalizations string
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionLocalizations string
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocalizations string
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppAssetLibraryPlacementsGetInstanceParamsInclude defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsInclude string
+
+// AppAssetLibraryRefDataGetCollectionParams defines parameters for AppAssetLibraryRefDataGetCollection.
+type AppAssetLibraryRefDataGetCollectionParams struct {
+	// FilterPlacementTypes filter by attribute 'placementTypes'
+	FilterPlacementTypes *[]string `form:"filter[placementTypes],omitempty" json:"filter[placementTypes],omitempty"`
+
+	// FilterPlacementProfileGroups filter by attribute 'placementProfileGroups'
+	FilterPlacementProfileGroups *[]string `form:"filter[placementProfileGroups],omitempty" json:"filter[placementProfileGroups],omitempty"`
+
+	// FilterFeatures filter by attribute 'features'
+	FilterFeatures *[]string `form:"filter[features],omitempty" json:"filter[features],omitempty"`
+
+	// FilterSpecs filter by specs
+	FilterSpecs *[]string `form:"filter[specs],omitempty" json:"filter[specs],omitempty"`
+
+	// FieldsAppAssetLibraryRefData the fields to include for returned resources of type appAssetLibraryRefData
+	FieldsAppAssetLibraryRefData *[]AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData `form:"fields[appAssetLibraryRefData],omitempty" json:"fields[appAssetLibraryRefData],omitempty"`
+}
+
+// AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData defines parameters for AppAssetLibraryRefDataGetCollection.
+type AppAssetLibraryRefDataGetCollectionParamsFieldsAppAssetLibraryRefData string
+
+// AppAssetLibraryVideosGetInstanceParams defines parameters for AppAssetLibraryVideosGetInstance.
+type AppAssetLibraryVideosGetInstanceParams struct {
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibraryVideosGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos defines parameters for AppAssetLibraryVideosGetInstance.
+type AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryVideos string
+
+// AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibraryVideosGetInstance.
+type AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibraryVideosGetInstanceParamsInclude defines parameters for AppAssetLibraryVideosGetInstance.
+type AppAssetLibraryVideosGetInstanceParamsInclude string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParams defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParams struct {
+	// FilterPlacementType filter by attribute 'placementType'
+	FilterPlacementType *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType `form:"filter[placementType],omitempty" json:"filter[placementType],omitempty"`
+
+	// FilterPlacementGroup filter by attribute 'placementGroup'
+	FilterPlacementGroup *[]string `form:"filter[placementGroup],omitempty" json:"filter[placementGroup],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterImage filter by id(s) of related 'image'
+	FilterImage *[]string `form:"filter[image],omitempty" json:"filter[image],omitempty"`
+
+	// FilterAppEventLocalization filter by id(s) of related 'appEventLocalization'
+	FilterAppEventLocalization *[]string `form:"filter[appEventLocalization],omitempty" json:"filter[appEventLocalization],omitempty"`
+
+	// FilterAppStoreVersionLocalization filter by id(s) of related 'appStoreVersionLocalization'
+	FilterAppStoreVersionLocalization *[]string `form:"filter[appStoreVersionLocalization],omitempty" json:"filter[appStoreVersionLocalization],omitempty"`
+
+	// FilterAppCustomProductPageLocalization filter by id(s) of related 'appCustomProductPageLocalization'
+	FilterAppCustomProductPageLocalization *[]string `form:"filter[appCustomProductPageLocalization],omitempty" json:"filter[appCustomProductPageLocalization],omitempty"`
+
+	// FilterAppStoreVersionExperimentTreatmentLocalization filter by id(s) of related 'appStoreVersionExperimentTreatmentLocalization'
+	FilterAppStoreVersionExperimentTreatmentLocalization *[]string `form:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty" json:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterPlacementType string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFilterState string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsSort string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude string
+
 // AppCategoriesGetCollectionParams defines parameters for AppCategoriesGetCollection.
 type AppCategoriesGetCollectionParams struct {
 	// FilterPlatforms filter by attribute 'platforms'
@@ -56607,6 +61473,99 @@ type AppCategoriesGetCollectionParamsFieldsAppCategories string
 
 // AppCategoriesGetCollectionParamsInclude defines parameters for AppCategoriesGetCollection.
 type AppCategoriesGetCollectionParamsInclude string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams struct {
+	// FilterPlacementType filter by attribute 'placementType'
+	FilterPlacementType *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType `form:"filter[placementType],omitempty" json:"filter[placementType],omitempty"`
+
+	// FilterPlacementGroup filter by attribute 'placementGroup'
+	FilterPlacementGroup *[]string `form:"filter[placementGroup],omitempty" json:"filter[placementGroup],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterImage filter by id(s) of related 'image'
+	FilterImage *[]string `form:"filter[image],omitempty" json:"filter[image],omitempty"`
+
+	// FilterVideo filter by id(s) of related 'video'
+	FilterVideo *[]string `form:"filter[video],omitempty" json:"filter[video],omitempty"`
+
+	// FilterAppEventLocalization filter by id(s) of related 'appEventLocalization'
+	FilterAppEventLocalization *[]string `form:"filter[appEventLocalization],omitempty" json:"filter[appEventLocalization],omitempty"`
+
+	// FilterAppStoreVersionLocalization filter by id(s) of related 'appStoreVersionLocalization'
+	FilterAppStoreVersionLocalization *[]string `form:"filter[appStoreVersionLocalization],omitempty" json:"filter[appStoreVersionLocalization],omitempty"`
+
+	// FilterAppStoreVersionExperimentTreatmentLocalization filter by id(s) of related 'appStoreVersionExperimentTreatmentLocalization'
+	FilterAppStoreVersionExperimentTreatmentLocalization *[]string `form:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty" json:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFilterState string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsSort string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude string
 
 // AppEncryptionDeclarationDocumentsGetInstanceParams defines parameters for AppEncryptionDeclarationDocumentsGetInstance.
 type AppEncryptionDeclarationDocumentsGetInstanceParams struct {
@@ -56892,6 +61851,99 @@ type AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails strin
 // AppStoreReviewAttachmentsGetInstanceParamsInclude defines parameters for AppStoreReviewAttachmentsGetInstance.
 type AppStoreReviewAttachmentsGetInstanceParamsInclude string
 
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams struct {
+	// FilterPlacementType filter by attribute 'placementType'
+	FilterPlacementType *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType `form:"filter[placementType],omitempty" json:"filter[placementType],omitempty"`
+
+	// FilterPlacementGroup filter by attribute 'placementGroup'
+	FilterPlacementGroup *[]string `form:"filter[placementGroup],omitempty" json:"filter[placementGroup],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterImage filter by id(s) of related 'image'
+	FilterImage *[]string `form:"filter[image],omitempty" json:"filter[image],omitempty"`
+
+	// FilterVideo filter by id(s) of related 'video'
+	FilterVideo *[]string `form:"filter[video],omitempty" json:"filter[video],omitempty"`
+
+	// FilterAppEventLocalization filter by id(s) of related 'appEventLocalization'
+	FilterAppEventLocalization *[]string `form:"filter[appEventLocalization],omitempty" json:"filter[appEventLocalization],omitempty"`
+
+	// FilterAppStoreVersionLocalization filter by id(s) of related 'appStoreVersionLocalization'
+	FilterAppStoreVersionLocalization *[]string `form:"filter[appStoreVersionLocalization],omitempty" json:"filter[appStoreVersionLocalization],omitempty"`
+
+	// FilterAppCustomProductPageLocalization filter by id(s) of related 'appCustomProductPageLocalization'
+	FilterAppCustomProductPageLocalization *[]string `form:"filter[appCustomProductPageLocalization],omitempty" json:"filter[appCustomProductPageLocalization],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterState string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsSort string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude string
+
 // AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
 type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams struct {
 	// FilterPreviewType filter by attribute 'previewType'
@@ -57005,6 +62057,99 @@ type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAp
 
 // AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
 type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams struct {
+	// FilterPlacementType filter by attribute 'placementType'
+	FilterPlacementType *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType `form:"filter[placementType],omitempty" json:"filter[placementType],omitempty"`
+
+	// FilterPlacementGroup filter by attribute 'placementGroup'
+	FilterPlacementGroup *[]string `form:"filter[placementGroup],omitempty" json:"filter[placementGroup],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterImage filter by id(s) of related 'image'
+	FilterImage *[]string `form:"filter[image],omitempty" json:"filter[image],omitempty"`
+
+	// FilterVideo filter by id(s) of related 'video'
+	FilterVideo *[]string `form:"filter[video],omitempty" json:"filter[video],omitempty"`
+
+	// FilterAppEventLocalization filter by id(s) of related 'appEventLocalization'
+	FilterAppEventLocalization *[]string `form:"filter[appEventLocalization],omitempty" json:"filter[appEventLocalization],omitempty"`
+
+	// FilterAppCustomProductPageLocalization filter by id(s) of related 'appCustomProductPageLocalization'
+	FilterAppCustomProductPageLocalization *[]string `form:"filter[appCustomProductPageLocalization],omitempty" json:"filter[appCustomProductPageLocalization],omitempty"`
+
+	// FilterAppStoreVersionExperimentTreatmentLocalization filter by id(s) of related 'appStoreVersionExperimentTreatmentLocalization'
+	FilterAppStoreVersionExperimentTreatmentLocalization *[]string `form:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty" json:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// FieldsAppAssetLibraryImages the fields to include for returned resources of type appAssetLibraryImages
+	FieldsAppAssetLibraryImages *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages `form:"fields[appAssetLibraryImages],omitempty" json:"fields[appAssetLibraryImages],omitempty"`
+
+	// FieldsAppAssetLibraryVideos the fields to include for returned resources of type appAssetLibraryVideos
+	FieldsAppAssetLibraryVideos *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos `form:"fields[appAssetLibraryVideos],omitempty" json:"fields[appAssetLibraryVideos],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFilterState string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsSort string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryImages string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryVideos string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppEventLocalizations string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude string
 
 // AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated.
 type AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams struct {
@@ -58019,6 +63164,15 @@ type AppsAppTagsGetToManyRelatedParamsFieldsTerritories string
 
 // AppsAppTagsGetToManyRelatedParamsInclude defines parameters for AppsAppTagsGetToManyRelated.
 type AppsAppTagsGetToManyRelatedParamsInclude string
+
+// AppsAssetLibraryGetToOneRelatedParams defines parameters for AppsAssetLibraryGetToOneRelated.
+type AppsAssetLibraryGetToOneRelatedParams struct {
+	// FieldsAppAssetLibraries the fields to include for returned resources of type appAssetLibraries
+	FieldsAppAssetLibraries *[]AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries `form:"fields[appAssetLibraries],omitempty" json:"fields[appAssetLibraries],omitempty"`
+}
+
+// AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries defines parameters for AppsAssetLibraryGetToOneRelated.
+type AppsAssetLibraryGetToOneRelatedParamsFieldsAppAssetLibraries string
 
 // AppsBackgroundAssetsGetToManyRelatedParams defines parameters for AppsBackgroundAssetsGetToManyRelated.
 type AppsBackgroundAssetsGetToManyRelatedParams struct {
@@ -61822,6 +66976,24 @@ type AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody = AndroidToIosAp
 // AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody defines body for AndroidToIosAppMappingDetailsUpdateInstance for application/json ContentType.
 type AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody = AndroidToIosAppMappingDetailUpdateRequest
 
+// AppAssetLibraryImagesCreateInstanceJSONRequestBody defines body for AppAssetLibraryImagesCreateInstance for application/json ContentType.
+type AppAssetLibraryImagesCreateInstanceJSONRequestBody = AppAssetLibraryImageCreateRequest
+
+// AppAssetLibraryImagesUpdateInstanceJSONRequestBody defines body for AppAssetLibraryImagesUpdateInstance for application/json ContentType.
+type AppAssetLibraryImagesUpdateInstanceJSONRequestBody = AppAssetLibraryImageUpdateRequest
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceJSONRequestBody defines body for AppAssetLibraryPlacementOrderingRequestsCreateInstance for application/json ContentType.
+type AppAssetLibraryPlacementOrderingRequestsCreateInstanceJSONRequestBody = AppAssetLibraryPlacementOrderingRequestCreateRequest
+
+// AppAssetLibraryPlacementsCreateInstanceJSONRequestBody defines body for AppAssetLibraryPlacementsCreateInstance for application/json ContentType.
+type AppAssetLibraryPlacementsCreateInstanceJSONRequestBody = AppAssetLibraryPlacementCreateRequest
+
+// AppAssetLibraryVideosCreateInstanceJSONRequestBody defines body for AppAssetLibraryVideosCreateInstance for application/json ContentType.
+type AppAssetLibraryVideosCreateInstanceJSONRequestBody = AppAssetLibraryVideoCreateRequest
+
+// AppAssetLibraryVideosUpdateInstanceJSONRequestBody defines body for AppAssetLibraryVideosUpdateInstance for application/json ContentType.
+type AppAssetLibraryVideosUpdateInstanceJSONRequestBody = AppAssetLibraryVideoUpdateRequest
+
 // AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody defines body for AppEncryptionDeclarationDocumentsCreateInstance for application/json ContentType.
 type AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody = AppEncryptionDeclarationDocumentCreateRequest
 
@@ -62696,6 +67868,924 @@ func (t AppAssetLibraryPlacement_Relationships) MarshalJSON() ([]byte, error) {
 }
 
 func (t *AppAssetLibraryPlacement_Relationships) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData0 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData0
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData0() (AppAssetLibraryPlacementCreateRequestData0, error) {
+	var body AppAssetLibraryPlacementCreateRequestData0
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData0 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData0
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData0(v AppAssetLibraryPlacementCreateRequestData0) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData0 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData0
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData0(v AppAssetLibraryPlacementCreateRequestData0) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData1 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData1
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData1() (AppAssetLibraryPlacementCreateRequestData1, error) {
+	var body AppAssetLibraryPlacementCreateRequestData1
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData1 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData1
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData1(v AppAssetLibraryPlacementCreateRequestData1) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData1 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData1
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData1(v AppAssetLibraryPlacementCreateRequestData1) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData2 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData2
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData2() (AppAssetLibraryPlacementCreateRequestData2, error) {
+	var body AppAssetLibraryPlacementCreateRequestData2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData2 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData2
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData2(v AppAssetLibraryPlacementCreateRequestData2) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData2 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData2
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData2(v AppAssetLibraryPlacementCreateRequestData2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData3 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData3
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData3() (AppAssetLibraryPlacementCreateRequestData3, error) {
+	var body AppAssetLibraryPlacementCreateRequestData3
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData3 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData3
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData3(v AppAssetLibraryPlacementCreateRequestData3) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData3 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData3
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData3(v AppAssetLibraryPlacementCreateRequestData3) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData4 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData4
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData4() (AppAssetLibraryPlacementCreateRequestData4, error) {
+	var body AppAssetLibraryPlacementCreateRequestData4
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData4 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData4
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData4(v AppAssetLibraryPlacementCreateRequestData4) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData4 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData4
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData4(v AppAssetLibraryPlacementCreateRequestData4) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData5 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData5
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData5() (AppAssetLibraryPlacementCreateRequestData5, error) {
+	var body AppAssetLibraryPlacementCreateRequestData5
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData5 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData5
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData5(v AppAssetLibraryPlacementCreateRequestData5) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData5 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData5
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData5(v AppAssetLibraryPlacementCreateRequestData5) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData6 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData6
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData6() (AppAssetLibraryPlacementCreateRequestData6, error) {
+	var body AppAssetLibraryPlacementCreateRequestData6
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData6 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData6
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData6(v AppAssetLibraryPlacementCreateRequestData6) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData6 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData6
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData6(v AppAssetLibraryPlacementCreateRequestData6) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementCreateRequestData7 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData7
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData7() (AppAssetLibraryPlacementCreateRequestData7, error) {
+	var body AppAssetLibraryPlacementCreateRequestData7
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData7 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData7
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData7(v AppAssetLibraryPlacementCreateRequestData7) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData7 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData7
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData7(v AppAssetLibraryPlacementCreateRequestData7) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppAssetLibraryPlacementCreateRequest_Data) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	if err != nil {
+		return nil, err
+	}
+	object := make(map[string]json.RawMessage)
+	if t.union != nil {
+		err = json.Unmarshal(b, &object)
+		if err != nil {
+			return nil, err
+		}
+	}
+
+	if t.Attributes != nil {
+		object["attributes"], err = json.Marshal(t.Attributes)
+		if err != nil {
+			return nil, fmt.Errorf("error marshaling 'attributes': %w", err)
+		}
+	}
+
+	if t.Relationships != nil {
+		object["relationships"], err = json.Marshal(t.Relationships)
+		if err != nil {
+			return nil, fmt.Errorf("error marshaling 'relationships': %w", err)
+		}
+	}
+
+	object["type"], err = json.Marshal(t.Type)
+	if err != nil {
+		return nil, fmt.Errorf("error marshaling 'type': %w", err)
+	}
+
+	b, err = json.Marshal(object)
+	return b, err
+}
+
+func (t *AppAssetLibraryPlacementCreateRequest_Data) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	if err != nil {
+		return err
+	}
+	object := make(map[string]json.RawMessage)
+	err = json.Unmarshal(b, &object)
+	if err != nil {
+		return err
+	}
+
+	if raw, found := object["attributes"]; found {
+		err = json.Unmarshal(raw, &t.Attributes)
+		if err != nil {
+			return fmt.Errorf("error reading 'attributes': %w", err)
+		}
+	}
+
+	if raw, found := object["relationships"]; found {
+		err = json.Unmarshal(raw, &t.Relationships)
+		if err != nil {
+			return fmt.Errorf("error reading 'relationships': %w", err)
+		}
+	}
+
+	if raw, found := object["type"]; found {
+		err = json.Unmarshal(raw, &t.Type)
+		if err != nil {
+			return fmt.Errorf("error reading 'type': %w", err)
+		}
+	}
+
+	return err
+}
+
+// AsAppAssetLibraryPlacementOrderingRequestCreateRequestData0 returns the union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data as a AppAssetLibraryPlacementOrderingRequestCreateRequestData0
+func (t AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) AsAppAssetLibraryPlacementOrderingRequestCreateRequestData0() (AppAssetLibraryPlacementOrderingRequestCreateRequestData0, error) {
+	var body AppAssetLibraryPlacementOrderingRequestCreateRequestData0
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementOrderingRequestCreateRequestData0 overwrites any union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data as the provided AppAssetLibraryPlacementOrderingRequestCreateRequestData0
+func (t *AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) FromAppAssetLibraryPlacementOrderingRequestCreateRequestData0(v AppAssetLibraryPlacementOrderingRequestCreateRequestData0) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementOrderingRequestCreateRequestData0 performs a merge with any union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data, using the provided AppAssetLibraryPlacementOrderingRequestCreateRequestData0
+func (t *AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) MergeAppAssetLibraryPlacementOrderingRequestCreateRequestData0(v AppAssetLibraryPlacementOrderingRequestCreateRequestData0) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementOrderingRequestCreateRequestData1 returns the union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data as a AppAssetLibraryPlacementOrderingRequestCreateRequestData1
+func (t AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) AsAppAssetLibraryPlacementOrderingRequestCreateRequestData1() (AppAssetLibraryPlacementOrderingRequestCreateRequestData1, error) {
+	var body AppAssetLibraryPlacementOrderingRequestCreateRequestData1
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementOrderingRequestCreateRequestData1 overwrites any union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data as the provided AppAssetLibraryPlacementOrderingRequestCreateRequestData1
+func (t *AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) FromAppAssetLibraryPlacementOrderingRequestCreateRequestData1(v AppAssetLibraryPlacementOrderingRequestCreateRequestData1) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementOrderingRequestCreateRequestData1 performs a merge with any union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data, using the provided AppAssetLibraryPlacementOrderingRequestCreateRequestData1
+func (t *AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) MergeAppAssetLibraryPlacementOrderingRequestCreateRequestData1(v AppAssetLibraryPlacementOrderingRequestCreateRequestData1) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryPlacementOrderingRequestCreateRequestData2 returns the union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data as a AppAssetLibraryPlacementOrderingRequestCreateRequestData2
+func (t AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) AsAppAssetLibraryPlacementOrderingRequestCreateRequestData2() (AppAssetLibraryPlacementOrderingRequestCreateRequestData2, error) {
+	var body AppAssetLibraryPlacementOrderingRequestCreateRequestData2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementOrderingRequestCreateRequestData2 overwrites any union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data as the provided AppAssetLibraryPlacementOrderingRequestCreateRequestData2
+func (t *AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) FromAppAssetLibraryPlacementOrderingRequestCreateRequestData2(v AppAssetLibraryPlacementOrderingRequestCreateRequestData2) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementOrderingRequestCreateRequestData2 performs a merge with any union data inside the AppAssetLibraryPlacementOrderingRequestCreateRequest_Data, using the provided AppAssetLibraryPlacementOrderingRequestCreateRequestData2
+func (t *AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) MergeAppAssetLibraryPlacementOrderingRequestCreateRequestData2(v AppAssetLibraryPlacementOrderingRequestCreateRequestData2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	if err != nil {
+		return nil, err
+	}
+	object := make(map[string]json.RawMessage)
+	if t.union != nil {
+		err = json.Unmarshal(b, &object)
+		if err != nil {
+			return nil, err
+		}
+	}
+
+	if t.Attributes != nil {
+		object["attributes"], err = json.Marshal(t.Attributes)
+		if err != nil {
+			return nil, fmt.Errorf("error marshaling 'attributes': %w", err)
+		}
+	}
+
+	if t.Relationships != nil {
+		object["relationships"], err = json.Marshal(t.Relationships)
+		if err != nil {
+			return nil, fmt.Errorf("error marshaling 'relationships': %w", err)
+		}
+	}
+
+	object["type"], err = json.Marshal(t.Type)
+	if err != nil {
+		return nil, fmt.Errorf("error marshaling 'type': %w", err)
+	}
+
+	b, err = json.Marshal(object)
+	return b, err
+}
+
+func (t *AppAssetLibraryPlacementOrderingRequestCreateRequest_Data) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	if err != nil {
+		return err
+	}
+	object := make(map[string]json.RawMessage)
+	err = json.Unmarshal(b, &object)
+	if err != nil {
+		return err
+	}
+
+	if raw, found := object["attributes"]; found {
+		err = json.Unmarshal(raw, &t.Attributes)
+		if err != nil {
+			return fmt.Errorf("error reading 'attributes': %w", err)
+		}
+	}
+
+	if raw, found := object["relationships"]; found {
+		err = json.Unmarshal(raw, &t.Relationships)
+		if err != nil {
+			return fmt.Errorf("error reading 'relationships': %w", err)
+		}
+	}
+
+	if raw, found := object["type"]; found {
+		err = json.Unmarshal(raw, &t.Type)
+		if err != nil {
+			return fmt.Errorf("error reading 'type': %w", err)
+		}
+	}
+
+	return err
+}
+
+// AsAppAssetLibraryImage returns the union data inside the AppAssetLibraryPlacementResponse_Included_Item as a AppAssetLibraryImage
+func (t AppAssetLibraryPlacementResponse_Included_Item) AsAppAssetLibraryImage() (AppAssetLibraryImage, error) {
+	var body AppAssetLibraryImage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryImage overwrites any union data inside the AppAssetLibraryPlacementResponse_Included_Item as the provided AppAssetLibraryImage
+func (t *AppAssetLibraryPlacementResponse_Included_Item) FromAppAssetLibraryImage(v AppAssetLibraryImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryImage performs a merge with any union data inside the AppAssetLibraryPlacementResponse_Included_Item, using the provided AppAssetLibraryImage
+func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeAppAssetLibraryImage(v AppAssetLibraryImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryVideo returns the union data inside the AppAssetLibraryPlacementResponse_Included_Item as a AppAssetLibraryVideo
+func (t AppAssetLibraryPlacementResponse_Included_Item) AsAppAssetLibraryVideo() (AppAssetLibraryVideo, error) {
+	var body AppAssetLibraryVideo
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryVideo overwrites any union data inside the AppAssetLibraryPlacementResponse_Included_Item as the provided AppAssetLibraryVideo
+func (t *AppAssetLibraryPlacementResponse_Included_Item) FromAppAssetLibraryVideo(v AppAssetLibraryVideo) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryVideos"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryVideo performs a merge with any union data inside the AppAssetLibraryPlacementResponse_Included_Item, using the provided AppAssetLibraryVideo
+func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeAppAssetLibraryVideo(v AppAssetLibraryVideo) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryVideos"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppAssetLibraryPlacementResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppAssetLibraryPlacementResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppAssetLibraryPlacementResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppAssetLibraryPlacementResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEventLocalization returns the union data inside the AppAssetLibraryPlacementResponse_Included_Item as a AppEventLocalization
+func (t AppAssetLibraryPlacementResponse_Included_Item) AsAppEventLocalization() (AppEventLocalization, error) {
+	var body AppEventLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEventLocalization overwrites any union data inside the AppAssetLibraryPlacementResponse_Included_Item as the provided AppEventLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) FromAppEventLocalization(v AppEventLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEventLocalization performs a merge with any union data inside the AppAssetLibraryPlacementResponse_Included_Item, using the provided AppEventLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeAppEventLocalization(v AppEventLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatmentLocalization returns the union data inside the AppAssetLibraryPlacementResponse_Included_Item as a AppStoreVersionExperimentTreatmentLocalization
+func (t AppAssetLibraryPlacementResponse_Included_Item) AsAppStoreVersionExperimentTreatmentLocalization() (AppStoreVersionExperimentTreatmentLocalization, error) {
+	var body AppStoreVersionExperimentTreatmentLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatmentLocalization overwrites any union data inside the AppAssetLibraryPlacementResponse_Included_Item as the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) FromAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatmentLocalization performs a merge with any union data inside the AppAssetLibraryPlacementResponse_Included_Item, using the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionLocalization returns the union data inside the AppAssetLibraryPlacementResponse_Included_Item as a AppStoreVersionLocalization
+func (t AppAssetLibraryPlacementResponse_Included_Item) AsAppStoreVersionLocalization() (AppStoreVersionLocalization, error) {
+	var body AppStoreVersionLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionLocalization overwrites any union data inside the AppAssetLibraryPlacementResponse_Included_Item as the provided AppStoreVersionLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) FromAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionLocalization performs a merge with any union data inside the AppAssetLibraryPlacementResponse_Included_Item, using the provided AppStoreVersionLocalization
+func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppAssetLibraryPlacementResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppAssetLibraryPlacementResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryImages":
+		return t.AsAppAssetLibraryImage()
+	case "appAssetLibraryVideos":
+		return t.AsAppAssetLibraryVideo()
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appEventLocalizations":
+		return t.AsAppEventLocalization()
+	case "appStoreVersionExperimentTreatmentLocalizations":
+		return t.AsAppStoreVersionExperimentTreatmentLocalization()
+	case "appStoreVersionLocalizations":
+		return t.AsAppStoreVersionLocalization()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppAssetLibraryPlacementResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppAssetLibraryPlacementResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryImage returns the union data inside the AppAssetLibraryPlacementsResponse_Included_Item as a AppAssetLibraryImage
+func (t AppAssetLibraryPlacementsResponse_Included_Item) AsAppAssetLibraryImage() (AppAssetLibraryImage, error) {
+	var body AppAssetLibraryImage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryImage overwrites any union data inside the AppAssetLibraryPlacementsResponse_Included_Item as the provided AppAssetLibraryImage
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) FromAppAssetLibraryImage(v AppAssetLibraryImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryImage performs a merge with any union data inside the AppAssetLibraryPlacementsResponse_Included_Item, using the provided AppAssetLibraryImage
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeAppAssetLibraryImage(v AppAssetLibraryImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppAssetLibraryVideo returns the union data inside the AppAssetLibraryPlacementsResponse_Included_Item as a AppAssetLibraryVideo
+func (t AppAssetLibraryPlacementsResponse_Included_Item) AsAppAssetLibraryVideo() (AppAssetLibraryVideo, error) {
+	var body AppAssetLibraryVideo
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryVideo overwrites any union data inside the AppAssetLibraryPlacementsResponse_Included_Item as the provided AppAssetLibraryVideo
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) FromAppAssetLibraryVideo(v AppAssetLibraryVideo) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryVideos"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryVideo performs a merge with any union data inside the AppAssetLibraryPlacementsResponse_Included_Item, using the provided AppAssetLibraryVideo
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeAppAssetLibraryVideo(v AppAssetLibraryVideo) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryVideos"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppAssetLibraryPlacementsResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppAssetLibraryPlacementsResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppAssetLibraryPlacementsResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppAssetLibraryPlacementsResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEventLocalization returns the union data inside the AppAssetLibraryPlacementsResponse_Included_Item as a AppEventLocalization
+func (t AppAssetLibraryPlacementsResponse_Included_Item) AsAppEventLocalization() (AppEventLocalization, error) {
+	var body AppEventLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEventLocalization overwrites any union data inside the AppAssetLibraryPlacementsResponse_Included_Item as the provided AppEventLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) FromAppEventLocalization(v AppEventLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEventLocalization performs a merge with any union data inside the AppAssetLibraryPlacementsResponse_Included_Item, using the provided AppEventLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeAppEventLocalization(v AppEventLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatmentLocalization returns the union data inside the AppAssetLibraryPlacementsResponse_Included_Item as a AppStoreVersionExperimentTreatmentLocalization
+func (t AppAssetLibraryPlacementsResponse_Included_Item) AsAppStoreVersionExperimentTreatmentLocalization() (AppStoreVersionExperimentTreatmentLocalization, error) {
+	var body AppStoreVersionExperimentTreatmentLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatmentLocalization overwrites any union data inside the AppAssetLibraryPlacementsResponse_Included_Item as the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) FromAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatmentLocalization performs a merge with any union data inside the AppAssetLibraryPlacementsResponse_Included_Item, using the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionLocalization returns the union data inside the AppAssetLibraryPlacementsResponse_Included_Item as a AppStoreVersionLocalization
+func (t AppAssetLibraryPlacementsResponse_Included_Item) AsAppStoreVersionLocalization() (AppStoreVersionLocalization, error) {
+	var body AppStoreVersionLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionLocalization overwrites any union data inside the AppAssetLibraryPlacementsResponse_Included_Item as the provided AppStoreVersionLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) FromAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionLocalization performs a merge with any union data inside the AppAssetLibraryPlacementsResponse_Included_Item, using the provided AppStoreVersionLocalization
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppAssetLibraryPlacementsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppAssetLibraryPlacementsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryImages":
+		return t.AsAppAssetLibraryImage()
+	case "appAssetLibraryVideos":
+		return t.AsAppAssetLibraryVideo()
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appEventLocalizations":
+		return t.AsAppEventLocalization()
+	case "appStoreVersionExperimentTreatmentLocalizations":
+		return t.AsAppStoreVersionExperimentTreatmentLocalization()
+	case "appStoreVersionLocalizations":
+		return t.AsAppStoreVersionLocalization()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppAssetLibraryPlacementsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -76834,8 +82924,92 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AndroidToIosAppMappingDetailsUpdateInstance(ctx context.Context, id string, body AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppAssetLibrariesImagesGetToManyRelated performs a GET /v1/appAssetLibraries/{id}/images (the `AppAssetLibrariesImagesGetToManyRelated` operationId) request.
+	AppAssetLibrariesImagesGetToManyRelated(ctx context.Context, id string, params *AppAssetLibrariesImagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibrariesVideosGetToManyRelated performs a GET /v1/appAssetLibraries/{id}/videos (the `AppAssetLibrariesVideosGetToManyRelated` operationId) request.
+	AppAssetLibrariesVideosGetToManyRelated(ctx context.Context, id string, params *AppAssetLibrariesVideosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryImagesCreateInstanceWithBody performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppAssetLibraryImagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryImagesCreateInstance performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppAssetLibraryImagesCreateInstance(ctx context.Context, body AppAssetLibraryImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryImagesDeleteInstance performs a DELETE /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesDeleteInstance` operationId) request.
+	AppAssetLibraryImagesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryImagesGetInstance performs a GET /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesGetInstance` operationId) request.
+	AppAssetLibraryImagesGetInstance(ctx context.Context, id string, params *AppAssetLibraryImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryImagesUpdateInstanceWithBody performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppAssetLibraryImagesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryImagesUpdateInstance performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppAssetLibraryImagesUpdateInstance(ctx context.Context, id string, body AppAssetLibraryImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryImagesPlacementsGetToManyRelated performs a GET /v1/appAssetLibraryImages/{id}/placements (the `AppAssetLibraryImagesPlacementsGetToManyRelated` operationId) request.
+	AppAssetLibraryImagesPlacementsGetToManyRelated(ctx context.Context, id string, params *AppAssetLibraryImagesPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBody performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBody(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryPlacementOrderingRequestsCreateInstance performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppAssetLibraryPlacementOrderingRequestsCreateInstance(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, body AppAssetLibraryPlacementOrderingRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryPlacementsCreateInstanceWithBody performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppAssetLibraryPlacementsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryPlacementsCreateInstance performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppAssetLibraryPlacementsCreateInstance(ctx context.Context, body AppAssetLibraryPlacementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryPlacementsDeleteInstance performs a DELETE /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsDeleteInstance` operationId) request.
+	AppAssetLibraryPlacementsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryPlacementsGetInstance performs a GET /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsGetInstance` operationId) request.
+	AppAssetLibraryPlacementsGetInstance(ctx context.Context, id string, params *AppAssetLibraryPlacementsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryRefDataGetCollection performs a GET /v1/appAssetLibraryRefData (the `AppAssetLibraryRefDataGetCollection` operationId) request.
+	AppAssetLibraryRefDataGetCollection(ctx context.Context, params *AppAssetLibraryRefDataGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryVideosCreateInstanceWithBody performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppAssetLibraryVideosCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryVideosCreateInstance performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppAssetLibraryVideosCreateInstance(ctx context.Context, body AppAssetLibraryVideosCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryVideosDeleteInstance performs a DELETE /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosDeleteInstance` operationId) request.
+	AppAssetLibraryVideosDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryVideosGetInstance performs a GET /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosGetInstance` operationId) request.
+	AppAssetLibraryVideosGetInstance(ctx context.Context, id string, params *AppAssetLibraryVideosGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryVideosUpdateInstanceWithBody performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppAssetLibraryVideosUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryVideosUpdateInstance performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppAssetLibraryVideosUpdateInstance(ctx context.Context, id string, body AppAssetLibraryVideosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppAssetLibraryVideosPlacementsGetToManyRelated performs a GET /v1/appAssetLibraryVideos/{id}/placements (the `AppAssetLibraryVideosPlacementsGetToManyRelated` operationId) request.
+	AppAssetLibraryVideosPlacementsGetToManyRelated(ctx context.Context, id string, params *AppAssetLibraryVideosPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 	AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsPlacementsGetToManyRelated performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppEncryptionDeclarationDocumentsCreateInstanceWithBody performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -77040,6 +83214,9 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppStoreReviewDetailsUpdateInstance(ctx context.Context, id string, body AppStoreReviewDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppStoreVersionLocalizationsCreateInstanceWithBody performs a POST /v1/appStoreVersionLocalizations (the `AppStoreVersionLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppStoreVersionLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -77064,6 +83241,9 @@ type ClientInterface interface {
 
 	// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets (the `AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated` operationId) request.
 	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionLocalizationsPlacementsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/placements (the `AppStoreVersionLocalizationsPlacementsGetToManyRelated` operationId) request.
+	AppStoreVersionLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -77195,6 +83375,9 @@ type ClientInterface interface {
 
 	// AppsAppTagsGetToManyRelated performs a GET /v1/apps/{id}/appTags (the `AppsAppTagsGetToManyRelated` operationId) request.
 	AppsAppTagsGetToManyRelated(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAssetLibraryGetToOneRelated performs a GET /v1/apps/{id}/assetLibrary (the `AppsAssetLibraryGetToOneRelated` operationId) request.
+	AppsAssetLibraryGetToOneRelated(ctx context.Context, id string, params *AppsAssetLibraryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsBackgroundAssetsGetToManyRelated performs a GET /v1/apps/{id}/backgroundAssets (the `AppsBackgroundAssetsGetToManyRelated` operationId) request.
 	AppsBackgroundAssetsGetToManyRelated(ctx context.Context, id string, params *AppsBackgroundAssetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -78738,9 +84921,333 @@ func (c *Client) AndroidToIosAppMappingDetailsUpdateInstance(ctx context.Context
 	return c.Client.Do(req)
 }
 
+// AppAssetLibrariesImagesGetToManyRelated performs a GET /v1/appAssetLibraries/{id}/images (the `AppAssetLibrariesImagesGetToManyRelated` operationId) request.
+func (c *Client) AppAssetLibrariesImagesGetToManyRelated(ctx context.Context, id string, params *AppAssetLibrariesImagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibrariesImagesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibrariesVideosGetToManyRelated performs a GET /v1/appAssetLibraries/{id}/videos (the `AppAssetLibrariesVideosGetToManyRelated` operationId) request.
+func (c *Client) AppAssetLibrariesVideosGetToManyRelated(ctx context.Context, id string, params *AppAssetLibrariesVideosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibrariesVideosGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryImagesCreateInstanceWithBody performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppAssetLibraryImagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryImagesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryImagesCreateInstance performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppAssetLibraryImagesCreateInstance(ctx context.Context, body AppAssetLibraryImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryImagesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryImagesDeleteInstance performs a DELETE /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesDeleteInstance` operationId) request.
+func (c *Client) AppAssetLibraryImagesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryImagesDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryImagesGetInstance performs a GET /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesGetInstance` operationId) request.
+func (c *Client) AppAssetLibraryImagesGetInstance(ctx context.Context, id string, params *AppAssetLibraryImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryImagesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryImagesUpdateInstanceWithBody performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppAssetLibraryImagesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryImagesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryImagesUpdateInstance performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppAssetLibraryImagesUpdateInstance(ctx context.Context, id string, body AppAssetLibraryImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryImagesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryImagesPlacementsGetToManyRelated performs a GET /v1/appAssetLibraryImages/{id}/placements (the `AppAssetLibraryImagesPlacementsGetToManyRelated` operationId) request.
+func (c *Client) AppAssetLibraryImagesPlacementsGetToManyRelated(ctx context.Context, id string, params *AppAssetLibraryImagesPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryImagesPlacementsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBody performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBody(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryPlacementOrderingRequestsCreateInstanceRequestWithBody(c.Server, params, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstance performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppAssetLibraryPlacementOrderingRequestsCreateInstance(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, body AppAssetLibraryPlacementOrderingRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryPlacementOrderingRequestsCreateInstanceRequest(c.Server, params, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryPlacementsCreateInstanceWithBody performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppAssetLibraryPlacementsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryPlacementsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryPlacementsCreateInstance performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppAssetLibraryPlacementsCreateInstance(ctx context.Context, body AppAssetLibraryPlacementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryPlacementsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryPlacementsDeleteInstance performs a DELETE /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsDeleteInstance` operationId) request.
+func (c *Client) AppAssetLibraryPlacementsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryPlacementsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryPlacementsGetInstance performs a GET /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsGetInstance` operationId) request.
+func (c *Client) AppAssetLibraryPlacementsGetInstance(ctx context.Context, id string, params *AppAssetLibraryPlacementsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryPlacementsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryRefDataGetCollection performs a GET /v1/appAssetLibraryRefData (the `AppAssetLibraryRefDataGetCollection` operationId) request.
+func (c *Client) AppAssetLibraryRefDataGetCollection(ctx context.Context, params *AppAssetLibraryRefDataGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryRefDataGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryVideosCreateInstanceWithBody performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppAssetLibraryVideosCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryVideosCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryVideosCreateInstance performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppAssetLibraryVideosCreateInstance(ctx context.Context, body AppAssetLibraryVideosCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryVideosCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryVideosDeleteInstance performs a DELETE /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosDeleteInstance` operationId) request.
+func (c *Client) AppAssetLibraryVideosDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryVideosDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryVideosGetInstance performs a GET /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosGetInstance` operationId) request.
+func (c *Client) AppAssetLibraryVideosGetInstance(ctx context.Context, id string, params *AppAssetLibraryVideosGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryVideosGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryVideosUpdateInstanceWithBody performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppAssetLibraryVideosUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryVideosUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryVideosUpdateInstance performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppAssetLibraryVideosUpdateInstance(ctx context.Context, id string, body AppAssetLibraryVideosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryVideosUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppAssetLibraryVideosPlacementsGetToManyRelated performs a GET /v1/appAssetLibraryVideos/{id}/placements (the `AppAssetLibraryVideosPlacementsGetToManyRelated` operationId) request.
+func (c *Client) AppAssetLibraryVideosPlacementsGetToManyRelated(ctx context.Context, id string, params *AppAssetLibraryVideosPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppAssetLibraryVideosPlacementsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 func (c *Client) AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppCategoriesGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelated performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
+func (c *Client) AppCustomProductPageLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -79504,6 +86011,19 @@ func (c *Client) AppStoreReviewDetailsUpdateInstance(ctx context.Context, id str
 	return c.Client.Do(req)
 }
 
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
+func (c *Client) AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppStoreVersionLocalizationsCreateInstanceWithBody performs a POST /v1/appStoreVersionLocalizations (the `AppStoreVersionLocalizationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) AppStoreVersionLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -79589,6 +86109,19 @@ func (c *Client) AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated(ctx 
 // AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets (the `AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated` operationId) request.
 func (c *Client) AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/placements (the `AppStoreVersionLocalizationsPlacementsGetToManyRelated` operationId) request.
+func (c *Client) AppStoreVersionLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsPlacementsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -80090,6 +86623,19 @@ func (c *Client) AppsAppStoreVersionsGetToManyRelated(ctx context.Context, id st
 // AppsAppTagsGetToManyRelated performs a GET /v1/apps/{id}/appTags (the `AppsAppTagsGetToManyRelated` operationId) request.
 func (c *Client) AppsAppTagsGetToManyRelated(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsAppTagsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAssetLibraryGetToOneRelated performs a GET /v1/apps/{id}/assetLibrary (the `AppsAssetLibraryGetToOneRelated` operationId) request.
+func (c *Client) AppsAssetLibraryGetToOneRelated(ctx context.Context, id string, params *AppsAssetLibraryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAssetLibraryGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -85590,6 +92136,1782 @@ func NewAndroidToIosAppMappingDetailsUpdateInstanceRequestWithBody(server string
 	return req, nil
 }
 
+// NewAppAssetLibrariesImagesGetToManyRelatedRequest constructs an http.Request for the AppAssetLibrariesImagesGetToManyRelated method
+func NewAppAssetLibrariesImagesGetToManyRelatedRequest(server string, id string, params *AppAssetLibrariesImagesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraries/%s/images", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterCategory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[category]", *params.FilterCategory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterReferenceName != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[referenceName]", *params.FilterReferenceName, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterSpecId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[specId]", *params.FilterSpecId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibrariesVideosGetToManyRelatedRequest constructs an http.Request for the AppAssetLibrariesVideosGetToManyRelated method
+func NewAppAssetLibrariesVideosGetToManyRelatedRequest(server string, id string, params *AppAssetLibrariesVideosGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraries/%s/videos", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterCategory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[category]", *params.FilterCategory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterReferenceName != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[referenceName]", *params.FilterReferenceName, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterSpecId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[specId]", *params.FilterSpecId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryImagesCreateInstanceRequest calls the generic AppAssetLibraryImagesCreateInstance builder with application/json body
+func NewAppAssetLibraryImagesCreateInstanceRequest(server string, body AppAssetLibraryImagesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppAssetLibraryImagesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppAssetLibraryImagesCreateInstanceRequestWithBody constructs an http.Request for the AppAssetLibraryImagesCreateInstance method, with any body, and a specified content type
+func NewAppAssetLibraryImagesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryImages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppAssetLibraryImagesDeleteInstanceRequest constructs an http.Request for the AppAssetLibraryImagesDeleteInstance method
+func NewAppAssetLibraryImagesDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryImagesGetInstanceRequest constructs an http.Request for the AppAssetLibraryImagesGetInstance method
+func NewAppAssetLibraryImagesGetInstanceRequest(server string, id string, params *AppAssetLibraryImagesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryImagesUpdateInstanceRequest calls the generic AppAssetLibraryImagesUpdateInstance builder with application/json body
+func NewAppAssetLibraryImagesUpdateInstanceRequest(server string, id string, body AppAssetLibraryImagesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppAssetLibraryImagesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppAssetLibraryImagesUpdateInstanceRequestWithBody constructs an http.Request for the AppAssetLibraryImagesUpdateInstance method, with any body, and a specified content type
+func NewAppAssetLibraryImagesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppAssetLibraryImagesPlacementsGetToManyRelatedRequest constructs an http.Request for the AppAssetLibraryImagesPlacementsGetToManyRelated method
+func NewAppAssetLibraryImagesPlacementsGetToManyRelatedRequest(server string, id string, params *AppAssetLibraryImagesPlacementsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryImages/%s/placements", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlacementType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementType]", *params.FilterPlacementType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlacementGroup != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementGroup]", *params.FilterPlacementGroup, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVideo != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[video]", *params.FilterVideo, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppEventLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appEventLocalization]", *params.FilterAppEventLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionLocalization]", *params.FilterAppStoreVersionLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppCustomProductPageLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appCustomProductPageLocalization]", *params.FilterAppCustomProductPageLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionExperimentTreatmentLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionExperimentTreatmentLocalization]", *params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryPlacementOrderingRequestsCreateInstanceRequest calls the generic AppAssetLibraryPlacementOrderingRequestsCreateInstance builder with application/json body
+func NewAppAssetLibraryPlacementOrderingRequestsCreateInstanceRequest(server string, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, body AppAssetLibraryPlacementOrderingRequestsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppAssetLibraryPlacementOrderingRequestsCreateInstanceRequestWithBody(server, params, "application/json", bodyReader)
+}
+
+// NewAppAssetLibraryPlacementOrderingRequestsCreateInstanceRequestWithBody constructs an http.Request for the AppAssetLibraryPlacementOrderingRequestsCreateInstance method, with any body, and a specified content type
+func NewAppAssetLibraryPlacementOrderingRequestsCreateInstanceRequestWithBody(server string, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryPlacementOrderingRequests")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitOrderedPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[orderedPlacements]", *params.LimitOrderedPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacementOrderingRequests != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacementOrderingRequests]", *params.FieldsAppAssetLibraryPlacementOrderingRequests, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppAssetLibraryPlacementsCreateInstanceRequest calls the generic AppAssetLibraryPlacementsCreateInstance builder with application/json body
+func NewAppAssetLibraryPlacementsCreateInstanceRequest(server string, body AppAssetLibraryPlacementsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppAssetLibraryPlacementsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppAssetLibraryPlacementsCreateInstanceRequestWithBody constructs an http.Request for the AppAssetLibraryPlacementsCreateInstance method, with any body, and a specified content type
+func NewAppAssetLibraryPlacementsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryPlacements")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppAssetLibraryPlacementsDeleteInstanceRequest constructs an http.Request for the AppAssetLibraryPlacementsDeleteInstance method
+func NewAppAssetLibraryPlacementsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryPlacements/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryPlacementsGetInstanceRequest constructs an http.Request for the AppAssetLibraryPlacementsGetInstance method
+func NewAppAssetLibraryPlacementsGetInstanceRequest(server string, id string, params *AppAssetLibraryPlacementsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryPlacements/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryRefDataGetCollectionRequest constructs an http.Request for the AppAssetLibraryRefDataGetCollection method
+func NewAppAssetLibraryRefDataGetCollectionRequest(server string, params *AppAssetLibraryRefDataGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryRefData")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlacementTypes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementTypes]", *params.FilterPlacementTypes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlacementProfileGroups != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementProfileGroups]", *params.FilterPlacementProfileGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterFeatures != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[features]", *params.FilterFeatures, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterSpecs != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[specs]", *params.FilterSpecs, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryRefData != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryRefData]", *params.FieldsAppAssetLibraryRefData, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryVideosCreateInstanceRequest calls the generic AppAssetLibraryVideosCreateInstance builder with application/json body
+func NewAppAssetLibraryVideosCreateInstanceRequest(server string, body AppAssetLibraryVideosCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppAssetLibraryVideosCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppAssetLibraryVideosCreateInstanceRequestWithBody constructs an http.Request for the AppAssetLibraryVideosCreateInstance method, with any body, and a specified content type
+func NewAppAssetLibraryVideosCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryVideos")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppAssetLibraryVideosDeleteInstanceRequest constructs an http.Request for the AppAssetLibraryVideosDeleteInstance method
+func NewAppAssetLibraryVideosDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryVideos/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryVideosGetInstanceRequest constructs an http.Request for the AppAssetLibraryVideosGetInstance method
+func NewAppAssetLibraryVideosGetInstanceRequest(server string, id string, params *AppAssetLibraryVideosGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryVideos/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppAssetLibraryVideosUpdateInstanceRequest calls the generic AppAssetLibraryVideosUpdateInstance builder with application/json body
+func NewAppAssetLibraryVideosUpdateInstanceRequest(server string, id string, body AppAssetLibraryVideosUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppAssetLibraryVideosUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppAssetLibraryVideosUpdateInstanceRequestWithBody constructs an http.Request for the AppAssetLibraryVideosUpdateInstance method, with any body, and a specified content type
+func NewAppAssetLibraryVideosUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryVideos/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppAssetLibraryVideosPlacementsGetToManyRelatedRequest constructs an http.Request for the AppAssetLibraryVideosPlacementsGetToManyRelated method
+func NewAppAssetLibraryVideosPlacementsGetToManyRelatedRequest(server string, id string, params *AppAssetLibraryVideosPlacementsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appAssetLibraryVideos/%s/placements", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlacementType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementType]", *params.FilterPlacementType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlacementGroup != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementGroup]", *params.FilterPlacementGroup, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterImage != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[image]", *params.FilterImage, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppEventLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appEventLocalization]", *params.FilterAppEventLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionLocalization]", *params.FilterAppStoreVersionLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppCustomProductPageLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appCustomProductPageLocalization]", *params.FilterAppCustomProductPageLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionExperimentTreatmentLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionExperimentTreatmentLocalization]", *params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppCategoriesGetCollectionRequest constructs an http.Request for the AppCategoriesGetCollection method
 func NewAppCategoriesGetCollectionRequest(server string, params *AppCategoriesGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -85681,6 +94003,283 @@ func NewAppCategoriesGetCollectionRequest(server string, params *AppCategoriesGe
 		if params.LimitSubcategories != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[subcategories]", *params.LimitSubcategories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest constructs an http.Request for the AppCustomProductPageLocalizationsPlacementsGetToManyRelated method
+func NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest(server string, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageLocalizations/%s/placements", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlacementType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementType]", *params.FilterPlacementType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlacementGroup != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementGroup]", *params.FilterPlacementGroup, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterImage != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[image]", *params.FilterImage, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVideo != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[video]", *params.FilterVideo, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppEventLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appEventLocalization]", *params.FilterAppEventLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionLocalization]", *params.FilterAppStoreVersionLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionExperimentTreatmentLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionExperimentTreatmentLocalization]", *params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -87834,6 +96433,283 @@ func NewAppStoreReviewDetailsUpdateInstanceRequestWithBody(server string, id str
 	return req, nil
 }
 
+// NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedRequest constructs an http.Request for the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated method
+func NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedRequest(server string, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatmentLocalizations/%s/placements", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlacementType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementType]", *params.FilterPlacementType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlacementGroup != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementGroup]", *params.FilterPlacementGroup, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterImage != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[image]", *params.FilterImage, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVideo != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[video]", *params.FilterVideo, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppEventLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appEventLocalization]", *params.FilterAppEventLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionLocalization]", *params.FilterAppStoreVersionLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppCustomProductPageLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appCustomProductPageLocalization]", *params.FilterAppCustomProductPageLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppStoreVersionLocalizationsCreateInstanceRequest calls the generic AppStoreVersionLocalizationsCreateInstance builder with application/json body
 func NewAppStoreVersionLocalizationsCreateInstanceRequest(server string, body AppStoreVersionLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -88294,6 +97170,283 @@ func NewAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedRequest(ser
 		if params.LimitAppScreenshots != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appScreenshots]", *params.LimitAppScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionLocalizationsPlacementsGetToManyRelatedRequest constructs an http.Request for the AppStoreVersionLocalizationsPlacementsGetToManyRelated method
+func NewAppStoreVersionLocalizationsPlacementsGetToManyRelatedRequest(server string, id string, params *AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionLocalizations/%s/placements", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlacementType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementType]", *params.FilterPlacementType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlacementGroup != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[placementGroup]", *params.FilterPlacementGroup, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterImage != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[image]", *params.FilterImage, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVideo != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[video]", *params.FilterVideo, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppEventLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appEventLocalization]", *params.FilterAppEventLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppCustomProductPageLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appCustomProductPageLocalization]", *params.FilterAppCustomProductPageLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionExperimentTreatmentLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionExperimentTreatmentLocalization]", *params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryImages]", *params.FieldsAppAssetLibraryImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryVideos != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryVideos]", *params.FieldsAppAssetLibraryVideos, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -91888,6 +101041,67 @@ func NewAppsAppTagsGetToManyRelatedRequest(server string, id string, params *App
 		if params.LimitTerritories != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[territories]", *params.LimitTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsAssetLibraryGetToOneRelatedRequest constructs an http.Request for the AppsAssetLibraryGetToOneRelated method
+func NewAppsAssetLibraryGetToOneRelatedRequest(server string, id string, params *AppsAssetLibraryGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/assetLibrary", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppAssetLibraries != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraries]", *params.FieldsAppAssetLibraries, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -111794,10 +121008,130 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AndroidToIosAppMappingDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AndroidToIosAppMappingDetailsUpdateInstanceResponse, error)
 
+	// AppAssetLibrariesImagesGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraries/{id}/images (the `AppAssetLibrariesImagesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibrariesImagesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibrariesImagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibrariesImagesGetToManyRelatedResponse, error)
+
+	// AppAssetLibrariesVideosGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraries/{id}/videos (the `AppAssetLibrariesVideosGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibrariesVideosGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibrariesVideosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibrariesVideosGetToManyRelatedResponse, error)
+
+	// AppAssetLibraryImagesCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryImagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesCreateInstanceResponse, error)
+
+	// AppAssetLibraryImagesCreateInstanceWithResponse performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppAssetLibraryImagesCreateInstanceWithResponse(ctx context.Context, body AppAssetLibraryImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesCreateInstanceResponse, error)
+
+	// AppAssetLibraryImagesDeleteInstanceWithResponse performs a DELETE /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryImagesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesDeleteInstanceResponse, error)
+
+	// AppAssetLibraryImagesGetInstanceWithResponse performs a GET /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryImagesGetInstanceWithResponse(ctx context.Context, id string, params *AppAssetLibraryImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesGetInstanceResponse, error)
+
+	// AppAssetLibraryImagesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryImagesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesUpdateInstanceResponse, error)
+
+	// AppAssetLibraryImagesUpdateInstanceWithResponse performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppAssetLibraryImagesUpdateInstanceWithResponse(ctx context.Context, id string, body AppAssetLibraryImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesUpdateInstanceResponse, error)
+
+	// AppAssetLibraryImagesPlacementsGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraryImages/{id}/placements (the `AppAssetLibraryImagesPlacementsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryImagesPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibraryImagesPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesPlacementsGetToManyRelatedResponse, error)
+
+	// AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBodyWithResponse(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse, error)
+
+	// AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithResponse performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithResponse(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, body AppAssetLibraryPlacementOrderingRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse, error)
+
+	// AppAssetLibraryPlacementsCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryPlacementsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsCreateInstanceResponse, error)
+
+	// AppAssetLibraryPlacementsCreateInstanceWithResponse performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppAssetLibraryPlacementsCreateInstanceWithResponse(ctx context.Context, body AppAssetLibraryPlacementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsCreateInstanceResponse, error)
+
+	// AppAssetLibraryPlacementsDeleteInstanceWithResponse performs a DELETE /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryPlacementsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsDeleteInstanceResponse, error)
+
+	// AppAssetLibraryPlacementsGetInstanceWithResponse performs a GET /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryPlacementsGetInstanceWithResponse(ctx context.Context, id string, params *AppAssetLibraryPlacementsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsGetInstanceResponse, error)
+
+	// AppAssetLibraryRefDataGetCollectionWithResponse performs a GET /v1/appAssetLibraryRefData (the `AppAssetLibraryRefDataGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryRefDataGetCollectionWithResponse(ctx context.Context, params *AppAssetLibraryRefDataGetCollectionParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryRefDataGetCollectionResponse, error)
+
+	// AppAssetLibraryVideosCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryVideosCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosCreateInstanceResponse, error)
+
+	// AppAssetLibraryVideosCreateInstanceWithResponse performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppAssetLibraryVideosCreateInstanceWithResponse(ctx context.Context, body AppAssetLibraryVideosCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosCreateInstanceResponse, error)
+
+	// AppAssetLibraryVideosDeleteInstanceWithResponse performs a DELETE /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryVideosDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosDeleteInstanceResponse, error)
+
+	// AppAssetLibraryVideosGetInstanceWithResponse performs a GET /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryVideosGetInstanceWithResponse(ctx context.Context, id string, params *AppAssetLibraryVideosGetInstanceParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosGetInstanceResponse, error)
+
+	// AppAssetLibraryVideosUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryVideosUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosUpdateInstanceResponse, error)
+
+	// AppAssetLibraryVideosUpdateInstanceWithResponse performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppAssetLibraryVideosUpdateInstanceWithResponse(ctx context.Context, id string, body AppAssetLibraryVideosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosUpdateInstanceResponse, error)
+
+	// AppAssetLibraryVideosPlacementsGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraryVideos/{id}/placements (the `AppAssetLibraryVideosPlacementsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppAssetLibraryVideosPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibraryVideosPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosPlacementsGetToManyRelatedResponse, error)
+
 	// AppCategoriesGetCollectionWithResponse performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppCategoriesGetCollectionWithResponse(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*AppCategoriesGetCollectionResponse, error)
+
+	// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse, error)
 
 	// AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -112074,6 +121408,11 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreReviewDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreReviewDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreReviewDetailsUpdateInstanceResponse, error)
 
+	// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse, error)
+
 	// AppStoreVersionLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionLocalizations (the `AppStoreVersionLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -112108,6 +121447,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse, error)
+
+	// AppStoreVersionLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/placements (the `AppStoreVersionLocalizationsPlacementsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse, error)
 
 	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -112293,6 +121637,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsAppTagsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppTagsGetToManyRelatedResponse, error)
+
+	// AppsAssetLibraryGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/assetLibrary (the `AppsAssetLibraryGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAssetLibraryGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAssetLibraryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAssetLibraryGetToOneRelatedResponse, error)
 
 	// AppsBackgroundAssetsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/backgroundAssets (the `AppsBackgroundAssetsGetToManyRelated` operationId) request.
 	//
@@ -114886,6 +124235,1326 @@ func (r AndroidToIosAppMappingDetailsUpdateInstanceResponse) ContentType() strin
 	return ""
 }
 
+type AppAssetLibrariesImagesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryImagesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) GetJSON200() *AppAssetLibraryImagesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibrariesImagesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibrariesVideosGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryVideosResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) GetJSON200() *AppAssetLibraryVideosResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibrariesVideosGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryImagesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppAssetLibraryImageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetJSON201() *AppAssetLibraryImageResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryImagesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryImagesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryImagesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryImagesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryImagesDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryImagesDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryImagesDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryImagesDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryImagesDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryImagesDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryImagesDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryImagesDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryImagesDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryImagesDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryImagesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryImageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryImagesGetInstanceResponse) GetJSON200() *AppAssetLibraryImageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryImagesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryImagesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryImagesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryImagesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryImagesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryImagesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryImagesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryImagesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryImagesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryImagesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryImageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON200() *AppAssetLibraryImageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryImagesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryImagesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryImagesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryImagesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryImagesPlacementsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryPlacementsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) GetJSON200() *AppAssetLibraryPlacementsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryImagesPlacementsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppAssetLibraryPlacementOrderingRequestResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetJSON201() *AppAssetLibraryPlacementOrderingRequestResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryPlacementsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppAssetLibraryPlacementResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetJSON201() *AppAssetLibraryPlacementResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryPlacementsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryPlacementsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryPlacementsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryPlacementsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryPlacementResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryPlacementsGetInstanceResponse) GetJSON200() *AppAssetLibraryPlacementResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryPlacementsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryPlacementsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryPlacementsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryPlacementsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryPlacementsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryPlacementsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryPlacementsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryPlacementsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryPlacementsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryRefDataGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryRefDataResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryRefDataGetCollectionResponse) GetJSON200() *AppAssetLibraryRefDataResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryRefDataGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryRefDataGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryRefDataGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryRefDataGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryRefDataGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryRefDataGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryRefDataGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryRefDataGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryVideosCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppAssetLibraryVideoResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetJSON201() *AppAssetLibraryVideoResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryVideosCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryVideosCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryVideosCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryVideosCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryVideosDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryVideosDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryVideosDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryVideosDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryVideosDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryVideosDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryVideosDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryVideosDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryVideosDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryVideosDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryVideosGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryVideoResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryVideosGetInstanceResponse) GetJSON200() *AppAssetLibraryVideoResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryVideosGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryVideosGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryVideosGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryVideosGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryVideosGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryVideosGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryVideosGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryVideosGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryVideosGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryVideosUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryVideoResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON200() *AppAssetLibraryVideoResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryVideosUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryVideosUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryVideosUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryVideosUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppAssetLibraryVideosPlacementsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryPlacementsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) GetJSON200() *AppAssetLibraryPlacementsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppAssetLibraryVideosPlacementsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppCategoriesGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -114949,6 +125618,82 @@ func (r AppCategoriesGetCollectionResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppCategoriesGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryPlacementsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) GetJSON200() *AppAssetLibraryPlacementsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -117831,6 +128576,82 @@ func (r AppStoreReviewDetailsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryPlacementsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) GetJSON200() *AppAssetLibraryPlacementsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppStoreVersionLocalizationsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -118219,6 +129040,82 @@ func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) S
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryPlacementsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) GetJSON200() *AppAssetLibraryPlacementsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -120348,6 +131245,82 @@ func (r AppsAppTagsGetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsAppTagsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAssetLibraryGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppAssetLibraryResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAssetLibraryGetToOneRelatedResponse) GetJSON200() *AppAssetLibraryResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAssetLibraryGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAssetLibraryGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAssetLibraryGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAssetLibraryGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAssetLibraryGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAssetLibraryGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAssetLibraryGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAssetLibraryGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAssetLibraryGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -140865,6 +151838,259 @@ func (c *ClientWithResponses) AndroidToIosAppMappingDetailsUpdateInstanceWithRes
 	return ParseAndroidToIosAppMappingDetailsUpdateInstanceResponse(rsp)
 }
 
+// AppAssetLibrariesImagesGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraries/{id}/images (the `AppAssetLibrariesImagesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibrariesImagesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibrariesImagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibrariesImagesGetToManyRelatedResponse, error) {
+	rsp, err := c.AppAssetLibrariesImagesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibrariesImagesGetToManyRelatedResponse(rsp)
+}
+
+// AppAssetLibrariesVideosGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraries/{id}/videos (the `AppAssetLibrariesVideosGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibrariesVideosGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibrariesVideosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibrariesVideosGetToManyRelatedResponse, error) {
+	rsp, err := c.AppAssetLibrariesVideosGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibrariesVideosGetToManyRelatedResponse(rsp)
+}
+
+// AppAssetLibraryImagesCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryImagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryImagesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryImagesCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryImagesCreateInstanceWithResponse performs a POST /v1/appAssetLibraryImages (the `AppAssetLibraryImagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryImagesCreateInstanceWithResponse(ctx context.Context, body AppAssetLibraryImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryImagesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryImagesCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryImagesDeleteInstanceWithResponse performs a DELETE /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryImagesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesDeleteInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryImagesDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryImagesDeleteInstanceResponse(rsp)
+}
+
+// AppAssetLibraryImagesGetInstanceWithResponse performs a GET /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryImagesGetInstanceWithResponse(ctx context.Context, id string, params *AppAssetLibraryImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesGetInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryImagesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryImagesGetInstanceResponse(rsp)
+}
+
+// AppAssetLibraryImagesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryImagesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesUpdateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryImagesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryImagesUpdateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryImagesUpdateInstanceWithResponse performs a PATCH /v1/appAssetLibraryImages/{id} (the `AppAssetLibraryImagesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryImagesUpdateInstanceWithResponse(ctx context.Context, id string, body AppAssetLibraryImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesUpdateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryImagesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryImagesUpdateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraryImages/{id}/placements (the `AppAssetLibraryImagesPlacementsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryImagesPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibraryImagesPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryImagesPlacementsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppAssetLibraryImagesPlacementsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryImagesPlacementsGetToManyRelatedResponse(rsp)
+}
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBodyWithResponse(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithBody(ctx, params, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithResponse performs a POST /v1/appAssetLibraryPlacementOrderingRequests (the `AppAssetLibraryPlacementOrderingRequestsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithResponse(ctx context.Context, params *AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams, body AppAssetLibraryPlacementOrderingRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryPlacementOrderingRequestsCreateInstance(ctx, params, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryPlacementsCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryPlacementsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryPlacementsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryPlacementsCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryPlacementsCreateInstanceWithResponse performs a POST /v1/appAssetLibraryPlacements (the `AppAssetLibraryPlacementsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryPlacementsCreateInstanceWithResponse(ctx context.Context, body AppAssetLibraryPlacementsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryPlacementsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryPlacementsCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryPlacementsDeleteInstanceWithResponse performs a DELETE /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryPlacementsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsDeleteInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryPlacementsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryPlacementsDeleteInstanceResponse(rsp)
+}
+
+// AppAssetLibraryPlacementsGetInstanceWithResponse performs a GET /v1/appAssetLibraryPlacements/{id} (the `AppAssetLibraryPlacementsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryPlacementsGetInstanceWithResponse(ctx context.Context, id string, params *AppAssetLibraryPlacementsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryPlacementsGetInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryPlacementsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryPlacementsGetInstanceResponse(rsp)
+}
+
+// AppAssetLibraryRefDataGetCollectionWithResponse performs a GET /v1/appAssetLibraryRefData (the `AppAssetLibraryRefDataGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryRefDataGetCollectionWithResponse(ctx context.Context, params *AppAssetLibraryRefDataGetCollectionParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryRefDataGetCollectionResponse, error) {
+	rsp, err := c.AppAssetLibraryRefDataGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryRefDataGetCollectionResponse(rsp)
+}
+
+// AppAssetLibraryVideosCreateInstanceWithBodyWithResponse performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryVideosCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryVideosCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryVideosCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryVideosCreateInstanceWithResponse performs a POST /v1/appAssetLibraryVideos (the `AppAssetLibraryVideosCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryVideosCreateInstanceWithResponse(ctx context.Context, body AppAssetLibraryVideosCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosCreateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryVideosCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryVideosCreateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryVideosDeleteInstanceWithResponse performs a DELETE /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryVideosDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosDeleteInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryVideosDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryVideosDeleteInstanceResponse(rsp)
+}
+
+// AppAssetLibraryVideosGetInstanceWithResponse performs a GET /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryVideosGetInstanceWithResponse(ctx context.Context, id string, params *AppAssetLibraryVideosGetInstanceParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosGetInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryVideosGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryVideosGetInstanceResponse(rsp)
+}
+
+// AppAssetLibraryVideosUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryVideosUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosUpdateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryVideosUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryVideosUpdateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryVideosUpdateInstanceWithResponse performs a PATCH /v1/appAssetLibraryVideos/{id} (the `AppAssetLibraryVideosUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryVideosUpdateInstanceWithResponse(ctx context.Context, id string, body AppAssetLibraryVideosUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosUpdateInstanceResponse, error) {
+	rsp, err := c.AppAssetLibraryVideosUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryVideosUpdateInstanceResponse(rsp)
+}
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedWithResponse performs a GET /v1/appAssetLibraryVideos/{id}/placements (the `AppAssetLibraryVideosPlacementsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppAssetLibraryVideosPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAssetLibraryVideosPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAssetLibraryVideosPlacementsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppAssetLibraryVideosPlacementsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppAssetLibraryVideosPlacementsGetToManyRelatedResponse(rsp)
+}
+
 // AppCategoriesGetCollectionWithResponse performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -140874,6 +152100,17 @@ func (c *ClientWithResponses) AppCategoriesGetCollectionWithResponse(ctx context
 		return nil, err
 	}
 	return ParseAppCategoriesGetCollectionResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsPlacementsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse(rsp)
 }
 
 // AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
@@ -141481,6 +152718,17 @@ func (c *ClientWithResponses) AppStoreReviewDetailsUpdateInstanceWithResponse(ct
 	return ParseAppStoreReviewDetailsUpdateInstanceResponse(rsp)
 }
 
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse(rsp)
+}
+
 // AppStoreVersionLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionLocalizations (the `AppStoreVersionLocalizationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -141556,6 +152804,17 @@ func (c *ClientWithResponses) AppStoreVersionLocalizationsAppScreenshotSetsGetTo
 		return nil, err
 	}
 	return ParseAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse(rsp)
+}
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/placements (the `AppStoreVersionLocalizationsPlacementsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsPlacementsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse(rsp)
 }
 
 // AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
@@ -141963,6 +153222,17 @@ func (c *ClientWithResponses) AppsAppTagsGetToManyRelatedWithResponse(ctx contex
 		return nil, err
 	}
 	return ParseAppsAppTagsGetToManyRelatedResponse(rsp)
+}
+
+// AppsAssetLibraryGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/assetLibrary (the `AppsAssetLibraryGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAssetLibraryGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAssetLibraryGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAssetLibraryGetToOneRelatedResponse, error) {
+	rsp, err := c.AppsAssetLibraryGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAssetLibraryGetToOneRelatedResponse(rsp)
 }
 
 // AppsBackgroundAssetsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/backgroundAssets (the `AppsBackgroundAssetsGetToManyRelated` operationId) request.
@@ -146665,6 +157935,1080 @@ func ParseAndroidToIosAppMappingDetailsUpdateInstanceResponse(rsp *http.Response
 	return response, nil
 }
 
+// ParseAppAssetLibrariesImagesGetToManyRelatedResponse parses an HTTP response from a AppAssetLibrariesImagesGetToManyRelatedWithResponse call
+func ParseAppAssetLibrariesImagesGetToManyRelatedResponse(rsp *http.Response) (*AppAssetLibrariesImagesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibrariesImagesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryImagesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibrariesVideosGetToManyRelatedResponse parses an HTTP response from a AppAssetLibrariesVideosGetToManyRelatedWithResponse call
+func ParseAppAssetLibrariesVideosGetToManyRelatedResponse(rsp *http.Response) (*AppAssetLibrariesVideosGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibrariesVideosGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryVideosResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryImagesCreateInstanceResponse parses an HTTP response from a AppAssetLibraryImagesCreateInstanceWithResponse call
+func ParseAppAssetLibraryImagesCreateInstanceResponse(rsp *http.Response) (*AppAssetLibraryImagesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryImagesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppAssetLibraryImageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryImagesDeleteInstanceResponse parses an HTTP response from a AppAssetLibraryImagesDeleteInstanceWithResponse call
+func ParseAppAssetLibraryImagesDeleteInstanceResponse(rsp *http.Response) (*AppAssetLibraryImagesDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryImagesDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryImagesGetInstanceResponse parses an HTTP response from a AppAssetLibraryImagesGetInstanceWithResponse call
+func ParseAppAssetLibraryImagesGetInstanceResponse(rsp *http.Response) (*AppAssetLibraryImagesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryImagesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryImageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryImagesUpdateInstanceResponse parses an HTTP response from a AppAssetLibraryImagesUpdateInstanceWithResponse call
+func ParseAppAssetLibraryImagesUpdateInstanceResponse(rsp *http.Response) (*AppAssetLibraryImagesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryImagesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryImageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryImagesPlacementsGetToManyRelatedResponse parses an HTTP response from a AppAssetLibraryImagesPlacementsGetToManyRelatedWithResponse call
+func ParseAppAssetLibraryImagesPlacementsGetToManyRelatedResponse(rsp *http.Response) (*AppAssetLibraryImagesPlacementsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryImagesPlacementsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryPlacementsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse parses an HTTP response from a AppAssetLibraryPlacementOrderingRequestsCreateInstanceWithResponse call
+func ParseAppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse(rsp *http.Response) (*AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryPlacementOrderingRequestsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppAssetLibraryPlacementOrderingRequestResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryPlacementsCreateInstanceResponse parses an HTTP response from a AppAssetLibraryPlacementsCreateInstanceWithResponse call
+func ParseAppAssetLibraryPlacementsCreateInstanceResponse(rsp *http.Response) (*AppAssetLibraryPlacementsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryPlacementsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppAssetLibraryPlacementResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryPlacementsDeleteInstanceResponse parses an HTTP response from a AppAssetLibraryPlacementsDeleteInstanceWithResponse call
+func ParseAppAssetLibraryPlacementsDeleteInstanceResponse(rsp *http.Response) (*AppAssetLibraryPlacementsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryPlacementsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryPlacementsGetInstanceResponse parses an HTTP response from a AppAssetLibraryPlacementsGetInstanceWithResponse call
+func ParseAppAssetLibraryPlacementsGetInstanceResponse(rsp *http.Response) (*AppAssetLibraryPlacementsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryPlacementsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryPlacementResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryRefDataGetCollectionResponse parses an HTTP response from a AppAssetLibraryRefDataGetCollectionWithResponse call
+func ParseAppAssetLibraryRefDataGetCollectionResponse(rsp *http.Response) (*AppAssetLibraryRefDataGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryRefDataGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryRefDataResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryVideosCreateInstanceResponse parses an HTTP response from a AppAssetLibraryVideosCreateInstanceWithResponse call
+func ParseAppAssetLibraryVideosCreateInstanceResponse(rsp *http.Response) (*AppAssetLibraryVideosCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryVideosCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppAssetLibraryVideoResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryVideosDeleteInstanceResponse parses an HTTP response from a AppAssetLibraryVideosDeleteInstanceWithResponse call
+func ParseAppAssetLibraryVideosDeleteInstanceResponse(rsp *http.Response) (*AppAssetLibraryVideosDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryVideosDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryVideosGetInstanceResponse parses an HTTP response from a AppAssetLibraryVideosGetInstanceWithResponse call
+func ParseAppAssetLibraryVideosGetInstanceResponse(rsp *http.Response) (*AppAssetLibraryVideosGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryVideosGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryVideoResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryVideosUpdateInstanceResponse parses an HTTP response from a AppAssetLibraryVideosUpdateInstanceWithResponse call
+func ParseAppAssetLibraryVideosUpdateInstanceResponse(rsp *http.Response) (*AppAssetLibraryVideosUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryVideosUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryVideoResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppAssetLibraryVideosPlacementsGetToManyRelatedResponse parses an HTTP response from a AppAssetLibraryVideosPlacementsGetToManyRelatedWithResponse call
+func ParseAppAssetLibraryVideosPlacementsGetToManyRelatedResponse(rsp *http.Response) (*AppAssetLibraryVideosPlacementsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppAssetLibraryVideosPlacementsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryPlacementsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppCategoriesGetCollectionResponse parses an HTTP response from a AppCategoriesGetCollectionWithResponse call
 func ParseAppCategoriesGetCollectionResponse(rsp *http.Response) (*AppCategoriesGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -146706,6 +159050,67 @@ func ParseAppCategoriesGetCollectionResponse(rsp *http.Response) (*AppCategories
 			return nil, err
 		}
 		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse parses an HTTP response from a AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse call
+func ParseAppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryPlacementsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -149079,6 +161484,67 @@ func ParseAppStoreReviewDetailsUpdateInstanceResponse(rsp *http.Response) (*AppS
 	return response, nil
 }
 
+// ParseAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse call
+func ParseAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryPlacementsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppStoreVersionLocalizationsCreateInstanceResponse parses an HTTP response from a AppStoreVersionLocalizationsCreateInstanceWithResponse call
 func ParseAppStoreVersionLocalizationsCreateInstanceResponse(rsp *http.Response) (*AppStoreVersionLocalizationsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -149356,6 +161822,67 @@ func ParseAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse(
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppScreenshotSetsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse parses an HTTP response from a AppStoreVersionLocalizationsPlacementsGetToManyRelatedWithResponse call
+func ParseAppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse(rsp *http.Response) (*AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionLocalizationsPlacementsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryPlacementsResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -151098,6 +163625,67 @@ func ParseAppsAppTagsGetToManyRelatedResponse(rsp *http.Response) (*AppsAppTagsG
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppTagsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAssetLibraryGetToOneRelatedResponse parses an HTTP response from a AppsAssetLibraryGetToOneRelatedWithResponse call
+func ParseAppsAssetLibraryGetToOneRelatedResponse(rsp *http.Response) (*AppsAssetLibraryGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAssetLibraryGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppAssetLibraryResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -167816,8 +180404,62 @@ type ServerInterface interface {
 	// (PATCH /v1/androidToIosAppMappingDetails/{id})
 	AndroidToIosAppMappingDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/appAssetLibraries/{id}/images)
+	AppAssetLibrariesImagesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppAssetLibrariesImagesGetToManyRelatedParams)
+
+	// (GET /v1/appAssetLibraries/{id}/videos)
+	AppAssetLibrariesVideosGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppAssetLibrariesVideosGetToManyRelatedParams)
+
+	// (POST /v1/appAssetLibraryImages)
+	AppAssetLibraryImagesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appAssetLibraryImages/{id})
+	AppAssetLibraryImagesDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appAssetLibraryImages/{id})
+	AppAssetLibraryImagesGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppAssetLibraryImagesGetInstanceParams)
+
+	// (PATCH /v1/appAssetLibraryImages/{id})
+	AppAssetLibraryImagesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appAssetLibraryImages/{id}/placements)
+	AppAssetLibraryImagesPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppAssetLibraryImagesPlacementsGetToManyRelatedParams)
+
+	// (POST /v1/appAssetLibraryPlacementOrderingRequests)
+	AppAssetLibraryPlacementOrderingRequestsCreateInstance(w http.ResponseWriter, r *http.Request, params AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams)
+
+	// (POST /v1/appAssetLibraryPlacements)
+	AppAssetLibraryPlacementsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appAssetLibraryPlacements/{id})
+	AppAssetLibraryPlacementsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appAssetLibraryPlacements/{id})
+	AppAssetLibraryPlacementsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppAssetLibraryPlacementsGetInstanceParams)
+
+	// (GET /v1/appAssetLibraryRefData)
+	AppAssetLibraryRefDataGetCollection(w http.ResponseWriter, r *http.Request, params AppAssetLibraryRefDataGetCollectionParams)
+
+	// (POST /v1/appAssetLibraryVideos)
+	AppAssetLibraryVideosCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appAssetLibraryVideos/{id})
+	AppAssetLibraryVideosDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appAssetLibraryVideos/{id})
+	AppAssetLibraryVideosGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppAssetLibraryVideosGetInstanceParams)
+
+	// (PATCH /v1/appAssetLibraryVideos/{id})
+	AppAssetLibraryVideosUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appAssetLibraryVideos/{id}/placements)
+	AppAssetLibraryVideosPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppAssetLibraryVideosPlacementsGetToManyRelatedParams)
+
 	// (GET /v1/appCategories)
 	AppCategoriesGetCollection(w http.ResponseWriter, r *http.Request, params AppCategoriesGetCollectionParams)
+
+	// (GET /v1/appCustomProductPageLocalizations/{id}/placements)
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams)
 
 	// (POST /v1/appEncryptionDeclarationDocuments)
 	AppEncryptionDeclarationDocumentsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -167927,6 +180569,9 @@ type ServerInterface interface {
 	// (PATCH /v1/appStoreReviewDetails/{id})
 	AppStoreReviewDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements)
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams)
+
 	// (POST /v1/appStoreVersionLocalizations)
 	AppStoreVersionLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -167941,6 +180586,9 @@ type ServerInterface interface {
 
 	// (GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets)
 	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams)
+
+	// (GET /v1/appStoreVersionLocalizations/{id}/placements)
+	AppStoreVersionLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams)
 
 	// (DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords)
 	AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
@@ -168022,6 +180670,9 @@ type ServerInterface interface {
 
 	// (GET /v1/apps/{id}/appTags)
 	AppsAppTagsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppTagsGetToManyRelatedParams)
+
+	// (GET /v1/apps/{id}/assetLibrary)
+	AppsAssetLibraryGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAssetLibraryGetToOneRelatedParams)
 
 	// (GET /v1/apps/{id}/backgroundAssets)
 	AppsBackgroundAssetsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsBackgroundAssetsGetToManyRelatedParams)
@@ -169049,6 +181700,1526 @@ func (siw *ServerInterfaceWrapper) AndroidToIosAppMappingDetailsUpdateInstance(w
 	handler.ServeHTTP(w, r)
 }
 
+// AppAssetLibrariesImagesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibrariesImagesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibrariesImagesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[category]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[category]", r.URL.Query(), &params.FilterCategory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[category]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[category]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[referenceName]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[referenceName]", r.URL.Query(), &params.FilterReferenceName, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[referenceName]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[referenceName]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[specId]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[specId]", r.URL.Query(), &params.FilterSpecId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[specId]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[specId]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibrariesImagesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibrariesVideosGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibrariesVideosGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibrariesVideosGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[category]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[category]", r.URL.Query(), &params.FilterCategory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[category]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[category]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[referenceName]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[referenceName]", r.URL.Query(), &params.FilterReferenceName, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[referenceName]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[referenceName]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[specId]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[specId]", r.URL.Query(), &params.FilterSpecId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[specId]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[specId]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibrariesVideosGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryImagesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryImagesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryImagesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryImagesDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryImagesDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryImagesDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryImagesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryImagesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibraryImagesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryImagesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryImagesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryImagesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryImagesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryImagesPlacementsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryImagesPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibraryImagesPlacementsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[placementType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementType]", r.URL.Query(), &params.FilterPlacementType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[placementGroup]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementGroup]", r.URL.Query(), &params.FilterPlacementGroup, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementGroup]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementGroup]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[video]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[video]", r.URL.Query(), &params.FilterVideo, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[video]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[video]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appEventLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appEventLocalization]", r.URL.Query(), &params.FilterAppEventLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appEventLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appEventLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionLocalization]", r.URL.Query(), &params.FilterAppStoreVersionLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appCustomProductPageLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appCustomProductPageLocalization]", r.URL.Query(), &params.FilterAppCustomProductPageLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appCustomProductPageLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appCustomProductPageLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionExperimentTreatmentLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionExperimentTreatmentLocalization]", r.URL.Query(), &params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryImagesPlacementsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryPlacementOrderingRequestsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryPlacementOrderingRequestsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibraryPlacementOrderingRequestsCreateInstanceParams
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[orderedPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[orderedPlacements]", r.URL.Query(), &params.LimitOrderedPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[orderedPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[orderedPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacementOrderingRequests]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacementOrderingRequests]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacementOrderingRequests, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacementOrderingRequests]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacementOrderingRequests]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryPlacementOrderingRequestsCreateInstance(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryPlacementsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryPlacementsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryPlacementsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryPlacementsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryPlacementsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryPlacementsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryPlacementsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryPlacementsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibraryPlacementsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryPlacementsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryRefDataGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryRefDataGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibraryRefDataGetCollectionParams
+
+	// ------------- Optional query parameter "filter[placementTypes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementTypes]", r.URL.Query(), &params.FilterPlacementTypes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementTypes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementTypes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[placementProfileGroups]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementProfileGroups]", r.URL.Query(), &params.FilterPlacementProfileGroups, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementProfileGroups]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementProfileGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[features]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[features]", r.URL.Query(), &params.FilterFeatures, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[features]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[features]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[specs]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[specs]", r.URL.Query(), &params.FilterSpecs, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[specs]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[specs]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryRefData]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryRefData]", r.URL.Query(), &params.FieldsAppAssetLibraryRefData, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryRefData]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryRefData]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryRefDataGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryVideosCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryVideosCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryVideosCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryVideosDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryVideosDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryVideosDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryVideosGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryVideosGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibraryVideosGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryVideosGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryVideosUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryVideosUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryVideosUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppAssetLibraryVideosPlacementsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppAssetLibraryVideosPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppAssetLibraryVideosPlacementsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[placementType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementType]", r.URL.Query(), &params.FilterPlacementType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[placementGroup]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementGroup]", r.URL.Query(), &params.FilterPlacementGroup, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementGroup]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementGroup]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[image]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[image]", r.URL.Query(), &params.FilterImage, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[image]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[image]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appEventLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appEventLocalization]", r.URL.Query(), &params.FilterAppEventLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appEventLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appEventLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionLocalization]", r.URL.Query(), &params.FilterAppStoreVersionLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appCustomProductPageLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appCustomProductPageLocalization]", r.URL.Query(), &params.FilterAppCustomProductPageLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appCustomProductPageLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appCustomProductPageLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionExperimentTreatmentLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionExperimentTreatmentLocalization]", r.URL.Query(), &params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppAssetLibraryVideosPlacementsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppCategoriesGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) AppCategoriesGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -169138,6 +183309,282 @@ func (siw *ServerInterfaceWrapper) AppCategoriesGetCollection(w http.ResponseWri
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppCategoriesGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[placementType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementType]", r.URL.Query(), &params.FilterPlacementType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[placementGroup]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementGroup]", r.URL.Query(), &params.FilterPlacementGroup, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementGroup]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementGroup]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[image]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[image]", r.URL.Query(), &params.FilterImage, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[image]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[image]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[video]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[video]", r.URL.Query(), &params.FilterVideo, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[video]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[video]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appEventLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appEventLocalization]", r.URL.Query(), &params.FilterAppEventLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appEventLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appEventLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionLocalization]", r.URL.Query(), &params.FilterAppStoreVersionLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionExperimentTreatmentLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionExperimentTreatmentLocalization]", r.URL.Query(), &params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageLocalizationsPlacementsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -170607,6 +185054,282 @@ func (siw *ServerInterfaceWrapper) AppStoreReviewDetailsUpdateInstance(w http.Re
 	handler.ServeHTTP(w, r)
 }
 
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[placementType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementType]", r.URL.Query(), &params.FilterPlacementType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[placementGroup]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementGroup]", r.URL.Query(), &params.FilterPlacementGroup, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementGroup]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementGroup]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[image]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[image]", r.URL.Query(), &params.FilterImage, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[image]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[image]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[video]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[video]", r.URL.Query(), &params.FilterVideo, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[video]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[video]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appEventLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appEventLocalization]", r.URL.Query(), &params.FilterAppEventLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appEventLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appEventLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionLocalization]", r.URL.Query(), &params.FilterAppStoreVersionLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appCustomProductPageLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appCustomProductPageLocalization]", r.URL.Query(), &params.FilterAppCustomProductPageLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appCustomProductPageLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appCustomProductPageLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppStoreVersionLocalizationsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -171008,6 +185731,282 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsAppScreenshotSets
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[placementType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementType]", r.URL.Query(), &params.FilterPlacementType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[placementGroup]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[placementGroup]", r.URL.Query(), &params.FilterPlacementGroup, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[placementGroup]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[placementGroup]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[image]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[image]", r.URL.Query(), &params.FilterImage, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[image]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[image]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[video]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[video]", r.URL.Query(), &params.FilterVideo, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[video]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[video]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appEventLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appEventLocalization]", r.URL.Query(), &params.FilterAppEventLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appEventLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appEventLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appCustomProductPageLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appCustomProductPageLocalization]", r.URL.Query(), &params.FilterAppCustomProductPageLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appCustomProductPageLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appCustomProductPageLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionExperimentTreatmentLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionExperimentTreatmentLocalization]", r.URL.Query(), &params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryImages]", r.URL.Query(), &params.FieldsAppAssetLibraryImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryVideos]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryVideos]", r.URL.Query(), &params.FieldsAppAssetLibraryVideos, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryVideos]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryVideos]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionLocalizationsPlacementsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -174268,6 +189267,48 @@ func (siw *ServerInterfaceWrapper) AppsAppTagsGetToManyRelated(w http.ResponseWr
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsAppTagsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAssetLibraryGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAssetLibraryGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAssetLibraryGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[appAssetLibraries]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraries]", r.URL.Query(), &params.FieldsAppAssetLibraries, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraries]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraries]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAssetLibraryGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -189710,7 +204751,25 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraries/{id}/images", wrapper.AppAssetLibrariesImagesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraries/{id}/videos", wrapper.AppAssetLibrariesVideosGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appAssetLibraryImages", wrapper.AppAssetLibraryImagesCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appAssetLibraryImages/{id}", wrapper.AppAssetLibraryImagesDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryImages/{id}", wrapper.AppAssetLibraryImagesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appAssetLibraryImages/{id}", wrapper.AppAssetLibraryImagesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryImages/{id}/placements", wrapper.AppAssetLibraryImagesPlacementsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appAssetLibraryPlacementOrderingRequests", wrapper.AppAssetLibraryPlacementOrderingRequestsCreateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appAssetLibraryPlacements", wrapper.AppAssetLibraryPlacementsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appAssetLibraryPlacements/{id}", wrapper.AppAssetLibraryPlacementsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryPlacements/{id}", wrapper.AppAssetLibraryPlacementsGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryRefData", wrapper.AppAssetLibraryRefDataGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appAssetLibraryVideos", wrapper.AppAssetLibraryVideosCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}", wrapper.AppAssetLibraryVideosDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}", wrapper.AppAssetLibraryVideosGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}", wrapper.AppAssetLibraryVideosUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}/placements", wrapper.AppAssetLibraryVideosPlacementsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCategories", wrapper.AppCategoriesGetCollection)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations/{id}/placements", wrapper.AppCustomProductPageLocalizationsPlacementsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments", wrapper.AppEncryptionDeclarationDocumentsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments/{id}", wrapper.AppEncryptionDeclarationDocumentsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments/{id}", wrapper.AppEncryptionDeclarationDocumentsUpdateInstance)
@@ -189747,11 +204806,13 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewAttachments/{id}", wrapper.AppStoreReviewAttachmentsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreReviewDetails", wrapper.AppStoreReviewDetailsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewDetails/{id}", wrapper.AppStoreReviewDetailsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements", wrapper.AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations", wrapper.AppStoreVersionLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/appPreviewSets", wrapper.AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/appScreenshotSets", wrapper.AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/placements", wrapper.AppStoreVersionLocalizationsPlacementsGetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated)
@@ -189779,6 +204840,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPriceSchedule", wrapper.AppsAppPriceScheduleGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appStoreVersions", wrapper.AppsAppStoreVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appTags", wrapper.AppsAppTagsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/assetLibrary", wrapper.AppsAssetLibraryGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/backgroundAssets", wrapper.AppsBackgroundAssetsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/inAppPurchasesV2", wrapper.AppsInAppPurchasesV2GetToManyRelated)

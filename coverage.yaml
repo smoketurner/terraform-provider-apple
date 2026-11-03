@@ -57,29 +57,29 @@ operations:
   androidToIosAppMappingDetails_deleteInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
   androidToIosAppMappingDetails_getInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
   androidToIosAppMappingDetails_updateInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
-  appAssetLibraries_getInstance: {status: planned, issue: 14}
-  appAssetLibraries_images_getToManyRelated: {status: planned, issue: 14}
-  appAssetLibraries_images_getToManyRelationship: {status: planned, issue: 14}
-  appAssetLibraries_videos_getToManyRelated: {status: planned, issue: 14}
-  appAssetLibraries_videos_getToManyRelationship: {status: planned, issue: 14}
-  appAssetLibraryImages_createInstance: {status: planned, issue: 14}
-  appAssetLibraryImages_deleteInstance: {status: planned, issue: 14}
-  appAssetLibraryImages_getInstance: {status: planned, issue: 14}
-  appAssetLibraryImages_placements_getToManyRelated: {status: planned, issue: 14}
-  appAssetLibraryImages_placements_getToManyRelationship: {status: planned, issue: 14}
-  appAssetLibraryImages_updateInstance: {status: planned, issue: 14}
-  appAssetLibraryPlacementOrderingRequests_createInstance: {status: planned, issue: 14}
-  appAssetLibraryPlacements_createInstance: {status: planned, issue: 14}
-  appAssetLibraryPlacements_deleteInstance: {status: planned, issue: 14}
-  appAssetLibraryPlacements_getInstance: {status: planned, issue: 14}
-  appAssetLibraryRefData_getCollection: {status: planned, issue: 14}
-  appAssetLibraryRefData_getInstance: {status: planned, issue: 14}
-  appAssetLibraryVideos_createInstance: {status: planned, issue: 14}
-  appAssetLibraryVideos_deleteInstance: {status: planned, issue: 14}
-  appAssetLibraryVideos_getInstance: {status: planned, issue: 14}
-  appAssetLibraryVideos_placements_getToManyRelated: {status: planned, issue: 14}
-  appAssetLibraryVideos_placements_getToManyRelationship: {status: planned, issue: 14}
-  appAssetLibraryVideos_updateInstance: {status: planned, issue: 14}
+  appAssetLibraries_getInstance: {status: out_of_scope, reason: "the app's assetLibrary relationship returns the library, which has no attributes"}
+  appAssetLibraries_images_getToManyRelated: {status: covered, by: [data.apple_app_asset_library]}
+  appAssetLibraries_images_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appAssetLibraries_videos_getToManyRelated: {status: covered, by: [data.apple_app_asset_library]}
+  appAssetLibraries_videos_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appAssetLibraryImages_createInstance: {status: covered, by: [apple_app_asset_library_image]}
+  appAssetLibraryImages_deleteInstance: {status: covered, by: [apple_app_asset_library_image]}
+  appAssetLibraryImages_getInstance: {status: covered, by: [apple_app_asset_library_image]}
+  appAssetLibraryImages_placements_getToManyRelated: {status: covered, by: [data.apple_app_asset_library_placements]}
+  appAssetLibraryImages_placements_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appAssetLibraryImages_updateInstance: {status: covered, by: [apple_app_asset_library_image]}
+  appAssetLibraryPlacementOrderingRequests_createInstance: {status: covered, by: [apple_app_asset_library_placement_order]}
+  appAssetLibraryPlacements_createInstance: {status: covered, by: [apple_app_asset_library_placement]}
+  appAssetLibraryPlacements_deleteInstance: {status: covered, by: [apple_app_asset_library_placement]}
+  appAssetLibraryPlacements_getInstance: {status: covered, by: [apple_app_asset_library_placement]}
+  appAssetLibraryRefData_getCollection: {status: covered, by: [data.apple_app_asset_library_reference_data]}
+  appAssetLibraryRefData_getInstance: {status: out_of_scope, reason: "the collection returns the reference data"}
+  appAssetLibraryVideos_createInstance: {status: covered, by: [apple_app_asset_library_video]}
+  appAssetLibraryVideos_deleteInstance: {status: covered, by: [apple_app_asset_library_video]}
+  appAssetLibraryVideos_getInstance: {status: covered, by: [apple_app_asset_library_video]}
+  appAssetLibraryVideos_placements_getToManyRelated: {status: covered, by: [data.apple_app_asset_library_placements]}
+  appAssetLibraryVideos_placements_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appAssetLibraryVideos_updateInstance: {status: covered, by: [apple_app_asset_library_video]}
   appAvailabilitiesV2_createInstance: {status: covered, by: [apple_app_availability]}
   appAvailabilitiesV2_getInstance: {status: out_of_scope, reason: "availability is read through the app, whose ID the resources already have"}
   appAvailabilitiesV2_territoryAvailabilities_getToManyRelated: {status: covered, by: [apple_app_availability, apple_app_territory_availability, action.apple_end_pre_orders]}
@@ -132,7 +132,7 @@ operations:
   appCustomProductPageLocalizations_createInstance: {status: planned, issue: 10}
   appCustomProductPageLocalizations_deleteInstance: {status: planned, issue: 10}
   appCustomProductPageLocalizations_getInstance: {status: planned, issue: 10}
-  appCustomProductPageLocalizations_placements_getToManyRelated: {status: planned, issue: 10}
+  appCustomProductPageLocalizations_placements_getToManyRelated: {status: covered, by: [apple_app_asset_library_placement_order]}
   appCustomProductPageLocalizations_placements_getToManyRelationship: {status: planned, issue: 10}
   appCustomProductPageLocalizations_searchKeywords_createToManyRelationship: {status: planned, issue: 10}
   appCustomProductPageLocalizations_searchKeywords_deleteToManyRelationship: {status: planned, issue: 10}
@@ -256,7 +256,7 @@ operations:
   appStoreVersionExperimentTreatmentLocalizations_createInstance: {status: planned, issue: 10}
   appStoreVersionExperimentTreatmentLocalizations_deleteInstance: {status: planned, issue: 10}
   appStoreVersionExperimentTreatmentLocalizations_getInstance: {status: planned, issue: 10}
-  appStoreVersionExperimentTreatmentLocalizations_placements_getToManyRelated: {status: planned, issue: 10}
+  appStoreVersionExperimentTreatmentLocalizations_placements_getToManyRelated: {status: covered, by: [apple_app_asset_library_placement_order]}
   appStoreVersionExperimentTreatmentLocalizations_placements_getToManyRelationship: {status: planned, issue: 10}
   appStoreVersionExperimentTreatments_appStoreVersionExperimentTreatmentLocalizations_getToManyRelated: {status: planned, issue: 10}
   appStoreVersionExperimentTreatments_appStoreVersionExperimentTreatmentLocalizations_getToManyRelationship: {status: planned, issue: 10}
@@ -283,7 +283,7 @@ operations:
   appStoreVersionLocalizations_createInstance: {status: covered, by: [apple_app_store_version_localization]}
   appStoreVersionLocalizations_deleteInstance: {status: covered, by: [apple_app_store_version_localization]}
   appStoreVersionLocalizations_getInstance: {status: out_of_scope, reason: "the resources read these objects through their app or version"}
-  appStoreVersionLocalizations_placements_getToManyRelated: {status: out_of_scope, reason: "placements describe where App Store Connect shows assets, which is read-only"}
+  appStoreVersionLocalizations_placements_getToManyRelated: {status: covered, by: [apple_app_asset_library_placement_order]}
   appStoreVersionLocalizations_placements_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appStoreVersionLocalizations_searchKeywords_createToManyRelationship: {status: covered, by: [apple_app_store_version_localization_search_keyword]}
   appStoreVersionLocalizations_searchKeywords_deleteToManyRelationship: {status: covered, by: [apple_app_store_version_localization_search_keyword]}
@@ -359,8 +359,8 @@ operations:
   apps_appStoreVersions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appTags_getToManyRelated: {status: covered, by: [apple_app_tag]}
   apps_appTags_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  apps_assetLibrary_getToOneRelated: {status: planned, issue: 14}
-  apps_assetLibrary_getToOneRelationship: {status: planned, issue: 14}
+  apps_assetLibrary_getToOneRelated: {status: covered, by: [apple_app_asset_library_image, apple_app_asset_library_video, data.apple_app_asset_library]}
+  apps_assetLibrary_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_backgroundAssets_getToManyRelated: {status: covered, by: [apple_background_asset, data.apple_background_assets]}
   apps_backgroundAssets_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_betaAppLocalizations_getToManyRelated: {status: out_of_scope, reason: "apple_beta_app_localization reads each localization by ID"}
