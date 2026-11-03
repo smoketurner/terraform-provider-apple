@@ -11225,6 +11225,270 @@ func (e UserVisibleAppsLinkagesResponseDataType) Valid() bool {
 	}
 }
 
+// Defines values for WebhookRelationshipsAppDataType.
+const (
+	WebhookRelationshipsAppDataTypeApps WebhookRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the WebhookRelationshipsAppDataType enum.
+func (e WebhookRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case WebhookRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookType.
+const (
+	WebhookTypeWebhooks WebhookType = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the WebhookType enum.
+func (e WebhookType) Valid() bool {
+	switch e {
+	case WebhookTypeWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookCreateRequestDataRelationshipsAppDataType.
+const (
+	WebhookCreateRequestDataRelationshipsAppDataTypeApps WebhookCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the WebhookCreateRequestDataRelationshipsAppDataType enum.
+func (e WebhookCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case WebhookCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookCreateRequestDataType.
+const (
+	WebhookCreateRequestDataTypeWebhooks WebhookCreateRequestDataType = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the WebhookCreateRequestDataType enum.
+func (e WebhookCreateRequestDataType) Valid() bool {
+	switch e {
+	case WebhookCreateRequestDataTypeWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookDeliveryAttributesDeliveryState.
+const (
+	WebhookDeliveryAttributesDeliveryStateFAILED    WebhookDeliveryAttributesDeliveryState = "FAILED"
+	WebhookDeliveryAttributesDeliveryStatePENDING   WebhookDeliveryAttributesDeliveryState = "PENDING"
+	WebhookDeliveryAttributesDeliveryStateSUCCEEDED WebhookDeliveryAttributesDeliveryState = "SUCCEEDED"
+)
+
+// Valid indicates whether the value is a known member of the WebhookDeliveryAttributesDeliveryState enum.
+func (e WebhookDeliveryAttributesDeliveryState) Valid() bool {
+	switch e {
+	case WebhookDeliveryAttributesDeliveryStateFAILED:
+		return true
+	case WebhookDeliveryAttributesDeliveryStatePENDING:
+		return true
+	case WebhookDeliveryAttributesDeliveryStateSUCCEEDED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookDeliveryRelationshipsEventDataType.
+const (
+	WebhookDeliveryRelationshipsEventDataTypeWebhookEvents WebhookDeliveryRelationshipsEventDataType = "webhookEvents"
+)
+
+// Valid indicates whether the value is a known member of the WebhookDeliveryRelationshipsEventDataType enum.
+func (e WebhookDeliveryRelationshipsEventDataType) Valid() bool {
+	switch e {
+	case WebhookDeliveryRelationshipsEventDataTypeWebhookEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookDeliveryType.
+const (
+	WebhookDeliveryTypeWebhookDeliveries WebhookDeliveryType = "webhookDeliveries"
+)
+
+// Valid indicates whether the value is a known member of the WebhookDeliveryType enum.
+func (e WebhookDeliveryType) Valid() bool {
+	switch e {
+	case WebhookDeliveryTypeWebhookDeliveries:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookDeliveryCreateRequestDataRelationshipsTemplateDataType.
+const (
+	WebhookDeliveryCreateRequestDataRelationshipsTemplateDataTypeWebhookDeliveries WebhookDeliveryCreateRequestDataRelationshipsTemplateDataType = "webhookDeliveries"
+)
+
+// Valid indicates whether the value is a known member of the WebhookDeliveryCreateRequestDataRelationshipsTemplateDataType enum.
+func (e WebhookDeliveryCreateRequestDataRelationshipsTemplateDataType) Valid() bool {
+	switch e {
+	case WebhookDeliveryCreateRequestDataRelationshipsTemplateDataTypeWebhookDeliveries:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookDeliveryCreateRequestDataType.
+const (
+	WebhookDeliveryCreateRequestDataTypeWebhookDeliveries WebhookDeliveryCreateRequestDataType = "webhookDeliveries"
+)
+
+// Valid indicates whether the value is a known member of the WebhookDeliveryCreateRequestDataType enum.
+func (e WebhookDeliveryCreateRequestDataType) Valid() bool {
+	switch e {
+	case WebhookDeliveryCreateRequestDataTypeWebhookDeliveries:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookEventResourceType.
+const (
+	WebhookEventResourceTypeWebhookEvents WebhookEventResourceType = "webhookEvents"
+)
+
+// Valid indicates whether the value is a known member of the WebhookEventResourceType enum.
+func (e WebhookEventResourceType) Valid() bool {
+	switch e {
+	case WebhookEventResourceTypeWebhookEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookEventType.
+const (
+	WebhookEventTypeALTERNATIVEDISTRIBUTIONPACKAGEAVAILABLEUPDATED        WebhookEventType = "ALTERNATIVE_DISTRIBUTION_PACKAGE_AVAILABLE_UPDATED"
+	WebhookEventTypeALTERNATIVEDISTRIBUTIONPACKAGEVERSIONCREATED          WebhookEventType = "ALTERNATIVE_DISTRIBUTION_PACKAGE_VERSION_CREATED"
+	WebhookEventTypeALTERNATIVEDISTRIBUTIONTERRITORYAVAILABILITYUPDATED   WebhookEventType = "ALTERNATIVE_DISTRIBUTION_TERRITORY_AVAILABILITY_UPDATED"
+	WebhookEventTypeAPPSTOREVERSIONAPPVERSIONSTATEUPDATED                 WebhookEventType = "APP_STORE_VERSION_APP_VERSION_STATE_UPDATED"
+	WebhookEventTypeBACKGROUNDASSETVERSIONAPPSTORERELEASESTATEUPDATED     WebhookEventType = "BACKGROUND_ASSET_VERSION_APP_STORE_RELEASE_STATE_UPDATED"
+	WebhookEventTypeBACKGROUNDASSETVERSIONEXTERNALBETARELEASESTATEUPDATED WebhookEventType = "BACKGROUND_ASSET_VERSION_EXTERNAL_BETA_RELEASE_STATE_UPDATED"
+	WebhookEventTypeBACKGROUNDASSETVERSIONINTERNALBETARELEASECREATED      WebhookEventType = "BACKGROUND_ASSET_VERSION_INTERNAL_BETA_RELEASE_CREATED"
+	WebhookEventTypeBACKGROUNDASSETVERSIONSTATEUPDATED                    WebhookEventType = "BACKGROUND_ASSET_VERSION_STATE_UPDATED"
+	WebhookEventTypeBETAFEEDBACKCRASHSUBMISSIONCREATED                    WebhookEventType = "BETA_FEEDBACK_CRASH_SUBMISSION_CREATED"
+	WebhookEventTypeBETAFEEDBACKSCREENSHOTSUBMISSIONCREATED               WebhookEventType = "BETA_FEEDBACK_SCREENSHOT_SUBMISSION_CREATED"
+	WebhookEventTypeBUILDBETADETAILEXTERNALBUILDSTATEUPDATED              WebhookEventType = "BUILD_BETA_DETAIL_EXTERNAL_BUILD_STATE_UPDATED"
+	WebhookEventTypeBUILDUPLOADSTATEUPDATED                               WebhookEventType = "BUILD_UPLOAD_STATE_UPDATED"
+)
+
+// Valid indicates whether the value is a known member of the WebhookEventType enum.
+func (e WebhookEventType) Valid() bool {
+	switch e {
+	case WebhookEventTypeALTERNATIVEDISTRIBUTIONPACKAGEAVAILABLEUPDATED:
+		return true
+	case WebhookEventTypeALTERNATIVEDISTRIBUTIONPACKAGEVERSIONCREATED:
+		return true
+	case WebhookEventTypeALTERNATIVEDISTRIBUTIONTERRITORYAVAILABILITYUPDATED:
+		return true
+	case WebhookEventTypeAPPSTOREVERSIONAPPVERSIONSTATEUPDATED:
+		return true
+	case WebhookEventTypeBACKGROUNDASSETVERSIONAPPSTORERELEASESTATEUPDATED:
+		return true
+	case WebhookEventTypeBACKGROUNDASSETVERSIONEXTERNALBETARELEASESTATEUPDATED:
+		return true
+	case WebhookEventTypeBACKGROUNDASSETVERSIONINTERNALBETARELEASECREATED:
+		return true
+	case WebhookEventTypeBACKGROUNDASSETVERSIONSTATEUPDATED:
+		return true
+	case WebhookEventTypeBETAFEEDBACKCRASHSUBMISSIONCREATED:
+		return true
+	case WebhookEventTypeBETAFEEDBACKSCREENSHOTSUBMISSIONCREATED:
+		return true
+	case WebhookEventTypeBUILDBETADETAILEXTERNALBUILDSTATEUPDATED:
+		return true
+	case WebhookEventTypeBUILDUPLOADSTATEUPDATED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookPingType.
+const (
+	WebhookPingTypeWebhookPings WebhookPingType = "webhookPings"
+)
+
+// Valid indicates whether the value is a known member of the WebhookPingType enum.
+func (e WebhookPingType) Valid() bool {
+	switch e {
+	case WebhookPingTypeWebhookPings:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookPingCreateRequestDataRelationshipsWebhookDataType.
+const (
+	WebhookPingCreateRequestDataRelationshipsWebhookDataTypeWebhooks WebhookPingCreateRequestDataRelationshipsWebhookDataType = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the WebhookPingCreateRequestDataRelationshipsWebhookDataType enum.
+func (e WebhookPingCreateRequestDataRelationshipsWebhookDataType) Valid() bool {
+	switch e {
+	case WebhookPingCreateRequestDataRelationshipsWebhookDataTypeWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookPingCreateRequestDataType.
+const (
+	WebhookPingCreateRequestDataTypeWebhookPings WebhookPingCreateRequestDataType = "webhookPings"
+)
+
+// Valid indicates whether the value is a known member of the WebhookPingCreateRequestDataType enum.
+func (e WebhookPingCreateRequestDataType) Valid() bool {
+	switch e {
+	case WebhookPingCreateRequestDataTypeWebhookPings:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhookUpdateRequestDataType.
+const (
+	WebhookUpdateRequestDataTypeWebhooks WebhookUpdateRequestDataType = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the WebhookUpdateRequestDataType enum.
+func (e WebhookUpdateRequestDataType) Valid() bool {
+	switch e {
+	case WebhookUpdateRequestDataTypeWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations.
 const (
 	AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsDeviceFamily                           AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations = "deviceFamily"
@@ -17945,6 +18209,234 @@ func (e AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgre
 	case AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsApp:
 		return true
 	case AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsWebhooksGetToManyRelatedParamsFieldsWebhooks.
+const (
+	AppsWebhooksGetToManyRelatedParamsFieldsWebhooksApp        AppsWebhooksGetToManyRelatedParamsFieldsWebhooks = "app"
+	AppsWebhooksGetToManyRelatedParamsFieldsWebhooksDeliveries AppsWebhooksGetToManyRelatedParamsFieldsWebhooks = "deliveries"
+	AppsWebhooksGetToManyRelatedParamsFieldsWebhooksEnabled    AppsWebhooksGetToManyRelatedParamsFieldsWebhooks = "enabled"
+	AppsWebhooksGetToManyRelatedParamsFieldsWebhooksEventTypes AppsWebhooksGetToManyRelatedParamsFieldsWebhooks = "eventTypes"
+	AppsWebhooksGetToManyRelatedParamsFieldsWebhooksName       AppsWebhooksGetToManyRelatedParamsFieldsWebhooks = "name"
+	AppsWebhooksGetToManyRelatedParamsFieldsWebhooksUrl        AppsWebhooksGetToManyRelatedParamsFieldsWebhooks = "url"
+)
+
+// Valid indicates whether the value is a known member of the AppsWebhooksGetToManyRelatedParamsFieldsWebhooks enum.
+func (e AppsWebhooksGetToManyRelatedParamsFieldsWebhooks) Valid() bool {
+	switch e {
+	case AppsWebhooksGetToManyRelatedParamsFieldsWebhooksApp:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsWebhooksDeliveries:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsWebhooksEnabled:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsWebhooksEventTypes:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsWebhooksName:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsWebhooksUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsWebhooksGetToManyRelatedParamsFieldsApps.
+const (
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations              AppsWebhooksGetToManyRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAccessibilityUrl                       AppsWebhooksGetToManyRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey             AppsWebhooksGetToManyRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests                AppsWebhooksGetToManyRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsWebhooksGetToManyRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppAvailabilityV2                      AppsWebhooksGetToManyRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppClips                               AppsWebhooksGetToManyRelatedParamsFieldsApps = "appClips"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppCustomProductPages                  AppsWebhooksGetToManyRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsWebhooksGetToManyRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppEvents                              AppsWebhooksGetToManyRelatedParamsFieldsApps = "appEvents"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppInfos                               AppsWebhooksGetToManyRelatedParamsFieldsApps = "appInfos"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppPricePoints                         AppsWebhooksGetToManyRelatedParamsFieldsApps = "appPricePoints"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppPriceSchedule                       AppsWebhooksGetToManyRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppStoreIcon                           AppsWebhooksGetToManyRelatedParamsFieldsApps = "appStoreIcon"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsWebhooksGetToManyRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppStoreVersions                       AppsWebhooksGetToManyRelatedParamsFieldsApps = "appStoreVersions"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAppTags                                AppsWebhooksGetToManyRelatedParamsFieldsApps = "appTags"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsAssetLibrary                           AppsWebhooksGetToManyRelatedParamsFieldsApps = "assetLibrary"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBackgroundAssets                       AppsWebhooksGetToManyRelatedParamsFieldsApps = "backgroundAssets"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaAppLocalizations                   AppsWebhooksGetToManyRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsWebhooksGetToManyRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsWebhooksGetToManyRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsWebhooksGetToManyRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaGroups                             AppsWebhooksGetToManyRelatedParamsFieldsApps = "betaGroups"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsWebhooksGetToManyRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaTesters                            AppsWebhooksGetToManyRelatedParamsFieldsApps = "betaTesters"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBuildUploads                           AppsWebhooksGetToManyRelatedParamsFieldsApps = "buildUploads"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBuilds                                 AppsWebhooksGetToManyRelatedParamsFieldsApps = "builds"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsBundleId                               AppsWebhooksGetToManyRelatedParamsFieldsApps = "bundleId"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsCiProduct                              AppsWebhooksGetToManyRelatedParamsFieldsApps = "ciProduct"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsContentRightsDeclaration               AppsWebhooksGetToManyRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsWebhooksGetToManyRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsCustomerReviews                        AppsWebhooksGetToManyRelatedParamsFieldsApps = "customerReviews"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsWebhooksGetToManyRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsGameCenterDetail                       AppsWebhooksGetToManyRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsWebhooksGetToManyRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsInAppPurchases                         AppsWebhooksGetToManyRelatedParamsFieldsApps = "inAppPurchases"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsInAppPurchasesV2                       AppsWebhooksGetToManyRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsWebhooksGetToManyRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsWebhooksGetToManyRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsName                                   AppsWebhooksGetToManyRelatedParamsFieldsApps = "name"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsPerfPowerMetrics                       AppsWebhooksGetToManyRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsPerformanceOverviews                   AppsWebhooksGetToManyRelatedParamsFieldsApps = "performanceOverviews"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsWebhooksGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsWebhooksGetToManyRelatedParamsFieldsApps = "primaryLocale"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsWebhooksGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsWebhooksGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsWebhooksGetToManyRelatedParamsFieldsApps = "searchKeywords"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSku                                    AppsWebhooksGetToManyRelatedParamsFieldsApps = "sku"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsWebhooksGetToManyRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsWebhooksGetToManyRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionGroups                     AppsWebhooksGetToManyRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsWebhooksGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsWebhooksGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsWebhooksGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsWebhooksGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsWebhooks                               AppsWebhooksGetToManyRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsWebhooksGetToManyRelatedParamsFieldsApps enum.
+func (e AppsWebhooksGetToManyRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsName:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSku:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsWebhooksGetToManyRelatedParamsInclude.
+const (
+	AppsWebhooksGetToManyRelatedParamsIncludeApp AppsWebhooksGetToManyRelatedParamsInclude = "app"
+)
+
+// Valid indicates whether the value is a known member of the AppsWebhooksGetToManyRelatedParamsInclude enum.
+func (e AppsWebhooksGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsWebhooksGetToManyRelatedParamsIncludeApp:
 		return true
 	default:
 		return false
@@ -27251,6 +27743,330 @@ func (e UsersGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for WebhooksGetInstanceParamsFieldsWebhooks.
+const (
+	WebhooksGetInstanceParamsFieldsWebhooksApp        WebhooksGetInstanceParamsFieldsWebhooks = "app"
+	WebhooksGetInstanceParamsFieldsWebhooksDeliveries WebhooksGetInstanceParamsFieldsWebhooks = "deliveries"
+	WebhooksGetInstanceParamsFieldsWebhooksEnabled    WebhooksGetInstanceParamsFieldsWebhooks = "enabled"
+	WebhooksGetInstanceParamsFieldsWebhooksEventTypes WebhooksGetInstanceParamsFieldsWebhooks = "eventTypes"
+	WebhooksGetInstanceParamsFieldsWebhooksName       WebhooksGetInstanceParamsFieldsWebhooks = "name"
+	WebhooksGetInstanceParamsFieldsWebhooksUrl        WebhooksGetInstanceParamsFieldsWebhooks = "url"
+)
+
+// Valid indicates whether the value is a known member of the WebhooksGetInstanceParamsFieldsWebhooks enum.
+func (e WebhooksGetInstanceParamsFieldsWebhooks) Valid() bool {
+	switch e {
+	case WebhooksGetInstanceParamsFieldsWebhooksApp:
+		return true
+	case WebhooksGetInstanceParamsFieldsWebhooksDeliveries:
+		return true
+	case WebhooksGetInstanceParamsFieldsWebhooksEnabled:
+		return true
+	case WebhooksGetInstanceParamsFieldsWebhooksEventTypes:
+		return true
+	case WebhooksGetInstanceParamsFieldsWebhooksName:
+		return true
+	case WebhooksGetInstanceParamsFieldsWebhooksUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhooksGetInstanceParamsFieldsApps.
+const (
+	WebhooksGetInstanceParamsFieldsAppsAccessibilityDeclarations              WebhooksGetInstanceParamsFieldsApps = "accessibilityDeclarations"
+	WebhooksGetInstanceParamsFieldsAppsAccessibilityUrl                       WebhooksGetInstanceParamsFieldsApps = "accessibilityUrl"
+	WebhooksGetInstanceParamsFieldsAppsAlternativeDistributionKey             WebhooksGetInstanceParamsFieldsApps = "alternativeDistributionKey"
+	WebhooksGetInstanceParamsFieldsAppsAnalyticsReportRequests                WebhooksGetInstanceParamsFieldsApps = "analyticsReportRequests"
+	WebhooksGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          WebhooksGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
+	WebhooksGetInstanceParamsFieldsAppsAppAvailabilityV2                      WebhooksGetInstanceParamsFieldsApps = "appAvailabilityV2"
+	WebhooksGetInstanceParamsFieldsAppsAppClips                               WebhooksGetInstanceParamsFieldsApps = "appClips"
+	WebhooksGetInstanceParamsFieldsAppsAppCustomProductPages                  WebhooksGetInstanceParamsFieldsApps = "appCustomProductPages"
+	WebhooksGetInstanceParamsFieldsAppsAppEncryptionDeclarations              WebhooksGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
+	WebhooksGetInstanceParamsFieldsAppsAppEvents                              WebhooksGetInstanceParamsFieldsApps = "appEvents"
+	WebhooksGetInstanceParamsFieldsAppsAppInfos                               WebhooksGetInstanceParamsFieldsApps = "appInfos"
+	WebhooksGetInstanceParamsFieldsAppsAppPricePoints                         WebhooksGetInstanceParamsFieldsApps = "appPricePoints"
+	WebhooksGetInstanceParamsFieldsAppsAppPriceSchedule                       WebhooksGetInstanceParamsFieldsApps = "appPriceSchedule"
+	WebhooksGetInstanceParamsFieldsAppsAppStoreIcon                           WebhooksGetInstanceParamsFieldsApps = "appStoreIcon"
+	WebhooksGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           WebhooksGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
+	WebhooksGetInstanceParamsFieldsAppsAppStoreVersions                       WebhooksGetInstanceParamsFieldsApps = "appStoreVersions"
+	WebhooksGetInstanceParamsFieldsAppsAppTags                                WebhooksGetInstanceParamsFieldsApps = "appTags"
+	WebhooksGetInstanceParamsFieldsAppsAssetLibrary                           WebhooksGetInstanceParamsFieldsApps = "assetLibrary"
+	WebhooksGetInstanceParamsFieldsAppsBackgroundAssets                       WebhooksGetInstanceParamsFieldsApps = "backgroundAssets"
+	WebhooksGetInstanceParamsFieldsAppsBetaAppLocalizations                   WebhooksGetInstanceParamsFieldsApps = "betaAppLocalizations"
+	WebhooksGetInstanceParamsFieldsAppsBetaAppReviewDetail                    WebhooksGetInstanceParamsFieldsApps = "betaAppReviewDetail"
+	WebhooksGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           WebhooksGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	WebhooksGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      WebhooksGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	WebhooksGetInstanceParamsFieldsAppsBetaGroups                             WebhooksGetInstanceParamsFieldsApps = "betaGroups"
+	WebhooksGetInstanceParamsFieldsAppsBetaLicenseAgreement                   WebhooksGetInstanceParamsFieldsApps = "betaLicenseAgreement"
+	WebhooksGetInstanceParamsFieldsAppsBetaTesters                            WebhooksGetInstanceParamsFieldsApps = "betaTesters"
+	WebhooksGetInstanceParamsFieldsAppsBuildUploads                           WebhooksGetInstanceParamsFieldsApps = "buildUploads"
+	WebhooksGetInstanceParamsFieldsAppsBuilds                                 WebhooksGetInstanceParamsFieldsApps = "builds"
+	WebhooksGetInstanceParamsFieldsAppsBundleId                               WebhooksGetInstanceParamsFieldsApps = "bundleId"
+	WebhooksGetInstanceParamsFieldsAppsCiProduct                              WebhooksGetInstanceParamsFieldsApps = "ciProduct"
+	WebhooksGetInstanceParamsFieldsAppsContentRightsDeclaration               WebhooksGetInstanceParamsFieldsApps = "contentRightsDeclaration"
+	WebhooksGetInstanceParamsFieldsAppsCustomerReviewSummarizations           WebhooksGetInstanceParamsFieldsApps = "customerReviewSummarizations"
+	WebhooksGetInstanceParamsFieldsAppsCustomerReviews                        WebhooksGetInstanceParamsFieldsApps = "customerReviews"
+	WebhooksGetInstanceParamsFieldsAppsEndUserLicenseAgreement                WebhooksGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
+	WebhooksGetInstanceParamsFieldsAppsGameCenterDetail                       WebhooksGetInstanceParamsFieldsApps = "gameCenterDetail"
+	WebhooksGetInstanceParamsFieldsAppsGameCenterEnabledVersions              WebhooksGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
+	WebhooksGetInstanceParamsFieldsAppsInAppPurchases                         WebhooksGetInstanceParamsFieldsApps = "inAppPurchases"
+	WebhooksGetInstanceParamsFieldsAppsInAppPurchasesV2                       WebhooksGetInstanceParamsFieldsApps = "inAppPurchasesV2"
+	WebhooksGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 WebhooksGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
+	WebhooksGetInstanceParamsFieldsAppsMarketplaceSearchDetail                WebhooksGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
+	WebhooksGetInstanceParamsFieldsAppsName                                   WebhooksGetInstanceParamsFieldsApps = "name"
+	WebhooksGetInstanceParamsFieldsAppsPerfPowerMetrics                       WebhooksGetInstanceParamsFieldsApps = "perfPowerMetrics"
+	WebhooksGetInstanceParamsFieldsAppsPerformanceOverviews                   WebhooksGetInstanceParamsFieldsApps = "performanceOverviews"
+	WebhooksGetInstanceParamsFieldsAppsPreReleaseVersions                     WebhooksGetInstanceParamsFieldsApps = "preReleaseVersions"
+	WebhooksGetInstanceParamsFieldsAppsPrimaryLocale                          WebhooksGetInstanceParamsFieldsApps = "primaryLocale"
+	WebhooksGetInstanceParamsFieldsAppsPromotedPurchases                      WebhooksGetInstanceParamsFieldsApps = "promotedPurchases"
+	WebhooksGetInstanceParamsFieldsAppsReviewSubmissions                      WebhooksGetInstanceParamsFieldsApps = "reviewSubmissions"
+	WebhooksGetInstanceParamsFieldsAppsSearchKeywords                         WebhooksGetInstanceParamsFieldsApps = "searchKeywords"
+	WebhooksGetInstanceParamsFieldsAppsSku                                    WebhooksGetInstanceParamsFieldsApps = "sku"
+	WebhooksGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           WebhooksGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
+	WebhooksGetInstanceParamsFieldsAppsSubscriptionGracePeriod                WebhooksGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
+	WebhooksGetInstanceParamsFieldsAppsSubscriptionGroups                     WebhooksGetInstanceParamsFieldsApps = "subscriptionGroups"
+	WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  WebhooksGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
+	WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        WebhooksGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           WebhooksGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
+	WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox WebhooksGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	WebhooksGetInstanceParamsFieldsAppsWebhooks                               WebhooksGetInstanceParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the WebhooksGetInstanceParamsFieldsApps enum.
+func (e WebhooksGetInstanceParamsFieldsApps) Valid() bool {
+	switch e {
+	case WebhooksGetInstanceParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAccessibilityUrl:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppClips:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppCustomProductPages:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppEvents:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppInfos:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppPricePoints:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppPriceSchedule:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppStoreIcon:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppStoreVersions:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAppTags:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsAssetLibrary:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBackgroundAssets:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBetaGroups:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBetaTesters:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBuildUploads:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBuilds:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsBundleId:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsCiProduct:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsCustomerReviews:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsGameCenterDetail:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsInAppPurchases:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsName:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsPerformanceOverviews:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsPreReleaseVersions:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsPrimaryLocale:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsReviewSubmissions:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSearchKeywords:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSku:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSubscriptionGroups:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhooksGetInstanceParamsInclude.
+const (
+	WebhooksGetInstanceParamsIncludeApp WebhooksGetInstanceParamsInclude = "app"
+)
+
+// Valid indicates whether the value is a known member of the WebhooksGetInstanceParamsInclude enum.
+func (e WebhooksGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case WebhooksGetInstanceParamsIncludeApp:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState.
+const (
+	WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryStateFAILED    WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState = "FAILED"
+	WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryStatePENDING   WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState = "PENDING"
+	WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryStateSUCCEEDED WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState = "SUCCEEDED"
+)
+
+// Valid indicates whether the value is a known member of the WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState enum.
+func (e WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState) Valid() bool {
+	switch e {
+	case WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryStateFAILED:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryStatePENDING:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryStateSUCCEEDED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries.
+const (
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesCreatedDate   WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "createdDate"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesDeliveryState WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "deliveryState"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesErrorMessage  WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "errorMessage"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesEvent         WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "event"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesRedelivery    WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "redelivery"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesRequest       WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "request"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesResponse      WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "response"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesSentDate      WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries = "sentDate"
+)
+
+// Valid indicates whether the value is a known member of the WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries enum.
+func (e WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries) Valid() bool {
+	switch e {
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesCreatedDate:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesDeliveryState:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesErrorMessage:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesEvent:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesRedelivery:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesRequest:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesResponse:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveriesSentDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents.
+const (
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsCreatedDate WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents = "createdDate"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsEventType   WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents = "eventType"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsPayload     WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents = "payload"
+	WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsPing        WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents = "ping"
+)
+
+// Valid indicates whether the value is a known member of the WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents enum.
+func (e WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents) Valid() bool {
+	switch e {
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsCreatedDate:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsEventType:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsPayload:
+		return true
+	case WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEventsPing:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for WebhooksDeliveriesGetToManyRelatedParamsInclude.
+const (
+	WebhooksDeliveriesGetToManyRelatedParamsIncludeEvent WebhooksDeliveriesGetToManyRelatedParamsInclude = "event"
+)
+
+// Valid indicates whether the value is a known member of the WebhooksDeliveriesGetToManyRelatedParamsInclude enum.
+func (e WebhooksDeliveriesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case WebhooksDeliveriesGetToManyRelatedParamsIncludeEvent:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities.
 const (
 	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilitiesAvailable           AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerritoryAvailabilities = "available"
@@ -35427,6 +36243,227 @@ type UsersResponse struct {
 	Meta     *PagingInformation `json:"meta,omitempty"`
 }
 
+// Webhook defines model for Webhook.
+type Webhook struct {
+	Attributes *struct {
+		Enabled    *bool               `json:"enabled,omitempty"`
+		EventTypes *[]WebhookEventType `json:"eventTypes,omitempty"`
+		Name       *string             `json:"name,omitempty"`
+		Url        *string             `json:"url,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		App *struct {
+			Data *struct {
+				Id   string                          `json:"id"`
+				Type WebhookRelationshipsAppDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"app,omitempty"`
+		Deliveries *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"deliveries,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type WebhookType `json:"type"`
+}
+
+// WebhookRelationshipsAppDataType defines model for Webhook.Relationships.App.Data.Type.
+type WebhookRelationshipsAppDataType string
+
+// WebhookType defines model for Webhook.Type.
+type WebhookType string
+
+// WebhookCreateRequest defines model for WebhookCreateRequest.
+type WebhookCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Enabled    bool               `json:"enabled"`
+			EventTypes []WebhookEventType `json:"eventTypes"`
+			Name       string             `json:"name"`
+			Secret     string             `json:"secret"`
+			Url        string             `json:"url"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                           `json:"id"`
+					Type WebhookCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type WebhookCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// WebhookCreateRequestDataRelationshipsAppDataType defines model for WebhookCreateRequest.Data.Relationships.App.Data.Type.
+type WebhookCreateRequestDataRelationshipsAppDataType string
+
+// WebhookCreateRequestDataType defines model for WebhookCreateRequest.Data.Type.
+type WebhookCreateRequestDataType string
+
+// WebhookDeliveriesResponse defines model for WebhookDeliveriesResponse.
+type WebhookDeliveriesResponse struct {
+	Data     []WebhookDelivery  `json:"data"`
+	Included *[]WebhookEvent    `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
+// WebhookDelivery defines model for WebhookDelivery.
+type WebhookDelivery struct {
+	Attributes *struct {
+		CreatedDate   *DateTime                               `json:"createdDate,omitempty"`
+		DeliveryState *WebhookDeliveryAttributesDeliveryState `json:"deliveryState,omitempty"`
+		ErrorMessage  *string                                 `json:"errorMessage,omitempty"`
+		Redelivery    *bool                                   `json:"redelivery,omitempty"`
+		Request       *struct {
+			Url *string `json:"url,omitempty"`
+		} `json:"request,omitempty"`
+		Response *struct {
+			Body           *string `json:"body,omitempty"`
+			HttpStatusCode *int    `json:"httpStatusCode,omitempty"`
+		} `json:"response,omitempty"`
+		SentDate *DateTime `json:"sentDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Event *struct {
+			Data *struct {
+				Id   string                                    `json:"id"`
+				Type WebhookDeliveryRelationshipsEventDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"event,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type WebhookDeliveryType `json:"type"`
+}
+
+// WebhookDeliveryAttributesDeliveryState defines model for WebhookDelivery.Attributes.DeliveryState.
+type WebhookDeliveryAttributesDeliveryState string
+
+// WebhookDeliveryRelationshipsEventDataType defines model for WebhookDelivery.Relationships.Event.Data.Type.
+type WebhookDeliveryRelationshipsEventDataType string
+
+// WebhookDeliveryType defines model for WebhookDelivery.Type.
+type WebhookDeliveryType string
+
+// WebhookDeliveryCreateRequest defines model for WebhookDeliveryCreateRequest.
+type WebhookDeliveryCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			Template struct {
+				Data struct {
+					Id   string                                                        `json:"id"`
+					Type WebhookDeliveryCreateRequestDataRelationshipsTemplateDataType `json:"type"`
+				} `json:"data"`
+			} `json:"template"`
+		} `json:"relationships"`
+		Type WebhookDeliveryCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// WebhookDeliveryCreateRequestDataRelationshipsTemplateDataType defines model for WebhookDeliveryCreateRequest.Data.Relationships.Template.Data.Type.
+type WebhookDeliveryCreateRequestDataRelationshipsTemplateDataType string
+
+// WebhookDeliveryCreateRequestDataType defines model for WebhookDeliveryCreateRequest.Data.Type.
+type WebhookDeliveryCreateRequestDataType string
+
+// WebhookDeliveryResponse defines model for WebhookDeliveryResponse.
+type WebhookDeliveryResponse struct {
+	Data     WebhookDelivery `json:"data"`
+	Included *[]WebhookEvent `json:"included,omitempty"`
+	Links    DocumentLinks   `json:"links"`
+}
+
+// WebhookEvent defines model for WebhookEvent.
+type WebhookEvent struct {
+	Attributes *struct {
+		CreatedDate *DateTime         `json:"createdDate,omitempty"`
+		EventType   *WebhookEventType `json:"eventType,omitempty"`
+		Payload     *string           `json:"payload,omitempty"`
+		Ping        *bool             `json:"ping,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                   `json:"id"`
+	Links *ResourceLinks           `json:"links,omitempty"`
+	Type  WebhookEventResourceType `json:"type"`
+}
+
+// WebhookEventResourceType defines model for WebhookEvent.type.
+type WebhookEventResourceType string
+
+// WebhookEventType defines model for WebhookEventType.
+type WebhookEventType string
+
+// WebhookPing defines model for WebhookPing.
+type WebhookPing struct {
+	Id    string          `json:"id"`
+	Links *ResourceLinks  `json:"links,omitempty"`
+	Type  WebhookPingType `json:"type"`
+}
+
+// WebhookPingType defines model for WebhookPing.Type.
+type WebhookPingType string
+
+// WebhookPingCreateRequest defines model for WebhookPingCreateRequest.
+type WebhookPingCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			Webhook struct {
+				Data struct {
+					Id   string                                                   `json:"id"`
+					Type WebhookPingCreateRequestDataRelationshipsWebhookDataType `json:"type"`
+				} `json:"data"`
+			} `json:"webhook"`
+		} `json:"relationships"`
+		Type WebhookPingCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// WebhookPingCreateRequestDataRelationshipsWebhookDataType defines model for WebhookPingCreateRequest.Data.Relationships.Webhook.Data.Type.
+type WebhookPingCreateRequestDataRelationshipsWebhookDataType string
+
+// WebhookPingCreateRequestDataType defines model for WebhookPingCreateRequest.Data.Type.
+type WebhookPingCreateRequestDataType string
+
+// WebhookPingResponse defines model for WebhookPingResponse.
+type WebhookPingResponse struct {
+	Data  WebhookPing   `json:"data"`
+	Links DocumentLinks `json:"links"`
+}
+
+// WebhookResponse defines model for WebhookResponse.
+type WebhookResponse struct {
+	Data     Webhook       `json:"data"`
+	Included *[]App        `json:"included,omitempty"`
+	Links    DocumentLinks `json:"links"`
+}
+
+// WebhookUpdateRequest defines model for WebhookUpdateRequest.
+type WebhookUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Enabled    *bool               `json:"enabled,omitempty"`
+			EventTypes *[]WebhookEventType `json:"eventTypes,omitempty"`
+			Name       *string             `json:"name,omitempty"`
+			Secret     *string             `json:"secret,omitempty"`
+			Url        *string             `json:"url,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                       `json:"id"`
+		Type WebhookUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// WebhookUpdateRequestDataType defines model for WebhookUpdateRequest.Data.Type.
+type WebhookUpdateRequestDataType string
+
+// WebhooksResponse defines model for WebhooksResponse.
+type WebhooksResponse struct {
+	Data     []Webhook          `json:"data"`
+	Included *[]App             `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
 // Csv defines model for csv.
 type Csv = string
 
@@ -36616,6 +37653,30 @@ type AppsSearchKeywordsGetToManyRelatedParams struct {
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
+
+// AppsWebhooksGetToManyRelatedParams defines parameters for AppsWebhooksGetToManyRelated.
+type AppsWebhooksGetToManyRelatedParams struct {
+	// FieldsWebhooks the fields to include for returned resources of type webhooks
+	FieldsWebhooks *[]AppsWebhooksGetToManyRelatedParamsFieldsWebhooks `form:"fields[webhooks],omitempty" json:"fields[webhooks],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsWebhooksGetToManyRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsWebhooksGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppsWebhooksGetToManyRelatedParamsFieldsWebhooks defines parameters for AppsWebhooksGetToManyRelated.
+type AppsWebhooksGetToManyRelatedParamsFieldsWebhooks string
+
+// AppsWebhooksGetToManyRelatedParamsFieldsApps defines parameters for AppsWebhooksGetToManyRelated.
+type AppsWebhooksGetToManyRelatedParamsFieldsApps string
+
+// AppsWebhooksGetToManyRelatedParamsInclude defines parameters for AppsWebhooksGetToManyRelated.
+type AppsWebhooksGetToManyRelatedParamsInclude string
 
 // BetaAppLocalizationsGetInstanceParams defines parameters for BetaAppLocalizationsGetInstance.
 type BetaAppLocalizationsGetInstanceParams struct {
@@ -38252,6 +39313,63 @@ type UsersVisibleAppsGetToManyRelationshipParams struct {
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
+// WebhooksGetInstanceParams defines parameters for WebhooksGetInstance.
+type WebhooksGetInstanceParams struct {
+	// FieldsWebhooks the fields to include for returned resources of type webhooks
+	FieldsWebhooks *[]WebhooksGetInstanceParamsFieldsWebhooks `form:"fields[webhooks],omitempty" json:"fields[webhooks],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]WebhooksGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]WebhooksGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// WebhooksGetInstanceParamsFieldsWebhooks defines parameters for WebhooksGetInstance.
+type WebhooksGetInstanceParamsFieldsWebhooks string
+
+// WebhooksGetInstanceParamsFieldsApps defines parameters for WebhooksGetInstance.
+type WebhooksGetInstanceParamsFieldsApps string
+
+// WebhooksGetInstanceParamsInclude defines parameters for WebhooksGetInstance.
+type WebhooksGetInstanceParamsInclude string
+
+// WebhooksDeliveriesGetToManyRelatedParams defines parameters for WebhooksDeliveriesGetToManyRelated.
+type WebhooksDeliveriesGetToManyRelatedParams struct {
+	// FilterDeliveryState filter by attribute 'deliveryState'
+	FilterDeliveryState *[]WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState `form:"filter[deliveryState],omitempty" json:"filter[deliveryState],omitempty"`
+
+	// FilterCreatedDateGreaterThanOrEqualTo filter by createdDateGreaterThanOrEqualTo
+	FilterCreatedDateGreaterThanOrEqualTo *[]string `form:"filter[createdDateGreaterThanOrEqualTo],omitempty" json:"filter[createdDateGreaterThanOrEqualTo],omitempty"`
+
+	// FilterCreatedDateLessThan filter by createdDateLessThan
+	FilterCreatedDateLessThan *[]string `form:"filter[createdDateLessThan],omitempty" json:"filter[createdDateLessThan],omitempty"`
+
+	// FieldsWebhookDeliveries the fields to include for returned resources of type webhookDeliveries
+	FieldsWebhookDeliveries *[]WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries `form:"fields[webhookDeliveries],omitempty" json:"fields[webhookDeliveries],omitempty"`
+
+	// FieldsWebhookEvents the fields to include for returned resources of type webhookEvents
+	FieldsWebhookEvents *[]WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents `form:"fields[webhookEvents],omitempty" json:"fields[webhookEvents],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]WebhooksDeliveriesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState defines parameters for WebhooksDeliveriesGetToManyRelated.
+type WebhooksDeliveriesGetToManyRelatedParamsFilterDeliveryState string
+
+// WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries defines parameters for WebhooksDeliveriesGetToManyRelated.
+type WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookDeliveries string
+
+// WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents defines parameters for WebhooksDeliveriesGetToManyRelated.
+type WebhooksDeliveriesGetToManyRelatedParamsFieldsWebhookEvents string
+
+// WebhooksDeliveriesGetToManyRelatedParamsInclude defines parameters for WebhooksDeliveriesGetToManyRelated.
+type WebhooksDeliveriesGetToManyRelatedParamsInclude string
+
 // AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams defines parameters for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated.
 type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams struct {
 	// FieldsTerritoryAvailabilities the fields to include for returned resources of type territoryAvailabilities
@@ -38530,6 +39648,18 @@ type UsersVisibleAppsDeleteToManyRelationshipJSONRequestBody = UserVisibleAppsLi
 
 // UsersVisibleAppsCreateToManyRelationshipJSONRequestBody defines body for UsersVisibleAppsCreateToManyRelationship for application/json ContentType.
 type UsersVisibleAppsCreateToManyRelationshipJSONRequestBody = UserVisibleAppsLinkagesRequest
+
+// WebhookDeliveriesCreateInstanceJSONRequestBody defines body for WebhookDeliveriesCreateInstance for application/json ContentType.
+type WebhookDeliveriesCreateInstanceJSONRequestBody = WebhookDeliveryCreateRequest
+
+// WebhookPingsCreateInstanceJSONRequestBody defines body for WebhookPingsCreateInstance for application/json ContentType.
+type WebhookPingsCreateInstanceJSONRequestBody = WebhookPingCreateRequest
+
+// WebhooksCreateInstanceJSONRequestBody defines body for WebhooksCreateInstance for application/json ContentType.
+type WebhooksCreateInstanceJSONRequestBody = WebhookCreateRequest
+
+// WebhooksUpdateInstanceJSONRequestBody defines body for WebhooksUpdateInstance for application/json ContentType.
+type WebhooksUpdateInstanceJSONRequestBody = WebhookUpdateRequest
 
 // AppAvailabilitiesV2CreateInstanceJSONRequestBody defines body for AppAvailabilitiesV2CreateInstance for application/json ContentType.
 type AppAvailabilitiesV2CreateInstanceJSONRequestBody = AppAvailabilityV2CreateRequest
@@ -47393,6 +48523,9 @@ type ClientInterface interface {
 	// AppsSearchKeywordsGetToManyRelated performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
 	AppsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsWebhooksGetToManyRelated performs a GET /v1/apps/{id}/webhooks (the `AppsWebhooksGetToManyRelated` operationId) request.
+	AppsWebhooksGetToManyRelated(ctx context.Context, id string, params *AppsWebhooksGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// BetaAppLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	BetaAppLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -47961,6 +49094,47 @@ type ClientInterface interface {
 	// UsersVisibleAppsCreateToManyRelationship performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type.
 	UsersVisibleAppsCreateToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhookDeliveriesCreateInstanceWithBody performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	WebhookDeliveriesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhookDeliveriesCreateInstance performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	WebhookDeliveriesCreateInstance(ctx context.Context, body WebhookDeliveriesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhookPingsCreateInstanceWithBody performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	WebhookPingsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhookPingsCreateInstance performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	WebhookPingsCreateInstance(ctx context.Context, body WebhookPingsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhooksCreateInstanceWithBody performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	WebhooksCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhooksCreateInstance performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	WebhooksCreateInstance(ctx context.Context, body WebhooksCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhooksDeleteInstance performs a DELETE /v1/webhooks/{id} (the `WebhooksDeleteInstance` operationId) request.
+	WebhooksDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhooksGetInstance performs a GET /v1/webhooks/{id} (the `WebhooksGetInstance` operationId) request.
+	WebhooksGetInstance(ctx context.Context, id string, params *WebhooksGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhooksUpdateInstanceWithBody performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	WebhooksUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhooksUpdateInstance performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	WebhooksUpdateInstance(ctx context.Context, id string, body WebhooksUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// WebhooksDeliveriesGetToManyRelated performs a GET /v1/webhooks/{id}/deliveries (the `WebhooksDeliveriesGetToManyRelated` operationId) request.
+	WebhooksDeliveriesGetToManyRelated(ctx context.Context, id string, params *WebhooksDeliveriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppAvailabilitiesV2CreateInstanceWithBody performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -49057,6 +50231,19 @@ func (c *Client) AppsBetaTestersDeleteToManyRelationship(ctx context.Context, id
 // AppsSearchKeywordsGetToManyRelated performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
 func (c *Client) AppsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsSearchKeywordsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsWebhooksGetToManyRelated performs a GET /v1/apps/{id}/webhooks (the `AppsWebhooksGetToManyRelated` operationId) request.
+func (c *Client) AppsWebhooksGetToManyRelated(ctx context.Context, id string, params *AppsWebhooksGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsWebhooksGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -51196,6 +52383,157 @@ func (c *Client) UsersVisibleAppsCreateToManyRelationshipWithBody(ctx context.Co
 // Takes a body of the `application/json` content type.
 func (c *Client) UsersVisibleAppsCreateToManyRelationship(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewUsersVisibleAppsCreateToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhookDeliveriesCreateInstanceWithBody performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) WebhookDeliveriesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhookDeliveriesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhookDeliveriesCreateInstance performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) WebhookDeliveriesCreateInstance(ctx context.Context, body WebhookDeliveriesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhookDeliveriesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhookPingsCreateInstanceWithBody performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) WebhookPingsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhookPingsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhookPingsCreateInstance performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) WebhookPingsCreateInstance(ctx context.Context, body WebhookPingsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhookPingsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhooksCreateInstanceWithBody performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) WebhooksCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhooksCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhooksCreateInstance performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) WebhooksCreateInstance(ctx context.Context, body WebhooksCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhooksCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhooksDeleteInstance performs a DELETE /v1/webhooks/{id} (the `WebhooksDeleteInstance` operationId) request.
+func (c *Client) WebhooksDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhooksDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhooksGetInstance performs a GET /v1/webhooks/{id} (the `WebhooksGetInstance` operationId) request.
+func (c *Client) WebhooksGetInstance(ctx context.Context, id string, params *WebhooksGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhooksGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhooksUpdateInstanceWithBody performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) WebhooksUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhooksUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhooksUpdateInstance performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) WebhooksUpdateInstance(ctx context.Context, id string, body WebhooksUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhooksUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// WebhooksDeliveriesGetToManyRelated performs a GET /v1/webhooks/{id}/deliveries (the `WebhooksDeliveriesGetToManyRelated` operationId) request.
+func (c *Client) WebhooksDeliveriesGetToManyRelated(ctx context.Context, id string, params *WebhooksDeliveriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewWebhooksDeliveriesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -56429,6 +57767,103 @@ func NewAppsSearchKeywordsGetToManyRelatedRequest(server string, id string, para
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsWebhooksGetToManyRelatedRequest constructs an http.Request for the AppsWebhooksGetToManyRelated method
+func NewAppsWebhooksGetToManyRelatedRequest(server string, id string, params *AppsWebhooksGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/webhooks", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsWebhooks != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[webhooks]", *params.FieldsWebhooks, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -64939,6 +66374,425 @@ func NewUsersVisibleAppsCreateToManyRelationshipRequestWithBody(server string, i
 	return req, nil
 }
 
+// NewWebhookDeliveriesCreateInstanceRequest calls the generic WebhookDeliveriesCreateInstance builder with application/json body
+func NewWebhookDeliveriesCreateInstanceRequest(server string, body WebhookDeliveriesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewWebhookDeliveriesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewWebhookDeliveriesCreateInstanceRequestWithBody constructs an http.Request for the WebhookDeliveriesCreateInstance method, with any body, and a specified content type
+func NewWebhookDeliveriesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/webhookDeliveries")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewWebhookPingsCreateInstanceRequest calls the generic WebhookPingsCreateInstance builder with application/json body
+func NewWebhookPingsCreateInstanceRequest(server string, body WebhookPingsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewWebhookPingsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewWebhookPingsCreateInstanceRequestWithBody constructs an http.Request for the WebhookPingsCreateInstance method, with any body, and a specified content type
+func NewWebhookPingsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/webhookPings")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewWebhooksCreateInstanceRequest calls the generic WebhooksCreateInstance builder with application/json body
+func NewWebhooksCreateInstanceRequest(server string, body WebhooksCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewWebhooksCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewWebhooksCreateInstanceRequestWithBody constructs an http.Request for the WebhooksCreateInstance method, with any body, and a specified content type
+func NewWebhooksCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/webhooks")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewWebhooksDeleteInstanceRequest constructs an http.Request for the WebhooksDeleteInstance method
+func NewWebhooksDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/webhooks/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewWebhooksGetInstanceRequest constructs an http.Request for the WebhooksGetInstance method
+func NewWebhooksGetInstanceRequest(server string, id string, params *WebhooksGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/webhooks/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsWebhooks != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[webhooks]", *params.FieldsWebhooks, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewWebhooksUpdateInstanceRequest calls the generic WebhooksUpdateInstance builder with application/json body
+func NewWebhooksUpdateInstanceRequest(server string, id string, body WebhooksUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewWebhooksUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewWebhooksUpdateInstanceRequestWithBody constructs an http.Request for the WebhooksUpdateInstance method, with any body, and a specified content type
+func NewWebhooksUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/webhooks/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewWebhooksDeliveriesGetToManyRelatedRequest constructs an http.Request for the WebhooksDeliveriesGetToManyRelated method
+func NewWebhooksDeliveriesGetToManyRelatedRequest(server string, id string, params *WebhooksDeliveriesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/webhooks/%s/deliveries", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterDeliveryState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[deliveryState]", *params.FilterDeliveryState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterCreatedDateGreaterThanOrEqualTo != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[createdDateGreaterThanOrEqualTo]", *params.FilterCreatedDateGreaterThanOrEqualTo, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterCreatedDateLessThan != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[createdDateLessThan]", *params.FilterCreatedDateLessThan, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsWebhookDeliveries != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[webhookDeliveries]", *params.FieldsWebhookDeliveries, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsWebhookEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[webhookEvents]", *params.FieldsWebhookEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppAvailabilitiesV2CreateInstanceRequest calls the generic AppAvailabilitiesV2CreateInstance builder with application/json body
 func NewAppAvailabilitiesV2CreateInstanceRequest(server string, body AppAvailabilitiesV2CreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -65640,6 +67494,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsSearchKeywordsGetToManyRelatedResponse, error)
+
+	// AppsWebhooksGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/webhooks (the `AppsWebhooksGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsWebhooksGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsWebhooksGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsWebhooksGetToManyRelatedResponse, error)
 
 	// BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -66425,6 +68284,61 @@ type ClientWithResponsesInterface interface {
 	// UsersVisibleAppsCreateToManyRelationshipWithResponse performs a POST /v1/users/{id}/relationships/visibleApps (the `UsersVisibleAppsCreateToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	UsersVisibleAppsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body UsersVisibleAppsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*UsersVisibleAppsCreateToManyRelationshipResponse, error)
+
+	// WebhookDeliveriesCreateInstanceWithBodyWithResponse performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	WebhookDeliveriesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhookDeliveriesCreateInstanceResponse, error)
+
+	// WebhookDeliveriesCreateInstanceWithResponse performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	WebhookDeliveriesCreateInstanceWithResponse(ctx context.Context, body WebhookDeliveriesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhookDeliveriesCreateInstanceResponse, error)
+
+	// WebhookPingsCreateInstanceWithBodyWithResponse performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	WebhookPingsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhookPingsCreateInstanceResponse, error)
+
+	// WebhookPingsCreateInstanceWithResponse performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	WebhookPingsCreateInstanceWithResponse(ctx context.Context, body WebhookPingsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhookPingsCreateInstanceResponse, error)
+
+	// WebhooksCreateInstanceWithBodyWithResponse performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	WebhooksCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhooksCreateInstanceResponse, error)
+
+	// WebhooksCreateInstanceWithResponse performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	WebhooksCreateInstanceWithResponse(ctx context.Context, body WebhooksCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhooksCreateInstanceResponse, error)
+
+	// WebhooksDeleteInstanceWithResponse performs a DELETE /v1/webhooks/{id} (the `WebhooksDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	WebhooksDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*WebhooksDeleteInstanceResponse, error)
+
+	// WebhooksGetInstanceWithResponse performs a GET /v1/webhooks/{id} (the `WebhooksGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	WebhooksGetInstanceWithResponse(ctx context.Context, id string, params *WebhooksGetInstanceParams, reqEditors ...RequestEditorFn) (*WebhooksGetInstanceResponse, error)
+
+	// WebhooksUpdateInstanceWithBodyWithResponse performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	WebhooksUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhooksUpdateInstanceResponse, error)
+
+	// WebhooksUpdateInstanceWithResponse performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	WebhooksUpdateInstanceWithResponse(ctx context.Context, id string, body WebhooksUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhooksUpdateInstanceResponse, error)
+
+	// WebhooksDeliveriesGetToManyRelatedWithResponse performs a GET /v1/webhooks/{id}/deliveries (the `WebhooksDeliveriesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	WebhooksDeliveriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *WebhooksDeliveriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*WebhooksDeliveriesGetToManyRelatedResponse, error)
 
 	// AppAvailabilitiesV2CreateInstanceWithBodyWithResponse performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -70817,6 +72731,82 @@ func (r AppsSearchKeywordsGetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsSearchKeywordsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsWebhooksGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *WebhooksResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsWebhooksGetToManyRelatedResponse) GetJSON200() *WebhooksResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsWebhooksGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsWebhooksGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsWebhooksGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsWebhooksGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsWebhooksGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsWebhooksGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsWebhooksGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsWebhooksGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsWebhooksGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -79269,6 +81259,566 @@ func (r UsersVisibleAppsCreateToManyRelationshipResponse) ContentType() string {
 	return ""
 }
 
+type WebhookDeliveriesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *WebhookDeliveryResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r WebhookDeliveriesCreateInstanceResponse) GetJSON201() *WebhookDeliveryResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r WebhookDeliveriesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r WebhookDeliveriesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r WebhookDeliveriesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r WebhookDeliveriesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r WebhookDeliveriesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r WebhookDeliveriesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r WebhookDeliveriesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r WebhookDeliveriesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r WebhookDeliveriesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r WebhookDeliveriesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type WebhookPingsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *WebhookPingResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r WebhookPingsCreateInstanceResponse) GetJSON201() *WebhookPingResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r WebhookPingsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r WebhookPingsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r WebhookPingsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r WebhookPingsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r WebhookPingsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r WebhookPingsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r WebhookPingsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r WebhookPingsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r WebhookPingsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r WebhookPingsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type WebhooksCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *WebhookResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r WebhooksCreateInstanceResponse) GetJSON201() *WebhookResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r WebhooksCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r WebhooksCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r WebhooksCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r WebhooksCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r WebhooksCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r WebhooksCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r WebhooksCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r WebhooksCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r WebhooksCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r WebhooksCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type WebhooksDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r WebhooksDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r WebhooksDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r WebhooksDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r WebhooksDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r WebhooksDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r WebhooksDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r WebhooksDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r WebhooksDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r WebhooksDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type WebhooksGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *WebhookResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r WebhooksGetInstanceResponse) GetJSON200() *WebhookResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r WebhooksGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r WebhooksGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r WebhooksGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r WebhooksGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r WebhooksGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r WebhooksGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r WebhooksGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r WebhooksGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r WebhooksGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type WebhooksUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *WebhookResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON200() *WebhookResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r WebhooksUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r WebhooksUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r WebhooksUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r WebhooksUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r WebhooksUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type WebhooksDeliveriesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *WebhookDeliveriesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r WebhooksDeliveriesGetToManyRelatedResponse) GetJSON200() *WebhookDeliveriesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r WebhooksDeliveriesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r WebhooksDeliveriesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r WebhooksDeliveriesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r WebhooksDeliveriesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r WebhooksDeliveriesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r WebhooksDeliveriesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r WebhooksDeliveriesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r WebhooksDeliveriesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r WebhooksDeliveriesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppAvailabilitiesV2CreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -80382,6 +82932,17 @@ func (c *ClientWithResponses) AppsSearchKeywordsGetToManyRelatedWithResponse(ctx
 		return nil, err
 	}
 	return ParseAppsSearchKeywordsGetToManyRelatedResponse(rsp)
+}
+
+// AppsWebhooksGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/webhooks (the `AppsWebhooksGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsWebhooksGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsWebhooksGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsWebhooksGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsWebhooksGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsWebhooksGetToManyRelatedResponse(rsp)
 }
 
 // BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
@@ -82109,6 +84670,127 @@ func (c *ClientWithResponses) UsersVisibleAppsCreateToManyRelationshipWithRespon
 		return nil, err
 	}
 	return ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp)
+}
+
+// WebhookDeliveriesCreateInstanceWithBodyWithResponse performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhookDeliveriesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhookDeliveriesCreateInstanceResponse, error) {
+	rsp, err := c.WebhookDeliveriesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhookDeliveriesCreateInstanceResponse(rsp)
+}
+
+// WebhookDeliveriesCreateInstanceWithResponse performs a POST /v1/webhookDeliveries (the `WebhookDeliveriesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhookDeliveriesCreateInstanceWithResponse(ctx context.Context, body WebhookDeliveriesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhookDeliveriesCreateInstanceResponse, error) {
+	rsp, err := c.WebhookDeliveriesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhookDeliveriesCreateInstanceResponse(rsp)
+}
+
+// WebhookPingsCreateInstanceWithBodyWithResponse performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhookPingsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhookPingsCreateInstanceResponse, error) {
+	rsp, err := c.WebhookPingsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhookPingsCreateInstanceResponse(rsp)
+}
+
+// WebhookPingsCreateInstanceWithResponse performs a POST /v1/webhookPings (the `WebhookPingsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhookPingsCreateInstanceWithResponse(ctx context.Context, body WebhookPingsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhookPingsCreateInstanceResponse, error) {
+	rsp, err := c.WebhookPingsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhookPingsCreateInstanceResponse(rsp)
+}
+
+// WebhooksCreateInstanceWithBodyWithResponse performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhooksCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhooksCreateInstanceResponse, error) {
+	rsp, err := c.WebhooksCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhooksCreateInstanceResponse(rsp)
+}
+
+// WebhooksCreateInstanceWithResponse performs a POST /v1/webhooks (the `WebhooksCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhooksCreateInstanceWithResponse(ctx context.Context, body WebhooksCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhooksCreateInstanceResponse, error) {
+	rsp, err := c.WebhooksCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhooksCreateInstanceResponse(rsp)
+}
+
+// WebhooksDeleteInstanceWithResponse performs a DELETE /v1/webhooks/{id} (the `WebhooksDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhooksDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*WebhooksDeleteInstanceResponse, error) {
+	rsp, err := c.WebhooksDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhooksDeleteInstanceResponse(rsp)
+}
+
+// WebhooksGetInstanceWithResponse performs a GET /v1/webhooks/{id} (the `WebhooksGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhooksGetInstanceWithResponse(ctx context.Context, id string, params *WebhooksGetInstanceParams, reqEditors ...RequestEditorFn) (*WebhooksGetInstanceResponse, error) {
+	rsp, err := c.WebhooksGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhooksGetInstanceResponse(rsp)
+}
+
+// WebhooksUpdateInstanceWithBodyWithResponse performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhooksUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*WebhooksUpdateInstanceResponse, error) {
+	rsp, err := c.WebhooksUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhooksUpdateInstanceResponse(rsp)
+}
+
+// WebhooksUpdateInstanceWithResponse performs a PATCH /v1/webhooks/{id} (the `WebhooksUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhooksUpdateInstanceWithResponse(ctx context.Context, id string, body WebhooksUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*WebhooksUpdateInstanceResponse, error) {
+	rsp, err := c.WebhooksUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhooksUpdateInstanceResponse(rsp)
+}
+
+// WebhooksDeliveriesGetToManyRelatedWithResponse performs a GET /v1/webhooks/{id}/deliveries (the `WebhooksDeliveriesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) WebhooksDeliveriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *WebhooksDeliveriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*WebhooksDeliveriesGetToManyRelatedResponse, error) {
+	rsp, err := c.WebhooksDeliveriesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseWebhooksDeliveriesGetToManyRelatedResponse(rsp)
 }
 
 // AppAvailabilitiesV2CreateInstanceWithBodyWithResponse performs a POST /v2/appAvailabilities (the `AppAvailabilitiesV2CreateInstance` operationId) request,
@@ -85697,6 +88379,67 @@ func ParseAppsSearchKeywordsGetToManyRelatedResponse(rsp *http.Response) (*AppsS
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppKeywordsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsWebhooksGetToManyRelatedResponse parses an HTTP response from a AppsWebhooksGetToManyRelatedWithResponse call
+func ParseAppsWebhooksGetToManyRelatedResponse(rsp *http.Response) (*AppsWebhooksGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsWebhooksGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest WebhooksResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -92646,6 +95389,464 @@ func ParseUsersVisibleAppsCreateToManyRelationshipResponse(rsp *http.Response) (
 	return response, nil
 }
 
+// ParseWebhookDeliveriesCreateInstanceResponse parses an HTTP response from a WebhookDeliveriesCreateInstanceWithResponse call
+func ParseWebhookDeliveriesCreateInstanceResponse(rsp *http.Response) (*WebhookDeliveriesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &WebhookDeliveriesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest WebhookDeliveryResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseWebhookPingsCreateInstanceResponse parses an HTTP response from a WebhookPingsCreateInstanceWithResponse call
+func ParseWebhookPingsCreateInstanceResponse(rsp *http.Response) (*WebhookPingsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &WebhookPingsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest WebhookPingResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseWebhooksCreateInstanceResponse parses an HTTP response from a WebhooksCreateInstanceWithResponse call
+func ParseWebhooksCreateInstanceResponse(rsp *http.Response) (*WebhooksCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &WebhooksCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest WebhookResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseWebhooksDeleteInstanceResponse parses an HTTP response from a WebhooksDeleteInstanceWithResponse call
+func ParseWebhooksDeleteInstanceResponse(rsp *http.Response) (*WebhooksDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &WebhooksDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseWebhooksGetInstanceResponse parses an HTTP response from a WebhooksGetInstanceWithResponse call
+func ParseWebhooksGetInstanceResponse(rsp *http.Response) (*WebhooksGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &WebhooksGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest WebhookResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseWebhooksUpdateInstanceResponse parses an HTTP response from a WebhooksUpdateInstanceWithResponse call
+func ParseWebhooksUpdateInstanceResponse(rsp *http.Response) (*WebhooksUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &WebhooksUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest WebhookResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseWebhooksDeliveriesGetToManyRelatedResponse parses an HTTP response from a WebhooksDeliveriesGetToManyRelatedWithResponse call
+func ParseWebhooksDeliveriesGetToManyRelatedResponse(rsp *http.Response) (*WebhooksDeliveriesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &WebhooksDeliveriesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest WebhookDeliveriesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppAvailabilitiesV2CreateInstanceResponse parses an HTTP response from a AppAvailabilitiesV2CreateInstanceWithResponse call
 func ParseAppAvailabilitiesV2CreateInstanceResponse(rsp *http.Response) (*AppAvailabilitiesV2CreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -93007,6 +96208,9 @@ type ServerInterface interface {
 	// (GET /v1/apps/{id}/searchKeywords)
 	AppsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsSearchKeywordsGetToManyRelatedParams)
 
+	// (GET /v1/apps/{id}/webhooks)
+	AppsWebhooksGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsWebhooksGetToManyRelatedParams)
+
 	// (POST /v1/betaAppLocalizations)
 	BetaAppLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -93330,6 +96534,27 @@ type ServerInterface interface {
 
 	// (POST /v1/users/{id}/relationships/visibleApps)
 	UsersVisibleAppsCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/webhookDeliveries)
+	WebhookDeliveriesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (POST /v1/webhookPings)
+	WebhookPingsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (POST /v1/webhooks)
+	WebhooksCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/webhooks/{id})
+	WebhooksDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/webhooks/{id})
+	WebhooksGetInstance(w http.ResponseWriter, r *http.Request, id string, params WebhooksGetInstanceParams)
+
+	// (PATCH /v1/webhooks/{id})
+	WebhooksUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/webhooks/{id}/deliveries)
+	WebhooksDeliveriesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params WebhooksDeliveriesGetToManyRelatedParams)
 
 	// (POST /v2/appAvailabilities)
 	AppAvailabilitiesV2CreateInstance(w http.ResponseWriter, r *http.Request)
@@ -97666,6 +100891,87 @@ func (siw *ServerInterfaceWrapper) AppsSearchKeywordsGetToManyRelated(w http.Res
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsSearchKeywordsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsWebhooksGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsWebhooksGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsWebhooksGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[webhooks]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[webhooks]", r.URL.Query(), &params.FieldsWebhooks, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[webhooks]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[webhooks]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsWebhooksGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -104333,6 +107639,288 @@ func (siw *ServerInterfaceWrapper) UsersVisibleAppsCreateToManyRelationship(w ht
 	handler.ServeHTTP(w, r)
 }
 
+// WebhookDeliveriesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) WebhookDeliveriesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.WebhookDeliveriesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// WebhookPingsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) WebhookPingsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.WebhookPingsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// WebhooksCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) WebhooksCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.WebhooksCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// WebhooksDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) WebhooksDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.WebhooksDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// WebhooksGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) WebhooksGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params WebhooksGetInstanceParams
+
+	// ------------- Optional query parameter "fields[webhooks]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[webhooks]", r.URL.Query(), &params.FieldsWebhooks, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[webhooks]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[webhooks]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.WebhooksGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// WebhooksUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) WebhooksUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.WebhooksUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// WebhooksDeliveriesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) WebhooksDeliveriesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params WebhooksDeliveriesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[deliveryState]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[deliveryState]", r.URL.Query(), &params.FilterDeliveryState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[deliveryState]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[deliveryState]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[createdDateGreaterThanOrEqualTo]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[createdDateGreaterThanOrEqualTo]", r.URL.Query(), &params.FilterCreatedDateGreaterThanOrEqualTo, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[createdDateGreaterThanOrEqualTo]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[createdDateGreaterThanOrEqualTo]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[createdDateLessThan]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[createdDateLessThan]", r.URL.Query(), &params.FilterCreatedDateLessThan, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[createdDateLessThan]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[createdDateLessThan]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[webhookDeliveries]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[webhookDeliveries]", r.URL.Query(), &params.FieldsWebhookDeliveries, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[webhookDeliveries]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[webhookDeliveries]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[webhookEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[webhookEvents]", r.URL.Query(), &params.FieldsWebhookEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[webhookEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[webhookEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.WebhooksDeliveriesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppAvailabilitiesV2CreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) AppAvailabilitiesV2CreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -104710,6 +108298,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/searchKeywords", wrapper.AppsSearchKeywordsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/webhooks", wrapper.AppsWebhooksGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsGetInstance)
@@ -104818,6 +108407,13 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsDeleteToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsGetToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/users/{id}/relationships/visibleApps", wrapper.UsersVisibleAppsCreateToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/webhookDeliveries", wrapper.WebhookDeliveriesCreateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/webhookPings", wrapper.WebhookPingsCreateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/webhooks", wrapper.WebhooksCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/webhooks/{id}", wrapper.WebhooksDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/webhooks/{id}", wrapper.WebhooksGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/webhooks/{id}", wrapper.WebhooksUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/webhooks/{id}/deliveries", wrapper.WebhooksDeliveriesGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/appAvailabilities", wrapper.AppAvailabilitiesV2CreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/appAvailabilities/{id}/territoryAvailabilities", wrapper.AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v3/appPricePoints/{id}/equalizations", wrapper.AppPricePointsV3EqualizationsGetToManyRelated)
