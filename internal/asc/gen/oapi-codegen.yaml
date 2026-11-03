@@ -94,6 +94,7 @@ output-options:
     - apps_appPriceSchedule_getToOneRelated
     - apps_appStoreVersions_getToManyRelated
     - apps_appTags_getToManyRelated
+    - apps_backgroundAssets_getToManyRelated
     - apps_betaTesters_deleteToManyRelationship
     - apps_endUserLicenseAgreement_getToOneRelated
     - apps_getCollection
@@ -106,6 +107,18 @@ output-options:
     - apps_subscriptionGroups_getToManyRelated
     - apps_updateInstance
     - apps_webhooks_getToManyRelated
+    - backgroundAssetUploadFiles_createInstance
+    - backgroundAssetUploadFiles_getInstance
+    - backgroundAssetUploadFiles_updateInstance
+    - backgroundAssetVersionAppStoreReleases_getInstance
+    - backgroundAssetVersionExternalBetaReleases_getInstance
+    - backgroundAssetVersionInternalBetaReleases_getInstance
+    - backgroundAssetVersions_createInstance
+    - backgroundAssetVersions_getInstance
+    - backgroundAssets_createInstance
+    - backgroundAssets_getInstance
+    - backgroundAssets_updateInstance
+    - backgroundAssets_versions_getToManyRelated
     - betaAppLocalizations_createInstance
     - betaAppLocalizations_deleteInstance
     - betaAppLocalizations_getInstance

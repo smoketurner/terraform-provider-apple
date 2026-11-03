@@ -105,12 +105,18 @@ func (s *Server) uploadOperations(r *http.Request, item *mediaItem) []gen.Upload
 	return ops
 }
 
-// commit checks a committed file's parts against its checksum.
-func (item *mediaItem) commit(checksum string) {
+// data returns the parts received so far, in order.
+func (item *mediaItem) data() []byte {
 	var data []byte
 	for i := 0; i*uploadPartSize < item.size; i++ {
 		data = append(data, item.parts[i]...)
 	}
+	return data
+}
+
+// commit checks a committed file's parts against its checksum.
+func (item *mediaItem) commit(checksum string) {
+	data := item.data()
 	item.checksum = checksum
 	switch {
 	case len(data) != item.size:
