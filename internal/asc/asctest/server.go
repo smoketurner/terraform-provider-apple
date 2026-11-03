@@ -74,6 +74,7 @@ type Server struct {
 	pricing     *pricingState
 	nominations *nominationsState
 	webhooks    map[string]*webhook
+	media       *mediaState
 
 	failNext map[string][]int
 	requests []string
@@ -111,6 +112,7 @@ func NewServer() *Server {
 		pricing:      newPricingState(),
 		nominations:  newNominationsState(),
 		webhooks:     newWebhooks(),
+		media:        newMediaState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{
@@ -119,7 +121,10 @@ func NewServer() *Server {
 			writeError(w, http.StatusBadRequest, "PARAMETER_ERROR.INVALID", "A parameter has an invalid value", err.Error(), "")
 		},
 	})
-	s.Server = httptest.NewServer(s.middleware(handler))
+	mux := http.NewServeMux()
+	mux.HandleFunc("/upload/{item}/{part}", s.uploadHandler)
+	mux.Handle("/", s.middleware(handler))
+	s.Server = httptest.NewServer(mux)
 	return s
 }
 

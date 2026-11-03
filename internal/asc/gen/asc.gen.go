@@ -2309,6 +2309,96 @@ func (e AppCustomProductPageType) Valid() bool {
 	}
 }
 
+// Defines values for AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType.
+const (
+	AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataTypeAppCustomProductPageVersions AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType enum.
+func (e AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataTypeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataType.
+const (
+	AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataTypeAppPreviewSets AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataType = "appPreviewSets"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataType enum.
+func (e AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataTypeAppPreviewSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataType.
+const (
+	AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataTypeAppScreenshotSets AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataType = "appScreenshotSets"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataType enum.
+func (e AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataTypeAppScreenshotSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationRelationshipsPlacementsDataType.
+const (
+	AppCustomProductPageLocalizationRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppCustomProductPageLocalizationRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationRelationshipsPlacementsDataType enum.
+func (e AppCustomProductPageLocalizationRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType.
+const (
+	AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataTypeAppKeywords AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType = "appKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType enum.
+func (e AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataTypeAppKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationType.
+const (
+	AppCustomProductPageLocalizationTypeAppCustomProductPageLocalizations AppCustomProductPageLocalizationType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationType enum.
+func (e AppCustomProductPageLocalizationType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppCustomProductPageVersionAttributesState.
 const (
 	AppCustomProductPageVersionAttributesStateACCEPTED               AppCustomProductPageVersionAttributesState = "ACCEPTED"
@@ -3212,6 +3302,93 @@ func (e AppMediaPreviewFrameImageStateState) Valid() bool {
 	}
 }
 
+// Defines values for AppMediaVideoStateState.
+const (
+	AppMediaVideoStateStateAWAITINGUPLOAD AppMediaVideoStateState = "AWAITING_UPLOAD"
+	AppMediaVideoStateStateCOMPLETE       AppMediaVideoStateState = "COMPLETE"
+	AppMediaVideoStateStateFAILED         AppMediaVideoStateState = "FAILED"
+	AppMediaVideoStateStatePROCESSING     AppMediaVideoStateState = "PROCESSING"
+	AppMediaVideoStateStateUPLOADCOMPLETE AppMediaVideoStateState = "UPLOAD_COMPLETE"
+)
+
+// Valid indicates whether the value is a known member of the AppMediaVideoStateState enum.
+func (e AppMediaVideoStateState) Valid() bool {
+	switch e {
+	case AppMediaVideoStateStateAWAITINGUPLOAD:
+		return true
+	case AppMediaVideoStateStateCOMPLETE:
+		return true
+	case AppMediaVideoStateStateFAILED:
+		return true
+	case AppMediaVideoStateStatePROCESSING:
+		return true
+	case AppMediaVideoStateStateUPLOADCOMPLETE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewRelationshipsAppPreviewSetDataType.
+const (
+	AppPreviewRelationshipsAppPreviewSetDataTypeAppPreviewSets AppPreviewRelationshipsAppPreviewSetDataType = "appPreviewSets"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewRelationshipsAppPreviewSetDataType enum.
+func (e AppPreviewRelationshipsAppPreviewSetDataType) Valid() bool {
+	switch e {
+	case AppPreviewRelationshipsAppPreviewSetDataTypeAppPreviewSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewType.
+const (
+	AppPreviewTypeAppPreviews AppPreviewType = "appPreviews"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewType enum.
+func (e AppPreviewType) Valid() bool {
+	switch e {
+	case AppPreviewTypeAppPreviews:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataType.
+const (
+	AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataTypeAppPreviewSets AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataType = "appPreviewSets"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataType enum.
+func (e AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataType) Valid() bool {
+	switch e {
+	case AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataTypeAppPreviewSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewCreateRequestDataType.
+const (
+	AppPreviewCreateRequestDataTypeAppPreviews AppPreviewCreateRequestDataType = "appPreviews"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewCreateRequestDataType enum.
+func (e AppPreviewCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppPreviewCreateRequestDataTypeAppPreviews:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppPreviewSetRelationshipsAppCustomProductPageLocalizationDataType.
 const (
 	AppPreviewSetRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppPreviewSetRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
@@ -3281,6 +3458,96 @@ const (
 func (e AppPreviewSetType) Valid() bool {
 	switch e {
 	case AppPreviewSetTypeAppPreviewSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetAppPreviewsLinkagesRequestDataType.
+const (
+	AppPreviewSetAppPreviewsLinkagesRequestDataTypeAppPreviews AppPreviewSetAppPreviewsLinkagesRequestDataType = "appPreviews"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetAppPreviewsLinkagesRequestDataType enum.
+func (e AppPreviewSetAppPreviewsLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case AppPreviewSetAppPreviewsLinkagesRequestDataTypeAppPreviews:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType.
+const (
+	AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType enum.
+func (e AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType) Valid() bool {
+	switch e {
+	case AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType.
+const (
+	AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType = "appStoreVersionExperimentTreatmentLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType enum.
+func (e AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType) Valid() bool {
+	switch e {
+	case AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType.
+const (
+	AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType = "appStoreVersionLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType enum.
+func (e AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType) Valid() bool {
+	switch e {
+	case AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetCreateRequestDataType.
+const (
+	AppPreviewSetCreateRequestDataTypeAppPreviewSets AppPreviewSetCreateRequestDataType = "appPreviewSets"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetCreateRequestDataType enum.
+func (e AppPreviewSetCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppPreviewSetCreateRequestDataTypeAppPreviewSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewUpdateRequestDataType.
+const (
+	AppPreviewUpdateRequestDataTypeAppPreviews AppPreviewUpdateRequestDataType = "appPreviews"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewUpdateRequestDataType enum.
+func (e AppPreviewUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppPreviewUpdateRequestDataTypeAppPreviews:
 		return true
 	default:
 		return false
@@ -3542,6 +3809,66 @@ func (e AppPriceV2InlineCreateType) Valid() bool {
 	}
 }
 
+// Defines values for AppScreenshotRelationshipsAppScreenshotSetDataType.
+const (
+	AppScreenshotRelationshipsAppScreenshotSetDataTypeAppScreenshotSets AppScreenshotRelationshipsAppScreenshotSetDataType = "appScreenshotSets"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotRelationshipsAppScreenshotSetDataType enum.
+func (e AppScreenshotRelationshipsAppScreenshotSetDataType) Valid() bool {
+	switch e {
+	case AppScreenshotRelationshipsAppScreenshotSetDataTypeAppScreenshotSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotType.
+const (
+	AppScreenshotTypeAppScreenshots AppScreenshotType = "appScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotType enum.
+func (e AppScreenshotType) Valid() bool {
+	switch e {
+	case AppScreenshotTypeAppScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataType.
+const (
+	AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataTypeAppScreenshotSets AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataType = "appScreenshotSets"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataType enum.
+func (e AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataType) Valid() bool {
+	switch e {
+	case AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataTypeAppScreenshotSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotCreateRequestDataType.
+const (
+	AppScreenshotCreateRequestDataTypeAppScreenshots AppScreenshotCreateRequestDataType = "appScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotCreateRequestDataType enum.
+func (e AppScreenshotCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppScreenshotCreateRequestDataTypeAppScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppScreenshotSetRelationshipsAppCustomProductPageLocalizationDataType.
 const (
 	AppScreenshotSetRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppScreenshotSetRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
@@ -3611,6 +3938,96 @@ const (
 func (e AppScreenshotSetType) Valid() bool {
 	switch e {
 	case AppScreenshotSetTypeAppScreenshotSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetAppScreenshotsLinkagesRequestDataType.
+const (
+	AppScreenshotSetAppScreenshotsLinkagesRequestDataTypeAppScreenshots AppScreenshotSetAppScreenshotsLinkagesRequestDataType = "appScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetAppScreenshotsLinkagesRequestDataType enum.
+func (e AppScreenshotSetAppScreenshotsLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case AppScreenshotSetAppScreenshotsLinkagesRequestDataTypeAppScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType.
+const (
+	AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType enum.
+func (e AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType) Valid() bool {
+	switch e {
+	case AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType.
+const (
+	AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType = "appStoreVersionExperimentTreatmentLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType enum.
+func (e AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType) Valid() bool {
+	switch e {
+	case AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataTypeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType.
+const (
+	AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType = "appStoreVersionLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType enum.
+func (e AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType) Valid() bool {
+	switch e {
+	case AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetCreateRequestDataType.
+const (
+	AppScreenshotSetCreateRequestDataTypeAppScreenshotSets AppScreenshotSetCreateRequestDataType = "appScreenshotSets"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetCreateRequestDataType enum.
+func (e AppScreenshotSetCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppScreenshotSetCreateRequestDataTypeAppScreenshotSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotUpdateRequestDataType.
+const (
+	AppScreenshotUpdateRequestDataTypeAppScreenshots AppScreenshotUpdateRequestDataType = "appScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotUpdateRequestDataType enum.
+func (e AppScreenshotUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppScreenshotUpdateRequestDataTypeAppScreenshots:
 		return true
 	default:
 		return false
@@ -4265,6 +4682,81 @@ const (
 func (e AppStoreVersionExperimentType) Valid() bool {
 	switch e {
 	case AppStoreVersionExperimentTypeAppStoreVersionExperiments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataTypeAppPreviewSets AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType = "appPreviewSets"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataTypeAppPreviewSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataTypeAppScreenshotSets AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataType = "appScreenshotSets"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataTypeAppScreenshotSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataTypeAppStoreVersionExperimentTreatments AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataType = "appStoreVersionExperimentTreatments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataTypeAppStoreVersionExperimentTreatments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationTypeAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentTreatmentLocalizationType = "appStoreVersionExperimentTreatmentLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationTypeAppStoreVersionExperimentTreatmentLocalizations:
 		return true
 	default:
 		return false
@@ -12221,6 +12713,303 @@ func (e AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude) Valid() bool 
 	}
 }
 
+// Defines values for AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets.
+const (
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppCustomProductPageLocalization               AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets = "appCustomProductPageLocalization"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppPreviews                                    AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets = "appPreviews"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionLocalization                    AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets = "appStoreVersionLocalization"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsPreviewType                                    AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets = "previewType"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets enum.
+func (e AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets) Valid() bool {
+	switch e {
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppCustomProductPageLocalization:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppPreviews:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionLocalization:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewSetsPreviewType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsDescription       AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "description"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsKeywords          AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsLocale            AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPlacements        AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsLocale                      AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsGetInstanceParamsFieldsAppPreviews.
+const (
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsAppPreviewSet        AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "appPreviewSet"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsAssetDeliveryState   AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "assetDeliveryState"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsFileName             AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "fileName"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsFileSize             AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "fileSize"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsMimeType             AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "mimeType"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsPreviewFrameImage    AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "previewFrameImage"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsPreviewFrameTimeCode AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "previewFrameTimeCode"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsPreviewImage         AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "previewImage"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsSourceFileChecksum   AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "sourceFileChecksum"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsUploadOperations     AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "uploadOperations"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsVideoDeliveryState   AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "videoDeliveryState"
+	AppPreviewSetsGetInstanceParamsFieldsAppPreviewsVideoUrl             AppPreviewSetsGetInstanceParamsFieldsAppPreviews = "videoUrl"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsGetInstanceParamsFieldsAppPreviews enum.
+func (e AppPreviewSetsGetInstanceParamsFieldsAppPreviews) Valid() bool {
+	switch e {
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsAppPreviewSet:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsAssetDeliveryState:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsFileName:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsFileSize:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsMimeType:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsPreviewFrameImage:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsPreviewFrameTimeCode:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsPreviewImage:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsSourceFileChecksum:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsUploadOperations:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsVideoDeliveryState:
+		return true
+	case AppPreviewSetsGetInstanceParamsFieldsAppPreviewsVideoUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsGetInstanceParamsInclude.
+const (
+	AppPreviewSetsGetInstanceParamsIncludeAppCustomProductPageLocalization               AppPreviewSetsGetInstanceParamsInclude = "appCustomProductPageLocalization"
+	AppPreviewSetsGetInstanceParamsIncludeAppPreviews                                    AppPreviewSetsGetInstanceParamsInclude = "appPreviews"
+	AppPreviewSetsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppPreviewSetsGetInstanceParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppPreviewSetsGetInstanceParamsIncludeAppStoreVersionLocalization                    AppPreviewSetsGetInstanceParamsInclude = "appStoreVersionLocalization"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsGetInstanceParamsInclude enum.
+func (e AppPreviewSetsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppPreviewSetsGetInstanceParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppPreviewSetsGetInstanceParamsIncludeAppPreviews:
+		return true
+	case AppPreviewSetsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppPreviewSetsGetInstanceParamsIncludeAppStoreVersionLocalization:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews.
+const (
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsAppPreviewSet        AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "appPreviewSet"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsAssetDeliveryState   AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "assetDeliveryState"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsFileName             AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "fileName"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsFileSize             AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "fileSize"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsMimeType             AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "mimeType"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameImage    AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "previewFrameImage"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameTimeCode AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "previewFrameTimeCode"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsPreviewImage         AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "previewImage"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsSourceFileChecksum   AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "sourceFileChecksum"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsUploadOperations     AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "uploadOperations"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsVideoDeliveryState   AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "videoDeliveryState"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsVideoUrl             AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews = "videoUrl"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews enum.
+func (e AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews) Valid() bool {
+	switch e {
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsAppPreviewSet:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsAssetDeliveryState:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsFileName:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsFileSize:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsMimeType:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameImage:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameTimeCode:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsPreviewImage:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsSourceFileChecksum:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsUploadOperations:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsVideoDeliveryState:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewsVideoUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets.
+const (
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization               AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets = "appCustomProductPageLocalization"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews                                    AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets = "appPreviews"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization                    AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionLocalization"
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType                                    AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets = "previewType"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets enum.
+func (e AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets) Valid() bool {
+	switch e {
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization:
+		return true
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppPreviewSetsAppPreviewsGetToManyRelatedParamsInclude.
+const (
+	AppPreviewSetsAppPreviewsGetToManyRelatedParamsIncludeAppPreviewSet AppPreviewSetsAppPreviewsGetToManyRelatedParamsInclude = "appPreviewSet"
+)
+
+// Valid indicates whether the value is a known member of the AppPreviewSetsAppPreviewsGetToManyRelatedParamsInclude enum.
+func (e AppPreviewSetsAppPreviewsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppPreviewSetsAppPreviewsGetToManyRelatedParamsIncludeAppPreviewSet:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories.
 const (
 	AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritoriesCurrency AppPriceSchedulesBaseTerritoryGetToOneRelatedParamsFieldsTerritories = "currency"
@@ -12317,6 +13106,861 @@ func (e AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude) Valid() bool
 	case AppPriceSchedulesManualPricesGetToManyRelatedParamsIncludeAppPricePoint:
 		return true
 	case AppPriceSchedulesManualPricesGetToManyRelatedParamsIncludeTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets.
+const (
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization               AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets = "appCustomProductPageLocalization"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppScreenshots                                 AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets = "appScreenshots"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionLocalization                    AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets = "appStoreVersionLocalization"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsScreenshotDisplayType                          AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets = "screenshotDisplayType"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets enum.
+func (e AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets) Valid() bool {
+	switch e {
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppScreenshots:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionLocalization:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSetsScreenshotDisplayType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsDescription       AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "description"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsKeywords          AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsLocale            AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPlacements        AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsLocale                      AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots.
+const (
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAppScreenshotSet   AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "appScreenshotSet"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAssetDeliveryState AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "assetDeliveryState"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAssetToken         AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "assetToken"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAssetType          AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "assetType"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsFileName           AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "fileName"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsFileSize           AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "fileSize"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsImageAsset         AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "imageAsset"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsSourceFileChecksum AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "sourceFileChecksum"
+	AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsUploadOperations   AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots enum.
+func (e AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots) Valid() bool {
+	switch e {
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAppScreenshotSet:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAssetDeliveryState:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAssetToken:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsAssetType:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsFileName:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsFileSize:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsImageAsset:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsSourceFileChecksum:
+		return true
+	case AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsGetInstanceParamsInclude.
+const (
+	AppScreenshotSetsGetInstanceParamsIncludeAppCustomProductPageLocalization               AppScreenshotSetsGetInstanceParamsInclude = "appCustomProductPageLocalization"
+	AppScreenshotSetsGetInstanceParamsIncludeAppScreenshots                                 AppScreenshotSetsGetInstanceParamsInclude = "appScreenshots"
+	AppScreenshotSetsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppScreenshotSetsGetInstanceParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppScreenshotSetsGetInstanceParamsIncludeAppStoreVersionLocalization                    AppScreenshotSetsGetInstanceParamsInclude = "appStoreVersionLocalization"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsGetInstanceParamsInclude enum.
+func (e AppScreenshotSetsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppScreenshotSetsGetInstanceParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppScreenshotSetsGetInstanceParamsIncludeAppScreenshots:
+		return true
+	case AppScreenshotSetsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppScreenshotSetsGetInstanceParamsIncludeAppStoreVersionLocalization:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots.
+const (
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAppScreenshotSet   AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "appScreenshotSet"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAssetDeliveryState AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "assetDeliveryState"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAssetToken         AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "assetToken"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAssetType          AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "assetType"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsFileName           AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "fileName"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsFileSize           AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "fileSize"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsImageAsset         AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "imageAsset"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsSourceFileChecksum AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "sourceFileChecksum"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsUploadOperations   AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots enum.
+func (e AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots) Valid() bool {
+	switch e {
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAppScreenshotSet:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAssetDeliveryState:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAssetToken:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsAssetType:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsFileName:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsFileSize:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsImageAsset:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsSourceFileChecksum:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets.
+const (
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization               AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets = "appCustomProductPageLocalization"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots                                 AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets = "appScreenshots"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization                    AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionLocalization"
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType                          AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets = "screenshotDisplayType"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets enum.
+func (e AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets) Valid() bool {
+	switch e {
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization:
+		return true
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude.
+const (
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsIncludeAppScreenshotSet AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude = "appScreenshotSet"
+)
+
+// Valid indicates whether the value is a known member of the AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude enum.
+func (e AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsIncludeAppScreenshotSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType.
+const (
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeAPPLETV        AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "APPLE_TV"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeAPPLEVISIONPRO AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "APPLE_VISION_PRO"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeDESKTOP        AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "DESKTOP"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPAD105        AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPAD_105"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPAD97         AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPAD_97"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPADPRO129     AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPAD_PRO_129"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPADPRO3GEN11  AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPAD_PRO_3GEN_11"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPADPRO3GEN129 AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPAD_PRO_3GEN_129"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE35       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_35"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE40       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_40"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE47       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_47"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE55       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_55"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE58       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_58"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE61       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_61"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE65       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_65"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE67       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType = "IPHONE_67"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType enum.
+func (e AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeAPPLETV:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeAPPLEVISIONPRO:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeDESKTOP:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPAD105:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPAD97:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPADPRO129:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPADPRO3GEN11:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPADPRO3GEN129:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE35:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE40:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE47:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE55:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE58:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE61:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE65:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewTypeIPHONE67:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets.
+const (
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization               AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets = "appCustomProductPageLocalization"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews                                    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets = "appPreviews"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization                    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionLocalization"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType                                    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets = "previewType"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets enum.
+func (e AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription       AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "description"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords          AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale            AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements        AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews.
+const (
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsAppPreviewSet        AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "appPreviewSet"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsAssetDeliveryState   AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "assetDeliveryState"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsFileName             AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "fileName"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsFileSize             AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "fileSize"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsMimeType             AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "mimeType"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameImage    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "previewFrameImage"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameTimeCode AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "previewFrameTimeCode"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsPreviewImage         AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "previewImage"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsSourceFileChecksum   AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "sourceFileChecksum"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsUploadOperations     AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "uploadOperations"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsVideoDeliveryState   AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "videoDeliveryState"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsVideoUrl             AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews = "videoUrl"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews enum.
+func (e AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsAppPreviewSet:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsAssetDeliveryState:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsFileName:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsFileSize:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsMimeType:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameImage:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsPreviewFrameTimeCode:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsPreviewImage:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsSourceFileChecksum:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsUploadOperations:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsVideoDeliveryState:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewsVideoUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude.
+const (
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppPreviews                                    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude = "appPreviews"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude enum.
+func (e AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppPreviews:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType.
+const (
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPAPPLETV                AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_APPLE_TV"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPAPPLEVISIONPRO         AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_APPLE_VISION_PRO"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPDESKTOP                AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_DESKTOP"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPAD105                AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPAD_105"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPAD97                 AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPAD_97"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPADPRO129             AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPAD_PRO_129"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPADPRO3GEN11          AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPAD_PRO_3GEN_11"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPADPRO3GEN129         AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPAD_PRO_3GEN_129"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE35               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_35"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE40               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_40"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE47               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_47"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE55               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_55"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE58               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_58"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE61               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_61"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE65               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_65"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE67               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_IPHONE_67"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES10          AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_WATCH_SERIES_10"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES3           AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_WATCH_SERIES_3"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES4           AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_WATCH_SERIES_4"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES7           AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_WATCH_SERIES_7"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHULTRA             AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "APP_WATCH_ULTRA"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPAD105        AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPAD_105"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPAD97         AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPAD_97"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPADPRO129     AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPAD_PRO_129"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPADPRO3GEN11  AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPAD_PRO_3GEN_11"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPADPRO3GEN129 AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPAD_PRO_3GEN_129"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE40       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPHONE_40"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE47       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPHONE_47"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE55       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPHONE_55"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE58       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPHONE_58"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE61       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPHONE_61"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE65       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPHONE_65"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE67       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType = "IMESSAGE_APP_IPHONE_67"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType enum.
+func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPAPPLETV:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPAPPLEVISIONPRO:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPDESKTOP:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPAD105:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPAD97:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPADPRO129:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPADPRO3GEN11:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPADPRO3GEN129:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE35:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE40:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE47:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE55:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE58:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE61:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE65:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPIPHONE67:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES10:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES3:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES4:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHSERIES7:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeAPPWATCHULTRA:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPAD105:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPAD97:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPADPRO129:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPADPRO3GEN11:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPADPRO3GEN129:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE40:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE47:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE55:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE58:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE61:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE65:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayTypeIMESSAGEAPPIPHONE67:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets.
+const (
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets = "appCustomProductPageLocalization"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots                                 AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets = "appScreenshots"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization                    AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionLocalization"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType                          AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets = "screenshotDisplayType"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets enum.
+func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations.
+const (
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets    AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion   AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "appStoreVersion"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription       AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "description"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords          AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "keywords"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale            AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "locale"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl      AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "marketingUrl"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements        AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "placements"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText   AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "promotionalText"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords    AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "searchKeywords"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl        AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "supportUrl"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew          AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations = "whatsNew"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations enum.
+func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsAppStoreVersion:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsDescription:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsKeywords:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsMarketingUrl:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPlacements:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSearchKeywords:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsSupportUrl:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizationsWhatsNew:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots.
+const (
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAppScreenshotSet   AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "appScreenshotSet"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAssetDeliveryState AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "assetDeliveryState"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAssetToken         AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "assetToken"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAssetType          AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "assetType"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsFileName           AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "fileName"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsFileSize           AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "fileSize"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsImageAsset         AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "imageAsset"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsSourceFileChecksum AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "sourceFileChecksum"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsUploadOperations   AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots enum.
+func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAppScreenshotSet:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAssetDeliveryState:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAssetToken:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsAssetType:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsFileName:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsFileSize:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsImageAsset:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsSourceFileChecksum:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude.
+const (
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppScreenshots                                 AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude = "appScreenshots"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude enum.
+func (e AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppScreenshots:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
 		return true
 	default:
 		return false
@@ -29941,6 +31585,75 @@ type AppCustomProductPageRelationshipsAppCustomProductPageVersionsDataType strin
 // AppCustomProductPageType defines model for AppCustomProductPage.Type.
 type AppCustomProductPageType string
 
+// AppCustomProductPageLocalization defines model for AppCustomProductPageLocalization.
+type AppCustomProductPageLocalization struct {
+	Attributes *struct {
+		Locale          *string `json:"locale,omitempty"`
+		PromotionalText *string `json:"promotionalText,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppCustomProductPageVersion *struct {
+			Data *struct {
+				Id   string                                                                           `json:"id"`
+				Type AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appCustomProductPageVersion,omitempty"`
+		AppPreviewSets *struct {
+			Data *[]struct {
+				Id   string                                                              `json:"id"`
+				Type AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"appPreviewSets,omitempty"`
+		AppScreenshotSets *struct {
+			Data *[]struct {
+				Id   string                                                                 `json:"id"`
+				Type AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"appScreenshotSets,omitempty"`
+		Placements *struct {
+			Data *[]struct {
+				Id   string                                                          `json:"id"`
+				Type AppCustomProductPageLocalizationRelationshipsPlacementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"placements,omitempty"`
+		SearchKeywords *struct {
+			Data *[]struct {
+				Id   string                                                              `json:"id"`
+				Type AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"searchKeywords,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppCustomProductPageLocalizationType `json:"type"`
+}
+
+// AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType defines model for AppCustomProductPageLocalization.Relationships.AppCustomProductPageVersion.Data.Type.
+type AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType string
+
+// AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataType defines model for AppCustomProductPageLocalization.Relationships.AppPreviewSets.Data.Type.
+type AppCustomProductPageLocalizationRelationshipsAppPreviewSetsDataType string
+
+// AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataType defines model for AppCustomProductPageLocalization.Relationships.AppScreenshotSets.Data.Type.
+type AppCustomProductPageLocalizationRelationshipsAppScreenshotSetsDataType string
+
+// AppCustomProductPageLocalizationRelationshipsPlacementsDataType defines model for AppCustomProductPageLocalization.Relationships.Placements.Data.Type.
+type AppCustomProductPageLocalizationRelationshipsPlacementsDataType string
+
+// AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType defines model for AppCustomProductPageLocalization.Relationships.SearchKeywords.Data.Type.
+type AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType string
+
+// AppCustomProductPageLocalizationType defines model for AppCustomProductPageLocalization.Type.
+type AppCustomProductPageLocalizationType string
+
 // AppCustomProductPageVersion defines model for AppCustomProductPageVersion.
 type AppCustomProductPageVersion struct {
 	Attributes *struct {
@@ -30534,6 +32247,84 @@ type AppMediaStateError struct {
 	Description *string `json:"description,omitempty"`
 }
 
+// AppMediaVideoState defines model for AppMediaVideoState.
+type AppMediaVideoState struct {
+	Errors   *[]AppMediaStateError    `json:"errors,omitempty"`
+	State    *AppMediaVideoStateState `json:"state,omitempty"`
+	Warnings *[]AppMediaStateError    `json:"warnings,omitempty"`
+}
+
+// AppMediaVideoStateState defines model for AppMediaVideoState.State.
+type AppMediaVideoStateState string
+
+// AppPreview defines model for AppPreview.
+type AppPreview struct {
+	Attributes *struct {
+		AssetDeliveryState   *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		FileName             *string             `json:"fileName,omitempty"`
+		FileSize             *int                `json:"fileSize,omitempty"`
+		MimeType             *string             `json:"mimeType,omitempty"`
+		PreviewFrameImage    *PreviewFrameImage  `json:"previewFrameImage,omitempty"`
+		PreviewFrameTimeCode *string             `json:"previewFrameTimeCode,omitempty"`
+		PreviewImage         *ImageAsset         `json:"previewImage,omitempty"`
+		SourceFileChecksum   *string             `json:"sourceFileChecksum,omitempty"`
+		UploadOperations     *[]UploadOperation  `json:"uploadOperations,omitempty"`
+		VideoDeliveryState   *AppMediaVideoState `json:"videoDeliveryState,omitempty"`
+		VideoUrl             *string             `json:"videoUrl,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppPreviewSet *struct {
+			Data *struct {
+				Id   string                                       `json:"id"`
+				Type AppPreviewRelationshipsAppPreviewSetDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appPreviewSet,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppPreviewType `json:"type"`
+}
+
+// AppPreviewRelationshipsAppPreviewSetDataType defines model for AppPreview.Relationships.AppPreviewSet.Data.Type.
+type AppPreviewRelationshipsAppPreviewSetDataType string
+
+// AppPreviewType defines model for AppPreview.Type.
+type AppPreviewType string
+
+// AppPreviewCreateRequest defines model for AppPreviewCreateRequest.
+type AppPreviewCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName             string  `json:"fileName"`
+			FileSize             int     `json:"fileSize"`
+			MimeType             *string `json:"mimeType,omitempty"`
+			PreviewFrameTimeCode *string `json:"previewFrameTimeCode,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppPreviewSet struct {
+				Data struct {
+					Id   string                                                        `json:"id"`
+					Type AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appPreviewSet"`
+		} `json:"relationships"`
+		Type AppPreviewCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataType defines model for AppPreviewCreateRequest.Data.Relationships.AppPreviewSet.Data.Type.
+type AppPreviewCreateRequestDataRelationshipsAppPreviewSetDataType string
+
+// AppPreviewCreateRequestDataType defines model for AppPreviewCreateRequest.Data.Type.
+type AppPreviewCreateRequestDataType string
+
+// AppPreviewResponse defines model for AppPreviewResponse.
+type AppPreviewResponse struct {
+	Data     AppPreview       `json:"data"`
+	Included *[]AppPreviewSet `json:"included,omitempty"`
+	Links    DocumentLinks    `json:"links"`
+}
+
 // AppPreviewSet defines model for AppPreviewSet.
 type AppPreviewSet struct {
 	Attributes *struct {
@@ -30586,6 +32377,108 @@ type AppPreviewSetRelationshipsAppStoreVersionLocalizationDataType string
 
 // AppPreviewSetType defines model for AppPreviewSet.Type.
 type AppPreviewSetType string
+
+// AppPreviewSetAppPreviewsLinkagesRequest defines model for AppPreviewSetAppPreviewsLinkagesRequest.
+type AppPreviewSetAppPreviewsLinkagesRequest struct {
+	Data []struct {
+		Id   string                                          `json:"id"`
+		Type AppPreviewSetAppPreviewsLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppPreviewSetAppPreviewsLinkagesRequestDataType defines model for AppPreviewSetAppPreviewsLinkagesRequest.Data.Type.
+type AppPreviewSetAppPreviewsLinkagesRequestDataType string
+
+// AppPreviewSetCreateRequest defines model for AppPreviewSetCreateRequest.
+type AppPreviewSetCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			PreviewType PreviewType `json:"previewType"`
+		} `json:"attributes"`
+		Relationships *struct {
+			AppCustomProductPageLocalization *struct {
+				Data *struct {
+					Id   string                                                                              `json:"id"`
+					Type AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appCustomProductPageLocalization,omitempty"`
+			AppStoreVersionExperimentTreatmentLocalization *struct {
+				Data *struct {
+					Id   string                                                                                            `json:"id"`
+					Type AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appStoreVersionExperimentTreatmentLocalization,omitempty"`
+			AppStoreVersionLocalization *struct {
+				Data *struct {
+					Id   string                                                                         `json:"id"`
+					Type AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appStoreVersionLocalization,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type AppPreviewSetCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType defines model for AppPreviewSetCreateRequest.Data.Relationships.AppCustomProductPageLocalization.Data.Type.
+type AppPreviewSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType string
+
+// AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType defines model for AppPreviewSetCreateRequest.Data.Relationships.AppStoreVersionExperimentTreatmentLocalization.Data.Type.
+type AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType string
+
+// AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType defines model for AppPreviewSetCreateRequest.Data.Relationships.AppStoreVersionLocalization.Data.Type.
+type AppPreviewSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType string
+
+// AppPreviewSetCreateRequestDataType defines model for AppPreviewSetCreateRequest.Data.Type.
+type AppPreviewSetCreateRequestDataType string
+
+// AppPreviewSetResponse defines model for AppPreviewSetResponse.
+type AppPreviewSetResponse struct {
+	Data     AppPreviewSet                          `json:"data"`
+	Included *[]AppPreviewSetResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                          `json:"links"`
+}
+
+// AppPreviewSetResponse_Included_Item defines model for AppPreviewSetResponse.included.Item.
+type AppPreviewSetResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppPreviewSetsResponse defines model for AppPreviewSetsResponse.
+type AppPreviewSetsResponse struct {
+	Data     []AppPreviewSet                         `json:"data"`
+	Included *[]AppPreviewSetsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                      `json:"links"`
+	Meta     *PagingInformation                      `json:"meta,omitempty"`
+}
+
+// AppPreviewSetsResponse_Included_Item defines model for AppPreviewSetsResponse.included.Item.
+type AppPreviewSetsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppPreviewUpdateRequest defines model for AppPreviewUpdateRequest.
+type AppPreviewUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			PreviewFrameTimeCode *string `json:"previewFrameTimeCode,omitempty"`
+			SourceFileChecksum   *string `json:"sourceFileChecksum,omitempty"`
+			Uploaded             *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                          `json:"id"`
+		Type AppPreviewUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppPreviewUpdateRequestDataType defines model for AppPreviewUpdateRequest.Data.Type.
+type AppPreviewUpdateRequestDataType string
+
+// AppPreviewsResponse defines model for AppPreviewsResponse.
+type AppPreviewsResponse struct {
+	Data     []AppPreview       `json:"data"`
+	Included *[]AppPreviewSet   `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
 
 // AppPricePointV3 defines model for AppPricePointV3.
 type AppPricePointV3 struct {
@@ -30831,6 +32724,69 @@ type AppResponse_Included_Item struct {
 	union json.RawMessage
 }
 
+// AppScreenshot defines model for AppScreenshot.
+type AppScreenshot struct {
+	Attributes *struct {
+		AssetDeliveryState *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		AssetToken         *string             `json:"assetToken,omitempty"`
+		AssetType          *string             `json:"assetType,omitempty"`
+		FileName           *string             `json:"fileName,omitempty"`
+		FileSize           *int                `json:"fileSize,omitempty"`
+		ImageAsset         *ImageAsset         `json:"imageAsset,omitempty"`
+		SourceFileChecksum *string             `json:"sourceFileChecksum,omitempty"`
+		UploadOperations   *[]UploadOperation  `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppScreenshotSet *struct {
+			Data *struct {
+				Id   string                                             `json:"id"`
+				Type AppScreenshotRelationshipsAppScreenshotSetDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appScreenshotSet,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppScreenshotType `json:"type"`
+}
+
+// AppScreenshotRelationshipsAppScreenshotSetDataType defines model for AppScreenshot.Relationships.AppScreenshotSet.Data.Type.
+type AppScreenshotRelationshipsAppScreenshotSetDataType string
+
+// AppScreenshotType defines model for AppScreenshot.Type.
+type AppScreenshotType string
+
+// AppScreenshotCreateRequest defines model for AppScreenshotCreateRequest.
+type AppScreenshotCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppScreenshotSet struct {
+				Data struct {
+					Id   string                                                              `json:"id"`
+					Type AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appScreenshotSet"`
+		} `json:"relationships"`
+		Type AppScreenshotCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataType defines model for AppScreenshotCreateRequest.Data.Relationships.AppScreenshotSet.Data.Type.
+type AppScreenshotCreateRequestDataRelationshipsAppScreenshotSetDataType string
+
+// AppScreenshotCreateRequestDataType defines model for AppScreenshotCreateRequest.Data.Type.
+type AppScreenshotCreateRequestDataType string
+
+// AppScreenshotResponse defines model for AppScreenshotResponse.
+type AppScreenshotResponse struct {
+	Data     AppScreenshot       `json:"data"`
+	Included *[]AppScreenshotSet `json:"included,omitempty"`
+	Links    DocumentLinks       `json:"links"`
+}
+
 // AppScreenshotSet defines model for AppScreenshotSet.
 type AppScreenshotSet struct {
 	Attributes *struct {
@@ -30883,6 +32839,107 @@ type AppScreenshotSetRelationshipsAppStoreVersionLocalizationDataType string
 
 // AppScreenshotSetType defines model for AppScreenshotSet.Type.
 type AppScreenshotSetType string
+
+// AppScreenshotSetAppScreenshotsLinkagesRequest defines model for AppScreenshotSetAppScreenshotsLinkagesRequest.
+type AppScreenshotSetAppScreenshotsLinkagesRequest struct {
+	Data []struct {
+		Id   string                                                `json:"id"`
+		Type AppScreenshotSetAppScreenshotsLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppScreenshotSetAppScreenshotsLinkagesRequestDataType defines model for AppScreenshotSetAppScreenshotsLinkagesRequest.Data.Type.
+type AppScreenshotSetAppScreenshotsLinkagesRequestDataType string
+
+// AppScreenshotSetCreateRequest defines model for AppScreenshotSetCreateRequest.
+type AppScreenshotSetCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			ScreenshotDisplayType ScreenshotDisplayType `json:"screenshotDisplayType"`
+		} `json:"attributes"`
+		Relationships *struct {
+			AppCustomProductPageLocalization *struct {
+				Data *struct {
+					Id   string                                                                                 `json:"id"`
+					Type AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appCustomProductPageLocalization,omitempty"`
+			AppStoreVersionExperimentTreatmentLocalization *struct {
+				Data *struct {
+					Id   string                                                                                               `json:"id"`
+					Type AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appStoreVersionExperimentTreatmentLocalization,omitempty"`
+			AppStoreVersionLocalization *struct {
+				Data *struct {
+					Id   string                                                                            `json:"id"`
+					Type AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appStoreVersionLocalization,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type AppScreenshotSetCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType defines model for AppScreenshotSetCreateRequest.Data.Relationships.AppCustomProductPageLocalization.Data.Type.
+type AppScreenshotSetCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType string
+
+// AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType defines model for AppScreenshotSetCreateRequest.Data.Relationships.AppStoreVersionExperimentTreatmentLocalization.Data.Type.
+type AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentLocalizationDataType string
+
+// AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType defines model for AppScreenshotSetCreateRequest.Data.Relationships.AppStoreVersionLocalization.Data.Type.
+type AppScreenshotSetCreateRequestDataRelationshipsAppStoreVersionLocalizationDataType string
+
+// AppScreenshotSetCreateRequestDataType defines model for AppScreenshotSetCreateRequest.Data.Type.
+type AppScreenshotSetCreateRequestDataType string
+
+// AppScreenshotSetResponse defines model for AppScreenshotSetResponse.
+type AppScreenshotSetResponse struct {
+	Data     AppScreenshotSet                          `json:"data"`
+	Included *[]AppScreenshotSetResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                             `json:"links"`
+}
+
+// AppScreenshotSetResponse_Included_Item defines model for AppScreenshotSetResponse.included.Item.
+type AppScreenshotSetResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppScreenshotSetsResponse defines model for AppScreenshotSetsResponse.
+type AppScreenshotSetsResponse struct {
+	Data     []AppScreenshotSet                         `json:"data"`
+	Included *[]AppScreenshotSetsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                         `json:"links"`
+	Meta     *PagingInformation                         `json:"meta,omitempty"`
+}
+
+// AppScreenshotSetsResponse_Included_Item defines model for AppScreenshotSetsResponse.included.Item.
+type AppScreenshotSetsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppScreenshotUpdateRequest defines model for AppScreenshotUpdateRequest.
+type AppScreenshotUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			SourceFileChecksum *string `json:"sourceFileChecksum,omitempty"`
+			Uploaded           *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                             `json:"id"`
+		Type AppScreenshotUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppScreenshotUpdateRequestDataType defines model for AppScreenshotUpdateRequest.Data.Type.
+type AppScreenshotUpdateRequestDataType string
+
+// AppScreenshotsResponse defines model for AppScreenshotsResponse.
+type AppScreenshotsResponse struct {
+	Data     []AppScreenshot     `json:"data"`
+	Included *[]AppScreenshotSet `json:"included,omitempty"`
+	Links    PagedDocumentLinks  `json:"links"`
+	Meta     *PagingInformation  `json:"meta,omitempty"`
+}
 
 // AppStoreAgeRating defines model for AppStoreAgeRating.
 type AppStoreAgeRating string
@@ -31300,6 +33357,63 @@ type AppStoreVersionExperimentRelationshipsAppStoreVersionExperimentTreatmentsDa
 
 // AppStoreVersionExperimentType defines model for AppStoreVersionExperiment.Type.
 type AppStoreVersionExperimentType string
+
+// AppStoreVersionExperimentTreatmentLocalization defines model for AppStoreVersionExperimentTreatmentLocalization.
+type AppStoreVersionExperimentTreatmentLocalization struct {
+	Attributes *struct {
+		Locale *string `json:"locale,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppPreviewSets *struct {
+			Data *[]struct {
+				Id   string                                                                            `json:"id"`
+				Type AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"appPreviewSets,omitempty"`
+		AppScreenshotSets *struct {
+			Data *[]struct {
+				Id   string                                                                               `json:"id"`
+				Type AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"appScreenshotSets,omitempty"`
+		AppStoreVersionExperimentTreatment *struct {
+			Data *struct {
+				Id   string                                                                                                `json:"id"`
+				Type AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersionExperimentTreatment,omitempty"`
+		Placements *struct {
+			Data *[]struct {
+				Id   string                                                                        `json:"id"`
+				Type AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"placements,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppStoreVersionExperimentTreatmentLocalizationType `json:"type"`
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType defines model for AppStoreVersionExperimentTreatmentLocalization.Relationships.AppPreviewSets.Data.Type.
+type AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType string
+
+// AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataType defines model for AppStoreVersionExperimentTreatmentLocalization.Relationships.AppScreenshotSets.Data.Type.
+type AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppScreenshotSetsDataType string
+
+// AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataType defines model for AppStoreVersionExperimentTreatmentLocalization.Relationships.AppStoreVersionExperimentTreatment.Data.Type.
+type AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppStoreVersionExperimentTreatmentDataType string
+
+// AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataType defines model for AppStoreVersionExperimentTreatmentLocalization.Relationships.Placements.Data.Type.
+type AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataType string
+
+// AppStoreVersionExperimentTreatmentLocalizationType defines model for AppStoreVersionExperimentTreatmentLocalization.Type.
+type AppStoreVersionExperimentTreatmentLocalizationType string
 
 // AppStoreVersionExperimentV2 defines model for AppStoreVersionExperimentV2.
 type AppStoreVersionExperimentV2 struct {
@@ -36589,6 +38703,72 @@ type AppInfosAppInfoLocalizationsGetToManyRelatedParamsFieldsAppInfos string
 // AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude defines parameters for AppInfosAppInfoLocalizationsGetToManyRelated.
 type AppInfosAppInfoLocalizationsGetToManyRelatedParamsInclude string
 
+// AppPreviewSetsGetInstanceParams defines parameters for AppPreviewSetsGetInstance.
+type AppPreviewSetsGetInstanceParams struct {
+	// FieldsAppPreviewSets the fields to include for returned resources of type appPreviewSets
+	FieldsAppPreviewSets *[]AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets `form:"fields[appPreviewSets],omitempty" json:"fields[appPreviewSets],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// FieldsAppPreviews the fields to include for returned resources of type appPreviews
+	FieldsAppPreviews *[]AppPreviewSetsGetInstanceParamsFieldsAppPreviews `form:"fields[appPreviews],omitempty" json:"fields[appPreviews],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppPreviewSetsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppPreviews maximum number of related appPreviews returned (when they are included)
+	LimitAppPreviews *int `form:"limit[appPreviews],omitempty" json:"limit[appPreviews],omitempty"`
+}
+
+// AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets defines parameters for AppPreviewSetsGetInstance.
+type AppPreviewSetsGetInstanceParamsFieldsAppPreviewSets string
+
+// AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations defines parameters for AppPreviewSetsGetInstance.
+type AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionLocalizations string
+
+// AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations defines parameters for AppPreviewSetsGetInstance.
+type AppPreviewSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations string
+
+// AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppPreviewSetsGetInstance.
+type AppPreviewSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppPreviewSetsGetInstanceParamsFieldsAppPreviews defines parameters for AppPreviewSetsGetInstance.
+type AppPreviewSetsGetInstanceParamsFieldsAppPreviews string
+
+// AppPreviewSetsGetInstanceParamsInclude defines parameters for AppPreviewSetsGetInstance.
+type AppPreviewSetsGetInstanceParamsInclude string
+
+// AppPreviewSetsAppPreviewsGetToManyRelatedParams defines parameters for AppPreviewSetsAppPreviewsGetToManyRelated.
+type AppPreviewSetsAppPreviewsGetToManyRelatedParams struct {
+	// FieldsAppPreviews the fields to include for returned resources of type appPreviews
+	FieldsAppPreviews *[]AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews `form:"fields[appPreviews],omitempty" json:"fields[appPreviews],omitempty"`
+
+	// FieldsAppPreviewSets the fields to include for returned resources of type appPreviewSets
+	FieldsAppPreviewSets *[]AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets `form:"fields[appPreviewSets],omitempty" json:"fields[appPreviewSets],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppPreviewSetsAppPreviewsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews defines parameters for AppPreviewSetsAppPreviewsGetToManyRelated.
+type AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviews string
+
+// AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets defines parameters for AppPreviewSetsAppPreviewsGetToManyRelated.
+type AppPreviewSetsAppPreviewsGetToManyRelatedParamsFieldsAppPreviewSets string
+
+// AppPreviewSetsAppPreviewsGetToManyRelatedParamsInclude defines parameters for AppPreviewSetsAppPreviewsGetToManyRelated.
+type AppPreviewSetsAppPreviewsGetToManyRelatedParamsInclude string
+
 // AppPriceSchedulesBaseTerritoryGetToOneRelatedParams defines parameters for AppPriceSchedulesBaseTerritoryGetToOneRelated.
 type AppPriceSchedulesBaseTerritoryGetToOneRelatedParams struct {
 	// FieldsTerritories the fields to include for returned resources of type territories
@@ -36636,6 +38816,186 @@ type AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories string
 
 // AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude defines parameters for AppPriceSchedulesManualPricesGetToManyRelated.
 type AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude string
+
+// AppScreenshotSetsGetInstanceParams defines parameters for AppScreenshotSetsGetInstance.
+type AppScreenshotSetsGetInstanceParams struct {
+	// FieldsAppScreenshotSets the fields to include for returned resources of type appScreenshotSets
+	FieldsAppScreenshotSets *[]AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets `form:"fields[appScreenshotSets],omitempty" json:"fields[appScreenshotSets],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// FieldsAppScreenshots the fields to include for returned resources of type appScreenshots
+	FieldsAppScreenshots *[]AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots `form:"fields[appScreenshots],omitempty" json:"fields[appScreenshots],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppScreenshotSetsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppScreenshots maximum number of related appScreenshots returned (when they are included)
+	LimitAppScreenshots *int `form:"limit[appScreenshots],omitempty" json:"limit[appScreenshots],omitempty"`
+}
+
+// AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets defines parameters for AppScreenshotSetsGetInstance.
+type AppScreenshotSetsGetInstanceParamsFieldsAppScreenshotSets string
+
+// AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations defines parameters for AppScreenshotSetsGetInstance.
+type AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionLocalizations string
+
+// AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations defines parameters for AppScreenshotSetsGetInstance.
+type AppScreenshotSetsGetInstanceParamsFieldsAppCustomProductPageLocalizations string
+
+// AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppScreenshotSetsGetInstance.
+type AppScreenshotSetsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots defines parameters for AppScreenshotSetsGetInstance.
+type AppScreenshotSetsGetInstanceParamsFieldsAppScreenshots string
+
+// AppScreenshotSetsGetInstanceParamsInclude defines parameters for AppScreenshotSetsGetInstance.
+type AppScreenshotSetsGetInstanceParamsInclude string
+
+// AppScreenshotSetsAppScreenshotsGetToManyRelatedParams defines parameters for AppScreenshotSetsAppScreenshotsGetToManyRelated.
+type AppScreenshotSetsAppScreenshotsGetToManyRelatedParams struct {
+	// FieldsAppScreenshots the fields to include for returned resources of type appScreenshots
+	FieldsAppScreenshots *[]AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots `form:"fields[appScreenshots],omitempty" json:"fields[appScreenshots],omitempty"`
+
+	// FieldsAppScreenshotSets the fields to include for returned resources of type appScreenshotSets
+	FieldsAppScreenshotSets *[]AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets `form:"fields[appScreenshotSets],omitempty" json:"fields[appScreenshotSets],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots defines parameters for AppScreenshotSetsAppScreenshotsGetToManyRelated.
+type AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshots string
+
+// AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets defines parameters for AppScreenshotSetsAppScreenshotsGetToManyRelated.
+type AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSets string
+
+// AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude defines parameters for AppScreenshotSetsAppScreenshotsGetToManyRelated.
+type AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude string
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams struct {
+	// FilterPreviewType filter by attribute 'previewType'
+	FilterPreviewType *[]AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType `form:"filter[previewType],omitempty" json:"filter[previewType],omitempty"`
+
+	// FilterAppCustomProductPageLocalization filter by id(s) of related 'appCustomProductPageLocalization'
+	FilterAppCustomProductPageLocalization *[]string `form:"filter[appCustomProductPageLocalization],omitempty" json:"filter[appCustomProductPageLocalization],omitempty"`
+
+	// FilterAppStoreVersionExperimentTreatmentLocalization filter by id(s) of related 'appStoreVersionExperimentTreatmentLocalization'
+	FilterAppStoreVersionExperimentTreatmentLocalization *[]string `form:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty" json:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty"`
+
+	// FieldsAppPreviewSets the fields to include for returned resources of type appPreviewSets
+	FieldsAppPreviewSets *[]AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets `form:"fields[appPreviewSets],omitempty" json:"fields[appPreviewSets],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// FieldsAppPreviews the fields to include for returned resources of type appPreviews
+	FieldsAppPreviews *[]AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews `form:"fields[appPreviews],omitempty" json:"fields[appPreviews],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppPreviews maximum number of related appPreviews returned (when they are included)
+	LimitAppPreviews *int `form:"limit[appPreviews],omitempty" json:"limit[appPreviews],omitempty"`
+}
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFilterPreviewType string
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviewSets string
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations string
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsFieldsAppPreviews string
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParamsInclude string
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams struct {
+	// FilterScreenshotDisplayType filter by attribute 'screenshotDisplayType'
+	FilterScreenshotDisplayType *[]AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType `form:"filter[screenshotDisplayType],omitempty" json:"filter[screenshotDisplayType],omitempty"`
+
+	// FilterAppCustomProductPageLocalization filter by id(s) of related 'appCustomProductPageLocalization'
+	FilterAppCustomProductPageLocalization *[]string `form:"filter[appCustomProductPageLocalization],omitempty" json:"filter[appCustomProductPageLocalization],omitempty"`
+
+	// FilterAppStoreVersionExperimentTreatmentLocalization filter by id(s) of related 'appStoreVersionExperimentTreatmentLocalization'
+	FilterAppStoreVersionExperimentTreatmentLocalization *[]string `form:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty" json:"filter[appStoreVersionExperimentTreatmentLocalization],omitempty"`
+
+	// FieldsAppScreenshotSets the fields to include for returned resources of type appScreenshotSets
+	FieldsAppScreenshotSets *[]AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets `form:"fields[appScreenshotSets],omitempty" json:"fields[appScreenshotSets],omitempty"`
+
+	// FieldsAppStoreVersionLocalizations the fields to include for returned resources of type appStoreVersionLocalizations
+	FieldsAppStoreVersionLocalizations *[]AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations `form:"fields[appStoreVersionLocalizations],omitempty" json:"fields[appStoreVersionLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// FieldsAppScreenshots the fields to include for returned resources of type appScreenshots
+	FieldsAppScreenshots *[]AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots `form:"fields[appScreenshots],omitempty" json:"fields[appScreenshots],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppScreenshots maximum number of related appScreenshots returned (when they are included)
+	LimitAppScreenshots *int `form:"limit[appScreenshots],omitempty" json:"limit[appScreenshots],omitempty"`
+}
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFilterScreenshotDisplayType string
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshotSets string
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionLocalizations string
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsFieldsAppScreenshots string
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated.
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParamsInclude string
 
 // AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated.
 type AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams struct {
@@ -39454,8 +41814,32 @@ type AppInfoLocalizationsUpdateInstanceJSONRequestBody = AppInfoLocalizationUpda
 // AppInfosUpdateInstanceJSONRequestBody defines body for AppInfosUpdateInstance for application/json ContentType.
 type AppInfosUpdateInstanceJSONRequestBody = AppInfoUpdateRequest
 
+// AppPreviewSetsCreateInstanceJSONRequestBody defines body for AppPreviewSetsCreateInstance for application/json ContentType.
+type AppPreviewSetsCreateInstanceJSONRequestBody = AppPreviewSetCreateRequest
+
+// AppPreviewSetsAppPreviewsReplaceToManyRelationshipJSONRequestBody defines body for AppPreviewSetsAppPreviewsReplaceToManyRelationship for application/json ContentType.
+type AppPreviewSetsAppPreviewsReplaceToManyRelationshipJSONRequestBody = AppPreviewSetAppPreviewsLinkagesRequest
+
+// AppPreviewsCreateInstanceJSONRequestBody defines body for AppPreviewsCreateInstance for application/json ContentType.
+type AppPreviewsCreateInstanceJSONRequestBody = AppPreviewCreateRequest
+
+// AppPreviewsUpdateInstanceJSONRequestBody defines body for AppPreviewsUpdateInstance for application/json ContentType.
+type AppPreviewsUpdateInstanceJSONRequestBody = AppPreviewUpdateRequest
+
 // AppPriceSchedulesCreateInstanceJSONRequestBody defines body for AppPriceSchedulesCreateInstance for application/json ContentType.
 type AppPriceSchedulesCreateInstanceJSONRequestBody = AppPriceScheduleCreateRequest
+
+// AppScreenshotSetsCreateInstanceJSONRequestBody defines body for AppScreenshotSetsCreateInstance for application/json ContentType.
+type AppScreenshotSetsCreateInstanceJSONRequestBody = AppScreenshotSetCreateRequest
+
+// AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipJSONRequestBody defines body for AppScreenshotSetsAppScreenshotsReplaceToManyRelationship for application/json ContentType.
+type AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipJSONRequestBody = AppScreenshotSetAppScreenshotsLinkagesRequest
+
+// AppScreenshotsCreateInstanceJSONRequestBody defines body for AppScreenshotsCreateInstance for application/json ContentType.
+type AppScreenshotsCreateInstanceJSONRequestBody = AppScreenshotCreateRequest
+
+// AppScreenshotsUpdateInstanceJSONRequestBody defines body for AppScreenshotsUpdateInstance for application/json ContentType.
+type AppScreenshotsUpdateInstanceJSONRequestBody = AppScreenshotUpdateRequest
 
 // AppStoreReviewDetailsCreateInstanceJSONRequestBody defines body for AppStoreReviewDetailsCreateInstance for application/json ContentType.
 type AppStoreReviewDetailsCreateInstanceJSONRequestBody = AppStoreReviewDetailCreateRequest
@@ -40926,6 +43310,352 @@ func (t *AppInfosResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsAppCustomProductPageLocalization returns the union data inside the AppPreviewSetResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppPreviewSetResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppPreviewSetResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppPreviewSetResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppPreviewSetResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppPreviewSetResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppPreview returns the union data inside the AppPreviewSetResponse_Included_Item as a AppPreview
+func (t AppPreviewSetResponse_Included_Item) AsAppPreview() (AppPreview, error) {
+	var body AppPreview
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPreview overwrites any union data inside the AppPreviewSetResponse_Included_Item as the provided AppPreview
+func (t *AppPreviewSetResponse_Included_Item) FromAppPreview(v AppPreview) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviews"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPreview performs a merge with any union data inside the AppPreviewSetResponse_Included_Item, using the provided AppPreview
+func (t *AppPreviewSetResponse_Included_Item) MergeAppPreview(v AppPreview) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviews"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatmentLocalization returns the union data inside the AppPreviewSetResponse_Included_Item as a AppStoreVersionExperimentTreatmentLocalization
+func (t AppPreviewSetResponse_Included_Item) AsAppStoreVersionExperimentTreatmentLocalization() (AppStoreVersionExperimentTreatmentLocalization, error) {
+	var body AppStoreVersionExperimentTreatmentLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatmentLocalization overwrites any union data inside the AppPreviewSetResponse_Included_Item as the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppPreviewSetResponse_Included_Item) FromAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatmentLocalization performs a merge with any union data inside the AppPreviewSetResponse_Included_Item, using the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppPreviewSetResponse_Included_Item) MergeAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionLocalization returns the union data inside the AppPreviewSetResponse_Included_Item as a AppStoreVersionLocalization
+func (t AppPreviewSetResponse_Included_Item) AsAppStoreVersionLocalization() (AppStoreVersionLocalization, error) {
+	var body AppStoreVersionLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionLocalization overwrites any union data inside the AppPreviewSetResponse_Included_Item as the provided AppStoreVersionLocalization
+func (t *AppPreviewSetResponse_Included_Item) FromAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionLocalization performs a merge with any union data inside the AppPreviewSetResponse_Included_Item, using the provided AppStoreVersionLocalization
+func (t *AppPreviewSetResponse_Included_Item) MergeAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppPreviewSetResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppPreviewSetResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appPreviews":
+		return t.AsAppPreview()
+	case "appStoreVersionExperimentTreatmentLocalizations":
+		return t.AsAppStoreVersionExperimentTreatmentLocalization()
+	case "appStoreVersionLocalizations":
+		return t.AsAppStoreVersionLocalization()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppPreviewSetResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppPreviewSetResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppPreviewSetsResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppPreviewSetsResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppPreviewSetsResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppPreviewSetsResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppPreviewSetsResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppPreviewSetsResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppPreview returns the union data inside the AppPreviewSetsResponse_Included_Item as a AppPreview
+func (t AppPreviewSetsResponse_Included_Item) AsAppPreview() (AppPreview, error) {
+	var body AppPreview
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPreview overwrites any union data inside the AppPreviewSetsResponse_Included_Item as the provided AppPreview
+func (t *AppPreviewSetsResponse_Included_Item) FromAppPreview(v AppPreview) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviews"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPreview performs a merge with any union data inside the AppPreviewSetsResponse_Included_Item, using the provided AppPreview
+func (t *AppPreviewSetsResponse_Included_Item) MergeAppPreview(v AppPreview) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviews"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatmentLocalization returns the union data inside the AppPreviewSetsResponse_Included_Item as a AppStoreVersionExperimentTreatmentLocalization
+func (t AppPreviewSetsResponse_Included_Item) AsAppStoreVersionExperimentTreatmentLocalization() (AppStoreVersionExperimentTreatmentLocalization, error) {
+	var body AppStoreVersionExperimentTreatmentLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatmentLocalization overwrites any union data inside the AppPreviewSetsResponse_Included_Item as the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppPreviewSetsResponse_Included_Item) FromAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatmentLocalization performs a merge with any union data inside the AppPreviewSetsResponse_Included_Item, using the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppPreviewSetsResponse_Included_Item) MergeAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionLocalization returns the union data inside the AppPreviewSetsResponse_Included_Item as a AppStoreVersionLocalization
+func (t AppPreviewSetsResponse_Included_Item) AsAppStoreVersionLocalization() (AppStoreVersionLocalization, error) {
+	var body AppStoreVersionLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionLocalization overwrites any union data inside the AppPreviewSetsResponse_Included_Item as the provided AppStoreVersionLocalization
+func (t *AppPreviewSetsResponse_Included_Item) FromAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionLocalization performs a merge with any union data inside the AppPreviewSetsResponse_Included_Item, using the provided AppStoreVersionLocalization
+func (t *AppPreviewSetsResponse_Included_Item) MergeAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppPreviewSetsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppPreviewSetsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appPreviews":
+		return t.AsAppPreview()
+	case "appStoreVersionExperimentTreatmentLocalizations":
+		return t.AsAppStoreVersionExperimentTreatmentLocalization()
+	case "appStoreVersionLocalizations":
+		return t.AsAppStoreVersionLocalization()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppPreviewSetsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppPreviewSetsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsApp returns the union data inside the AppPricePointsV3Response_Included_Item as a App
 func (t AppPricePointsV3Response_Included_Item) AsApp() (App, error) {
 	var body App
@@ -42216,6 +44946,352 @@ func (t AppResponse_Included_Item) MarshalJSON() ([]byte, error) {
 }
 
 func (t *AppResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppScreenshotSetResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppScreenshotSetResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppScreenshotSetResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppScreenshotSetResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppScreenshotSetResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppScreenshotSetResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppScreenshot returns the union data inside the AppScreenshotSetResponse_Included_Item as a AppScreenshot
+func (t AppScreenshotSetResponse_Included_Item) AsAppScreenshot() (AppScreenshot, error) {
+	var body AppScreenshot
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppScreenshot overwrites any union data inside the AppScreenshotSetResponse_Included_Item as the provided AppScreenshot
+func (t *AppScreenshotSetResponse_Included_Item) FromAppScreenshot(v AppScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshots"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppScreenshot performs a merge with any union data inside the AppScreenshotSetResponse_Included_Item, using the provided AppScreenshot
+func (t *AppScreenshotSetResponse_Included_Item) MergeAppScreenshot(v AppScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshots"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatmentLocalization returns the union data inside the AppScreenshotSetResponse_Included_Item as a AppStoreVersionExperimentTreatmentLocalization
+func (t AppScreenshotSetResponse_Included_Item) AsAppStoreVersionExperimentTreatmentLocalization() (AppStoreVersionExperimentTreatmentLocalization, error) {
+	var body AppStoreVersionExperimentTreatmentLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatmentLocalization overwrites any union data inside the AppScreenshotSetResponse_Included_Item as the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppScreenshotSetResponse_Included_Item) FromAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatmentLocalization performs a merge with any union data inside the AppScreenshotSetResponse_Included_Item, using the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppScreenshotSetResponse_Included_Item) MergeAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionLocalization returns the union data inside the AppScreenshotSetResponse_Included_Item as a AppStoreVersionLocalization
+func (t AppScreenshotSetResponse_Included_Item) AsAppStoreVersionLocalization() (AppStoreVersionLocalization, error) {
+	var body AppStoreVersionLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionLocalization overwrites any union data inside the AppScreenshotSetResponse_Included_Item as the provided AppStoreVersionLocalization
+func (t *AppScreenshotSetResponse_Included_Item) FromAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionLocalization performs a merge with any union data inside the AppScreenshotSetResponse_Included_Item, using the provided AppStoreVersionLocalization
+func (t *AppScreenshotSetResponse_Included_Item) MergeAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppScreenshotSetResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppScreenshotSetResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appScreenshots":
+		return t.AsAppScreenshot()
+	case "appStoreVersionExperimentTreatmentLocalizations":
+		return t.AsAppStoreVersionExperimentTreatmentLocalization()
+	case "appStoreVersionLocalizations":
+		return t.AsAppStoreVersionLocalization()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppScreenshotSetResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppScreenshotSetResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppScreenshotSetsResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppScreenshotSetsResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppScreenshotSetsResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppScreenshotSetsResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppScreenshotSetsResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppScreenshotSetsResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppScreenshot returns the union data inside the AppScreenshotSetsResponse_Included_Item as a AppScreenshot
+func (t AppScreenshotSetsResponse_Included_Item) AsAppScreenshot() (AppScreenshot, error) {
+	var body AppScreenshot
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppScreenshot overwrites any union data inside the AppScreenshotSetsResponse_Included_Item as the provided AppScreenshot
+func (t *AppScreenshotSetsResponse_Included_Item) FromAppScreenshot(v AppScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshots"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppScreenshot performs a merge with any union data inside the AppScreenshotSetsResponse_Included_Item, using the provided AppScreenshot
+func (t *AppScreenshotSetsResponse_Included_Item) MergeAppScreenshot(v AppScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshots"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatmentLocalization returns the union data inside the AppScreenshotSetsResponse_Included_Item as a AppStoreVersionExperimentTreatmentLocalization
+func (t AppScreenshotSetsResponse_Included_Item) AsAppStoreVersionExperimentTreatmentLocalization() (AppStoreVersionExperimentTreatmentLocalization, error) {
+	var body AppStoreVersionExperimentTreatmentLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatmentLocalization overwrites any union data inside the AppScreenshotSetsResponse_Included_Item as the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppScreenshotSetsResponse_Included_Item) FromAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatmentLocalization performs a merge with any union data inside the AppScreenshotSetsResponse_Included_Item, using the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppScreenshotSetsResponse_Included_Item) MergeAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionLocalization returns the union data inside the AppScreenshotSetsResponse_Included_Item as a AppStoreVersionLocalization
+func (t AppScreenshotSetsResponse_Included_Item) AsAppStoreVersionLocalization() (AppStoreVersionLocalization, error) {
+	var body AppStoreVersionLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionLocalization overwrites any union data inside the AppScreenshotSetsResponse_Included_Item as the provided AppStoreVersionLocalization
+func (t *AppScreenshotSetsResponse_Included_Item) FromAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionLocalization performs a merge with any union data inside the AppScreenshotSetsResponse_Included_Item, using the provided AppStoreVersionLocalization
+func (t *AppScreenshotSetsResponse_Included_Item) MergeAppStoreVersionLocalization(v AppStoreVersionLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppScreenshotSetsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppScreenshotSetsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appScreenshots":
+		return t.AsAppScreenshot()
+	case "appStoreVersionExperimentTreatmentLocalizations":
+		return t.AsAppStoreVersionExperimentTreatmentLocalization()
+	case "appStoreVersionLocalizations":
+		return t.AsAppStoreVersionLocalization()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppScreenshotSetsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppScreenshotSetsResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -48332,6 +51408,50 @@ type ClientInterface interface {
 	// AppInfosAppInfoLocalizationsGetToManyRelated performs a GET /v1/appInfos/{id}/appInfoLocalizations (the `AppInfosAppInfoLocalizationsGetToManyRelated` operationId) request.
 	AppInfosAppInfoLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppPreviewSetsCreateInstanceWithBody performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppPreviewSetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewSetsCreateInstance performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppPreviewSetsCreateInstance(ctx context.Context, body AppPreviewSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewSetsDeleteInstance performs a DELETE /v1/appPreviewSets/{id} (the `AppPreviewSetsDeleteInstance` operationId) request.
+	AppPreviewSetsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewSetsGetInstance performs a GET /v1/appPreviewSets/{id} (the `AppPreviewSetsGetInstance` operationId) request.
+	AppPreviewSetsGetInstance(ctx context.Context, id string, params *AppPreviewSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewSetsAppPreviewsGetToManyRelated performs a GET /v1/appPreviewSets/{id}/appPreviews (the `AppPreviewSetsAppPreviewsGetToManyRelated` operationId) request.
+	AppPreviewSetsAppPreviewsGetToManyRelated(ctx context.Context, id string, params *AppPreviewSetsAppPreviewsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBody performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewSetsAppPreviewsReplaceToManyRelationship performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppPreviewSetsAppPreviewsReplaceToManyRelationship(ctx context.Context, id string, body AppPreviewSetsAppPreviewsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewsCreateInstanceWithBody performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppPreviewsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewsCreateInstance performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppPreviewsCreateInstance(ctx context.Context, body AppPreviewsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewsDeleteInstance performs a DELETE /v1/appPreviews/{id} (the `AppPreviewsDeleteInstance` operationId) request.
+	AppPreviewsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewsUpdateInstanceWithBody performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppPreviewsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppPreviewsUpdateInstance performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppPreviewsUpdateInstance(ctx context.Context, id string, body AppPreviewsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppPriceSchedulesCreateInstanceWithBody performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppPriceSchedulesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -48345,6 +51465,50 @@ type ClientInterface interface {
 
 	// AppPriceSchedulesManualPricesGetToManyRelated performs a GET /v1/appPriceSchedules/{id}/manualPrices (the `AppPriceSchedulesManualPricesGetToManyRelated` operationId) request.
 	AppPriceSchedulesManualPricesGetToManyRelated(ctx context.Context, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotSetsCreateInstanceWithBody performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppScreenshotSetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotSetsCreateInstance performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppScreenshotSetsCreateInstance(ctx context.Context, body AppScreenshotSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotSetsDeleteInstance performs a DELETE /v1/appScreenshotSets/{id} (the `AppScreenshotSetsDeleteInstance` operationId) request.
+	AppScreenshotSetsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotSetsGetInstance performs a GET /v1/appScreenshotSets/{id} (the `AppScreenshotSetsGetInstance` operationId) request.
+	AppScreenshotSetsGetInstance(ctx context.Context, id string, params *AppScreenshotSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotSetsAppScreenshotsGetToManyRelated performs a GET /v1/appScreenshotSets/{id}/appScreenshots (the `AppScreenshotSetsAppScreenshotsGetToManyRelated` operationId) request.
+	AppScreenshotSetsAppScreenshotsGetToManyRelated(ctx context.Context, id string, params *AppScreenshotSetsAppScreenshotsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBody performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotSetsAppScreenshotsReplaceToManyRelationship performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppScreenshotSetsAppScreenshotsReplaceToManyRelationship(ctx context.Context, id string, body AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotsCreateInstanceWithBody performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppScreenshotsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotsCreateInstance performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppScreenshotsCreateInstance(ctx context.Context, body AppScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotsDeleteInstance performs a DELETE /v1/appScreenshots/{id} (the `AppScreenshotsDeleteInstance` operationId) request.
+	AppScreenshotsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotsUpdateInstanceWithBody performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppScreenshotsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppScreenshotsUpdateInstance performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppScreenshotsUpdateInstance(ctx context.Context, id string, body AppScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppStoreReviewDetailsCreateInstanceWithBody performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -48380,6 +51544,12 @@ type ClientInterface interface {
 	// AppStoreVersionLocalizationsUpdateInstance performs a PATCH /v1/appStoreVersionLocalizations/{id} (the `AppStoreVersionLocalizationsUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	AppStoreVersionLocalizationsUpdateInstance(ctx context.Context, id string, body AppStoreVersionLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/appPreviewSets (the `AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated` operationId) request.
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets (the `AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated` operationId) request.
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -49520,6 +52690,170 @@ func (c *Client) AppInfosAppInfoLocalizationsGetToManyRelated(ctx context.Contex
 	return c.Client.Do(req)
 }
 
+// AppPreviewSetsCreateInstanceWithBody performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppPreviewSetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewSetsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewSetsCreateInstance performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppPreviewSetsCreateInstance(ctx context.Context, body AppPreviewSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewSetsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewSetsDeleteInstance performs a DELETE /v1/appPreviewSets/{id} (the `AppPreviewSetsDeleteInstance` operationId) request.
+func (c *Client) AppPreviewSetsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewSetsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewSetsGetInstance performs a GET /v1/appPreviewSets/{id} (the `AppPreviewSetsGetInstance` operationId) request.
+func (c *Client) AppPreviewSetsGetInstance(ctx context.Context, id string, params *AppPreviewSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewSetsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewSetsAppPreviewsGetToManyRelated performs a GET /v1/appPreviewSets/{id}/appPreviews (the `AppPreviewSetsAppPreviewsGetToManyRelated` operationId) request.
+func (c *Client) AppPreviewSetsAppPreviewsGetToManyRelated(ctx context.Context, id string, params *AppPreviewSetsAppPreviewsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewSetsAppPreviewsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBody performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewSetsAppPreviewsReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewSetsAppPreviewsReplaceToManyRelationship performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppPreviewSetsAppPreviewsReplaceToManyRelationship(ctx context.Context, id string, body AppPreviewSetsAppPreviewsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewSetsAppPreviewsReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewsCreateInstanceWithBody performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppPreviewsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewsCreateInstance performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppPreviewsCreateInstance(ctx context.Context, body AppPreviewsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewsDeleteInstance performs a DELETE /v1/appPreviews/{id} (the `AppPreviewsDeleteInstance` operationId) request.
+func (c *Client) AppPreviewsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewsUpdateInstanceWithBody performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppPreviewsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppPreviewsUpdateInstance performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppPreviewsUpdateInstance(ctx context.Context, id string, body AppPreviewsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppPreviewsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppPriceSchedulesCreateInstanceWithBody performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) AppPriceSchedulesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -49564,6 +52898,170 @@ func (c *Client) AppPriceSchedulesBaseTerritoryGetToOneRelated(ctx context.Conte
 // AppPriceSchedulesManualPricesGetToManyRelated performs a GET /v1/appPriceSchedules/{id}/manualPrices (the `AppPriceSchedulesManualPricesGetToManyRelated` operationId) request.
 func (c *Client) AppPriceSchedulesManualPricesGetToManyRelated(ctx context.Context, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppPriceSchedulesManualPricesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotSetsCreateInstanceWithBody performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppScreenshotSetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotSetsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotSetsCreateInstance performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppScreenshotSetsCreateInstance(ctx context.Context, body AppScreenshotSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotSetsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotSetsDeleteInstance performs a DELETE /v1/appScreenshotSets/{id} (the `AppScreenshotSetsDeleteInstance` operationId) request.
+func (c *Client) AppScreenshotSetsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotSetsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotSetsGetInstance performs a GET /v1/appScreenshotSets/{id} (the `AppScreenshotSetsGetInstance` operationId) request.
+func (c *Client) AppScreenshotSetsGetInstance(ctx context.Context, id string, params *AppScreenshotSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotSetsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotSetsAppScreenshotsGetToManyRelated performs a GET /v1/appScreenshotSets/{id}/appScreenshots (the `AppScreenshotSetsAppScreenshotsGetToManyRelated` operationId) request.
+func (c *Client) AppScreenshotSetsAppScreenshotsGetToManyRelated(ctx context.Context, id string, params *AppScreenshotSetsAppScreenshotsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotSetsAppScreenshotsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBody performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotSetsAppScreenshotsReplaceToManyRelationship performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppScreenshotSetsAppScreenshotsReplaceToManyRelationship(ctx context.Context, id string, body AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotsCreateInstanceWithBody performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppScreenshotsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotsCreateInstance performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppScreenshotsCreateInstance(ctx context.Context, body AppScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotsDeleteInstance performs a DELETE /v1/appScreenshots/{id} (the `AppScreenshotsDeleteInstance` operationId) request.
+func (c *Client) AppScreenshotsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotsUpdateInstanceWithBody performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppScreenshotsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppScreenshotsUpdateInstance performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppScreenshotsUpdateInstance(ctx context.Context, id string, body AppScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppScreenshotsUpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -49689,6 +53187,32 @@ func (c *Client) AppStoreVersionLocalizationsUpdateInstanceWithBody(ctx context.
 // Takes a body of the `application/json` content type.
 func (c *Client) AppStoreVersionLocalizationsUpdateInstance(ctx context.Context, id string, body AppStoreVersionLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionLocalizationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/appPreviewSets (the `AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated` operationId) request.
+func (c *Client) AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets (the `AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated` operationId) request.
+func (c *Client) AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -53622,6 +57146,478 @@ func NewAppInfosAppInfoLocalizationsGetToManyRelatedRequest(server string, id st
 	return req, nil
 }
 
+// NewAppPreviewSetsCreateInstanceRequest calls the generic AppPreviewSetsCreateInstance builder with application/json body
+func NewAppPreviewSetsCreateInstanceRequest(server string, body AppPreviewSetsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppPreviewSetsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppPreviewSetsCreateInstanceRequestWithBody constructs an http.Request for the AppPreviewSetsCreateInstance method, with any body, and a specified content type
+func NewAppPreviewSetsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviewSets")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppPreviewSetsDeleteInstanceRequest constructs an http.Request for the AppPreviewSetsDeleteInstance method
+func NewAppPreviewSetsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviewSets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppPreviewSetsGetInstanceRequest constructs an http.Request for the AppPreviewSetsGetInstance method
+func NewAppPreviewSetsGetInstanceRequest(server string, id string, params *AppPreviewSetsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviewSets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviewSets]", *params.FieldsAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPreviews != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviews]", *params.FieldsAppPreviews, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppPreviews != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appPreviews]", *params.LimitAppPreviews, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppPreviewSetsAppPreviewsGetToManyRelatedRequest constructs an http.Request for the AppPreviewSetsAppPreviewsGetToManyRelated method
+func NewAppPreviewSetsAppPreviewsGetToManyRelatedRequest(server string, id string, params *AppPreviewSetsAppPreviewsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviewSets/%s/appPreviews", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppPreviews != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviews]", *params.FieldsAppPreviews, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviewSets]", *params.FieldsAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppPreviewSetsAppPreviewsReplaceToManyRelationshipRequest calls the generic AppPreviewSetsAppPreviewsReplaceToManyRelationship builder with application/json body
+func NewAppPreviewSetsAppPreviewsReplaceToManyRelationshipRequest(server string, id string, body AppPreviewSetsAppPreviewsReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppPreviewSetsAppPreviewsReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppPreviewSetsAppPreviewsReplaceToManyRelationshipRequestWithBody constructs an http.Request for the AppPreviewSetsAppPreviewsReplaceToManyRelationship method, with any body, and a specified content type
+func NewAppPreviewSetsAppPreviewsReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviewSets/%s/relationships/appPreviews", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppPreviewsCreateInstanceRequest calls the generic AppPreviewsCreateInstance builder with application/json body
+func NewAppPreviewsCreateInstanceRequest(server string, body AppPreviewsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppPreviewsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppPreviewsCreateInstanceRequestWithBody constructs an http.Request for the AppPreviewsCreateInstance method, with any body, and a specified content type
+func NewAppPreviewsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviews")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppPreviewsDeleteInstanceRequest constructs an http.Request for the AppPreviewsDeleteInstance method
+func NewAppPreviewsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviews/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppPreviewsUpdateInstanceRequest calls the generic AppPreviewsUpdateInstance builder with application/json body
+func NewAppPreviewsUpdateInstanceRequest(server string, id string, body AppPreviewsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppPreviewsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppPreviewsUpdateInstanceRequestWithBody constructs an http.Request for the AppPreviewsUpdateInstance method, with any body, and a specified content type
+func NewAppPreviewsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appPreviews/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewAppPriceSchedulesCreateInstanceRequest calls the generic AppPriceSchedulesCreateInstance builder with application/json body
 func NewAppPriceSchedulesCreateInstanceRequest(server string, body AppPriceSchedulesCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -53868,6 +57864,478 @@ func NewAppPriceSchedulesManualPricesGetToManyRelatedRequest(server string, id s
 	return req, nil
 }
 
+// NewAppScreenshotSetsCreateInstanceRequest calls the generic AppScreenshotSetsCreateInstance builder with application/json body
+func NewAppScreenshotSetsCreateInstanceRequest(server string, body AppScreenshotSetsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppScreenshotSetsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppScreenshotSetsCreateInstanceRequestWithBody constructs an http.Request for the AppScreenshotSetsCreateInstance method, with any body, and a specified content type
+func NewAppScreenshotSetsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshotSets")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppScreenshotSetsDeleteInstanceRequest constructs an http.Request for the AppScreenshotSetsDeleteInstance method
+func NewAppScreenshotSetsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshotSets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppScreenshotSetsGetInstanceRequest constructs an http.Request for the AppScreenshotSetsGetInstance method
+func NewAppScreenshotSetsGetInstanceRequest(server string, id string, params *AppScreenshotSetsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshotSets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshotSets]", *params.FieldsAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshots]", *params.FieldsAppScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appScreenshots]", *params.LimitAppScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppScreenshotSetsAppScreenshotsGetToManyRelatedRequest constructs an http.Request for the AppScreenshotSetsAppScreenshotsGetToManyRelated method
+func NewAppScreenshotSetsAppScreenshotsGetToManyRelatedRequest(server string, id string, params *AppScreenshotSetsAppScreenshotsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshotSets/%s/appScreenshots", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshots]", *params.FieldsAppScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshotSets]", *params.FieldsAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipRequest calls the generic AppScreenshotSetsAppScreenshotsReplaceToManyRelationship builder with application/json body
+func NewAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipRequest(server string, id string, body AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipRequestWithBody constructs an http.Request for the AppScreenshotSetsAppScreenshotsReplaceToManyRelationship method, with any body, and a specified content type
+func NewAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshotSets/%s/relationships/appScreenshots", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppScreenshotsCreateInstanceRequest calls the generic AppScreenshotsCreateInstance builder with application/json body
+func NewAppScreenshotsCreateInstanceRequest(server string, body AppScreenshotsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppScreenshotsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppScreenshotsCreateInstanceRequestWithBody constructs an http.Request for the AppScreenshotsCreateInstance method, with any body, and a specified content type
+func NewAppScreenshotsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshots")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppScreenshotsDeleteInstanceRequest constructs an http.Request for the AppScreenshotsDeleteInstance method
+func NewAppScreenshotsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshots/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppScreenshotsUpdateInstanceRequest calls the generic AppScreenshotsUpdateInstance builder with application/json body
+func NewAppScreenshotsUpdateInstanceRequest(server string, id string, body AppScreenshotsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppScreenshotsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppScreenshotsUpdateInstanceRequestWithBody constructs an http.Request for the AppScreenshotsUpdateInstance method, with any body, and a specified content type
+func NewAppScreenshotsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appScreenshots/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewAppStoreReviewDetailsCreateInstanceRequest calls the generic AppStoreReviewDetailsCreateInstance builder with application/json body
 func NewAppStoreReviewDetailsCreateInstanceRequest(server string, body AppStoreReviewDetailsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -54072,6 +58540,368 @@ func NewAppStoreVersionLocalizationsUpdateInstanceRequestWithBody(server string,
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedRequest constructs an http.Request for the AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated method
+func NewAppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedRequest(server string, id string, params *AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionLocalizations/%s/appPreviewSets", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPreviewType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[previewType]", *params.FilterPreviewType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppCustomProductPageLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appCustomProductPageLocalization]", *params.FilterAppCustomProductPageLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionExperimentTreatmentLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionExperimentTreatmentLocalization]", *params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviewSets]", *params.FieldsAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPreviews != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviews]", *params.FieldsAppPreviews, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppPreviews != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appPreviews]", *params.LimitAppPreviews, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedRequest constructs an http.Request for the AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated method
+func NewAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedRequest(server string, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionLocalizations/%s/appScreenshotSets", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterScreenshotDisplayType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[screenshotDisplayType]", *params.FilterScreenshotDisplayType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppCustomProductPageLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appCustomProductPageLocalization]", *params.FilterAppCustomProductPageLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreVersionExperimentTreatmentLocalization != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreVersionExperimentTreatmentLocalization]", *params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshotSets]", *params.FieldsAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionLocalizations]", *params.FieldsAppStoreVersionLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshots]", *params.FieldsAppScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appScreenshots]", *params.LimitAppScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -67230,6 +72060,66 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppInfosAppInfoLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppInfosAppInfoLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppInfosAppInfoLocalizationsGetToManyRelatedResponse, error)
 
+	// AppPreviewSetsCreateInstanceWithBodyWithResponse performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewSetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewSetsCreateInstanceResponse, error)
+
+	// AppPreviewSetsCreateInstanceWithResponse performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppPreviewSetsCreateInstanceWithResponse(ctx context.Context, body AppPreviewSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewSetsCreateInstanceResponse, error)
+
+	// AppPreviewSetsDeleteInstanceWithResponse performs a DELETE /v1/appPreviewSets/{id} (the `AppPreviewSetsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewSetsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppPreviewSetsDeleteInstanceResponse, error)
+
+	// AppPreviewSetsGetInstanceWithResponse performs a GET /v1/appPreviewSets/{id} (the `AppPreviewSetsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewSetsGetInstanceWithResponse(ctx context.Context, id string, params *AppPreviewSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppPreviewSetsGetInstanceResponse, error)
+
+	// AppPreviewSetsAppPreviewsGetToManyRelatedWithResponse performs a GET /v1/appPreviewSets/{id}/appPreviews (the `AppPreviewSetsAppPreviewsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewSetsAppPreviewsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppPreviewSetsAppPreviewsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppPreviewSetsAppPreviewsGetToManyRelatedResponse, error)
+
+	// AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse, error)
+
+	// AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithResponse performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body AppPreviewSetsAppPreviewsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse, error)
+
+	// AppPreviewsCreateInstanceWithBodyWithResponse performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewsCreateInstanceResponse, error)
+
+	// AppPreviewsCreateInstanceWithResponse performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppPreviewsCreateInstanceWithResponse(ctx context.Context, body AppPreviewsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewsCreateInstanceResponse, error)
+
+	// AppPreviewsDeleteInstanceWithResponse performs a DELETE /v1/appPreviews/{id} (the `AppPreviewsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppPreviewsDeleteInstanceResponse, error)
+
+	// AppPreviewsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppPreviewsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewsUpdateInstanceResponse, error)
+
+	// AppPreviewsUpdateInstanceWithResponse performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppPreviewsUpdateInstanceWithResponse(ctx context.Context, id string, body AppPreviewsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewsUpdateInstanceResponse, error)
+
 	// AppPriceSchedulesCreateInstanceWithBodyWithResponse performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -67249,6 +72139,66 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppPriceSchedulesManualPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppPriceSchedulesManualPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppPriceSchedulesManualPricesGetToManyRelatedResponse, error)
+
+	// AppScreenshotSetsCreateInstanceWithBodyWithResponse performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotSetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotSetsCreateInstanceResponse, error)
+
+	// AppScreenshotSetsCreateInstanceWithResponse performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppScreenshotSetsCreateInstanceWithResponse(ctx context.Context, body AppScreenshotSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotSetsCreateInstanceResponse, error)
+
+	// AppScreenshotSetsDeleteInstanceWithResponse performs a DELETE /v1/appScreenshotSets/{id} (the `AppScreenshotSetsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotSetsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppScreenshotSetsDeleteInstanceResponse, error)
+
+	// AppScreenshotSetsGetInstanceWithResponse performs a GET /v1/appScreenshotSets/{id} (the `AppScreenshotSetsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotSetsGetInstanceWithResponse(ctx context.Context, id string, params *AppScreenshotSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppScreenshotSetsGetInstanceResponse, error)
+
+	// AppScreenshotSetsAppScreenshotsGetToManyRelatedWithResponse performs a GET /v1/appScreenshotSets/{id}/appScreenshots (the `AppScreenshotSetsAppScreenshotsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotSetsAppScreenshotsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppScreenshotSetsAppScreenshotsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse, error)
+
+	// AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse, error)
+
+	// AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithResponse performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse, error)
+
+	// AppScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotsCreateInstanceResponse, error)
+
+	// AppScreenshotsCreateInstanceWithResponse performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppScreenshotsCreateInstanceWithResponse(ctx context.Context, body AppScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotsCreateInstanceResponse, error)
+
+	// AppScreenshotsDeleteInstanceWithResponse performs a DELETE /v1/appScreenshots/{id} (the `AppScreenshotsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppScreenshotsDeleteInstanceResponse, error)
+
+	// AppScreenshotsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppScreenshotsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotsUpdateInstanceResponse, error)
+
+	// AppScreenshotsUpdateInstanceWithResponse performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppScreenshotsUpdateInstanceWithResponse(ctx context.Context, id string, body AppScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotsUpdateInstanceResponse, error)
 
 	// AppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -67294,6 +72244,16 @@ type ClientWithResponsesInterface interface {
 	// AppStoreVersionLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/appStoreVersionLocalizations/{id} (the `AppStoreVersionLocalizationsUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreVersionLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsUpdateInstanceResponse, error)
+
+	// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/appPreviewSets (the `AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse, error)
+
+	// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets (the `AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse, error)
 
 	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
@@ -69799,6 +74759,635 @@ func (r AppInfosAppInfoLocalizationsGetToManyRelatedResponse) ContentType() stri
 	return ""
 }
 
+type AppPreviewSetsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppPreviewSetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppPreviewSetsCreateInstanceResponse) GetJSON201() *AppPreviewSetResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewSetsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewSetsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewSetsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppPreviewSetsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppPreviewSetsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewSetsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewSetsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewSetsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewSetsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewSetsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPreviewSetsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewSetsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewSetsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewSetsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPreviewSetsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewSetsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewSetsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewSetsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewSetsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewSetsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPreviewSetsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPreviewSetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppPreviewSetsGetInstanceResponse) GetJSON200() *AppPreviewSetResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewSetsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewSetsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewSetsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPreviewSetsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewSetsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewSetsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewSetsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewSetsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewSetsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPreviewSetsAppPreviewsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPreviewsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) GetJSON200() *AppPreviewsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewSetsAppPreviewsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPreviewsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppPreviewResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppPreviewsCreateInstanceResponse) GetJSON201() *AppPreviewResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppPreviewsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppPreviewsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPreviewsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPreviewsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppPreviewsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPreviewResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON200() *AppPreviewResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppPreviewsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppPreviewsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppPreviewsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppPreviewsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppPreviewsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppPriceSchedulesCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -70028,6 +75617,635 @@ func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) StatusCode() int 
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppPriceSchedulesManualPricesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotSetsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppScreenshotSetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppScreenshotSetsCreateInstanceResponse) GetJSON201() *AppScreenshotSetResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotSetsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotSetsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotSetsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppScreenshotSetsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppScreenshotSetsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotSetsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotSetsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotSetsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotSetsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotSetsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotSetsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotSetsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotSetsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotSetsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppScreenshotSetsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotSetsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotSetsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotSetsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotSetsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotSetsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotSetsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppScreenshotSetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppScreenshotSetsGetInstanceResponse) GetJSON200() *AppScreenshotSetResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotSetsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotSetsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotSetsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppScreenshotSetsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotSetsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotSetsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotSetsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotSetsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotSetsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppScreenshotsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) GetJSON200() *AppScreenshotsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppScreenshotResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppScreenshotsCreateInstanceResponse) GetJSON201() *AppScreenshotResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppScreenshotsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppScreenshotsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppScreenshotsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppScreenshotsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppScreenshotResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON200() *AppScreenshotResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppScreenshotsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppScreenshotsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppScreenshotsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppScreenshotsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppScreenshotsUpdateInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -70443,6 +76661,158 @@ func (r AppStoreVersionLocalizationsUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppStoreVersionLocalizationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppPreviewSetsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) GetJSON200() *AppPreviewSetsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppScreenshotSetsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) GetJSON200() *AppScreenshotSetsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -82351,6 +88721,138 @@ func (c *ClientWithResponses) AppInfosAppInfoLocalizationsGetToManyRelatedWithRe
 	return ParseAppInfosAppInfoLocalizationsGetToManyRelatedResponse(rsp)
 }
 
+// AppPreviewSetsCreateInstanceWithBodyWithResponse performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewSetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewSetsCreateInstanceResponse, error) {
+	rsp, err := c.AppPreviewSetsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewSetsCreateInstanceResponse(rsp)
+}
+
+// AppPreviewSetsCreateInstanceWithResponse performs a POST /v1/appPreviewSets (the `AppPreviewSetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewSetsCreateInstanceWithResponse(ctx context.Context, body AppPreviewSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewSetsCreateInstanceResponse, error) {
+	rsp, err := c.AppPreviewSetsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewSetsCreateInstanceResponse(rsp)
+}
+
+// AppPreviewSetsDeleteInstanceWithResponse performs a DELETE /v1/appPreviewSets/{id} (the `AppPreviewSetsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewSetsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppPreviewSetsDeleteInstanceResponse, error) {
+	rsp, err := c.AppPreviewSetsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewSetsDeleteInstanceResponse(rsp)
+}
+
+// AppPreviewSetsGetInstanceWithResponse performs a GET /v1/appPreviewSets/{id} (the `AppPreviewSetsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewSetsGetInstanceWithResponse(ctx context.Context, id string, params *AppPreviewSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppPreviewSetsGetInstanceResponse, error) {
+	rsp, err := c.AppPreviewSetsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewSetsGetInstanceResponse(rsp)
+}
+
+// AppPreviewSetsAppPreviewsGetToManyRelatedWithResponse performs a GET /v1/appPreviewSets/{id}/appPreviews (the `AppPreviewSetsAppPreviewsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewSetsAppPreviewsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppPreviewSetsAppPreviewsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppPreviewSetsAppPreviewsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppPreviewSetsAppPreviewsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewSetsAppPreviewsGetToManyRelatedResponse(rsp)
+}
+
+// AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse(rsp)
+}
+
+// AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithResponse performs a PATCH /v1/appPreviewSets/{id}/relationships/appPreviews (the `AppPreviewSetsAppPreviewsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body AppPreviewSetsAppPreviewsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.AppPreviewSetsAppPreviewsReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse(rsp)
+}
+
+// AppPreviewsCreateInstanceWithBodyWithResponse performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewsCreateInstanceResponse, error) {
+	rsp, err := c.AppPreviewsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewsCreateInstanceResponse(rsp)
+}
+
+// AppPreviewsCreateInstanceWithResponse performs a POST /v1/appPreviews (the `AppPreviewsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewsCreateInstanceWithResponse(ctx context.Context, body AppPreviewsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewsCreateInstanceResponse, error) {
+	rsp, err := c.AppPreviewsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewsCreateInstanceResponse(rsp)
+}
+
+// AppPreviewsDeleteInstanceWithResponse performs a DELETE /v1/appPreviews/{id} (the `AppPreviewsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppPreviewsDeleteInstanceResponse, error) {
+	rsp, err := c.AppPreviewsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewsDeleteInstanceResponse(rsp)
+}
+
+// AppPreviewsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppPreviewsUpdateInstanceResponse, error) {
+	rsp, err := c.AppPreviewsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewsUpdateInstanceResponse(rsp)
+}
+
+// AppPreviewsUpdateInstanceWithResponse performs a PATCH /v1/appPreviews/{id} (the `AppPreviewsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppPreviewsUpdateInstanceWithResponse(ctx context.Context, id string, body AppPreviewsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppPreviewsUpdateInstanceResponse, error) {
+	rsp, err := c.AppPreviewsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppPreviewsUpdateInstanceResponse(rsp)
+}
+
 // AppPriceSchedulesCreateInstanceWithBodyWithResponse performs a POST /v1/appPriceSchedules (the `AppPriceSchedulesCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -82393,6 +88895,138 @@ func (c *ClientWithResponses) AppPriceSchedulesManualPricesGetToManyRelatedWithR
 		return nil, err
 	}
 	return ParseAppPriceSchedulesManualPricesGetToManyRelatedResponse(rsp)
+}
+
+// AppScreenshotSetsCreateInstanceWithBodyWithResponse performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotSetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotSetsCreateInstanceResponse, error) {
+	rsp, err := c.AppScreenshotSetsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotSetsCreateInstanceResponse(rsp)
+}
+
+// AppScreenshotSetsCreateInstanceWithResponse performs a POST /v1/appScreenshotSets (the `AppScreenshotSetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotSetsCreateInstanceWithResponse(ctx context.Context, body AppScreenshotSetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotSetsCreateInstanceResponse, error) {
+	rsp, err := c.AppScreenshotSetsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotSetsCreateInstanceResponse(rsp)
+}
+
+// AppScreenshotSetsDeleteInstanceWithResponse performs a DELETE /v1/appScreenshotSets/{id} (the `AppScreenshotSetsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotSetsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppScreenshotSetsDeleteInstanceResponse, error) {
+	rsp, err := c.AppScreenshotSetsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotSetsDeleteInstanceResponse(rsp)
+}
+
+// AppScreenshotSetsGetInstanceWithResponse performs a GET /v1/appScreenshotSets/{id} (the `AppScreenshotSetsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotSetsGetInstanceWithResponse(ctx context.Context, id string, params *AppScreenshotSetsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppScreenshotSetsGetInstanceResponse, error) {
+	rsp, err := c.AppScreenshotSetsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotSetsGetInstanceResponse(rsp)
+}
+
+// AppScreenshotSetsAppScreenshotsGetToManyRelatedWithResponse performs a GET /v1/appScreenshotSets/{id}/appScreenshots (the `AppScreenshotSetsAppScreenshotsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotSetsAppScreenshotsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppScreenshotSetsAppScreenshotsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppScreenshotSetsAppScreenshotsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotSetsAppScreenshotsGetToManyRelatedResponse(rsp)
+}
+
+// AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse(rsp)
+}
+
+// AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithResponse performs a PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots (the `AppScreenshotSetsAppScreenshotsReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.AppScreenshotSetsAppScreenshotsReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse(rsp)
+}
+
+// AppScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotsCreateInstanceResponse, error) {
+	rsp, err := c.AppScreenshotsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotsCreateInstanceResponse(rsp)
+}
+
+// AppScreenshotsCreateInstanceWithResponse performs a POST /v1/appScreenshots (the `AppScreenshotsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotsCreateInstanceWithResponse(ctx context.Context, body AppScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotsCreateInstanceResponse, error) {
+	rsp, err := c.AppScreenshotsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotsCreateInstanceResponse(rsp)
+}
+
+// AppScreenshotsDeleteInstanceWithResponse performs a DELETE /v1/appScreenshots/{id} (the `AppScreenshotsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppScreenshotsDeleteInstanceResponse, error) {
+	rsp, err := c.AppScreenshotsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotsDeleteInstanceResponse(rsp)
+}
+
+// AppScreenshotsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppScreenshotsUpdateInstanceResponse, error) {
+	rsp, err := c.AppScreenshotsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotsUpdateInstanceResponse(rsp)
+}
+
+// AppScreenshotsUpdateInstanceWithResponse performs a PATCH /v1/appScreenshots/{id} (the `AppScreenshotsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppScreenshotsUpdateInstanceWithResponse(ctx context.Context, id string, body AppScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotsUpdateInstanceResponse, error) {
+	rsp, err := c.AppScreenshotsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppScreenshotsUpdateInstanceResponse(rsp)
 }
 
 // AppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
@@ -82492,6 +89126,28 @@ func (c *ClientWithResponses) AppStoreVersionLocalizationsUpdateInstanceWithResp
 		return nil, err
 	}
 	return ParseAppStoreVersionLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/appPreviewSets (the `AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse(rsp)
+}
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets (the `AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse(rsp)
 }
 
 // AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
@@ -86014,6 +92670,524 @@ func ParseAppInfosAppInfoLocalizationsGetToManyRelatedResponse(rsp *http.Respons
 	return response, nil
 }
 
+// ParseAppPreviewSetsCreateInstanceResponse parses an HTTP response from a AppPreviewSetsCreateInstanceWithResponse call
+func ParseAppPreviewSetsCreateInstanceResponse(rsp *http.Response) (*AppPreviewSetsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewSetsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppPreviewSetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPreviewSetsDeleteInstanceResponse parses an HTTP response from a AppPreviewSetsDeleteInstanceWithResponse call
+func ParseAppPreviewSetsDeleteInstanceResponse(rsp *http.Response) (*AppPreviewSetsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewSetsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPreviewSetsGetInstanceResponse parses an HTTP response from a AppPreviewSetsGetInstanceWithResponse call
+func ParseAppPreviewSetsGetInstanceResponse(rsp *http.Response) (*AppPreviewSetsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewSetsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPreviewSetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPreviewSetsAppPreviewsGetToManyRelatedResponse parses an HTTP response from a AppPreviewSetsAppPreviewsGetToManyRelatedWithResponse call
+func ParseAppPreviewSetsAppPreviewsGetToManyRelatedResponse(rsp *http.Response) (*AppPreviewSetsAppPreviewsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewSetsAppPreviewsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPreviewsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse parses an HTTP response from a AppPreviewSetsAppPreviewsReplaceToManyRelationshipWithResponse call
+func ParseAppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse(rsp *http.Response) (*AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewSetsAppPreviewsReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPreviewsCreateInstanceResponse parses an HTTP response from a AppPreviewsCreateInstanceWithResponse call
+func ParseAppPreviewsCreateInstanceResponse(rsp *http.Response) (*AppPreviewsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppPreviewResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPreviewsDeleteInstanceResponse parses an HTTP response from a AppPreviewsDeleteInstanceWithResponse call
+func ParseAppPreviewsDeleteInstanceResponse(rsp *http.Response) (*AppPreviewsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppPreviewsUpdateInstanceResponse parses an HTTP response from a AppPreviewsUpdateInstanceWithResponse call
+func ParseAppPreviewsUpdateInstanceResponse(rsp *http.Response) (*AppPreviewsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppPreviewsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPreviewResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppPriceSchedulesCreateInstanceResponse parses an HTTP response from a AppPriceSchedulesCreateInstanceWithResponse call
 func ParseAppPriceSchedulesCreateInstanceResponse(rsp *http.Response) (*AppPriceSchedulesCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -86191,6 +93365,524 @@ func ParseAppPriceSchedulesManualPricesGetToManyRelatedResponse(rsp *http.Respon
 			return nil, err
 		}
 		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotSetsCreateInstanceResponse parses an HTTP response from a AppScreenshotSetsCreateInstanceWithResponse call
+func ParseAppScreenshotSetsCreateInstanceResponse(rsp *http.Response) (*AppScreenshotSetsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotSetsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppScreenshotSetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotSetsDeleteInstanceResponse parses an HTTP response from a AppScreenshotSetsDeleteInstanceWithResponse call
+func ParseAppScreenshotSetsDeleteInstanceResponse(rsp *http.Response) (*AppScreenshotSetsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotSetsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotSetsGetInstanceResponse parses an HTTP response from a AppScreenshotSetsGetInstanceWithResponse call
+func ParseAppScreenshotSetsGetInstanceResponse(rsp *http.Response) (*AppScreenshotSetsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotSetsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppScreenshotSetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotSetsAppScreenshotsGetToManyRelatedResponse parses an HTTP response from a AppScreenshotSetsAppScreenshotsGetToManyRelatedWithResponse call
+func ParseAppScreenshotSetsAppScreenshotsGetToManyRelatedResponse(rsp *http.Response) (*AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotSetsAppScreenshotsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppScreenshotsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse parses an HTTP response from a AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipWithResponse call
+func ParseAppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse(rsp *http.Response) (*AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotSetsAppScreenshotsReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotsCreateInstanceResponse parses an HTTP response from a AppScreenshotsCreateInstanceWithResponse call
+func ParseAppScreenshotsCreateInstanceResponse(rsp *http.Response) (*AppScreenshotsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppScreenshotResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotsDeleteInstanceResponse parses an HTTP response from a AppScreenshotsDeleteInstanceWithResponse call
+func ParseAppScreenshotsDeleteInstanceResponse(rsp *http.Response) (*AppScreenshotsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppScreenshotsUpdateInstanceResponse parses an HTTP response from a AppScreenshotsUpdateInstanceWithResponse call
+func ParseAppScreenshotsUpdateInstanceResponse(rsp *http.Response) (*AppScreenshotsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppScreenshotsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppScreenshotResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -86534,6 +94226,128 @@ func ParseAppStoreVersionLocalizationsUpdateInstanceResponse(rsp *http.Response)
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse parses an HTTP response from a AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedWithResponse call
+func ParseAppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse(rsp *http.Response) (*AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppPreviewSetsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse parses an HTTP response from a AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedWithResponse call
+func ParseAppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse(rsp *http.Response) (*AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppScreenshotSetsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -96097,6 +103911,30 @@ type ServerInterface interface {
 	// (GET /v1/appInfos/{id}/appInfoLocalizations)
 	AppInfosAppInfoLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppInfosAppInfoLocalizationsGetToManyRelatedParams)
 
+	// (POST /v1/appPreviewSets)
+	AppPreviewSetsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appPreviewSets/{id})
+	AppPreviewSetsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appPreviewSets/{id})
+	AppPreviewSetsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppPreviewSetsGetInstanceParams)
+
+	// (GET /v1/appPreviewSets/{id}/appPreviews)
+	AppPreviewSetsAppPreviewsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppPreviewSetsAppPreviewsGetToManyRelatedParams)
+
+	// (PATCH /v1/appPreviewSets/{id}/relationships/appPreviews)
+	AppPreviewSetsAppPreviewsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/appPreviews)
+	AppPreviewsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appPreviews/{id})
+	AppPreviewsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/appPreviews/{id})
+	AppPreviewsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (POST /v1/appPriceSchedules)
 	AppPriceSchedulesCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -96105,6 +103943,30 @@ type ServerInterface interface {
 
 	// (GET /v1/appPriceSchedules/{id}/manualPrices)
 	AppPriceSchedulesManualPricesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppPriceSchedulesManualPricesGetToManyRelatedParams)
+
+	// (POST /v1/appScreenshotSets)
+	AppScreenshotSetsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appScreenshotSets/{id})
+	AppScreenshotSetsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appScreenshotSets/{id})
+	AppScreenshotSetsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppScreenshotSetsGetInstanceParams)
+
+	// (GET /v1/appScreenshotSets/{id}/appScreenshots)
+	AppScreenshotSetsAppScreenshotsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppScreenshotSetsAppScreenshotsGetToManyRelatedParams)
+
+	// (PATCH /v1/appScreenshotSets/{id}/relationships/appScreenshots)
+	AppScreenshotSetsAppScreenshotsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/appScreenshots)
+	AppScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appScreenshots/{id})
+	AppScreenshotsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/appScreenshots/{id})
+	AppScreenshotsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
 	// (POST /v1/appStoreReviewDetails)
 	AppStoreReviewDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -96120,6 +103982,12 @@ type ServerInterface interface {
 
 	// (PATCH /v1/appStoreVersionLocalizations/{id})
 	AppStoreVersionLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appStoreVersionLocalizations/{id}/appPreviewSets)
+	AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams)
+
+	// (GET /v1/appStoreVersionLocalizations/{id}/appScreenshotSets)
+	AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams)
 
 	// (DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords)
 	AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
@@ -97264,6 +105132,339 @@ func (siw *ServerInterfaceWrapper) AppInfosAppInfoLocalizationsGetToManyRelated(
 	handler.ServeHTTP(w, r)
 }
 
+// AppPreviewSetsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewSetsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewSetsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPreviewSetsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewSetsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewSetsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPreviewSetsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewSetsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppPreviewSetsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviewSets]", r.URL.Query(), &params.FieldsAppPreviewSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPreviews]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviews]", r.URL.Query(), &params.FieldsAppPreviews, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviews]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviews]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appPreviews]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appPreviews]", r.URL.Query(), &params.LimitAppPreviews, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appPreviews]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appPreviews]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewSetsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPreviewSetsAppPreviewsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewSetsAppPreviewsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppPreviewSetsAppPreviewsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[appPreviews]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviews]", r.URL.Query(), &params.FieldsAppPreviews, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviews]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviews]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviewSets]", r.URL.Query(), &params.FieldsAppPreviewSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewSetsAppPreviewsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPreviewSetsAppPreviewsReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewSetsAppPreviewsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewSetsAppPreviewsReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPreviewsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPreviewsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppPreviewsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppPreviewsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppPreviewsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppPriceSchedulesCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) AppPriceSchedulesCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -97453,6 +105654,339 @@ func (siw *ServerInterfaceWrapper) AppPriceSchedulesManualPricesGetToManyRelated
 	handler.ServeHTTP(w, r)
 }
 
+// AppScreenshotSetsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotSetsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotSetsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppScreenshotSetsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotSetsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotSetsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppScreenshotSetsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotSetsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppScreenshotSetsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshotSets]", r.URL.Query(), &params.FieldsAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshots]", r.URL.Query(), &params.FieldsAppScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appScreenshots]", r.URL.Query(), &params.LimitAppScreenshots, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appScreenshots]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotSetsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppScreenshotSetsAppScreenshotsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotSetsAppScreenshotsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppScreenshotSetsAppScreenshotsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[appScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshots]", r.URL.Query(), &params.FieldsAppScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshotSets]", r.URL.Query(), &params.FieldsAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotSetsAppScreenshotsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppScreenshotSetsAppScreenshotsReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotSetsAppScreenshotsReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotSetsAppScreenshotsReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppScreenshotsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppScreenshotsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppScreenshotsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppScreenshotsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppScreenshotsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppStoreReviewDetailsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) AppStoreReviewDetailsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -97550,6 +106084,350 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsUpdateInstance(w 
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppStoreVersionLocalizationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[previewType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[previewType]", r.URL.Query(), &params.FilterPreviewType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[previewType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[previewType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appCustomProductPageLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appCustomProductPageLocalization]", r.URL.Query(), &params.FilterAppCustomProductPageLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appCustomProductPageLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appCustomProductPageLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionExperimentTreatmentLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionExperimentTreatmentLocalization]", r.URL.Query(), &params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviewSets]", r.URL.Query(), &params.FieldsAppPreviewSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPreviews]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviews]", r.URL.Query(), &params.FieldsAppPreviews, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviews]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviews]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appPreviews]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appPreviews]", r.URL.Query(), &params.LimitAppPreviews, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appPreviews]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appPreviews]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[screenshotDisplayType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[screenshotDisplayType]", r.URL.Query(), &params.FilterScreenshotDisplayType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[screenshotDisplayType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[screenshotDisplayType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appCustomProductPageLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appCustomProductPageLocalization]", r.URL.Query(), &params.FilterAppCustomProductPageLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appCustomProductPageLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appCustomProductPageLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreVersionExperimentTreatmentLocalization]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreVersionExperimentTreatmentLocalization]", r.URL.Query(), &params.FilterAppStoreVersionExperimentTreatmentLocalization, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreVersionExperimentTreatmentLocalization]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshotSets]", r.URL.Query(), &params.FieldsAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshots]", r.URL.Query(), &params.FieldsAppScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appScreenshots]", r.URL.Query(), &params.LimitAppScreenshots, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appScreenshots]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -108261,14 +117139,32 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appInfos/{id}", wrapper.AppInfosUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appInfos/{id}/ageRatingDeclaration", wrapper.AppInfosAgeRatingDeclarationGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appInfos/{id}/appInfoLocalizations", wrapper.AppInfosAppInfoLocalizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appPreviewSets", wrapper.AppPreviewSetsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appPreviewSets/{id}", wrapper.AppPreviewSetsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appPreviewSets/{id}", wrapper.AppPreviewSetsGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appPreviewSets/{id}/appPreviews", wrapper.AppPreviewSetsAppPreviewsGetToManyRelated)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appPreviewSets/{id}/relationships/appPreviews", wrapper.AppPreviewSetsAppPreviewsReplaceToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appPreviews", wrapper.AppPreviewsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appPreviews/{id}", wrapper.AppPreviewsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appPreviews/{id}", wrapper.AppPreviewsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appPriceSchedules", wrapper.AppPriceSchedulesCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appPriceSchedules/{id}/baseTerritory", wrapper.AppPriceSchedulesBaseTerritoryGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appPriceSchedules/{id}/manualPrices", wrapper.AppPriceSchedulesManualPricesGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appScreenshotSets", wrapper.AppScreenshotSetsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appScreenshotSets/{id}", wrapper.AppScreenshotSetsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appScreenshotSets/{id}", wrapper.AppScreenshotSetsGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appScreenshotSets/{id}/appScreenshots", wrapper.AppScreenshotSetsAppScreenshotsGetToManyRelated)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appScreenshotSets/{id}/relationships/appScreenshots", wrapper.AppScreenshotSetsAppScreenshotsReplaceToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appScreenshots", wrapper.AppScreenshotsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appScreenshots/{id}", wrapper.AppScreenshotsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appScreenshots/{id}", wrapper.AppScreenshotsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreReviewDetails", wrapper.AppStoreReviewDetailsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewDetails/{id}", wrapper.AppStoreReviewDetailsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations", wrapper.AppStoreVersionLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/appPreviewSets", wrapper.AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/appScreenshotSets", wrapper.AppStoreVersionLocalizationsAppScreenshotSetsGetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated)

@@ -165,6 +165,8 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newPriceScheduleResource,
 		newTerritoryAvailabilityResource,
 		newAppStoreVersionResource,
+		newScreenshotSetResource,
+		newPreviewSetResource,
 		newNominationResource,
 		newWebhookResource,
 		newSearchKeywordResource,
