@@ -79,6 +79,7 @@ type Server struct {
 	iap         *iapState
 	iapPricing  *iapPricingState
 	subs        *subscriptionsState
+	subPricing  *subscriptionPricingState
 
 	failNext map[string][]int
 	requests []string
@@ -121,6 +122,7 @@ func NewServer() *Server {
 		iap:          newIAPState(),
 		iapPricing:   newIAPPricingState(),
 		subs:         newSubscriptionsState(),
+		subPricing:   newSubscriptionPricingState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

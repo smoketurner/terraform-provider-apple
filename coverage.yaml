@@ -411,10 +411,10 @@ operations:
   apps_reviewSubmissions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_searchKeywords_getToManyRelated: {status: covered, by: [data.apple_app_search_keywords]}
   apps_searchKeywords_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  apps_subscriptionGracePeriod_getToOneRelated: {status: planned, issue: 7}
-  apps_subscriptionGracePeriod_getToOneRelationship: {status: planned, issue: 7}
+  apps_subscriptionGracePeriod_getToOneRelated: {status: covered, by: [apple_subscription_grace_period]}
+  apps_subscriptionGracePeriod_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_subscriptionGroups_getToManyRelated: {status: covered, by: [data.apple_subscription_groups]}
-  apps_subscriptionGroups_getToManyRelationship: {status: planned, issue: 7}
+  apps_subscriptionGroups_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_updateInstance: {status: covered, by: [apple_app_settings]}
   apps_webhooks_getToManyRelated: {status: covered, by: [data.apple_webhooks]}
   apps_webhooks_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
@@ -1164,12 +1164,12 @@ operations:
   subscriptionAppStoreReviewScreenshots_deleteInstance: {status: covered, by: [apple_subscription_review_screenshot]}
   subscriptionAppStoreReviewScreenshots_getInstance: {status: covered, by: [apple_subscription_review_screenshot]}
   subscriptionAppStoreReviewScreenshots_updateInstance: {status: covered, by: [apple_subscription_review_screenshot]}
-  subscriptionAvailabilities_availableTerritories_getToManyRelated: {status: planned, issue: 7}
-  subscriptionAvailabilities_availableTerritories_getToManyRelationship: {status: planned, issue: 7}
-  subscriptionAvailabilities_createInstance: {status: planned, issue: 7}
-  subscriptionAvailabilities_getInstance: {status: planned, issue: 7}
-  subscriptionGracePeriods_getInstance: {status: planned, issue: 7}
-  subscriptionGracePeriods_updateInstance: {status: planned, issue: 7}
+  subscriptionAvailabilities_availableTerritories_getToManyRelated: {status: out_of_scope, reason: "deprecated in favor of subscription plan availabilities"}
+  subscriptionAvailabilities_availableTerritories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  subscriptionAvailabilities_createInstance: {status: out_of_scope, reason: "deprecated in favor of subscription plan availabilities"}
+  subscriptionAvailabilities_getInstance: {status: out_of_scope, reason: "deprecated in favor of subscription plan availabilities"}
+  subscriptionGracePeriods_getInstance: {status: out_of_scope, reason: "the grace period is read through the app"}
+  subscriptionGracePeriods_updateInstance: {status: covered, by: [apple_subscription_grace_period]}
   subscriptionGroupLocalizationsV2_createInstance: {status: covered, by: [apple_subscription_group_localization]}
   subscriptionGroupLocalizationsV2_deleteInstance: {status: covered, by: [apple_subscription_group_localization]}
   subscriptionGroupLocalizationsV2_getInstance: {status: out_of_scope, reason: "localizations are read through their version's localization list"}
@@ -1182,17 +1182,17 @@ operations:
   subscriptionGroupVersions_createInstance: {status: covered, by: [apple_subscription_group_localization, action.apple_submit_subscription]}
   subscriptionGroupVersions_getInstance: {status: out_of_scope, reason: "versions are read through the product's version list"}
   subscriptionGroupVersions_localizations_getToManyRelated: {status: covered, by: [apple_subscription_group_localization]}
-  subscriptionGroupVersions_localizations_getToManyRelationship: {status: planned, issue: 7}
+  subscriptionGroupVersions_localizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptionGroups_createInstance: {status: covered, by: [apple_subscription_group]}
   subscriptionGroups_deleteInstance: {status: covered, by: [apple_subscription_group]}
   subscriptionGroups_getInstance: {status: covered, by: [apple_subscription_group]}
   subscriptionGroups_subscriptionGroupLocalizations_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of subscription versions"}
-  subscriptionGroups_subscriptionGroupLocalizations_getToManyRelationship: {status: planned, issue: 7}
+  subscriptionGroups_subscriptionGroupLocalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptionGroups_subscriptions_getToManyRelated: {status: covered, by: [data.apple_subscriptions]}
-  subscriptionGroups_subscriptions_getToManyRelationship: {status: planned, issue: 7}
+  subscriptionGroups_subscriptions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptionGroups_updateInstance: {status: covered, by: [apple_subscription_group]}
   subscriptionGroups_versions_getToManyRelated: {status: covered, by: [apple_subscription_group_localization, action.apple_submit_subscription]}
-  subscriptionGroups_versions_getToManyRelationship: {status: planned, issue: 7}
+  subscriptionGroups_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptionImagesV2_createInstance: {status: covered, by: [apple_subscription_image]}
   subscriptionImagesV2_deleteInstance: {status: covered, by: [apple_subscription_image]}
   subscriptionImagesV2_getInstance: {status: covered, by: [apple_subscription_image]}
@@ -1228,18 +1228,18 @@ operations:
   subscriptionOfferCodes_prices_getToManyRelated: {status: planned, issue: 7}
   subscriptionOfferCodes_prices_getToManyRelationship: {status: planned, issue: 7}
   subscriptionOfferCodes_updateInstance: {status: planned, issue: 7}
-  subscriptionPlanAvailabilities_availableTerritories_getToManyRelated: {status: planned, issue: 7}
-  subscriptionPlanAvailabilities_availableTerritories_getToManyRelationship: {status: planned, issue: 7}
-  subscriptionPlanAvailabilities_availableTerritories_replaceToManyRelationship: {status: planned, issue: 7}
-  subscriptionPlanAvailabilities_createInstance: {status: planned, issue: 7}
-  subscriptionPlanAvailabilities_getInstance: {status: planned, issue: 7}
-  subscriptionPlanAvailabilities_updateInstance: {status: planned, issue: 7}
-  subscriptionPricePoints_adjustedEqualizations_getToManyRelated: {status: planned, issue: 7}
-  subscriptionPricePoints_equalizations_getToManyRelated: {status: planned, issue: 7}
-  subscriptionPricePoints_equalizations_getToManyRelationship: {status: planned, issue: 7}
-  subscriptionPricePoints_getInstance: {status: planned, issue: 7}
-  subscriptionPrices_createInstance: {status: planned, issue: 7}
-  subscriptionPrices_deleteInstance: {status: planned, issue: 7}
+  subscriptionPlanAvailabilities_availableTerritories_getToManyRelated: {status: covered, by: [apple_subscription_plan_availability]}
+  subscriptionPlanAvailabilities_availableTerritories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  subscriptionPlanAvailabilities_availableTerritories_replaceToManyRelationship: {status: covered, by: [apple_subscription_plan_availability]}
+  subscriptionPlanAvailabilities_createInstance: {status: covered, by: [apple_subscription_plan_availability]}
+  subscriptionPlanAvailabilities_getInstance: {status: out_of_scope, reason: "plan availabilities are read through the subscription"}
+  subscriptionPlanAvailabilities_updateInstance: {status: covered, by: [apple_subscription_plan_availability]}
+  subscriptionPricePoints_adjustedEqualizations_getToManyRelated: {status: out_of_scope, reason: "adjusted equalizations apply to upfront plan price changes; data.apple_subscription_price_point_equalizations lists the equalized prices"}
+  subscriptionPricePoints_equalizations_getToManyRelated: {status: covered, by: [data.apple_subscription_price_point_equalizations]}
+  subscriptionPricePoints_equalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  subscriptionPricePoints_getInstance: {status: out_of_scope, reason: "price points are found by listing the subscription's price points"}
+  subscriptionPrices_createInstance: {status: covered, by: [apple_subscription_price]}
+  subscriptionPrices_deleteInstance: {status: covered, by: [apple_subscription_price]}
   subscriptionPromotionalOffers_createInstance: {status: planned, issue: 7}
   subscriptionPromotionalOffers_deleteInstance: {status: planned, issue: 7}
   subscriptionPromotionalOffers_getInstance: {status: planned, issue: 7}
@@ -1250,41 +1250,41 @@ operations:
   subscriptionVersions_createInstance: {status: covered, by: [apple_subscription_localization, apple_subscription_image, action.apple_submit_subscription]}
   subscriptionVersions_getInstance: {status: out_of_scope, reason: "versions are read through the product's version list"}
   subscriptionVersions_image_getToOneRelated: {status: covered, by: [apple_subscription_image]}
-  subscriptionVersions_image_getToOneRelationship: {status: planned, issue: 7}
+  subscriptionVersions_image_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptionVersions_images_getToManyRelated: {status: out_of_scope, reason: "a version has one promotional image, read through its image relationship"}
-  subscriptionVersions_images_getToManyRelationship: {status: planned, issue: 7}
+  subscriptionVersions_images_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptionVersions_localizations_getToManyRelated: {status: covered, by: [apple_subscription_localization]}
-  subscriptionVersions_localizations_getToManyRelationship: {status: planned, issue: 7}
+  subscriptionVersions_localizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_appStoreReviewScreenshot_getToOneRelated: {status: covered, by: [apple_subscription_review_screenshot]}
-  subscriptions_appStoreReviewScreenshot_getToOneRelationship: {status: planned, issue: 7}
+  subscriptions_appStoreReviewScreenshot_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_createInstance: {status: covered, by: [apple_subscription]}
   subscriptions_deleteInstance: {status: covered, by: [apple_subscription]}
   subscriptions_getInstance: {status: covered, by: [apple_subscription, action.apple_submit_subscription]}
   subscriptions_images_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of subscription versions"}
-  subscriptions_images_getToManyRelationship: {status: planned, issue: 7}
+  subscriptions_images_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_introductoryOffers_deleteToManyRelationship: {status: planned, issue: 7}
   subscriptions_introductoryOffers_getToManyRelated: {status: planned, issue: 7}
   subscriptions_introductoryOffers_getToManyRelationship: {status: planned, issue: 7}
   subscriptions_offerCodes_getToManyRelated: {status: planned, issue: 7}
   subscriptions_offerCodes_getToManyRelationship: {status: planned, issue: 7}
-  subscriptions_planAvailabilities_getToManyRelated: {status: planned, issue: 7}
-  subscriptions_planAvailabilities_getToManyRelationship: {status: planned, issue: 7}
-  subscriptions_pricePoints_getToManyRelated: {status: planned, issue: 7}
-  subscriptions_pricePoints_getToManyRelationship: {status: planned, issue: 7}
-  subscriptions_prices_deleteToManyRelationship: {status: planned, issue: 7}
-  subscriptions_prices_getToManyRelated: {status: planned, issue: 7}
-  subscriptions_prices_getToManyRelationship: {status: planned, issue: 7}
+  subscriptions_planAvailabilities_getToManyRelated: {status: covered, by: [apple_subscription_plan_availability]}
+  subscriptions_planAvailabilities_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  subscriptions_pricePoints_getToManyRelated: {status: covered, by: [data.apple_subscription_price_points]}
+  subscriptions_pricePoints_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  subscriptions_prices_deleteToManyRelationship: {status: out_of_scope, reason: "apple_subscription_price deletes each price by ID"}
+  subscriptions_prices_getToManyRelated: {status: covered, by: [apple_subscription_price]}
+  subscriptions_prices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_promotedPurchase_getToOneRelated: {status: planned, issue: 7}
   subscriptions_promotedPurchase_getToOneRelationship: {status: planned, issue: 7}
   subscriptions_promotionalOffers_getToManyRelated: {status: planned, issue: 7}
   subscriptions_promotionalOffers_getToManyRelationship: {status: planned, issue: 7}
-  subscriptions_subscriptionAvailability_getToOneRelated: {status: planned, issue: 7}
-  subscriptions_subscriptionAvailability_getToOneRelationship: {status: planned, issue: 7}
+  subscriptions_subscriptionAvailability_getToOneRelated: {status: out_of_scope, reason: "deprecated in favor of subscription plan availabilities"}
+  subscriptions_subscriptionAvailability_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_subscriptionLocalizations_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of subscription versions"}
-  subscriptions_subscriptionLocalizations_getToManyRelationship: {status: planned, issue: 7}
+  subscriptions_subscriptionLocalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_updateInstance: {status: covered, by: [apple_subscription]}
   subscriptions_versions_getToManyRelated: {status: covered, by: [apple_subscription_localization, apple_subscription_image, action.apple_submit_subscription]}
-  subscriptions_versions_getToManyRelationship: {status: planned, issue: 7}
+  subscriptions_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_winBackOffers_getToManyRelated: {status: planned, issue: 7}
   subscriptions_winBackOffers_getToManyRelationship: {status: planned, issue: 7}
   territories_getCollection: {status: covered, by: [data.apple_territories, apple_app_availability]}

@@ -12812,6 +12812,39 @@ func (e SubscriptionGracePeriodDuration) Valid() bool {
 	}
 }
 
+// Defines values for SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType.
+const (
+	SubscriptionGracePeriodUpdateRequestDataAttributesRenewalTypeALLRENEWALS    SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType = "ALL_RENEWALS"
+	SubscriptionGracePeriodUpdateRequestDataAttributesRenewalTypePAIDTOPAIDONLY SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType = "PAID_TO_PAID_ONLY"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType enum.
+func (e SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType) Valid() bool {
+	switch e {
+	case SubscriptionGracePeriodUpdateRequestDataAttributesRenewalTypeALLRENEWALS:
+		return true
+	case SubscriptionGracePeriodUpdateRequestDataAttributesRenewalTypePAIDTOPAIDONLY:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionGracePeriodUpdateRequestDataType.
+const (
+	SubscriptionGracePeriodUpdateRequestDataTypeSubscriptionGracePeriods SubscriptionGracePeriodUpdateRequestDataType = "subscriptionGracePeriods"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionGracePeriodUpdateRequestDataType enum.
+func (e SubscriptionGracePeriodUpdateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionGracePeriodUpdateRequestDataTypeSubscriptionGracePeriods:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for SubscriptionGroupRelationshipsSubscriptionGroupLocalizationsDataType.
 const (
 	SubscriptionGroupRelationshipsSubscriptionGroupLocalizationsDataTypeSubscriptionGroupLocalizations SubscriptionGroupRelationshipsSubscriptionGroupLocalizationsDataType = "subscriptionGroupLocalizations"
@@ -13712,6 +13745,96 @@ func (e SubscriptionPlanAvailabilityType) Valid() bool {
 	}
 }
 
+// Defines values for SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataType.
+const (
+	SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataTypeTerritories SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataType enum.
+func (e SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataType.
+const (
+	SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataTypeTerritories SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataType enum.
+func (e SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataType) Valid() bool {
+	switch e {
+	case SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataType.
+const (
+	SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataType = "subscriptions"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataType enum.
+func (e SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataType) Valid() bool {
+	switch e {
+	case SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPlanAvailabilityCreateRequestDataType.
+const (
+	SubscriptionPlanAvailabilityCreateRequestDataTypeSubscriptionPlanAvailabilities SubscriptionPlanAvailabilityCreateRequestDataType = "subscriptionPlanAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPlanAvailabilityCreateRequestDataType enum.
+func (e SubscriptionPlanAvailabilityCreateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionPlanAvailabilityCreateRequestDataTypeSubscriptionPlanAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataType.
+const (
+	SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataTypeTerritories SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataType enum.
+func (e SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataType) Valid() bool {
+	switch e {
+	case SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPlanAvailabilityUpdateRequestDataType.
+const (
+	SubscriptionPlanAvailabilityUpdateRequestDataTypeSubscriptionPlanAvailabilities SubscriptionPlanAvailabilityUpdateRequestDataType = "subscriptionPlanAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPlanAvailabilityUpdateRequestDataType enum.
+func (e SubscriptionPlanAvailabilityUpdateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionPlanAvailabilityUpdateRequestDataTypeSubscriptionPlanAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for SubscriptionPlanType.
 const (
 	SubscriptionPlanTypeMONTHLY SubscriptionPlanType = "MONTHLY"
@@ -13775,6 +13898,66 @@ func (e SubscriptionPriceType) Valid() bool {
 	}
 }
 
+// Defines values for SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataType.
+const (
+	SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataType = "subscriptions"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataType enum.
+func (e SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataType) Valid() bool {
+	switch e {
+	case SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataType.
+const (
+	SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataType = "subscriptionPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataType enum.
+func (e SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataType) Valid() bool {
+	switch e {
+	case SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataType.
+const (
+	SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataTypeTerritories SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataType enum.
+func (e SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPriceCreateRequestDataType.
+const (
+	SubscriptionPriceCreateRequestDataTypeSubscriptionPrices SubscriptionPriceCreateRequestDataType = "subscriptionPrices"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPriceCreateRequestDataType enum.
+func (e SubscriptionPriceCreateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionPriceCreateRequestDataTypeSubscriptionPrices:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for SubscriptionPriceInlineCreateRelationshipsSubscriptionDataType.
 const (
 	SubscriptionPriceInlineCreateRelationshipsSubscriptionDataTypeSubscriptions SubscriptionPriceInlineCreateRelationshipsSubscriptionDataType = "subscriptions"
@@ -13829,6 +14012,36 @@ const (
 func (e SubscriptionPriceInlineCreateType) Valid() bool {
 	switch e {
 	case SubscriptionPriceInlineCreateTypeSubscriptionPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPricePointRelationshipsTerritoryDataType.
+const (
+	SubscriptionPricePointRelationshipsTerritoryDataTypeTerritories SubscriptionPricePointRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPricePointRelationshipsTerritoryDataType enum.
+func (e SubscriptionPricePointRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case SubscriptionPricePointRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPricePointType.
+const (
+	SubscriptionPricePointTypeSubscriptionPricePoints SubscriptionPricePointType = "subscriptionPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPricePointType enum.
+func (e SubscriptionPricePointType) Valid() bool {
+	switch e {
+	case SubscriptionPricePointTypeSubscriptionPricePoints:
 		return true
 	default:
 		return false
@@ -24296,6 +24509,30 @@ func (e AppsInAppPurchasesV2GetToManyRelatedParamsInclude) Valid() bool {
 	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludePromotedPurchase:
 		return true
 	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods.
+const (
+	AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsDuration     AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods = "duration"
+	AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsOptIn        AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods = "optIn"
+	AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsRenewalType  AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods = "renewalType"
+	AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsSandboxOptIn AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods = "sandboxOptIn"
+)
+
+// Valid indicates whether the value is a known member of the AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods enum.
+func (e AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods) Valid() bool {
+	switch e {
+	case AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsDuration:
+		return true
+	case AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsOptIn:
+		return true
+	case AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsRenewalType:
+		return true
+	case AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriodsSandboxOptIn:
 		return true
 	default:
 		return false
@@ -34853,6 +35090,81 @@ func (e SubscriptionGroupsVersionsGetToManyRelatedParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories.
+const (
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritoriesCurrency SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories enum.
+func (e SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints.
+const (
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "adjustedEqualizations"
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice         SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "customerPrice"
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations         SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "equalizations"
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds              SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceeds"
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2         SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceedsYear2"
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory             SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints enum.
+func (e SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints) Valid() bool {
+	switch e {
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations:
+		return true
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice:
+		return true
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations:
+		return true
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds:
+		return true
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2:
+		return true
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritories.
+const (
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritoriesCurrency SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritories enum.
+func (e SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionPricePointsEqualizationsGetToManyRelatedParamsInclude.
+const (
+	SubscriptionPricePointsEqualizationsGetToManyRelatedParamsIncludeTerritory SubscriptionPricePointsEqualizationsGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionPricePointsEqualizationsGetToManyRelatedParamsInclude enum.
+func (e SubscriptionPricePointsEqualizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionPricePointsEqualizationsGetToManyRelatedParamsIncludeTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for SubscriptionVersionsImageGetToOneRelatedParamsFieldsSubscriptionImages.
 const (
 	SubscriptionVersionsImageGetToOneRelatedParamsFieldsSubscriptionImagesAssetDeliveryState SubscriptionVersionsImageGetToOneRelatedParamsFieldsSubscriptionImages = "assetDeliveryState"
@@ -35651,6 +35963,225 @@ const (
 func (e SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsInclude) Valid() bool {
 	switch e {
 	case SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsIncludeSubscription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities.
+const (
+	SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilitiesAvailableInNewTerritories SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities = "availableInNewTerritories"
+	SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilitiesAvailableTerritories      SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities = "availableTerritories"
+	SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilitiesPlanType                  SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities = "planType"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities enum.
+func (e SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities) Valid() bool {
+	switch e {
+	case SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilitiesAvailableInNewTerritories:
+		return true
+	case SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilitiesAvailableTerritories:
+		return true
+	case SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilitiesPlanType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritories.
+const (
+	SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritoriesCurrency SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritories enum.
+func (e SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsInclude.
+const (
+	SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsIncludeAvailableTerritories SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsInclude = "availableTerritories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsInclude enum.
+func (e SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsIncludeAvailableTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints.
+const (
+	SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "adjustedEqualizations"
+	SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice         SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "customerPrice"
+	SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations         SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "equalizations"
+	SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds              SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceeds"
+	SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2         SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceedsYear2"
+	SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory             SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints enum.
+func (e SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints) Valid() bool {
+	switch e {
+	case SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations:
+		return true
+	case SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice:
+		return true
+	case SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations:
+		return true
+	case SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds:
+		return true
+	case SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2:
+		return true
+	case SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritories.
+const (
+	SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritoriesCurrency SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritories enum.
+func (e SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricePointsGetToManyRelatedParamsInclude.
+const (
+	SubscriptionsPricePointsGetToManyRelatedParamsIncludeTerritory SubscriptionsPricePointsGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricePointsGetToManyRelatedParamsInclude enum.
+func (e SubscriptionsPricePointsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionsPricePointsGetToManyRelatedParamsIncludeTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricesGetToManyRelatedParamsFilterPlanType.
+const (
+	SubscriptionsPricesGetToManyRelatedParamsFilterPlanTypeMONTHLY SubscriptionsPricesGetToManyRelatedParamsFilterPlanType = "MONTHLY"
+	SubscriptionsPricesGetToManyRelatedParamsFilterPlanTypeUPFRONT SubscriptionsPricesGetToManyRelatedParamsFilterPlanType = "UPFRONT"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricesGetToManyRelatedParamsFilterPlanType enum.
+func (e SubscriptionsPricesGetToManyRelatedParamsFilterPlanType) Valid() bool {
+	switch e {
+	case SubscriptionsPricesGetToManyRelatedParamsFilterPlanTypeMONTHLY:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFilterPlanTypeUPFRONT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices.
+const (
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesPlanType               SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices = "planType"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesPreserved              SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices = "preserved"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesStartDate              SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices = "startDate"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesSubscriptionPricePoint SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices = "subscriptionPricePoint"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesTerritory              SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices enum.
+func (e SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices) Valid() bool {
+	switch e {
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesPlanType:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesPreserved:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesStartDate:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesSubscriptionPricePoint:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricesGetToManyRelatedParamsFieldsTerritories.
+const (
+	SubscriptionsPricesGetToManyRelatedParamsFieldsTerritoriesCurrency SubscriptionsPricesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricesGetToManyRelatedParamsFieldsTerritories enum.
+func (e SubscriptionsPricesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints.
+const (
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "adjustedEqualizations"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice         SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "customerPrice"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations         SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "equalizations"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds              SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceeds"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2         SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceedsYear2"
+	SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory             SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints enum.
+func (e SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints) Valid() bool {
+	switch e {
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsPricesGetToManyRelatedParamsInclude.
+const (
+	SubscriptionsPricesGetToManyRelatedParamsIncludeSubscriptionPricePoint SubscriptionsPricesGetToManyRelatedParamsInclude = "subscriptionPricePoint"
+	SubscriptionsPricesGetToManyRelatedParamsIncludeTerritory              SubscriptionsPricesGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsPricesGetToManyRelatedParamsInclude enum.
+func (e SubscriptionsPricesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionsPricesGetToManyRelatedParamsIncludeSubscriptionPricePoint:
+		return true
+	case SubscriptionsPricesGetToManyRelatedParamsIncludeTerritory:
 		return true
 	default:
 		return false
@@ -47709,6 +48240,32 @@ type SubscriptionGracePeriodType string
 // SubscriptionGracePeriodDuration defines model for SubscriptionGracePeriodDuration.
 type SubscriptionGracePeriodDuration string
 
+// SubscriptionGracePeriodResponse defines model for SubscriptionGracePeriodResponse.
+type SubscriptionGracePeriodResponse struct {
+	Data  SubscriptionGracePeriod `json:"data"`
+	Links DocumentLinks           `json:"links"`
+}
+
+// SubscriptionGracePeriodUpdateRequest defines model for SubscriptionGracePeriodUpdateRequest.
+type SubscriptionGracePeriodUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Duration     *SubscriptionGracePeriodDuration                               `json:"duration,omitempty"`
+			OptIn        *bool                                                          `json:"optIn,omitempty"`
+			RenewalType  *SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType `json:"renewalType,omitempty"`
+			SandboxOptIn *bool                                                          `json:"sandboxOptIn,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                       `json:"id"`
+		Type SubscriptionGracePeriodUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType defines model for SubscriptionGracePeriodUpdateRequest.Data.Attributes.RenewalType.
+type SubscriptionGracePeriodUpdateRequestDataAttributesRenewalType string
+
+// SubscriptionGracePeriodUpdateRequestDataType defines model for SubscriptionGracePeriodUpdateRequest.Data.Type.
+type SubscriptionGracePeriodUpdateRequestDataType string
+
 // SubscriptionGroup defines model for SubscriptionGroup.
 type SubscriptionGroup struct {
 	Attributes *struct {
@@ -48395,6 +48952,14 @@ type SubscriptionOfferEligibility string
 // SubscriptionOfferMode defines model for SubscriptionOfferMode.
 type SubscriptionOfferMode string
 
+// SubscriptionPlanAvailabilitiesResponse defines model for SubscriptionPlanAvailabilitiesResponse.
+type SubscriptionPlanAvailabilitiesResponse struct {
+	Data     []SubscriptionPlanAvailability `json:"data"`
+	Included *[]Territory                   `json:"included,omitempty"`
+	Links    PagedDocumentLinks             `json:"links"`
+	Meta     *PagingInformation             `json:"meta,omitempty"`
+}
+
 // SubscriptionPlanAvailability defines model for SubscriptionPlanAvailability.
 type SubscriptionPlanAvailability struct {
 	Attributes *struct {
@@ -48421,6 +48986,83 @@ type SubscriptionPlanAvailabilityRelationshipsAvailableTerritoriesDataType strin
 
 // SubscriptionPlanAvailabilityType defines model for SubscriptionPlanAvailability.Type.
 type SubscriptionPlanAvailabilityType string
+
+// SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequest defines model for SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequest.
+type SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequest struct {
+	Data []struct {
+		Id   string                                                                  `json:"id"`
+		Type SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataType defines model for SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequest.Data.Type.
+type SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequestDataType string
+
+// SubscriptionPlanAvailabilityCreateRequest defines model for SubscriptionPlanAvailabilityCreateRequest.
+type SubscriptionPlanAvailabilityCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AvailableInNewTerritories *bool                `json:"availableInNewTerritories,omitempty"`
+			PlanType                  SubscriptionPlanType `json:"planType"`
+		} `json:"attributes"`
+		Relationships struct {
+			AvailableTerritories struct {
+				Data []struct {
+					Id   string                                                                                 `json:"id"`
+					Type SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"availableTerritories"`
+			Subscription struct {
+				Data struct {
+					Id   string                                                                         `json:"id"`
+					Type SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"subscription"`
+		} `json:"relationships"`
+		Type SubscriptionPlanAvailabilityCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataType defines model for SubscriptionPlanAvailabilityCreateRequest.Data.Relationships.AvailableTerritories.Data.Type.
+type SubscriptionPlanAvailabilityCreateRequestDataRelationshipsAvailableTerritoriesDataType string
+
+// SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataType defines model for SubscriptionPlanAvailabilityCreateRequest.Data.Relationships.Subscription.Data.Type.
+type SubscriptionPlanAvailabilityCreateRequestDataRelationshipsSubscriptionDataType string
+
+// SubscriptionPlanAvailabilityCreateRequestDataType defines model for SubscriptionPlanAvailabilityCreateRequest.Data.Type.
+type SubscriptionPlanAvailabilityCreateRequestDataType string
+
+// SubscriptionPlanAvailabilityResponse defines model for SubscriptionPlanAvailabilityResponse.
+type SubscriptionPlanAvailabilityResponse struct {
+	Data     SubscriptionPlanAvailability `json:"data"`
+	Included *[]Territory                 `json:"included,omitempty"`
+	Links    DocumentLinks                `json:"links"`
+}
+
+// SubscriptionPlanAvailabilityUpdateRequest defines model for SubscriptionPlanAvailabilityUpdateRequest.
+type SubscriptionPlanAvailabilityUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			AvailableInNewTerritories *bool `json:"availableInNewTerritories,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			AvailableTerritories *struct {
+				Data *[]struct {
+					Id   string                                                                                 `json:"id"`
+					Type SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"availableTerritories,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type SubscriptionPlanAvailabilityUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataType defines model for SubscriptionPlanAvailabilityUpdateRequest.Data.Relationships.AvailableTerritories.Data.Type.
+type SubscriptionPlanAvailabilityUpdateRequestDataRelationshipsAvailableTerritoriesDataType string
+
+// SubscriptionPlanAvailabilityUpdateRequestDataType defines model for SubscriptionPlanAvailabilityUpdateRequest.Data.Type.
+type SubscriptionPlanAvailabilityUpdateRequestDataType string
 
 // SubscriptionPlanType defines model for SubscriptionPlanType.
 type SubscriptionPlanType string
@@ -48459,6 +49101,50 @@ type SubscriptionPriceRelationshipsTerritoryDataType string
 
 // SubscriptionPriceType defines model for SubscriptionPrice.Type.
 type SubscriptionPriceType string
+
+// SubscriptionPriceCreateRequest defines model for SubscriptionPriceCreateRequest.
+type SubscriptionPriceCreateRequest struct {
+	Data struct {
+		Attributes *struct {
+			PlanType             *SubscriptionPlanType `json:"planType,omitempty"`
+			PreserveCurrentPrice *bool                 `json:"preserveCurrentPrice,omitempty"`
+			StartDate            *openapi_types.Date   `json:"startDate,omitempty"`
+		} `json:"attributes,omitempty"`
+		Relationships struct {
+			Subscription struct {
+				Data struct {
+					Id   string                                                              `json:"id"`
+					Type SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"subscription"`
+			SubscriptionPricePoint struct {
+				Data struct {
+					Id   string                                                                        `json:"id"`
+					Type SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataType `json:"type"`
+				} `json:"data"`
+			} `json:"subscriptionPricePoint"`
+			Territory *struct {
+				Data *struct {
+					Id   string                                                           `json:"id"`
+					Type SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"territory,omitempty"`
+		} `json:"relationships"`
+		Type SubscriptionPriceCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataType defines model for SubscriptionPriceCreateRequest.Data.Relationships.Subscription.Data.Type.
+type SubscriptionPriceCreateRequestDataRelationshipsSubscriptionDataType string
+
+// SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataType defines model for SubscriptionPriceCreateRequest.Data.Relationships.SubscriptionPricePoint.Data.Type.
+type SubscriptionPriceCreateRequestDataRelationshipsSubscriptionPricePointDataType string
+
+// SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataType defines model for SubscriptionPriceCreateRequest.Data.Relationships.Territory.Data.Type.
+type SubscriptionPriceCreateRequestDataRelationshipsTerritoryDataType string
+
+// SubscriptionPriceCreateRequestDataType defines model for SubscriptionPriceCreateRequest.Data.Type.
+type SubscriptionPriceCreateRequestDataType string
 
 // SubscriptionPriceInlineCreate defines model for SubscriptionPriceInlineCreate.
 type SubscriptionPriceInlineCreate struct {
@@ -48502,6 +49188,71 @@ type SubscriptionPriceInlineCreateRelationshipsTerritoryDataType string
 
 // SubscriptionPriceInlineCreateType defines model for SubscriptionPriceInlineCreate.Type.
 type SubscriptionPriceInlineCreateType string
+
+// SubscriptionPricePoint defines model for SubscriptionPricePoint.
+type SubscriptionPricePoint struct {
+	Attributes *struct {
+		CustomerPrice *string `json:"customerPrice,omitempty"`
+		Proceeds      *string `json:"proceeds,omitempty"`
+		ProceedsYear2 *string `json:"proceedsYear2,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AdjustedEqualizations *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"adjustedEqualizations,omitempty"`
+		Equalizations *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"equalizations,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                               `json:"id"`
+				Type SubscriptionPricePointRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type SubscriptionPricePointType `json:"type"`
+}
+
+// SubscriptionPricePointRelationshipsTerritoryDataType defines model for SubscriptionPricePoint.Relationships.Territory.Data.Type.
+type SubscriptionPricePointRelationshipsTerritoryDataType string
+
+// SubscriptionPricePointType defines model for SubscriptionPricePoint.Type.
+type SubscriptionPricePointType string
+
+// SubscriptionPricePointsResponse defines model for SubscriptionPricePointsResponse.
+type SubscriptionPricePointsResponse struct {
+	Data     []SubscriptionPricePoint `json:"data"`
+	Included *[]Territory             `json:"included,omitempty"`
+	Links    PagedDocumentLinks       `json:"links"`
+	Meta     *PagingInformation       `json:"meta,omitempty"`
+}
+
+// SubscriptionPriceResponse defines model for SubscriptionPriceResponse.
+type SubscriptionPriceResponse struct {
+	Data     SubscriptionPrice                          `json:"data"`
+	Included *[]SubscriptionPriceResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                              `json:"links"`
+}
+
+// SubscriptionPriceResponse_Included_Item defines model for SubscriptionPriceResponse.included.Item.
+type SubscriptionPriceResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// SubscriptionPricesResponse defines model for SubscriptionPricesResponse.
+type SubscriptionPricesResponse struct {
+	Data     []SubscriptionPrice                         `json:"data"`
+	Included *[]SubscriptionPricesResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                          `json:"links"`
+	Meta     *PagingInformation                          `json:"meta,omitempty"`
+}
+
+// SubscriptionPricesResponse_Included_Item defines model for SubscriptionPricesResponse.included.Item.
+type SubscriptionPricesResponse_Included_Item struct {
+	union json.RawMessage
+}
 
 // SubscriptionPromotionalOffer defines model for SubscriptionPromotionalOffer.
 type SubscriptionPromotionalOffer struct {
@@ -50948,6 +51699,15 @@ type AppsSearchKeywordsGetToManyRelatedParams struct {
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
+// AppsSubscriptionGracePeriodGetToOneRelatedParams defines parameters for AppsSubscriptionGracePeriodGetToOneRelated.
+type AppsSubscriptionGracePeriodGetToOneRelatedParams struct {
+	// FieldsSubscriptionGracePeriods the fields to include for returned resources of type subscriptionGracePeriods
+	FieldsSubscriptionGracePeriods *[]AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods `form:"fields[subscriptionGracePeriods],omitempty" json:"fields[subscriptionGracePeriods],omitempty"`
+}
+
+// AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods defines parameters for AppsSubscriptionGracePeriodGetToOneRelated.
+type AppsSubscriptionGracePeriodGetToOneRelatedParamsFieldsSubscriptionGracePeriods string
+
 // AppsSubscriptionGroupsGetToManyRelatedParams defines parameters for AppsSubscriptionGroupsGetToManyRelated.
 type AppsSubscriptionGroupsGetToManyRelatedParams struct {
 	// FilterReferenceName filter by attribute 'referenceName'
@@ -52961,6 +53721,54 @@ type SubscriptionGroupsVersionsGetToManyRelatedParamsFieldsSubscriptionGroupLoca
 // SubscriptionGroupsVersionsGetToManyRelatedParamsInclude defines parameters for SubscriptionGroupsVersionsGetToManyRelated.
 type SubscriptionGroupsVersionsGetToManyRelatedParamsInclude string
 
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams defines parameters for SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated.
+type SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams struct {
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories defines parameters for SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated.
+type SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories string
+
+// SubscriptionPricePointsEqualizationsGetToManyRelatedParams defines parameters for SubscriptionPricePointsEqualizationsGetToManyRelated.
+type SubscriptionPricePointsEqualizationsGetToManyRelatedParams struct {
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FilterSubscription filter by id(s) of related 'subscription'
+	FilterSubscription *[]string `form:"filter[subscription],omitempty" json:"filter[subscription],omitempty"`
+
+	// FilterUpfrontPricePointId filter by upfrontPricePointId
+	FilterUpfrontPricePointId *[]string `form:"filter[upfrontPricePointId],omitempty" json:"filter[upfrontPricePointId],omitempty"`
+
+	// FilterPlanType filter by planType
+	FilterPlanType *[]string `form:"filter[planType],omitempty" json:"filter[planType],omitempty"`
+
+	// FieldsSubscriptionPricePoints the fields to include for returned resources of type subscriptionPricePoints
+	FieldsSubscriptionPricePoints *[]SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints `form:"fields[subscriptionPricePoints],omitempty" json:"fields[subscriptionPricePoints],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionPricePointsEqualizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints defines parameters for SubscriptionPricePointsEqualizationsGetToManyRelated.
+type SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsSubscriptionPricePoints string
+
+// SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritories defines parameters for SubscriptionPricePointsEqualizationsGetToManyRelated.
+type SubscriptionPricePointsEqualizationsGetToManyRelatedParamsFieldsTerritories string
+
+// SubscriptionPricePointsEqualizationsGetToManyRelatedParamsInclude defines parameters for SubscriptionPricePointsEqualizationsGetToManyRelated.
+type SubscriptionPricePointsEqualizationsGetToManyRelatedParamsInclude string
+
 // SubscriptionVersionsImageGetToOneRelatedParams defines parameters for SubscriptionVersionsImageGetToOneRelated.
 type SubscriptionVersionsImageGetToOneRelatedParams struct {
 	// FieldsSubscriptionImages the fields to include for returned resources of type subscriptionImages
@@ -53135,6 +53943,108 @@ type SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptio
 
 // SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsInclude defines parameters for SubscriptionsAppStoreReviewScreenshotGetToOneRelated.
 type SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsInclude string
+
+// SubscriptionsPlanAvailabilitiesGetToManyRelatedParams defines parameters for SubscriptionsPlanAvailabilitiesGetToManyRelated.
+type SubscriptionsPlanAvailabilitiesGetToManyRelatedParams struct {
+	// FieldsSubscriptionPlanAvailabilities the fields to include for returned resources of type subscriptionPlanAvailabilities
+	FieldsSubscriptionPlanAvailabilities *[]SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities `form:"fields[subscriptionPlanAvailabilities],omitempty" json:"fields[subscriptionPlanAvailabilities],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAvailableTerritories maximum number of related availableTerritories returned (when they are included)
+	LimitAvailableTerritories *int `form:"limit[availableTerritories],omitempty" json:"limit[availableTerritories],omitempty"`
+}
+
+// SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities defines parameters for SubscriptionsPlanAvailabilitiesGetToManyRelated.
+type SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsSubscriptionPlanAvailabilities string
+
+// SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritories defines parameters for SubscriptionsPlanAvailabilitiesGetToManyRelated.
+type SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsFieldsTerritories string
+
+// SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsInclude defines parameters for SubscriptionsPlanAvailabilitiesGetToManyRelated.
+type SubscriptionsPlanAvailabilitiesGetToManyRelatedParamsInclude string
+
+// SubscriptionsPricePointsGetToManyRelatedParams defines parameters for SubscriptionsPricePointsGetToManyRelated.
+type SubscriptionsPricePointsGetToManyRelatedParams struct {
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FilterUpfrontPricePointId filter by upfrontPricePointId
+	FilterUpfrontPricePointId *[]string `form:"filter[upfrontPricePointId],omitempty" json:"filter[upfrontPricePointId],omitempty"`
+
+	// FilterPlanType filter by planType
+	FilterPlanType *[]string `form:"filter[planType],omitempty" json:"filter[planType],omitempty"`
+
+	// FieldsSubscriptionPricePoints the fields to include for returned resources of type subscriptionPricePoints
+	FieldsSubscriptionPricePoints *[]SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints `form:"fields[subscriptionPricePoints],omitempty" json:"fields[subscriptionPricePoints],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionsPricePointsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints defines parameters for SubscriptionsPricePointsGetToManyRelated.
+type SubscriptionsPricePointsGetToManyRelatedParamsFieldsSubscriptionPricePoints string
+
+// SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritories defines parameters for SubscriptionsPricePointsGetToManyRelated.
+type SubscriptionsPricePointsGetToManyRelatedParamsFieldsTerritories string
+
+// SubscriptionsPricePointsGetToManyRelatedParamsInclude defines parameters for SubscriptionsPricePointsGetToManyRelated.
+type SubscriptionsPricePointsGetToManyRelatedParamsInclude string
+
+// SubscriptionsPricesGetToManyRelatedParams defines parameters for SubscriptionsPricesGetToManyRelated.
+type SubscriptionsPricesGetToManyRelatedParams struct {
+	// FilterPlanType filter by attribute 'planType'
+	FilterPlanType *[]SubscriptionsPricesGetToManyRelatedParamsFilterPlanType `form:"filter[planType],omitempty" json:"filter[planType],omitempty"`
+
+	// FilterSubscriptionPricePoint filter by id(s) of related 'subscriptionPricePoint'
+	FilterSubscriptionPricePoint *[]string `form:"filter[subscriptionPricePoint],omitempty" json:"filter[subscriptionPricePoint],omitempty"`
+
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FieldsSubscriptionPrices the fields to include for returned resources of type subscriptionPrices
+	FieldsSubscriptionPrices *[]SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices `form:"fields[subscriptionPrices],omitempty" json:"fields[subscriptionPrices],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]SubscriptionsPricesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// FieldsSubscriptionPricePoints the fields to include for returned resources of type subscriptionPricePoints
+	FieldsSubscriptionPricePoints *[]SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints `form:"fields[subscriptionPricePoints],omitempty" json:"fields[subscriptionPricePoints],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionsPricesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// SubscriptionsPricesGetToManyRelatedParamsFilterPlanType defines parameters for SubscriptionsPricesGetToManyRelated.
+type SubscriptionsPricesGetToManyRelatedParamsFilterPlanType string
+
+// SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices defines parameters for SubscriptionsPricesGetToManyRelated.
+type SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPrices string
+
+// SubscriptionsPricesGetToManyRelatedParamsFieldsTerritories defines parameters for SubscriptionsPricesGetToManyRelated.
+type SubscriptionsPricesGetToManyRelatedParamsFieldsTerritories string
+
+// SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints defines parameters for SubscriptionsPricesGetToManyRelated.
+type SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints string
+
+// SubscriptionsPricesGetToManyRelatedParamsInclude defines parameters for SubscriptionsPricesGetToManyRelated.
+type SubscriptionsPricesGetToManyRelatedParamsInclude string
 
 // SubscriptionsVersionsGetToManyRelatedParams defines parameters for SubscriptionsVersionsGetToManyRelated.
 type SubscriptionsVersionsGetToManyRelatedParams struct {
@@ -53973,6 +54883,9 @@ type SubscriptionAppStoreReviewScreenshotsCreateInstanceJSONRequestBody = Subscr
 // SubscriptionAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody defines body for SubscriptionAppStoreReviewScreenshotsUpdateInstance for application/json ContentType.
 type SubscriptionAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody = SubscriptionAppStoreReviewScreenshotUpdateRequest
 
+// SubscriptionGracePeriodsUpdateInstanceJSONRequestBody defines body for SubscriptionGracePeriodsUpdateInstance for application/json ContentType.
+type SubscriptionGracePeriodsUpdateInstanceJSONRequestBody = SubscriptionGracePeriodUpdateRequest
+
 // SubscriptionGroupVersionsCreateInstanceJSONRequestBody defines body for SubscriptionGroupVersionsCreateInstance for application/json ContentType.
 type SubscriptionGroupVersionsCreateInstanceJSONRequestBody = SubscriptionGroupVersionCreateRequest
 
@@ -53981,6 +54894,18 @@ type SubscriptionGroupsCreateInstanceJSONRequestBody = SubscriptionGroupCreateRe
 
 // SubscriptionGroupsUpdateInstanceJSONRequestBody defines body for SubscriptionGroupsUpdateInstance for application/json ContentType.
 type SubscriptionGroupsUpdateInstanceJSONRequestBody = SubscriptionGroupUpdateRequest
+
+// SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody defines body for SubscriptionPlanAvailabilitiesCreateInstance for application/json ContentType.
+type SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody = SubscriptionPlanAvailabilityCreateRequest
+
+// SubscriptionPlanAvailabilitiesUpdateInstanceJSONRequestBody defines body for SubscriptionPlanAvailabilitiesUpdateInstance for application/json ContentType.
+type SubscriptionPlanAvailabilitiesUpdateInstanceJSONRequestBody = SubscriptionPlanAvailabilityUpdateRequest
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipJSONRequestBody defines body for SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship for application/json ContentType.
+type SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipJSONRequestBody = SubscriptionPlanAvailabilityAvailableTerritoriesLinkagesRequest
+
+// SubscriptionPricesCreateInstanceJSONRequestBody defines body for SubscriptionPricesCreateInstance for application/json ContentType.
+type SubscriptionPricesCreateInstanceJSONRequestBody = SubscriptionPriceCreateRequest
 
 // SubscriptionVersionsCreateInstanceJSONRequestBody defines body for SubscriptionVersionsCreateInstance for application/json ContentType.
 type SubscriptionVersionsCreateInstanceJSONRequestBody = SubscriptionVersionCreateRequest
@@ -65042,6 +65967,208 @@ func (t *SubscriptionGroupsResponse_Included_Item) UnmarshalJSON(b []byte) error
 	return err
 }
 
+// AsSubscriptionPricePoint returns the union data inside the SubscriptionPriceResponse_Included_Item as a SubscriptionPricePoint
+func (t SubscriptionPriceResponse_Included_Item) AsSubscriptionPricePoint() (SubscriptionPricePoint, error) {
+	var body SubscriptionPricePoint
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscriptionPricePoint overwrites any union data inside the SubscriptionPriceResponse_Included_Item as the provided SubscriptionPricePoint
+func (t *SubscriptionPriceResponse_Included_Item) FromSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscriptionPricePoint performs a merge with any union data inside the SubscriptionPriceResponse_Included_Item, using the provided SubscriptionPricePoint
+func (t *SubscriptionPriceResponse_Included_Item) MergeSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the SubscriptionPriceResponse_Included_Item as a Territory
+func (t SubscriptionPriceResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the SubscriptionPriceResponse_Included_Item as the provided Territory
+func (t *SubscriptionPriceResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the SubscriptionPriceResponse_Included_Item, using the provided Territory
+func (t *SubscriptionPriceResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t SubscriptionPriceResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t SubscriptionPriceResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "subscriptionPricePoints":
+		return t.AsSubscriptionPricePoint()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t SubscriptionPriceResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *SubscriptionPriceResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsSubscriptionPricePoint returns the union data inside the SubscriptionPricesResponse_Included_Item as a SubscriptionPricePoint
+func (t SubscriptionPricesResponse_Included_Item) AsSubscriptionPricePoint() (SubscriptionPricePoint, error) {
+	var body SubscriptionPricePoint
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscriptionPricePoint overwrites any union data inside the SubscriptionPricesResponse_Included_Item as the provided SubscriptionPricePoint
+func (t *SubscriptionPricesResponse_Included_Item) FromSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscriptionPricePoint performs a merge with any union data inside the SubscriptionPricesResponse_Included_Item, using the provided SubscriptionPricePoint
+func (t *SubscriptionPricesResponse_Included_Item) MergeSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the SubscriptionPricesResponse_Included_Item as a Territory
+func (t SubscriptionPricesResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the SubscriptionPricesResponse_Included_Item as the provided Territory
+func (t *SubscriptionPricesResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the SubscriptionPricesResponse_Included_Item, using the provided Territory
+func (t *SubscriptionPricesResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t SubscriptionPricesResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t SubscriptionPricesResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "subscriptionPricePoints":
+		return t.AsSubscriptionPricePoint()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t SubscriptionPricesResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *SubscriptionPricesResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsPromotedPurchase returns the union data inside the SubscriptionResponse_Included_Item as a PromotedPurchase
 func (t SubscriptionResponse_Included_Item) AsPromotedPurchase() (PromotedPurchase, error) {
 	var body PromotedPurchase
@@ -66903,6 +68030,9 @@ type ClientInterface interface {
 	// AppsSearchKeywordsGetToManyRelated performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
 	AppsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsSubscriptionGracePeriodGetToOneRelated performs a GET /v1/apps/{id}/subscriptionGracePeriod (the `AppsSubscriptionGracePeriodGetToOneRelated` operationId) request.
+	AppsSubscriptionGracePeriodGetToOneRelated(ctx context.Context, id string, params *AppsSubscriptionGracePeriodGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsSubscriptionGroupsGetToManyRelated performs a GET /v1/apps/{id}/subscriptionGroups (the `AppsSubscriptionGroupsGetToManyRelated` operationId) request.
 	AppsSubscriptionGroupsGetToManyRelated(ctx context.Context, id string, params *AppsSubscriptionGroupsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -67525,6 +68655,14 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	SubscriptionAppStoreReviewScreenshotsUpdateInstance(ctx context.Context, id string, body SubscriptionAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// SubscriptionGracePeriodsUpdateInstanceWithBody performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionGracePeriodsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionGracePeriodsUpdateInstance performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionGracePeriodsUpdateInstance(ctx context.Context, id string, body SubscriptionGracePeriodsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// SubscriptionGroupVersionsCreateInstanceWithBody performs a POST /v1/subscriptionGroupVersions (the `SubscriptionGroupVersionsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	SubscriptionGroupVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -67564,6 +68702,47 @@ type ClientInterface interface {
 	// SubscriptionGroupsVersionsGetToManyRelated performs a GET /v1/subscriptionGroups/{id}/versions (the `SubscriptionGroupsVersionsGetToManyRelated` operationId) request.
 	SubscriptionGroupsVersionsGetToManyRelated(ctx context.Context, id string, params *SubscriptionGroupsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// SubscriptionPlanAvailabilitiesCreateInstanceWithBody performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionPlanAvailabilitiesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPlanAvailabilitiesCreateInstance performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionPlanAvailabilitiesCreateInstance(ctx context.Context, body SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPlanAvailabilitiesUpdateInstanceWithBody performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionPlanAvailabilitiesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPlanAvailabilitiesUpdateInstance performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionPlanAvailabilitiesUpdateInstance(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated performs a GET /v1/subscriptionPlanAvailabilities/{id}/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated` operationId) request.
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated(ctx context.Context, id string, params *SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBody performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPricePointsEqualizationsGetToManyRelated performs a GET /v1/subscriptionPricePoints/{id}/equalizations (the `SubscriptionPricePointsEqualizationsGetToManyRelated` operationId) request.
+	SubscriptionPricePointsEqualizationsGetToManyRelated(ctx context.Context, id string, params *SubscriptionPricePointsEqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPricesCreateInstanceWithBody performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionPricesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPricesCreateInstance performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionPricesCreateInstance(ctx context.Context, body SubscriptionPricesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionPricesDeleteInstance performs a DELETE /v1/subscriptionPrices/{id} (the `SubscriptionPricesDeleteInstance` operationId) request.
+	SubscriptionPricesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// SubscriptionVersionsCreateInstanceWithBody performs a POST /v1/subscriptionVersions (the `SubscriptionVersionsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	SubscriptionVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -67602,6 +68781,15 @@ type ClientInterface interface {
 
 	// SubscriptionsAppStoreReviewScreenshotGetToOneRelated performs a GET /v1/subscriptions/{id}/appStoreReviewScreenshot (the `SubscriptionsAppStoreReviewScreenshotGetToOneRelated` operationId) request.
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelated(ctx context.Context, id string, params *SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsPlanAvailabilitiesGetToManyRelated performs a GET /v1/subscriptions/{id}/planAvailabilities (the `SubscriptionsPlanAvailabilitiesGetToManyRelated` operationId) request.
+	SubscriptionsPlanAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPlanAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsPricePointsGetToManyRelated performs a GET /v1/subscriptions/{id}/pricePoints (the `SubscriptionsPricePointsGetToManyRelated` operationId) request.
+	SubscriptionsPricePointsGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsPricesGetToManyRelated performs a GET /v1/subscriptions/{id}/prices (the `SubscriptionsPricesGetToManyRelated` operationId) request.
+	SubscriptionsPricesGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// SubscriptionsVersionsGetToManyRelated performs a GET /v1/subscriptions/{id}/versions (the `SubscriptionsVersionsGetToManyRelated` operationId) request.
 	SubscriptionsVersionsGetToManyRelated(ctx context.Context, id string, params *SubscriptionsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -69491,6 +70679,19 @@ func (c *Client) AppsBetaTestersDeleteToManyRelationship(ctx context.Context, id
 // AppsSearchKeywordsGetToManyRelated performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
 func (c *Client) AppsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsSearchKeywordsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsSubscriptionGracePeriodGetToOneRelated performs a GET /v1/apps/{id}/subscriptionGracePeriod (the `AppsSubscriptionGracePeriodGetToOneRelated` operationId) request.
+func (c *Client) AppsSubscriptionGracePeriodGetToOneRelated(ctx context.Context, id string, params *AppsSubscriptionGracePeriodGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsSubscriptionGracePeriodGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -71843,6 +73044,34 @@ func (c *Client) SubscriptionAppStoreReviewScreenshotsUpdateInstance(ctx context
 	return c.Client.Do(req)
 }
 
+// SubscriptionGracePeriodsUpdateInstanceWithBody performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionGracePeriodsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionGracePeriodsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionGracePeriodsUpdateInstance performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionGracePeriodsUpdateInstance(ctx context.Context, id string, body SubscriptionGracePeriodsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionGracePeriodsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // SubscriptionGroupVersionsCreateInstanceWithBody performs a POST /v1/subscriptionGroupVersions (the `SubscriptionGroupVersionsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) SubscriptionGroupVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -71992,6 +73221,157 @@ func (c *Client) SubscriptionGroupsVersionsGetToManyRelated(ctx context.Context,
 	return c.Client.Do(req)
 }
 
+// SubscriptionPlanAvailabilitiesCreateInstanceWithBody performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionPlanAvailabilitiesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPlanAvailabilitiesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPlanAvailabilitiesCreateInstance performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionPlanAvailabilitiesCreateInstance(ctx context.Context, body SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPlanAvailabilitiesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPlanAvailabilitiesUpdateInstanceWithBody performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionPlanAvailabilitiesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPlanAvailabilitiesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPlanAvailabilitiesUpdateInstance performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionPlanAvailabilitiesUpdateInstance(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPlanAvailabilitiesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated performs a GET /v1/subscriptionPlanAvailabilities/{id}/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated` operationId) request.
+func (c *Client) SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated(ctx context.Context, id string, params *SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBody performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPricePointsEqualizationsGetToManyRelated performs a GET /v1/subscriptionPricePoints/{id}/equalizations (the `SubscriptionPricePointsEqualizationsGetToManyRelated` operationId) request.
+func (c *Client) SubscriptionPricePointsEqualizationsGetToManyRelated(ctx context.Context, id string, params *SubscriptionPricePointsEqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPricePointsEqualizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPricesCreateInstanceWithBody performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionPricesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPricesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPricesCreateInstance performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionPricesCreateInstance(ctx context.Context, body SubscriptionPricesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPricesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionPricesDeleteInstance performs a DELETE /v1/subscriptionPrices/{id} (the `SubscriptionPricesDeleteInstance` operationId) request.
+func (c *Client) SubscriptionPricesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionPricesDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // SubscriptionVersionsCreateInstanceWithBody performs a POST /v1/subscriptionVersions (the `SubscriptionVersionsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) SubscriptionVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -72131,6 +73511,45 @@ func (c *Client) SubscriptionsUpdateInstance(ctx context.Context, id string, bod
 // SubscriptionsAppStoreReviewScreenshotGetToOneRelated performs a GET /v1/subscriptions/{id}/appStoreReviewScreenshot (the `SubscriptionsAppStoreReviewScreenshotGetToOneRelated` operationId) request.
 func (c *Client) SubscriptionsAppStoreReviewScreenshotGetToOneRelated(ctx context.Context, id string, params *SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewSubscriptionsAppStoreReviewScreenshotGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsPlanAvailabilitiesGetToManyRelated performs a GET /v1/subscriptions/{id}/planAvailabilities (the `SubscriptionsPlanAvailabilitiesGetToManyRelated` operationId) request.
+func (c *Client) SubscriptionsPlanAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPlanAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsPlanAvailabilitiesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsPricePointsGetToManyRelated performs a GET /v1/subscriptions/{id}/pricePoints (the `SubscriptionsPricePointsGetToManyRelated` operationId) request.
+func (c *Client) SubscriptionsPricePointsGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsPricePointsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsPricesGetToManyRelated performs a GET /v1/subscriptions/{id}/prices (the `SubscriptionsPricesGetToManyRelated` operationId) request.
+func (c *Client) SubscriptionsPricesGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsPricesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -80392,6 +81811,67 @@ func NewAppsSearchKeywordsGetToManyRelatedRequest(server string, id string, para
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsSubscriptionGracePeriodGetToOneRelatedRequest constructs an http.Request for the AppsSubscriptionGracePeriodGetToOneRelated method
+func NewAppsSubscriptionGracePeriodGetToOneRelatedRequest(server string, id string, params *AppsSubscriptionGracePeriodGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/subscriptionGracePeriod", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsSubscriptionGracePeriods != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionGracePeriods]", *params.FieldsSubscriptionGracePeriods, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -89644,6 +91124,53 @@ func NewSubscriptionAppStoreReviewScreenshotsUpdateInstanceRequestWithBody(serve
 	return req, nil
 }
 
+// NewSubscriptionGracePeriodsUpdateInstanceRequest calls the generic SubscriptionGracePeriodsUpdateInstance builder with application/json body
+func NewSubscriptionGracePeriodsUpdateInstanceRequest(server string, id string, body SubscriptionGracePeriodsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionGracePeriodsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionGracePeriodsUpdateInstanceRequestWithBody constructs an http.Request for the SubscriptionGracePeriodsUpdateInstance method, with any body, and a specified content type
+func NewSubscriptionGracePeriodsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionGracePeriods/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewSubscriptionGroupVersionsCreateInstanceRequest calls the generic SubscriptionGroupVersionsCreateInstance builder with application/json body
 func NewSubscriptionGroupVersionsCreateInstanceRequest(server string, body SubscriptionGroupVersionsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -90577,6 +92104,432 @@ func NewSubscriptionGroupsVersionsGetToManyRelatedRequest(server string, id stri
 	return req, nil
 }
 
+// NewSubscriptionPlanAvailabilitiesCreateInstanceRequest calls the generic SubscriptionPlanAvailabilitiesCreateInstance builder with application/json body
+func NewSubscriptionPlanAvailabilitiesCreateInstanceRequest(server string, body SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionPlanAvailabilitiesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewSubscriptionPlanAvailabilitiesCreateInstanceRequestWithBody constructs an http.Request for the SubscriptionPlanAvailabilitiesCreateInstance method, with any body, and a specified content type
+func NewSubscriptionPlanAvailabilitiesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionPlanAvailabilities")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionPlanAvailabilitiesUpdateInstanceRequest calls the generic SubscriptionPlanAvailabilitiesUpdateInstance builder with application/json body
+func NewSubscriptionPlanAvailabilitiesUpdateInstanceRequest(server string, id string, body SubscriptionPlanAvailabilitiesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionPlanAvailabilitiesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionPlanAvailabilitiesUpdateInstanceRequestWithBody constructs an http.Request for the SubscriptionPlanAvailabilitiesUpdateInstance method, with any body, and a specified content type
+func NewSubscriptionPlanAvailabilitiesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionPlanAvailabilities/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedRequest constructs an http.Request for the SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated method
+func NewSubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedRequest(server string, id string, params *SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionPlanAvailabilities/%s/availableTerritories", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipRequest calls the generic SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship builder with application/json body
+func NewSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipRequest(server string, id string, body SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipRequestWithBody constructs an http.Request for the SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship method, with any body, and a specified content type
+func NewSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionPlanAvailabilities/%s/relationships/availableTerritories", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionPricePointsEqualizationsGetToManyRelatedRequest constructs an http.Request for the SubscriptionPricePointsEqualizationsGetToManyRelated method
+func NewSubscriptionPricePointsEqualizationsGetToManyRelatedRequest(server string, id string, params *SubscriptionPricePointsEqualizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionPricePoints/%s/equalizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterSubscription != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[subscription]", *params.FilterSubscription, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterUpfrontPricePointId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[upfrontPricePointId]", *params.FilterUpfrontPricePointId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlanType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[planType]", *params.FilterPlanType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionPricePoints]", *params.FieldsSubscriptionPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionPricesCreateInstanceRequest calls the generic SubscriptionPricesCreateInstance builder with application/json body
+func NewSubscriptionPricesCreateInstanceRequest(server string, body SubscriptionPricesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionPricesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewSubscriptionPricesCreateInstanceRequestWithBody constructs an http.Request for the SubscriptionPricesCreateInstance method, with any body, and a specified content type
+func NewSubscriptionPricesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionPrices")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionPricesDeleteInstanceRequest constructs an http.Request for the SubscriptionPricesDeleteInstance method
+func NewSubscriptionPricesDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionPrices/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewSubscriptionVersionsCreateInstanceRequest calls the generic SubscriptionVersionsCreateInstance builder with application/json body
 func NewSubscriptionVersionsCreateInstanceRequest(server string, body SubscriptionVersionsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -91283,6 +93236,393 @@ func NewSubscriptionsAppStoreReviewScreenshotGetToOneRelatedRequest(server strin
 		if params.FieldsSubscriptions != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptions]", *params.FieldsSubscriptions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionsPlanAvailabilitiesGetToManyRelatedRequest constructs an http.Request for the SubscriptionsPlanAvailabilitiesGetToManyRelated method
+func NewSubscriptionsPlanAvailabilitiesGetToManyRelatedRequest(server string, id string, params *SubscriptionsPlanAvailabilitiesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/planAvailabilities", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsSubscriptionPlanAvailabilities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionPlanAvailabilities]", *params.FieldsSubscriptionPlanAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAvailableTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[availableTerritories]", *params.LimitAvailableTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionsPricePointsGetToManyRelatedRequest constructs an http.Request for the SubscriptionsPricePointsGetToManyRelated method
+func NewSubscriptionsPricePointsGetToManyRelatedRequest(server string, id string, params *SubscriptionsPricePointsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/pricePoints", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterUpfrontPricePointId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[upfrontPricePointId]", *params.FilterUpfrontPricePointId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlanType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[planType]", *params.FilterPlanType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionPricePoints]", *params.FieldsSubscriptionPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionsPricesGetToManyRelatedRequest constructs an http.Request for the SubscriptionsPricesGetToManyRelated method
+func NewSubscriptionsPricesGetToManyRelatedRequest(server string, id string, params *SubscriptionsPricesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/prices", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlanType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[planType]", *params.FilterPlanType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterSubscriptionPricePoint != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[subscriptionPricePoint]", *params.FilterSubscriptionPricePoint, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionPrices]", *params.FieldsSubscriptionPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionPricePoints]", *params.FieldsSubscriptionPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -95434,6 +97774,11 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsSearchKeywordsGetToManyRelatedResponse, error)
 
+	// AppsSubscriptionGracePeriodGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/subscriptionGracePeriod (the `AppsSubscriptionGracePeriodGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsSubscriptionGracePeriodGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsSubscriptionGracePeriodGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsSubscriptionGracePeriodGetToOneRelatedResponse, error)
+
 	// AppsSubscriptionGroupsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/subscriptionGroups (the `AppsSubscriptionGroupsGetToManyRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -96294,6 +98639,16 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	SubscriptionAppStoreReviewScreenshotsUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionAppStoreReviewScreenshotsUpdateInstanceResponse, error)
 
+	// SubscriptionGracePeriodsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionGracePeriodsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionGracePeriodsUpdateInstanceResponse, error)
+
+	// SubscriptionGracePeriodsUpdateInstanceWithResponse performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionGracePeriodsUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionGracePeriodsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionGracePeriodsUpdateInstanceResponse, error)
+
 	// SubscriptionGroupVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionGroupVersions (the `SubscriptionGroupVersionsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -96349,6 +98704,61 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	SubscriptionGroupsVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionGroupsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionGroupsVersionsGetToManyRelatedResponse, error)
 
+	// SubscriptionPlanAvailabilitiesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionPlanAvailabilitiesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesCreateInstanceResponse, error)
+
+	// SubscriptionPlanAvailabilitiesCreateInstanceWithResponse performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionPlanAvailabilitiesCreateInstanceWithResponse(ctx context.Context, body SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesCreateInstanceResponse, error)
+
+	// SubscriptionPlanAvailabilitiesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionPlanAvailabilitiesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesUpdateInstanceResponse, error)
+
+	// SubscriptionPlanAvailabilitiesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionPlanAvailabilitiesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesUpdateInstanceResponse, error)
+
+	// SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedWithResponse performs a GET /v1/subscriptionPlanAvailabilities/{id}/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse, error)
+
+	// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse, error)
+
+	// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse, error)
+
+	// SubscriptionPricePointsEqualizationsGetToManyRelatedWithResponse performs a GET /v1/subscriptionPricePoints/{id}/equalizations (the `SubscriptionPricePointsEqualizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionPricePointsEqualizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionPricePointsEqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionPricePointsEqualizationsGetToManyRelatedResponse, error)
+
+	// SubscriptionPricesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionPricesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPricesCreateInstanceResponse, error)
+
+	// SubscriptionPricesCreateInstanceWithResponse performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionPricesCreateInstanceWithResponse(ctx context.Context, body SubscriptionPricesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPricesCreateInstanceResponse, error)
+
+	// SubscriptionPricesDeleteInstanceWithResponse performs a DELETE /v1/subscriptionPrices/{id} (the `SubscriptionPricesDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionPricesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*SubscriptionPricesDeleteInstanceResponse, error)
+
 	// SubscriptionVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionVersions (the `SubscriptionVersionsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -96403,6 +98813,21 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsAppStoreReviewScreenshotGetToOneRelatedResponse, error)
+
+	// SubscriptionsPlanAvailabilitiesGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/planAvailabilities (the `SubscriptionsPlanAvailabilitiesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsPlanAvailabilitiesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsPlanAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse, error)
+
+	// SubscriptionsPricePointsGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/pricePoints (the `SubscriptionsPricePointsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsPricePointsGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsPricePointsGetToManyRelatedResponse, error)
+
+	// SubscriptionsPricesGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/prices (the `SubscriptionsPricesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsPricesGetToManyRelatedResponse, error)
 
 	// SubscriptionsVersionsGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/versions (the `SubscriptionsVersionsGetToManyRelated` operationId) request.
 	//
@@ -103284,6 +105709,82 @@ func (r AppsSearchKeywordsGetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsSearchKeywordsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsSubscriptionGracePeriodGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionGracePeriodResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) GetJSON200() *SubscriptionGracePeriodResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsSubscriptionGracePeriodGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -112621,6 +115122,96 @@ func (r SubscriptionAppStoreReviewScreenshotsUpdateInstanceResponse) ContentType
 	return ""
 }
 
+type SubscriptionGracePeriodsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionGracePeriodResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON200() *SubscriptionGracePeriodResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionGracePeriodsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type SubscriptionGroupVersionsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -113250,6 +115841,566 @@ func (r SubscriptionGroupsVersionsGetToManyRelatedResponse) ContentType() string
 	return ""
 }
 
+type SubscriptionPlanAvailabilitiesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *SubscriptionPlanAvailabilityResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetJSON201() *SubscriptionPlanAvailabilityResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionPlanAvailabilitiesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionPlanAvailabilitiesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionPlanAvailabilityResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON200() *SubscriptionPlanAvailabilityResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionPlanAvailabilitiesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *TerritoriesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) GetJSON200() *TerritoriesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionPricePointsEqualizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionPricePointsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) GetJSON200() *SubscriptionPricePointsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionPricePointsEqualizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionPricesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *SubscriptionPriceResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r SubscriptionPricesCreateInstanceResponse) GetJSON201() *SubscriptionPriceResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionPricesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionPricesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionPricesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionPricesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionPricesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionPricesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionPricesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionPricesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionPricesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionPricesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionPricesDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionPricesDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionPricesDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionPricesDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionPricesDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionPricesDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionPricesDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionPricesDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionPricesDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionPricesDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type SubscriptionVersionsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -113873,6 +117024,234 @@ func (r SubscriptionsAppStoreReviewScreenshotGetToOneRelatedResponse) StatusCode
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r SubscriptionsAppStoreReviewScreenshotGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionPlanAvailabilitiesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) GetJSON200() *SubscriptionPlanAvailabilitiesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsPricePointsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionPricePointsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) GetJSON200() *SubscriptionPricePointsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsPricePointsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsPricesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionPricesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionsPricesGetToManyRelatedResponse) GetJSON200() *SubscriptionPricesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsPricesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsPricesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsPricesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsPricesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsPricesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsPricesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsPricesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsPricesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsPricesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -119287,6 +122666,17 @@ func (c *ClientWithResponses) AppsSearchKeywordsGetToManyRelatedWithResponse(ctx
 	return ParseAppsSearchKeywordsGetToManyRelatedResponse(rsp)
 }
 
+// AppsSubscriptionGracePeriodGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/subscriptionGracePeriod (the `AppsSubscriptionGracePeriodGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsSubscriptionGracePeriodGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsSubscriptionGracePeriodGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsSubscriptionGracePeriodGetToOneRelatedResponse, error) {
+	rsp, err := c.AppsSubscriptionGracePeriodGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsSubscriptionGracePeriodGetToOneRelatedResponse(rsp)
+}
+
 // AppsSubscriptionGroupsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/subscriptionGroups (the `AppsSubscriptionGroupsGetToManyRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -121179,6 +124569,28 @@ func (c *ClientWithResponses) SubscriptionAppStoreReviewScreenshotsUpdateInstanc
 	return ParseSubscriptionAppStoreReviewScreenshotsUpdateInstanceResponse(rsp)
 }
 
+// SubscriptionGracePeriodsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionGracePeriodsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionGracePeriodsUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionGracePeriodsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionGracePeriodsUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionGracePeriodsUpdateInstanceWithResponse performs a PATCH /v1/subscriptionGracePeriods/{id} (the `SubscriptionGracePeriodsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionGracePeriodsUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionGracePeriodsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionGracePeriodsUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionGracePeriodsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionGracePeriodsUpdateInstanceResponse(rsp)
+}
+
 // SubscriptionGroupVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionGroupVersions (the `SubscriptionGroupVersionsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -121300,6 +124712,127 @@ func (c *ClientWithResponses) SubscriptionGroupsVersionsGetToManyRelatedWithResp
 	return ParseSubscriptionGroupsVersionsGetToManyRelatedResponse(rsp)
 }
 
+// SubscriptionPlanAvailabilitiesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPlanAvailabilitiesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionPlanAvailabilitiesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPlanAvailabilitiesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionPlanAvailabilitiesCreateInstanceWithResponse performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPlanAvailabilitiesCreateInstanceWithResponse(ctx context.Context, body SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionPlanAvailabilitiesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPlanAvailabilitiesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionPlanAvailabilitiesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPlanAvailabilitiesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionPlanAvailabilitiesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPlanAvailabilitiesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionPlanAvailabilitiesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id} (the `SubscriptionPlanAvailabilitiesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPlanAvailabilitiesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionPlanAvailabilitiesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPlanAvailabilitiesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedWithResponse performs a GET /v1/subscriptionPlanAvailabilities/{id}/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse, error) {
+	rsp, err := c.SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse(rsp)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBodyWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse(rsp)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithResponse performs a PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories (the `SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse, error) {
+	rsp, err := c.SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse(rsp)
+}
+
+// SubscriptionPricePointsEqualizationsGetToManyRelatedWithResponse performs a GET /v1/subscriptionPricePoints/{id}/equalizations (the `SubscriptionPricePointsEqualizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPricePointsEqualizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionPricePointsEqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionPricePointsEqualizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.SubscriptionPricePointsEqualizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPricePointsEqualizationsGetToManyRelatedResponse(rsp)
+}
+
+// SubscriptionPricesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPricesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionPricesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionPricesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPricesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionPricesCreateInstanceWithResponse performs a POST /v1/subscriptionPrices (the `SubscriptionPricesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPricesCreateInstanceWithResponse(ctx context.Context, body SubscriptionPricesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionPricesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionPricesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPricesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionPricesDeleteInstanceWithResponse performs a DELETE /v1/subscriptionPrices/{id} (the `SubscriptionPricesDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionPricesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*SubscriptionPricesDeleteInstanceResponse, error) {
+	rsp, err := c.SubscriptionPricesDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionPricesDeleteInstanceResponse(rsp)
+}
+
 // SubscriptionVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionVersions (the `SubscriptionVersionsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -121419,6 +124952,39 @@ func (c *ClientWithResponses) SubscriptionsAppStoreReviewScreenshotGetToOneRelat
 		return nil, err
 	}
 	return ParseSubscriptionsAppStoreReviewScreenshotGetToOneRelatedResponse(rsp)
+}
+
+// SubscriptionsPlanAvailabilitiesGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/planAvailabilities (the `SubscriptionsPlanAvailabilitiesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsPlanAvailabilitiesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsPlanAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse, error) {
+	rsp, err := c.SubscriptionsPlanAvailabilitiesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsPlanAvailabilitiesGetToManyRelatedResponse(rsp)
+}
+
+// SubscriptionsPricePointsGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/pricePoints (the `SubscriptionsPricePointsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsPricePointsGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsPricePointsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsPricePointsGetToManyRelatedResponse, error) {
+	rsp, err := c.SubscriptionsPricePointsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsPricePointsGetToManyRelatedResponse(rsp)
+}
+
+// SubscriptionsPricesGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/prices (the `SubscriptionsPricesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsPricesGetToManyRelatedResponse, error) {
+	rsp, err := c.SubscriptionsPricesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsPricesGetToManyRelatedResponse(rsp)
 }
 
 // SubscriptionsVersionsGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/versions (the `SubscriptionsVersionsGetToManyRelated` operationId) request.
@@ -127544,6 +131110,67 @@ func ParseAppsSearchKeywordsGetToManyRelatedResponse(rsp *http.Response) (*AppsS
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppKeywordsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsSubscriptionGracePeriodGetToOneRelatedResponse parses an HTTP response from a AppsSubscriptionGracePeriodGetToOneRelatedWithResponse call
+func ParseAppsSubscriptionGracePeriodGetToOneRelatedResponse(rsp *http.Response) (*AppsSubscriptionGracePeriodGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsSubscriptionGracePeriodGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionGracePeriodResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -135213,6 +138840,81 @@ func ParseSubscriptionAppStoreReviewScreenshotsUpdateInstanceResponse(rsp *http.
 	return response, nil
 }
 
+// ParseSubscriptionGracePeriodsUpdateInstanceResponse parses an HTTP response from a SubscriptionGracePeriodsUpdateInstanceWithResponse call
+func ParseSubscriptionGracePeriodsUpdateInstanceResponse(rsp *http.Response) (*SubscriptionGracePeriodsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionGracePeriodsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionGracePeriodResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseSubscriptionGroupVersionsCreateInstanceResponse parses an HTTP response from a SubscriptionGroupVersionsCreateInstanceWithResponse call
 func ParseSubscriptionGroupVersionsCreateInstanceResponse(rsp *http.Response) (*SubscriptionGroupVersionsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -135725,6 +139427,470 @@ func ParseSubscriptionGroupsVersionsGetToManyRelatedResponse(rsp *http.Response)
 	return response, nil
 }
 
+// ParseSubscriptionPlanAvailabilitiesCreateInstanceResponse parses an HTTP response from a SubscriptionPlanAvailabilitiesCreateInstanceWithResponse call
+func ParseSubscriptionPlanAvailabilitiesCreateInstanceResponse(rsp *http.Response) (*SubscriptionPlanAvailabilitiesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionPlanAvailabilitiesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest SubscriptionPlanAvailabilityResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionPlanAvailabilitiesUpdateInstanceResponse parses an HTTP response from a SubscriptionPlanAvailabilitiesUpdateInstanceWithResponse call
+func ParseSubscriptionPlanAvailabilitiesUpdateInstanceResponse(rsp *http.Response) (*SubscriptionPlanAvailabilitiesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionPlanAvailabilitiesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionPlanAvailabilityResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse parses an HTTP response from a SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedWithResponse call
+func ParseSubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse(rsp *http.Response) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest TerritoriesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse parses an HTTP response from a SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipWithResponse call
+func ParseSubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse(rsp *http.Response) (*SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionPricePointsEqualizationsGetToManyRelatedResponse parses an HTTP response from a SubscriptionPricePointsEqualizationsGetToManyRelatedWithResponse call
+func ParseSubscriptionPricePointsEqualizationsGetToManyRelatedResponse(rsp *http.Response) (*SubscriptionPricePointsEqualizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionPricePointsEqualizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionPricePointsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	case rsp.StatusCode == 200:
+		// Content-type (text/csv) unsupported
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionPricesCreateInstanceResponse parses an HTTP response from a SubscriptionPricesCreateInstanceWithResponse call
+func ParseSubscriptionPricesCreateInstanceResponse(rsp *http.Response) (*SubscriptionPricesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionPricesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest SubscriptionPriceResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionPricesDeleteInstanceResponse parses an HTTP response from a SubscriptionPricesDeleteInstanceWithResponse call
+func ParseSubscriptionPricesDeleteInstanceResponse(rsp *http.Response) (*SubscriptionPricesDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionPricesDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseSubscriptionVersionsCreateInstanceResponse parses an HTTP response from a SubscriptionVersionsCreateInstanceWithResponse call
 func ParseSubscriptionVersionsCreateInstanceResponse(rsp *http.Response) (*SubscriptionVersionsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -136192,6 +140358,192 @@ func ParseSubscriptionsAppStoreReviewScreenshotGetToOneRelatedResponse(rsp *http
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest SubscriptionAppStoreReviewScreenshotResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsPlanAvailabilitiesGetToManyRelatedResponse parses an HTTP response from a SubscriptionsPlanAvailabilitiesGetToManyRelatedWithResponse call
+func ParseSubscriptionsPlanAvailabilitiesGetToManyRelatedResponse(rsp *http.Response) (*SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsPlanAvailabilitiesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionPlanAvailabilitiesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsPricePointsGetToManyRelatedResponse parses an HTTP response from a SubscriptionsPricePointsGetToManyRelatedWithResponse call
+func ParseSubscriptionsPricePointsGetToManyRelatedResponse(rsp *http.Response) (*SubscriptionsPricePointsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsPricePointsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionPricePointsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	case rsp.StatusCode == 200:
+		// Content-type (text/csv) unsupported
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsPricesGetToManyRelatedResponse parses an HTTP response from a SubscriptionsPricesGetToManyRelatedWithResponse call
+func ParseSubscriptionsPricesGetToManyRelatedResponse(rsp *http.Response) (*SubscriptionsPricesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsPricesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionPricesResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -139844,6 +144196,9 @@ type ServerInterface interface {
 	// (GET /v1/apps/{id}/searchKeywords)
 	AppsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsSearchKeywordsGetToManyRelatedParams)
 
+	// (GET /v1/apps/{id}/subscriptionGracePeriod)
+	AppsSubscriptionGracePeriodGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsSubscriptionGracePeriodGetToOneRelatedParams)
+
 	// (GET /v1/apps/{id}/subscriptionGroups)
 	AppsSubscriptionGroupsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsSubscriptionGroupsGetToManyRelatedParams)
 
@@ -140201,6 +144556,9 @@ type ServerInterface interface {
 	// (PATCH /v1/subscriptionAppStoreReviewScreenshots/{id})
 	SubscriptionAppStoreReviewScreenshotsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (PATCH /v1/subscriptionGracePeriods/{id})
+	SubscriptionGracePeriodsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (POST /v1/subscriptionGroupVersions)
 	SubscriptionGroupVersionsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -140225,6 +144583,27 @@ type ServerInterface interface {
 	// (GET /v1/subscriptionGroups/{id}/versions)
 	SubscriptionGroupsVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionGroupsVersionsGetToManyRelatedParams)
 
+	// (POST /v1/subscriptionPlanAvailabilities)
+	SubscriptionPlanAvailabilitiesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (PATCH /v1/subscriptionPlanAvailabilities/{id})
+	SubscriptionPlanAvailabilitiesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/subscriptionPlanAvailabilities/{id}/availableTerritories)
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams)
+
+	// (PATCH /v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories)
+	SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/subscriptionPricePoints/{id}/equalizations)
+	SubscriptionPricePointsEqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionPricePointsEqualizationsGetToManyRelatedParams)
+
+	// (POST /v1/subscriptionPrices)
+	SubscriptionPricesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/subscriptionPrices/{id})
+	SubscriptionPricesDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (POST /v1/subscriptionVersions)
 	SubscriptionVersionsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -140248,6 +144627,15 @@ type ServerInterface interface {
 
 	// (GET /v1/subscriptions/{id}/appStoreReviewScreenshot)
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParams)
+
+	// (GET /v1/subscriptions/{id}/planAvailabilities)
+	SubscriptionsPlanAvailabilitiesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsPlanAvailabilitiesGetToManyRelatedParams)
+
+	// (GET /v1/subscriptions/{id}/pricePoints)
+	SubscriptionsPricePointsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsPricePointsGetToManyRelatedParams)
+
+	// (GET /v1/subscriptions/{id}/prices)
+	SubscriptionsPricesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsPricesGetToManyRelatedParams)
 
 	// (GET /v1/subscriptions/{id}/versions)
 	SubscriptionsVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsVersionsGetToManyRelatedParams)
@@ -146327,6 +150715,48 @@ func (siw *ServerInterfaceWrapper) AppsSearchKeywordsGetToManyRelated(w http.Res
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsSearchKeywordsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsSubscriptionGracePeriodGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsSubscriptionGracePeriodGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsSubscriptionGracePeriodGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[subscriptionGracePeriods]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionGracePeriods]", r.URL.Query(), &params.FieldsSubscriptionGracePeriods, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionGracePeriods]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionGracePeriods]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsSubscriptionGracePeriodGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -153525,6 +157955,32 @@ func (siw *ServerInterfaceWrapper) SubscriptionAppStoreReviewScreenshotsUpdateIn
 	handler.ServeHTTP(w, r)
 }
 
+// SubscriptionGracePeriodsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionGracePeriodsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionGracePeriodsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // SubscriptionGroupVersionsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) SubscriptionGroupVersionsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -154345,6 +158801,300 @@ func (siw *ServerInterfaceWrapper) SubscriptionGroupsVersionsGetToManyRelated(w 
 	handler.ServeHTTP(w, r)
 }
 
+// SubscriptionPlanAvailabilitiesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionPlanAvailabilitiesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionPlanAvailabilitiesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionPlanAvailabilitiesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionPlanAvailabilitiesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionPlanAvailabilitiesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionPricePointsEqualizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionPricePointsEqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionPricePointsEqualizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[subscription]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[subscription]", r.URL.Query(), &params.FilterSubscription, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[subscription]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[subscription]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[upfrontPricePointId]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[upfrontPricePointId]", r.URL.Query(), &params.FilterUpfrontPricePointId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[upfrontPricePointId]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[upfrontPricePointId]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[planType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[planType]", r.URL.Query(), &params.FilterPlanType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[planType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[planType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionPricePoints]", r.URL.Query(), &params.FieldsSubscriptionPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionPricePointsEqualizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionPricesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionPricesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionPricesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionPricesDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionPricesDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionPricesDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // SubscriptionVersionsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) SubscriptionVersionsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -154948,6 +159698,353 @@ func (siw *ServerInterfaceWrapper) SubscriptionsAppStoreReviewScreenshotGetToOne
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.SubscriptionsAppStoreReviewScreenshotGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsPlanAvailabilitiesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsPlanAvailabilitiesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionsPlanAvailabilitiesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[subscriptionPlanAvailabilities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionPlanAvailabilities]", r.URL.Query(), &params.FieldsSubscriptionPlanAvailabilities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionPlanAvailabilities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionPlanAvailabilities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[availableTerritories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[availableTerritories]", r.URL.Query(), &params.LimitAvailableTerritories, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[availableTerritories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[availableTerritories]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsPlanAvailabilitiesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsPricePointsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsPricePointsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionsPricePointsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[upfrontPricePointId]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[upfrontPricePointId]", r.URL.Query(), &params.FilterUpfrontPricePointId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[upfrontPricePointId]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[upfrontPricePointId]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[planType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[planType]", r.URL.Query(), &params.FilterPlanType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[planType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[planType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionPricePoints]", r.URL.Query(), &params.FieldsSubscriptionPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsPricePointsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsPricesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsPricesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionsPricesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[planType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[planType]", r.URL.Query(), &params.FilterPlanType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[planType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[planType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[subscriptionPricePoint]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[subscriptionPricePoint]", r.URL.Query(), &params.FilterSubscriptionPricePoint, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[subscriptionPricePoint]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[subscriptionPricePoint]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionPrices]", r.URL.Query(), &params.FieldsSubscriptionPrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionPricePoints]", r.URL.Query(), &params.FieldsSubscriptionPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsPricesGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -157714,6 +162811,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/inAppPurchasesV2", wrapper.AppsInAppPurchasesV2GetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/searchKeywords", wrapper.AppsSearchKeywordsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/subscriptionGracePeriod", wrapper.AppsSubscriptionGracePeriodGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/subscriptionGroups", wrapper.AppsSubscriptionGroupsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/webhooks", wrapper.AppsWebhooksGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsCreateInstance)
@@ -157833,6 +162931,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/subscriptionAppStoreReviewScreenshots/{id}", wrapper.SubscriptionAppStoreReviewScreenshotsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionAppStoreReviewScreenshots/{id}", wrapper.SubscriptionAppStoreReviewScreenshotsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionAppStoreReviewScreenshots/{id}", wrapper.SubscriptionAppStoreReviewScreenshotsUpdateInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionGracePeriods/{id}", wrapper.SubscriptionGracePeriodsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionGroupVersions", wrapper.SubscriptionGroupVersionsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionGroupVersions/{id}/localizations", wrapper.SubscriptionGroupVersionsLocalizationsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionGroups", wrapper.SubscriptionGroupsCreateInstance)
@@ -157841,6 +162940,13 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionGroups/{id}", wrapper.SubscriptionGroupsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionGroups/{id}/subscriptions", wrapper.SubscriptionGroupsSubscriptionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionGroups/{id}/versions", wrapper.SubscriptionGroupsVersionsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionPlanAvailabilities", wrapper.SubscriptionPlanAvailabilitiesCreateInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionPlanAvailabilities/{id}", wrapper.SubscriptionPlanAvailabilitiesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionPlanAvailabilities/{id}/availableTerritories", wrapper.SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionPlanAvailabilities/{id}/relationships/availableTerritories", wrapper.SubscriptionPlanAvailabilitiesAvailableTerritoriesReplaceToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionPricePoints/{id}/equalizations", wrapper.SubscriptionPricePointsEqualizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionPrices", wrapper.SubscriptionPricesCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/subscriptionPrices/{id}", wrapper.SubscriptionPricesDeleteInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionVersions", wrapper.SubscriptionVersionsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionVersions/{id}/image", wrapper.SubscriptionVersionsImageGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionVersions/{id}/localizations", wrapper.SubscriptionVersionsLocalizationsGetToManyRelated)
@@ -157849,6 +162955,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}", wrapper.SubscriptionsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptions/{id}", wrapper.SubscriptionsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/appStoreReviewScreenshot", wrapper.SubscriptionsAppStoreReviewScreenshotGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/planAvailabilities", wrapper.SubscriptionsPlanAvailabilitiesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/pricePoints", wrapper.SubscriptionsPricePointsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/prices", wrapper.SubscriptionsPricesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/versions", wrapper.SubscriptionsVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/territories", wrapper.TerritoriesGetCollection)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/territoryAvailabilities/{id}", wrapper.TerritoryAvailabilitiesUpdateInstance)
