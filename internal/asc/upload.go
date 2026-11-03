@@ -62,3 +62,20 @@ func (c *Client) Upload(ctx context.Context, ops []gen.UploadOperation, data []b
 	}
 	return nil
 }
+
+// DeliveryOperations converts the upload operations of delivery files, such
+// as background asset archives, for Upload. The files are uploaded the same
+// way; their operations number their parts, which Upload doesn't need.
+func DeliveryOperations(ops []gen.DeliveryFileUploadOperation) []gen.UploadOperation {
+	out := make([]gen.UploadOperation, len(ops))
+	for i, op := range ops {
+		out[i] = gen.UploadOperation{Method: op.Method, Url: op.Url, RequestHeaders: op.RequestHeaders}
+		if op.Offset != nil {
+			out[i].Offset = new(int(*op.Offset))
+		}
+		if op.Length != nil {
+			out[i].Length = new(int(*op.Length))
+		}
+	}
+	return out
+}

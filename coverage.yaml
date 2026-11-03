@@ -361,8 +361,8 @@ operations:
   apps_appTags_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_assetLibrary_getToOneRelated: {status: planned, issue: 14}
   apps_assetLibrary_getToOneRelationship: {status: planned, issue: 14}
-  apps_backgroundAssets_getToManyRelated: {status: planned, issue: 14}
-  apps_backgroundAssets_getToManyRelationship: {status: planned, issue: 14}
+  apps_backgroundAssets_getToManyRelated: {status: covered, by: [apple_background_asset, data.apple_background_assets]}
+  apps_backgroundAssets_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_betaAppLocalizations_getToManyRelated: {status: out_of_scope, reason: "apple_beta_app_localization reads each localization by ID"}
   apps_betaAppLocalizations_getToManyRelationship: {status: out_of_scope, reason: "apple_beta_app_localization reads each localization by ID"}
   apps_betaAppReviewDetail_getToOneRelated: {status: out_of_scope, reason: "betaAppReviewDetails_getCollection with filter[app] returns the same detail"}
@@ -418,21 +418,21 @@ operations:
   apps_updateInstance: {status: covered, by: [apple_app_settings]}
   apps_webhooks_getToManyRelated: {status: covered, by: [data.apple_webhooks]}
   apps_webhooks_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  backgroundAssetUploadFiles_createInstance: {status: planned, issue: 14}
-  backgroundAssetUploadFiles_getInstance: {status: planned, issue: 14}
-  backgroundAssetUploadFiles_updateInstance: {status: planned, issue: 14}
-  backgroundAssetVersionAppStoreReleases_getInstance: {status: planned, issue: 14}
-  backgroundAssetVersionExternalBetaReleases_getInstance: {status: planned, issue: 14}
-  backgroundAssetVersionInternalBetaReleases_getInstance: {status: planned, issue: 14}
-  backgroundAssetVersions_backgroundAssetUploadFiles_getToManyRelated: {status: planned, issue: 14}
-  backgroundAssetVersions_backgroundAssetUploadFiles_getToManyRelationship: {status: planned, issue: 14}
-  backgroundAssetVersions_createInstance: {status: planned, issue: 14}
-  backgroundAssetVersions_getInstance: {status: planned, issue: 14}
-  backgroundAssets_createInstance: {status: planned, issue: 14}
-  backgroundAssets_getInstance: {status: planned, issue: 14}
-  backgroundAssets_updateInstance: {status: planned, issue: 14}
-  backgroundAssets_versions_getToManyRelated: {status: planned, issue: 14}
-  backgroundAssets_versions_getToManyRelationship: {status: planned, issue: 14}
+  backgroundAssetUploadFiles_createInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssetUploadFiles_getInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssetUploadFiles_updateInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssetVersionAppStoreReleases_getInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssetVersionExternalBetaReleases_getInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssetVersionInternalBetaReleases_getInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssetVersions_backgroundAssetUploadFiles_getToManyRelated: {status: out_of_scope, reason: "the assetFile and manifestFile relationships of a version name its files"}
+  backgroundAssetVersions_backgroundAssetUploadFiles_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  backgroundAssetVersions_createInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssetVersions_getInstance: {status: covered, by: [apple_background_asset_version]}
+  backgroundAssets_createInstance: {status: covered, by: [apple_background_asset]}
+  backgroundAssets_getInstance: {status: covered, by: [apple_background_asset]}
+  backgroundAssets_updateInstance: {status: covered, by: [apple_background_asset]}
+  backgroundAssets_versions_getToManyRelated: {status: covered, by: [data.apple_background_asset_versions]}
+  backgroundAssets_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   betaAppClipInvocationLocalizations_createInstance: {status: planned, issue: 12}
   betaAppClipInvocationLocalizations_deleteInstance: {status: planned, issue: 12}
   betaAppClipInvocationLocalizations_updateInstance: {status: planned, issue: 12}

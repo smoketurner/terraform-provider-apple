@@ -5558,6 +5558,222 @@ func (e AppVersionState) Valid() bool {
 	}
 }
 
+// Defines values for BackgroundAssetRelationshipsAppDataType.
+const (
+	BackgroundAssetRelationshipsAppDataTypeApps BackgroundAssetRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetRelationshipsAppDataType enum.
+func (e BackgroundAssetRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetRelationshipsAppStoreVersionDataType.
+const (
+	BackgroundAssetRelationshipsAppStoreVersionDataTypeBackgroundAssetVersions BackgroundAssetRelationshipsAppStoreVersionDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetRelationshipsAppStoreVersionDataType enum.
+func (e BackgroundAssetRelationshipsAppStoreVersionDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetRelationshipsAppStoreVersionDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetRelationshipsExternalBetaVersionDataType.
+const (
+	BackgroundAssetRelationshipsExternalBetaVersionDataTypeBackgroundAssetVersions BackgroundAssetRelationshipsExternalBetaVersionDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetRelationshipsExternalBetaVersionDataType enum.
+func (e BackgroundAssetRelationshipsExternalBetaVersionDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetRelationshipsExternalBetaVersionDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetRelationshipsInternalBetaVersionDataType.
+const (
+	BackgroundAssetRelationshipsInternalBetaVersionDataTypeBackgroundAssetVersions BackgroundAssetRelationshipsInternalBetaVersionDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetRelationshipsInternalBetaVersionDataType enum.
+func (e BackgroundAssetRelationshipsInternalBetaVersionDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetRelationshipsInternalBetaVersionDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetType.
+const (
+	BackgroundAssetTypeBackgroundAssets BackgroundAssetType = "backgroundAssets"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetType enum.
+func (e BackgroundAssetType) Valid() bool {
+	switch e {
+	case BackgroundAssetTypeBackgroundAssets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetCreateRequestDataRelationshipsAppDataType.
+const (
+	BackgroundAssetCreateRequestDataRelationshipsAppDataTypeApps BackgroundAssetCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetCreateRequestDataRelationshipsAppDataType enum.
+func (e BackgroundAssetCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetCreateRequestDataType.
+const (
+	BackgroundAssetCreateRequestDataTypeBackgroundAssets BackgroundAssetCreateRequestDataType = "backgroundAssets"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetCreateRequestDataType enum.
+func (e BackgroundAssetCreateRequestDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetCreateRequestDataTypeBackgroundAssets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUpdateRequestDataType.
+const (
+	BackgroundAssetUpdateRequestDataTypeBackgroundAssets BackgroundAssetUpdateRequestDataType = "backgroundAssets"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUpdateRequestDataType enum.
+func (e BackgroundAssetUpdateRequestDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetUpdateRequestDataTypeBackgroundAssets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUploadFileAttributesAssetType.
+const (
+	BackgroundAssetUploadFileAttributesAssetTypeASSET    BackgroundAssetUploadFileAttributesAssetType = "ASSET"
+	BackgroundAssetUploadFileAttributesAssetTypeMANIFEST BackgroundAssetUploadFileAttributesAssetType = "MANIFEST"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUploadFileAttributesAssetType enum.
+func (e BackgroundAssetUploadFileAttributesAssetType) Valid() bool {
+	switch e {
+	case BackgroundAssetUploadFileAttributesAssetTypeASSET:
+		return true
+	case BackgroundAssetUploadFileAttributesAssetTypeMANIFEST:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUploadFileType.
+const (
+	BackgroundAssetUploadFileTypeBackgroundAssetUploadFiles BackgroundAssetUploadFileType = "backgroundAssetUploadFiles"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUploadFileType enum.
+func (e BackgroundAssetUploadFileType) Valid() bool {
+	switch e {
+	case BackgroundAssetUploadFileTypeBackgroundAssetUploadFiles:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUploadFileCreateRequestDataAttributesAssetType.
+const (
+	BackgroundAssetUploadFileCreateRequestDataAttributesAssetTypeASSET    BackgroundAssetUploadFileCreateRequestDataAttributesAssetType = "ASSET"
+	BackgroundAssetUploadFileCreateRequestDataAttributesAssetTypeMANIFEST BackgroundAssetUploadFileCreateRequestDataAttributesAssetType = "MANIFEST"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUploadFileCreateRequestDataAttributesAssetType enum.
+func (e BackgroundAssetUploadFileCreateRequestDataAttributesAssetType) Valid() bool {
+	switch e {
+	case BackgroundAssetUploadFileCreateRequestDataAttributesAssetTypeASSET:
+		return true
+	case BackgroundAssetUploadFileCreateRequestDataAttributesAssetTypeMANIFEST:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataType.
+const (
+	BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataType enum.
+func (e BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUploadFileCreateRequestDataType.
+const (
+	BackgroundAssetUploadFileCreateRequestDataTypeBackgroundAssetUploadFiles BackgroundAssetUploadFileCreateRequestDataType = "backgroundAssetUploadFiles"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUploadFileCreateRequestDataType enum.
+func (e BackgroundAssetUploadFileCreateRequestDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetUploadFileCreateRequestDataTypeBackgroundAssetUploadFiles:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUploadFileUpdateRequestDataType.
+const (
+	BackgroundAssetUploadFileUpdateRequestDataTypeBackgroundAssetUploadFiles BackgroundAssetUploadFileUpdateRequestDataType = "backgroundAssetUploadFiles"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUploadFileUpdateRequestDataType enum.
+func (e BackgroundAssetUploadFileUpdateRequestDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetUploadFileUpdateRequestDataTypeBackgroundAssetUploadFiles:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for BackgroundAssetVersionRelationshipsAppStoreReleaseDataType.
 const (
 	BackgroundAssetVersionRelationshipsAppStoreReleaseDataTypeBackgroundAssetVersionAppStoreReleases BackgroundAssetVersionRelationshipsAppStoreReleaseDataType = "backgroundAssetVersionAppStoreReleases"
@@ -5657,6 +5873,216 @@ const (
 func (e BackgroundAssetVersionType) Valid() bool {
 	switch e {
 	case BackgroundAssetVersionTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataType.
+const (
+	BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataType enum.
+func (e BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionAppStoreReleaseType.
+const (
+	BackgroundAssetVersionAppStoreReleaseTypeBackgroundAssetVersionAppStoreReleases BackgroundAssetVersionAppStoreReleaseType = "backgroundAssetVersionAppStoreReleases"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionAppStoreReleaseType enum.
+func (e BackgroundAssetVersionAppStoreReleaseType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionAppStoreReleaseTypeBackgroundAssetVersionAppStoreReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionAppStoreReleaseState.
+const (
+	BackgroundAssetVersionAppStoreReleaseStateACCEPTED                  BackgroundAssetVersionAppStoreReleaseState = "ACCEPTED"
+	BackgroundAssetVersionAppStoreReleaseStateINREVIEW                  BackgroundAssetVersionAppStoreReleaseState = "IN_REVIEW"
+	BackgroundAssetVersionAppStoreReleaseStatePREPAREFORSUBMISSION      BackgroundAssetVersionAppStoreReleaseState = "PREPARE_FOR_SUBMISSION"
+	BackgroundAssetVersionAppStoreReleaseStatePROCESSINGFORDISTRIBUTION BackgroundAssetVersionAppStoreReleaseState = "PROCESSING_FOR_DISTRIBUTION"
+	BackgroundAssetVersionAppStoreReleaseStateREADYFORDISTRIBUTION      BackgroundAssetVersionAppStoreReleaseState = "READY_FOR_DISTRIBUTION"
+	BackgroundAssetVersionAppStoreReleaseStateREADYFORREVIEW            BackgroundAssetVersionAppStoreReleaseState = "READY_FOR_REVIEW"
+	BackgroundAssetVersionAppStoreReleaseStateREJECTED                  BackgroundAssetVersionAppStoreReleaseState = "REJECTED"
+	BackgroundAssetVersionAppStoreReleaseStateSUPERSEDED                BackgroundAssetVersionAppStoreReleaseState = "SUPERSEDED"
+	BackgroundAssetVersionAppStoreReleaseStateWAITINGFORREVIEW          BackgroundAssetVersionAppStoreReleaseState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionAppStoreReleaseState enum.
+func (e BackgroundAssetVersionAppStoreReleaseState) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionAppStoreReleaseStateACCEPTED:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStateINREVIEW:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStatePREPAREFORSUBMISSION:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStatePROCESSINGFORDISTRIBUTION:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStateREADYFORDISTRIBUTION:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStateREADYFORREVIEW:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStateREJECTED:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStateSUPERSEDED:
+		return true
+	case BackgroundAssetVersionAppStoreReleaseStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataType.
+const (
+	BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataTypeBackgroundAssets BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataType = "backgroundAssets"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataType enum.
+func (e BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataTypeBackgroundAssets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionCreateRequestDataType.
+const (
+	BackgroundAssetVersionCreateRequestDataTypeBackgroundAssetVersions BackgroundAssetVersionCreateRequestDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionCreateRequestDataType enum.
+func (e BackgroundAssetVersionCreateRequestDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionCreateRequestDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataType.
+const (
+	BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataType enum.
+func (e BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionExternalBetaReleaseType.
+const (
+	BackgroundAssetVersionExternalBetaReleaseTypeBackgroundAssetVersionExternalBetaReleases BackgroundAssetVersionExternalBetaReleaseType = "backgroundAssetVersionExternalBetaReleases"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionExternalBetaReleaseType enum.
+func (e BackgroundAssetVersionExternalBetaReleaseType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionExternalBetaReleaseTypeBackgroundAssetVersionExternalBetaReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionExternalBetaReleaseState.
+const (
+	BackgroundAssetVersionExternalBetaReleaseStateINREVIEW               BackgroundAssetVersionExternalBetaReleaseState = "IN_REVIEW"
+	BackgroundAssetVersionExternalBetaReleaseStatePROCESSINGFORTESTING   BackgroundAssetVersionExternalBetaReleaseState = "PROCESSING_FOR_TESTING"
+	BackgroundAssetVersionExternalBetaReleaseStateREADYFORBETASUBMISSION BackgroundAssetVersionExternalBetaReleaseState = "READY_FOR_BETA_SUBMISSION"
+	BackgroundAssetVersionExternalBetaReleaseStateREADYFORTESTING        BackgroundAssetVersionExternalBetaReleaseState = "READY_FOR_TESTING"
+	BackgroundAssetVersionExternalBetaReleaseStateREJECTED               BackgroundAssetVersionExternalBetaReleaseState = "REJECTED"
+	BackgroundAssetVersionExternalBetaReleaseStateSUPERSEDED             BackgroundAssetVersionExternalBetaReleaseState = "SUPERSEDED"
+	BackgroundAssetVersionExternalBetaReleaseStateWAITINGFORREVIEW       BackgroundAssetVersionExternalBetaReleaseState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionExternalBetaReleaseState enum.
+func (e BackgroundAssetVersionExternalBetaReleaseState) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionExternalBetaReleaseStateINREVIEW:
+		return true
+	case BackgroundAssetVersionExternalBetaReleaseStatePROCESSINGFORTESTING:
+		return true
+	case BackgroundAssetVersionExternalBetaReleaseStateREADYFORBETASUBMISSION:
+		return true
+	case BackgroundAssetVersionExternalBetaReleaseStateREADYFORTESTING:
+		return true
+	case BackgroundAssetVersionExternalBetaReleaseStateREJECTED:
+		return true
+	case BackgroundAssetVersionExternalBetaReleaseStateSUPERSEDED:
+		return true
+	case BackgroundAssetVersionExternalBetaReleaseStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionInternalBetaReleaseAttributesState.
+const (
+	BackgroundAssetVersionInternalBetaReleaseAttributesStateREADYFORTESTING BackgroundAssetVersionInternalBetaReleaseAttributesState = "READY_FOR_TESTING"
+	BackgroundAssetVersionInternalBetaReleaseAttributesStateSUPERSEDED      BackgroundAssetVersionInternalBetaReleaseAttributesState = "SUPERSEDED"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionInternalBetaReleaseAttributesState enum.
+func (e BackgroundAssetVersionInternalBetaReleaseAttributesState) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionInternalBetaReleaseAttributesStateREADYFORTESTING:
+		return true
+	case BackgroundAssetVersionInternalBetaReleaseAttributesStateSUPERSEDED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataType.
+const (
+	BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataType = "backgroundAssetVersions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataType enum.
+func (e BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataTypeBackgroundAssetVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionInternalBetaReleaseType.
+const (
+	BackgroundAssetVersionInternalBetaReleaseTypeBackgroundAssetVersionInternalBetaReleases BackgroundAssetVersionInternalBetaReleaseType = "backgroundAssetVersionInternalBetaReleases"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionInternalBetaReleaseType enum.
+func (e BackgroundAssetVersionInternalBetaReleaseType) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionInternalBetaReleaseTypeBackgroundAssetVersionInternalBetaReleases:
 		return true
 	default:
 		return false
@@ -24038,6 +24464,351 @@ func (e AppsAppTagsGetToManyRelatedParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms.
+const (
+	AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsIOS      AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms = "IOS"
+	AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsMACOS    AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms = "MAC_OS"
+	AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsTVOS     AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms = "TV_OS"
+	AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsVISIONOS AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms = "VISION_OS"
+)
+
+// Valid indicates whether the value is a known member of the AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms enum.
+func (e AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms) Valid() bool {
+	switch e {
+	case AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsIOS:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsMACOS:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsTVOS:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatformsVISIONOS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsBackgroundAssetsGetToManyRelatedParamsSort.
+const (
+	AppsBackgroundAssetsGetToManyRelatedParamsSortAssetPackIdentifier      AppsBackgroundAssetsGetToManyRelatedParamsSort = "assetPackIdentifier"
+	AppsBackgroundAssetsGetToManyRelatedParamsSortCreatedDate              AppsBackgroundAssetsGetToManyRelatedParamsSort = "createdDate"
+	AppsBackgroundAssetsGetToManyRelatedParamsSortMinusAssetPackIdentifier AppsBackgroundAssetsGetToManyRelatedParamsSort = "-assetPackIdentifier"
+	AppsBackgroundAssetsGetToManyRelatedParamsSortMinusCreatedDate         AppsBackgroundAssetsGetToManyRelatedParamsSort = "-createdDate"
+)
+
+// Valid indicates whether the value is a known member of the AppsBackgroundAssetsGetToManyRelatedParamsSort enum.
+func (e AppsBackgroundAssetsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppsBackgroundAssetsGetToManyRelatedParamsSortAssetPackIdentifier:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsSortCreatedDate:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsSortMinusAssetPackIdentifier:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsSortMinusCreatedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets.
+const (
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsApp                 AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "app"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsAppStoreVersion     AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "appStoreVersion"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsArchived            AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "archived"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsAssetPackIdentifier AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "assetPackIdentifier"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsCreatedDate         AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "createdDate"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsExternalBetaVersion AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "externalBetaVersion"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsInternalBetaVersion AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "internalBetaVersion"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsUsedBytes           AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "usedBytes"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsVersions            AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets enum.
+func (e AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets) Valid() bool {
+	switch e {
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsApp:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsAppStoreVersion:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsArchived:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsAssetPackIdentifier:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsCreatedDate:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsExternalBetaVersion:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsInternalBetaVersion:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsUsedBytes:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps.
+const (
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations              AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAccessibilityUrl                       AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey             AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests                AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppAvailabilityV2                      AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppClips                               AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appClips"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppCustomProductPages                  AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppEvents                              AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appEvents"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppInfos                               AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appInfos"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppPricePoints                         AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appPricePoints"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppPriceSchedule                       AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppStoreIcon                           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appStoreIcon"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppStoreVersions                       AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appStoreVersions"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppTags                                AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "appTags"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAssetLibrary                           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "assetLibrary"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBackgroundAssets                       AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "backgroundAssets"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaAppLocalizations                   AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaGroups                             AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "betaGroups"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaTesters                            AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "betaTesters"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBuildUploads                           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "buildUploads"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBuilds                                 AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "builds"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBundleId                               AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "bundleId"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsCiProduct                              AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "ciProduct"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsContentRightsDeclaration               AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsCustomerReviews                        AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "customerReviews"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsGameCenterDetail                       AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsInAppPurchases                         AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "inAppPurchases"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsInAppPurchasesV2                       AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsName                                   AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "name"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPerfPowerMetrics                       AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPerformanceOverviews                   AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "performanceOverviews"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "primaryLocale"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "searchKeywords"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSku                                    AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "sku"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionGroups                     AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsWebhooks                               AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps enum.
+func (e AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsName:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSku:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions.
+const (
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAppStoreRelease            AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "appStoreRelease"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAssetFile                  AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "assetFile"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAsset            AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "backgroundAsset"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "backgroundAssetUploadFiles"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsCreatedDate                AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "createdDate"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsExternalBetaRelease        AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "externalBetaRelease"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsInternalBetaRelease        AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "internalBetaRelease"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsLocale                     AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "locale"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsManifestFile               AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "manifestFile"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsPlatforms                  AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "platforms"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsState                      AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "state"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsStateDetails               AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "stateDetails"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsVersion                    AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions enum.
+func (e AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions) Valid() bool {
+	switch e {
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAppStoreRelease:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAssetFile:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAsset:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsCreatedDate:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsExternalBetaRelease:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsInternalBetaRelease:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsLocale:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsManifestFile:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsPlatforms:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsState:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsStateDetails:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsBackgroundAssetsGetToManyRelatedParamsInclude.
+const (
+	AppsBackgroundAssetsGetToManyRelatedParamsIncludeApp                 AppsBackgroundAssetsGetToManyRelatedParamsInclude = "app"
+	AppsBackgroundAssetsGetToManyRelatedParamsIncludeAppStoreVersion     AppsBackgroundAssetsGetToManyRelatedParamsInclude = "appStoreVersion"
+	AppsBackgroundAssetsGetToManyRelatedParamsIncludeExternalBetaVersion AppsBackgroundAssetsGetToManyRelatedParamsInclude = "externalBetaVersion"
+	AppsBackgroundAssetsGetToManyRelatedParamsIncludeInternalBetaVersion AppsBackgroundAssetsGetToManyRelatedParamsInclude = "internalBetaVersion"
+)
+
+// Valid indicates whether the value is a known member of the AppsBackgroundAssetsGetToManyRelatedParamsInclude enum.
+func (e AppsBackgroundAssetsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsBackgroundAssetsGetToManyRelatedParamsIncludeApp:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsIncludeAppStoreVersion:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsIncludeExternalBetaVersion:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsIncludeInternalBetaVersion:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements.
 const (
 	AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsAgreementText AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements = "agreementText"
@@ -24998,6 +25769,1167 @@ const (
 func (e AppsWebhooksGetToManyRelatedParamsInclude) Valid() bool {
 	switch e {
 	case AppsWebhooksGetToManyRelatedParamsIncludeApp:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles.
+const (
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetDeliveryState  BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "assetDeliveryState"
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetToken          BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "assetToken"
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetType           BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "assetType"
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesFileName            BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "fileName"
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesFileSize            BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "fileSize"
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksum  BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "sourceFileChecksum"
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksums BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "sourceFileChecksums"
+	BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesUploadOperations    BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles enum.
+func (e BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles) Valid() bool {
+	switch e {
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetDeliveryState:
+		return true
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetToken:
+		return true
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetType:
+		return true
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesFileName:
+		return true
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesFileSize:
+		return true
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksum:
+		return true
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksums:
+		return true
+	case BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFilesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases.
+const (
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesBackgroundAssetVersion BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases = "backgroundAssetVersion"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesState                  BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases enum.
+func (e BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions.
+const (
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease            BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "appStoreRelease"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile                  BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "assetFile"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset            BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAsset"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAssetUploadFiles"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate                BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "createdDate"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease        BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "externalBetaRelease"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease        BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "internalBetaRelease"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsLocale                     BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "locale"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile               BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "manifestFile"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms                  BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "platforms"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsState                      BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "state"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails               BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "stateDetails"
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsVersion                    BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions enum.
+func (e BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsLocale:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsState:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails:
+		return true
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionAppStoreReleasesGetInstanceParamsInclude.
+const (
+	BackgroundAssetVersionAppStoreReleasesGetInstanceParamsIncludeBackgroundAssetVersion BackgroundAssetVersionAppStoreReleasesGetInstanceParamsInclude = "backgroundAssetVersion"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionAppStoreReleasesGetInstanceParamsInclude enum.
+func (e BackgroundAssetVersionAppStoreReleasesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionAppStoreReleasesGetInstanceParamsIncludeBackgroundAssetVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases.
+const (
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesBackgroundAssetVersion BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases = "backgroundAssetVersion"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesState                  BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases enum.
+func (e BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions.
+const (
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease            BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "appStoreRelease"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile                  BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "assetFile"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset            BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAsset"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAssetUploadFiles"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate                BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "createdDate"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease        BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "externalBetaRelease"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease        BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "internalBetaRelease"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsLocale                     BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "locale"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile               BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "manifestFile"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms                  BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "platforms"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsState                      BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "state"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails               BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "stateDetails"
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsVersion                    BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions enum.
+func (e BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsLocale:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsState:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails:
+		return true
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsInclude.
+const (
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsIncludeBackgroundAssetVersion BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsInclude = "backgroundAssetVersion"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsInclude enum.
+func (e BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsIncludeBackgroundAssetVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases.
+const (
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesBackgroundAssetVersion BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases = "backgroundAssetVersion"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesState                  BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases enum.
+func (e BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions.
+const (
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease            BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "appStoreRelease"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile                  BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "assetFile"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset            BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAsset"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAssetUploadFiles"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate                BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "createdDate"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease        BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "externalBetaRelease"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease        BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "internalBetaRelease"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsLocale                     BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "locale"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile               BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "manifestFile"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms                  BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "platforms"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsState                      BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "state"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails               BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "stateDetails"
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsVersion                    BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions enum.
+func (e BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsLocale:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsState:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails:
+		return true
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsInclude.
+const (
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsIncludeBackgroundAssetVersion BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsInclude = "backgroundAssetVersion"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsInclude enum.
+func (e BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsIncludeBackgroundAssetVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions.
+const (
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease            BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "appStoreRelease"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile                  BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "assetFile"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset            BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAsset"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAssetUploadFiles"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate                BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "createdDate"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease        BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "externalBetaRelease"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease        BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "internalBetaRelease"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsLocale                     BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "locale"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile               BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "manifestFile"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms                  BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "platforms"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsState                      BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "state"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails               BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "stateDetails"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsVersion                    BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions enum.
+func (e BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsLocale:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsState:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets.
+const (
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsApp                 BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "app"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsAppStoreVersion     BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "appStoreVersion"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsArchived            BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "archived"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsAssetPackIdentifier BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "assetPackIdentifier"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsCreatedDate         BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "createdDate"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsExternalBetaVersion BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "externalBetaVersion"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsInternalBetaVersion BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "internalBetaVersion"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsUsedBytes           BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "usedBytes"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsVersions            BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets = "versions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets enum.
+func (e BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsApp:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsAppStoreVersion:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsArchived:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsAssetPackIdentifier:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsCreatedDate:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsExternalBetaVersion:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsInternalBetaVersion:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsUsedBytes:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases.
+const (
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesBackgroundAssetVersion BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases = "backgroundAssetVersion"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesState                  BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases enum.
+func (e BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases.
+const (
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesBackgroundAssetVersion BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases = "backgroundAssetVersion"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesState                  BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases enum.
+func (e BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases.
+const (
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesBackgroundAssetVersion BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases = "backgroundAssetVersion"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesState                  BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases enum.
+func (e BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles.
+const (
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetDeliveryState  BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "assetDeliveryState"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetToken          BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "assetToken"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetType           BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "assetType"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesFileName            BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "fileName"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesFileSize            BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "fileSize"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksum  BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "sourceFileChecksum"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksums BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "sourceFileChecksums"
+	BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesUploadOperations    BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles enum.
+func (e BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetDeliveryState:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetToken:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesAssetType:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesFileName:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesFileSize:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksum:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesSourceFileChecksums:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFilesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetVersionsGetInstanceParamsInclude.
+const (
+	BackgroundAssetVersionsGetInstanceParamsIncludeAppStoreRelease     BackgroundAssetVersionsGetInstanceParamsInclude = "appStoreRelease"
+	BackgroundAssetVersionsGetInstanceParamsIncludeAssetFile           BackgroundAssetVersionsGetInstanceParamsInclude = "assetFile"
+	BackgroundAssetVersionsGetInstanceParamsIncludeBackgroundAsset     BackgroundAssetVersionsGetInstanceParamsInclude = "backgroundAsset"
+	BackgroundAssetVersionsGetInstanceParamsIncludeExternalBetaRelease BackgroundAssetVersionsGetInstanceParamsInclude = "externalBetaRelease"
+	BackgroundAssetVersionsGetInstanceParamsIncludeInternalBetaRelease BackgroundAssetVersionsGetInstanceParamsInclude = "internalBetaRelease"
+	BackgroundAssetVersionsGetInstanceParamsIncludeManifestFile        BackgroundAssetVersionsGetInstanceParamsInclude = "manifestFile"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetVersionsGetInstanceParamsInclude enum.
+func (e BackgroundAssetVersionsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case BackgroundAssetVersionsGetInstanceParamsIncludeAppStoreRelease:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsIncludeAssetFile:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsIncludeBackgroundAsset:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsIncludeExternalBetaRelease:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsIncludeInternalBetaRelease:
+		return true
+	case BackgroundAssetVersionsGetInstanceParamsIncludeManifestFile:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets.
+const (
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsApp                 BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "app"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsAppStoreVersion     BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "appStoreVersion"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsArchived            BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "archived"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsAssetPackIdentifier BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "assetPackIdentifier"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsCreatedDate         BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "createdDate"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsExternalBetaVersion BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "externalBetaVersion"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsInternalBetaVersion BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "internalBetaVersion"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsUsedBytes           BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "usedBytes"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsVersions            BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets = "versions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets enum.
+func (e BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets) Valid() bool {
+	switch e {
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsApp:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsAppStoreVersion:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsArchived:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsAssetPackIdentifier:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsCreatedDate:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsExternalBetaVersion:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsInternalBetaVersion:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsUsedBytes:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsGetInstanceParamsFieldsApps.
+const (
+	BackgroundAssetsGetInstanceParamsFieldsAppsAccessibilityDeclarations              BackgroundAssetsGetInstanceParamsFieldsApps = "accessibilityDeclarations"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAccessibilityUrl                       BackgroundAssetsGetInstanceParamsFieldsApps = "accessibilityUrl"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAlternativeDistributionKey             BackgroundAssetsGetInstanceParamsFieldsApps = "alternativeDistributionKey"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAnalyticsReportRequests                BackgroundAssetsGetInstanceParamsFieldsApps = "analyticsReportRequests"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          BackgroundAssetsGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppAvailabilityV2                      BackgroundAssetsGetInstanceParamsFieldsApps = "appAvailabilityV2"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppClips                               BackgroundAssetsGetInstanceParamsFieldsApps = "appClips"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppCustomProductPages                  BackgroundAssetsGetInstanceParamsFieldsApps = "appCustomProductPages"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppEncryptionDeclarations              BackgroundAssetsGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppEvents                              BackgroundAssetsGetInstanceParamsFieldsApps = "appEvents"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppInfos                               BackgroundAssetsGetInstanceParamsFieldsApps = "appInfos"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppPricePoints                         BackgroundAssetsGetInstanceParamsFieldsApps = "appPricePoints"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppPriceSchedule                       BackgroundAssetsGetInstanceParamsFieldsApps = "appPriceSchedule"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppStoreIcon                           BackgroundAssetsGetInstanceParamsFieldsApps = "appStoreIcon"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           BackgroundAssetsGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppStoreVersions                       BackgroundAssetsGetInstanceParamsFieldsApps = "appStoreVersions"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAppTags                                BackgroundAssetsGetInstanceParamsFieldsApps = "appTags"
+	BackgroundAssetsGetInstanceParamsFieldsAppsAssetLibrary                           BackgroundAssetsGetInstanceParamsFieldsApps = "assetLibrary"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBackgroundAssets                       BackgroundAssetsGetInstanceParamsFieldsApps = "backgroundAssets"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBetaAppLocalizations                   BackgroundAssetsGetInstanceParamsFieldsApps = "betaAppLocalizations"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBetaAppReviewDetail                    BackgroundAssetsGetInstanceParamsFieldsApps = "betaAppReviewDetail"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           BackgroundAssetsGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      BackgroundAssetsGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBetaGroups                             BackgroundAssetsGetInstanceParamsFieldsApps = "betaGroups"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBetaLicenseAgreement                   BackgroundAssetsGetInstanceParamsFieldsApps = "betaLicenseAgreement"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBetaTesters                            BackgroundAssetsGetInstanceParamsFieldsApps = "betaTesters"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBuildUploads                           BackgroundAssetsGetInstanceParamsFieldsApps = "buildUploads"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBuilds                                 BackgroundAssetsGetInstanceParamsFieldsApps = "builds"
+	BackgroundAssetsGetInstanceParamsFieldsAppsBundleId                               BackgroundAssetsGetInstanceParamsFieldsApps = "bundleId"
+	BackgroundAssetsGetInstanceParamsFieldsAppsCiProduct                              BackgroundAssetsGetInstanceParamsFieldsApps = "ciProduct"
+	BackgroundAssetsGetInstanceParamsFieldsAppsContentRightsDeclaration               BackgroundAssetsGetInstanceParamsFieldsApps = "contentRightsDeclaration"
+	BackgroundAssetsGetInstanceParamsFieldsAppsCustomerReviewSummarizations           BackgroundAssetsGetInstanceParamsFieldsApps = "customerReviewSummarizations"
+	BackgroundAssetsGetInstanceParamsFieldsAppsCustomerReviews                        BackgroundAssetsGetInstanceParamsFieldsApps = "customerReviews"
+	BackgroundAssetsGetInstanceParamsFieldsAppsEndUserLicenseAgreement                BackgroundAssetsGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
+	BackgroundAssetsGetInstanceParamsFieldsAppsGameCenterDetail                       BackgroundAssetsGetInstanceParamsFieldsApps = "gameCenterDetail"
+	BackgroundAssetsGetInstanceParamsFieldsAppsGameCenterEnabledVersions              BackgroundAssetsGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
+	BackgroundAssetsGetInstanceParamsFieldsAppsInAppPurchases                         BackgroundAssetsGetInstanceParamsFieldsApps = "inAppPurchases"
+	BackgroundAssetsGetInstanceParamsFieldsAppsInAppPurchasesV2                       BackgroundAssetsGetInstanceParamsFieldsApps = "inAppPurchasesV2"
+	BackgroundAssetsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 BackgroundAssetsGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
+	BackgroundAssetsGetInstanceParamsFieldsAppsMarketplaceSearchDetail                BackgroundAssetsGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
+	BackgroundAssetsGetInstanceParamsFieldsAppsName                                   BackgroundAssetsGetInstanceParamsFieldsApps = "name"
+	BackgroundAssetsGetInstanceParamsFieldsAppsPerfPowerMetrics                       BackgroundAssetsGetInstanceParamsFieldsApps = "perfPowerMetrics"
+	BackgroundAssetsGetInstanceParamsFieldsAppsPerformanceOverviews                   BackgroundAssetsGetInstanceParamsFieldsApps = "performanceOverviews"
+	BackgroundAssetsGetInstanceParamsFieldsAppsPreReleaseVersions                     BackgroundAssetsGetInstanceParamsFieldsApps = "preReleaseVersions"
+	BackgroundAssetsGetInstanceParamsFieldsAppsPrimaryLocale                          BackgroundAssetsGetInstanceParamsFieldsApps = "primaryLocale"
+	BackgroundAssetsGetInstanceParamsFieldsAppsPromotedPurchases                      BackgroundAssetsGetInstanceParamsFieldsApps = "promotedPurchases"
+	BackgroundAssetsGetInstanceParamsFieldsAppsReviewSubmissions                      BackgroundAssetsGetInstanceParamsFieldsApps = "reviewSubmissions"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSearchKeywords                         BackgroundAssetsGetInstanceParamsFieldsApps = "searchKeywords"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSku                                    BackgroundAssetsGetInstanceParamsFieldsApps = "sku"
+	BackgroundAssetsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           BackgroundAssetsGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionGracePeriod                BackgroundAssetsGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionGroups                     BackgroundAssetsGetInstanceParamsFieldsApps = "subscriptionGroups"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  BackgroundAssetsGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        BackgroundAssetsGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           BackgroundAssetsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
+	BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox BackgroundAssetsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	BackgroundAssetsGetInstanceParamsFieldsAppsWebhooks                               BackgroundAssetsGetInstanceParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsGetInstanceParamsFieldsApps enum.
+func (e BackgroundAssetsGetInstanceParamsFieldsApps) Valid() bool {
+	switch e {
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAccessibilityUrl:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppClips:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppCustomProductPages:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppEvents:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppInfos:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppPricePoints:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppPriceSchedule:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppStoreIcon:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppStoreVersions:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAppTags:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsAssetLibrary:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBackgroundAssets:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBetaGroups:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBetaTesters:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBuildUploads:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBuilds:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsBundleId:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsCiProduct:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsCustomerReviews:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsGameCenterDetail:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsInAppPurchases:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsName:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsPerformanceOverviews:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsPreReleaseVersions:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsPrimaryLocale:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsReviewSubmissions:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSearchKeywords:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSku:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionGroups:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions.
+const (
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease            BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "appStoreRelease"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile                  BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "assetFile"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset            BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAsset"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "backgroundAssetUploadFiles"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate                BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "createdDate"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease        BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "externalBetaRelease"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease        BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "internalBetaRelease"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsLocale                     BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "locale"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile               BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "manifestFile"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms                  BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "platforms"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsState                      BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "state"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails               BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "stateDetails"
+	BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsVersion                    BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions enum.
+func (e BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions) Valid() bool {
+	switch e {
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsAppStoreRelease:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsAssetFile:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAsset:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsCreatedDate:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsExternalBetaRelease:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsInternalBetaRelease:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsLocale:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsManifestFile:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsPlatforms:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsState:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsStateDetails:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsGetInstanceParamsInclude.
+const (
+	BackgroundAssetsGetInstanceParamsIncludeApp                 BackgroundAssetsGetInstanceParamsInclude = "app"
+	BackgroundAssetsGetInstanceParamsIncludeAppStoreVersion     BackgroundAssetsGetInstanceParamsInclude = "appStoreVersion"
+	BackgroundAssetsGetInstanceParamsIncludeExternalBetaVersion BackgroundAssetsGetInstanceParamsInclude = "externalBetaVersion"
+	BackgroundAssetsGetInstanceParamsIncludeInternalBetaVersion BackgroundAssetsGetInstanceParamsInclude = "internalBetaVersion"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsGetInstanceParamsInclude enum.
+func (e BackgroundAssetsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case BackgroundAssetsGetInstanceParamsIncludeApp:
+		return true
+	case BackgroundAssetsGetInstanceParamsIncludeAppStoreVersion:
+		return true
+	case BackgroundAssetsGetInstanceParamsIncludeExternalBetaVersion:
+		return true
+	case BackgroundAssetsGetInstanceParamsIncludeInternalBetaVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsIOS      BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms = "IOS"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsMACOS    BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms = "MAC_OS"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsTVOS     BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms = "TV_OS"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsVISIONOS BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms = "VISION_OS"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsIOS:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsMACOS:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsTVOS:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatformsVISIONOS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFilterState.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterStateAWAITINGUPLOAD BackgroundAssetsVersionsGetToManyRelatedParamsFilterState = "AWAITING_UPLOAD"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterStateCOMPLETE       BackgroundAssetsVersionsGetToManyRelatedParamsFilterState = "COMPLETE"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterStateFAILED         BackgroundAssetsVersionsGetToManyRelatedParamsFilterState = "FAILED"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterStatePROCESSING     BackgroundAssetsVersionsGetToManyRelatedParamsFilterState = "PROCESSING"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFilterState enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterStateAWAITINGUPLOAD:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterStateCOMPLETE:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterStateFAILED:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterStatePROCESSING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseStateREADYFORTESTING BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState = "READY_FOR_TESTING"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseStateSUPERSEDED      BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState = "SUPERSEDED"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseStateREADYFORTESTING:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseStateSUPERSEDED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateINREVIEW               BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState = "IN_REVIEW"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStatePROCESSINGFORTESTING   BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState = "PROCESSING_FOR_TESTING"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateREADYFORBETASUBMISSION BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState = "READY_FOR_BETA_SUBMISSION"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateREADYFORTESTING        BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState = "READY_FOR_TESTING"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateREJECTED               BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState = "REJECTED"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateSUPERSEDED             BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState = "SUPERSEDED"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateWAITINGFORREVIEW       BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateINREVIEW:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStatePROCESSINGFORTESTING:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateREADYFORBETASUBMISSION:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateREADYFORTESTING:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateREJECTED:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateSUPERSEDED:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateACCEPTED                  BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "ACCEPTED"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateINREVIEW                  BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "IN_REVIEW"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStatePREPAREFORSUBMISSION      BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "PREPARE_FOR_SUBMISSION"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStatePROCESSINGFORDISTRIBUTION BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "PROCESSING_FOR_DISTRIBUTION"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateREADYFORDISTRIBUTION      BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "READY_FOR_DISTRIBUTION"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateREADYFORREVIEW            BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "READY_FOR_REVIEW"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateREJECTED                  BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "REJECTED"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateSUPERSEDED                BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "SUPERSEDED"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateWAITINGFORREVIEW          BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateACCEPTED:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateINREVIEW:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStatePREPAREFORSUBMISSION:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStatePROCESSINGFORDISTRIBUTION:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateREADYFORDISTRIBUTION:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateREADYFORREVIEW:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateREJECTED:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateSUPERSEDED:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsSort.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsSortMinusVersion BackgroundAssetsVersionsGetToManyRelatedParamsSort = "-version"
+	BackgroundAssetsVersionsGetToManyRelatedParamsSortVersion      BackgroundAssetsVersionsGetToManyRelatedParamsSort = "version"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsSort enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsSortMinusVersion:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsSortVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAppStoreRelease            BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "appStoreRelease"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAssetFile                  BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "assetFile"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAsset            BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "backgroundAsset"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "backgroundAssetUploadFiles"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsCreatedDate                BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "createdDate"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsExternalBetaRelease        BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "externalBetaRelease"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsInternalBetaRelease        BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "internalBetaRelease"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsLocale                     BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "locale"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsManifestFile               BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "manifestFile"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsPlatforms                  BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "platforms"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsState                      BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "state"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsStateDetails               BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "stateDetails"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsVersion                    BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAppStoreRelease:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsAssetFile:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAsset:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsBackgroundAssetUploadFiles:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsCreatedDate:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsExternalBetaRelease:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsInternalBetaRelease:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsLocale:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsManifestFile:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsPlatforms:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsState:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsStateDetails:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsApp                 BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "app"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsAppStoreVersion     BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "appStoreVersion"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsArchived            BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "archived"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsAssetPackIdentifier BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "assetPackIdentifier"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsCreatedDate         BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "createdDate"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsExternalBetaVersion BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "externalBetaVersion"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsInternalBetaVersion BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "internalBetaVersion"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsUsedBytes           BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "usedBytes"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsVersions            BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets = "versions"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsApp:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsAppStoreVersion:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsArchived:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsAssetPackIdentifier:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsCreatedDate:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsExternalBetaVersion:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsInternalBetaVersion:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsUsedBytes:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleasesBackgroundAssetVersion BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases = "backgroundAssetVersion"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleasesState                  BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleasesBackgroundAssetVersion BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases = "backgroundAssetVersion"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleasesState                  BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleasesBackgroundAssetVersion BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases = "backgroundAssetVersion"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleasesState                  BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases = "state"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleasesBackgroundAssetVersion:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleasesState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesAssetDeliveryState  BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "assetDeliveryState"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesAssetToken          BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "assetToken"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesAssetType           BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "assetType"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesFileName            BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "fileName"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesFileSize            BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "fileSize"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesSourceFileChecksum  BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "sourceFileChecksum"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesSourceFileChecksums BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "sourceFileChecksums"
+	BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesUploadOperations    BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesAssetDeliveryState:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesAssetToken:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesAssetType:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesFileName:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesFileSize:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesSourceFileChecksum:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesSourceFileChecksums:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFilesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BackgroundAssetsVersionsGetToManyRelatedParamsInclude.
+const (
+	BackgroundAssetsVersionsGetToManyRelatedParamsIncludeAppStoreRelease     BackgroundAssetsVersionsGetToManyRelatedParamsInclude = "appStoreRelease"
+	BackgroundAssetsVersionsGetToManyRelatedParamsIncludeAssetFile           BackgroundAssetsVersionsGetToManyRelatedParamsInclude = "assetFile"
+	BackgroundAssetsVersionsGetToManyRelatedParamsIncludeBackgroundAsset     BackgroundAssetsVersionsGetToManyRelatedParamsInclude = "backgroundAsset"
+	BackgroundAssetsVersionsGetToManyRelatedParamsIncludeExternalBetaRelease BackgroundAssetsVersionsGetToManyRelatedParamsInclude = "externalBetaRelease"
+	BackgroundAssetsVersionsGetToManyRelatedParamsIncludeInternalBetaRelease BackgroundAssetsVersionsGetToManyRelatedParamsInclude = "internalBetaRelease"
+	BackgroundAssetsVersionsGetToManyRelatedParamsIncludeManifestFile        BackgroundAssetsVersionsGetToManyRelatedParamsInclude = "manifestFile"
+)
+
+// Valid indicates whether the value is a known member of the BackgroundAssetsVersionsGetToManyRelatedParamsInclude enum.
+func (e BackgroundAssetsVersionsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case BackgroundAssetsVersionsGetToManyRelatedParamsIncludeAppStoreRelease:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsIncludeAssetFile:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsIncludeBackgroundAsset:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsIncludeExternalBetaRelease:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsIncludeInternalBetaRelease:
+		return true
+	case BackgroundAssetsVersionsGetToManyRelatedParamsIncludeManifestFile:
 		return true
 	default:
 		return false
@@ -42923,6 +44855,189 @@ type AppsResponse_Included_Item struct {
 	union json.RawMessage
 }
 
+// BackgroundAsset defines model for BackgroundAsset.
+type BackgroundAsset struct {
+	Attributes *struct {
+		Archived            *bool     `json:"archived,omitempty"`
+		AssetPackIdentifier *string   `json:"assetPackIdentifier,omitempty"`
+		CreatedDate         *DateTime `json:"createdDate,omitempty"`
+		UsedBytes           *int64    `json:"usedBytes,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		App *struct {
+			Data *struct {
+				Id   string                                  `json:"id"`
+				Type BackgroundAssetRelationshipsAppDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"app,omitempty"`
+		AppStoreVersion *struct {
+			Data *struct {
+				Id   string                                              `json:"id"`
+				Type BackgroundAssetRelationshipsAppStoreVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersion,omitempty"`
+		ExternalBetaVersion *struct {
+			Data *struct {
+				Id   string                                                  `json:"id"`
+				Type BackgroundAssetRelationshipsExternalBetaVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"externalBetaVersion,omitempty"`
+		InternalBetaVersion *struct {
+			Data *struct {
+				Id   string                                                  `json:"id"`
+				Type BackgroundAssetRelationshipsInternalBetaVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"internalBetaVersion,omitempty"`
+		Versions *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"versions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type BackgroundAssetType `json:"type"`
+}
+
+// BackgroundAssetRelationshipsAppDataType defines model for BackgroundAsset.Relationships.App.Data.Type.
+type BackgroundAssetRelationshipsAppDataType string
+
+// BackgroundAssetRelationshipsAppStoreVersionDataType defines model for BackgroundAsset.Relationships.AppStoreVersion.Data.Type.
+type BackgroundAssetRelationshipsAppStoreVersionDataType string
+
+// BackgroundAssetRelationshipsExternalBetaVersionDataType defines model for BackgroundAsset.Relationships.ExternalBetaVersion.Data.Type.
+type BackgroundAssetRelationshipsExternalBetaVersionDataType string
+
+// BackgroundAssetRelationshipsInternalBetaVersionDataType defines model for BackgroundAsset.Relationships.InternalBetaVersion.Data.Type.
+type BackgroundAssetRelationshipsInternalBetaVersionDataType string
+
+// BackgroundAssetType defines model for BackgroundAsset.Type.
+type BackgroundAssetType string
+
+// BackgroundAssetCreateRequest defines model for BackgroundAssetCreateRequest.
+type BackgroundAssetCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AssetPackIdentifier string `json:"assetPackIdentifier"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                   `json:"id"`
+					Type BackgroundAssetCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type BackgroundAssetCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BackgroundAssetCreateRequestDataRelationshipsAppDataType defines model for BackgroundAssetCreateRequest.Data.Relationships.App.Data.Type.
+type BackgroundAssetCreateRequestDataRelationshipsAppDataType string
+
+// BackgroundAssetCreateRequestDataType defines model for BackgroundAssetCreateRequest.Data.Type.
+type BackgroundAssetCreateRequestDataType string
+
+// BackgroundAssetResponse defines model for BackgroundAssetResponse.
+type BackgroundAssetResponse struct {
+	Data     BackgroundAsset                          `json:"data"`
+	Included *[]BackgroundAssetResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                            `json:"links"`
+}
+
+// BackgroundAssetResponse_Included_Item defines model for BackgroundAssetResponse.included.Item.
+type BackgroundAssetResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// BackgroundAssetUpdateRequest defines model for BackgroundAssetUpdateRequest.
+type BackgroundAssetUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Archived *bool `json:"archived,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                               `json:"id"`
+		Type BackgroundAssetUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BackgroundAssetUpdateRequestDataType defines model for BackgroundAssetUpdateRequest.Data.Type.
+type BackgroundAssetUpdateRequestDataType string
+
+// BackgroundAssetUploadFile defines model for BackgroundAssetUploadFile.
+type BackgroundAssetUploadFile struct {
+	Attributes *struct {
+		AssetDeliveryState *AppMediaAssetState                           `json:"assetDeliveryState,omitempty"`
+		AssetToken         *string                                       `json:"assetToken,omitempty"`
+		AssetType          *BackgroundAssetUploadFileAttributesAssetType `json:"assetType,omitempty"`
+		FileName           *string                                       `json:"fileName,omitempty"`
+		FileSize           *int64                                        `json:"fileSize,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		SourceFileChecksum  *string                        `json:"sourceFileChecksum,omitempty"`
+		SourceFileChecksums *Checksums                     `json:"sourceFileChecksums,omitempty"`
+		UploadOperations    *[]DeliveryFileUploadOperation `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                        `json:"id"`
+	Links *ResourceLinks                `json:"links,omitempty"`
+	Type  BackgroundAssetUploadFileType `json:"type"`
+}
+
+// BackgroundAssetUploadFileAttributesAssetType defines model for BackgroundAssetUploadFile.Attributes.AssetType.
+type BackgroundAssetUploadFileAttributesAssetType string
+
+// BackgroundAssetUploadFileType defines model for BackgroundAssetUploadFile.Type.
+type BackgroundAssetUploadFileType string
+
+// BackgroundAssetUploadFileCreateRequest defines model for BackgroundAssetUploadFileCreateRequest.
+type BackgroundAssetUploadFileCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AssetType BackgroundAssetUploadFileCreateRequestDataAttributesAssetType `json:"assetType"`
+			FileName  string                                                        `json:"fileName"`
+			FileSize  int64                                                         `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			BackgroundAssetVersion struct {
+				Data struct {
+					Id   string                                                                                `json:"id"`
+					Type BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"backgroundAssetVersion"`
+		} `json:"relationships"`
+		Type BackgroundAssetUploadFileCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BackgroundAssetUploadFileCreateRequestDataAttributesAssetType defines model for BackgroundAssetUploadFileCreateRequest.Data.Attributes.AssetType.
+type BackgroundAssetUploadFileCreateRequestDataAttributesAssetType string
+
+// BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataType defines model for BackgroundAssetUploadFileCreateRequest.Data.Relationships.BackgroundAssetVersion.Data.Type.
+type BackgroundAssetUploadFileCreateRequestDataRelationshipsBackgroundAssetVersionDataType string
+
+// BackgroundAssetUploadFileCreateRequestDataType defines model for BackgroundAssetUploadFileCreateRequest.Data.Type.
+type BackgroundAssetUploadFileCreateRequestDataType string
+
+// BackgroundAssetUploadFileResponse defines model for BackgroundAssetUploadFileResponse.
+type BackgroundAssetUploadFileResponse struct {
+	Data  BackgroundAssetUploadFile `json:"data"`
+	Links DocumentLinks             `json:"links"`
+}
+
+// BackgroundAssetUploadFileUpdateRequest defines model for BackgroundAssetUploadFileUpdateRequest.
+type BackgroundAssetUploadFileUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+			SourceFileChecksum  *string    `json:"sourceFileChecksum,omitempty"`
+			SourceFileChecksums *Checksums `json:"sourceFileChecksums,omitempty"`
+			Uploaded            *bool      `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                         `json:"id"`
+		Type BackgroundAssetUploadFileUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BackgroundAssetUploadFileUpdateRequestDataType defines model for BackgroundAssetUploadFileUpdateRequest.Data.Type.
+type BackgroundAssetUploadFileUpdateRequestDataType string
+
 // BackgroundAssetVersion defines model for BackgroundAssetVersion.
 type BackgroundAssetVersion struct {
 	Attributes *struct {
@@ -43004,8 +45119,169 @@ type BackgroundAssetVersionRelationshipsManifestFileDataType string
 // BackgroundAssetVersionType defines model for BackgroundAssetVersion.Type.
 type BackgroundAssetVersionType string
 
+// BackgroundAssetVersionAppStoreRelease defines model for BackgroundAssetVersionAppStoreRelease.
+type BackgroundAssetVersionAppStoreRelease struct {
+	Attributes *struct {
+		State *BackgroundAssetVersionAppStoreReleaseState `json:"state,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		BackgroundAssetVersion *struct {
+			Data *struct {
+				Id   string                                                                           `json:"id"`
+				Type BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"backgroundAssetVersion,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type BackgroundAssetVersionAppStoreReleaseType `json:"type"`
+}
+
+// BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataType defines model for BackgroundAssetVersionAppStoreRelease.Relationships.BackgroundAssetVersion.Data.Type.
+type BackgroundAssetVersionAppStoreReleaseRelationshipsBackgroundAssetVersionDataType string
+
+// BackgroundAssetVersionAppStoreReleaseType defines model for BackgroundAssetVersionAppStoreRelease.Type.
+type BackgroundAssetVersionAppStoreReleaseType string
+
+// BackgroundAssetVersionAppStoreReleaseResponse defines model for BackgroundAssetVersionAppStoreReleaseResponse.
+type BackgroundAssetVersionAppStoreReleaseResponse struct {
+	Data     BackgroundAssetVersionAppStoreRelease `json:"data"`
+	Included *[]BackgroundAssetVersion             `json:"included,omitempty"`
+	Links    DocumentLinks                         `json:"links"`
+}
+
+// BackgroundAssetVersionAppStoreReleaseState defines model for BackgroundAssetVersionAppStoreReleaseState.
+type BackgroundAssetVersionAppStoreReleaseState string
+
+// BackgroundAssetVersionCreateRequest defines model for BackgroundAssetVersionCreateRequest.
+type BackgroundAssetVersionCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			BackgroundAsset struct {
+				Data struct {
+					Id   string                                                                      `json:"id"`
+					Type BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataType `json:"type"`
+				} `json:"data"`
+			} `json:"backgroundAsset"`
+		} `json:"relationships"`
+		Type BackgroundAssetVersionCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataType defines model for BackgroundAssetVersionCreateRequest.Data.Relationships.BackgroundAsset.Data.Type.
+type BackgroundAssetVersionCreateRequestDataRelationshipsBackgroundAssetDataType string
+
+// BackgroundAssetVersionCreateRequestDataType defines model for BackgroundAssetVersionCreateRequest.Data.Type.
+type BackgroundAssetVersionCreateRequestDataType string
+
+// BackgroundAssetVersionExternalBetaRelease defines model for BackgroundAssetVersionExternalBetaRelease.
+type BackgroundAssetVersionExternalBetaRelease struct {
+	Attributes *struct {
+		State *BackgroundAssetVersionExternalBetaReleaseState `json:"state,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		BackgroundAssetVersion *struct {
+			Data *struct {
+				Id   string                                                                               `json:"id"`
+				Type BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"backgroundAssetVersion,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type BackgroundAssetVersionExternalBetaReleaseType `json:"type"`
+}
+
+// BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataType defines model for BackgroundAssetVersionExternalBetaRelease.Relationships.BackgroundAssetVersion.Data.Type.
+type BackgroundAssetVersionExternalBetaReleaseRelationshipsBackgroundAssetVersionDataType string
+
+// BackgroundAssetVersionExternalBetaReleaseType defines model for BackgroundAssetVersionExternalBetaRelease.Type.
+type BackgroundAssetVersionExternalBetaReleaseType string
+
+// BackgroundAssetVersionExternalBetaReleaseResponse defines model for BackgroundAssetVersionExternalBetaReleaseResponse.
+type BackgroundAssetVersionExternalBetaReleaseResponse struct {
+	Data     BackgroundAssetVersionExternalBetaRelease `json:"data"`
+	Included *[]BackgroundAssetVersion                 `json:"included,omitempty"`
+	Links    DocumentLinks                             `json:"links"`
+}
+
+// BackgroundAssetVersionExternalBetaReleaseState defines model for BackgroundAssetVersionExternalBetaReleaseState.
+type BackgroundAssetVersionExternalBetaReleaseState string
+
+// BackgroundAssetVersionInternalBetaRelease defines model for BackgroundAssetVersionInternalBetaRelease.
+type BackgroundAssetVersionInternalBetaRelease struct {
+	Attributes *struct {
+		State *BackgroundAssetVersionInternalBetaReleaseAttributesState `json:"state,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		BackgroundAssetVersion *struct {
+			Data *struct {
+				Id   string                                                                               `json:"id"`
+				Type BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"backgroundAssetVersion,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type BackgroundAssetVersionInternalBetaReleaseType `json:"type"`
+}
+
+// BackgroundAssetVersionInternalBetaReleaseAttributesState defines model for BackgroundAssetVersionInternalBetaRelease.Attributes.State.
+type BackgroundAssetVersionInternalBetaReleaseAttributesState string
+
+// BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataType defines model for BackgroundAssetVersionInternalBetaRelease.Relationships.BackgroundAssetVersion.Data.Type.
+type BackgroundAssetVersionInternalBetaReleaseRelationshipsBackgroundAssetVersionDataType string
+
+// BackgroundAssetVersionInternalBetaReleaseType defines model for BackgroundAssetVersionInternalBetaRelease.Type.
+type BackgroundAssetVersionInternalBetaReleaseType string
+
+// BackgroundAssetVersionInternalBetaReleaseResponse defines model for BackgroundAssetVersionInternalBetaReleaseResponse.
+type BackgroundAssetVersionInternalBetaReleaseResponse struct {
+	Data     BackgroundAssetVersionInternalBetaRelease `json:"data"`
+	Included *[]BackgroundAssetVersion                 `json:"included,omitempty"`
+	Links    DocumentLinks                             `json:"links"`
+}
+
+// BackgroundAssetVersionResponse defines model for BackgroundAssetVersionResponse.
+type BackgroundAssetVersionResponse struct {
+	Data     BackgroundAssetVersion                          `json:"data"`
+	Included *[]BackgroundAssetVersionResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                   `json:"links"`
+}
+
+// BackgroundAssetVersionResponse_Included_Item defines model for BackgroundAssetVersionResponse.included.Item.
+type BackgroundAssetVersionResponse_Included_Item struct {
+	union json.RawMessage
+}
+
 // BackgroundAssetVersionState defines model for BackgroundAssetVersionState.
 type BackgroundAssetVersionState string
+
+// BackgroundAssetVersionsResponse defines model for BackgroundAssetVersionsResponse.
+type BackgroundAssetVersionsResponse struct {
+	Data     []BackgroundAssetVersion                         `json:"data"`
+	Included *[]BackgroundAssetVersionsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                               `json:"links"`
+	Meta     *PagingInformation                               `json:"meta,omitempty"`
+}
+
+// BackgroundAssetVersionsResponse_Included_Item defines model for BackgroundAssetVersionsResponse.included.Item.
+type BackgroundAssetVersionsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// BackgroundAssetsResponse defines model for BackgroundAssetsResponse.
+type BackgroundAssetsResponse struct {
+	Data     []BackgroundAsset                         `json:"data"`
+	Included *[]BackgroundAssetsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                        `json:"links"`
+	Meta     *PagingInformation                        `json:"meta,omitempty"`
+}
+
+// BackgroundAssetsResponse_Included_Item defines model for BackgroundAssetsResponse.included.Item.
+type BackgroundAssetsResponse_Included_Item struct {
+	union json.RawMessage
+}
 
 // BetaAppLocalization defines model for BetaAppLocalization.
 type BetaAppLocalization struct {
@@ -44683,6 +46959,18 @@ type CiProductRelationshipsPrimaryRepositoriesDataType string
 
 // CiProductType defines model for CiProduct.Type.
 type CiProductType string
+
+// DeliveryFileUploadOperation defines model for DeliveryFileUploadOperation.
+type DeliveryFileUploadOperation struct {
+	EntityTag      *string       `json:"entityTag,omitempty"`
+	Expiration     *DateTime     `json:"expiration,omitempty"`
+	Length         *int64        `json:"length,omitempty"`
+	Method         *string       `json:"method,omitempty"`
+	Offset         *int64        `json:"offset,omitempty"`
+	PartNumber     *int64        `json:"partNumber,omitempty"`
+	RequestHeaders *[]HttpHeader `json:"requestHeaders,omitempty"`
+	Url            *string       `json:"url,omitempty"`
+}
 
 // Device defines model for Device.
 type Device struct {
@@ -51567,6 +53855,57 @@ type AppsAppTagsGetToManyRelatedParamsFieldsTerritories string
 // AppsAppTagsGetToManyRelatedParamsInclude defines parameters for AppsAppTagsGetToManyRelated.
 type AppsAppTagsGetToManyRelatedParamsInclude string
 
+// AppsBackgroundAssetsGetToManyRelatedParams defines parameters for AppsBackgroundAssetsGetToManyRelated.
+type AppsBackgroundAssetsGetToManyRelatedParams struct {
+	// FilterArchived filter by attribute 'archived'
+	FilterArchived *[]string `form:"filter[archived],omitempty" json:"filter[archived],omitempty"`
+
+	// FilterAssetPackIdentifier filter by attribute 'assetPackIdentifier'
+	FilterAssetPackIdentifier *[]string `form:"filter[assetPackIdentifier],omitempty" json:"filter[assetPackIdentifier],omitempty"`
+
+	// FilterVersionsLocale filter by attribute 'versions.locale'
+	FilterVersionsLocale *[]string `form:"filter[versions.locale],omitempty" json:"filter[versions.locale],omitempty"`
+
+	// FilterVersionsPlatforms filter by attribute 'versions.platforms'
+	FilterVersionsPlatforms *[]AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms `form:"filter[versions.platforms],omitempty" json:"filter[versions.platforms],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppsBackgroundAssetsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsBackgroundAssets the fields to include for returned resources of type backgroundAssets
+	FieldsBackgroundAssets *[]AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets `form:"fields[backgroundAssets],omitempty" json:"fields[backgroundAssets],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsBackgroundAssetVersions the fields to include for returned resources of type backgroundAssetVersions
+	FieldsBackgroundAssetVersions *[]AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions `form:"fields[backgroundAssetVersions],omitempty" json:"fields[backgroundAssetVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsBackgroundAssetsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms defines parameters for AppsBackgroundAssetsGetToManyRelated.
+type AppsBackgroundAssetsGetToManyRelatedParamsFilterVersionsPlatforms string
+
+// AppsBackgroundAssetsGetToManyRelatedParamsSort defines parameters for AppsBackgroundAssetsGetToManyRelated.
+type AppsBackgroundAssetsGetToManyRelatedParamsSort string
+
+// AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets defines parameters for AppsBackgroundAssetsGetToManyRelated.
+type AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssets string
+
+// AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps defines parameters for AppsBackgroundAssetsGetToManyRelated.
+type AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps string
+
+// AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions defines parameters for AppsBackgroundAssetsGetToManyRelated.
+type AppsBackgroundAssetsGetToManyRelatedParamsFieldsBackgroundAssetVersions string
+
+// AppsBackgroundAssetsGetToManyRelatedParamsInclude defines parameters for AppsBackgroundAssetsGetToManyRelated.
+type AppsBackgroundAssetsGetToManyRelatedParamsInclude string
+
 // AppsEndUserLicenseAgreementGetToOneRelatedParams defines parameters for AppsEndUserLicenseAgreementGetToOneRelated.
 type AppsEndUserLicenseAgreementGetToOneRelatedParams struct {
 	// FieldsEndUserLicenseAgreements the fields to include for returned resources of type endUserLicenseAgreements
@@ -51791,6 +54130,240 @@ type AppsWebhooksGetToManyRelatedParamsFieldsApps string
 
 // AppsWebhooksGetToManyRelatedParamsInclude defines parameters for AppsWebhooksGetToManyRelated.
 type AppsWebhooksGetToManyRelatedParamsInclude string
+
+// BackgroundAssetUploadFilesGetInstanceParams defines parameters for BackgroundAssetUploadFilesGetInstance.
+type BackgroundAssetUploadFilesGetInstanceParams struct {
+	// FieldsBackgroundAssetUploadFiles the fields to include for returned resources of type backgroundAssetUploadFiles
+	FieldsBackgroundAssetUploadFiles *[]BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles `form:"fields[backgroundAssetUploadFiles],omitempty" json:"fields[backgroundAssetUploadFiles],omitempty"`
+}
+
+// BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles defines parameters for BackgroundAssetUploadFilesGetInstance.
+type BackgroundAssetUploadFilesGetInstanceParamsFieldsBackgroundAssetUploadFiles string
+
+// BackgroundAssetVersionAppStoreReleasesGetInstanceParams defines parameters for BackgroundAssetVersionAppStoreReleasesGetInstance.
+type BackgroundAssetVersionAppStoreReleasesGetInstanceParams struct {
+	// FieldsBackgroundAssetVersionAppStoreReleases the fields to include for returned resources of type backgroundAssetVersionAppStoreReleases
+	FieldsBackgroundAssetVersionAppStoreReleases *[]BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases `form:"fields[backgroundAssetVersionAppStoreReleases],omitempty" json:"fields[backgroundAssetVersionAppStoreReleases],omitempty"`
+
+	// FieldsBackgroundAssetVersions the fields to include for returned resources of type backgroundAssetVersions
+	FieldsBackgroundAssetVersions *[]BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions `form:"fields[backgroundAssetVersions],omitempty" json:"fields[backgroundAssetVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]BackgroundAssetVersionAppStoreReleasesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases defines parameters for BackgroundAssetVersionAppStoreReleasesGetInstance.
+type BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases string
+
+// BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions defines parameters for BackgroundAssetVersionAppStoreReleasesGetInstance.
+type BackgroundAssetVersionAppStoreReleasesGetInstanceParamsFieldsBackgroundAssetVersions string
+
+// BackgroundAssetVersionAppStoreReleasesGetInstanceParamsInclude defines parameters for BackgroundAssetVersionAppStoreReleasesGetInstance.
+type BackgroundAssetVersionAppStoreReleasesGetInstanceParamsInclude string
+
+// BackgroundAssetVersionExternalBetaReleasesGetInstanceParams defines parameters for BackgroundAssetVersionExternalBetaReleasesGetInstance.
+type BackgroundAssetVersionExternalBetaReleasesGetInstanceParams struct {
+	// FieldsBackgroundAssetVersionExternalBetaReleases the fields to include for returned resources of type backgroundAssetVersionExternalBetaReleases
+	FieldsBackgroundAssetVersionExternalBetaReleases *[]BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases `form:"fields[backgroundAssetVersionExternalBetaReleases],omitempty" json:"fields[backgroundAssetVersionExternalBetaReleases],omitempty"`
+
+	// FieldsBackgroundAssetVersions the fields to include for returned resources of type backgroundAssetVersions
+	FieldsBackgroundAssetVersions *[]BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions `form:"fields[backgroundAssetVersions],omitempty" json:"fields[backgroundAssetVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases defines parameters for BackgroundAssetVersionExternalBetaReleasesGetInstance.
+type BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases string
+
+// BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions defines parameters for BackgroundAssetVersionExternalBetaReleasesGetInstance.
+type BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions string
+
+// BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsInclude defines parameters for BackgroundAssetVersionExternalBetaReleasesGetInstance.
+type BackgroundAssetVersionExternalBetaReleasesGetInstanceParamsInclude string
+
+// BackgroundAssetVersionInternalBetaReleasesGetInstanceParams defines parameters for BackgroundAssetVersionInternalBetaReleasesGetInstance.
+type BackgroundAssetVersionInternalBetaReleasesGetInstanceParams struct {
+	// FieldsBackgroundAssetVersionInternalBetaReleases the fields to include for returned resources of type backgroundAssetVersionInternalBetaReleases
+	FieldsBackgroundAssetVersionInternalBetaReleases *[]BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases `form:"fields[backgroundAssetVersionInternalBetaReleases],omitempty" json:"fields[backgroundAssetVersionInternalBetaReleases],omitempty"`
+
+	// FieldsBackgroundAssetVersions the fields to include for returned resources of type backgroundAssetVersions
+	FieldsBackgroundAssetVersions *[]BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions `form:"fields[backgroundAssetVersions],omitempty" json:"fields[backgroundAssetVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases defines parameters for BackgroundAssetVersionInternalBetaReleasesGetInstance.
+type BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases string
+
+// BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions defines parameters for BackgroundAssetVersionInternalBetaReleasesGetInstance.
+type BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsFieldsBackgroundAssetVersions string
+
+// BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsInclude defines parameters for BackgroundAssetVersionInternalBetaReleasesGetInstance.
+type BackgroundAssetVersionInternalBetaReleasesGetInstanceParamsInclude string
+
+// BackgroundAssetVersionsGetInstanceParams defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParams struct {
+	// FieldsBackgroundAssetVersions the fields to include for returned resources of type backgroundAssetVersions
+	FieldsBackgroundAssetVersions *[]BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions `form:"fields[backgroundAssetVersions],omitempty" json:"fields[backgroundAssetVersions],omitempty"`
+
+	// FieldsBackgroundAssets the fields to include for returned resources of type backgroundAssets
+	FieldsBackgroundAssets *[]BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets `form:"fields[backgroundAssets],omitempty" json:"fields[backgroundAssets],omitempty"`
+
+	// FieldsBackgroundAssetVersionInternalBetaReleases the fields to include for returned resources of type backgroundAssetVersionInternalBetaReleases
+	FieldsBackgroundAssetVersionInternalBetaReleases *[]BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases `form:"fields[backgroundAssetVersionInternalBetaReleases],omitempty" json:"fields[backgroundAssetVersionInternalBetaReleases],omitempty"`
+
+	// FieldsBackgroundAssetVersionExternalBetaReleases the fields to include for returned resources of type backgroundAssetVersionExternalBetaReleases
+	FieldsBackgroundAssetVersionExternalBetaReleases *[]BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases `form:"fields[backgroundAssetVersionExternalBetaReleases],omitempty" json:"fields[backgroundAssetVersionExternalBetaReleases],omitempty"`
+
+	// FieldsBackgroundAssetVersionAppStoreReleases the fields to include for returned resources of type backgroundAssetVersionAppStoreReleases
+	FieldsBackgroundAssetVersionAppStoreReleases *[]BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases `form:"fields[backgroundAssetVersionAppStoreReleases],omitempty" json:"fields[backgroundAssetVersionAppStoreReleases],omitempty"`
+
+	// FieldsBackgroundAssetUploadFiles the fields to include for returned resources of type backgroundAssetUploadFiles
+	FieldsBackgroundAssetUploadFiles *[]BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles `form:"fields[backgroundAssetUploadFiles],omitempty" json:"fields[backgroundAssetUploadFiles],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]BackgroundAssetVersionsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersions string
+
+// BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssets string
+
+// BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionInternalBetaReleases string
+
+// BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionExternalBetaReleases string
+
+// BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetVersionAppStoreReleases string
+
+// BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParamsFieldsBackgroundAssetUploadFiles string
+
+// BackgroundAssetVersionsGetInstanceParamsInclude defines parameters for BackgroundAssetVersionsGetInstance.
+type BackgroundAssetVersionsGetInstanceParamsInclude string
+
+// BackgroundAssetsGetInstanceParams defines parameters for BackgroundAssetsGetInstance.
+type BackgroundAssetsGetInstanceParams struct {
+	// FieldsBackgroundAssets the fields to include for returned resources of type backgroundAssets
+	FieldsBackgroundAssets *[]BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets `form:"fields[backgroundAssets],omitempty" json:"fields[backgroundAssets],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]BackgroundAssetsGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsBackgroundAssetVersions the fields to include for returned resources of type backgroundAssetVersions
+	FieldsBackgroundAssetVersions *[]BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions `form:"fields[backgroundAssetVersions],omitempty" json:"fields[backgroundAssetVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]BackgroundAssetsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets defines parameters for BackgroundAssetsGetInstance.
+type BackgroundAssetsGetInstanceParamsFieldsBackgroundAssets string
+
+// BackgroundAssetsGetInstanceParamsFieldsApps defines parameters for BackgroundAssetsGetInstance.
+type BackgroundAssetsGetInstanceParamsFieldsApps string
+
+// BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions defines parameters for BackgroundAssetsGetInstance.
+type BackgroundAssetsGetInstanceParamsFieldsBackgroundAssetVersions string
+
+// BackgroundAssetsGetInstanceParamsInclude defines parameters for BackgroundAssetsGetInstance.
+type BackgroundAssetsGetInstanceParamsInclude string
+
+// BackgroundAssetsVersionsGetToManyRelatedParams defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParams struct {
+	// FilterLocale filter by attribute 'locale'
+	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
+
+	// FilterPlatforms filter by attribute 'platforms'
+	FilterPlatforms *[]BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms `form:"filter[platforms],omitempty" json:"filter[platforms],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]BackgroundAssetsVersionsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterVersion filter by attribute 'version'
+	FilterVersion *[]string `form:"filter[version],omitempty" json:"filter[version],omitempty"`
+
+	// FilterInternalBetaReleaseState filter by attribute 'internalBetaRelease.state'
+	FilterInternalBetaReleaseState *[]BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState `form:"filter[internalBetaRelease.state],omitempty" json:"filter[internalBetaRelease.state],omitempty"`
+
+	// FilterExternalBetaReleaseState filter by attribute 'externalBetaRelease.state'
+	FilterExternalBetaReleaseState *[]BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState `form:"filter[externalBetaRelease.state],omitempty" json:"filter[externalBetaRelease.state],omitempty"`
+
+	// FilterAppStoreReleaseState filter by attribute 'appStoreRelease.state'
+	FilterAppStoreReleaseState *[]BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState `form:"filter[appStoreRelease.state],omitempty" json:"filter[appStoreRelease.state],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]BackgroundAssetsVersionsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsBackgroundAssetVersions the fields to include for returned resources of type backgroundAssetVersions
+	FieldsBackgroundAssetVersions *[]BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions `form:"fields[backgroundAssetVersions],omitempty" json:"fields[backgroundAssetVersions],omitempty"`
+
+	// FieldsBackgroundAssets the fields to include for returned resources of type backgroundAssets
+	FieldsBackgroundAssets *[]BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets `form:"fields[backgroundAssets],omitempty" json:"fields[backgroundAssets],omitempty"`
+
+	// FieldsBackgroundAssetVersionInternalBetaReleases the fields to include for returned resources of type backgroundAssetVersionInternalBetaReleases
+	FieldsBackgroundAssetVersionInternalBetaReleases *[]BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases `form:"fields[backgroundAssetVersionInternalBetaReleases],omitempty" json:"fields[backgroundAssetVersionInternalBetaReleases],omitempty"`
+
+	// FieldsBackgroundAssetVersionExternalBetaReleases the fields to include for returned resources of type backgroundAssetVersionExternalBetaReleases
+	FieldsBackgroundAssetVersionExternalBetaReleases *[]BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases `form:"fields[backgroundAssetVersionExternalBetaReleases],omitempty" json:"fields[backgroundAssetVersionExternalBetaReleases],omitempty"`
+
+	// FieldsBackgroundAssetVersionAppStoreReleases the fields to include for returned resources of type backgroundAssetVersionAppStoreReleases
+	FieldsBackgroundAssetVersionAppStoreReleases *[]BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases `form:"fields[backgroundAssetVersionAppStoreReleases],omitempty" json:"fields[backgroundAssetVersionAppStoreReleases],omitempty"`
+
+	// FieldsBackgroundAssetUploadFiles the fields to include for returned resources of type backgroundAssetUploadFiles
+	FieldsBackgroundAssetUploadFiles *[]BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles `form:"fields[backgroundAssetUploadFiles],omitempty" json:"fields[backgroundAssetUploadFiles],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]BackgroundAssetsVersionsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFilterPlatforms string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFilterState defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFilterState string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFilterInternalBetaReleaseState string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFilterExternalBetaReleaseState string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFilterAppStoreReleaseState string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsSort defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsSort string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersions string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssets string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionInternalBetaReleases string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionExternalBetaReleases string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetVersionAppStoreReleases string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFiles string
+
+// BackgroundAssetsVersionsGetToManyRelatedParamsInclude defines parameters for BackgroundAssetsVersionsGetToManyRelated.
+type BackgroundAssetsVersionsGetToManyRelatedParamsInclude string
 
 // BetaAppLocalizationsGetInstanceParams defines parameters for BetaAppLocalizationsGetInstance.
 type BetaAppLocalizationsGetInstanceParams struct {
@@ -54723,6 +57296,21 @@ type AppsUpdateInstanceJSONRequestBody = AppUpdateRequest
 
 // AppsBetaTestersDeleteToManyRelationshipJSONRequestBody defines body for AppsBetaTestersDeleteToManyRelationship for application/json ContentType.
 type AppsBetaTestersDeleteToManyRelationshipJSONRequestBody = AppBetaTestersLinkagesRequest
+
+// BackgroundAssetUploadFilesCreateInstanceJSONRequestBody defines body for BackgroundAssetUploadFilesCreateInstance for application/json ContentType.
+type BackgroundAssetUploadFilesCreateInstanceJSONRequestBody = BackgroundAssetUploadFileCreateRequest
+
+// BackgroundAssetUploadFilesUpdateInstanceJSONRequestBody defines body for BackgroundAssetUploadFilesUpdateInstance for application/json ContentType.
+type BackgroundAssetUploadFilesUpdateInstanceJSONRequestBody = BackgroundAssetUploadFileUpdateRequest
+
+// BackgroundAssetVersionsCreateInstanceJSONRequestBody defines body for BackgroundAssetVersionsCreateInstance for application/json ContentType.
+type BackgroundAssetVersionsCreateInstanceJSONRequestBody = BackgroundAssetVersionCreateRequest
+
+// BackgroundAssetsCreateInstanceJSONRequestBody defines body for BackgroundAssetsCreateInstance for application/json ContentType.
+type BackgroundAssetsCreateInstanceJSONRequestBody = BackgroundAssetCreateRequest
+
+// BackgroundAssetsUpdateInstanceJSONRequestBody defines body for BackgroundAssetsUpdateInstance for application/json ContentType.
+type BackgroundAssetsUpdateInstanceJSONRequestBody = BackgroundAssetUpdateRequest
 
 // BetaAppLocalizationsCreateInstanceJSONRequestBody defines body for BetaAppLocalizationsCreateInstance for application/json ContentType.
 type BetaAppLocalizationsCreateInstanceJSONRequestBody = BetaAppLocalizationCreateRequest
@@ -60494,6 +63082,626 @@ func (t AppsResponse_Included_Item) MarshalJSON() ([]byte, error) {
 }
 
 func (t *AppsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsApp returns the union data inside the BackgroundAssetResponse_Included_Item as a App
+func (t BackgroundAssetResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the BackgroundAssetResponse_Included_Item as the provided App
+func (t *BackgroundAssetResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the BackgroundAssetResponse_Included_Item, using the provided App
+func (t *BackgroundAssetResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersion returns the union data inside the BackgroundAssetResponse_Included_Item as a BackgroundAssetVersion
+func (t BackgroundAssetResponse_Included_Item) AsBackgroundAssetVersion() (BackgroundAssetVersion, error) {
+	var body BackgroundAssetVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersion overwrites any union data inside the BackgroundAssetResponse_Included_Item as the provided BackgroundAssetVersion
+func (t *BackgroundAssetResponse_Included_Item) FromBackgroundAssetVersion(v BackgroundAssetVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersion performs a merge with any union data inside the BackgroundAssetResponse_Included_Item, using the provided BackgroundAssetVersion
+func (t *BackgroundAssetResponse_Included_Item) MergeBackgroundAssetVersion(v BackgroundAssetVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t BackgroundAssetResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t BackgroundAssetResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "apps":
+		return t.AsApp()
+	case "backgroundAssetVersions":
+		return t.AsBackgroundAssetVersion()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t BackgroundAssetResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *BackgroundAssetResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsBackgroundAssetUploadFile returns the union data inside the BackgroundAssetVersionResponse_Included_Item as a BackgroundAssetUploadFile
+func (t BackgroundAssetVersionResponse_Included_Item) AsBackgroundAssetUploadFile() (BackgroundAssetUploadFile, error) {
+	var body BackgroundAssetUploadFile
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetUploadFile overwrites any union data inside the BackgroundAssetVersionResponse_Included_Item as the provided BackgroundAssetUploadFile
+func (t *BackgroundAssetVersionResponse_Included_Item) FromBackgroundAssetUploadFile(v BackgroundAssetUploadFile) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetUploadFiles"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetUploadFile performs a merge with any union data inside the BackgroundAssetVersionResponse_Included_Item, using the provided BackgroundAssetUploadFile
+func (t *BackgroundAssetVersionResponse_Included_Item) MergeBackgroundAssetUploadFile(v BackgroundAssetUploadFile) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetUploadFiles"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersionAppStoreRelease returns the union data inside the BackgroundAssetVersionResponse_Included_Item as a BackgroundAssetVersionAppStoreRelease
+func (t BackgroundAssetVersionResponse_Included_Item) AsBackgroundAssetVersionAppStoreRelease() (BackgroundAssetVersionAppStoreRelease, error) {
+	var body BackgroundAssetVersionAppStoreRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersionAppStoreRelease overwrites any union data inside the BackgroundAssetVersionResponse_Included_Item as the provided BackgroundAssetVersionAppStoreRelease
+func (t *BackgroundAssetVersionResponse_Included_Item) FromBackgroundAssetVersionAppStoreRelease(v BackgroundAssetVersionAppStoreRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionAppStoreReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersionAppStoreRelease performs a merge with any union data inside the BackgroundAssetVersionResponse_Included_Item, using the provided BackgroundAssetVersionAppStoreRelease
+func (t *BackgroundAssetVersionResponse_Included_Item) MergeBackgroundAssetVersionAppStoreRelease(v BackgroundAssetVersionAppStoreRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionAppStoreReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersionExternalBetaRelease returns the union data inside the BackgroundAssetVersionResponse_Included_Item as a BackgroundAssetVersionExternalBetaRelease
+func (t BackgroundAssetVersionResponse_Included_Item) AsBackgroundAssetVersionExternalBetaRelease() (BackgroundAssetVersionExternalBetaRelease, error) {
+	var body BackgroundAssetVersionExternalBetaRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersionExternalBetaRelease overwrites any union data inside the BackgroundAssetVersionResponse_Included_Item as the provided BackgroundAssetVersionExternalBetaRelease
+func (t *BackgroundAssetVersionResponse_Included_Item) FromBackgroundAssetVersionExternalBetaRelease(v BackgroundAssetVersionExternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionExternalBetaReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersionExternalBetaRelease performs a merge with any union data inside the BackgroundAssetVersionResponse_Included_Item, using the provided BackgroundAssetVersionExternalBetaRelease
+func (t *BackgroundAssetVersionResponse_Included_Item) MergeBackgroundAssetVersionExternalBetaRelease(v BackgroundAssetVersionExternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionExternalBetaReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersionInternalBetaRelease returns the union data inside the BackgroundAssetVersionResponse_Included_Item as a BackgroundAssetVersionInternalBetaRelease
+func (t BackgroundAssetVersionResponse_Included_Item) AsBackgroundAssetVersionInternalBetaRelease() (BackgroundAssetVersionInternalBetaRelease, error) {
+	var body BackgroundAssetVersionInternalBetaRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersionInternalBetaRelease overwrites any union data inside the BackgroundAssetVersionResponse_Included_Item as the provided BackgroundAssetVersionInternalBetaRelease
+func (t *BackgroundAssetVersionResponse_Included_Item) FromBackgroundAssetVersionInternalBetaRelease(v BackgroundAssetVersionInternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionInternalBetaReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersionInternalBetaRelease performs a merge with any union data inside the BackgroundAssetVersionResponse_Included_Item, using the provided BackgroundAssetVersionInternalBetaRelease
+func (t *BackgroundAssetVersionResponse_Included_Item) MergeBackgroundAssetVersionInternalBetaRelease(v BackgroundAssetVersionInternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionInternalBetaReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAsset returns the union data inside the BackgroundAssetVersionResponse_Included_Item as a BackgroundAsset
+func (t BackgroundAssetVersionResponse_Included_Item) AsBackgroundAsset() (BackgroundAsset, error) {
+	var body BackgroundAsset
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAsset overwrites any union data inside the BackgroundAssetVersionResponse_Included_Item as the provided BackgroundAsset
+func (t *BackgroundAssetVersionResponse_Included_Item) FromBackgroundAsset(v BackgroundAsset) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssets"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAsset performs a merge with any union data inside the BackgroundAssetVersionResponse_Included_Item, using the provided BackgroundAsset
+func (t *BackgroundAssetVersionResponse_Included_Item) MergeBackgroundAsset(v BackgroundAsset) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t BackgroundAssetVersionResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t BackgroundAssetVersionResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "backgroundAssetUploadFiles":
+		return t.AsBackgroundAssetUploadFile()
+	case "backgroundAssetVersionAppStoreReleases":
+		return t.AsBackgroundAssetVersionAppStoreRelease()
+	case "backgroundAssetVersionExternalBetaReleases":
+		return t.AsBackgroundAssetVersionExternalBetaRelease()
+	case "backgroundAssetVersionInternalBetaReleases":
+		return t.AsBackgroundAssetVersionInternalBetaRelease()
+	case "backgroundAssets":
+		return t.AsBackgroundAsset()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t BackgroundAssetVersionResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *BackgroundAssetVersionResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsBackgroundAssetUploadFile returns the union data inside the BackgroundAssetVersionsResponse_Included_Item as a BackgroundAssetUploadFile
+func (t BackgroundAssetVersionsResponse_Included_Item) AsBackgroundAssetUploadFile() (BackgroundAssetUploadFile, error) {
+	var body BackgroundAssetUploadFile
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetUploadFile overwrites any union data inside the BackgroundAssetVersionsResponse_Included_Item as the provided BackgroundAssetUploadFile
+func (t *BackgroundAssetVersionsResponse_Included_Item) FromBackgroundAssetUploadFile(v BackgroundAssetUploadFile) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetUploadFiles"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetUploadFile performs a merge with any union data inside the BackgroundAssetVersionsResponse_Included_Item, using the provided BackgroundAssetUploadFile
+func (t *BackgroundAssetVersionsResponse_Included_Item) MergeBackgroundAssetUploadFile(v BackgroundAssetUploadFile) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetUploadFiles"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersionAppStoreRelease returns the union data inside the BackgroundAssetVersionsResponse_Included_Item as a BackgroundAssetVersionAppStoreRelease
+func (t BackgroundAssetVersionsResponse_Included_Item) AsBackgroundAssetVersionAppStoreRelease() (BackgroundAssetVersionAppStoreRelease, error) {
+	var body BackgroundAssetVersionAppStoreRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersionAppStoreRelease overwrites any union data inside the BackgroundAssetVersionsResponse_Included_Item as the provided BackgroundAssetVersionAppStoreRelease
+func (t *BackgroundAssetVersionsResponse_Included_Item) FromBackgroundAssetVersionAppStoreRelease(v BackgroundAssetVersionAppStoreRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionAppStoreReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersionAppStoreRelease performs a merge with any union data inside the BackgroundAssetVersionsResponse_Included_Item, using the provided BackgroundAssetVersionAppStoreRelease
+func (t *BackgroundAssetVersionsResponse_Included_Item) MergeBackgroundAssetVersionAppStoreRelease(v BackgroundAssetVersionAppStoreRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionAppStoreReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersionExternalBetaRelease returns the union data inside the BackgroundAssetVersionsResponse_Included_Item as a BackgroundAssetVersionExternalBetaRelease
+func (t BackgroundAssetVersionsResponse_Included_Item) AsBackgroundAssetVersionExternalBetaRelease() (BackgroundAssetVersionExternalBetaRelease, error) {
+	var body BackgroundAssetVersionExternalBetaRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersionExternalBetaRelease overwrites any union data inside the BackgroundAssetVersionsResponse_Included_Item as the provided BackgroundAssetVersionExternalBetaRelease
+func (t *BackgroundAssetVersionsResponse_Included_Item) FromBackgroundAssetVersionExternalBetaRelease(v BackgroundAssetVersionExternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionExternalBetaReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersionExternalBetaRelease performs a merge with any union data inside the BackgroundAssetVersionsResponse_Included_Item, using the provided BackgroundAssetVersionExternalBetaRelease
+func (t *BackgroundAssetVersionsResponse_Included_Item) MergeBackgroundAssetVersionExternalBetaRelease(v BackgroundAssetVersionExternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionExternalBetaReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersionInternalBetaRelease returns the union data inside the BackgroundAssetVersionsResponse_Included_Item as a BackgroundAssetVersionInternalBetaRelease
+func (t BackgroundAssetVersionsResponse_Included_Item) AsBackgroundAssetVersionInternalBetaRelease() (BackgroundAssetVersionInternalBetaRelease, error) {
+	var body BackgroundAssetVersionInternalBetaRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersionInternalBetaRelease overwrites any union data inside the BackgroundAssetVersionsResponse_Included_Item as the provided BackgroundAssetVersionInternalBetaRelease
+func (t *BackgroundAssetVersionsResponse_Included_Item) FromBackgroundAssetVersionInternalBetaRelease(v BackgroundAssetVersionInternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionInternalBetaReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersionInternalBetaRelease performs a merge with any union data inside the BackgroundAssetVersionsResponse_Included_Item, using the provided BackgroundAssetVersionInternalBetaRelease
+func (t *BackgroundAssetVersionsResponse_Included_Item) MergeBackgroundAssetVersionInternalBetaRelease(v BackgroundAssetVersionInternalBetaRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersionInternalBetaReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAsset returns the union data inside the BackgroundAssetVersionsResponse_Included_Item as a BackgroundAsset
+func (t BackgroundAssetVersionsResponse_Included_Item) AsBackgroundAsset() (BackgroundAsset, error) {
+	var body BackgroundAsset
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAsset overwrites any union data inside the BackgroundAssetVersionsResponse_Included_Item as the provided BackgroundAsset
+func (t *BackgroundAssetVersionsResponse_Included_Item) FromBackgroundAsset(v BackgroundAsset) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssets"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAsset performs a merge with any union data inside the BackgroundAssetVersionsResponse_Included_Item, using the provided BackgroundAsset
+func (t *BackgroundAssetVersionsResponse_Included_Item) MergeBackgroundAsset(v BackgroundAsset) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t BackgroundAssetVersionsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t BackgroundAssetVersionsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "backgroundAssetUploadFiles":
+		return t.AsBackgroundAssetUploadFile()
+	case "backgroundAssetVersionAppStoreReleases":
+		return t.AsBackgroundAssetVersionAppStoreRelease()
+	case "backgroundAssetVersionExternalBetaReleases":
+		return t.AsBackgroundAssetVersionExternalBetaRelease()
+	case "backgroundAssetVersionInternalBetaReleases":
+		return t.AsBackgroundAssetVersionInternalBetaRelease()
+	case "backgroundAssets":
+		return t.AsBackgroundAsset()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t BackgroundAssetVersionsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *BackgroundAssetVersionsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsApp returns the union data inside the BackgroundAssetsResponse_Included_Item as a App
+func (t BackgroundAssetsResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the BackgroundAssetsResponse_Included_Item as the provided App
+func (t *BackgroundAssetsResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the BackgroundAssetsResponse_Included_Item, using the provided App
+func (t *BackgroundAssetsResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBackgroundAssetVersion returns the union data inside the BackgroundAssetsResponse_Included_Item as a BackgroundAssetVersion
+func (t BackgroundAssetsResponse_Included_Item) AsBackgroundAssetVersion() (BackgroundAssetVersion, error) {
+	var body BackgroundAssetVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBackgroundAssetVersion overwrites any union data inside the BackgroundAssetsResponse_Included_Item as the provided BackgroundAssetVersion
+func (t *BackgroundAssetsResponse_Included_Item) FromBackgroundAssetVersion(v BackgroundAssetVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeBackgroundAssetVersion performs a merge with any union data inside the BackgroundAssetsResponse_Included_Item, using the provided BackgroundAssetVersion
+func (t *BackgroundAssetsResponse_Included_Item) MergeBackgroundAssetVersion(v BackgroundAssetVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"backgroundAssetVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t BackgroundAssetsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t BackgroundAssetsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "apps":
+		return t.AsApp()
+	case "backgroundAssetVersions":
+		return t.AsBackgroundAssetVersion()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t BackgroundAssetsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *BackgroundAssetsResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -68013,6 +71221,9 @@ type ClientInterface interface {
 	// AppsAppTagsGetToManyRelated performs a GET /v1/apps/{id}/appTags (the `AppsAppTagsGetToManyRelated` operationId) request.
 	AppsAppTagsGetToManyRelated(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsBackgroundAssetsGetToManyRelated performs a GET /v1/apps/{id}/backgroundAssets (the `AppsBackgroundAssetsGetToManyRelated` operationId) request.
+	AppsBackgroundAssetsGetToManyRelated(ctx context.Context, id string, params *AppsBackgroundAssetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsEndUserLicenseAgreementGetToOneRelated performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
 	AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -68038,6 +71249,67 @@ type ClientInterface interface {
 
 	// AppsWebhooksGetToManyRelated performs a GET /v1/apps/{id}/webhooks (the `AppsWebhooksGetToManyRelated` operationId) request.
 	AppsWebhooksGetToManyRelated(ctx context.Context, id string, params *AppsWebhooksGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetUploadFilesCreateInstanceWithBody performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BackgroundAssetUploadFilesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetUploadFilesCreateInstance performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BackgroundAssetUploadFilesCreateInstance(ctx context.Context, body BackgroundAssetUploadFilesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetUploadFilesGetInstance performs a GET /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesGetInstance` operationId) request.
+	BackgroundAssetUploadFilesGetInstance(ctx context.Context, id string, params *BackgroundAssetUploadFilesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetUploadFilesUpdateInstanceWithBody performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BackgroundAssetUploadFilesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetUploadFilesUpdateInstance performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BackgroundAssetUploadFilesUpdateInstance(ctx context.Context, id string, body BackgroundAssetUploadFilesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetVersionAppStoreReleasesGetInstance performs a GET /v1/backgroundAssetVersionAppStoreReleases/{id} (the `BackgroundAssetVersionAppStoreReleasesGetInstance` operationId) request.
+	BackgroundAssetVersionAppStoreReleasesGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionAppStoreReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetVersionExternalBetaReleasesGetInstance performs a GET /v1/backgroundAssetVersionExternalBetaReleases/{id} (the `BackgroundAssetVersionExternalBetaReleasesGetInstance` operationId) request.
+	BackgroundAssetVersionExternalBetaReleasesGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionExternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetVersionInternalBetaReleasesGetInstance performs a GET /v1/backgroundAssetVersionInternalBetaReleases/{id} (the `BackgroundAssetVersionInternalBetaReleasesGetInstance` operationId) request.
+	BackgroundAssetVersionInternalBetaReleasesGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionInternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetVersionsCreateInstanceWithBody performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BackgroundAssetVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetVersionsCreateInstance performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BackgroundAssetVersionsCreateInstance(ctx context.Context, body BackgroundAssetVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetVersionsGetInstance performs a GET /v1/backgroundAssetVersions/{id} (the `BackgroundAssetVersionsGetInstance` operationId) request.
+	BackgroundAssetVersionsGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetsCreateInstanceWithBody performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BackgroundAssetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetsCreateInstance performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BackgroundAssetsCreateInstance(ctx context.Context, body BackgroundAssetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetsGetInstance performs a GET /v1/backgroundAssets/{id} (the `BackgroundAssetsGetInstance` operationId) request.
+	BackgroundAssetsGetInstance(ctx context.Context, id string, params *BackgroundAssetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetsUpdateInstanceWithBody performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BackgroundAssetsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetsUpdateInstance performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BackgroundAssetsUpdateInstance(ctx context.Context, id string, body BackgroundAssetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BackgroundAssetsVersionsGetToManyRelated performs a GET /v1/backgroundAssets/{id}/versions (the `BackgroundAssetsVersionsGetToManyRelated` operationId) request.
+	BackgroundAssetsVersionsGetToManyRelated(ctx context.Context, id string, params *BackgroundAssetsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// BetaAppLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -70622,6 +73894,19 @@ func (c *Client) AppsAppTagsGetToManyRelated(ctx context.Context, id string, par
 	return c.Client.Do(req)
 }
 
+// AppsBackgroundAssetsGetToManyRelated performs a GET /v1/apps/{id}/backgroundAssets (the `AppsBackgroundAssetsGetToManyRelated` operationId) request.
+func (c *Client) AppsBackgroundAssetsGetToManyRelated(ctx context.Context, id string, params *AppsBackgroundAssetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsBackgroundAssetsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppsEndUserLicenseAgreementGetToOneRelated performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
 func (c *Client) AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsEndUserLicenseAgreementGetToOneRelatedRequest(c.Server, id, params)
@@ -70718,6 +74003,237 @@ func (c *Client) AppsSubscriptionGroupsGetToManyRelated(ctx context.Context, id 
 // AppsWebhooksGetToManyRelated performs a GET /v1/apps/{id}/webhooks (the `AppsWebhooksGetToManyRelated` operationId) request.
 func (c *Client) AppsWebhooksGetToManyRelated(ctx context.Context, id string, params *AppsWebhooksGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsWebhooksGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetUploadFilesCreateInstanceWithBody performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BackgroundAssetUploadFilesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetUploadFilesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetUploadFilesCreateInstance performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BackgroundAssetUploadFilesCreateInstance(ctx context.Context, body BackgroundAssetUploadFilesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetUploadFilesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetUploadFilesGetInstance performs a GET /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesGetInstance` operationId) request.
+func (c *Client) BackgroundAssetUploadFilesGetInstance(ctx context.Context, id string, params *BackgroundAssetUploadFilesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetUploadFilesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetUploadFilesUpdateInstanceWithBody performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BackgroundAssetUploadFilesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetUploadFilesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetUploadFilesUpdateInstance performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BackgroundAssetUploadFilesUpdateInstance(ctx context.Context, id string, body BackgroundAssetUploadFilesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetUploadFilesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetVersionAppStoreReleasesGetInstance performs a GET /v1/backgroundAssetVersionAppStoreReleases/{id} (the `BackgroundAssetVersionAppStoreReleasesGetInstance` operationId) request.
+func (c *Client) BackgroundAssetVersionAppStoreReleasesGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionAppStoreReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetVersionAppStoreReleasesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetVersionExternalBetaReleasesGetInstance performs a GET /v1/backgroundAssetVersionExternalBetaReleases/{id} (the `BackgroundAssetVersionExternalBetaReleasesGetInstance` operationId) request.
+func (c *Client) BackgroundAssetVersionExternalBetaReleasesGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionExternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetVersionExternalBetaReleasesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetVersionInternalBetaReleasesGetInstance performs a GET /v1/backgroundAssetVersionInternalBetaReleases/{id} (the `BackgroundAssetVersionInternalBetaReleasesGetInstance` operationId) request.
+func (c *Client) BackgroundAssetVersionInternalBetaReleasesGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionInternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetVersionInternalBetaReleasesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetVersionsCreateInstanceWithBody performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BackgroundAssetVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetVersionsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetVersionsCreateInstance performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BackgroundAssetVersionsCreateInstance(ctx context.Context, body BackgroundAssetVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetVersionsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetVersionsGetInstance performs a GET /v1/backgroundAssetVersions/{id} (the `BackgroundAssetVersionsGetInstance` operationId) request.
+func (c *Client) BackgroundAssetVersionsGetInstance(ctx context.Context, id string, params *BackgroundAssetVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetVersionsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetsCreateInstanceWithBody performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BackgroundAssetsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetsCreateInstance performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BackgroundAssetsCreateInstance(ctx context.Context, body BackgroundAssetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetsGetInstance performs a GET /v1/backgroundAssets/{id} (the `BackgroundAssetsGetInstance` operationId) request.
+func (c *Client) BackgroundAssetsGetInstance(ctx context.Context, id string, params *BackgroundAssetsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetsUpdateInstanceWithBody performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BackgroundAssetsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetsUpdateInstance performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BackgroundAssetsUpdateInstance(ctx context.Context, id string, body BackgroundAssetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BackgroundAssetsVersionsGetToManyRelated performs a GET /v1/backgroundAssets/{id}/versions (the `BackgroundAssetsVersionsGetToManyRelated` operationId) request.
+func (c *Client) BackgroundAssetsVersionsGetToManyRelated(ctx context.Context, id string, params *BackgroundAssetsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBackgroundAssetsVersionsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -81328,6 +84844,175 @@ func NewAppsAppTagsGetToManyRelatedRequest(server string, id string, params *App
 	return req, nil
 }
 
+// NewAppsBackgroundAssetsGetToManyRelatedRequest constructs an http.Request for the AppsBackgroundAssetsGetToManyRelated method
+func NewAppsBackgroundAssetsGetToManyRelatedRequest(server string, id string, params *AppsBackgroundAssetsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/backgroundAssets", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterArchived != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[archived]", *params.FilterArchived, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAssetPackIdentifier != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[assetPackIdentifier]", *params.FilterAssetPackIdentifier, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVersionsLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[versions.locale]", *params.FilterVersionsLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVersionsPlatforms != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[versions.platforms]", *params.FilterVersionsPlatforms, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssets]", *params.FieldsBackgroundAssets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersions]", *params.FieldsBackgroundAssetVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppsEndUserLicenseAgreementGetToOneRelatedRequest constructs an http.Request for the AppsEndUserLicenseAgreementGetToOneRelated method
 func NewAppsEndUserLicenseAgreementGetToOneRelatedRequest(server string, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams) (*http.Request, error) {
 	var err error
@@ -82138,6 +85823,1007 @@ func NewAppsWebhooksGetToManyRelatedRequest(server string, id string, params *Ap
 		if params.FieldsApps != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBackgroundAssetUploadFilesCreateInstanceRequest calls the generic BackgroundAssetUploadFilesCreateInstance builder with application/json body
+func NewBackgroundAssetUploadFilesCreateInstanceRequest(server string, body BackgroundAssetUploadFilesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBackgroundAssetUploadFilesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewBackgroundAssetUploadFilesCreateInstanceRequestWithBody constructs an http.Request for the BackgroundAssetUploadFilesCreateInstance method, with any body, and a specified content type
+func NewBackgroundAssetUploadFilesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetUploadFiles")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBackgroundAssetUploadFilesGetInstanceRequest constructs an http.Request for the BackgroundAssetUploadFilesGetInstance method
+func NewBackgroundAssetUploadFilesGetInstanceRequest(server string, id string, params *BackgroundAssetUploadFilesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetUploadFiles/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBackgroundAssetUploadFiles != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetUploadFiles]", *params.FieldsBackgroundAssetUploadFiles, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBackgroundAssetUploadFilesUpdateInstanceRequest calls the generic BackgroundAssetUploadFilesUpdateInstance builder with application/json body
+func NewBackgroundAssetUploadFilesUpdateInstanceRequest(server string, id string, body BackgroundAssetUploadFilesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBackgroundAssetUploadFilesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewBackgroundAssetUploadFilesUpdateInstanceRequestWithBody constructs an http.Request for the BackgroundAssetUploadFilesUpdateInstance method, with any body, and a specified content type
+func NewBackgroundAssetUploadFilesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetUploadFiles/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBackgroundAssetVersionAppStoreReleasesGetInstanceRequest constructs an http.Request for the BackgroundAssetVersionAppStoreReleasesGetInstance method
+func NewBackgroundAssetVersionAppStoreReleasesGetInstanceRequest(server string, id string, params *BackgroundAssetVersionAppStoreReleasesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetVersionAppStoreReleases/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBackgroundAssetVersionAppStoreReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionAppStoreReleases]", *params.FieldsBackgroundAssetVersionAppStoreReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersions]", *params.FieldsBackgroundAssetVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBackgroundAssetVersionExternalBetaReleasesGetInstanceRequest constructs an http.Request for the BackgroundAssetVersionExternalBetaReleasesGetInstance method
+func NewBackgroundAssetVersionExternalBetaReleasesGetInstanceRequest(server string, id string, params *BackgroundAssetVersionExternalBetaReleasesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetVersionExternalBetaReleases/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBackgroundAssetVersionExternalBetaReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionExternalBetaReleases]", *params.FieldsBackgroundAssetVersionExternalBetaReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersions]", *params.FieldsBackgroundAssetVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBackgroundAssetVersionInternalBetaReleasesGetInstanceRequest constructs an http.Request for the BackgroundAssetVersionInternalBetaReleasesGetInstance method
+func NewBackgroundAssetVersionInternalBetaReleasesGetInstanceRequest(server string, id string, params *BackgroundAssetVersionInternalBetaReleasesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetVersionInternalBetaReleases/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBackgroundAssetVersionInternalBetaReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionInternalBetaReleases]", *params.FieldsBackgroundAssetVersionInternalBetaReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersions]", *params.FieldsBackgroundAssetVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBackgroundAssetVersionsCreateInstanceRequest calls the generic BackgroundAssetVersionsCreateInstance builder with application/json body
+func NewBackgroundAssetVersionsCreateInstanceRequest(server string, body BackgroundAssetVersionsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBackgroundAssetVersionsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewBackgroundAssetVersionsCreateInstanceRequestWithBody constructs an http.Request for the BackgroundAssetVersionsCreateInstance method, with any body, and a specified content type
+func NewBackgroundAssetVersionsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBackgroundAssetVersionsGetInstanceRequest constructs an http.Request for the BackgroundAssetVersionsGetInstance method
+func NewBackgroundAssetVersionsGetInstanceRequest(server string, id string, params *BackgroundAssetVersionsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssetVersions/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBackgroundAssetVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersions]", *params.FieldsBackgroundAssetVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssets]", *params.FieldsBackgroundAssets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersionInternalBetaReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionInternalBetaReleases]", *params.FieldsBackgroundAssetVersionInternalBetaReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersionExternalBetaReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionExternalBetaReleases]", *params.FieldsBackgroundAssetVersionExternalBetaReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersionAppStoreReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionAppStoreReleases]", *params.FieldsBackgroundAssetVersionAppStoreReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetUploadFiles != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetUploadFiles]", *params.FieldsBackgroundAssetUploadFiles, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBackgroundAssetsCreateInstanceRequest calls the generic BackgroundAssetsCreateInstance builder with application/json body
+func NewBackgroundAssetsCreateInstanceRequest(server string, body BackgroundAssetsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBackgroundAssetsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewBackgroundAssetsCreateInstanceRequestWithBody constructs an http.Request for the BackgroundAssetsCreateInstance method, with any body, and a specified content type
+func NewBackgroundAssetsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssets")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBackgroundAssetsGetInstanceRequest constructs an http.Request for the BackgroundAssetsGetInstance method
+func NewBackgroundAssetsGetInstanceRequest(server string, id string, params *BackgroundAssetsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBackgroundAssets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssets]", *params.FieldsBackgroundAssets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersions]", *params.FieldsBackgroundAssetVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBackgroundAssetsUpdateInstanceRequest calls the generic BackgroundAssetsUpdateInstance builder with application/json body
+func NewBackgroundAssetsUpdateInstanceRequest(server string, id string, body BackgroundAssetsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBackgroundAssetsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewBackgroundAssetsUpdateInstanceRequestWithBody constructs an http.Request for the BackgroundAssetsUpdateInstance method, with any body, and a specified content type
+func NewBackgroundAssetsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssets/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBackgroundAssetsVersionsGetToManyRelatedRequest constructs an http.Request for the BackgroundAssetsVersionsGetToManyRelated method
+func NewBackgroundAssetsVersionsGetToManyRelatedRequest(server string, id string, params *BackgroundAssetsVersionsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/backgroundAssets/%s/versions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterPlatforms != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[platforms]", *params.FilterPlatforms, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterVersion != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[version]", *params.FilterVersion, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterInternalBetaReleaseState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[internalBetaRelease.state]", *params.FilterInternalBetaReleaseState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterExternalBetaReleaseState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[externalBetaRelease.state]", *params.FilterExternalBetaReleaseState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterAppStoreReleaseState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[appStoreRelease.state]", *params.FilterAppStoreReleaseState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersions]", *params.FieldsBackgroundAssetVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssets]", *params.FieldsBackgroundAssets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersionInternalBetaReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionInternalBetaReleases]", *params.FieldsBackgroundAssetVersionInternalBetaReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersionExternalBetaReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionExternalBetaReleases]", *params.FieldsBackgroundAssetVersionExternalBetaReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetVersionAppStoreReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetVersionAppStoreReleases]", *params.FieldsBackgroundAssetVersionAppStoreReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBackgroundAssetUploadFiles != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[backgroundAssetUploadFiles]", *params.FieldsBackgroundAssetUploadFiles, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -97749,6 +102435,11 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppsAppTagsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppTagsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppTagsGetToManyRelatedResponse, error)
 
+	// AppsBackgroundAssetsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/backgroundAssets (the `AppsBackgroundAssetsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsBackgroundAssetsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsBackgroundAssetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsBackgroundAssetsGetToManyRelatedResponse, error)
+
 	// AppsEndUserLicenseAgreementGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -97788,6 +102479,91 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsWebhooksGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsWebhooksGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsWebhooksGetToManyRelatedResponse, error)
+
+	// BackgroundAssetUploadFilesCreateInstanceWithBodyWithResponse performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetUploadFilesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesCreateInstanceResponse, error)
+
+	// BackgroundAssetUploadFilesCreateInstanceWithResponse performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BackgroundAssetUploadFilesCreateInstanceWithResponse(ctx context.Context, body BackgroundAssetUploadFilesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesCreateInstanceResponse, error)
+
+	// BackgroundAssetUploadFilesGetInstanceWithResponse performs a GET /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetUploadFilesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetUploadFilesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesGetInstanceResponse, error)
+
+	// BackgroundAssetUploadFilesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetUploadFilesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesUpdateInstanceResponse, error)
+
+	// BackgroundAssetUploadFilesUpdateInstanceWithResponse performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BackgroundAssetUploadFilesUpdateInstanceWithResponse(ctx context.Context, id string, body BackgroundAssetUploadFilesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesUpdateInstanceResponse, error)
+
+	// BackgroundAssetVersionAppStoreReleasesGetInstanceWithResponse performs a GET /v1/backgroundAssetVersionAppStoreReleases/{id} (the `BackgroundAssetVersionAppStoreReleasesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetVersionAppStoreReleasesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionAppStoreReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionAppStoreReleasesGetInstanceResponse, error)
+
+	// BackgroundAssetVersionExternalBetaReleasesGetInstanceWithResponse performs a GET /v1/backgroundAssetVersionExternalBetaReleases/{id} (the `BackgroundAssetVersionExternalBetaReleasesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetVersionExternalBetaReleasesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionExternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse, error)
+
+	// BackgroundAssetVersionInternalBetaReleasesGetInstanceWithResponse performs a GET /v1/backgroundAssetVersionInternalBetaReleases/{id} (the `BackgroundAssetVersionInternalBetaReleasesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetVersionInternalBetaReleasesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionInternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse, error)
+
+	// BackgroundAssetVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionsCreateInstanceResponse, error)
+
+	// BackgroundAssetVersionsCreateInstanceWithResponse performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BackgroundAssetVersionsCreateInstanceWithResponse(ctx context.Context, body BackgroundAssetVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionsCreateInstanceResponse, error)
+
+	// BackgroundAssetVersionsGetInstanceWithResponse performs a GET /v1/backgroundAssetVersions/{id} (the `BackgroundAssetVersionsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetVersionsGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionsGetInstanceResponse, error)
+
+	// BackgroundAssetsCreateInstanceWithBodyWithResponse performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetsCreateInstanceResponse, error)
+
+	// BackgroundAssetsCreateInstanceWithResponse performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BackgroundAssetsCreateInstanceWithResponse(ctx context.Context, body BackgroundAssetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetsCreateInstanceResponse, error)
+
+	// BackgroundAssetsGetInstanceWithResponse performs a GET /v1/backgroundAssets/{id} (the `BackgroundAssetsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetsGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetsGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetsGetInstanceResponse, error)
+
+	// BackgroundAssetsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetsUpdateInstanceResponse, error)
+
+	// BackgroundAssetsUpdateInstanceWithResponse performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BackgroundAssetsUpdateInstanceWithResponse(ctx context.Context, id string, body BackgroundAssetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetsUpdateInstanceResponse, error)
+
+	// BackgroundAssetsVersionsGetToManyRelatedWithResponse performs a GET /v1/backgroundAssets/{id}/versions (the `BackgroundAssetsVersionsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BackgroundAssetsVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *BackgroundAssetsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*BackgroundAssetsVersionsGetToManyRelatedResponse, error)
 
 	// BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -105404,6 +110180,82 @@ func (r AppsAppTagsGetToManyRelatedResponse) ContentType() string {
 	return ""
 }
 
+type AppsBackgroundAssetsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) GetJSON200() *BackgroundAssetsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsBackgroundAssetsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppsEndUserLicenseAgreementGetToOneRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -105937,6 +110789,967 @@ func (r AppsWebhooksGetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsWebhooksGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetUploadFilesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *BackgroundAssetUploadFileResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetJSON201() *BackgroundAssetUploadFileResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetUploadFilesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetUploadFilesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetUploadFileResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetUploadFilesGetInstanceResponse) GetJSON200() *BackgroundAssetUploadFileResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetUploadFilesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetUploadFilesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetUploadFilesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetUploadFilesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetUploadFilesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetUploadFilesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetUploadFilesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetUploadFilesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetUploadFilesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetUploadFilesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetUploadFileResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON200() *BackgroundAssetUploadFileResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetUploadFilesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetVersionAppStoreReleasesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetVersionAppStoreReleaseResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) GetJSON200() *BackgroundAssetVersionAppStoreReleaseResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetVersionAppStoreReleasesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetVersionExternalBetaReleaseResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) GetJSON200() *BackgroundAssetVersionExternalBetaReleaseResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetVersionInternalBetaReleaseResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) GetJSON200() *BackgroundAssetVersionInternalBetaReleaseResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetVersionsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *BackgroundAssetVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetJSON201() *BackgroundAssetVersionResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetVersionsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetVersionsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetVersionsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetVersionsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetVersionsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetVersionsGetInstanceResponse) GetJSON200() *BackgroundAssetVersionResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetVersionsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetVersionsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetVersionsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetVersionsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetVersionsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetVersionsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetVersionsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetVersionsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetVersionsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *BackgroundAssetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r BackgroundAssetsCreateInstanceResponse) GetJSON201() *BackgroundAssetResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BackgroundAssetsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BackgroundAssetsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetsGetInstanceResponse) GetJSON200() *BackgroundAssetResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON200() *BackgroundAssetResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BackgroundAssetsVersionsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BackgroundAssetVersionsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) GetJSON200() *BackgroundAssetVersionsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BackgroundAssetsVersionsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -122611,6 +128424,17 @@ func (c *ClientWithResponses) AppsAppTagsGetToManyRelatedWithResponse(ctx contex
 	return ParseAppsAppTagsGetToManyRelatedResponse(rsp)
 }
 
+// AppsBackgroundAssetsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/backgroundAssets (the `AppsBackgroundAssetsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsBackgroundAssetsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsBackgroundAssetsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsBackgroundAssetsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsBackgroundAssetsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsBackgroundAssetsGetToManyRelatedResponse(rsp)
+}
+
 // AppsEndUserLicenseAgreementGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -122697,6 +128521,193 @@ func (c *ClientWithResponses) AppsWebhooksGetToManyRelatedWithResponse(ctx conte
 		return nil, err
 	}
 	return ParseAppsWebhooksGetToManyRelatedResponse(rsp)
+}
+
+// BackgroundAssetUploadFilesCreateInstanceWithBodyWithResponse performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetUploadFilesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesCreateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetUploadFilesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetUploadFilesCreateInstanceResponse(rsp)
+}
+
+// BackgroundAssetUploadFilesCreateInstanceWithResponse performs a POST /v1/backgroundAssetUploadFiles (the `BackgroundAssetUploadFilesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetUploadFilesCreateInstanceWithResponse(ctx context.Context, body BackgroundAssetUploadFilesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesCreateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetUploadFilesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetUploadFilesCreateInstanceResponse(rsp)
+}
+
+// BackgroundAssetUploadFilesGetInstanceWithResponse performs a GET /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetUploadFilesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetUploadFilesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesGetInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetUploadFilesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetUploadFilesGetInstanceResponse(rsp)
+}
+
+// BackgroundAssetUploadFilesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetUploadFilesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesUpdateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetUploadFilesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetUploadFilesUpdateInstanceResponse(rsp)
+}
+
+// BackgroundAssetUploadFilesUpdateInstanceWithResponse performs a PATCH /v1/backgroundAssetUploadFiles/{id} (the `BackgroundAssetUploadFilesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetUploadFilesUpdateInstanceWithResponse(ctx context.Context, id string, body BackgroundAssetUploadFilesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetUploadFilesUpdateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetUploadFilesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetUploadFilesUpdateInstanceResponse(rsp)
+}
+
+// BackgroundAssetVersionAppStoreReleasesGetInstanceWithResponse performs a GET /v1/backgroundAssetVersionAppStoreReleases/{id} (the `BackgroundAssetVersionAppStoreReleasesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetVersionAppStoreReleasesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionAppStoreReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionAppStoreReleasesGetInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetVersionAppStoreReleasesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetVersionAppStoreReleasesGetInstanceResponse(rsp)
+}
+
+// BackgroundAssetVersionExternalBetaReleasesGetInstanceWithResponse performs a GET /v1/backgroundAssetVersionExternalBetaReleases/{id} (the `BackgroundAssetVersionExternalBetaReleasesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetVersionExternalBetaReleasesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionExternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetVersionExternalBetaReleasesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetVersionExternalBetaReleasesGetInstanceResponse(rsp)
+}
+
+// BackgroundAssetVersionInternalBetaReleasesGetInstanceWithResponse performs a GET /v1/backgroundAssetVersionInternalBetaReleases/{id} (the `BackgroundAssetVersionInternalBetaReleasesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetVersionInternalBetaReleasesGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionInternalBetaReleasesGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetVersionInternalBetaReleasesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetVersionInternalBetaReleasesGetInstanceResponse(rsp)
+}
+
+// BackgroundAssetVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionsCreateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetVersionsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetVersionsCreateInstanceResponse(rsp)
+}
+
+// BackgroundAssetVersionsCreateInstanceWithResponse performs a POST /v1/backgroundAssetVersions (the `BackgroundAssetVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetVersionsCreateInstanceWithResponse(ctx context.Context, body BackgroundAssetVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionsCreateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetVersionsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetVersionsCreateInstanceResponse(rsp)
+}
+
+// BackgroundAssetVersionsGetInstanceWithResponse performs a GET /v1/backgroundAssetVersions/{id} (the `BackgroundAssetVersionsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetVersionsGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetVersionsGetInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetVersionsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetVersionsGetInstanceResponse(rsp)
+}
+
+// BackgroundAssetsCreateInstanceWithBodyWithResponse performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetsCreateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetsCreateInstanceResponse(rsp)
+}
+
+// BackgroundAssetsCreateInstanceWithResponse performs a POST /v1/backgroundAssets (the `BackgroundAssetsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetsCreateInstanceWithResponse(ctx context.Context, body BackgroundAssetsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetsCreateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetsCreateInstanceResponse(rsp)
+}
+
+// BackgroundAssetsGetInstanceWithResponse performs a GET /v1/backgroundAssets/{id} (the `BackgroundAssetsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetsGetInstanceWithResponse(ctx context.Context, id string, params *BackgroundAssetsGetInstanceParams, reqEditors ...RequestEditorFn) (*BackgroundAssetsGetInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetsGetInstanceResponse(rsp)
+}
+
+// BackgroundAssetsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BackgroundAssetsUpdateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetsUpdateInstanceResponse(rsp)
+}
+
+// BackgroundAssetsUpdateInstanceWithResponse performs a PATCH /v1/backgroundAssets/{id} (the `BackgroundAssetsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetsUpdateInstanceWithResponse(ctx context.Context, id string, body BackgroundAssetsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BackgroundAssetsUpdateInstanceResponse, error) {
+	rsp, err := c.BackgroundAssetsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetsUpdateInstanceResponse(rsp)
+}
+
+// BackgroundAssetsVersionsGetToManyRelatedWithResponse performs a GET /v1/backgroundAssets/{id}/versions (the `BackgroundAssetsVersionsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BackgroundAssetsVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *BackgroundAssetsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*BackgroundAssetsVersionsGetToManyRelatedResponse, error) {
+	rsp, err := c.BackgroundAssetsVersionsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBackgroundAssetsVersionsGetToManyRelatedResponse(rsp)
 }
 
 // BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
@@ -130898,6 +136909,67 @@ func ParseAppsAppTagsGetToManyRelatedResponse(rsp *http.Response) (*AppsAppTagsG
 	return response, nil
 }
 
+// ParseAppsBackgroundAssetsGetToManyRelatedResponse parses an HTTP response from a AppsBackgroundAssetsGetToManyRelatedWithResponse call
+func ParseAppsBackgroundAssetsGetToManyRelatedResponse(rsp *http.Response) (*AppsBackgroundAssetsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsBackgroundAssetsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse parses an HTTP response from a AppsEndUserLicenseAgreementGetToOneRelatedWithResponse call
 func ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse(rsp *http.Response) (*AppsEndUserLicenseAgreementGetToOneRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -131293,6 +137365,787 @@ func ParseAppsWebhooksGetToManyRelatedResponse(rsp *http.Response) (*AppsWebhook
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest WebhooksResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetUploadFilesCreateInstanceResponse parses an HTTP response from a BackgroundAssetUploadFilesCreateInstanceWithResponse call
+func ParseBackgroundAssetUploadFilesCreateInstanceResponse(rsp *http.Response) (*BackgroundAssetUploadFilesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetUploadFilesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest BackgroundAssetUploadFileResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetUploadFilesGetInstanceResponse parses an HTTP response from a BackgroundAssetUploadFilesGetInstanceWithResponse call
+func ParseBackgroundAssetUploadFilesGetInstanceResponse(rsp *http.Response) (*BackgroundAssetUploadFilesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetUploadFilesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetUploadFileResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetUploadFilesUpdateInstanceResponse parses an HTTP response from a BackgroundAssetUploadFilesUpdateInstanceWithResponse call
+func ParseBackgroundAssetUploadFilesUpdateInstanceResponse(rsp *http.Response) (*BackgroundAssetUploadFilesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetUploadFilesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetUploadFileResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetVersionAppStoreReleasesGetInstanceResponse parses an HTTP response from a BackgroundAssetVersionAppStoreReleasesGetInstanceWithResponse call
+func ParseBackgroundAssetVersionAppStoreReleasesGetInstanceResponse(rsp *http.Response) (*BackgroundAssetVersionAppStoreReleasesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetVersionAppStoreReleasesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetVersionAppStoreReleaseResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetVersionExternalBetaReleasesGetInstanceResponse parses an HTTP response from a BackgroundAssetVersionExternalBetaReleasesGetInstanceWithResponse call
+func ParseBackgroundAssetVersionExternalBetaReleasesGetInstanceResponse(rsp *http.Response) (*BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetVersionExternalBetaReleasesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetVersionExternalBetaReleaseResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetVersionInternalBetaReleasesGetInstanceResponse parses an HTTP response from a BackgroundAssetVersionInternalBetaReleasesGetInstanceWithResponse call
+func ParseBackgroundAssetVersionInternalBetaReleasesGetInstanceResponse(rsp *http.Response) (*BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetVersionInternalBetaReleasesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetVersionInternalBetaReleaseResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetVersionsCreateInstanceResponse parses an HTTP response from a BackgroundAssetVersionsCreateInstanceWithResponse call
+func ParseBackgroundAssetVersionsCreateInstanceResponse(rsp *http.Response) (*BackgroundAssetVersionsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetVersionsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest BackgroundAssetVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetVersionsGetInstanceResponse parses an HTTP response from a BackgroundAssetVersionsGetInstanceWithResponse call
+func ParseBackgroundAssetVersionsGetInstanceResponse(rsp *http.Response) (*BackgroundAssetVersionsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetVersionsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetsCreateInstanceResponse parses an HTTP response from a BackgroundAssetsCreateInstanceWithResponse call
+func ParseBackgroundAssetsCreateInstanceResponse(rsp *http.Response) (*BackgroundAssetsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest BackgroundAssetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetsGetInstanceResponse parses an HTTP response from a BackgroundAssetsGetInstanceWithResponse call
+func ParseBackgroundAssetsGetInstanceResponse(rsp *http.Response) (*BackgroundAssetsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetsUpdateInstanceResponse parses an HTTP response from a BackgroundAssetsUpdateInstanceWithResponse call
+func ParseBackgroundAssetsUpdateInstanceResponse(rsp *http.Response) (*BackgroundAssetsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBackgroundAssetsVersionsGetToManyRelatedResponse parses an HTTP response from a BackgroundAssetsVersionsGetToManyRelatedWithResponse call
+func ParseBackgroundAssetsVersionsGetToManyRelatedResponse(rsp *http.Response) (*BackgroundAssetsVersionsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BackgroundAssetsVersionsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BackgroundAssetVersionsResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -144184,6 +151037,9 @@ type ServerInterface interface {
 	// (GET /v1/apps/{id}/appTags)
 	AppsAppTagsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppTagsGetToManyRelatedParams)
 
+	// (GET /v1/apps/{id}/backgroundAssets)
+	AppsBackgroundAssetsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsBackgroundAssetsGetToManyRelatedParams)
+
 	// (GET /v1/apps/{id}/endUserLicenseAgreement)
 	AppsEndUserLicenseAgreementGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsEndUserLicenseAgreementGetToOneRelatedParams)
 
@@ -144204,6 +151060,42 @@ type ServerInterface interface {
 
 	// (GET /v1/apps/{id}/webhooks)
 	AppsWebhooksGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsWebhooksGetToManyRelatedParams)
+
+	// (POST /v1/backgroundAssetUploadFiles)
+	BackgroundAssetUploadFilesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/backgroundAssetUploadFiles/{id})
+	BackgroundAssetUploadFilesGetInstance(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetUploadFilesGetInstanceParams)
+
+	// (PATCH /v1/backgroundAssetUploadFiles/{id})
+	BackgroundAssetUploadFilesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/backgroundAssetVersionAppStoreReleases/{id})
+	BackgroundAssetVersionAppStoreReleasesGetInstance(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetVersionAppStoreReleasesGetInstanceParams)
+
+	// (GET /v1/backgroundAssetVersionExternalBetaReleases/{id})
+	BackgroundAssetVersionExternalBetaReleasesGetInstance(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetVersionExternalBetaReleasesGetInstanceParams)
+
+	// (GET /v1/backgroundAssetVersionInternalBetaReleases/{id})
+	BackgroundAssetVersionInternalBetaReleasesGetInstance(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetVersionInternalBetaReleasesGetInstanceParams)
+
+	// (POST /v1/backgroundAssetVersions)
+	BackgroundAssetVersionsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/backgroundAssetVersions/{id})
+	BackgroundAssetVersionsGetInstance(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetVersionsGetInstanceParams)
+
+	// (POST /v1/backgroundAssets)
+	BackgroundAssetsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/backgroundAssets/{id})
+	BackgroundAssetsGetInstance(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetsGetInstanceParams)
+
+	// (PATCH /v1/backgroundAssets/{id})
+	BackgroundAssetsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/backgroundAssets/{id}/versions)
+	BackgroundAssetsVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetsVersionsGetToManyRelatedParams)
 
 	// (POST /v1/betaAppLocalizations)
 	BetaAppLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -150273,6 +157165,165 @@ func (siw *ServerInterfaceWrapper) AppsAppTagsGetToManyRelated(w http.ResponseWr
 	handler.ServeHTTP(w, r)
 }
 
+// AppsBackgroundAssetsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsBackgroundAssetsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsBackgroundAssetsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[archived]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[archived]", r.URL.Query(), &params.FilterArchived, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[archived]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[archived]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[assetPackIdentifier]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[assetPackIdentifier]", r.URL.Query(), &params.FilterAssetPackIdentifier, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[assetPackIdentifier]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[assetPackIdentifier]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[versions.locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[versions.locale]", r.URL.Query(), &params.FilterVersionsLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[versions.locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[versions.locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[versions.platforms]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[versions.platforms]", r.URL.Query(), &params.FilterVersionsPlatforms, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[versions.platforms]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[versions.platforms]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssets]", r.URL.Query(), &params.FieldsBackgroundAssets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersions]", r.URL.Query(), &params.FieldsBackgroundAssetVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsBackgroundAssetsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppsEndUserLicenseAgreementGetToOneRelated operation middleware
 func (siw *ServerInterfaceWrapper) AppsEndUserLicenseAgreementGetToOneRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -151023,6 +158074,784 @@ func (siw *ServerInterfaceWrapper) AppsWebhooksGetToManyRelated(w http.ResponseW
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsWebhooksGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetUploadFilesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetUploadFilesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetUploadFilesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetUploadFilesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetUploadFilesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BackgroundAssetUploadFilesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[backgroundAssetUploadFiles]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetUploadFiles]", r.URL.Query(), &params.FieldsBackgroundAssetUploadFiles, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetUploadFiles]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetUploadFiles]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetUploadFilesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetUploadFilesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetUploadFilesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetUploadFilesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetVersionAppStoreReleasesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetVersionAppStoreReleasesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BackgroundAssetVersionAppStoreReleasesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionAppStoreReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionAppStoreReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionAppStoreReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionAppStoreReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionAppStoreReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersions]", r.URL.Query(), &params.FieldsBackgroundAssetVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetVersionAppStoreReleasesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetVersionExternalBetaReleasesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetVersionExternalBetaReleasesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BackgroundAssetVersionExternalBetaReleasesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionExternalBetaReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionExternalBetaReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionExternalBetaReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionExternalBetaReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionExternalBetaReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersions]", r.URL.Query(), &params.FieldsBackgroundAssetVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetVersionExternalBetaReleasesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetVersionInternalBetaReleasesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetVersionInternalBetaReleasesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BackgroundAssetVersionInternalBetaReleasesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionInternalBetaReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionInternalBetaReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionInternalBetaReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionInternalBetaReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionInternalBetaReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersions]", r.URL.Query(), &params.FieldsBackgroundAssetVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetVersionInternalBetaReleasesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetVersionsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetVersionsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetVersionsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetVersionsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetVersionsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BackgroundAssetVersionsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersions]", r.URL.Query(), &params.FieldsBackgroundAssetVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssets]", r.URL.Query(), &params.FieldsBackgroundAssets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionInternalBetaReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionInternalBetaReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionInternalBetaReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionInternalBetaReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionInternalBetaReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionExternalBetaReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionExternalBetaReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionExternalBetaReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionExternalBetaReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionExternalBetaReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionAppStoreReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionAppStoreReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionAppStoreReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionAppStoreReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionAppStoreReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetUploadFiles]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetUploadFiles]", r.URL.Query(), &params.FieldsBackgroundAssetUploadFiles, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetUploadFiles]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetUploadFiles]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetVersionsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BackgroundAssetsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[backgroundAssets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssets]", r.URL.Query(), &params.FieldsBackgroundAssets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersions]", r.URL.Query(), &params.FieldsBackgroundAssetVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BackgroundAssetsVersionsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) BackgroundAssetsVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BackgroundAssetsVersionsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[platforms]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[platforms]", r.URL.Query(), &params.FilterPlatforms, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[platforms]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[platforms]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[version]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[version]", r.URL.Query(), &params.FilterVersion, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[version]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[version]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[internalBetaRelease.state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[internalBetaRelease.state]", r.URL.Query(), &params.FilterInternalBetaReleaseState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[internalBetaRelease.state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[internalBetaRelease.state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[externalBetaRelease.state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[externalBetaRelease.state]", r.URL.Query(), &params.FilterExternalBetaReleaseState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[externalBetaRelease.state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[externalBetaRelease.state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[appStoreRelease.state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[appStoreRelease.state]", r.URL.Query(), &params.FilterAppStoreReleaseState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[appStoreRelease.state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[appStoreRelease.state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersions]", r.URL.Query(), &params.FieldsBackgroundAssetVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssets]", r.URL.Query(), &params.FieldsBackgroundAssets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionInternalBetaReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionInternalBetaReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionInternalBetaReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionInternalBetaReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionInternalBetaReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionExternalBetaReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionExternalBetaReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionExternalBetaReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionExternalBetaReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionExternalBetaReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetVersionAppStoreReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetVersionAppStoreReleases]", r.URL.Query(), &params.FieldsBackgroundAssetVersionAppStoreReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetVersionAppStoreReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetVersionAppStoreReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[backgroundAssetUploadFiles]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[backgroundAssetUploadFiles]", r.URL.Query(), &params.FieldsBackgroundAssetUploadFiles, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[backgroundAssetUploadFiles]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[backgroundAssetUploadFiles]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BackgroundAssetsVersionsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -162807,6 +170636,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPriceSchedule", wrapper.AppsAppPriceScheduleGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appStoreVersions", wrapper.AppsAppStoreVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appTags", wrapper.AppsAppTagsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/backgroundAssets", wrapper.AppsBackgroundAssetsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/inAppPurchasesV2", wrapper.AppsInAppPurchasesV2GetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
@@ -162814,6 +170644,18 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/subscriptionGracePeriod", wrapper.AppsSubscriptionGracePeriodGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/subscriptionGroups", wrapper.AppsSubscriptionGroupsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/webhooks", wrapper.AppsWebhooksGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/backgroundAssetUploadFiles", wrapper.BackgroundAssetUploadFilesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssetUploadFiles/{id}", wrapper.BackgroundAssetUploadFilesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/backgroundAssetUploadFiles/{id}", wrapper.BackgroundAssetUploadFilesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssetVersionAppStoreReleases/{id}", wrapper.BackgroundAssetVersionAppStoreReleasesGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssetVersionExternalBetaReleases/{id}", wrapper.BackgroundAssetVersionExternalBetaReleasesGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssetVersionInternalBetaReleases/{id}", wrapper.BackgroundAssetVersionInternalBetaReleasesGetInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/backgroundAssetVersions", wrapper.BackgroundAssetVersionsCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssetVersions/{id}", wrapper.BackgroundAssetVersionsGetInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/backgroundAssets", wrapper.BackgroundAssetsCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssets/{id}", wrapper.BackgroundAssetsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/backgroundAssets/{id}", wrapper.BackgroundAssetsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssets/{id}/versions", wrapper.BackgroundAssetsVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsGetInstance)

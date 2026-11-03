@@ -84,3 +84,24 @@ func TestUploadErrors(t *testing.T) {
 		})
 	}
 }
+
+func TestDeliveryOperations(t *testing.T) {
+	headers := &[]gen.HttpHeader{{Name: new("Content-Type"), Value: new("application/octet-stream")}}
+	got := DeliveryOperations([]gen.DeliveryFileUploadOperation{
+		{Method: new("PUT"), Url: new("https://example.com/1"), Offset: new(int64(0)), Length: new(int64(5)), PartNumber: new(int64(1)), RequestHeaders: headers},
+		{Url: new("https://example.com/2"), Offset: new(int64(5)), Length: new(int64(3))},
+		{Url: new("https://example.com/3")},
+	})
+	if len(got) != 3 {
+		t.Fatalf("got %d operations, want 3", len(got))
+	}
+	if Value(got[0].Method) != "PUT" || Value(got[0].Url) != "https://example.com/1" || Value(got[0].Offset) != 0 || Value(got[0].Length) != 5 || got[0].RequestHeaders != headers {
+		t.Errorf("first operation = %+v", got[0])
+	}
+	if got[1].Method != nil || Value(got[1].Offset) != 5 || Value(got[1].Length) != 3 {
+		t.Errorf("second operation = %+v", got[1])
+	}
+	if got[2].Offset != nil || got[2].Length != nil {
+		t.Errorf("an operation without a range = %+v, want none", got[2])
+	}
+}
