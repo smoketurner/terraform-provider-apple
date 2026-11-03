@@ -1,0 +1,1 @@
+terraform import apple_app_store_review_attachment.demo 1234567890

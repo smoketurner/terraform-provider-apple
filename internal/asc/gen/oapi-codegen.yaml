@@ -28,6 +28,9 @@ output-options:
     - appAvailabilitiesV2_createInstance
     - appAvailabilitiesV2_territoryAvailabilities_getToManyRelated
     - appCategories_getCollection
+    - appEncryptionDeclarationDocuments_createInstance
+    - appEncryptionDeclarationDocuments_getInstance
+    - appEncryptionDeclarationDocuments_updateInstance
     - appEncryptionDeclarations_createInstance
     - appEncryptionDeclarations_getInstance
     - appInfoLocalizations_createInstance
@@ -56,6 +59,10 @@ output-options:
     - appScreenshots_createInstance
     - appScreenshots_deleteInstance
     - appScreenshots_updateInstance
+    - appStoreReviewAttachments_createInstance
+    - appStoreReviewAttachments_deleteInstance
+    - appStoreReviewAttachments_getInstance
+    - appStoreReviewAttachments_updateInstance
     - appStoreReviewDetails_createInstance
     - appStoreReviewDetails_updateInstance
     - appStoreVersionLocalizations_appPreviewSets_getToManyRelated
@@ -78,6 +85,7 @@ output-options:
     - appStoreVersions_createInstance
     - appStoreVersions_deleteInstance
     - appStoreVersions_getInstance
+    - appStoreVersions_routingAppCoverage_getToOneRelated
     - appStoreVersions_updateInstance
     - appTags_updateInstance
     - apps_appAvailabilityV2_getToOneRelated
@@ -189,6 +197,10 @@ output-options:
     - reviewSubmissions_createInstance
     - reviewSubmissions_getCollection
     - reviewSubmissions_updateInstance
+    - routingAppCoverages_createInstance
+    - routingAppCoverages_deleteInstance
+    - routingAppCoverages_getInstance
+    - routingAppCoverages_updateInstance
     - territories_getCollection
     - territoryAvailabilities_updateInstance
     - userInvitations_createInstance

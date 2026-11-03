@@ -1,0 +1,1 @@
+terraform import apple_app_store_version_routing_app_coverage.regions 1234567890
