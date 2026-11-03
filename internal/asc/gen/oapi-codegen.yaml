@@ -44,6 +44,9 @@ output-options:
     - appStoreReviewDetails_updateInstance
     - appStoreVersionLocalizations_createInstance
     - appStoreVersionLocalizations_deleteInstance
+    - appStoreVersionLocalizations_searchKeywords_createToManyRelationship
+    - appStoreVersionLocalizations_searchKeywords_deleteToManyRelationship
+    - appStoreVersionLocalizations_searchKeywords_getToManyRelated
     - appStoreVersionLocalizations_updateInstance
     - appStoreVersionPhasedReleases_createInstance
     - appStoreVersionPhasedReleases_deleteInstance
@@ -69,6 +72,7 @@ output-options:
     - apps_endUserLicenseAgreement_getToOneRelated
     - apps_getCollection
     - apps_getInstance
+    - apps_searchKeywords_getToManyRelated
     - apps_updateInstance
     - betaAppLocalizations_createInstance
     - betaAppLocalizations_deleteInstance
@@ -143,6 +147,11 @@ output-options:
     - merchantIds_getCollection
     - merchantIds_getInstance
     - merchantIds_updateInstance
+    - nominations_createInstance
+    - nominations_deleteInstance
+    - nominations_getCollection
+    - nominations_getInstance
+    - nominations_updateInstance
     - passTypeIds_certificates_getToManyRelated
     - passTypeIds_createInstance
     - passTypeIds_deleteInstance
