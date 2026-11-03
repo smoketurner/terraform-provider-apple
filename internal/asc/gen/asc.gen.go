@@ -9998,6 +9998,357 @@ func (e InAppPurchaseOfferCodeType) Valid() bool {
 	}
 }
 
+// Defines values for InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities.
+const (
+	InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilitiesACTIVESPENDER  InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities = "ACTIVE_SPENDER"
+	InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilitiesCHURNEDSPENDER InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities = "CHURNED_SPENDER"
+	InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilitiesNONSPENDER     InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities = "NON_SPENDER"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities enum.
+func (e InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilitiesACTIVESPENDER:
+		return true
+	case InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilitiesCHURNEDSPENDER:
+		return true
+	case InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilitiesNONSPENDER:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataType.
+const (
+	InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataTypeInAppPurchases InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataType enum.
+func (e InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataType.
+const (
+	InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataTypeInAppPurchaseOfferPrices InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataType = "inAppPurchaseOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataType enum.
+func (e InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataTypeInAppPurchaseOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCreateRequestDataType.
+const (
+	InAppPurchaseOfferCodeCreateRequestDataTypeInAppPurchaseOfferCodes InAppPurchaseOfferCodeCreateRequestDataType = "inAppPurchaseOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCreateRequestDataType enum.
+func (e InAppPurchaseOfferCodeCreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCreateRequestDataTypeInAppPurchaseOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataType.
+const (
+	InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataTypeActors InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataType = "actors"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataType enum.
+func (e InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataTypeActors:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataType.
+const (
+	InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataTypeActors InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataType = "actors"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataType enum.
+func (e InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataTypeActors:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodeType.
+const (
+	InAppPurchaseOfferCodeCustomCodeTypeInAppPurchaseOfferCodeCustomCodes InAppPurchaseOfferCodeCustomCodeType = "inAppPurchaseOfferCodeCustomCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodeType enum.
+func (e InAppPurchaseOfferCodeCustomCodeType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodeTypeInAppPurchaseOfferCodeCustomCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType.
+const (
+	InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataTypeInAppPurchaseOfferCodes InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType = "inAppPurchaseOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType enum.
+func (e InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataTypeInAppPurchaseOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodeCreateRequestDataType.
+const (
+	InAppPurchaseOfferCodeCustomCodeCreateRequestDataTypeInAppPurchaseOfferCodeCustomCodes InAppPurchaseOfferCodeCustomCodeCreateRequestDataType = "inAppPurchaseOfferCodeCustomCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodeCreateRequestDataType enum.
+func (e InAppPurchaseOfferCodeCustomCodeCreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodeCreateRequestDataTypeInAppPurchaseOfferCodeCustomCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodeUpdateRequestDataType.
+const (
+	InAppPurchaseOfferCodeCustomCodeUpdateRequestDataTypeInAppPurchaseOfferCodeCustomCodes InAppPurchaseOfferCodeCustomCodeUpdateRequestDataType = "inAppPurchaseOfferCodeCustomCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodeUpdateRequestDataType enum.
+func (e InAppPurchaseOfferCodeCustomCodeUpdateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodeUpdateRequestDataTypeInAppPurchaseOfferCodeCustomCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataType.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataTypeActors InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataType = "actors"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataType enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataTypeActors:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataType.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataTypeActors InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataType = "actors"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataType enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataTypeActors:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodeType.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodeTypeInAppPurchaseOfferCodeOneTimeUseCodes InAppPurchaseOfferCodeOneTimeUseCodeType = "inAppPurchaseOfferCodeOneTimeUseCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodeType enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodeType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodeTypeInAppPurchaseOfferCodeOneTimeUseCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataTypeInAppPurchaseOfferCodes InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType = "inAppPurchaseOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataTypeInAppPurchaseOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataType.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataTypeInAppPurchaseOfferCodeOneTimeUseCodes InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataType = "inAppPurchaseOfferCodeOneTimeUseCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataType enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataTypeInAppPurchaseOfferCodeOneTimeUseCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataType.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataTypeInAppPurchaseOfferCodeOneTimeUseCodes InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataType = "inAppPurchaseOfferCodeOneTimeUseCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataType enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataTypeInAppPurchaseOfferCodeOneTimeUseCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeUpdateRequestDataType.
+const (
+	InAppPurchaseOfferCodeUpdateRequestDataTypeInAppPurchaseOfferCodes InAppPurchaseOfferCodeUpdateRequestDataType = "inAppPurchaseOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeUpdateRequestDataType enum.
+func (e InAppPurchaseOfferCodeUpdateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeUpdateRequestDataTypeInAppPurchaseOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferPriceRelationshipsPricePointDataType.
+const (
+	InAppPurchaseOfferPriceRelationshipsPricePointDataTypeInAppPurchasePricePoints InAppPurchaseOfferPriceRelationshipsPricePointDataType = "inAppPurchasePricePoints"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferPriceRelationshipsPricePointDataType enum.
+func (e InAppPurchaseOfferPriceRelationshipsPricePointDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferPriceRelationshipsPricePointDataTypeInAppPurchasePricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferPriceRelationshipsTerritoryDataType.
+const (
+	InAppPurchaseOfferPriceRelationshipsTerritoryDataTypeTerritories InAppPurchaseOfferPriceRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferPriceRelationshipsTerritoryDataType enum.
+func (e InAppPurchaseOfferPriceRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferPriceRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferPriceType.
+const (
+	InAppPurchaseOfferPriceTypeInAppPurchaseOfferPrices InAppPurchaseOfferPriceType = "inAppPurchaseOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferPriceType enum.
+func (e InAppPurchaseOfferPriceType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferPriceTypeInAppPurchaseOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataType.
+const (
+	InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataTypeInAppPurchasePricePoints InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataType = "inAppPurchasePricePoints"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataType enum.
+func (e InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataTypeInAppPurchasePricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataType.
+const (
+	InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataTypeTerritories InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataType enum.
+func (e InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferPriceInlineCreateType.
+const (
+	InAppPurchaseOfferPriceInlineCreateTypeInAppPurchaseOfferPrices InAppPurchaseOfferPriceInlineCreateType = "inAppPurchaseOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferPriceInlineCreateType enum.
+func (e InAppPurchaseOfferPriceInlineCreateType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferPriceInlineCreateTypeInAppPurchaseOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for InAppPurchasePriceRelationshipsInAppPurchasePricePointDataType.
 const (
 	InAppPurchasePriceRelationshipsInAppPurchasePricePointDataTypeInAppPurchasePricePoints InAppPurchasePriceRelationshipsInAppPurchasePricePointDataType = "inAppPurchasePricePoints"
@@ -11078,6 +11429,24 @@ const (
 func (e NominationUpdateRequestDataType) Valid() bool {
 	switch e {
 	case NominationUpdateRequestDataTypeNominations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for OfferCodeEnvironment.
+const (
+	OfferCodeEnvironmentPRODUCTION OfferCodeEnvironment = "PRODUCTION"
+	OfferCodeEnvironmentSANDBOX    OfferCodeEnvironment = "SANDBOX"
+)
+
+// Valid indicates whether the value is a known member of the OfferCodeEnvironment enum.
+func (e OfferCodeEnvironment) Valid() bool {
+	switch e {
+	case OfferCodeEnvironmentPRODUCTION:
+		return true
+	case OfferCodeEnvironmentSANDBOX:
 		return true
 	default:
 		return false
@@ -14225,6 +14594,306 @@ const (
 func (e SubscriptionOfferCodeType) Valid() bool {
 	switch e {
 	case SubscriptionOfferCodeTypeSubscriptionOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataType.
+const (
+	SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataTypeSubscriptionOfferCodePrices SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataType = "subscriptionOfferCodePrices"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataType enum.
+func (e SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataTypeSubscriptionOfferCodePrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataType.
+const (
+	SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataType = "subscriptions"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataType enum.
+func (e SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCreateRequestDataType.
+const (
+	SubscriptionOfferCodeCreateRequestDataTypeSubscriptionOfferCodes SubscriptionOfferCodeCreateRequestDataType = "subscriptionOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCreateRequestDataType enum.
+func (e SubscriptionOfferCodeCreateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCreateRequestDataTypeSubscriptionOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataType.
+const (
+	SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataTypeSubscriptionOfferCodes SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataType = "subscriptionOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataType enum.
+func (e SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataTypeSubscriptionOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodeType.
+const (
+	SubscriptionOfferCodeCustomCodeTypeSubscriptionOfferCodeCustomCodes SubscriptionOfferCodeCustomCodeType = "subscriptionOfferCodeCustomCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodeType enum.
+func (e SubscriptionOfferCodeCustomCodeType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodeTypeSubscriptionOfferCodeCustomCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType.
+const (
+	SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataTypeSubscriptionOfferCodes SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType = "subscriptionOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType enum.
+func (e SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataTypeSubscriptionOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodeCreateRequestDataType.
+const (
+	SubscriptionOfferCodeCustomCodeCreateRequestDataTypeSubscriptionOfferCodeCustomCodes SubscriptionOfferCodeCustomCodeCreateRequestDataType = "subscriptionOfferCodeCustomCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodeCreateRequestDataType enum.
+func (e SubscriptionOfferCodeCustomCodeCreateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodeCreateRequestDataTypeSubscriptionOfferCodeCustomCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodeUpdateRequestDataType.
+const (
+	SubscriptionOfferCodeCustomCodeUpdateRequestDataTypeSubscriptionOfferCodeCustomCodes SubscriptionOfferCodeCustomCodeUpdateRequestDataType = "subscriptionOfferCodeCustomCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodeUpdateRequestDataType enum.
+func (e SubscriptionOfferCodeCustomCodeUpdateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodeUpdateRequestDataTypeSubscriptionOfferCodeCustomCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataType.
+const (
+	SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataTypeSubscriptionOfferCodes SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataType = "subscriptionOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataType enum.
+func (e SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataTypeSubscriptionOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodeType.
+const (
+	SubscriptionOfferCodeOneTimeUseCodeTypeSubscriptionOfferCodeOneTimeUseCodes SubscriptionOfferCodeOneTimeUseCodeType = "subscriptionOfferCodeOneTimeUseCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodeType enum.
+func (e SubscriptionOfferCodeOneTimeUseCodeType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodeTypeSubscriptionOfferCodeOneTimeUseCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType.
+const (
+	SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataTypeSubscriptionOfferCodes SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType = "subscriptionOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType enum.
+func (e SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataTypeSubscriptionOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataType.
+const (
+	SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataTypeSubscriptionOfferCodeOneTimeUseCodes SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataType = "subscriptionOfferCodeOneTimeUseCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataType enum.
+func (e SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataTypeSubscriptionOfferCodeOneTimeUseCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataType.
+const (
+	SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataTypeSubscriptionOfferCodeOneTimeUseCodes SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataType = "subscriptionOfferCodeOneTimeUseCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataType enum.
+func (e SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataTypeSubscriptionOfferCodeOneTimeUseCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataType.
+const (
+	SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataType = "subscriptionPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataType enum.
+func (e SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodePriceRelationshipsTerritoryDataType.
+const (
+	SubscriptionOfferCodePriceRelationshipsTerritoryDataTypeTerritories SubscriptionOfferCodePriceRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodePriceRelationshipsTerritoryDataType enum.
+func (e SubscriptionOfferCodePriceRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodePriceRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodePriceType.
+const (
+	SubscriptionOfferCodePriceTypeSubscriptionOfferCodePrices SubscriptionOfferCodePriceType = "subscriptionOfferCodePrices"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodePriceType enum.
+func (e SubscriptionOfferCodePriceType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodePriceTypeSubscriptionOfferCodePrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataType.
+const (
+	SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataType = "subscriptionPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataType enum.
+func (e SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataType.
+const (
+	SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataTypeTerritories SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataType enum.
+func (e SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodePriceInlineCreateType.
+const (
+	SubscriptionOfferCodePriceInlineCreateTypeSubscriptionOfferCodePrices SubscriptionOfferCodePriceInlineCreateType = "subscriptionOfferCodePrices"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodePriceInlineCreateType enum.
+func (e SubscriptionOfferCodePriceInlineCreateType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodePriceInlineCreateTypeSubscriptionOfferCodePrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeUpdateRequestDataType.
+const (
+	SubscriptionOfferCodeUpdateRequestDataTypeSubscriptionOfferCodes SubscriptionOfferCodeUpdateRequestDataType = "subscriptionOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeUpdateRequestDataType enum.
+func (e SubscriptionOfferCodeUpdateRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeUpdateRequestDataTypeSubscriptionOfferCodes:
 		return true
 	default:
 		return false
@@ -33359,6 +34028,384 @@ func (e InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFie
 	}
 }
 
+// Defines values for InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes.
+const (
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesActive             InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "active"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedByActor     InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "createdByActor"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedDate        InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "createdDate"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCustomCode         InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "customCode"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesDeactivatedByActor InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "deactivatedByActor"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesExpirationDate     InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "expirationDate"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesNumberOfCodes      InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "numberOfCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes enum.
+func (e InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesActive:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedByActor:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedDate:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCustomCode:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesDeactivatedByActor:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesExpirationDate:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesNumberOfCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors.
+const (
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsActorType     InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors = "actorType"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsApiKeyId      InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors = "apiKeyId"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsUserEmail     InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors = "userEmail"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsUserFirstName InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors = "userFirstName"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsUserLastName  InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors = "userLastName"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors enum.
+func (e InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsActorType:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsApiKeyId:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsUserEmail:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsUserFirstName:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActorsUserLastName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude.
+const (
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsIncludeCreatedByActor     InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude = "createdByActor"
+	InAppPurchaseOfferCodeCustomCodesGetInstanceParamsIncludeDeactivatedByActor InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude = "deactivatedByActor"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude enum.
+func (e InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsIncludeCreatedByActor:
+		return true
+	case InAppPurchaseOfferCodeCustomCodesGetInstanceParamsIncludeDeactivatedByActor:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesActive             InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "active"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedByActor     InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "createdByActor"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedDate        InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "createdDate"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesDeactivatedByActor InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "deactivatedByActor"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesEnvironment        InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "environment"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesExpirationDate     InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "expirationDate"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesNumberOfCodes      InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "numberOfCodes"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesValues             InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "values"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesActive:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedByActor:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedDate:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesDeactivatedByActor:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesEnvironment:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesExpirationDate:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesNumberOfCodes:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesValues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsActorType     InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors = "actorType"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsApiKeyId      InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors = "apiKeyId"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsUserEmail     InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors = "userEmail"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsUserFirstName InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors = "userFirstName"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsUserLastName  InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors = "userLastName"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsActorType:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsApiKeyId:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsUserEmail:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsUserFirstName:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActorsUserLastName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude.
+const (
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsIncludeCreatedByActor     InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude = "createdByActor"
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsIncludeDeactivatedByActor InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude = "deactivatedByActor"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude enum.
+func (e InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsIncludeCreatedByActor:
+		return true
+	case InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsIncludeDeactivatedByActor:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes.
+const (
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesActive                InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "active"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesCustomCodes           InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "customCodes"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesCustomerEligibilities InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "customerEligibilities"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesName                  InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "name"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesOneTimeUseCodes       InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "oneTimeUseCodes"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesPrices                InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "prices"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesProductionCodeCount   InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "productionCodeCount"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesSandboxCodeCount      InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes = "sandboxCodeCount"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes enum.
+func (e InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesActive:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesCustomCodes:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesCustomerEligibilities:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesName:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesOneTimeUseCodes:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesPrices:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesProductionCodeCount:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodesSandboxCodeCount:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes.
+const (
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesActive             InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "active"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedByActor     InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "createdByActor"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedDate        InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "createdDate"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesDeactivatedByActor InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "deactivatedByActor"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesEnvironment        InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "environment"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesExpirationDate     InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "expirationDate"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesNumberOfCodes      InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "numberOfCodes"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesValues             InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes = "values"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes enum.
+func (e InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesActive:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedByActor:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesCreatedDate:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesDeactivatedByActor:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesEnvironment:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesExpirationDate:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesNumberOfCodes:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodesValues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes.
+const (
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesActive             InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "active"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedByActor     InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "createdByActor"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedDate        InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "createdDate"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCustomCode         InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "customCode"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesDeactivatedByActor InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "deactivatedByActor"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesExpirationDate     InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "expirationDate"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesNumberOfCodes      InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes = "numberOfCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes enum.
+func (e InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesActive:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedByActor:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCreatedDate:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesCustomCode:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesDeactivatedByActor:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesExpirationDate:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodesNumberOfCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices.
+const (
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPricesPricePoint InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices = "pricePoint"
+	InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPricesTerritory  InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices enum.
+func (e InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPricesPricePoint:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesGetInstanceParamsInclude.
+const (
+	InAppPurchaseOfferCodesGetInstanceParamsIncludeCustomCodes     InAppPurchaseOfferCodesGetInstanceParamsInclude = "customCodes"
+	InAppPurchaseOfferCodesGetInstanceParamsIncludeOneTimeUseCodes InAppPurchaseOfferCodesGetInstanceParamsInclude = "oneTimeUseCodes"
+	InAppPurchaseOfferCodesGetInstanceParamsIncludePrices          InAppPurchaseOfferCodesGetInstanceParamsInclude = "prices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesGetInstanceParamsInclude enum.
+func (e InAppPurchaseOfferCodesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesGetInstanceParamsIncludeCustomCodes:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsIncludeOneTimeUseCodes:
+		return true
+	case InAppPurchaseOfferCodesGetInstanceParamsIncludePrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices.
+const (
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPricesPricePoint InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices = "pricePoint"
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPricesTerritory  InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices enum.
+func (e InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPricesPricePoint:
+		return true
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritories.
+const (
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritoriesCurrency InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritories enum.
+func (e InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints.
+const (
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsCustomerPrice InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints = "customerPrice"
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsEqualizations InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints = "equalizations"
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsProceeds      InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints = "proceeds"
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsTerritory     InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints enum.
+func (e InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsCustomerPrice:
+		return true
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsEqualizations:
+		return true
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsProceeds:
+		return true
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude.
+const (
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsIncludePricePoint InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude = "pricePoint"
+	InAppPurchaseOfferCodesPricesGetToManyRelatedParamsIncludeTerritory  InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude enum.
+func (e InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsIncludePricePoint:
+		return true
+	case InAppPurchaseOfferCodesPricesGetToManyRelatedParamsIncludeTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for InAppPurchasePricePointsEqualizationsGetToManyRelatedParamsFieldsInAppPurchasePricePoints.
 const (
 	InAppPurchasePricePointsEqualizationsGetToManyRelatedParamsFieldsInAppPurchasePricePointsCustomerPrice InAppPurchasePricePointsEqualizationsGetToManyRelatedParamsFieldsInAppPurchasePricePoints = "customerPrice"
@@ -37931,6 +38978,546 @@ func (e SubscriptionGroupsVersionsGetToManyRelatedParamsInclude) Valid() bool {
 	case SubscriptionGroupsVersionsGetToManyRelatedParamsIncludeLocalizations:
 		return true
 	case SubscriptionGroupsVersionsGetToManyRelatedParamsIncludeSubscriptionGroup:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes.
+const (
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesActive         SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "active"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCreatedDate    SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "createdDate"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCustomCode     SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "customCode"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesExpirationDate SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "expirationDate"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesNumberOfCodes  SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "numberOfCodes"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesOfferCode      SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "offerCode"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes enum.
+func (e SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesActive:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCreatedDate:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCustomCode:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesExpirationDate:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesNumberOfCodes:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesOfferCode:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes.
+const (
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesActive                     SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "active"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesAutoRenewEnabled           SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "autoRenewEnabled"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomCodes                SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "customCodes"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomerEligibilities      SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "customerEligibilities"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesDuration                   SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "duration"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesName                       SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "name"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesNumberOfPeriods            SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "numberOfPeriods"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferEligibility           SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "offerEligibility"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferMode                  SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "offerMode"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesOneTimeUseCodes            SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "oneTimeUseCodes"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesPrices                     SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "prices"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesProductionCodeCount        SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "productionCodeCount"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesSandboxCodeCount           SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "sandboxCodeCount"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesSubscription               SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "subscription"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesTargetSubscriptionPlanType SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "targetSubscriptionPlanType"
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesTotalNumberOfCodes         SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "totalNumberOfCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes enum.
+func (e SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesActive:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesAutoRenewEnabled:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomCodes:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomerEligibilities:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesDuration:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesName:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesNumberOfPeriods:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferEligibility:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferMode:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesOneTimeUseCodes:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesPrices:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesProductionCodeCount:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesSandboxCodeCount:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesSubscription:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesTargetSubscriptionPlanType:
+		return true
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodesTotalNumberOfCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeCustomCodesGetInstanceParamsInclude.
+const (
+	SubscriptionOfferCodeCustomCodesGetInstanceParamsIncludeOfferCode SubscriptionOfferCodeCustomCodesGetInstanceParamsInclude = "offerCode"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeCustomCodesGetInstanceParamsInclude enum.
+func (e SubscriptionOfferCodeCustomCodesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeCustomCodesGetInstanceParamsIncludeOfferCode:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes.
+const (
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesActive         SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "active"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesCreatedDate    SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "createdDate"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesEnvironment    SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "environment"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesExpirationDate SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "expirationDate"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesNumberOfCodes  SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "numberOfCodes"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesOfferCode      SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "offerCode"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesValues         SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "values"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes enum.
+func (e SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesActive:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesCreatedDate:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesEnvironment:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesExpirationDate:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesNumberOfCodes:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesOfferCode:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesValues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes.
+const (
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesActive                     SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "active"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesAutoRenewEnabled           SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "autoRenewEnabled"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomCodes                SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "customCodes"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomerEligibilities      SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "customerEligibilities"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesDuration                   SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "duration"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesName                       SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "name"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesNumberOfPeriods            SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "numberOfPeriods"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferEligibility           SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "offerEligibility"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferMode                  SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "offerMode"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesOneTimeUseCodes            SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "oneTimeUseCodes"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesPrices                     SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "prices"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesProductionCodeCount        SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "productionCodeCount"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesSandboxCodeCount           SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "sandboxCodeCount"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesSubscription               SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "subscription"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesTargetSubscriptionPlanType SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "targetSubscriptionPlanType"
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesTotalNumberOfCodes         SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "totalNumberOfCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes enum.
+func (e SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesActive:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesAutoRenewEnabled:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomCodes:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomerEligibilities:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesDuration:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesName:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesNumberOfPeriods:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferEligibility:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferMode:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesOneTimeUseCodes:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesPrices:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesProductionCodeCount:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesSandboxCodeCount:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesSubscription:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesTargetSubscriptionPlanType:
+		return true
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodesTotalNumberOfCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsInclude.
+const (
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsIncludeOfferCode SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsInclude = "offerCode"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsInclude enum.
+func (e SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsIncludeOfferCode:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes.
+const (
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesActive                     SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "active"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesAutoRenewEnabled           SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "autoRenewEnabled"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomCodes                SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "customCodes"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomerEligibilities      SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "customerEligibilities"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesDuration                   SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "duration"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesName                       SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "name"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesNumberOfPeriods            SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "numberOfPeriods"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferEligibility           SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "offerEligibility"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferMode                  SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "offerMode"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesOneTimeUseCodes            SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "oneTimeUseCodes"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesPrices                     SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "prices"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesProductionCodeCount        SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "productionCodeCount"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesSandboxCodeCount           SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "sandboxCodeCount"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesSubscription               SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "subscription"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesTargetSubscriptionPlanType SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "targetSubscriptionPlanType"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesTotalNumberOfCodes         SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes = "totalNumberOfCodes"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes enum.
+func (e SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesActive:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesAutoRenewEnabled:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomCodes:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesCustomerEligibilities:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesDuration:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesName:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesNumberOfPeriods:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferEligibility:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesOfferMode:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesOneTimeUseCodes:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesPrices:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesProductionCodeCount:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesSandboxCodeCount:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesSubscription:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesTargetSubscriptionPlanType:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodesTotalNumberOfCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions.
+const (
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsAppStoreReviewScreenshot  SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "appStoreReviewScreenshot"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsFamilySharable            SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "familySharable"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsGroup                     SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "group"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsGroupLevel                SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "groupLevel"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsImages                    SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "images"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsIntroductoryOffers        SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "introductoryOffers"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsMarketSettings            SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "marketSettings"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsMultiSeatStatus           SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "multiSeatStatus"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsName                      SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "name"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsOfferCodes                SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "offerCodes"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPlanAvailabilities        SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "planAvailabilities"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPricePoints               SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "pricePoints"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPrices                    SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "prices"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsProductId                 SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "productId"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotedPurchase          SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotionalOffers         SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsReviewNote                SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "reviewNote"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsState                     SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "state"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsSubscriptionLocalizations SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "subscriptionLocalizations"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsSubscriptionPeriod        SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "subscriptionPeriod"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsVersions                  SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "versions"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsWinBackOffers             SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "winBackOffers"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions enum.
+func (e SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsAppStoreReviewScreenshot:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsFamilySharable:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsGroup:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsGroupLevel:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsImages:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsIntroductoryOffers:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsMarketSettings:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsMultiSeatStatus:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsName:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsOfferCodes:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPlanAvailabilities:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPricePoints:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPrices:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsProductId:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsReviewNote:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsState:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsSubscriptionLocalizations:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsSubscriptionPeriod:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsVersions:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsWinBackOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes.
+const (
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesActive         SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "active"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesCreatedDate    SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "createdDate"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesEnvironment    SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "environment"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesExpirationDate SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "expirationDate"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesNumberOfCodes  SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "numberOfCodes"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesOfferCode      SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "offerCode"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesValues         SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes = "values"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes enum.
+func (e SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesActive:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesCreatedDate:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesEnvironment:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesExpirationDate:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesNumberOfCodes:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesOfferCode:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodesValues:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes.
+const (
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesActive         SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "active"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCreatedDate    SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "createdDate"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCustomCode     SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "customCode"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesExpirationDate SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "expirationDate"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesNumberOfCodes  SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "numberOfCodes"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesOfferCode      SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes = "offerCode"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes enum.
+func (e SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesActive:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCreatedDate:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesCustomCode:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesExpirationDate:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesNumberOfCodes:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodesOfferCode:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices.
+const (
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePricesSubscriptionPricePoint SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices = "subscriptionPricePoint"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePricesTerritory              SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices enum.
+func (e SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePricesSubscriptionPricePoint:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesGetInstanceParamsInclude.
+const (
+	SubscriptionOfferCodesGetInstanceParamsIncludeCustomCodes     SubscriptionOfferCodesGetInstanceParamsInclude = "customCodes"
+	SubscriptionOfferCodesGetInstanceParamsIncludeOneTimeUseCodes SubscriptionOfferCodesGetInstanceParamsInclude = "oneTimeUseCodes"
+	SubscriptionOfferCodesGetInstanceParamsIncludePrices          SubscriptionOfferCodesGetInstanceParamsInclude = "prices"
+	SubscriptionOfferCodesGetInstanceParamsIncludeSubscription    SubscriptionOfferCodesGetInstanceParamsInclude = "subscription"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesGetInstanceParamsInclude enum.
+func (e SubscriptionOfferCodesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesGetInstanceParamsIncludeCustomCodes:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsIncludeOneTimeUseCodes:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsIncludePrices:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsIncludeSubscription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices.
+const (
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePricesSubscriptionPricePoint SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices = "subscriptionPricePoint"
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePricesTerritory              SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices enum.
+func (e SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePricesSubscriptionPricePoint:
+		return true
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritories.
+const (
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritoriesCurrency SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritories enum.
+func (e SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints.
+const (
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "adjustedEqualizations"
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice         SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "customerPrice"
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations         SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "equalizations"
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds              SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceeds"
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2         SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceedsYear2"
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory             SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints enum.
+func (e SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations:
+		return true
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice:
+		return true
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations:
+		return true
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds:
+		return true
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2:
+		return true
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude.
+const (
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsIncludeSubscriptionPricePoint SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude = "subscriptionPricePoint"
+	SubscriptionOfferCodesPricesGetToManyRelatedParamsIncludeTerritory              SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude enum.
+func (e SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsIncludeSubscriptionPricePoint:
+		return true
+	case SubscriptionOfferCodesPricesGetToManyRelatedParamsIncludeTerritory:
 		return true
 	default:
 		return false
@@ -49839,6 +51426,313 @@ type InAppPurchaseOfferCodeRelationshipsPricesDataType string
 // InAppPurchaseOfferCodeType defines model for InAppPurchaseOfferCode.Type.
 type InAppPurchaseOfferCodeType string
 
+// InAppPurchaseOfferCodeCreateRequest defines model for InAppPurchaseOfferCodeCreateRequest.
+type InAppPurchaseOfferCodeCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			CustomerEligibilities []InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities `json:"customerEligibilities"`
+			Name                  string                                                                   `json:"name"`
+		} `json:"attributes"`
+		Relationships struct {
+			InAppPurchase struct {
+				Data struct {
+					Id   string                                                                    `json:"id"`
+					Type InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataType `json:"type"`
+				} `json:"data"`
+			} `json:"inAppPurchase"`
+			Prices struct {
+				Data []struct {
+					Id   string                                                             `json:"id"`
+					Type InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"prices"`
+		} `json:"relationships"`
+		Type InAppPurchaseOfferCodeCreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]InAppPurchaseOfferPriceInlineCreate `json:"included,omitempty"`
+}
+
+// InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities defines model for InAppPurchaseOfferCodeCreateRequest.Data.Attributes.CustomerEligibilities.
+type InAppPurchaseOfferCodeCreateRequestDataAttributesCustomerEligibilities string
+
+// InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataType defines model for InAppPurchaseOfferCodeCreateRequest.Data.Relationships.InAppPurchase.Data.Type.
+type InAppPurchaseOfferCodeCreateRequestDataRelationshipsInAppPurchaseDataType string
+
+// InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataType defines model for InAppPurchaseOfferCodeCreateRequest.Data.Relationships.Prices.Data.Type.
+type InAppPurchaseOfferCodeCreateRequestDataRelationshipsPricesDataType string
+
+// InAppPurchaseOfferCodeCreateRequestDataType defines model for InAppPurchaseOfferCodeCreateRequest.Data.Type.
+type InAppPurchaseOfferCodeCreateRequestDataType string
+
+// InAppPurchaseOfferCodeCustomCode defines model for InAppPurchaseOfferCodeCustomCode.
+type InAppPurchaseOfferCodeCustomCode struct {
+	Attributes *struct {
+		Active         *bool               `json:"active,omitempty"`
+		CreatedDate    *DateTime           `json:"createdDate,omitempty"`
+		CustomCode     *string             `json:"customCode,omitempty"`
+		ExpirationDate *openapi_types.Date `json:"expirationDate,omitempty"`
+		NumberOfCodes  *int                `json:"numberOfCodes,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		CreatedByActor *struct {
+			Data *struct {
+				Id   string                                                              `json:"id"`
+				Type InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"createdByActor,omitempty"`
+		DeactivatedByActor *struct {
+			Data *struct {
+				Id   string                                                                  `json:"id"`
+				Type InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"deactivatedByActor,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseOfferCodeCustomCodeType `json:"type"`
+}
+
+// InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataType defines model for InAppPurchaseOfferCodeCustomCode.Relationships.CreatedByActor.Data.Type.
+type InAppPurchaseOfferCodeCustomCodeRelationshipsCreatedByActorDataType string
+
+// InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataType defines model for InAppPurchaseOfferCodeCustomCode.Relationships.DeactivatedByActor.Data.Type.
+type InAppPurchaseOfferCodeCustomCodeRelationshipsDeactivatedByActorDataType string
+
+// InAppPurchaseOfferCodeCustomCodeType defines model for InAppPurchaseOfferCodeCustomCode.Type.
+type InAppPurchaseOfferCodeCustomCodeType string
+
+// InAppPurchaseOfferCodeCustomCodeCreateRequest defines model for InAppPurchaseOfferCodeCustomCodeCreateRequest.
+type InAppPurchaseOfferCodeCustomCodeCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			CustomCode     string              `json:"customCode"`
+			ExpirationDate *openapi_types.Date `json:"expirationDate,omitempty"`
+			NumberOfCodes  int                 `json:"numberOfCodes"`
+		} `json:"attributes"`
+		Relationships struct {
+			OfferCode struct {
+				Data struct {
+					Id   string                                                                          `json:"id"`
+					Type InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType `json:"type"`
+				} `json:"data"`
+			} `json:"offerCode"`
+		} `json:"relationships"`
+		Type InAppPurchaseOfferCodeCustomCodeCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType defines model for InAppPurchaseOfferCodeCustomCodeCreateRequest.Data.Relationships.OfferCode.Data.Type.
+type InAppPurchaseOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType string
+
+// InAppPurchaseOfferCodeCustomCodeCreateRequestDataType defines model for InAppPurchaseOfferCodeCustomCodeCreateRequest.Data.Type.
+type InAppPurchaseOfferCodeCustomCodeCreateRequestDataType string
+
+// InAppPurchaseOfferCodeCustomCodeResponse defines model for InAppPurchaseOfferCodeCustomCodeResponse.
+type InAppPurchaseOfferCodeCustomCodeResponse struct {
+	Data     InAppPurchaseOfferCodeCustomCode `json:"data"`
+	Included *[]Actor                         `json:"included,omitempty"`
+	Links    DocumentLinks                    `json:"links"`
+}
+
+// InAppPurchaseOfferCodeCustomCodeUpdateRequest defines model for InAppPurchaseOfferCodeCustomCodeUpdateRequest.
+type InAppPurchaseOfferCodeCustomCodeUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Active *bool `json:"active,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                `json:"id"`
+		Type InAppPurchaseOfferCodeCustomCodeUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseOfferCodeCustomCodeUpdateRequestDataType defines model for InAppPurchaseOfferCodeCustomCodeUpdateRequest.Data.Type.
+type InAppPurchaseOfferCodeCustomCodeUpdateRequestDataType string
+
+// InAppPurchaseOfferCodeOneTimeUseCode defines model for InAppPurchaseOfferCodeOneTimeUseCode.
+type InAppPurchaseOfferCodeOneTimeUseCode struct {
+	Attributes *struct {
+		Active         *bool                 `json:"active,omitempty"`
+		CreatedDate    *DateTime             `json:"createdDate,omitempty"`
+		Environment    *OfferCodeEnvironment `json:"environment,omitempty"`
+		ExpirationDate *openapi_types.Date   `json:"expirationDate,omitempty"`
+		NumberOfCodes  *int                  `json:"numberOfCodes,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		CreatedByActor *struct {
+			Data *struct {
+				Id   string                                                                  `json:"id"`
+				Type InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"createdByActor,omitempty"`
+		DeactivatedByActor *struct {
+			Data *struct {
+				Id   string                                                                      `json:"id"`
+				Type InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"deactivatedByActor,omitempty"`
+		Values *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"values,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseOfferCodeOneTimeUseCodeType `json:"type"`
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataType defines model for InAppPurchaseOfferCodeOneTimeUseCode.Relationships.CreatedByActor.Data.Type.
+type InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsCreatedByActorDataType string
+
+// InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataType defines model for InAppPurchaseOfferCodeOneTimeUseCode.Relationships.DeactivatedByActor.Data.Type.
+type InAppPurchaseOfferCodeOneTimeUseCodeRelationshipsDeactivatedByActorDataType string
+
+// InAppPurchaseOfferCodeOneTimeUseCodeType defines model for InAppPurchaseOfferCodeOneTimeUseCode.Type.
+type InAppPurchaseOfferCodeOneTimeUseCodeType string
+
+// InAppPurchaseOfferCodeOneTimeUseCodeCreateRequest defines model for InAppPurchaseOfferCodeOneTimeUseCodeCreateRequest.
+type InAppPurchaseOfferCodeOneTimeUseCodeCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Environment    *OfferCodeEnvironment `json:"environment,omitempty"`
+			ExpirationDate openapi_types.Date    `json:"expirationDate"`
+			NumberOfCodes  int                   `json:"numberOfCodes"`
+		} `json:"attributes"`
+		Relationships struct {
+			OfferCode struct {
+				Data struct {
+					Id   string                                                                              `json:"id"`
+					Type InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType `json:"type"`
+				} `json:"data"`
+			} `json:"offerCode"`
+		} `json:"relationships"`
+		Type InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType defines model for InAppPurchaseOfferCodeOneTimeUseCodeCreateRequest.Data.Relationships.OfferCode.Data.Type.
+type InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType string
+
+// InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataType defines model for InAppPurchaseOfferCodeOneTimeUseCodeCreateRequest.Data.Type.
+type InAppPurchaseOfferCodeOneTimeUseCodeCreateRequestDataType string
+
+// InAppPurchaseOfferCodeOneTimeUseCodeResponse defines model for InAppPurchaseOfferCodeOneTimeUseCodeResponse.
+type InAppPurchaseOfferCodeOneTimeUseCodeResponse struct {
+	Data     InAppPurchaseOfferCodeOneTimeUseCode `json:"data"`
+	Included *[]Actor                             `json:"included,omitempty"`
+	Links    DocumentLinks                        `json:"links"`
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequest defines model for InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequest.
+type InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Active *bool `json:"active,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                    `json:"id"`
+		Type InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataType defines model for InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequest.Data.Type.
+type InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequestDataType string
+
+// InAppPurchaseOfferCodeResponse defines model for InAppPurchaseOfferCodeResponse.
+type InAppPurchaseOfferCodeResponse struct {
+	Data     InAppPurchaseOfferCode                          `json:"data"`
+	Included *[]InAppPurchaseOfferCodeResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                   `json:"links"`
+}
+
+// InAppPurchaseOfferCodeResponse_Included_Item defines model for InAppPurchaseOfferCodeResponse.included.Item.
+type InAppPurchaseOfferCodeResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// InAppPurchaseOfferCodeUpdateRequest defines model for InAppPurchaseOfferCodeUpdateRequest.
+type InAppPurchaseOfferCodeUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Active *bool `json:"active,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                      `json:"id"`
+		Type InAppPurchaseOfferCodeUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseOfferCodeUpdateRequestDataType defines model for InAppPurchaseOfferCodeUpdateRequest.Data.Type.
+type InAppPurchaseOfferCodeUpdateRequestDataType string
+
+// InAppPurchaseOfferPrice defines model for InAppPurchaseOfferPrice.
+type InAppPurchaseOfferPrice struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		PricePoint *struct {
+			Data *struct {
+				Id   string                                                 `json:"id"`
+				Type InAppPurchaseOfferPriceRelationshipsPricePointDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"pricePoint,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                                `json:"id"`
+				Type InAppPurchaseOfferPriceRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseOfferPriceType `json:"type"`
+}
+
+// InAppPurchaseOfferPriceRelationshipsPricePointDataType defines model for InAppPurchaseOfferPrice.Relationships.PricePoint.Data.Type.
+type InAppPurchaseOfferPriceRelationshipsPricePointDataType string
+
+// InAppPurchaseOfferPriceRelationshipsTerritoryDataType defines model for InAppPurchaseOfferPrice.Relationships.Territory.Data.Type.
+type InAppPurchaseOfferPriceRelationshipsTerritoryDataType string
+
+// InAppPurchaseOfferPriceType defines model for InAppPurchaseOfferPrice.Type.
+type InAppPurchaseOfferPriceType string
+
+// InAppPurchaseOfferPriceInlineCreate defines model for InAppPurchaseOfferPriceInlineCreate.
+type InAppPurchaseOfferPriceInlineCreate struct {
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		PricePoint *struct {
+			Data *struct {
+				Id   string                                                             `json:"id"`
+				Type InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"pricePoint,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                                            `json:"id"`
+				Type InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseOfferPriceInlineCreateType `json:"type"`
+}
+
+// InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataType defines model for InAppPurchaseOfferPriceInlineCreate.Relationships.PricePoint.Data.Type.
+type InAppPurchaseOfferPriceInlineCreateRelationshipsPricePointDataType string
+
+// InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataType defines model for InAppPurchaseOfferPriceInlineCreate.Relationships.Territory.Data.Type.
+type InAppPurchaseOfferPriceInlineCreateRelationshipsTerritoryDataType string
+
+// InAppPurchaseOfferPriceInlineCreateType defines model for InAppPurchaseOfferPriceInlineCreate.Type.
+type InAppPurchaseOfferPriceInlineCreateType string
+
+// InAppPurchaseOfferPricesResponse defines model for InAppPurchaseOfferPricesResponse.
+type InAppPurchaseOfferPricesResponse struct {
+	Data     []InAppPurchaseOfferPrice                         `json:"data"`
+	Included *[]InAppPurchaseOfferPricesResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                `json:"links"`
+	Meta     *PagingInformation                                `json:"meta,omitempty"`
+}
+
+// InAppPurchaseOfferPricesResponse_Included_Item defines model for InAppPurchaseOfferPricesResponse.included.Item.
+type InAppPurchaseOfferPricesResponse_Included_Item struct {
+	union json.RawMessage
+}
+
 // InAppPurchasePrice defines model for InAppPurchasePrice.
 type InAppPurchasePrice struct {
 	Attributes *struct {
@@ -50679,6 +52573,9 @@ type NominationsResponse struct {
 type NominationsResponse_Included_Item struct {
 	union json.RawMessage
 }
+
+// OfferCodeEnvironment defines model for OfferCodeEnvironment.
+type OfferCodeEnvironment string
 
 // PagedDocumentLinks defines model for PagedDocumentLinks.
 type PagedDocumentLinks struct {
@@ -52914,6 +54811,298 @@ type SubscriptionOfferCodeRelationshipsSubscriptionDataType string
 
 // SubscriptionOfferCodeType defines model for SubscriptionOfferCode.Type.
 type SubscriptionOfferCodeType string
+
+// SubscriptionOfferCodeCreateRequest defines model for SubscriptionOfferCodeCreateRequest.
+type SubscriptionOfferCodeCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AutoRenewEnabled           *bool                             `json:"autoRenewEnabled,omitempty"`
+			CustomerEligibilities      []SubscriptionCustomerEligibility `json:"customerEligibilities"`
+			Duration                   SubscriptionOfferDuration         `json:"duration"`
+			Name                       string                            `json:"name"`
+			NumberOfPeriods            int                               `json:"numberOfPeriods"`
+			OfferEligibility           SubscriptionOfferEligibility      `json:"offerEligibility"`
+			OfferMode                  SubscriptionOfferMode             `json:"offerMode"`
+			TargetSubscriptionPlanType *SubscriptionPlanType             `json:"targetSubscriptionPlanType,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			Prices struct {
+				Data []struct {
+					Id   string                                                            `json:"id"`
+					Type SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"prices"`
+			Subscription struct {
+				Data struct {
+					Id   string                                                                  `json:"id"`
+					Type SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"subscription"`
+		} `json:"relationships"`
+		Type SubscriptionOfferCodeCreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]SubscriptionOfferCodePriceInlineCreate `json:"included,omitempty"`
+}
+
+// SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataType defines model for SubscriptionOfferCodeCreateRequest.Data.Relationships.Prices.Data.Type.
+type SubscriptionOfferCodeCreateRequestDataRelationshipsPricesDataType string
+
+// SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataType defines model for SubscriptionOfferCodeCreateRequest.Data.Relationships.Subscription.Data.Type.
+type SubscriptionOfferCodeCreateRequestDataRelationshipsSubscriptionDataType string
+
+// SubscriptionOfferCodeCreateRequestDataType defines model for SubscriptionOfferCodeCreateRequest.Data.Type.
+type SubscriptionOfferCodeCreateRequestDataType string
+
+// SubscriptionOfferCodeCustomCode defines model for SubscriptionOfferCodeCustomCode.
+type SubscriptionOfferCodeCustomCode struct {
+	Attributes *struct {
+		Active         *bool               `json:"active,omitempty"`
+		CreatedDate    *DateTime           `json:"createdDate,omitempty"`
+		CustomCode     *string             `json:"customCode,omitempty"`
+		ExpirationDate *openapi_types.Date `json:"expirationDate,omitempty"`
+		NumberOfCodes  *int                `json:"numberOfCodes,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		OfferCode *struct {
+			Data *struct {
+				Id   string                                                        `json:"id"`
+				Type SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"offerCode,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type SubscriptionOfferCodeCustomCodeType `json:"type"`
+}
+
+// SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataType defines model for SubscriptionOfferCodeCustomCode.Relationships.OfferCode.Data.Type.
+type SubscriptionOfferCodeCustomCodeRelationshipsOfferCodeDataType string
+
+// SubscriptionOfferCodeCustomCodeType defines model for SubscriptionOfferCodeCustomCode.Type.
+type SubscriptionOfferCodeCustomCodeType string
+
+// SubscriptionOfferCodeCustomCodeCreateRequest defines model for SubscriptionOfferCodeCustomCodeCreateRequest.
+type SubscriptionOfferCodeCustomCodeCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			CustomCode     string              `json:"customCode"`
+			ExpirationDate *openapi_types.Date `json:"expirationDate,omitempty"`
+			NumberOfCodes  int                 `json:"numberOfCodes"`
+		} `json:"attributes"`
+		Relationships struct {
+			OfferCode struct {
+				Data struct {
+					Id   string                                                                         `json:"id"`
+					Type SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType `json:"type"`
+				} `json:"data"`
+			} `json:"offerCode"`
+		} `json:"relationships"`
+		Type SubscriptionOfferCodeCustomCodeCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType defines model for SubscriptionOfferCodeCustomCodeCreateRequest.Data.Relationships.OfferCode.Data.Type.
+type SubscriptionOfferCodeCustomCodeCreateRequestDataRelationshipsOfferCodeDataType string
+
+// SubscriptionOfferCodeCustomCodeCreateRequestDataType defines model for SubscriptionOfferCodeCustomCodeCreateRequest.Data.Type.
+type SubscriptionOfferCodeCustomCodeCreateRequestDataType string
+
+// SubscriptionOfferCodeCustomCodeResponse defines model for SubscriptionOfferCodeCustomCodeResponse.
+type SubscriptionOfferCodeCustomCodeResponse struct {
+	Data     SubscriptionOfferCodeCustomCode `json:"data"`
+	Included *[]SubscriptionOfferCode        `json:"included,omitempty"`
+	Links    DocumentLinks                   `json:"links"`
+}
+
+// SubscriptionOfferCodeCustomCodeUpdateRequest defines model for SubscriptionOfferCodeCustomCodeUpdateRequest.
+type SubscriptionOfferCodeCustomCodeUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Active *bool `json:"active,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                               `json:"id"`
+		Type SubscriptionOfferCodeCustomCodeUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionOfferCodeCustomCodeUpdateRequestDataType defines model for SubscriptionOfferCodeCustomCodeUpdateRequest.Data.Type.
+type SubscriptionOfferCodeCustomCodeUpdateRequestDataType string
+
+// SubscriptionOfferCodeOneTimeUseCode defines model for SubscriptionOfferCodeOneTimeUseCode.
+type SubscriptionOfferCodeOneTimeUseCode struct {
+	Attributes *struct {
+		Active         *bool                 `json:"active,omitempty"`
+		CreatedDate    *DateTime             `json:"createdDate,omitempty"`
+		Environment    *OfferCodeEnvironment `json:"environment,omitempty"`
+		ExpirationDate *openapi_types.Date   `json:"expirationDate,omitempty"`
+		NumberOfCodes  *int                  `json:"numberOfCodes,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		OfferCode *struct {
+			Data *struct {
+				Id   string                                                            `json:"id"`
+				Type SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"offerCode,omitempty"`
+		Values *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"values,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type SubscriptionOfferCodeOneTimeUseCodeType `json:"type"`
+}
+
+// SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataType defines model for SubscriptionOfferCodeOneTimeUseCode.Relationships.OfferCode.Data.Type.
+type SubscriptionOfferCodeOneTimeUseCodeRelationshipsOfferCodeDataType string
+
+// SubscriptionOfferCodeOneTimeUseCodeType defines model for SubscriptionOfferCodeOneTimeUseCode.Type.
+type SubscriptionOfferCodeOneTimeUseCodeType string
+
+// SubscriptionOfferCodeOneTimeUseCodeCreateRequest defines model for SubscriptionOfferCodeOneTimeUseCodeCreateRequest.
+type SubscriptionOfferCodeOneTimeUseCodeCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Environment    *OfferCodeEnvironment `json:"environment,omitempty"`
+			ExpirationDate openapi_types.Date    `json:"expirationDate"`
+			NumberOfCodes  int                   `json:"numberOfCodes"`
+		} `json:"attributes"`
+		Relationships struct {
+			OfferCode struct {
+				Data struct {
+					Id   string                                                                             `json:"id"`
+					Type SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType `json:"type"`
+				} `json:"data"`
+			} `json:"offerCode"`
+		} `json:"relationships"`
+		Type SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType defines model for SubscriptionOfferCodeOneTimeUseCodeCreateRequest.Data.Relationships.OfferCode.Data.Type.
+type SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataRelationshipsOfferCodeDataType string
+
+// SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataType defines model for SubscriptionOfferCodeOneTimeUseCodeCreateRequest.Data.Type.
+type SubscriptionOfferCodeOneTimeUseCodeCreateRequestDataType string
+
+// SubscriptionOfferCodeOneTimeUseCodeResponse defines model for SubscriptionOfferCodeOneTimeUseCodeResponse.
+type SubscriptionOfferCodeOneTimeUseCodeResponse struct {
+	Data     SubscriptionOfferCodeOneTimeUseCode `json:"data"`
+	Included *[]SubscriptionOfferCode            `json:"included,omitempty"`
+	Links    DocumentLinks                       `json:"links"`
+}
+
+// SubscriptionOfferCodeOneTimeUseCodeUpdateRequest defines model for SubscriptionOfferCodeOneTimeUseCodeUpdateRequest.
+type SubscriptionOfferCodeOneTimeUseCodeUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Active *bool `json:"active,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                   `json:"id"`
+		Type SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataType defines model for SubscriptionOfferCodeOneTimeUseCodeUpdateRequest.Data.Type.
+type SubscriptionOfferCodeOneTimeUseCodeUpdateRequestDataType string
+
+// SubscriptionOfferCodePrice defines model for SubscriptionOfferCodePrice.
+type SubscriptionOfferCodePrice struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		SubscriptionPricePoint *struct {
+			Data *struct {
+				Id   string                                                                `json:"id"`
+				Type SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"subscriptionPricePoint,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                                   `json:"id"`
+				Type SubscriptionOfferCodePriceRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type SubscriptionOfferCodePriceType `json:"type"`
+}
+
+// SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataType defines model for SubscriptionOfferCodePrice.Relationships.SubscriptionPricePoint.Data.Type.
+type SubscriptionOfferCodePriceRelationshipsSubscriptionPricePointDataType string
+
+// SubscriptionOfferCodePriceRelationshipsTerritoryDataType defines model for SubscriptionOfferCodePrice.Relationships.Territory.Data.Type.
+type SubscriptionOfferCodePriceRelationshipsTerritoryDataType string
+
+// SubscriptionOfferCodePriceType defines model for SubscriptionOfferCodePrice.Type.
+type SubscriptionOfferCodePriceType string
+
+// SubscriptionOfferCodePriceInlineCreate defines model for SubscriptionOfferCodePriceInlineCreate.
+type SubscriptionOfferCodePriceInlineCreate struct {
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		SubscriptionPricePoint *struct {
+			Data *struct {
+				Id   string                                                                            `json:"id"`
+				Type SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"subscriptionPricePoint,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                                               `json:"id"`
+				Type SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type SubscriptionOfferCodePriceInlineCreateType `json:"type"`
+}
+
+// SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataType defines model for SubscriptionOfferCodePriceInlineCreate.Relationships.SubscriptionPricePoint.Data.Type.
+type SubscriptionOfferCodePriceInlineCreateRelationshipsSubscriptionPricePointDataType string
+
+// SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataType defines model for SubscriptionOfferCodePriceInlineCreate.Relationships.Territory.Data.Type.
+type SubscriptionOfferCodePriceInlineCreateRelationshipsTerritoryDataType string
+
+// SubscriptionOfferCodePriceInlineCreateType defines model for SubscriptionOfferCodePriceInlineCreate.Type.
+type SubscriptionOfferCodePriceInlineCreateType string
+
+// SubscriptionOfferCodePricesResponse defines model for SubscriptionOfferCodePricesResponse.
+type SubscriptionOfferCodePricesResponse struct {
+	Data     []SubscriptionOfferCodePrice                         `json:"data"`
+	Included *[]SubscriptionOfferCodePricesResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                   `json:"links"`
+	Meta     *PagingInformation                                   `json:"meta,omitempty"`
+}
+
+// SubscriptionOfferCodePricesResponse_Included_Item defines model for SubscriptionOfferCodePricesResponse.included.Item.
+type SubscriptionOfferCodePricesResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// SubscriptionOfferCodeResponse defines model for SubscriptionOfferCodeResponse.
+type SubscriptionOfferCodeResponse struct {
+	Data     SubscriptionOfferCode                          `json:"data"`
+	Included *[]SubscriptionOfferCodeResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                  `json:"links"`
+}
+
+// SubscriptionOfferCodeResponse_Included_Item defines model for SubscriptionOfferCodeResponse.included.Item.
+type SubscriptionOfferCodeResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// SubscriptionOfferCodeUpdateRequest defines model for SubscriptionOfferCodeUpdateRequest.
+type SubscriptionOfferCodeUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Active *bool `json:"active,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                     `json:"id"`
+		Type SubscriptionOfferCodeUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionOfferCodeUpdateRequestDataType defines model for SubscriptionOfferCodeUpdateRequest.Data.Type.
+type SubscriptionOfferCodeUpdateRequestDataType string
 
 // SubscriptionOfferDuration defines model for SubscriptionOfferDuration.
 type SubscriptionOfferDuration string
@@ -57316,6 +59505,123 @@ type InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedParams struc
 // InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories defines parameters for InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelated.
 type InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedParamsFieldsTerritories string
 
+// InAppPurchaseOfferCodeCustomCodesGetInstanceParams defines parameters for InAppPurchaseOfferCodeCustomCodesGetInstance.
+type InAppPurchaseOfferCodeCustomCodesGetInstanceParams struct {
+	// FieldsInAppPurchaseOfferCodeCustomCodes the fields to include for returned resources of type inAppPurchaseOfferCodeCustomCodes
+	FieldsInAppPurchaseOfferCodeCustomCodes *[]InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes `form:"fields[inAppPurchaseOfferCodeCustomCodes],omitempty" json:"fields[inAppPurchaseOfferCodeCustomCodes],omitempty"`
+
+	// FieldsActors the fields to include for returned resources of type actors
+	FieldsActors *[]InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors `form:"fields[actors],omitempty" json:"fields[actors],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes defines parameters for InAppPurchaseOfferCodeCustomCodesGetInstance.
+type InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes string
+
+// InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors defines parameters for InAppPurchaseOfferCodeCustomCodesGetInstance.
+type InAppPurchaseOfferCodeCustomCodesGetInstanceParamsFieldsActors string
+
+// InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude defines parameters for InAppPurchaseOfferCodeCustomCodesGetInstance.
+type InAppPurchaseOfferCodeCustomCodesGetInstanceParamsInclude string
+
+// InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams defines parameters for InAppPurchaseOfferCodeOneTimeUseCodesGetInstance.
+type InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams struct {
+	// FieldsInAppPurchaseOfferCodeOneTimeUseCodes the fields to include for returned resources of type inAppPurchaseOfferCodeOneTimeUseCodes
+	FieldsInAppPurchaseOfferCodeOneTimeUseCodes *[]InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes `form:"fields[inAppPurchaseOfferCodeOneTimeUseCodes],omitempty" json:"fields[inAppPurchaseOfferCodeOneTimeUseCodes],omitempty"`
+
+	// FieldsActors the fields to include for returned resources of type actors
+	FieldsActors *[]InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors `form:"fields[actors],omitempty" json:"fields[actors],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes defines parameters for InAppPurchaseOfferCodeOneTimeUseCodesGetInstance.
+type InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes string
+
+// InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors defines parameters for InAppPurchaseOfferCodeOneTimeUseCodesGetInstance.
+type InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsFieldsActors string
+
+// InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude defines parameters for InAppPurchaseOfferCodeOneTimeUseCodesGetInstance.
+type InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParamsInclude string
+
+// InAppPurchaseOfferCodesGetInstanceParams defines parameters for InAppPurchaseOfferCodesGetInstance.
+type InAppPurchaseOfferCodesGetInstanceParams struct {
+	// FieldsInAppPurchaseOfferCodes the fields to include for returned resources of type inAppPurchaseOfferCodes
+	FieldsInAppPurchaseOfferCodes *[]InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes `form:"fields[inAppPurchaseOfferCodes],omitempty" json:"fields[inAppPurchaseOfferCodes],omitempty"`
+
+	// FieldsInAppPurchaseOfferCodeOneTimeUseCodes the fields to include for returned resources of type inAppPurchaseOfferCodeOneTimeUseCodes
+	FieldsInAppPurchaseOfferCodeOneTimeUseCodes *[]InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes `form:"fields[inAppPurchaseOfferCodeOneTimeUseCodes],omitempty" json:"fields[inAppPurchaseOfferCodeOneTimeUseCodes],omitempty"`
+
+	// FieldsInAppPurchaseOfferCodeCustomCodes the fields to include for returned resources of type inAppPurchaseOfferCodeCustomCodes
+	FieldsInAppPurchaseOfferCodeCustomCodes *[]InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes `form:"fields[inAppPurchaseOfferCodeCustomCodes],omitempty" json:"fields[inAppPurchaseOfferCodeCustomCodes],omitempty"`
+
+	// FieldsInAppPurchaseOfferPrices the fields to include for returned resources of type inAppPurchaseOfferPrices
+	FieldsInAppPurchaseOfferPrices *[]InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices `form:"fields[inAppPurchaseOfferPrices],omitempty" json:"fields[inAppPurchaseOfferPrices],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchaseOfferCodesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitCustomCodes maximum number of related customCodes returned (when they are included)
+	LimitCustomCodes *int `form:"limit[customCodes],omitempty" json:"limit[customCodes],omitempty"`
+
+	// LimitOneTimeUseCodes maximum number of related oneTimeUseCodes returned (when they are included)
+	LimitOneTimeUseCodes *int `form:"limit[oneTimeUseCodes],omitempty" json:"limit[oneTimeUseCodes],omitempty"`
+
+	// LimitPrices maximum number of related prices returned (when they are included)
+	LimitPrices *int `form:"limit[prices],omitempty" json:"limit[prices],omitempty"`
+}
+
+// InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes defines parameters for InAppPurchaseOfferCodesGetInstance.
+type InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodes string
+
+// InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes defines parameters for InAppPurchaseOfferCodesGetInstance.
+type InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeOneTimeUseCodes string
+
+// InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes defines parameters for InAppPurchaseOfferCodesGetInstance.
+type InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferCodeCustomCodes string
+
+// InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices defines parameters for InAppPurchaseOfferCodesGetInstance.
+type InAppPurchaseOfferCodesGetInstanceParamsFieldsInAppPurchaseOfferPrices string
+
+// InAppPurchaseOfferCodesGetInstanceParamsInclude defines parameters for InAppPurchaseOfferCodesGetInstance.
+type InAppPurchaseOfferCodesGetInstanceParamsInclude string
+
+// InAppPurchaseOfferCodesPricesGetToManyRelatedParams defines parameters for InAppPurchaseOfferCodesPricesGetToManyRelated.
+type InAppPurchaseOfferCodesPricesGetToManyRelatedParams struct {
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FieldsInAppPurchaseOfferPrices the fields to include for returned resources of type inAppPurchaseOfferPrices
+	FieldsInAppPurchaseOfferPrices *[]InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices `form:"fields[inAppPurchaseOfferPrices],omitempty" json:"fields[inAppPurchaseOfferPrices],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// FieldsInAppPurchasePricePoints the fields to include for returned resources of type inAppPurchasePricePoints
+	FieldsInAppPurchasePricePoints *[]InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints `form:"fields[inAppPurchasePricePoints],omitempty" json:"fields[inAppPurchasePricePoints],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices defines parameters for InAppPurchaseOfferCodesPricesGetToManyRelated.
+type InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchaseOfferPrices string
+
+// InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritories defines parameters for InAppPurchaseOfferCodesPricesGetToManyRelated.
+type InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsTerritories string
+
+// InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints defines parameters for InAppPurchaseOfferCodesPricesGetToManyRelated.
+type InAppPurchaseOfferCodesPricesGetToManyRelatedParamsFieldsInAppPurchasePricePoints string
+
+// InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude defines parameters for InAppPurchaseOfferCodesPricesGetToManyRelated.
+type InAppPurchaseOfferCodesPricesGetToManyRelatedParamsInclude string
+
 // InAppPurchasePricePointsEqualizationsGetToManyRelatedParams defines parameters for InAppPurchasePricePointsEqualizationsGetToManyRelated.
 type InAppPurchasePricePointsEqualizationsGetToManyRelatedParams struct {
 	// FilterTerritory filter by id(s) of related 'territory'
@@ -58326,6 +60632,129 @@ type SubscriptionGroupsVersionsGetToManyRelatedParamsFieldsSubscriptionGroupLoca
 
 // SubscriptionGroupsVersionsGetToManyRelatedParamsInclude defines parameters for SubscriptionGroupsVersionsGetToManyRelated.
 type SubscriptionGroupsVersionsGetToManyRelatedParamsInclude string
+
+// SubscriptionOfferCodeCustomCodesGetInstanceParams defines parameters for SubscriptionOfferCodeCustomCodesGetInstance.
+type SubscriptionOfferCodeCustomCodesGetInstanceParams struct {
+	// FieldsSubscriptionOfferCodeCustomCodes the fields to include for returned resources of type subscriptionOfferCodeCustomCodes
+	FieldsSubscriptionOfferCodeCustomCodes *[]SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes `form:"fields[subscriptionOfferCodeCustomCodes],omitempty" json:"fields[subscriptionOfferCodeCustomCodes],omitempty"`
+
+	// FieldsSubscriptionOfferCodes the fields to include for returned resources of type subscriptionOfferCodes
+	FieldsSubscriptionOfferCodes *[]SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes `form:"fields[subscriptionOfferCodes],omitempty" json:"fields[subscriptionOfferCodes],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionOfferCodeCustomCodesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes defines parameters for SubscriptionOfferCodeCustomCodesGetInstance.
+type SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes string
+
+// SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes defines parameters for SubscriptionOfferCodeCustomCodesGetInstance.
+type SubscriptionOfferCodeCustomCodesGetInstanceParamsFieldsSubscriptionOfferCodes string
+
+// SubscriptionOfferCodeCustomCodesGetInstanceParamsInclude defines parameters for SubscriptionOfferCodeCustomCodesGetInstance.
+type SubscriptionOfferCodeCustomCodesGetInstanceParamsInclude string
+
+// SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams defines parameters for SubscriptionOfferCodeOneTimeUseCodesGetInstance.
+type SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams struct {
+	// FieldsSubscriptionOfferCodeOneTimeUseCodes the fields to include for returned resources of type subscriptionOfferCodeOneTimeUseCodes
+	FieldsSubscriptionOfferCodeOneTimeUseCodes *[]SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes `form:"fields[subscriptionOfferCodeOneTimeUseCodes],omitempty" json:"fields[subscriptionOfferCodeOneTimeUseCodes],omitempty"`
+
+	// FieldsSubscriptionOfferCodes the fields to include for returned resources of type subscriptionOfferCodes
+	FieldsSubscriptionOfferCodes *[]SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes `form:"fields[subscriptionOfferCodes],omitempty" json:"fields[subscriptionOfferCodes],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes defines parameters for SubscriptionOfferCodeOneTimeUseCodesGetInstance.
+type SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes string
+
+// SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes defines parameters for SubscriptionOfferCodeOneTimeUseCodesGetInstance.
+type SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsFieldsSubscriptionOfferCodes string
+
+// SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsInclude defines parameters for SubscriptionOfferCodeOneTimeUseCodesGetInstance.
+type SubscriptionOfferCodeOneTimeUseCodesGetInstanceParamsInclude string
+
+// SubscriptionOfferCodesGetInstanceParams defines parameters for SubscriptionOfferCodesGetInstance.
+type SubscriptionOfferCodesGetInstanceParams struct {
+	// FieldsSubscriptionOfferCodes the fields to include for returned resources of type subscriptionOfferCodes
+	FieldsSubscriptionOfferCodes *[]SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes `form:"fields[subscriptionOfferCodes],omitempty" json:"fields[subscriptionOfferCodes],omitempty"`
+
+	// FieldsSubscriptions the fields to include for returned resources of type subscriptions
+	FieldsSubscriptions *[]SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions `form:"fields[subscriptions],omitempty" json:"fields[subscriptions],omitempty"`
+
+	// FieldsSubscriptionOfferCodeOneTimeUseCodes the fields to include for returned resources of type subscriptionOfferCodeOneTimeUseCodes
+	FieldsSubscriptionOfferCodeOneTimeUseCodes *[]SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes `form:"fields[subscriptionOfferCodeOneTimeUseCodes],omitempty" json:"fields[subscriptionOfferCodeOneTimeUseCodes],omitempty"`
+
+	// FieldsSubscriptionOfferCodeCustomCodes the fields to include for returned resources of type subscriptionOfferCodeCustomCodes
+	FieldsSubscriptionOfferCodeCustomCodes *[]SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes `form:"fields[subscriptionOfferCodeCustomCodes],omitempty" json:"fields[subscriptionOfferCodeCustomCodes],omitempty"`
+
+	// FieldsSubscriptionOfferCodePrices the fields to include for returned resources of type subscriptionOfferCodePrices
+	FieldsSubscriptionOfferCodePrices *[]SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices `form:"fields[subscriptionOfferCodePrices],omitempty" json:"fields[subscriptionOfferCodePrices],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionOfferCodesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitCustomCodes maximum number of related customCodes returned (when they are included)
+	LimitCustomCodes *int `form:"limit[customCodes],omitempty" json:"limit[customCodes],omitempty"`
+
+	// LimitOneTimeUseCodes maximum number of related oneTimeUseCodes returned (when they are included)
+	LimitOneTimeUseCodes *int `form:"limit[oneTimeUseCodes],omitempty" json:"limit[oneTimeUseCodes],omitempty"`
+
+	// LimitPrices maximum number of related prices returned (when they are included)
+	LimitPrices *int `form:"limit[prices],omitempty" json:"limit[prices],omitempty"`
+}
+
+// SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes defines parameters for SubscriptionOfferCodesGetInstance.
+type SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodes string
+
+// SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions defines parameters for SubscriptionOfferCodesGetInstance.
+type SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions string
+
+// SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes defines parameters for SubscriptionOfferCodesGetInstance.
+type SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeOneTimeUseCodes string
+
+// SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes defines parameters for SubscriptionOfferCodesGetInstance.
+type SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodeCustomCodes string
+
+// SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices defines parameters for SubscriptionOfferCodesGetInstance.
+type SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionOfferCodePrices string
+
+// SubscriptionOfferCodesGetInstanceParamsInclude defines parameters for SubscriptionOfferCodesGetInstance.
+type SubscriptionOfferCodesGetInstanceParamsInclude string
+
+// SubscriptionOfferCodesPricesGetToManyRelatedParams defines parameters for SubscriptionOfferCodesPricesGetToManyRelated.
+type SubscriptionOfferCodesPricesGetToManyRelatedParams struct {
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FieldsSubscriptionOfferCodePrices the fields to include for returned resources of type subscriptionOfferCodePrices
+	FieldsSubscriptionOfferCodePrices *[]SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices `form:"fields[subscriptionOfferCodePrices],omitempty" json:"fields[subscriptionOfferCodePrices],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// FieldsSubscriptionPricePoints the fields to include for returned resources of type subscriptionPricePoints
+	FieldsSubscriptionPricePoints *[]SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints `form:"fields[subscriptionPricePoints],omitempty" json:"fields[subscriptionPricePoints],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices defines parameters for SubscriptionOfferCodesPricesGetToManyRelated.
+type SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionOfferCodePrices string
+
+// SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritories defines parameters for SubscriptionOfferCodesPricesGetToManyRelated.
+type SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsTerritories string
+
+// SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints defines parameters for SubscriptionOfferCodesPricesGetToManyRelated.
+type SubscriptionOfferCodesPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints string
+
+// SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude defines parameters for SubscriptionOfferCodesPricesGetToManyRelated.
+type SubscriptionOfferCodesPricesGetToManyRelatedParamsInclude string
 
 // SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams defines parameters for SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated.
 type SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelatedParams struct {
@@ -59618,6 +62047,24 @@ type InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody = InApp
 // InAppPurchaseAvailabilitiesCreateInstanceJSONRequestBody defines body for InAppPurchaseAvailabilitiesCreateInstance for application/json ContentType.
 type InAppPurchaseAvailabilitiesCreateInstanceJSONRequestBody = InAppPurchaseAvailabilityCreateRequest
 
+// InAppPurchaseOfferCodeCustomCodesCreateInstanceJSONRequestBody defines body for InAppPurchaseOfferCodeCustomCodesCreateInstance for application/json ContentType.
+type InAppPurchaseOfferCodeCustomCodesCreateInstanceJSONRequestBody = InAppPurchaseOfferCodeCustomCodeCreateRequest
+
+// InAppPurchaseOfferCodeCustomCodesUpdateInstanceJSONRequestBody defines body for InAppPurchaseOfferCodeCustomCodesUpdateInstance for application/json ContentType.
+type InAppPurchaseOfferCodeCustomCodesUpdateInstanceJSONRequestBody = InAppPurchaseOfferCodeCustomCodeUpdateRequest
+
+// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody defines body for InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance for application/json ContentType.
+type InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody = InAppPurchaseOfferCodeOneTimeUseCodeCreateRequest
+
+// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody defines body for InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance for application/json ContentType.
+type InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody = InAppPurchaseOfferCodeOneTimeUseCodeUpdateRequest
+
+// InAppPurchaseOfferCodesCreateInstanceJSONRequestBody defines body for InAppPurchaseOfferCodesCreateInstance for application/json ContentType.
+type InAppPurchaseOfferCodesCreateInstanceJSONRequestBody = InAppPurchaseOfferCodeCreateRequest
+
+// InAppPurchaseOfferCodesUpdateInstanceJSONRequestBody defines body for InAppPurchaseOfferCodesUpdateInstance for application/json ContentType.
+type InAppPurchaseOfferCodesUpdateInstanceJSONRequestBody = InAppPurchaseOfferCodeUpdateRequest
+
 // InAppPurchasePriceSchedulesCreateInstanceJSONRequestBody defines body for InAppPurchasePriceSchedulesCreateInstance for application/json ContentType.
 type InAppPurchasePriceSchedulesCreateInstanceJSONRequestBody = InAppPurchasePriceScheduleCreateRequest
 
@@ -59689,6 +62136,24 @@ type SubscriptionIntroductoryOffersCreateInstanceJSONRequestBody = SubscriptionI
 
 // SubscriptionIntroductoryOffersUpdateInstanceJSONRequestBody defines body for SubscriptionIntroductoryOffersUpdateInstance for application/json ContentType.
 type SubscriptionIntroductoryOffersUpdateInstanceJSONRequestBody = SubscriptionIntroductoryOfferUpdateRequest
+
+// SubscriptionOfferCodeCustomCodesCreateInstanceJSONRequestBody defines body for SubscriptionOfferCodeCustomCodesCreateInstance for application/json ContentType.
+type SubscriptionOfferCodeCustomCodesCreateInstanceJSONRequestBody = SubscriptionOfferCodeCustomCodeCreateRequest
+
+// SubscriptionOfferCodeCustomCodesUpdateInstanceJSONRequestBody defines body for SubscriptionOfferCodeCustomCodesUpdateInstance for application/json ContentType.
+type SubscriptionOfferCodeCustomCodesUpdateInstanceJSONRequestBody = SubscriptionOfferCodeCustomCodeUpdateRequest
+
+// SubscriptionOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody defines body for SubscriptionOfferCodeOneTimeUseCodesCreateInstance for application/json ContentType.
+type SubscriptionOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody = SubscriptionOfferCodeOneTimeUseCodeCreateRequest
+
+// SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody defines body for SubscriptionOfferCodeOneTimeUseCodesUpdateInstance for application/json ContentType.
+type SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody = SubscriptionOfferCodeOneTimeUseCodeUpdateRequest
+
+// SubscriptionOfferCodesCreateInstanceJSONRequestBody defines body for SubscriptionOfferCodesCreateInstance for application/json ContentType.
+type SubscriptionOfferCodesCreateInstanceJSONRequestBody = SubscriptionOfferCodeCreateRequest
+
+// SubscriptionOfferCodesUpdateInstanceJSONRequestBody defines body for SubscriptionOfferCodesUpdateInstance for application/json ContentType.
+type SubscriptionOfferCodesUpdateInstanceJSONRequestBody = SubscriptionOfferCodeUpdateRequest
 
 // SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody defines body for SubscriptionPlanAvailabilitiesCreateInstance for application/json ContentType.
 type SubscriptionPlanAvailabilitiesCreateInstanceJSONRequestBody = SubscriptionPlanAvailabilityCreateRequest
@@ -67966,6 +70431,244 @@ func (t *ErrorResponse_Errors_Source) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsInAppPurchaseOfferCodeCustomCode returns the union data inside the InAppPurchaseOfferCodeResponse_Included_Item as a InAppPurchaseOfferCodeCustomCode
+func (t InAppPurchaseOfferCodeResponse_Included_Item) AsInAppPurchaseOfferCodeCustomCode() (InAppPurchaseOfferCodeCustomCode, error) {
+	var body InAppPurchaseOfferCodeCustomCode
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseOfferCodeCustomCode overwrites any union data inside the InAppPurchaseOfferCodeResponse_Included_Item as the provided InAppPurchaseOfferCodeCustomCode
+func (t *InAppPurchaseOfferCodeResponse_Included_Item) FromInAppPurchaseOfferCodeCustomCode(v InAppPurchaseOfferCodeCustomCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodeCustomCodes"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseOfferCodeCustomCode performs a merge with any union data inside the InAppPurchaseOfferCodeResponse_Included_Item, using the provided InAppPurchaseOfferCodeCustomCode
+func (t *InAppPurchaseOfferCodeResponse_Included_Item) MergeInAppPurchaseOfferCodeCustomCode(v InAppPurchaseOfferCodeCustomCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodeCustomCodes"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseOfferCodeOneTimeUseCode returns the union data inside the InAppPurchaseOfferCodeResponse_Included_Item as a InAppPurchaseOfferCodeOneTimeUseCode
+func (t InAppPurchaseOfferCodeResponse_Included_Item) AsInAppPurchaseOfferCodeOneTimeUseCode() (InAppPurchaseOfferCodeOneTimeUseCode, error) {
+	var body InAppPurchaseOfferCodeOneTimeUseCode
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseOfferCodeOneTimeUseCode overwrites any union data inside the InAppPurchaseOfferCodeResponse_Included_Item as the provided InAppPurchaseOfferCodeOneTimeUseCode
+func (t *InAppPurchaseOfferCodeResponse_Included_Item) FromInAppPurchaseOfferCodeOneTimeUseCode(v InAppPurchaseOfferCodeOneTimeUseCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodeOneTimeUseCodes"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseOfferCodeOneTimeUseCode performs a merge with any union data inside the InAppPurchaseOfferCodeResponse_Included_Item, using the provided InAppPurchaseOfferCodeOneTimeUseCode
+func (t *InAppPurchaseOfferCodeResponse_Included_Item) MergeInAppPurchaseOfferCodeOneTimeUseCode(v InAppPurchaseOfferCodeOneTimeUseCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodeOneTimeUseCodes"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseOfferPrice returns the union data inside the InAppPurchaseOfferCodeResponse_Included_Item as a InAppPurchaseOfferPrice
+func (t InAppPurchaseOfferCodeResponse_Included_Item) AsInAppPurchaseOfferPrice() (InAppPurchaseOfferPrice, error) {
+	var body InAppPurchaseOfferPrice
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseOfferPrice overwrites any union data inside the InAppPurchaseOfferCodeResponse_Included_Item as the provided InAppPurchaseOfferPrice
+func (t *InAppPurchaseOfferCodeResponse_Included_Item) FromInAppPurchaseOfferPrice(v InAppPurchaseOfferPrice) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferPrices"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseOfferPrice performs a merge with any union data inside the InAppPurchaseOfferCodeResponse_Included_Item, using the provided InAppPurchaseOfferPrice
+func (t *InAppPurchaseOfferCodeResponse_Included_Item) MergeInAppPurchaseOfferPrice(v InAppPurchaseOfferPrice) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferPrices"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t InAppPurchaseOfferCodeResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t InAppPurchaseOfferCodeResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "inAppPurchaseOfferCodeCustomCodes":
+		return t.AsInAppPurchaseOfferCodeCustomCode()
+	case "inAppPurchaseOfferCodeOneTimeUseCodes":
+		return t.AsInAppPurchaseOfferCodeOneTimeUseCode()
+	case "inAppPurchaseOfferPrices":
+		return t.AsInAppPurchaseOfferPrice()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t InAppPurchaseOfferCodeResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *InAppPurchaseOfferCodeResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsInAppPurchasePricePoint returns the union data inside the InAppPurchaseOfferPricesResponse_Included_Item as a InAppPurchasePricePoint
+func (t InAppPurchaseOfferPricesResponse_Included_Item) AsInAppPurchasePricePoint() (InAppPurchasePricePoint, error) {
+	var body InAppPurchasePricePoint
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchasePricePoint overwrites any union data inside the InAppPurchaseOfferPricesResponse_Included_Item as the provided InAppPurchasePricePoint
+func (t *InAppPurchaseOfferPricesResponse_Included_Item) FromInAppPurchasePricePoint(v InAppPurchasePricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchasePricePoint performs a merge with any union data inside the InAppPurchaseOfferPricesResponse_Included_Item, using the provided InAppPurchasePricePoint
+func (t *InAppPurchaseOfferPricesResponse_Included_Item) MergeInAppPurchasePricePoint(v InAppPurchasePricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the InAppPurchaseOfferPricesResponse_Included_Item as a Territory
+func (t InAppPurchaseOfferPricesResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the InAppPurchaseOfferPricesResponse_Included_Item as the provided Territory
+func (t *InAppPurchaseOfferPricesResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the InAppPurchaseOfferPricesResponse_Included_Item, using the provided Territory
+func (t *InAppPurchaseOfferPricesResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t InAppPurchaseOfferPricesResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t InAppPurchaseOfferPricesResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "inAppPurchasePricePoints":
+		return t.AsInAppPurchasePricePoint()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t InAppPurchaseOfferPricesResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *InAppPurchaseOfferPricesResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsInAppPurchasePriceInlineCreate returns the union data inside the InAppPurchasePriceScheduleCreateRequest_Included_Item as a InAppPurchasePriceInlineCreate
 func (t InAppPurchasePriceScheduleCreateRequest_Included_Item) AsInAppPurchasePriceInlineCreate() (InAppPurchasePriceInlineCreate, error) {
 	var body InAppPurchasePriceInlineCreate
@@ -71870,6 +74573,280 @@ func (t *SubscriptionIntroductoryOffersResponse_Included_Item) UnmarshalJSON(b [
 	return err
 }
 
+// AsSubscriptionPricePoint returns the union data inside the SubscriptionOfferCodePricesResponse_Included_Item as a SubscriptionPricePoint
+func (t SubscriptionOfferCodePricesResponse_Included_Item) AsSubscriptionPricePoint() (SubscriptionPricePoint, error) {
+	var body SubscriptionPricePoint
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscriptionPricePoint overwrites any union data inside the SubscriptionOfferCodePricesResponse_Included_Item as the provided SubscriptionPricePoint
+func (t *SubscriptionOfferCodePricesResponse_Included_Item) FromSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscriptionPricePoint performs a merge with any union data inside the SubscriptionOfferCodePricesResponse_Included_Item, using the provided SubscriptionPricePoint
+func (t *SubscriptionOfferCodePricesResponse_Included_Item) MergeSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the SubscriptionOfferCodePricesResponse_Included_Item as a Territory
+func (t SubscriptionOfferCodePricesResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the SubscriptionOfferCodePricesResponse_Included_Item as the provided Territory
+func (t *SubscriptionOfferCodePricesResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the SubscriptionOfferCodePricesResponse_Included_Item, using the provided Territory
+func (t *SubscriptionOfferCodePricesResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t SubscriptionOfferCodePricesResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t SubscriptionOfferCodePricesResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "subscriptionPricePoints":
+		return t.AsSubscriptionPricePoint()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t SubscriptionOfferCodePricesResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *SubscriptionOfferCodePricesResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsSubscriptionOfferCodeCustomCode returns the union data inside the SubscriptionOfferCodeResponse_Included_Item as a SubscriptionOfferCodeCustomCode
+func (t SubscriptionOfferCodeResponse_Included_Item) AsSubscriptionOfferCodeCustomCode() (SubscriptionOfferCodeCustomCode, error) {
+	var body SubscriptionOfferCodeCustomCode
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscriptionOfferCodeCustomCode overwrites any union data inside the SubscriptionOfferCodeResponse_Included_Item as the provided SubscriptionOfferCodeCustomCode
+func (t *SubscriptionOfferCodeResponse_Included_Item) FromSubscriptionOfferCodeCustomCode(v SubscriptionOfferCodeCustomCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionOfferCodeCustomCodes"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscriptionOfferCodeCustomCode performs a merge with any union data inside the SubscriptionOfferCodeResponse_Included_Item, using the provided SubscriptionOfferCodeCustomCode
+func (t *SubscriptionOfferCodeResponse_Included_Item) MergeSubscriptionOfferCodeCustomCode(v SubscriptionOfferCodeCustomCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionOfferCodeCustomCodes"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsSubscriptionOfferCodeOneTimeUseCode returns the union data inside the SubscriptionOfferCodeResponse_Included_Item as a SubscriptionOfferCodeOneTimeUseCode
+func (t SubscriptionOfferCodeResponse_Included_Item) AsSubscriptionOfferCodeOneTimeUseCode() (SubscriptionOfferCodeOneTimeUseCode, error) {
+	var body SubscriptionOfferCodeOneTimeUseCode
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscriptionOfferCodeOneTimeUseCode overwrites any union data inside the SubscriptionOfferCodeResponse_Included_Item as the provided SubscriptionOfferCodeOneTimeUseCode
+func (t *SubscriptionOfferCodeResponse_Included_Item) FromSubscriptionOfferCodeOneTimeUseCode(v SubscriptionOfferCodeOneTimeUseCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionOfferCodeOneTimeUseCodes"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscriptionOfferCodeOneTimeUseCode performs a merge with any union data inside the SubscriptionOfferCodeResponse_Included_Item, using the provided SubscriptionOfferCodeOneTimeUseCode
+func (t *SubscriptionOfferCodeResponse_Included_Item) MergeSubscriptionOfferCodeOneTimeUseCode(v SubscriptionOfferCodeOneTimeUseCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionOfferCodeOneTimeUseCodes"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsSubscriptionOfferCodePrice returns the union data inside the SubscriptionOfferCodeResponse_Included_Item as a SubscriptionOfferCodePrice
+func (t SubscriptionOfferCodeResponse_Included_Item) AsSubscriptionOfferCodePrice() (SubscriptionOfferCodePrice, error) {
+	var body SubscriptionOfferCodePrice
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscriptionOfferCodePrice overwrites any union data inside the SubscriptionOfferCodeResponse_Included_Item as the provided SubscriptionOfferCodePrice
+func (t *SubscriptionOfferCodeResponse_Included_Item) FromSubscriptionOfferCodePrice(v SubscriptionOfferCodePrice) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionOfferCodePrices"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscriptionOfferCodePrice performs a merge with any union data inside the SubscriptionOfferCodeResponse_Included_Item, using the provided SubscriptionOfferCodePrice
+func (t *SubscriptionOfferCodeResponse_Included_Item) MergeSubscriptionOfferCodePrice(v SubscriptionOfferCodePrice) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionOfferCodePrices"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsSubscription returns the union data inside the SubscriptionOfferCodeResponse_Included_Item as a Subscription
+func (t SubscriptionOfferCodeResponse_Included_Item) AsSubscription() (Subscription, error) {
+	var body Subscription
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscription overwrites any union data inside the SubscriptionOfferCodeResponse_Included_Item as the provided Subscription
+func (t *SubscriptionOfferCodeResponse_Included_Item) FromSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscription performs a merge with any union data inside the SubscriptionOfferCodeResponse_Included_Item, using the provided Subscription
+func (t *SubscriptionOfferCodeResponse_Included_Item) MergeSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t SubscriptionOfferCodeResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t SubscriptionOfferCodeResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "subscriptionOfferCodeCustomCodes":
+		return t.AsSubscriptionOfferCodeCustomCode()
+	case "subscriptionOfferCodeOneTimeUseCodes":
+		return t.AsSubscriptionOfferCodeOneTimeUseCode()
+	case "subscriptionOfferCodePrices":
+		return t.AsSubscriptionOfferCodePrice()
+	case "subscriptions":
+		return t.AsSubscription()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t SubscriptionOfferCodeResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *SubscriptionOfferCodeResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsSubscriptionPricePoint returns the union data inside the SubscriptionPriceResponse_Included_Item as a SubscriptionPricePoint
 func (t SubscriptionPriceResponse_Included_Item) AsSubscriptionPricePoint() (SubscriptionPricePoint, error) {
 	var body SubscriptionPricePoint
@@ -74724,6 +77701,69 @@ type ClientInterface interface {
 	// InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelated performs a GET /v1/inAppPurchaseAvailabilities/{id}/availableTerritories (the `InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelated` operationId) request.
 	InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelated(ctx context.Context, id string, params *InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBody performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeCustomCodesCreateInstance performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseOfferCodeCustomCodesCreateInstance(ctx context.Context, body InAppPurchaseOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeCustomCodesGetInstance performs a GET /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesGetInstance` operationId) request.
+	InAppPurchaseOfferCodeCustomCodesGetInstance(ctx context.Context, id string, params *InAppPurchaseOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeCustomCodesUpdateInstance performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseOfferCodeCustomCodesUpdateInstance(ctx context.Context, id string, body InAppPurchaseOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBody performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance(ctx context.Context, body InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesGetInstance performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstance(ctx context.Context, id string, params *InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance(ctx context.Context, id string, body InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}/values (the `InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+	InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodesCreateInstanceWithBody performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseOfferCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodesCreateInstance performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseOfferCodesCreateInstance(ctx context.Context, body InAppPurchaseOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodesGetInstance performs a GET /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesGetInstance` operationId) request.
+	InAppPurchaseOfferCodesGetInstance(ctx context.Context, id string, params *InAppPurchaseOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodesUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseOfferCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodesUpdateInstance performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseOfferCodesUpdateInstance(ctx context.Context, id string, body InAppPurchaseOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseOfferCodesPricesGetToManyRelated performs a GET /v1/inAppPurchaseOfferCodes/{id}/prices (the `InAppPurchaseOfferCodesPricesGetToManyRelated` operationId) request.
+	InAppPurchaseOfferCodesPricesGetToManyRelated(ctx context.Context, id string, params *InAppPurchaseOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// InAppPurchasePricePointsEqualizationsGetToManyRelated performs a GET /v1/inAppPurchasePricePoints/{id}/equalizations (the `InAppPurchasePricePointsEqualizationsGetToManyRelated` operationId) request.
 	InAppPurchasePricePointsEqualizationsGetToManyRelated(ctx context.Context, id string, params *InAppPurchasePricePointsEqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -75023,6 +78063,69 @@ type ClientInterface interface {
 	// SubscriptionIntroductoryOffersUpdateInstance performs a PATCH /v1/subscriptionIntroductoryOffers/{id} (the `SubscriptionIntroductoryOffersUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	SubscriptionIntroductoryOffersUpdateInstance(ctx context.Context, id string, body SubscriptionIntroductoryOffersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeCustomCodesCreateInstanceWithBody performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionOfferCodeCustomCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeCustomCodesCreateInstance performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionOfferCodeCustomCodesCreateInstance(ctx context.Context, body SubscriptionOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeCustomCodesGetInstance performs a GET /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesGetInstance` operationId) request.
+	SubscriptionOfferCodeCustomCodesGetInstance(ctx context.Context, id string, params *SubscriptionOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeCustomCodesUpdateInstanceWithBody performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionOfferCodeCustomCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeCustomCodesUpdateInstance performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionOfferCodeCustomCodesUpdateInstance(ctx context.Context, id string, body SubscriptionOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBody performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesCreateInstance performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionOfferCodeOneTimeUseCodesCreateInstance(ctx context.Context, body SubscriptionOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesGetInstance performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+	SubscriptionOfferCodeOneTimeUseCodesGetInstance(ctx context.Context, id string, params *SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBody performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesUpdateInstance performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionOfferCodeOneTimeUseCodesUpdateInstance(ctx context.Context, id string, body SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id}/values (the `SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+	SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodesCreateInstanceWithBody performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionOfferCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodesCreateInstance performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionOfferCodesCreateInstance(ctx context.Context, body SubscriptionOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodesGetInstance performs a GET /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesGetInstance` operationId) request.
+	SubscriptionOfferCodesGetInstance(ctx context.Context, id string, params *SubscriptionOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodesUpdateInstanceWithBody performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionOfferCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodesUpdateInstance performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionOfferCodesUpdateInstance(ctx context.Context, id string, body SubscriptionOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionOfferCodesPricesGetToManyRelated performs a GET /v1/subscriptionOfferCodes/{id}/prices (the `SubscriptionOfferCodesPricesGetToManyRelated` operationId) request.
+	SubscriptionOfferCodesPricesGetToManyRelated(ctx context.Context, id string, params *SubscriptionOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// SubscriptionPlanAvailabilitiesCreateInstanceWithBody performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -78892,6 +81995,239 @@ func (c *Client) InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelated
 	return c.Client.Do(req)
 }
 
+// InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBody performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeCustomCodesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeCustomCodesCreateInstance performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseOfferCodeCustomCodesCreateInstance(ctx context.Context, body InAppPurchaseOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeCustomCodesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeCustomCodesGetInstance performs a GET /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesGetInstance` operationId) request.
+func (c *Client) InAppPurchaseOfferCodeCustomCodesGetInstance(ctx context.Context, id string, params *InAppPurchaseOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeCustomCodesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeCustomCodesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeCustomCodesUpdateInstance performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseOfferCodeCustomCodesUpdateInstance(ctx context.Context, id string, body InAppPurchaseOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeCustomCodesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBody performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance(ctx context.Context, body InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesGetInstance performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+func (c *Client) InAppPurchaseOfferCodeOneTimeUseCodesGetInstance(ctx context.Context, id string, params *InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeOneTimeUseCodesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance(ctx context.Context, id string, body InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}/values (the `InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+func (c *Client) InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodesCreateInstanceWithBody performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseOfferCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodesCreateInstance performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseOfferCodesCreateInstance(ctx context.Context, body InAppPurchaseOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodesGetInstance performs a GET /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesGetInstance` operationId) request.
+func (c *Client) InAppPurchaseOfferCodesGetInstance(ctx context.Context, id string, params *InAppPurchaseOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodesUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseOfferCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodesUpdateInstance performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseOfferCodesUpdateInstance(ctx context.Context, id string, body InAppPurchaseOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseOfferCodesPricesGetToManyRelated performs a GET /v1/inAppPurchaseOfferCodes/{id}/prices (the `InAppPurchaseOfferCodesPricesGetToManyRelated` operationId) request.
+func (c *Client) InAppPurchaseOfferCodesPricesGetToManyRelated(ctx context.Context, id string, params *InAppPurchaseOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseOfferCodesPricesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // InAppPurchasePricePointsEqualizationsGetToManyRelated performs a GET /v1/inAppPurchasePricePoints/{id}/equalizations (the `InAppPurchasePricePointsEqualizationsGetToManyRelated` operationId) request.
 func (c *Client) InAppPurchasePricePointsEqualizationsGetToManyRelated(ctx context.Context, id string, params *InAppPurchasePricePointsEqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewInAppPurchasePricePointsEqualizationsGetToManyRelatedRequest(c.Server, id, params)
@@ -80022,6 +83358,239 @@ func (c *Client) SubscriptionIntroductoryOffersUpdateInstanceWithBody(ctx contex
 // Takes a body of the `application/json` content type.
 func (c *Client) SubscriptionIntroductoryOffersUpdateInstance(ctx context.Context, id string, body SubscriptionIntroductoryOffersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewSubscriptionIntroductoryOffersUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeCustomCodesCreateInstanceWithBody performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionOfferCodeCustomCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeCustomCodesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeCustomCodesCreateInstance performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionOfferCodeCustomCodesCreateInstance(ctx context.Context, body SubscriptionOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeCustomCodesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeCustomCodesGetInstance performs a GET /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesGetInstance` operationId) request.
+func (c *Client) SubscriptionOfferCodeCustomCodesGetInstance(ctx context.Context, id string, params *SubscriptionOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeCustomCodesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeCustomCodesUpdateInstanceWithBody performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionOfferCodeCustomCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeCustomCodesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeCustomCodesUpdateInstance performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionOfferCodeCustomCodesUpdateInstance(ctx context.Context, id string, body SubscriptionOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeCustomCodesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBody performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesCreateInstance performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionOfferCodeOneTimeUseCodesCreateInstance(ctx context.Context, body SubscriptionOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeOneTimeUseCodesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesGetInstance performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+func (c *Client) SubscriptionOfferCodeOneTimeUseCodesGetInstance(ctx context.Context, id string, params *SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeOneTimeUseCodesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBody performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesUpdateInstance performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionOfferCodeOneTimeUseCodesUpdateInstance(ctx context.Context, id string, body SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id}/values (the `SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+func (c *Client) SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodesCreateInstanceWithBody performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionOfferCodesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodesCreateInstance performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionOfferCodesCreateInstance(ctx context.Context, body SubscriptionOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodesGetInstance performs a GET /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesGetInstance` operationId) request.
+func (c *Client) SubscriptionOfferCodesGetInstance(ctx context.Context, id string, params *SubscriptionOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodesUpdateInstanceWithBody performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionOfferCodesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodesUpdateInstance performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionOfferCodesUpdateInstance(ctx context.Context, id string, body SubscriptionOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionOfferCodesPricesGetToManyRelated performs a GET /v1/subscriptionOfferCodes/{id}/prices (the `SubscriptionOfferCodesPricesGetToManyRelated` operationId) request.
+func (c *Client) SubscriptionOfferCodesPricesGetToManyRelated(ctx context.Context, id string, params *SubscriptionOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionOfferCodesPricesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -95889,6 +99458,737 @@ func NewInAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedRequest(s
 	return req, nil
 }
 
+// NewInAppPurchaseOfferCodeCustomCodesCreateInstanceRequest calls the generic InAppPurchaseOfferCodeCustomCodesCreateInstance builder with application/json body
+func NewInAppPurchaseOfferCodeCustomCodesCreateInstanceRequest(server string, body InAppPurchaseOfferCodeCustomCodesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseOfferCodeCustomCodesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseOfferCodeCustomCodesCreateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseOfferCodeCustomCodesCreateInstance method, with any body, and a specified content type
+func NewInAppPurchaseOfferCodeCustomCodesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodeCustomCodes")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodeCustomCodesGetInstanceRequest constructs an http.Request for the InAppPurchaseOfferCodeCustomCodesGetInstance method
+func NewInAppPurchaseOfferCodeCustomCodesGetInstanceRequest(server string, id string, params *InAppPurchaseOfferCodeCustomCodesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodeCustomCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseOfferCodeCustomCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferCodeCustomCodes]", *params.FieldsInAppPurchaseOfferCodeCustomCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsActors != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[actors]", *params.FieldsActors, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodeCustomCodesUpdateInstanceRequest calls the generic InAppPurchaseOfferCodeCustomCodesUpdateInstance builder with application/json body
+func NewInAppPurchaseOfferCodeCustomCodesUpdateInstanceRequest(server string, id string, body InAppPurchaseOfferCodeCustomCodesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseOfferCodeCustomCodesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseOfferCodeCustomCodesUpdateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseOfferCodeCustomCodesUpdateInstance method, with any body, and a specified content type
+func NewInAppPurchaseOfferCodeCustomCodesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodeCustomCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceRequest calls the generic InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance builder with application/json body
+func NewInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceRequest(server string, body InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance method, with any body, and a specified content type
+func NewInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodeOneTimeUseCodes")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodeOneTimeUseCodesGetInstanceRequest constructs an http.Request for the InAppPurchaseOfferCodeOneTimeUseCodesGetInstance method
+func NewInAppPurchaseOfferCodeOneTimeUseCodesGetInstanceRequest(server string, id string, params *InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodeOneTimeUseCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseOfferCodeOneTimeUseCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferCodeOneTimeUseCodes]", *params.FieldsInAppPurchaseOfferCodeOneTimeUseCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsActors != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[actors]", *params.FieldsActors, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceRequest calls the generic InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance builder with application/json body
+func NewInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceRequest(server string, id string, body InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance method, with any body, and a specified content type
+func NewInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodeOneTimeUseCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedRequest constructs an http.Request for the InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated method
+func NewInAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodeOneTimeUseCodes/%s/values", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodesCreateInstanceRequest calls the generic InAppPurchaseOfferCodesCreateInstance builder with application/json body
+func NewInAppPurchaseOfferCodesCreateInstanceRequest(server string, body InAppPurchaseOfferCodesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseOfferCodesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseOfferCodesCreateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseOfferCodesCreateInstance method, with any body, and a specified content type
+func NewInAppPurchaseOfferCodesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodes")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodesGetInstanceRequest constructs an http.Request for the InAppPurchaseOfferCodesGetInstance method
+func NewInAppPurchaseOfferCodesGetInstanceRequest(server string, id string, params *InAppPurchaseOfferCodesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferCodes]", *params.FieldsInAppPurchaseOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseOfferCodeOneTimeUseCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferCodeOneTimeUseCodes]", *params.FieldsInAppPurchaseOfferCodeOneTimeUseCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseOfferCodeCustomCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferCodeCustomCodes]", *params.FieldsInAppPurchaseOfferCodeCustomCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseOfferPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferPrices]", *params.FieldsInAppPurchaseOfferPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitCustomCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[customCodes]", *params.LimitCustomCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitOneTimeUseCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[oneTimeUseCodes]", *params.LimitOneTimeUseCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[prices]", *params.LimitPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodesUpdateInstanceRequest calls the generic InAppPurchaseOfferCodesUpdateInstance builder with application/json body
+func NewInAppPurchaseOfferCodesUpdateInstanceRequest(server string, id string, body InAppPurchaseOfferCodesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseOfferCodesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseOfferCodesUpdateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseOfferCodesUpdateInstance method, with any body, and a specified content type
+func NewInAppPurchaseOfferCodesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseOfferCodesPricesGetToManyRelatedRequest constructs an http.Request for the InAppPurchaseOfferCodesPricesGetToManyRelated method
+func NewInAppPurchaseOfferCodesPricesGetToManyRelatedRequest(server string, id string, params *InAppPurchaseOfferCodesPricesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseOfferCodes/%s/prices", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseOfferPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferPrices]", *params.FieldsInAppPurchaseOfferPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchasePricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchasePricePoints]", *params.FieldsInAppPurchasePricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewInAppPurchasePricePointsEqualizationsGetToManyRelatedRequest constructs an http.Request for the InAppPurchasePricePointsEqualizationsGetToManyRelated method
 func NewInAppPurchasePricePointsEqualizationsGetToManyRelatedRequest(server string, id string, params *InAppPurchasePricePointsEqualizationsGetToManyRelatedParams) (*http.Request, error) {
 	var err error
@@ -100779,6 +105079,749 @@ func NewSubscriptionIntroductoryOffersUpdateInstanceRequestWithBody(server strin
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodeCustomCodesCreateInstanceRequest calls the generic SubscriptionOfferCodeCustomCodesCreateInstance builder with application/json body
+func NewSubscriptionOfferCodeCustomCodesCreateInstanceRequest(server string, body SubscriptionOfferCodeCustomCodesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionOfferCodeCustomCodesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewSubscriptionOfferCodeCustomCodesCreateInstanceRequestWithBody constructs an http.Request for the SubscriptionOfferCodeCustomCodesCreateInstance method, with any body, and a specified content type
+func NewSubscriptionOfferCodeCustomCodesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodeCustomCodes")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodeCustomCodesGetInstanceRequest constructs an http.Request for the SubscriptionOfferCodeCustomCodesGetInstance method
+func NewSubscriptionOfferCodeCustomCodesGetInstanceRequest(server string, id string, params *SubscriptionOfferCodeCustomCodesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodeCustomCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsSubscriptionOfferCodeCustomCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodeCustomCodes]", *params.FieldsSubscriptionOfferCodeCustomCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodes]", *params.FieldsSubscriptionOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodeCustomCodesUpdateInstanceRequest calls the generic SubscriptionOfferCodeCustomCodesUpdateInstance builder with application/json body
+func NewSubscriptionOfferCodeCustomCodesUpdateInstanceRequest(server string, id string, body SubscriptionOfferCodeCustomCodesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionOfferCodeCustomCodesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionOfferCodeCustomCodesUpdateInstanceRequestWithBody constructs an http.Request for the SubscriptionOfferCodeCustomCodesUpdateInstance method, with any body, and a specified content type
+func NewSubscriptionOfferCodeCustomCodesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodeCustomCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodeOneTimeUseCodesCreateInstanceRequest calls the generic SubscriptionOfferCodeOneTimeUseCodesCreateInstance builder with application/json body
+func NewSubscriptionOfferCodeOneTimeUseCodesCreateInstanceRequest(server string, body SubscriptionOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewSubscriptionOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody constructs an http.Request for the SubscriptionOfferCodeOneTimeUseCodesCreateInstance method, with any body, and a specified content type
+func NewSubscriptionOfferCodeOneTimeUseCodesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodeOneTimeUseCodes")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodeOneTimeUseCodesGetInstanceRequest constructs an http.Request for the SubscriptionOfferCodeOneTimeUseCodesGetInstance method
+func NewSubscriptionOfferCodeOneTimeUseCodesGetInstanceRequest(server string, id string, params *SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodeOneTimeUseCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsSubscriptionOfferCodeOneTimeUseCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodeOneTimeUseCodes]", *params.FieldsSubscriptionOfferCodeOneTimeUseCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodes]", *params.FieldsSubscriptionOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceRequest calls the generic SubscriptionOfferCodeOneTimeUseCodesUpdateInstance builder with application/json body
+func NewSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceRequest(server string, id string, body SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody constructs an http.Request for the SubscriptionOfferCodeOneTimeUseCodesUpdateInstance method, with any body, and a specified content type
+func NewSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodeOneTimeUseCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedRequest constructs an http.Request for the SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated method
+func NewSubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodeOneTimeUseCodes/%s/values", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodesCreateInstanceRequest calls the generic SubscriptionOfferCodesCreateInstance builder with application/json body
+func NewSubscriptionOfferCodesCreateInstanceRequest(server string, body SubscriptionOfferCodesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionOfferCodesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewSubscriptionOfferCodesCreateInstanceRequestWithBody constructs an http.Request for the SubscriptionOfferCodesCreateInstance method, with any body, and a specified content type
+func NewSubscriptionOfferCodesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodes")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodesGetInstanceRequest constructs an http.Request for the SubscriptionOfferCodesGetInstance method
+func NewSubscriptionOfferCodesGetInstanceRequest(server string, id string, params *SubscriptionOfferCodesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsSubscriptionOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodes]", *params.FieldsSubscriptionOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptions]", *params.FieldsSubscriptions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionOfferCodeOneTimeUseCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodeOneTimeUseCodes]", *params.FieldsSubscriptionOfferCodeOneTimeUseCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionOfferCodeCustomCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodeCustomCodes]", *params.FieldsSubscriptionOfferCodeCustomCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionOfferCodePrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodePrices]", *params.FieldsSubscriptionOfferCodePrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitCustomCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[customCodes]", *params.LimitCustomCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitOneTimeUseCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[oneTimeUseCodes]", *params.LimitOneTimeUseCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[prices]", *params.LimitPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodesUpdateInstanceRequest calls the generic SubscriptionOfferCodesUpdateInstance builder with application/json body
+func NewSubscriptionOfferCodesUpdateInstanceRequest(server string, id string, body SubscriptionOfferCodesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionOfferCodesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionOfferCodesUpdateInstanceRequestWithBody constructs an http.Request for the SubscriptionOfferCodesUpdateInstance method, with any body, and a specified content type
+func NewSubscriptionOfferCodesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodes/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionOfferCodesPricesGetToManyRelatedRequest constructs an http.Request for the SubscriptionOfferCodesPricesGetToManyRelated method
+func NewSubscriptionOfferCodesPricesGetToManyRelatedRequest(server string, id string, params *SubscriptionOfferCodesPricesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptionOfferCodes/%s/prices", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionOfferCodePrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionOfferCodePrices]", *params.FieldsSubscriptionOfferCodePrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionPricePoints]", *params.FieldsSubscriptionPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -107946,6 +112989,91 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse, error)
 
+	// InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeCustomCodesCreateInstanceWithResponse performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeCustomCodesCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeCustomCodesGetInstanceWithResponse performs a GET /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeCustomCodesGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesGetInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithResponse performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceWithResponse performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}/values (the `InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse, error)
+
+	// InAppPurchaseOfferCodesCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesCreateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodesCreateInstanceWithResponse performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodesCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesCreateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodesGetInstanceWithResponse performs a GET /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodesGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesGetInstanceResponse, error)
+
+	// InAppPurchaseOfferCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesUpdateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodesUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodesUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesUpdateInstanceResponse, error)
+
+	// InAppPurchaseOfferCodesPricesGetToManyRelatedWithResponse performs a GET /v1/inAppPurchaseOfferCodes/{id}/prices (the `InAppPurchaseOfferCodesPricesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseOfferCodesPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesPricesGetToManyRelatedResponse, error)
+
 	// InAppPurchasePricePointsEqualizationsGetToManyRelatedWithResponse performs a GET /v1/inAppPurchasePricePoints/{id}/equalizations (the `InAppPurchasePricePointsEqualizationsGetToManyRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -108365,6 +113493,91 @@ type ClientWithResponsesInterface interface {
 	// SubscriptionIntroductoryOffersUpdateInstanceWithResponse performs a PATCH /v1/subscriptionIntroductoryOffers/{id} (the `SubscriptionIntroductoryOffersUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	SubscriptionIntroductoryOffersUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionIntroductoryOffersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionIntroductoryOffersUpdateInstanceResponse, error)
+
+	// SubscriptionOfferCodeCustomCodesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeCustomCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesCreateInstanceResponse, error)
+
+	// SubscriptionOfferCodeCustomCodesCreateInstanceWithResponse performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeCustomCodesCreateInstanceWithResponse(ctx context.Context, body SubscriptionOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesCreateInstanceResponse, error)
+
+	// SubscriptionOfferCodeCustomCodesGetInstanceWithResponse performs a GET /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeCustomCodesGetInstanceWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesGetInstanceResponse, error)
+
+	// SubscriptionOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesUpdateInstanceResponse, error)
+
+	// SubscriptionOfferCodeCustomCodesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeCustomCodesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesUpdateInstanceResponse, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithResponse performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithResponse(ctx context.Context, body SubscriptionOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesGetInstanceWithResponse performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeOneTimeUseCodesGetInstanceWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse, error)
+
+	// SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id}/values (the `SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse, error)
+
+	// SubscriptionOfferCodesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesCreateInstanceResponse, error)
+
+	// SubscriptionOfferCodesCreateInstanceWithResponse performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodesCreateInstanceWithResponse(ctx context.Context, body SubscriptionOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesCreateInstanceResponse, error)
+
+	// SubscriptionOfferCodesGetInstanceWithResponse performs a GET /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodesGetInstanceWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesGetInstanceResponse, error)
+
+	// SubscriptionOfferCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesUpdateInstanceResponse, error)
+
+	// SubscriptionOfferCodesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesUpdateInstanceResponse, error)
+
+	// SubscriptionOfferCodesPricesGetToManyRelatedWithResponse performs a GET /v1/subscriptionOfferCodes/{id}/prices (the `SubscriptionOfferCodesPricesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionOfferCodesPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesPricesGetToManyRelatedResponse, error)
 
 	// SubscriptionPlanAvailabilitiesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -122641,6 +127854,898 @@ func (r InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse)
 	return ""
 }
 
+type InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseOfferCodeCustomCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetJSON201() *InAppPurchaseOfferCodeCustomCodeResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodeCustomCodesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseOfferCodeCustomCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) GetJSON200() *InAppPurchaseOfferCodeCustomCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodeCustomCodesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseOfferCodeCustomCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON200() *InAppPurchaseOfferCodeCustomCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseOfferCodeOneTimeUseCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON201() *InAppPurchaseOfferCodeOneTimeUseCodeResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseOfferCodeOneTimeUseCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON200() *InAppPurchaseOfferCodeOneTimeUseCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseOfferCodeOneTimeUseCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON200() *InAppPurchaseOfferCodeOneTimeUseCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseOfferCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetJSON201() *InAppPurchaseOfferCodeResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseOfferCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseOfferCodesGetInstanceResponse) GetJSON200() *InAppPurchaseOfferCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseOfferCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON200() *InAppPurchaseOfferCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseOfferCodesPricesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseOfferPricesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) GetJSON200() *InAppPurchaseOfferPricesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseOfferCodesPricesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type InAppPurchasePricePointsEqualizationsGetToManyRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -127328,6 +133433,898 @@ func (r SubscriptionIntroductoryOffersUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r SubscriptionIntroductoryOffersUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodeCustomCodesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *SubscriptionOfferCodeCustomCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetJSON201() *SubscriptionOfferCodeCustomCodeResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodeCustomCodesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodeCustomCodesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionOfferCodeCustomCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) GetJSON200() *SubscriptionOfferCodeCustomCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodeCustomCodesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodeCustomCodesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionOfferCodeCustomCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON200() *SubscriptionOfferCodeCustomCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodeCustomCodesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *SubscriptionOfferCodeOneTimeUseCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON201() *SubscriptionOfferCodeOneTimeUseCodeResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionOfferCodeOneTimeUseCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON200() *SubscriptionOfferCodeOneTimeUseCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionOfferCodeOneTimeUseCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON200() *SubscriptionOfferCodeOneTimeUseCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *SubscriptionOfferCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetJSON201() *SubscriptionOfferCodeResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionOfferCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionOfferCodesGetInstanceResponse) GetJSON200() *SubscriptionOfferCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionOfferCodeResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON200() *SubscriptionOfferCodeResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionOfferCodesPricesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionOfferCodePricesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) GetJSON200() *SubscriptionOfferCodePricesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionOfferCodesPricesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -136497,6 +143494,193 @@ func (c *ClientWithResponses) InAppPurchaseAvailabilitiesAvailableTerritoriesGet
 	return ParseInAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedResponse(rsp)
 }
 
+// InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeCustomCodesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeCustomCodesCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeCustomCodesCreateInstanceWithResponse performs a POST /v1/inAppPurchaseOfferCodeCustomCodes (the `InAppPurchaseOfferCodeCustomCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeCustomCodesCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeCustomCodesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeCustomCodesCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeCustomCodesGetInstanceWithResponse performs a GET /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeCustomCodesGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesGetInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeCustomCodesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeCustomCodesGetInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id} (the `InAppPurchaseOfferCodeCustomCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeCustomCodesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithResponse performs a POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes (the `InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceWithResponse performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeOneTimeUseCodesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id} (the `InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse performs a GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}/values (the `InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse(rsp)
+}
+
+// InAppPurchaseOfferCodesCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodesCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodesCreateInstanceWithResponse performs a POST /v1/inAppPurchaseOfferCodes (the `InAppPurchaseOfferCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodesCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodesCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodesGetInstanceWithResponse performs a GET /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodesGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesGetInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodesGetInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodesUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodesUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseOfferCodes/{id} (the `InAppPurchaseOfferCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodesUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodesUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseOfferCodesPricesGetToManyRelatedWithResponse performs a GET /v1/inAppPurchaseOfferCodes/{id}/prices (the `InAppPurchaseOfferCodesPricesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseOfferCodesPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseOfferCodesPricesGetToManyRelatedResponse, error) {
+	rsp, err := c.InAppPurchaseOfferCodesPricesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseOfferCodesPricesGetToManyRelatedResponse(rsp)
+}
+
 // InAppPurchasePricePointsEqualizationsGetToManyRelatedWithResponse performs a GET /v1/inAppPurchasePricePoints/{id}/equalizations (the `InAppPurchasePricePointsEqualizationsGetToManyRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -137419,6 +144603,193 @@ func (c *ClientWithResponses) SubscriptionIntroductoryOffersUpdateInstanceWithRe
 		return nil, err
 	}
 	return ParseSubscriptionIntroductoryOffersUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeCustomCodesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeCustomCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeCustomCodesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeCustomCodesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeCustomCodesCreateInstanceWithResponse performs a POST /v1/subscriptionOfferCodeCustomCodes (the `SubscriptionOfferCodeCustomCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeCustomCodesCreateInstanceWithResponse(ctx context.Context, body SubscriptionOfferCodeCustomCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeCustomCodesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeCustomCodesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeCustomCodesGetInstanceWithResponse performs a GET /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeCustomCodesGetInstanceWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodeCustomCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesGetInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeCustomCodesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeCustomCodesGetInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeCustomCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeCustomCodesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeCustomCodesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeCustomCodesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionOfferCodeCustomCodes/{id} (the `SubscriptionOfferCodeCustomCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeCustomCodesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionOfferCodeCustomCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeCustomCodesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeCustomCodesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeCustomCodesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithResponse performs a POST /v1/subscriptionOfferCodeOneTimeUseCodes (the `SubscriptionOfferCodeOneTimeUseCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithResponse(ctx context.Context, body SubscriptionOfferCodeOneTimeUseCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeOneTimeUseCodesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesGetInstanceWithResponse performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeOneTimeUseCodesGetInstanceWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeOneTimeUseCodesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id} (the `SubscriptionOfferCodeOneTimeUseCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeOneTimeUseCodesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse performs a GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id}/values (the `SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse, error) {
+	rsp, err := c.SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse(rsp)
+}
+
+// SubscriptionOfferCodesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodesCreateInstanceWithResponse performs a POST /v1/subscriptionOfferCodes (the `SubscriptionOfferCodesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodesCreateInstanceWithResponse(ctx context.Context, body SubscriptionOfferCodesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesCreateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodesCreateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodesGetInstanceWithResponse performs a GET /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodesGetInstanceWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodesGetInstanceParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesGetInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodesGetInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodesUpdateInstanceWithResponse performs a PATCH /v1/subscriptionOfferCodes/{id} (the `SubscriptionOfferCodesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodesUpdateInstanceWithResponse(ctx context.Context, id string, body SubscriptionOfferCodesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesUpdateInstanceResponse, error) {
+	rsp, err := c.SubscriptionOfferCodesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodesUpdateInstanceResponse(rsp)
+}
+
+// SubscriptionOfferCodesPricesGetToManyRelatedWithResponse performs a GET /v1/subscriptionOfferCodes/{id}/prices (the `SubscriptionOfferCodesPricesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionOfferCodesPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionOfferCodesPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionOfferCodesPricesGetToManyRelatedResponse, error) {
+	rsp, err := c.SubscriptionOfferCodesPricesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionOfferCodesPricesGetToManyRelatedResponse(rsp)
 }
 
 // SubscriptionPlanAvailabilitiesCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionPlanAvailabilities (the `SubscriptionPlanAvailabilitiesCreateInstance` operationId) request,
@@ -149910,6 +157281,733 @@ func ParseInAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedRespons
 	return response, nil
 }
 
+// ParseInAppPurchaseOfferCodeCustomCodesCreateInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodeCustomCodesCreateInstanceWithResponse call
+func ParseInAppPurchaseOfferCodeCustomCodesCreateInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodeCustomCodesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseOfferCodeCustomCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodeCustomCodesGetInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodeCustomCodesGetInstanceWithResponse call
+func ParseInAppPurchaseOfferCodeCustomCodesGetInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodeCustomCodesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodeCustomCodesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseOfferCodeCustomCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodeCustomCodesUpdateInstanceWithResponse call
+func ParseInAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodeCustomCodesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseOfferCodeCustomCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceWithResponse call
+func ParseInAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodeOneTimeUseCodesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseOfferCodeOneTimeUseCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceWithResponse call
+func ParseInAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseOfferCodeOneTimeUseCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceWithResponse call
+func ParseInAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseOfferCodeOneTimeUseCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse parses an HTTP response from a InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse call
+func ParseInAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse(rsp *http.Response) (*InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodesCreateInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodesCreateInstanceWithResponse call
+func ParseInAppPurchaseOfferCodesCreateInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseOfferCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodesGetInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodesGetInstanceWithResponse call
+func ParseInAppPurchaseOfferCodesGetInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseOfferCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodesUpdateInstanceResponse parses an HTTP response from a InAppPurchaseOfferCodesUpdateInstanceWithResponse call
+func ParseInAppPurchaseOfferCodesUpdateInstanceResponse(rsp *http.Response) (*InAppPurchaseOfferCodesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseOfferCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseOfferCodesPricesGetToManyRelatedResponse parses an HTTP response from a InAppPurchaseOfferCodesPricesGetToManyRelatedWithResponse call
+func ParseInAppPurchaseOfferCodesPricesGetToManyRelatedResponse(rsp *http.Response) (*InAppPurchaseOfferCodesPricesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseOfferCodesPricesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseOfferPricesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseInAppPurchasePricePointsEqualizationsGetToManyRelatedResponse parses an HTTP response from a InAppPurchasePricePointsEqualizationsGetToManyRelatedWithResponse call
 func ParseInAppPurchasePricePointsEqualizationsGetToManyRelatedResponse(rsp *http.Response) (*InAppPurchasePricePointsEqualizationsGetToManyRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -153723,6 +161821,733 @@ func ParseSubscriptionIntroductoryOffersUpdateInstanceResponse(rsp *http.Respons
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodeCustomCodesCreateInstanceResponse parses an HTTP response from a SubscriptionOfferCodeCustomCodesCreateInstanceWithResponse call
+func ParseSubscriptionOfferCodeCustomCodesCreateInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodeCustomCodesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodeCustomCodesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest SubscriptionOfferCodeCustomCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodeCustomCodesGetInstanceResponse parses an HTTP response from a SubscriptionOfferCodeCustomCodesGetInstanceWithResponse call
+func ParseSubscriptionOfferCodeCustomCodesGetInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodeCustomCodesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodeCustomCodesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionOfferCodeCustomCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodeCustomCodesUpdateInstanceResponse parses an HTTP response from a SubscriptionOfferCodeCustomCodesUpdateInstanceWithResponse call
+func ParseSubscriptionOfferCodeCustomCodesUpdateInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodeCustomCodesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodeCustomCodesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionOfferCodeCustomCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse parses an HTTP response from a SubscriptionOfferCodeOneTimeUseCodesCreateInstanceWithResponse call
+func ParseSubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodeOneTimeUseCodesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest SubscriptionOfferCodeOneTimeUseCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse parses an HTTP response from a SubscriptionOfferCodeOneTimeUseCodesGetInstanceWithResponse call
+func ParseSubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodeOneTimeUseCodesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionOfferCodeOneTimeUseCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse parses an HTTP response from a SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceWithResponse call
+func ParseSubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodeOneTimeUseCodesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionOfferCodeOneTimeUseCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse parses an HTTP response from a SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedWithResponse call
+func ParseSubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse(rsp *http.Response) (*SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodesCreateInstanceResponse parses an HTTP response from a SubscriptionOfferCodesCreateInstanceWithResponse call
+func ParseSubscriptionOfferCodesCreateInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest SubscriptionOfferCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodesGetInstanceResponse parses an HTTP response from a SubscriptionOfferCodesGetInstanceWithResponse call
+func ParseSubscriptionOfferCodesGetInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionOfferCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodesUpdateInstanceResponse parses an HTTP response from a SubscriptionOfferCodesUpdateInstanceWithResponse call
+func ParseSubscriptionOfferCodesUpdateInstanceResponse(rsp *http.Response) (*SubscriptionOfferCodesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionOfferCodeResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionOfferCodesPricesGetToManyRelatedResponse parses an HTTP response from a SubscriptionOfferCodesPricesGetToManyRelatedWithResponse call
+func ParseSubscriptionOfferCodesPricesGetToManyRelatedResponse(rsp *http.Response) (*SubscriptionOfferCodesPricesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionOfferCodesPricesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionOfferCodePricesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -159483,6 +168308,39 @@ type ServerInterface interface {
 	// (GET /v1/inAppPurchaseAvailabilities/{id}/availableTerritories)
 	InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelatedParams)
 
+	// (POST /v1/inAppPurchaseOfferCodeCustomCodes)
+	InAppPurchaseOfferCodeCustomCodesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/inAppPurchaseOfferCodeCustomCodes/{id})
+	InAppPurchaseOfferCodeCustomCodesGetInstance(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseOfferCodeCustomCodesGetInstanceParams)
+
+	// (PATCH /v1/inAppPurchaseOfferCodeCustomCodes/{id})
+	InAppPurchaseOfferCodeCustomCodesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/inAppPurchaseOfferCodeOneTimeUseCodes)
+	InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id})
+	InAppPurchaseOfferCodeOneTimeUseCodesGetInstance(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams)
+
+	// (PATCH /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id})
+	InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}/values)
+	InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/inAppPurchaseOfferCodes)
+	InAppPurchaseOfferCodesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/inAppPurchaseOfferCodes/{id})
+	InAppPurchaseOfferCodesGetInstance(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseOfferCodesGetInstanceParams)
+
+	// (PATCH /v1/inAppPurchaseOfferCodes/{id})
+	InAppPurchaseOfferCodesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/inAppPurchaseOfferCodes/{id}/prices)
+	InAppPurchaseOfferCodesPricesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseOfferCodesPricesGetToManyRelatedParams)
+
 	// (GET /v1/inAppPurchasePricePoints/{id}/equalizations)
 	InAppPurchasePricePointsEqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchasePricePointsEqualizationsGetToManyRelatedParams)
 
@@ -159662,6 +168520,39 @@ type ServerInterface interface {
 
 	// (PATCH /v1/subscriptionIntroductoryOffers/{id})
 	SubscriptionIntroductoryOffersUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/subscriptionOfferCodeCustomCodes)
+	SubscriptionOfferCodeCustomCodesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/subscriptionOfferCodeCustomCodes/{id})
+	SubscriptionOfferCodeCustomCodesGetInstance(w http.ResponseWriter, r *http.Request, id string, params SubscriptionOfferCodeCustomCodesGetInstanceParams)
+
+	// (PATCH /v1/subscriptionOfferCodeCustomCodes/{id})
+	SubscriptionOfferCodeCustomCodesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/subscriptionOfferCodeOneTimeUseCodes)
+	SubscriptionOfferCodeOneTimeUseCodesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id})
+	SubscriptionOfferCodeOneTimeUseCodesGetInstance(w http.ResponseWriter, r *http.Request, id string, params SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams)
+
+	// (PATCH /v1/subscriptionOfferCodeOneTimeUseCodes/{id})
+	SubscriptionOfferCodeOneTimeUseCodesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/subscriptionOfferCodeOneTimeUseCodes/{id}/values)
+	SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/subscriptionOfferCodes)
+	SubscriptionOfferCodesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/subscriptionOfferCodes/{id})
+	SubscriptionOfferCodesGetInstance(w http.ResponseWriter, r *http.Request, id string, params SubscriptionOfferCodesGetInstanceParams)
+
+	// (PATCH /v1/subscriptionOfferCodes/{id})
+	SubscriptionOfferCodesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/subscriptionOfferCodes/{id}/prices)
+	SubscriptionOfferCodesPricesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionOfferCodesPricesGetToManyRelatedParams)
 
 	// (POST /v1/subscriptionPlanAvailabilities)
 	SubscriptionPlanAvailabilitiesCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -171285,6 +180176,528 @@ func (siw *ServerInterfaceWrapper) InAppPurchaseAvailabilitiesAvailableTerritori
 	handler.ServeHTTP(w, r)
 }
 
+// InAppPurchaseOfferCodeCustomCodesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodeCustomCodesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodeCustomCodesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodeCustomCodesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodeCustomCodesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseOfferCodeCustomCodesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferCodeCustomCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferCodeCustomCodes]", r.URL.Query(), &params.FieldsInAppPurchaseOfferCodeCustomCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferCodeCustomCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferCodeCustomCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[actors]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[actors]", r.URL.Query(), &params.FieldsActors, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[actors]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[actors]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodeCustomCodesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodeCustomCodesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodeCustomCodesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodeCustomCodesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodeOneTimeUseCodesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseOfferCodeOneTimeUseCodesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferCodeOneTimeUseCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferCodeOneTimeUseCodes]", r.URL.Query(), &params.FieldsInAppPurchaseOfferCodeOneTimeUseCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferCodeOneTimeUseCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferCodeOneTimeUseCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[actors]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[actors]", r.URL.Query(), &params.FieldsActors, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[actors]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[actors]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodeOneTimeUseCodesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseOfferCodesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferCodes]", r.URL.Query(), &params.FieldsInAppPurchaseOfferCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferCodeOneTimeUseCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferCodeOneTimeUseCodes]", r.URL.Query(), &params.FieldsInAppPurchaseOfferCodeOneTimeUseCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferCodeOneTimeUseCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferCodeOneTimeUseCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferCodeCustomCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferCodeCustomCodes]", r.URL.Query(), &params.FieldsInAppPurchaseOfferCodeCustomCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferCodeCustomCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferCodeCustomCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferPrices]", r.URL.Query(), &params.FieldsInAppPurchaseOfferPrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[customCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[customCodes]", r.URL.Query(), &params.LimitCustomCodes, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[customCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[customCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[oneTimeUseCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[oneTimeUseCodes]", r.URL.Query(), &params.LimitOneTimeUseCodes, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[oneTimeUseCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[oneTimeUseCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[prices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[prices]", r.URL.Query(), &params.LimitPrices, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[prices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[prices]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseOfferCodesPricesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseOfferCodesPricesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseOfferCodesPricesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferPrices]", r.URL.Query(), &params.FieldsInAppPurchaseOfferPrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchasePricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchasePricePoints]", r.URL.Query(), &params.FieldsInAppPurchasePricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchasePricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchasePricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseOfferCodesPricesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // InAppPurchasePricePointsEqualizationsGetToManyRelated operation middleware
 func (siw *ServerInterfaceWrapper) InAppPurchasePricePointsEqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -175175,6 +184588,541 @@ func (siw *ServerInterfaceWrapper) SubscriptionIntroductoryOffersUpdateInstance(
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.SubscriptionIntroductoryOffersUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodeCustomCodesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodeCustomCodesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodeCustomCodesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodeCustomCodesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodeCustomCodesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionOfferCodeCustomCodesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodeCustomCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodeCustomCodes]", r.URL.Query(), &params.FieldsSubscriptionOfferCodeCustomCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodeCustomCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodeCustomCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodes]", r.URL.Query(), &params.FieldsSubscriptionOfferCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodeCustomCodesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodeCustomCodesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodeCustomCodesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodeCustomCodesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodeOneTimeUseCodesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodeOneTimeUseCodesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodeOneTimeUseCodesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionOfferCodeOneTimeUseCodesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodeOneTimeUseCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodeOneTimeUseCodes]", r.URL.Query(), &params.FieldsSubscriptionOfferCodeOneTimeUseCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodeOneTimeUseCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodeOneTimeUseCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodes]", r.URL.Query(), &params.FieldsSubscriptionOfferCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodeOneTimeUseCodesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodeOneTimeUseCodesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodeOneTimeUseCodesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionOfferCodesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodes]", r.URL.Query(), &params.FieldsSubscriptionOfferCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptions]", r.URL.Query(), &params.FieldsSubscriptions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodeOneTimeUseCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodeOneTimeUseCodes]", r.URL.Query(), &params.FieldsSubscriptionOfferCodeOneTimeUseCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodeOneTimeUseCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodeOneTimeUseCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodeCustomCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodeCustomCodes]", r.URL.Query(), &params.FieldsSubscriptionOfferCodeCustomCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodeCustomCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodeCustomCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodePrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodePrices]", r.URL.Query(), &params.FieldsSubscriptionOfferCodePrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodePrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodePrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[customCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[customCodes]", r.URL.Query(), &params.LimitCustomCodes, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[customCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[customCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[oneTimeUseCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[oneTimeUseCodes]", r.URL.Query(), &params.LimitOneTimeUseCodes, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[oneTimeUseCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[oneTimeUseCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[prices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[prices]", r.URL.Query(), &params.LimitPrices, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[prices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[prices]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionOfferCodesPricesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionOfferCodesPricesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionOfferCodesPricesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionOfferCodePrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionOfferCodePrices]", r.URL.Query(), &params.FieldsSubscriptionOfferCodePrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionOfferCodePrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionOfferCodePrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionPricePoints]", r.URL.Query(), &params.FieldsSubscriptionPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionOfferCodesPricesGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -179926,6 +189874,17 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseAvailabilities", wrapper.InAppPurchaseAvailabilitiesCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseAvailabilities/{id}/availableTerritories", wrapper.InAppPurchaseAvailabilitiesAvailableTerritoriesGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodeCustomCodes", wrapper.InAppPurchaseOfferCodeCustomCodesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodeCustomCodes/{id}", wrapper.InAppPurchaseOfferCodeCustomCodesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodeCustomCodes/{id}", wrapper.InAppPurchaseOfferCodeCustomCodesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodeOneTimeUseCodes", wrapper.InAppPurchaseOfferCodeOneTimeUseCodesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}", wrapper.InAppPurchaseOfferCodeOneTimeUseCodesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}", wrapper.InAppPurchaseOfferCodeOneTimeUseCodesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodeOneTimeUseCodes/{id}/values", wrapper.InAppPurchaseOfferCodeOneTimeUseCodesValuesGetToOneRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodes", wrapper.InAppPurchaseOfferCodesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodes/{id}", wrapper.InAppPurchaseOfferCodesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodes/{id}", wrapper.InAppPurchaseOfferCodesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseOfferCodes/{id}/prices", wrapper.InAppPurchaseOfferCodesPricesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchasePricePoints/{id}/equalizations", wrapper.InAppPurchasePricePointsEqualizationsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchasePriceSchedules", wrapper.InAppPurchasePriceSchedulesCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchasePriceSchedules/{id}/baseTerritory", wrapper.InAppPurchasePriceSchedulesBaseTerritoryGetToOneRelated)
@@ -179986,6 +189945,17 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionIntroductoryOffers", wrapper.SubscriptionIntroductoryOffersCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/subscriptionIntroductoryOffers/{id}", wrapper.SubscriptionIntroductoryOffersDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionIntroductoryOffers/{id}", wrapper.SubscriptionIntroductoryOffersUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionOfferCodeCustomCodes", wrapper.SubscriptionOfferCodeCustomCodesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionOfferCodeCustomCodes/{id}", wrapper.SubscriptionOfferCodeCustomCodesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionOfferCodeCustomCodes/{id}", wrapper.SubscriptionOfferCodeCustomCodesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionOfferCodeOneTimeUseCodes", wrapper.SubscriptionOfferCodeOneTimeUseCodesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionOfferCodeOneTimeUseCodes/{id}", wrapper.SubscriptionOfferCodeOneTimeUseCodesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionOfferCodeOneTimeUseCodes/{id}", wrapper.SubscriptionOfferCodeOneTimeUseCodesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionOfferCodeOneTimeUseCodes/{id}/values", wrapper.SubscriptionOfferCodeOneTimeUseCodesValuesGetToOneRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionOfferCodes", wrapper.SubscriptionOfferCodesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionOfferCodes/{id}", wrapper.SubscriptionOfferCodesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionOfferCodes/{id}", wrapper.SubscriptionOfferCodesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionOfferCodes/{id}/prices", wrapper.SubscriptionOfferCodesPricesGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionPlanAvailabilities", wrapper.SubscriptionPlanAvailabilitiesCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptionPlanAvailabilities/{id}", wrapper.SubscriptionPlanAvailabilitiesUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionPlanAvailabilities/{id}/availableTerritories", wrapper.SubscriptionPlanAvailabilitiesAvailableTerritoriesGetToManyRelated)
