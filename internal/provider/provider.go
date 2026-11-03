@@ -150,6 +150,7 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 		newSetBuildExportComplianceAction,
 		newSubmitBetaReviewAction,
 		newSubmitForReviewAction,
+		newSubmitIAPAction,
 	}
 }
 
@@ -170,6 +171,10 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newReviewAttachmentResource,
 		newDeclarationDocumentResource,
 		newRoutingCoverageResource,
+		newIAPResource,
+		newIAPLocalizationResource,
+		newIAPImageResource,
+		newIAPReviewScreenshotResource,
 		newNominationResource,
 		newWebhookResource,
 		newSearchKeywordResource,
@@ -209,6 +214,7 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newSearchKeywordsDataSource,
 		newWebhooksDataSource,
 		newWebhookDeliveriesDataSource,
+		newIAPsDataSource,
 		newAppDataSource,
 		newAppsDataSource,
 		newBetaGroupsDataSource,

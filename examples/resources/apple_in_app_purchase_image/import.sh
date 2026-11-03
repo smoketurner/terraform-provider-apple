@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_image.coins 1234567890

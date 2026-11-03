@@ -67,6 +67,28 @@ func updateSubmission(ctx context.Context, c *asc.Client, id string, submit bool
 	return asc.Err(out, err)
 }
 
+// openSubmission returns the app's review submission for platform that is
+// being prepared, creating one if there is none.
+func openSubmission(ctx context.Context, c *asc.Client, appID string, platform gen.Platform) (string, error) {
+	open, err := reviewSubmissions(ctx, c, appID, platform, gen.ReviewSubmissionsGetCollectionParamsFilterStateREADYFORREVIEW)
+	if err != nil {
+		return "", err
+	}
+	if len(open) > 0 {
+		return open[0].Id, nil
+	}
+	var body gen.ReviewSubmissionCreateRequest
+	body.Data.Type = gen.ReviewSubmissionCreateRequestDataTypeReviewSubmissions
+	asc.Alloc(&body.Data.Attributes).Platform = new(platform)
+	body.Data.Relationships.App.Data.Id = appID
+	body.Data.Relationships.App.Data.Type = gen.ReviewSubmissionCreateRequestDataRelationshipsAppDataTypeApps
+	out, err := c.ReviewSubmissionsCreateInstanceWithResponse(ctx, body)
+	if err := asc.Err(out, err); err != nil {
+		return "", err
+	}
+	return out.JSON201.Data.Id, nil
+}
+
 var newSubmitForReviewAction = newAction("submit_for_review",
 	"Submits an App Store version to App Review. The version needs a build and the metadata App Review requires. "+
 		"The version is added to the platform's review submission that is being prepared, or a new one, which is "+
@@ -77,24 +99,9 @@ var newSubmitForReviewAction = newAction("submit_for_review",
 		if err != nil {
 			return "", err
 		}
-		open, err := reviewSubmissions(ctx, c, appID, platform, gen.ReviewSubmissionsGetCollectionParamsFilterStateREADYFORREVIEW)
+		submissionID, err := openSubmission(ctx, c, appID, platform)
 		if err != nil {
 			return "", err
-		}
-		var submissionID string
-		if len(open) > 0 {
-			submissionID = open[0].Id
-		} else {
-			var body gen.ReviewSubmissionCreateRequest
-			body.Data.Type = gen.ReviewSubmissionCreateRequestDataTypeReviewSubmissions
-			asc.Alloc(&body.Data.Attributes).Platform = new(platform)
-			body.Data.Relationships.App.Data.Id = appID
-			body.Data.Relationships.App.Data.Type = gen.ReviewSubmissionCreateRequestDataRelationshipsAppDataTypeApps
-			out, err := c.ReviewSubmissionsCreateInstanceWithResponse(ctx, body)
-			if err := asc.Err(out, err); err != nil {
-				return "", err
-			}
-			submissionID = out.JSON201.Data.Id
 		}
 		var item gen.ReviewSubmissionItemCreateRequest
 		item.Data.Type = gen.ReviewSubmissionItemCreateRequestDataTypeReviewSubmissionItems

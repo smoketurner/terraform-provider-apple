@@ -76,6 +76,7 @@ type Server struct {
 	webhooks    map[string]*webhook
 	media       *mediaState
 	files       map[string]*uploadedFile
+	iap         *iapState
 
 	failNext map[string][]int
 	requests []string
@@ -115,6 +116,7 @@ func NewServer() *Server {
 		webhooks:     newWebhooks(),
 		media:        newMediaState(),
 		files:        map[string]*uploadedFile{},
+		iap:          newIAPState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

@@ -394,9 +394,9 @@ operations:
   apps_gameCenterEnabledVersions_getToManyRelationship: {status: planned, issue: 13}
   apps_getCollection: {status: covered, by: [data.apple_app, data.apple_apps]}
   apps_getInstance: {status: covered, by: [data.apple_app]}
-  apps_inAppPurchasesV2_getToManyRelated: {status: planned, issue: 7}
+  apps_inAppPurchasesV2_getToManyRelated: {status: covered, by: [data.apple_in_app_purchases]}
   apps_inAppPurchasesV2_getToManyRelationship: {status: planned, issue: 7}
-  apps_inAppPurchases_getToManyRelated: {status: planned, issue: 7}
+  apps_inAppPurchases_getToManyRelated: {status: out_of_scope, reason: "the v1 in-app purchase API is deprecated; the v2 operations replace it"}
   apps_inAppPurchases_getToManyRelationship: {status: planned, issue: 7}
   apps_marketplaceSearchDetail_getToOneRelated: {status: planned, issue: 15}
   apps_marketplaceSearchDetail_getToOneRelationship: {status: planned, issue: 15}
@@ -1000,31 +1000,31 @@ operations:
   gameCenterMatchmakingTeams_updateInstance: {status: planned, issue: 13}
   gameCenterPlayerAchievementSubmissions_createInstance: {status: planned, issue: 13}
   gameCenterScoreModerations_updateInstance: {status: planned, issue: 13}
-  inAppPurchaseAppStoreReviewScreenshots_createInstance: {status: planned, issue: 7}
-  inAppPurchaseAppStoreReviewScreenshots_deleteInstance: {status: planned, issue: 7}
-  inAppPurchaseAppStoreReviewScreenshots_getInstance: {status: planned, issue: 7}
-  inAppPurchaseAppStoreReviewScreenshots_updateInstance: {status: planned, issue: 7}
+  inAppPurchaseAppStoreReviewScreenshots_createInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
+  inAppPurchaseAppStoreReviewScreenshots_deleteInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
+  inAppPurchaseAppStoreReviewScreenshots_getInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
+  inAppPurchaseAppStoreReviewScreenshots_updateInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
   inAppPurchaseAvailabilities_availableTerritories_getToManyRelated: {status: planned, issue: 7}
   inAppPurchaseAvailabilities_availableTerritories_getToManyRelationship: {status: planned, issue: 7}
   inAppPurchaseAvailabilities_createInstance: {status: planned, issue: 7}
   inAppPurchaseAvailabilities_getInstance: {status: planned, issue: 7}
   inAppPurchaseContents_getInstance: {status: planned, issue: 7}
-  inAppPurchaseImagesV2_createInstance: {status: planned, issue: 7}
-  inAppPurchaseImagesV2_deleteInstance: {status: planned, issue: 7}
-  inAppPurchaseImagesV2_getInstance: {status: planned, issue: 7}
-  inAppPurchaseImagesV2_updateInstance: {status: planned, issue: 7}
-  inAppPurchaseImages_createInstance: {status: planned, issue: 7}
-  inAppPurchaseImages_deleteInstance: {status: planned, issue: 7}
-  inAppPurchaseImages_getInstance: {status: planned, issue: 7}
-  inAppPurchaseImages_updateInstance: {status: planned, issue: 7}
-  inAppPurchaseLocalizationsV2_createInstance: {status: planned, issue: 7}
-  inAppPurchaseLocalizationsV2_deleteInstance: {status: planned, issue: 7}
+  inAppPurchaseImagesV2_createInstance: {status: covered, by: [apple_in_app_purchase_image]}
+  inAppPurchaseImagesV2_deleteInstance: {status: covered, by: [apple_in_app_purchase_image]}
+  inAppPurchaseImagesV2_getInstance: {status: covered, by: [apple_in_app_purchase_image]}
+  inAppPurchaseImagesV2_updateInstance: {status: covered, by: [apple_in_app_purchase_image]}
+  inAppPurchaseImages_createInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseImages_deleteInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseImages_getInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseImages_updateInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseLocalizationsV2_createInstance: {status: covered, by: [apple_in_app_purchase_localization]}
+  inAppPurchaseLocalizationsV2_deleteInstance: {status: covered, by: [apple_in_app_purchase_localization]}
   inAppPurchaseLocalizationsV2_getInstance: {status: planned, issue: 7}
-  inAppPurchaseLocalizationsV2_updateInstance: {status: planned, issue: 7}
-  inAppPurchaseLocalizations_createInstance: {status: planned, issue: 7}
-  inAppPurchaseLocalizations_deleteInstance: {status: planned, issue: 7}
-  inAppPurchaseLocalizations_getInstance: {status: planned, issue: 7}
-  inAppPurchaseLocalizations_updateInstance: {status: planned, issue: 7}
+  inAppPurchaseLocalizationsV2_updateInstance: {status: covered, by: [apple_in_app_purchase_localization]}
+  inAppPurchaseLocalizations_createInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseLocalizations_deleteInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseLocalizations_getInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseLocalizations_updateInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
   inAppPurchaseOfferCodeCustomCodes_createInstance: {status: planned, issue: 7}
   inAppPurchaseOfferCodeCustomCodes_getInstance: {status: planned, issue: 7}
   inAppPurchaseOfferCodeCustomCodes_updateInstance: {status: planned, issue: 7}
@@ -1051,29 +1051,29 @@ operations:
   inAppPurchasePriceSchedules_getInstance: {status: planned, issue: 7}
   inAppPurchasePriceSchedules_manualPrices_getToManyRelated: {status: planned, issue: 7}
   inAppPurchasePriceSchedules_manualPrices_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchaseSubmissions_createInstance: {status: planned, issue: 7}
-  inAppPurchaseVersions_createInstance: {status: planned, issue: 7}
-  inAppPurchaseVersions_getInstance: {status: planned, issue: 7}
-  inAppPurchaseVersions_image_getToOneRelated: {status: planned, issue: 7}
+  inAppPurchaseSubmissions_createInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
+  inAppPurchaseVersions_createInstance: {status: covered, by: [apple_in_app_purchase_localization, apple_in_app_purchase_image, action.apple_submit_in_app_purchase]}
+  inAppPurchaseVersions_getInstance: {status: out_of_scope, reason: "versions are read through the purchase's version list"}
+  inAppPurchaseVersions_image_getToOneRelated: {status: covered, by: [apple_in_app_purchase_image]}
   inAppPurchaseVersions_image_getToOneRelationship: {status: planned, issue: 7}
   inAppPurchaseVersions_images_getToManyRelated: {status: planned, issue: 7}
   inAppPurchaseVersions_images_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchaseVersions_localizations_getToManyRelated: {status: planned, issue: 7}
+  inAppPurchaseVersions_localizations_getToManyRelated: {status: covered, by: [apple_in_app_purchase_localization]}
   inAppPurchaseVersions_localizations_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_appStoreReviewScreenshot_getToOneRelated: {status: planned, issue: 7}
+  inAppPurchasesV2_appStoreReviewScreenshot_getToOneRelated: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
   inAppPurchasesV2_appStoreReviewScreenshot_getToOneRelationship: {status: planned, issue: 7}
   inAppPurchasesV2_content_getToOneRelated: {status: planned, issue: 7}
   inAppPurchasesV2_content_getToOneRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_createInstance: {status: planned, issue: 7}
-  inAppPurchasesV2_deleteInstance: {status: planned, issue: 7}
-  inAppPurchasesV2_getInstance: {status: planned, issue: 7}
+  inAppPurchasesV2_createInstance: {status: covered, by: [apple_in_app_purchase]}
+  inAppPurchasesV2_deleteInstance: {status: covered, by: [apple_in_app_purchase]}
+  inAppPurchasesV2_getInstance: {status: covered, by: [apple_in_app_purchase]}
   inAppPurchasesV2_iapPriceSchedule_getToOneRelated: {status: planned, issue: 7}
   inAppPurchasesV2_iapPriceSchedule_getToOneRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_images_getToManyRelated: {status: planned, issue: 7}
+  inAppPurchasesV2_images_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
   inAppPurchasesV2_images_getToManyRelationship: {status: planned, issue: 7}
   inAppPurchasesV2_inAppPurchaseAvailability_getToOneRelated: {status: planned, issue: 7}
   inAppPurchasesV2_inAppPurchaseAvailability_getToOneRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_inAppPurchaseLocalizations_getToManyRelated: {status: planned, issue: 7}
+  inAppPurchasesV2_inAppPurchaseLocalizations_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
   inAppPurchasesV2_inAppPurchaseLocalizations_getToManyRelationship: {status: planned, issue: 7}
   inAppPurchasesV2_offerCodes_getToManyRelated: {status: planned, issue: 7}
   inAppPurchasesV2_offerCodes_getToManyRelationship: {status: planned, issue: 7}
@@ -1081,10 +1081,10 @@ operations:
   inAppPurchasesV2_pricePoints_getToManyRelationship: {status: planned, issue: 7}
   inAppPurchasesV2_promotedPurchase_getToOneRelated: {status: planned, issue: 7}
   inAppPurchasesV2_promotedPurchase_getToOneRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_updateInstance: {status: planned, issue: 7}
-  inAppPurchasesV2_versions_getToManyRelated: {status: planned, issue: 7}
+  inAppPurchasesV2_updateInstance: {status: covered, by: [apple_in_app_purchase]}
+  inAppPurchasesV2_versions_getToManyRelated: {status: covered, by: [apple_in_app_purchase_localization, apple_in_app_purchase_image, action.apple_submit_in_app_purchase]}
   inAppPurchasesV2_versions_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchases_getInstance: {status: planned, issue: 7}
+  inAppPurchases_getInstance: {status: out_of_scope, reason: "the v1 in-app purchase API is deprecated; the v2 operations replace it"}
   marketplaceSearchDetails_createInstance: {status: planned, issue: 15}
   marketplaceSearchDetails_deleteInstance: {status: planned, issue: 15}
   marketplaceSearchDetails_updateInstance: {status: planned, issue: 15}

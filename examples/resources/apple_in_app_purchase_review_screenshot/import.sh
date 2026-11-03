@@ -1,0 +1,1 @@
+terraform import apple_in_app_purchase_review_screenshot.coins 1234567890

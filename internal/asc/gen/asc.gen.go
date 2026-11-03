@@ -9044,6 +9044,843 @@ func (e InAppPurchaseResourceType) Valid() bool {
 	}
 }
 
+// Defines values for InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataType.
+const (
+	InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataTypeInAppPurchases InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataType enum.
+func (e InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataType) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAppStoreReviewScreenshotType.
+const (
+	InAppPurchaseAppStoreReviewScreenshotTypeInAppPurchaseAppStoreReviewScreenshots InAppPurchaseAppStoreReviewScreenshotType = "inAppPurchaseAppStoreReviewScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotType enum.
+func (e InAppPurchaseAppStoreReviewScreenshotType) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotTypeInAppPurchaseAppStoreReviewScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataType.
+const (
+	InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataTypeInAppPurchases InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataType enum.
+func (e InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataType) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAppStoreReviewScreenshotCreateRequestDataType.
+const (
+	InAppPurchaseAppStoreReviewScreenshotCreateRequestDataTypeInAppPurchaseAppStoreReviewScreenshots InAppPurchaseAppStoreReviewScreenshotCreateRequestDataType = "inAppPurchaseAppStoreReviewScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotCreateRequestDataType enum.
+func (e InAppPurchaseAppStoreReviewScreenshotCreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotCreateRequestDataTypeInAppPurchaseAppStoreReviewScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataType.
+const (
+	InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataTypeInAppPurchaseAppStoreReviewScreenshots InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataType = "inAppPurchaseAppStoreReviewScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataType enum.
+func (e InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataTypeInAppPurchaseAppStoreReviewScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataType.
+const (
+	InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataTypeTerritories InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataType enum.
+func (e InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAvailabilityType.
+const (
+	InAppPurchaseAvailabilityTypeInAppPurchaseAvailabilities InAppPurchaseAvailabilityType = "inAppPurchaseAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAvailabilityType enum.
+func (e InAppPurchaseAvailabilityType) Valid() bool {
+	switch e {
+	case InAppPurchaseAvailabilityTypeInAppPurchaseAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseContentRelationshipsInAppPurchaseV2DataType.
+const (
+	InAppPurchaseContentRelationshipsInAppPurchaseV2DataTypeInAppPurchases InAppPurchaseContentRelationshipsInAppPurchaseV2DataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseContentRelationshipsInAppPurchaseV2DataType enum.
+func (e InAppPurchaseContentRelationshipsInAppPurchaseV2DataType) Valid() bool {
+	switch e {
+	case InAppPurchaseContentRelationshipsInAppPurchaseV2DataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseContentType.
+const (
+	InAppPurchaseContentTypeInAppPurchaseContents InAppPurchaseContentType = "inAppPurchaseContents"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseContentType enum.
+func (e InAppPurchaseContentType) Valid() bool {
+	switch e {
+	case InAppPurchaseContentTypeInAppPurchaseContents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImageAttributesState.
+const (
+	InAppPurchaseImageAttributesStateAPPROVED             InAppPurchaseImageAttributesState = "APPROVED"
+	InAppPurchaseImageAttributesStateAWAITINGUPLOAD       InAppPurchaseImageAttributesState = "AWAITING_UPLOAD"
+	InAppPurchaseImageAttributesStateFAILED               InAppPurchaseImageAttributesState = "FAILED"
+	InAppPurchaseImageAttributesStatePREPAREFORSUBMISSION InAppPurchaseImageAttributesState = "PREPARE_FOR_SUBMISSION"
+	InAppPurchaseImageAttributesStateREJECTED             InAppPurchaseImageAttributesState = "REJECTED"
+	InAppPurchaseImageAttributesStateUPLOADCOMPLETE       InAppPurchaseImageAttributesState = "UPLOAD_COMPLETE"
+	InAppPurchaseImageAttributesStateWAITINGFORREVIEW     InAppPurchaseImageAttributesState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImageAttributesState enum.
+func (e InAppPurchaseImageAttributesState) Valid() bool {
+	switch e {
+	case InAppPurchaseImageAttributesStateAPPROVED:
+		return true
+	case InAppPurchaseImageAttributesStateAWAITINGUPLOAD:
+		return true
+	case InAppPurchaseImageAttributesStateFAILED:
+		return true
+	case InAppPurchaseImageAttributesStatePREPAREFORSUBMISSION:
+		return true
+	case InAppPurchaseImageAttributesStateREJECTED:
+		return true
+	case InAppPurchaseImageAttributesStateUPLOADCOMPLETE:
+		return true
+	case InAppPurchaseImageAttributesStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImageRelationshipsInAppPurchaseDataType.
+const (
+	InAppPurchaseImageRelationshipsInAppPurchaseDataTypeInAppPurchases InAppPurchaseImageRelationshipsInAppPurchaseDataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImageRelationshipsInAppPurchaseDataType enum.
+func (e InAppPurchaseImageRelationshipsInAppPurchaseDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseImageRelationshipsInAppPurchaseDataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImageType.
+const (
+	InAppPurchaseImageTypeInAppPurchaseImages InAppPurchaseImageType = "inAppPurchaseImages"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImageType enum.
+func (e InAppPurchaseImageType) Valid() bool {
+	switch e {
+	case InAppPurchaseImageTypeInAppPurchaseImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImageV2Type.
+const (
+	InAppPurchaseImageV2TypeInAppPurchaseImages InAppPurchaseImageV2Type = "inAppPurchaseImages"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImageV2Type enum.
+func (e InAppPurchaseImageV2Type) Valid() bool {
+	switch e {
+	case InAppPurchaseImageV2TypeInAppPurchaseImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataType.
+const (
+	InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataTypeInAppPurchaseVersions InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataType = "inAppPurchaseVersions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataType enum.
+func (e InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataTypeInAppPurchaseVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImageV2CreateRequestDataType.
+const (
+	InAppPurchaseImageV2CreateRequestDataTypeInAppPurchaseImages InAppPurchaseImageV2CreateRequestDataType = "inAppPurchaseImages"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImageV2CreateRequestDataType enum.
+func (e InAppPurchaseImageV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseImageV2CreateRequestDataTypeInAppPurchaseImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImageV2UpdateRequestDataType.
+const (
+	InAppPurchaseImageV2UpdateRequestDataTypeInAppPurchaseImages InAppPurchaseImageV2UpdateRequestDataType = "inAppPurchaseImages"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImageV2UpdateRequestDataType enum.
+func (e InAppPurchaseImageV2UpdateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseImageV2UpdateRequestDataTypeInAppPurchaseImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationAttributesState.
+const (
+	InAppPurchaseLocalizationAttributesStateAPPROVED             InAppPurchaseLocalizationAttributesState = "APPROVED"
+	InAppPurchaseLocalizationAttributesStatePREPAREFORSUBMISSION InAppPurchaseLocalizationAttributesState = "PREPARE_FOR_SUBMISSION"
+	InAppPurchaseLocalizationAttributesStateREJECTED             InAppPurchaseLocalizationAttributesState = "REJECTED"
+	InAppPurchaseLocalizationAttributesStateWAITINGFORREVIEW     InAppPurchaseLocalizationAttributesState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationAttributesState enum.
+func (e InAppPurchaseLocalizationAttributesState) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationAttributesStateAPPROVED:
+		return true
+	case InAppPurchaseLocalizationAttributesStatePREPAREFORSUBMISSION:
+		return true
+	case InAppPurchaseLocalizationAttributesStateREJECTED:
+		return true
+	case InAppPurchaseLocalizationAttributesStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataType.
+const (
+	InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataTypeInAppPurchases InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataType enum.
+func (e InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataType) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationType.
+const (
+	InAppPurchaseLocalizationTypeInAppPurchaseLocalizations InAppPurchaseLocalizationType = "inAppPurchaseLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationType enum.
+func (e InAppPurchaseLocalizationType) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationTypeInAppPurchaseLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationV2RelationshipsVersionDataType.
+const (
+	InAppPurchaseLocalizationV2RelationshipsVersionDataTypeInAppPurchaseVersions InAppPurchaseLocalizationV2RelationshipsVersionDataType = "inAppPurchaseVersions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationV2RelationshipsVersionDataType enum.
+func (e InAppPurchaseLocalizationV2RelationshipsVersionDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationV2RelationshipsVersionDataTypeInAppPurchaseVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationV2Type.
+const (
+	InAppPurchaseLocalizationV2TypeInAppPurchaseLocalizations InAppPurchaseLocalizationV2Type = "inAppPurchaseLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationV2Type enum.
+func (e InAppPurchaseLocalizationV2Type) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationV2TypeInAppPurchaseLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataType.
+const (
+	InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataTypeInAppPurchaseVersions InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataType = "inAppPurchaseVersions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataType enum.
+func (e InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataTypeInAppPurchaseVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationV2CreateRequestDataType.
+const (
+	InAppPurchaseLocalizationV2CreateRequestDataTypeInAppPurchaseLocalizations InAppPurchaseLocalizationV2CreateRequestDataType = "inAppPurchaseLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationV2CreateRequestDataType enum.
+func (e InAppPurchaseLocalizationV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationV2CreateRequestDataTypeInAppPurchaseLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseLocalizationV2UpdateRequestDataType.
+const (
+	InAppPurchaseLocalizationV2UpdateRequestDataTypeInAppPurchaseLocalizations InAppPurchaseLocalizationV2UpdateRequestDataType = "inAppPurchaseLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseLocalizationV2UpdateRequestDataType enum.
+func (e InAppPurchaseLocalizationV2UpdateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseLocalizationV2UpdateRequestDataTypeInAppPurchaseLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeAttributesCustomerEligibilities.
+const (
+	InAppPurchaseOfferCodeAttributesCustomerEligibilitiesACTIVESPENDER  InAppPurchaseOfferCodeAttributesCustomerEligibilities = "ACTIVE_SPENDER"
+	InAppPurchaseOfferCodeAttributesCustomerEligibilitiesCHURNEDSPENDER InAppPurchaseOfferCodeAttributesCustomerEligibilities = "CHURNED_SPENDER"
+	InAppPurchaseOfferCodeAttributesCustomerEligibilitiesNONSPENDER     InAppPurchaseOfferCodeAttributesCustomerEligibilities = "NON_SPENDER"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeAttributesCustomerEligibilities enum.
+func (e InAppPurchaseOfferCodeAttributesCustomerEligibilities) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeAttributesCustomerEligibilitiesACTIVESPENDER:
+		return true
+	case InAppPurchaseOfferCodeAttributesCustomerEligibilitiesCHURNEDSPENDER:
+		return true
+	case InAppPurchaseOfferCodeAttributesCustomerEligibilitiesNONSPENDER:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeRelationshipsCustomCodesDataType.
+const (
+	InAppPurchaseOfferCodeRelationshipsCustomCodesDataTypeInAppPurchaseOfferCodeCustomCodes InAppPurchaseOfferCodeRelationshipsCustomCodesDataType = "inAppPurchaseOfferCodeCustomCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeRelationshipsCustomCodesDataType enum.
+func (e InAppPurchaseOfferCodeRelationshipsCustomCodesDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeRelationshipsCustomCodesDataTypeInAppPurchaseOfferCodeCustomCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataType.
+const (
+	InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataTypeInAppPurchaseOfferCodeOneTimeUseCodes InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataType = "inAppPurchaseOfferCodeOneTimeUseCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataType enum.
+func (e InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataTypeInAppPurchaseOfferCodeOneTimeUseCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeRelationshipsPricesDataType.
+const (
+	InAppPurchaseOfferCodeRelationshipsPricesDataTypeInAppPurchaseOfferPrices InAppPurchaseOfferCodeRelationshipsPricesDataType = "inAppPurchaseOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeRelationshipsPricesDataType enum.
+func (e InAppPurchaseOfferCodeRelationshipsPricesDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeRelationshipsPricesDataTypeInAppPurchaseOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseOfferCodeType.
+const (
+	InAppPurchaseOfferCodeTypeInAppPurchaseOfferCodes InAppPurchaseOfferCodeType = "inAppPurchaseOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseOfferCodeType enum.
+func (e InAppPurchaseOfferCodeType) Valid() bool {
+	switch e {
+	case InAppPurchaseOfferCodeTypeInAppPurchaseOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasePricePointRelationshipsTerritoryDataType.
+const (
+	InAppPurchasePricePointRelationshipsTerritoryDataTypeTerritories InAppPurchasePricePointRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasePricePointRelationshipsTerritoryDataType enum.
+func (e InAppPurchasePricePointRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case InAppPurchasePricePointRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasePricePointType.
+const (
+	InAppPurchasePricePointTypeInAppPurchasePricePoints InAppPurchasePricePointType = "inAppPurchasePricePoints"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasePricePointType enum.
+func (e InAppPurchasePricePointType) Valid() bool {
+	switch e {
+	case InAppPurchasePricePointTypeInAppPurchasePricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataType.
+const (
+	InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataTypeInAppPurchasePrices InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataType = "inAppPurchasePrices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataType enum.
+func (e InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataType) Valid() bool {
+	switch e {
+	case InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataTypeInAppPurchasePrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataType.
+const (
+	InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataTypeTerritories InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataType enum.
+func (e InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataType) Valid() bool {
+	switch e {
+	case InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasePriceScheduleRelationshipsManualPricesDataType.
+const (
+	InAppPurchasePriceScheduleRelationshipsManualPricesDataTypeInAppPurchasePrices InAppPurchasePriceScheduleRelationshipsManualPricesDataType = "inAppPurchasePrices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasePriceScheduleRelationshipsManualPricesDataType enum.
+func (e InAppPurchasePriceScheduleRelationshipsManualPricesDataType) Valid() bool {
+	switch e {
+	case InAppPurchasePriceScheduleRelationshipsManualPricesDataTypeInAppPurchasePrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasePriceScheduleType.
+const (
+	InAppPurchasePriceScheduleTypeInAppPurchasePriceSchedules InAppPurchasePriceScheduleType = "inAppPurchasePriceSchedules"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasePriceScheduleType enum.
+func (e InAppPurchasePriceScheduleType) Valid() bool {
+	switch e {
+	case InAppPurchasePriceScheduleTypeInAppPurchasePriceSchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseState.
+const (
+	InAppPurchaseStateAPPROVED                 InAppPurchaseState = "APPROVED"
+	InAppPurchaseStateDEVELOPERACTIONNEEDED    InAppPurchaseState = "DEVELOPER_ACTION_NEEDED"
+	InAppPurchaseStateDEVELOPERREMOVEDFROMSALE InAppPurchaseState = "DEVELOPER_REMOVED_FROM_SALE"
+	InAppPurchaseStateINREVIEW                 InAppPurchaseState = "IN_REVIEW"
+	InAppPurchaseStateMISSINGMETADATA          InAppPurchaseState = "MISSING_METADATA"
+	InAppPurchaseStatePENDINGBINARYAPPROVAL    InAppPurchaseState = "PENDING_BINARY_APPROVAL"
+	InAppPurchaseStatePROCESSINGCONTENT        InAppPurchaseState = "PROCESSING_CONTENT"
+	InAppPurchaseStateREADYTOSUBMIT            InAppPurchaseState = "READY_TO_SUBMIT"
+	InAppPurchaseStateREJECTED                 InAppPurchaseState = "REJECTED"
+	InAppPurchaseStateREMOVEDFROMSALE          InAppPurchaseState = "REMOVED_FROM_SALE"
+	InAppPurchaseStateWAITINGFORREVIEW         InAppPurchaseState = "WAITING_FOR_REVIEW"
+	InAppPurchaseStateWAITINGFORUPLOAD         InAppPurchaseState = "WAITING_FOR_UPLOAD"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseState enum.
+func (e InAppPurchaseState) Valid() bool {
+	switch e {
+	case InAppPurchaseStateAPPROVED:
+		return true
+	case InAppPurchaseStateDEVELOPERACTIONNEEDED:
+		return true
+	case InAppPurchaseStateDEVELOPERREMOVEDFROMSALE:
+		return true
+	case InAppPurchaseStateINREVIEW:
+		return true
+	case InAppPurchaseStateMISSINGMETADATA:
+		return true
+	case InAppPurchaseStatePENDINGBINARYAPPROVAL:
+		return true
+	case InAppPurchaseStatePROCESSINGCONTENT:
+		return true
+	case InAppPurchaseStateREADYTOSUBMIT:
+		return true
+	case InAppPurchaseStateREJECTED:
+		return true
+	case InAppPurchaseStateREMOVEDFROMSALE:
+		return true
+	case InAppPurchaseStateWAITINGFORREVIEW:
+		return true
+	case InAppPurchaseStateWAITINGFORUPLOAD:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseType.
+const (
+	InAppPurchaseTypeCONSUMABLE              InAppPurchaseType = "CONSUMABLE"
+	InAppPurchaseTypeNONCONSUMABLE           InAppPurchaseType = "NON_CONSUMABLE"
+	InAppPurchaseTypeNONRENEWINGSUBSCRIPTION InAppPurchaseType = "NON_RENEWING_SUBSCRIPTION"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseType enum.
+func (e InAppPurchaseType) Valid() bool {
+	switch e {
+	case InAppPurchaseTypeCONSUMABLE:
+		return true
+	case InAppPurchaseTypeNONCONSUMABLE:
+		return true
+	case InAppPurchaseTypeNONRENEWINGSUBSCRIPTION:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataType.
+const (
+	InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataTypeInAppPurchaseAppStoreReviewScreenshots InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataType = "inAppPurchaseAppStoreReviewScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataType enum.
+func (e InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataTypeInAppPurchaseAppStoreReviewScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsContentDataType.
+const (
+	InAppPurchaseV2RelationshipsContentDataTypeInAppPurchaseContents InAppPurchaseV2RelationshipsContentDataType = "inAppPurchaseContents"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsContentDataType enum.
+func (e InAppPurchaseV2RelationshipsContentDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsContentDataTypeInAppPurchaseContents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsIapPriceScheduleDataType.
+const (
+	InAppPurchaseV2RelationshipsIapPriceScheduleDataTypeInAppPurchasePriceSchedules InAppPurchaseV2RelationshipsIapPriceScheduleDataType = "inAppPurchasePriceSchedules"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsIapPriceScheduleDataType enum.
+func (e InAppPurchaseV2RelationshipsIapPriceScheduleDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsIapPriceScheduleDataTypeInAppPurchasePriceSchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsImagesDataType.
+const (
+	InAppPurchaseV2RelationshipsImagesDataTypeInAppPurchaseImages InAppPurchaseV2RelationshipsImagesDataType = "inAppPurchaseImages"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsImagesDataType enum.
+func (e InAppPurchaseV2RelationshipsImagesDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsImagesDataTypeInAppPurchaseImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataType.
+const (
+	InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataTypeInAppPurchaseAvailabilities InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataType = "inAppPurchaseAvailabilities"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataType enum.
+func (e InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataTypeInAppPurchaseAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataType.
+const (
+	InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataTypeInAppPurchaseLocalizations InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataType = "inAppPurchaseLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataType enum.
+func (e InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataTypeInAppPurchaseLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsOfferCodesDataType.
+const (
+	InAppPurchaseV2RelationshipsOfferCodesDataTypeInAppPurchaseOfferCodes InAppPurchaseV2RelationshipsOfferCodesDataType = "inAppPurchaseOfferCodes"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsOfferCodesDataType enum.
+func (e InAppPurchaseV2RelationshipsOfferCodesDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsOfferCodesDataTypeInAppPurchaseOfferCodes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsPricePointsDataType.
+const (
+	InAppPurchaseV2RelationshipsPricePointsDataTypeInAppPurchasePricePoints InAppPurchaseV2RelationshipsPricePointsDataType = "inAppPurchasePricePoints"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsPricePointsDataType enum.
+func (e InAppPurchaseV2RelationshipsPricePointsDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsPricePointsDataTypeInAppPurchasePricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsPromotedPurchaseDataType.
+const (
+	InAppPurchaseV2RelationshipsPromotedPurchaseDataTypePromotedPurchases InAppPurchaseV2RelationshipsPromotedPurchaseDataType = "promotedPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsPromotedPurchaseDataType enum.
+func (e InAppPurchaseV2RelationshipsPromotedPurchaseDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsPromotedPurchaseDataTypePromotedPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2RelationshipsVersionsDataType.
+const (
+	InAppPurchaseV2RelationshipsVersionsDataTypeInAppPurchaseVersions InAppPurchaseV2RelationshipsVersionsDataType = "inAppPurchaseVersions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2RelationshipsVersionsDataType enum.
+func (e InAppPurchaseV2RelationshipsVersionsDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2RelationshipsVersionsDataTypeInAppPurchaseVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2Type.
+const (
+	InAppPurchaseV2TypeInAppPurchases InAppPurchaseV2Type = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2Type enum.
+func (e InAppPurchaseV2Type) Valid() bool {
+	switch e {
+	case InAppPurchaseV2TypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2CreateRequestDataRelationshipsAppDataType.
+const (
+	InAppPurchaseV2CreateRequestDataRelationshipsAppDataTypeApps InAppPurchaseV2CreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2CreateRequestDataRelationshipsAppDataType enum.
+func (e InAppPurchaseV2CreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2CreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2CreateRequestDataType.
+const (
+	InAppPurchaseV2CreateRequestDataTypeInAppPurchases InAppPurchaseV2CreateRequestDataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2CreateRequestDataType enum.
+func (e InAppPurchaseV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2CreateRequestDataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseV2UpdateRequestDataType.
+const (
+	InAppPurchaseV2UpdateRequestDataTypeInAppPurchases InAppPurchaseV2UpdateRequestDataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseV2UpdateRequestDataType enum.
+func (e InAppPurchaseV2UpdateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseV2UpdateRequestDataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for InAppPurchaseVersionAttributesState.
 const (
 	InAppPurchaseVersionAttributesStateACCEPTED               InAppPurchaseVersionAttributesState = "ACCEPTED"
@@ -9152,6 +9989,36 @@ const (
 func (e InAppPurchaseVersionType) Valid() bool {
 	switch e {
 	case InAppPurchaseVersionTypeInAppPurchaseVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataType.
+const (
+	InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataTypeInAppPurchases InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataType = "inAppPurchases"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataType enum.
+func (e InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataTypeInAppPurchases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseVersionCreateRequestDataType.
+const (
+	InAppPurchaseVersionCreateRequestDataTypeInAppPurchaseVersions InAppPurchaseVersionCreateRequestDataType = "inAppPurchaseVersions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseVersionCreateRequestDataType enum.
+func (e InAppPurchaseVersionCreateRequestDataType) Valid() bool {
+	switch e {
+	case InAppPurchaseVersionCreateRequestDataTypeInAppPurchaseVersions:
 		return true
 	default:
 		return false
@@ -20243,6 +21110,462 @@ func (e AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgre
 	}
 }
 
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFilterState.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateAPPROVED                 AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "APPROVED"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateDEVELOPERACTIONNEEDED    AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "DEVELOPER_ACTION_NEEDED"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateDEVELOPERREMOVEDFROMSALE AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "DEVELOPER_REMOVED_FROM_SALE"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateINREVIEW                 AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "IN_REVIEW"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateMISSINGMETADATA          AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "MISSING_METADATA"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStatePENDINGBINARYAPPROVAL    AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "PENDING_BINARY_APPROVAL"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStatePROCESSINGCONTENT        AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "PROCESSING_CONTENT"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateREADYTOSUBMIT            AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "READY_TO_SUBMIT"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateREJECTED                 AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "REJECTED"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateREMOVEDFROMSALE          AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "REMOVED_FROM_SALE"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateWAITINGFORREVIEW         AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "WAITING_FOR_REVIEW"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateWAITINGFORUPLOAD         AppsInAppPurchasesV2GetToManyRelatedParamsFilterState = "WAITING_FOR_UPLOAD"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFilterState enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateAPPROVED:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateDEVELOPERACTIONNEEDED:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateDEVELOPERREMOVEDFROMSALE:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateINREVIEW:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateMISSINGMETADATA:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStatePENDINGBINARYAPPROVAL:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStatePROCESSINGCONTENT:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateREADYTOSUBMIT:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateREJECTED:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateREMOVEDFROMSALE:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateWAITINGFORREVIEW:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterStateWAITINGFORUPLOAD:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseTypeCONSUMABLE              AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType = "CONSUMABLE"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseTypeNONCONSUMABLE           AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType = "NON_CONSUMABLE"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseTypeNONRENEWINGSUBSCRIPTION AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType = "NON_RENEWING_SUBSCRIPTION"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseTypeCONSUMABLE:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseTypeNONCONSUMABLE:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseTypeNONRENEWINGSUBSCRIPTION:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsSort.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsSortInAppPurchaseType      AppsInAppPurchasesV2GetToManyRelatedParamsSort = "inAppPurchaseType"
+	AppsInAppPurchasesV2GetToManyRelatedParamsSortMinusInAppPurchaseType AppsInAppPurchasesV2GetToManyRelatedParamsSort = "-inAppPurchaseType"
+	AppsInAppPurchasesV2GetToManyRelatedParamsSortMinusName              AppsInAppPurchasesV2GetToManyRelatedParamsSort = "-name"
+	AppsInAppPurchasesV2GetToManyRelatedParamsSortName                   AppsInAppPurchasesV2GetToManyRelatedParamsSort = "name"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsSort enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsSortInAppPurchaseType:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsSortMinusInAppPurchaseType:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsSortMinusName:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsSortName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesAppStoreReviewScreenshot   AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "appStoreReviewScreenshot"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesContent                    AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "content"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesContentHosting             AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "contentHosting"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesFamilySharable             AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "familySharable"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesIapPriceSchedule           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "iapPriceSchedule"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesImages                     AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "images"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseAvailability  AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "inAppPurchaseAvailability"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseLocalizations AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "inAppPurchaseLocalizations"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseType          AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "inAppPurchaseType"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesName                       AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "name"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesOfferCodes                 AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "offerCodes"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesPricePoints                AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "pricePoints"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesProductId                  AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "productId"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesPromotedPurchase           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "promotedPurchase"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesReviewNote                 AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "reviewNote"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesState                      AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "state"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesVersions                   AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesAppStoreReviewScreenshot:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesContent:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesContentHosting:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesFamilySharable:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesIapPriceSchedule:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesImages:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseAvailability:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseLocalizations:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseType:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesName:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesOfferCodes:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesPricePoints:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesProductId:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesPromotedPurchase:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesReviewNote:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesState:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsDescription     AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "description"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsInAppPurchaseV2 AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "inAppPurchaseV2"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsLocale          AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "locale"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsName            AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "name"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsState           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsDescription:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsInAppPurchaseV2:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsLocale:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsName:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizationsState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsFileName         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents = "fileName"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsFileSize         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents = "fileSize"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsInAppPurchaseV2  AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents = "inAppPurchaseV2"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsLastModifiedDate AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents = "lastModifiedDate"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsUrl              AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents = "url"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsFileName:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsFileSize:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsInAppPurchaseV2:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsLastModifiedDate:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContentsUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetDeliveryState"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetToken"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType          AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetType"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileName"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileSize"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "imageAsset"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2    AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "inAppPurchaseV2"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "sourceFileChecksum"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations   AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesEnabled            AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases = "enabled"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesInAppPurchaseV2    AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases = "inAppPurchaseV2"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesState              AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases = "state"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesSubscription       AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases = "subscription"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesVisibleForAllUsers AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases = "visibleForAllUsers"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesEnabled:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesInAppPurchaseV2:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesState:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesSubscription:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchasesVisibleForAllUsers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedulesAutomaticPrices AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules = "automaticPrices"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedulesBaseTerritory   AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules = "baseTerritory"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedulesManualPrices    AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules = "manualPrices"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedulesAutomaticPrices:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedulesBaseTerritory:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedulesManualPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilitiesAvailableInNewTerritories AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities = "availableInNewTerritories"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilitiesAvailableTerritories      AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities = "availableTerritories"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilitiesAvailableInNewTerritories:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilitiesAvailableTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesAssetToken         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "assetToken"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesFileName           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "fileName"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesFileSize           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "fileSize"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesImageAsset         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "imageAsset"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesInAppPurchase      AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "inAppPurchase"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesSourceFileChecksum AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "sourceFileChecksum"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesState              AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "state"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesUploadOperations   AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesAssetToken:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesFileName:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesFileSize:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesImageAsset:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesInAppPurchase:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesSourceFileChecksum:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesState:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesActive                AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "active"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesCustomCodes           AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "customCodes"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesCustomerEligibilities AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "customerEligibilities"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesName                  AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "name"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesOneTimeUseCodes       AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "oneTimeUseCodes"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesPrices                AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "prices"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesProductionCodeCount   AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "productionCodeCount"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesSandboxCodeCount      AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes = "sandboxCodeCount"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesActive:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesCustomCodes:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesCustomerEligibilities:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesName:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesOneTimeUseCodes:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesPrices:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesProductionCodeCount:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodesSandboxCodeCount:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsImage         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions = "image"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsImages        AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions = "images"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsInAppPurchase AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions = "inAppPurchase"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsLocalizations AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions = "localizations"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsState         AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions = "state"
+	AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsVersion       AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsImage:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsImages:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsInAppPurchase:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsLocalizations:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsState:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsInAppPurchasesV2GetToManyRelatedParamsInclude.
+const (
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeAppStoreReviewScreenshot   AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "appStoreReviewScreenshot"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeContent                    AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "content"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeIapPriceSchedule           AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "iapPriceSchedule"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeImages                     AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "images"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeInAppPurchaseAvailability  AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "inAppPurchaseAvailability"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeInAppPurchaseLocalizations AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "inAppPurchaseLocalizations"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeOfferCodes                 AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "offerCodes"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludePromotedPurchase           AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "promotedPurchase"
+	AppsInAppPurchasesV2GetToManyRelatedParamsIncludeVersions                   AppsInAppPurchasesV2GetToManyRelatedParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsInAppPurchasesV2GetToManyRelatedParamsInclude enum.
+func (e AppsInAppPurchasesV2GetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeAppStoreReviewScreenshot:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeContent:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeIapPriceSchedule:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeImages:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeInAppPurchaseAvailability:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeInAppPurchaseLocalizations:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeOfferCodes:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludePromotedPurchase:
+		return true
+	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppsWebhooksGetToManyRelatedParamsFieldsWebhooks.
 const (
 	AppsWebhooksGetToManyRelatedParamsFieldsWebhooksApp        AppsWebhooksGetToManyRelatedParamsFieldsWebhooks = "app"
@@ -26036,6 +27359,222 @@ func (e DevicesGetInstanceParamsFieldsDevices) Valid() bool {
 	}
 }
 
+// Defines values for InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots.
+const (
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetDeliveryState"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken         InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetToken"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType          InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetType"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName           InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileName"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize           InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileSize"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset         InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "imageAsset"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2    InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "inAppPurchaseV2"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "sourceFileChecksum"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations   InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots enum.
+func (e InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases.
+const (
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesAppStoreReviewScreenshot   InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "appStoreReviewScreenshot"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesContent                    InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "content"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesContentHosting             InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "contentHosting"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesFamilySharable             InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "familySharable"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesIapPriceSchedule           InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "iapPriceSchedule"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesImages                     InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "images"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesInAppPurchaseAvailability  InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "inAppPurchaseAvailability"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesInAppPurchaseLocalizations InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "inAppPurchaseLocalizations"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesInAppPurchaseType          InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "inAppPurchaseType"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesName                       InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "name"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesOfferCodes                 InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "offerCodes"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesPricePoints                InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "pricePoints"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesProductId                  InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "productId"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesPromotedPurchase           InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "promotedPurchase"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesReviewNote                 InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "reviewNote"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesState                      InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "state"
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesVersions                   InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases = "versions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases enum.
+func (e InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesAppStoreReviewScreenshot:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesContent:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesContentHosting:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesFamilySharable:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesIapPriceSchedule:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesImages:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesInAppPurchaseAvailability:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesInAppPurchaseLocalizations:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesInAppPurchaseType:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesName:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesOfferCodes:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesPricePoints:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesProductId:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesPromotedPurchase:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesReviewNote:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesState:
+		return true
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchasesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsInclude.
+const (
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsIncludeInAppPurchaseV2 InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsInclude = "inAppPurchaseV2"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsInclude enum.
+func (e InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsIncludeInAppPurchaseV2:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages.
+const (
+	InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesAssetDeliveryState InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages = "assetDeliveryState"
+	InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesAssetToken         InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages = "assetToken"
+	InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesFileName           InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages = "fileName"
+	InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesFileSize           InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages = "fileSize"
+	InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesImageAsset         InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages = "imageAsset"
+	InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesUploadOperations   InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages enum.
+func (e InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages) Valid() bool {
+	switch e {
+	case InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesAssetDeliveryState:
+		return true
+	case InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesAssetToken:
+		return true
+	case InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesFileName:
+		return true
+	case InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesFileSize:
+		return true
+	case InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesImageAsset:
+		return true
+	case InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations.
+const (
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsDescription InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "description"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsLocale      InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "locale"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsName        InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "name"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsVersion     InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "version"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations enum.
+func (e InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations) Valid() bool {
+	switch e {
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsDescription:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsLocale:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsName:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions.
+const (
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImage         InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "image"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImages        InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "images"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsInAppPurchase InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "inAppPurchase"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsLocalizations InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "localizations"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsState         InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "state"
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsVersion       InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions enum.
+func (e InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions) Valid() bool {
+	switch e {
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImage:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImages:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsInAppPurchase:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsLocalizations:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsState:
+		return true
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsInclude.
+const (
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsIncludeVersion InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsInclude = "version"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsInclude enum.
+func (e InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsIncludeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for MerchantIdsGetCollectionParamsSort.
 const (
 	MerchantIdsGetCollectionParamsSortIdentifier      MerchantIdsGetCollectionParamsSort = "identifier"
@@ -30278,6 +31817,753 @@ const (
 func (e AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude) Valid() bool {
 	switch e {
 	case AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsIncludeTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages.
+const (
+	InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesAssetDeliveryState InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages = "assetDeliveryState"
+	InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesAssetToken         InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages = "assetToken"
+	InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesFileName           InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages = "fileName"
+	InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesFileSize           InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages = "fileSize"
+	InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesImageAsset         InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages = "imageAsset"
+	InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesUploadOperations   InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages enum.
+func (e InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages) Valid() bool {
+	switch e {
+	case InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesAssetDeliveryState:
+		return true
+	case InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesAssetToken:
+		return true
+	case InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesFileName:
+		return true
+	case InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesFileSize:
+		return true
+	case InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesImageAsset:
+		return true
+	case InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesAppStoreReviewScreenshot   InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "appStoreReviewScreenshot"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesContent                    InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "content"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesContentHosting             InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "contentHosting"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesFamilySharable             InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "familySharable"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesIapPriceSchedule           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "iapPriceSchedule"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesImages                     InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "images"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesInAppPurchaseAvailability  InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "inAppPurchaseAvailability"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesInAppPurchaseLocalizations InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "inAppPurchaseLocalizations"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesInAppPurchaseType          InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "inAppPurchaseType"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesName                       InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "name"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesOfferCodes                 InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "offerCodes"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesPricePoints                InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "pricePoints"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesProductId                  InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "productId"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesPromotedPurchase           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "promotedPurchase"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesReviewNote                 InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "reviewNote"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesState                      InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "state"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesVersions                   InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases = "versions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesAppStoreReviewScreenshot:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesContent:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesContentHosting:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesFamilySharable:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesIapPriceSchedule:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesImages:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesInAppPurchaseAvailability:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesInAppPurchaseLocalizations:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesInAppPurchaseType:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesName:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesOfferCodes:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesPricePoints:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesProductId:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesPromotedPurchase:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesReviewNote:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesState:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsDescription     InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations = "description"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsInAppPurchaseV2 InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations = "inAppPurchaseV2"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsLocale          InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations = "locale"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsName            InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations = "name"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsState           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations = "state"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsDescription:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsInAppPurchaseV2:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsLocale:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsName:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizationsState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsCustomerPrice InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints = "customerPrice"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsEqualizations InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints = "equalizations"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsProceeds      InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints = "proceeds"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsTerritory     InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsCustomerPrice:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsEqualizations:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsProceeds:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsFileName         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents = "fileName"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsFileSize         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents = "fileSize"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsInAppPurchaseV2  InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents = "inAppPurchaseV2"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsLastModifiedDate InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents = "lastModifiedDate"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsUrl              InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents = "url"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsFileName:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsFileSize:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsInAppPurchaseV2:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsLastModifiedDate:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContentsUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetDeliveryState"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetToken"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType          InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetType"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileName"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileSize"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "imageAsset"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2    InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "inAppPurchaseV2"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "sourceFileChecksum"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations   InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesEnabled            InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases = "enabled"
+	InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesInAppPurchaseV2    InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases = "inAppPurchaseV2"
+	InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesState              InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases = "state"
+	InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesSubscription       InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases = "subscription"
+	InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesVisibleForAllUsers InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases = "visibleForAllUsers"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesEnabled:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesInAppPurchaseV2:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesState:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesSubscription:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchasesVisibleForAllUsers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedulesAutomaticPrices InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules = "automaticPrices"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedulesBaseTerritory   InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules = "baseTerritory"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedulesManualPrices    InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules = "manualPrices"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedulesAutomaticPrices:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedulesBaseTerritory:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedulesManualPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilitiesAvailableInNewTerritories InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities = "availableInNewTerritories"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilitiesAvailableTerritories      InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities = "availableTerritories"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilitiesAvailableInNewTerritories:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilitiesAvailableTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesAssetToken         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "assetToken"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesFileName           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "fileName"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesFileSize           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "fileSize"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesImageAsset         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "imageAsset"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesInAppPurchase      InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "inAppPurchase"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesSourceFileChecksum InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "sourceFileChecksum"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesState              InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "state"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesUploadOperations   InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesAssetToken:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesFileName:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesFileSize:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesImageAsset:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesInAppPurchase:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesSourceFileChecksum:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesState:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesActive                InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "active"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesCustomCodes           InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "customCodes"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesCustomerEligibilities InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "customerEligibilities"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesName                  InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "name"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesOneTimeUseCodes       InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "oneTimeUseCodes"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesPrices                InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "prices"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesProductionCodeCount   InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "productionCodeCount"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesSandboxCodeCount      InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes = "sandboxCodeCount"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesActive:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesCustomCodes:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesCustomerEligibilities:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesName:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesOneTimeUseCodes:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesPrices:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesProductionCodeCount:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodesSandboxCodeCount:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions.
+const (
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsImage         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions = "image"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsImages        InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions = "images"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsInAppPurchase InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions = "inAppPurchase"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsLocalizations InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions = "localizations"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsState         InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions = "state"
+	InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsVersion       InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions enum.
+func (e InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsImage:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsImages:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsInAppPurchase:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsLocalizations:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsState:
+		return true
+	case InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2GetInstanceParamsInclude.
+const (
+	InAppPurchasesV2GetInstanceParamsIncludeAppStoreReviewScreenshot   InAppPurchasesV2GetInstanceParamsInclude = "appStoreReviewScreenshot"
+	InAppPurchasesV2GetInstanceParamsIncludeContent                    InAppPurchasesV2GetInstanceParamsInclude = "content"
+	InAppPurchasesV2GetInstanceParamsIncludeIapPriceSchedule           InAppPurchasesV2GetInstanceParamsInclude = "iapPriceSchedule"
+	InAppPurchasesV2GetInstanceParamsIncludeImages                     InAppPurchasesV2GetInstanceParamsInclude = "images"
+	InAppPurchasesV2GetInstanceParamsIncludeInAppPurchaseAvailability  InAppPurchasesV2GetInstanceParamsInclude = "inAppPurchaseAvailability"
+	InAppPurchasesV2GetInstanceParamsIncludeInAppPurchaseLocalizations InAppPurchasesV2GetInstanceParamsInclude = "inAppPurchaseLocalizations"
+	InAppPurchasesV2GetInstanceParamsIncludeOfferCodes                 InAppPurchasesV2GetInstanceParamsInclude = "offerCodes"
+	InAppPurchasesV2GetInstanceParamsIncludePricePoints                InAppPurchasesV2GetInstanceParamsInclude = "pricePoints"
+	InAppPurchasesV2GetInstanceParamsIncludePromotedPurchase           InAppPurchasesV2GetInstanceParamsInclude = "promotedPurchase"
+	InAppPurchasesV2GetInstanceParamsIncludeVersions                   InAppPurchasesV2GetInstanceParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2GetInstanceParamsInclude enum.
+func (e InAppPurchasesV2GetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchasesV2GetInstanceParamsIncludeAppStoreReviewScreenshot:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludeContent:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludeIapPriceSchedule:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludeImages:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludeInAppPurchaseAvailability:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludeInAppPurchaseLocalizations:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludeOfferCodes:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludePricePoints:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludePromotedPurchase:
+		return true
+	case InAppPurchasesV2GetInstanceParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots.
+const (
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetDeliveryState"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken         InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetToken"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType          InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "assetType"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName           InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileName"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize           InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "fileSize"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset         InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "imageAsset"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2    InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "inAppPurchaseV2"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "sourceFileChecksum"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations   InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots enum.
+func (e InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots) Valid() bool {
+	switch e {
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetDeliveryState:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetToken:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsAssetType:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileName:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsFileSize:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsImageAsset:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsInAppPurchaseV2:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsSourceFileChecksum:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases.
+const (
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesAppStoreReviewScreenshot   InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "appStoreReviewScreenshot"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesContent                    InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "content"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesContentHosting             InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "contentHosting"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesFamilySharable             InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "familySharable"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesIapPriceSchedule           InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "iapPriceSchedule"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesImages                     InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "images"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesInAppPurchaseAvailability  InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "inAppPurchaseAvailability"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesInAppPurchaseLocalizations InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "inAppPurchaseLocalizations"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesInAppPurchaseType          InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "inAppPurchaseType"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesName                       InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "name"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesOfferCodes                 InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "offerCodes"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesPricePoints                InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "pricePoints"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesProductId                  InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "productId"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesPromotedPurchase           InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "promotedPurchase"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesReviewNote                 InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "reviewNote"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesState                      InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "state"
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesVersions                   InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases = "versions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases enum.
+func (e InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases) Valid() bool {
+	switch e {
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesAppStoreReviewScreenshot:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesContent:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesContentHosting:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesFamilySharable:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesIapPriceSchedule:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesImages:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesInAppPurchaseAvailability:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesInAppPurchaseLocalizations:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesInAppPurchaseType:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesName:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesOfferCodes:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesPricePoints:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesProductId:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesPromotedPurchase:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesReviewNote:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesState:
+		return true
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchasesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsInclude.
+const (
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsIncludeInAppPurchaseV2 InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsInclude = "inAppPurchaseV2"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsInclude enum.
+func (e InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsIncludeInAppPurchaseV2:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState.
+const (
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateACCEPTED               InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "ACCEPTED"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateAPPROVED               InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "APPROVED"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateDEVELOPERREJECTED      InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "DEVELOPER_REJECTED"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateINREVIEW               InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "IN_REVIEW"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION   InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "PREPARE_FOR_SUBMISSION"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateREADYFORREVIEW         InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "READY_FOR_REVIEW"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateREJECTED               InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "REJECTED"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateREPLACEDWITHNEWVERSION InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "REPLACED_WITH_NEW_VERSION"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateWAITINGFORREVIEW       InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState enum.
+func (e InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateACCEPTED:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateAPPROVED:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateDEVELOPERREJECTED:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateINREVIEW:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateREADYFORREVIEW:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateREJECTED:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateREPLACEDWITHNEWVERSION:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFilterStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions.
+const (
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImage         InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "image"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImages        InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "images"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsInAppPurchase InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "inAppPurchase"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsLocalizations InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "localizations"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsState         InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "state"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsVersion       InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions enum.
+func (e InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions) Valid() bool {
+	switch e {
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImage:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsImages:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsInAppPurchase:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsLocalizations:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsState:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases.
+const (
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesAppStoreReviewScreenshot   InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "appStoreReviewScreenshot"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesContent                    InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "content"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesContentHosting             InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "contentHosting"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesFamilySharable             InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "familySharable"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesIapPriceSchedule           InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "iapPriceSchedule"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesImages                     InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "images"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseAvailability  InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "inAppPurchaseAvailability"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseLocalizations InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "inAppPurchaseLocalizations"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseType          InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "inAppPurchaseType"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesName                       InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "name"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesOfferCodes                 InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "offerCodes"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesPricePoints                InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "pricePoints"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesProductId                  InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "productId"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesPromotedPurchase           InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "promotedPurchase"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesReviewNote                 InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "reviewNote"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesState                      InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "state"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesVersions                   InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases = "versions"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases enum.
+func (e InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases) Valid() bool {
+	switch e {
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesAppStoreReviewScreenshot:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesContent:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesContentHosting:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesFamilySharable:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesIapPriceSchedule:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesImages:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseAvailability:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseLocalizations:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesInAppPurchaseType:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesName:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesOfferCodes:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesPricePoints:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesProductId:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesPromotedPurchase:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesReviewNote:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesState:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchasesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages.
+const (
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesAssetDeliveryState InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages = "assetDeliveryState"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesAssetToken         InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages = "assetToken"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesFileName           InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages = "fileName"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesFileSize           InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages = "fileSize"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesImageAsset         InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages = "imageAsset"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesUploadOperations   InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages enum.
+func (e InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages) Valid() bool {
+	switch e {
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesAssetDeliveryState:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesAssetToken:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesFileName:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesFileSize:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesImageAsset:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations.
+const (
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsDescription InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "description"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsLocale      InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "locale"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsName        InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "name"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsVersion     InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations = "version"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations enum.
+func (e InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations) Valid() bool {
+	switch e {
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsDescription:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsLocale:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsName:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizationsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for InAppPurchasesV2VersionsGetToManyRelatedParamsInclude.
+const (
+	InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeImage         InAppPurchasesV2VersionsGetToManyRelatedParamsInclude = "image"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeImages        InAppPurchasesV2VersionsGetToManyRelatedParamsInclude = "images"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeInAppPurchase InAppPurchasesV2VersionsGetToManyRelatedParamsInclude = "inAppPurchase"
+	InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeLocalizations InAppPurchasesV2VersionsGetToManyRelatedParamsInclude = "localizations"
+)
+
+// Valid indicates whether the value is a known member of the InAppPurchasesV2VersionsGetToManyRelatedParamsInclude enum.
+func (e InAppPurchasesV2VersionsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeImage:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeImages:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeInAppPurchase:
+		return true
+	case InAppPurchasesV2VersionsGetToManyRelatedParamsIncludeLocalizations:
 		return true
 	default:
 		return false
@@ -37230,6 +39516,660 @@ type InAppPurchaseRelationshipsAppsDataType string
 // InAppPurchaseResourceType defines model for InAppPurchase.type.
 type InAppPurchaseResourceType string
 
+// InAppPurchaseAppStoreReviewScreenshot defines model for InAppPurchaseAppStoreReviewScreenshot.
+type InAppPurchaseAppStoreReviewScreenshot struct {
+	Attributes *struct {
+		AssetDeliveryState *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		AssetToken         *string             `json:"assetToken,omitempty"`
+		AssetType          *string             `json:"assetType,omitempty"`
+		FileName           *string             `json:"fileName,omitempty"`
+		FileSize           *int                `json:"fileSize,omitempty"`
+		ImageAsset         *ImageAsset         `json:"imageAsset,omitempty"`
+		SourceFileChecksum *string             `json:"sourceFileChecksum,omitempty"`
+		UploadOperations   *[]UploadOperation  `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		InAppPurchaseV2 *struct {
+			Data *struct {
+				Id   string                                                                    `json:"id"`
+				Type InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"inAppPurchaseV2,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseAppStoreReviewScreenshotType `json:"type"`
+}
+
+// InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataType defines model for InAppPurchaseAppStoreReviewScreenshot.Relationships.InAppPurchaseV2.Data.Type.
+type InAppPurchaseAppStoreReviewScreenshotRelationshipsInAppPurchaseV2DataType string
+
+// InAppPurchaseAppStoreReviewScreenshotType defines model for InAppPurchaseAppStoreReviewScreenshot.Type.
+type InAppPurchaseAppStoreReviewScreenshotType string
+
+// InAppPurchaseAppStoreReviewScreenshotCreateRequest defines model for InAppPurchaseAppStoreReviewScreenshotCreateRequest.
+type InAppPurchaseAppStoreReviewScreenshotCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			InAppPurchaseV2 struct {
+				Data struct {
+					Id   string                                                                                     `json:"id"`
+					Type InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataType `json:"type"`
+				} `json:"data"`
+			} `json:"inAppPurchaseV2"`
+		} `json:"relationships"`
+		Type InAppPurchaseAppStoreReviewScreenshotCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataType defines model for InAppPurchaseAppStoreReviewScreenshotCreateRequest.Data.Relationships.InAppPurchaseV2.Data.Type.
+type InAppPurchaseAppStoreReviewScreenshotCreateRequestDataRelationshipsInAppPurchaseV2DataType string
+
+// InAppPurchaseAppStoreReviewScreenshotCreateRequestDataType defines model for InAppPurchaseAppStoreReviewScreenshotCreateRequest.Data.Type.
+type InAppPurchaseAppStoreReviewScreenshotCreateRequestDataType string
+
+// InAppPurchaseAppStoreReviewScreenshotResponse defines model for InAppPurchaseAppStoreReviewScreenshotResponse.
+type InAppPurchaseAppStoreReviewScreenshotResponse struct {
+	Data     InAppPurchaseAppStoreReviewScreenshot `json:"data"`
+	Included *[]InAppPurchaseV2                    `json:"included,omitempty"`
+	Links    DocumentLinks                         `json:"links"`
+}
+
+// InAppPurchaseAppStoreReviewScreenshotUpdateRequest defines model for InAppPurchaseAppStoreReviewScreenshotUpdateRequest.
+type InAppPurchaseAppStoreReviewScreenshotUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			SourceFileChecksum *string `json:"sourceFileChecksum,omitempty"`
+			Uploaded           *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                     `json:"id"`
+		Type InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataType defines model for InAppPurchaseAppStoreReviewScreenshotUpdateRequest.Data.Type.
+type InAppPurchaseAppStoreReviewScreenshotUpdateRequestDataType string
+
+// InAppPurchaseAvailability defines model for InAppPurchaseAvailability.
+type InAppPurchaseAvailability struct {
+	Attributes *struct {
+		AvailableInNewTerritories *bool `json:"availableInNewTerritories,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AvailableTerritories *struct {
+			Data *[]struct {
+				Id   string                                                             `json:"id"`
+				Type InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"availableTerritories,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseAvailabilityType `json:"type"`
+}
+
+// InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataType defines model for InAppPurchaseAvailability.Relationships.AvailableTerritories.Data.Type.
+type InAppPurchaseAvailabilityRelationshipsAvailableTerritoriesDataType string
+
+// InAppPurchaseAvailabilityType defines model for InAppPurchaseAvailability.Type.
+type InAppPurchaseAvailabilityType string
+
+// InAppPurchaseContent defines model for InAppPurchaseContent.
+type InAppPurchaseContent struct {
+	Attributes *struct {
+		FileName         *string   `json:"fileName,omitempty"`
+		FileSize         *int      `json:"fileSize,omitempty"`
+		LastModifiedDate *DateTime `json:"lastModifiedDate,omitempty"`
+		Url              *string   `json:"url,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		InAppPurchaseV2 *struct {
+			Data *struct {
+				Id   string                                                   `json:"id"`
+				Type InAppPurchaseContentRelationshipsInAppPurchaseV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"inAppPurchaseV2,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseContentType `json:"type"`
+}
+
+// InAppPurchaseContentRelationshipsInAppPurchaseV2DataType defines model for InAppPurchaseContent.Relationships.InAppPurchaseV2.Data.Type.
+type InAppPurchaseContentRelationshipsInAppPurchaseV2DataType string
+
+// InAppPurchaseContentType defines model for InAppPurchaseContent.Type.
+type InAppPurchaseContentType string
+
+// InAppPurchaseImage defines model for InAppPurchaseImage.
+type InAppPurchaseImage struct {
+	Attributes *struct {
+		AssetToken         *string                            `json:"assetToken,omitempty"`
+		FileName           *string                            `json:"fileName,omitempty"`
+		FileSize           *int                               `json:"fileSize,omitempty"`
+		ImageAsset         *ImageAsset                        `json:"imageAsset,omitempty"`
+		SourceFileChecksum *string                            `json:"sourceFileChecksum,omitempty"`
+		State              *InAppPurchaseImageAttributesState `json:"state,omitempty"`
+		UploadOperations   *[]UploadOperation                 `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		InAppPurchase *struct {
+			Data *struct {
+				Id   string                                               `json:"id"`
+				Type InAppPurchaseImageRelationshipsInAppPurchaseDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"inAppPurchase,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseImageType `json:"type"`
+}
+
+// InAppPurchaseImageAttributesState defines model for InAppPurchaseImage.Attributes.State.
+type InAppPurchaseImageAttributesState string
+
+// InAppPurchaseImageRelationshipsInAppPurchaseDataType defines model for InAppPurchaseImage.Relationships.InAppPurchase.Data.Type.
+type InAppPurchaseImageRelationshipsInAppPurchaseDataType string
+
+// InAppPurchaseImageType defines model for InAppPurchaseImage.Type.
+type InAppPurchaseImageType string
+
+// InAppPurchaseImageV2 defines model for InAppPurchaseImageV2.
+type InAppPurchaseImageV2 struct {
+	Attributes *struct {
+		AssetDeliveryState *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		AssetToken         *string             `json:"assetToken,omitempty"`
+		FileName           *string             `json:"fileName,omitempty"`
+		FileSize           *int                `json:"fileSize,omitempty"`
+		ImageAsset         *ImageAsset         `json:"imageAsset,omitempty"`
+		UploadOperations   *[]UploadOperation  `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                   `json:"id"`
+	Links *ResourceLinks           `json:"links,omitempty"`
+	Type  InAppPurchaseImageV2Type `json:"type"`
+}
+
+// InAppPurchaseImageV2Type defines model for InAppPurchaseImageV2.Type.
+type InAppPurchaseImageV2Type string
+
+// InAppPurchaseImageV2CreateRequest defines model for InAppPurchaseImageV2CreateRequest.
+type InAppPurchaseImageV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			Version struct {
+				Data struct {
+					Id   string                                                            `json:"id"`
+					Type InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"version"`
+		} `json:"relationships"`
+		Type InAppPurchaseImageV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataType defines model for InAppPurchaseImageV2CreateRequest.Data.Relationships.Version.Data.Type.
+type InAppPurchaseImageV2CreateRequestDataRelationshipsVersionDataType string
+
+// InAppPurchaseImageV2CreateRequestDataType defines model for InAppPurchaseImageV2CreateRequest.Data.Type.
+type InAppPurchaseImageV2CreateRequestDataType string
+
+// InAppPurchaseImageV2Response defines model for InAppPurchaseImageV2Response.
+type InAppPurchaseImageV2Response struct {
+	Data  InAppPurchaseImageV2 `json:"data"`
+	Links DocumentLinks        `json:"links"`
+}
+
+// InAppPurchaseImageV2UpdateRequest defines model for InAppPurchaseImageV2UpdateRequest.
+type InAppPurchaseImageV2UpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Uploaded *bool `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                    `json:"id"`
+		Type InAppPurchaseImageV2UpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseImageV2UpdateRequestDataType defines model for InAppPurchaseImageV2UpdateRequest.Data.Type.
+type InAppPurchaseImageV2UpdateRequestDataType string
+
+// InAppPurchaseLocalization defines model for InAppPurchaseLocalization.
+type InAppPurchaseLocalization struct {
+	Attributes *struct {
+		Description *string                                   `json:"description,omitempty"`
+		Locale      *string                                   `json:"locale,omitempty"`
+		Name        *string                                   `json:"name,omitempty"`
+		State       *InAppPurchaseLocalizationAttributesState `json:"state,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		InAppPurchaseV2 *struct {
+			Data *struct {
+				Id   string                                                        `json:"id"`
+				Type InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"inAppPurchaseV2,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseLocalizationType `json:"type"`
+}
+
+// InAppPurchaseLocalizationAttributesState defines model for InAppPurchaseLocalization.Attributes.State.
+type InAppPurchaseLocalizationAttributesState string
+
+// InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataType defines model for InAppPurchaseLocalization.Relationships.InAppPurchaseV2.Data.Type.
+type InAppPurchaseLocalizationRelationshipsInAppPurchaseV2DataType string
+
+// InAppPurchaseLocalizationType defines model for InAppPurchaseLocalization.Type.
+type InAppPurchaseLocalizationType string
+
+// InAppPurchaseLocalizationV2 defines model for InAppPurchaseLocalizationV2.
+type InAppPurchaseLocalizationV2 struct {
+	Attributes *struct {
+		Description *string `json:"description,omitempty"`
+		Locale      *string `json:"locale,omitempty"`
+		Name        *string `json:"name,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Version *struct {
+			Data *struct {
+				Id   string                                                  `json:"id"`
+				Type InAppPurchaseLocalizationV2RelationshipsVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"version,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseLocalizationV2Type `json:"type"`
+}
+
+// InAppPurchaseLocalizationV2RelationshipsVersionDataType defines model for InAppPurchaseLocalizationV2.Relationships.Version.Data.Type.
+type InAppPurchaseLocalizationV2RelationshipsVersionDataType string
+
+// InAppPurchaseLocalizationV2Type defines model for InAppPurchaseLocalizationV2.Type.
+type InAppPurchaseLocalizationV2Type string
+
+// InAppPurchaseLocalizationV2CreateRequest defines model for InAppPurchaseLocalizationV2CreateRequest.
+type InAppPurchaseLocalizationV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Description *string `json:"description,omitempty"`
+			Locale      string  `json:"locale"`
+			Name        string  `json:"name"`
+		} `json:"attributes"`
+		Relationships struct {
+			Version struct {
+				Data struct {
+					Id   string                                                                   `json:"id"`
+					Type InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"version"`
+		} `json:"relationships"`
+		Type InAppPurchaseLocalizationV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataType defines model for InAppPurchaseLocalizationV2CreateRequest.Data.Relationships.Version.Data.Type.
+type InAppPurchaseLocalizationV2CreateRequestDataRelationshipsVersionDataType string
+
+// InAppPurchaseLocalizationV2CreateRequestDataType defines model for InAppPurchaseLocalizationV2CreateRequest.Data.Type.
+type InAppPurchaseLocalizationV2CreateRequestDataType string
+
+// InAppPurchaseLocalizationV2Response defines model for InAppPurchaseLocalizationV2Response.
+type InAppPurchaseLocalizationV2Response struct {
+	Data     InAppPurchaseLocalizationV2 `json:"data"`
+	Included *[]InAppPurchaseVersion     `json:"included,omitempty"`
+	Links    DocumentLinks               `json:"links"`
+}
+
+// InAppPurchaseLocalizationV2UpdateRequest defines model for InAppPurchaseLocalizationV2UpdateRequest.
+type InAppPurchaseLocalizationV2UpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Description *string `json:"description,omitempty"`
+			Name        *string `json:"name,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                           `json:"id"`
+		Type InAppPurchaseLocalizationV2UpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseLocalizationV2UpdateRequestDataType defines model for InAppPurchaseLocalizationV2UpdateRequest.Data.Type.
+type InAppPurchaseLocalizationV2UpdateRequestDataType string
+
+// InAppPurchaseLocalizationsV2Response defines model for InAppPurchaseLocalizationsV2Response.
+type InAppPurchaseLocalizationsV2Response struct {
+	Data     []InAppPurchaseLocalizationV2 `json:"data"`
+	Included *[]InAppPurchaseVersion       `json:"included,omitempty"`
+	Links    PagedDocumentLinks            `json:"links"`
+	Meta     *PagingInformation            `json:"meta,omitempty"`
+}
+
+// InAppPurchaseOfferCode defines model for InAppPurchaseOfferCode.
+type InAppPurchaseOfferCode struct {
+	Attributes *struct {
+		Active                *bool                                                    `json:"active,omitempty"`
+		CustomerEligibilities *[]InAppPurchaseOfferCodeAttributesCustomerEligibilities `json:"customerEligibilities,omitempty"`
+		Name                  *string                                                  `json:"name,omitempty"`
+		ProductionCodeCount   *int                                                     `json:"productionCodeCount,omitempty"`
+		SandboxCodeCount      *int                                                     `json:"sandboxCodeCount,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		CustomCodes *struct {
+			Data *[]struct {
+				Id   string                                                 `json:"id"`
+				Type InAppPurchaseOfferCodeRelationshipsCustomCodesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"customCodes,omitempty"`
+		OneTimeUseCodes *struct {
+			Data *[]struct {
+				Id   string                                                     `json:"id"`
+				Type InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"oneTimeUseCodes,omitempty"`
+		Prices *struct {
+			Data *[]struct {
+				Id   string                                            `json:"id"`
+				Type InAppPurchaseOfferCodeRelationshipsPricesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"prices,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseOfferCodeType `json:"type"`
+}
+
+// InAppPurchaseOfferCodeAttributesCustomerEligibilities defines model for InAppPurchaseOfferCode.Attributes.CustomerEligibilities.
+type InAppPurchaseOfferCodeAttributesCustomerEligibilities string
+
+// InAppPurchaseOfferCodeRelationshipsCustomCodesDataType defines model for InAppPurchaseOfferCode.Relationships.CustomCodes.Data.Type.
+type InAppPurchaseOfferCodeRelationshipsCustomCodesDataType string
+
+// InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataType defines model for InAppPurchaseOfferCode.Relationships.OneTimeUseCodes.Data.Type.
+type InAppPurchaseOfferCodeRelationshipsOneTimeUseCodesDataType string
+
+// InAppPurchaseOfferCodeRelationshipsPricesDataType defines model for InAppPurchaseOfferCode.Relationships.Prices.Data.Type.
+type InAppPurchaseOfferCodeRelationshipsPricesDataType string
+
+// InAppPurchaseOfferCodeType defines model for InAppPurchaseOfferCode.Type.
+type InAppPurchaseOfferCodeType string
+
+// InAppPurchasePricePoint defines model for InAppPurchasePricePoint.
+type InAppPurchasePricePoint struct {
+	Attributes *struct {
+		CustomerPrice *string `json:"customerPrice,omitempty"`
+		Proceeds      *string `json:"proceeds,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Equalizations *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"equalizations,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                                `json:"id"`
+				Type InAppPurchasePricePointRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchasePricePointType `json:"type"`
+}
+
+// InAppPurchasePricePointRelationshipsTerritoryDataType defines model for InAppPurchasePricePoint.Relationships.Territory.Data.Type.
+type InAppPurchasePricePointRelationshipsTerritoryDataType string
+
+// InAppPurchasePricePointType defines model for InAppPurchasePricePoint.Type.
+type InAppPurchasePricePointType string
+
+// InAppPurchasePriceSchedule defines model for InAppPurchasePriceSchedule.
+type InAppPurchasePriceSchedule struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AutomaticPrices *struct {
+			Data *[]struct {
+				Id   string                                                         `json:"id"`
+				Type InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"automaticPrices,omitempty"`
+		BaseTerritory *struct {
+			Data *struct {
+				Id   string                                                       `json:"id"`
+				Type InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"baseTerritory,omitempty"`
+		ManualPrices *struct {
+			Data *[]struct {
+				Id   string                                                      `json:"id"`
+				Type InAppPurchasePriceScheduleRelationshipsManualPricesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"manualPrices,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchasePriceScheduleType `json:"type"`
+}
+
+// InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataType defines model for InAppPurchasePriceSchedule.Relationships.AutomaticPrices.Data.Type.
+type InAppPurchasePriceScheduleRelationshipsAutomaticPricesDataType string
+
+// InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataType defines model for InAppPurchasePriceSchedule.Relationships.BaseTerritory.Data.Type.
+type InAppPurchasePriceScheduleRelationshipsBaseTerritoryDataType string
+
+// InAppPurchasePriceScheduleRelationshipsManualPricesDataType defines model for InAppPurchasePriceSchedule.Relationships.ManualPrices.Data.Type.
+type InAppPurchasePriceScheduleRelationshipsManualPricesDataType string
+
+// InAppPurchasePriceScheduleType defines model for InAppPurchasePriceSchedule.Type.
+type InAppPurchasePriceScheduleType string
+
+// InAppPurchaseState defines model for InAppPurchaseState.
+type InAppPurchaseState string
+
+// InAppPurchaseType defines model for InAppPurchaseType.
+type InAppPurchaseType string
+
+// InAppPurchaseV2 defines model for InAppPurchaseV2.
+type InAppPurchaseV2 struct {
+	Attributes *struct {
+		ContentHosting    *bool               `json:"contentHosting,omitempty"`
+		FamilySharable    *bool               `json:"familySharable,omitempty"`
+		InAppPurchaseType *InAppPurchaseType  `json:"inAppPurchaseType,omitempty"`
+		Name              *string             `json:"name,omitempty"`
+		ProductId         *string             `json:"productId,omitempty"`
+		ReviewNote        *string             `json:"reviewNote,omitempty"`
+		State             *InAppPurchaseState `json:"state,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppStoreReviewScreenshot *struct {
+			Data *struct {
+				Id   string                                                       `json:"id"`
+				Type InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"appStoreReviewScreenshot,omitempty"`
+		Content *struct {
+			Data *struct {
+				Id   string                                      `json:"id"`
+				Type InAppPurchaseV2RelationshipsContentDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"content,omitempty"`
+		IapPriceSchedule *struct {
+			Data *struct {
+				Id   string                                               `json:"id"`
+				Type InAppPurchaseV2RelationshipsIapPriceScheduleDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"iapPriceSchedule,omitempty"`
+		Images *struct {
+			Data *[]struct {
+				Id   string                                     `json:"id"`
+				Type InAppPurchaseV2RelationshipsImagesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"images,omitempty"`
+		InAppPurchaseAvailability *struct {
+			Data *struct {
+				Id   string                                                        `json:"id"`
+				Type InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"inAppPurchaseAvailability,omitempty"`
+		InAppPurchaseLocalizations *struct {
+			Data *[]struct {
+				Id   string                                                         `json:"id"`
+				Type InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"inAppPurchaseLocalizations,omitempty"`
+		OfferCodes *struct {
+			Data *[]struct {
+				Id   string                                         `json:"id"`
+				Type InAppPurchaseV2RelationshipsOfferCodesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"offerCodes,omitempty"`
+		PricePoints *struct {
+			Data *[]struct {
+				Id   string                                          `json:"id"`
+				Type InAppPurchaseV2RelationshipsPricePointsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"pricePoints,omitempty"`
+		PromotedPurchase *struct {
+			Data *struct {
+				Id   string                                               `json:"id"`
+				Type InAppPurchaseV2RelationshipsPromotedPurchaseDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"promotedPurchase,omitempty"`
+		Versions *struct {
+			Data *[]struct {
+				Id   string                                       `json:"id"`
+				Type InAppPurchaseV2RelationshipsVersionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"versions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type InAppPurchaseV2Type `json:"type"`
+}
+
+// InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataType defines model for InAppPurchaseV2.Relationships.AppStoreReviewScreenshot.Data.Type.
+type InAppPurchaseV2RelationshipsAppStoreReviewScreenshotDataType string
+
+// InAppPurchaseV2RelationshipsContentDataType defines model for InAppPurchaseV2.Relationships.Content.Data.Type.
+type InAppPurchaseV2RelationshipsContentDataType string
+
+// InAppPurchaseV2RelationshipsIapPriceScheduleDataType defines model for InAppPurchaseV2.Relationships.IapPriceSchedule.Data.Type.
+type InAppPurchaseV2RelationshipsIapPriceScheduleDataType string
+
+// InAppPurchaseV2RelationshipsImagesDataType defines model for InAppPurchaseV2.Relationships.Images.Data.Type.
+type InAppPurchaseV2RelationshipsImagesDataType string
+
+// InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataType defines model for InAppPurchaseV2.Relationships.InAppPurchaseAvailability.Data.Type.
+type InAppPurchaseV2RelationshipsInAppPurchaseAvailabilityDataType string
+
+// InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataType defines model for InAppPurchaseV2.Relationships.InAppPurchaseLocalizations.Data.Type.
+type InAppPurchaseV2RelationshipsInAppPurchaseLocalizationsDataType string
+
+// InAppPurchaseV2RelationshipsOfferCodesDataType defines model for InAppPurchaseV2.Relationships.OfferCodes.Data.Type.
+type InAppPurchaseV2RelationshipsOfferCodesDataType string
+
+// InAppPurchaseV2RelationshipsPricePointsDataType defines model for InAppPurchaseV2.Relationships.PricePoints.Data.Type.
+type InAppPurchaseV2RelationshipsPricePointsDataType string
+
+// InAppPurchaseV2RelationshipsPromotedPurchaseDataType defines model for InAppPurchaseV2.Relationships.PromotedPurchase.Data.Type.
+type InAppPurchaseV2RelationshipsPromotedPurchaseDataType string
+
+// InAppPurchaseV2RelationshipsVersionsDataType defines model for InAppPurchaseV2.Relationships.Versions.Data.Type.
+type InAppPurchaseV2RelationshipsVersionsDataType string
+
+// InAppPurchaseV2Type defines model for InAppPurchaseV2.Type.
+type InAppPurchaseV2Type string
+
+// InAppPurchaseV2CreateRequest defines model for InAppPurchaseV2CreateRequest.
+type InAppPurchaseV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FamilySharable    *bool             `json:"familySharable,omitempty"`
+			InAppPurchaseType InAppPurchaseType `json:"inAppPurchaseType"`
+			Name              string            `json:"name"`
+			ProductId         string            `json:"productId"`
+			ReviewNote        *string           `json:"reviewNote,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                   `json:"id"`
+					Type InAppPurchaseV2CreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type InAppPurchaseV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseV2CreateRequestDataRelationshipsAppDataType defines model for InAppPurchaseV2CreateRequest.Data.Relationships.App.Data.Type.
+type InAppPurchaseV2CreateRequestDataRelationshipsAppDataType string
+
+// InAppPurchaseV2CreateRequestDataType defines model for InAppPurchaseV2CreateRequest.Data.Type.
+type InAppPurchaseV2CreateRequestDataType string
+
+// InAppPurchaseV2Response defines model for InAppPurchaseV2Response.
+type InAppPurchaseV2Response struct {
+	Data     InAppPurchaseV2                          `json:"data"`
+	Included *[]InAppPurchaseV2Response_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                            `json:"links"`
+}
+
+// InAppPurchaseV2Response_Included_Item defines model for InAppPurchaseV2Response.included.Item.
+type InAppPurchaseV2Response_Included_Item struct {
+	union json.RawMessage
+}
+
+// InAppPurchaseV2UpdateRequest defines model for InAppPurchaseV2UpdateRequest.
+type InAppPurchaseV2UpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			FamilySharable *bool   `json:"familySharable,omitempty"`
+			Name           *string `json:"name,omitempty"`
+			ReviewNote     *string `json:"reviewNote,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                               `json:"id"`
+		Type InAppPurchaseV2UpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseV2UpdateRequestDataType defines model for InAppPurchaseV2UpdateRequest.Data.Type.
+type InAppPurchaseV2UpdateRequestDataType string
+
 // InAppPurchaseVersion defines model for InAppPurchaseVersion.
 type InAppPurchaseVersion struct {
 	Attributes *struct {
@@ -37289,6 +40229,65 @@ type InAppPurchaseVersionRelationshipsLocalizationsDataType string
 
 // InAppPurchaseVersionType defines model for InAppPurchaseVersion.Type.
 type InAppPurchaseVersionType string
+
+// InAppPurchaseVersionCreateRequest defines model for InAppPurchaseVersionCreateRequest.
+type InAppPurchaseVersionCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			InAppPurchase struct {
+				Data struct {
+					Id   string                                                                  `json:"id"`
+					Type InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataType `json:"type"`
+				} `json:"data"`
+			} `json:"inAppPurchase"`
+		} `json:"relationships"`
+		Type InAppPurchaseVersionCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataType defines model for InAppPurchaseVersionCreateRequest.Data.Relationships.InAppPurchase.Data.Type.
+type InAppPurchaseVersionCreateRequestDataRelationshipsInAppPurchaseDataType string
+
+// InAppPurchaseVersionCreateRequestDataType defines model for InAppPurchaseVersionCreateRequest.Data.Type.
+type InAppPurchaseVersionCreateRequestDataType string
+
+// InAppPurchaseVersionResponse defines model for InAppPurchaseVersionResponse.
+type InAppPurchaseVersionResponse struct {
+	Data     InAppPurchaseVersion                          `json:"data"`
+	Included *[]InAppPurchaseVersionResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                 `json:"links"`
+}
+
+// InAppPurchaseVersionResponse_Included_Item defines model for InAppPurchaseVersionResponse.included.Item.
+type InAppPurchaseVersionResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// InAppPurchaseVersionsResponse defines model for InAppPurchaseVersionsResponse.
+type InAppPurchaseVersionsResponse struct {
+	Data     []InAppPurchaseVersion                         `json:"data"`
+	Included *[]InAppPurchaseVersionsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                             `json:"links"`
+	Meta     *PagingInformation                             `json:"meta,omitempty"`
+}
+
+// InAppPurchaseVersionsResponse_Included_Item defines model for InAppPurchaseVersionsResponse.included.Item.
+type InAppPurchaseVersionsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// InAppPurchasesV2Response defines model for InAppPurchasesV2Response.
+type InAppPurchasesV2Response struct {
+	Data     []InAppPurchaseV2                         `json:"data"`
+	Included *[]InAppPurchasesV2Response_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                        `json:"links"`
+	Meta     *PagingInformation                        `json:"meta,omitempty"`
+}
+
+// InAppPurchasesV2Response_Included_Item defines model for InAppPurchasesV2Response.included.Item.
+type InAppPurchasesV2Response_Included_Item struct {
+	union json.RawMessage
+}
 
 // InternalBetaState defines model for InternalBetaState.
 type InternalBetaState string
@@ -40703,6 +43702,114 @@ type AppsEndUserLicenseAgreementGetToOneRelatedParams struct {
 // AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements defines parameters for AppsEndUserLicenseAgreementGetToOneRelated.
 type AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements string
 
+// AppsInAppPurchasesV2GetToManyRelatedParams defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParams struct {
+	// FilterProductId filter by attribute 'productId'
+	FilterProductId *[]string `form:"filter[productId],omitempty" json:"filter[productId],omitempty"`
+
+	// FilterName filter by attribute 'name'
+	FilterName *[]string `form:"filter[name],omitempty" json:"filter[name],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppsInAppPurchasesV2GetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FilterInAppPurchaseType filter by attribute 'inAppPurchaseType'
+	FilterInAppPurchaseType *[]AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType `form:"filter[inAppPurchaseType],omitempty" json:"filter[inAppPurchaseType],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]AppsInAppPurchasesV2GetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsInAppPurchases the fields to include for returned resources of type inAppPurchases
+	FieldsInAppPurchases *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases `form:"fields[inAppPurchases],omitempty" json:"fields[inAppPurchases],omitempty"`
+
+	// FieldsInAppPurchaseLocalizations the fields to include for returned resources of type inAppPurchaseLocalizations
+	FieldsInAppPurchaseLocalizations *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations `form:"fields[inAppPurchaseLocalizations],omitempty" json:"fields[inAppPurchaseLocalizations],omitempty"`
+
+	// FieldsInAppPurchaseContents the fields to include for returned resources of type inAppPurchaseContents
+	FieldsInAppPurchaseContents *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents `form:"fields[inAppPurchaseContents],omitempty" json:"fields[inAppPurchaseContents],omitempty"`
+
+	// FieldsInAppPurchaseAppStoreReviewScreenshots the fields to include for returned resources of type inAppPurchaseAppStoreReviewScreenshots
+	FieldsInAppPurchaseAppStoreReviewScreenshots *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots `form:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty" json:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty"`
+
+	// FieldsPromotedPurchases the fields to include for returned resources of type promotedPurchases
+	FieldsPromotedPurchases *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases `form:"fields[promotedPurchases],omitempty" json:"fields[promotedPurchases],omitempty"`
+
+	// FieldsInAppPurchasePriceSchedules the fields to include for returned resources of type inAppPurchasePriceSchedules
+	FieldsInAppPurchasePriceSchedules *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules `form:"fields[inAppPurchasePriceSchedules],omitempty" json:"fields[inAppPurchasePriceSchedules],omitempty"`
+
+	// FieldsInAppPurchaseAvailabilities the fields to include for returned resources of type inAppPurchaseAvailabilities
+	FieldsInAppPurchaseAvailabilities *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities `form:"fields[inAppPurchaseAvailabilities],omitempty" json:"fields[inAppPurchaseAvailabilities],omitempty"`
+
+	// FieldsInAppPurchaseImages the fields to include for returned resources of type inAppPurchaseImages
+	FieldsInAppPurchaseImages *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages `form:"fields[inAppPurchaseImages],omitempty" json:"fields[inAppPurchaseImages],omitempty"`
+
+	// FieldsInAppPurchaseOfferCodes the fields to include for returned resources of type inAppPurchaseOfferCodes
+	FieldsInAppPurchaseOfferCodes *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes `form:"fields[inAppPurchaseOfferCodes],omitempty" json:"fields[inAppPurchaseOfferCodes],omitempty"`
+
+	// FieldsInAppPurchaseVersions the fields to include for returned resources of type inAppPurchaseVersions
+	FieldsInAppPurchaseVersions *[]AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions `form:"fields[inAppPurchaseVersions],omitempty" json:"fields[inAppPurchaseVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsInAppPurchasesV2GetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitInAppPurchaseLocalizations maximum number of related inAppPurchaseLocalizations returned (when they are included)
+	LimitInAppPurchaseLocalizations *int `form:"limit[inAppPurchaseLocalizations],omitempty" json:"limit[inAppPurchaseLocalizations],omitempty"`
+
+	// LimitImages maximum number of related images returned (when they are included)
+	LimitImages *int `form:"limit[images],omitempty" json:"limit[images],omitempty"`
+
+	// LimitOfferCodes maximum number of related offerCodes returned (when they are included)
+	LimitOfferCodes *int `form:"limit[offerCodes],omitempty" json:"limit[offerCodes],omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+}
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFilterState defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFilterState string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFilterInAppPurchaseType string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsSort defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsSort string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchases string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseLocalizations string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseContents string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsPromotedPurchases string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchasePriceSchedules string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseAvailabilities string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseImages string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseOfferCodes string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions string
+
+// AppsInAppPurchasesV2GetToManyRelatedParamsInclude defines parameters for AppsInAppPurchasesV2GetToManyRelated.
+type AppsInAppPurchasesV2GetToManyRelatedParamsInclude string
+
 // AppsSearchKeywordsGetToManyRelatedParams defines parameters for AppsSearchKeywordsGetToManyRelated.
 type AppsSearchKeywordsGetToManyRelatedParams struct {
 	// FilterPlatform filter by platform
@@ -41654,6 +44761,60 @@ type EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams struct {
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
+// InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams defines parameters for InAppPurchaseAppStoreReviewScreenshotsGetInstance.
+type InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams struct {
+	// FieldsInAppPurchaseAppStoreReviewScreenshots the fields to include for returned resources of type inAppPurchaseAppStoreReviewScreenshots
+	FieldsInAppPurchaseAppStoreReviewScreenshots *[]InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots `form:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty" json:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty"`
+
+	// FieldsInAppPurchases the fields to include for returned resources of type inAppPurchases
+	FieldsInAppPurchases *[]InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases `form:"fields[inAppPurchases],omitempty" json:"fields[inAppPurchases],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots defines parameters for InAppPurchaseAppStoreReviewScreenshotsGetInstance.
+type InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots string
+
+// InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases defines parameters for InAppPurchaseAppStoreReviewScreenshotsGetInstance.
+type InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsFieldsInAppPurchases string
+
+// InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsInclude defines parameters for InAppPurchaseAppStoreReviewScreenshotsGetInstance.
+type InAppPurchaseAppStoreReviewScreenshotsGetInstanceParamsInclude string
+
+// InAppPurchaseVersionsImageGetToOneRelatedParams defines parameters for InAppPurchaseVersionsImageGetToOneRelated.
+type InAppPurchaseVersionsImageGetToOneRelatedParams struct {
+	// FieldsInAppPurchaseImages the fields to include for returned resources of type inAppPurchaseImages
+	FieldsInAppPurchaseImages *[]InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages `form:"fields[inAppPurchaseImages],omitempty" json:"fields[inAppPurchaseImages],omitempty"`
+}
+
+// InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages defines parameters for InAppPurchaseVersionsImageGetToOneRelated.
+type InAppPurchaseVersionsImageGetToOneRelatedParamsFieldsInAppPurchaseImages string
+
+// InAppPurchaseVersionsLocalizationsGetToManyRelatedParams defines parameters for InAppPurchaseVersionsLocalizationsGetToManyRelated.
+type InAppPurchaseVersionsLocalizationsGetToManyRelatedParams struct {
+	// FieldsInAppPurchaseLocalizations the fields to include for returned resources of type inAppPurchaseLocalizations
+	FieldsInAppPurchaseLocalizations *[]InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations `form:"fields[inAppPurchaseLocalizations],omitempty" json:"fields[inAppPurchaseLocalizations],omitempty"`
+
+	// FieldsInAppPurchaseVersions the fields to include for returned resources of type inAppPurchaseVersions
+	FieldsInAppPurchaseVersions *[]InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions `form:"fields[inAppPurchaseVersions],omitempty" json:"fields[inAppPurchaseVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations defines parameters for InAppPurchaseVersionsLocalizationsGetToManyRelated.
+type InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations string
+
+// InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions defines parameters for InAppPurchaseVersionsLocalizationsGetToManyRelated.
+type InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsFieldsInAppPurchaseVersions string
+
+// InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsInclude defines parameters for InAppPurchaseVersionsLocalizationsGetToManyRelated.
+type InAppPurchaseVersionsLocalizationsGetToManyRelatedParamsInclude string
+
 // MerchantIdsGetCollectionParams defines parameters for MerchantIdsGetCollection.
 type MerchantIdsGetCollectionParams struct {
 	// FilterName filter by attribute 'name'
@@ -42479,6 +45640,174 @@ type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerri
 // AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude defines parameters for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated.
 type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude string
 
+// InAppPurchaseImagesV2GetInstanceParams defines parameters for InAppPurchaseImagesV2GetInstance.
+type InAppPurchaseImagesV2GetInstanceParams struct {
+	// FieldsInAppPurchaseImages the fields to include for returned resources of type inAppPurchaseImages
+	FieldsInAppPurchaseImages *[]InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages `form:"fields[inAppPurchaseImages],omitempty" json:"fields[inAppPurchaseImages],omitempty"`
+}
+
+// InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages defines parameters for InAppPurchaseImagesV2GetInstance.
+type InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages string
+
+// InAppPurchasesV2GetInstanceParams defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParams struct {
+	// FieldsInAppPurchases the fields to include for returned resources of type inAppPurchases
+	FieldsInAppPurchases *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases `form:"fields[inAppPurchases],omitempty" json:"fields[inAppPurchases],omitempty"`
+
+	// FieldsInAppPurchaseLocalizations the fields to include for returned resources of type inAppPurchaseLocalizations
+	FieldsInAppPurchaseLocalizations *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations `form:"fields[inAppPurchaseLocalizations],omitempty" json:"fields[inAppPurchaseLocalizations],omitempty"`
+
+	// FieldsInAppPurchasePricePoints the fields to include for returned resources of type inAppPurchasePricePoints
+	FieldsInAppPurchasePricePoints *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints `form:"fields[inAppPurchasePricePoints],omitempty" json:"fields[inAppPurchasePricePoints],omitempty"`
+
+	// FieldsInAppPurchaseContents the fields to include for returned resources of type inAppPurchaseContents
+	FieldsInAppPurchaseContents *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents `form:"fields[inAppPurchaseContents],omitempty" json:"fields[inAppPurchaseContents],omitempty"`
+
+	// FieldsInAppPurchaseAppStoreReviewScreenshots the fields to include for returned resources of type inAppPurchaseAppStoreReviewScreenshots
+	FieldsInAppPurchaseAppStoreReviewScreenshots *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots `form:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty" json:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty"`
+
+	// FieldsPromotedPurchases the fields to include for returned resources of type promotedPurchases
+	FieldsPromotedPurchases *[]InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases `form:"fields[promotedPurchases],omitempty" json:"fields[promotedPurchases],omitempty"`
+
+	// FieldsInAppPurchasePriceSchedules the fields to include for returned resources of type inAppPurchasePriceSchedules
+	FieldsInAppPurchasePriceSchedules *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules `form:"fields[inAppPurchasePriceSchedules],omitempty" json:"fields[inAppPurchasePriceSchedules],omitempty"`
+
+	// FieldsInAppPurchaseAvailabilities the fields to include for returned resources of type inAppPurchaseAvailabilities
+	FieldsInAppPurchaseAvailabilities *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities `form:"fields[inAppPurchaseAvailabilities],omitempty" json:"fields[inAppPurchaseAvailabilities],omitempty"`
+
+	// FieldsInAppPurchaseImages the fields to include for returned resources of type inAppPurchaseImages
+	FieldsInAppPurchaseImages *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages `form:"fields[inAppPurchaseImages],omitempty" json:"fields[inAppPurchaseImages],omitempty"`
+
+	// FieldsInAppPurchaseOfferCodes the fields to include for returned resources of type inAppPurchaseOfferCodes
+	FieldsInAppPurchaseOfferCodes *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes `form:"fields[inAppPurchaseOfferCodes],omitempty" json:"fields[inAppPurchaseOfferCodes],omitempty"`
+
+	// FieldsInAppPurchaseVersions the fields to include for returned resources of type inAppPurchaseVersions
+	FieldsInAppPurchaseVersions *[]InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions `form:"fields[inAppPurchaseVersions],omitempty" json:"fields[inAppPurchaseVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchasesV2GetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitImages maximum number of related images returned (when they are included)
+	LimitImages *int `form:"limit[images],omitempty" json:"limit[images],omitempty"`
+
+	// LimitInAppPurchaseLocalizations maximum number of related inAppPurchaseLocalizations returned (when they are included)
+	LimitInAppPurchaseLocalizations *int `form:"limit[inAppPurchaseLocalizations],omitempty" json:"limit[inAppPurchaseLocalizations],omitempty"`
+
+	// LimitOfferCodes maximum number of related offerCodes returned (when they are included)
+	LimitOfferCodes *int `form:"limit[offerCodes],omitempty" json:"limit[offerCodes],omitempty"`
+
+	// LimitPricePoints maximum number of related pricePoints returned (when they are included)
+	LimitPricePoints *int `form:"limit[pricePoints],omitempty" json:"limit[pricePoints],omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+}
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchases string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseLocalizations string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePricePoints string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseContents string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAppStoreReviewScreenshots string
+
+// InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsPromotedPurchases string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchasePriceSchedules string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseAvailabilities string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseImages string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseOfferCodes string
+
+// InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsFieldsInAppPurchaseVersions string
+
+// InAppPurchasesV2GetInstanceParamsInclude defines parameters for InAppPurchasesV2GetInstance.
+type InAppPurchasesV2GetInstanceParamsInclude string
+
+// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams defines parameters for InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated.
+type InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams struct {
+	// FieldsInAppPurchaseAppStoreReviewScreenshots the fields to include for returned resources of type inAppPurchaseAppStoreReviewScreenshots
+	FieldsInAppPurchaseAppStoreReviewScreenshots *[]InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots `form:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty" json:"fields[inAppPurchaseAppStoreReviewScreenshots],omitempty"`
+
+	// FieldsInAppPurchases the fields to include for returned resources of type inAppPurchases
+	FieldsInAppPurchases *[]InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases `form:"fields[inAppPurchases],omitempty" json:"fields[inAppPurchases],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots defines parameters for InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated.
+type InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchaseAppStoreReviewScreenshots string
+
+// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases defines parameters for InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated.
+type InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsFieldsInAppPurchases string
+
+// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsInclude defines parameters for InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated.
+type InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParamsInclude string
+
+// InAppPurchasesV2VersionsGetToManyRelatedParams defines parameters for InAppPurchasesV2VersionsGetToManyRelated.
+type InAppPurchasesV2VersionsGetToManyRelatedParams struct {
+	// FilterState filter by attribute 'state'
+	FilterState *[]InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FieldsInAppPurchaseVersions the fields to include for returned resources of type inAppPurchaseVersions
+	FieldsInAppPurchaseVersions *[]InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions `form:"fields[inAppPurchaseVersions],omitempty" json:"fields[inAppPurchaseVersions],omitempty"`
+
+	// FieldsInAppPurchases the fields to include for returned resources of type inAppPurchases
+	FieldsInAppPurchases *[]InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases `form:"fields[inAppPurchases],omitempty" json:"fields[inAppPurchases],omitempty"`
+
+	// FieldsInAppPurchaseImages the fields to include for returned resources of type inAppPurchaseImages
+	FieldsInAppPurchaseImages *[]InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages `form:"fields[inAppPurchaseImages],omitempty" json:"fields[inAppPurchaseImages],omitempty"`
+
+	// FieldsInAppPurchaseLocalizations the fields to include for returned resources of type inAppPurchaseLocalizations
+	FieldsInAppPurchaseLocalizations *[]InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations `form:"fields[inAppPurchaseLocalizations],omitempty" json:"fields[inAppPurchaseLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]InAppPurchasesV2VersionsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitImages maximum number of related images returned (when they are included)
+	LimitImages *int `form:"limit[images],omitempty" json:"limit[images],omitempty"`
+
+	// LimitLocalizations maximum number of related localizations returned (when they are included)
+	LimitLocalizations *int `form:"limit[localizations],omitempty" json:"limit[localizations],omitempty"`
+}
+
+// InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState defines parameters for InAppPurchasesV2VersionsGetToManyRelated.
+type InAppPurchasesV2VersionsGetToManyRelatedParamsFilterState string
+
+// InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions defines parameters for InAppPurchasesV2VersionsGetToManyRelated.
+type InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseVersions string
+
+// InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases defines parameters for InAppPurchasesV2VersionsGetToManyRelated.
+type InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchases string
+
+// InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages defines parameters for InAppPurchasesV2VersionsGetToManyRelated.
+type InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseImages string
+
+// InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations defines parameters for InAppPurchasesV2VersionsGetToManyRelated.
+type InAppPurchasesV2VersionsGetToManyRelatedParamsFieldsInAppPurchaseLocalizations string
+
+// InAppPurchasesV2VersionsGetToManyRelatedParamsInclude defines parameters for InAppPurchasesV2VersionsGetToManyRelated.
+type InAppPurchasesV2VersionsGetToManyRelatedParamsInclude string
+
 // AppPricePointsV3EqualizationsGetToManyRelatedParams defines parameters for AppPricePointsV3EqualizationsGetToManyRelated.
 type AppPricePointsV3EqualizationsGetToManyRelatedParams struct {
 	// FilterTerritory filter by id(s) of related 'territory'
@@ -42725,6 +46054,15 @@ type EndUserLicenseAgreementsCreateInstanceJSONRequestBody = EndUserLicenseAgree
 // EndUserLicenseAgreementsUpdateInstanceJSONRequestBody defines body for EndUserLicenseAgreementsUpdateInstance for application/json ContentType.
 type EndUserLicenseAgreementsUpdateInstanceJSONRequestBody = EndUserLicenseAgreementUpdateRequest
 
+// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody defines body for InAppPurchaseAppStoreReviewScreenshotsCreateInstance for application/json ContentType.
+type InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody = InAppPurchaseAppStoreReviewScreenshotCreateRequest
+
+// InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody defines body for InAppPurchaseAppStoreReviewScreenshotsUpdateInstance for application/json ContentType.
+type InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody = InAppPurchaseAppStoreReviewScreenshotUpdateRequest
+
+// InAppPurchaseVersionsCreateInstanceJSONRequestBody defines body for InAppPurchaseVersionsCreateInstance for application/json ContentType.
+type InAppPurchaseVersionsCreateInstanceJSONRequestBody = InAppPurchaseVersionCreateRequest
+
 // MerchantIdsCreateInstanceJSONRequestBody defines body for MerchantIdsCreateInstance for application/json ContentType.
 type MerchantIdsCreateInstanceJSONRequestBody = MerchantIdCreateRequest
 
@@ -42790,6 +46128,24 @@ type WebhooksUpdateInstanceJSONRequestBody = WebhookUpdateRequest
 
 // AppAvailabilitiesV2CreateInstanceJSONRequestBody defines body for AppAvailabilitiesV2CreateInstance for application/json ContentType.
 type AppAvailabilitiesV2CreateInstanceJSONRequestBody = AppAvailabilityV2CreateRequest
+
+// InAppPurchaseImagesV2CreateInstanceJSONRequestBody defines body for InAppPurchaseImagesV2CreateInstance for application/json ContentType.
+type InAppPurchaseImagesV2CreateInstanceJSONRequestBody = InAppPurchaseImageV2CreateRequest
+
+// InAppPurchaseImagesV2UpdateInstanceJSONRequestBody defines body for InAppPurchaseImagesV2UpdateInstance for application/json ContentType.
+type InAppPurchaseImagesV2UpdateInstanceJSONRequestBody = InAppPurchaseImageV2UpdateRequest
+
+// InAppPurchaseLocalizationsV2CreateInstanceJSONRequestBody defines body for InAppPurchaseLocalizationsV2CreateInstance for application/json ContentType.
+type InAppPurchaseLocalizationsV2CreateInstanceJSONRequestBody = InAppPurchaseLocalizationV2CreateRequest
+
+// InAppPurchaseLocalizationsV2UpdateInstanceJSONRequestBody defines body for InAppPurchaseLocalizationsV2UpdateInstance for application/json ContentType.
+type InAppPurchaseLocalizationsV2UpdateInstanceJSONRequestBody = InAppPurchaseLocalizationV2UpdateRequest
+
+// InAppPurchasesV2CreateInstanceJSONRequestBody defines body for InAppPurchasesV2CreateInstance for application/json ContentType.
+type InAppPurchasesV2CreateInstanceJSONRequestBody = InAppPurchaseV2CreateRequest
+
+// InAppPurchasesV2UpdateInstanceJSONRequestBody defines body for InAppPurchasesV2UpdateInstance for application/json ContentType.
+type InAppPurchasesV2UpdateInstanceJSONRequestBody = InAppPurchaseV2UpdateRequest
 
 // AsAppAssetLibraryImageAwaitingUploadAttributes returns the union data inside the AppAssetLibraryImage_Attributes as a AppAssetLibraryImageAwaitingUploadAttributes
 func (t AppAssetLibraryImage_Attributes) AsAppAssetLibraryImageAwaitingUploadAttributes() (AppAssetLibraryImageAwaitingUploadAttributes, error) {
@@ -50342,6 +53698,1058 @@ func (t *ErrorResponse_Errors_Source) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsInAppPurchaseAppStoreReviewScreenshot returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchaseAppStoreReviewScreenshot
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchaseAppStoreReviewScreenshot() (InAppPurchaseAppStoreReviewScreenshot, error) {
+	var body InAppPurchaseAppStoreReviewScreenshot
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseAppStoreReviewScreenshot overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchaseAppStoreReviewScreenshot
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchaseAppStoreReviewScreenshot(v InAppPurchaseAppStoreReviewScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAppStoreReviewScreenshots"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseAppStoreReviewScreenshot performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchaseAppStoreReviewScreenshot
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchaseAppStoreReviewScreenshot(v InAppPurchaseAppStoreReviewScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAppStoreReviewScreenshots"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseAvailability returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchaseAvailability
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchaseAvailability() (InAppPurchaseAvailability, error) {
+	var body InAppPurchaseAvailability
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseAvailability overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchaseAvailability
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchaseAvailability(v InAppPurchaseAvailability) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAvailabilities"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseAvailability performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchaseAvailability
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchaseAvailability(v InAppPurchaseAvailability) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAvailabilities"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseContent returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchaseContent
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchaseContent() (InAppPurchaseContent, error) {
+	var body InAppPurchaseContent
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseContent overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchaseContent
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchaseContent(v InAppPurchaseContent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseContents"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseContent performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchaseContent
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchaseContent(v InAppPurchaseContent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseContents"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseImage returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchaseImage
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchaseImage() (InAppPurchaseImage, error) {
+	var body InAppPurchaseImage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseImage overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchaseImage
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchaseImage(v InAppPurchaseImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseImage performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchaseImage
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchaseImage(v InAppPurchaseImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseLocalization returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchaseLocalization
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchaseLocalization() (InAppPurchaseLocalization, error) {
+	var body InAppPurchaseLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseLocalization overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchaseLocalization
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchaseLocalization(v InAppPurchaseLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseLocalization performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchaseLocalization
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchaseLocalization(v InAppPurchaseLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseOfferCode returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchaseOfferCode
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchaseOfferCode() (InAppPurchaseOfferCode, error) {
+	var body InAppPurchaseOfferCode
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseOfferCode overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchaseOfferCode
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchaseOfferCode(v InAppPurchaseOfferCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodes"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseOfferCode performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchaseOfferCode
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchaseOfferCode(v InAppPurchaseOfferCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodes"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchasePricePoint returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchasePricePoint
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchasePricePoint() (InAppPurchasePricePoint, error) {
+	var body InAppPurchasePricePoint
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchasePricePoint overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchasePricePoint
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchasePricePoint(v InAppPurchasePricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchasePricePoint performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchasePricePoint
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchasePricePoint(v InAppPurchasePricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchasePriceSchedule returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchasePriceSchedule
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchasePriceSchedule() (InAppPurchasePriceSchedule, error) {
+	var body InAppPurchasePriceSchedule
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchasePriceSchedule overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchasePriceSchedule
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchasePriceSchedule(v InAppPurchasePriceSchedule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePriceSchedules"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchasePriceSchedule performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchasePriceSchedule
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchasePriceSchedule(v InAppPurchasePriceSchedule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePriceSchedules"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseVersion returns the union data inside the InAppPurchaseV2Response_Included_Item as a InAppPurchaseVersion
+func (t InAppPurchaseV2Response_Included_Item) AsInAppPurchaseVersion() (InAppPurchaseVersion, error) {
+	var body InAppPurchaseVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseVersion overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided InAppPurchaseVersion
+func (t *InAppPurchaseV2Response_Included_Item) FromInAppPurchaseVersion(v InAppPurchaseVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseVersion performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided InAppPurchaseVersion
+func (t *InAppPurchaseV2Response_Included_Item) MergeInAppPurchaseVersion(v InAppPurchaseVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsPromotedPurchase returns the union data inside the InAppPurchaseV2Response_Included_Item as a PromotedPurchase
+func (t InAppPurchaseV2Response_Included_Item) AsPromotedPurchase() (PromotedPurchase, error) {
+	var body PromotedPurchase
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromPromotedPurchase overwrites any union data inside the InAppPurchaseV2Response_Included_Item as the provided PromotedPurchase
+func (t *InAppPurchaseV2Response_Included_Item) FromPromotedPurchase(v PromotedPurchase) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"promotedPurchases"}`))
+	t.union = b
+	return err
+}
+
+// MergePromotedPurchase performs a merge with any union data inside the InAppPurchaseV2Response_Included_Item, using the provided PromotedPurchase
+func (t *InAppPurchaseV2Response_Included_Item) MergePromotedPurchase(v PromotedPurchase) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"promotedPurchases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t InAppPurchaseV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t InAppPurchaseV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "inAppPurchaseAppStoreReviewScreenshots":
+		return t.AsInAppPurchaseAppStoreReviewScreenshot()
+	case "inAppPurchaseAvailabilities":
+		return t.AsInAppPurchaseAvailability()
+	case "inAppPurchaseContents":
+		return t.AsInAppPurchaseContent()
+	case "inAppPurchaseImages":
+		return t.AsInAppPurchaseImage()
+	case "inAppPurchaseLocalizations":
+		return t.AsInAppPurchaseLocalization()
+	case "inAppPurchaseOfferCodes":
+		return t.AsInAppPurchaseOfferCode()
+	case "inAppPurchasePricePoints":
+		return t.AsInAppPurchasePricePoint()
+	case "inAppPurchasePriceSchedules":
+		return t.AsInAppPurchasePriceSchedule()
+	case "inAppPurchaseVersions":
+		return t.AsInAppPurchaseVersion()
+	case "promotedPurchases":
+		return t.AsPromotedPurchase()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t InAppPurchaseV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *InAppPurchaseV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsInAppPurchaseImageV2 returns the union data inside the InAppPurchaseVersionResponse_Included_Item as a InAppPurchaseImageV2
+func (t InAppPurchaseVersionResponse_Included_Item) AsInAppPurchaseImageV2() (InAppPurchaseImageV2, error) {
+	var body InAppPurchaseImageV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseImageV2 overwrites any union data inside the InAppPurchaseVersionResponse_Included_Item as the provided InAppPurchaseImageV2
+func (t *InAppPurchaseVersionResponse_Included_Item) FromInAppPurchaseImageV2(v InAppPurchaseImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseImageV2 performs a merge with any union data inside the InAppPurchaseVersionResponse_Included_Item, using the provided InAppPurchaseImageV2
+func (t *InAppPurchaseVersionResponse_Included_Item) MergeInAppPurchaseImageV2(v InAppPurchaseImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseLocalizationV2 returns the union data inside the InAppPurchaseVersionResponse_Included_Item as a InAppPurchaseLocalizationV2
+func (t InAppPurchaseVersionResponse_Included_Item) AsInAppPurchaseLocalizationV2() (InAppPurchaseLocalizationV2, error) {
+	var body InAppPurchaseLocalizationV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseLocalizationV2 overwrites any union data inside the InAppPurchaseVersionResponse_Included_Item as the provided InAppPurchaseLocalizationV2
+func (t *InAppPurchaseVersionResponse_Included_Item) FromInAppPurchaseLocalizationV2(v InAppPurchaseLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseLocalizationV2 performs a merge with any union data inside the InAppPurchaseVersionResponse_Included_Item, using the provided InAppPurchaseLocalizationV2
+func (t *InAppPurchaseVersionResponse_Included_Item) MergeInAppPurchaseLocalizationV2(v InAppPurchaseLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseV2 returns the union data inside the InAppPurchaseVersionResponse_Included_Item as a InAppPurchaseV2
+func (t InAppPurchaseVersionResponse_Included_Item) AsInAppPurchaseV2() (InAppPurchaseV2, error) {
+	var body InAppPurchaseV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseV2 overwrites any union data inside the InAppPurchaseVersionResponse_Included_Item as the provided InAppPurchaseV2
+func (t *InAppPurchaseVersionResponse_Included_Item) FromInAppPurchaseV2(v InAppPurchaseV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchases"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseV2 performs a merge with any union data inside the InAppPurchaseVersionResponse_Included_Item, using the provided InAppPurchaseV2
+func (t *InAppPurchaseVersionResponse_Included_Item) MergeInAppPurchaseV2(v InAppPurchaseV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t InAppPurchaseVersionResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t InAppPurchaseVersionResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "inAppPurchaseImages":
+		return t.AsInAppPurchaseImageV2()
+	case "inAppPurchaseLocalizations":
+		return t.AsInAppPurchaseLocalizationV2()
+	case "inAppPurchases":
+		return t.AsInAppPurchaseV2()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t InAppPurchaseVersionResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *InAppPurchaseVersionResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsInAppPurchaseImageV2 returns the union data inside the InAppPurchaseVersionsResponse_Included_Item as a InAppPurchaseImageV2
+func (t InAppPurchaseVersionsResponse_Included_Item) AsInAppPurchaseImageV2() (InAppPurchaseImageV2, error) {
+	var body InAppPurchaseImageV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseImageV2 overwrites any union data inside the InAppPurchaseVersionsResponse_Included_Item as the provided InAppPurchaseImageV2
+func (t *InAppPurchaseVersionsResponse_Included_Item) FromInAppPurchaseImageV2(v InAppPurchaseImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseImageV2 performs a merge with any union data inside the InAppPurchaseVersionsResponse_Included_Item, using the provided InAppPurchaseImageV2
+func (t *InAppPurchaseVersionsResponse_Included_Item) MergeInAppPurchaseImageV2(v InAppPurchaseImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseLocalizationV2 returns the union data inside the InAppPurchaseVersionsResponse_Included_Item as a InAppPurchaseLocalizationV2
+func (t InAppPurchaseVersionsResponse_Included_Item) AsInAppPurchaseLocalizationV2() (InAppPurchaseLocalizationV2, error) {
+	var body InAppPurchaseLocalizationV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseLocalizationV2 overwrites any union data inside the InAppPurchaseVersionsResponse_Included_Item as the provided InAppPurchaseLocalizationV2
+func (t *InAppPurchaseVersionsResponse_Included_Item) FromInAppPurchaseLocalizationV2(v InAppPurchaseLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseLocalizationV2 performs a merge with any union data inside the InAppPurchaseVersionsResponse_Included_Item, using the provided InAppPurchaseLocalizationV2
+func (t *InAppPurchaseVersionsResponse_Included_Item) MergeInAppPurchaseLocalizationV2(v InAppPurchaseLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseV2 returns the union data inside the InAppPurchaseVersionsResponse_Included_Item as a InAppPurchaseV2
+func (t InAppPurchaseVersionsResponse_Included_Item) AsInAppPurchaseV2() (InAppPurchaseV2, error) {
+	var body InAppPurchaseV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseV2 overwrites any union data inside the InAppPurchaseVersionsResponse_Included_Item as the provided InAppPurchaseV2
+func (t *InAppPurchaseVersionsResponse_Included_Item) FromInAppPurchaseV2(v InAppPurchaseV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchases"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseV2 performs a merge with any union data inside the InAppPurchaseVersionsResponse_Included_Item, using the provided InAppPurchaseV2
+func (t *InAppPurchaseVersionsResponse_Included_Item) MergeInAppPurchaseV2(v InAppPurchaseV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t InAppPurchaseVersionsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t InAppPurchaseVersionsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "inAppPurchaseImages":
+		return t.AsInAppPurchaseImageV2()
+	case "inAppPurchaseLocalizations":
+		return t.AsInAppPurchaseLocalizationV2()
+	case "inAppPurchases":
+		return t.AsInAppPurchaseV2()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t InAppPurchaseVersionsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *InAppPurchaseVersionsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsInAppPurchaseAppStoreReviewScreenshot returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchaseAppStoreReviewScreenshot
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchaseAppStoreReviewScreenshot() (InAppPurchaseAppStoreReviewScreenshot, error) {
+	var body InAppPurchaseAppStoreReviewScreenshot
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseAppStoreReviewScreenshot overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchaseAppStoreReviewScreenshot
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchaseAppStoreReviewScreenshot(v InAppPurchaseAppStoreReviewScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAppStoreReviewScreenshots"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseAppStoreReviewScreenshot performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchaseAppStoreReviewScreenshot
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchaseAppStoreReviewScreenshot(v InAppPurchaseAppStoreReviewScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAppStoreReviewScreenshots"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseAvailability returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchaseAvailability
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchaseAvailability() (InAppPurchaseAvailability, error) {
+	var body InAppPurchaseAvailability
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseAvailability overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchaseAvailability
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchaseAvailability(v InAppPurchaseAvailability) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAvailabilities"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseAvailability performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchaseAvailability
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchaseAvailability(v InAppPurchaseAvailability) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseAvailabilities"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseContent returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchaseContent
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchaseContent() (InAppPurchaseContent, error) {
+	var body InAppPurchaseContent
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseContent overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchaseContent
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchaseContent(v InAppPurchaseContent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseContents"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseContent performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchaseContent
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchaseContent(v InAppPurchaseContent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseContents"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseImage returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchaseImage
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchaseImage() (InAppPurchaseImage, error) {
+	var body InAppPurchaseImage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseImage overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchaseImage
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchaseImage(v InAppPurchaseImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseImage performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchaseImage
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchaseImage(v InAppPurchaseImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseLocalization returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchaseLocalization
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchaseLocalization() (InAppPurchaseLocalization, error) {
+	var body InAppPurchaseLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseLocalization overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchaseLocalization
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchaseLocalization(v InAppPurchaseLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseLocalization performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchaseLocalization
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchaseLocalization(v InAppPurchaseLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseOfferCode returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchaseOfferCode
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchaseOfferCode() (InAppPurchaseOfferCode, error) {
+	var body InAppPurchaseOfferCode
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseOfferCode overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchaseOfferCode
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchaseOfferCode(v InAppPurchaseOfferCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodes"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseOfferCode performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchaseOfferCode
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchaseOfferCode(v InAppPurchaseOfferCode) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseOfferCodes"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchasePricePoint returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchasePricePoint
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchasePricePoint() (InAppPurchasePricePoint, error) {
+	var body InAppPurchasePricePoint
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchasePricePoint overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchasePricePoint
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchasePricePoint(v InAppPurchasePricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchasePricePoint performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchasePricePoint
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchasePricePoint(v InAppPurchasePricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchasePriceSchedule returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchasePriceSchedule
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchasePriceSchedule() (InAppPurchasePriceSchedule, error) {
+	var body InAppPurchasePriceSchedule
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchasePriceSchedule overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchasePriceSchedule
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchasePriceSchedule(v InAppPurchasePriceSchedule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePriceSchedules"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchasePriceSchedule performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchasePriceSchedule
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchasePriceSchedule(v InAppPurchasePriceSchedule) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchasePriceSchedules"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsInAppPurchaseVersion returns the union data inside the InAppPurchasesV2Response_Included_Item as a InAppPurchaseVersion
+func (t InAppPurchasesV2Response_Included_Item) AsInAppPurchaseVersion() (InAppPurchaseVersion, error) {
+	var body InAppPurchaseVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromInAppPurchaseVersion overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided InAppPurchaseVersion
+func (t *InAppPurchasesV2Response_Included_Item) FromInAppPurchaseVersion(v InAppPurchaseVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeInAppPurchaseVersion performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided InAppPurchaseVersion
+func (t *InAppPurchasesV2Response_Included_Item) MergeInAppPurchaseVersion(v InAppPurchaseVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"inAppPurchaseVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsPromotedPurchase returns the union data inside the InAppPurchasesV2Response_Included_Item as a PromotedPurchase
+func (t InAppPurchasesV2Response_Included_Item) AsPromotedPurchase() (PromotedPurchase, error) {
+	var body PromotedPurchase
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromPromotedPurchase overwrites any union data inside the InAppPurchasesV2Response_Included_Item as the provided PromotedPurchase
+func (t *InAppPurchasesV2Response_Included_Item) FromPromotedPurchase(v PromotedPurchase) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"promotedPurchases"}`))
+	t.union = b
+	return err
+}
+
+// MergePromotedPurchase performs a merge with any union data inside the InAppPurchasesV2Response_Included_Item, using the provided PromotedPurchase
+func (t *InAppPurchasesV2Response_Included_Item) MergePromotedPurchase(v PromotedPurchase) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"promotedPurchases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t InAppPurchasesV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t InAppPurchasesV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "inAppPurchaseAppStoreReviewScreenshots":
+		return t.AsInAppPurchaseAppStoreReviewScreenshot()
+	case "inAppPurchaseAvailabilities":
+		return t.AsInAppPurchaseAvailability()
+	case "inAppPurchaseContents":
+		return t.AsInAppPurchaseContent()
+	case "inAppPurchaseImages":
+		return t.AsInAppPurchaseImage()
+	case "inAppPurchaseLocalizations":
+		return t.AsInAppPurchaseLocalization()
+	case "inAppPurchaseOfferCodes":
+		return t.AsInAppPurchaseOfferCode()
+	case "inAppPurchasePricePoints":
+		return t.AsInAppPurchasePricePoint()
+	case "inAppPurchasePriceSchedules":
+		return t.AsInAppPurchasePriceSchedule()
+	case "inAppPurchaseVersions":
+		return t.AsInAppPurchaseVersion()
+	case "promotedPurchases":
+		return t.AsPromotedPurchase()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t InAppPurchasesV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *InAppPurchasesV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsActor returns the union data inside the NominationResponse_Included_Item as a Actor
 func (t NominationResponse_Included_Item) AsActor() (Actor, error) {
 	var body Actor
@@ -52469,6 +56877,9 @@ type ClientInterface interface {
 	// AppsEndUserLicenseAgreementGetToOneRelated performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
 	AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsInAppPurchasesV2GetToManyRelated performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
+	AppsInAppPurchasesV2GetToManyRelated(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsBetaTestersDeleteToManyRelationshipWithBody performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
 	AppsBetaTestersDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -52854,6 +57265,42 @@ type ClientInterface interface {
 	// EndUserLicenseAgreementsTerritoriesGetToManyRelationship performs a GET /v1/endUserLicenseAgreements/{id}/relationships/territories (the `EndUserLicenseAgreementsTerritoriesGetToManyRelationship` operationId) request.
 	EndUserLicenseAgreementsTerritoriesGetToManyRelationship(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsCreateInstance performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseAppStoreReviewScreenshotsCreateInstance(ctx context.Context, body InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsDeleteInstance performs a DELETE /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsDeleteInstance` operationId) request.
+	InAppPurchaseAppStoreReviewScreenshotsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsGetInstance performs a GET /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsGetInstance` operationId) request.
+	InAppPurchaseAppStoreReviewScreenshotsGetInstance(ctx context.Context, id string, params *InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsUpdateInstance performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseAppStoreReviewScreenshotsUpdateInstance(ctx context.Context, id string, body InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseVersionsCreateInstanceWithBody performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseVersionsCreateInstance performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseVersionsCreateInstance(ctx context.Context, body InAppPurchaseVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseVersionsImageGetToOneRelated performs a GET /v1/inAppPurchaseVersions/{id}/image (the `InAppPurchaseVersionsImageGetToOneRelated` operationId) request.
+	InAppPurchaseVersionsImageGetToOneRelated(ctx context.Context, id string, params *InAppPurchaseVersionsImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseVersionsLocalizationsGetToManyRelated performs a GET /v1/inAppPurchaseVersions/{id}/localizations (the `InAppPurchaseVersionsLocalizationsGetToManyRelated` operationId) request.
+	InAppPurchaseVersionsLocalizationsGetToManyRelated(ctx context.Context, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// MerchantIdsGetCollection performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 	MerchantIdsGetCollection(ctx context.Context, params *MerchantIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -53125,6 +57572,75 @@ type ClientInterface interface {
 
 	// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
 	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseImagesV2CreateInstanceWithBody performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseImagesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseImagesV2CreateInstance performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseImagesV2CreateInstance(ctx context.Context, body InAppPurchaseImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseImagesV2DeleteInstance performs a DELETE /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2DeleteInstance` operationId) request.
+	InAppPurchaseImagesV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseImagesV2GetInstance performs a GET /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2GetInstance` operationId) request.
+	InAppPurchaseImagesV2GetInstance(ctx context.Context, id string, params *InAppPurchaseImagesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseImagesV2UpdateInstanceWithBody performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseImagesV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseImagesV2UpdateInstance performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseImagesV2UpdateInstance(ctx context.Context, id string, body InAppPurchaseImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseLocalizationsV2CreateInstanceWithBody performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseLocalizationsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseLocalizationsV2CreateInstance performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseLocalizationsV2CreateInstance(ctx context.Context, body InAppPurchaseLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseLocalizationsV2DeleteInstance performs a DELETE /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2DeleteInstance` operationId) request.
+	InAppPurchaseLocalizationsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseLocalizationsV2UpdateInstanceWithBody performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchaseLocalizationsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchaseLocalizationsV2UpdateInstance performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchaseLocalizationsV2UpdateInstance(ctx context.Context, id string, body InAppPurchaseLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2CreateInstanceWithBody performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchasesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2CreateInstance performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchasesV2CreateInstance(ctx context.Context, body InAppPurchasesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2DeleteInstance performs a DELETE /v2/inAppPurchases/{id} (the `InAppPurchasesV2DeleteInstance` operationId) request.
+	InAppPurchasesV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2GetInstance performs a GET /v2/inAppPurchases/{id} (the `InAppPurchasesV2GetInstance` operationId) request.
+	InAppPurchasesV2GetInstance(ctx context.Context, id string, params *InAppPurchasesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2UpdateInstanceWithBody performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	InAppPurchasesV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2UpdateInstance performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	InAppPurchasesV2UpdateInstance(ctx context.Context, id string, body InAppPurchasesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated performs a GET /v2/inAppPurchases/{id}/appStoreReviewScreenshot (the `InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated` operationId) request.
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated(ctx context.Context, id string, params *InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// InAppPurchasesV2VersionsGetToManyRelated performs a GET /v2/inAppPurchases/{id}/versions (the `InAppPurchasesV2VersionsGetToManyRelated` operationId) request.
+	InAppPurchasesV2VersionsGetToManyRelated(ctx context.Context, id string, params *InAppPurchasesV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppPricePointsV3EqualizationsGetToManyRelated performs a GET /v3/appPricePoints/{id}/equalizations (the `AppPricePointsV3EqualizationsGetToManyRelated` operationId) request.
 	AppPricePointsV3EqualizationsGetToManyRelated(ctx context.Context, id string, params *AppPricePointsV3EqualizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -54697,6 +59213,19 @@ func (c *Client) AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context,
 	return c.Client.Do(req)
 }
 
+// AppsInAppPurchasesV2GetToManyRelated performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
+func (c *Client) AppsInAppPurchasesV2GetToManyRelated(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsInAppPurchasesV2GetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppsBetaTestersDeleteToManyRelationshipWithBody performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) AppsBetaTestersDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -56132,6 +60661,142 @@ func (c *Client) EndUserLicenseAgreementsTerritoriesGetToManyRelationship(ctx co
 	return c.Client.Do(req)
 }
 
+// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsCreateInstance performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseAppStoreReviewScreenshotsCreateInstance(ctx context.Context, body InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsDeleteInstance performs a DELETE /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsDeleteInstance` operationId) request.
+func (c *Client) InAppPurchaseAppStoreReviewScreenshotsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseAppStoreReviewScreenshotsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsGetInstance performs a GET /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsGetInstance` operationId) request.
+func (c *Client) InAppPurchaseAppStoreReviewScreenshotsGetInstance(ctx context.Context, id string, params *InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseAppStoreReviewScreenshotsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBody performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsUpdateInstance performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseAppStoreReviewScreenshotsUpdateInstance(ctx context.Context, id string, body InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseVersionsCreateInstanceWithBody performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseVersionsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseVersionsCreateInstance performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseVersionsCreateInstance(ctx context.Context, body InAppPurchaseVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseVersionsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseVersionsImageGetToOneRelated performs a GET /v1/inAppPurchaseVersions/{id}/image (the `InAppPurchaseVersionsImageGetToOneRelated` operationId) request.
+func (c *Client) InAppPurchaseVersionsImageGetToOneRelated(ctx context.Context, id string, params *InAppPurchaseVersionsImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseVersionsImageGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseVersionsLocalizationsGetToManyRelated performs a GET /v1/inAppPurchaseVersions/{id}/localizations (the `InAppPurchaseVersionsLocalizationsGetToManyRelated` operationId) request.
+func (c *Client) InAppPurchaseVersionsLocalizationsGetToManyRelated(ctx context.Context, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseVersionsLocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // MerchantIdsGetCollection performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 func (c *Client) MerchantIdsGetCollection(ctx context.Context, params *MerchantIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewMerchantIdsGetCollectionRequest(c.Server, params)
@@ -57154,6 +61819,265 @@ func (c *Client) AppAvailabilitiesV2CreateInstance(ctx context.Context, body App
 // AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
 func (c *Client) AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseImagesV2CreateInstanceWithBody performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseImagesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseImagesV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseImagesV2CreateInstance performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseImagesV2CreateInstance(ctx context.Context, body InAppPurchaseImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseImagesV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseImagesV2DeleteInstance performs a DELETE /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2DeleteInstance` operationId) request.
+func (c *Client) InAppPurchaseImagesV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseImagesV2DeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseImagesV2GetInstance performs a GET /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2GetInstance` operationId) request.
+func (c *Client) InAppPurchaseImagesV2GetInstance(ctx context.Context, id string, params *InAppPurchaseImagesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseImagesV2GetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseImagesV2UpdateInstanceWithBody performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseImagesV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseImagesV2UpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseImagesV2UpdateInstance performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseImagesV2UpdateInstance(ctx context.Context, id string, body InAppPurchaseImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseImagesV2UpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseLocalizationsV2CreateInstanceWithBody performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseLocalizationsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseLocalizationsV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseLocalizationsV2CreateInstance performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseLocalizationsV2CreateInstance(ctx context.Context, body InAppPurchaseLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseLocalizationsV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseLocalizationsV2DeleteInstance performs a DELETE /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2DeleteInstance` operationId) request.
+func (c *Client) InAppPurchaseLocalizationsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseLocalizationsV2DeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseLocalizationsV2UpdateInstanceWithBody performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchaseLocalizationsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseLocalizationsV2UpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchaseLocalizationsV2UpdateInstance performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchaseLocalizationsV2UpdateInstance(ctx context.Context, id string, body InAppPurchaseLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchaseLocalizationsV2UpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2CreateInstanceWithBody performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchasesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2CreateInstance performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchasesV2CreateInstance(ctx context.Context, body InAppPurchasesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2DeleteInstance performs a DELETE /v2/inAppPurchases/{id} (the `InAppPurchasesV2DeleteInstance` operationId) request.
+func (c *Client) InAppPurchasesV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2DeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2GetInstance performs a GET /v2/inAppPurchases/{id} (the `InAppPurchasesV2GetInstance` operationId) request.
+func (c *Client) InAppPurchasesV2GetInstance(ctx context.Context, id string, params *InAppPurchasesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2GetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2UpdateInstanceWithBody performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) InAppPurchasesV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2UpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2UpdateInstance performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) InAppPurchasesV2UpdateInstance(ctx context.Context, id string, body InAppPurchasesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2UpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated performs a GET /v2/inAppPurchases/{id}/appStoreReviewScreenshot (the `InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated` operationId) request.
+func (c *Client) InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated(ctx context.Context, id string, params *InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// InAppPurchasesV2VersionsGetToManyRelated performs a GET /v2/inAppPurchases/{id}/versions (the `InAppPurchasesV2VersionsGetToManyRelated` operationId) request.
+func (c *Client) InAppPurchasesV2VersionsGetToManyRelated(ctx context.Context, id string, params *InAppPurchasesV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewInAppPurchasesV2VersionsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -63970,6 +68894,307 @@ func NewAppsEndUserLicenseAgreementGetToOneRelatedRequest(server string, id stri
 	return req, nil
 }
 
+// NewAppsInAppPurchasesV2GetToManyRelatedRequest constructs an http.Request for the AppsInAppPurchasesV2GetToManyRelated method
+func NewAppsInAppPurchasesV2GetToManyRelatedRequest(server string, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/inAppPurchasesV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterProductId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[productId]", *params.FilterProductId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterName != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[name]", *params.FilterName, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterInAppPurchaseType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[inAppPurchaseType]", *params.FilterInAppPurchaseType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchases]", *params.FieldsInAppPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseLocalizations]", *params.FieldsInAppPurchaseLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseContents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseContents]", *params.FieldsInAppPurchaseContents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseAppStoreReviewScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseAppStoreReviewScreenshots]", *params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsPromotedPurchases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[promotedPurchases]", *params.FieldsPromotedPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchasePriceSchedules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchasePriceSchedules]", *params.FieldsInAppPurchasePriceSchedules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseAvailabilities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseAvailabilities]", *params.FieldsInAppPurchaseAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseImages]", *params.FieldsInAppPurchaseImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferCodes]", *params.FieldsInAppPurchaseOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseVersions]", *params.FieldsInAppPurchaseVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitInAppPurchaseLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[inAppPurchaseLocalizations]", *params.LimitInAppPurchaseLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[images]", *params.LimitImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[offerCodes]", *params.LimitOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppsBetaTestersDeleteToManyRelationshipRequest calls the generic AppsBetaTestersDeleteToManyRelationship builder with application/json body
 func NewAppsBetaTestersDeleteToManyRelationshipRequest(server string, id string, body AppsBetaTestersDeleteToManyRelationshipJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -69256,6 +74481,410 @@ func NewEndUserLicenseAgreementsTerritoriesGetToManyRelationshipRequest(server s
 	return req, nil
 }
 
+// NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequest calls the generic InAppPurchaseAppStoreReviewScreenshotsCreateInstance builder with application/json body
+func NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequest(server string, body InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseAppStoreReviewScreenshotsCreateInstance method, with any body, and a specified content type
+func NewInAppPurchaseAppStoreReviewScreenshotsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseAppStoreReviewScreenshots")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseAppStoreReviewScreenshotsDeleteInstanceRequest constructs an http.Request for the InAppPurchaseAppStoreReviewScreenshotsDeleteInstance method
+func NewInAppPurchaseAppStoreReviewScreenshotsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseAppStoreReviewScreenshots/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseAppStoreReviewScreenshotsGetInstanceRequest constructs an http.Request for the InAppPurchaseAppStoreReviewScreenshotsGetInstance method
+func NewInAppPurchaseAppStoreReviewScreenshotsGetInstanceRequest(server string, id string, params *InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseAppStoreReviewScreenshots/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseAppStoreReviewScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseAppStoreReviewScreenshots]", *params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchases]", *params.FieldsInAppPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceRequest calls the generic InAppPurchaseAppStoreReviewScreenshotsUpdateInstance builder with application/json body
+func NewInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceRequest(server string, id string, body InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseAppStoreReviewScreenshotsUpdateInstance method, with any body, and a specified content type
+func NewInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseAppStoreReviewScreenshots/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseVersionsCreateInstanceRequest calls the generic InAppPurchaseVersionsCreateInstance builder with application/json body
+func NewInAppPurchaseVersionsCreateInstanceRequest(server string, body InAppPurchaseVersionsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseVersionsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseVersionsCreateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseVersionsCreateInstance method, with any body, and a specified content type
+func NewInAppPurchaseVersionsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseVersionsImageGetToOneRelatedRequest constructs an http.Request for the InAppPurchaseVersionsImageGetToOneRelated method
+func NewInAppPurchaseVersionsImageGetToOneRelatedRequest(server string, id string, params *InAppPurchaseVersionsImageGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseVersions/%s/image", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseImages]", *params.FieldsInAppPurchaseImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseVersionsLocalizationsGetToManyRelatedRequest constructs an http.Request for the InAppPurchaseVersionsLocalizationsGetToManyRelated method
+func NewInAppPurchaseVersionsLocalizationsGetToManyRelatedRequest(server string, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/inAppPurchaseVersions/%s/localizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseLocalizations]", *params.FieldsInAppPurchaseLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseVersions]", *params.FieldsInAppPurchaseVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewMerchantIdsGetCollectionRequest constructs an http.Request for the MerchantIdsGetCollection method
 func NewMerchantIdsGetCollectionRequest(server string, params *MerchantIdsGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -73460,6 +79089,925 @@ func NewAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedRequest(server
 	return req, nil
 }
 
+// NewInAppPurchaseImagesV2CreateInstanceRequest calls the generic InAppPurchaseImagesV2CreateInstance builder with application/json body
+func NewInAppPurchaseImagesV2CreateInstanceRequest(server string, body InAppPurchaseImagesV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseImagesV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseImagesV2CreateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseImagesV2CreateInstance method, with any body, and a specified content type
+func NewInAppPurchaseImagesV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchaseImages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseImagesV2DeleteInstanceRequest constructs an http.Request for the InAppPurchaseImagesV2DeleteInstance method
+func NewInAppPurchaseImagesV2DeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchaseImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseImagesV2GetInstanceRequest constructs an http.Request for the InAppPurchaseImagesV2GetInstance method
+func NewInAppPurchaseImagesV2GetInstanceRequest(server string, id string, params *InAppPurchaseImagesV2GetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchaseImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseImages]", *params.FieldsInAppPurchaseImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseImagesV2UpdateInstanceRequest calls the generic InAppPurchaseImagesV2UpdateInstance builder with application/json body
+func NewInAppPurchaseImagesV2UpdateInstanceRequest(server string, id string, body InAppPurchaseImagesV2UpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseImagesV2UpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseImagesV2UpdateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseImagesV2UpdateInstance method, with any body, and a specified content type
+func NewInAppPurchaseImagesV2UpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchaseImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseLocalizationsV2CreateInstanceRequest calls the generic InAppPurchaseLocalizationsV2CreateInstance builder with application/json body
+func NewInAppPurchaseLocalizationsV2CreateInstanceRequest(server string, body InAppPurchaseLocalizationsV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseLocalizationsV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseLocalizationsV2CreateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseLocalizationsV2CreateInstance method, with any body, and a specified content type
+func NewInAppPurchaseLocalizationsV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchaseLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchaseLocalizationsV2DeleteInstanceRequest constructs an http.Request for the InAppPurchaseLocalizationsV2DeleteInstance method
+func NewInAppPurchaseLocalizationsV2DeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchaseLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchaseLocalizationsV2UpdateInstanceRequest calls the generic InAppPurchaseLocalizationsV2UpdateInstance builder with application/json body
+func NewInAppPurchaseLocalizationsV2UpdateInstanceRequest(server string, id string, body InAppPurchaseLocalizationsV2UpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchaseLocalizationsV2UpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewInAppPurchaseLocalizationsV2UpdateInstanceRequestWithBody constructs an http.Request for the InAppPurchaseLocalizationsV2UpdateInstance method, with any body, and a specified content type
+func NewInAppPurchaseLocalizationsV2UpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchaseLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchasesV2CreateInstanceRequest calls the generic InAppPurchasesV2CreateInstance builder with application/json body
+func NewInAppPurchasesV2CreateInstanceRequest(server string, body InAppPurchasesV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchasesV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewInAppPurchasesV2CreateInstanceRequestWithBody constructs an http.Request for the InAppPurchasesV2CreateInstance method, with any body, and a specified content type
+func NewInAppPurchasesV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchases")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchasesV2DeleteInstanceRequest constructs an http.Request for the InAppPurchasesV2DeleteInstance method
+func NewInAppPurchasesV2DeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchases/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchasesV2GetInstanceRequest constructs an http.Request for the InAppPurchasesV2GetInstance method
+func NewInAppPurchasesV2GetInstanceRequest(server string, id string, params *InAppPurchasesV2GetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchases/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchases]", *params.FieldsInAppPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseLocalizations]", *params.FieldsInAppPurchaseLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchasePricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchasePricePoints]", *params.FieldsInAppPurchasePricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseContents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseContents]", *params.FieldsInAppPurchaseContents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseAppStoreReviewScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseAppStoreReviewScreenshots]", *params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsPromotedPurchases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[promotedPurchases]", *params.FieldsPromotedPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchasePriceSchedules != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchasePriceSchedules]", *params.FieldsInAppPurchasePriceSchedules, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseAvailabilities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseAvailabilities]", *params.FieldsInAppPurchaseAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseImages]", *params.FieldsInAppPurchaseImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseOfferCodes]", *params.FieldsInAppPurchaseOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseVersions]", *params.FieldsInAppPurchaseVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[images]", *params.LimitImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitInAppPurchaseLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[inAppPurchaseLocalizations]", *params.LimitInAppPurchaseLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitOfferCodes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[offerCodes]", *params.LimitOfferCodes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[pricePoints]", *params.LimitPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchasesV2UpdateInstanceRequest calls the generic InAppPurchasesV2UpdateInstance builder with application/json body
+func NewInAppPurchasesV2UpdateInstanceRequest(server string, id string, body InAppPurchasesV2UpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewInAppPurchasesV2UpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewInAppPurchasesV2UpdateInstanceRequestWithBody constructs an http.Request for the InAppPurchasesV2UpdateInstance method, with any body, and a specified content type
+func NewInAppPurchasesV2UpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchases/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewInAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedRequest constructs an http.Request for the InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated method
+func NewInAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedRequest(server string, id string, params *InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchases/%s/appStoreReviewScreenshot", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsInAppPurchaseAppStoreReviewScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseAppStoreReviewScreenshots]", *params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchases]", *params.FieldsInAppPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewInAppPurchasesV2VersionsGetToManyRelatedRequest constructs an http.Request for the InAppPurchasesV2VersionsGetToManyRelated method
+func NewInAppPurchasesV2VersionsGetToManyRelatedRequest(server string, id string, params *InAppPurchasesV2VersionsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/inAppPurchases/%s/versions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseVersions]", *params.FieldsInAppPurchaseVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchases]", *params.FieldsInAppPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseImages]", *params.FieldsInAppPurchaseImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsInAppPurchaseLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[inAppPurchaseLocalizations]", *params.FieldsInAppPurchaseLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[images]", *params.LimitImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[localizations]", *params.LimitLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppPricePointsV3EqualizationsGetToManyRelatedRequest constructs an http.Request for the AppPricePointsV3EqualizationsGetToManyRelated method
 func NewAppPricePointsV3EqualizationsGetToManyRelatedRequest(server string, id string, params *AppPricePointsV3EqualizationsGetToManyRelatedParams) (*http.Request, error) {
 	var err error
@@ -74200,6 +80748,11 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppsEndUserLicenseAgreementGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsEndUserLicenseAgreementGetToOneRelatedResponse, error)
 
+	// AppsInAppPurchasesV2GetToManyRelatedWithResponse performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsInAppPurchasesV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsInAppPurchasesV2GetToManyRelatedResponse, error)
+
 	// AppsBetaTestersDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -74725,6 +81278,56 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	EndUserLicenseAgreementsTerritoriesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse, error)
 
+	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceWithResponse performs a DELETE /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsGetInstanceWithResponse performs a GET /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseAppStoreReviewScreenshotsGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse, error)
+
+	// InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse, error)
+
+	// InAppPurchaseVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsCreateInstanceResponse, error)
+
+	// InAppPurchaseVersionsCreateInstanceWithResponse performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseVersionsCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsCreateInstanceResponse, error)
+
+	// InAppPurchaseVersionsImageGetToOneRelatedWithResponse performs a GET /v1/inAppPurchaseVersions/{id}/image (the `InAppPurchaseVersionsImageGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseVersionsImageGetToOneRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseVersionsImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsImageGetToOneRelatedResponse, error)
+
+	// InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse performs a GET /v1/inAppPurchaseVersions/{id}/localizations (the `InAppPurchaseVersionsLocalizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse, error)
+
 	// MerchantIdsGetCollectionWithResponse performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -75104,6 +81707,101 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse, error)
+
+	// InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2CreateInstanceResponse, error)
+
+	// InAppPurchaseImagesV2CreateInstanceWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseImagesV2CreateInstanceWithResponse(ctx context.Context, body InAppPurchaseImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2CreateInstanceResponse, error)
+
+	// InAppPurchaseImagesV2DeleteInstanceWithResponse performs a DELETE /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2DeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseImagesV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2DeleteInstanceResponse, error)
+
+	// InAppPurchaseImagesV2GetInstanceWithResponse performs a GET /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2GetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseImagesV2GetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseImagesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2GetInstanceResponse, error)
+
+	// InAppPurchaseImagesV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseImagesV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2UpdateInstanceResponse, error)
+
+	// InAppPurchaseImagesV2UpdateInstanceWithResponse performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseImagesV2UpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2UpdateInstanceResponse, error)
+
+	// InAppPurchaseLocalizationsV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseLocalizationsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2CreateInstanceResponse, error)
+
+	// InAppPurchaseLocalizationsV2CreateInstanceWithResponse performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseLocalizationsV2CreateInstanceWithResponse(ctx context.Context, body InAppPurchaseLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2CreateInstanceResponse, error)
+
+	// InAppPurchaseLocalizationsV2DeleteInstanceWithResponse performs a DELETE /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2DeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseLocalizationsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2DeleteInstanceResponse, error)
+
+	// InAppPurchaseLocalizationsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchaseLocalizationsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2UpdateInstanceResponse, error)
+
+	// InAppPurchaseLocalizationsV2UpdateInstanceWithResponse performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchaseLocalizationsV2UpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2UpdateInstanceResponse, error)
+
+	// InAppPurchasesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchasesV2CreateInstanceResponse, error)
+
+	// InAppPurchasesV2CreateInstanceWithResponse performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2CreateInstanceWithResponse(ctx context.Context, body InAppPurchasesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchasesV2CreateInstanceResponse, error)
+
+	// InAppPurchasesV2DeleteInstanceWithResponse performs a DELETE /v2/inAppPurchases/{id} (the `InAppPurchasesV2DeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchasesV2DeleteInstanceResponse, error)
+
+	// InAppPurchasesV2GetInstanceWithResponse performs a GET /v2/inAppPurchases/{id} (the `InAppPurchasesV2GetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2GetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchasesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchasesV2GetInstanceResponse, error)
+
+	// InAppPurchasesV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchasesV2UpdateInstanceResponse, error)
+
+	// InAppPurchasesV2UpdateInstanceWithResponse performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2UpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchasesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchasesV2UpdateInstanceResponse, error)
+
+	// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedWithResponse performs a GET /v2/inAppPurchases/{id}/appStoreReviewScreenshot (the `InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedWithResponse(ctx context.Context, id string, params *InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse, error)
+
+	// InAppPurchasesV2VersionsGetToManyRelatedWithResponse performs a GET /v2/inAppPurchases/{id}/versions (the `InAppPurchasesV2VersionsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	InAppPurchasesV2VersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchasesV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchasesV2VersionsGetToManyRelatedResponse, error)
 
 	// AppPricePointsV3EqualizationsGetToManyRelatedWithResponse performs a GET /v3/appPricePoints/{id}/equalizations (the `AppPricePointsV3EqualizationsGetToManyRelated` operationId) request.
 	//
@@ -81381,6 +88079,82 @@ func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) ContentType() string
 	return ""
 }
 
+type AppsInAppPurchasesV2GetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchasesV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) GetJSON200() *InAppPurchasesV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsInAppPurchasesV2GetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppsBetaTestersDeleteToManyRelationshipResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -86904,6 +93678,559 @@ func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) Conten
 	return ""
 }
 
+type InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseAppStoreReviewScreenshotResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetJSON201() *InAppPurchaseAppStoreReviewScreenshotResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseAppStoreReviewScreenshotResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) GetJSON200() *InAppPurchaseAppStoreReviewScreenshotResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseAppStoreReviewScreenshotResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON200() *InAppPurchaseAppStoreReviewScreenshotResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseVersionsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetJSON201() *InAppPurchaseVersionResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseVersionsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseVersionsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseVersionsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseVersionsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseVersionsImageGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseImageV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) GetJSON200() *InAppPurchaseImageV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseVersionsImageGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseLocalizationsV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) GetJSON200() *InAppPurchaseLocalizationsV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type MerchantIdsGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -91099,6 +98426,1036 @@ func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) Cont
 	return ""
 }
 
+type InAppPurchaseImagesV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseImageV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetJSON201() *InAppPurchaseImageV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseImagesV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseImagesV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseImagesV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseImagesV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseImagesV2DeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseImagesV2DeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseImagesV2GetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseImageV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseImagesV2GetInstanceResponse) GetJSON200() *InAppPurchaseImageV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseImagesV2GetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseImagesV2GetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseImagesV2GetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseImagesV2GetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseImagesV2GetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseImagesV2GetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseImagesV2GetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseImagesV2GetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseImagesV2GetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseImagesV2UpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseImageV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON200() *InAppPurchaseImageV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseImagesV2UpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseLocalizationsV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseLocalizationV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetJSON201() *InAppPurchaseLocalizationV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseLocalizationsV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseLocalizationsV2DeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseLocalizationsV2DeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchaseLocalizationsV2UpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseLocalizationV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON200() *InAppPurchaseLocalizationV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchaseLocalizationsV2UpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchasesV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *InAppPurchaseV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r InAppPurchasesV2CreateInstanceResponse) GetJSON201() *InAppPurchaseV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchasesV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchasesV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchasesV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchasesV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchasesV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchasesV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchasesV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchasesV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchasesV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchasesV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchasesV2DeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchasesV2DeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchasesV2DeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchasesV2DeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchasesV2DeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchasesV2DeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchasesV2DeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchasesV2DeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchasesV2DeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchasesV2DeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchasesV2GetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchasesV2GetInstanceResponse) GetJSON200() *InAppPurchaseV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchasesV2GetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchasesV2GetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchasesV2GetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchasesV2GetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchasesV2GetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchasesV2GetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchasesV2GetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchasesV2GetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchasesV2GetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchasesV2UpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON200() *InAppPurchaseV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchasesV2UpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchasesV2UpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchasesV2UpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchasesV2UpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchasesV2UpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseAppStoreReviewScreenshotResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) GetJSON200() *InAppPurchaseAppStoreReviewScreenshotResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type InAppPurchasesV2VersionsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *InAppPurchaseVersionsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) GetJSON200() *InAppPurchaseVersionsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r InAppPurchasesV2VersionsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppPricePointsV3EqualizationsGetToManyRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -92440,6 +100797,17 @@ func (c *ClientWithResponses) AppsEndUserLicenseAgreementGetToOneRelatedWithResp
 	return ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse(rsp)
 }
 
+// AppsInAppPurchasesV2GetToManyRelatedWithResponse performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsInAppPurchasesV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsInAppPurchasesV2GetToManyRelatedResponse, error) {
+	rsp, err := c.AppsInAppPurchasesV2GetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsInAppPurchasesV2GetToManyRelatedResponse(rsp)
+}
+
 // AppsBetaTestersDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -93595,6 +101963,116 @@ func (c *ClientWithResponses) EndUserLicenseAgreementsTerritoriesGetToManyRelati
 	return ParseEndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse(rsp)
 }
 
+// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseAppStoreReviewScreenshotsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceWithResponse performs a DELETE /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseAppStoreReviewScreenshotsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse(rsp)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsGetInstanceWithResponse performs a GET /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseAppStoreReviewScreenshotsGetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseAppStoreReviewScreenshotsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse(rsp)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithResponse performs a PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id} (the `InAppPurchaseAppStoreReviewScreenshotsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseAppStoreReviewScreenshotsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseVersionsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseVersionsCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseVersionsCreateInstanceWithResponse performs a POST /v1/inAppPurchaseVersions (the `InAppPurchaseVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseVersionsCreateInstanceWithResponse(ctx context.Context, body InAppPurchaseVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsCreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseVersionsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseVersionsCreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseVersionsImageGetToOneRelatedWithResponse performs a GET /v1/inAppPurchaseVersions/{id}/image (the `InAppPurchaseVersionsImageGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseVersionsImageGetToOneRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseVersionsImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsImageGetToOneRelatedResponse, error) {
+	rsp, err := c.InAppPurchaseVersionsImageGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseVersionsImageGetToOneRelatedResponse(rsp)
+}
+
+// InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse performs a GET /v1/inAppPurchaseVersions/{id}/localizations (the `InAppPurchaseVersionsLocalizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.InAppPurchaseVersionsLocalizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseVersionsLocalizationsGetToManyRelatedResponse(rsp)
+}
+
 // MerchantIdsGetCollectionWithResponse performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -94429,6 +102907,215 @@ func (c *ClientWithResponses) AppAvailabilitiesV2TerritoryAvailabilitiesGetToMan
 		return nil, err
 	}
 	return ParseAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse(rsp)
+}
+
+// InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2CreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseImagesV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseImagesV2CreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseImagesV2CreateInstanceWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseImagesV2CreateInstanceWithResponse(ctx context.Context, body InAppPurchaseImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2CreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseImagesV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseImagesV2CreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseImagesV2DeleteInstanceWithResponse performs a DELETE /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2DeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseImagesV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2DeleteInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseImagesV2DeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseImagesV2DeleteInstanceResponse(rsp)
+}
+
+// InAppPurchaseImagesV2GetInstanceWithResponse performs a GET /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2GetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseImagesV2GetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchaseImagesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2GetInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseImagesV2GetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseImagesV2GetInstanceResponse(rsp)
+}
+
+// InAppPurchaseImagesV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseImagesV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2UpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseImagesV2UpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseImagesV2UpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseImagesV2UpdateInstanceWithResponse performs a PATCH /v2/inAppPurchaseImages/{id} (the `InAppPurchaseImagesV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseImagesV2UpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseImagesV2UpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseImagesV2UpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseImagesV2UpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseLocalizationsV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseLocalizationsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2CreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseLocalizationsV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseLocalizationsV2CreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseLocalizationsV2CreateInstanceWithResponse performs a POST /v2/inAppPurchaseLocalizations (the `InAppPurchaseLocalizationsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseLocalizationsV2CreateInstanceWithResponse(ctx context.Context, body InAppPurchaseLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2CreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseLocalizationsV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseLocalizationsV2CreateInstanceResponse(rsp)
+}
+
+// InAppPurchaseLocalizationsV2DeleteInstanceWithResponse performs a DELETE /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2DeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseLocalizationsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2DeleteInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseLocalizationsV2DeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseLocalizationsV2DeleteInstanceResponse(rsp)
+}
+
+// InAppPurchaseLocalizationsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseLocalizationsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2UpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseLocalizationsV2UpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseLocalizationsV2UpdateInstanceResponse(rsp)
+}
+
+// InAppPurchaseLocalizationsV2UpdateInstanceWithResponse performs a PATCH /v2/inAppPurchaseLocalizations/{id} (the `InAppPurchaseLocalizationsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchaseLocalizationsV2UpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchaseLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchaseLocalizationsV2UpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchaseLocalizationsV2UpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchaseLocalizationsV2UpdateInstanceResponse(rsp)
+}
+
+// InAppPurchasesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchasesV2CreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchasesV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2CreateInstanceResponse(rsp)
+}
+
+// InAppPurchasesV2CreateInstanceWithResponse performs a POST /v2/inAppPurchases (the `InAppPurchasesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2CreateInstanceWithResponse(ctx context.Context, body InAppPurchasesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchasesV2CreateInstanceResponse, error) {
+	rsp, err := c.InAppPurchasesV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2CreateInstanceResponse(rsp)
+}
+
+// InAppPurchasesV2DeleteInstanceWithResponse performs a DELETE /v2/inAppPurchases/{id} (the `InAppPurchasesV2DeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*InAppPurchasesV2DeleteInstanceResponse, error) {
+	rsp, err := c.InAppPurchasesV2DeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2DeleteInstanceResponse(rsp)
+}
+
+// InAppPurchasesV2GetInstanceWithResponse performs a GET /v2/inAppPurchases/{id} (the `InAppPurchasesV2GetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2GetInstanceWithResponse(ctx context.Context, id string, params *InAppPurchasesV2GetInstanceParams, reqEditors ...RequestEditorFn) (*InAppPurchasesV2GetInstanceResponse, error) {
+	rsp, err := c.InAppPurchasesV2GetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2GetInstanceResponse(rsp)
+}
+
+// InAppPurchasesV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*InAppPurchasesV2UpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchasesV2UpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2UpdateInstanceResponse(rsp)
+}
+
+// InAppPurchasesV2UpdateInstanceWithResponse performs a PATCH /v2/inAppPurchases/{id} (the `InAppPurchasesV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2UpdateInstanceWithResponse(ctx context.Context, id string, body InAppPurchasesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*InAppPurchasesV2UpdateInstanceResponse, error) {
+	rsp, err := c.InAppPurchasesV2UpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2UpdateInstanceResponse(rsp)
+}
+
+// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedWithResponse performs a GET /v2/inAppPurchases/{id}/appStoreReviewScreenshot (the `InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedWithResponse(ctx context.Context, id string, params *InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse, error) {
+	rsp, err := c.InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse(rsp)
+}
+
+// InAppPurchasesV2VersionsGetToManyRelatedWithResponse performs a GET /v2/inAppPurchases/{id}/versions (the `InAppPurchasesV2VersionsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) InAppPurchasesV2VersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchasesV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchasesV2VersionsGetToManyRelatedResponse, error) {
+	rsp, err := c.InAppPurchasesV2VersionsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseInAppPurchasesV2VersionsGetToManyRelatedResponse(rsp)
 }
 
 // AppPricePointsV3EqualizationsGetToManyRelatedWithResponse performs a GET /v3/appPricePoints/{id}/equalizations (the `AppPricePointsV3EqualizationsGetToManyRelated` operationId) request.
@@ -99578,6 +108265,67 @@ func ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse(rsp *http.Response)
 	return response, nil
 }
 
+// ParseAppsInAppPurchasesV2GetToManyRelatedResponse parses an HTTP response from a AppsInAppPurchasesV2GetToManyRelatedWithResponse call
+func ParseAppsInAppPurchasesV2GetToManyRelatedResponse(rsp *http.Response) (*AppsInAppPurchasesV2GetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsInAppPurchasesV2GetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchasesV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppsBetaTestersDeleteToManyRelationshipResponse parses an HTTP response from a AppsBetaTestersDeleteToManyRelationshipWithResponse call
 func ParseAppsBetaTestersDeleteToManyRelationshipResponse(rsp *http.Response) (*AppsBetaTestersDeleteToManyRelationshipResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -104108,6 +112856,457 @@ func ParseEndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse(rsp *
 	return response, nil
 }
 
+// ParseInAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse parses an HTTP response from a InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithResponse call
+func ParseInAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse(rsp *http.Response) (*InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseAppStoreReviewScreenshotsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseAppStoreReviewScreenshotResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse parses an HTTP response from a InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceWithResponse call
+func ParseInAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse(rsp *http.Response) (*InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseAppStoreReviewScreenshotsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse parses an HTTP response from a InAppPurchaseAppStoreReviewScreenshotsGetInstanceWithResponse call
+func ParseInAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse(rsp *http.Response) (*InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseAppStoreReviewScreenshotsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseAppStoreReviewScreenshotResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse parses an HTTP response from a InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceWithResponse call
+func ParseInAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse(rsp *http.Response) (*InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseAppStoreReviewScreenshotsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseAppStoreReviewScreenshotResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseVersionsCreateInstanceResponse parses an HTTP response from a InAppPurchaseVersionsCreateInstanceWithResponse call
+func ParseInAppPurchaseVersionsCreateInstanceResponse(rsp *http.Response) (*InAppPurchaseVersionsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseVersionsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseVersionsImageGetToOneRelatedResponse parses an HTTP response from a InAppPurchaseVersionsImageGetToOneRelatedWithResponse call
+func ParseInAppPurchaseVersionsImageGetToOneRelatedResponse(rsp *http.Response) (*InAppPurchaseVersionsImageGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseVersionsImageGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseImageV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseVersionsLocalizationsGetToManyRelatedResponse parses an HTTP response from a InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse call
+func ParseInAppPurchaseVersionsLocalizationsGetToManyRelatedResponse(rsp *http.Response) (*InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseLocalizationsV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseMerchantIdsGetCollectionResponse parses an HTTP response from a MerchantIdsGetCollectionWithResponse call
 func ParseMerchantIdsGetCollectionResponse(rsp *http.Response) (*MerchantIdsGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -107526,6 +116725,850 @@ func ParseAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse(rsp
 	return response, nil
 }
 
+// ParseInAppPurchaseImagesV2CreateInstanceResponse parses an HTTP response from a InAppPurchaseImagesV2CreateInstanceWithResponse call
+func ParseInAppPurchaseImagesV2CreateInstanceResponse(rsp *http.Response) (*InAppPurchaseImagesV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseImagesV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseImageV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseImagesV2DeleteInstanceResponse parses an HTTP response from a InAppPurchaseImagesV2DeleteInstanceWithResponse call
+func ParseInAppPurchaseImagesV2DeleteInstanceResponse(rsp *http.Response) (*InAppPurchaseImagesV2DeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseImagesV2DeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseImagesV2GetInstanceResponse parses an HTTP response from a InAppPurchaseImagesV2GetInstanceWithResponse call
+func ParseInAppPurchaseImagesV2GetInstanceResponse(rsp *http.Response) (*InAppPurchaseImagesV2GetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseImagesV2GetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseImageV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseImagesV2UpdateInstanceResponse parses an HTTP response from a InAppPurchaseImagesV2UpdateInstanceWithResponse call
+func ParseInAppPurchaseImagesV2UpdateInstanceResponse(rsp *http.Response) (*InAppPurchaseImagesV2UpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseImagesV2UpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseImageV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseLocalizationsV2CreateInstanceResponse parses an HTTP response from a InAppPurchaseLocalizationsV2CreateInstanceWithResponse call
+func ParseInAppPurchaseLocalizationsV2CreateInstanceResponse(rsp *http.Response) (*InAppPurchaseLocalizationsV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseLocalizationsV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseLocalizationV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseLocalizationsV2DeleteInstanceResponse parses an HTTP response from a InAppPurchaseLocalizationsV2DeleteInstanceWithResponse call
+func ParseInAppPurchaseLocalizationsV2DeleteInstanceResponse(rsp *http.Response) (*InAppPurchaseLocalizationsV2DeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseLocalizationsV2DeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchaseLocalizationsV2UpdateInstanceResponse parses an HTTP response from a InAppPurchaseLocalizationsV2UpdateInstanceWithResponse call
+func ParseInAppPurchaseLocalizationsV2UpdateInstanceResponse(rsp *http.Response) (*InAppPurchaseLocalizationsV2UpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchaseLocalizationsV2UpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseLocalizationV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchasesV2CreateInstanceResponse parses an HTTP response from a InAppPurchasesV2CreateInstanceWithResponse call
+func ParseInAppPurchasesV2CreateInstanceResponse(rsp *http.Response) (*InAppPurchasesV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchasesV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest InAppPurchaseV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchasesV2DeleteInstanceResponse parses an HTTP response from a InAppPurchasesV2DeleteInstanceWithResponse call
+func ParseInAppPurchasesV2DeleteInstanceResponse(rsp *http.Response) (*InAppPurchasesV2DeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchasesV2DeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchasesV2GetInstanceResponse parses an HTTP response from a InAppPurchasesV2GetInstanceWithResponse call
+func ParseInAppPurchasesV2GetInstanceResponse(rsp *http.Response) (*InAppPurchasesV2GetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchasesV2GetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchasesV2UpdateInstanceResponse parses an HTTP response from a InAppPurchasesV2UpdateInstanceWithResponse call
+func ParseInAppPurchasesV2UpdateInstanceResponse(rsp *http.Response) (*InAppPurchasesV2UpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchasesV2UpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse parses an HTTP response from a InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedWithResponse call
+func ParseInAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse(rsp *http.Response) (*InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseAppStoreReviewScreenshotResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseInAppPurchasesV2VersionsGetToManyRelatedResponse parses an HTTP response from a InAppPurchasesV2VersionsGetToManyRelatedWithResponse call
+func ParseInAppPurchasesV2VersionsGetToManyRelatedResponse(rsp *http.Response) (*InAppPurchasesV2VersionsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &InAppPurchasesV2VersionsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest InAppPurchaseVersionsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppPricePointsV3EqualizationsGetToManyRelatedResponse parses an HTTP response from a AppPricePointsV3EqualizationsGetToManyRelatedWithResponse call
 func ParseAppPricePointsV3EqualizationsGetToManyRelatedResponse(rsp *http.Response) (*AppPricePointsV3EqualizationsGetToManyRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -107830,6 +117873,9 @@ type ServerInterface interface {
 	// (GET /v1/apps/{id}/endUserLicenseAgreement)
 	AppsEndUserLicenseAgreementGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsEndUserLicenseAgreementGetToOneRelatedParams)
 
+	// (GET /v1/apps/{id}/inAppPurchasesV2)
+	AppsInAppPurchasesV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsInAppPurchasesV2GetToManyRelatedParams)
+
 	// (DELETE /v1/apps/{id}/relationships/betaTesters)
 	AppsBetaTestersDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
 
@@ -108040,6 +118086,27 @@ type ServerInterface interface {
 	// (GET /v1/endUserLicenseAgreements/{id}/relationships/territories)
 	EndUserLicenseAgreementsTerritoriesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams)
 
+	// (POST /v1/inAppPurchaseAppStoreReviewScreenshots)
+	InAppPurchaseAppStoreReviewScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/inAppPurchaseAppStoreReviewScreenshots/{id})
+	InAppPurchaseAppStoreReviewScreenshotsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/inAppPurchaseAppStoreReviewScreenshots/{id})
+	InAppPurchaseAppStoreReviewScreenshotsGetInstance(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams)
+
+	// (PATCH /v1/inAppPurchaseAppStoreReviewScreenshots/{id})
+	InAppPurchaseAppStoreReviewScreenshotsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/inAppPurchaseVersions)
+	InAppPurchaseVersionsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/inAppPurchaseVersions/{id}/image)
+	InAppPurchaseVersionsImageGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseVersionsImageGetToOneRelatedParams)
+
+	// (GET /v1/inAppPurchaseVersions/{id}/localizations)
+	InAppPurchaseVersionsLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseVersionsLocalizationsGetToManyRelatedParams)
+
 	// (GET /v1/merchantIds)
 	MerchantIdsGetCollection(w http.ResponseWriter, r *http.Request, params MerchantIdsGetCollectionParams)
 
@@ -108201,6 +118268,45 @@ type ServerInterface interface {
 
 	// (GET /v2/appAvailabilities/{id}/territoryAvailabilities)
 	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams)
+
+	// (POST /v2/inAppPurchaseImages)
+	InAppPurchaseImagesV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v2/inAppPurchaseImages/{id})
+	InAppPurchaseImagesV2DeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v2/inAppPurchaseImages/{id})
+	InAppPurchaseImagesV2GetInstance(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseImagesV2GetInstanceParams)
+
+	// (PATCH /v2/inAppPurchaseImages/{id})
+	InAppPurchaseImagesV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v2/inAppPurchaseLocalizations)
+	InAppPurchaseLocalizationsV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v2/inAppPurchaseLocalizations/{id})
+	InAppPurchaseLocalizationsV2DeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v2/inAppPurchaseLocalizations/{id})
+	InAppPurchaseLocalizationsV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v2/inAppPurchases)
+	InAppPurchasesV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v2/inAppPurchases/{id})
+	InAppPurchasesV2DeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v2/inAppPurchases/{id})
+	InAppPurchasesV2GetInstance(w http.ResponseWriter, r *http.Request, id string, params InAppPurchasesV2GetInstanceParams)
+
+	// (PATCH /v2/inAppPurchases/{id})
+	InAppPurchasesV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v2/inAppPurchases/{id}/appStoreReviewScreenshot)
+	InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams)
+
+	// (GET /v2/inAppPurchases/{id}/versions)
+	InAppPurchasesV2VersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchasesV2VersionsGetToManyRelatedParams)
 
 	// (GET /v3/appPricePoints/{id}/equalizations)
 	AppPricePointsV3EqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppPricePointsV3EqualizationsGetToManyRelatedParams)
@@ -113727,6 +123833,308 @@ func (siw *ServerInterfaceWrapper) AppsEndUserLicenseAgreementGetToOneRelated(w 
 	handler.ServeHTTP(w, r)
 }
 
+// AppsInAppPurchasesV2GetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsInAppPurchasesV2GetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsInAppPurchasesV2GetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[productId]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[productId]", r.URL.Query(), &params.FilterProductId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[productId]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[productId]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[name]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[name]", r.URL.Query(), &params.FilterName, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[name]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[name]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[inAppPurchaseType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[inAppPurchaseType]", r.URL.Query(), &params.FilterInAppPurchaseType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[inAppPurchaseType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[inAppPurchaseType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchases]", r.URL.Query(), &params.FieldsInAppPurchases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseLocalizations]", r.URL.Query(), &params.FieldsInAppPurchaseLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseContents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseContents]", r.URL.Query(), &params.FieldsInAppPurchaseContents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseContents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseContents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseAppStoreReviewScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseAppStoreReviewScreenshots]", r.URL.Query(), &params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[promotedPurchases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[promotedPurchases]", r.URL.Query(), &params.FieldsPromotedPurchases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[promotedPurchases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[promotedPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchasePriceSchedules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchasePriceSchedules]", r.URL.Query(), &params.FieldsInAppPurchasePriceSchedules, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchasePriceSchedules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchasePriceSchedules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseAvailabilities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseAvailabilities]", r.URL.Query(), &params.FieldsInAppPurchaseAvailabilities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseAvailabilities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseAvailabilities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseImages]", r.URL.Query(), &params.FieldsInAppPurchaseImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferCodes]", r.URL.Query(), &params.FieldsInAppPurchaseOfferCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseVersions]", r.URL.Query(), &params.FieldsInAppPurchaseVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[inAppPurchaseLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[inAppPurchaseLocalizations]", r.URL.Query(), &params.LimitInAppPurchaseLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[inAppPurchaseLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[inAppPurchaseLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[images]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[images]", r.URL.Query(), &params.LimitImages, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[images]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[images]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[offerCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[offerCodes]", r.URL.Query(), &params.LimitOfferCodes, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[offerCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[offerCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsInAppPurchasesV2GetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppsBetaTestersDeleteToManyRelationship operation middleware
 func (siw *ServerInterfaceWrapper) AppsBetaTestersDeleteToManyRelationship(w http.ResponseWriter, r *http.Request) {
 
@@ -117795,6 +128203,277 @@ func (siw *ServerInterfaceWrapper) EndUserLicenseAgreementsTerritoriesGetToManyR
 	handler.ServeHTTP(w, r)
 }
 
+// InAppPurchaseAppStoreReviewScreenshotsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseAppStoreReviewScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseAppStoreReviewScreenshotsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseAppStoreReviewScreenshotsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseAppStoreReviewScreenshotsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseAppStoreReviewScreenshotsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseAppStoreReviewScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseAppStoreReviewScreenshots]", r.URL.Query(), &params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchases]", r.URL.Query(), &params.FieldsInAppPurchases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseAppStoreReviewScreenshotsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseAppStoreReviewScreenshotsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseAppStoreReviewScreenshotsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseAppStoreReviewScreenshotsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseVersionsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseVersionsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseVersionsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseVersionsImageGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseVersionsImageGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseVersionsImageGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseImages]", r.URL.Query(), &params.FieldsInAppPurchaseImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseImages]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseVersionsImageGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseVersionsLocalizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseVersionsLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseVersionsLocalizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseLocalizations]", r.URL.Query(), &params.FieldsInAppPurchaseLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseVersions]", r.URL.Query(), &params.FieldsInAppPurchaseVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseVersionsLocalizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // MerchantIdsGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) MerchantIdsGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -121084,6 +131763,710 @@ func (siw *ServerInterfaceWrapper) AppAvailabilitiesV2TerritoryAvailabilitiesGet
 	handler.ServeHTTP(w, r)
 }
 
+// InAppPurchaseImagesV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseImagesV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseImagesV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseImagesV2DeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseImagesV2DeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseImagesV2DeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseImagesV2GetInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseImagesV2GetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchaseImagesV2GetInstanceParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseImages]", r.URL.Query(), &params.FieldsInAppPurchaseImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseImages]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseImagesV2GetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseImagesV2UpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseImagesV2UpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseImagesV2UpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseLocalizationsV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseLocalizationsV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseLocalizationsV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseLocalizationsV2DeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseLocalizationsV2DeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseLocalizationsV2DeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchaseLocalizationsV2UpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchaseLocalizationsV2UpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchaseLocalizationsV2UpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchasesV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchasesV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchasesV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchasesV2DeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchasesV2DeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchasesV2DeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchasesV2GetInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchasesV2GetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchasesV2GetInstanceParams
+
+	// ------------- Optional query parameter "fields[inAppPurchases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchases]", r.URL.Query(), &params.FieldsInAppPurchases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseLocalizations]", r.URL.Query(), &params.FieldsInAppPurchaseLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchasePricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchasePricePoints]", r.URL.Query(), &params.FieldsInAppPurchasePricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchasePricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchasePricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseContents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseContents]", r.URL.Query(), &params.FieldsInAppPurchaseContents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseContents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseContents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseAppStoreReviewScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseAppStoreReviewScreenshots]", r.URL.Query(), &params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[promotedPurchases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[promotedPurchases]", r.URL.Query(), &params.FieldsPromotedPurchases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[promotedPurchases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[promotedPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchasePriceSchedules]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchasePriceSchedules]", r.URL.Query(), &params.FieldsInAppPurchasePriceSchedules, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchasePriceSchedules]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchasePriceSchedules]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseAvailabilities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseAvailabilities]", r.URL.Query(), &params.FieldsInAppPurchaseAvailabilities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseAvailabilities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseAvailabilities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseImages]", r.URL.Query(), &params.FieldsInAppPurchaseImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseOfferCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseOfferCodes]", r.URL.Query(), &params.FieldsInAppPurchaseOfferCodes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseOfferCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseOfferCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseVersions]", r.URL.Query(), &params.FieldsInAppPurchaseVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[images]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[images]", r.URL.Query(), &params.LimitImages, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[images]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[images]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[inAppPurchaseLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[inAppPurchaseLocalizations]", r.URL.Query(), &params.LimitInAppPurchaseLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[inAppPurchaseLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[inAppPurchaseLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[offerCodes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[offerCodes]", r.URL.Query(), &params.LimitOfferCodes, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[offerCodes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[offerCodes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[pricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[pricePoints]", r.URL.Query(), &params.LimitPricePoints, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[pricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[pricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchasesV2GetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchasesV2UpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchasesV2UpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchasesV2UpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[inAppPurchaseAppStoreReviewScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseAppStoreReviewScreenshots]", r.URL.Query(), &params.FieldsInAppPurchaseAppStoreReviewScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseAppStoreReviewScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchases]", r.URL.Query(), &params.FieldsInAppPurchases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// InAppPurchasesV2VersionsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) InAppPurchasesV2VersionsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params InAppPurchasesV2VersionsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseVersions]", r.URL.Query(), &params.FieldsInAppPurchaseVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchases]", r.URL.Query(), &params.FieldsInAppPurchases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseImages]", r.URL.Query(), &params.FieldsInAppPurchaseImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[inAppPurchaseLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[inAppPurchaseLocalizations]", r.URL.Query(), &params.FieldsInAppPurchaseLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[inAppPurchaseLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[inAppPurchaseLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[images]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[images]", r.URL.Query(), &params.LimitImages, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[images]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[images]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[localizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[localizations]", r.URL.Query(), &params.LimitLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[localizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[localizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.InAppPurchasesV2VersionsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppPricePointsV3EqualizationsGetToManyRelated operation middleware
 func (siw *ServerInterfaceWrapper) AppPricePointsV3EqualizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -121390,6 +132773,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appStoreVersions", wrapper.AppsAppStoreVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appTags", wrapper.AppsAppTagsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/inAppPurchasesV2", wrapper.AppsInAppPurchasesV2GetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/searchKeywords", wrapper.AppsSearchKeywordsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/webhooks", wrapper.AppsWebhooksGetToManyRelated)
@@ -121460,6 +132844,13 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}/relationships/territories", wrapper.EndUserLicenseAgreementsTerritoriesGetToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots", wrapper.InAppPurchaseAppStoreReviewScreenshotsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseVersions", wrapper.InAppPurchaseVersionsCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseVersions/{id}/image", wrapper.InAppPurchaseVersionsImageGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseVersions/{id}/localizations", wrapper.InAppPurchaseVersionsLocalizationsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds", wrapper.MerchantIdsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/merchantIds", wrapper.MerchantIdsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/merchantIds/{id}", wrapper.MerchantIdsDeleteInstance)
@@ -121514,6 +132905,19 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/webhooks/{id}/deliveries", wrapper.WebhooksDeliveriesGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/appAvailabilities", wrapper.AppAvailabilitiesV2CreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/appAvailabilities/{id}/territoryAvailabilities", wrapper.AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/inAppPurchaseImages", wrapper.InAppPurchaseImagesV2CreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/inAppPurchaseImages/{id}", wrapper.InAppPurchaseImagesV2DeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/inAppPurchaseImages/{id}", wrapper.InAppPurchaseImagesV2GetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/inAppPurchaseImages/{id}", wrapper.InAppPurchaseImagesV2UpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/inAppPurchaseLocalizations", wrapper.InAppPurchaseLocalizationsV2CreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/inAppPurchaseLocalizations/{id}", wrapper.InAppPurchaseLocalizationsV2DeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/inAppPurchaseLocalizations/{id}", wrapper.InAppPurchaseLocalizationsV2UpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/inAppPurchases", wrapper.InAppPurchasesV2CreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/inAppPurchases/{id}", wrapper.InAppPurchasesV2DeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/inAppPurchases/{id}", wrapper.InAppPurchasesV2GetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/inAppPurchases/{id}", wrapper.InAppPurchasesV2UpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/inAppPurchases/{id}/appStoreReviewScreenshot", wrapper.InAppPurchasesV2AppStoreReviewScreenshotGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/inAppPurchases/{id}/versions", wrapper.InAppPurchasesV2VersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v3/appPricePoints/{id}/equalizations", wrapper.AppPricePointsV3EqualizationsGetToManyRelated)
 
 	return m
