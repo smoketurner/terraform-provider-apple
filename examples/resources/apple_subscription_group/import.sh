@@ -1,0 +1,1 @@
+terraform import apple_subscription_group.pro 1234567890/21000000

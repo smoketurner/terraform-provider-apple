@@ -195,11 +195,12 @@ func TestAccInAppPurchaseLocalization(t *testing.T) {
 				// Removing a localization deletes it from the new version.
 				Config: locals + iapConfig("") + iapLocalizationConfig("en-US", "A Hundred Coins", `description = "A pile of coins."`),
 				Check: func(*terraform.State) error {
-					draft, _, _, err := iapVersions(context.Background(), env.client, id)
+					draft, _, _, err := iapMetadata.find(context.Background(), env.client, id)
 					if err != nil {
 						return err
 					}
-					if _, err := findIAPLocalization(context.Background(), env.client, draft.Id, "fr-FR"); err == nil {
+					r := &versionedLocalizationResource{api: iapLocalizationAPI, client: env.client}
+					if _, err := r.find(context.Background(), draft.id, "fr-FR"); err == nil {
 						return errors.New("fr-FR was not deleted")
 					}
 					return nil
@@ -261,11 +262,11 @@ resource "apple_in_app_purchase_review_screenshot" "coins" {
 					env.checkFile(&imageID, &imageSum),
 					env.checkIAPVersions(&id, "APPROVED", "PREPARE_FOR_SUBMISSION"),
 					func(*terraform.State) error {
-						draft, _, _, err := iapVersions(context.Background(), env.client, id)
+						draft, _, _, err := iapMetadata.find(context.Background(), env.client, id)
 						if err != nil {
 							return err
 						}
-						out, err := env.client.InAppPurchaseVersionsImageGetToOneRelatedWithResponse(context.Background(), draft.Id, nil)
+						out, err := env.client.InAppPurchaseVersionsImageGetToOneRelatedWithResponse(context.Background(), draft.id, nil)
 						if err := asc.Err(out, err); err != nil {
 							return err
 						}

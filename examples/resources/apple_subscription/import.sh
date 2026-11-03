@@ -1,0 +1,1 @@
+terraform import apple_subscription.monthly 6446452616

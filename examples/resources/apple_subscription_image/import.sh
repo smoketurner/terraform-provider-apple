@@ -1,0 +1,1 @@
+terraform import apple_subscription_image.monthly 1234567890

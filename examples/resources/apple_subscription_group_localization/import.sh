@@ -1,0 +1,1 @@
+terraform import apple_subscription_group_localization.en_us 21000000/en-US
