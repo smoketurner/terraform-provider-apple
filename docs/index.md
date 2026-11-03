@@ -76,6 +76,9 @@ provider "apple" {
   `apple_app_availability` creates one with every territory unavailable; each `apple_app_territory_availability` then
   makes the app available in one territory, and destroying it makes the app unavailable there. Use `for_each` over
   `data.apple_territories` to sell everywhere.
+* **Screenshots and previews are uploaded from files.** A screenshot or preview set lists its files in order. Apply
+  uploads new files, uploads a file again when its contents change (compared by MD5 checksum), deletes removed files and
+  sets the order. Paths are relative to where Terraform runs, so use `${path.module}`.
 * **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
   the device, which still counts toward the team's device limit until the membership year renews.
 

@@ -1,0 +1,1 @@
+terraform import apple_app_screenshot_set.iphone 1234567890/APP_IPHONE_67

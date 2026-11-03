@@ -204,6 +204,21 @@ func IsConflict(err error) bool {
 	return hasStatus(err, http.StatusConflict)
 }
 
+// HasCode reports whether err is an App Store Connect error with code, e.g.
+// "STATE_ERROR".
+func HasCode(err error, code string) bool {
+	var e *Error
+	if !errors.As(err, &e) {
+		return false
+	}
+	for _, d := range e.Errors {
+		if d.Code == code {
+			return true
+		}
+	}
+	return false
+}
+
 func hasStatus(err error, status int) bool {
 	var e *Error
 	return errors.As(err, &e) && e.StatusCode == status

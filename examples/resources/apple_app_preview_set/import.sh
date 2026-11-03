@@ -1,0 +1,1 @@
+terraform import apple_app_preview_set.iphone 1234567890/IPHONE_67

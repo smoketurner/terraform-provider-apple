@@ -36,12 +36,30 @@ output-options:
     - appInfos_ageRatingDeclaration_getToOneRelated
     - appInfos_appInfoLocalizations_getToManyRelated
     - appInfos_updateInstance
+    - appPreviewSets_appPreviews_getToManyRelated
+    - appPreviewSets_appPreviews_replaceToManyRelationship
+    - appPreviewSets_createInstance
+    - appPreviewSets_deleteInstance
+    - appPreviewSets_getInstance
+    - appPreviews_createInstance
+    - appPreviews_deleteInstance
+    - appPreviews_updateInstance
     - appPricePointsV3_equalizations_getToManyRelated
     - appPriceSchedules_baseTerritory_getToOneRelated
     - appPriceSchedules_createInstance
     - appPriceSchedules_manualPrices_getToManyRelated
+    - appScreenshotSets_appScreenshots_getToManyRelated
+    - appScreenshotSets_appScreenshots_replaceToManyRelationship
+    - appScreenshotSets_createInstance
+    - appScreenshotSets_deleteInstance
+    - appScreenshotSets_getInstance
+    - appScreenshots_createInstance
+    - appScreenshots_deleteInstance
+    - appScreenshots_updateInstance
     - appStoreReviewDetails_createInstance
     - appStoreReviewDetails_updateInstance
+    - appStoreVersionLocalizations_appPreviewSets_getToManyRelated
+    - appStoreVersionLocalizations_appScreenshotSets_getToManyRelated
     - appStoreVersionLocalizations_createInstance
     - appStoreVersionLocalizations_deleteInstance
     - appStoreVersionLocalizations_searchKeywords_createToManyRelationship

@@ -280,6 +280,9 @@ func TestCheck(t *testing.T) {
 	if !IsConflict(err) || IsNotFound(err) {
 		t.Errorf("IsConflict = %v, IsNotFound = %v for %v", IsConflict(err), IsNotFound(err), err)
 	}
+	if !HasCode(err, "ENTITY_ERROR.ATTRIBUTE.INVALID") || HasCode(err, "STATE_ERROR") || HasCode(errors.New("plain"), "STATE_ERROR") {
+		t.Errorf("HasCode is wrong for %v", err)
+	}
 	want := "POST /v1/bundleIds: HTTP 409\nENTITY_ERROR.ATTRIBUTE.INVALID: An attribute value is invalid.: The CSR is invalid. (at /data/attributes/csrContent)"
 	if err == nil || err.Error() != want {
 		t.Errorf("error =\n%v\nwant\n%s", err, want)
