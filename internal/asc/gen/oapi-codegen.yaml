@@ -74,6 +74,7 @@ output-options:
     - apps_getInstance
     - apps_searchKeywords_getToManyRelated
     - apps_updateInstance
+    - apps_webhooks_getToManyRelated
     - betaAppLocalizations_createInstance
     - betaAppLocalizations_deleteInstance
     - betaAppLocalizations_getInstance
@@ -182,3 +183,10 @@ output-options:
     - users_visibleApps_createToManyRelationship
     - users_visibleApps_deleteToManyRelationship
     - users_visibleApps_getToManyRelationship
+    - webhookDeliveries_createInstance
+    - webhookPings_createInstance
+    - webhooks_createInstance
+    - webhooks_deleteInstance
+    - webhooks_deliveries_getToManyRelated
+    - webhooks_getInstance
+    - webhooks_updateInstance

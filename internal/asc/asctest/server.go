@@ -73,6 +73,7 @@ type Server struct {
 	versions    *versionsState
 	pricing     *pricingState
 	nominations *nominationsState
+	webhooks    map[string]*webhook
 
 	failNext map[string][]int
 	requests []string
@@ -109,6 +110,7 @@ func NewServer() *Server {
 		versions:     newVersionsState(),
 		pricing:      newPricingState(),
 		nominations:  newNominationsState(),
+		webhooks:     newWebhooks(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

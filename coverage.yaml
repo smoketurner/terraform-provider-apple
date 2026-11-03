@@ -416,8 +416,8 @@ operations:
   apps_subscriptionGroups_getToManyRelated: {status: planned, issue: 7}
   apps_subscriptionGroups_getToManyRelationship: {status: planned, issue: 7}
   apps_updateInstance: {status: covered, by: [apple_app_settings]}
-  apps_webhooks_getToManyRelated: {status: planned, issue: 9}
-  apps_webhooks_getToManyRelationship: {status: planned, issue: 9}
+  apps_webhooks_getToManyRelated: {status: covered, by: [data.apple_webhooks]}
+  apps_webhooks_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   backgroundAssetUploadFiles_createInstance: {status: planned, issue: 14}
   backgroundAssetUploadFiles_getInstance: {status: planned, issue: 14}
   backgroundAssetUploadFiles_updateInstance: {status: planned, issue: 14}
@@ -1304,14 +1304,14 @@ operations:
   users_visibleApps_getToManyRelated: {status: out_of_scope, reason: "the getToManyRelationship operation returns the app IDs apple_user_visible_app needs"}
   users_visibleApps_getToManyRelationship: {status: covered, by: [apple_user_visible_app]}
   users_visibleApps_replaceToManyRelationship: {status: out_of_scope, reason: "apple_user_visible_app adds and removes one app at a time, so configurations can each grant their own apps"}
-  webhookDeliveries_createInstance: {status: planned, issue: 9}
-  webhookPings_createInstance: {status: planned, issue: 9}
-  webhooks_createInstance: {status: planned, issue: 9}
-  webhooks_deleteInstance: {status: planned, issue: 9}
-  webhooks_deliveries_getToManyRelated: {status: planned, issue: 9}
-  webhooks_deliveries_getToManyRelationship: {status: planned, issue: 9}
-  webhooks_getInstance: {status: planned, issue: 9}
-  webhooks_updateInstance: {status: planned, issue: 9}
+  webhookDeliveries_createInstance: {status: covered, by: [action.apple_redeliver_webhook]}
+  webhookPings_createInstance: {status: covered, by: [action.apple_ping_webhook]}
+  webhooks_createInstance: {status: covered, by: [apple_webhook]}
+  webhooks_deleteInstance: {status: covered, by: [apple_webhook]}
+  webhooks_deliveries_getToManyRelated: {status: covered, by: [data.apple_webhook_deliveries]}
+  webhooks_deliveries_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  webhooks_getInstance: {status: covered, by: [apple_webhook]}
+  webhooks_updateInstance: {status: covered, by: [apple_webhook]}
   winBackOffers_createInstance: {status: planned, issue: 7}
   winBackOffers_deleteInstance: {status: planned, issue: 7}
   winBackOffers_getInstance: {status: planned, issue: 7}
