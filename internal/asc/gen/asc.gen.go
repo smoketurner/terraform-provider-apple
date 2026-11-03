@@ -2585,6 +2585,51 @@ func (e AppEncryptionDeclarationDocumentType) Valid() bool {
 	}
 }
 
+// Defines values for AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataType.
+const (
+	AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataTypeAppEncryptionDeclarations AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataType = "appEncryptionDeclarations"
+)
+
+// Valid indicates whether the value is a known member of the AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataType enum.
+func (e AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataType) Valid() bool {
+	switch e {
+	case AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataTypeAppEncryptionDeclarations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEncryptionDeclarationDocumentCreateRequestDataType.
+const (
+	AppEncryptionDeclarationDocumentCreateRequestDataTypeAppEncryptionDeclarationDocuments AppEncryptionDeclarationDocumentCreateRequestDataType = "appEncryptionDeclarationDocuments"
+)
+
+// Valid indicates whether the value is a known member of the AppEncryptionDeclarationDocumentCreateRequestDataType enum.
+func (e AppEncryptionDeclarationDocumentCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppEncryptionDeclarationDocumentCreateRequestDataTypeAppEncryptionDeclarationDocuments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEncryptionDeclarationDocumentUpdateRequestDataType.
+const (
+	AppEncryptionDeclarationDocumentUpdateRequestDataTypeAppEncryptionDeclarationDocuments AppEncryptionDeclarationDocumentUpdateRequestDataType = "appEncryptionDeclarationDocuments"
+)
+
+// Valid indicates whether the value is a known member of the AppEncryptionDeclarationDocumentUpdateRequestDataType enum.
+func (e AppEncryptionDeclarationDocumentUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppEncryptionDeclarationDocumentUpdateRequestDataTypeAppEncryptionDeclarationDocuments:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppEncryptionDeclarationState.
 const (
 	AppEncryptionDeclarationStateAPPROVED AppEncryptionDeclarationState = "APPROVED"
@@ -4145,6 +4190,51 @@ const (
 func (e AppStoreReviewAttachmentType) Valid() bool {
 	switch e {
 	case AppStoreReviewAttachmentTypeAppStoreReviewAttachments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataType.
+const (
+	AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataTypeAppStoreReviewDetails AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataType = "appStoreReviewDetails"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataType enum.
+func (e AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataType) Valid() bool {
+	switch e {
+	case AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataTypeAppStoreReviewDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreReviewAttachmentCreateRequestDataType.
+const (
+	AppStoreReviewAttachmentCreateRequestDataTypeAppStoreReviewAttachments AppStoreReviewAttachmentCreateRequestDataType = "appStoreReviewAttachments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreReviewAttachmentCreateRequestDataType enum.
+func (e AppStoreReviewAttachmentCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreReviewAttachmentCreateRequestDataTypeAppStoreReviewAttachments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreReviewAttachmentUpdateRequestDataType.
+const (
+	AppStoreReviewAttachmentUpdateRequestDataTypeAppStoreReviewAttachments AppStoreReviewAttachmentUpdateRequestDataType = "appStoreReviewAttachments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreReviewAttachmentUpdateRequestDataType enum.
+func (e AppStoreReviewAttachmentUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreReviewAttachmentUpdateRequestDataTypeAppStoreReviewAttachments:
 		return true
 	default:
 		return false
@@ -10814,6 +10904,51 @@ func (e RoutingAppCoverageType) Valid() bool {
 	}
 }
 
+// Defines values for RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataType.
+const (
+	RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataType = "appStoreVersions"
+)
+
+// Valid indicates whether the value is a known member of the RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataType enum.
+func (e RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataType) Valid() bool {
+	switch e {
+	case RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RoutingAppCoverageCreateRequestDataType.
+const (
+	RoutingAppCoverageCreateRequestDataTypeRoutingAppCoverages RoutingAppCoverageCreateRequestDataType = "routingAppCoverages"
+)
+
+// Valid indicates whether the value is a known member of the RoutingAppCoverageCreateRequestDataType enum.
+func (e RoutingAppCoverageCreateRequestDataType) Valid() bool {
+	switch e {
+	case RoutingAppCoverageCreateRequestDataTypeRoutingAppCoverages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RoutingAppCoverageUpdateRequestDataType.
+const (
+	RoutingAppCoverageUpdateRequestDataTypeRoutingAppCoverages RoutingAppCoverageUpdateRequestDataType = "routingAppCoverages"
+)
+
+// Valid indicates whether the value is a known member of the RoutingAppCoverageUpdateRequestDataType enum.
+func (e RoutingAppCoverageUpdateRequestDataType) Valid() bool {
+	switch e {
+	case RoutingAppCoverageUpdateRequestDataTypeRoutingAppCoverages:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for ScreenshotDisplayType.
 const (
 	ScreenshotDisplayTypeAPPAPPLETV                ScreenshotDisplayType = "APP_APPLE_TV"
@@ -12107,6 +12242,39 @@ func (e AppCategoriesGetCollectionParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments.
+const (
+	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsAssetDeliveryState AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "assetDeliveryState"
+	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsAssetToken         AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "assetToken"
+	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsDownloadUrl        AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "downloadUrl"
+	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsFileName           AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "fileName"
+	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsFileSize           AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "fileSize"
+	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsSourceFileChecksum AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "sourceFileChecksum"
+	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsUploadOperations   AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments enum.
+func (e AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments) Valid() bool {
+	switch e {
+	case AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsAssetDeliveryState:
+		return true
+	case AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsAssetToken:
+		return true
+	case AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsDownloadUrl:
+		return true
+	case AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsFileName:
+		return true
+	case AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsFileSize:
+		return true
+	case AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsSourceFileChecksum:
+		return true
+	case AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppEncryptionDeclarationsGetInstanceParamsFieldsAppEncryptionDeclarations.
 const (
 	AppEncryptionDeclarationsGetInstanceParamsFieldsAppEncryptionDeclarationsApp                              AppEncryptionDeclarationsGetInstanceParamsFieldsAppEncryptionDeclarations = "app"
@@ -13385,6 +13553,93 @@ const (
 func (e AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude) Valid() bool {
 	switch e {
 	case AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsIncludeAppScreenshotSet:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments.
+const (
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsAppStoreReviewDetail AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments = "appStoreReviewDetail"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsAssetDeliveryState   AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments = "assetDeliveryState"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsFileName             AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments = "fileName"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsFileSize             AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments = "fileSize"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsSourceFileChecksum   AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments = "sourceFileChecksum"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsUploadOperations     AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments enum.
+func (e AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments) Valid() bool {
+	switch e {
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsAppStoreReviewDetail:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsAssetDeliveryState:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsFileName:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsFileSize:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsSourceFileChecksum:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachmentsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails.
+const (
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsAppStoreReviewAttachments AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "appStoreReviewAttachments"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsAppStoreVersion           AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "appStoreVersion"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactEmail              AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "contactEmail"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactFirstName          AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "contactFirstName"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactLastName           AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "contactLastName"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactPhone              AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "contactPhone"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsDemoAccountName           AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "demoAccountName"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsDemoAccountPassword       AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "demoAccountPassword"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsDemoAccountRequired       AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "demoAccountRequired"
+	AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsNotes                     AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails = "notes"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails enum.
+func (e AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails) Valid() bool {
+	switch e {
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsAppStoreReviewAttachments:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsAppStoreVersion:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactEmail:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactFirstName:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactLastName:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsContactPhone:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsDemoAccountName:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsDemoAccountPassword:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsDemoAccountRequired:
+		return true
+	case AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetailsNotes:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreReviewAttachmentsGetInstanceParamsInclude.
+const (
+	AppStoreReviewAttachmentsGetInstanceParamsIncludeAppStoreReviewDetail AppStoreReviewAttachmentsGetInstanceParamsInclude = "appStoreReviewDetail"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreReviewAttachmentsGetInstanceParamsInclude enum.
+func (e AppStoreReviewAttachmentsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreReviewAttachmentsGetInstanceParamsIncludeAppStoreReviewDetail:
 		return true
 	default:
 		return false
@@ -15101,6 +15356,135 @@ func (e AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsA
 	case AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsAppStoreVersionPhasedReleasesStartDate:
 		return true
 	case AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsAppStoreVersionPhasedReleasesTotalPauseDuration:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages.
+const (
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesAppStoreVersion    AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages = "appStoreVersion"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesAssetDeliveryState AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages = "assetDeliveryState"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesFileName           AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages = "fileName"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesFileSize           AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages = "fileSize"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesSourceFileChecksum AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages = "sourceFileChecksum"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesUploadOperations   AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages enum.
+func (e AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages) Valid() bool {
+	switch e {
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesAppStoreVersion:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesAssetDeliveryState:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesFileName:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesFileSize:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesSourceFileChecksum:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions.
+const (
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "alternativeDistributionPackage"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsApp                            AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "app"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience       AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appClipDefaultExperience"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail           AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreReviewDetail"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreState                  AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreState"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments     AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperiments"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2   AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperimentsV2"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations   AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionLocalizations"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease   AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionPhasedRelease"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission      AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionSubmission"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppVersionState                AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "appVersionState"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsBuild                          AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "build"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsCopyright                      AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "copyright"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsCreatedDate                    AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "createdDate"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsCustomerReviews                AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "customerReviews"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsDownloadable                   AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "downloadable"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate            AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "earliestReleaseDate"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion           AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "gameCenterAppVersion"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsPlatform                       AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "platform"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsReleaseType                    AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "releaseType"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsReviewType                     AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "reviewType"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage             AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "routingAppCoverage"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsUsesIdfa                       AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "usesIdfa"
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsVersionString                  AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions = "versionString"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions enum.
+func (e AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions) Valid() bool {
+	switch e {
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsApp:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreState:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsAppVersionState:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsBuild:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsCopyright:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsCreatedDate:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsCustomerReviews:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsDownloadable:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsPlatform:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsReleaseType:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsReviewType:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsUsesIdfa:
+		return true
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersionsVersionString:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsInclude.
+const (
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsIncludeAppStoreVersion AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsInclude = "appStoreVersion"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsInclude enum.
+func (e AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsIncludeAppStoreVersion:
 		return true
 	default:
 		return false
@@ -28526,6 +28910,135 @@ func (e ReviewSubmissionsGetCollectionParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages.
+const (
+	RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesAppStoreVersion    RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages = "appStoreVersion"
+	RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesAssetDeliveryState RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages = "assetDeliveryState"
+	RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesFileName           RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages = "fileName"
+	RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesFileSize           RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages = "fileSize"
+	RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesSourceFileChecksum RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages = "sourceFileChecksum"
+	RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesUploadOperations   RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages enum.
+func (e RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages) Valid() bool {
+	switch e {
+	case RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesAppStoreVersion:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesAssetDeliveryState:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesFileName:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesFileSize:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesSourceFileChecksum:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoveragesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions.
+const (
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAlternativeDistributionPackage RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "alternativeDistributionPackage"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsApp                            RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "app"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppClipDefaultExperience       RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appClipDefaultExperience"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreReviewDetail           RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appStoreReviewDetail"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreState                  RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appStoreState"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperiments     RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appStoreVersionExperiments"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2   RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appStoreVersionExperimentsV2"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionLocalizations   RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appStoreVersionLocalizations"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease   RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appStoreVersionPhasedRelease"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionSubmission      RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appStoreVersionSubmission"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppVersionState                RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "appVersionState"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsBuild                          RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "build"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsCopyright                      RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "copyright"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsCreatedDate                    RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "createdDate"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsCustomerReviews                RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "customerReviews"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsDownloadable                   RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "downloadable"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsEarliestReleaseDate            RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "earliestReleaseDate"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsGameCenterAppVersion           RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "gameCenterAppVersion"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsPlatform                       RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "platform"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsReleaseType                    RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "releaseType"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsReviewType                     RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "reviewType"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsRoutingAppCoverage             RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "routingAppCoverage"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsUsesIdfa                       RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "usesIdfa"
+	RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsVersionString                  RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions = "versionString"
+)
+
+// Valid indicates whether the value is a known member of the RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions enum.
+func (e RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions) Valid() bool {
+	switch e {
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAlternativeDistributionPackage:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsApp:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppClipDefaultExperience:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreReviewDetail:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreState:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperiments:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionLocalizations:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppStoreVersionSubmission:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsAppVersionState:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsBuild:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsCopyright:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsCreatedDate:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsCustomerReviews:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsDownloadable:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsEarliestReleaseDate:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsGameCenterAppVersion:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsPlatform:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsReleaseType:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsReviewType:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsRoutingAppCoverage:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsUsesIdfa:
+		return true
+	case RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersionsVersionString:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RoutingAppCoveragesGetInstanceParamsInclude.
+const (
+	RoutingAppCoveragesGetInstanceParamsIncludeAppStoreVersion RoutingAppCoveragesGetInstanceParamsInclude = "appStoreVersion"
+)
+
+// Valid indicates whether the value is a known member of the RoutingAppCoveragesGetInstanceParamsInclude enum.
+func (e RoutingAppCoveragesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case RoutingAppCoveragesGetInstanceParamsIncludeAppStoreVersion:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for TerritoriesGetCollectionParamsFieldsTerritories.
 const (
 	TerritoriesGetCollectionParamsFieldsTerritoriesCurrency TerritoriesGetCollectionParamsFieldsTerritories = "currency"
@@ -31807,6 +32320,52 @@ type AppEncryptionDeclarationDocument struct {
 // AppEncryptionDeclarationDocumentType defines model for AppEncryptionDeclarationDocument.Type.
 type AppEncryptionDeclarationDocumentType string
 
+// AppEncryptionDeclarationDocumentCreateRequest defines model for AppEncryptionDeclarationDocumentCreateRequest.
+type AppEncryptionDeclarationDocumentCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppEncryptionDeclaration struct {
+				Data struct {
+					Id   string                                                                                         `json:"id"`
+					Type AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appEncryptionDeclaration"`
+		} `json:"relationships"`
+		Type AppEncryptionDeclarationDocumentCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataType defines model for AppEncryptionDeclarationDocumentCreateRequest.Data.Relationships.AppEncryptionDeclaration.Data.Type.
+type AppEncryptionDeclarationDocumentCreateRequestDataRelationshipsAppEncryptionDeclarationDataType string
+
+// AppEncryptionDeclarationDocumentCreateRequestDataType defines model for AppEncryptionDeclarationDocumentCreateRequest.Data.Type.
+type AppEncryptionDeclarationDocumentCreateRequestDataType string
+
+// AppEncryptionDeclarationDocumentResponse defines model for AppEncryptionDeclarationDocumentResponse.
+type AppEncryptionDeclarationDocumentResponse struct {
+	Data  AppEncryptionDeclarationDocument `json:"data"`
+	Links DocumentLinks                    `json:"links"`
+}
+
+// AppEncryptionDeclarationDocumentUpdateRequest defines model for AppEncryptionDeclarationDocumentUpdateRequest.
+type AppEncryptionDeclarationDocumentUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			SourceFileChecksum *string `json:"sourceFileChecksum,omitempty"`
+			Uploaded           *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                `json:"id"`
+		Type AppEncryptionDeclarationDocumentUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppEncryptionDeclarationDocumentUpdateRequestDataType defines model for AppEncryptionDeclarationDocumentUpdateRequest.Data.Type.
+type AppEncryptionDeclarationDocumentUpdateRequestDataType string
+
 // AppEncryptionDeclarationResponse defines model for AppEncryptionDeclarationResponse.
 type AppEncryptionDeclarationResponse struct {
 	Data     AppEncryptionDeclaration                          `json:"data"`
@@ -32971,6 +33530,53 @@ type AppStoreReviewAttachmentRelationshipsAppStoreReviewDetailDataType string
 
 // AppStoreReviewAttachmentType defines model for AppStoreReviewAttachment.Type.
 type AppStoreReviewAttachmentType string
+
+// AppStoreReviewAttachmentCreateRequest defines model for AppStoreReviewAttachmentCreateRequest.
+type AppStoreReviewAttachmentCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppStoreReviewDetail struct {
+				Data struct {
+					Id   string                                                                             `json:"id"`
+					Type AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appStoreReviewDetail"`
+		} `json:"relationships"`
+		Type AppStoreReviewAttachmentCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataType defines model for AppStoreReviewAttachmentCreateRequest.Data.Relationships.AppStoreReviewDetail.Data.Type.
+type AppStoreReviewAttachmentCreateRequestDataRelationshipsAppStoreReviewDetailDataType string
+
+// AppStoreReviewAttachmentCreateRequestDataType defines model for AppStoreReviewAttachmentCreateRequest.Data.Type.
+type AppStoreReviewAttachmentCreateRequestDataType string
+
+// AppStoreReviewAttachmentResponse defines model for AppStoreReviewAttachmentResponse.
+type AppStoreReviewAttachmentResponse struct {
+	Data     AppStoreReviewAttachment `json:"data"`
+	Included *[]AppStoreReviewDetail  `json:"included,omitempty"`
+	Links    DocumentLinks            `json:"links"`
+}
+
+// AppStoreReviewAttachmentUpdateRequest defines model for AppStoreReviewAttachmentUpdateRequest.
+type AppStoreReviewAttachmentUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			SourceFileChecksum *string `json:"sourceFileChecksum,omitempty"`
+			Uploaded           *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                        `json:"id"`
+		Type AppStoreReviewAttachmentUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreReviewAttachmentUpdateRequestDataType defines model for AppStoreReviewAttachmentUpdateRequest.Data.Type.
+type AppStoreReviewAttachmentUpdateRequestDataType string
 
 // AppStoreReviewDetail defines model for AppStoreReviewDetail.
 type AppStoreReviewDetail struct {
@@ -37869,6 +38475,53 @@ type RoutingAppCoverageRelationshipsAppStoreVersionDataType string
 // RoutingAppCoverageType defines model for RoutingAppCoverage.Type.
 type RoutingAppCoverageType string
 
+// RoutingAppCoverageCreateRequest defines model for RoutingAppCoverageCreateRequest.
+type RoutingAppCoverageCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppStoreVersion struct {
+				Data struct {
+					Id   string                                                                  `json:"id"`
+					Type RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appStoreVersion"`
+		} `json:"relationships"`
+		Type RoutingAppCoverageCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataType defines model for RoutingAppCoverageCreateRequest.Data.Relationships.AppStoreVersion.Data.Type.
+type RoutingAppCoverageCreateRequestDataRelationshipsAppStoreVersionDataType string
+
+// RoutingAppCoverageCreateRequestDataType defines model for RoutingAppCoverageCreateRequest.Data.Type.
+type RoutingAppCoverageCreateRequestDataType string
+
+// RoutingAppCoverageResponse defines model for RoutingAppCoverageResponse.
+type RoutingAppCoverageResponse struct {
+	Data     RoutingAppCoverage `json:"data"`
+	Included *[]AppStoreVersion `json:"included,omitempty"`
+	Links    DocumentLinks      `json:"links"`
+}
+
+// RoutingAppCoverageUpdateRequest defines model for RoutingAppCoverageUpdateRequest.
+type RoutingAppCoverageUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			SourceFileChecksum *string `json:"sourceFileChecksum,omitempty"`
+			Uploaded           *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                  `json:"id"`
+		Type RoutingAppCoverageUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// RoutingAppCoverageUpdateRequestDataType defines model for RoutingAppCoverageUpdateRequest.Data.Type.
+type RoutingAppCoverageUpdateRequestDataType string
+
 // ScreenshotDisplayType defines model for ScreenshotDisplayType.
 type ScreenshotDisplayType string
 
@@ -38629,6 +39282,15 @@ type AppCategoriesGetCollectionParamsFieldsAppCategories string
 // AppCategoriesGetCollectionParamsInclude defines parameters for AppCategoriesGetCollection.
 type AppCategoriesGetCollectionParamsInclude string
 
+// AppEncryptionDeclarationDocumentsGetInstanceParams defines parameters for AppEncryptionDeclarationDocumentsGetInstance.
+type AppEncryptionDeclarationDocumentsGetInstanceParams struct {
+	// FieldsAppEncryptionDeclarationDocuments the fields to include for returned resources of type appEncryptionDeclarationDocuments
+	FieldsAppEncryptionDeclarationDocuments *[]AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments `form:"fields[appEncryptionDeclarationDocuments],omitempty" json:"fields[appEncryptionDeclarationDocuments],omitempty"`
+}
+
+// AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments defines parameters for AppEncryptionDeclarationDocumentsGetInstance.
+type AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments string
+
 // AppEncryptionDeclarationsGetInstanceParams defines parameters for AppEncryptionDeclarationsGetInstance.
 type AppEncryptionDeclarationsGetInstanceParams struct {
 	// FieldsAppEncryptionDeclarations the fields to include for returned resources of type appEncryptionDeclarations
@@ -38882,6 +39544,27 @@ type AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsFieldsAppScreenshotSet
 
 // AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude defines parameters for AppScreenshotSetsAppScreenshotsGetToManyRelated.
 type AppScreenshotSetsAppScreenshotsGetToManyRelatedParamsInclude string
+
+// AppStoreReviewAttachmentsGetInstanceParams defines parameters for AppStoreReviewAttachmentsGetInstance.
+type AppStoreReviewAttachmentsGetInstanceParams struct {
+	// FieldsAppStoreReviewAttachments the fields to include for returned resources of type appStoreReviewAttachments
+	FieldsAppStoreReviewAttachments *[]AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments `form:"fields[appStoreReviewAttachments],omitempty" json:"fields[appStoreReviewAttachments],omitempty"`
+
+	// FieldsAppStoreReviewDetails the fields to include for returned resources of type appStoreReviewDetails
+	FieldsAppStoreReviewDetails *[]AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails `form:"fields[appStoreReviewDetails],omitempty" json:"fields[appStoreReviewDetails],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreReviewAttachmentsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments defines parameters for AppStoreReviewAttachmentsGetInstance.
+type AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewAttachments string
+
+// AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails defines parameters for AppStoreReviewAttachmentsGetInstance.
+type AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails string
+
+// AppStoreReviewAttachmentsGetInstanceParamsInclude defines parameters for AppStoreReviewAttachmentsGetInstance.
+type AppStoreReviewAttachmentsGetInstanceParamsInclude string
 
 // AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
 type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams struct {
@@ -39202,6 +39885,27 @@ type AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParams struct {
 
 // AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsAppStoreVersionPhasedReleases defines parameters for AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated.
 type AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsAppStoreVersionPhasedReleases string
+
+// AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams defines parameters for AppStoreVersionsRoutingAppCoverageGetToOneRelated.
+type AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams struct {
+	// FieldsRoutingAppCoverages the fields to include for returned resources of type routingAppCoverages
+	FieldsRoutingAppCoverages *[]AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages `form:"fields[routingAppCoverages],omitempty" json:"fields[routingAppCoverages],omitempty"`
+
+	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
+	FieldsAppStoreVersions *[]AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions `form:"fields[appStoreVersions],omitempty" json:"fields[appStoreVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages defines parameters for AppStoreVersionsRoutingAppCoverageGetToOneRelated.
+type AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages string
+
+// AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions defines parameters for AppStoreVersionsRoutingAppCoverageGetToOneRelated.
+type AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsAppStoreVersions string
+
+// AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsInclude defines parameters for AppStoreVersionsRoutingAppCoverageGetToOneRelated.
+type AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsInclude string
 
 // AppsGetCollectionParams defines parameters for AppsGetCollection.
 type AppsGetCollectionParams struct {
@@ -41541,6 +42245,27 @@ type ReviewSubmissionsGetCollectionParamsFieldsActors string
 // ReviewSubmissionsGetCollectionParamsInclude defines parameters for ReviewSubmissionsGetCollection.
 type ReviewSubmissionsGetCollectionParamsInclude string
 
+// RoutingAppCoveragesGetInstanceParams defines parameters for RoutingAppCoveragesGetInstance.
+type RoutingAppCoveragesGetInstanceParams struct {
+	// FieldsRoutingAppCoverages the fields to include for returned resources of type routingAppCoverages
+	FieldsRoutingAppCoverages *[]RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages `form:"fields[routingAppCoverages],omitempty" json:"fields[routingAppCoverages],omitempty"`
+
+	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
+	FieldsAppStoreVersions *[]RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions `form:"fields[appStoreVersions],omitempty" json:"fields[appStoreVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]RoutingAppCoveragesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages defines parameters for RoutingAppCoveragesGetInstance.
+type RoutingAppCoveragesGetInstanceParamsFieldsRoutingAppCoverages string
+
+// RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions defines parameters for RoutingAppCoveragesGetInstance.
+type RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions string
+
+// RoutingAppCoveragesGetInstanceParamsInclude defines parameters for RoutingAppCoveragesGetInstance.
+type RoutingAppCoveragesGetInstanceParamsInclude string
+
 // TerritoriesGetCollectionParams defines parameters for TerritoriesGetCollection.
 type TerritoriesGetCollectionParams struct {
 	// FieldsTerritories the fields to include for returned resources of type territories
@@ -41802,6 +42527,12 @@ type AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody = AndroidToIosAp
 // AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody defines body for AndroidToIosAppMappingDetailsUpdateInstance for application/json ContentType.
 type AndroidToIosAppMappingDetailsUpdateInstanceJSONRequestBody = AndroidToIosAppMappingDetailUpdateRequest
 
+// AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody defines body for AppEncryptionDeclarationDocumentsCreateInstance for application/json ContentType.
+type AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody = AppEncryptionDeclarationDocumentCreateRequest
+
+// AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody defines body for AppEncryptionDeclarationDocumentsUpdateInstance for application/json ContentType.
+type AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody = AppEncryptionDeclarationDocumentUpdateRequest
+
 // AppEncryptionDeclarationsCreateInstanceJSONRequestBody defines body for AppEncryptionDeclarationsCreateInstance for application/json ContentType.
 type AppEncryptionDeclarationsCreateInstanceJSONRequestBody = AppEncryptionDeclarationCreateRequest
 
@@ -41840,6 +42571,12 @@ type AppScreenshotsCreateInstanceJSONRequestBody = AppScreenshotCreateRequest
 
 // AppScreenshotsUpdateInstanceJSONRequestBody defines body for AppScreenshotsUpdateInstance for application/json ContentType.
 type AppScreenshotsUpdateInstanceJSONRequestBody = AppScreenshotUpdateRequest
+
+// AppStoreReviewAttachmentsCreateInstanceJSONRequestBody defines body for AppStoreReviewAttachmentsCreateInstance for application/json ContentType.
+type AppStoreReviewAttachmentsCreateInstanceJSONRequestBody = AppStoreReviewAttachmentCreateRequest
+
+// AppStoreReviewAttachmentsUpdateInstanceJSONRequestBody defines body for AppStoreReviewAttachmentsUpdateInstance for application/json ContentType.
+type AppStoreReviewAttachmentsUpdateInstanceJSONRequestBody = AppStoreReviewAttachmentUpdateRequest
 
 // AppStoreReviewDetailsCreateInstanceJSONRequestBody defines body for AppStoreReviewDetailsCreateInstance for application/json ContentType.
 type AppStoreReviewDetailsCreateInstanceJSONRequestBody = AppStoreReviewDetailCreateRequest
@@ -42017,6 +42754,12 @@ type ReviewSubmissionsCreateInstanceJSONRequestBody = ReviewSubmissionCreateRequ
 
 // ReviewSubmissionsUpdateInstanceJSONRequestBody defines body for ReviewSubmissionsUpdateInstance for application/json ContentType.
 type ReviewSubmissionsUpdateInstanceJSONRequestBody = ReviewSubmissionUpdateRequest
+
+// RoutingAppCoveragesCreateInstanceJSONRequestBody defines body for RoutingAppCoveragesCreateInstance for application/json ContentType.
+type RoutingAppCoveragesCreateInstanceJSONRequestBody = RoutingAppCoverageCreateRequest
+
+// RoutingAppCoveragesUpdateInstanceJSONRequestBody defines body for RoutingAppCoveragesUpdateInstance for application/json ContentType.
+type RoutingAppCoveragesUpdateInstanceJSONRequestBody = RoutingAppCoverageUpdateRequest
 
 // TerritoryAvailabilitiesUpdateInstanceJSONRequestBody defines body for TerritoryAvailabilitiesUpdateInstance for application/json ContentType.
 type TerritoryAvailabilitiesUpdateInstanceJSONRequestBody = TerritoryAvailabilityUpdateRequest
@@ -51364,6 +52107,25 @@ type ClientInterface interface {
 	// AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 	AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppEncryptionDeclarationDocumentsCreateInstanceWithBody performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppEncryptionDeclarationDocumentsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEncryptionDeclarationDocumentsCreateInstance performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppEncryptionDeclarationDocumentsCreateInstance(ctx context.Context, body AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEncryptionDeclarationDocumentsGetInstance performs a GET /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsGetInstance` operationId) request.
+	AppEncryptionDeclarationDocumentsGetInstance(ctx context.Context, id string, params *AppEncryptionDeclarationDocumentsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEncryptionDeclarationDocumentsUpdateInstanceWithBody performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppEncryptionDeclarationDocumentsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEncryptionDeclarationDocumentsUpdateInstance performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppEncryptionDeclarationDocumentsUpdateInstance(ctx context.Context, id string, body AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppEncryptionDeclarationsCreateInstanceWithBody performs a POST /v1/appEncryptionDeclarations (the `AppEncryptionDeclarationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppEncryptionDeclarationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -51510,6 +52272,28 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppScreenshotsUpdateInstance(ctx context.Context, id string, body AppScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppStoreReviewAttachmentsCreateInstanceWithBody performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreReviewAttachmentsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreReviewAttachmentsCreateInstance performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreReviewAttachmentsCreateInstance(ctx context.Context, body AppStoreReviewAttachmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreReviewAttachmentsDeleteInstance performs a DELETE /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsDeleteInstance` operationId) request.
+	AppStoreReviewAttachmentsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreReviewAttachmentsGetInstance performs a GET /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsGetInstance` operationId) request.
+	AppStoreReviewAttachmentsGetInstance(ctx context.Context, id string, params *AppStoreReviewAttachmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreReviewAttachmentsUpdateInstanceWithBody performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreReviewAttachmentsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreReviewAttachmentsUpdateInstance performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreReviewAttachmentsUpdateInstance(ctx context.Context, id string, body AppStoreReviewAttachmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppStoreReviewDetailsCreateInstanceWithBody performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppStoreReviewDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -51638,6 +52422,9 @@ type ClientInterface interface {
 	// AppStoreVersionsBuildUpdateToOneRelationship performs a PATCH /v1/appStoreVersions/{id}/relationships/build (the `AppStoreVersionsBuildUpdateToOneRelationship` operationId) request.
 	// Takes a body of the `application/json` content type.
 	AppStoreVersionsBuildUpdateToOneRelationship(ctx context.Context, id string, body AppStoreVersionsBuildUpdateToOneRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionsRoutingAppCoverageGetToOneRelated performs a GET /v1/appStoreVersions/{id}/routingAppCoverage (the `AppStoreVersionsRoutingAppCoverageGetToOneRelated` operationId) request.
+	AppStoreVersionsRoutingAppCoverageGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppTagsUpdateInstanceWithBody performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -52204,6 +52991,28 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	ReviewSubmissionsUpdateInstance(ctx context.Context, id string, body ReviewSubmissionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// RoutingAppCoveragesCreateInstanceWithBody performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RoutingAppCoveragesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RoutingAppCoveragesCreateInstance performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RoutingAppCoveragesCreateInstance(ctx context.Context, body RoutingAppCoveragesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RoutingAppCoveragesDeleteInstance performs a DELETE /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesDeleteInstance` operationId) request.
+	RoutingAppCoveragesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RoutingAppCoveragesGetInstance performs a GET /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesGetInstance` operationId) request.
+	RoutingAppCoveragesGetInstance(ctx context.Context, id string, params *RoutingAppCoveragesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RoutingAppCoveragesUpdateInstanceWithBody performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RoutingAppCoveragesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RoutingAppCoveragesUpdateInstance performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RoutingAppCoveragesUpdateInstance(ctx context.Context, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// TerritoriesGetCollection performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
 	TerritoriesGetCollection(ctx context.Context, params *TerritoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -52516,6 +53325,75 @@ func (c *Client) AndroidToIosAppMappingDetailsUpdateInstance(ctx context.Context
 // AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 func (c *Client) AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppCategoriesGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEncryptionDeclarationDocumentsCreateInstanceWithBody performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppEncryptionDeclarationDocumentsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEncryptionDeclarationDocumentsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEncryptionDeclarationDocumentsCreateInstance performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppEncryptionDeclarationDocumentsCreateInstance(ctx context.Context, body AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEncryptionDeclarationDocumentsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEncryptionDeclarationDocumentsGetInstance performs a GET /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsGetInstance` operationId) request.
+func (c *Client) AppEncryptionDeclarationDocumentsGetInstance(ctx context.Context, id string, params *AppEncryptionDeclarationDocumentsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEncryptionDeclarationDocumentsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEncryptionDeclarationDocumentsUpdateInstanceWithBody performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppEncryptionDeclarationDocumentsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEncryptionDeclarationDocumentsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEncryptionDeclarationDocumentsUpdateInstance performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppEncryptionDeclarationDocumentsUpdateInstance(ctx context.Context, id string, body AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEncryptionDeclarationDocumentsUpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -53072,6 +53950,88 @@ func (c *Client) AppScreenshotsUpdateInstance(ctx context.Context, id string, bo
 	return c.Client.Do(req)
 }
 
+// AppStoreReviewAttachmentsCreateInstanceWithBody performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreReviewAttachmentsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreReviewAttachmentsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreReviewAttachmentsCreateInstance performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreReviewAttachmentsCreateInstance(ctx context.Context, body AppStoreReviewAttachmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreReviewAttachmentsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreReviewAttachmentsDeleteInstance performs a DELETE /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsDeleteInstance` operationId) request.
+func (c *Client) AppStoreReviewAttachmentsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreReviewAttachmentsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreReviewAttachmentsGetInstance performs a GET /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsGetInstance` operationId) request.
+func (c *Client) AppStoreReviewAttachmentsGetInstance(ctx context.Context, id string, params *AppStoreReviewAttachmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreReviewAttachmentsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreReviewAttachmentsUpdateInstanceWithBody performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreReviewAttachmentsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreReviewAttachmentsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreReviewAttachmentsUpdateInstance performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreReviewAttachmentsUpdateInstance(ctx context.Context, id string, body AppStoreReviewAttachmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreReviewAttachmentsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppStoreReviewDetailsCreateInstanceWithBody performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) AppStoreReviewDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -53541,6 +54501,19 @@ func (c *Client) AppStoreVersionsBuildUpdateToOneRelationshipWithBody(ctx contex
 // Takes a body of the `application/json` content type.
 func (c *Client) AppStoreVersionsBuildUpdateToOneRelationship(ctx context.Context, id string, body AppStoreVersionsBuildUpdateToOneRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionsBuildUpdateToOneRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionsRoutingAppCoverageGetToOneRelated performs a GET /v1/appStoreVersions/{id}/routingAppCoverage (the `AppStoreVersionsRoutingAppCoverageGetToOneRelated` operationId) request.
+func (c *Client) AppStoreVersionsRoutingAppCoverageGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionsRoutingAppCoverageGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -55686,6 +56659,88 @@ func (c *Client) ReviewSubmissionsUpdateInstance(ctx context.Context, id string,
 	return c.Client.Do(req)
 }
 
+// RoutingAppCoveragesCreateInstanceWithBody performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RoutingAppCoveragesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRoutingAppCoveragesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RoutingAppCoveragesCreateInstance performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RoutingAppCoveragesCreateInstance(ctx context.Context, body RoutingAppCoveragesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRoutingAppCoveragesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RoutingAppCoveragesDeleteInstance performs a DELETE /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesDeleteInstance` operationId) request.
+func (c *Client) RoutingAppCoveragesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRoutingAppCoveragesDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RoutingAppCoveragesGetInstance performs a GET /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesGetInstance` operationId) request.
+func (c *Client) RoutingAppCoveragesGetInstance(ctx context.Context, id string, params *RoutingAppCoveragesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRoutingAppCoveragesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RoutingAppCoveragesUpdateInstanceWithBody performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RoutingAppCoveragesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRoutingAppCoveragesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RoutingAppCoveragesUpdateInstance performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RoutingAppCoveragesUpdateInstance(ctx context.Context, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRoutingAppCoveragesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // TerritoriesGetCollection performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
 func (c *Client) TerritoriesGetCollection(ctx context.Context, params *TerritoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewTerritoriesGetCollectionRequest(c.Server, params)
@@ -56643,6 +57698,154 @@ func NewAppCategoriesGetCollectionRequest(server string, params *AppCategoriesGe
 	if err != nil {
 		return nil, err
 	}
+
+	return req, nil
+}
+
+// NewAppEncryptionDeclarationDocumentsCreateInstanceRequest calls the generic AppEncryptionDeclarationDocumentsCreateInstance builder with application/json body
+func NewAppEncryptionDeclarationDocumentsCreateInstanceRequest(server string, body AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppEncryptionDeclarationDocumentsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppEncryptionDeclarationDocumentsCreateInstanceRequestWithBody constructs an http.Request for the AppEncryptionDeclarationDocumentsCreateInstance method, with any body, and a specified content type
+func NewAppEncryptionDeclarationDocumentsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEncryptionDeclarationDocuments")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppEncryptionDeclarationDocumentsGetInstanceRequest constructs an http.Request for the AppEncryptionDeclarationDocumentsGetInstance method
+func NewAppEncryptionDeclarationDocumentsGetInstanceRequest(server string, id string, params *AppEncryptionDeclarationDocumentsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEncryptionDeclarationDocuments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppEncryptionDeclarationDocuments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEncryptionDeclarationDocuments]", *params.FieldsAppEncryptionDeclarationDocuments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppEncryptionDeclarationDocumentsUpdateInstanceRequest calls the generic AppEncryptionDeclarationDocumentsUpdateInstance builder with application/json body
+func NewAppEncryptionDeclarationDocumentsUpdateInstanceRequest(server string, id string, body AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppEncryptionDeclarationDocumentsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppEncryptionDeclarationDocumentsUpdateInstanceRequestWithBody constructs an http.Request for the AppEncryptionDeclarationDocumentsUpdateInstance method, with any body, and a specified content type
+func NewAppEncryptionDeclarationDocumentsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEncryptionDeclarationDocuments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
 
 	return req, nil
 }
@@ -58317,6 +59520,212 @@ func NewAppScreenshotsUpdateInstanceRequestWithBody(server string, id string, co
 	}
 
 	operationPath := fmt.Sprintf("/v1/appScreenshots/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreReviewAttachmentsCreateInstanceRequest calls the generic AppStoreReviewAttachmentsCreateInstance builder with application/json body
+func NewAppStoreReviewAttachmentsCreateInstanceRequest(server string, body AppStoreReviewAttachmentsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreReviewAttachmentsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppStoreReviewAttachmentsCreateInstanceRequestWithBody constructs an http.Request for the AppStoreReviewAttachmentsCreateInstance method, with any body, and a specified content type
+func NewAppStoreReviewAttachmentsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreReviewAttachments")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreReviewAttachmentsDeleteInstanceRequest constructs an http.Request for the AppStoreReviewAttachmentsDeleteInstance method
+func NewAppStoreReviewAttachmentsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreReviewAttachments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreReviewAttachmentsGetInstanceRequest constructs an http.Request for the AppStoreReviewAttachmentsGetInstance method
+func NewAppStoreReviewAttachmentsGetInstanceRequest(server string, id string, params *AppStoreReviewAttachmentsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreReviewAttachments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppStoreReviewAttachments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreReviewAttachments]", *params.FieldsAppStoreReviewAttachments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreReviewDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreReviewDetails]", *params.FieldsAppStoreReviewDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreReviewAttachmentsUpdateInstanceRequest calls the generic AppStoreReviewAttachmentsUpdateInstance builder with application/json body
+func NewAppStoreReviewAttachmentsUpdateInstanceRequest(server string, id string, body AppStoreReviewAttachmentsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreReviewAttachmentsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppStoreReviewAttachmentsUpdateInstanceRequestWithBody constructs an http.Request for the AppStoreReviewAttachmentsUpdateInstance method, with any body, and a specified content type
+func NewAppStoreReviewAttachmentsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreReviewAttachments/%s", pathParam0)
 	if operationPath[0] == '/' {
 		operationPath = "." + operationPath
 	}
@@ -60072,6 +61481,91 @@ func NewAppStoreVersionsBuildUpdateToOneRelationshipRequestWithBody(server strin
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionsRoutingAppCoverageGetToOneRelatedRequest constructs an http.Request for the AppStoreVersionsRoutingAppCoverageGetToOneRelated method
+func NewAppStoreVersionsRoutingAppCoverageGetToOneRelatedRequest(server string, id string, params *AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersions/%s/routingAppCoverage", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRoutingAppCoverages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[routingAppCoverages]", *params.FieldsRoutingAppCoverages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersions]", *params.FieldsAppStoreVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -70384,6 +71878,212 @@ func NewReviewSubmissionsUpdateInstanceRequestWithBody(server string, id string,
 	return req, nil
 }
 
+// NewRoutingAppCoveragesCreateInstanceRequest calls the generic RoutingAppCoveragesCreateInstance builder with application/json body
+func NewRoutingAppCoveragesCreateInstanceRequest(server string, body RoutingAppCoveragesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRoutingAppCoveragesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewRoutingAppCoveragesCreateInstanceRequestWithBody constructs an http.Request for the RoutingAppCoveragesCreateInstance method, with any body, and a specified content type
+func NewRoutingAppCoveragesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/routingAppCoverages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewRoutingAppCoveragesDeleteInstanceRequest constructs an http.Request for the RoutingAppCoveragesDeleteInstance method
+func NewRoutingAppCoveragesDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/routingAppCoverages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRoutingAppCoveragesGetInstanceRequest constructs an http.Request for the RoutingAppCoveragesGetInstance method
+func NewRoutingAppCoveragesGetInstanceRequest(server string, id string, params *RoutingAppCoveragesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/routingAppCoverages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRoutingAppCoverages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[routingAppCoverages]", *params.FieldsRoutingAppCoverages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersions]", *params.FieldsAppStoreVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRoutingAppCoveragesUpdateInstanceRequest calls the generic RoutingAppCoveragesUpdateInstance builder with application/json body
+func NewRoutingAppCoveragesUpdateInstanceRequest(server string, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRoutingAppCoveragesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewRoutingAppCoveragesUpdateInstanceRequestWithBody constructs an http.Request for the RoutingAppCoveragesUpdateInstance method, with any body, and a specified content type
+func NewRoutingAppCoveragesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/routingAppCoverages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewTerritoriesGetCollectionRequest constructs an http.Request for the TerritoriesGetCollection method
 func NewTerritoriesGetCollectionRequest(server string, params *TerritoriesGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -72000,6 +73700,31 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppCategoriesGetCollectionWithResponse(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*AppCategoriesGetCollectionResponse, error)
 
+	// AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsCreateInstanceResponse, error)
+
+	// AppEncryptionDeclarationDocumentsCreateInstanceWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppEncryptionDeclarationDocumentsCreateInstanceWithResponse(ctx context.Context, body AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsCreateInstanceResponse, error)
+
+	// AppEncryptionDeclarationDocumentsGetInstanceWithResponse performs a GET /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEncryptionDeclarationDocumentsGetInstanceWithResponse(ctx context.Context, id string, params *AppEncryptionDeclarationDocumentsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsGetInstanceResponse, error)
+
+	// AppEncryptionDeclarationDocumentsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEncryptionDeclarationDocumentsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsUpdateInstanceResponse, error)
+
+	// AppEncryptionDeclarationDocumentsUpdateInstanceWithResponse performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppEncryptionDeclarationDocumentsUpdateInstanceWithResponse(ctx context.Context, id string, body AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsUpdateInstanceResponse, error)
+
 	// AppEncryptionDeclarationsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarations (the `AppEncryptionDeclarationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -72200,6 +73925,36 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppScreenshotsUpdateInstanceWithResponse(ctx context.Context, id string, body AppScreenshotsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppScreenshotsUpdateInstanceResponse, error)
 
+	// AppStoreReviewAttachmentsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreReviewAttachmentsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsCreateInstanceResponse, error)
+
+	// AppStoreReviewAttachmentsCreateInstanceWithResponse performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreReviewAttachmentsCreateInstanceWithResponse(ctx context.Context, body AppStoreReviewAttachmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsCreateInstanceResponse, error)
+
+	// AppStoreReviewAttachmentsDeleteInstanceWithResponse performs a DELETE /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreReviewAttachmentsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsDeleteInstanceResponse, error)
+
+	// AppStoreReviewAttachmentsGetInstanceWithResponse performs a GET /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreReviewAttachmentsGetInstanceWithResponse(ctx context.Context, id string, params *AppStoreReviewAttachmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsGetInstanceResponse, error)
+
+	// AppStoreReviewAttachmentsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreReviewAttachmentsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsUpdateInstanceResponse, error)
+
+	// AppStoreReviewAttachmentsUpdateInstanceWithResponse performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreReviewAttachmentsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreReviewAttachmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsUpdateInstanceResponse, error)
+
 	// AppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -72374,6 +74129,11 @@ type ClientWithResponsesInterface interface {
 	// AppStoreVersionsBuildUpdateToOneRelationshipWithResponse performs a PATCH /v1/appStoreVersions/{id}/relationships/build (the `AppStoreVersionsBuildUpdateToOneRelationship` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreVersionsBuildUpdateToOneRelationshipWithResponse(ctx context.Context, id string, body AppStoreVersionsBuildUpdateToOneRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionsBuildUpdateToOneRelationshipResponse, error)
+
+	// AppStoreVersionsRoutingAppCoverageGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/routingAppCoverage (the `AppStoreVersionsRoutingAppCoverageGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionsRoutingAppCoverageGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse, error)
 
 	// AppTagsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -73159,6 +74919,36 @@ type ClientWithResponsesInterface interface {
 	// ReviewSubmissionsUpdateInstanceWithResponse performs a PATCH /v1/reviewSubmissions/{id} (the `ReviewSubmissionsUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	ReviewSubmissionsUpdateInstanceWithResponse(ctx context.Context, id string, body ReviewSubmissionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*ReviewSubmissionsUpdateInstanceResponse, error)
+
+	// RoutingAppCoveragesCreateInstanceWithBodyWithResponse performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RoutingAppCoveragesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesCreateInstanceResponse, error)
+
+	// RoutingAppCoveragesCreateInstanceWithResponse performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RoutingAppCoveragesCreateInstanceWithResponse(ctx context.Context, body RoutingAppCoveragesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesCreateInstanceResponse, error)
+
+	// RoutingAppCoveragesDeleteInstanceWithResponse performs a DELETE /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RoutingAppCoveragesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesDeleteInstanceResponse, error)
+
+	// RoutingAppCoveragesGetInstanceWithResponse performs a GET /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RoutingAppCoveragesGetInstanceWithResponse(ctx context.Context, id string, params *RoutingAppCoveragesGetInstanceParams, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesGetInstanceResponse, error)
+
+	// RoutingAppCoveragesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RoutingAppCoveragesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesUpdateInstanceResponse, error)
+
+	// RoutingAppCoveragesUpdateInstanceWithResponse performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RoutingAppCoveragesUpdateInstanceWithResponse(ctx context.Context, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesUpdateInstanceResponse, error)
 
 	// TerritoriesGetCollectionWithResponse performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
 	//
@@ -74110,6 +75900,255 @@ func (r AppCategoriesGetCollectionResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppCategoriesGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEncryptionDeclarationDocumentsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppEncryptionDeclarationDocumentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetJSON201() *AppEncryptionDeclarationDocumentResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEncryptionDeclarationDocumentsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEncryptionDeclarationDocumentsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEncryptionDeclarationDocumentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) GetJSON200() *AppEncryptionDeclarationDocumentResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEncryptionDeclarationDocumentsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEncryptionDeclarationDocumentsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEncryptionDeclarationDocumentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON200() *AppEncryptionDeclarationDocumentResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEncryptionDeclarationDocumentsUpdateInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -76252,6 +78291,324 @@ func (r AppScreenshotsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type AppStoreReviewAttachmentsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppStoreReviewAttachmentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetJSON201() *AppStoreReviewAttachmentResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreReviewAttachmentsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreReviewAttachmentsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreReviewAttachmentsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreReviewAttachmentsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreReviewAttachmentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreReviewAttachmentsGetInstanceResponse) GetJSON200() *AppStoreReviewAttachmentResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreReviewAttachmentsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreReviewAttachmentsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreReviewAttachmentsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreReviewAttachmentsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreReviewAttachmentsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreReviewAttachmentsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreReviewAttachmentsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreReviewAttachmentsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreReviewAttachmentsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreReviewAttachmentsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreReviewAttachmentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON200() *AppStoreReviewAttachmentResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreReviewAttachmentsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppStoreReviewDetailsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -78085,6 +80442,82 @@ func (r AppStoreVersionsBuildUpdateToOneRelationshipResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppStoreVersionsBuildUpdateToOneRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RoutingAppCoverageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) GetJSON200() *RoutingAppCoverageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -86703,6 +89136,324 @@ func (r ReviewSubmissionsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type RoutingAppCoveragesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *RoutingAppCoverageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r RoutingAppCoveragesCreateInstanceResponse) GetJSON201() *RoutingAppCoverageResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RoutingAppCoveragesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RoutingAppCoveragesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RoutingAppCoveragesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RoutingAppCoveragesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RoutingAppCoveragesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RoutingAppCoveragesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RoutingAppCoveragesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RoutingAppCoveragesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RoutingAppCoveragesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RoutingAppCoveragesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RoutingAppCoveragesDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RoutingAppCoveragesDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RoutingAppCoveragesDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RoutingAppCoveragesDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RoutingAppCoveragesDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RoutingAppCoveragesDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RoutingAppCoveragesDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RoutingAppCoveragesDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RoutingAppCoveragesDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RoutingAppCoveragesDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RoutingAppCoveragesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RoutingAppCoverageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RoutingAppCoveragesGetInstanceResponse) GetJSON200() *RoutingAppCoverageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RoutingAppCoveragesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RoutingAppCoveragesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RoutingAppCoveragesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RoutingAppCoveragesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RoutingAppCoveragesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RoutingAppCoveragesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RoutingAppCoveragesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RoutingAppCoveragesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RoutingAppCoveragesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RoutingAppCoveragesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RoutingAppCoverageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON200() *RoutingAppCoverageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RoutingAppCoveragesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RoutingAppCoveragesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RoutingAppCoveragesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RoutingAppCoveragesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type TerritoriesGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -88589,6 +91340,61 @@ func (c *ClientWithResponses) AppCategoriesGetCollectionWithResponse(ctx context
 	return ParseAppCategoriesGetCollectionResponse(rsp)
 }
 
+// AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsCreateInstanceResponse, error) {
+	rsp, err := c.AppEncryptionDeclarationDocumentsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEncryptionDeclarationDocumentsCreateInstanceResponse(rsp)
+}
+
+// AppEncryptionDeclarationDocumentsCreateInstanceWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEncryptionDeclarationDocumentsCreateInstanceWithResponse(ctx context.Context, body AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsCreateInstanceResponse, error) {
+	rsp, err := c.AppEncryptionDeclarationDocumentsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEncryptionDeclarationDocumentsCreateInstanceResponse(rsp)
+}
+
+// AppEncryptionDeclarationDocumentsGetInstanceWithResponse performs a GET /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEncryptionDeclarationDocumentsGetInstanceWithResponse(ctx context.Context, id string, params *AppEncryptionDeclarationDocumentsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsGetInstanceResponse, error) {
+	rsp, err := c.AppEncryptionDeclarationDocumentsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEncryptionDeclarationDocumentsGetInstanceResponse(rsp)
+}
+
+// AppEncryptionDeclarationDocumentsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEncryptionDeclarationDocumentsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsUpdateInstanceResponse, error) {
+	rsp, err := c.AppEncryptionDeclarationDocumentsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEncryptionDeclarationDocumentsUpdateInstanceResponse(rsp)
+}
+
+// AppEncryptionDeclarationDocumentsUpdateInstanceWithResponse performs a PATCH /v1/appEncryptionDeclarationDocuments/{id} (the `AppEncryptionDeclarationDocumentsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEncryptionDeclarationDocumentsUpdateInstanceWithResponse(ctx context.Context, id string, body AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationDocumentsUpdateInstanceResponse, error) {
+	rsp, err := c.AppEncryptionDeclarationDocumentsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEncryptionDeclarationDocumentsUpdateInstanceResponse(rsp)
+}
+
 // AppEncryptionDeclarationsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarations (the `AppEncryptionDeclarationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -89029,6 +91835,72 @@ func (c *ClientWithResponses) AppScreenshotsUpdateInstanceWithResponse(ctx conte
 	return ParseAppScreenshotsUpdateInstanceResponse(rsp)
 }
 
+// AppStoreReviewAttachmentsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreReviewAttachmentsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreReviewAttachmentsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreReviewAttachmentsCreateInstanceResponse(rsp)
+}
+
+// AppStoreReviewAttachmentsCreateInstanceWithResponse performs a POST /v1/appStoreReviewAttachments (the `AppStoreReviewAttachmentsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreReviewAttachmentsCreateInstanceWithResponse(ctx context.Context, body AppStoreReviewAttachmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreReviewAttachmentsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreReviewAttachmentsCreateInstanceResponse(rsp)
+}
+
+// AppStoreReviewAttachmentsDeleteInstanceWithResponse performs a DELETE /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreReviewAttachmentsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsDeleteInstanceResponse, error) {
+	rsp, err := c.AppStoreReviewAttachmentsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreReviewAttachmentsDeleteInstanceResponse(rsp)
+}
+
+// AppStoreReviewAttachmentsGetInstanceWithResponse performs a GET /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreReviewAttachmentsGetInstanceWithResponse(ctx context.Context, id string, params *AppStoreReviewAttachmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsGetInstanceResponse, error) {
+	rsp, err := c.AppStoreReviewAttachmentsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreReviewAttachmentsGetInstanceResponse(rsp)
+}
+
+// AppStoreReviewAttachmentsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreReviewAttachmentsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsUpdateInstanceResponse, error) {
+	rsp, err := c.AppStoreReviewAttachmentsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreReviewAttachmentsUpdateInstanceResponse(rsp)
+}
+
+// AppStoreReviewAttachmentsUpdateInstanceWithResponse performs a PATCH /v1/appStoreReviewAttachments/{id} (the `AppStoreReviewAttachmentsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreReviewAttachmentsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreReviewAttachmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreReviewAttachmentsUpdateInstanceResponse, error) {
+	rsp, err := c.AppStoreReviewAttachmentsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreReviewAttachmentsUpdateInstanceResponse(rsp)
+}
+
 // AppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreReviewDetails (the `AppStoreReviewDetailsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -89412,6 +92284,17 @@ func (c *ClientWithResponses) AppStoreVersionsBuildUpdateToOneRelationshipWithRe
 		return nil, err
 	}
 	return ParseAppStoreVersionsBuildUpdateToOneRelationshipResponse(rsp)
+}
+
+// AppStoreVersionsRoutingAppCoverageGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/routingAppCoverage (the `AppStoreVersionsRoutingAppCoverageGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionsRoutingAppCoverageGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionsRoutingAppCoverageGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse(rsp)
 }
 
 // AppTagsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appTags/{id} (the `AppTagsUpdateInstance` operationId) request,
@@ -91141,6 +94024,72 @@ func (c *ClientWithResponses) ReviewSubmissionsUpdateInstanceWithResponse(ctx co
 	return ParseReviewSubmissionsUpdateInstanceResponse(rsp)
 }
 
+// RoutingAppCoveragesCreateInstanceWithBodyWithResponse performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RoutingAppCoveragesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesCreateInstanceResponse, error) {
+	rsp, err := c.RoutingAppCoveragesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRoutingAppCoveragesCreateInstanceResponse(rsp)
+}
+
+// RoutingAppCoveragesCreateInstanceWithResponse performs a POST /v1/routingAppCoverages (the `RoutingAppCoveragesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RoutingAppCoveragesCreateInstanceWithResponse(ctx context.Context, body RoutingAppCoveragesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesCreateInstanceResponse, error) {
+	rsp, err := c.RoutingAppCoveragesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRoutingAppCoveragesCreateInstanceResponse(rsp)
+}
+
+// RoutingAppCoveragesDeleteInstanceWithResponse performs a DELETE /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RoutingAppCoveragesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesDeleteInstanceResponse, error) {
+	rsp, err := c.RoutingAppCoveragesDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRoutingAppCoveragesDeleteInstanceResponse(rsp)
+}
+
+// RoutingAppCoveragesGetInstanceWithResponse performs a GET /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RoutingAppCoveragesGetInstanceWithResponse(ctx context.Context, id string, params *RoutingAppCoveragesGetInstanceParams, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesGetInstanceResponse, error) {
+	rsp, err := c.RoutingAppCoveragesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRoutingAppCoveragesGetInstanceResponse(rsp)
+}
+
+// RoutingAppCoveragesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RoutingAppCoveragesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesUpdateInstanceResponse, error) {
+	rsp, err := c.RoutingAppCoveragesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRoutingAppCoveragesUpdateInstanceResponse(rsp)
+}
+
+// RoutingAppCoveragesUpdateInstanceWithResponse performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RoutingAppCoveragesUpdateInstanceWithResponse(ctx context.Context, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesUpdateInstanceResponse, error) {
+	rsp, err := c.RoutingAppCoveragesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRoutingAppCoveragesUpdateInstanceResponse(rsp)
+}
+
 // TerritoriesGetCollectionWithResponse performs a GET /v1/territories (the `TerritoriesGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -92131,6 +95080,210 @@ func ParseAppCategoriesGetCollectionResponse(rsp *http.Response) (*AppCategories
 			return nil, err
 		}
 		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEncryptionDeclarationDocumentsCreateInstanceResponse parses an HTTP response from a AppEncryptionDeclarationDocumentsCreateInstanceWithResponse call
+func ParseAppEncryptionDeclarationDocumentsCreateInstanceResponse(rsp *http.Response) (*AppEncryptionDeclarationDocumentsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEncryptionDeclarationDocumentsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppEncryptionDeclarationDocumentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEncryptionDeclarationDocumentsGetInstanceResponse parses an HTTP response from a AppEncryptionDeclarationDocumentsGetInstanceWithResponse call
+func ParseAppEncryptionDeclarationDocumentsGetInstanceResponse(rsp *http.Response) (*AppEncryptionDeclarationDocumentsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEncryptionDeclarationDocumentsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEncryptionDeclarationDocumentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEncryptionDeclarationDocumentsUpdateInstanceResponse parses an HTTP response from a AppEncryptionDeclarationDocumentsUpdateInstanceWithResponse call
+func ParseAppEncryptionDeclarationDocumentsUpdateInstanceResponse(rsp *http.Response) (*AppEncryptionDeclarationDocumentsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEncryptionDeclarationDocumentsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEncryptionDeclarationDocumentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -93896,6 +97049,267 @@ func ParseAppScreenshotsUpdateInstanceResponse(rsp *http.Response) (*AppScreensh
 	return response, nil
 }
 
+// ParseAppStoreReviewAttachmentsCreateInstanceResponse parses an HTTP response from a AppStoreReviewAttachmentsCreateInstanceWithResponse call
+func ParseAppStoreReviewAttachmentsCreateInstanceResponse(rsp *http.Response) (*AppStoreReviewAttachmentsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreReviewAttachmentsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppStoreReviewAttachmentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreReviewAttachmentsDeleteInstanceResponse parses an HTTP response from a AppStoreReviewAttachmentsDeleteInstanceWithResponse call
+func ParseAppStoreReviewAttachmentsDeleteInstanceResponse(rsp *http.Response) (*AppStoreReviewAttachmentsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreReviewAttachmentsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreReviewAttachmentsGetInstanceResponse parses an HTTP response from a AppStoreReviewAttachmentsGetInstanceWithResponse call
+func ParseAppStoreReviewAttachmentsGetInstanceResponse(rsp *http.Response) (*AppStoreReviewAttachmentsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreReviewAttachmentsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreReviewAttachmentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreReviewAttachmentsUpdateInstanceResponse parses an HTTP response from a AppStoreReviewAttachmentsUpdateInstanceWithResponse call
+func ParseAppStoreReviewAttachmentsUpdateInstanceResponse(rsp *http.Response) (*AppStoreReviewAttachmentsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreReviewAttachmentsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreReviewAttachmentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppStoreReviewDetailsCreateInstanceResponse parses an HTTP response from a AppStoreReviewDetailsCreateInstanceWithResponse call
 func ParseAppStoreReviewDetailsCreateInstanceResponse(rsp *http.Response) (*AppStoreReviewDetailsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -95395,6 +98809,67 @@ func ParseAppStoreVersionsBuildUpdateToOneRelationshipResponse(rsp *http.Respons
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse parses an HTTP response from a AppStoreVersionsRoutingAppCoverageGetToOneRelatedWithResponse call
+func ParseAppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse(rsp *http.Response) (*AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionsRoutingAppCoverageGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RoutingAppCoverageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -102445,6 +105920,267 @@ func ParseReviewSubmissionsUpdateInstanceResponse(rsp *http.Response) (*ReviewSu
 	return response, nil
 }
 
+// ParseRoutingAppCoveragesCreateInstanceResponse parses an HTTP response from a RoutingAppCoveragesCreateInstanceWithResponse call
+func ParseRoutingAppCoveragesCreateInstanceResponse(rsp *http.Response) (*RoutingAppCoveragesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RoutingAppCoveragesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest RoutingAppCoverageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRoutingAppCoveragesDeleteInstanceResponse parses an HTTP response from a RoutingAppCoveragesDeleteInstanceWithResponse call
+func ParseRoutingAppCoveragesDeleteInstanceResponse(rsp *http.Response) (*RoutingAppCoveragesDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RoutingAppCoveragesDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRoutingAppCoveragesGetInstanceResponse parses an HTTP response from a RoutingAppCoveragesGetInstanceWithResponse call
+func ParseRoutingAppCoveragesGetInstanceResponse(rsp *http.Response) (*RoutingAppCoveragesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RoutingAppCoveragesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RoutingAppCoverageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRoutingAppCoveragesUpdateInstanceResponse parses an HTTP response from a RoutingAppCoveragesUpdateInstanceWithResponse call
+func ParseRoutingAppCoveragesUpdateInstanceResponse(rsp *http.Response) (*RoutingAppCoveragesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RoutingAppCoveragesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RoutingAppCoverageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseTerritoriesGetCollectionResponse parses an HTTP response from a TerritoriesGetCollectionWithResponse call
 func ParseTerritoriesGetCollectionResponse(rsp *http.Response) (*TerritoriesGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -103887,6 +107623,15 @@ type ServerInterface interface {
 	// (GET /v1/appCategories)
 	AppCategoriesGetCollection(w http.ResponseWriter, r *http.Request, params AppCategoriesGetCollectionParams)
 
+	// (POST /v1/appEncryptionDeclarationDocuments)
+	AppEncryptionDeclarationDocumentsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/appEncryptionDeclarationDocuments/{id})
+	AppEncryptionDeclarationDocumentsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppEncryptionDeclarationDocumentsGetInstanceParams)
+
+	// (PATCH /v1/appEncryptionDeclarationDocuments/{id})
+	AppEncryptionDeclarationDocumentsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (POST /v1/appEncryptionDeclarations)
 	AppEncryptionDeclarationsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -103968,6 +107713,18 @@ type ServerInterface interface {
 	// (PATCH /v1/appScreenshots/{id})
 	AppScreenshotsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (POST /v1/appStoreReviewAttachments)
+	AppStoreReviewAttachmentsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appStoreReviewAttachments/{id})
+	AppStoreReviewAttachmentsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appStoreReviewAttachments/{id})
+	AppStoreReviewAttachmentsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppStoreReviewAttachmentsGetInstanceParams)
+
+	// (PATCH /v1/appStoreReviewAttachments/{id})
+	AppStoreReviewAttachmentsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (POST /v1/appStoreReviewDetails)
 	AppStoreReviewDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -104036,6 +107793,9 @@ type ServerInterface interface {
 
 	// (PATCH /v1/appStoreVersions/{id}/relationships/build)
 	AppStoreVersionsBuildUpdateToOneRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appStoreVersions/{id}/routingAppCoverage)
+	AppStoreVersionsRoutingAppCoverageGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams)
 
 	// (PATCH /v1/appTags/{id})
 	AppTagsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
@@ -104366,6 +108126,18 @@ type ServerInterface interface {
 
 	// (PATCH /v1/reviewSubmissions/{id})
 	ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/routingAppCoverages)
+	RoutingAppCoveragesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/routingAppCoverages/{id})
+	RoutingAppCoveragesDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/routingAppCoverages/{id})
+	RoutingAppCoveragesGetInstance(w http.ResponseWriter, r *http.Request, id string, params RoutingAppCoveragesGetInstanceParams)
+
+	// (PATCH /v1/routingAppCoverages/{id})
+	RoutingAppCoveragesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
 	// (GET /v1/territories)
 	TerritoriesGetCollection(w http.ResponseWriter, r *http.Request, params TerritoriesGetCollectionParams)
@@ -104774,6 +108546,88 @@ func (siw *ServerInterfaceWrapper) AppCategoriesGetCollection(w http.ResponseWri
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppCategoriesGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEncryptionDeclarationDocumentsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEncryptionDeclarationDocumentsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEncryptionDeclarationDocumentsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEncryptionDeclarationDocumentsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEncryptionDeclarationDocumentsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppEncryptionDeclarationDocumentsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appEncryptionDeclarationDocuments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEncryptionDeclarationDocuments]", r.URL.Query(), &params.FieldsAppEncryptionDeclarationDocuments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEncryptionDeclarationDocuments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEncryptionDeclarationDocuments]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEncryptionDeclarationDocumentsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEncryptionDeclarationDocumentsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEncryptionDeclarationDocumentsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEncryptionDeclarationDocumentsUpdateInstance(w, r, id)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -105978,6 +109832,140 @@ func (siw *ServerInterfaceWrapper) AppScreenshotsUpdateInstance(w http.ResponseW
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppScreenshotsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreReviewAttachmentsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreReviewAttachmentsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreReviewAttachmentsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreReviewAttachmentsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreReviewAttachmentsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreReviewAttachmentsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreReviewAttachmentsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreReviewAttachmentsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreReviewAttachmentsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appStoreReviewAttachments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreReviewAttachments]", r.URL.Query(), &params.FieldsAppStoreReviewAttachments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreReviewAttachments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreReviewAttachments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreReviewDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreReviewDetails]", r.URL.Query(), &params.FieldsAppStoreReviewDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreReviewDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreReviewDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreReviewAttachmentsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreReviewAttachmentsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreReviewAttachmentsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreReviewAttachmentsUpdateInstance(w, r, id)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -107330,6 +111318,74 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionsBuildUpdateToOneRelationship(
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppStoreVersionsBuildUpdateToOneRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionsRoutingAppCoverageGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionsRoutingAppCoverageGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[routingAppCoverages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[routingAppCoverages]", r.URL.Query(), &params.FieldsRoutingAppCoverages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[routingAppCoverages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[routingAppCoverages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersions]", r.URL.Query(), &params.FieldsAppStoreVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionsRoutingAppCoverageGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -115904,6 +119960,140 @@ func (siw *ServerInterfaceWrapper) ReviewSubmissionsUpdateInstance(w http.Respon
 	handler.ServeHTTP(w, r)
 }
 
+// RoutingAppCoveragesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RoutingAppCoveragesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RoutingAppCoveragesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RoutingAppCoveragesDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) RoutingAppCoveragesDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RoutingAppCoveragesDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RoutingAppCoveragesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) RoutingAppCoveragesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params RoutingAppCoveragesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[routingAppCoverages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[routingAppCoverages]", r.URL.Query(), &params.FieldsRoutingAppCoverages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[routingAppCoverages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[routingAppCoverages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersions]", r.URL.Query(), &params.FieldsAppStoreVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RoutingAppCoveragesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RoutingAppCoveragesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RoutingAppCoveragesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RoutingAppCoveragesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // TerritoriesGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) TerritoriesGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -117131,6 +121321,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCategories", wrapper.AppCategoriesGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments", wrapper.AppEncryptionDeclarationDocumentsCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments/{id}", wrapper.AppEncryptionDeclarationDocumentsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments/{id}", wrapper.AppEncryptionDeclarationDocumentsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appEncryptionDeclarations", wrapper.AppEncryptionDeclarationsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEncryptionDeclarations/{id}", wrapper.AppEncryptionDeclarationsGetInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appInfoLocalizations", wrapper.AppInfoLocalizationsCreateInstance)
@@ -117158,6 +121351,10 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appScreenshots", wrapper.AppScreenshotsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appScreenshots/{id}", wrapper.AppScreenshotsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appScreenshots/{id}", wrapper.AppScreenshotsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreReviewAttachments", wrapper.AppStoreReviewAttachmentsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreReviewAttachments/{id}", wrapper.AppStoreReviewAttachmentsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreReviewAttachments/{id}", wrapper.AppStoreReviewAttachmentsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewAttachments/{id}", wrapper.AppStoreReviewAttachmentsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreReviewDetails", wrapper.AppStoreReviewDetailsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewDetails/{id}", wrapper.AppStoreReviewDetailsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations", wrapper.AppStoreVersionLocalizationsCreateInstance)
@@ -117181,6 +121378,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/appStoreVersionPhasedRelease", wrapper.AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/relationships/build", wrapper.AppStoreVersionsBuildGetToOneRelationship)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersions/{id}/relationships/build", wrapper.AppStoreVersionsBuildUpdateToOneRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/routingAppCoverage", wrapper.AppStoreVersionsRoutingAppCoverageGetToOneRelated)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appTags/{id}", wrapper.AppTagsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps", wrapper.AppsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
@@ -117291,6 +121489,10 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/reviewSubmissions", wrapper.ReviewSubmissionsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/reviewSubmissions", wrapper.ReviewSubmissionsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/reviewSubmissions/{id}", wrapper.ReviewSubmissionsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/routingAppCoverages", wrapper.RoutingAppCoveragesCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/routingAppCoverages/{id}", wrapper.RoutingAppCoveragesDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/routingAppCoverages/{id}", wrapper.RoutingAppCoveragesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/routingAppCoverages/{id}", wrapper.RoutingAppCoveragesUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/territories", wrapper.TerritoriesGetCollection)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/territoryAvailabilities/{id}", wrapper.TerritoryAvailabilitiesUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/userInvitations", wrapper.UserInvitationsGetCollection)

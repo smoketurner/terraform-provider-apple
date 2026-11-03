@@ -1,0 +1,1 @@
+terraform import apple_app_encryption_declaration_document.ccats 1234567890

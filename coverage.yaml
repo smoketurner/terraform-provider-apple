@@ -125,10 +125,10 @@ operations:
   appClips_appClipDefaultExperiences_getToManyRelated: {status: planned, issue: 12}
   appClips_appClipDefaultExperiences_getToManyRelationship: {status: planned, issue: 12}
   appClips_getInstance: {status: planned, issue: 12}
-  appCustomProductPageLocalizations_appPreviewSets_getToManyRelated: {status: planned, issue: 14}
-  appCustomProductPageLocalizations_appPreviewSets_getToManyRelationship: {status: planned, issue: 14}
-  appCustomProductPageLocalizations_appScreenshotSets_getToManyRelated: {status: planned, issue: 14}
-  appCustomProductPageLocalizations_appScreenshotSets_getToManyRelationship: {status: planned, issue: 14}
+  appCustomProductPageLocalizations_appPreviewSets_getToManyRelated: {status: planned, issue: 10}
+  appCustomProductPageLocalizations_appPreviewSets_getToManyRelationship: {status: planned, issue: 10}
+  appCustomProductPageLocalizations_appScreenshotSets_getToManyRelated: {status: planned, issue: 10}
+  appCustomProductPageLocalizations_appScreenshotSets_getToManyRelationship: {status: planned, issue: 10}
   appCustomProductPageLocalizations_createInstance: {status: planned, issue: 10}
   appCustomProductPageLocalizations_deleteInstance: {status: planned, issue: 10}
   appCustomProductPageLocalizations_getInstance: {status: planned, issue: 10}
@@ -150,11 +150,11 @@ operations:
   appCustomProductPages_deleteInstance: {status: planned, issue: 10}
   appCustomProductPages_getInstance: {status: planned, issue: 10}
   appCustomProductPages_updateInstance: {status: planned, issue: 10}
-  appEncryptionDeclarationDocuments_createInstance: {status: planned, issue: 14}
-  appEncryptionDeclarationDocuments_getInstance: {status: planned, issue: 14}
-  appEncryptionDeclarationDocuments_updateInstance: {status: planned, issue: 14}
-  appEncryptionDeclarations_appEncryptionDeclarationDocument_getToOneRelated: {status: planned, issue: 14}
-  appEncryptionDeclarations_appEncryptionDeclarationDocument_getToOneRelationship: {status: planned, issue: 14}
+  appEncryptionDeclarationDocuments_createInstance: {status: covered, by: [apple_app_encryption_declaration_document]}
+  appEncryptionDeclarationDocuments_getInstance: {status: covered, by: [apple_app_encryption_declaration_document]}
+  appEncryptionDeclarationDocuments_updateInstance: {status: covered, by: [apple_app_encryption_declaration_document]}
+  appEncryptionDeclarations_appEncryptionDeclarationDocument_getToOneRelated: {status: out_of_scope, reason: "apple_app_encryption_declaration_document reads the document by ID"}
+  appEncryptionDeclarations_appEncryptionDeclarationDocument_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appEncryptionDeclarations_app_getToOneRelated: {status: out_of_scope, reason: "the provider's resources and data sources already know the app they belong to"}
   appEncryptionDeclarations_app_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appEncryptionDeclarations_builds_createToManyRelationship: {status: out_of_scope, reason: "apple_assign_encryption_declaration sets the same link from the build"}
@@ -210,14 +210,14 @@ operations:
   appInfos_territoryAgeRatings_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appInfos_updateInstance: {status: covered, by: [apple_app_info]}
   appPreviewSets_appPreviews_getToManyRelated: {status: covered, by: [apple_app_preview_set]}
-  appPreviewSets_appPreviews_getToManyRelationship: {status: planned, issue: 14}
+  appPreviewSets_appPreviews_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appPreviewSets_appPreviews_replaceToManyRelationship: {status: covered, by: [apple_app_preview_set]}
   appPreviewSets_createInstance: {status: covered, by: [apple_app_preview_set]}
   appPreviewSets_deleteInstance: {status: covered, by: [apple_app_preview_set]}
   appPreviewSets_getInstance: {status: covered, by: [apple_app_preview_set]}
   appPreviews_createInstance: {status: covered, by: [apple_app_preview_set]}
   appPreviews_deleteInstance: {status: covered, by: [apple_app_preview_set]}
-  appPreviews_getInstance: {status: planned, issue: 14}
+  appPreviews_getInstance: {status: out_of_scope, reason: "the set resources read their files through the set"}
   appPreviews_updateInstance: {status: covered, by: [apple_app_preview_set]}
   appPricePointsV3_equalizations_getToManyRelated: {status: covered, by: [data.apple_app_price_point_equalizations]}
   appPricePointsV3_equalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
@@ -231,28 +231,28 @@ operations:
   appPriceSchedules_manualPrices_getToManyRelated: {status: covered, by: [apple_app_price_schedule]}
   appPriceSchedules_manualPrices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appScreenshotSets_appScreenshots_getToManyRelated: {status: covered, by: [apple_app_screenshot_set]}
-  appScreenshotSets_appScreenshots_getToManyRelationship: {status: planned, issue: 14}
+  appScreenshotSets_appScreenshots_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appScreenshotSets_appScreenshots_replaceToManyRelationship: {status: covered, by: [apple_app_screenshot_set]}
   appScreenshotSets_createInstance: {status: covered, by: [apple_app_screenshot_set]}
   appScreenshotSets_deleteInstance: {status: covered, by: [apple_app_screenshot_set]}
   appScreenshotSets_getInstance: {status: covered, by: [apple_app_screenshot_set]}
   appScreenshots_createInstance: {status: covered, by: [apple_app_screenshot_set]}
   appScreenshots_deleteInstance: {status: covered, by: [apple_app_screenshot_set]}
-  appScreenshots_getInstance: {status: planned, issue: 14}
+  appScreenshots_getInstance: {status: out_of_scope, reason: "the set resources read their files through the set"}
   appScreenshots_updateInstance: {status: covered, by: [apple_app_screenshot_set]}
-  appStoreReviewAttachments_createInstance: {status: planned, issue: 14}
-  appStoreReviewAttachments_deleteInstance: {status: planned, issue: 14}
-  appStoreReviewAttachments_getInstance: {status: planned, issue: 14}
-  appStoreReviewAttachments_updateInstance: {status: planned, issue: 14}
-  appStoreReviewDetails_appStoreReviewAttachments_getToManyRelated: {status: planned, issue: 14}
-  appStoreReviewDetails_appStoreReviewAttachments_getToManyRelationship: {status: planned, issue: 14}
+  appStoreReviewAttachments_createInstance: {status: covered, by: [apple_app_store_review_attachment]}
+  appStoreReviewAttachments_deleteInstance: {status: covered, by: [apple_app_store_review_attachment]}
+  appStoreReviewAttachments_getInstance: {status: covered, by: [apple_app_store_review_attachment]}
+  appStoreReviewAttachments_updateInstance: {status: covered, by: [apple_app_store_review_attachment]}
+  appStoreReviewDetails_appStoreReviewAttachments_getToManyRelated: {status: out_of_scope, reason: "apple_app_store_review_attachment reads each attachment by ID"}
+  appStoreReviewDetails_appStoreReviewAttachments_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appStoreReviewDetails_createInstance: {status: covered, by: [apple_app_store_review_detail]}
   appStoreReviewDetails_getInstance: {status: out_of_scope, reason: "the resources read these objects through their app or version"}
   appStoreReviewDetails_updateInstance: {status: covered, by: [apple_app_store_review_detail]}
-  appStoreVersionExperimentTreatmentLocalizations_appPreviewSets_getToManyRelated: {status: planned, issue: 14}
-  appStoreVersionExperimentTreatmentLocalizations_appPreviewSets_getToManyRelationship: {status: planned, issue: 14}
-  appStoreVersionExperimentTreatmentLocalizations_appScreenshotSets_getToManyRelated: {status: planned, issue: 14}
-  appStoreVersionExperimentTreatmentLocalizations_appScreenshotSets_getToManyRelationship: {status: planned, issue: 14}
+  appStoreVersionExperimentTreatmentLocalizations_appPreviewSets_getToManyRelated: {status: planned, issue: 10}
+  appStoreVersionExperimentTreatmentLocalizations_appPreviewSets_getToManyRelationship: {status: planned, issue: 10}
+  appStoreVersionExperimentTreatmentLocalizations_appScreenshotSets_getToManyRelated: {status: planned, issue: 10}
+  appStoreVersionExperimentTreatmentLocalizations_appScreenshotSets_getToManyRelationship: {status: planned, issue: 10}
   appStoreVersionExperimentTreatmentLocalizations_createInstance: {status: planned, issue: 10}
   appStoreVersionExperimentTreatmentLocalizations_deleteInstance: {status: planned, issue: 10}
   appStoreVersionExperimentTreatmentLocalizations_getInstance: {status: planned, issue: 10}
@@ -277,9 +277,9 @@ operations:
   appStoreVersionExperiments_getInstance: {status: planned, issue: 10}
   appStoreVersionExperiments_updateInstance: {status: planned, issue: 10}
   appStoreVersionLocalizations_appPreviewSets_getToManyRelated: {status: covered, by: [apple_app_preview_set]}
-  appStoreVersionLocalizations_appPreviewSets_getToManyRelationship: {status: planned, issue: 14}
+  appStoreVersionLocalizations_appPreviewSets_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appStoreVersionLocalizations_appScreenshotSets_getToManyRelated: {status: covered, by: [apple_app_screenshot_set]}
-  appStoreVersionLocalizations_appScreenshotSets_getToManyRelationship: {status: planned, issue: 14}
+  appStoreVersionLocalizations_appScreenshotSets_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appStoreVersionLocalizations_createInstance: {status: covered, by: [apple_app_store_version_localization]}
   appStoreVersionLocalizations_deleteInstance: {status: covered, by: [apple_app_store_version_localization]}
   appStoreVersionLocalizations_getInstance: {status: out_of_scope, reason: "the resources read these objects through their app or version"}
@@ -323,8 +323,8 @@ operations:
   appStoreVersions_gameCenterAppVersion_getToOneRelated: {status: planned, issue: 13}
   appStoreVersions_gameCenterAppVersion_getToOneRelationship: {status: planned, issue: 13}
   appStoreVersions_getInstance: {status: covered, by: [apple_app_store_version, action.apple_submit_for_review, action.apple_cancel_review_submission]}
-  appStoreVersions_routingAppCoverage_getToOneRelated: {status: planned, issue: 14}
-  appStoreVersions_routingAppCoverage_getToOneRelationship: {status: planned, issue: 14}
+  appStoreVersions_routingAppCoverage_getToOneRelated: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
+  appStoreVersions_routingAppCoverage_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appStoreVersions_updateInstance: {status: covered, by: [apple_app_store_version]}
   appTags_territories_getToManyRelated: {status: out_of_scope, reason: "the territories of an app tag are assigned by Apple and not configurable"}
   appTags_territories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
@@ -560,8 +560,8 @@ operations:
   builds_diagnosticSignatures_getToManyRelationship: {status: planned, issue: 16}
   builds_getCollection: {status: covered, by: [data.apple_build, data.apple_builds]}
   builds_getInstance: {status: covered, by: [data.apple_build]}
-  builds_icons_getToManyRelated: {status: planned, issue: 14}
-  builds_icons_getToManyRelationship: {status: planned, issue: 14}
+  builds_icons_getToManyRelated: {status: out_of_scope, reason: "build icons are extracted by Apple from the uploaded build"}
+  builds_icons_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   builds_individualTesters_createToManyRelationship: {status: covered, by: [action.apple_add_build_testers]}
   builds_individualTesters_deleteToManyRelationship: {status: covered, by: [action.apple_remove_build_testers]}
   builds_individualTesters_getToManyRelated: {status: out_of_scope, reason: "betaTesters_getCollection with filter[builds] (data.apple_beta_testers with build_id) returns the same testers"}
@@ -1140,10 +1140,10 @@ operations:
   reviewSubmissions_items_getToManyRelated: {status: out_of_scope, reason: "the review actions submit and cancel whole submissions; items are not managed separately"}
   reviewSubmissions_items_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   reviewSubmissions_updateInstance: {status: covered, by: [action.apple_submit_for_review, action.apple_cancel_review_submission]}
-  routingAppCoverages_createInstance: {status: planned, issue: 14}
-  routingAppCoverages_deleteInstance: {status: planned, issue: 14}
-  routingAppCoverages_getInstance: {status: planned, issue: 14}
-  routingAppCoverages_updateInstance: {status: planned, issue: 14}
+  routingAppCoverages_createInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
+  routingAppCoverages_deleteInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
+  routingAppCoverages_getInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
+  routingAppCoverages_updateInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
   salesReports_getCollection: {status: planned, issue: 16}
   sandboxTestersClearPurchaseHistoryRequestV2_createInstance: {status: planned, issue: 7}
   sandboxTestersV2_getCollection: {status: planned, issue: 7}

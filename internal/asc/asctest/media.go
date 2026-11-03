@@ -211,7 +211,11 @@ func (s *Server) reserve(w http.ResponseWriter, kind mediaKind, setID, fileName 
 
 func (s *Server) findMediaItem(w http.ResponseWriter, kind mediaKind, id string) *mediaItem {
 	item, ok := s.media.items[id]
-	if !ok || s.media.sets[item.setID].kind != kind {
+	if ok {
+		set, inSet := s.media.sets[item.setID]
+		ok = inSet && set.kind == kind
+	}
+	if !ok {
 		notFound(w, kind.item, id)
 		return nil
 	}
