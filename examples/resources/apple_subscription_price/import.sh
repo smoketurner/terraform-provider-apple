@@ -1,0 +1,1 @@
+terraform import apple_subscription_price.usa 6446452616/eyJzIjoiNjQ0NjQ1MjYxNiJ9

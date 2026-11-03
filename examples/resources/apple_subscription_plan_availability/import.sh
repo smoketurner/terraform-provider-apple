@@ -1,0 +1,1 @@
+terraform import apple_subscription_plan_availability.upfront 6446452616/UPFRONT
