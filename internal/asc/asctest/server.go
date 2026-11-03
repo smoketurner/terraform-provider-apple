@@ -65,13 +65,14 @@ type Server struct {
 	passTypeIDs  map[string]*gen.PassTypeId
 	apps         map[string]*gen.App
 	// certLimits caps the active certificates of a type.
-	certLimits map[gen.CertificateType]int
-	tf         *testflight
-	users      *usersState
-	appInfos   map[string]*appInfo
-	appMeta    *appMetaState
-	versions   *versionsState
-	pricing    *pricingState
+	certLimits  map[gen.CertificateType]int
+	tf          *testflight
+	users       *usersState
+	appInfos    map[string]*appInfo
+	appMeta     *appMetaState
+	versions    *versionsState
+	pricing     *pricingState
+	nominations *nominationsState
 
 	failNext map[string][]int
 	requests []string
@@ -107,6 +108,7 @@ func NewServer() *Server {
 		appMeta:      newAppMetaState(),
 		versions:     newVersionsState(),
 		pricing:      newPricingState(),
+		nominations:  newNominationsState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

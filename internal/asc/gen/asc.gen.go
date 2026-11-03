@@ -4520,6 +4520,21 @@ func (e AppStoreVersionLocalizationCreateRequestDataType) Valid() bool {
 	}
 }
 
+// Defines values for AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataType.
+const (
+	AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataTypeAppKeywords AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataType = "appKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataType enum.
+func (e AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataTypeAppKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionLocalizationUpdateRequestDataType.
 const (
 	AppStoreVersionLocalizationUpdateRequestDataTypeAppStoreVersionLocalizations AppStoreVersionLocalizationUpdateRequestDataType = "appStoreVersionLocalizations"
@@ -8669,6 +8684,315 @@ const (
 func (e MerchantIdUpdateRequestDataType) Valid() bool {
 	switch e {
 	case MerchantIdUpdateRequestDataTypeMerchantIds:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationAttributesState.
+const (
+	NominationAttributesStateARCHIVED  NominationAttributesState = "ARCHIVED"
+	NominationAttributesStateDRAFT     NominationAttributesState = "DRAFT"
+	NominationAttributesStateSUBMITTED NominationAttributesState = "SUBMITTED"
+)
+
+// Valid indicates whether the value is a known member of the NominationAttributesState enum.
+func (e NominationAttributesState) Valid() bool {
+	switch e {
+	case NominationAttributesStateARCHIVED:
+		return true
+	case NominationAttributesStateDRAFT:
+		return true
+	case NominationAttributesStateSUBMITTED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationAttributesType.
+const (
+	NominationAttributesTypeAPPENHANCEMENTS NominationAttributesType = "APP_ENHANCEMENTS"
+	NominationAttributesTypeAPPLAUNCH       NominationAttributesType = "APP_LAUNCH"
+	NominationAttributesTypeNEWCONTENT      NominationAttributesType = "NEW_CONTENT"
+)
+
+// Valid indicates whether the value is a known member of the NominationAttributesType enum.
+func (e NominationAttributesType) Valid() bool {
+	switch e {
+	case NominationAttributesTypeAPPENHANCEMENTS:
+		return true
+	case NominationAttributesTypeAPPLAUNCH:
+		return true
+	case NominationAttributesTypeNEWCONTENT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationRelationshipsCreatedByActorDataType.
+const (
+	NominationRelationshipsCreatedByActorDataTypeActors NominationRelationshipsCreatedByActorDataType = "actors"
+)
+
+// Valid indicates whether the value is a known member of the NominationRelationshipsCreatedByActorDataType enum.
+func (e NominationRelationshipsCreatedByActorDataType) Valid() bool {
+	switch e {
+	case NominationRelationshipsCreatedByActorDataTypeActors:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationRelationshipsInAppEventsDataType.
+const (
+	NominationRelationshipsInAppEventsDataTypeAppEvents NominationRelationshipsInAppEventsDataType = "appEvents"
+)
+
+// Valid indicates whether the value is a known member of the NominationRelationshipsInAppEventsDataType enum.
+func (e NominationRelationshipsInAppEventsDataType) Valid() bool {
+	switch e {
+	case NominationRelationshipsInAppEventsDataTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationRelationshipsLastModifiedByActorDataType.
+const (
+	NominationRelationshipsLastModifiedByActorDataTypeActors NominationRelationshipsLastModifiedByActorDataType = "actors"
+)
+
+// Valid indicates whether the value is a known member of the NominationRelationshipsLastModifiedByActorDataType enum.
+func (e NominationRelationshipsLastModifiedByActorDataType) Valid() bool {
+	switch e {
+	case NominationRelationshipsLastModifiedByActorDataTypeActors:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationRelationshipsRelatedAppsDataType.
+const (
+	NominationRelationshipsRelatedAppsDataTypeApps NominationRelationshipsRelatedAppsDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the NominationRelationshipsRelatedAppsDataType enum.
+func (e NominationRelationshipsRelatedAppsDataType) Valid() bool {
+	switch e {
+	case NominationRelationshipsRelatedAppsDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationRelationshipsSubmittedByActorDataType.
+const (
+	NominationRelationshipsSubmittedByActorDataTypeActors NominationRelationshipsSubmittedByActorDataType = "actors"
+)
+
+// Valid indicates whether the value is a known member of the NominationRelationshipsSubmittedByActorDataType enum.
+func (e NominationRelationshipsSubmittedByActorDataType) Valid() bool {
+	switch e {
+	case NominationRelationshipsSubmittedByActorDataTypeActors:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationRelationshipsSupportedTerritoriesDataType.
+const (
+	NominationRelationshipsSupportedTerritoriesDataTypeTerritories NominationRelationshipsSupportedTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the NominationRelationshipsSupportedTerritoriesDataType enum.
+func (e NominationRelationshipsSupportedTerritoriesDataType) Valid() bool {
+	switch e {
+	case NominationRelationshipsSupportedTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationType.
+const (
+	NominationTypeNominations NominationType = "nominations"
+)
+
+// Valid indicates whether the value is a known member of the NominationType enum.
+func (e NominationType) Valid() bool {
+	switch e {
+	case NominationTypeNominations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationCreateRequestDataAttributesType.
+const (
+	NominationCreateRequestDataAttributesTypeAPPENHANCEMENTS NominationCreateRequestDataAttributesType = "APP_ENHANCEMENTS"
+	NominationCreateRequestDataAttributesTypeAPPLAUNCH       NominationCreateRequestDataAttributesType = "APP_LAUNCH"
+	NominationCreateRequestDataAttributesTypeNEWCONTENT      NominationCreateRequestDataAttributesType = "NEW_CONTENT"
+)
+
+// Valid indicates whether the value is a known member of the NominationCreateRequestDataAttributesType enum.
+func (e NominationCreateRequestDataAttributesType) Valid() bool {
+	switch e {
+	case NominationCreateRequestDataAttributesTypeAPPENHANCEMENTS:
+		return true
+	case NominationCreateRequestDataAttributesTypeAPPLAUNCH:
+		return true
+	case NominationCreateRequestDataAttributesTypeNEWCONTENT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationCreateRequestDataRelationshipsInAppEventsDataType.
+const (
+	NominationCreateRequestDataRelationshipsInAppEventsDataTypeAppEvents NominationCreateRequestDataRelationshipsInAppEventsDataType = "appEvents"
+)
+
+// Valid indicates whether the value is a known member of the NominationCreateRequestDataRelationshipsInAppEventsDataType enum.
+func (e NominationCreateRequestDataRelationshipsInAppEventsDataType) Valid() bool {
+	switch e {
+	case NominationCreateRequestDataRelationshipsInAppEventsDataTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationCreateRequestDataRelationshipsRelatedAppsDataType.
+const (
+	NominationCreateRequestDataRelationshipsRelatedAppsDataTypeApps NominationCreateRequestDataRelationshipsRelatedAppsDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the NominationCreateRequestDataRelationshipsRelatedAppsDataType enum.
+func (e NominationCreateRequestDataRelationshipsRelatedAppsDataType) Valid() bool {
+	switch e {
+	case NominationCreateRequestDataRelationshipsRelatedAppsDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationCreateRequestDataRelationshipsSupportedTerritoriesDataType.
+const (
+	NominationCreateRequestDataRelationshipsSupportedTerritoriesDataTypeTerritories NominationCreateRequestDataRelationshipsSupportedTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the NominationCreateRequestDataRelationshipsSupportedTerritoriesDataType enum.
+func (e NominationCreateRequestDataRelationshipsSupportedTerritoriesDataType) Valid() bool {
+	switch e {
+	case NominationCreateRequestDataRelationshipsSupportedTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationCreateRequestDataType.
+const (
+	NominationCreateRequestDataTypeNominations NominationCreateRequestDataType = "nominations"
+)
+
+// Valid indicates whether the value is a known member of the NominationCreateRequestDataType enum.
+func (e NominationCreateRequestDataType) Valid() bool {
+	switch e {
+	case NominationCreateRequestDataTypeNominations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationUpdateRequestDataAttributesType.
+const (
+	NominationUpdateRequestDataAttributesTypeAPPENHANCEMENTS NominationUpdateRequestDataAttributesType = "APP_ENHANCEMENTS"
+	NominationUpdateRequestDataAttributesTypeAPPLAUNCH       NominationUpdateRequestDataAttributesType = "APP_LAUNCH"
+	NominationUpdateRequestDataAttributesTypeNEWCONTENT      NominationUpdateRequestDataAttributesType = "NEW_CONTENT"
+)
+
+// Valid indicates whether the value is a known member of the NominationUpdateRequestDataAttributesType enum.
+func (e NominationUpdateRequestDataAttributesType) Valid() bool {
+	switch e {
+	case NominationUpdateRequestDataAttributesTypeAPPENHANCEMENTS:
+		return true
+	case NominationUpdateRequestDataAttributesTypeAPPLAUNCH:
+		return true
+	case NominationUpdateRequestDataAttributesTypeNEWCONTENT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationUpdateRequestDataRelationshipsInAppEventsDataType.
+const (
+	NominationUpdateRequestDataRelationshipsInAppEventsDataTypeAppEvents NominationUpdateRequestDataRelationshipsInAppEventsDataType = "appEvents"
+)
+
+// Valid indicates whether the value is a known member of the NominationUpdateRequestDataRelationshipsInAppEventsDataType enum.
+func (e NominationUpdateRequestDataRelationshipsInAppEventsDataType) Valid() bool {
+	switch e {
+	case NominationUpdateRequestDataRelationshipsInAppEventsDataTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationUpdateRequestDataRelationshipsRelatedAppsDataType.
+const (
+	NominationUpdateRequestDataRelationshipsRelatedAppsDataTypeApps NominationUpdateRequestDataRelationshipsRelatedAppsDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the NominationUpdateRequestDataRelationshipsRelatedAppsDataType enum.
+func (e NominationUpdateRequestDataRelationshipsRelatedAppsDataType) Valid() bool {
+	switch e {
+	case NominationUpdateRequestDataRelationshipsRelatedAppsDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataType.
+const (
+	NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataTypeTerritories NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataType enum.
+func (e NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataType) Valid() bool {
+	switch e {
+	case NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationUpdateRequestDataType.
+const (
+	NominationUpdateRequestDataTypeNominations NominationUpdateRequestDataType = "nominations"
+)
+
+// Valid indicates whether the value is a known member of the NominationUpdateRequestDataType enum.
+func (e NominationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case NominationUpdateRequestDataTypeNominations:
 		return true
 	default:
 		return false
@@ -23543,6 +23867,846 @@ func (e MerchantIdsCertificatesGetToManyRelatedParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for NominationsGetCollectionParamsFilterType.
+const (
+	NominationsGetCollectionParamsFilterTypeAPPENHANCEMENTS NominationsGetCollectionParamsFilterType = "APP_ENHANCEMENTS"
+	NominationsGetCollectionParamsFilterTypeAPPLAUNCH       NominationsGetCollectionParamsFilterType = "APP_LAUNCH"
+	NominationsGetCollectionParamsFilterTypeNEWCONTENT      NominationsGetCollectionParamsFilterType = "NEW_CONTENT"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsFilterType enum.
+func (e NominationsGetCollectionParamsFilterType) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsFilterTypeAPPENHANCEMENTS:
+		return true
+	case NominationsGetCollectionParamsFilterTypeAPPLAUNCH:
+		return true
+	case NominationsGetCollectionParamsFilterTypeNEWCONTENT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsFilterState.
+const (
+	NominationsGetCollectionParamsFilterStateARCHIVED  NominationsGetCollectionParamsFilterState = "ARCHIVED"
+	NominationsGetCollectionParamsFilterStateDRAFT     NominationsGetCollectionParamsFilterState = "DRAFT"
+	NominationsGetCollectionParamsFilterStateSUBMITTED NominationsGetCollectionParamsFilterState = "SUBMITTED"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsFilterState enum.
+func (e NominationsGetCollectionParamsFilterState) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsFilterStateARCHIVED:
+		return true
+	case NominationsGetCollectionParamsFilterStateDRAFT:
+		return true
+	case NominationsGetCollectionParamsFilterStateSUBMITTED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsSort.
+const (
+	NominationsGetCollectionParamsSortLastModifiedDate      NominationsGetCollectionParamsSort = "lastModifiedDate"
+	NominationsGetCollectionParamsSortMinusLastModifiedDate NominationsGetCollectionParamsSort = "-lastModifiedDate"
+	NominationsGetCollectionParamsSortMinusName             NominationsGetCollectionParamsSort = "-name"
+	NominationsGetCollectionParamsSortMinusPublishEndDate   NominationsGetCollectionParamsSort = "-publishEndDate"
+	NominationsGetCollectionParamsSortMinusPublishStartDate NominationsGetCollectionParamsSort = "-publishStartDate"
+	NominationsGetCollectionParamsSortMinusType             NominationsGetCollectionParamsSort = "-type"
+	NominationsGetCollectionParamsSortName                  NominationsGetCollectionParamsSort = "name"
+	NominationsGetCollectionParamsSortPublishEndDate        NominationsGetCollectionParamsSort = "publishEndDate"
+	NominationsGetCollectionParamsSortPublishStartDate      NominationsGetCollectionParamsSort = "publishStartDate"
+	NominationsGetCollectionParamsSortType                  NominationsGetCollectionParamsSort = "type"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsSort enum.
+func (e NominationsGetCollectionParamsSort) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsSortLastModifiedDate:
+		return true
+	case NominationsGetCollectionParamsSortMinusLastModifiedDate:
+		return true
+	case NominationsGetCollectionParamsSortMinusName:
+		return true
+	case NominationsGetCollectionParamsSortMinusPublishEndDate:
+		return true
+	case NominationsGetCollectionParamsSortMinusPublishStartDate:
+		return true
+	case NominationsGetCollectionParamsSortMinusType:
+		return true
+	case NominationsGetCollectionParamsSortName:
+		return true
+	case NominationsGetCollectionParamsSortPublishEndDate:
+		return true
+	case NominationsGetCollectionParamsSortPublishStartDate:
+		return true
+	case NominationsGetCollectionParamsSortType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsFieldsNominations.
+const (
+	NominationsGetCollectionParamsFieldsNominationsCreatedByActor             NominationsGetCollectionParamsFieldsNominations = "createdByActor"
+	NominationsGetCollectionParamsFieldsNominationsCreatedDate                NominationsGetCollectionParamsFieldsNominations = "createdDate"
+	NominationsGetCollectionParamsFieldsNominationsDescription                NominationsGetCollectionParamsFieldsNominations = "description"
+	NominationsGetCollectionParamsFieldsNominationsDeviceFamilies             NominationsGetCollectionParamsFieldsNominations = "deviceFamilies"
+	NominationsGetCollectionParamsFieldsNominationsHasInAppEvents             NominationsGetCollectionParamsFieldsNominations = "hasInAppEvents"
+	NominationsGetCollectionParamsFieldsNominationsInAppEvents                NominationsGetCollectionParamsFieldsNominations = "inAppEvents"
+	NominationsGetCollectionParamsFieldsNominationsLastModifiedByActor        NominationsGetCollectionParamsFieldsNominations = "lastModifiedByActor"
+	NominationsGetCollectionParamsFieldsNominationsLastModifiedDate           NominationsGetCollectionParamsFieldsNominations = "lastModifiedDate"
+	NominationsGetCollectionParamsFieldsNominationsLaunchInSelectMarketsFirst NominationsGetCollectionParamsFieldsNominations = "launchInSelectMarketsFirst"
+	NominationsGetCollectionParamsFieldsNominationsLocales                    NominationsGetCollectionParamsFieldsNominations = "locales"
+	NominationsGetCollectionParamsFieldsNominationsName                       NominationsGetCollectionParamsFieldsNominations = "name"
+	NominationsGetCollectionParamsFieldsNominationsNotes                      NominationsGetCollectionParamsFieldsNominations = "notes"
+	NominationsGetCollectionParamsFieldsNominationsPreOrderEnabled            NominationsGetCollectionParamsFieldsNominations = "preOrderEnabled"
+	NominationsGetCollectionParamsFieldsNominationsPublishEndDate             NominationsGetCollectionParamsFieldsNominations = "publishEndDate"
+	NominationsGetCollectionParamsFieldsNominationsPublishStartDate           NominationsGetCollectionParamsFieldsNominations = "publishStartDate"
+	NominationsGetCollectionParamsFieldsNominationsRelatedApps                NominationsGetCollectionParamsFieldsNominations = "relatedApps"
+	NominationsGetCollectionParamsFieldsNominationsState                      NominationsGetCollectionParamsFieldsNominations = "state"
+	NominationsGetCollectionParamsFieldsNominationsSubmittedByActor           NominationsGetCollectionParamsFieldsNominations = "submittedByActor"
+	NominationsGetCollectionParamsFieldsNominationsSubmittedDate              NominationsGetCollectionParamsFieldsNominations = "submittedDate"
+	NominationsGetCollectionParamsFieldsNominationsSupplementalMaterialsUris  NominationsGetCollectionParamsFieldsNominations = "supplementalMaterialsUris"
+	NominationsGetCollectionParamsFieldsNominationsSupportedTerritories       NominationsGetCollectionParamsFieldsNominations = "supportedTerritories"
+	NominationsGetCollectionParamsFieldsNominationsType                       NominationsGetCollectionParamsFieldsNominations = "type"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsFieldsNominations enum.
+func (e NominationsGetCollectionParamsFieldsNominations) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsFieldsNominationsCreatedByActor:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsCreatedDate:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsDescription:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsDeviceFamilies:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsHasInAppEvents:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsInAppEvents:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsLastModifiedByActor:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsLastModifiedDate:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsLaunchInSelectMarketsFirst:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsLocales:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsName:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsNotes:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsPreOrderEnabled:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsPublishEndDate:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsPublishStartDate:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsRelatedApps:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsState:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsSubmittedByActor:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsSubmittedDate:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsSupplementalMaterialsUris:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsSupportedTerritories:
+		return true
+	case NominationsGetCollectionParamsFieldsNominationsType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsFieldsApps.
+const (
+	NominationsGetCollectionParamsFieldsAppsAccessibilityDeclarations              NominationsGetCollectionParamsFieldsApps = "accessibilityDeclarations"
+	NominationsGetCollectionParamsFieldsAppsAccessibilityUrl                       NominationsGetCollectionParamsFieldsApps = "accessibilityUrl"
+	NominationsGetCollectionParamsFieldsAppsAlternativeDistributionKey             NominationsGetCollectionParamsFieldsApps = "alternativeDistributionKey"
+	NominationsGetCollectionParamsFieldsAppsAnalyticsReportRequests                NominationsGetCollectionParamsFieldsApps = "analyticsReportRequests"
+	NominationsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails          NominationsGetCollectionParamsFieldsApps = "androidToIosAppMappingDetails"
+	NominationsGetCollectionParamsFieldsAppsAppAvailabilityV2                      NominationsGetCollectionParamsFieldsApps = "appAvailabilityV2"
+	NominationsGetCollectionParamsFieldsAppsAppClips                               NominationsGetCollectionParamsFieldsApps = "appClips"
+	NominationsGetCollectionParamsFieldsAppsAppCustomProductPages                  NominationsGetCollectionParamsFieldsApps = "appCustomProductPages"
+	NominationsGetCollectionParamsFieldsAppsAppEncryptionDeclarations              NominationsGetCollectionParamsFieldsApps = "appEncryptionDeclarations"
+	NominationsGetCollectionParamsFieldsAppsAppEvents                              NominationsGetCollectionParamsFieldsApps = "appEvents"
+	NominationsGetCollectionParamsFieldsAppsAppInfos                               NominationsGetCollectionParamsFieldsApps = "appInfos"
+	NominationsGetCollectionParamsFieldsAppsAppPricePoints                         NominationsGetCollectionParamsFieldsApps = "appPricePoints"
+	NominationsGetCollectionParamsFieldsAppsAppPriceSchedule                       NominationsGetCollectionParamsFieldsApps = "appPriceSchedule"
+	NominationsGetCollectionParamsFieldsAppsAppStoreIcon                           NominationsGetCollectionParamsFieldsApps = "appStoreIcon"
+	NominationsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2           NominationsGetCollectionParamsFieldsApps = "appStoreVersionExperimentsV2"
+	NominationsGetCollectionParamsFieldsAppsAppStoreVersions                       NominationsGetCollectionParamsFieldsApps = "appStoreVersions"
+	NominationsGetCollectionParamsFieldsAppsAppTags                                NominationsGetCollectionParamsFieldsApps = "appTags"
+	NominationsGetCollectionParamsFieldsAppsAssetLibrary                           NominationsGetCollectionParamsFieldsApps = "assetLibrary"
+	NominationsGetCollectionParamsFieldsAppsBackgroundAssets                       NominationsGetCollectionParamsFieldsApps = "backgroundAssets"
+	NominationsGetCollectionParamsFieldsAppsBetaAppLocalizations                   NominationsGetCollectionParamsFieldsApps = "betaAppLocalizations"
+	NominationsGetCollectionParamsFieldsAppsBetaAppReviewDetail                    NominationsGetCollectionParamsFieldsApps = "betaAppReviewDetail"
+	NominationsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions           NominationsGetCollectionParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	NominationsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions      NominationsGetCollectionParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	NominationsGetCollectionParamsFieldsAppsBetaGroups                             NominationsGetCollectionParamsFieldsApps = "betaGroups"
+	NominationsGetCollectionParamsFieldsAppsBetaLicenseAgreement                   NominationsGetCollectionParamsFieldsApps = "betaLicenseAgreement"
+	NominationsGetCollectionParamsFieldsAppsBetaTesters                            NominationsGetCollectionParamsFieldsApps = "betaTesters"
+	NominationsGetCollectionParamsFieldsAppsBuildUploads                           NominationsGetCollectionParamsFieldsApps = "buildUploads"
+	NominationsGetCollectionParamsFieldsAppsBuilds                                 NominationsGetCollectionParamsFieldsApps = "builds"
+	NominationsGetCollectionParamsFieldsAppsBundleId                               NominationsGetCollectionParamsFieldsApps = "bundleId"
+	NominationsGetCollectionParamsFieldsAppsCiProduct                              NominationsGetCollectionParamsFieldsApps = "ciProduct"
+	NominationsGetCollectionParamsFieldsAppsContentRightsDeclaration               NominationsGetCollectionParamsFieldsApps = "contentRightsDeclaration"
+	NominationsGetCollectionParamsFieldsAppsCustomerReviewSummarizations           NominationsGetCollectionParamsFieldsApps = "customerReviewSummarizations"
+	NominationsGetCollectionParamsFieldsAppsCustomerReviews                        NominationsGetCollectionParamsFieldsApps = "customerReviews"
+	NominationsGetCollectionParamsFieldsAppsEndUserLicenseAgreement                NominationsGetCollectionParamsFieldsApps = "endUserLicenseAgreement"
+	NominationsGetCollectionParamsFieldsAppsGameCenterDetail                       NominationsGetCollectionParamsFieldsApps = "gameCenterDetail"
+	NominationsGetCollectionParamsFieldsAppsGameCenterEnabledVersions              NominationsGetCollectionParamsFieldsApps = "gameCenterEnabledVersions"
+	NominationsGetCollectionParamsFieldsAppsInAppPurchases                         NominationsGetCollectionParamsFieldsApps = "inAppPurchases"
+	NominationsGetCollectionParamsFieldsAppsInAppPurchasesV2                       NominationsGetCollectionParamsFieldsApps = "inAppPurchasesV2"
+	NominationsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids                 NominationsGetCollectionParamsFieldsApps = "isOrEverWasMadeForKids"
+	NominationsGetCollectionParamsFieldsAppsMarketplaceSearchDetail                NominationsGetCollectionParamsFieldsApps = "marketplaceSearchDetail"
+	NominationsGetCollectionParamsFieldsAppsName                                   NominationsGetCollectionParamsFieldsApps = "name"
+	NominationsGetCollectionParamsFieldsAppsPerfPowerMetrics                       NominationsGetCollectionParamsFieldsApps = "perfPowerMetrics"
+	NominationsGetCollectionParamsFieldsAppsPerformanceOverviews                   NominationsGetCollectionParamsFieldsApps = "performanceOverviews"
+	NominationsGetCollectionParamsFieldsAppsPreReleaseVersions                     NominationsGetCollectionParamsFieldsApps = "preReleaseVersions"
+	NominationsGetCollectionParamsFieldsAppsPrimaryLocale                          NominationsGetCollectionParamsFieldsApps = "primaryLocale"
+	NominationsGetCollectionParamsFieldsAppsPromotedPurchases                      NominationsGetCollectionParamsFieldsApps = "promotedPurchases"
+	NominationsGetCollectionParamsFieldsAppsReviewSubmissions                      NominationsGetCollectionParamsFieldsApps = "reviewSubmissions"
+	NominationsGetCollectionParamsFieldsAppsSearchKeywords                         NominationsGetCollectionParamsFieldsApps = "searchKeywords"
+	NominationsGetCollectionParamsFieldsAppsSku                                    NominationsGetCollectionParamsFieldsApps = "sku"
+	NominationsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled           NominationsGetCollectionParamsFieldsApps = "streamlinedPurchasingEnabled"
+	NominationsGetCollectionParamsFieldsAppsSubscriptionGracePeriod                NominationsGetCollectionParamsFieldsApps = "subscriptionGracePeriod"
+	NominationsGetCollectionParamsFieldsAppsSubscriptionGroups                     NominationsGetCollectionParamsFieldsApps = "subscriptionGroups"
+	NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrl                  NominationsGetCollectionParamsFieldsApps = "subscriptionStatusUrl"
+	NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox        NominationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion           NominationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersion"
+	NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox NominationsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	NominationsGetCollectionParamsFieldsAppsWebhooks                               NominationsGetCollectionParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsFieldsApps enum.
+func (e NominationsGetCollectionParamsFieldsApps) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAccessibilityUrl:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppClips:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppCustomProductPages:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppEvents:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppInfos:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppPricePoints:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppPriceSchedule:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppStoreIcon:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppStoreVersions:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAppTags:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsAssetLibrary:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBackgroundAssets:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBetaGroups:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBetaTesters:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBuildUploads:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBuilds:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsBundleId:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsCiProduct:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsCustomerReviews:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsGameCenterDetail:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsInAppPurchases:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsName:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsPerformanceOverviews:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsPreReleaseVersions:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsPrimaryLocale:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsReviewSubmissions:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSearchKeywords:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSku:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSubscriptionGroups:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsFieldsActors.
+const (
+	NominationsGetCollectionParamsFieldsActorsActorType     NominationsGetCollectionParamsFieldsActors = "actorType"
+	NominationsGetCollectionParamsFieldsActorsApiKeyId      NominationsGetCollectionParamsFieldsActors = "apiKeyId"
+	NominationsGetCollectionParamsFieldsActorsUserEmail     NominationsGetCollectionParamsFieldsActors = "userEmail"
+	NominationsGetCollectionParamsFieldsActorsUserFirstName NominationsGetCollectionParamsFieldsActors = "userFirstName"
+	NominationsGetCollectionParamsFieldsActorsUserLastName  NominationsGetCollectionParamsFieldsActors = "userLastName"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsFieldsActors enum.
+func (e NominationsGetCollectionParamsFieldsActors) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsFieldsActorsActorType:
+		return true
+	case NominationsGetCollectionParamsFieldsActorsApiKeyId:
+		return true
+	case NominationsGetCollectionParamsFieldsActorsUserEmail:
+		return true
+	case NominationsGetCollectionParamsFieldsActorsUserFirstName:
+		return true
+	case NominationsGetCollectionParamsFieldsActorsUserLastName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsFieldsAppEvents.
+const (
+	NominationsGetCollectionParamsFieldsAppEventsArchivedTerritorySchedules NominationsGetCollectionParamsFieldsAppEvents = "archivedTerritorySchedules"
+	NominationsGetCollectionParamsFieldsAppEventsBadge                      NominationsGetCollectionParamsFieldsAppEvents = "badge"
+	NominationsGetCollectionParamsFieldsAppEventsDeepLink                   NominationsGetCollectionParamsFieldsAppEvents = "deepLink"
+	NominationsGetCollectionParamsFieldsAppEventsEventState                 NominationsGetCollectionParamsFieldsAppEvents = "eventState"
+	NominationsGetCollectionParamsFieldsAppEventsLocalizations              NominationsGetCollectionParamsFieldsAppEvents = "localizations"
+	NominationsGetCollectionParamsFieldsAppEventsPrimaryLocale              NominationsGetCollectionParamsFieldsAppEvents = "primaryLocale"
+	NominationsGetCollectionParamsFieldsAppEventsPriority                   NominationsGetCollectionParamsFieldsAppEvents = "priority"
+	NominationsGetCollectionParamsFieldsAppEventsPurchaseRequirement        NominationsGetCollectionParamsFieldsAppEvents = "purchaseRequirement"
+	NominationsGetCollectionParamsFieldsAppEventsPurpose                    NominationsGetCollectionParamsFieldsAppEvents = "purpose"
+	NominationsGetCollectionParamsFieldsAppEventsReferenceName              NominationsGetCollectionParamsFieldsAppEvents = "referenceName"
+	NominationsGetCollectionParamsFieldsAppEventsTerritorySchedules         NominationsGetCollectionParamsFieldsAppEvents = "territorySchedules"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsFieldsAppEvents enum.
+func (e NominationsGetCollectionParamsFieldsAppEvents) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsFieldsAppEventsArchivedTerritorySchedules:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsBadge:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsDeepLink:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsEventState:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsLocalizations:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsPrimaryLocale:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsPriority:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsPurchaseRequirement:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsPurpose:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsReferenceName:
+		return true
+	case NominationsGetCollectionParamsFieldsAppEventsTerritorySchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsFieldsTerritories.
+const (
+	NominationsGetCollectionParamsFieldsTerritoriesCurrency NominationsGetCollectionParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsFieldsTerritories enum.
+func (e NominationsGetCollectionParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetCollectionParamsInclude.
+const (
+	NominationsGetCollectionParamsIncludeCreatedByActor       NominationsGetCollectionParamsInclude = "createdByActor"
+	NominationsGetCollectionParamsIncludeInAppEvents          NominationsGetCollectionParamsInclude = "inAppEvents"
+	NominationsGetCollectionParamsIncludeLastModifiedByActor  NominationsGetCollectionParamsInclude = "lastModifiedByActor"
+	NominationsGetCollectionParamsIncludeRelatedApps          NominationsGetCollectionParamsInclude = "relatedApps"
+	NominationsGetCollectionParamsIncludeSubmittedByActor     NominationsGetCollectionParamsInclude = "submittedByActor"
+	NominationsGetCollectionParamsIncludeSupportedTerritories NominationsGetCollectionParamsInclude = "supportedTerritories"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetCollectionParamsInclude enum.
+func (e NominationsGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case NominationsGetCollectionParamsIncludeCreatedByActor:
+		return true
+	case NominationsGetCollectionParamsIncludeInAppEvents:
+		return true
+	case NominationsGetCollectionParamsIncludeLastModifiedByActor:
+		return true
+	case NominationsGetCollectionParamsIncludeRelatedApps:
+		return true
+	case NominationsGetCollectionParamsIncludeSubmittedByActor:
+		return true
+	case NominationsGetCollectionParamsIncludeSupportedTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetInstanceParamsFieldsNominations.
+const (
+	NominationsGetInstanceParamsFieldsNominationsCreatedByActor             NominationsGetInstanceParamsFieldsNominations = "createdByActor"
+	NominationsGetInstanceParamsFieldsNominationsCreatedDate                NominationsGetInstanceParamsFieldsNominations = "createdDate"
+	NominationsGetInstanceParamsFieldsNominationsDescription                NominationsGetInstanceParamsFieldsNominations = "description"
+	NominationsGetInstanceParamsFieldsNominationsDeviceFamilies             NominationsGetInstanceParamsFieldsNominations = "deviceFamilies"
+	NominationsGetInstanceParamsFieldsNominationsHasInAppEvents             NominationsGetInstanceParamsFieldsNominations = "hasInAppEvents"
+	NominationsGetInstanceParamsFieldsNominationsInAppEvents                NominationsGetInstanceParamsFieldsNominations = "inAppEvents"
+	NominationsGetInstanceParamsFieldsNominationsLastModifiedByActor        NominationsGetInstanceParamsFieldsNominations = "lastModifiedByActor"
+	NominationsGetInstanceParamsFieldsNominationsLastModifiedDate           NominationsGetInstanceParamsFieldsNominations = "lastModifiedDate"
+	NominationsGetInstanceParamsFieldsNominationsLaunchInSelectMarketsFirst NominationsGetInstanceParamsFieldsNominations = "launchInSelectMarketsFirst"
+	NominationsGetInstanceParamsFieldsNominationsLocales                    NominationsGetInstanceParamsFieldsNominations = "locales"
+	NominationsGetInstanceParamsFieldsNominationsName                       NominationsGetInstanceParamsFieldsNominations = "name"
+	NominationsGetInstanceParamsFieldsNominationsNotes                      NominationsGetInstanceParamsFieldsNominations = "notes"
+	NominationsGetInstanceParamsFieldsNominationsPreOrderEnabled            NominationsGetInstanceParamsFieldsNominations = "preOrderEnabled"
+	NominationsGetInstanceParamsFieldsNominationsPublishEndDate             NominationsGetInstanceParamsFieldsNominations = "publishEndDate"
+	NominationsGetInstanceParamsFieldsNominationsPublishStartDate           NominationsGetInstanceParamsFieldsNominations = "publishStartDate"
+	NominationsGetInstanceParamsFieldsNominationsRelatedApps                NominationsGetInstanceParamsFieldsNominations = "relatedApps"
+	NominationsGetInstanceParamsFieldsNominationsState                      NominationsGetInstanceParamsFieldsNominations = "state"
+	NominationsGetInstanceParamsFieldsNominationsSubmittedByActor           NominationsGetInstanceParamsFieldsNominations = "submittedByActor"
+	NominationsGetInstanceParamsFieldsNominationsSubmittedDate              NominationsGetInstanceParamsFieldsNominations = "submittedDate"
+	NominationsGetInstanceParamsFieldsNominationsSupplementalMaterialsUris  NominationsGetInstanceParamsFieldsNominations = "supplementalMaterialsUris"
+	NominationsGetInstanceParamsFieldsNominationsSupportedTerritories       NominationsGetInstanceParamsFieldsNominations = "supportedTerritories"
+	NominationsGetInstanceParamsFieldsNominationsType                       NominationsGetInstanceParamsFieldsNominations = "type"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetInstanceParamsFieldsNominations enum.
+func (e NominationsGetInstanceParamsFieldsNominations) Valid() bool {
+	switch e {
+	case NominationsGetInstanceParamsFieldsNominationsCreatedByActor:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsCreatedDate:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsDescription:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsDeviceFamilies:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsHasInAppEvents:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsInAppEvents:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsLastModifiedByActor:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsLastModifiedDate:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsLaunchInSelectMarketsFirst:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsLocales:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsName:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsNotes:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsPreOrderEnabled:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsPublishEndDate:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsPublishStartDate:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsRelatedApps:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsState:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsSubmittedByActor:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsSubmittedDate:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsSupplementalMaterialsUris:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsSupportedTerritories:
+		return true
+	case NominationsGetInstanceParamsFieldsNominationsType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetInstanceParamsFieldsApps.
+const (
+	NominationsGetInstanceParamsFieldsAppsAccessibilityDeclarations              NominationsGetInstanceParamsFieldsApps = "accessibilityDeclarations"
+	NominationsGetInstanceParamsFieldsAppsAccessibilityUrl                       NominationsGetInstanceParamsFieldsApps = "accessibilityUrl"
+	NominationsGetInstanceParamsFieldsAppsAlternativeDistributionKey             NominationsGetInstanceParamsFieldsApps = "alternativeDistributionKey"
+	NominationsGetInstanceParamsFieldsAppsAnalyticsReportRequests                NominationsGetInstanceParamsFieldsApps = "analyticsReportRequests"
+	NominationsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          NominationsGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
+	NominationsGetInstanceParamsFieldsAppsAppAvailabilityV2                      NominationsGetInstanceParamsFieldsApps = "appAvailabilityV2"
+	NominationsGetInstanceParamsFieldsAppsAppClips                               NominationsGetInstanceParamsFieldsApps = "appClips"
+	NominationsGetInstanceParamsFieldsAppsAppCustomProductPages                  NominationsGetInstanceParamsFieldsApps = "appCustomProductPages"
+	NominationsGetInstanceParamsFieldsAppsAppEncryptionDeclarations              NominationsGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
+	NominationsGetInstanceParamsFieldsAppsAppEvents                              NominationsGetInstanceParamsFieldsApps = "appEvents"
+	NominationsGetInstanceParamsFieldsAppsAppInfos                               NominationsGetInstanceParamsFieldsApps = "appInfos"
+	NominationsGetInstanceParamsFieldsAppsAppPricePoints                         NominationsGetInstanceParamsFieldsApps = "appPricePoints"
+	NominationsGetInstanceParamsFieldsAppsAppPriceSchedule                       NominationsGetInstanceParamsFieldsApps = "appPriceSchedule"
+	NominationsGetInstanceParamsFieldsAppsAppStoreIcon                           NominationsGetInstanceParamsFieldsApps = "appStoreIcon"
+	NominationsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           NominationsGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
+	NominationsGetInstanceParamsFieldsAppsAppStoreVersions                       NominationsGetInstanceParamsFieldsApps = "appStoreVersions"
+	NominationsGetInstanceParamsFieldsAppsAppTags                                NominationsGetInstanceParamsFieldsApps = "appTags"
+	NominationsGetInstanceParamsFieldsAppsAssetLibrary                           NominationsGetInstanceParamsFieldsApps = "assetLibrary"
+	NominationsGetInstanceParamsFieldsAppsBackgroundAssets                       NominationsGetInstanceParamsFieldsApps = "backgroundAssets"
+	NominationsGetInstanceParamsFieldsAppsBetaAppLocalizations                   NominationsGetInstanceParamsFieldsApps = "betaAppLocalizations"
+	NominationsGetInstanceParamsFieldsAppsBetaAppReviewDetail                    NominationsGetInstanceParamsFieldsApps = "betaAppReviewDetail"
+	NominationsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           NominationsGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	NominationsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      NominationsGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	NominationsGetInstanceParamsFieldsAppsBetaGroups                             NominationsGetInstanceParamsFieldsApps = "betaGroups"
+	NominationsGetInstanceParamsFieldsAppsBetaLicenseAgreement                   NominationsGetInstanceParamsFieldsApps = "betaLicenseAgreement"
+	NominationsGetInstanceParamsFieldsAppsBetaTesters                            NominationsGetInstanceParamsFieldsApps = "betaTesters"
+	NominationsGetInstanceParamsFieldsAppsBuildUploads                           NominationsGetInstanceParamsFieldsApps = "buildUploads"
+	NominationsGetInstanceParamsFieldsAppsBuilds                                 NominationsGetInstanceParamsFieldsApps = "builds"
+	NominationsGetInstanceParamsFieldsAppsBundleId                               NominationsGetInstanceParamsFieldsApps = "bundleId"
+	NominationsGetInstanceParamsFieldsAppsCiProduct                              NominationsGetInstanceParamsFieldsApps = "ciProduct"
+	NominationsGetInstanceParamsFieldsAppsContentRightsDeclaration               NominationsGetInstanceParamsFieldsApps = "contentRightsDeclaration"
+	NominationsGetInstanceParamsFieldsAppsCustomerReviewSummarizations           NominationsGetInstanceParamsFieldsApps = "customerReviewSummarizations"
+	NominationsGetInstanceParamsFieldsAppsCustomerReviews                        NominationsGetInstanceParamsFieldsApps = "customerReviews"
+	NominationsGetInstanceParamsFieldsAppsEndUserLicenseAgreement                NominationsGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
+	NominationsGetInstanceParamsFieldsAppsGameCenterDetail                       NominationsGetInstanceParamsFieldsApps = "gameCenterDetail"
+	NominationsGetInstanceParamsFieldsAppsGameCenterEnabledVersions              NominationsGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
+	NominationsGetInstanceParamsFieldsAppsInAppPurchases                         NominationsGetInstanceParamsFieldsApps = "inAppPurchases"
+	NominationsGetInstanceParamsFieldsAppsInAppPurchasesV2                       NominationsGetInstanceParamsFieldsApps = "inAppPurchasesV2"
+	NominationsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 NominationsGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
+	NominationsGetInstanceParamsFieldsAppsMarketplaceSearchDetail                NominationsGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
+	NominationsGetInstanceParamsFieldsAppsName                                   NominationsGetInstanceParamsFieldsApps = "name"
+	NominationsGetInstanceParamsFieldsAppsPerfPowerMetrics                       NominationsGetInstanceParamsFieldsApps = "perfPowerMetrics"
+	NominationsGetInstanceParamsFieldsAppsPerformanceOverviews                   NominationsGetInstanceParamsFieldsApps = "performanceOverviews"
+	NominationsGetInstanceParamsFieldsAppsPreReleaseVersions                     NominationsGetInstanceParamsFieldsApps = "preReleaseVersions"
+	NominationsGetInstanceParamsFieldsAppsPrimaryLocale                          NominationsGetInstanceParamsFieldsApps = "primaryLocale"
+	NominationsGetInstanceParamsFieldsAppsPromotedPurchases                      NominationsGetInstanceParamsFieldsApps = "promotedPurchases"
+	NominationsGetInstanceParamsFieldsAppsReviewSubmissions                      NominationsGetInstanceParamsFieldsApps = "reviewSubmissions"
+	NominationsGetInstanceParamsFieldsAppsSearchKeywords                         NominationsGetInstanceParamsFieldsApps = "searchKeywords"
+	NominationsGetInstanceParamsFieldsAppsSku                                    NominationsGetInstanceParamsFieldsApps = "sku"
+	NominationsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           NominationsGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
+	NominationsGetInstanceParamsFieldsAppsSubscriptionGracePeriod                NominationsGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
+	NominationsGetInstanceParamsFieldsAppsSubscriptionGroups                     NominationsGetInstanceParamsFieldsApps = "subscriptionGroups"
+	NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  NominationsGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
+	NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        NominationsGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           NominationsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
+	NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox NominationsGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	NominationsGetInstanceParamsFieldsAppsWebhooks                               NominationsGetInstanceParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetInstanceParamsFieldsApps enum.
+func (e NominationsGetInstanceParamsFieldsApps) Valid() bool {
+	switch e {
+	case NominationsGetInstanceParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAccessibilityUrl:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppClips:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppCustomProductPages:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppEvents:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppInfos:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppPricePoints:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppPriceSchedule:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppStoreIcon:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppStoreVersions:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAppTags:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsAssetLibrary:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBackgroundAssets:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBetaGroups:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBetaTesters:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBuildUploads:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBuilds:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsBundleId:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsCiProduct:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsCustomerReviews:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsGameCenterDetail:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsInAppPurchases:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsName:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsPerformanceOverviews:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsPreReleaseVersions:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsPrimaryLocale:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsReviewSubmissions:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSearchKeywords:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSku:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSubscriptionGroups:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetInstanceParamsFieldsActors.
+const (
+	NominationsGetInstanceParamsFieldsActorsActorType     NominationsGetInstanceParamsFieldsActors = "actorType"
+	NominationsGetInstanceParamsFieldsActorsApiKeyId      NominationsGetInstanceParamsFieldsActors = "apiKeyId"
+	NominationsGetInstanceParamsFieldsActorsUserEmail     NominationsGetInstanceParamsFieldsActors = "userEmail"
+	NominationsGetInstanceParamsFieldsActorsUserFirstName NominationsGetInstanceParamsFieldsActors = "userFirstName"
+	NominationsGetInstanceParamsFieldsActorsUserLastName  NominationsGetInstanceParamsFieldsActors = "userLastName"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetInstanceParamsFieldsActors enum.
+func (e NominationsGetInstanceParamsFieldsActors) Valid() bool {
+	switch e {
+	case NominationsGetInstanceParamsFieldsActorsActorType:
+		return true
+	case NominationsGetInstanceParamsFieldsActorsApiKeyId:
+		return true
+	case NominationsGetInstanceParamsFieldsActorsUserEmail:
+		return true
+	case NominationsGetInstanceParamsFieldsActorsUserFirstName:
+		return true
+	case NominationsGetInstanceParamsFieldsActorsUserLastName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetInstanceParamsFieldsAppEvents.
+const (
+	NominationsGetInstanceParamsFieldsAppEventsArchivedTerritorySchedules NominationsGetInstanceParamsFieldsAppEvents = "archivedTerritorySchedules"
+	NominationsGetInstanceParamsFieldsAppEventsBadge                      NominationsGetInstanceParamsFieldsAppEvents = "badge"
+	NominationsGetInstanceParamsFieldsAppEventsDeepLink                   NominationsGetInstanceParamsFieldsAppEvents = "deepLink"
+	NominationsGetInstanceParamsFieldsAppEventsEventState                 NominationsGetInstanceParamsFieldsAppEvents = "eventState"
+	NominationsGetInstanceParamsFieldsAppEventsLocalizations              NominationsGetInstanceParamsFieldsAppEvents = "localizations"
+	NominationsGetInstanceParamsFieldsAppEventsPrimaryLocale              NominationsGetInstanceParamsFieldsAppEvents = "primaryLocale"
+	NominationsGetInstanceParamsFieldsAppEventsPriority                   NominationsGetInstanceParamsFieldsAppEvents = "priority"
+	NominationsGetInstanceParamsFieldsAppEventsPurchaseRequirement        NominationsGetInstanceParamsFieldsAppEvents = "purchaseRequirement"
+	NominationsGetInstanceParamsFieldsAppEventsPurpose                    NominationsGetInstanceParamsFieldsAppEvents = "purpose"
+	NominationsGetInstanceParamsFieldsAppEventsReferenceName              NominationsGetInstanceParamsFieldsAppEvents = "referenceName"
+	NominationsGetInstanceParamsFieldsAppEventsTerritorySchedules         NominationsGetInstanceParamsFieldsAppEvents = "territorySchedules"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetInstanceParamsFieldsAppEvents enum.
+func (e NominationsGetInstanceParamsFieldsAppEvents) Valid() bool {
+	switch e {
+	case NominationsGetInstanceParamsFieldsAppEventsArchivedTerritorySchedules:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsBadge:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsDeepLink:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsEventState:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsLocalizations:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsPrimaryLocale:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsPriority:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsPurchaseRequirement:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsPurpose:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsReferenceName:
+		return true
+	case NominationsGetInstanceParamsFieldsAppEventsTerritorySchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetInstanceParamsFieldsTerritories.
+const (
+	NominationsGetInstanceParamsFieldsTerritoriesCurrency NominationsGetInstanceParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetInstanceParamsFieldsTerritories enum.
+func (e NominationsGetInstanceParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case NominationsGetInstanceParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for NominationsGetInstanceParamsInclude.
+const (
+	NominationsGetInstanceParamsIncludeCreatedByActor       NominationsGetInstanceParamsInclude = "createdByActor"
+	NominationsGetInstanceParamsIncludeInAppEvents          NominationsGetInstanceParamsInclude = "inAppEvents"
+	NominationsGetInstanceParamsIncludeLastModifiedByActor  NominationsGetInstanceParamsInclude = "lastModifiedByActor"
+	NominationsGetInstanceParamsIncludeRelatedApps          NominationsGetInstanceParamsInclude = "relatedApps"
+	NominationsGetInstanceParamsIncludeSubmittedByActor     NominationsGetInstanceParamsInclude = "submittedByActor"
+	NominationsGetInstanceParamsIncludeSupportedTerritories NominationsGetInstanceParamsInclude = "supportedTerritories"
+)
+
+// Valid indicates whether the value is a known member of the NominationsGetInstanceParamsInclude enum.
+func (e NominationsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case NominationsGetInstanceParamsIncludeCreatedByActor:
+		return true
+	case NominationsGetInstanceParamsIncludeInAppEvents:
+		return true
+	case NominationsGetInstanceParamsIncludeLastModifiedByActor:
+		return true
+	case NominationsGetInstanceParamsIncludeRelatedApps:
+		return true
+	case NominationsGetInstanceParamsIncludeSubmittedByActor:
+		return true
+	case NominationsGetInstanceParamsIncludeSupportedTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for PassTypeIdsGetCollectionParamsSort.
 const (
 	PassTypeIdsGetCollectionParamsSortId              PassTypeIdsGetCollectionParamsSort = "id"
@@ -28521,6 +29685,13 @@ type AppKeyword struct {
 // AppKeywordType defines model for AppKeyword.Type.
 type AppKeywordType string
 
+// AppKeywordsResponse defines model for AppKeywordsResponse.
+type AppKeywordsResponse struct {
+	Data  []AppKeyword       `json:"data"`
+	Links PagedDocumentLinks `json:"links"`
+	Meta  *PagingInformation `json:"meta,omitempty"`
+}
+
 // AppMediaAssetState defines model for AppMediaAssetState.
 type AppMediaAssetState struct {
 	Errors   *[]AppMediaStateError    `json:"errors,omitempty"`
@@ -29501,6 +30672,17 @@ type AppStoreVersionLocalizationResponse struct {
 type AppStoreVersionLocalizationResponse_Included_Item struct {
 	union json.RawMessage
 }
+
+// AppStoreVersionLocalizationSearchKeywordsLinkagesRequest defines model for AppStoreVersionLocalizationSearchKeywordsLinkagesRequest.
+type AppStoreVersionLocalizationSearchKeywordsLinkagesRequest struct {
+	Data []struct {
+		Id   string                                                           `json:"id"`
+		Type AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataType defines model for AppStoreVersionLocalizationSearchKeywordsLinkagesRequest.Data.Type.
+type AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataType string
 
 // AppStoreVersionLocalizationUpdateRequest defines model for AppStoreVersionLocalizationUpdateRequest.
 type AppStoreVersionLocalizationUpdateRequest struct {
@@ -32648,6 +33830,240 @@ type MerchantIdsResponse struct {
 	Meta     *PagingInformation `json:"meta,omitempty"`
 }
 
+// Nomination defines model for Nomination.
+type Nomination struct {
+	Attributes *struct {
+		CreatedDate                *DateTime                  `json:"createdDate,omitempty"`
+		Description                *string                    `json:"description,omitempty"`
+		DeviceFamilies             *[]DeviceFamily            `json:"deviceFamilies,omitempty"`
+		HasInAppEvents             *bool                      `json:"hasInAppEvents,omitempty"`
+		LastModifiedDate           *DateTime                  `json:"lastModifiedDate,omitempty"`
+		LaunchInSelectMarketsFirst *bool                      `json:"launchInSelectMarketsFirst,omitempty"`
+		Locales                    *[]string                  `json:"locales,omitempty"`
+		Name                       *string                    `json:"name,omitempty"`
+		Notes                      *string                    `json:"notes,omitempty"`
+		PreOrderEnabled            *bool                      `json:"preOrderEnabled,omitempty"`
+		PublishEndDate             *DateTime                  `json:"publishEndDate,omitempty"`
+		PublishStartDate           *DateTime                  `json:"publishStartDate,omitempty"`
+		State                      *NominationAttributesState `json:"state,omitempty"`
+		SubmittedDate              *DateTime                  `json:"submittedDate,omitempty"`
+		SupplementalMaterialsUris  *[]string                  `json:"supplementalMaterialsUris,omitempty"`
+		Type                       *NominationAttributesType  `json:"type,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		CreatedByActor *struct {
+			Data *struct {
+				Id   string                                        `json:"id"`
+				Type NominationRelationshipsCreatedByActorDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"createdByActor,omitempty"`
+		InAppEvents *struct {
+			Data *[]struct {
+				Id   string                                     `json:"id"`
+				Type NominationRelationshipsInAppEventsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Meta *PagingInformation `json:"meta,omitempty"`
+		} `json:"inAppEvents,omitempty"`
+		LastModifiedByActor *struct {
+			Data *struct {
+				Id   string                                             `json:"id"`
+				Type NominationRelationshipsLastModifiedByActorDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"lastModifiedByActor,omitempty"`
+		RelatedApps *struct {
+			Data *[]struct {
+				Id   string                                     `json:"id"`
+				Type NominationRelationshipsRelatedAppsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Meta *PagingInformation `json:"meta,omitempty"`
+		} `json:"relatedApps,omitempty"`
+		SubmittedByActor *struct {
+			Data *struct {
+				Id   string                                          `json:"id"`
+				Type NominationRelationshipsSubmittedByActorDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"submittedByActor,omitempty"`
+		SupportedTerritories *struct {
+			Data *[]struct {
+				Id   string                                              `json:"id"`
+				Type NominationRelationshipsSupportedTerritoriesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Meta *PagingInformation `json:"meta,omitempty"`
+		} `json:"supportedTerritories,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type NominationType `json:"type"`
+}
+
+// NominationAttributesState defines model for Nomination.Attributes.State.
+type NominationAttributesState string
+
+// NominationAttributesType defines model for Nomination.Attributes.Type.
+type NominationAttributesType string
+
+// NominationRelationshipsCreatedByActorDataType defines model for Nomination.Relationships.CreatedByActor.Data.Type.
+type NominationRelationshipsCreatedByActorDataType string
+
+// NominationRelationshipsInAppEventsDataType defines model for Nomination.Relationships.InAppEvents.Data.Type.
+type NominationRelationshipsInAppEventsDataType string
+
+// NominationRelationshipsLastModifiedByActorDataType defines model for Nomination.Relationships.LastModifiedByActor.Data.Type.
+type NominationRelationshipsLastModifiedByActorDataType string
+
+// NominationRelationshipsRelatedAppsDataType defines model for Nomination.Relationships.RelatedApps.Data.Type.
+type NominationRelationshipsRelatedAppsDataType string
+
+// NominationRelationshipsSubmittedByActorDataType defines model for Nomination.Relationships.SubmittedByActor.Data.Type.
+type NominationRelationshipsSubmittedByActorDataType string
+
+// NominationRelationshipsSupportedTerritoriesDataType defines model for Nomination.Relationships.SupportedTerritories.Data.Type.
+type NominationRelationshipsSupportedTerritoriesDataType string
+
+// NominationType defines model for Nomination.Type.
+type NominationType string
+
+// NominationCreateRequest defines model for NominationCreateRequest.
+type NominationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Description                string                                    `json:"description"`
+			DeviceFamilies             *[]DeviceFamily                           `json:"deviceFamilies,omitempty"`
+			HasInAppEvents             *bool                                     `json:"hasInAppEvents,omitempty"`
+			LaunchInSelectMarketsFirst *bool                                     `json:"launchInSelectMarketsFirst,omitempty"`
+			Locales                    *[]string                                 `json:"locales,omitempty"`
+			Name                       string                                    `json:"name"`
+			Notes                      *string                                   `json:"notes,omitempty"`
+			PreOrderEnabled            *bool                                     `json:"preOrderEnabled,omitempty"`
+			PublishEndDate             *DateTime                                 `json:"publishEndDate,omitempty"`
+			PublishStartDate           DateTime                                  `json:"publishStartDate"`
+			Submitted                  bool                                      `json:"submitted"`
+			SupplementalMaterialsUris  *[]string                                 `json:"supplementalMaterialsUris,omitempty"`
+			Type                       NominationCreateRequestDataAttributesType `json:"type"`
+		} `json:"attributes"`
+		Relationships struct {
+			InAppEvents *struct {
+				Data *[]struct {
+					Id   string                                                      `json:"id"`
+					Type NominationCreateRequestDataRelationshipsInAppEventsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"inAppEvents,omitempty"`
+			RelatedApps struct {
+				Data []struct {
+					Id   string                                                      `json:"id"`
+					Type NominationCreateRequestDataRelationshipsRelatedAppsDataType `json:"type"`
+				} `json:"data"`
+			} `json:"relatedApps"`
+			SupportedTerritories *struct {
+				Data *[]struct {
+					Id   string                                                               `json:"id"`
+					Type NominationCreateRequestDataRelationshipsSupportedTerritoriesDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"supportedTerritories,omitempty"`
+		} `json:"relationships"`
+		Type NominationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// NominationCreateRequestDataAttributesType defines model for NominationCreateRequest.Data.Attributes.Type.
+type NominationCreateRequestDataAttributesType string
+
+// NominationCreateRequestDataRelationshipsInAppEventsDataType defines model for NominationCreateRequest.Data.Relationships.InAppEvents.Data.Type.
+type NominationCreateRequestDataRelationshipsInAppEventsDataType string
+
+// NominationCreateRequestDataRelationshipsRelatedAppsDataType defines model for NominationCreateRequest.Data.Relationships.RelatedApps.Data.Type.
+type NominationCreateRequestDataRelationshipsRelatedAppsDataType string
+
+// NominationCreateRequestDataRelationshipsSupportedTerritoriesDataType defines model for NominationCreateRequest.Data.Relationships.SupportedTerritories.Data.Type.
+type NominationCreateRequestDataRelationshipsSupportedTerritoriesDataType string
+
+// NominationCreateRequestDataType defines model for NominationCreateRequest.Data.Type.
+type NominationCreateRequestDataType string
+
+// NominationResponse defines model for NominationResponse.
+type NominationResponse struct {
+	Data     Nomination                          `json:"data"`
+	Included *[]NominationResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                       `json:"links"`
+}
+
+// NominationResponse_Included_Item defines model for NominationResponse.included.Item.
+type NominationResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// NominationUpdateRequest defines model for NominationUpdateRequest.
+type NominationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Archived                   *bool                                      `json:"archived,omitempty"`
+			Description                *string                                    `json:"description,omitempty"`
+			DeviceFamilies             *[]DeviceFamily                            `json:"deviceFamilies,omitempty"`
+			HasInAppEvents             *bool                                      `json:"hasInAppEvents,omitempty"`
+			LaunchInSelectMarketsFirst *bool                                      `json:"launchInSelectMarketsFirst,omitempty"`
+			Locales                    *[]string                                  `json:"locales,omitempty"`
+			Name                       *string                                    `json:"name,omitempty"`
+			Notes                      *string                                    `json:"notes,omitempty"`
+			PreOrderEnabled            *bool                                      `json:"preOrderEnabled,omitempty"`
+			PublishEndDate             *DateTime                                  `json:"publishEndDate,omitempty"`
+			PublishStartDate           *DateTime                                  `json:"publishStartDate,omitempty"`
+			Submitted                  *bool                                      `json:"submitted,omitempty"`
+			SupplementalMaterialsUris  *[]string                                  `json:"supplementalMaterialsUris,omitempty"`
+			Type                       *NominationUpdateRequestDataAttributesType `json:"type,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			InAppEvents *struct {
+				Data *[]struct {
+					Id   string                                                      `json:"id"`
+					Type NominationUpdateRequestDataRelationshipsInAppEventsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"inAppEvents,omitempty"`
+			RelatedApps *struct {
+				Data *[]struct {
+					Id   string                                                      `json:"id"`
+					Type NominationUpdateRequestDataRelationshipsRelatedAppsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"relatedApps,omitempty"`
+			SupportedTerritories *struct {
+				Data *[]struct {
+					Id   string                                                               `json:"id"`
+					Type NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"supportedTerritories,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type NominationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// NominationUpdateRequestDataAttributesType defines model for NominationUpdateRequest.Data.Attributes.Type.
+type NominationUpdateRequestDataAttributesType string
+
+// NominationUpdateRequestDataRelationshipsInAppEventsDataType defines model for NominationUpdateRequest.Data.Relationships.InAppEvents.Data.Type.
+type NominationUpdateRequestDataRelationshipsInAppEventsDataType string
+
+// NominationUpdateRequestDataRelationshipsRelatedAppsDataType defines model for NominationUpdateRequest.Data.Relationships.RelatedApps.Data.Type.
+type NominationUpdateRequestDataRelationshipsRelatedAppsDataType string
+
+// NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataType defines model for NominationUpdateRequest.Data.Relationships.SupportedTerritories.Data.Type.
+type NominationUpdateRequestDataRelationshipsSupportedTerritoriesDataType string
+
+// NominationUpdateRequestDataType defines model for NominationUpdateRequest.Data.Type.
+type NominationUpdateRequestDataType string
+
+// NominationsResponse defines model for NominationsResponse.
+type NominationsResponse struct {
+	Data     []Nomination                         `json:"data"`
+	Included *[]NominationsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                   `json:"links"`
+	Meta     *PagingInformation                   `json:"meta,omitempty"`
+}
+
+// NominationsResponse_Included_Item defines model for NominationsResponse.included.Item.
+type NominationsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
 // PagedDocumentLinks defines model for PagedDocumentLinks.
 type PagedDocumentLinks struct {
 	First *string `json:"first,omitempty"`
@@ -34184,6 +35600,21 @@ type AppPriceSchedulesManualPricesGetToManyRelatedParamsFieldsTerritories string
 // AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude defines parameters for AppPriceSchedulesManualPricesGetToManyRelated.
 type AppPriceSchedulesManualPricesGetToManyRelatedParamsInclude string
 
+// AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated.
+type AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams struct {
+	// FilterPlatform filter by platform
+	FilterPlatform *[]string `form:"filter[platform],omitempty" json:"filter[platform],omitempty"`
+
+	// FilterLocale filter by locale
+	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
+
+	// FieldsAppKeywords the fields to include for returned resources of type appKeywords
+	FieldsAppKeywords *[]string `form:"fields[appKeywords],omitempty" json:"fields[appKeywords],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
 // AppStoreVersionsGetInstanceParams defines parameters for AppStoreVersionsGetInstance.
 type AppStoreVersionsGetInstanceParams struct {
 	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
@@ -35170,6 +36601,21 @@ type AppsEndUserLicenseAgreementGetToOneRelatedParams struct {
 
 // AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements defines parameters for AppsEndUserLicenseAgreementGetToOneRelated.
 type AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements string
+
+// AppsSearchKeywordsGetToManyRelatedParams defines parameters for AppsSearchKeywordsGetToManyRelated.
+type AppsSearchKeywordsGetToManyRelatedParams struct {
+	// FilterPlatform filter by platform
+	FilterPlatform *[]string `form:"filter[platform],omitempty" json:"filter[platform],omitempty"`
+
+	// FilterLocale filter by locale
+	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
+
+	// FieldsAppKeywords the fields to include for returned resources of type appKeywords
+	FieldsAppKeywords *[]string `form:"fields[appKeywords],omitempty" json:"fields[appKeywords],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
 
 // BetaAppLocalizationsGetInstanceParams defines parameters for BetaAppLocalizationsGetInstance.
 type BetaAppLocalizationsGetInstanceParams struct {
@@ -36191,6 +37637,129 @@ type MerchantIdsCertificatesGetToManyRelatedParamsFieldsPassTypeIds string
 // MerchantIdsCertificatesGetToManyRelatedParamsInclude defines parameters for MerchantIdsCertificatesGetToManyRelated.
 type MerchantIdsCertificatesGetToManyRelatedParamsInclude string
 
+// NominationsGetCollectionParams defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParams struct {
+	// FilterType filter by attribute 'type'
+	FilterType *[]NominationsGetCollectionParamsFilterType `form:"filter[type],omitempty" json:"filter[type],omitempty"`
+
+	// FilterState filter by attribute 'state'
+	FilterState []NominationsGetCollectionParamsFilterState `form:"filter[state]" json:"filter[state]"`
+
+	// FilterHasInAppEvents filter by attribute 'hasInAppEvents'
+	FilterHasInAppEvents *[]string `form:"filter[hasInAppEvents],omitempty" json:"filter[hasInAppEvents],omitempty"`
+
+	// FilterRelatedApps filter by id(s) of related 'relatedApps'
+	FilterRelatedApps *[]string `form:"filter[relatedApps],omitempty" json:"filter[relatedApps],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]NominationsGetCollectionParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsNominations the fields to include for returned resources of type nominations
+	FieldsNominations *[]NominationsGetCollectionParamsFieldsNominations `form:"fields[nominations],omitempty" json:"fields[nominations],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]NominationsGetCollectionParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsActors the fields to include for returned resources of type actors
+	FieldsActors *[]NominationsGetCollectionParamsFieldsActors `form:"fields[actors],omitempty" json:"fields[actors],omitempty"`
+
+	// FieldsAppEvents the fields to include for returned resources of type appEvents
+	FieldsAppEvents *[]NominationsGetCollectionParamsFieldsAppEvents `form:"fields[appEvents],omitempty" json:"fields[appEvents],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]NominationsGetCollectionParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]NominationsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitInAppEvents maximum number of related inAppEvents returned (when they are included)
+	LimitInAppEvents *int `form:"limit[inAppEvents],omitempty" json:"limit[inAppEvents],omitempty"`
+
+	// LimitRelatedApps maximum number of related relatedApps returned (when they are included)
+	LimitRelatedApps *int `form:"limit[relatedApps],omitempty" json:"limit[relatedApps],omitempty"`
+
+	// LimitSupportedTerritories maximum number of related supportedTerritories returned (when they are included)
+	LimitSupportedTerritories *int `form:"limit[supportedTerritories],omitempty" json:"limit[supportedTerritories],omitempty"`
+}
+
+// NominationsGetCollectionParamsFilterType defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsFilterType string
+
+// NominationsGetCollectionParamsFilterState defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsFilterState string
+
+// NominationsGetCollectionParamsSort defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsSort string
+
+// NominationsGetCollectionParamsFieldsNominations defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsFieldsNominations string
+
+// NominationsGetCollectionParamsFieldsApps defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsFieldsApps string
+
+// NominationsGetCollectionParamsFieldsActors defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsFieldsActors string
+
+// NominationsGetCollectionParamsFieldsAppEvents defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsFieldsAppEvents string
+
+// NominationsGetCollectionParamsFieldsTerritories defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsFieldsTerritories string
+
+// NominationsGetCollectionParamsInclude defines parameters for NominationsGetCollection.
+type NominationsGetCollectionParamsInclude string
+
+// NominationsGetInstanceParams defines parameters for NominationsGetInstance.
+type NominationsGetInstanceParams struct {
+	// FieldsNominations the fields to include for returned resources of type nominations
+	FieldsNominations *[]NominationsGetInstanceParamsFieldsNominations `form:"fields[nominations],omitempty" json:"fields[nominations],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]NominationsGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsActors the fields to include for returned resources of type actors
+	FieldsActors *[]NominationsGetInstanceParamsFieldsActors `form:"fields[actors],omitempty" json:"fields[actors],omitempty"`
+
+	// FieldsAppEvents the fields to include for returned resources of type appEvents
+	FieldsAppEvents *[]NominationsGetInstanceParamsFieldsAppEvents `form:"fields[appEvents],omitempty" json:"fields[appEvents],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]NominationsGetInstanceParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]NominationsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitInAppEvents maximum number of related inAppEvents returned (when they are included)
+	LimitInAppEvents *int `form:"limit[inAppEvents],omitempty" json:"limit[inAppEvents],omitempty"`
+
+	// LimitRelatedApps maximum number of related relatedApps returned (when they are included)
+	LimitRelatedApps *int `form:"limit[relatedApps],omitempty" json:"limit[relatedApps],omitempty"`
+
+	// LimitSupportedTerritories maximum number of related supportedTerritories returned (when they are included)
+	LimitSupportedTerritories *int `form:"limit[supportedTerritories],omitempty" json:"limit[supportedTerritories],omitempty"`
+}
+
+// NominationsGetInstanceParamsFieldsNominations defines parameters for NominationsGetInstance.
+type NominationsGetInstanceParamsFieldsNominations string
+
+// NominationsGetInstanceParamsFieldsApps defines parameters for NominationsGetInstance.
+type NominationsGetInstanceParamsFieldsApps string
+
+// NominationsGetInstanceParamsFieldsActors defines parameters for NominationsGetInstance.
+type NominationsGetInstanceParamsFieldsActors string
+
+// NominationsGetInstanceParamsFieldsAppEvents defines parameters for NominationsGetInstance.
+type NominationsGetInstanceParamsFieldsAppEvents string
+
+// NominationsGetInstanceParamsFieldsTerritories defines parameters for NominationsGetInstance.
+type NominationsGetInstanceParamsFieldsTerritories string
+
+// NominationsGetInstanceParamsInclude defines parameters for NominationsGetInstance.
+type NominationsGetInstanceParamsInclude string
+
 // PassTypeIdsGetCollectionParams defines parameters for PassTypeIdsGetCollection.
 type PassTypeIdsGetCollectionParams struct {
 	// FilterName filter by attribute 'name'
@@ -36782,6 +38351,12 @@ type AppStoreVersionLocalizationsCreateInstanceJSONRequestBody = AppStoreVersion
 // AppStoreVersionLocalizationsUpdateInstanceJSONRequestBody defines body for AppStoreVersionLocalizationsUpdateInstance for application/json ContentType.
 type AppStoreVersionLocalizationsUpdateInstanceJSONRequestBody = AppStoreVersionLocalizationUpdateRequest
 
+// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody defines body for AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship for application/json ContentType.
+type AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody = AppStoreVersionLocalizationSearchKeywordsLinkagesRequest
+
+// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody defines body for AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship for application/json ContentType.
+type AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody = AppStoreVersionLocalizationSearchKeywordsLinkagesRequest
+
 // AppStoreVersionPhasedReleasesCreateInstanceJSONRequestBody defines body for AppStoreVersionPhasedReleasesCreateInstance for application/json ContentType.
 type AppStoreVersionPhasedReleasesCreateInstanceJSONRequestBody = AppStoreVersionPhasedReleaseCreateRequest
 
@@ -36916,6 +38491,12 @@ type MerchantIdsCreateInstanceJSONRequestBody = MerchantIdCreateRequest
 
 // MerchantIdsUpdateInstanceJSONRequestBody defines body for MerchantIdsUpdateInstance for application/json ContentType.
 type MerchantIdsUpdateInstanceJSONRequestBody = MerchantIdUpdateRequest
+
+// NominationsCreateInstanceJSONRequestBody defines body for NominationsCreateInstance for application/json ContentType.
+type NominationsCreateInstanceJSONRequestBody = NominationCreateRequest
+
+// NominationsUpdateInstanceJSONRequestBody defines body for NominationsUpdateInstance for application/json ContentType.
+type NominationsUpdateInstanceJSONRequestBody = NominationUpdateRequest
 
 // PassTypeIdsCreateInstanceJSONRequestBody defines body for PassTypeIdsCreateInstance for application/json ContentType.
 type PassTypeIdsCreateInstanceJSONRequestBody = PassTypeIdCreateRequest
@@ -43812,6 +45393,352 @@ func (t *ErrorResponse_Errors_Source) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsActor returns the union data inside the NominationResponse_Included_Item as a Actor
+func (t NominationResponse_Included_Item) AsActor() (Actor, error) {
+	var body Actor
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromActor overwrites any union data inside the NominationResponse_Included_Item as the provided Actor
+func (t *NominationResponse_Included_Item) FromActor(v Actor) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"actors"}`))
+	t.union = b
+	return err
+}
+
+// MergeActor performs a merge with any union data inside the NominationResponse_Included_Item, using the provided Actor
+func (t *NominationResponse_Included_Item) MergeActor(v Actor) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"actors"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEvent returns the union data inside the NominationResponse_Included_Item as a AppEvent
+func (t NominationResponse_Included_Item) AsAppEvent() (AppEvent, error) {
+	var body AppEvent
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEvent overwrites any union data inside the NominationResponse_Included_Item as the provided AppEvent
+func (t *NominationResponse_Included_Item) FromAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEvent performs a merge with any union data inside the NominationResponse_Included_Item, using the provided AppEvent
+func (t *NominationResponse_Included_Item) MergeAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the NominationResponse_Included_Item as a App
+func (t NominationResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the NominationResponse_Included_Item as the provided App
+func (t *NominationResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the NominationResponse_Included_Item, using the provided App
+func (t *NominationResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the NominationResponse_Included_Item as a Territory
+func (t NominationResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the NominationResponse_Included_Item as the provided Territory
+func (t *NominationResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the NominationResponse_Included_Item, using the provided Territory
+func (t *NominationResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t NominationResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t NominationResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "actors":
+		return t.AsActor()
+	case "appEvents":
+		return t.AsAppEvent()
+	case "apps":
+		return t.AsApp()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t NominationResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *NominationResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsActor returns the union data inside the NominationsResponse_Included_Item as a Actor
+func (t NominationsResponse_Included_Item) AsActor() (Actor, error) {
+	var body Actor
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromActor overwrites any union data inside the NominationsResponse_Included_Item as the provided Actor
+func (t *NominationsResponse_Included_Item) FromActor(v Actor) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"actors"}`))
+	t.union = b
+	return err
+}
+
+// MergeActor performs a merge with any union data inside the NominationsResponse_Included_Item, using the provided Actor
+func (t *NominationsResponse_Included_Item) MergeActor(v Actor) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"actors"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEvent returns the union data inside the NominationsResponse_Included_Item as a AppEvent
+func (t NominationsResponse_Included_Item) AsAppEvent() (AppEvent, error) {
+	var body AppEvent
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEvent overwrites any union data inside the NominationsResponse_Included_Item as the provided AppEvent
+func (t *NominationsResponse_Included_Item) FromAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEvent performs a merge with any union data inside the NominationsResponse_Included_Item, using the provided AppEvent
+func (t *NominationsResponse_Included_Item) MergeAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the NominationsResponse_Included_Item as a App
+func (t NominationsResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the NominationsResponse_Included_Item as the provided App
+func (t *NominationsResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the NominationsResponse_Included_Item, using the provided App
+func (t *NominationsResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the NominationsResponse_Included_Item as a Territory
+func (t NominationsResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the NominationsResponse_Included_Item as the provided Territory
+func (t *NominationsResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the NominationsResponse_Included_Item, using the provided Territory
+func (t *NominationsResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t NominationsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t NominationsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "actors":
+		return t.AsActor()
+	case "appEvents":
+		return t.AsAppEvent()
+	case "apps":
+		return t.AsApp()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t NominationsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *NominationsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsApp returns the union data inside the PreReleaseVersionsResponse_Included_Item as a App
 func (t PreReleaseVersionsResponse_Included_Item) AsApp() (App, error) {
 	var body App
@@ -45324,6 +47251,25 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppStoreVersionLocalizationsUpdateInstance(ctx context.Context, id string, body AppStoreVersionLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBody performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+	AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppStoreVersionPhasedReleasesCreateInstanceWithBody performs a POST /v1/appStoreVersionPhasedReleases (the `AppStoreVersionPhasedReleasesCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppStoreVersionPhasedReleasesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -45443,6 +47389,9 @@ type ClientInterface interface {
 	// AppsBetaTestersDeleteToManyRelationship performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type.
 	AppsBetaTestersDeleteToManyRelationship(ctx context.Context, id string, body AppsBetaTestersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsSearchKeywordsGetToManyRelated performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
+	AppsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// BetaAppLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -45842,6 +47791,31 @@ type ClientInterface interface {
 
 	// MerchantIdsCertificatesGetToManyRelated performs a GET /v1/merchantIds/{id}/certificates (the `MerchantIdsCertificatesGetToManyRelated` operationId) request.
 	MerchantIdsCertificatesGetToManyRelated(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// NominationsGetCollection performs a GET /v1/nominations (the `NominationsGetCollection` operationId) request.
+	NominationsGetCollection(ctx context.Context, params *NominationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// NominationsCreateInstanceWithBody performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	NominationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// NominationsCreateInstance performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	NominationsCreateInstance(ctx context.Context, body NominationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// NominationsDeleteInstance performs a DELETE /v1/nominations/{id} (the `NominationsDeleteInstance` operationId) request.
+	NominationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// NominationsGetInstance performs a GET /v1/nominations/{id} (the `NominationsGetInstance` operationId) request.
+	NominationsGetInstance(ctx context.Context, id string, params *NominationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// NominationsUpdateInstanceWithBody performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	NominationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// NominationsUpdateInstance performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	NominationsUpdateInstance(ctx context.Context, id string, body NominationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// PassTypeIdsGetCollection performs a GET /v1/passTypeIds (the `PassTypeIdsGetCollection` operationId) request.
 	PassTypeIdsGetCollection(ctx context.Context, params *PassTypeIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -46551,6 +48525,75 @@ func (c *Client) AppStoreVersionLocalizationsUpdateInstance(ctx context.Context,
 	return c.Client.Do(req)
 }
 
+// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBody performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated performs a GET /v1/appStoreVersionLocalizations/{id}/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+func (c *Client) AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppStoreVersionPhasedReleasesCreateInstanceWithBody performs a POST /v1/appStoreVersionPhasedReleases (the `AppStoreVersionPhasedReleasesCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) AppStoreVersionPhasedReleasesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -47001,6 +49044,19 @@ func (c *Client) AppsBetaTestersDeleteToManyRelationshipWithBody(ctx context.Con
 // Takes a body of the `application/json` content type.
 func (c *Client) AppsBetaTestersDeleteToManyRelationship(ctx context.Context, id string, body AppsBetaTestersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsBetaTestersDeleteToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsSearchKeywordsGetToManyRelated performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
+func (c *Client) AppsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsSearchKeywordsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -48490,6 +50546,101 @@ func (c *Client) MerchantIdsUpdateInstance(ctx context.Context, id string, body 
 // MerchantIdsCertificatesGetToManyRelated performs a GET /v1/merchantIds/{id}/certificates (the `MerchantIdsCertificatesGetToManyRelated` operationId) request.
 func (c *Client) MerchantIdsCertificatesGetToManyRelated(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewMerchantIdsCertificatesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// NominationsGetCollection performs a GET /v1/nominations (the `NominationsGetCollection` operationId) request.
+func (c *Client) NominationsGetCollection(ctx context.Context, params *NominationsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewNominationsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// NominationsCreateInstanceWithBody performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) NominationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewNominationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// NominationsCreateInstance performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) NominationsCreateInstance(ctx context.Context, body NominationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewNominationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// NominationsDeleteInstance performs a DELETE /v1/nominations/{id} (the `NominationsDeleteInstance` operationId) request.
+func (c *Client) NominationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewNominationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// NominationsGetInstance performs a GET /v1/nominations/{id} (the `NominationsGetInstance` operationId) request.
+func (c *Client) NominationsGetInstance(ctx context.Context, id string, params *NominationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewNominationsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// NominationsUpdateInstanceWithBody performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) NominationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewNominationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// NominationsUpdateInstance performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) NominationsUpdateInstance(ctx context.Context, id string, body NominationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewNominationsUpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -50583,6 +52734,197 @@ func NewAppStoreVersionLocalizationsUpdateInstanceRequestWithBody(server string,
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipRequest calls the generic AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship builder with application/json body
+func NewAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipRequest(server string, id string, body AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody constructs an http.Request for the AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship method, with any body, and a specified content type
+func NewAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionLocalizations/%s/relationships/searchKeywords", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipRequest calls the generic AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship builder with application/json body
+func NewAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipRequest(server string, id string, body AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody constructs an http.Request for the AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship method, with any body, and a specified content type
+func NewAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionLocalizations/%s/relationships/searchKeywords", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedRequest constructs an http.Request for the AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated method
+func NewAppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedRequest(server string, id string, params *AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionLocalizations/%s/searchKeywords", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlatform != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[platform]", *params.FilterPlatform, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppKeywords != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appKeywords]", *params.FieldsAppKeywords, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -54009,6 +56351,103 @@ func NewAppsBetaTestersDeleteToManyRelationshipRequestWithBody(server string, id
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppsSearchKeywordsGetToManyRelatedRequest constructs an http.Request for the AppsSearchKeywordsGetToManyRelated method
+func NewAppsSearchKeywordsGetToManyRelatedRequest(server string, id string, params *AppsSearchKeywordsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/searchKeywords", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlatform != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[platform]", *params.FilterPlatform, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppKeywords != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appKeywords]", *params.FieldsAppKeywords, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -59571,6 +62010,506 @@ func NewMerchantIdsCertificatesGetToManyRelatedRequest(server string, id string,
 	return req, nil
 }
 
+// NewNominationsGetCollectionRequest constructs an http.Request for the NominationsGetCollection method
+func NewNominationsGetCollectionRequest(server string, params *NominationsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/nominations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[type]", *params.FilterType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterHasInAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[hasInAppEvents]", *params.FilterHasInAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterRelatedApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[relatedApps]", *params.FilterRelatedApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsNominations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[nominations]", *params.FieldsNominations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsActors != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[actors]", *params.FieldsActors, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEvents]", *params.FieldsAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitInAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[inAppEvents]", *params.LimitInAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRelatedApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[relatedApps]", *params.LimitRelatedApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitSupportedTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[supportedTerritories]", *params.LimitSupportedTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewNominationsCreateInstanceRequest calls the generic NominationsCreateInstance builder with application/json body
+func NewNominationsCreateInstanceRequest(server string, body NominationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewNominationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewNominationsCreateInstanceRequestWithBody constructs an http.Request for the NominationsCreateInstance method, with any body, and a specified content type
+func NewNominationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/nominations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewNominationsDeleteInstanceRequest constructs an http.Request for the NominationsDeleteInstance method
+func NewNominationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/nominations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewNominationsGetInstanceRequest constructs an http.Request for the NominationsGetInstance method
+func NewNominationsGetInstanceRequest(server string, id string, params *NominationsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/nominations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsNominations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[nominations]", *params.FieldsNominations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsActors != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[actors]", *params.FieldsActors, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEvents]", *params.FieldsAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitInAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[inAppEvents]", *params.LimitInAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRelatedApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[relatedApps]", *params.LimitRelatedApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitSupportedTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[supportedTerritories]", *params.LimitSupportedTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewNominationsUpdateInstanceRequest calls the generic NominationsUpdateInstance builder with application/json body
+func NewNominationsUpdateInstanceRequest(server string, id string, body NominationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewNominationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewNominationsUpdateInstanceRequestWithBody constructs an http.Request for the NominationsUpdateInstance method, with any body, and a specified content type
+func NewNominationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/nominations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewPassTypeIdsGetCollectionRequest constructs an http.Request for the PassTypeIdsGetCollection method
 func NewPassTypeIdsGetCollectionRequest(server string, params *PassTypeIdsGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -62502,6 +65441,31 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreVersionLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsUpdateInstanceResponse, error)
 
+	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error)
+
+	// AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse, error)
+
 	// AppStoreVersionPhasedReleasesCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionPhasedReleases (the `AppStoreVersionPhasedReleasesCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -62671,6 +65635,11 @@ type ClientWithResponsesInterface interface {
 	// AppsBetaTestersDeleteToManyRelationshipWithResponse performs a DELETE /v1/apps/{id}/relationships/betaTesters (the `AppsBetaTestersDeleteToManyRelationship` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppsBetaTestersDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body AppsBetaTestersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppsBetaTestersDeleteToManyRelationshipResponse, error)
+
+	// AppsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsSearchKeywordsGetToManyRelatedResponse, error)
 
 	// BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -63216,6 +66185,41 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	MerchantIdsCertificatesGetToManyRelatedWithResponse(ctx context.Context, id string, params *MerchantIdsCertificatesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*MerchantIdsCertificatesGetToManyRelatedResponse, error)
+
+	// NominationsGetCollectionWithResponse performs a GET /v1/nominations (the `NominationsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	NominationsGetCollectionWithResponse(ctx context.Context, params *NominationsGetCollectionParams, reqEditors ...RequestEditorFn) (*NominationsGetCollectionResponse, error)
+
+	// NominationsCreateInstanceWithBodyWithResponse performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	NominationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*NominationsCreateInstanceResponse, error)
+
+	// NominationsCreateInstanceWithResponse performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	NominationsCreateInstanceWithResponse(ctx context.Context, body NominationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*NominationsCreateInstanceResponse, error)
+
+	// NominationsDeleteInstanceWithResponse performs a DELETE /v1/nominations/{id} (the `NominationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	NominationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*NominationsDeleteInstanceResponse, error)
+
+	// NominationsGetInstanceWithResponse performs a GET /v1/nominations/{id} (the `NominationsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	NominationsGetInstanceWithResponse(ctx context.Context, id string, params *NominationsGetInstanceParams, reqEditors ...RequestEditorFn) (*NominationsGetInstanceResponse, error)
+
+	// NominationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	NominationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*NominationsUpdateInstanceResponse, error)
+
+	// NominationsUpdateInstanceWithResponse performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	NominationsUpdateInstanceWithResponse(ctx context.Context, id string, body NominationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*NominationsUpdateInstanceResponse, error)
 
 	// PassTypeIdsGetCollectionWithResponse performs a GET /v1/passTypeIds (the `PassTypeIdsGetCollection` operationId) request.
 	//
@@ -65531,6 +68535,248 @@ func (r AppStoreVersionLocalizationsUpdateInstanceResponse) ContentType() string
 	return ""
 }
 
+type AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppKeywordsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON200() *AppKeywordsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppStoreVersionPhasedReleasesCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -67495,6 +70741,82 @@ func (r AppsBetaTestersDeleteToManyRelationshipResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsBetaTestersDeleteToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsSearchKeywordsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppKeywordsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsSearchKeywordsGetToManyRelatedResponse) GetJSON200() *AppKeywordsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsSearchKeywordsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsSearchKeywordsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsSearchKeywordsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsSearchKeywordsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsSearchKeywordsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsSearchKeywordsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsSearchKeywordsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsSearchKeywordsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsSearchKeywordsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -73252,6 +76574,393 @@ func (r MerchantIdsCertificatesGetToManyRelatedResponse) ContentType() string {
 	return ""
 }
 
+type NominationsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *NominationsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r NominationsGetCollectionResponse) GetJSON200() *NominationsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r NominationsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r NominationsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r NominationsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r NominationsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r NominationsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r NominationsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r NominationsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r NominationsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type NominationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *NominationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r NominationsCreateInstanceResponse) GetJSON201() *NominationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r NominationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r NominationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r NominationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r NominationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r NominationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r NominationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r NominationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r NominationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r NominationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r NominationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type NominationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r NominationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r NominationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r NominationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r NominationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r NominationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r NominationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r NominationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r NominationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r NominationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type NominationsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *NominationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r NominationsGetInstanceResponse) GetJSON200() *NominationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r NominationsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r NominationsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r NominationsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r NominationsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r NominationsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r NominationsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r NominationsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r NominationsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r NominationsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type NominationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *NominationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON200() *NominationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r NominationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r NominationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r NominationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r NominationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r NominationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type PassTypeIdsGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -76235,6 +79944,61 @@ func (c *ClientWithResponses) AppStoreVersionLocalizationsUpdateInstanceWithResp
 	return ParseAppStoreVersionLocalizationsUpdateInstanceResponse(rsp)
 }
 
+// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse(rsp)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse performs a DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse(rsp)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse(rsp)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse performs a POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse(rsp)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionLocalizations/{id}/searchKeywords (the `AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse(rsp)
+}
+
 // AppStoreVersionPhasedReleasesCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionPhasedReleases (the `AppStoreVersionPhasedReleasesCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -76607,6 +80371,17 @@ func (c *ClientWithResponses) AppsBetaTestersDeleteToManyRelationshipWithRespons
 		return nil, err
 	}
 	return ParseAppsBetaTestersDeleteToManyRelationshipResponse(rsp)
+}
+
+// AppsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsSearchKeywordsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsSearchKeywordsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsSearchKeywordsGetToManyRelatedResponse(rsp)
 }
 
 // BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
@@ -77806,6 +81581,83 @@ func (c *ClientWithResponses) MerchantIdsCertificatesGetToManyRelatedWithRespons
 		return nil, err
 	}
 	return ParseMerchantIdsCertificatesGetToManyRelatedResponse(rsp)
+}
+
+// NominationsGetCollectionWithResponse performs a GET /v1/nominations (the `NominationsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) NominationsGetCollectionWithResponse(ctx context.Context, params *NominationsGetCollectionParams, reqEditors ...RequestEditorFn) (*NominationsGetCollectionResponse, error) {
+	rsp, err := c.NominationsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseNominationsGetCollectionResponse(rsp)
+}
+
+// NominationsCreateInstanceWithBodyWithResponse performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) NominationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*NominationsCreateInstanceResponse, error) {
+	rsp, err := c.NominationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseNominationsCreateInstanceResponse(rsp)
+}
+
+// NominationsCreateInstanceWithResponse performs a POST /v1/nominations (the `NominationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) NominationsCreateInstanceWithResponse(ctx context.Context, body NominationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*NominationsCreateInstanceResponse, error) {
+	rsp, err := c.NominationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseNominationsCreateInstanceResponse(rsp)
+}
+
+// NominationsDeleteInstanceWithResponse performs a DELETE /v1/nominations/{id} (the `NominationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) NominationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*NominationsDeleteInstanceResponse, error) {
+	rsp, err := c.NominationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseNominationsDeleteInstanceResponse(rsp)
+}
+
+// NominationsGetInstanceWithResponse performs a GET /v1/nominations/{id} (the `NominationsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) NominationsGetInstanceWithResponse(ctx context.Context, id string, params *NominationsGetInstanceParams, reqEditors ...RequestEditorFn) (*NominationsGetInstanceResponse, error) {
+	rsp, err := c.NominationsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseNominationsGetInstanceResponse(rsp)
+}
+
+// NominationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) NominationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*NominationsUpdateInstanceResponse, error) {
+	rsp, err := c.NominationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseNominationsUpdateInstanceResponse(rsp)
+}
+
+// NominationsUpdateInstanceWithResponse performs a PATCH /v1/nominations/{id} (the `NominationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) NominationsUpdateInstanceWithResponse(ctx context.Context, id string, body NominationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*NominationsUpdateInstanceResponse, error) {
+	rsp, err := c.NominationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseNominationsUpdateInstanceResponse(rsp)
 }
 
 // PassTypeIdsGetCollectionWithResponse performs a GET /v1/passTypeIds (the `PassTypeIdsGetCollection` operationId) request.
@@ -80013,6 +83865,209 @@ func ParseAppStoreVersionLocalizationsUpdateInstanceResponse(rsp *http.Response)
 	return response, nil
 }
 
+// ParseAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse parses an HTTP response from a AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse call
+func ParseAppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse(rsp *http.Response) (*AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse parses an HTTP response from a AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse call
+func ParseAppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse(rsp *http.Response) (*AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse parses an HTTP response from a AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedWithResponse call
+func ParseAppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse(rsp *http.Response) (*AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppKeywordsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppStoreVersionPhasedReleasesCreateInstanceResponse parses an HTTP response from a AppStoreVersionPhasedReleasesCreateInstanceWithResponse call
 func ParseAppStoreVersionPhasedReleasesCreateInstanceResponse(rsp *http.Response) (*AppStoreVersionPhasedReleasesCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -81613,6 +85668,67 @@ func ParseAppsBetaTestersDeleteToManyRelationshipResponse(rsp *http.Response) (*
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsSearchKeywordsGetToManyRelatedResponse parses an HTTP response from a AppsSearchKeywordsGetToManyRelatedWithResponse call
+func ParseAppsSearchKeywordsGetToManyRelatedResponse(rsp *http.Response) (*AppsSearchKeywordsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsSearchKeywordsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppKeywordsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -86336,6 +90452,324 @@ func ParseMerchantIdsCertificatesGetToManyRelatedResponse(rsp *http.Response) (*
 	return response, nil
 }
 
+// ParseNominationsGetCollectionResponse parses an HTTP response from a NominationsGetCollectionWithResponse call
+func ParseNominationsGetCollectionResponse(rsp *http.Response) (*NominationsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &NominationsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest NominationsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	case rsp.StatusCode == 200:
+		// Content-type (text/csv) unsupported
+
+	}
+
+	return response, nil
+}
+
+// ParseNominationsCreateInstanceResponse parses an HTTP response from a NominationsCreateInstanceWithResponse call
+func ParseNominationsCreateInstanceResponse(rsp *http.Response) (*NominationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &NominationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest NominationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseNominationsDeleteInstanceResponse parses an HTTP response from a NominationsDeleteInstanceWithResponse call
+func ParseNominationsDeleteInstanceResponse(rsp *http.Response) (*NominationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &NominationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseNominationsGetInstanceResponse parses an HTTP response from a NominationsGetInstanceWithResponse call
+func ParseNominationsGetInstanceResponse(rsp *http.Response) (*NominationsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &NominationsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest NominationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseNominationsUpdateInstanceResponse parses an HTTP response from a NominationsUpdateInstanceWithResponse call
+func ParseNominationsUpdateInstanceResponse(rsp *http.Response) (*NominationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &NominationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest NominationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParsePassTypeIdsGetCollectionResponse parses an HTTP response from a PassTypeIdsGetCollectionWithResponse call
 func ParsePassTypeIdsGetCollectionResponse(rsp *http.Response) (*PassTypeIdsGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -88486,6 +92920,15 @@ type ServerInterface interface {
 	// (PATCH /v1/appStoreVersionLocalizations/{id})
 	AppStoreVersionLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (DELETE /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords)
+	AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords)
+	AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appStoreVersionLocalizations/{id}/searchKeywords)
+	AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams)
+
 	// (POST /v1/appStoreVersionPhasedReleases)
 	AppStoreVersionPhasedReleasesCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -88560,6 +93003,9 @@ type ServerInterface interface {
 
 	// (DELETE /v1/apps/{id}/relationships/betaTesters)
 	AppsBetaTestersDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/apps/{id}/searchKeywords)
+	AppsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsSearchKeywordsGetToManyRelatedParams)
 
 	// (POST /v1/betaAppLocalizations)
 	BetaAppLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -88779,6 +93225,21 @@ type ServerInterface interface {
 
 	// (GET /v1/merchantIds/{id}/certificates)
 	MerchantIdsCertificatesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params MerchantIdsCertificatesGetToManyRelatedParams)
+
+	// (GET /v1/nominations)
+	NominationsGetCollection(w http.ResponseWriter, r *http.Request, params NominationsGetCollectionParams)
+
+	// (POST /v1/nominations)
+	NominationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/nominations/{id})
+	NominationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/nominations/{id})
+	NominationsGetInstance(w http.ResponseWriter, r *http.Request, id string, params NominationsGetInstanceParams)
+
+	// (PATCH /v1/nominations/{id})
+	NominationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
 	// (GET /v1/passTypeIds)
 	PassTypeIdsGetCollection(w http.ResponseWriter, r *http.Request, params PassTypeIdsGetCollectionParams)
@@ -89864,6 +94325,139 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsUpdateInstance(w 
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppStoreVersionLocalizationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionLocalizationsSearchKeywordsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[platform]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[platform]", r.URL.Query(), &params.FilterPlatform, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[platform]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[platform]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appKeywords]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appKeywords]", r.URL.Query(), &params.FieldsAppKeywords, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appKeywords]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appKeywords]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -92991,6 +97585,87 @@ func (siw *ServerInterfaceWrapper) AppsBetaTestersDeleteToManyRelationship(w htt
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsBetaTestersDeleteToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsSearchKeywordsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsSearchKeywordsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[platform]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[platform]", r.URL.Query(), &params.FilterPlatform, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[platform]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[platform]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appKeywords]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appKeywords]", r.URL.Query(), &params.FieldsAppKeywords, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appKeywords]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appKeywords]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsSearchKeywordsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -97297,6 +101972,433 @@ func (siw *ServerInterfaceWrapper) MerchantIdsCertificatesGetToManyRelated(w htt
 	handler.ServeHTTP(w, r)
 }
 
+// NominationsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) NominationsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params NominationsGetCollectionParams
+
+	// ------------- Optional query parameter "filter[type]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[type]", r.URL.Query(), &params.FilterType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[type]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[type]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Required query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, true, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[hasInAppEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[hasInAppEvents]", r.URL.Query(), &params.FilterHasInAppEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[hasInAppEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[hasInAppEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[relatedApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[relatedApps]", r.URL.Query(), &params.FilterRelatedApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[relatedApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[relatedApps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[nominations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[nominations]", r.URL.Query(), &params.FieldsNominations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[nominations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[nominations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[actors]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[actors]", r.URL.Query(), &params.FieldsActors, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[actors]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[actors]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEvents]", r.URL.Query(), &params.FieldsAppEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[inAppEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[inAppEvents]", r.URL.Query(), &params.LimitInAppEvents, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[inAppEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[inAppEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[relatedApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[relatedApps]", r.URL.Query(), &params.LimitRelatedApps, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[relatedApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[relatedApps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[supportedTerritories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[supportedTerritories]", r.URL.Query(), &params.LimitSupportedTerritories, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[supportedTerritories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[supportedTerritories]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.NominationsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// NominationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) NominationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.NominationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// NominationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) NominationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.NominationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// NominationsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) NominationsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params NominationsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[nominations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[nominations]", r.URL.Query(), &params.FieldsNominations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[nominations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[nominations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[actors]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[actors]", r.URL.Query(), &params.FieldsActors, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[actors]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[actors]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEvents]", r.URL.Query(), &params.FieldsAppEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[inAppEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[inAppEvents]", r.URL.Query(), &params.LimitInAppEvents, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[inAppEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[inAppEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[relatedApps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[relatedApps]", r.URL.Query(), &params.LimitRelatedApps, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[relatedApps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[relatedApps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[supportedTerritories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[supportedTerritories]", r.URL.Query(), &params.LimitSupportedTerritories, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[supportedTerritories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[supportedTerritories]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.NominationsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// NominationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) NominationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.NominationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // PassTypeIdsGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) PassTypeIdsGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -99579,6 +104681,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations", wrapper.AppStoreVersionLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsUpdateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/relationships/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}/searchKeywords", wrapper.AppStoreVersionLocalizationsSearchKeywordsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionPhasedReleases", wrapper.AppStoreVersionPhasedReleasesCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionPhasedReleases/{id}", wrapper.AppStoreVersionPhasedReleasesDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersionPhasedReleases/{id}", wrapper.AppStoreVersionPhasedReleasesUpdateInstance)
@@ -99604,6 +104709,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appTags", wrapper.AppsAppTagsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/searchKeywords", wrapper.AppsSearchKeywordsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsGetInstance)
@@ -99677,6 +104783,11 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds/{id}", wrapper.MerchantIdsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/merchantIds/{id}", wrapper.MerchantIdsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds/{id}/certificates", wrapper.MerchantIdsCertificatesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/nominations", wrapper.NominationsGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/nominations", wrapper.NominationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/nominations/{id}", wrapper.NominationsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/nominations/{id}", wrapper.NominationsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/nominations/{id}", wrapper.NominationsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/passTypeIds", wrapper.PassTypeIdsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/passTypeIds", wrapper.PassTypeIdsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/passTypeIds/{id}", wrapper.PassTypeIdsDeleteInstance)

@@ -1,0 +1,1 @@
+terraform import apple_nomination.launch 1234567890
