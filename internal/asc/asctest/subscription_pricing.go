@@ -6,6 +6,8 @@ import (
 	"slices"
 	"strconv"
 
+	openapi_types "github.com/oapi-codegen/runtime/types"
+
 	"github.com/smoketurner/terraform-provider-apple/internal/asc/gen"
 )
 
@@ -34,6 +36,14 @@ type subscriptionPricingState struct {
 func newSubscriptionPricingState() *subscriptionPricingState {
 	return &subscriptionPricingState{prices: map[string]*gen.SubscriptionPrice{}, priceOwner: map[string]string{},
 		plans: map[string]*subscriptionPlanAvailability{}, grace: map[string]*gen.SubscriptionGracePeriod{}}
+}
+
+// sameDate reports whether two optional dates are equal.
+func sameDate(a, b *openapi_types.Date) bool {
+	if a == nil || b == nil {
+		return a == b
+	}
+	return a.Equal(b.Time)
 }
 
 func renderSubscriptionPricePoint(subID, territory string, tier int) gen.SubscriptionPricePoint {
@@ -121,7 +131,7 @@ func (s *Server) SubscriptionPricesCreateInstance(w http.ResponseWriter, r *http
 	}
 	for id, p := range s.subPricing.prices {
 		if s.subPricing.priceOwner[id] == subID && p.Relationships.Territory.Data.Id == territory && *p.Attributes.PlanType == *a.PlanType &&
-			fmt.Sprint(p.Attributes.StartDate) == fmt.Sprint(a.StartDate) {
+			sameDate(p.Attributes.StartDate, a.StartDate) {
 			conflict(w, "ENTITY_ERROR.ATTRIBUTE.INVALID", "The subscription already has a price in "+territory+" starting then.", "/data/attributes/startDate")
 			return
 		}

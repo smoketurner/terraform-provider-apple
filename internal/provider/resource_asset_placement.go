@@ -601,13 +601,6 @@ type specDimensions = struct {
 	MinWidth  *int `json:"minWidth,omitempty"`
 }
 
-func intValue(p *int) types.Int64 {
-	if p == nil {
-		return types.Int64Null()
-	}
-	return types.Int64Value(int64(*p))
-}
-
 func int64Value(p *int64) types.Int64 {
 	if p == nil {
 		return types.Int64Null()

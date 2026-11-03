@@ -1,0 +1,1 @@
+terraform import apple_promoted_purchase.pro 1234567890/9876543210
