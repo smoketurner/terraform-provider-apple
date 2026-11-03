@@ -1,0 +1,1 @@
+terraform import apple_subscription_promotional_offer.half 9876543210

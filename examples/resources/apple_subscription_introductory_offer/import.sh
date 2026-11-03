@@ -1,0 +1,1 @@
+terraform import apple_subscription_introductory_offer.trial 6446452616/9876543210

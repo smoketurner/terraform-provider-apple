@@ -1,0 +1,1 @@
+terraform import apple_promoted_purchase_order.app 1234567890
