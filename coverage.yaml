@@ -395,9 +395,9 @@ operations:
   apps_getCollection: {status: covered, by: [data.apple_app, data.apple_apps]}
   apps_getInstance: {status: covered, by: [data.apple_app]}
   apps_inAppPurchasesV2_getToManyRelated: {status: covered, by: [data.apple_in_app_purchases]}
-  apps_inAppPurchasesV2_getToManyRelationship: {status: planned, issue: 7}
+  apps_inAppPurchasesV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_inAppPurchases_getToManyRelated: {status: out_of_scope, reason: "the v1 in-app purchase API is deprecated; the v2 operations replace it"}
-  apps_inAppPurchases_getToManyRelationship: {status: planned, issue: 7}
+  apps_inAppPurchases_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_marketplaceSearchDetail_getToOneRelated: {status: planned, issue: 15}
   apps_marketplaceSearchDetail_getToOneRelationship: {status: planned, issue: 15}
   apps_perfPowerMetrics_getToManyRelated: {status: planned, issue: 16}
@@ -1004,11 +1004,11 @@ operations:
   inAppPurchaseAppStoreReviewScreenshots_deleteInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
   inAppPurchaseAppStoreReviewScreenshots_getInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
   inAppPurchaseAppStoreReviewScreenshots_updateInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
-  inAppPurchaseAvailabilities_availableTerritories_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchaseAvailabilities_availableTerritories_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchaseAvailabilities_createInstance: {status: planned, issue: 7}
-  inAppPurchaseAvailabilities_getInstance: {status: planned, issue: 7}
-  inAppPurchaseContents_getInstance: {status: planned, issue: 7}
+  inAppPurchaseAvailabilities_availableTerritories_getToManyRelated: {status: covered, by: [apple_in_app_purchase_availability]}
+  inAppPurchaseAvailabilities_availableTerritories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  inAppPurchaseAvailabilities_createInstance: {status: covered, by: [apple_in_app_purchase_availability]}
+  inAppPurchaseAvailabilities_getInstance: {status: out_of_scope, reason: "availability is read through the in-app purchase"}
+  inAppPurchaseContents_getInstance: {status: out_of_scope, reason: "hosted content is uploaded with Xcode, not managed here"}
   inAppPurchaseImagesV2_createInstance: {status: covered, by: [apple_in_app_purchase_image]}
   inAppPurchaseImagesV2_deleteInstance: {status: covered, by: [apple_in_app_purchase_image]}
   inAppPurchaseImagesV2_getInstance: {status: covered, by: [apple_in_app_purchase_image]}
@@ -1034,56 +1034,56 @@ operations:
   inAppPurchaseOfferCodeOneTimeUseCodes_values_getToOneRelated: {status: planned, issue: 7}
   inAppPurchaseOfferCodes_createInstance: {status: planned, issue: 7}
   inAppPurchaseOfferCodes_customCodes_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchaseOfferCodes_customCodes_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchaseOfferCodes_customCodes_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchaseOfferCodes_getInstance: {status: planned, issue: 7}
   inAppPurchaseOfferCodes_oneTimeUseCodes_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchaseOfferCodes_oneTimeUseCodes_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchaseOfferCodes_oneTimeUseCodes_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchaseOfferCodes_prices_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchaseOfferCodes_prices_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchaseOfferCodes_prices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchaseOfferCodes_updateInstance: {status: planned, issue: 7}
-  inAppPurchasePricePoints_equalizations_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchasePricePoints_equalizations_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_automaticPrices_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_automaticPrices_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_baseTerritory_getToOneRelated: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_baseTerritory_getToOneRelationship: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_createInstance: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_getInstance: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_manualPrices_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchasePriceSchedules_manualPrices_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchasePricePoints_equalizations_getToManyRelated: {status: covered, by: [data.apple_in_app_purchase_price_point_equalizations]}
+  inAppPurchasePricePoints_equalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  inAppPurchasePriceSchedules_automaticPrices_getToManyRelated: {status: out_of_scope, reason: "automatic prices are equalized from the base territory price; data.apple_in_app_purchase_price_point_equalizations shows them"}
+  inAppPurchasePriceSchedules_automaticPrices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  inAppPurchasePriceSchedules_baseTerritory_getToOneRelated: {status: covered, by: [apple_in_app_purchase_price_schedule]}
+  inAppPurchasePriceSchedules_baseTerritory_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  inAppPurchasePriceSchedules_createInstance: {status: covered, by: [apple_in_app_purchase_price_schedule]}
+  inAppPurchasePriceSchedules_getInstance: {status: out_of_scope, reason: "the price schedule is read through the in-app purchase"}
+  inAppPurchasePriceSchedules_manualPrices_getToManyRelated: {status: covered, by: [apple_in_app_purchase_price_schedule]}
+  inAppPurchasePriceSchedules_manualPrices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchaseSubmissions_createInstance: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
   inAppPurchaseVersions_createInstance: {status: covered, by: [apple_in_app_purchase_localization, apple_in_app_purchase_image, action.apple_submit_in_app_purchase]}
   inAppPurchaseVersions_getInstance: {status: out_of_scope, reason: "versions are read through the purchase's version list"}
   inAppPurchaseVersions_image_getToOneRelated: {status: covered, by: [apple_in_app_purchase_image]}
-  inAppPurchaseVersions_image_getToOneRelationship: {status: planned, issue: 7}
+  inAppPurchaseVersions_image_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchaseVersions_images_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchaseVersions_images_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchaseVersions_images_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchaseVersions_localizations_getToManyRelated: {status: covered, by: [apple_in_app_purchase_localization]}
-  inAppPurchaseVersions_localizations_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchaseVersions_localizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchasesV2_appStoreReviewScreenshot_getToOneRelated: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
-  inAppPurchasesV2_appStoreReviewScreenshot_getToOneRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_content_getToOneRelated: {status: planned, issue: 7}
-  inAppPurchasesV2_content_getToOneRelationship: {status: planned, issue: 7}
+  inAppPurchasesV2_appStoreReviewScreenshot_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  inAppPurchasesV2_content_getToOneRelated: {status: out_of_scope, reason: "hosted content is uploaded with Xcode, not managed here"}
+  inAppPurchasesV2_content_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchasesV2_createInstance: {status: covered, by: [apple_in_app_purchase]}
   inAppPurchasesV2_deleteInstance: {status: covered, by: [apple_in_app_purchase]}
   inAppPurchasesV2_getInstance: {status: covered, by: [apple_in_app_purchase]}
-  inAppPurchasesV2_iapPriceSchedule_getToOneRelated: {status: planned, issue: 7}
-  inAppPurchasesV2_iapPriceSchedule_getToOneRelationship: {status: planned, issue: 7}
+  inAppPurchasesV2_iapPriceSchedule_getToOneRelated: {status: covered, by: [apple_in_app_purchase_price_schedule]}
+  inAppPurchasesV2_iapPriceSchedule_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchasesV2_images_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
-  inAppPurchasesV2_images_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_inAppPurchaseAvailability_getToOneRelated: {status: planned, issue: 7}
-  inAppPurchasesV2_inAppPurchaseAvailability_getToOneRelationship: {status: planned, issue: 7}
+  inAppPurchasesV2_images_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  inAppPurchasesV2_inAppPurchaseAvailability_getToOneRelated: {status: covered, by: [apple_in_app_purchase_availability]}
+  inAppPurchasesV2_inAppPurchaseAvailability_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchasesV2_inAppPurchaseLocalizations_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of in-app purchase versions"}
-  inAppPurchasesV2_inAppPurchaseLocalizations_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchasesV2_inAppPurchaseLocalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchasesV2_offerCodes_getToManyRelated: {status: planned, issue: 7}
   inAppPurchasesV2_offerCodes_getToManyRelationship: {status: planned, issue: 7}
-  inAppPurchasesV2_pricePoints_getToManyRelated: {status: planned, issue: 7}
-  inAppPurchasesV2_pricePoints_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchasesV2_pricePoints_getToManyRelated: {status: covered, by: [data.apple_in_app_purchase_price_points]}
+  inAppPurchasesV2_pricePoints_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchasesV2_promotedPurchase_getToOneRelated: {status: planned, issue: 7}
   inAppPurchasesV2_promotedPurchase_getToOneRelationship: {status: planned, issue: 7}
   inAppPurchasesV2_updateInstance: {status: covered, by: [apple_in_app_purchase]}
   inAppPurchasesV2_versions_getToManyRelated: {status: covered, by: [apple_in_app_purchase_localization, apple_in_app_purchase_image, action.apple_submit_in_app_purchase]}
-  inAppPurchasesV2_versions_getToManyRelationship: {status: planned, issue: 7}
+  inAppPurchasesV2_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   inAppPurchases_getInstance: {status: out_of_scope, reason: "the v1 in-app purchase API is deprecated; the v2 operations replace it"}
   marketplaceSearchDetails_createInstance: {status: planned, issue: 15}
   marketplaceSearchDetails_deleteInstance: {status: planned, issue: 15}
@@ -1145,9 +1145,9 @@ operations:
   routingAppCoverages_getInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
   routingAppCoverages_updateInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
   salesReports_getCollection: {status: planned, issue: 16}
-  sandboxTestersClearPurchaseHistoryRequestV2_createInstance: {status: planned, issue: 7}
-  sandboxTestersV2_getCollection: {status: planned, issue: 7}
-  sandboxTestersV2_updateInstance: {status: planned, issue: 7}
+  sandboxTestersClearPurchaseHistoryRequestV2_createInstance: {status: covered, by: [action.apple_clear_sandbox_purchase_history]}
+  sandboxTestersV2_getCollection: {status: covered, by: [apple_sandbox_tester, data.apple_sandbox_testers]}
+  sandboxTestersV2_updateInstance: {status: covered, by: [apple_sandbox_tester]}
   scmGitReferences_getInstance: {status: planned, issue: 8}
   scmProviders_getCollection: {status: planned, issue: 8}
   scmProviders_getInstance: {status: planned, issue: 8}

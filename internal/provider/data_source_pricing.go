@@ -71,17 +71,26 @@ var pricePointAttributes = map[string]schema.Attribute{
 }
 
 func pricePoints(ctx context.Context, m *[]pricePointData, prices types.Set, data []gen.AppPricePointV3, diags *diag.Diagnostics) {
-	*m = []pricePointData{}
+	var items []pricePointData
 	for _, p := range data {
 		a := asc.Value(p.Attributes)
-		if !passes(ctx, prices, asc.Value(a.CustomerPrice), diags) {
-			continue
-		}
 		item := pricePointData{ID: types.StringValue(p.Id), Territory: types.StringNull(), CustomerPrice: stringValue(a.CustomerPrice), Proceeds: stringValue(a.Proceeds)}
 		if rel := p.Relationships; rel != nil && rel.Territory != nil && rel.Territory.Data != nil {
 			item.Territory = types.StringValue(rel.Territory.Data.Id)
 		}
-		*m = append(*m, item)
+		items = append(items, item)
+	}
+	filterPricePoints(ctx, m, prices, items, diags)
+}
+
+// filterPricePoints keeps the price points whose customer price passes
+// prices.
+func filterPricePoints(ctx context.Context, m *[]pricePointData, prices types.Set, items []pricePointData, diags *diag.Diagnostics) {
+	*m = []pricePointData{}
+	for _, item := range items {
+		if passes(ctx, prices, item.CustomerPrice.ValueString(), diags) {
+			*m = append(*m, item)
+		}
 	}
 }
 

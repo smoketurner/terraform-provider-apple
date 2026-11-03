@@ -173,6 +173,8 @@ output-options:
     - inAppPurchaseAppStoreReviewScreenshots_deleteInstance
     - inAppPurchaseAppStoreReviewScreenshots_getInstance
     - inAppPurchaseAppStoreReviewScreenshots_updateInstance
+    - inAppPurchaseAvailabilities_availableTerritories_getToManyRelated
+    - inAppPurchaseAvailabilities_createInstance
     - inAppPurchaseImagesV2_createInstance
     - inAppPurchaseImagesV2_deleteInstance
     - inAppPurchaseImagesV2_getInstance
@@ -180,6 +182,10 @@ output-options:
     - inAppPurchaseLocalizationsV2_createInstance
     - inAppPurchaseLocalizationsV2_deleteInstance
     - inAppPurchaseLocalizationsV2_updateInstance
+    - inAppPurchasePricePoints_equalizations_getToManyRelated
+    - inAppPurchasePriceSchedules_baseTerritory_getToOneRelated
+    - inAppPurchasePriceSchedules_createInstance
+    - inAppPurchasePriceSchedules_manualPrices_getToManyRelated
     - inAppPurchaseVersions_createInstance
     - inAppPurchaseVersions_image_getToOneRelated
     - inAppPurchaseVersions_localizations_getToManyRelated
@@ -187,6 +193,9 @@ output-options:
     - inAppPurchasesV2_createInstance
     - inAppPurchasesV2_deleteInstance
     - inAppPurchasesV2_getInstance
+    - inAppPurchasesV2_iapPriceSchedule_getToOneRelated
+    - inAppPurchasesV2_inAppPurchaseAvailability_getToOneRelated
+    - inAppPurchasesV2_pricePoints_getToManyRelated
     - inAppPurchasesV2_updateInstance
     - inAppPurchasesV2_versions_getToManyRelated
     - merchantIds_certificates_getToManyRelated
@@ -222,6 +231,9 @@ output-options:
     - routingAppCoverages_deleteInstance
     - routingAppCoverages_getInstance
     - routingAppCoverages_updateInstance
+    - sandboxTestersClearPurchaseHistoryRequestV2_createInstance
+    - sandboxTestersV2_getCollection
+    - sandboxTestersV2_updateInstance
     - territories_getCollection
     - territoryAvailabilities_updateInstance
     - userInvitations_createInstance

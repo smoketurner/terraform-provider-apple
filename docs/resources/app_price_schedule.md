@@ -3,12 +3,12 @@
 page_title: "apple_app_price_schedule Resource - apple"
 subcategory: ""
 description: |-
-  Sets an app's price: a price point in a base territory, from which App Store Connect sets equivalent prices in the other territories, plus optional manual prices for other territories and scheduled price changes. Find price points with data.apple_app_price_points. Every change replaces the whole schedule. App Store Connect can't delete a schedule, so destroying the resource leaves the prices as they are. Import it by app ID.
+  Sets an app's price: a price point in a base territory, from which App Store Connect sets equivalent prices in the other territories, plus optional manual prices for other territories and scheduled price changes. Find price points with data.apple_app_price_points. Every change replaces the whole schedule. App Store Connect can't delete a schedule, so destroying the resource leaves the prices as they are. Import it by the owner's ID.
 ---
 
 # apple_app_price_schedule (Resource)
 
-Sets an app's price: a price point in a base territory, from which App Store Connect sets equivalent prices in the other territories, plus optional manual prices for other territories and scheduled price changes. Find price points with `data.apple_app_price_points`. Every change replaces the whole schedule. App Store Connect can't delete a schedule, so destroying the resource leaves the prices as they are. Import it by app ID.
+Sets an app's price: a price point in a base territory, from which App Store Connect sets equivalent prices in the other territories, plus optional manual prices for other territories and scheduled price changes. Find price points with `data.apple_app_price_points`. Every change replaces the whole schedule. App Store Connect can't delete a schedule, so destroying the resource leaves the prices as they are. Import it by the owner's ID.
 
 ## Example Usage
 
