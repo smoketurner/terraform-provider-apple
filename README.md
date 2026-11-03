@@ -4,11 +4,25 @@ Manage App Store Connect as code with Terraform, through the
 [App Store Connect API](https://developer.apple.com/documentation/appstoreconnectapi).
 
 Built on the [Terraform Plugin Framework](https://developer.hashicorp.com/terraform/plugin/framework), with an API
-client generated from Apple's OpenAPI spec. It will be published to the Terraform Registry as `smoketurner/apple`.
+client generated from Apple's OpenAPI spec. It is published to the Terraform Registry as
+[`smoketurner/apple`](https://registry.terraform.io/providers/smoketurner/apple/latest).
 
-**Status:** in development. v0.1.0 covers code signing; TestFlight is next. The
-[roadmap](https://github.com/smoketurner/terraform-provider-apple/issues/17) lists every group of API operations
-planned after that, and [`coverage.yaml`](coverage.yaml) maps each of the spec's operations to its status.
+```hcl
+terraform {
+  required_providers {
+    apple = {
+      source  = "smoketurner/apple"
+      version = "~> 0.3"
+    }
+  }
+}
+```
+
+**Status:** pre-1.0; minor releases may contain breaking changes. The provider covers code signing, TestFlight, app
+metadata, App Store versions, pricing and availability, in-app purchases, subscriptions and offers, and users.
+Still to come, per the [roadmap](https://github.com/smoketurner/terraform-provider-apple/issues/17): Xcode Cloud,
+custom product pages and experiments, app events, App Clips, Game Center, alternative distribution, and analytics.
+[`coverage.yaml`](coverage.yaml) maps each of the spec's operations to its status.
 
 | Kind | Names |
 |------|-------|
