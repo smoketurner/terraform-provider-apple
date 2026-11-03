@@ -88,6 +88,12 @@ preserve_current_price = true`)),
 				),
 			},
 			{
+				// A second price for the same territory and date is refused.
+				Config: locals + subscriptionPricesConfig(current+subscriptionPrice("increase", "2.99", `start_date = "2099-01-01"
+preserve_current_price = true`)+subscriptionPrice("again", "1.99", `start_date = "2099-01-01"`)),
+				ExpectError: regexp.MustCompile(`already has a price in USA starting\s+then`),
+			},
+			{
 				// Changing the date replaces the scheduled price.
 				Config: locals + subscriptionPricesConfig(current+subscriptionPrice("increase", "2.99", `start_date = "2099-02-01"
 preserve_current_price = true`)),
