@@ -659,20 +659,20 @@ operations:
   endUserLicenseAgreements_territories_getToManyRelationship: {status: covered, by: [apple_end_user_license_agreement]}
   endUserLicenseAgreements_updateInstance: {status: covered, by: [apple_end_user_license_agreement]}
   financeReports_getCollection: {status: out_of_scope, reason: "returns a gzip report file; download it in a reporting pipeline"}
-  gameCenterAchievementImagesV2_createInstance: {status: planned, issue: 13}
-  gameCenterAchievementImagesV2_deleteInstance: {status: planned, issue: 13}
-  gameCenterAchievementImagesV2_getInstance: {status: planned, issue: 13}
-  gameCenterAchievementImagesV2_updateInstance: {status: planned, issue: 13}
+  gameCenterAchievementImagesV2_createInstance: {status: covered, by: [apple_game_center_achievement_image]}
+  gameCenterAchievementImagesV2_deleteInstance: {status: covered, by: [apple_game_center_achievement_image]}
+  gameCenterAchievementImagesV2_getInstance: {status: out_of_scope, reason: "apple_game_center_achievement_image reads the image through its localization"}
+  gameCenterAchievementImagesV2_updateInstance: {status: covered, by: [apple_game_center_achievement_image]}
   gameCenterAchievementImages_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievementImages_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievementImages_getInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievementImages_updateInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterAchievementLocalizationsV2_createInstance: {status: planned, issue: 13}
-  gameCenterAchievementLocalizationsV2_deleteInstance: {status: planned, issue: 13}
-  gameCenterAchievementLocalizationsV2_getInstance: {status: planned, issue: 13}
-  gameCenterAchievementLocalizationsV2_image_getToOneRelated: {status: planned, issue: 13}
+  gameCenterAchievementLocalizationsV2_createInstance: {status: covered, by: [apple_game_center_achievement_localization]}
+  gameCenterAchievementLocalizationsV2_deleteInstance: {status: covered, by: [apple_game_center_achievement_localization]}
+  gameCenterAchievementLocalizationsV2_getInstance: {status: out_of_scope, reason: "apple_game_center_achievement_localization lists a version's localizations"}
+  gameCenterAchievementLocalizationsV2_image_getToOneRelated: {status: covered, by: [apple_game_center_achievement_image]}
   gameCenterAchievementLocalizationsV2_image_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterAchievementLocalizationsV2_updateInstance: {status: planned, issue: 13}
+  gameCenterAchievementLocalizationsV2_updateInstance: {status: covered, by: [apple_game_center_achievement_localization]}
   gameCenterAchievementLocalizations_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievementLocalizations_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievementLocalizations_gameCenterAchievementImage_getToOneRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -684,16 +684,16 @@ operations:
   gameCenterAchievementReleases_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievementReleases_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievementReleases_getInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterAchievementVersionsV2_createInstance: {status: planned, issue: 13}
-  gameCenterAchievementVersionsV2_getInstance: {status: planned, issue: 13}
-  gameCenterAchievementVersionsV2_localizations_getToManyRelated: {status: planned, issue: 13}
+  gameCenterAchievementVersionsV2_createInstance: {status: covered, by: [apple_game_center_achievement_localization, apple_game_center_achievement_image]}
+  gameCenterAchievementVersionsV2_getInstance: {status: out_of_scope, reason: "the achievement's resources list its versions"}
+  gameCenterAchievementVersionsV2_localizations_getToManyRelated: {status: covered, by: [apple_game_center_achievement_localization, apple_game_center_achievement_image]}
   gameCenterAchievementVersionsV2_localizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterAchievementsV2_activity_updateToOneRelationship: {status: planned, issue: 13}
-  gameCenterAchievementsV2_createInstance: {status: planned, issue: 13}
-  gameCenterAchievementsV2_deleteInstance: {status: planned, issue: 13}
-  gameCenterAchievementsV2_getInstance: {status: planned, issue: 13}
-  gameCenterAchievementsV2_updateInstance: {status: planned, issue: 13}
-  gameCenterAchievementsV2_versions_getToManyRelated: {status: planned, issue: 13}
+  gameCenterAchievementsV2_createInstance: {status: covered, by: [apple_game_center_achievement]}
+  gameCenterAchievementsV2_deleteInstance: {status: covered, by: [apple_game_center_achievement]}
+  gameCenterAchievementsV2_getInstance: {status: covered, by: [apple_game_center_achievement]}
+  gameCenterAchievementsV2_updateInstance: {status: covered, by: [apple_game_center_achievement]}
+  gameCenterAchievementsV2_versions_getToManyRelated: {status: covered, by: [apple_game_center_achievement_localization, apple_game_center_achievement_image, action.apple_submit_game_center_achievement]}
   gameCenterAchievementsV2_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterAchievements_activity_updateToOneRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterAchievements_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -789,7 +789,7 @@ operations:
   gameCenterDetails_challengesMinimumPlatformVersions_replaceToManyRelationship: {status: planned, issue: 13}
   gameCenterDetails_classicMatchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterDetails_createInstance: {status: covered, by: [apple_game_center_detail]}
-  gameCenterDetails_gameCenterAchievementsV2_getToManyRelated: {status: planned, issue: 13}
+  gameCenterDetails_gameCenterAchievementsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_achievements]}
   gameCenterDetails_gameCenterAchievementsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterDetails_gameCenterAchievementsV2_replaceToManyRelationship: {status: planned, issue: 13}
   gameCenterDetails_gameCenterAchievements_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -829,7 +829,7 @@ operations:
   gameCenterEnabledVersions_compatibleVersions_replaceToManyRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterGroups_createInstance: {status: covered, by: [apple_game_center_group]}
   gameCenterGroups_deleteInstance: {status: covered, by: [apple_game_center_group]}
-  gameCenterGroups_gameCenterAchievementsV2_getToManyRelated: {status: planned, issue: 13}
+  gameCenterGroups_gameCenterAchievementsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_achievements]}
   gameCenterGroups_gameCenterAchievementsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterGroups_gameCenterAchievementsV2_replaceToManyRelationship: {status: planned, issue: 13}
   gameCenterGroups_gameCenterAchievements_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -1000,7 +1000,7 @@ operations:
   gameCenterMatchmakingTeams_createInstance: {status: planned, issue: 13}
   gameCenterMatchmakingTeams_deleteInstance: {status: planned, issue: 13}
   gameCenterMatchmakingTeams_updateInstance: {status: planned, issue: 13}
-  gameCenterPlayerAchievementSubmissions_createInstance: {status: planned, issue: 13}
+  gameCenterPlayerAchievementSubmissions_createInstance: {status: out_of_scope, reason: "reports a player's progress at run time, from a game server"}
   gameCenterScoreModerations_updateInstance: {status: planned, issue: 13}
   inAppPurchaseAppStoreReviewScreenshots_createInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}
   inAppPurchaseAppStoreReviewScreenshots_deleteInstance: {status: covered, by: [apple_in_app_purchase_review_screenshot]}

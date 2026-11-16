@@ -13301,6 +13301,171 @@ func (e GameCenterAchievementType) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterAchievementImageV2RelationshipsLocalizationDataType.
+const (
+	GameCenterAchievementImageV2RelationshipsLocalizationDataTypeGameCenterAchievementLocalizations GameCenterAchievementImageV2RelationshipsLocalizationDataType = "gameCenterAchievementLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementImageV2RelationshipsLocalizationDataType enum.
+func (e GameCenterAchievementImageV2RelationshipsLocalizationDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementImageV2RelationshipsLocalizationDataTypeGameCenterAchievementLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementImageV2Type.
+const (
+	GameCenterAchievementImageV2TypeGameCenterAchievementImages GameCenterAchievementImageV2Type = "gameCenterAchievementImages"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementImageV2Type enum.
+func (e GameCenterAchievementImageV2Type) Valid() bool {
+	switch e {
+	case GameCenterAchievementImageV2TypeGameCenterAchievementImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataType.
+const (
+	GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataTypeGameCenterAchievementLocalizations GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataType = "gameCenterAchievementLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataType enum.
+func (e GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataTypeGameCenterAchievementLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementImageV2CreateRequestDataType.
+const (
+	GameCenterAchievementImageV2CreateRequestDataTypeGameCenterAchievementImages GameCenterAchievementImageV2CreateRequestDataType = "gameCenterAchievementImages"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementImageV2CreateRequestDataType enum.
+func (e GameCenterAchievementImageV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementImageV2CreateRequestDataTypeGameCenterAchievementImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementImageV2UpdateRequestDataType.
+const (
+	GameCenterAchievementImageV2UpdateRequestDataTypeGameCenterAchievementImages GameCenterAchievementImageV2UpdateRequestDataType = "gameCenterAchievementImages"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementImageV2UpdateRequestDataType enum.
+func (e GameCenterAchievementImageV2UpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementImageV2UpdateRequestDataTypeGameCenterAchievementImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationV2RelationshipsImageDataType.
+const (
+	GameCenterAchievementLocalizationV2RelationshipsImageDataTypeGameCenterAchievementImages GameCenterAchievementLocalizationV2RelationshipsImageDataType = "gameCenterAchievementImages"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationV2RelationshipsImageDataType enum.
+func (e GameCenterAchievementLocalizationV2RelationshipsImageDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationV2RelationshipsImageDataTypeGameCenterAchievementImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationV2RelationshipsVersionDataType.
+const (
+	GameCenterAchievementLocalizationV2RelationshipsVersionDataTypeGameCenterAchievementVersions GameCenterAchievementLocalizationV2RelationshipsVersionDataType = "gameCenterAchievementVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationV2RelationshipsVersionDataType enum.
+func (e GameCenterAchievementLocalizationV2RelationshipsVersionDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationV2RelationshipsVersionDataTypeGameCenterAchievementVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationV2Type.
+const (
+	GameCenterAchievementLocalizationV2TypeGameCenterAchievementLocalizations GameCenterAchievementLocalizationV2Type = "gameCenterAchievementLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationV2Type enum.
+func (e GameCenterAchievementLocalizationV2Type) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationV2TypeGameCenterAchievementLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataType.
+const (
+	GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataTypeGameCenterAchievementVersions GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataType = "gameCenterAchievementVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataType enum.
+func (e GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataTypeGameCenterAchievementVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationV2CreateRequestDataType.
+const (
+	GameCenterAchievementLocalizationV2CreateRequestDataTypeGameCenterAchievementLocalizations GameCenterAchievementLocalizationV2CreateRequestDataType = "gameCenterAchievementLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationV2CreateRequestDataType enum.
+func (e GameCenterAchievementLocalizationV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationV2CreateRequestDataTypeGameCenterAchievementLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationV2UpdateRequestDataType.
+const (
+	GameCenterAchievementLocalizationV2UpdateRequestDataTypeGameCenterAchievementLocalizations GameCenterAchievementLocalizationV2UpdateRequestDataType = "gameCenterAchievementLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationV2UpdateRequestDataType enum.
+func (e GameCenterAchievementLocalizationV2UpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationV2UpdateRequestDataTypeGameCenterAchievementLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType.
 const (
 	GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataTypeGameCenterAchievements GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType = "gameCenterAchievements"
@@ -13346,6 +13511,156 @@ func (e GameCenterAchievementReleaseType) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterAchievementV2RelationshipsActivityDataType.
+const (
+	GameCenterAchievementV2RelationshipsActivityDataTypeGameCenterActivities GameCenterAchievementV2RelationshipsActivityDataType = "gameCenterActivities"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2RelationshipsActivityDataType enum.
+func (e GameCenterAchievementV2RelationshipsActivityDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2RelationshipsActivityDataTypeGameCenterActivities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2RelationshipsGameCenterDetailDataType.
+const (
+	GameCenterAchievementV2RelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterAchievementV2RelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2RelationshipsGameCenterDetailDataType enum.
+func (e GameCenterAchievementV2RelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2RelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2RelationshipsGameCenterGroupDataType.
+const (
+	GameCenterAchievementV2RelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterAchievementV2RelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2RelationshipsGameCenterGroupDataType enum.
+func (e GameCenterAchievementV2RelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2RelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2RelationshipsVersionsDataType.
+const (
+	GameCenterAchievementV2RelationshipsVersionsDataTypeGameCenterAchievementVersions GameCenterAchievementV2RelationshipsVersionsDataType = "gameCenterAchievementVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2RelationshipsVersionsDataType enum.
+func (e GameCenterAchievementV2RelationshipsVersionsDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2RelationshipsVersionsDataTypeGameCenterAchievementVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2Type.
+const (
+	GameCenterAchievementV2TypeGameCenterAchievements GameCenterAchievementV2Type = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2Type enum.
+func (e GameCenterAchievementV2Type) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2TypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataType.
+const (
+	GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataType enum.
+func (e GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataType.
+const (
+	GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataTypeGameCenterAchievementVersions GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataType = "gameCenterAchievementVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataType enum.
+func (e GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataTypeGameCenterAchievementVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2CreateRequestDataType.
+const (
+	GameCenterAchievementV2CreateRequestDataTypeGameCenterAchievements GameCenterAchievementV2CreateRequestDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2CreateRequestDataType enum.
+func (e GameCenterAchievementV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2CreateRequestDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementV2UpdateRequestDataType.
+const (
+	GameCenterAchievementV2UpdateRequestDataTypeGameCenterAchievements GameCenterAchievementV2UpdateRequestDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementV2UpdateRequestDataType enum.
+func (e GameCenterAchievementV2UpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementV2UpdateRequestDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterAchievementVersionV2RelationshipsAchievementDataType.
 const (
 	GameCenterAchievementVersionV2RelationshipsAchievementDataTypeGameCenterAchievements GameCenterAchievementVersionV2RelationshipsAchievementDataType = "gameCenterAchievements"
@@ -13385,6 +13700,66 @@ const (
 func (e GameCenterAchievementVersionV2Type) Valid() bool {
 	switch e {
 	case GameCenterAchievementVersionV2TypeGameCenterAchievementVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataType.
+const (
+	GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataTypeGameCenterAchievements GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataType enum.
+func (e GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionV2CreateRequestDataType.
+const (
+	GameCenterAchievementVersionV2CreateRequestDataTypeGameCenterAchievementVersions GameCenterAchievementVersionV2CreateRequestDataType = "gameCenterAchievementVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionV2CreateRequestDataType enum.
+func (e GameCenterAchievementVersionV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionV2CreateRequestDataTypeGameCenterAchievementVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataType.
+const (
+	GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataTypeGameCenterAchievements GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataType enum.
+func (e GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionV2InlineCreateType.
+const (
+	GameCenterAchievementVersionV2InlineCreateTypeGameCenterAchievementVersions GameCenterAchievementVersionV2InlineCreateType = "gameCenterAchievementVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionV2InlineCreateType enum.
+func (e GameCenterAchievementVersionV2InlineCreateType) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionV2InlineCreateTypeGameCenterAchievementVersions:
 		return true
 	default:
 		return false
@@ -51674,6 +52049,282 @@ func (e DevicesGetInstanceParamsFieldsDevices) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements.
+const (
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivity           GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "activity"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivityProperties GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "activityProperties"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsArchived           GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "archived"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterDetail   GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "gameCenterDetail"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterGroup    GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "gameCenterGroup"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsPoints             GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "points"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsReferenceName      GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "referenceName"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsRepeatable         GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "repeatable"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned   GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "showBeforeEarned"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVendorIdentifier   GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "vendorIdentifier"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVersions           GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements enum.
+func (e GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivity:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivityProperties:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsArchived:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterDetail:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterGroup:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsPoints:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsReferenceName:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsRepeatable:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVendorIdentifier:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails.
+const (
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsAchievementReleases               GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "achievementReleases"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsActivityReleases                  GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "activityReleases"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsApp                               GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "app"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsArcadeEnabled                     GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "arcadeEnabled"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsBlockedPlayers                    GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "blockedPlayers"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeEnabled                  GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "challengeEnabled"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeReleases                 GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "challengeReleases"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "challengesMinimumPlatformVersions"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboard           GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultGroupLeaderboard"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2         GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultGroupLeaderboardV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboard                GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultLeaderboard"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboardV2              GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultLeaderboardV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievements            GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterAchievements"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievementsV2          GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterAchievementsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterActivities              GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterActivities"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAppVersions             GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterAppVersions"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterChallenges              GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterChallenges"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterGroup                   GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterGroup"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSets         GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardSets"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2       GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardSetsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboards            GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboards"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2          GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardReleases               GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "leaderboardReleases"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardSetReleases            GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "leaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails enum.
+func (e GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsAchievementReleases:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsActivityReleases:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsApp:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsArcadeEnabled:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsBlockedPlayers:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeEnabled:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeReleases:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboard:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboard:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboardV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievements:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievementsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterActivities:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAppVersions:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterChallenges:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterGroup:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSets:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboards:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardReleases:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardSetReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups.
+const (
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievements      GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterAchievements"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievementsV2    GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterAchievementsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterActivities        GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterActivities"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterChallenges        GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterChallenges"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterDetails           GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterDetails"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSets   GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardSets"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2 GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardSetsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboards      GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboards"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2    GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsReferenceName               GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups enum.
+func (e GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievements:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievementsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterActivities:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterChallenges:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterDetails:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSets:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboards:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities.
+const (
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievements        GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "achievements"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievementsV2      GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "achievementsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesArchived            GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "archived"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterDetail    GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "gameCenterDetail"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterGroup     GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "gameCenterGroup"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboards        GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "leaderboards"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboardsV2      GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "leaderboardsV2"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMaximumPlayersCount GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "maximumPlayersCount"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMinimumPlayersCount GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "minimumPlayersCount"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesPlayStyle           GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "playStyle"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesProperties          GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "properties"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesReferenceName       GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "referenceName"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesSupportsPartyCode   GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "supportsPartyCode"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVendorIdentifier    GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "vendorIdentifier"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVersions            GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities enum.
+func (e GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievements:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievementsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesArchived:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterDetail:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterGroup:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboards:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboardsV2:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMaximumPlayersCount:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMinimumPlayersCount:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesPlayStyle:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesProperties:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesReferenceName:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesSupportsPartyCode:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVendorIdentifier:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions.
+const (
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement   GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "achievement"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "localizations"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsState         GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "state"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion       GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions enum.
+func (e GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsState:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude.
+const (
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeActivity         GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "activity"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterDetail GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "gameCenterDetail"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterGroup  GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "gameCenterGroup"
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeVersions         GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude enum.
+func (e GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeActivity:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterDetail:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterGroup:
+		return true
+	case GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions.
 const (
 	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersionsAppStoreVersion       GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions = "appStoreVersion"
@@ -52667,6 +53318,282 @@ func (e GameCenterGroupsGetInstanceParamsInclude) Valid() bool {
 	case GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboards:
 		return true
 	case GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboardsV2:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements.
+const (
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivity           GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "activity"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivityProperties GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "activityProperties"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsArchived           GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "archived"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterDetail   GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "gameCenterDetail"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterGroup    GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "gameCenterGroup"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsPoints             GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "points"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsReferenceName      GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "referenceName"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsRepeatable         GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "repeatable"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned   GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "showBeforeEarned"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVendorIdentifier   GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "vendorIdentifier"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVersions           GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements enum.
+func (e GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements) Valid() bool {
+	switch e {
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivity:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsActivityProperties:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsArchived:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterDetail:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterGroup:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsPoints:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsReferenceName:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsRepeatable:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVendorIdentifier:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails.
+const (
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsAchievementReleases               GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "achievementReleases"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsActivityReleases                  GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "activityReleases"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsApp                               GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "app"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsArcadeEnabled                     GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "arcadeEnabled"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsBlockedPlayers                    GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "blockedPlayers"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeEnabled                  GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "challengeEnabled"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeReleases                 GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "challengeReleases"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "challengesMinimumPlatformVersions"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboard           GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultGroupLeaderboard"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2         GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultGroupLeaderboardV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboard                GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultLeaderboard"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboardV2              GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "defaultLeaderboardV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievements            GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterAchievements"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievementsV2          GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterAchievementsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterActivities              GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterActivities"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAppVersions             GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterAppVersions"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterChallenges              GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterChallenges"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterGroup                   GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterGroup"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSets         GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardSets"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2       GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboards            GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboards"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2          GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardReleases               GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "leaderboardReleases"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardSetReleases            GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails = "leaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails enum.
+func (e GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails) Valid() bool {
+	switch e {
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsAchievementReleases:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsActivityReleases:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsApp:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsArcadeEnabled:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsBlockedPlayers:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeEnabled:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengeReleases:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboard:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboard:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsDefaultLeaderboardV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievements:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterActivities:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterAppVersions:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterChallenges:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterGroup:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardReleases:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetailsLeaderboardSetReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups.
+const (
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievements      GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterAchievements"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievementsV2    GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterAchievementsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterActivities        GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterActivities"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterChallenges        GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterChallenges"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterDetails           GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterDetails"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSets   GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardSets"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2 GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboards      GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboards"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2    GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsReferenceName               GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups enum.
+func (e GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups) Valid() bool {
+	switch e {
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievements:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterActivities:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterChallenges:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterDetails:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroupsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities.
+const (
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievements        GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "achievements"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievementsV2      GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "achievementsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesArchived            GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "archived"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterDetail    GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "gameCenterDetail"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterGroup     GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "gameCenterGroup"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboards        GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "leaderboards"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboardsV2      GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "leaderboardsV2"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMaximumPlayersCount GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "maximumPlayersCount"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMinimumPlayersCount GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "minimumPlayersCount"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesPlayStyle           GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "playStyle"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesProperties          GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "properties"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesReferenceName       GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "referenceName"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesSupportsPartyCode   GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "supportsPartyCode"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVendorIdentifier    GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "vendorIdentifier"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVersions            GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities enum.
+func (e GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities) Valid() bool {
+	switch e {
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievements:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesAchievementsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesArchived:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterDetail:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesGameCenterGroup:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboards:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesLeaderboardsV2:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMaximumPlayersCount:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesMinimumPlayersCount:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesPlayStyle:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesProperties:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesReferenceName:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesSupportsPartyCode:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVendorIdentifier:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivitiesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions.
+const (
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement   GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "achievement"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "localizations"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsState         GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "state"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion       GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions enum.
+func (e GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions) Valid() bool {
+	switch e {
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsState:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude.
+const (
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeActivity         GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "activity"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterDetail GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "gameCenterDetail"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterGroup  GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "gameCenterGroup"
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeVersions         GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude enum.
+func (e GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeActivity:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterDetail:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeGameCenterGroup:
+		return true
+	case GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsIncludeVersions:
 		return true
 	default:
 		return false
@@ -63047,6 +63974,576 @@ func (e AppStoreVersionExperimentsV2GetInstanceParamsInclude) Valid() bool {
 	case AppStoreVersionExperimentsV2GetInstanceParamsIncludeControlVersions:
 		return true
 	case AppStoreVersionExperimentsV2GetInstanceParamsIncludeLatestControlVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages.
+const (
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesAssetDeliveryState GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages = "assetDeliveryState"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesFileName           GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages = "fileName"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesFileSize           GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages = "fileSize"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesImageAsset         GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages = "imageAsset"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesLocalization       GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages = "localization"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesUploadOperations   GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages enum.
+func (e GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesAssetDeliveryState:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesFileName:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesFileSize:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesImageAsset:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesLocalization:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations.
+const (
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsAfterEarnedDescription  GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations = "afterEarnedDescription"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsBeforeEarnedDescription GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations = "beforeEarnedDescription"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsImage                   GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations = "image"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsLocale                  GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations = "locale"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsName                    GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations = "name"
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsVersion                 GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations enum.
+func (e GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsAfterEarnedDescription:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsBeforeEarnedDescription:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsImage:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsLocale:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsName:
+		return true
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizationsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsInclude.
+const (
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsIncludeLocalization GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsInclude = "localization"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsInclude enum.
+func (e GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsIncludeLocalization:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations.
+const (
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsAfterEarnedDescription  GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "afterEarnedDescription"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsBeforeEarnedDescription GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "beforeEarnedDescription"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsImage                   GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "image"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsLocale                  GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "locale"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsName                    GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "name"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsVersion                 GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations enum.
+func (e GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsAfterEarnedDescription:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsBeforeEarnedDescription:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsImage:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsLocale:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsName:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions.
+const (
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement   GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "achievement"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "localizations"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsState         GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "state"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion       GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions enum.
+func (e GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsState:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages.
+const (
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesAssetDeliveryState GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages = "assetDeliveryState"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesFileName           GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages = "fileName"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesFileSize           GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages = "fileSize"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesImageAsset         GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages = "imageAsset"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesLocalization       GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages = "localization"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesUploadOperations   GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages enum.
+func (e GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesAssetDeliveryState:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesFileName:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesFileSize:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesImageAsset:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesLocalization:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude.
+const (
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsIncludeImage   GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude = "image"
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsIncludeVersion GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude enum.
+func (e GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsIncludeImage:
+		return true
+	case GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsIncludeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements.
+const (
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsActivity           GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "activity"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsActivityProperties GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "activityProperties"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsArchived           GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "archived"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsGameCenterDetail   GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "gameCenterDetail"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsGameCenterGroup    GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "gameCenterGroup"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsPoints             GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "points"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsReferenceName      GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "referenceName"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsRepeatable         GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "repeatable"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsShowBeforeEarned   GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "showBeforeEarned"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsVendorIdentifier   GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "vendorIdentifier"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsVersions           GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements enum.
+func (e GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsActivity:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsActivityProperties:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsArchived:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsGameCenterDetail:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsGameCenterGroup:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsPoints:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsReferenceName:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsRepeatable:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsShowBeforeEarned:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsVendorIdentifier:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails.
+const (
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsAchievementReleases               GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "achievementReleases"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsActivityReleases                  GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "activityReleases"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsApp                               GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "app"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsArcadeEnabled                     GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "arcadeEnabled"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsBlockedPlayers                    GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "blockedPlayers"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsChallengeEnabled                  GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "challengeEnabled"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsChallengeReleases                 GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "challengeReleases"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "challengesMinimumPlatformVersions"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboard           GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "defaultGroupLeaderboard"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2         GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "defaultGroupLeaderboardV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboard                GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "defaultLeaderboard"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboardV2              GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "defaultLeaderboardV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterAchievements            GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterAchievements"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterAchievementsV2          GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterAchievementsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterActivities              GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterActivities"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterAppVersions             GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterAppVersions"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterChallenges              GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterChallenges"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterGroup                   GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterGroup"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSets         GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboardSets"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2       GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboardSetsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboards            GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboards"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2          GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboardsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsLeaderboardReleases               GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "leaderboardReleases"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsLeaderboardSetReleases            GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails = "leaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails enum.
+func (e GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsAchievementReleases:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsActivityReleases:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsApp:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsArcadeEnabled:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsBlockedPlayers:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsChallengeEnabled:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsChallengeReleases:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboard:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboard:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboardV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterAchievements:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterAchievementsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterActivities:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterAppVersions:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterChallenges:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterGroup:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSets:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboards:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsLeaderboardReleases:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetailsLeaderboardSetReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups.
+const (
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterAchievements      GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterAchievements"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterAchievementsV2    GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterAchievementsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterActivities        GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterActivities"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterChallenges        GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterChallenges"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterDetails           GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterDetails"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSets   GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboardSets"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2 GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboardSetsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboards      GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboards"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2    GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboardsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsReferenceName               GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups enum.
+func (e GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterAchievements:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterAchievementsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterActivities:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterChallenges:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterDetails:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSets:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboards:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroupsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities.
+const (
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesAchievements        GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "achievements"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesAchievementsV2      GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "achievementsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesArchived            GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "archived"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesGameCenterDetail    GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "gameCenterDetail"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesGameCenterGroup     GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "gameCenterGroup"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesLeaderboards        GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "leaderboards"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesLeaderboardsV2      GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "leaderboardsV2"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesMaximumPlayersCount GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "maximumPlayersCount"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesMinimumPlayersCount GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "minimumPlayersCount"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesPlayStyle           GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "playStyle"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesProperties          GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "properties"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesReferenceName       GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "referenceName"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesSupportsPartyCode   GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "supportsPartyCode"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesVendorIdentifier    GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "vendorIdentifier"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesVersions            GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities enum.
+func (e GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesAchievements:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesAchievementsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesArchived:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesGameCenterDetail:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesGameCenterGroup:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesLeaderboards:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesLeaderboardsV2:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesMaximumPlayersCount:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesMinimumPlayersCount:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesPlayStyle:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesProperties:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesReferenceName:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesSupportsPartyCode:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesVendorIdentifier:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivitiesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions.
+const (
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsAchievement   GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions = "achievement"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsLocalizations GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions = "localizations"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsState         GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions = "state"
+	GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsVersion       GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions enum.
+func (e GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsAchievement:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsLocalizations:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsState:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2GetInstanceParamsInclude.
+const (
+	GameCenterAchievementsV2GetInstanceParamsIncludeActivity         GameCenterAchievementsV2GetInstanceParamsInclude = "activity"
+	GameCenterAchievementsV2GetInstanceParamsIncludeGameCenterDetail GameCenterAchievementsV2GetInstanceParamsInclude = "gameCenterDetail"
+	GameCenterAchievementsV2GetInstanceParamsIncludeGameCenterGroup  GameCenterAchievementsV2GetInstanceParamsInclude = "gameCenterGroup"
+	GameCenterAchievementsV2GetInstanceParamsIncludeVersions         GameCenterAchievementsV2GetInstanceParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2GetInstanceParamsInclude enum.
+func (e GameCenterAchievementsV2GetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2GetInstanceParamsIncludeActivity:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsIncludeGameCenterDetail:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsIncludeGameCenterGroup:
+		return true
+	case GameCenterAchievementsV2GetInstanceParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions.
+const (
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement   GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "achievement"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "localizations"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsState         GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "state"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion       GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions enum.
+func (e GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsAchievement:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsLocalizations:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsState:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements.
+const (
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsActivity           GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "activity"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsActivityProperties GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "activityProperties"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsArchived           GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "archived"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterDetail   GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "gameCenterDetail"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterGroup    GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "gameCenterGroup"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsPoints             GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "points"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsReferenceName      GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "referenceName"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsRepeatable         GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "repeatable"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned   GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "showBeforeEarned"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsVendorIdentifier   GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "vendorIdentifier"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsVersions           GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements enum.
+func (e GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsActivity:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsActivityProperties:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsArchived:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterDetail:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsGameCenterGroup:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsPoints:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsReferenceName:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsRepeatable:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsVendorIdentifier:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations.
+const (
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsAfterEarnedDescription  GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "afterEarnedDescription"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsBeforeEarnedDescription GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "beforeEarnedDescription"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsImage                   GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "image"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsLocale                  GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "locale"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsName                    GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "name"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsVersion                 GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations = "version"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations enum.
+func (e GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsAfterEarnedDescription:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsBeforeEarnedDescription:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsImage:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsLocale:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsName:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizationsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude.
+const (
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsIncludeAchievement   GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude = "achievement"
+	GameCenterAchievementsV2VersionsGetToManyRelatedParamsIncludeLocalizations GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude = "localizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude enum.
+func (e GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsIncludeAchievement:
+		return true
+	case GameCenterAchievementsV2VersionsGetToManyRelatedParamsIncludeLocalizations:
 		return true
 	default:
 		return false
@@ -74267,6 +75764,185 @@ type GameCenterAchievementRelationshipsReleasesDataType string
 // GameCenterAchievementType defines model for GameCenterAchievement.Type.
 type GameCenterAchievementType string
 
+// GameCenterAchievementImageV2 defines model for GameCenterAchievementImageV2.
+type GameCenterAchievementImageV2 struct {
+	Attributes *struct {
+		AssetDeliveryState *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		FileName           *string             `json:"fileName,omitempty"`
+		FileSize           *int                `json:"fileSize,omitempty"`
+		ImageAsset         *ImageAsset         `json:"imageAsset,omitempty"`
+		UploadOperations   *[]UploadOperation  `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Localization *struct {
+			Data *struct {
+				Id   string                                                        `json:"id"`
+				Type GameCenterAchievementImageV2RelationshipsLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"localization,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterAchievementImageV2Type `json:"type"`
+}
+
+// GameCenterAchievementImageV2RelationshipsLocalizationDataType defines model for GameCenterAchievementImageV2.Relationships.Localization.Data.Type.
+type GameCenterAchievementImageV2RelationshipsLocalizationDataType string
+
+// GameCenterAchievementImageV2Type defines model for GameCenterAchievementImageV2.Type.
+type GameCenterAchievementImageV2Type string
+
+// GameCenterAchievementImageV2CreateRequest defines model for GameCenterAchievementImageV2CreateRequest.
+type GameCenterAchievementImageV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Relationships struct {
+			Localization struct {
+				Data struct {
+					Id   string                                                                         `json:"id"`
+					Type GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataType `json:"type"`
+				} `json:"data"`
+			} `json:"localization"`
+		} `json:"relationships"`
+		Type GameCenterAchievementImageV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataType defines model for GameCenterAchievementImageV2CreateRequest.Data.Relationships.Localization.Data.Type.
+type GameCenterAchievementImageV2CreateRequestDataRelationshipsLocalizationDataType string
+
+// GameCenterAchievementImageV2CreateRequestDataType defines model for GameCenterAchievementImageV2CreateRequest.Data.Type.
+type GameCenterAchievementImageV2CreateRequestDataType string
+
+// GameCenterAchievementImageV2Response defines model for GameCenterAchievementImageV2Response.
+type GameCenterAchievementImageV2Response struct {
+	Data     GameCenterAchievementImageV2           `json:"data"`
+	Included *[]GameCenterAchievementLocalizationV2 `json:"included,omitempty"`
+	Links    DocumentLinks                          `json:"links"`
+}
+
+// GameCenterAchievementImageV2UpdateRequest defines model for GameCenterAchievementImageV2UpdateRequest.
+type GameCenterAchievementImageV2UpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Uploaded *bool `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                            `json:"id"`
+		Type GameCenterAchievementImageV2UpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAchievementImageV2UpdateRequestDataType defines model for GameCenterAchievementImageV2UpdateRequest.Data.Type.
+type GameCenterAchievementImageV2UpdateRequestDataType string
+
+// GameCenterAchievementLocalizationV2 defines model for GameCenterAchievementLocalizationV2.
+type GameCenterAchievementLocalizationV2 struct {
+	Attributes *struct {
+		AfterEarnedDescription  *string `json:"afterEarnedDescription,omitempty"`
+		BeforeEarnedDescription *string `json:"beforeEarnedDescription,omitempty"`
+		Locale                  *string `json:"locale,omitempty"`
+		Name                    *string `json:"name,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Image *struct {
+			Data *struct {
+				Id   string                                                        `json:"id"`
+				Type GameCenterAchievementLocalizationV2RelationshipsImageDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"image,omitempty"`
+		Version *struct {
+			Data *struct {
+				Id   string                                                          `json:"id"`
+				Type GameCenterAchievementLocalizationV2RelationshipsVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"version,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterAchievementLocalizationV2Type `json:"type"`
+}
+
+// GameCenterAchievementLocalizationV2RelationshipsImageDataType defines model for GameCenterAchievementLocalizationV2.Relationships.Image.Data.Type.
+type GameCenterAchievementLocalizationV2RelationshipsImageDataType string
+
+// GameCenterAchievementLocalizationV2RelationshipsVersionDataType defines model for GameCenterAchievementLocalizationV2.Relationships.Version.Data.Type.
+type GameCenterAchievementLocalizationV2RelationshipsVersionDataType string
+
+// GameCenterAchievementLocalizationV2Type defines model for GameCenterAchievementLocalizationV2.Type.
+type GameCenterAchievementLocalizationV2Type string
+
+// GameCenterAchievementLocalizationV2CreateRequest defines model for GameCenterAchievementLocalizationV2CreateRequest.
+type GameCenterAchievementLocalizationV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AfterEarnedDescription  string `json:"afterEarnedDescription"`
+			BeforeEarnedDescription string `json:"beforeEarnedDescription"`
+			Locale                  string `json:"locale"`
+			Name                    string `json:"name"`
+		} `json:"attributes"`
+		Relationships struct {
+			Version struct {
+				Data struct {
+					Id   string                                                                           `json:"id"`
+					Type GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"version"`
+		} `json:"relationships"`
+		Type GameCenterAchievementLocalizationV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataType defines model for GameCenterAchievementLocalizationV2CreateRequest.Data.Relationships.Version.Data.Type.
+type GameCenterAchievementLocalizationV2CreateRequestDataRelationshipsVersionDataType string
+
+// GameCenterAchievementLocalizationV2CreateRequestDataType defines model for GameCenterAchievementLocalizationV2CreateRequest.Data.Type.
+type GameCenterAchievementLocalizationV2CreateRequestDataType string
+
+// GameCenterAchievementLocalizationV2Response defines model for GameCenterAchievementLocalizationV2Response.
+type GameCenterAchievementLocalizationV2Response struct {
+	Data     GameCenterAchievementLocalizationV2                          `json:"data"`
+	Included *[]GameCenterAchievementLocalizationV2Response_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                                `json:"links"`
+}
+
+// GameCenterAchievementLocalizationV2Response_Included_Item defines model for GameCenterAchievementLocalizationV2Response.included.Item.
+type GameCenterAchievementLocalizationV2Response_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterAchievementLocalizationV2UpdateRequest defines model for GameCenterAchievementLocalizationV2UpdateRequest.
+type GameCenterAchievementLocalizationV2UpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			AfterEarnedDescription  *string `json:"afterEarnedDescription,omitempty"`
+			BeforeEarnedDescription *string `json:"beforeEarnedDescription,omitempty"`
+			Name                    *string `json:"name,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                   `json:"id"`
+		Type GameCenterAchievementLocalizationV2UpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAchievementLocalizationV2UpdateRequestDataType defines model for GameCenterAchievementLocalizationV2UpdateRequest.Data.Type.
+type GameCenterAchievementLocalizationV2UpdateRequestDataType string
+
+// GameCenterAchievementLocalizationsV2Response defines model for GameCenterAchievementLocalizationsV2Response.
+type GameCenterAchievementLocalizationsV2Response struct {
+	Data     []GameCenterAchievementLocalizationV2                         `json:"data"`
+	Included *[]GameCenterAchievementLocalizationsV2Response_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                            `json:"links"`
+	Meta     *PagingInformation                                            `json:"meta,omitempty"`
+}
+
+// GameCenterAchievementLocalizationsV2Response_Included_Item defines model for GameCenterAchievementLocalizationsV2Response.included.Item.
+type GameCenterAchievementLocalizationsV2Response_Included_Item struct {
+	union json.RawMessage
+}
+
 // GameCenterAchievementRelease defines model for GameCenterAchievementRelease.
 //
 // Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
@@ -74301,6 +75977,145 @@ type GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType string
 
 // GameCenterAchievementReleaseType defines model for GameCenterAchievementRelease.Type.
 type GameCenterAchievementReleaseType string
+
+// GameCenterAchievementV2 defines model for GameCenterAchievementV2.
+type GameCenterAchievementV2 struct {
+	Attributes *struct {
+		ActivityProperties *StringToStringMap `json:"activityProperties,omitempty"`
+		Archived           *bool              `json:"archived,omitempty"`
+		Points             *int               `json:"points,omitempty"`
+		ReferenceName      *string            `json:"referenceName,omitempty"`
+		Repeatable         *bool              `json:"repeatable,omitempty"`
+		ShowBeforeEarned   *bool              `json:"showBeforeEarned,omitempty"`
+		VendorIdentifier   *string            `json:"vendorIdentifier,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Activity *struct {
+			Data *struct {
+				Id   string                                               `json:"id"`
+				Type GameCenterAchievementV2RelationshipsActivityDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"activity,omitempty"`
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                       `json:"id"`
+				Type GameCenterAchievementV2RelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterGroup *struct {
+			Data *struct {
+				Id   string                                                      `json:"id"`
+				Type GameCenterAchievementV2RelationshipsGameCenterGroupDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterGroup,omitempty"`
+		Versions *struct {
+			Data *[]struct {
+				Id   string                                               `json:"id"`
+				Type GameCenterAchievementV2RelationshipsVersionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"versions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterAchievementV2Type `json:"type"`
+}
+
+// GameCenterAchievementV2RelationshipsActivityDataType defines model for GameCenterAchievementV2.Relationships.Activity.Data.Type.
+type GameCenterAchievementV2RelationshipsActivityDataType string
+
+// GameCenterAchievementV2RelationshipsGameCenterDetailDataType defines model for GameCenterAchievementV2.Relationships.GameCenterDetail.Data.Type.
+type GameCenterAchievementV2RelationshipsGameCenterDetailDataType string
+
+// GameCenterAchievementV2RelationshipsGameCenterGroupDataType defines model for GameCenterAchievementV2.Relationships.GameCenterGroup.Data.Type.
+type GameCenterAchievementV2RelationshipsGameCenterGroupDataType string
+
+// GameCenterAchievementV2RelationshipsVersionsDataType defines model for GameCenterAchievementV2.Relationships.Versions.Data.Type.
+type GameCenterAchievementV2RelationshipsVersionsDataType string
+
+// GameCenterAchievementV2Type defines model for GameCenterAchievementV2.Type.
+type GameCenterAchievementV2Type string
+
+// GameCenterAchievementV2CreateRequest defines model for GameCenterAchievementV2CreateRequest.
+type GameCenterAchievementV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			ActivityProperties *StringToStringMap `json:"activityProperties,omitempty"`
+			Points             int                `json:"points"`
+			ReferenceName      string             `json:"referenceName"`
+			Repeatable         bool               `json:"repeatable"`
+			ShowBeforeEarned   bool               `json:"showBeforeEarned"`
+			VendorIdentifier   string             `json:"vendorIdentifier"`
+		} `json:"attributes"`
+		Relationships struct {
+			GameCenterDetail *struct {
+				Data *struct {
+					Id   string                                                                        `json:"id"`
+					Type GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"gameCenterDetail,omitempty"`
+			GameCenterGroup *struct {
+				Data *struct {
+					Id   string                                                                       `json:"id"`
+					Type GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"gameCenterGroup,omitempty"`
+			Versions struct {
+				Data []struct {
+					Id   string                                                                `json:"id"`
+					Type GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataType `json:"type"`
+				} `json:"data"`
+			} `json:"versions"`
+		} `json:"relationships"`
+		Type GameCenterAchievementV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]GameCenterAchievementVersionV2InlineCreate `json:"included,omitempty"`
+}
+
+// GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataType defines model for GameCenterAchievementV2CreateRequest.Data.Relationships.GameCenterDetail.Data.Type.
+type GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterDetailDataType string
+
+// GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataType defines model for GameCenterAchievementV2CreateRequest.Data.Relationships.GameCenterGroup.Data.Type.
+type GameCenterAchievementV2CreateRequestDataRelationshipsGameCenterGroupDataType string
+
+// GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataType defines model for GameCenterAchievementV2CreateRequest.Data.Relationships.Versions.Data.Type.
+type GameCenterAchievementV2CreateRequestDataRelationshipsVersionsDataType string
+
+// GameCenterAchievementV2CreateRequestDataType defines model for GameCenterAchievementV2CreateRequest.Data.Type.
+type GameCenterAchievementV2CreateRequestDataType string
+
+// GameCenterAchievementV2Response defines model for GameCenterAchievementV2Response.
+type GameCenterAchievementV2Response struct {
+	Data     GameCenterAchievementV2                          `json:"data"`
+	Included *[]GameCenterAchievementV2Response_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                    `json:"links"`
+}
+
+// GameCenterAchievementV2Response_Included_Item defines model for GameCenterAchievementV2Response.included.Item.
+type GameCenterAchievementV2Response_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterAchievementV2UpdateRequest defines model for GameCenterAchievementV2UpdateRequest.
+type GameCenterAchievementV2UpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			ActivityProperties *StringToStringMap `json:"activityProperties,omitempty"`
+			Archived           *bool              `json:"archived,omitempty"`
+			Points             *int               `json:"points,omitempty"`
+			ReferenceName      *string            `json:"referenceName,omitempty"`
+			Repeatable         *bool              `json:"repeatable,omitempty"`
+			ShowBeforeEarned   *bool              `json:"showBeforeEarned,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                       `json:"id"`
+		Type GameCenterAchievementV2UpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAchievementV2UpdateRequestDataType defines model for GameCenterAchievementV2UpdateRequest.Data.Type.
+type GameCenterAchievementV2UpdateRequestDataType string
 
 // GameCenterAchievementVersionV2 defines model for GameCenterAchievementVersionV2.
 type GameCenterAchievementVersionV2 struct {
@@ -74337,6 +76152,85 @@ type GameCenterAchievementVersionV2RelationshipsLocalizationsDataType string
 
 // GameCenterAchievementVersionV2Type defines model for GameCenterAchievementVersionV2.Type.
 type GameCenterAchievementVersionV2Type string
+
+// GameCenterAchievementVersionV2CreateRequest defines model for GameCenterAchievementVersionV2CreateRequest.
+type GameCenterAchievementVersionV2CreateRequest struct {
+	Data struct {
+		Relationships struct {
+			Achievement struct {
+				Data struct {
+					Id   string                                                                          `json:"id"`
+					Type GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataType `json:"type"`
+				} `json:"data"`
+			} `json:"achievement"`
+		} `json:"relationships"`
+		Type GameCenterAchievementVersionV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataType defines model for GameCenterAchievementVersionV2CreateRequest.Data.Relationships.Achievement.Data.Type.
+type GameCenterAchievementVersionV2CreateRequestDataRelationshipsAchievementDataType string
+
+// GameCenterAchievementVersionV2CreateRequestDataType defines model for GameCenterAchievementVersionV2CreateRequest.Data.Type.
+type GameCenterAchievementVersionV2CreateRequestDataType string
+
+// GameCenterAchievementVersionV2InlineCreate defines model for GameCenterAchievementVersionV2InlineCreate.
+type GameCenterAchievementVersionV2InlineCreate struct {
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		Achievement *struct {
+			Data *struct {
+				Id   string                                                                     `json:"id"`
+				Type GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"achievement,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterAchievementVersionV2InlineCreateType `json:"type"`
+}
+
+// GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataType defines model for GameCenterAchievementVersionV2InlineCreate.Relationships.Achievement.Data.Type.
+type GameCenterAchievementVersionV2InlineCreateRelationshipsAchievementDataType string
+
+// GameCenterAchievementVersionV2InlineCreateType defines model for GameCenterAchievementVersionV2InlineCreate.Type.
+type GameCenterAchievementVersionV2InlineCreateType string
+
+// GameCenterAchievementVersionV2Response defines model for GameCenterAchievementVersionV2Response.
+type GameCenterAchievementVersionV2Response struct {
+	Data     GameCenterAchievementVersionV2                          `json:"data"`
+	Included *[]GameCenterAchievementVersionV2Response_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                           `json:"links"`
+}
+
+// GameCenterAchievementVersionV2Response_Included_Item defines model for GameCenterAchievementVersionV2Response.included.Item.
+type GameCenterAchievementVersionV2Response_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterAchievementVersionsV2Response defines model for GameCenterAchievementVersionsV2Response.
+type GameCenterAchievementVersionsV2Response struct {
+	Data     []GameCenterAchievementVersionV2                         `json:"data"`
+	Included *[]GameCenterAchievementVersionsV2Response_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                       `json:"links"`
+	Meta     *PagingInformation                                       `json:"meta,omitempty"`
+}
+
+// GameCenterAchievementVersionsV2Response_Included_Item defines model for GameCenterAchievementVersionsV2Response.included.Item.
+type GameCenterAchievementVersionsV2Response_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterAchievementsV2Response defines model for GameCenterAchievementsV2Response.
+type GameCenterAchievementsV2Response struct {
+	Data     []GameCenterAchievementV2                         `json:"data"`
+	Included *[]GameCenterAchievementsV2Response_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                `json:"links"`
+	Meta     *PagingInformation                                `json:"meta,omitempty"`
+}
+
+// GameCenterAchievementsV2Response_Included_Item defines model for GameCenterAchievementsV2Response.included.Item.
+type GameCenterAchievementsV2Response_Included_Item struct {
+	union json.RawMessage
+}
 
 // GameCenterActivity defines model for GameCenterActivity.
 type GameCenterActivity struct {
@@ -87500,6 +89394,60 @@ type GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams struc
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
 
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams defines parameters for GameCenterDetailsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams struct {
+	// FilterReferenceName filter by attribute 'referenceName'
+	FilterReferenceName *[]string `form:"filter[referenceName],omitempty" json:"filter[referenceName],omitempty"`
+
+	// FilterArchived filter by attribute 'archived'
+	FilterArchived *[]string `form:"filter[archived],omitempty" json:"filter[archived],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// FieldsGameCenterAchievements the fields to include for returned resources of type gameCenterAchievements
+	FieldsGameCenterAchievements *[]GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements `form:"fields[gameCenterAchievements],omitempty" json:"fields[gameCenterAchievements],omitempty"`
+
+	// FieldsGameCenterDetails the fields to include for returned resources of type gameCenterDetails
+	FieldsGameCenterDetails *[]GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails `form:"fields[gameCenterDetails],omitempty" json:"fields[gameCenterDetails],omitempty"`
+
+	// FieldsGameCenterGroups the fields to include for returned resources of type gameCenterGroups
+	FieldsGameCenterGroups *[]GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups `form:"fields[gameCenterGroups],omitempty" json:"fields[gameCenterGroups],omitempty"`
+
+	// FieldsGameCenterActivities the fields to include for returned resources of type gameCenterActivities
+	FieldsGameCenterActivities *[]GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities `form:"fields[gameCenterActivities],omitempty" json:"fields[gameCenterActivities],omitempty"`
+
+	// FieldsGameCenterAchievementVersions the fields to include for returned resources of type gameCenterAchievementVersions
+	FieldsGameCenterAchievementVersions *[]GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions `form:"fields[gameCenterAchievementVersions],omitempty" json:"fields[gameCenterAchievementVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+}
+
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements defines parameters for GameCenterDetailsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements string
+
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails defines parameters for GameCenterDetailsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails string
+
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups defines parameters for GameCenterDetailsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups string
+
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities defines parameters for GameCenterDetailsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities string
+
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions defines parameters for GameCenterDetailsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions string
+
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude defines parameters for GameCenterDetailsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParamsInclude string
+
 // GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams defines parameters for GameCenterDetailsGameCenterAppVersionsGetToManyRelated.
 type GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams struct {
 	// FilterEnabled filter by attribute 'enabled'
@@ -87697,6 +89645,60 @@ type GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges string
 
 // GameCenterGroupsGetInstanceParamsInclude defines parameters for GameCenterGroupsGetInstance.
 type GameCenterGroupsGetInstanceParamsInclude string
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams defines parameters for GameCenterGroupsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams struct {
+	// FilterReferenceName filter by attribute 'referenceName'
+	FilterReferenceName *[]string `form:"filter[referenceName],omitempty" json:"filter[referenceName],omitempty"`
+
+	// FilterArchived filter by attribute 'archived'
+	FilterArchived *[]string `form:"filter[archived],omitempty" json:"filter[archived],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// FieldsGameCenterAchievements the fields to include for returned resources of type gameCenterAchievements
+	FieldsGameCenterAchievements *[]GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements `form:"fields[gameCenterAchievements],omitempty" json:"fields[gameCenterAchievements],omitempty"`
+
+	// FieldsGameCenterDetails the fields to include for returned resources of type gameCenterDetails
+	FieldsGameCenterDetails *[]GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails `form:"fields[gameCenterDetails],omitempty" json:"fields[gameCenterDetails],omitempty"`
+
+	// FieldsGameCenterGroups the fields to include for returned resources of type gameCenterGroups
+	FieldsGameCenterGroups *[]GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups `form:"fields[gameCenterGroups],omitempty" json:"fields[gameCenterGroups],omitempty"`
+
+	// FieldsGameCenterActivities the fields to include for returned resources of type gameCenterActivities
+	FieldsGameCenterActivities *[]GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities `form:"fields[gameCenterActivities],omitempty" json:"fields[gameCenterActivities],omitempty"`
+
+	// FieldsGameCenterAchievementVersions the fields to include for returned resources of type gameCenterAchievementVersions
+	FieldsGameCenterAchievementVersions *[]GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions `form:"fields[gameCenterAchievementVersions],omitempty" json:"fields[gameCenterAchievementVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+}
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements defines parameters for GameCenterGroupsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievements string
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails defines parameters for GameCenterGroupsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterDetails string
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups defines parameters for GameCenterGroupsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterGroups string
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities defines parameters for GameCenterGroupsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterActivities string
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions defines parameters for GameCenterGroupsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsFieldsGameCenterAchievementVersions string
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude defines parameters for GameCenterGroupsGameCenterAchievementsV2GetToManyRelated.
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParamsInclude string
 
 // InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams defines parameters for InAppPurchaseAppStoreReviewScreenshotsGetInstance.
 type InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams struct {
@@ -90066,6 +92068,132 @@ type AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimen
 // AppStoreVersionExperimentsV2GetInstanceParamsInclude defines parameters for AppStoreVersionExperimentsV2GetInstance.
 type AppStoreVersionExperimentsV2GetInstanceParamsInclude string
 
+// GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams defines parameters for GameCenterAchievementLocalizationsV2ImageGetToOneRelated.
+type GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams struct {
+	// FieldsGameCenterAchievementImages the fields to include for returned resources of type gameCenterAchievementImages
+	FieldsGameCenterAchievementImages *[]GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages `form:"fields[gameCenterAchievementImages],omitempty" json:"fields[gameCenterAchievementImages],omitempty"`
+
+	// FieldsGameCenterAchievementLocalizations the fields to include for returned resources of type gameCenterAchievementLocalizations
+	FieldsGameCenterAchievementLocalizations *[]GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations `form:"fields[gameCenterAchievementLocalizations],omitempty" json:"fields[gameCenterAchievementLocalizations],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages defines parameters for GameCenterAchievementLocalizationsV2ImageGetToOneRelated.
+type GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementImages string
+
+// GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations defines parameters for GameCenterAchievementLocalizationsV2ImageGetToOneRelated.
+type GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsFieldsGameCenterAchievementLocalizations string
+
+// GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsInclude defines parameters for GameCenterAchievementLocalizationsV2ImageGetToOneRelated.
+type GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParamsInclude string
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams defines parameters for GameCenterAchievementVersionsV2LocalizationsGetToManyRelated.
+type GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams struct {
+	// FieldsGameCenterAchievementLocalizations the fields to include for returned resources of type gameCenterAchievementLocalizations
+	FieldsGameCenterAchievementLocalizations *[]GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations `form:"fields[gameCenterAchievementLocalizations],omitempty" json:"fields[gameCenterAchievementLocalizations],omitempty"`
+
+	// FieldsGameCenterAchievementVersions the fields to include for returned resources of type gameCenterAchievementVersions
+	FieldsGameCenterAchievementVersions *[]GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions `form:"fields[gameCenterAchievementVersions],omitempty" json:"fields[gameCenterAchievementVersions],omitempty"`
+
+	// FieldsGameCenterAchievementImages the fields to include for returned resources of type gameCenterAchievementImages
+	FieldsGameCenterAchievementImages *[]GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages `form:"fields[gameCenterAchievementImages],omitempty" json:"fields[gameCenterAchievementImages],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations defines parameters for GameCenterAchievementVersionsV2LocalizationsGetToManyRelated.
+type GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations string
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions defines parameters for GameCenterAchievementVersionsV2LocalizationsGetToManyRelated.
+type GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementVersions string
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages defines parameters for GameCenterAchievementVersionsV2LocalizationsGetToManyRelated.
+type GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsFieldsGameCenterAchievementImages string
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude defines parameters for GameCenterAchievementVersionsV2LocalizationsGetToManyRelated.
+type GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParamsInclude string
+
+// GameCenterAchievementsV2GetInstanceParams defines parameters for GameCenterAchievementsV2GetInstance.
+type GameCenterAchievementsV2GetInstanceParams struct {
+	// FieldsGameCenterAchievements the fields to include for returned resources of type gameCenterAchievements
+	FieldsGameCenterAchievements *[]GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements `form:"fields[gameCenterAchievements],omitempty" json:"fields[gameCenterAchievements],omitempty"`
+
+	// FieldsGameCenterDetails the fields to include for returned resources of type gameCenterDetails
+	FieldsGameCenterDetails *[]GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails `form:"fields[gameCenterDetails],omitempty" json:"fields[gameCenterDetails],omitempty"`
+
+	// FieldsGameCenterGroups the fields to include for returned resources of type gameCenterGroups
+	FieldsGameCenterGroups *[]GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups `form:"fields[gameCenterGroups],omitempty" json:"fields[gameCenterGroups],omitempty"`
+
+	// FieldsGameCenterActivities the fields to include for returned resources of type gameCenterActivities
+	FieldsGameCenterActivities *[]GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities `form:"fields[gameCenterActivities],omitempty" json:"fields[gameCenterActivities],omitempty"`
+
+	// FieldsGameCenterAchievementVersions the fields to include for returned resources of type gameCenterAchievementVersions
+	FieldsGameCenterAchievementVersions *[]GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions `form:"fields[gameCenterAchievementVersions],omitempty" json:"fields[gameCenterAchievementVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterAchievementsV2GetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+}
+
+// GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements defines parameters for GameCenterAchievementsV2GetInstance.
+type GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievements string
+
+// GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails defines parameters for GameCenterAchievementsV2GetInstance.
+type GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterDetails string
+
+// GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups defines parameters for GameCenterAchievementsV2GetInstance.
+type GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterGroups string
+
+// GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities defines parameters for GameCenterAchievementsV2GetInstance.
+type GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterActivities string
+
+// GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions defines parameters for GameCenterAchievementsV2GetInstance.
+type GameCenterAchievementsV2GetInstanceParamsFieldsGameCenterAchievementVersions string
+
+// GameCenterAchievementsV2GetInstanceParamsInclude defines parameters for GameCenterAchievementsV2GetInstance.
+type GameCenterAchievementsV2GetInstanceParamsInclude string
+
+// GameCenterAchievementsV2VersionsGetToManyRelatedParams defines parameters for GameCenterAchievementsV2VersionsGetToManyRelated.
+type GameCenterAchievementsV2VersionsGetToManyRelatedParams struct {
+	// FieldsGameCenterAchievementVersions the fields to include for returned resources of type gameCenterAchievementVersions
+	FieldsGameCenterAchievementVersions *[]GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions `form:"fields[gameCenterAchievementVersions],omitempty" json:"fields[gameCenterAchievementVersions],omitempty"`
+
+	// FieldsGameCenterAchievements the fields to include for returned resources of type gameCenterAchievements
+	FieldsGameCenterAchievements *[]GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements `form:"fields[gameCenterAchievements],omitempty" json:"fields[gameCenterAchievements],omitempty"`
+
+	// FieldsGameCenterAchievementLocalizations the fields to include for returned resources of type gameCenterAchievementLocalizations
+	FieldsGameCenterAchievementLocalizations *[]GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations `form:"fields[gameCenterAchievementLocalizations],omitempty" json:"fields[gameCenterAchievementLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitLocalizations maximum number of related localizations returned (when they are included)
+	LimitLocalizations *int `form:"limit[localizations],omitempty" json:"limit[localizations],omitempty"`
+}
+
+// GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions defines parameters for GameCenterAchievementsV2VersionsGetToManyRelated.
+type GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementVersions string
+
+// GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements defines parameters for GameCenterAchievementsV2VersionsGetToManyRelated.
+type GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievements string
+
+// GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations defines parameters for GameCenterAchievementsV2VersionsGetToManyRelated.
+type GameCenterAchievementsV2VersionsGetToManyRelatedParamsFieldsGameCenterAchievementLocalizations string
+
+// GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude defines parameters for GameCenterAchievementsV2VersionsGetToManyRelated.
+type GameCenterAchievementsV2VersionsGetToManyRelatedParamsInclude string
+
 // InAppPurchaseImagesV2GetInstanceParams defines parameters for InAppPurchaseImagesV2GetInstance.
 type InAppPurchaseImagesV2GetInstanceParams struct {
 	// FieldsInAppPurchaseImages the fields to include for returned resources of type inAppPurchaseImages
@@ -90980,6 +93108,27 @@ type AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody = AppStoreVersion
 
 // AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody defines body for AppStoreVersionExperimentsV2UpdateInstance for application/json ContentType.
 type AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody = AppStoreVersionExperimentV2UpdateRequest
+
+// GameCenterAchievementImagesV2CreateInstanceJSONRequestBody defines body for GameCenterAchievementImagesV2CreateInstance for application/json ContentType.
+type GameCenterAchievementImagesV2CreateInstanceJSONRequestBody = GameCenterAchievementImageV2CreateRequest
+
+// GameCenterAchievementImagesV2UpdateInstanceJSONRequestBody defines body for GameCenterAchievementImagesV2UpdateInstance for application/json ContentType.
+type GameCenterAchievementImagesV2UpdateInstanceJSONRequestBody = GameCenterAchievementImageV2UpdateRequest
+
+// GameCenterAchievementLocalizationsV2CreateInstanceJSONRequestBody defines body for GameCenterAchievementLocalizationsV2CreateInstance for application/json ContentType.
+type GameCenterAchievementLocalizationsV2CreateInstanceJSONRequestBody = GameCenterAchievementLocalizationV2CreateRequest
+
+// GameCenterAchievementLocalizationsV2UpdateInstanceJSONRequestBody defines body for GameCenterAchievementLocalizationsV2UpdateInstance for application/json ContentType.
+type GameCenterAchievementLocalizationsV2UpdateInstanceJSONRequestBody = GameCenterAchievementLocalizationV2UpdateRequest
+
+// GameCenterAchievementVersionsV2CreateInstanceJSONRequestBody defines body for GameCenterAchievementVersionsV2CreateInstance for application/json ContentType.
+type GameCenterAchievementVersionsV2CreateInstanceJSONRequestBody = GameCenterAchievementVersionV2CreateRequest
+
+// GameCenterAchievementsV2CreateInstanceJSONRequestBody defines body for GameCenterAchievementsV2CreateInstance for application/json ContentType.
+type GameCenterAchievementsV2CreateInstanceJSONRequestBody = GameCenterAchievementV2CreateRequest
+
+// GameCenterAchievementsV2UpdateInstanceJSONRequestBody defines body for GameCenterAchievementsV2UpdateInstance for application/json ContentType.
+type GameCenterAchievementsV2UpdateInstanceJSONRequestBody = GameCenterAchievementV2UpdateRequest
 
 // InAppPurchaseImagesV2CreateInstanceJSONRequestBody defines body for InAppPurchaseImagesV2CreateInstance for application/json ContentType.
 type InAppPurchaseImagesV2CreateInstanceJSONRequestBody = InAppPurchaseImageV2CreateRequest
@@ -104093,6 +106242,756 @@ func (t *ErrorResponse_Errors_Source) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsGameCenterAchievementImageV2 returns the union data inside the GameCenterAchievementLocalizationV2Response_Included_Item as a GameCenterAchievementImageV2
+func (t GameCenterAchievementLocalizationV2Response_Included_Item) AsGameCenterAchievementImageV2() (GameCenterAchievementImageV2, error) {
+	var body GameCenterAchievementImageV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementImageV2 overwrites any union data inside the GameCenterAchievementLocalizationV2Response_Included_Item as the provided GameCenterAchievementImageV2
+func (t *GameCenterAchievementLocalizationV2Response_Included_Item) FromGameCenterAchievementImageV2(v GameCenterAchievementImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementImageV2 performs a merge with any union data inside the GameCenterAchievementLocalizationV2Response_Included_Item, using the provided GameCenterAchievementImageV2
+func (t *GameCenterAchievementLocalizationV2Response_Included_Item) MergeGameCenterAchievementImageV2(v GameCenterAchievementImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAchievementVersionV2 returns the union data inside the GameCenterAchievementLocalizationV2Response_Included_Item as a GameCenterAchievementVersionV2
+func (t GameCenterAchievementLocalizationV2Response_Included_Item) AsGameCenterAchievementVersionV2() (GameCenterAchievementVersionV2, error) {
+	var body GameCenterAchievementVersionV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementVersionV2 overwrites any union data inside the GameCenterAchievementLocalizationV2Response_Included_Item as the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementLocalizationV2Response_Included_Item) FromGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementVersionV2 performs a merge with any union data inside the GameCenterAchievementLocalizationV2Response_Included_Item, using the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementLocalizationV2Response_Included_Item) MergeGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAchievementLocalizationV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAchievementLocalizationV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievementImages":
+		return t.AsGameCenterAchievementImageV2()
+	case "gameCenterAchievementVersions":
+		return t.AsGameCenterAchievementVersionV2()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAchievementLocalizationV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAchievementLocalizationV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterAchievementImageV2 returns the union data inside the GameCenterAchievementLocalizationsV2Response_Included_Item as a GameCenterAchievementImageV2
+func (t GameCenterAchievementLocalizationsV2Response_Included_Item) AsGameCenterAchievementImageV2() (GameCenterAchievementImageV2, error) {
+	var body GameCenterAchievementImageV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementImageV2 overwrites any union data inside the GameCenterAchievementLocalizationsV2Response_Included_Item as the provided GameCenterAchievementImageV2
+func (t *GameCenterAchievementLocalizationsV2Response_Included_Item) FromGameCenterAchievementImageV2(v GameCenterAchievementImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementImageV2 performs a merge with any union data inside the GameCenterAchievementLocalizationsV2Response_Included_Item, using the provided GameCenterAchievementImageV2
+func (t *GameCenterAchievementLocalizationsV2Response_Included_Item) MergeGameCenterAchievementImageV2(v GameCenterAchievementImageV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAchievementVersionV2 returns the union data inside the GameCenterAchievementLocalizationsV2Response_Included_Item as a GameCenterAchievementVersionV2
+func (t GameCenterAchievementLocalizationsV2Response_Included_Item) AsGameCenterAchievementVersionV2() (GameCenterAchievementVersionV2, error) {
+	var body GameCenterAchievementVersionV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementVersionV2 overwrites any union data inside the GameCenterAchievementLocalizationsV2Response_Included_Item as the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementLocalizationsV2Response_Included_Item) FromGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementVersionV2 performs a merge with any union data inside the GameCenterAchievementLocalizationsV2Response_Included_Item, using the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementLocalizationsV2Response_Included_Item) MergeGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAchievementLocalizationsV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAchievementLocalizationsV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievementImages":
+		return t.AsGameCenterAchievementImageV2()
+	case "gameCenterAchievementVersions":
+		return t.AsGameCenterAchievementVersionV2()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAchievementLocalizationsV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAchievementLocalizationsV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterAchievementVersionV2 returns the union data inside the GameCenterAchievementV2Response_Included_Item as a GameCenterAchievementVersionV2
+func (t GameCenterAchievementV2Response_Included_Item) AsGameCenterAchievementVersionV2() (GameCenterAchievementVersionV2, error) {
+	var body GameCenterAchievementVersionV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementVersionV2 overwrites any union data inside the GameCenterAchievementV2Response_Included_Item as the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementV2Response_Included_Item) FromGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementVersionV2 performs a merge with any union data inside the GameCenterAchievementV2Response_Included_Item, using the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementV2Response_Included_Item) MergeGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterActivity returns the union data inside the GameCenterAchievementV2Response_Included_Item as a GameCenterActivity
+func (t GameCenterAchievementV2Response_Included_Item) AsGameCenterActivity() (GameCenterActivity, error) {
+	var body GameCenterActivity
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterActivity overwrites any union data inside the GameCenterAchievementV2Response_Included_Item as the provided GameCenterActivity
+func (t *GameCenterAchievementV2Response_Included_Item) FromGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterActivity performs a merge with any union data inside the GameCenterAchievementV2Response_Included_Item, using the provided GameCenterActivity
+func (t *GameCenterAchievementV2Response_Included_Item) MergeGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterDetail returns the union data inside the GameCenterAchievementV2Response_Included_Item as a GameCenterDetail
+func (t GameCenterAchievementV2Response_Included_Item) AsGameCenterDetail() (GameCenterDetail, error) {
+	var body GameCenterDetail
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterDetail overwrites any union data inside the GameCenterAchievementV2Response_Included_Item as the provided GameCenterDetail
+func (t *GameCenterAchievementV2Response_Included_Item) FromGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterDetail performs a merge with any union data inside the GameCenterAchievementV2Response_Included_Item, using the provided GameCenterDetail
+func (t *GameCenterAchievementV2Response_Included_Item) MergeGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterGroup returns the union data inside the GameCenterAchievementV2Response_Included_Item as a GameCenterGroup
+func (t GameCenterAchievementV2Response_Included_Item) AsGameCenterGroup() (GameCenterGroup, error) {
+	var body GameCenterGroup
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterGroup overwrites any union data inside the GameCenterAchievementV2Response_Included_Item as the provided GameCenterGroup
+func (t *GameCenterAchievementV2Response_Included_Item) FromGameCenterGroup(v GameCenterGroup) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterGroups"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterGroup performs a merge with any union data inside the GameCenterAchievementV2Response_Included_Item, using the provided GameCenterGroup
+func (t *GameCenterAchievementV2Response_Included_Item) MergeGameCenterGroup(v GameCenterGroup) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterGroups"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAchievementV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAchievementV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievementVersions":
+		return t.AsGameCenterAchievementVersionV2()
+	case "gameCenterActivities":
+		return t.AsGameCenterActivity()
+	case "gameCenterDetails":
+		return t.AsGameCenterDetail()
+	case "gameCenterGroups":
+		return t.AsGameCenterGroup()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAchievementV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAchievementV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterAchievementLocalizationV2 returns the union data inside the GameCenterAchievementVersionV2Response_Included_Item as a GameCenterAchievementLocalizationV2
+func (t GameCenterAchievementVersionV2Response_Included_Item) AsGameCenterAchievementLocalizationV2() (GameCenterAchievementLocalizationV2, error) {
+	var body GameCenterAchievementLocalizationV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementLocalizationV2 overwrites any union data inside the GameCenterAchievementVersionV2Response_Included_Item as the provided GameCenterAchievementLocalizationV2
+func (t *GameCenterAchievementVersionV2Response_Included_Item) FromGameCenterAchievementLocalizationV2(v GameCenterAchievementLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementLocalizationV2 performs a merge with any union data inside the GameCenterAchievementVersionV2Response_Included_Item, using the provided GameCenterAchievementLocalizationV2
+func (t *GameCenterAchievementVersionV2Response_Included_Item) MergeGameCenterAchievementLocalizationV2(v GameCenterAchievementLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAchievementV2 returns the union data inside the GameCenterAchievementVersionV2Response_Included_Item as a GameCenterAchievementV2
+func (t GameCenterAchievementVersionV2Response_Included_Item) AsGameCenterAchievementV2() (GameCenterAchievementV2, error) {
+	var body GameCenterAchievementV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementV2 overwrites any union data inside the GameCenterAchievementVersionV2Response_Included_Item as the provided GameCenterAchievementV2
+func (t *GameCenterAchievementVersionV2Response_Included_Item) FromGameCenterAchievementV2(v GameCenterAchievementV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementV2 performs a merge with any union data inside the GameCenterAchievementVersionV2Response_Included_Item, using the provided GameCenterAchievementV2
+func (t *GameCenterAchievementVersionV2Response_Included_Item) MergeGameCenterAchievementV2(v GameCenterAchievementV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAchievementVersionV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAchievementVersionV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievementLocalizations":
+		return t.AsGameCenterAchievementLocalizationV2()
+	case "gameCenterAchievements":
+		return t.AsGameCenterAchievementV2()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAchievementVersionV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAchievementVersionV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterAchievementLocalizationV2 returns the union data inside the GameCenterAchievementVersionsV2Response_Included_Item as a GameCenterAchievementLocalizationV2
+func (t GameCenterAchievementVersionsV2Response_Included_Item) AsGameCenterAchievementLocalizationV2() (GameCenterAchievementLocalizationV2, error) {
+	var body GameCenterAchievementLocalizationV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementLocalizationV2 overwrites any union data inside the GameCenterAchievementVersionsV2Response_Included_Item as the provided GameCenterAchievementLocalizationV2
+func (t *GameCenterAchievementVersionsV2Response_Included_Item) FromGameCenterAchievementLocalizationV2(v GameCenterAchievementLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementLocalizationV2 performs a merge with any union data inside the GameCenterAchievementVersionsV2Response_Included_Item, using the provided GameCenterAchievementLocalizationV2
+func (t *GameCenterAchievementVersionsV2Response_Included_Item) MergeGameCenterAchievementLocalizationV2(v GameCenterAchievementLocalizationV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAchievementV2 returns the union data inside the GameCenterAchievementVersionsV2Response_Included_Item as a GameCenterAchievementV2
+func (t GameCenterAchievementVersionsV2Response_Included_Item) AsGameCenterAchievementV2() (GameCenterAchievementV2, error) {
+	var body GameCenterAchievementV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementV2 overwrites any union data inside the GameCenterAchievementVersionsV2Response_Included_Item as the provided GameCenterAchievementV2
+func (t *GameCenterAchievementVersionsV2Response_Included_Item) FromGameCenterAchievementV2(v GameCenterAchievementV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementV2 performs a merge with any union data inside the GameCenterAchievementVersionsV2Response_Included_Item, using the provided GameCenterAchievementV2
+func (t *GameCenterAchievementVersionsV2Response_Included_Item) MergeGameCenterAchievementV2(v GameCenterAchievementV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAchievementVersionsV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAchievementVersionsV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievementLocalizations":
+		return t.AsGameCenterAchievementLocalizationV2()
+	case "gameCenterAchievements":
+		return t.AsGameCenterAchievementV2()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAchievementVersionsV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAchievementVersionsV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterAchievementVersionV2 returns the union data inside the GameCenterAchievementsV2Response_Included_Item as a GameCenterAchievementVersionV2
+func (t GameCenterAchievementsV2Response_Included_Item) AsGameCenterAchievementVersionV2() (GameCenterAchievementVersionV2, error) {
+	var body GameCenterAchievementVersionV2
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementVersionV2 overwrites any union data inside the GameCenterAchievementsV2Response_Included_Item as the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementsV2Response_Included_Item) FromGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementVersionV2 performs a merge with any union data inside the GameCenterAchievementsV2Response_Included_Item, using the provided GameCenterAchievementVersionV2
+func (t *GameCenterAchievementsV2Response_Included_Item) MergeGameCenterAchievementVersionV2(v GameCenterAchievementVersionV2) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterActivity returns the union data inside the GameCenterAchievementsV2Response_Included_Item as a GameCenterActivity
+func (t GameCenterAchievementsV2Response_Included_Item) AsGameCenterActivity() (GameCenterActivity, error) {
+	var body GameCenterActivity
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterActivity overwrites any union data inside the GameCenterAchievementsV2Response_Included_Item as the provided GameCenterActivity
+func (t *GameCenterAchievementsV2Response_Included_Item) FromGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterActivity performs a merge with any union data inside the GameCenterAchievementsV2Response_Included_Item, using the provided GameCenterActivity
+func (t *GameCenterAchievementsV2Response_Included_Item) MergeGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterDetail returns the union data inside the GameCenterAchievementsV2Response_Included_Item as a GameCenterDetail
+func (t GameCenterAchievementsV2Response_Included_Item) AsGameCenterDetail() (GameCenterDetail, error) {
+	var body GameCenterDetail
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterDetail overwrites any union data inside the GameCenterAchievementsV2Response_Included_Item as the provided GameCenterDetail
+func (t *GameCenterAchievementsV2Response_Included_Item) FromGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterDetail performs a merge with any union data inside the GameCenterAchievementsV2Response_Included_Item, using the provided GameCenterDetail
+func (t *GameCenterAchievementsV2Response_Included_Item) MergeGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterGroup returns the union data inside the GameCenterAchievementsV2Response_Included_Item as a GameCenterGroup
+func (t GameCenterAchievementsV2Response_Included_Item) AsGameCenterGroup() (GameCenterGroup, error) {
+	var body GameCenterGroup
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterGroup overwrites any union data inside the GameCenterAchievementsV2Response_Included_Item as the provided GameCenterGroup
+func (t *GameCenterAchievementsV2Response_Included_Item) FromGameCenterGroup(v GameCenterGroup) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterGroups"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterGroup performs a merge with any union data inside the GameCenterAchievementsV2Response_Included_Item, using the provided GameCenterGroup
+func (t *GameCenterAchievementsV2Response_Included_Item) MergeGameCenterGroup(v GameCenterGroup) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterGroups"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAchievementsV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAchievementsV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievementVersions":
+		return t.AsGameCenterAchievementVersionV2()
+	case "gameCenterActivities":
+		return t.AsGameCenterActivity()
+	case "gameCenterDetails":
+		return t.AsGameCenterDetail()
+	case "gameCenterGroups":
+		return t.AsGameCenterGroup()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAchievementsV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAchievementsV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsAppStoreVersion returns the union data inside the GameCenterAppVersionResponse_Included_Item as a AppStoreVersion
 func (t GameCenterAppVersionResponse_Included_Item) AsAppStoreVersion() (AppStoreVersion, error) {
 	var body AppStoreVersion
@@ -114043,6 +116942,9 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	GameCenterDetailsUpdateInstance(ctx context.Context, id string, body GameCenterDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// GameCenterDetailsGameCenterAchievementsV2GetToManyRelated performs a GET /v1/gameCenterDetails/{id}/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelated(ctx context.Context, id string, params *GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// GameCenterDetailsGameCenterAppVersionsGetToManyRelated performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
 	GameCenterDetailsGameCenterAppVersionsGetToManyRelated(ctx context.Context, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -114070,6 +116972,9 @@ type ClientInterface interface {
 	// GameCenterGroupsUpdateInstance performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	GameCenterGroupsUpdateInstance(ctx context.Context, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGameCenterAchievementsV2GetToManyRelated performs a GET /v1/gameCenterGroups/{id}/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelated(ctx context.Context, id string, params *GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -114942,6 +117847,83 @@ type ClientInterface interface {
 	// AppStoreVersionExperimentsV2UpdateInstance performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	AppStoreVersionExperimentsV2UpdateInstance(ctx context.Context, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementImagesV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAchievementImagesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementImagesV2CreateInstance performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAchievementImagesV2CreateInstance(ctx context.Context, body GameCenterAchievementImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementImagesV2DeleteInstance performs a DELETE /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2DeleteInstance` operationId) request.
+	GameCenterAchievementImagesV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementImagesV2UpdateInstanceWithBody performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAchievementImagesV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementImagesV2UpdateInstance performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAchievementImagesV2UpdateInstance(ctx context.Context, id string, body GameCenterAchievementImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementLocalizationsV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAchievementLocalizationsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementLocalizationsV2CreateInstance performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAchievementLocalizationsV2CreateInstance(ctx context.Context, body GameCenterAchievementLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementLocalizationsV2DeleteInstance performs a DELETE /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2DeleteInstance` operationId) request.
+	GameCenterAchievementLocalizationsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementLocalizationsV2UpdateInstanceWithBody performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAchievementLocalizationsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementLocalizationsV2UpdateInstance performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAchievementLocalizationsV2UpdateInstance(ctx context.Context, id string, body GameCenterAchievementLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementLocalizationsV2ImageGetToOneRelated performs a GET /v2/gameCenterAchievementLocalizations/{id}/image (the `GameCenterAchievementLocalizationsV2ImageGetToOneRelated` operationId) request.
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelated(ctx context.Context, id string, params *GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementVersionsV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAchievementVersionsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementVersionsV2CreateInstance performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAchievementVersionsV2CreateInstance(ctx context.Context, body GameCenterAchievementVersionsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementVersionsV2LocalizationsGetToManyRelated performs a GET /v2/gameCenterAchievementVersions/{id}/localizations (the `GameCenterAchievementVersionsV2LocalizationsGetToManyRelated` operationId) request.
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelated(ctx context.Context, id string, params *GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementsV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAchievementsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementsV2CreateInstance performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAchievementsV2CreateInstance(ctx context.Context, body GameCenterAchievementsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementsV2DeleteInstance performs a DELETE /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2DeleteInstance` operationId) request.
+	GameCenterAchievementsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementsV2GetInstance performs a GET /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2GetInstance` operationId) request.
+	GameCenterAchievementsV2GetInstance(ctx context.Context, id string, params *GameCenterAchievementsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementsV2UpdateInstanceWithBody performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAchievementsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementsV2UpdateInstance performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAchievementsV2UpdateInstance(ctx context.Context, id string, body GameCenterAchievementsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAchievementsV2VersionsGetToManyRelated performs a GET /v2/gameCenterAchievements/{id}/versions (the `GameCenterAchievementsV2VersionsGetToManyRelated` operationId) request.
+	GameCenterAchievementsV2VersionsGetToManyRelated(ctx context.Context, id string, params *GameCenterAchievementsV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// InAppPurchaseImagesV2CreateInstanceWithBody performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -120976,6 +123958,19 @@ func (c *Client) GameCenterDetailsUpdateInstance(ctx context.Context, id string,
 	return c.Client.Do(req)
 }
 
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelated performs a GET /v1/gameCenterDetails/{id}/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+func (c *Client) GameCenterDetailsGameCenterAchievementsV2GetToManyRelated(ctx context.Context, id string, params *GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterAchievementsV2GetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // GameCenterDetailsGameCenterAppVersionsGetToManyRelated performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
 func (c *Client) GameCenterDetailsGameCenterAppVersionsGetToManyRelated(ctx context.Context, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewGameCenterDetailsGameCenterAppVersionsGetToManyRelatedRequest(c.Server, id, params)
@@ -121074,6 +124069,19 @@ func (c *Client) GameCenterGroupsUpdateInstanceWithBody(ctx context.Context, id 
 // Takes a body of the `application/json` content type.
 func (c *Client) GameCenterGroupsUpdateInstance(ctx context.Context, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewGameCenterGroupsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelated performs a GET /v1/gameCenterGroups/{id}/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+func (c *Client) GameCenterGroupsGameCenterAchievementsV2GetToManyRelated(ctx context.Context, id string, params *GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGameCenterAchievementsV2GetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -124366,6 +127374,293 @@ func (c *Client) AppStoreVersionExperimentsV2UpdateInstanceWithBody(ctx context.
 // Takes a body of the `application/json` content type.
 func (c *Client) AppStoreVersionExperimentsV2UpdateInstance(ctx context.Context, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionExperimentsV2UpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementImagesV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAchievementImagesV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementImagesV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementImagesV2CreateInstance performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAchievementImagesV2CreateInstance(ctx context.Context, body GameCenterAchievementImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementImagesV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementImagesV2DeleteInstance performs a DELETE /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2DeleteInstance` operationId) request.
+func (c *Client) GameCenterAchievementImagesV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementImagesV2DeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementImagesV2UpdateInstanceWithBody performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAchievementImagesV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementImagesV2UpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementImagesV2UpdateInstance performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAchievementImagesV2UpdateInstance(ctx context.Context, id string, body GameCenterAchievementImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementImagesV2UpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementLocalizationsV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAchievementLocalizationsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementLocalizationsV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementLocalizationsV2CreateInstance performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAchievementLocalizationsV2CreateInstance(ctx context.Context, body GameCenterAchievementLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementLocalizationsV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementLocalizationsV2DeleteInstance performs a DELETE /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2DeleteInstance` operationId) request.
+func (c *Client) GameCenterAchievementLocalizationsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementLocalizationsV2DeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementLocalizationsV2UpdateInstanceWithBody performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAchievementLocalizationsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementLocalizationsV2UpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementLocalizationsV2UpdateInstance performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAchievementLocalizationsV2UpdateInstance(ctx context.Context, id string, body GameCenterAchievementLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementLocalizationsV2UpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementLocalizationsV2ImageGetToOneRelated performs a GET /v2/gameCenterAchievementLocalizations/{id}/image (the `GameCenterAchievementLocalizationsV2ImageGetToOneRelated` operationId) request.
+func (c *Client) GameCenterAchievementLocalizationsV2ImageGetToOneRelated(ctx context.Context, id string, params *GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementLocalizationsV2ImageGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementVersionsV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAchievementVersionsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementVersionsV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementVersionsV2CreateInstance performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAchievementVersionsV2CreateInstance(ctx context.Context, body GameCenterAchievementVersionsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementVersionsV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelated performs a GET /v2/gameCenterAchievementVersions/{id}/localizations (the `GameCenterAchievementVersionsV2LocalizationsGetToManyRelated` operationId) request.
+func (c *Client) GameCenterAchievementVersionsV2LocalizationsGetToManyRelated(ctx context.Context, id string, params *GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementVersionsV2LocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementsV2CreateInstanceWithBody performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAchievementsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementsV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementsV2CreateInstance performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAchievementsV2CreateInstance(ctx context.Context, body GameCenterAchievementsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementsV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementsV2DeleteInstance performs a DELETE /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2DeleteInstance` operationId) request.
+func (c *Client) GameCenterAchievementsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementsV2DeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementsV2GetInstance performs a GET /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2GetInstance` operationId) request.
+func (c *Client) GameCenterAchievementsV2GetInstance(ctx context.Context, id string, params *GameCenterAchievementsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementsV2GetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementsV2UpdateInstanceWithBody performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAchievementsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementsV2UpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementsV2UpdateInstance performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAchievementsV2UpdateInstance(ctx context.Context, id string, body GameCenterAchievementsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementsV2UpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAchievementsV2VersionsGetToManyRelated performs a GET /v2/gameCenterAchievements/{id}/versions (the `GameCenterAchievementsV2VersionsGetToManyRelated` operationId) request.
+func (c *Client) GameCenterAchievementsV2VersionsGetToManyRelated(ctx context.Context, id string, params *GameCenterAchievementsV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAchievementsV2VersionsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -150646,6 +153941,187 @@ func NewGameCenterDetailsUpdateInstanceRequestWithBody(server string, id string,
 	return req, nil
 }
 
+// NewGameCenterDetailsGameCenterAchievementsV2GetToManyRelatedRequest constructs an http.Request for the GameCenterDetailsGameCenterAchievementsV2GetToManyRelated method
+func NewGameCenterDetailsGameCenterAchievementsV2GetToManyRelatedRequest(server string, id string, params *GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails/%s/gameCenterAchievementsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterReferenceName != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[referenceName]", *params.FilterReferenceName, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterArchived != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[archived]", *params.FilterArchived, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievements]", *params.FieldsGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterDetails]", *params.FieldsGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterGroups != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterGroups]", *params.FieldsGameCenterGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterActivities]", *params.FieldsGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementVersions]", *params.FieldsGameCenterAchievementVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewGameCenterDetailsGameCenterAppVersionsGetToManyRelatedRequest constructs an http.Request for the GameCenterDetailsGameCenterAppVersionsGetToManyRelated method
 func NewGameCenterDetailsGameCenterAppVersionsGetToManyRelatedRequest(server string, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams) (*http.Request, error) {
 	var err error
@@ -151407,6 +154883,187 @@ func NewGameCenterGroupsUpdateInstanceRequestWithBody(server string, id string, 
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterGroupsGameCenterAchievementsV2GetToManyRelatedRequest constructs an http.Request for the GameCenterGroupsGameCenterAchievementsV2GetToManyRelated method
+func NewGameCenterGroupsGameCenterAchievementsV2GetToManyRelatedRequest(server string, id string, params *GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups/%s/gameCenterAchievementsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterReferenceName != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[referenceName]", *params.FilterReferenceName, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterArchived != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[archived]", *params.FilterArchived, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievements]", *params.FieldsGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterDetails]", *params.FieldsGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterGroups != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterGroups]", *params.FieldsGameCenterGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterActivities]", *params.FieldsGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementVersions]", *params.FieldsGameCenterAchievementVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -164033,6 +167690,857 @@ func NewAppStoreVersionExperimentsV2UpdateInstanceRequestWithBody(server string,
 	return req, nil
 }
 
+// NewGameCenterAchievementImagesV2CreateInstanceRequest calls the generic GameCenterAchievementImagesV2CreateInstance builder with application/json body
+func NewGameCenterAchievementImagesV2CreateInstanceRequest(server string, body GameCenterAchievementImagesV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAchievementImagesV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterAchievementImagesV2CreateInstanceRequestWithBody constructs an http.Request for the GameCenterAchievementImagesV2CreateInstance method, with any body, and a specified content type
+func NewGameCenterAchievementImagesV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementImages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAchievementImagesV2DeleteInstanceRequest constructs an http.Request for the GameCenterAchievementImagesV2DeleteInstance method
+func NewGameCenterAchievementImagesV2DeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterAchievementImagesV2UpdateInstanceRequest calls the generic GameCenterAchievementImagesV2UpdateInstance builder with application/json body
+func NewGameCenterAchievementImagesV2UpdateInstanceRequest(server string, id string, body GameCenterAchievementImagesV2UpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAchievementImagesV2UpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterAchievementImagesV2UpdateInstanceRequestWithBody constructs an http.Request for the GameCenterAchievementImagesV2UpdateInstance method, with any body, and a specified content type
+func NewGameCenterAchievementImagesV2UpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAchievementLocalizationsV2CreateInstanceRequest calls the generic GameCenterAchievementLocalizationsV2CreateInstance builder with application/json body
+func NewGameCenterAchievementLocalizationsV2CreateInstanceRequest(server string, body GameCenterAchievementLocalizationsV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAchievementLocalizationsV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterAchievementLocalizationsV2CreateInstanceRequestWithBody constructs an http.Request for the GameCenterAchievementLocalizationsV2CreateInstance method, with any body, and a specified content type
+func NewGameCenterAchievementLocalizationsV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAchievementLocalizationsV2DeleteInstanceRequest constructs an http.Request for the GameCenterAchievementLocalizationsV2DeleteInstance method
+func NewGameCenterAchievementLocalizationsV2DeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterAchievementLocalizationsV2UpdateInstanceRequest calls the generic GameCenterAchievementLocalizationsV2UpdateInstance builder with application/json body
+func NewGameCenterAchievementLocalizationsV2UpdateInstanceRequest(server string, id string, body GameCenterAchievementLocalizationsV2UpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAchievementLocalizationsV2UpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterAchievementLocalizationsV2UpdateInstanceRequestWithBody constructs an http.Request for the GameCenterAchievementLocalizationsV2UpdateInstance method, with any body, and a specified content type
+func NewGameCenterAchievementLocalizationsV2UpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAchievementLocalizationsV2ImageGetToOneRelatedRequest constructs an http.Request for the GameCenterAchievementLocalizationsV2ImageGetToOneRelated method
+func NewGameCenterAchievementLocalizationsV2ImageGetToOneRelatedRequest(server string, id string, params *GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementLocalizations/%s/image", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterAchievementImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementImages]", *params.FieldsGameCenterAchievementImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementLocalizations]", *params.FieldsGameCenterAchievementLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterAchievementVersionsV2CreateInstanceRequest calls the generic GameCenterAchievementVersionsV2CreateInstance builder with application/json body
+func NewGameCenterAchievementVersionsV2CreateInstanceRequest(server string, body GameCenterAchievementVersionsV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAchievementVersionsV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterAchievementVersionsV2CreateInstanceRequestWithBody constructs an http.Request for the GameCenterAchievementVersionsV2CreateInstance method, with any body, and a specified content type
+func NewGameCenterAchievementVersionsV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAchievementVersionsV2LocalizationsGetToManyRelatedRequest constructs an http.Request for the GameCenterAchievementVersionsV2LocalizationsGetToManyRelated method
+func NewGameCenterAchievementVersionsV2LocalizationsGetToManyRelatedRequest(server string, id string, params *GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievementVersions/%s/localizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterAchievementLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementLocalizations]", *params.FieldsGameCenterAchievementLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementVersions]", *params.FieldsGameCenterAchievementVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementImages]", *params.FieldsGameCenterAchievementImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterAchievementsV2CreateInstanceRequest calls the generic GameCenterAchievementsV2CreateInstance builder with application/json body
+func NewGameCenterAchievementsV2CreateInstanceRequest(server string, body GameCenterAchievementsV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAchievementsV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterAchievementsV2CreateInstanceRequestWithBody constructs an http.Request for the GameCenterAchievementsV2CreateInstance method, with any body, and a specified content type
+func NewGameCenterAchievementsV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievements")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAchievementsV2DeleteInstanceRequest constructs an http.Request for the GameCenterAchievementsV2DeleteInstance method
+func NewGameCenterAchievementsV2DeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievements/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterAchievementsV2GetInstanceRequest constructs an http.Request for the GameCenterAchievementsV2GetInstance method
+func NewGameCenterAchievementsV2GetInstanceRequest(server string, id string, params *GameCenterAchievementsV2GetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievements/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievements]", *params.FieldsGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterDetails]", *params.FieldsGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterGroups != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterGroups]", *params.FieldsGameCenterGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterActivities]", *params.FieldsGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementVersions]", *params.FieldsGameCenterAchievementVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterAchievementsV2UpdateInstanceRequest calls the generic GameCenterAchievementsV2UpdateInstance builder with application/json body
+func NewGameCenterAchievementsV2UpdateInstanceRequest(server string, id string, body GameCenterAchievementsV2UpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAchievementsV2UpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterAchievementsV2UpdateInstanceRequestWithBody constructs an http.Request for the GameCenterAchievementsV2UpdateInstance method, with any body, and a specified content type
+func NewGameCenterAchievementsV2UpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievements/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAchievementsV2VersionsGetToManyRelatedRequest constructs an http.Request for the GameCenterAchievementsV2VersionsGetToManyRelated method
+func NewGameCenterAchievementsV2VersionsGetToManyRelatedRequest(server string, id string, params *GameCenterAchievementsV2VersionsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/gameCenterAchievements/%s/versions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterAchievementVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementVersions]", *params.FieldsGameCenterAchievementVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievements]", *params.FieldsGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementLocalizations]", *params.FieldsGameCenterAchievementLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[localizations]", *params.LimitLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewInAppPurchaseImagesV2CreateInstanceRequest calls the generic InAppPurchaseImagesV2CreateInstance builder with application/json body
 func NewInAppPurchaseImagesV2CreateInstanceRequest(server string, body InAppPurchaseImagesV2CreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -168181,6 +172689,11 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	GameCenterDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsUpdateInstanceResponse, error)
 
+	// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedWithResponse performs a GET /v1/gameCenterDetails/{id}/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse, error)
+
 	// GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -168220,6 +172733,11 @@ type ClientWithResponsesInterface interface {
 	// GameCenterGroupsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	GameCenterGroupsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsUpdateInstanceResponse, error)
+
+	// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedWithResponse performs a GET /v1/gameCenterGroups/{id}/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse, error)
 
 	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -169430,6 +173948,111 @@ type ClientWithResponsesInterface interface {
 	// AppStoreVersionExperimentsV2UpdateInstanceWithResponse performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreVersionExperimentsV2UpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2UpdateInstanceResponse, error)
+
+	// GameCenterAchievementImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementImagesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementImagesV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAchievementImagesV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementImagesV2DeleteInstanceWithResponse performs a DELETE /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2DeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementImagesV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2DeleteInstanceResponse, error)
+
+	// GameCenterAchievementImagesV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementImagesV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2UpdateInstanceResponse, error)
+
+	// GameCenterAchievementImagesV2UpdateInstanceWithResponse performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAchievementImagesV2UpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAchievementImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2UpdateInstanceResponse, error)
+
+	// GameCenterAchievementLocalizationsV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementLocalizationsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementLocalizationsV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAchievementLocalizationsV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementLocalizationsV2DeleteInstanceWithResponse performs a DELETE /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2DeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementLocalizationsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2DeleteInstanceResponse, error)
+
+	// GameCenterAchievementLocalizationsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementLocalizationsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2UpdateInstanceResponse, error)
+
+	// GameCenterAchievementLocalizationsV2UpdateInstanceWithResponse performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAchievementLocalizationsV2UpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAchievementLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2UpdateInstanceResponse, error)
+
+	// GameCenterAchievementLocalizationsV2ImageGetToOneRelatedWithResponse performs a GET /v2/gameCenterAchievementLocalizations/{id}/image (the `GameCenterAchievementLocalizationsV2ImageGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelatedWithResponse(ctx context.Context, id string, params *GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse, error)
+
+	// GameCenterAchievementVersionsV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementVersionsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementVersionsV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementVersionsV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAchievementVersionsV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementVersionsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementVersionsV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedWithResponse performs a GET /v2/gameCenterAchievementVersions/{id}/localizations (the `GameCenterAchievementVersionsV2LocalizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse, error)
+
+	// GameCenterAchievementsV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementsV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAchievementsV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2CreateInstanceResponse, error)
+
+	// GameCenterAchievementsV2DeleteInstanceWithResponse performs a DELETE /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2DeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2DeleteInstanceResponse, error)
+
+	// GameCenterAchievementsV2GetInstanceWithResponse performs a GET /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2GetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementsV2GetInstanceWithResponse(ctx context.Context, id string, params *GameCenterAchievementsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2GetInstanceResponse, error)
+
+	// GameCenterAchievementsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2UpdateInstanceResponse, error)
+
+	// GameCenterAchievementsV2UpdateInstanceWithResponse performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAchievementsV2UpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAchievementsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2UpdateInstanceResponse, error)
+
+	// GameCenterAchievementsV2VersionsGetToManyRelatedWithResponse performs a GET /v2/gameCenterAchievements/{id}/versions (the `GameCenterAchievementsV2VersionsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAchievementsV2VersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterAchievementsV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2VersionsGetToManyRelatedResponse, error)
 
 	// InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -193603,6 +198226,82 @@ func (r GameCenterDetailsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementsV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON200() *GameCenterAchievementsV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -194060,6 +198759,82 @@ func (r GameCenterGroupsUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r GameCenterGroupsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementsV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON200() *GameCenterAchievementsV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -207379,6 +212154,1119 @@ func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) ContentType() string
 	return ""
 }
 
+type GameCenterAchievementImagesV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterAchievementImageV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetJSON201() *GameCenterAchievementImageV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementImagesV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementImagesV2DeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementImagesV2DeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementImagesV2UpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementImageV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON200() *GameCenterAchievementImageV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementImagesV2UpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementLocalizationsV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterAchievementLocalizationV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetJSON201() *GameCenterAchievementLocalizationV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementLocalizationsV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementLocalizationsV2DeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementLocalizationsV2DeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementLocalizationsV2UpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementLocalizationV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON200() *GameCenterAchievementLocalizationV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementLocalizationsV2UpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementImageV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) GetJSON200() *GameCenterAchievementImageV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementVersionsV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterAchievementVersionV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetJSON201() *GameCenterAchievementVersionV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementVersionsV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementLocalizationsV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) GetJSON200() *GameCenterAchievementLocalizationsV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementsV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterAchievementV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetJSON201() *GameCenterAchievementV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementsV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementsV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementsV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementsV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementsV2DeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementsV2DeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementsV2DeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementsV2DeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementsV2DeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementsV2DeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementsV2DeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementsV2DeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementsV2DeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementsV2DeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementsV2GetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAchievementsV2GetInstanceResponse) GetJSON200() *GameCenterAchievementV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementsV2GetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementsV2GetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementsV2GetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementsV2GetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementsV2GetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementsV2GetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementsV2GetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementsV2GetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementsV2GetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementsV2UpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON200() *GameCenterAchievementV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementsV2UpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementsV2UpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementsV2UpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementsV2UpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAchievementsV2VersionsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAchievementVersionsV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) GetJSON200() *GameCenterAchievementVersionsV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAchievementsV2VersionsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type InAppPurchaseImagesV2CreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -214509,6 +220397,17 @@ func (c *ClientWithResponses) GameCenterDetailsUpdateInstanceWithResponse(ctx co
 	return ParseGameCenterDetailsUpdateInstanceResponse(rsp)
 }
 
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedWithResponse performs a GET /v1/gameCenterDetails/{id}/gameCenterAchievementsV2 (the `GameCenterDetailsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterAchievementsV2GetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse(rsp)
+}
+
 // GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -214595,6 +220494,17 @@ func (c *ClientWithResponses) GameCenterGroupsUpdateInstanceWithResponse(ctx con
 		return nil, err
 	}
 	return ParseGameCenterGroupsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedWithResponse performs a GET /v1/gameCenterGroups/{id}/gameCenterAchievementsV2 (the `GameCenterGroupsGameCenterAchievementsV2GetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse, error) {
+	rsp, err := c.GameCenterGroupsGameCenterAchievementsV2GetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse(rsp)
 }
 
 // InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
@@ -217257,6 +223167,237 @@ func (c *ClientWithResponses) AppStoreVersionExperimentsV2UpdateInstanceWithResp
 		return nil, err
 	}
 	return ParseAppStoreVersionExperimentsV2UpdateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementImagesV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementImagesV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementImagesV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementImagesV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievementImages (the `GameCenterAchievementImagesV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementImagesV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementImagesV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementImagesV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementImagesV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementImagesV2DeleteInstanceWithResponse performs a DELETE /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2DeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementImagesV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2DeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementImagesV2DeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementImagesV2DeleteInstanceResponse(rsp)
+}
+
+// GameCenterAchievementImagesV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementImagesV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2UpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementImagesV2UpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementImagesV2UpdateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementImagesV2UpdateInstanceWithResponse performs a PATCH /v2/gameCenterAchievementImages/{id} (the `GameCenterAchievementImagesV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementImagesV2UpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAchievementImagesV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementImagesV2UpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementImagesV2UpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementImagesV2UpdateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementLocalizationsV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementLocalizationsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementLocalizationsV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementLocalizationsV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementLocalizationsV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievementLocalizations (the `GameCenterAchievementLocalizationsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementLocalizationsV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementLocalizationsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementLocalizationsV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementLocalizationsV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementLocalizationsV2DeleteInstanceWithResponse performs a DELETE /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2DeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementLocalizationsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2DeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementLocalizationsV2DeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementLocalizationsV2DeleteInstanceResponse(rsp)
+}
+
+// GameCenterAchievementLocalizationsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementLocalizationsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2UpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementLocalizationsV2UpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementLocalizationsV2UpdateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementLocalizationsV2UpdateInstanceWithResponse performs a PATCH /v2/gameCenterAchievementLocalizations/{id} (the `GameCenterAchievementLocalizationsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementLocalizationsV2UpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAchievementLocalizationsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2UpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementLocalizationsV2UpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementLocalizationsV2UpdateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementLocalizationsV2ImageGetToOneRelatedWithResponse performs a GET /v2/gameCenterAchievementLocalizations/{id}/image (the `GameCenterAchievementLocalizationsV2ImageGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementLocalizationsV2ImageGetToOneRelatedWithResponse(ctx context.Context, id string, params *GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse, error) {
+	rsp, err := c.GameCenterAchievementLocalizationsV2ImageGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse(rsp)
+}
+
+// GameCenterAchievementVersionsV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementVersionsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementVersionsV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementVersionsV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementVersionsV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementVersionsV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievementVersions (the `GameCenterAchievementVersionsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementVersionsV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementVersionsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementVersionsV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementVersionsV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementVersionsV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedWithResponse performs a GET /v2/gameCenterAchievementVersions/{id}/localizations (the `GameCenterAchievementVersionsV2LocalizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.GameCenterAchievementVersionsV2LocalizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse(rsp)
+}
+
+// GameCenterAchievementsV2CreateInstanceWithBodyWithResponse performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementsV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementsV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementsV2CreateInstanceWithResponse performs a POST /v2/gameCenterAchievements (the `GameCenterAchievementsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementsV2CreateInstanceWithResponse(ctx context.Context, body GameCenterAchievementsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2CreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementsV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementsV2CreateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementsV2DeleteInstanceWithResponse performs a DELETE /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2DeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2DeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementsV2DeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementsV2DeleteInstanceResponse(rsp)
+}
+
+// GameCenterAchievementsV2GetInstanceWithResponse performs a GET /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2GetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementsV2GetInstanceWithResponse(ctx context.Context, id string, params *GameCenterAchievementsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2GetInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementsV2GetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementsV2GetInstanceResponse(rsp)
+}
+
+// GameCenterAchievementsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2UpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementsV2UpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementsV2UpdateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementsV2UpdateInstanceWithResponse performs a PATCH /v2/gameCenterAchievements/{id} (the `GameCenterAchievementsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementsV2UpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAchievementsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2UpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAchievementsV2UpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementsV2UpdateInstanceResponse(rsp)
+}
+
+// GameCenterAchievementsV2VersionsGetToManyRelatedWithResponse performs a GET /v2/gameCenterAchievements/{id}/versions (the `GameCenterAchievementsV2VersionsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAchievementsV2VersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterAchievementsV2VersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterAchievementsV2VersionsGetToManyRelatedResponse, error) {
+	rsp, err := c.GameCenterAchievementsV2VersionsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAchievementsV2VersionsGetToManyRelatedResponse(rsp)
 }
 
 // InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
@@ -237311,6 +243452,67 @@ func ParseGameCenterDetailsUpdateInstanceResponse(rsp *http.Response) (*GameCent
 	return response, nil
 }
 
+// ParseGameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse parses an HTTP response from a GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedWithResponse call
+func ParseGameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse(rsp *http.Response) (*GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementsV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseGameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse parses an HTTP response from a GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse call
 func ParseGameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse(rsp *http.Response) (*GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -237674,6 +243876,67 @@ func ParseGameCenterGroupsUpdateInstanceResponse(rsp *http.Response) (*GameCente
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse parses an HTTP response from a GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedWithResponse call
+func ParseGameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse(rsp *http.Response) (*GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementsV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -248561,6 +254824,918 @@ func ParseAppStoreVersionExperimentsV2UpdateInstanceResponse(rsp *http.Response)
 	return response, nil
 }
 
+// ParseGameCenterAchievementImagesV2CreateInstanceResponse parses an HTTP response from a GameCenterAchievementImagesV2CreateInstanceWithResponse call
+func ParseGameCenterAchievementImagesV2CreateInstanceResponse(rsp *http.Response) (*GameCenterAchievementImagesV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementImagesV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterAchievementImageV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementImagesV2DeleteInstanceResponse parses an HTTP response from a GameCenterAchievementImagesV2DeleteInstanceWithResponse call
+func ParseGameCenterAchievementImagesV2DeleteInstanceResponse(rsp *http.Response) (*GameCenterAchievementImagesV2DeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementImagesV2DeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementImagesV2UpdateInstanceResponse parses an HTTP response from a GameCenterAchievementImagesV2UpdateInstanceWithResponse call
+func ParseGameCenterAchievementImagesV2UpdateInstanceResponse(rsp *http.Response) (*GameCenterAchievementImagesV2UpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementImagesV2UpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementImageV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementLocalizationsV2CreateInstanceResponse parses an HTTP response from a GameCenterAchievementLocalizationsV2CreateInstanceWithResponse call
+func ParseGameCenterAchievementLocalizationsV2CreateInstanceResponse(rsp *http.Response) (*GameCenterAchievementLocalizationsV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementLocalizationsV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterAchievementLocalizationV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementLocalizationsV2DeleteInstanceResponse parses an HTTP response from a GameCenterAchievementLocalizationsV2DeleteInstanceWithResponse call
+func ParseGameCenterAchievementLocalizationsV2DeleteInstanceResponse(rsp *http.Response) (*GameCenterAchievementLocalizationsV2DeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementLocalizationsV2DeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementLocalizationsV2UpdateInstanceResponse parses an HTTP response from a GameCenterAchievementLocalizationsV2UpdateInstanceWithResponse call
+func ParseGameCenterAchievementLocalizationsV2UpdateInstanceResponse(rsp *http.Response) (*GameCenterAchievementLocalizationsV2UpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementLocalizationsV2UpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementLocalizationV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse parses an HTTP response from a GameCenterAchievementLocalizationsV2ImageGetToOneRelatedWithResponse call
+func ParseGameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse(rsp *http.Response) (*GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementLocalizationsV2ImageGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementImageV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementVersionsV2CreateInstanceResponse parses an HTTP response from a GameCenterAchievementVersionsV2CreateInstanceWithResponse call
+func ParseGameCenterAchievementVersionsV2CreateInstanceResponse(rsp *http.Response) (*GameCenterAchievementVersionsV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementVersionsV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterAchievementVersionV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse parses an HTTP response from a GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedWithResponse call
+func ParseGameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse(rsp *http.Response) (*GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementLocalizationsV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementsV2CreateInstanceResponse parses an HTTP response from a GameCenterAchievementsV2CreateInstanceWithResponse call
+func ParseGameCenterAchievementsV2CreateInstanceResponse(rsp *http.Response) (*GameCenterAchievementsV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementsV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterAchievementV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementsV2DeleteInstanceResponse parses an HTTP response from a GameCenterAchievementsV2DeleteInstanceWithResponse call
+func ParseGameCenterAchievementsV2DeleteInstanceResponse(rsp *http.Response) (*GameCenterAchievementsV2DeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementsV2DeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementsV2GetInstanceResponse parses an HTTP response from a GameCenterAchievementsV2GetInstanceWithResponse call
+func ParseGameCenterAchievementsV2GetInstanceResponse(rsp *http.Response) (*GameCenterAchievementsV2GetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementsV2GetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementsV2UpdateInstanceResponse parses an HTTP response from a GameCenterAchievementsV2UpdateInstanceWithResponse call
+func ParseGameCenterAchievementsV2UpdateInstanceResponse(rsp *http.Response) (*GameCenterAchievementsV2UpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementsV2UpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAchievementsV2VersionsGetToManyRelatedResponse parses an HTTP response from a GameCenterAchievementsV2VersionsGetToManyRelatedWithResponse call
+func ParseGameCenterAchievementsV2VersionsGetToManyRelatedResponse(rsp *http.Response) (*GameCenterAchievementsV2VersionsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAchievementsV2VersionsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAchievementVersionsV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseInAppPurchaseImagesV2CreateInstanceResponse parses an HTTP response from a InAppPurchaseImagesV2CreateInstanceWithResponse call
 func ParseInAppPurchaseImagesV2CreateInstanceResponse(rsp *http.Response) (*InAppPurchaseImagesV2CreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -251428,6 +258603,9 @@ type ServerInterface interface {
 	// (PATCH /v1/gameCenterDetails/{id})
 	GameCenterDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/gameCenterDetails/{id}/gameCenterAchievementsV2)
+	GameCenterDetailsGameCenterAchievementsV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams)
+
 	// (GET /v1/gameCenterDetails/{id}/gameCenterAppVersions)
 	GameCenterDetailsGameCenterAppVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams)
 
@@ -251445,6 +258623,9 @@ type ServerInterface interface {
 
 	// (PATCH /v1/gameCenterGroups/{id})
 	GameCenterGroupsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterGroups/{id}/gameCenterAchievementsV2)
+	GameCenterGroupsGameCenterAchievementsV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams)
 
 	// (POST /v1/inAppPurchaseAppStoreReviewScreenshots)
 	InAppPurchaseAppStoreReviewScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -251952,6 +259133,48 @@ type ServerInterface interface {
 
 	// (PATCH /v2/appStoreVersionExperiments/{id})
 	AppStoreVersionExperimentsV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v2/gameCenterAchievementImages)
+	GameCenterAchievementImagesV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v2/gameCenterAchievementImages/{id})
+	GameCenterAchievementImagesV2DeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v2/gameCenterAchievementImages/{id})
+	GameCenterAchievementImagesV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v2/gameCenterAchievementLocalizations)
+	GameCenterAchievementLocalizationsV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v2/gameCenterAchievementLocalizations/{id})
+	GameCenterAchievementLocalizationsV2DeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v2/gameCenterAchievementLocalizations/{id})
+	GameCenterAchievementLocalizationsV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v2/gameCenterAchievementLocalizations/{id}/image)
+	GameCenterAchievementLocalizationsV2ImageGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams)
+
+	// (POST /v2/gameCenterAchievementVersions)
+	GameCenterAchievementVersionsV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v2/gameCenterAchievementVersions/{id}/localizations)
+	GameCenterAchievementVersionsV2LocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams)
+
+	// (POST /v2/gameCenterAchievements)
+	GameCenterAchievementsV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v2/gameCenterAchievements/{id})
+	GameCenterAchievementsV2DeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v2/gameCenterAchievements/{id})
+	GameCenterAchievementsV2GetInstance(w http.ResponseWriter, r *http.Request, id string, params GameCenterAchievementsV2GetInstanceParams)
+
+	// (PATCH /v2/gameCenterAchievements/{id})
+	GameCenterAchievementsV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v2/gameCenterAchievements/{id}/versions)
+	GameCenterAchievementsV2VersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterAchievementsV2VersionsGetToManyRelatedParams)
 
 	// (POST /v2/inAppPurchaseImages)
 	InAppPurchaseImagesV2CreateInstance(w http.ResponseWriter, r *http.Request)
@@ -272659,6 +279882,178 @@ func (siw *ServerInterfaceWrapper) GameCenterDetailsUpdateInstance(w http.Respon
 	handler.ServeHTTP(w, r)
 }
 
+// GameCenterDetailsGameCenterAchievementsV2GetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsGameCenterAchievementsV2GetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterDetailsGameCenterAchievementsV2GetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[referenceName]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[referenceName]", r.URL.Query(), &params.FilterReferenceName, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[referenceName]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[referenceName]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[archived]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[archived]", r.URL.Query(), &params.FilterArchived, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[archived]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[archived]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievements]", r.URL.Query(), &params.FieldsGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterDetails]", r.URL.Query(), &params.FieldsGameCenterDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterGroups]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterGroups]", r.URL.Query(), &params.FieldsGameCenterGroups, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterGroups]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterActivities]", r.URL.Query(), &params.FieldsGameCenterActivities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementVersions]", r.URL.Query(), &params.FieldsGameCenterAchievementVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsGameCenterAchievementsV2GetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // GameCenterDetailsGameCenterAppVersionsGetToManyRelated operation middleware
 func (siw *ServerInterfaceWrapper) GameCenterDetailsGameCenterAppVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -273340,6 +280735,178 @@ func (siw *ServerInterfaceWrapper) GameCenterGroupsUpdateInstance(w http.Respons
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.GameCenterGroupsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsGameCenterAchievementsV2GetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsGameCenterAchievementsV2GetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterGroupsGameCenterAchievementsV2GetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[referenceName]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[referenceName]", r.URL.Query(), &params.FilterReferenceName, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[referenceName]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[referenceName]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[archived]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[archived]", r.URL.Query(), &params.FilterArchived, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[archived]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[archived]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievements]", r.URL.Query(), &params.FieldsGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterDetails]", r.URL.Query(), &params.FieldsGameCenterDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterGroups]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterGroups]", r.URL.Query(), &params.FieldsGameCenterGroups, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterGroups]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterActivities]", r.URL.Query(), &params.FieldsGameCenterActivities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementVersions]", r.URL.Query(), &params.FieldsGameCenterAchievementVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsGameCenterAchievementsV2GetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -283050,6 +290617,607 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentsV2UpdateInstance(w 
 	handler.ServeHTTP(w, r)
 }
 
+// GameCenterAchievementImagesV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementImagesV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementImagesV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementImagesV2DeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementImagesV2DeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementImagesV2DeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementImagesV2UpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementImagesV2UpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementImagesV2UpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementLocalizationsV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementLocalizationsV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementLocalizationsV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementLocalizationsV2DeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementLocalizationsV2DeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementLocalizationsV2DeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementLocalizationsV2UpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementLocalizationsV2UpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementLocalizationsV2UpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementLocalizationsV2ImageGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementLocalizationsV2ImageGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementImages]", r.URL.Query(), &params.FieldsGameCenterAchievementImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementLocalizations]", r.URL.Query(), &params.FieldsGameCenterAchievementLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementLocalizationsV2ImageGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementVersionsV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementVersionsV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementVersionsV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementVersionsV2LocalizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementVersionsV2LocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterAchievementVersionsV2LocalizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementLocalizations]", r.URL.Query(), &params.FieldsGameCenterAchievementLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementVersions]", r.URL.Query(), &params.FieldsGameCenterAchievementVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementImages]", r.URL.Query(), &params.FieldsGameCenterAchievementImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementVersionsV2LocalizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementsV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementsV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementsV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementsV2DeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementsV2DeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementsV2DeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementsV2GetInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementsV2GetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterAchievementsV2GetInstanceParams
+
+	// ------------- Optional query parameter "fields[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievements]", r.URL.Query(), &params.FieldsGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterDetails]", r.URL.Query(), &params.FieldsGameCenterDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterGroups]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterGroups]", r.URL.Query(), &params.FieldsGameCenterGroups, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterGroups]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterActivities]", r.URL.Query(), &params.FieldsGameCenterActivities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementVersions]", r.URL.Query(), &params.FieldsGameCenterAchievementVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementsV2GetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementsV2UpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementsV2UpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementsV2UpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAchievementsV2VersionsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAchievementsV2VersionsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterAchievementsV2VersionsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementVersions]", r.URL.Query(), &params.FieldsGameCenterAchievementVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievements]", r.URL.Query(), &params.FieldsGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementLocalizations]", r.URL.Query(), &params.FieldsGameCenterAchievementLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[localizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[localizations]", r.URL.Query(), &params.LimitLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[localizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[localizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAchievementsV2VersionsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // InAppPurchaseImagesV2CreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) InAppPurchaseImagesV2CreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -284893,12 +293061,14 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions", wrapper.GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterDetails", wrapper.GameCenterDetailsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterDetails/{id}", wrapper.GameCenterDetailsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/gameCenterAchievementsV2", wrapper.GameCenterDetailsGameCenterAchievementsV2GetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/gameCenterAppVersions", wrapper.GameCenterDetailsGameCenterAppVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups", wrapper.GameCenterGroupsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterGroups", wrapper.GameCenterGroupsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterGroups/{id}", wrapper.GameCenterGroupsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups/{id}", wrapper.GameCenterGroupsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterGroups/{id}", wrapper.GameCenterGroupsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups/{id}/gameCenterAchievementsV2", wrapper.GameCenterGroupsGameCenterAchievementsV2GetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots", wrapper.InAppPurchaseAppStoreReviewScreenshotsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsGetInstance)
@@ -285068,6 +293238,20 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/appStoreVersionExperiments/{id}", wrapper.AppStoreVersionExperimentsV2DeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/appStoreVersionExperiments/{id}", wrapper.AppStoreVersionExperimentsV2GetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/appStoreVersionExperiments/{id}", wrapper.AppStoreVersionExperimentsV2UpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/gameCenterAchievementImages", wrapper.GameCenterAchievementImagesV2CreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/gameCenterAchievementImages/{id}", wrapper.GameCenterAchievementImagesV2DeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/gameCenterAchievementImages/{id}", wrapper.GameCenterAchievementImagesV2UpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/gameCenterAchievementLocalizations", wrapper.GameCenterAchievementLocalizationsV2CreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/gameCenterAchievementLocalizations/{id}", wrapper.GameCenterAchievementLocalizationsV2DeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/gameCenterAchievementLocalizations/{id}", wrapper.GameCenterAchievementLocalizationsV2UpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/gameCenterAchievementLocalizations/{id}/image", wrapper.GameCenterAchievementLocalizationsV2ImageGetToOneRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/gameCenterAchievementVersions", wrapper.GameCenterAchievementVersionsV2CreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/gameCenterAchievementVersions/{id}/localizations", wrapper.GameCenterAchievementVersionsV2LocalizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/gameCenterAchievements", wrapper.GameCenterAchievementsV2CreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/gameCenterAchievements/{id}", wrapper.GameCenterAchievementsV2DeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/gameCenterAchievements/{id}", wrapper.GameCenterAchievementsV2GetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/gameCenterAchievements/{id}", wrapper.GameCenterAchievementsV2UpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/gameCenterAchievements/{id}/versions", wrapper.GameCenterAchievementsV2VersionsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/inAppPurchaseImages", wrapper.InAppPurchaseImagesV2CreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/inAppPurchaseImages/{id}", wrapper.InAppPurchaseImagesV2DeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/inAppPurchaseImages/{id}", wrapper.InAppPurchaseImagesV2GetInstance)
