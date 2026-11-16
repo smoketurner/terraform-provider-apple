@@ -1289,6 +1289,195 @@ func (e AlternativeDistributionPackageVersionType) Valid() bool {
 	}
 }
 
+// Defines values for AnalyticsReportAttributesCategory.
+const (
+	AnalyticsReportAttributesCategoryAPPSTOREENGAGEMENT AnalyticsReportAttributesCategory = "APP_STORE_ENGAGEMENT"
+	AnalyticsReportAttributesCategoryAPPUSAGE           AnalyticsReportAttributesCategory = "APP_USAGE"
+	AnalyticsReportAttributesCategoryCOMMERCE           AnalyticsReportAttributesCategory = "COMMERCE"
+	AnalyticsReportAttributesCategoryFRAMEWORKUSAGE     AnalyticsReportAttributesCategory = "FRAMEWORK_USAGE"
+	AnalyticsReportAttributesCategoryPERFORMANCE        AnalyticsReportAttributesCategory = "PERFORMANCE"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportAttributesCategory enum.
+func (e AnalyticsReportAttributesCategory) Valid() bool {
+	switch e {
+	case AnalyticsReportAttributesCategoryAPPSTOREENGAGEMENT:
+		return true
+	case AnalyticsReportAttributesCategoryAPPUSAGE:
+		return true
+	case AnalyticsReportAttributesCategoryCOMMERCE:
+		return true
+	case AnalyticsReportAttributesCategoryFRAMEWORKUSAGE:
+		return true
+	case AnalyticsReportAttributesCategoryPERFORMANCE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportType.
+const (
+	AnalyticsReportTypeAnalyticsReports AnalyticsReportType = "analyticsReports"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportType enum.
+func (e AnalyticsReportType) Valid() bool {
+	switch e {
+	case AnalyticsReportTypeAnalyticsReports:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportInstanceAttributesGranularity.
+const (
+	AnalyticsReportInstanceAttributesGranularityDAILY   AnalyticsReportInstanceAttributesGranularity = "DAILY"
+	AnalyticsReportInstanceAttributesGranularityMONTHLY AnalyticsReportInstanceAttributesGranularity = "MONTHLY"
+	AnalyticsReportInstanceAttributesGranularityWEEKLY  AnalyticsReportInstanceAttributesGranularity = "WEEKLY"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportInstanceAttributesGranularity enum.
+func (e AnalyticsReportInstanceAttributesGranularity) Valid() bool {
+	switch e {
+	case AnalyticsReportInstanceAttributesGranularityDAILY:
+		return true
+	case AnalyticsReportInstanceAttributesGranularityMONTHLY:
+		return true
+	case AnalyticsReportInstanceAttributesGranularityWEEKLY:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportInstanceType.
+const (
+	AnalyticsReportInstanceTypeAnalyticsReportInstances AnalyticsReportInstanceType = "analyticsReportInstances"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportInstanceType enum.
+func (e AnalyticsReportInstanceType) Valid() bool {
+	switch e {
+	case AnalyticsReportInstanceTypeAnalyticsReportInstances:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestAttributesAccessType.
+const (
+	AnalyticsReportRequestAttributesAccessTypeONETIMESNAPSHOT AnalyticsReportRequestAttributesAccessType = "ONE_TIME_SNAPSHOT"
+	AnalyticsReportRequestAttributesAccessTypeONGOING         AnalyticsReportRequestAttributesAccessType = "ONGOING"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestAttributesAccessType enum.
+func (e AnalyticsReportRequestAttributesAccessType) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestAttributesAccessTypeONETIMESNAPSHOT:
+		return true
+	case AnalyticsReportRequestAttributesAccessTypeONGOING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestRelationshipsReportsDataType.
+const (
+	AnalyticsReportRequestRelationshipsReportsDataTypeAnalyticsReports AnalyticsReportRequestRelationshipsReportsDataType = "analyticsReports"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestRelationshipsReportsDataType enum.
+func (e AnalyticsReportRequestRelationshipsReportsDataType) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestRelationshipsReportsDataTypeAnalyticsReports:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestType.
+const (
+	AnalyticsReportRequestTypeAnalyticsReportRequests AnalyticsReportRequestType = "analyticsReportRequests"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestType enum.
+func (e AnalyticsReportRequestType) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestTypeAnalyticsReportRequests:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestCreateRequestDataAttributesAccessType.
+const (
+	AnalyticsReportRequestCreateRequestDataAttributesAccessTypeONETIMESNAPSHOT AnalyticsReportRequestCreateRequestDataAttributesAccessType = "ONE_TIME_SNAPSHOT"
+	AnalyticsReportRequestCreateRequestDataAttributesAccessTypeONGOING         AnalyticsReportRequestCreateRequestDataAttributesAccessType = "ONGOING"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestCreateRequestDataAttributesAccessType enum.
+func (e AnalyticsReportRequestCreateRequestDataAttributesAccessType) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestCreateRequestDataAttributesAccessTypeONETIMESNAPSHOT:
+		return true
+	case AnalyticsReportRequestCreateRequestDataAttributesAccessTypeONGOING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestCreateRequestDataRelationshipsAppDataType.
+const (
+	AnalyticsReportRequestCreateRequestDataRelationshipsAppDataTypeApps AnalyticsReportRequestCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestCreateRequestDataRelationshipsAppDataType enum.
+func (e AnalyticsReportRequestCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestCreateRequestDataType.
+const (
+	AnalyticsReportRequestCreateRequestDataTypeAnalyticsReportRequests AnalyticsReportRequestCreateRequestDataType = "analyticsReportRequests"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestCreateRequestDataType enum.
+func (e AnalyticsReportRequestCreateRequestDataType) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestCreateRequestDataTypeAnalyticsReportRequests:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportSegmentType.
+const (
+	AnalyticsReportSegmentTypeAnalyticsReportSegments AnalyticsReportSegmentType = "analyticsReportSegments"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportSegmentType enum.
+func (e AnalyticsReportSegmentType) Valid() bool {
+	switch e {
+	case AnalyticsReportSegmentTypeAnalyticsReportSegments:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AndroidToIosAppMappingDetailType.
 const (
 	AndroidToIosAppMappingDetailTypeAndroidToIosAppMappingDetails AndroidToIosAppMappingDetailType = "androidToIosAppMappingDetails"
@@ -11060,6 +11249,21 @@ const (
 func (e BuildBundleResourceType) Valid() bool {
 	switch e {
 	case BuildBundleResourceTypeBuildBundles:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BuildBundleFileSizeType.
+const (
+	BuildBundleFileSizeTypeBuildBundleFileSizes BuildBundleFileSizeType = "buildBundleFileSizes"
+)
+
+// Valid indicates whether the value is a known member of the BuildBundleFileSizeType enum.
+func (e BuildBundleFileSizeType) Valid() bool {
+	switch e {
+	case BuildBundleFileSizeTypeBuildBundleFileSizes:
 		return true
 	default:
 		return false
@@ -23228,6 +23432,174 @@ func (e AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude) Va
 	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeDeltas:
 		return true
 	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeVariants:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments.
+const (
+	AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegmentsChecksum    AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments = "checksum"
+	AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegmentsSizeInBytes AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments = "sizeInBytes"
+	AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegmentsUrl         AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments = "url"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments enum.
+func (e AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments) Valid() bool {
+	switch e {
+	case AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegmentsChecksum:
+		return true
+	case AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegmentsSizeInBytes:
+		return true
+	case AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegmentsUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests.
+const (
+	AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequestsAccessType             AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests = "accessType"
+	AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequestsReports                AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests = "reports"
+	AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequestsStoppedDueToInactivity AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests = "stoppedDueToInactivity"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests enum.
+func (e AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequestsAccessType:
+		return true
+	case AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequestsReports:
+		return true
+	case AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequestsStoppedDueToInactivity:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports.
+const (
+	AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportsCategory  AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports = "category"
+	AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportsInstances AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports = "instances"
+	AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportsName      AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports = "name"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports enum.
+func (e AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportsCategory:
+		return true
+	case AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportsInstances:
+		return true
+	case AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportsName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestsGetInstanceParamsInclude.
+const (
+	AnalyticsReportRequestsGetInstanceParamsIncludeReports AnalyticsReportRequestsGetInstanceParamsInclude = "reports"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestsGetInstanceParamsInclude enum.
+func (e AnalyticsReportRequestsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestsGetInstanceParamsIncludeReports:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory.
+const (
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryAPPSTOREENGAGEMENT AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory = "APP_STORE_ENGAGEMENT"
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryAPPUSAGE           AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory = "APP_USAGE"
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryCOMMERCE           AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory = "COMMERCE"
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryFRAMEWORKUSAGE     AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory = "FRAMEWORK_USAGE"
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryPERFORMANCE        AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory = "PERFORMANCE"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory enum.
+func (e AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryAPPSTOREENGAGEMENT:
+		return true
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryAPPUSAGE:
+		return true
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryCOMMERCE:
+		return true
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryFRAMEWORKUSAGE:
+		return true
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategoryPERFORMANCE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports.
+const (
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReportsCategory  AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports = "category"
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReportsInstances AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports = "instances"
+	AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReportsName      AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports = "name"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports enum.
+func (e AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports) Valid() bool {
+	switch e {
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReportsCategory:
+		return true
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReportsInstances:
+		return true
+	case AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReportsName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity.
+const (
+	AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularityDAILY   AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity = "DAILY"
+	AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularityMONTHLY AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity = "MONTHLY"
+	AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularityWEEKLY  AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity = "WEEKLY"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity enum.
+func (e AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity) Valid() bool {
+	switch e {
+	case AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularityDAILY:
+		return true
+	case AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularityMONTHLY:
+		return true
+	case AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularityWEEKLY:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances.
+const (
+	AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstancesGranularity    AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances = "granularity"
+	AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstancesProcessingDate AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances = "processingDate"
+	AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstancesSegments       AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances = "segments"
+)
+
+// Valid indicates whether the value is a known member of the AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances enum.
+func (e AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances) Valid() bool {
+	switch e {
+	case AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstancesGranularity:
+		return true
+	case AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstancesProcessingDate:
+		return true
+	case AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstancesSegments:
 		return true
 	default:
 		return false
@@ -35498,6 +35870,81 @@ func (e AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDist
 	}
 }
 
+// Defines values for AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType.
+const (
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessTypeONETIMESNAPSHOT AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType = "ONE_TIME_SNAPSHOT"
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessTypeONGOING         AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType = "ONGOING"
+)
+
+// Valid indicates whether the value is a known member of the AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType enum.
+func (e AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType) Valid() bool {
+	switch e {
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessTypeONETIMESNAPSHOT:
+		return true
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessTypeONGOING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests.
+const (
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequestsAccessType             AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests = "accessType"
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequestsReports                AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests = "reports"
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequestsStoppedDueToInactivity AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests = "stoppedDueToInactivity"
+)
+
+// Valid indicates whether the value is a known member of the AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests enum.
+func (e AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests) Valid() bool {
+	switch e {
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequestsAccessType:
+		return true
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequestsReports:
+		return true
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequestsStoppedDueToInactivity:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports.
+const (
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportsCategory  AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports = "category"
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportsInstances AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports = "instances"
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportsName      AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports = "name"
+)
+
+// Valid indicates whether the value is a known member of the AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports enum.
+func (e AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports) Valid() bool {
+	switch e {
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportsCategory:
+		return true
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportsInstances:
+		return true
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportsName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAnalyticsReportRequestsGetToManyRelatedParamsInclude.
+const (
+	AppsAnalyticsReportRequestsGetToManyRelatedParamsIncludeReports AppsAnalyticsReportRequestsGetToManyRelatedParamsInclude = "reports"
+)
+
+// Valid indicates whether the value is a known member of the AppsAnalyticsReportRequestsGetToManyRelatedParamsInclude enum.
+func (e AppsAnalyticsReportRequestsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAnalyticsReportRequestsGetToManyRelatedParamsIncludeReports:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities.
 const (
 	AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilitiesAvailableInNewTerritories AppsAppAvailabilityV2GetToOneRelatedParamsFieldsAppAvailabilities = "availableInNewTerritories"
@@ -44165,6 +44612,30 @@ func (e BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDo
 	case BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesDomains:
 		return true
 	case BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesLastUpdatedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes.
+const (
+	BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesDeviceModel   BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes = "deviceModel"
+	BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesDownloadBytes BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes = "downloadBytes"
+	BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesInstallBytes  BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes = "installBytes"
+	BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesOsVersion     BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes = "osVersion"
+)
+
+// Valid indicates whether the value is a known member of the BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes enum.
+func (e BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes) Valid() bool {
+	switch e {
+	case BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesDeviceModel:
+		return true
+	case BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesDownloadBytes:
+		return true
+	case BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesInstallBytes:
+		return true
+	case BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizesOsVersion:
 		return true
 	default:
 		return false
@@ -61137,6 +61608,158 @@ type AlternativeDistributionPackageVersionsResponse_Included_Item struct {
 	union json.RawMessage
 }
 
+// AnalyticsReport defines model for AnalyticsReport.
+type AnalyticsReport struct {
+	Attributes *struct {
+		Category *AnalyticsReportAttributesCategory `json:"category,omitempty"`
+		Name     *string                            `json:"name,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Instances *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"instances,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AnalyticsReportType `json:"type"`
+}
+
+// AnalyticsReportAttributesCategory defines model for AnalyticsReport.Attributes.Category.
+type AnalyticsReportAttributesCategory string
+
+// AnalyticsReportType defines model for AnalyticsReport.Type.
+type AnalyticsReportType string
+
+// AnalyticsReportInstance defines model for AnalyticsReportInstance.
+type AnalyticsReportInstance struct {
+	Attributes *struct {
+		Granularity    *AnalyticsReportInstanceAttributesGranularity `json:"granularity,omitempty"`
+		ProcessingDate *openapi_types.Date                           `json:"processingDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Segments *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"segments,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AnalyticsReportInstanceType `json:"type"`
+}
+
+// AnalyticsReportInstanceAttributesGranularity defines model for AnalyticsReportInstance.Attributes.Granularity.
+type AnalyticsReportInstanceAttributesGranularity string
+
+// AnalyticsReportInstanceType defines model for AnalyticsReportInstance.Type.
+type AnalyticsReportInstanceType string
+
+// AnalyticsReportInstancesResponse defines model for AnalyticsReportInstancesResponse.
+type AnalyticsReportInstancesResponse struct {
+	Data  []AnalyticsReportInstance `json:"data"`
+	Links PagedDocumentLinks        `json:"links"`
+	Meta  *PagingInformation        `json:"meta,omitempty"`
+}
+
+// AnalyticsReportRequest defines model for AnalyticsReportRequest.
+type AnalyticsReportRequest struct {
+	Attributes *struct {
+		AccessType             *AnalyticsReportRequestAttributesAccessType `json:"accessType,omitempty"`
+		StoppedDueToInactivity *bool                                       `json:"stoppedDueToInactivity,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Reports *struct {
+			Data *[]struct {
+				Id   string                                             `json:"id"`
+				Type AnalyticsReportRequestRelationshipsReportsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"reports,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AnalyticsReportRequestType `json:"type"`
+}
+
+// AnalyticsReportRequestAttributesAccessType defines model for AnalyticsReportRequest.Attributes.AccessType.
+type AnalyticsReportRequestAttributesAccessType string
+
+// AnalyticsReportRequestRelationshipsReportsDataType defines model for AnalyticsReportRequest.Relationships.Reports.Data.Type.
+type AnalyticsReportRequestRelationshipsReportsDataType string
+
+// AnalyticsReportRequestType defines model for AnalyticsReportRequest.Type.
+type AnalyticsReportRequestType string
+
+// AnalyticsReportRequestCreateRequest defines model for AnalyticsReportRequestCreateRequest.
+type AnalyticsReportRequestCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AccessType AnalyticsReportRequestCreateRequestDataAttributesAccessType `json:"accessType"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                          `json:"id"`
+					Type AnalyticsReportRequestCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type AnalyticsReportRequestCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AnalyticsReportRequestCreateRequestDataAttributesAccessType defines model for AnalyticsReportRequestCreateRequest.Data.Attributes.AccessType.
+type AnalyticsReportRequestCreateRequestDataAttributesAccessType string
+
+// AnalyticsReportRequestCreateRequestDataRelationshipsAppDataType defines model for AnalyticsReportRequestCreateRequest.Data.Relationships.App.Data.Type.
+type AnalyticsReportRequestCreateRequestDataRelationshipsAppDataType string
+
+// AnalyticsReportRequestCreateRequestDataType defines model for AnalyticsReportRequestCreateRequest.Data.Type.
+type AnalyticsReportRequestCreateRequestDataType string
+
+// AnalyticsReportRequestResponse defines model for AnalyticsReportRequestResponse.
+type AnalyticsReportRequestResponse struct {
+	Data     AnalyticsReportRequest `json:"data"`
+	Included *[]AnalyticsReport     `json:"included,omitempty"`
+	Links    DocumentLinks          `json:"links"`
+}
+
+// AnalyticsReportRequestsResponse defines model for AnalyticsReportRequestsResponse.
+type AnalyticsReportRequestsResponse struct {
+	Data     []AnalyticsReportRequest `json:"data"`
+	Included *[]AnalyticsReport       `json:"included,omitempty"`
+	Links    PagedDocumentLinks       `json:"links"`
+	Meta     *PagingInformation       `json:"meta,omitempty"`
+}
+
+// AnalyticsReportSegment defines model for AnalyticsReportSegment.
+type AnalyticsReportSegment struct {
+	Attributes *struct {
+		Checksum    *string `json:"checksum,omitempty"`
+		SizeInBytes *int    `json:"sizeInBytes,omitempty"`
+		Url         *string `json:"url,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                     `json:"id"`
+	Links *ResourceLinks             `json:"links,omitempty"`
+	Type  AnalyticsReportSegmentType `json:"type"`
+}
+
+// AnalyticsReportSegmentType defines model for AnalyticsReportSegment.Type.
+type AnalyticsReportSegmentType string
+
+// AnalyticsReportSegmentsResponse defines model for AnalyticsReportSegmentsResponse.
+type AnalyticsReportSegmentsResponse struct {
+	Data  []AnalyticsReportSegment `json:"data"`
+	Links PagedDocumentLinks       `json:"links"`
+	Meta  *PagingInformation       `json:"meta,omitempty"`
+}
+
+// AnalyticsReportsResponse defines model for AnalyticsReportsResponse.
+type AnalyticsReportsResponse struct {
+	Data  []AnalyticsReport  `json:"data"`
+	Links PagedDocumentLinks `json:"links"`
+	Meta  *PagingInformation `json:"meta,omitempty"`
+}
+
 // AndroidToIosAppMappingDetail defines model for AndroidToIosAppMappingDetail.
 type AndroidToIosAppMappingDetail struct {
 	Attributes *struct {
@@ -68775,6 +69398,29 @@ type BuildBundleRelationshipsBuildBundleFileSizesDataType string
 
 // BuildBundleResourceType defines model for BuildBundle.type.
 type BuildBundleResourceType string
+
+// BuildBundleFileSize defines model for BuildBundleFileSize.
+type BuildBundleFileSize struct {
+	Attributes *struct {
+		DeviceModel   *string `json:"deviceModel,omitempty"`
+		DownloadBytes *int    `json:"downloadBytes,omitempty"`
+		InstallBytes  *int    `json:"installBytes,omitempty"`
+		OsVersion     *string `json:"osVersion,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                  `json:"id"`
+	Links *ResourceLinks          `json:"links,omitempty"`
+	Type  BuildBundleFileSizeType `json:"type"`
+}
+
+// BuildBundleFileSizeType defines model for BuildBundleFileSize.Type.
+type BuildBundleFileSizeType string
+
+// BuildBundleFileSizesResponse defines model for BuildBundleFileSizesResponse.
+type BuildBundleFileSizesResponse struct {
+	Data  []BuildBundleFileSize `json:"data"`
+	Links PagedDocumentLinks    `json:"links"`
+	Meta  *PagingInformation    `json:"meta,omitempty"`
+}
 
 // BuildBundleType defines model for BuildBundleType.
 type BuildBundleType string
@@ -77367,6 +78013,84 @@ type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternat
 // AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
 type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude string
 
+// AnalyticsReportInstancesSegmentsGetToManyRelatedParams defines parameters for AnalyticsReportInstancesSegmentsGetToManyRelated.
+type AnalyticsReportInstancesSegmentsGetToManyRelatedParams struct {
+	// FieldsAnalyticsReportSegments the fields to include for returned resources of type analyticsReportSegments
+	FieldsAnalyticsReportSegments *[]AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments `form:"fields[analyticsReportSegments],omitempty" json:"fields[analyticsReportSegments],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments defines parameters for AnalyticsReportInstancesSegmentsGetToManyRelated.
+type AnalyticsReportInstancesSegmentsGetToManyRelatedParamsFieldsAnalyticsReportSegments string
+
+// AnalyticsReportRequestsGetInstanceParams defines parameters for AnalyticsReportRequestsGetInstance.
+type AnalyticsReportRequestsGetInstanceParams struct {
+	// FieldsAnalyticsReportRequests the fields to include for returned resources of type analyticsReportRequests
+	FieldsAnalyticsReportRequests *[]AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests `form:"fields[analyticsReportRequests],omitempty" json:"fields[analyticsReportRequests],omitempty"`
+
+	// FieldsAnalyticsReports the fields to include for returned resources of type analyticsReports
+	FieldsAnalyticsReports *[]AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports `form:"fields[analyticsReports],omitempty" json:"fields[analyticsReports],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AnalyticsReportRequestsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitReports maximum number of related reports returned (when they are included)
+	LimitReports *int `form:"limit[reports],omitempty" json:"limit[reports],omitempty"`
+}
+
+// AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests defines parameters for AnalyticsReportRequestsGetInstance.
+type AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReportRequests string
+
+// AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports defines parameters for AnalyticsReportRequestsGetInstance.
+type AnalyticsReportRequestsGetInstanceParamsFieldsAnalyticsReports string
+
+// AnalyticsReportRequestsGetInstanceParamsInclude defines parameters for AnalyticsReportRequestsGetInstance.
+type AnalyticsReportRequestsGetInstanceParamsInclude string
+
+// AnalyticsReportRequestsReportsGetToManyRelatedParams defines parameters for AnalyticsReportRequestsReportsGetToManyRelated.
+type AnalyticsReportRequestsReportsGetToManyRelatedParams struct {
+	// FilterName filter by attribute 'name'
+	FilterName *[]string `form:"filter[name],omitempty" json:"filter[name],omitempty"`
+
+	// FilterCategory filter by attribute 'category'
+	FilterCategory *[]AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory `form:"filter[category],omitempty" json:"filter[category],omitempty"`
+
+	// FieldsAnalyticsReports the fields to include for returned resources of type analyticsReports
+	FieldsAnalyticsReports *[]AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports `form:"fields[analyticsReports],omitempty" json:"fields[analyticsReports],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory defines parameters for AnalyticsReportRequestsReportsGetToManyRelated.
+type AnalyticsReportRequestsReportsGetToManyRelatedParamsFilterCategory string
+
+// AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports defines parameters for AnalyticsReportRequestsReportsGetToManyRelated.
+type AnalyticsReportRequestsReportsGetToManyRelatedParamsFieldsAnalyticsReports string
+
+// AnalyticsReportsInstancesGetToManyRelatedParams defines parameters for AnalyticsReportsInstancesGetToManyRelated.
+type AnalyticsReportsInstancesGetToManyRelatedParams struct {
+	// FilterGranularity filter by attribute 'granularity'
+	FilterGranularity *[]AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity `form:"filter[granularity],omitempty" json:"filter[granularity],omitempty"`
+
+	// FilterProcessingDate filter by attribute 'processingDate'
+	FilterProcessingDate *[]string `form:"filter[processingDate],omitempty" json:"filter[processingDate],omitempty"`
+
+	// FieldsAnalyticsReportInstances the fields to include for returned resources of type analyticsReportInstances
+	FieldsAnalyticsReportInstances *[]AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances `form:"fields[analyticsReportInstances],omitempty" json:"fields[analyticsReportInstances],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity defines parameters for AnalyticsReportsInstancesGetToManyRelated.
+type AnalyticsReportsInstancesGetToManyRelatedParamsFilterGranularity string
+
+// AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances defines parameters for AnalyticsReportsInstancesGetToManyRelated.
+type AnalyticsReportsInstancesGetToManyRelatedParamsFieldsAnalyticsReportInstances string
+
 // AndroidToIosAppMappingDetailsGetInstanceParams defines parameters for AndroidToIosAppMappingDetailsGetInstance.
 type AndroidToIosAppMappingDetailsGetInstanceParams struct {
 	// FieldsAndroidToIosAppMappingDetails the fields to include for returned resources of type androidToIosAppMappingDetails
@@ -79956,6 +80680,39 @@ type AppsAlternativeDistributionKeyGetToOneRelatedParams struct {
 // AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys defines parameters for AppsAlternativeDistributionKeyGetToOneRelated.
 type AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys string
 
+// AppsAnalyticsReportRequestsGetToManyRelatedParams defines parameters for AppsAnalyticsReportRequestsGetToManyRelated.
+type AppsAnalyticsReportRequestsGetToManyRelatedParams struct {
+	// FilterAccessType filter by attribute 'accessType'
+	FilterAccessType *[]AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType `form:"filter[accessType],omitempty" json:"filter[accessType],omitempty"`
+
+	// FieldsAnalyticsReportRequests the fields to include for returned resources of type analyticsReportRequests
+	FieldsAnalyticsReportRequests *[]AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests `form:"fields[analyticsReportRequests],omitempty" json:"fields[analyticsReportRequests],omitempty"`
+
+	// FieldsAnalyticsReports the fields to include for returned resources of type analyticsReports
+	FieldsAnalyticsReports *[]AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports `form:"fields[analyticsReports],omitempty" json:"fields[analyticsReports],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAnalyticsReportRequestsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitReports maximum number of related reports returned (when they are included)
+	LimitReports *int `form:"limit[reports],omitempty" json:"limit[reports],omitempty"`
+}
+
+// AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType defines parameters for AppsAnalyticsReportRequestsGetToManyRelated.
+type AppsAnalyticsReportRequestsGetToManyRelatedParamsFilterAccessType string
+
+// AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests defines parameters for AppsAnalyticsReportRequestsGetToManyRelated.
+type AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReportRequests string
+
+// AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports defines parameters for AppsAnalyticsReportRequestsGetToManyRelated.
+type AppsAnalyticsReportRequestsGetToManyRelatedParamsFieldsAnalyticsReports string
+
+// AppsAnalyticsReportRequestsGetToManyRelatedParamsInclude defines parameters for AppsAnalyticsReportRequestsGetToManyRelated.
+type AppsAnalyticsReportRequestsGetToManyRelatedParamsInclude string
+
 // AppsAppAvailabilityV2GetToOneRelatedParams defines parameters for AppsAppAvailabilityV2GetToOneRelated.
 type AppsAppAvailabilityV2GetToOneRelatedParams struct {
 	// FieldsAppAvailabilities the fields to include for returned resources of type appAvailabilities
@@ -81439,6 +82196,18 @@ type BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams struct {
 
 // BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses defines parameters for BuildBundlesAppClipDomainDebugStatusGetToOneRelated.
 type BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses string
+
+// BuildBundlesBuildBundleFileSizesGetToManyRelatedParams defines parameters for BuildBundlesBuildBundleFileSizesGetToManyRelated.
+type BuildBundlesBuildBundleFileSizesGetToManyRelatedParams struct {
+	// FieldsBuildBundleFileSizes the fields to include for returned resources of type buildBundleFileSizes
+	FieldsBuildBundleFileSizes *[]BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes `form:"fields[buildBundleFileSizes],omitempty" json:"fields[buildBundleFileSizes],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes defines parameters for BuildBundlesBuildBundleFileSizesGetToManyRelated.
+type BuildBundlesBuildBundleFileSizesGetToManyRelatedParamsFieldsBuildBundleFileSizes string
 
 // BuildsGetCollectionParams defines parameters for BuildsGetCollection.
 type BuildsGetCollectionParams struct {
@@ -85016,6 +85785,9 @@ type AlternativeDistributionKeysCreateInstanceJSONRequestBody = AlternativeDistr
 
 // AlternativeDistributionPackagesCreateInstanceJSONRequestBody defines body for AlternativeDistributionPackagesCreateInstance for application/json ContentType.
 type AlternativeDistributionPackagesCreateInstanceJSONRequestBody = AlternativeDistributionPackageCreateRequest
+
+// AnalyticsReportRequestsCreateInstanceJSONRequestBody defines body for AnalyticsReportRequestsCreateInstance for application/json ContentType.
+type AnalyticsReportRequestsCreateInstanceJSONRequestBody = AnalyticsReportRequestCreateRequest
 
 // AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody defines body for AndroidToIosAppMappingDetailsCreateInstance for application/json ContentType.
 type AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody = AndroidToIosAppMappingDetailCreateRequest
@@ -105950,6 +106722,29 @@ type ClientInterface interface {
 	// AlternativeDistributionPackagesVersionsGetToManyRelated performs a GET /v1/alternativeDistributionPackages/{id}/versions (the `AlternativeDistributionPackagesVersionsGetToManyRelated` operationId) request.
 	AlternativeDistributionPackagesVersionsGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AnalyticsReportInstancesSegmentsGetToManyRelated performs a GET /v1/analyticsReportInstances/{id}/segments (the `AnalyticsReportInstancesSegmentsGetToManyRelated` operationId) request.
+	AnalyticsReportInstancesSegmentsGetToManyRelated(ctx context.Context, id string, params *AnalyticsReportInstancesSegmentsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AnalyticsReportRequestsCreateInstanceWithBody performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AnalyticsReportRequestsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AnalyticsReportRequestsCreateInstance performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AnalyticsReportRequestsCreateInstance(ctx context.Context, body AnalyticsReportRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AnalyticsReportRequestsDeleteInstance performs a DELETE /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsDeleteInstance` operationId) request.
+	AnalyticsReportRequestsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AnalyticsReportRequestsGetInstance performs a GET /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsGetInstance` operationId) request.
+	AnalyticsReportRequestsGetInstance(ctx context.Context, id string, params *AnalyticsReportRequestsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AnalyticsReportRequestsReportsGetToManyRelated performs a GET /v1/analyticsReportRequests/{id}/reports (the `AnalyticsReportRequestsReportsGetToManyRelated` operationId) request.
+	AnalyticsReportRequestsReportsGetToManyRelated(ctx context.Context, id string, params *AnalyticsReportRequestsReportsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AnalyticsReportsInstancesGetToManyRelated performs a GET /v1/analyticsReports/{id}/instances (the `AnalyticsReportsInstancesGetToManyRelated` operationId) request.
+	AnalyticsReportsInstancesGetToManyRelated(ctx context.Context, id string, params *AnalyticsReportsInstancesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AndroidToIosAppMappingDetailsCreateInstanceWithBody performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AndroidToIosAppMappingDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -106720,6 +107515,9 @@ type ClientInterface interface {
 	// AppsAlternativeDistributionKeyGetToOneRelated performs a GET /v1/apps/{id}/alternativeDistributionKey (the `AppsAlternativeDistributionKeyGetToOneRelated` operationId) request.
 	AppsAlternativeDistributionKeyGetToOneRelated(ctx context.Context, id string, params *AppsAlternativeDistributionKeyGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsAnalyticsReportRequestsGetToManyRelated performs a GET /v1/apps/{id}/analyticsReportRequests (the `AppsAnalyticsReportRequestsGetToManyRelated` operationId) request.
+	AppsAnalyticsReportRequestsGetToManyRelated(ctx context.Context, id string, params *AppsAnalyticsReportRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 	AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -107093,6 +107891,9 @@ type ClientInterface interface {
 
 	// BuildBundlesAppClipDomainDebugStatusGetToOneRelated performs a GET /v1/buildBundles/{id}/appClipDomainDebugStatus (the `BuildBundlesAppClipDomainDebugStatusGetToOneRelated` operationId) request.
 	BuildBundlesAppClipDomainDebugStatusGetToOneRelated(ctx context.Context, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BuildBundlesBuildBundleFileSizesGetToManyRelated performs a GET /v1/buildBundles/{id}/buildBundleFileSizes (the `BuildBundlesBuildBundleFileSizesGetToManyRelated` operationId) request.
+	BuildBundlesBuildBundleFileSizesGetToManyRelated(ctx context.Context, id string, params *BuildBundlesBuildBundleFileSizesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// BuildsGetCollection performs a GET /v1/builds (the `BuildsGetCollection` operationId) request.
 	BuildsGetCollection(ctx context.Context, params *BuildsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -108679,6 +109480,99 @@ func (c *Client) AlternativeDistributionPackagesCreateInstance(ctx context.Conte
 // AlternativeDistributionPackagesVersionsGetToManyRelated performs a GET /v1/alternativeDistributionPackages/{id}/versions (the `AlternativeDistributionPackagesVersionsGetToManyRelated` operationId) request.
 func (c *Client) AlternativeDistributionPackagesVersionsGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAlternativeDistributionPackagesVersionsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AnalyticsReportInstancesSegmentsGetToManyRelated performs a GET /v1/analyticsReportInstances/{id}/segments (the `AnalyticsReportInstancesSegmentsGetToManyRelated` operationId) request.
+func (c *Client) AnalyticsReportInstancesSegmentsGetToManyRelated(ctx context.Context, id string, params *AnalyticsReportInstancesSegmentsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAnalyticsReportInstancesSegmentsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AnalyticsReportRequestsCreateInstanceWithBody performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AnalyticsReportRequestsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAnalyticsReportRequestsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AnalyticsReportRequestsCreateInstance performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AnalyticsReportRequestsCreateInstance(ctx context.Context, body AnalyticsReportRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAnalyticsReportRequestsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AnalyticsReportRequestsDeleteInstance performs a DELETE /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsDeleteInstance` operationId) request.
+func (c *Client) AnalyticsReportRequestsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAnalyticsReportRequestsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AnalyticsReportRequestsGetInstance performs a GET /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsGetInstance` operationId) request.
+func (c *Client) AnalyticsReportRequestsGetInstance(ctx context.Context, id string, params *AnalyticsReportRequestsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAnalyticsReportRequestsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AnalyticsReportRequestsReportsGetToManyRelated performs a GET /v1/analyticsReportRequests/{id}/reports (the `AnalyticsReportRequestsReportsGetToManyRelated` operationId) request.
+func (c *Client) AnalyticsReportRequestsReportsGetToManyRelated(ctx context.Context, id string, params *AnalyticsReportRequestsReportsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAnalyticsReportRequestsReportsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AnalyticsReportsInstancesGetToManyRelated performs a GET /v1/analyticsReports/{id}/instances (the `AnalyticsReportsInstancesGetToManyRelated` operationId) request.
+func (c *Client) AnalyticsReportsInstancesGetToManyRelated(ctx context.Context, id string, params *AnalyticsReportsInstancesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAnalyticsReportsInstancesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -111579,6 +112473,19 @@ func (c *Client) AppsAlternativeDistributionKeyGetToOneRelated(ctx context.Conte
 	return c.Client.Do(req)
 }
 
+// AppsAnalyticsReportRequestsGetToManyRelated performs a GET /v1/apps/{id}/analyticsReportRequests (the `AppsAnalyticsReportRequestsGetToManyRelated` operationId) request.
+func (c *Client) AppsAnalyticsReportRequestsGetToManyRelated(ctx context.Context, id string, params *AppsAnalyticsReportRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAnalyticsReportRequestsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 func (c *Client) AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsAppAvailabilityV2GetToOneRelatedRequest(c.Server, id, params)
@@ -113003,6 +113910,19 @@ func (c *Client) BuildBundlesAppClipDomainCacheStatusGetToOneRelated(ctx context
 // BuildBundlesAppClipDomainDebugStatusGetToOneRelated performs a GET /v1/buildBundles/{id}/appClipDomainDebugStatus (the `BuildBundlesAppClipDomainDebugStatusGetToOneRelated` operationId) request.
 func (c *Client) BuildBundlesAppClipDomainDebugStatusGetToOneRelated(ctx context.Context, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewBuildBundlesAppClipDomainDebugStatusGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BuildBundlesBuildBundleFileSizesGetToManyRelated performs a GET /v1/buildBundles/{id}/buildBundleFileSizes (the `BuildBundlesBuildBundleFileSizesGetToManyRelated` operationId) request.
+func (c *Client) BuildBundlesBuildBundleFileSizesGetToManyRelated(ctx context.Context, id string, params *BuildBundlesBuildBundleFileSizesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBuildBundlesBuildBundleFileSizesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -118899,6 +119819,444 @@ func NewAlternativeDistributionPackagesVersionsGetToManyRelatedRequest(server st
 		if params.LimitDeltas != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[deltas]", *params.LimitDeltas, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAnalyticsReportInstancesSegmentsGetToManyRelatedRequest constructs an http.Request for the AnalyticsReportInstancesSegmentsGetToManyRelated method
+func NewAnalyticsReportInstancesSegmentsGetToManyRelatedRequest(server string, id string, params *AnalyticsReportInstancesSegmentsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/analyticsReportInstances/%s/segments", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAnalyticsReportSegments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[analyticsReportSegments]", *params.FieldsAnalyticsReportSegments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAnalyticsReportRequestsCreateInstanceRequest calls the generic AnalyticsReportRequestsCreateInstance builder with application/json body
+func NewAnalyticsReportRequestsCreateInstanceRequest(server string, body AnalyticsReportRequestsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAnalyticsReportRequestsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAnalyticsReportRequestsCreateInstanceRequestWithBody constructs an http.Request for the AnalyticsReportRequestsCreateInstance method, with any body, and a specified content type
+func NewAnalyticsReportRequestsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/analyticsReportRequests")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAnalyticsReportRequestsDeleteInstanceRequest constructs an http.Request for the AnalyticsReportRequestsDeleteInstance method
+func NewAnalyticsReportRequestsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/analyticsReportRequests/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAnalyticsReportRequestsGetInstanceRequest constructs an http.Request for the AnalyticsReportRequestsGetInstance method
+func NewAnalyticsReportRequestsGetInstanceRequest(server string, id string, params *AnalyticsReportRequestsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/analyticsReportRequests/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAnalyticsReportRequests != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[analyticsReportRequests]", *params.FieldsAnalyticsReportRequests, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAnalyticsReports != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[analyticsReports]", *params.FieldsAnalyticsReports, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitReports != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[reports]", *params.LimitReports, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAnalyticsReportRequestsReportsGetToManyRelatedRequest constructs an http.Request for the AnalyticsReportRequestsReportsGetToManyRelated method
+func NewAnalyticsReportRequestsReportsGetToManyRelatedRequest(server string, id string, params *AnalyticsReportRequestsReportsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/analyticsReportRequests/%s/reports", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterName != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[name]", *params.FilterName, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterCategory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[category]", *params.FilterCategory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAnalyticsReports != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[analyticsReports]", *params.FieldsAnalyticsReports, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAnalyticsReportsInstancesGetToManyRelatedRequest constructs an http.Request for the AnalyticsReportsInstancesGetToManyRelated method
+func NewAnalyticsReportsInstancesGetToManyRelatedRequest(server string, id string, params *AnalyticsReportsInstancesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/analyticsReports/%s/instances", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterGranularity != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[granularity]", *params.FilterGranularity, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterProcessingDate != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[processingDate]", *params.FilterProcessingDate, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAnalyticsReportInstances != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[analyticsReportInstances]", *params.FieldsAnalyticsReportInstances, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -131179,6 +132537,127 @@ func NewAppsAlternativeDistributionKeyGetToOneRelatedRequest(server string, id s
 	return req, nil
 }
 
+// NewAppsAnalyticsReportRequestsGetToManyRelatedRequest constructs an http.Request for the AppsAnalyticsReportRequestsGetToManyRelated method
+func NewAppsAnalyticsReportRequestsGetToManyRelatedRequest(server string, id string, params *AppsAnalyticsReportRequestsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/analyticsReportRequests", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterAccessType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[accessType]", *params.FilterAccessType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAnalyticsReportRequests != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[analyticsReportRequests]", *params.FieldsAnalyticsReportRequests, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAnalyticsReports != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[analyticsReports]", *params.FieldsAnalyticsReports, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitReports != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[reports]", *params.LimitReports, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppsAppAvailabilityV2GetToOneRelatedRequest constructs an http.Request for the AppsAppAvailabilityV2GetToOneRelated method
 func NewAppsAppAvailabilityV2GetToOneRelatedRequest(server string, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams) (*http.Request, error) {
 	var err error
@@ -137948,6 +139427,79 @@ func NewBuildBundlesAppClipDomainDebugStatusGetToOneRelatedRequest(server string
 		if params.FieldsAppClipDomainStatuses != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClipDomainStatuses]", *params.FieldsAppClipDomainStatuses, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBuildBundlesBuildBundleFileSizesGetToManyRelatedRequest constructs an http.Request for the BuildBundlesBuildBundleFileSizesGetToManyRelated method
+func NewBuildBundlesBuildBundleFileSizesGetToManyRelatedRequest(server string, id string, params *BuildBundlesBuildBundleFileSizesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/buildBundles/%s/buildBundleFileSizes", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBuildBundleFileSizes != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[buildBundleFileSizes]", *params.FieldsBuildBundleFileSizes, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -156724,6 +158276,41 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AlternativeDistributionPackagesVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackagesVersionsGetToManyRelatedResponse, error)
 
+	// AnalyticsReportInstancesSegmentsGetToManyRelatedWithResponse performs a GET /v1/analyticsReportInstances/{id}/segments (the `AnalyticsReportInstancesSegmentsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AnalyticsReportInstancesSegmentsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AnalyticsReportInstancesSegmentsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AnalyticsReportInstancesSegmentsGetToManyRelatedResponse, error)
+
+	// AnalyticsReportRequestsCreateInstanceWithBodyWithResponse performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AnalyticsReportRequestsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsCreateInstanceResponse, error)
+
+	// AnalyticsReportRequestsCreateInstanceWithResponse performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AnalyticsReportRequestsCreateInstanceWithResponse(ctx context.Context, body AnalyticsReportRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsCreateInstanceResponse, error)
+
+	// AnalyticsReportRequestsDeleteInstanceWithResponse performs a DELETE /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AnalyticsReportRequestsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsDeleteInstanceResponse, error)
+
+	// AnalyticsReportRequestsGetInstanceWithResponse performs a GET /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AnalyticsReportRequestsGetInstanceWithResponse(ctx context.Context, id string, params *AnalyticsReportRequestsGetInstanceParams, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsGetInstanceResponse, error)
+
+	// AnalyticsReportRequestsReportsGetToManyRelatedWithResponse performs a GET /v1/analyticsReportRequests/{id}/reports (the `AnalyticsReportRequestsReportsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AnalyticsReportRequestsReportsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AnalyticsReportRequestsReportsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsReportsGetToManyRelatedResponse, error)
+
+	// AnalyticsReportsInstancesGetToManyRelatedWithResponse performs a GET /v1/analyticsReports/{id}/instances (the `AnalyticsReportsInstancesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AnalyticsReportsInstancesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AnalyticsReportsInstancesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AnalyticsReportsInstancesGetToManyRelatedResponse, error)
+
 	// AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -157784,6 +159371,11 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppsAlternativeDistributionKeyGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAlternativeDistributionKeyGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAlternativeDistributionKeyGetToOneRelatedResponse, error)
 
+	// AppsAnalyticsReportRequestsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/analyticsReportRequests (the `AppsAnalyticsReportRequestsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAnalyticsReportRequestsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAnalyticsReportRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAnalyticsReportRequestsGetToManyRelatedResponse, error)
+
 	// AppsAppAvailabilityV2GetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -158313,6 +159905,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	BuildBundlesAppClipDomainDebugStatusGetToOneRelatedWithResponse(ctx context.Context, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse, error)
+
+	// BuildBundlesBuildBundleFileSizesGetToManyRelatedWithResponse performs a GET /v1/buildBundles/{id}/buildBundleFileSizes (the `BuildBundlesBuildBundleFileSizesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BuildBundlesBuildBundleFileSizesGetToManyRelatedWithResponse(ctx context.Context, id string, params *BuildBundlesBuildBundleFileSizesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse, error)
 
 	// BuildsGetCollectionWithResponse performs a GET /v1/builds (the `BuildsGetCollection` operationId) request.
 	//
@@ -161458,6 +163055,462 @@ func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) StatusC
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AnalyticsReportInstancesSegmentsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AnalyticsReportSegmentsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) GetJSON200() *AnalyticsReportSegmentsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AnalyticsReportInstancesSegmentsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AnalyticsReportRequestsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AnalyticsReportRequestResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetJSON201() *AnalyticsReportRequestResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AnalyticsReportRequestsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AnalyticsReportRequestsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AnalyticsReportRequestsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AnalyticsReportRequestsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AnalyticsReportRequestsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AnalyticsReportRequestsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AnalyticsReportRequestsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AnalyticsReportRequestsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AnalyticsReportRequestsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AnalyticsReportRequestsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AnalyticsReportRequestsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AnalyticsReportRequestsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AnalyticsReportRequestsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AnalyticsReportRequestsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AnalyticsReportRequestsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AnalyticsReportRequestResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AnalyticsReportRequestsGetInstanceResponse) GetJSON200() *AnalyticsReportRequestResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AnalyticsReportRequestsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AnalyticsReportRequestsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AnalyticsReportRequestsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AnalyticsReportRequestsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AnalyticsReportRequestsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AnalyticsReportRequestsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AnalyticsReportRequestsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AnalyticsReportRequestsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AnalyticsReportRequestsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AnalyticsReportRequestsReportsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AnalyticsReportsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) GetJSON200() *AnalyticsReportsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AnalyticsReportRequestsReportsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AnalyticsReportsInstancesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AnalyticsReportInstancesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) GetJSON200() *AnalyticsReportInstancesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AnalyticsReportsInstancesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -172967,6 +175020,82 @@ func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) ContentType() str
 	return ""
 }
 
+type AppsAnalyticsReportRequestsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AnalyticsReportRequestsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) GetJSON200() *AnalyticsReportRequestsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAnalyticsReportRequestsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppsAppAvailabilityV2GetToOneRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -179071,6 +181200,82 @@ func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) StatusCode(
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BuildBundleFileSizesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) GetJSON200() *BuildBundleFileSizesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -198633,6 +200838,83 @@ func (c *ClientWithResponses) AlternativeDistributionPackagesVersionsGetToManyRe
 	return ParseAlternativeDistributionPackagesVersionsGetToManyRelatedResponse(rsp)
 }
 
+// AnalyticsReportInstancesSegmentsGetToManyRelatedWithResponse performs a GET /v1/analyticsReportInstances/{id}/segments (the `AnalyticsReportInstancesSegmentsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AnalyticsReportInstancesSegmentsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AnalyticsReportInstancesSegmentsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AnalyticsReportInstancesSegmentsGetToManyRelatedResponse, error) {
+	rsp, err := c.AnalyticsReportInstancesSegmentsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAnalyticsReportInstancesSegmentsGetToManyRelatedResponse(rsp)
+}
+
+// AnalyticsReportRequestsCreateInstanceWithBodyWithResponse performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AnalyticsReportRequestsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsCreateInstanceResponse, error) {
+	rsp, err := c.AnalyticsReportRequestsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAnalyticsReportRequestsCreateInstanceResponse(rsp)
+}
+
+// AnalyticsReportRequestsCreateInstanceWithResponse performs a POST /v1/analyticsReportRequests (the `AnalyticsReportRequestsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AnalyticsReportRequestsCreateInstanceWithResponse(ctx context.Context, body AnalyticsReportRequestsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsCreateInstanceResponse, error) {
+	rsp, err := c.AnalyticsReportRequestsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAnalyticsReportRequestsCreateInstanceResponse(rsp)
+}
+
+// AnalyticsReportRequestsDeleteInstanceWithResponse performs a DELETE /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AnalyticsReportRequestsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsDeleteInstanceResponse, error) {
+	rsp, err := c.AnalyticsReportRequestsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAnalyticsReportRequestsDeleteInstanceResponse(rsp)
+}
+
+// AnalyticsReportRequestsGetInstanceWithResponse performs a GET /v1/analyticsReportRequests/{id} (the `AnalyticsReportRequestsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AnalyticsReportRequestsGetInstanceWithResponse(ctx context.Context, id string, params *AnalyticsReportRequestsGetInstanceParams, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsGetInstanceResponse, error) {
+	rsp, err := c.AnalyticsReportRequestsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAnalyticsReportRequestsGetInstanceResponse(rsp)
+}
+
+// AnalyticsReportRequestsReportsGetToManyRelatedWithResponse performs a GET /v1/analyticsReportRequests/{id}/reports (the `AnalyticsReportRequestsReportsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AnalyticsReportRequestsReportsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AnalyticsReportRequestsReportsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AnalyticsReportRequestsReportsGetToManyRelatedResponse, error) {
+	rsp, err := c.AnalyticsReportRequestsReportsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAnalyticsReportRequestsReportsGetToManyRelatedResponse(rsp)
+}
+
+// AnalyticsReportsInstancesGetToManyRelatedWithResponse performs a GET /v1/analyticsReports/{id}/instances (the `AnalyticsReportsInstancesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AnalyticsReportsInstancesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AnalyticsReportsInstancesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AnalyticsReportsInstancesGetToManyRelatedResponse, error) {
+	rsp, err := c.AnalyticsReportsInstancesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAnalyticsReportsInstancesGetToManyRelatedResponse(rsp)
+}
+
 // AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -200965,6 +203247,17 @@ func (c *ClientWithResponses) AppsAlternativeDistributionKeyGetToOneRelatedWithR
 	return ParseAppsAlternativeDistributionKeyGetToOneRelatedResponse(rsp)
 }
 
+// AppsAnalyticsReportRequestsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/analyticsReportRequests (the `AppsAnalyticsReportRequestsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAnalyticsReportRequestsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAnalyticsReportRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAnalyticsReportRequestsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsAnalyticsReportRequestsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAnalyticsReportRequestsGetToManyRelatedResponse(rsp)
+}
+
 // AppsAppAvailabilityV2GetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -202129,6 +204422,17 @@ func (c *ClientWithResponses) BuildBundlesAppClipDomainDebugStatusGetToOneRelate
 		return nil, err
 	}
 	return ParseBuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse(rsp)
+}
+
+// BuildBundlesBuildBundleFileSizesGetToManyRelatedWithResponse performs a GET /v1/buildBundles/{id}/buildBundleFileSizes (the `BuildBundlesBuildBundleFileSizesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BuildBundlesBuildBundleFileSizesGetToManyRelatedWithResponse(ctx context.Context, id string, params *BuildBundlesBuildBundleFileSizesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse, error) {
+	rsp, err := c.BuildBundlesBuildBundleFileSizesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBuildBundlesBuildBundleFileSizesGetToManyRelatedResponse(rsp)
 }
 
 // BuildsGetCollectionWithResponse performs a GET /v1/builds (the `BuildsGetCollection` operationId) request.
@@ -207086,6 +209390,375 @@ func ParseAlternativeDistributionPackagesVersionsGetToManyRelatedResponse(rsp *h
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AlternativeDistributionPackageVersionsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAnalyticsReportInstancesSegmentsGetToManyRelatedResponse parses an HTTP response from a AnalyticsReportInstancesSegmentsGetToManyRelatedWithResponse call
+func ParseAnalyticsReportInstancesSegmentsGetToManyRelatedResponse(rsp *http.Response) (*AnalyticsReportInstancesSegmentsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AnalyticsReportInstancesSegmentsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AnalyticsReportSegmentsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAnalyticsReportRequestsCreateInstanceResponse parses an HTTP response from a AnalyticsReportRequestsCreateInstanceWithResponse call
+func ParseAnalyticsReportRequestsCreateInstanceResponse(rsp *http.Response) (*AnalyticsReportRequestsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AnalyticsReportRequestsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AnalyticsReportRequestResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAnalyticsReportRequestsDeleteInstanceResponse parses an HTTP response from a AnalyticsReportRequestsDeleteInstanceWithResponse call
+func ParseAnalyticsReportRequestsDeleteInstanceResponse(rsp *http.Response) (*AnalyticsReportRequestsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AnalyticsReportRequestsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAnalyticsReportRequestsGetInstanceResponse parses an HTTP response from a AnalyticsReportRequestsGetInstanceWithResponse call
+func ParseAnalyticsReportRequestsGetInstanceResponse(rsp *http.Response) (*AnalyticsReportRequestsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AnalyticsReportRequestsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AnalyticsReportRequestResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAnalyticsReportRequestsReportsGetToManyRelatedResponse parses an HTTP response from a AnalyticsReportRequestsReportsGetToManyRelatedWithResponse call
+func ParseAnalyticsReportRequestsReportsGetToManyRelatedResponse(rsp *http.Response) (*AnalyticsReportRequestsReportsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AnalyticsReportRequestsReportsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AnalyticsReportsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAnalyticsReportsInstancesGetToManyRelatedResponse parses an HTTP response from a AnalyticsReportsInstancesGetToManyRelatedWithResponse call
+func ParseAnalyticsReportsInstancesGetToManyRelatedResponse(rsp *http.Response) (*AnalyticsReportsInstancesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AnalyticsReportsInstancesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AnalyticsReportInstancesResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -216546,6 +219219,67 @@ func ParseAppsAlternativeDistributionKeyGetToOneRelatedResponse(rsp *http.Respon
 	return response, nil
 }
 
+// ParseAppsAnalyticsReportRequestsGetToManyRelatedResponse parses an HTTP response from a AppsAnalyticsReportRequestsGetToManyRelatedWithResponse call
+func ParseAppsAnalyticsReportRequestsGetToManyRelatedResponse(rsp *http.Response) (*AppsAnalyticsReportRequestsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAnalyticsReportRequestsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AnalyticsReportRequestsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppsAppAvailabilityV2GetToOneRelatedResponse parses an HTTP response from a AppsAppAvailabilityV2GetToOneRelatedWithResponse call
 func ParseAppsAppAvailabilityV2GetToOneRelatedResponse(rsp *http.Response) (*AppsAppAvailabilityV2GetToOneRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -221483,6 +224217,67 @@ func ParseBuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse(rsp *http.
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppClipDomainStatusResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBuildBundlesBuildBundleFileSizesGetToManyRelatedResponse parses an HTTP response from a BuildBundlesBuildBundleFileSizesGetToManyRelatedWithResponse call
+func ParseBuildBundlesBuildBundleFileSizesGetToManyRelatedResponse(rsp *http.Response) (*BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BuildBundlesBuildBundleFileSizesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BuildBundleFileSizesResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -237352,6 +240147,24 @@ type ServerInterface interface {
 	// (GET /v1/alternativeDistributionPackages/{id}/versions)
 	AlternativeDistributionPackagesVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AlternativeDistributionPackagesVersionsGetToManyRelatedParams)
 
+	// (GET /v1/analyticsReportInstances/{id}/segments)
+	AnalyticsReportInstancesSegmentsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AnalyticsReportInstancesSegmentsGetToManyRelatedParams)
+
+	// (POST /v1/analyticsReportRequests)
+	AnalyticsReportRequestsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/analyticsReportRequests/{id})
+	AnalyticsReportRequestsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/analyticsReportRequests/{id})
+	AnalyticsReportRequestsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AnalyticsReportRequestsGetInstanceParams)
+
+	// (GET /v1/analyticsReportRequests/{id}/reports)
+	AnalyticsReportRequestsReportsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AnalyticsReportRequestsReportsGetToManyRelatedParams)
+
+	// (GET /v1/analyticsReports/{id}/instances)
+	AnalyticsReportsInstancesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AnalyticsReportsInstancesGetToManyRelatedParams)
+
 	// (POST /v1/androidToIosAppMappingDetails)
 	AndroidToIosAppMappingDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -237787,6 +240600,9 @@ type ServerInterface interface {
 	// (GET /v1/apps/{id}/alternativeDistributionKey)
 	AppsAlternativeDistributionKeyGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAlternativeDistributionKeyGetToOneRelatedParams)
 
+	// (GET /v1/apps/{id}/analyticsReportRequests)
+	AppsAnalyticsReportRequestsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAnalyticsReportRequestsGetToManyRelatedParams)
+
 	// (GET /v1/apps/{id}/appAvailabilityV2)
 	AppsAppAvailabilityV2GetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppAvailabilityV2GetToOneRelatedParams)
 
@@ -238020,6 +240836,9 @@ type ServerInterface interface {
 
 	// (GET /v1/buildBundles/{id}/appClipDomainDebugStatus)
 	BuildBundlesAppClipDomainDebugStatusGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams)
+
+	// (GET /v1/buildBundles/{id}/buildBundleFileSizes)
+	BuildBundlesBuildBundleFileSizesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params BuildBundlesBuildBundleFileSizesGetToManyRelatedParams)
 
 	// (GET /v1/builds)
 	BuildsGetCollection(w http.ResponseWriter, r *http.Request, params BuildsGetCollectionParams)
@@ -239550,6 +242369,344 @@ func (siw *ServerInterfaceWrapper) AlternativeDistributionPackagesVersionsGetToM
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AlternativeDistributionPackagesVersionsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AnalyticsReportInstancesSegmentsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AnalyticsReportInstancesSegmentsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AnalyticsReportInstancesSegmentsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[analyticsReportSegments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[analyticsReportSegments]", r.URL.Query(), &params.FieldsAnalyticsReportSegments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[analyticsReportSegments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[analyticsReportSegments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AnalyticsReportInstancesSegmentsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AnalyticsReportRequestsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AnalyticsReportRequestsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AnalyticsReportRequestsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AnalyticsReportRequestsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AnalyticsReportRequestsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AnalyticsReportRequestsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AnalyticsReportRequestsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AnalyticsReportRequestsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AnalyticsReportRequestsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[analyticsReportRequests]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[analyticsReportRequests]", r.URL.Query(), &params.FieldsAnalyticsReportRequests, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[analyticsReportRequests]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[analyticsReportRequests]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[analyticsReports]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[analyticsReports]", r.URL.Query(), &params.FieldsAnalyticsReports, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[analyticsReports]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[analyticsReports]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[reports]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[reports]", r.URL.Query(), &params.LimitReports, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[reports]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[reports]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AnalyticsReportRequestsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AnalyticsReportRequestsReportsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AnalyticsReportRequestsReportsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AnalyticsReportRequestsReportsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[name]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[name]", r.URL.Query(), &params.FilterName, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[name]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[name]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[category]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[category]", r.URL.Query(), &params.FilterCategory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[category]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[category]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[analyticsReports]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[analyticsReports]", r.URL.Query(), &params.FieldsAnalyticsReports, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[analyticsReports]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[analyticsReports]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AnalyticsReportRequestsReportsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AnalyticsReportsInstancesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AnalyticsReportsInstancesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AnalyticsReportsInstancesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[granularity]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[granularity]", r.URL.Query(), &params.FilterGranularity, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[granularity]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[granularity]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[processingDate]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[processingDate]", r.URL.Query(), &params.FilterProcessingDate, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[processingDate]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[processingDate]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[analyticsReportInstances]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[analyticsReportInstances]", r.URL.Query(), &params.FieldsAnalyticsReportInstances, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[analyticsReportInstances]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[analyticsReportInstances]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AnalyticsReportsInstancesGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -249434,6 +252591,113 @@ func (siw *ServerInterfaceWrapper) AppsAlternativeDistributionKeyGetToOneRelated
 	handler.ServeHTTP(w, r)
 }
 
+// AppsAnalyticsReportRequestsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAnalyticsReportRequestsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAnalyticsReportRequestsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[accessType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[accessType]", r.URL.Query(), &params.FilterAccessType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[accessType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[accessType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[analyticsReportRequests]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[analyticsReportRequests]", r.URL.Query(), &params.FieldsAnalyticsReportRequests, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[analyticsReportRequests]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[analyticsReportRequests]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[analyticsReports]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[analyticsReports]", r.URL.Query(), &params.FieldsAnalyticsReports, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[analyticsReports]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[analyticsReports]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[reports]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[reports]", r.URL.Query(), &params.LimitReports, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[reports]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[reports]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAnalyticsReportRequestsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppsAppAvailabilityV2GetToOneRelated operation middleware
 func (siw *ServerInterfaceWrapper) AppsAppAvailabilityV2GetToOneRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -254908,6 +258172,61 @@ func (siw *ServerInterfaceWrapper) BuildBundlesAppClipDomainDebugStatusGetToOneR
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.BuildBundlesAppClipDomainDebugStatusGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BuildBundlesBuildBundleFileSizesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) BuildBundlesBuildBundleFileSizesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BuildBundlesBuildBundleFileSizesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[buildBundleFileSizes]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[buildBundleFileSizes]", r.URL.Query(), &params.FieldsBuildBundleFileSizes, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[buildBundleFileSizes]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[buildBundleFileSizes]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BuildBundlesBuildBundleFileSizesGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -269443,6 +272762,12 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionPackageVersions/{id}/variants", wrapper.AlternativeDistributionPackageVersionsVariantsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/alternativeDistributionPackages", wrapper.AlternativeDistributionPackagesCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionPackages/{id}/versions", wrapper.AlternativeDistributionPackagesVersionsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/analyticsReportInstances/{id}/segments", wrapper.AnalyticsReportInstancesSegmentsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/analyticsReportRequests", wrapper.AnalyticsReportRequestsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/analyticsReportRequests/{id}", wrapper.AnalyticsReportRequestsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/analyticsReportRequests/{id}", wrapper.AnalyticsReportRequestsGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/analyticsReportRequests/{id}/reports", wrapper.AnalyticsReportRequestsReportsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/analyticsReports/{id}/instances", wrapper.AnalyticsReportsInstancesGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails", wrapper.AndroidToIosAppMappingDetailsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsGetInstance)
@@ -269588,6 +272913,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/alternativeDistributionKey", wrapper.AppsAlternativeDistributionKeyGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/analyticsReportRequests", wrapper.AppsAnalyticsReportRequestsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appAvailabilityV2", wrapper.AppsAppAvailabilityV2GetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appClips", wrapper.AppsAppClipsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appCustomProductPages", wrapper.AppsAppCustomProductPagesGetToManyRelated)
@@ -269666,6 +272992,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/buildBetaNotifications", wrapper.BuildBetaNotificationsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBundles/{id}/appClipDomainCacheStatus", wrapper.BuildBundlesAppClipDomainCacheStatusGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBundles/{id}/appClipDomainDebugStatus", wrapper.BuildBundlesAppClipDomainDebugStatusGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBundles/{id}/buildBundleFileSizes", wrapper.BuildBundlesBuildBundleFileSizesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/builds", wrapper.BuildsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/builds/{id}", wrapper.BuildsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/builds/{id}", wrapper.BuildsUpdateInstance)

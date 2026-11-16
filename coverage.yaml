@@ -41,18 +41,18 @@ operations:
   alternativeDistributionPackages_getInstance: {status: out_of_scope, reason: "apple_alternative_distribution_package reads the package through its App Store version"}
   alternativeDistributionPackages_versions_getToManyRelated: {status: covered, by: [data.apple_alternative_distribution_package_versions]}
   alternativeDistributionPackages_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  analyticsReportInstances_getInstance: {status: planned, issue: 16}
-  analyticsReportInstances_segments_getToManyRelated: {status: planned, issue: 16}
-  analyticsReportInstances_segments_getToManyRelationship: {status: planned, issue: 16}
-  analyticsReportRequests_createInstance: {status: planned, issue: 16}
-  analyticsReportRequests_deleteInstance: {status: planned, issue: 16}
-  analyticsReportRequests_getInstance: {status: planned, issue: 16}
-  analyticsReportRequests_reports_getToManyRelated: {status: planned, issue: 16}
-  analyticsReportRequests_reports_getToManyRelationship: {status: planned, issue: 16}
-  analyticsReportSegments_getInstance: {status: planned, issue: 16}
-  analyticsReports_getInstance: {status: planned, issue: 16}
-  analyticsReports_instances_getToManyRelated: {status: planned, issue: 16}
-  analyticsReports_instances_getToManyRelationship: {status: planned, issue: 16}
+  analyticsReportInstances_getInstance: {status: out_of_scope, reason: "data.apple_analytics_report_instances lists a report's instances"}
+  analyticsReportInstances_segments_getToManyRelated: {status: covered, by: [data.apple_analytics_report_segments]}
+  analyticsReportInstances_segments_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  analyticsReportRequests_createInstance: {status: covered, by: [apple_analytics_report_request]}
+  analyticsReportRequests_deleteInstance: {status: covered, by: [apple_analytics_report_request]}
+  analyticsReportRequests_getInstance: {status: covered, by: [apple_analytics_report_request]}
+  analyticsReportRequests_reports_getToManyRelated: {status: covered, by: [data.apple_analytics_reports]}
+  analyticsReportRequests_reports_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  analyticsReportSegments_getInstance: {status: out_of_scope, reason: "data.apple_analytics_report_segments lists an instance's segments"}
+  analyticsReports_getInstance: {status: out_of_scope, reason: "data.apple_analytics_reports lists a request's reports"}
+  analyticsReports_instances_getToManyRelated: {status: covered, by: [data.apple_analytics_report_instances]}
+  analyticsReports_instances_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   androidToIosAppMappingDetails_createInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
   androidToIosAppMappingDetails_deleteInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
   androidToIosAppMappingDetails_getInstance: {status: covered, by: [apple_android_to_ios_app_mapping]}
@@ -333,8 +333,8 @@ operations:
   apps_accessibilityDeclarations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_alternativeDistributionKey_getToOneRelated: {status: covered, by: [data.apple_alternative_distribution_key]}
   apps_alternativeDistributionKey_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  apps_analyticsReportRequests_getToManyRelated: {status: planned, issue: 16}
-  apps_analyticsReportRequests_getToManyRelationship: {status: planned, issue: 16}
+  apps_analyticsReportRequests_getToManyRelated: {status: covered, by: [data.apple_analytics_report_requests]}
+  apps_analyticsReportRequests_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_androidToIosAppMappingDetails_getToManyRelated: {status: out_of_scope, reason: "apple_android_to_ios_app_mapping reads mappings by ID"}
   apps_androidToIosAppMappingDetails_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appAvailabilityV2_getToOneRelated: {status: covered, by: [apple_app_availability, apple_app_territory_availability]}
@@ -375,7 +375,7 @@ operations:
   apps_betaGroups_getToManyRelationship: {status: out_of_scope, reason: "betaGroups_getCollection with filter[app] (data.apple_beta_groups) returns the same groups"}
   apps_betaLicenseAgreement_getToOneRelated: {status: out_of_scope, reason: "betaLicenseAgreements_getCollection with filter[app] returns the same agreement"}
   apps_betaLicenseAgreement_getToOneRelationship: {status: out_of_scope, reason: "betaLicenseAgreements_getCollection with filter[app] returns the same agreement"}
-  apps_betaTesterUsages_getMetrics: {status: planned, issue: 16}
+  apps_betaTesterUsages_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   apps_betaTesters_deleteToManyRelationship: {status: covered, by: [action.apple_remove_beta_testers_from_app]}
   apps_buildUploads_getToManyRelated: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   apps_buildUploads_getToManyRelationship: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
@@ -400,8 +400,8 @@ operations:
   apps_inAppPurchases_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_marketplaceSearchDetail_getToOneRelated: {status: covered, by: [apple_marketplace_search_detail]}
   apps_marketplaceSearchDetail_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  apps_perfPowerMetrics_getToManyRelated: {status: planned, issue: 16}
-  apps_performanceOverviews_getToManyRelated: {status: planned, issue: 16}
+  apps_perfPowerMetrics_getToManyRelated: {status: out_of_scope, reason: "power, performance and diagnostic data for Xcode Organizer, not configuration"}
+  apps_performanceOverviews_getToManyRelated: {status: out_of_scope, reason: "power, performance and diagnostic data for Xcode Organizer, not configuration"}
   apps_preReleaseVersions_getToManyRelated: {status: out_of_scope, reason: "preReleaseVersions_getCollection with filter[app] (data.apple_pre_release_versions) returns the same versions"}
   apps_preReleaseVersions_getToManyRelationship: {status: out_of_scope, reason: "preReleaseVersions_getCollection with filter[app] (data.apple_pre_release_versions) returns the same versions"}
   apps_promotedPurchases_getToManyRelated: {status: covered, by: [apple_promoted_purchase_order]}
@@ -479,7 +479,7 @@ operations:
   betaGroups_betaRecruitmentCriteria_getToOneRelationship: {status: out_of_scope, reason: "the getToOneRelated operation returns the criteria itself"}
   betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelated: {status: out_of_scope, reason: "build compatibility with tester criteria is advice shown in App Store Connect, not configuration"}
   betaGroups_betaRecruitmentCriterionCompatibleBuildCheck_getToOneRelationship: {status: out_of_scope, reason: "build compatibility with tester criteria is advice shown in App Store Connect, not configuration"}
-  betaGroups_betaTesterUsages_getMetrics: {status: planned, issue: 16}
+  betaGroups_betaTesterUsages_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   betaGroups_betaTesters_createToManyRelationship: {status: out_of_scope, reason: "apple_beta_group_tester manages group membership through betaTesters_betaGroups"}
   betaGroups_betaTesters_deleteToManyRelationship: {status: out_of_scope, reason: "apple_beta_group_tester manages group membership through betaTesters_betaGroups"}
   betaGroups_betaTesters_getToManyRelated: {status: out_of_scope, reason: "betaTesters_getCollection with filter[betaGroups] (data.apple_beta_testers) returns the same testers"}
@@ -492,7 +492,7 @@ operations:
   betaGroups_deleteInstance: {status: covered, by: [apple_beta_group]}
   betaGroups_getCollection: {status: covered, by: [data.apple_beta_groups]}
   betaGroups_getInstance: {status: covered, by: [apple_beta_group]}
-  betaGroups_publicLinkUsages_getMetrics: {status: planned, issue: 16}
+  betaGroups_publicLinkUsages_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   betaGroups_updateInstance: {status: covered, by: [apple_beta_group]}
   betaLicenseAgreements_app_getToOneRelated: {status: out_of_scope, reason: "the provider's resources and data sources already know the app they belong to"}
   betaLicenseAgreements_app_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
@@ -511,7 +511,7 @@ operations:
   betaTesters_betaGroups_deleteToManyRelationship: {status: covered, by: [apple_beta_group_tester]}
   betaTesters_betaGroups_getToManyRelated: {status: out_of_scope, reason: "the getToManyRelationship operation returns the group IDs apple_beta_group_tester needs"}
   betaTesters_betaGroups_getToManyRelationship: {status: covered, by: [apple_beta_group_tester]}
-  betaTesters_betaTesterUsages_getMetrics: {status: planned, issue: 16}
+  betaTesters_betaTesterUsages_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   betaTesters_builds_createToManyRelationship: {status: out_of_scope, reason: "action.apple_add_build_testers uses builds_individualTesters_createToManyRelationship"}
   betaTesters_builds_deleteToManyRelationship: {status: out_of_scope, reason: "action.apple_remove_build_testers uses builds_individualTesters_deleteToManyRelationship"}
   betaTesters_builds_getToManyRelated: {status: out_of_scope, reason: "builds_getCollection lists builds; testers given a build individually come from data.apple_beta_testers with build_id"}
@@ -532,8 +532,8 @@ operations:
   buildBundles_appClipDomainDebugStatus_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   buildBundles_betaAppClipInvocations_getToManyRelated: {status: out_of_scope, reason: "apple_beta_app_clip_invocation reads each invocation by ID"}
   buildBundles_betaAppClipInvocations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  buildBundles_buildBundleFileSizes_getToManyRelated: {status: planned, issue: 16}
-  buildBundles_buildBundleFileSizes_getToManyRelationship: {status: planned, issue: 16}
+  buildBundles_buildBundleFileSizes_getToManyRelated: {status: covered, by: [data.apple_build_bundle_file_sizes]}
+  buildBundles_buildBundleFileSizes_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   buildUploadFiles_createInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   buildUploadFiles_getInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   buildUploadFiles_updateInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
@@ -553,13 +553,13 @@ operations:
   builds_betaAppReviewSubmission_getToOneRelationship: {status: out_of_scope, reason: "data.apple_build reports a build's beta review as external_build_state"}
   builds_betaBuildLocalizations_getToManyRelated: {status: out_of_scope, reason: "apple_beta_build_localization reads each localization by ID"}
   builds_betaBuildLocalizations_getToManyRelationship: {status: out_of_scope, reason: "apple_beta_build_localization reads each localization by ID"}
-  builds_betaBuildUsages_getMetrics: {status: planned, issue: 16}
+  builds_betaBuildUsages_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   builds_betaGroups_createToManyRelationship: {status: covered, by: [action.apple_add_build_to_beta_groups]}
   builds_betaGroups_deleteToManyRelationship: {status: covered, by: [action.apple_remove_build_from_beta_groups]}
   builds_buildBetaDetail_getToOneRelated: {status: out_of_scope, reason: "buildBetaDetails_getCollection with filter[build] returns the same detail"}
   builds_buildBetaDetail_getToOneRelationship: {status: out_of_scope, reason: "buildBetaDetails_getCollection with filter[build] returns the same detail"}
-  builds_diagnosticSignatures_getToManyRelated: {status: planned, issue: 16}
-  builds_diagnosticSignatures_getToManyRelationship: {status: planned, issue: 16}
+  builds_diagnosticSignatures_getToManyRelated: {status: out_of_scope, reason: "power, performance and diagnostic data for Xcode Organizer, not configuration"}
+  builds_diagnosticSignatures_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   builds_getCollection: {status: covered, by: [data.apple_build, data.apple_builds]}
   builds_getInstance: {status: covered, by: [data.apple_build, data.apple_build_bundles]}
   builds_icons_getToManyRelated: {status: out_of_scope, reason: "build icons are extracted by Apple from the uploaded build"}
@@ -568,7 +568,7 @@ operations:
   builds_individualTesters_deleteToManyRelationship: {status: covered, by: [action.apple_remove_build_testers]}
   builds_individualTesters_getToManyRelated: {status: out_of_scope, reason: "betaTesters_getCollection with filter[builds] (data.apple_beta_testers with build_id) returns the same testers"}
   builds_individualTesters_getToManyRelationship: {status: out_of_scope, reason: "betaTesters_getCollection with filter[builds] (data.apple_beta_testers with build_id) returns the same testers"}
-  builds_perfPowerMetrics_getToManyRelated: {status: planned, issue: 16}
+  builds_perfPowerMetrics_getToManyRelated: {status: out_of_scope, reason: "power, performance and diagnostic data for Xcode Organizer, not configuration"}
   builds_preReleaseVersion_getToOneRelated: {status: out_of_scope, reason: "data.apple_build reads the version with include=preReleaseVersion"}
   builds_preReleaseVersion_getToOneRelationship: {status: out_of_scope, reason: "data.apple_build reads the version with include=preReleaseVersion"}
   builds_updateInstance: {status: covered, by: [action.apple_expire_build, action.apple_set_build_export_compliance]}
@@ -650,7 +650,7 @@ operations:
   devices_getCollection: {status: covered, by: [apple_device, data.apple_device, data.apple_devices]}
   devices_getInstance: {status: covered, by: [apple_device, data.apple_device]}
   devices_updateInstance: {status: covered, by: [apple_device]}
-  diagnosticSignatures_logs_getToManyRelated: {status: planned, issue: 16}
+  diagnosticSignatures_logs_getToManyRelated: {status: out_of_scope, reason: "power, performance and diagnostic data for Xcode Organizer, not configuration"}
   endAppAvailabilityPreOrders_createInstance: {status: covered, by: [action.apple_end_pre_orders]}
   endUserLicenseAgreements_createInstance: {status: covered, by: [apple_end_user_license_agreement]}
   endUserLicenseAgreements_deleteInstance: {status: covered, by: [apple_end_user_license_agreement]}
@@ -658,7 +658,7 @@ operations:
   endUserLicenseAgreements_territories_getToManyRelated: {status: out_of_scope, reason: "apple_end_user_license_agreement reads territory IDs through the relationship linkage"}
   endUserLicenseAgreements_territories_getToManyRelationship: {status: covered, by: [apple_end_user_license_agreement]}
   endUserLicenseAgreements_updateInstance: {status: covered, by: [apple_end_user_license_agreement]}
-  financeReports_getCollection: {status: planned, issue: 16}
+  financeReports_getCollection: {status: out_of_scope, reason: "returns a gzip report file; download it in a reporting pipeline"}
   gameCenterAchievementImagesV2_createInstance: {status: planned, issue: 13}
   gameCenterAchievementImagesV2_deleteInstance: {status: planned, issue: 13}
   gameCenterAchievementImagesV2_getInstance: {status: planned, issue: 13}
@@ -787,7 +787,7 @@ operations:
   gameCenterDetails_challengeReleases_getToManyRelated: {status: planned, issue: 13}
   gameCenterDetails_challengeReleases_getToManyRelationship: {status: planned, issue: 13}
   gameCenterDetails_challengesMinimumPlatformVersions_replaceToManyRelationship: {status: planned, issue: 13}
-  gameCenterDetails_classicMatchmakingRequests_getMetrics: {status: planned, issue: 16}
+  gameCenterDetails_classicMatchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterDetails_createInstance: {status: planned, issue: 13}
   gameCenterDetails_gameCenterAchievementsV2_getToManyRelated: {status: planned, issue: 13}
   gameCenterDetails_gameCenterAchievementsV2_getToManyRelationship: {status: planned, issue: 13}
@@ -820,7 +820,7 @@ operations:
   gameCenterDetails_leaderboardReleases_getToManyRelationship: {status: planned, issue: 13}
   gameCenterDetails_leaderboardSetReleases_getToManyRelated: {status: planned, issue: 13}
   gameCenterDetails_leaderboardSetReleases_getToManyRelationship: {status: planned, issue: 13}
-  gameCenterDetails_ruleBasedMatchmakingRequests_getMetrics: {status: planned, issue: 16}
+  gameCenterDetails_ruleBasedMatchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterDetails_updateInstance: {status: planned, issue: 13}
   gameCenterEnabledVersions_compatibleVersions_createToManyRelationship: {status: planned, issue: 13}
   gameCenterEnabledVersions_compatibleVersions_deleteToManyRelationship: {status: planned, issue: 13}
@@ -971,13 +971,13 @@ operations:
   gameCenterLeaderboards_updateInstance: {status: planned, issue: 13}
   gameCenterMatchmakingQueues_createInstance: {status: planned, issue: 13}
   gameCenterMatchmakingQueues_deleteInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingQueues_experimentMatchmakingQueueSizes_getMetrics: {status: planned, issue: 16}
-  gameCenterMatchmakingQueues_experimentMatchmakingRequests_getMetrics: {status: planned, issue: 16}
+  gameCenterMatchmakingQueues_experimentMatchmakingQueueSizes_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
+  gameCenterMatchmakingQueues_experimentMatchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingQueues_getCollection: {status: planned, issue: 13}
   gameCenterMatchmakingQueues_getInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingQueues_matchmakingQueueSizes_getMetrics: {status: planned, issue: 16}
-  gameCenterMatchmakingQueues_matchmakingRequests_getMetrics: {status: planned, issue: 16}
-  gameCenterMatchmakingQueues_matchmakingSessions_getMetrics: {status: planned, issue: 16}
+  gameCenterMatchmakingQueues_matchmakingQueueSizes_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
+  gameCenterMatchmakingQueues_matchmakingRequests_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
+  gameCenterMatchmakingQueues_matchmakingSessions_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingQueues_updateInstance: {status: planned, issue: 13}
   gameCenterMatchmakingRuleSetTests_createInstance: {status: planned, issue: 13}
   gameCenterMatchmakingRuleSets_createInstance: {status: planned, issue: 13}
@@ -993,9 +993,9 @@ operations:
   gameCenterMatchmakingRuleSets_updateInstance: {status: planned, issue: 13}
   gameCenterMatchmakingRules_createInstance: {status: planned, issue: 13}
   gameCenterMatchmakingRules_deleteInstance: {status: planned, issue: 13}
-  gameCenterMatchmakingRules_matchmakingBooleanRuleResults_getMetrics: {status: planned, issue: 16}
-  gameCenterMatchmakingRules_matchmakingNumberRuleResults_getMetrics: {status: planned, issue: 16}
-  gameCenterMatchmakingRules_matchmakingRuleErrors_getMetrics: {status: planned, issue: 16}
+  gameCenterMatchmakingRules_matchmakingBooleanRuleResults_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
+  gameCenterMatchmakingRules_matchmakingNumberRuleResults_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
+  gameCenterMatchmakingRules_matchmakingRuleErrors_getMetrics: {status: out_of_scope, reason: "time-series usage metrics for dashboards, not configuration"}
   gameCenterMatchmakingRules_updateInstance: {status: planned, issue: 13}
   gameCenterMatchmakingTeams_createInstance: {status: planned, issue: 13}
   gameCenterMatchmakingTeams_deleteInstance: {status: planned, issue: 13}
@@ -1169,7 +1169,7 @@ operations:
   routingAppCoverages_deleteInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
   routingAppCoverages_getInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
   routingAppCoverages_updateInstance: {status: covered, by: [apple_app_store_version_routing_app_coverage]}
-  salesReports_getCollection: {status: planned, issue: 16}
+  salesReports_getCollection: {status: out_of_scope, reason: "returns a gzip report file; download it in a reporting pipeline"}
   sandboxTestersClearPurchaseHistoryRequestV2_createInstance: {status: covered, by: [action.apple_clear_sandbox_purchase_history]}
   sandboxTestersV2_getCollection: {status: covered, by: [apple_sandbox_tester, data.apple_sandbox_testers]}
   sandboxTestersV2_updateInstance: {status: covered, by: [apple_sandbox_tester]}
