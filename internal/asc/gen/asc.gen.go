@@ -1046,6 +1046,81 @@ func (e AgeRatingDeclarationUpdateRequestDataType) Valid() bool {
 	}
 }
 
+// Defines values for AlternativeDistributionDomainType.
+const (
+	AlternativeDistributionDomainTypeAlternativeDistributionDomains AlternativeDistributionDomainType = "alternativeDistributionDomains"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionDomainType enum.
+func (e AlternativeDistributionDomainType) Valid() bool {
+	switch e {
+	case AlternativeDistributionDomainTypeAlternativeDistributionDomains:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionDomainCreateRequestDataType.
+const (
+	AlternativeDistributionDomainCreateRequestDataTypeAlternativeDistributionDomains AlternativeDistributionDomainCreateRequestDataType = "alternativeDistributionDomains"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionDomainCreateRequestDataType enum.
+func (e AlternativeDistributionDomainCreateRequestDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionDomainCreateRequestDataTypeAlternativeDistributionDomains:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionKeyType.
+const (
+	AlternativeDistributionKeyTypeAlternativeDistributionKeys AlternativeDistributionKeyType = "alternativeDistributionKeys"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionKeyType enum.
+func (e AlternativeDistributionKeyType) Valid() bool {
+	switch e {
+	case AlternativeDistributionKeyTypeAlternativeDistributionKeys:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataType.
+const (
+	AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataTypeApps AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataType enum.
+func (e AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionKeyCreateRequestDataType.
+const (
+	AlternativeDistributionKeyCreateRequestDataTypeAlternativeDistributionKeys AlternativeDistributionKeyCreateRequestDataType = "alternativeDistributionKeys"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionKeyCreateRequestDataType enum.
+func (e AlternativeDistributionKeyCreateRequestDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionKeyCreateRequestDataTypeAlternativeDistributionKeys:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AlternativeDistributionPackageRelationshipsVersionsDataType.
 const (
 	AlternativeDistributionPackageRelationshipsVersionsDataTypeAlternativeDistributionPackageVersions AlternativeDistributionPackageRelationshipsVersionsDataType = "alternativeDistributionPackageVersions"
@@ -1070,6 +1145,144 @@ const (
 func (e AlternativeDistributionPackageType) Valid() bool {
 	switch e {
 	case AlternativeDistributionPackageTypeAlternativeDistributionPackages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataType.
+const (
+	AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataType = "appStoreVersions"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataType enum.
+func (e AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageCreateRequestDataType.
+const (
+	AlternativeDistributionPackageCreateRequestDataTypeAlternativeDistributionPackages AlternativeDistributionPackageCreateRequestDataType = "alternativeDistributionPackages"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageCreateRequestDataType enum.
+func (e AlternativeDistributionPackageCreateRequestDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageCreateRequestDataTypeAlternativeDistributionPackages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageDeltaType.
+const (
+	AlternativeDistributionPackageDeltaTypeAlternativeDistributionPackageDeltas AlternativeDistributionPackageDeltaType = "alternativeDistributionPackageDeltas"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageDeltaType enum.
+func (e AlternativeDistributionPackageDeltaType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageDeltaTypeAlternativeDistributionPackageDeltas:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVariantType.
+const (
+	AlternativeDistributionPackageVariantTypeAlternativeDistributionPackageVariants AlternativeDistributionPackageVariantType = "alternativeDistributionPackageVariants"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVariantType enum.
+func (e AlternativeDistributionPackageVariantType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVariantTypeAlternativeDistributionPackageVariants:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionAttributesState.
+const (
+	AlternativeDistributionPackageVersionAttributesStateCOMPLETED AlternativeDistributionPackageVersionAttributesState = "COMPLETED"
+	AlternativeDistributionPackageVersionAttributesStateREPLACED  AlternativeDistributionPackageVersionAttributesState = "REPLACED"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionAttributesState enum.
+func (e AlternativeDistributionPackageVersionAttributesState) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionAttributesStateCOMPLETED:
+		return true
+	case AlternativeDistributionPackageVersionAttributesStateREPLACED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataType.
+const (
+	AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataTypeAlternativeDistributionPackages AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataType = "alternativeDistributionPackages"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataType enum.
+func (e AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataTypeAlternativeDistributionPackages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionRelationshipsDeltasDataType.
+const (
+	AlternativeDistributionPackageVersionRelationshipsDeltasDataTypeAlternativeDistributionPackageDeltas AlternativeDistributionPackageVersionRelationshipsDeltasDataType = "alternativeDistributionPackageDeltas"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionRelationshipsDeltasDataType enum.
+func (e AlternativeDistributionPackageVersionRelationshipsDeltasDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionRelationshipsDeltasDataTypeAlternativeDistributionPackageDeltas:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionRelationshipsVariantsDataType.
+const (
+	AlternativeDistributionPackageVersionRelationshipsVariantsDataTypeAlternativeDistributionPackageVariants AlternativeDistributionPackageVersionRelationshipsVariantsDataType = "alternativeDistributionPackageVariants"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionRelationshipsVariantsDataType enum.
+func (e AlternativeDistributionPackageVersionRelationshipsVariantsDataType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionRelationshipsVariantsDataTypeAlternativeDistributionPackageVariants:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionType.
+const (
+	AlternativeDistributionPackageVersionTypeAlternativeDistributionPackageVersions AlternativeDistributionPackageVersionType = "alternativeDistributionPackageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionType enum.
+func (e AlternativeDistributionPackageVersionType) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionTypeAlternativeDistributionPackageVersions:
 		return true
 	default:
 		return false
@@ -14513,6 +14726,66 @@ func (e KidsAgeBand) Valid() bool {
 	}
 }
 
+// Defines values for MarketplaceSearchDetailType.
+const (
+	MarketplaceSearchDetailTypeMarketplaceSearchDetails MarketplaceSearchDetailType = "marketplaceSearchDetails"
+)
+
+// Valid indicates whether the value is a known member of the MarketplaceSearchDetailType enum.
+func (e MarketplaceSearchDetailType) Valid() bool {
+	switch e {
+	case MarketplaceSearchDetailTypeMarketplaceSearchDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataType.
+const (
+	MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataTypeApps MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataType enum.
+func (e MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for MarketplaceSearchDetailCreateRequestDataType.
+const (
+	MarketplaceSearchDetailCreateRequestDataTypeMarketplaceSearchDetails MarketplaceSearchDetailCreateRequestDataType = "marketplaceSearchDetails"
+)
+
+// Valid indicates whether the value is a known member of the MarketplaceSearchDetailCreateRequestDataType enum.
+func (e MarketplaceSearchDetailCreateRequestDataType) Valid() bool {
+	switch e {
+	case MarketplaceSearchDetailCreateRequestDataTypeMarketplaceSearchDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for MarketplaceSearchDetailUpdateRequestDataType.
+const (
+	MarketplaceSearchDetailUpdateRequestDataTypeMarketplaceSearchDetails MarketplaceSearchDetailUpdateRequestDataType = "marketplaceSearchDetails"
+)
+
+// Valid indicates whether the value is a known member of the MarketplaceSearchDetailUpdateRequestDataType enum.
+func (e MarketplaceSearchDetailUpdateRequestDataType) Valid() bool {
+	switch e {
+	case MarketplaceSearchDetailUpdateRequestDataTypeMarketplaceSearchDetails:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for MerchantIdRelationshipsCertificatesDataType.
 const (
 	MerchantIdRelationshipsCertificatesDataTypeCertificates MerchantIdRelationshipsCertificatesDataType = "certificates"
@@ -21671,6 +21944,390 @@ func (e AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclaration
 	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsVoiceControl:
 		return true
 	case AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarationsSupportsVoiceover:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains.
+const (
+	AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomainsCreatedDate   AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains = "createdDate"
+	AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomainsDomain        AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains = "domain"
+	AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomainsReferenceName AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains enum.
+func (e AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains) Valid() bool {
+	switch e {
+	case AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomainsCreatedDate:
+		return true
+	case AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomainsDomain:
+		return true
+	case AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomainsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains.
+const (
+	AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomainsCreatedDate   AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains = "createdDate"
+	AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomainsDomain        AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains = "domain"
+	AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomainsReferenceName AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains enum.
+func (e AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains) Valid() bool {
+	switch e {
+	case AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomainsCreatedDate:
+		return true
+	case AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomainsDomain:
+		return true
+	case AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomainsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeys.
+const (
+	AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeysPublicKey AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeys = "publicKey"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeys enum.
+func (e AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeys) Valid() bool {
+	switch e {
+	case AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeysPublicKey:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeys.
+const (
+	AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeysPublicKey AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeys = "publicKey"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeys enum.
+func (e AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeys) Valid() bool {
+	switch e {
+	case AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeysPublicKey:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions.
+const (
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsAlternativeDistributionPackage AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "alternativeDistributionPackage"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsDeltas                         AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "deltas"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsFileChecksum                   AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "fileChecksum"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsState                          AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "state"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsUrl                            AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "url"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsUrlExpirationDate              AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "urlExpirationDate"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsVariants                       AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "variants"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsVersion                        AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions enum.
+func (e AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsAlternativeDistributionPackage:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsDeltas:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsFileChecksum:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsState:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsUrl:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsUrlExpirationDate:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsVariants:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants.
+const (
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsAlternativeDistributionKeyBlob AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants = "alternativeDistributionKeyBlob"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsFileChecksum                   AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants = "fileChecksum"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsUrl                            AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants = "url"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsUrlExpirationDate              AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants = "urlExpirationDate"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants enum.
+func (e AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsAlternativeDistributionKeyBlob:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsFileChecksum:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsUrl:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariantsUrlExpirationDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas.
+const (
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasAlternativeDistributionKeyBlob AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas = "alternativeDistributionKeyBlob"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasFileChecksum                   AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas = "fileChecksum"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasUrl                            AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas = "url"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasUrlExpirationDate              AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas = "urlExpirationDate"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas enum.
+func (e AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasAlternativeDistributionKeyBlob:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasFileChecksum:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasUrl:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltasUrlExpirationDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages.
+const (
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackagesSourceFileChecksum AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages = "sourceFileChecksum"
+	AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackagesVersions           AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages enum.
+func (e AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackagesSourceFileChecksum:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionsGetInstanceParamsInclude.
+const (
+	AlternativeDistributionPackageVersionsGetInstanceParamsIncludeAlternativeDistributionPackage AlternativeDistributionPackageVersionsGetInstanceParamsInclude = "alternativeDistributionPackage"
+	AlternativeDistributionPackageVersionsGetInstanceParamsIncludeDeltas                         AlternativeDistributionPackageVersionsGetInstanceParamsInclude = "deltas"
+	AlternativeDistributionPackageVersionsGetInstanceParamsIncludeVariants                       AlternativeDistributionPackageVersionsGetInstanceParamsInclude = "variants"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionsGetInstanceParamsInclude enum.
+func (e AlternativeDistributionPackageVersionsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionsGetInstanceParamsIncludeAlternativeDistributionPackage:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsIncludeDeltas:
+		return true
+	case AlternativeDistributionPackageVersionsGetInstanceParamsIncludeVariants:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas.
+const (
+	AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasAlternativeDistributionKeyBlob AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "alternativeDistributionKeyBlob"
+	AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasFileChecksum                   AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "fileChecksum"
+	AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrl                            AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "url"
+	AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrlExpirationDate              AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "urlExpirationDate"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas enum.
+func (e AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasAlternativeDistributionKeyBlob:
+		return true
+	case AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasFileChecksum:
+		return true
+	case AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrl:
+		return true
+	case AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrlExpirationDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants.
+const (
+	AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsAlternativeDistributionKeyBlob AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "alternativeDistributionKeyBlob"
+	AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsFileChecksum                   AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "fileChecksum"
+	AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrl                            AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "url"
+	AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrlExpirationDate              AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "urlExpirationDate"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants enum.
+func (e AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsAlternativeDistributionKeyBlob:
+		return true
+	case AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsFileChecksum:
+		return true
+	case AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrl:
+		return true
+	case AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrlExpirationDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState.
+const (
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterStateCOMPLETED AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState = "COMPLETED"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterStateREPLACED  AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState = "REPLACED"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState enum.
+func (e AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterStateCOMPLETED:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterStateREPLACED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions.
+const (
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsAlternativeDistributionPackage AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "alternativeDistributionPackage"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsDeltas                         AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "deltas"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsFileChecksum                   AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "fileChecksum"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsState                          AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "state"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsUrl                            AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "url"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsUrlExpirationDate              AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "urlExpirationDate"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsVariants                       AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "variants"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsVersion                        AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions enum.
+func (e AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsAlternativeDistributionPackage:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsDeltas:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsFileChecksum:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsState:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsUrl:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsUrlExpirationDate:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsVariants:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants.
+const (
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsAlternativeDistributionKeyBlob AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "alternativeDistributionKeyBlob"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsFileChecksum                   AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "fileChecksum"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrl                            AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "url"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrlExpirationDate              AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants = "urlExpirationDate"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants enum.
+func (e AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsAlternativeDistributionKeyBlob:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsFileChecksum:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrl:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariantsUrlExpirationDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas.
+const (
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasAlternativeDistributionKeyBlob AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "alternativeDistributionKeyBlob"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasFileChecksum                   AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "fileChecksum"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrl                            AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "url"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrlExpirationDate              AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas = "urlExpirationDate"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas enum.
+func (e AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasAlternativeDistributionKeyBlob:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasFileChecksum:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrl:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltasUrlExpirationDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages.
+const (
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackagesSourceFileChecksum AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages = "sourceFileChecksum"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackagesVersions           AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages enum.
+func (e AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackagesSourceFileChecksum:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude.
+const (
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeAlternativeDistributionPackage AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude = "alternativeDistributionPackage"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeDeltas                         AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude = "deltas"
+	AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeVariants                       AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude = "variants"
+)
+
+// Valid indicates whether the value is a known member of the AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude enum.
+func (e AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeAlternativeDistributionPackage:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeDeltas:
+		return true
+	case AlternativeDistributionPackagesVersionsGetToManyRelatedParamsIncludeVariants:
 		return true
 	default:
 		return false
@@ -30401,6 +31058,75 @@ func (e AppStoreVersionsGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages.
+const (
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackagesSourceFileChecksum AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages = "sourceFileChecksum"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackagesVersions           AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages enum.
+func (e AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages) Valid() bool {
+	switch e {
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackagesSourceFileChecksum:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions.
+const (
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsAlternativeDistributionPackage AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "alternativeDistributionPackage"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsDeltas                         AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "deltas"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsFileChecksum                   AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "fileChecksum"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsState                          AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "state"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsUrl                            AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "url"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsUrlExpirationDate              AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "urlExpirationDate"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsVariants                       AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "variants"
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsVersion                        AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions enum.
+func (e AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions) Valid() bool {
+	switch e {
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsAlternativeDistributionPackage:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsDeltas:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsFileChecksum:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsState:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsUrl:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsUrlExpirationDate:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsVariants:
+		return true
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsInclude.
+const (
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsIncludeVersions AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsInclude enum.
+func (e AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParamsFieldsAppStoreReviewDetails.
 const (
 	AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParamsFieldsAppStoreReviewDetailsAppStoreReviewAttachments AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParamsFieldsAppStoreReviewDetails = "appStoreReviewAttachments"
@@ -33851,6 +34577,21 @@ func (e AppsGetInstanceParamsInclude) Valid() bool {
 	case AppsGetInstanceParamsIncludeSubscriptionGracePeriod:
 		return true
 	case AppsGetInstanceParamsIncludeSubscriptionGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys.
+const (
+	AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeysPublicKey AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys = "publicKey"
+)
+
+// Valid indicates whether the value is a known member of the AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys enum.
+func (e AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys) Valid() bool {
+	switch e {
+	case AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeysPublicKey:
 		return true
 	default:
 		return false
@@ -37691,6 +38432,21 @@ func (e AppsInAppPurchasesV2GetToManyRelatedParamsInclude) Valid() bool {
 	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludePromotedPurchase:
 		return true
 	case AppsInAppPurchasesV2GetToManyRelatedParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetails.
+const (
+	AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetailsCatalogUrl AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetails = "catalogUrl"
+)
+
+// Valid indicates whether the value is a known member of the AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetails enum.
+func (e AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetails) Valid() bool {
+	switch e {
+	case AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetailsCatalogUrl:
 		return true
 	default:
 		return false
@@ -57033,6 +57789,98 @@ type AgeRatingDeclarationUpdateRequestDataAttributesViolenceRealisticProlongedGr
 // AgeRatingDeclarationUpdateRequestDataType defines model for AgeRatingDeclarationUpdateRequest.Data.Type.
 type AgeRatingDeclarationUpdateRequestDataType string
 
+// AlternativeDistributionDomain defines model for AlternativeDistributionDomain.
+type AlternativeDistributionDomain struct {
+	Attributes *struct {
+		CreatedDate   *DateTime `json:"createdDate,omitempty"`
+		Domain        *string   `json:"domain,omitempty"`
+		ReferenceName *string   `json:"referenceName,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                            `json:"id"`
+	Links *ResourceLinks                    `json:"links,omitempty"`
+	Type  AlternativeDistributionDomainType `json:"type"`
+}
+
+// AlternativeDistributionDomainType defines model for AlternativeDistributionDomain.Type.
+type AlternativeDistributionDomainType string
+
+// AlternativeDistributionDomainCreateRequest defines model for AlternativeDistributionDomainCreateRequest.
+type AlternativeDistributionDomainCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Domain        string `json:"domain"`
+			ReferenceName string `json:"referenceName"`
+		} `json:"attributes"`
+		Type AlternativeDistributionDomainCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AlternativeDistributionDomainCreateRequestDataType defines model for AlternativeDistributionDomainCreateRequest.Data.Type.
+type AlternativeDistributionDomainCreateRequestDataType string
+
+// AlternativeDistributionDomainResponse defines model for AlternativeDistributionDomainResponse.
+type AlternativeDistributionDomainResponse struct {
+	Data  AlternativeDistributionDomain `json:"data"`
+	Links DocumentLinks                 `json:"links"`
+}
+
+// AlternativeDistributionDomainsResponse defines model for AlternativeDistributionDomainsResponse.
+type AlternativeDistributionDomainsResponse struct {
+	Data  []AlternativeDistributionDomain `json:"data"`
+	Links PagedDocumentLinks              `json:"links"`
+	Meta  *PagingInformation              `json:"meta,omitempty"`
+}
+
+// AlternativeDistributionKey defines model for AlternativeDistributionKey.
+type AlternativeDistributionKey struct {
+	Attributes *struct {
+		PublicKey *string `json:"publicKey,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                         `json:"id"`
+	Links *ResourceLinks                 `json:"links,omitempty"`
+	Type  AlternativeDistributionKeyType `json:"type"`
+}
+
+// AlternativeDistributionKeyType defines model for AlternativeDistributionKey.Type.
+type AlternativeDistributionKeyType string
+
+// AlternativeDistributionKeyCreateRequest defines model for AlternativeDistributionKeyCreateRequest.
+type AlternativeDistributionKeyCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			PublicKey string `json:"publicKey"`
+		} `json:"attributes"`
+		Relationships *struct {
+			App *struct {
+				Data *struct {
+					Id   string                                                              `json:"id"`
+					Type AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"app,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type AlternativeDistributionKeyCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataType defines model for AlternativeDistributionKeyCreateRequest.Data.Relationships.App.Data.Type.
+type AlternativeDistributionKeyCreateRequestDataRelationshipsAppDataType string
+
+// AlternativeDistributionKeyCreateRequestDataType defines model for AlternativeDistributionKeyCreateRequest.Data.Type.
+type AlternativeDistributionKeyCreateRequestDataType string
+
+// AlternativeDistributionKeyResponse defines model for AlternativeDistributionKeyResponse.
+type AlternativeDistributionKeyResponse struct {
+	Data  AlternativeDistributionKey `json:"data"`
+	Links DocumentLinks              `json:"links"`
+}
+
+// AlternativeDistributionKeysResponse defines model for AlternativeDistributionKeysResponse.
+type AlternativeDistributionKeysResponse struct {
+	Data  []AlternativeDistributionKey `json:"data"`
+	Links PagedDocumentLinks           `json:"links"`
+	Meta  *PagingInformation           `json:"meta,omitempty"`
+}
+
 // AlternativeDistributionPackage defines model for AlternativeDistributionPackage.
 type AlternativeDistributionPackage struct {
 	Attributes *struct {
@@ -57058,6 +57906,158 @@ type AlternativeDistributionPackageRelationshipsVersionsDataType string
 
 // AlternativeDistributionPackageType defines model for AlternativeDistributionPackage.Type.
 type AlternativeDistributionPackageType string
+
+// AlternativeDistributionPackageCreateRequest defines model for AlternativeDistributionPackageCreateRequest.
+type AlternativeDistributionPackageCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			AppStoreVersion struct {
+				Data struct {
+					Id   string                                                                              `json:"id"`
+					Type AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appStoreVersion"`
+		} `json:"relationships"`
+		Type AlternativeDistributionPackageCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataType defines model for AlternativeDistributionPackageCreateRequest.Data.Relationships.AppStoreVersion.Data.Type.
+type AlternativeDistributionPackageCreateRequestDataRelationshipsAppStoreVersionDataType string
+
+// AlternativeDistributionPackageCreateRequestDataType defines model for AlternativeDistributionPackageCreateRequest.Data.Type.
+type AlternativeDistributionPackageCreateRequestDataType string
+
+// AlternativeDistributionPackageDelta defines model for AlternativeDistributionPackageDelta.
+type AlternativeDistributionPackageDelta struct {
+	Attributes *struct {
+		AlternativeDistributionKeyBlob *string   `json:"alternativeDistributionKeyBlob,omitempty"`
+		FileChecksum                   *string   `json:"fileChecksum,omitempty"`
+		Url                            *string   `json:"url,omitempty"`
+		UrlExpirationDate              *DateTime `json:"urlExpirationDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                                  `json:"id"`
+	Links *ResourceLinks                          `json:"links,omitempty"`
+	Type  AlternativeDistributionPackageDeltaType `json:"type"`
+}
+
+// AlternativeDistributionPackageDeltaType defines model for AlternativeDistributionPackageDelta.Type.
+type AlternativeDistributionPackageDeltaType string
+
+// AlternativeDistributionPackageDeltasResponse defines model for AlternativeDistributionPackageDeltasResponse.
+type AlternativeDistributionPackageDeltasResponse struct {
+	Data  []AlternativeDistributionPackageDelta `json:"data"`
+	Links PagedDocumentLinks                    `json:"links"`
+	Meta  *PagingInformation                    `json:"meta,omitempty"`
+}
+
+// AlternativeDistributionPackageResponse defines model for AlternativeDistributionPackageResponse.
+type AlternativeDistributionPackageResponse struct {
+	Data     AlternativeDistributionPackage           `json:"data"`
+	Included *[]AlternativeDistributionPackageVersion `json:"included,omitempty"`
+	Links    DocumentLinks                            `json:"links"`
+}
+
+// AlternativeDistributionPackageVariant defines model for AlternativeDistributionPackageVariant.
+type AlternativeDistributionPackageVariant struct {
+	Attributes *struct {
+		AlternativeDistributionKeyBlob *string   `json:"alternativeDistributionKeyBlob,omitempty"`
+		FileChecksum                   *string   `json:"fileChecksum,omitempty"`
+		Url                            *string   `json:"url,omitempty"`
+		UrlExpirationDate              *DateTime `json:"urlExpirationDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                                    `json:"id"`
+	Links *ResourceLinks                            `json:"links,omitempty"`
+	Type  AlternativeDistributionPackageVariantType `json:"type"`
+}
+
+// AlternativeDistributionPackageVariantType defines model for AlternativeDistributionPackageVariant.Type.
+type AlternativeDistributionPackageVariantType string
+
+// AlternativeDistributionPackageVariantsResponse defines model for AlternativeDistributionPackageVariantsResponse.
+type AlternativeDistributionPackageVariantsResponse struct {
+	Data  []AlternativeDistributionPackageVariant `json:"data"`
+	Links PagedDocumentLinks                      `json:"links"`
+	Meta  *PagingInformation                      `json:"meta,omitempty"`
+}
+
+// AlternativeDistributionPackageVersion defines model for AlternativeDistributionPackageVersion.
+type AlternativeDistributionPackageVersion struct {
+	Attributes *struct {
+		FileChecksum      *string                                               `json:"fileChecksum,omitempty"`
+		State             *AlternativeDistributionPackageVersionAttributesState `json:"state,omitempty"`
+		Url               *string                                               `json:"url,omitempty"`
+		UrlExpirationDate *DateTime                                             `json:"urlExpirationDate,omitempty"`
+		Version           *string                                               `json:"version,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AlternativeDistributionPackage *struct {
+			Data *struct {
+				Id   string                                                                                   `json:"id"`
+				Type AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"alternativeDistributionPackage,omitempty"`
+		Deltas *struct {
+			Data *[]struct {
+				Id   string                                                           `json:"id"`
+				Type AlternativeDistributionPackageVersionRelationshipsDeltasDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"deltas,omitempty"`
+		Variants *struct {
+			Data *[]struct {
+				Id   string                                                             `json:"id"`
+				Type AlternativeDistributionPackageVersionRelationshipsVariantsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"variants,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AlternativeDistributionPackageVersionType `json:"type"`
+}
+
+// AlternativeDistributionPackageVersionAttributesState defines model for AlternativeDistributionPackageVersion.Attributes.State.
+type AlternativeDistributionPackageVersionAttributesState string
+
+// AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataType defines model for AlternativeDistributionPackageVersion.Relationships.AlternativeDistributionPackage.Data.Type.
+type AlternativeDistributionPackageVersionRelationshipsAlternativeDistributionPackageDataType string
+
+// AlternativeDistributionPackageVersionRelationshipsDeltasDataType defines model for AlternativeDistributionPackageVersion.Relationships.Deltas.Data.Type.
+type AlternativeDistributionPackageVersionRelationshipsDeltasDataType string
+
+// AlternativeDistributionPackageVersionRelationshipsVariantsDataType defines model for AlternativeDistributionPackageVersion.Relationships.Variants.Data.Type.
+type AlternativeDistributionPackageVersionRelationshipsVariantsDataType string
+
+// AlternativeDistributionPackageVersionType defines model for AlternativeDistributionPackageVersion.Type.
+type AlternativeDistributionPackageVersionType string
+
+// AlternativeDistributionPackageVersionResponse defines model for AlternativeDistributionPackageVersionResponse.
+type AlternativeDistributionPackageVersionResponse struct {
+	Data     AlternativeDistributionPackageVersion                          `json:"data"`
+	Included *[]AlternativeDistributionPackageVersionResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                                  `json:"links"`
+}
+
+// AlternativeDistributionPackageVersionResponse_Included_Item defines model for AlternativeDistributionPackageVersionResponse.included.Item.
+type AlternativeDistributionPackageVersionResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AlternativeDistributionPackageVersionsResponse defines model for AlternativeDistributionPackageVersionsResponse.
+type AlternativeDistributionPackageVersionsResponse struct {
+	Data     []AlternativeDistributionPackageVersion                         `json:"data"`
+	Included *[]AlternativeDistributionPackageVersionsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                              `json:"links"`
+	Meta     *PagingInformation                                              `json:"meta,omitempty"`
+}
+
+// AlternativeDistributionPackageVersionsResponse_Included_Item defines model for AlternativeDistributionPackageVersionsResponse.included.Item.
+type AlternativeDistributionPackageVersionsResponse_Included_Item struct {
+	union json.RawMessage
+}
 
 // AndroidToIosAppMappingDetail defines model for AndroidToIosAppMappingDetail.
 type AndroidToIosAppMappingDetail struct {
@@ -67451,6 +68451,63 @@ type InternalBetaState string
 // KidsAgeBand defines model for KidsAgeBand.
 type KidsAgeBand string
 
+// MarketplaceSearchDetail defines model for MarketplaceSearchDetail.
+type MarketplaceSearchDetail struct {
+	Attributes *struct {
+		CatalogUrl *string `json:"catalogUrl,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                      `json:"id"`
+	Links *ResourceLinks              `json:"links,omitempty"`
+	Type  MarketplaceSearchDetailType `json:"type"`
+}
+
+// MarketplaceSearchDetailType defines model for MarketplaceSearchDetail.Type.
+type MarketplaceSearchDetailType string
+
+// MarketplaceSearchDetailCreateRequest defines model for MarketplaceSearchDetailCreateRequest.
+type MarketplaceSearchDetailCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			CatalogUrl string `json:"catalogUrl"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                           `json:"id"`
+					Type MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type MarketplaceSearchDetailCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataType defines model for MarketplaceSearchDetailCreateRequest.Data.Relationships.App.Data.Type.
+type MarketplaceSearchDetailCreateRequestDataRelationshipsAppDataType string
+
+// MarketplaceSearchDetailCreateRequestDataType defines model for MarketplaceSearchDetailCreateRequest.Data.Type.
+type MarketplaceSearchDetailCreateRequestDataType string
+
+// MarketplaceSearchDetailResponse defines model for MarketplaceSearchDetailResponse.
+type MarketplaceSearchDetailResponse struct {
+	Data  MarketplaceSearchDetail `json:"data"`
+	Links DocumentLinks           `json:"links"`
+}
+
+// MarketplaceSearchDetailUpdateRequest defines model for MarketplaceSearchDetailUpdateRequest.
+type MarketplaceSearchDetailUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			CatalogUrl *string `json:"catalogUrl,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                       `json:"id"`
+		Type MarketplaceSearchDetailUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// MarketplaceSearchDetailUpdateRequestDataType defines model for MarketplaceSearchDetailUpdateRequest.Data.Type.
+type MarketplaceSearchDetailUpdateRequestDataType string
+
 // MerchantId defines model for MerchantId.
 type MerchantId struct {
 	Attributes *struct {
@@ -72285,6 +73342,162 @@ type AccessibilityDeclarationsGetInstanceParams struct {
 // AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations defines parameters for AccessibilityDeclarationsGetInstance.
 type AccessibilityDeclarationsGetInstanceParamsFieldsAccessibilityDeclarations string
 
+// AlternativeDistributionDomainsGetCollectionParams defines parameters for AlternativeDistributionDomainsGetCollection.
+type AlternativeDistributionDomainsGetCollectionParams struct {
+	// FieldsAlternativeDistributionDomains the fields to include for returned resources of type alternativeDistributionDomains
+	FieldsAlternativeDistributionDomains *[]AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains `form:"fields[alternativeDistributionDomains],omitempty" json:"fields[alternativeDistributionDomains],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains defines parameters for AlternativeDistributionDomainsGetCollection.
+type AlternativeDistributionDomainsGetCollectionParamsFieldsAlternativeDistributionDomains string
+
+// AlternativeDistributionDomainsGetInstanceParams defines parameters for AlternativeDistributionDomainsGetInstance.
+type AlternativeDistributionDomainsGetInstanceParams struct {
+	// FieldsAlternativeDistributionDomains the fields to include for returned resources of type alternativeDistributionDomains
+	FieldsAlternativeDistributionDomains *[]AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains `form:"fields[alternativeDistributionDomains],omitempty" json:"fields[alternativeDistributionDomains],omitempty"`
+}
+
+// AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains defines parameters for AlternativeDistributionDomainsGetInstance.
+type AlternativeDistributionDomainsGetInstanceParamsFieldsAlternativeDistributionDomains string
+
+// AlternativeDistributionKeysGetCollectionParams defines parameters for AlternativeDistributionKeysGetCollection.
+type AlternativeDistributionKeysGetCollectionParams struct {
+	// ExistsApp filter by existence or non-existence of related 'app'
+	ExistsApp *bool `form:"exists[app],omitempty" json:"exists[app],omitempty"`
+
+	// FieldsAlternativeDistributionKeys the fields to include for returned resources of type alternativeDistributionKeys
+	FieldsAlternativeDistributionKeys *[]AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeys `form:"fields[alternativeDistributionKeys],omitempty" json:"fields[alternativeDistributionKeys],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeys defines parameters for AlternativeDistributionKeysGetCollection.
+type AlternativeDistributionKeysGetCollectionParamsFieldsAlternativeDistributionKeys string
+
+// AlternativeDistributionKeysGetInstanceParams defines parameters for AlternativeDistributionKeysGetInstance.
+type AlternativeDistributionKeysGetInstanceParams struct {
+	// FieldsAlternativeDistributionKeys the fields to include for returned resources of type alternativeDistributionKeys
+	FieldsAlternativeDistributionKeys *[]AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeys `form:"fields[alternativeDistributionKeys],omitempty" json:"fields[alternativeDistributionKeys],omitempty"`
+}
+
+// AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeys defines parameters for AlternativeDistributionKeysGetInstance.
+type AlternativeDistributionKeysGetInstanceParamsFieldsAlternativeDistributionKeys string
+
+// AlternativeDistributionPackageVersionsGetInstanceParams defines parameters for AlternativeDistributionPackageVersionsGetInstance.
+type AlternativeDistributionPackageVersionsGetInstanceParams struct {
+	// FieldsAlternativeDistributionPackageVersions the fields to include for returned resources of type alternativeDistributionPackageVersions
+	FieldsAlternativeDistributionPackageVersions *[]AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions `form:"fields[alternativeDistributionPackageVersions],omitempty" json:"fields[alternativeDistributionPackageVersions],omitempty"`
+
+	// FieldsAlternativeDistributionPackageVariants the fields to include for returned resources of type alternativeDistributionPackageVariants
+	FieldsAlternativeDistributionPackageVariants *[]AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants `form:"fields[alternativeDistributionPackageVariants],omitempty" json:"fields[alternativeDistributionPackageVariants],omitempty"`
+
+	// FieldsAlternativeDistributionPackageDeltas the fields to include for returned resources of type alternativeDistributionPackageDeltas
+	FieldsAlternativeDistributionPackageDeltas *[]AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas `form:"fields[alternativeDistributionPackageDeltas],omitempty" json:"fields[alternativeDistributionPackageDeltas],omitempty"`
+
+	// FieldsAlternativeDistributionPackages the fields to include for returned resources of type alternativeDistributionPackages
+	FieldsAlternativeDistributionPackages *[]AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages `form:"fields[alternativeDistributionPackages],omitempty" json:"fields[alternativeDistributionPackages],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AlternativeDistributionPackageVersionsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitDeltas maximum number of related deltas returned (when they are included)
+	LimitDeltas *int `form:"limit[deltas],omitempty" json:"limit[deltas],omitempty"`
+
+	// LimitVariants maximum number of related variants returned (when they are included)
+	LimitVariants *int `form:"limit[variants],omitempty" json:"limit[variants],omitempty"`
+}
+
+// AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions defines parameters for AlternativeDistributionPackageVersionsGetInstance.
+type AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVersions string
+
+// AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants defines parameters for AlternativeDistributionPackageVersionsGetInstance.
+type AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageVariants string
+
+// AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas defines parameters for AlternativeDistributionPackageVersionsGetInstance.
+type AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackageDeltas string
+
+// AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages defines parameters for AlternativeDistributionPackageVersionsGetInstance.
+type AlternativeDistributionPackageVersionsGetInstanceParamsFieldsAlternativeDistributionPackages string
+
+// AlternativeDistributionPackageVersionsGetInstanceParamsInclude defines parameters for AlternativeDistributionPackageVersionsGetInstance.
+type AlternativeDistributionPackageVersionsGetInstanceParamsInclude string
+
+// AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams defines parameters for AlternativeDistributionPackageVersionsDeltasGetToManyRelated.
+type AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams struct {
+	// FieldsAlternativeDistributionPackageDeltas the fields to include for returned resources of type alternativeDistributionPackageDeltas
+	FieldsAlternativeDistributionPackageDeltas *[]AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas `form:"fields[alternativeDistributionPackageDeltas],omitempty" json:"fields[alternativeDistributionPackageDeltas],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas defines parameters for AlternativeDistributionPackageVersionsDeltasGetToManyRelated.
+type AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas string
+
+// AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams defines parameters for AlternativeDistributionPackageVersionsVariantsGetToManyRelated.
+type AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams struct {
+	// FieldsAlternativeDistributionPackageVariants the fields to include for returned resources of type alternativeDistributionPackageVariants
+	FieldsAlternativeDistributionPackageVariants *[]AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants `form:"fields[alternativeDistributionPackageVariants],omitempty" json:"fields[alternativeDistributionPackageVariants],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants defines parameters for AlternativeDistributionPackageVersionsVariantsGetToManyRelated.
+type AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants string
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedParams defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
+type AlternativeDistributionPackagesVersionsGetToManyRelatedParams struct {
+	// FilterState filter by attribute 'state'
+	FilterState *[]AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FieldsAlternativeDistributionPackageVersions the fields to include for returned resources of type alternativeDistributionPackageVersions
+	FieldsAlternativeDistributionPackageVersions *[]AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions `form:"fields[alternativeDistributionPackageVersions],omitempty" json:"fields[alternativeDistributionPackageVersions],omitempty"`
+
+	// FieldsAlternativeDistributionPackageVariants the fields to include for returned resources of type alternativeDistributionPackageVariants
+	FieldsAlternativeDistributionPackageVariants *[]AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants `form:"fields[alternativeDistributionPackageVariants],omitempty" json:"fields[alternativeDistributionPackageVariants],omitempty"`
+
+	// FieldsAlternativeDistributionPackageDeltas the fields to include for returned resources of type alternativeDistributionPackageDeltas
+	FieldsAlternativeDistributionPackageDeltas *[]AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas `form:"fields[alternativeDistributionPackageDeltas],omitempty" json:"fields[alternativeDistributionPackageDeltas],omitempty"`
+
+	// FieldsAlternativeDistributionPackages the fields to include for returned resources of type alternativeDistributionPackages
+	FieldsAlternativeDistributionPackages *[]AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages `form:"fields[alternativeDistributionPackages],omitempty" json:"fields[alternativeDistributionPackages],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVariants maximum number of related variants returned (when they are included)
+	LimitVariants *int `form:"limit[variants],omitempty" json:"limit[variants],omitempty"`
+
+	// LimitDeltas maximum number of related deltas returned (when they are included)
+	LimitDeltas *int `form:"limit[deltas],omitempty" json:"limit[deltas],omitempty"`
+}
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
+type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFilterState string
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
+type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVersions string
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
+type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageVariants string
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
+type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackageDeltas string
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
+type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsFieldsAlternativeDistributionPackages string
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude defines parameters for AlternativeDistributionPackagesVersionsGetToManyRelated.
+type AlternativeDistributionPackagesVersionsGetToManyRelatedParamsInclude string
+
 // AndroidToIosAppMappingDetailsGetInstanceParams defines parameters for AndroidToIosAppMappingDetailsGetInstance.
 type AndroidToIosAppMappingDetailsGetInstanceParams struct {
 	// FieldsAndroidToIosAppMappingDetails the fields to include for returned resources of type androidToIosAppMappingDetails
@@ -74212,6 +75425,30 @@ type AppStoreVersionsGetInstanceParamsFieldsAlternativeDistributionPackages stri
 // AppStoreVersionsGetInstanceParamsInclude defines parameters for AppStoreVersionsGetInstance.
 type AppStoreVersionsGetInstanceParamsInclude string
 
+// AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams defines parameters for AppStoreVersionsAlternativeDistributionPackageGetToOneRelated.
+type AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams struct {
+	// FieldsAlternativeDistributionPackages the fields to include for returned resources of type alternativeDistributionPackages
+	FieldsAlternativeDistributionPackages *[]AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages `form:"fields[alternativeDistributionPackages],omitempty" json:"fields[alternativeDistributionPackages],omitempty"`
+
+	// FieldsAlternativeDistributionPackageVersions the fields to include for returned resources of type alternativeDistributionPackageVersions
+	FieldsAlternativeDistributionPackageVersions *[]AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions `form:"fields[alternativeDistributionPackageVersions],omitempty" json:"fields[alternativeDistributionPackageVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+}
+
+// AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages defines parameters for AppStoreVersionsAlternativeDistributionPackageGetToOneRelated.
+type AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackages string
+
+// AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions defines parameters for AppStoreVersionsAlternativeDistributionPackageGetToOneRelated.
+type AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsFieldsAlternativeDistributionPackageVersions string
+
+// AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsInclude defines parameters for AppStoreVersionsAlternativeDistributionPackageGetToOneRelated.
+type AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParamsInclude string
+
 // AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParams defines parameters for AppStoreVersionsAppStoreReviewDetailGetToOneRelated.
 type AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParams struct {
 	// FieldsAppStoreReviewDetails the fields to include for returned resources of type appStoreReviewDetails
@@ -74841,6 +76078,15 @@ type AppsGetInstanceParamsFieldsAndroidToIosAppMappingDetails string
 // AppsGetInstanceParamsInclude defines parameters for AppsGetInstance.
 type AppsGetInstanceParamsInclude string
 
+// AppsAlternativeDistributionKeyGetToOneRelatedParams defines parameters for AppsAlternativeDistributionKeyGetToOneRelated.
+type AppsAlternativeDistributionKeyGetToOneRelatedParams struct {
+	// FieldsAlternativeDistributionKeys the fields to include for returned resources of type alternativeDistributionKeys
+	FieldsAlternativeDistributionKeys *[]AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys `form:"fields[alternativeDistributionKeys],omitempty" json:"fields[alternativeDistributionKeys],omitempty"`
+}
+
+// AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys defines parameters for AppsAlternativeDistributionKeyGetToOneRelated.
+type AppsAlternativeDistributionKeyGetToOneRelatedParamsFieldsAlternativeDistributionKeys string
+
 // AppsAppAvailabilityV2GetToOneRelatedParams defines parameters for AppsAppAvailabilityV2GetToOneRelated.
 type AppsAppAvailabilityV2GetToOneRelatedParams struct {
 	// FieldsAppAvailabilities the fields to include for returned resources of type appAvailabilities
@@ -75469,6 +76715,15 @@ type AppsInAppPurchasesV2GetToManyRelatedParamsFieldsInAppPurchaseVersions strin
 
 // AppsInAppPurchasesV2GetToManyRelatedParamsInclude defines parameters for AppsInAppPurchasesV2GetToManyRelated.
 type AppsInAppPurchasesV2GetToManyRelatedParamsInclude string
+
+// AppsMarketplaceSearchDetailGetToOneRelatedParams defines parameters for AppsMarketplaceSearchDetailGetToOneRelated.
+type AppsMarketplaceSearchDetailGetToOneRelatedParams struct {
+	// FieldsMarketplaceSearchDetails the fields to include for returned resources of type marketplaceSearchDetails
+	FieldsMarketplaceSearchDetails *[]AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetails `form:"fields[marketplaceSearchDetails],omitempty" json:"fields[marketplaceSearchDetails],omitempty"`
+}
+
+// AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetails defines parameters for AppsMarketplaceSearchDetailGetToOneRelated.
+type AppsMarketplaceSearchDetailGetToOneRelatedParamsFieldsMarketplaceSearchDetails string
 
 // AppsPromotedPurchasesGetToManyRelatedParams defines parameters for AppsPromotedPurchasesGetToManyRelated.
 type AppsPromotedPurchasesGetToManyRelatedParams struct {
@@ -79434,6 +80689,15 @@ type AccessibilityDeclarationsUpdateInstanceJSONRequestBody = AccessibilityDecla
 // AgeRatingDeclarationsUpdateInstanceJSONRequestBody defines body for AgeRatingDeclarationsUpdateInstance for application/json ContentType.
 type AgeRatingDeclarationsUpdateInstanceJSONRequestBody = AgeRatingDeclarationUpdateRequest
 
+// AlternativeDistributionDomainsCreateInstanceJSONRequestBody defines body for AlternativeDistributionDomainsCreateInstance for application/json ContentType.
+type AlternativeDistributionDomainsCreateInstanceJSONRequestBody = AlternativeDistributionDomainCreateRequest
+
+// AlternativeDistributionKeysCreateInstanceJSONRequestBody defines body for AlternativeDistributionKeysCreateInstance for application/json ContentType.
+type AlternativeDistributionKeysCreateInstanceJSONRequestBody = AlternativeDistributionKeyCreateRequest
+
+// AlternativeDistributionPackagesCreateInstanceJSONRequestBody defines body for AlternativeDistributionPackagesCreateInstance for application/json ContentType.
+type AlternativeDistributionPackagesCreateInstanceJSONRequestBody = AlternativeDistributionPackageCreateRequest
+
 // AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody defines body for AndroidToIosAppMappingDetailsCreateInstance for application/json ContentType.
 type AndroidToIosAppMappingDetailsCreateInstanceJSONRequestBody = AndroidToIosAppMappingDetailCreateRequest
 
@@ -79803,6 +81067,12 @@ type InAppPurchasePriceSchedulesCreateInstanceJSONRequestBody = InAppPurchasePri
 // InAppPurchaseVersionsCreateInstanceJSONRequestBody defines body for InAppPurchaseVersionsCreateInstance for application/json ContentType.
 type InAppPurchaseVersionsCreateInstanceJSONRequestBody = InAppPurchaseVersionCreateRequest
 
+// MarketplaceSearchDetailsCreateInstanceJSONRequestBody defines body for MarketplaceSearchDetailsCreateInstance for application/json ContentType.
+type MarketplaceSearchDetailsCreateInstanceJSONRequestBody = MarketplaceSearchDetailCreateRequest
+
+// MarketplaceSearchDetailsUpdateInstanceJSONRequestBody defines body for MarketplaceSearchDetailsUpdateInstance for application/json ContentType.
+type MarketplaceSearchDetailsUpdateInstanceJSONRequestBody = MarketplaceSearchDetailUpdateRequest
+
 // MerchantIdsCreateInstanceJSONRequestBody defines body for MerchantIdsCreateInstance for application/json ContentType.
 type MerchantIdsCreateInstanceJSONRequestBody = MerchantIdCreateRequest
 
@@ -80024,6 +81294,280 @@ type SubscriptionLocalizationsV2CreateInstanceJSONRequestBody = SubscriptionLoca
 
 // SubscriptionLocalizationsV2UpdateInstanceJSONRequestBody defines body for SubscriptionLocalizationsV2UpdateInstance for application/json ContentType.
 type SubscriptionLocalizationsV2UpdateInstanceJSONRequestBody = SubscriptionLocalizationV2UpdateRequest
+
+// AsAlternativeDistributionPackageDelta returns the union data inside the AlternativeDistributionPackageVersionResponse_Included_Item as a AlternativeDistributionPackageDelta
+func (t AlternativeDistributionPackageVersionResponse_Included_Item) AsAlternativeDistributionPackageDelta() (AlternativeDistributionPackageDelta, error) {
+	var body AlternativeDistributionPackageDelta
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAlternativeDistributionPackageDelta overwrites any union data inside the AlternativeDistributionPackageVersionResponse_Included_Item as the provided AlternativeDistributionPackageDelta
+func (t *AlternativeDistributionPackageVersionResponse_Included_Item) FromAlternativeDistributionPackageDelta(v AlternativeDistributionPackageDelta) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageDeltas"}`))
+	t.union = b
+	return err
+}
+
+// MergeAlternativeDistributionPackageDelta performs a merge with any union data inside the AlternativeDistributionPackageVersionResponse_Included_Item, using the provided AlternativeDistributionPackageDelta
+func (t *AlternativeDistributionPackageVersionResponse_Included_Item) MergeAlternativeDistributionPackageDelta(v AlternativeDistributionPackageDelta) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageDeltas"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAlternativeDistributionPackageVariant returns the union data inside the AlternativeDistributionPackageVersionResponse_Included_Item as a AlternativeDistributionPackageVariant
+func (t AlternativeDistributionPackageVersionResponse_Included_Item) AsAlternativeDistributionPackageVariant() (AlternativeDistributionPackageVariant, error) {
+	var body AlternativeDistributionPackageVariant
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAlternativeDistributionPackageVariant overwrites any union data inside the AlternativeDistributionPackageVersionResponse_Included_Item as the provided AlternativeDistributionPackageVariant
+func (t *AlternativeDistributionPackageVersionResponse_Included_Item) FromAlternativeDistributionPackageVariant(v AlternativeDistributionPackageVariant) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageVariants"}`))
+	t.union = b
+	return err
+}
+
+// MergeAlternativeDistributionPackageVariant performs a merge with any union data inside the AlternativeDistributionPackageVersionResponse_Included_Item, using the provided AlternativeDistributionPackageVariant
+func (t *AlternativeDistributionPackageVersionResponse_Included_Item) MergeAlternativeDistributionPackageVariant(v AlternativeDistributionPackageVariant) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageVariants"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAlternativeDistributionPackage returns the union data inside the AlternativeDistributionPackageVersionResponse_Included_Item as a AlternativeDistributionPackage
+func (t AlternativeDistributionPackageVersionResponse_Included_Item) AsAlternativeDistributionPackage() (AlternativeDistributionPackage, error) {
+	var body AlternativeDistributionPackage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAlternativeDistributionPackage overwrites any union data inside the AlternativeDistributionPackageVersionResponse_Included_Item as the provided AlternativeDistributionPackage
+func (t *AlternativeDistributionPackageVersionResponse_Included_Item) FromAlternativeDistributionPackage(v AlternativeDistributionPackage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackages"}`))
+	t.union = b
+	return err
+}
+
+// MergeAlternativeDistributionPackage performs a merge with any union data inside the AlternativeDistributionPackageVersionResponse_Included_Item, using the provided AlternativeDistributionPackage
+func (t *AlternativeDistributionPackageVersionResponse_Included_Item) MergeAlternativeDistributionPackage(v AlternativeDistributionPackage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AlternativeDistributionPackageVersionResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AlternativeDistributionPackageVersionResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "alternativeDistributionPackageDeltas":
+		return t.AsAlternativeDistributionPackageDelta()
+	case "alternativeDistributionPackageVariants":
+		return t.AsAlternativeDistributionPackageVariant()
+	case "alternativeDistributionPackages":
+		return t.AsAlternativeDistributionPackage()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AlternativeDistributionPackageVersionResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AlternativeDistributionPackageVersionResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAlternativeDistributionPackageDelta returns the union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item as a AlternativeDistributionPackageDelta
+func (t AlternativeDistributionPackageVersionsResponse_Included_Item) AsAlternativeDistributionPackageDelta() (AlternativeDistributionPackageDelta, error) {
+	var body AlternativeDistributionPackageDelta
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAlternativeDistributionPackageDelta overwrites any union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item as the provided AlternativeDistributionPackageDelta
+func (t *AlternativeDistributionPackageVersionsResponse_Included_Item) FromAlternativeDistributionPackageDelta(v AlternativeDistributionPackageDelta) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageDeltas"}`))
+	t.union = b
+	return err
+}
+
+// MergeAlternativeDistributionPackageDelta performs a merge with any union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item, using the provided AlternativeDistributionPackageDelta
+func (t *AlternativeDistributionPackageVersionsResponse_Included_Item) MergeAlternativeDistributionPackageDelta(v AlternativeDistributionPackageDelta) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageDeltas"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAlternativeDistributionPackageVariant returns the union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item as a AlternativeDistributionPackageVariant
+func (t AlternativeDistributionPackageVersionsResponse_Included_Item) AsAlternativeDistributionPackageVariant() (AlternativeDistributionPackageVariant, error) {
+	var body AlternativeDistributionPackageVariant
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAlternativeDistributionPackageVariant overwrites any union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item as the provided AlternativeDistributionPackageVariant
+func (t *AlternativeDistributionPackageVersionsResponse_Included_Item) FromAlternativeDistributionPackageVariant(v AlternativeDistributionPackageVariant) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageVariants"}`))
+	t.union = b
+	return err
+}
+
+// MergeAlternativeDistributionPackageVariant performs a merge with any union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item, using the provided AlternativeDistributionPackageVariant
+func (t *AlternativeDistributionPackageVersionsResponse_Included_Item) MergeAlternativeDistributionPackageVariant(v AlternativeDistributionPackageVariant) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackageVariants"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAlternativeDistributionPackage returns the union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item as a AlternativeDistributionPackage
+func (t AlternativeDistributionPackageVersionsResponse_Included_Item) AsAlternativeDistributionPackage() (AlternativeDistributionPackage, error) {
+	var body AlternativeDistributionPackage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAlternativeDistributionPackage overwrites any union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item as the provided AlternativeDistributionPackage
+func (t *AlternativeDistributionPackageVersionsResponse_Included_Item) FromAlternativeDistributionPackage(v AlternativeDistributionPackage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackages"}`))
+	t.union = b
+	return err
+}
+
+// MergeAlternativeDistributionPackage performs a merge with any union data inside the AlternativeDistributionPackageVersionsResponse_Included_Item, using the provided AlternativeDistributionPackage
+func (t *AlternativeDistributionPackageVersionsResponse_Included_Item) MergeAlternativeDistributionPackage(v AlternativeDistributionPackage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"alternativeDistributionPackages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AlternativeDistributionPackageVersionsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AlternativeDistributionPackageVersionsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "alternativeDistributionPackageDeltas":
+		return t.AsAlternativeDistributionPackageDelta()
+	case "alternativeDistributionPackageVariants":
+		return t.AsAlternativeDistributionPackageVariant()
+	case "alternativeDistributionPackages":
+		return t.AsAlternativeDistributionPackage()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AlternativeDistributionPackageVersionsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AlternativeDistributionPackageVersionsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
 
 // AsAppAssetLibraryImageAwaitingUploadAttributes returns the union data inside the AppAssetLibraryImage_Attributes as a AppAssetLibraryImageAwaitingUploadAttributes
 func (t AppAssetLibraryImage_Attributes) AsAppAssetLibraryImageAwaitingUploadAttributes() (AppAssetLibraryImageAwaitingUploadAttributes, error) {
@@ -99022,6 +100566,60 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AgeRatingDeclarationsUpdateInstance(ctx context.Context, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AlternativeDistributionDomainsGetCollection performs a GET /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsGetCollection` operationId) request.
+	AlternativeDistributionDomainsGetCollection(ctx context.Context, params *AlternativeDistributionDomainsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionDomainsCreateInstanceWithBody performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AlternativeDistributionDomainsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionDomainsCreateInstance performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AlternativeDistributionDomainsCreateInstance(ctx context.Context, body AlternativeDistributionDomainsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionDomainsDeleteInstance performs a DELETE /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsDeleteInstance` operationId) request.
+	AlternativeDistributionDomainsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionDomainsGetInstance performs a GET /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsGetInstance` operationId) request.
+	AlternativeDistributionDomainsGetInstance(ctx context.Context, id string, params *AlternativeDistributionDomainsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionKeysGetCollection performs a GET /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysGetCollection` operationId) request.
+	AlternativeDistributionKeysGetCollection(ctx context.Context, params *AlternativeDistributionKeysGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionKeysCreateInstanceWithBody performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AlternativeDistributionKeysCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionKeysCreateInstance performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AlternativeDistributionKeysCreateInstance(ctx context.Context, body AlternativeDistributionKeysCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionKeysDeleteInstance performs a DELETE /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysDeleteInstance` operationId) request.
+	AlternativeDistributionKeysDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionKeysGetInstance performs a GET /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysGetInstance` operationId) request.
+	AlternativeDistributionKeysGetInstance(ctx context.Context, id string, params *AlternativeDistributionKeysGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionPackageVersionsGetInstance performs a GET /v1/alternativeDistributionPackageVersions/{id} (the `AlternativeDistributionPackageVersionsGetInstance` operationId) request.
+	AlternativeDistributionPackageVersionsGetInstance(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionPackageVersionsDeltasGetToManyRelated performs a GET /v1/alternativeDistributionPackageVersions/{id}/deltas (the `AlternativeDistributionPackageVersionsDeltasGetToManyRelated` operationId) request.
+	AlternativeDistributionPackageVersionsDeltasGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionPackageVersionsVariantsGetToManyRelated performs a GET /v1/alternativeDistributionPackageVersions/{id}/variants (the `AlternativeDistributionPackageVersionsVariantsGetToManyRelated` operationId) request.
+	AlternativeDistributionPackageVersionsVariantsGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionPackagesCreateInstanceWithBody performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AlternativeDistributionPackagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionPackagesCreateInstance performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AlternativeDistributionPackagesCreateInstance(ctx context.Context, body AlternativeDistributionPackagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AlternativeDistributionPackagesVersionsGetToManyRelated performs a GET /v1/alternativeDistributionPackages/{id}/versions (the `AlternativeDistributionPackagesVersionsGetToManyRelated` operationId) request.
+	AlternativeDistributionPackagesVersionsGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AndroidToIosAppMappingDetailsCreateInstanceWithBody performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AndroidToIosAppMappingDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -99741,6 +101339,9 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppStoreVersionsUpdateInstance(ctx context.Context, id string, body AppStoreVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppStoreVersionsAlternativeDistributionPackageGetToOneRelated performs a GET /v1/appStoreVersions/{id}/alternativeDistributionPackage (the `AppStoreVersionsAlternativeDistributionPackageGetToOneRelated` operationId) request.
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppStoreVersionsAppStoreReviewDetailGetToOneRelated performs a GET /v1/appStoreVersions/{id}/appStoreReviewDetail (the `AppStoreVersionsAppStoreReviewDetailGetToOneRelated` operationId) request.
 	AppStoreVersionsAppStoreReviewDetailGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -99786,6 +101387,9 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppsUpdateInstance(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsAlternativeDistributionKeyGetToOneRelated performs a GET /v1/apps/{id}/alternativeDistributionKey (the `AppsAlternativeDistributionKeyGetToOneRelated` operationId) request.
+	AppsAlternativeDistributionKeyGetToOneRelated(ctx context.Context, id string, params *AppsAlternativeDistributionKeyGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 	AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -99827,6 +101431,9 @@ type ClientInterface interface {
 
 	// AppsInAppPurchasesV2GetToManyRelated performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
 	AppsInAppPurchasesV2GetToManyRelated(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsMarketplaceSearchDetailGetToOneRelated performs a GET /v1/apps/{id}/marketplaceSearchDetail (the `AppsMarketplaceSearchDetailGetToOneRelated` operationId) request.
+	AppsMarketplaceSearchDetailGetToOneRelated(ctx context.Context, id string, params *AppsMarketplaceSearchDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsPromotedPurchasesGetToManyRelated performs a GET /v1/apps/{id}/promotedPurchases (the `AppsPromotedPurchasesGetToManyRelated` operationId) request.
 	AppsPromotedPurchasesGetToManyRelated(ctx context.Context, id string, params *AppsPromotedPurchasesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -100467,6 +102074,25 @@ type ClientInterface interface {
 
 	// InAppPurchaseVersionsLocalizationsGetToManyRelated performs a GET /v1/inAppPurchaseVersions/{id}/localizations (the `InAppPurchaseVersionsLocalizationsGetToManyRelated` operationId) request.
 	InAppPurchaseVersionsLocalizationsGetToManyRelated(ctx context.Context, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// MarketplaceSearchDetailsCreateInstanceWithBody performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	MarketplaceSearchDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// MarketplaceSearchDetailsCreateInstance performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	MarketplaceSearchDetailsCreateInstance(ctx context.Context, body MarketplaceSearchDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// MarketplaceSearchDetailsDeleteInstance performs a DELETE /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsDeleteInstance` operationId) request.
+	MarketplaceSearchDetailsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// MarketplaceSearchDetailsUpdateInstanceWithBody performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	MarketplaceSearchDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// MarketplaceSearchDetailsUpdateInstance performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	MarketplaceSearchDetailsUpdateInstance(ctx context.Context, id string, body MarketplaceSearchDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// MerchantIdsGetCollection performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 	MerchantIdsGetCollection(ctx context.Context, params *MerchantIdsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -101446,6 +103072,220 @@ func (c *Client) AgeRatingDeclarationsUpdateInstanceWithBody(ctx context.Context
 // Takes a body of the `application/json` content type.
 func (c *Client) AgeRatingDeclarationsUpdateInstance(ctx context.Context, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAgeRatingDeclarationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionDomainsGetCollection performs a GET /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsGetCollection` operationId) request.
+func (c *Client) AlternativeDistributionDomainsGetCollection(ctx context.Context, params *AlternativeDistributionDomainsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionDomainsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionDomainsCreateInstanceWithBody performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AlternativeDistributionDomainsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionDomainsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionDomainsCreateInstance performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AlternativeDistributionDomainsCreateInstance(ctx context.Context, body AlternativeDistributionDomainsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionDomainsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionDomainsDeleteInstance performs a DELETE /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsDeleteInstance` operationId) request.
+func (c *Client) AlternativeDistributionDomainsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionDomainsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionDomainsGetInstance performs a GET /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsGetInstance` operationId) request.
+func (c *Client) AlternativeDistributionDomainsGetInstance(ctx context.Context, id string, params *AlternativeDistributionDomainsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionDomainsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionKeysGetCollection performs a GET /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysGetCollection` operationId) request.
+func (c *Client) AlternativeDistributionKeysGetCollection(ctx context.Context, params *AlternativeDistributionKeysGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionKeysGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionKeysCreateInstanceWithBody performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AlternativeDistributionKeysCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionKeysCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionKeysCreateInstance performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AlternativeDistributionKeysCreateInstance(ctx context.Context, body AlternativeDistributionKeysCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionKeysCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionKeysDeleteInstance performs a DELETE /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysDeleteInstance` operationId) request.
+func (c *Client) AlternativeDistributionKeysDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionKeysDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionKeysGetInstance performs a GET /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysGetInstance` operationId) request.
+func (c *Client) AlternativeDistributionKeysGetInstance(ctx context.Context, id string, params *AlternativeDistributionKeysGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionKeysGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionPackageVersionsGetInstance performs a GET /v1/alternativeDistributionPackageVersions/{id} (the `AlternativeDistributionPackageVersionsGetInstance` operationId) request.
+func (c *Client) AlternativeDistributionPackageVersionsGetInstance(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionPackageVersionsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionPackageVersionsDeltasGetToManyRelated performs a GET /v1/alternativeDistributionPackageVersions/{id}/deltas (the `AlternativeDistributionPackageVersionsDeltasGetToManyRelated` operationId) request.
+func (c *Client) AlternativeDistributionPackageVersionsDeltasGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionPackageVersionsDeltasGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionPackageVersionsVariantsGetToManyRelated performs a GET /v1/alternativeDistributionPackageVersions/{id}/variants (the `AlternativeDistributionPackageVersionsVariantsGetToManyRelated` operationId) request.
+func (c *Client) AlternativeDistributionPackageVersionsVariantsGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionPackageVersionsVariantsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionPackagesCreateInstanceWithBody performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AlternativeDistributionPackagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionPackagesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionPackagesCreateInstance performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AlternativeDistributionPackagesCreateInstance(ctx context.Context, body AlternativeDistributionPackagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionPackagesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AlternativeDistributionPackagesVersionsGetToManyRelated performs a GET /v1/alternativeDistributionPackages/{id}/versions (the `AlternativeDistributionPackagesVersionsGetToManyRelated` operationId) request.
+func (c *Client) AlternativeDistributionPackagesVersionsGetToManyRelated(ctx context.Context, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAlternativeDistributionPackagesVersionsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -104145,6 +105985,19 @@ func (c *Client) AppStoreVersionsUpdateInstance(ctx context.Context, id string, 
 	return c.Client.Do(req)
 }
 
+// AppStoreVersionsAlternativeDistributionPackageGetToOneRelated performs a GET /v1/appStoreVersions/{id}/alternativeDistributionPackage (the `AppStoreVersionsAlternativeDistributionPackageGetToOneRelated` operationId) request.
+func (c *Client) AppStoreVersionsAlternativeDistributionPackageGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionsAlternativeDistributionPackageGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppStoreVersionsAppStoreReviewDetailGetToOneRelated performs a GET /v1/appStoreVersions/{id}/appStoreReviewDetail (the `AppStoreVersionsAppStoreReviewDetailGetToOneRelated` operationId) request.
 func (c *Client) AppStoreVersionsAppStoreReviewDetailGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionsAppStoreReviewDetailGetToOneRelatedRequest(c.Server, id, params)
@@ -104310,6 +106163,19 @@ func (c *Client) AppsUpdateInstanceWithBody(ctx context.Context, id string, cont
 // Takes a body of the `application/json` content type.
 func (c *Client) AppsUpdateInstance(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAlternativeDistributionKeyGetToOneRelated performs a GET /v1/apps/{id}/alternativeDistributionKey (the `AppsAlternativeDistributionKeyGetToOneRelated` operationId) request.
+func (c *Client) AppsAlternativeDistributionKeyGetToOneRelated(ctx context.Context, id string, params *AppsAlternativeDistributionKeyGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAlternativeDistributionKeyGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -104492,6 +106358,19 @@ func (c *Client) AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context,
 // AppsInAppPurchasesV2GetToManyRelated performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
 func (c *Client) AppsInAppPurchasesV2GetToManyRelated(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsInAppPurchasesV2GetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsMarketplaceSearchDetailGetToOneRelated performs a GET /v1/apps/{id}/marketplaceSearchDetail (the `AppsMarketplaceSearchDetailGetToOneRelated` operationId) request.
+func (c *Client) AppsMarketplaceSearchDetailGetToOneRelated(ctx context.Context, id string, params *AppsMarketplaceSearchDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsMarketplaceSearchDetailGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -106892,6 +108771,75 @@ func (c *Client) InAppPurchaseVersionsImageGetToOneRelated(ctx context.Context, 
 // InAppPurchaseVersionsLocalizationsGetToManyRelated performs a GET /v1/inAppPurchaseVersions/{id}/localizations (the `InAppPurchaseVersionsLocalizationsGetToManyRelated` operationId) request.
 func (c *Client) InAppPurchaseVersionsLocalizationsGetToManyRelated(ctx context.Context, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewInAppPurchaseVersionsLocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// MarketplaceSearchDetailsCreateInstanceWithBody performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) MarketplaceSearchDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewMarketplaceSearchDetailsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// MarketplaceSearchDetailsCreateInstance performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) MarketplaceSearchDetailsCreateInstance(ctx context.Context, body MarketplaceSearchDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewMarketplaceSearchDetailsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// MarketplaceSearchDetailsDeleteInstance performs a DELETE /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsDeleteInstance` operationId) request.
+func (c *Client) MarketplaceSearchDetailsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewMarketplaceSearchDetailsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// MarketplaceSearchDetailsUpdateInstanceWithBody performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) MarketplaceSearchDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewMarketplaceSearchDetailsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// MarketplaceSearchDetailsUpdateInstance performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) MarketplaceSearchDetailsUpdateInstance(ctx context.Context, id string, body MarketplaceSearchDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewMarketplaceSearchDetailsUpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -110434,6 +112382,896 @@ func NewAgeRatingDeclarationsUpdateInstanceRequestWithBody(server string, id str
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAlternativeDistributionDomainsGetCollectionRequest constructs an http.Request for the AlternativeDistributionDomainsGetCollection method
+func NewAlternativeDistributionDomainsGetCollectionRequest(server string, params *AlternativeDistributionDomainsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionDomains")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionDomains != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionDomains]", *params.FieldsAlternativeDistributionDomains, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionDomainsCreateInstanceRequest calls the generic AlternativeDistributionDomainsCreateInstance builder with application/json body
+func NewAlternativeDistributionDomainsCreateInstanceRequest(server string, body AlternativeDistributionDomainsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAlternativeDistributionDomainsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAlternativeDistributionDomainsCreateInstanceRequestWithBody constructs an http.Request for the AlternativeDistributionDomainsCreateInstance method, with any body, and a specified content type
+func NewAlternativeDistributionDomainsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionDomains")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAlternativeDistributionDomainsDeleteInstanceRequest constructs an http.Request for the AlternativeDistributionDomainsDeleteInstance method
+func NewAlternativeDistributionDomainsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionDomains/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionDomainsGetInstanceRequest constructs an http.Request for the AlternativeDistributionDomainsGetInstance method
+func NewAlternativeDistributionDomainsGetInstanceRequest(server string, id string, params *AlternativeDistributionDomainsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionDomains/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionDomains != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionDomains]", *params.FieldsAlternativeDistributionDomains, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionKeysGetCollectionRequest constructs an http.Request for the AlternativeDistributionKeysGetCollection method
+func NewAlternativeDistributionKeysGetCollectionRequest(server string, params *AlternativeDistributionKeysGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionKeys")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.ExistsApp != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "exists[app]", *params.ExistsApp, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "boolean", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionKeys != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionKeys]", *params.FieldsAlternativeDistributionKeys, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionKeysCreateInstanceRequest calls the generic AlternativeDistributionKeysCreateInstance builder with application/json body
+func NewAlternativeDistributionKeysCreateInstanceRequest(server string, body AlternativeDistributionKeysCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAlternativeDistributionKeysCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAlternativeDistributionKeysCreateInstanceRequestWithBody constructs an http.Request for the AlternativeDistributionKeysCreateInstance method, with any body, and a specified content type
+func NewAlternativeDistributionKeysCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionKeys")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAlternativeDistributionKeysDeleteInstanceRequest constructs an http.Request for the AlternativeDistributionKeysDeleteInstance method
+func NewAlternativeDistributionKeysDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionKeys/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionKeysGetInstanceRequest constructs an http.Request for the AlternativeDistributionKeysGetInstance method
+func NewAlternativeDistributionKeysGetInstanceRequest(server string, id string, params *AlternativeDistributionKeysGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionKeys/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionKeys != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionKeys]", *params.FieldsAlternativeDistributionKeys, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionPackageVersionsGetInstanceRequest constructs an http.Request for the AlternativeDistributionPackageVersionsGetInstance method
+func NewAlternativeDistributionPackageVersionsGetInstanceRequest(server string, id string, params *AlternativeDistributionPackageVersionsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionPackageVersions/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionPackageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageVersions]", *params.FieldsAlternativeDistributionPackageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackageVariants != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageVariants]", *params.FieldsAlternativeDistributionPackageVariants, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackageDeltas != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageDeltas]", *params.FieldsAlternativeDistributionPackageDeltas, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackages]", *params.FieldsAlternativeDistributionPackages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitDeltas != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[deltas]", *params.LimitDeltas, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVariants != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[variants]", *params.LimitVariants, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionPackageVersionsDeltasGetToManyRelatedRequest constructs an http.Request for the AlternativeDistributionPackageVersionsDeltasGetToManyRelated method
+func NewAlternativeDistributionPackageVersionsDeltasGetToManyRelatedRequest(server string, id string, params *AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionPackageVersions/%s/deltas", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionPackageDeltas != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageDeltas]", *params.FieldsAlternativeDistributionPackageDeltas, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionPackageVersionsVariantsGetToManyRelatedRequest constructs an http.Request for the AlternativeDistributionPackageVersionsVariantsGetToManyRelated method
+func NewAlternativeDistributionPackageVersionsVariantsGetToManyRelatedRequest(server string, id string, params *AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionPackageVersions/%s/variants", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionPackageVariants != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageVariants]", *params.FieldsAlternativeDistributionPackageVariants, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAlternativeDistributionPackagesCreateInstanceRequest calls the generic AlternativeDistributionPackagesCreateInstance builder with application/json body
+func NewAlternativeDistributionPackagesCreateInstanceRequest(server string, body AlternativeDistributionPackagesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAlternativeDistributionPackagesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAlternativeDistributionPackagesCreateInstanceRequestWithBody constructs an http.Request for the AlternativeDistributionPackagesCreateInstance method, with any body, and a specified content type
+func NewAlternativeDistributionPackagesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionPackages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAlternativeDistributionPackagesVersionsGetToManyRelatedRequest constructs an http.Request for the AlternativeDistributionPackagesVersionsGetToManyRelated method
+func NewAlternativeDistributionPackagesVersionsGetToManyRelatedRequest(server string, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/alternativeDistributionPackages/%s/versions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageVersions]", *params.FieldsAlternativeDistributionPackageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackageVariants != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageVariants]", *params.FieldsAlternativeDistributionPackageVariants, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackageDeltas != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageDeltas]", *params.FieldsAlternativeDistributionPackageDeltas, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackages]", *params.FieldsAlternativeDistributionPackages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVariants != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[variants]", *params.LimitVariants, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitDeltas != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[deltas]", *params.LimitDeltas, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -120551,6 +123389,103 @@ func NewAppStoreVersionsUpdateInstanceRequestWithBody(server string, id string, 
 	return req, nil
 }
 
+// NewAppStoreVersionsAlternativeDistributionPackageGetToOneRelatedRequest constructs an http.Request for the AppStoreVersionsAlternativeDistributionPackageGetToOneRelated method
+func NewAppStoreVersionsAlternativeDistributionPackageGetToOneRelatedRequest(server string, id string, params *AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersions/%s/alternativeDistributionPackage", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionPackages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackages]", *params.FieldsAlternativeDistributionPackages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAlternativeDistributionPackageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionPackageVersions]", *params.FieldsAlternativeDistributionPackageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppStoreVersionsAppStoreReviewDetailGetToOneRelatedRequest constructs an http.Request for the AppStoreVersionsAppStoreReviewDetailGetToOneRelated method
 func NewAppStoreVersionsAppStoreReviewDetailGetToOneRelatedRequest(server string, id string, params *AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParams) (*http.Request, error) {
 	var err error
@@ -122533,6 +125468,67 @@ func NewAppsUpdateInstanceRequestWithBody(server string, id string, contentType 
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppsAlternativeDistributionKeyGetToOneRelatedRequest constructs an http.Request for the AppsAlternativeDistributionKeyGetToOneRelated method
+func NewAppsAlternativeDistributionKeyGetToOneRelatedRequest(server string, id string, params *AppsAlternativeDistributionKeyGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/alternativeDistributionKey", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAlternativeDistributionKeys != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[alternativeDistributionKeys]", *params.FieldsAlternativeDistributionKeys, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -124604,6 +127600,67 @@ func NewAppsInAppPurchasesV2GetToManyRelatedRequest(server string, id string, pa
 		if params.LimitVersions != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsMarketplaceSearchDetailGetToOneRelatedRequest constructs an http.Request for the AppsMarketplaceSearchDetailGetToOneRelated method
+func NewAppsMarketplaceSearchDetailGetToOneRelatedRequest(server string, id string, params *AppsMarketplaceSearchDetailGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/marketplaceSearchDetail", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsMarketplaceSearchDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[marketplaceSearchDetails]", *params.FieldsMarketplaceSearchDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -133505,6 +136562,127 @@ func NewInAppPurchaseVersionsLocalizationsGetToManyRelatedRequest(server string,
 	if err != nil {
 		return nil, err
 	}
+
+	return req, nil
+}
+
+// NewMarketplaceSearchDetailsCreateInstanceRequest calls the generic MarketplaceSearchDetailsCreateInstance builder with application/json body
+func NewMarketplaceSearchDetailsCreateInstanceRequest(server string, body MarketplaceSearchDetailsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewMarketplaceSearchDetailsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewMarketplaceSearchDetailsCreateInstanceRequestWithBody constructs an http.Request for the MarketplaceSearchDetailsCreateInstance method, with any body, and a specified content type
+func NewMarketplaceSearchDetailsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/marketplaceSearchDetails")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewMarketplaceSearchDetailsDeleteInstanceRequest constructs an http.Request for the MarketplaceSearchDetailsDeleteInstance method
+func NewMarketplaceSearchDetailsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/marketplaceSearchDetails/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewMarketplaceSearchDetailsUpdateInstanceRequest calls the generic MarketplaceSearchDetailsUpdateInstance builder with application/json body
+func NewMarketplaceSearchDetailsUpdateInstanceRequest(server string, id string, body MarketplaceSearchDetailsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewMarketplaceSearchDetailsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewMarketplaceSearchDetailsUpdateInstanceRequestWithBody constructs an http.Request for the MarketplaceSearchDetailsUpdateInstance method, with any body, and a specified content type
+func NewMarketplaceSearchDetailsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/marketplaceSearchDetails/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
 
 	return req, nil
 }
@@ -146139,6 +149317,86 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AgeRatingDeclarationsUpdateInstanceWithResponse(ctx context.Context, id string, body AgeRatingDeclarationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AgeRatingDeclarationsUpdateInstanceResponse, error)
 
+	// AlternativeDistributionDomainsGetCollectionWithResponse performs a GET /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionDomainsGetCollectionWithResponse(ctx context.Context, params *AlternativeDistributionDomainsGetCollectionParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsGetCollectionResponse, error)
+
+	// AlternativeDistributionDomainsCreateInstanceWithBodyWithResponse performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionDomainsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsCreateInstanceResponse, error)
+
+	// AlternativeDistributionDomainsCreateInstanceWithResponse performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AlternativeDistributionDomainsCreateInstanceWithResponse(ctx context.Context, body AlternativeDistributionDomainsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsCreateInstanceResponse, error)
+
+	// AlternativeDistributionDomainsDeleteInstanceWithResponse performs a DELETE /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionDomainsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsDeleteInstanceResponse, error)
+
+	// AlternativeDistributionDomainsGetInstanceWithResponse performs a GET /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionDomainsGetInstanceWithResponse(ctx context.Context, id string, params *AlternativeDistributionDomainsGetInstanceParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsGetInstanceResponse, error)
+
+	// AlternativeDistributionKeysGetCollectionWithResponse performs a GET /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionKeysGetCollectionWithResponse(ctx context.Context, params *AlternativeDistributionKeysGetCollectionParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysGetCollectionResponse, error)
+
+	// AlternativeDistributionKeysCreateInstanceWithBodyWithResponse performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionKeysCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysCreateInstanceResponse, error)
+
+	// AlternativeDistributionKeysCreateInstanceWithResponse performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AlternativeDistributionKeysCreateInstanceWithResponse(ctx context.Context, body AlternativeDistributionKeysCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysCreateInstanceResponse, error)
+
+	// AlternativeDistributionKeysDeleteInstanceWithResponse performs a DELETE /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionKeysDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysDeleteInstanceResponse, error)
+
+	// AlternativeDistributionKeysGetInstanceWithResponse performs a GET /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionKeysGetInstanceWithResponse(ctx context.Context, id string, params *AlternativeDistributionKeysGetInstanceParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysGetInstanceResponse, error)
+
+	// AlternativeDistributionPackageVersionsGetInstanceWithResponse performs a GET /v1/alternativeDistributionPackageVersions/{id} (the `AlternativeDistributionPackageVersionsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionPackageVersionsGetInstanceWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackageVersionsGetInstanceResponse, error)
+
+	// AlternativeDistributionPackageVersionsDeltasGetToManyRelatedWithResponse performs a GET /v1/alternativeDistributionPackageVersions/{id}/deltas (the `AlternativeDistributionPackageVersionsDeltasGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionPackageVersionsDeltasGetToManyRelatedWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse, error)
+
+	// AlternativeDistributionPackageVersionsVariantsGetToManyRelatedWithResponse performs a GET /v1/alternativeDistributionPackageVersions/{id}/variants (the `AlternativeDistributionPackageVersionsVariantsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionPackageVersionsVariantsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse, error)
+
+	// AlternativeDistributionPackagesCreateInstanceWithBodyWithResponse performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionPackagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackagesCreateInstanceResponse, error)
+
+	// AlternativeDistributionPackagesCreateInstanceWithResponse performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AlternativeDistributionPackagesCreateInstanceWithResponse(ctx context.Context, body AlternativeDistributionPackagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackagesCreateInstanceResponse, error)
+
+	// AlternativeDistributionPackagesVersionsGetToManyRelatedWithResponse performs a GET /v1/alternativeDistributionPackages/{id}/versions (the `AlternativeDistributionPackagesVersionsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AlternativeDistributionPackagesVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackagesVersionsGetToManyRelatedResponse, error)
+
 	// AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -147124,6 +150382,11 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreVersionsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionsUpdateInstanceResponse, error)
 
+	// AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/alternativeDistributionPackage (the `AppStoreVersionsAlternativeDistributionPackageGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse, error)
+
 	// AppStoreVersionsAppStoreReviewDetailGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/appStoreReviewDetail (the `AppStoreVersionsAppStoreReviewDetailGetToOneRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -147188,6 +150451,11 @@ type ClientWithResponsesInterface interface {
 	// AppsUpdateInstanceWithResponse performs a PATCH /v1/apps/{id} (the `AppsUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppsUpdateInstanceWithResponse(ctx context.Context, id string, body AppsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppsUpdateInstanceResponse, error)
+
+	// AppsAlternativeDistributionKeyGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/alternativeDistributionKey (the `AppsAlternativeDistributionKeyGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAlternativeDistributionKeyGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAlternativeDistributionKeyGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAlternativeDistributionKeyGetToOneRelatedResponse, error)
 
 	// AppsAppAvailabilityV2GetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 	//
@@ -147258,6 +150526,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsInAppPurchasesV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsInAppPurchasesV2GetToManyRelatedResponse, error)
+
+	// AppsMarketplaceSearchDetailGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/marketplaceSearchDetail (the `AppsMarketplaceSearchDetailGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsMarketplaceSearchDetailGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsMarketplaceSearchDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsMarketplaceSearchDetailGetToOneRelatedResponse, error)
 
 	// AppsPromotedPurchasesGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/promotedPurchases (the `AppsPromotedPurchasesGetToManyRelated` operationId) request.
 	//
@@ -148138,6 +151411,31 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	InAppPurchaseVersionsLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *InAppPurchaseVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse, error)
+
+	// MarketplaceSearchDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	MarketplaceSearchDetailsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsCreateInstanceResponse, error)
+
+	// MarketplaceSearchDetailsCreateInstanceWithResponse performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	MarketplaceSearchDetailsCreateInstanceWithResponse(ctx context.Context, body MarketplaceSearchDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsCreateInstanceResponse, error)
+
+	// MarketplaceSearchDetailsDeleteInstanceWithResponse performs a DELETE /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	MarketplaceSearchDetailsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsDeleteInstanceResponse, error)
+
+	// MarketplaceSearchDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	MarketplaceSearchDetailsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsUpdateInstanceResponse, error)
+
+	// MarketplaceSearchDetailsUpdateInstanceWithResponse performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	MarketplaceSearchDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body MarketplaceSearchDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsUpdateInstanceResponse, error)
 
 	// MerchantIdsGetCollectionWithResponse performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
 	//
@@ -149757,6 +153055,987 @@ func (r AgeRatingDeclarationsUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AgeRatingDeclarationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionDomainsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionDomainsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionDomainsGetCollectionResponse) GetJSON200() *AlternativeDistributionDomainsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionDomainsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionDomainsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionDomainsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionDomainsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionDomainsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionDomainsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionDomainsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionDomainsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionDomainsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AlternativeDistributionDomainResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetJSON201() *AlternativeDistributionDomainResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionDomainsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionDomainsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionDomainsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionDomainsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionDomainsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionDomainsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionDomainsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionDomainResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionDomainsGetInstanceResponse) GetJSON200() *AlternativeDistributionDomainResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionDomainsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionDomainsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionDomainsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionDomainsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionDomainsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionDomainsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionDomainsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionDomainsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionDomainsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionKeysGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionKeysResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionKeysGetCollectionResponse) GetJSON200() *AlternativeDistributionKeysResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionKeysGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionKeysGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionKeysGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionKeysGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionKeysGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionKeysGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionKeysGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionKeysGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionKeysCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AlternativeDistributionKeyResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetJSON201() *AlternativeDistributionKeyResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionKeysCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionKeysCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionKeysCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionKeysCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionKeysDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionKeysDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionKeysDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionKeysDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionKeysDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionKeysDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionKeysDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionKeysDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionKeysDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionKeysDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionKeysGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionKeyResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionKeysGetInstanceResponse) GetJSON200() *AlternativeDistributionKeyResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionKeysGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionKeysGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionKeysGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionKeysGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionKeysGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionKeysGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionKeysGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionKeysGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionKeysGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionPackageVersionsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionPackageVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) GetJSON200() *AlternativeDistributionPackageVersionResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionPackageVersionsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionPackageDeltasResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) GetJSON200() *AlternativeDistributionPackageDeltasResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionPackageVariantsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) GetJSON200() *AlternativeDistributionPackageVariantsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionPackagesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AlternativeDistributionPackageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetJSON201() *AlternativeDistributionPackageResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionPackagesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionPackagesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionPackagesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionPackagesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AlternativeDistributionPackagesVersionsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionPackageVersionsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) GetJSON200() *AlternativeDistributionPackageVersionsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AlternativeDistributionPackagesVersionsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -160326,6 +164605,82 @@ func (r AppStoreVersionsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionPackageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) GetJSON200() *AlternativeDistributionPackageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppStoreVersionsAppStoreReviewDetailGetToOneRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -161108,6 +165463,82 @@ func (r AppsUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAlternativeDistributionKeyGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AlternativeDistributionKeyResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) GetJSON200() *AlternativeDistributionKeyResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAlternativeDistributionKeyGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -162172,6 +166603,82 @@ func (r AppsInAppPurchasesV2GetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsInAppPurchasesV2GetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsMarketplaceSearchDetailGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *MarketplaceSearchDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) GetJSON200() *MarketplaceSearchDetailResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsMarketplaceSearchDetailGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -171670,6 +176177,248 @@ func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) StatusCode()
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r InAppPurchaseVersionsLocalizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type MarketplaceSearchDetailsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *MarketplaceSearchDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetJSON201() *MarketplaceSearchDetailResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r MarketplaceSearchDetailsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r MarketplaceSearchDetailsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r MarketplaceSearchDetailsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r MarketplaceSearchDetailsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type MarketplaceSearchDetailsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r MarketplaceSearchDetailsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type MarketplaceSearchDetailsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *MarketplaceSearchDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON200() *MarketplaceSearchDetailResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r MarketplaceSearchDetailsUpdateInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -185077,6 +189826,182 @@ func (c *ClientWithResponses) AgeRatingDeclarationsUpdateInstanceWithResponse(ct
 	return ParseAgeRatingDeclarationsUpdateInstanceResponse(rsp)
 }
 
+// AlternativeDistributionDomainsGetCollectionWithResponse performs a GET /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionDomainsGetCollectionWithResponse(ctx context.Context, params *AlternativeDistributionDomainsGetCollectionParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsGetCollectionResponse, error) {
+	rsp, err := c.AlternativeDistributionDomainsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionDomainsGetCollectionResponse(rsp)
+}
+
+// AlternativeDistributionDomainsCreateInstanceWithBodyWithResponse performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionDomainsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsCreateInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionDomainsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionDomainsCreateInstanceResponse(rsp)
+}
+
+// AlternativeDistributionDomainsCreateInstanceWithResponse performs a POST /v1/alternativeDistributionDomains (the `AlternativeDistributionDomainsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionDomainsCreateInstanceWithResponse(ctx context.Context, body AlternativeDistributionDomainsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsCreateInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionDomainsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionDomainsCreateInstanceResponse(rsp)
+}
+
+// AlternativeDistributionDomainsDeleteInstanceWithResponse performs a DELETE /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionDomainsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsDeleteInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionDomainsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionDomainsDeleteInstanceResponse(rsp)
+}
+
+// AlternativeDistributionDomainsGetInstanceWithResponse performs a GET /v1/alternativeDistributionDomains/{id} (the `AlternativeDistributionDomainsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionDomainsGetInstanceWithResponse(ctx context.Context, id string, params *AlternativeDistributionDomainsGetInstanceParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionDomainsGetInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionDomainsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionDomainsGetInstanceResponse(rsp)
+}
+
+// AlternativeDistributionKeysGetCollectionWithResponse performs a GET /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionKeysGetCollectionWithResponse(ctx context.Context, params *AlternativeDistributionKeysGetCollectionParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysGetCollectionResponse, error) {
+	rsp, err := c.AlternativeDistributionKeysGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionKeysGetCollectionResponse(rsp)
+}
+
+// AlternativeDistributionKeysCreateInstanceWithBodyWithResponse performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionKeysCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysCreateInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionKeysCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionKeysCreateInstanceResponse(rsp)
+}
+
+// AlternativeDistributionKeysCreateInstanceWithResponse performs a POST /v1/alternativeDistributionKeys (the `AlternativeDistributionKeysCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionKeysCreateInstanceWithResponse(ctx context.Context, body AlternativeDistributionKeysCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysCreateInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionKeysCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionKeysCreateInstanceResponse(rsp)
+}
+
+// AlternativeDistributionKeysDeleteInstanceWithResponse performs a DELETE /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionKeysDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysDeleteInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionKeysDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionKeysDeleteInstanceResponse(rsp)
+}
+
+// AlternativeDistributionKeysGetInstanceWithResponse performs a GET /v1/alternativeDistributionKeys/{id} (the `AlternativeDistributionKeysGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionKeysGetInstanceWithResponse(ctx context.Context, id string, params *AlternativeDistributionKeysGetInstanceParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionKeysGetInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionKeysGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionKeysGetInstanceResponse(rsp)
+}
+
+// AlternativeDistributionPackageVersionsGetInstanceWithResponse performs a GET /v1/alternativeDistributionPackageVersions/{id} (the `AlternativeDistributionPackageVersionsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionPackageVersionsGetInstanceWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackageVersionsGetInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionPackageVersionsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionPackageVersionsGetInstanceResponse(rsp)
+}
+
+// AlternativeDistributionPackageVersionsDeltasGetToManyRelatedWithResponse performs a GET /v1/alternativeDistributionPackageVersions/{id}/deltas (the `AlternativeDistributionPackageVersionsDeltasGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionPackageVersionsDeltasGetToManyRelatedWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse, error) {
+	rsp, err := c.AlternativeDistributionPackageVersionsDeltasGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse(rsp)
+}
+
+// AlternativeDistributionPackageVersionsVariantsGetToManyRelatedWithResponse performs a GET /v1/alternativeDistributionPackageVersions/{id}/variants (the `AlternativeDistributionPackageVersionsVariantsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionPackageVersionsVariantsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse, error) {
+	rsp, err := c.AlternativeDistributionPackageVersionsVariantsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse(rsp)
+}
+
+// AlternativeDistributionPackagesCreateInstanceWithBodyWithResponse performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionPackagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackagesCreateInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionPackagesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionPackagesCreateInstanceResponse(rsp)
+}
+
+// AlternativeDistributionPackagesCreateInstanceWithResponse performs a POST /v1/alternativeDistributionPackages (the `AlternativeDistributionPackagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionPackagesCreateInstanceWithResponse(ctx context.Context, body AlternativeDistributionPackagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackagesCreateInstanceResponse, error) {
+	rsp, err := c.AlternativeDistributionPackagesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionPackagesCreateInstanceResponse(rsp)
+}
+
+// AlternativeDistributionPackagesVersionsGetToManyRelatedWithResponse performs a GET /v1/alternativeDistributionPackages/{id}/versions (the `AlternativeDistributionPackagesVersionsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AlternativeDistributionPackagesVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AlternativeDistributionPackagesVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AlternativeDistributionPackagesVersionsGetToManyRelatedResponse, error) {
+	rsp, err := c.AlternativeDistributionPackagesVersionsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAlternativeDistributionPackagesVersionsGetToManyRelatedResponse(rsp)
+}
+
 // AndroidToIosAppMappingDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/androidToIosAppMappingDetails (the `AndroidToIosAppMappingDetailsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -187244,6 +192169,17 @@ func (c *ClientWithResponses) AppStoreVersionsUpdateInstanceWithResponse(ctx con
 	return ParseAppStoreVersionsUpdateInstanceResponse(rsp)
 }
 
+// AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/alternativeDistributionPackage (the `AppStoreVersionsAlternativeDistributionPackageGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionsAlternativeDistributionPackageGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse(rsp)
+}
+
 // AppStoreVersionsAppStoreReviewDetailGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/appStoreReviewDetail (the `AppStoreVersionsAppStoreReviewDetailGetToOneRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -187385,6 +192321,17 @@ func (c *ClientWithResponses) AppsUpdateInstanceWithResponse(ctx context.Context
 		return nil, err
 	}
 	return ParseAppsUpdateInstanceResponse(rsp)
+}
+
+// AppsAlternativeDistributionKeyGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/alternativeDistributionKey (the `AppsAlternativeDistributionKeyGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAlternativeDistributionKeyGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAlternativeDistributionKeyGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAlternativeDistributionKeyGetToOneRelatedResponse, error) {
+	rsp, err := c.AppsAlternativeDistributionKeyGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAlternativeDistributionKeyGetToOneRelatedResponse(rsp)
 }
 
 // AppsAppAvailabilityV2GetToOneRelatedWithResponse performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
@@ -187539,6 +192486,17 @@ func (c *ClientWithResponses) AppsInAppPurchasesV2GetToManyRelatedWithResponse(c
 		return nil, err
 	}
 	return ParseAppsInAppPurchasesV2GetToManyRelatedResponse(rsp)
+}
+
+// AppsMarketplaceSearchDetailGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/marketplaceSearchDetail (the `AppsMarketplaceSearchDetailGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsMarketplaceSearchDetailGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsMarketplaceSearchDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsMarketplaceSearchDetailGetToOneRelatedResponse, error) {
+	rsp, err := c.AppsMarketplaceSearchDetailGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsMarketplaceSearchDetailGetToOneRelatedResponse(rsp)
 }
 
 // AppsPromotedPurchasesGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/promotedPurchases (the `AppsPromotedPurchasesGetToManyRelated` operationId) request.
@@ -189475,6 +194433,61 @@ func (c *ClientWithResponses) InAppPurchaseVersionsLocalizationsGetToManyRelated
 		return nil, err
 	}
 	return ParseInAppPurchaseVersionsLocalizationsGetToManyRelatedResponse(rsp)
+}
+
+// MarketplaceSearchDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) MarketplaceSearchDetailsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsCreateInstanceResponse, error) {
+	rsp, err := c.MarketplaceSearchDetailsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseMarketplaceSearchDetailsCreateInstanceResponse(rsp)
+}
+
+// MarketplaceSearchDetailsCreateInstanceWithResponse performs a POST /v1/marketplaceSearchDetails (the `MarketplaceSearchDetailsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) MarketplaceSearchDetailsCreateInstanceWithResponse(ctx context.Context, body MarketplaceSearchDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsCreateInstanceResponse, error) {
+	rsp, err := c.MarketplaceSearchDetailsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseMarketplaceSearchDetailsCreateInstanceResponse(rsp)
+}
+
+// MarketplaceSearchDetailsDeleteInstanceWithResponse performs a DELETE /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) MarketplaceSearchDetailsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsDeleteInstanceResponse, error) {
+	rsp, err := c.MarketplaceSearchDetailsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseMarketplaceSearchDetailsDeleteInstanceResponse(rsp)
+}
+
+// MarketplaceSearchDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) MarketplaceSearchDetailsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsUpdateInstanceResponse, error) {
+	rsp, err := c.MarketplaceSearchDetailsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseMarketplaceSearchDetailsUpdateInstanceResponse(rsp)
+}
+
+// MarketplaceSearchDetailsUpdateInstanceWithResponse performs a PATCH /v1/marketplaceSearchDetails/{id} (the `MarketplaceSearchDetailsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) MarketplaceSearchDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body MarketplaceSearchDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*MarketplaceSearchDetailsUpdateInstanceResponse, error) {
+	rsp, err := c.MarketplaceSearchDetailsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseMarketplaceSearchDetailsUpdateInstanceResponse(rsp)
 }
 
 // MerchantIdsGetCollectionWithResponse performs a GET /v1/merchantIds (the `MerchantIdsGetCollection` operationId) request.
@@ -192473,6 +197486,798 @@ func ParseAgeRatingDeclarationsUpdateInstanceResponse(rsp *http.Response) (*AgeR
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionDomainsGetCollectionResponse parses an HTTP response from a AlternativeDistributionDomainsGetCollectionWithResponse call
+func ParseAlternativeDistributionDomainsGetCollectionResponse(rsp *http.Response) (*AlternativeDistributionDomainsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionDomainsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionDomainsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionDomainsCreateInstanceResponse parses an HTTP response from a AlternativeDistributionDomainsCreateInstanceWithResponse call
+func ParseAlternativeDistributionDomainsCreateInstanceResponse(rsp *http.Response) (*AlternativeDistributionDomainsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionDomainsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AlternativeDistributionDomainResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionDomainsDeleteInstanceResponse parses an HTTP response from a AlternativeDistributionDomainsDeleteInstanceWithResponse call
+func ParseAlternativeDistributionDomainsDeleteInstanceResponse(rsp *http.Response) (*AlternativeDistributionDomainsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionDomainsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionDomainsGetInstanceResponse parses an HTTP response from a AlternativeDistributionDomainsGetInstanceWithResponse call
+func ParseAlternativeDistributionDomainsGetInstanceResponse(rsp *http.Response) (*AlternativeDistributionDomainsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionDomainsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionDomainResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionKeysGetCollectionResponse parses an HTTP response from a AlternativeDistributionKeysGetCollectionWithResponse call
+func ParseAlternativeDistributionKeysGetCollectionResponse(rsp *http.Response) (*AlternativeDistributionKeysGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionKeysGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionKeysResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionKeysCreateInstanceResponse parses an HTTP response from a AlternativeDistributionKeysCreateInstanceWithResponse call
+func ParseAlternativeDistributionKeysCreateInstanceResponse(rsp *http.Response) (*AlternativeDistributionKeysCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionKeysCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AlternativeDistributionKeyResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionKeysDeleteInstanceResponse parses an HTTP response from a AlternativeDistributionKeysDeleteInstanceWithResponse call
+func ParseAlternativeDistributionKeysDeleteInstanceResponse(rsp *http.Response) (*AlternativeDistributionKeysDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionKeysDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionKeysGetInstanceResponse parses an HTTP response from a AlternativeDistributionKeysGetInstanceWithResponse call
+func ParseAlternativeDistributionKeysGetInstanceResponse(rsp *http.Response) (*AlternativeDistributionKeysGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionKeysGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionKeyResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionPackageVersionsGetInstanceResponse parses an HTTP response from a AlternativeDistributionPackageVersionsGetInstanceWithResponse call
+func ParseAlternativeDistributionPackageVersionsGetInstanceResponse(rsp *http.Response) (*AlternativeDistributionPackageVersionsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionPackageVersionsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionPackageVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse parses an HTTP response from a AlternativeDistributionPackageVersionsDeltasGetToManyRelatedWithResponse call
+func ParseAlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse(rsp *http.Response) (*AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionPackageVersionsDeltasGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionPackageDeltasResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse parses an HTTP response from a AlternativeDistributionPackageVersionsVariantsGetToManyRelatedWithResponse call
+func ParseAlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse(rsp *http.Response) (*AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionPackageVersionsVariantsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionPackageVariantsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionPackagesCreateInstanceResponse parses an HTTP response from a AlternativeDistributionPackagesCreateInstanceWithResponse call
+func ParseAlternativeDistributionPackagesCreateInstanceResponse(rsp *http.Response) (*AlternativeDistributionPackagesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionPackagesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AlternativeDistributionPackageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAlternativeDistributionPackagesVersionsGetToManyRelatedResponse parses an HTTP response from a AlternativeDistributionPackagesVersionsGetToManyRelatedWithResponse call
+func ParseAlternativeDistributionPackagesVersionsGetToManyRelatedResponse(rsp *http.Response) (*AlternativeDistributionPackagesVersionsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AlternativeDistributionPackagesVersionsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionPackageVersionsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -201138,6 +206943,67 @@ func ParseAppStoreVersionsUpdateInstanceResponse(rsp *http.Response) (*AppStoreV
 	return response, nil
 }
 
+// ParseAppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse parses an HTTP response from a AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedWithResponse call
+func ParseAppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse(rsp *http.Response) (*AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionPackageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppStoreVersionsAppStoreReviewDetailGetToOneRelatedResponse parses an HTTP response from a AppStoreVersionsAppStoreReviewDetailGetToOneRelatedWithResponse call
 func ParseAppStoreVersionsAppStoreReviewDetailGetToOneRelatedResponse(rsp *http.Response) (*AppStoreVersionsAppStoreReviewDetailGetToOneRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -201766,6 +207632,67 @@ func ParseAppsUpdateInstanceResponse(rsp *http.Response) (*AppsUpdateInstanceRes
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAlternativeDistributionKeyGetToOneRelatedResponse parses an HTTP response from a AppsAlternativeDistributionKeyGetToOneRelatedWithResponse call
+func ParseAppsAlternativeDistributionKeyGetToOneRelatedResponse(rsp *http.Response) (*AppsAlternativeDistributionKeyGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAlternativeDistributionKeyGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AlternativeDistributionKeyResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -202591,6 +208518,67 @@ func ParseAppsInAppPurchasesV2GetToManyRelatedResponse(rsp *http.Response) (*App
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest InAppPurchasesV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsMarketplaceSearchDetailGetToOneRelatedResponse parses an HTTP response from a AppsMarketplaceSearchDetailGetToOneRelatedWithResponse call
+func ParseAppsMarketplaceSearchDetailGetToOneRelatedResponse(rsp *http.Response) (*AppsMarketplaceSearchDetailGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsMarketplaceSearchDetailGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest MarketplaceSearchDetailResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -210393,6 +216381,206 @@ func ParseInAppPurchaseVersionsLocalizationsGetToManyRelatedResponse(rsp *http.R
 			return nil, err
 		}
 		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseMarketplaceSearchDetailsCreateInstanceResponse parses an HTTP response from a MarketplaceSearchDetailsCreateInstanceWithResponse call
+func ParseMarketplaceSearchDetailsCreateInstanceResponse(rsp *http.Response) (*MarketplaceSearchDetailsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &MarketplaceSearchDetailsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest MarketplaceSearchDetailResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseMarketplaceSearchDetailsDeleteInstanceResponse parses an HTTP response from a MarketplaceSearchDetailsDeleteInstanceWithResponse call
+func ParseMarketplaceSearchDetailsDeleteInstanceResponse(rsp *http.Response) (*MarketplaceSearchDetailsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &MarketplaceSearchDetailsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseMarketplaceSearchDetailsUpdateInstanceResponse parses an HTTP response from a MarketplaceSearchDetailsUpdateInstanceWithResponse call
+func ParseMarketplaceSearchDetailsUpdateInstanceResponse(rsp *http.Response) (*MarketplaceSearchDetailsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &MarketplaceSearchDetailsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest MarketplaceSearchDetailResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -221313,6 +227501,45 @@ type ServerInterface interface {
 	// (PATCH /v1/ageRatingDeclarations/{id})
 	AgeRatingDeclarationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/alternativeDistributionDomains)
+	AlternativeDistributionDomainsGetCollection(w http.ResponseWriter, r *http.Request, params AlternativeDistributionDomainsGetCollectionParams)
+
+	// (POST /v1/alternativeDistributionDomains)
+	AlternativeDistributionDomainsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/alternativeDistributionDomains/{id})
+	AlternativeDistributionDomainsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/alternativeDistributionDomains/{id})
+	AlternativeDistributionDomainsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AlternativeDistributionDomainsGetInstanceParams)
+
+	// (GET /v1/alternativeDistributionKeys)
+	AlternativeDistributionKeysGetCollection(w http.ResponseWriter, r *http.Request, params AlternativeDistributionKeysGetCollectionParams)
+
+	// (POST /v1/alternativeDistributionKeys)
+	AlternativeDistributionKeysCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/alternativeDistributionKeys/{id})
+	AlternativeDistributionKeysDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/alternativeDistributionKeys/{id})
+	AlternativeDistributionKeysGetInstance(w http.ResponseWriter, r *http.Request, id string, params AlternativeDistributionKeysGetInstanceParams)
+
+	// (GET /v1/alternativeDistributionPackageVersions/{id})
+	AlternativeDistributionPackageVersionsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AlternativeDistributionPackageVersionsGetInstanceParams)
+
+	// (GET /v1/alternativeDistributionPackageVersions/{id}/deltas)
+	AlternativeDistributionPackageVersionsDeltasGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams)
+
+	// (GET /v1/alternativeDistributionPackageVersions/{id}/variants)
+	AlternativeDistributionPackageVersionsVariantsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams)
+
+	// (POST /v1/alternativeDistributionPackages)
+	AlternativeDistributionPackagesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/alternativeDistributionPackages/{id}/versions)
+	AlternativeDistributionPackagesVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AlternativeDistributionPackagesVersionsGetToManyRelatedParams)
+
 	// (POST /v1/androidToIosAppMappingDetails)
 	AndroidToIosAppMappingDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -221712,6 +227939,9 @@ type ServerInterface interface {
 	// (PATCH /v1/appStoreVersions/{id})
 	AppStoreVersionsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/appStoreVersions/{id}/alternativeDistributionPackage)
+	AppStoreVersionsAlternativeDistributionPackageGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams)
+
 	// (GET /v1/appStoreVersions/{id}/appStoreReviewDetail)
 	AppStoreVersionsAppStoreReviewDetailGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionsAppStoreReviewDetailGetToOneRelatedParams)
 
@@ -221741,6 +227971,9 @@ type ServerInterface interface {
 
 	// (PATCH /v1/apps/{id})
 	AppsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/apps/{id}/alternativeDistributionKey)
+	AppsAlternativeDistributionKeyGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAlternativeDistributionKeyGetToOneRelatedParams)
 
 	// (GET /v1/apps/{id}/appAvailabilityV2)
 	AppsAppAvailabilityV2GetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppAvailabilityV2GetToOneRelatedParams)
@@ -221783,6 +228016,9 @@ type ServerInterface interface {
 
 	// (GET /v1/apps/{id}/inAppPurchasesV2)
 	AppsInAppPurchasesV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsInAppPurchasesV2GetToManyRelatedParams)
+
+	// (GET /v1/apps/{id}/marketplaceSearchDetail)
+	AppsMarketplaceSearchDetailGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsMarketplaceSearchDetailGetToOneRelatedParams)
 
 	// (GET /v1/apps/{id}/promotedPurchases)
 	AppsPromotedPurchasesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsPromotedPurchasesGetToManyRelatedParams)
@@ -222143,6 +228379,15 @@ type ServerInterface interface {
 
 	// (GET /v1/inAppPurchaseVersions/{id}/localizations)
 	InAppPurchaseVersionsLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params InAppPurchaseVersionsLocalizationsGetToManyRelatedParams)
+
+	// (POST /v1/marketplaceSearchDetails)
+	MarketplaceSearchDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/marketplaceSearchDetails/{id})
+	MarketplaceSearchDetailsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/marketplaceSearchDetails/{id})
+	MarketplaceSearchDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
 	// (GET /v1/merchantIds)
 	MerchantIdsGetCollection(w http.ResponseWriter, r *http.Request, params MerchantIdsGetCollectionParams)
@@ -222786,6 +229031,665 @@ func (siw *ServerInterfaceWrapper) AgeRatingDeclarationsUpdateInstance(w http.Re
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AgeRatingDeclarationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionDomainsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionDomainsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionDomainsGetCollectionParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionDomains]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionDomains]", r.URL.Query(), &params.FieldsAlternativeDistributionDomains, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionDomains]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionDomains]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionDomainsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionDomainsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionDomainsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionDomainsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionDomainsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionDomainsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionDomainsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionDomainsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionDomainsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionDomainsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionDomains]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionDomains]", r.URL.Query(), &params.FieldsAlternativeDistributionDomains, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionDomains]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionDomains]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionDomainsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionKeysGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionKeysGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionKeysGetCollectionParams
+
+	// ------------- Optional query parameter "exists[app]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "exists[app]", r.URL.Query(), &params.ExistsApp, runtime.BindQueryParameterOptions{Type: "boolean", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "exists[app]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "exists[app]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionKeys]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionKeys]", r.URL.Query(), &params.FieldsAlternativeDistributionKeys, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionKeys]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionKeys]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionKeysGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionKeysCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionKeysCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionKeysCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionKeysDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionKeysDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionKeysDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionKeysGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionKeysGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionKeysGetInstanceParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionKeys]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionKeys]", r.URL.Query(), &params.FieldsAlternativeDistributionKeys, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionKeys]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionKeys]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionKeysGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionPackageVersionsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionPackageVersionsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionPackageVersionsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageVersions]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageVariants]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageVariants]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageVariants, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageVariants]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageVariants]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageDeltas]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageDeltas]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageDeltas, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageDeltas]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageDeltas]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackages]", r.URL.Query(), &params.FieldsAlternativeDistributionPackages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[deltas]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[deltas]", r.URL.Query(), &params.LimitDeltas, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[deltas]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[deltas]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[variants]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[variants]", r.URL.Query(), &params.LimitVariants, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[variants]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[variants]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionPackageVersionsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionPackageVersionsDeltasGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionPackageVersionsDeltasGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionPackageVersionsDeltasGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageDeltas]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageDeltas]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageDeltas, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageDeltas]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageDeltas]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionPackageVersionsDeltasGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionPackageVersionsVariantsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionPackageVersionsVariantsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionPackageVersionsVariantsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageVariants]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageVariants]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageVariants, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageVariants]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageVariants]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionPackageVersionsVariantsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionPackagesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionPackagesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionPackagesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AlternativeDistributionPackagesVersionsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AlternativeDistributionPackagesVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AlternativeDistributionPackagesVersionsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageVersions]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageVariants]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageVariants]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageVariants, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageVariants]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageVariants]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageDeltas]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageDeltas]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageDeltas, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageDeltas]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageDeltas]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackages]", r.URL.Query(), &params.FieldsAlternativeDistributionPackages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[variants]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[variants]", r.URL.Query(), &params.LimitVariants, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[variants]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[variants]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[deltas]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[deltas]", r.URL.Query(), &params.LimitDeltas, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[deltas]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[deltas]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AlternativeDistributionPackagesVersionsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -230627,6 +237531,87 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionsUpdateInstance(w http.Respons
 	handler.ServeHTTP(w, r)
 }
 
+// AppStoreVersionsAlternativeDistributionPackageGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionsAlternativeDistributionPackageGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionsAlternativeDistributionPackageGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackages]", r.URL.Query(), &params.FieldsAlternativeDistributionPackages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[alternativeDistributionPackageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionPackageVersions]", r.URL.Query(), &params.FieldsAlternativeDistributionPackageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionPackageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionPackageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionsAlternativeDistributionPackageGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppStoreVersionsAppStoreReviewDetailGetToOneRelated operation middleware
 func (siw *ServerInterfaceWrapper) AppStoreVersionsAppStoreReviewDetailGetToOneRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -232538,6 +239523,48 @@ func (siw *ServerInterfaceWrapper) AppsUpdateInstance(w http.ResponseWriter, r *
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAlternativeDistributionKeyGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAlternativeDistributionKeyGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAlternativeDistributionKeyGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[alternativeDistributionKeys]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[alternativeDistributionKeys]", r.URL.Query(), &params.FieldsAlternativeDistributionKeys, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[alternativeDistributionKeys]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[alternativeDistributionKeys]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAlternativeDistributionKeyGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -234465,6 +241492,48 @@ func (siw *ServerInterfaceWrapper) AppsInAppPurchasesV2GetToManyRelated(w http.R
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsInAppPurchasesV2GetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsMarketplaceSearchDetailGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsMarketplaceSearchDetailGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsMarketplaceSearchDetailGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[marketplaceSearchDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[marketplaceSearchDetails]", r.URL.Query(), &params.FieldsMarketplaceSearchDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[marketplaceSearchDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[marketplaceSearchDetails]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsMarketplaceSearchDetailGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -241207,6 +248276,72 @@ func (siw *ServerInterfaceWrapper) InAppPurchaseVersionsLocalizationsGetToManyRe
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.InAppPurchaseVersionsLocalizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// MarketplaceSearchDetailsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) MarketplaceSearchDetailsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.MarketplaceSearchDetailsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// MarketplaceSearchDetailsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) MarketplaceSearchDetailsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.MarketplaceSearchDetailsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// MarketplaceSearchDetailsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) MarketplaceSearchDetailsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.MarketplaceSearchDetailsUpdateInstance(w, r, id)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -251003,6 +258138,19 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/accessibilityDeclarations/{id}", wrapper.AccessibilityDeclarationsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/accessibilityDeclarations/{id}", wrapper.AccessibilityDeclarationsUpdateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/ageRatingDeclarations/{id}", wrapper.AgeRatingDeclarationsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionDomains", wrapper.AlternativeDistributionDomainsGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/alternativeDistributionDomains", wrapper.AlternativeDistributionDomainsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/alternativeDistributionDomains/{id}", wrapper.AlternativeDistributionDomainsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionDomains/{id}", wrapper.AlternativeDistributionDomainsGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionKeys", wrapper.AlternativeDistributionKeysGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/alternativeDistributionKeys", wrapper.AlternativeDistributionKeysCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/alternativeDistributionKeys/{id}", wrapper.AlternativeDistributionKeysDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionKeys/{id}", wrapper.AlternativeDistributionKeysGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionPackageVersions/{id}", wrapper.AlternativeDistributionPackageVersionsGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionPackageVersions/{id}/deltas", wrapper.AlternativeDistributionPackageVersionsDeltasGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionPackageVersions/{id}/variants", wrapper.AlternativeDistributionPackageVersionsVariantsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/alternativeDistributionPackages", wrapper.AlternativeDistributionPackagesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/alternativeDistributionPackages/{id}/versions", wrapper.AlternativeDistributionPackagesVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails", wrapper.AndroidToIosAppMappingDetailsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/androidToIosAppMappingDetails/{id}", wrapper.AndroidToIosAppMappingDetailsGetInstance)
@@ -251136,6 +258284,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersions/{id}", wrapper.AppStoreVersionsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}", wrapper.AppStoreVersionsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersions/{id}", wrapper.AppStoreVersionsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/alternativeDistributionPackage", wrapper.AppStoreVersionsAlternativeDistributionPackageGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/appStoreReviewDetail", wrapper.AppStoreVersionsAppStoreReviewDetailGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/appStoreVersionLocalizations", wrapper.AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/appStoreVersionPhasedRelease", wrapper.AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated)
@@ -251146,6 +258295,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps", wrapper.AppsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/alternativeDistributionKey", wrapper.AppsAlternativeDistributionKeyGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appAvailabilityV2", wrapper.AppsAppAvailabilityV2GetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appClips", wrapper.AppsAppClipsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appCustomProductPages", wrapper.AppsAppCustomProductPagesGetToManyRelated)
@@ -251160,6 +258310,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/backgroundAssets", wrapper.AppsBackgroundAssetsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/inAppPurchasesV2", wrapper.AppsInAppPurchasesV2GetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/marketplaceSearchDetail", wrapper.AppsMarketplaceSearchDetailGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/promotedPurchases", wrapper.AppsPromotedPurchasesGetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}/relationships/promotedPurchases", wrapper.AppsPromotedPurchasesReplaceToManyRelationship)
@@ -251280,6 +258431,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseVersions", wrapper.InAppPurchaseVersionsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseVersions/{id}/image", wrapper.InAppPurchaseVersionsImageGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseVersions/{id}/localizations", wrapper.InAppPurchaseVersionsLocalizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/marketplaceSearchDetails", wrapper.MarketplaceSearchDetailsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/marketplaceSearchDetails/{id}", wrapper.MarketplaceSearchDetailsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/marketplaceSearchDetails/{id}", wrapper.MarketplaceSearchDetailsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/merchantIds", wrapper.MerchantIdsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/merchantIds", wrapper.MerchantIdsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/merchantIds/{id}", wrapper.MerchantIdsDeleteInstance)

@@ -65,31 +65,32 @@ type Server struct {
 	passTypeIDs  map[string]*gen.PassTypeId
 	apps         map[string]*gen.App
 	// certLimits caps the active certificates of a type.
-	certLimits  map[gen.CertificateType]int
-	tf          *testflight
-	users       *usersState
-	appInfos    map[string]*appInfo
-	appMeta     *appMetaState
-	versions    *versionsState
-	pricing     *pricingState
-	nominations *nominationsState
-	webhooks    map[string]*webhook
-	media       *mediaState
-	files       map[string]*uploadedFile
-	iap         *iapState
-	iapPricing  *iapPricingState
-	subs        *subscriptionsState
-	subPricing  *subscriptionPricingState
-	offers      *offersState
-	offerCodes  *offerCodesState
-	bg          *backgroundAssetsState
-	lib         *assetLibraryState
-	retention   *retentionState
-	events      *eventsState
-	pages       *productPagesState
-	experiments *experimentsState
-	clips       *appClipsState
-	advanced    *advancedClipsState
+	certLimits   map[gen.CertificateType]int
+	tf           *testflight
+	users        *usersState
+	appInfos     map[string]*appInfo
+	appMeta      *appMetaState
+	versions     *versionsState
+	pricing      *pricingState
+	nominations  *nominationsState
+	webhooks     map[string]*webhook
+	media        *mediaState
+	files        map[string]*uploadedFile
+	iap          *iapState
+	iapPricing   *iapPricingState
+	subs         *subscriptionsState
+	subPricing   *subscriptionPricingState
+	offers       *offersState
+	offerCodes   *offerCodesState
+	bg           *backgroundAssetsState
+	lib          *assetLibraryState
+	retention    *retentionState
+	events       *eventsState
+	pages        *productPagesState
+	experiments  *experimentsState
+	clips        *appClipsState
+	advanced     *advancedClipsState
+	distribution *distributionState
 
 	failNext map[string][]int
 	requests []string
@@ -143,6 +144,7 @@ func NewServer() *Server {
 		experiments:  newExperimentsState(),
 		clips:        newAppClipsState(),
 		advanced:     newAdvancedClipsState(),
+		distribution: newDistributionState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

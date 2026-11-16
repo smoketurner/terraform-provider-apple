@@ -21,6 +21,19 @@ output-options:
     - accessibilityDeclarations_getInstance
     - accessibilityDeclarations_updateInstance
     - ageRatingDeclarations_updateInstance
+    - alternativeDistributionDomains_createInstance
+    - alternativeDistributionDomains_deleteInstance
+    - alternativeDistributionDomains_getCollection
+    - alternativeDistributionDomains_getInstance
+    - alternativeDistributionKeys_createInstance
+    - alternativeDistributionKeys_deleteInstance
+    - alternativeDistributionKeys_getCollection
+    - alternativeDistributionKeys_getInstance
+    - alternativeDistributionPackageVersions_deltas_getToManyRelated
+    - alternativeDistributionPackageVersions_getInstance
+    - alternativeDistributionPackageVersions_variants_getToManyRelated
+    - alternativeDistributionPackages_createInstance
+    - alternativeDistributionPackages_versions_getToManyRelated
     - androidToIosAppMappingDetails_createInstance
     - androidToIosAppMappingDetails_deleteInstance
     - androidToIosAppMappingDetails_getInstance
@@ -157,6 +170,7 @@ output-options:
     - appStoreVersionPhasedReleases_updateInstance
     - appStoreVersionPromotions_createInstance
     - appStoreVersionReleaseRequests_createInstance
+    - appStoreVersions_alternativeDistributionPackage_getToOneRelated
     - appStoreVersions_appStoreReviewDetail_getToOneRelated
     - appStoreVersions_appStoreVersionLocalizations_getToManyRelated
     - appStoreVersions_appStoreVersionPhasedRelease_getToOneRelated
@@ -168,6 +182,7 @@ output-options:
     - appStoreVersions_routingAppCoverage_getToOneRelated
     - appStoreVersions_updateInstance
     - appTags_updateInstance
+    - apps_alternativeDistributionKey_getToOneRelated
     - apps_appAvailabilityV2_getToOneRelated
     - apps_appClips_getToManyRelated
     - apps_appCustomProductPages_getToManyRelated
@@ -185,6 +200,7 @@ output-options:
     - apps_getCollection
     - apps_getInstance
     - apps_inAppPurchasesV2_getToManyRelated
+    - apps_marketplaceSearchDetail_getToOneRelated
     - apps_promotedPurchases_getToManyRelated
     - apps_promotedPurchases_replaceToManyRelationship
     - apps_retentionMessages_getToManyRelated
@@ -321,6 +337,9 @@ output-options:
     - inAppPurchasesV2_pricePoints_getToManyRelated
     - inAppPurchasesV2_updateInstance
     - inAppPurchasesV2_versions_getToManyRelated
+    - marketplaceSearchDetails_createInstance
+    - marketplaceSearchDetails_deleteInstance
+    - marketplaceSearchDetails_updateInstance
     - merchantIds_certificates_getToManyRelated
     - merchantIds_createInstance
     - merchantIds_deleteInstance

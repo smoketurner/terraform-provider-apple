@@ -1,0 +1,1 @@
+terraform import apple_marketplace_search_detail.catalog 1234567890
