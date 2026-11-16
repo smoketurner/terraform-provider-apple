@@ -342,6 +342,12 @@ func (s *Server) AppStoreVersionsDeleteInstance(w http.ResponseWriter, _ *http.R
 		stateError(w, "Only a version in Prepare for Submission can be deleted.")
 		return
 	}
+	if v := s.versionGameCenterAppVersion(id); v != nil {
+		for other := range v.compatible {
+			delete(s.gameCenter.appVersions[other].compatible, v.id)
+		}
+		delete(s.gameCenter.appVersions, v.id)
+	}
 	delete(s.versions.versions, id)
 	w.WriteHeader(http.StatusNoContent)
 }

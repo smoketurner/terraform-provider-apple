@@ -184,6 +184,7 @@ output-options:
     - appStoreVersions_build_updateToOneRelationship
     - appStoreVersions_createInstance
     - appStoreVersions_deleteInstance
+    - appStoreVersions_gameCenterAppVersion_getToOneRelated
     - appStoreVersions_getInstance
     - appStoreVersions_routingAppCoverage_getToOneRelated
     - appStoreVersions_updateInstance
@@ -204,6 +205,7 @@ output-options:
     - apps_backgroundAssets_getToManyRelated
     - apps_betaTesters_deleteToManyRelationship
     - apps_endUserLicenseAgreement_getToOneRelated
+    - apps_gameCenterDetail_getToOneRelated
     - apps_getCollection
     - apps_getInstance
     - apps_inAppPurchasesV2_getToManyRelated
@@ -318,6 +320,19 @@ output-options:
     - endUserLicenseAgreements_deleteInstance
     - endUserLicenseAgreements_territories_getToManyRelationship
     - endUserLicenseAgreements_updateInstance
+    - gameCenterAppVersions_compatibilityVersions_createToManyRelationship
+    - gameCenterAppVersions_compatibilityVersions_deleteToManyRelationship
+    - gameCenterAppVersions_compatibilityVersions_getToManyRelationship
+    - gameCenterAppVersions_createInstance
+    - gameCenterAppVersions_updateInstance
+    - gameCenterDetails_createInstance
+    - gameCenterDetails_gameCenterAppVersions_getToManyRelated
+    - gameCenterDetails_updateInstance
+    - gameCenterGroups_createInstance
+    - gameCenterGroups_deleteInstance
+    - gameCenterGroups_getCollection
+    - gameCenterGroups_getInstance
+    - gameCenterGroups_updateInstance
     - inAppPurchaseAppStoreReviewScreenshots_createInstance
     - inAppPurchaseAppStoreReviewScreenshots_deleteInstance
     - inAppPurchaseAppStoreReviewScreenshots_getInstance
