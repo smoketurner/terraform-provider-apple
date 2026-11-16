@@ -155,6 +155,10 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 		newSubmitRetentionVersionAction,
 		newSubmitAppEventAction,
 		newSubmitProductPageAction,
+		newStartExperimentAction,
+		newStopExperimentAction,
+		newSubmitExperimentAction,
+		newPromoteTreatmentAction,
 		newSubmitSubscriptionAction,
 	}
 }
@@ -218,6 +222,9 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newProductPageResource,
 		newProductPageLocalizationResource,
 		newProductPageKeywordResource,
+		newExperimentResource,
+		newTreatmentResource,
+		newTreatmentLocalizationResource,
 		newAppEventResource,
 		newAppEventLocalizationResource,
 		newNominationResource,
@@ -258,6 +265,7 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newNominationsDataSource,
 		newAppEventsDataSource,
 		newProductPagesDataSource,
+		newExperimentsDataSource,
 		newSearchKeywordsDataSource,
 		newWebhooksDataSource,
 		newWebhookDeliveriesDataSource,

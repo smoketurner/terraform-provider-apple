@@ -6101,6 +6101,111 @@ func (e AppStoreVersionExperimentType) Valid() bool {
 	}
 }
 
+// Defines values for AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataType.
+const (
+	AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataTypeAppStoreVersionExperiments AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataType = "appStoreVersionExperiments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataType enum.
+func (e AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataTypeAppStoreVersionExperiments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataType.
+const (
+	AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataTypeAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataType = "appStoreVersionExperimentTreatmentLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataType enum.
+func (e AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataTypeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataType.
+const (
+	AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataTypeAppStoreVersionExperiments AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataType = "appStoreVersionExperiments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataType enum.
+func (e AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataTypeAppStoreVersionExperiments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentType.
+const (
+	AppStoreVersionExperimentTreatmentTypeAppStoreVersionExperimentTreatments AppStoreVersionExperimentTreatmentType = "appStoreVersionExperimentTreatments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentType enum.
+func (e AppStoreVersionExperimentTreatmentType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentTypeAppStoreVersionExperimentTreatments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataType.
+const (
+	AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataTypeAppStoreVersionExperiments AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataType = "appStoreVersionExperiments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataType enum.
+func (e AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataTypeAppStoreVersionExperiments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataType.
+const (
+	AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataTypeAppStoreVersionExperiments AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataType = "appStoreVersionExperiments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataType enum.
+func (e AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataTypeAppStoreVersionExperiments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentCreateRequestDataType.
+const (
+	AppStoreVersionExperimentTreatmentCreateRequestDataTypeAppStoreVersionExperimentTreatments AppStoreVersionExperimentTreatmentCreateRequestDataType = "appStoreVersionExperimentTreatments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentCreateRequestDataType enum.
+func (e AppStoreVersionExperimentTreatmentCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentCreateRequestDataTypeAppStoreVersionExperimentTreatments:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType.
 const (
 	AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataTypeAppPreviewSets AppStoreVersionExperimentTreatmentLocalizationRelationshipsAppPreviewSetsDataType = "appPreviewSets"
@@ -6170,6 +6275,66 @@ const (
 func (e AppStoreVersionExperimentTreatmentLocalizationType) Valid() bool {
 	switch e {
 	case AppStoreVersionExperimentTreatmentLocalizationTypeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataTypeAppStoreVersionExperimentTreatments AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType = "appStoreVersionExperimentTreatments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataTypeAppStoreVersionExperimentTreatments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataType.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataTypeAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataType = "appStoreVersionExperimentTreatmentLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataType enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataTypeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentUpdateRequestDataType.
+const (
+	AppStoreVersionExperimentTreatmentUpdateRequestDataTypeAppStoreVersionExperimentTreatments AppStoreVersionExperimentTreatmentUpdateRequestDataType = "appStoreVersionExperimentTreatments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentUpdateRequestDataType enum.
+func (e AppStoreVersionExperimentTreatmentUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentUpdateRequestDataTypeAppStoreVersionExperimentTreatments:
 		return true
 	default:
 		return false
@@ -6284,6 +6449,51 @@ const (
 func (e AppStoreVersionExperimentV2Type) Valid() bool {
 	switch e {
 	case AppStoreVersionExperimentV2TypeAppStoreVersionExperiments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataType.
+const (
+	AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataTypeApps AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataType enum.
+func (e AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentV2CreateRequestDataType.
+const (
+	AppStoreVersionExperimentV2CreateRequestDataTypeAppStoreVersionExperiments AppStoreVersionExperimentV2CreateRequestDataType = "appStoreVersionExperiments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentV2CreateRequestDataType enum.
+func (e AppStoreVersionExperimentV2CreateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentV2CreateRequestDataTypeAppStoreVersionExperiments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentV2UpdateRequestDataType.
+const (
+	AppStoreVersionExperimentV2UpdateRequestDataTypeAppStoreVersionExperiments AppStoreVersionExperimentV2UpdateRequestDataType = "appStoreVersionExperiments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentV2UpdateRequestDataType enum.
+func (e AppStoreVersionExperimentV2UpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentV2UpdateRequestDataTypeAppStoreVersionExperiments:
 		return true
 	default:
 		return false
@@ -6509,6 +6719,66 @@ const (
 func (e AppStoreVersionPhasedReleaseUpdateRequestDataType) Valid() bool {
 	switch e {
 	case AppStoreVersionPhasedReleaseUpdateRequestDataTypeAppStoreVersionPhasedReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionPromotionType.
+const (
+	AppStoreVersionPromotionTypeAppStoreVersionPromotions AppStoreVersionPromotionType = "appStoreVersionPromotions"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionPromotionType enum.
+func (e AppStoreVersionPromotionType) Valid() bool {
+	switch e {
+	case AppStoreVersionPromotionTypeAppStoreVersionPromotions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataType.
+const (
+	AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataType = "appStoreVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataType enum.
+func (e AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType.
+const (
+	AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataTypeAppStoreVersionExperimentTreatments AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType = "appStoreVersionExperimentTreatments"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType enum.
+func (e AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataTypeAppStoreVersionExperimentTreatments:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionPromotionCreateRequestDataType.
+const (
+	AppStoreVersionPromotionCreateRequestDataTypeAppStoreVersionPromotions AppStoreVersionPromotionCreateRequestDataType = "appStoreVersionPromotions"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionPromotionCreateRequestDataType enum.
+func (e AppStoreVersionPromotionCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppStoreVersionPromotionCreateRequestDataTypeAppStoreVersionPromotions:
 		return true
 	default:
 		return false
@@ -24725,6 +24995,198 @@ func (e AppStoreReviewAttachmentsGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon                                         AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appIcon"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName                                     AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appIconName"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment                       AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperiment"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentTreatmentLocalizations"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2                     AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentV2"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsName                                            AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "name"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate                                    AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "promotedDate"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsName:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppScreenshots                                 AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets = "appScreenshots"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsScreenshotDisplayType                          AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets = "screenshotDisplayType"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppScreenshots:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSetsScreenshotDisplayType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppPreviews                                    AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets = "appPreviews"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsPreviewType                                    AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets = "previewType"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppPreviews:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSetsPreviewType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage                                          AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "image"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludeAppPreviewSets                     AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludeAppScreenshotSets                  AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludeAppStoreVersionExperimentTreatment AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude = "appStoreVersionExperimentTreatment"
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludePlacements                         AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludeAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludeAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludeAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsIncludePlacements:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType.
 const (
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementTypeAPPPREVIEW                 AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFilterPlacementType = "APP_PREVIEW"
@@ -25181,6 +25643,327 @@ func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelate
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion:
 		return true
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments.
+const (
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon                                         AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appIcon"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName                                     AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appIconName"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment                       AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperiment"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentTreatmentLocalizations"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2                     AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentV2"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsName                                            AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "name"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate                                    AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "promotedDate"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments enum.
+func (e AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsName:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments.
+const (
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsApp                                 AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "app"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsAppStoreVersion                     AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "appStoreVersion"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsAppStoreVersionExperimentTreatments AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "appStoreVersionExperimentTreatments"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsControlVersions                     AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "controlVersions"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsEndDate                             AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "endDate"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsLatestControlVersion                AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "latestControlVersion"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsName                                AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "name"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsPlatform                            AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "platform"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsReviewRequired                      AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "reviewRequired"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsStartDate                           AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "startDate"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsState                               AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "state"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsTrafficProportion                   AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments = "trafficProportion"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments enum.
+func (e AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsApp:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsAppStoreVersion:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsAppStoreVersionExperimentTreatments:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsControlVersions:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsEndDate:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsLatestControlVersion:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsName:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsPlatform:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsReviewRequired:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsStartDate:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsState:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentsTrafficProportion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude.
+const (
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsIncludeAppStoreVersionExperiment                       AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude = "appStoreVersionExperiment"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude = "appStoreVersionExperimentTreatmentLocalizations"
+	AppStoreVersionExperimentTreatmentsGetInstanceParamsIncludeAppStoreVersionExperimentV2                     AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude = "appStoreVersionExperimentV2"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude enum.
+func (e AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsIncludeAppStoreVersionExperiment:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	case AppStoreVersionExperimentTreatmentsGetInstanceParamsIncludeAppStoreVersionExperimentV2:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations.
+const (
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets                     AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets                  AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "appStoreVersionExperimentTreatment"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale                             AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "locale"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements                         AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations enum.
+func (e AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsLocale:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizationsPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments.
+const (
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon                                         AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appIcon"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName                                     AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appIconName"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment                       AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperiment"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentTreatmentLocalizations"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2                     AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentV2"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsName                                            AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "name"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate                                    AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "promotedDate"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments enum.
+func (e AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsName:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets.
+const (
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots                                 AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appScreenshots"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType                          AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "screenshotDisplayType"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets enum.
+func (e AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets.
+const (
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews                                    AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appPreviews"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType                                    AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "previewType"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets enum.
+func (e AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude.
+const (
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludeAppPreviewSets                     AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude = "appPreviewSets"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludeAppScreenshotSets                  AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude = "appScreenshotSets"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatment AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatment"
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludePlacements                         AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude enum.
+func (e AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludeAppPreviewSets:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludeAppScreenshotSets:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatment:
+		return true
+	case AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsIncludePlacements:
 		return true
 	default:
 		return false
@@ -31784,6 +32567,417 @@ func (e AppsAppPriceScheduleGetToOneRelatedParamsInclude) Valid() bool {
 	case AppsAppPriceScheduleGetToOneRelatedParamsIncludeBaseTerritory:
 		return true
 	case AppsAppPriceScheduleGetToOneRelatedParamsIncludeManualPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState.
+const (
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateACCEPTED             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "ACCEPTED"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateAPPROVED             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "APPROVED"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateCOMPLETED            AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "COMPLETED"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateINREVIEW             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "IN_REVIEW"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "PREPARE_FOR_SUBMISSION"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateREADYFORREVIEW       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "READY_FOR_REVIEW"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateREJECTED             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "REJECTED"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateSTOPPED              AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "STOPPED"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateWAITINGFORREVIEW     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState enum.
+func (e AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateACCEPTED:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateAPPROVED:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateCOMPLETED:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateINREVIEW:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateREADYFORREVIEW:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateREJECTED:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateSTOPPED:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments.
+const (
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsApp                                 AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "app"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsAppStoreVersionExperimentTreatments AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "appStoreVersionExperimentTreatments"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsControlVersions                     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "controlVersions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsEndDate                             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "endDate"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsLatestControlVersion                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "latestControlVersion"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsName                                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "name"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsPlatform                            AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "platform"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsReviewRequired                      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "reviewRequired"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsStartDate                           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "startDate"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsState                               AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "state"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsTrafficProportion                   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments = "trafficProportion"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments enum.
+func (e AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments) Valid() bool {
+	switch e {
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsApp:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsAppStoreVersionExperimentTreatments:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsControlVersions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsEndDate:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsLatestControlVersion:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsName:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsPlatform:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsReviewRequired:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsStartDate:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsState:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentsTrafficProportion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps.
+const (
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAccessibilityDeclarations              AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAccessibilityUrl                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAlternativeDistributionKey             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAnalyticsReportRequests                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppAvailabilityV2                      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppClips                               AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appClips"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppCustomProductPages                  AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppEvents                              AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appEvents"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppInfos                               AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appInfos"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppPricePoints                         AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appPricePoints"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppPriceSchedule                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppStoreIcon                           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appStoreIcon"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppStoreVersions                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appStoreVersions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppTags                                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "appTags"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAssetLibrary                           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "assetLibrary"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBackgroundAssets                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "backgroundAssets"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaAppLocalizations                   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaGroups                             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "betaGroups"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaTesters                            AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "betaTesters"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBuildUploads                           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "buildUploads"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBuilds                                 AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "builds"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBundleId                               AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "bundleId"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsCiProduct                              AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "ciProduct"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsContentRightsDeclaration               AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsCustomerReviews                        AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "customerReviews"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsGameCenterDetail                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsInAppPurchases                         AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "inAppPurchases"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsInAppPurchasesV2                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsName                                   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "name"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPerfPowerMetrics                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPerformanceOverviews                   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "performanceOverviews"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "primaryLocale"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsRetentionMessages                      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "retentionMessages"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "searchKeywords"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSku                                    AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "sku"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionGroups                     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsWebhooks                               AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps enum.
+func (e AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsName:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsRetentionMessages:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSku:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions.
+const (
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "alternativeDistributionPackage"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsApp                            AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "app"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appClipDefaultExperience"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appStoreReviewDetail"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreState                  AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appStoreState"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperiments"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperimentsV2"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionLocalizations"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionPhasedRelease"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionSubmission"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppVersionState                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "appVersionState"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsBuild                          AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "build"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsCopyright                      AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "copyright"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsCreatedDate                    AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "createdDate"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsCustomerReviews                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "customerReviews"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsDownloadable                   AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "downloadable"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate            AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "earliestReleaseDate"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion           AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "gameCenterAppVersion"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsPlatform                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "platform"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsReleaseType                    AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "releaseType"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsReviewType                     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "reviewType"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage             AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "routingAppCoverage"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsUsesIdfa                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "usesIdfa"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsVersionString                  AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions = "versionString"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions enum.
+func (e AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions) Valid() bool {
+	switch e {
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsApp:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreState:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsAppVersionState:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsBuild:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsCopyright:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsCreatedDate:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsCustomerReviews:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsDownloadable:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsPlatform:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsReleaseType:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsReviewType:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsUsesIdfa:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionsVersionString:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments.
+const (
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon                                         AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appIcon"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName                                     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appIconName"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment                       AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperiment"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentTreatmentLocalizations"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2                     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentV2"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsName                                            AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "name"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate                                    AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments = "promotedDate"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments enum.
+func (e AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments) Valid() bool {
+	switch e {
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsName:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude.
+const (
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeApp                                 AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude = "app"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatments AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatments"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeControlVersions                     AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude = "controlVersions"
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeLatestControlVersion                AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude = "latestControlVersion"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude enum.
+func (e AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeApp:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatments:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeControlVersions:
+		return true
+	case AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsIncludeLatestControlVersion:
 		return true
 	default:
 		return false
@@ -50870,6 +52064,378 @@ func (e AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude)
 	}
 }
 
+// Defines values for AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments.
+const (
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsApp                                 AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "app"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsAppStoreVersionExperimentTreatments AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "appStoreVersionExperimentTreatments"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsControlVersions                     AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "controlVersions"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsEndDate                             AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "endDate"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsLatestControlVersion                AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "latestControlVersion"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsName                                AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "name"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsPlatform                            AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "platform"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsReviewRequired                      AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "reviewRequired"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsStartDate                           AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "startDate"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsState                               AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "state"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsTrafficProportion                   AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments = "trafficProportion"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments enum.
+func (e AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsApp:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsAppStoreVersionExperimentTreatments:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsControlVersions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsEndDate:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsLatestControlVersion:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsName:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsPlatform:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsReviewRequired:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsStartDate:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsState:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentsTrafficProportion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps.
+const (
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAccessibilityDeclarations              AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "accessibilityDeclarations"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAccessibilityUrl                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "accessibilityUrl"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAlternativeDistributionKey             AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "alternativeDistributionKey"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAnalyticsReportRequests                AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "analyticsReportRequests"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppAvailabilityV2                      AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appAvailabilityV2"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppClips                               AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appClips"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppCustomProductPages                  AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appCustomProductPages"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppEncryptionDeclarations              AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appEncryptionDeclarations"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppEvents                              AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appEvents"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppInfos                               AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appInfos"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppPricePoints                         AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appPricePoints"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppPriceSchedule                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appPriceSchedule"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppStoreIcon                           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appStoreIcon"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppStoreVersions                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appStoreVersions"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppTags                                AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "appTags"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAssetLibrary                           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "assetLibrary"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBackgroundAssets                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "backgroundAssets"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaAppLocalizations                   AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "betaAppLocalizations"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaAppReviewDetail                    AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "betaAppReviewDetail"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaGroups                             AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "betaGroups"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaLicenseAgreement                   AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "betaLicenseAgreement"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaTesters                            AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "betaTesters"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBuildUploads                           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "buildUploads"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBuilds                                 AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "builds"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBundleId                               AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "bundleId"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsCiProduct                              AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "ciProduct"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsContentRightsDeclaration               AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "contentRightsDeclaration"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsCustomerReviewSummarizations           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "customerReviewSummarizations"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsCustomerReviews                        AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "customerReviews"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsEndUserLicenseAgreement                AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "endUserLicenseAgreement"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsGameCenterDetail                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "gameCenterDetail"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsGameCenterEnabledVersions              AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsInAppPurchases                         AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "inAppPurchases"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsInAppPurchasesV2                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "inAppPurchasesV2"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsMarketplaceSearchDetail                AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "marketplaceSearchDetail"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsName                                   AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "name"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPerfPowerMetrics                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "perfPowerMetrics"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPerformanceOverviews                   AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "performanceOverviews"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPreReleaseVersions                     AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "preReleaseVersions"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPrimaryLocale                          AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "primaryLocale"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPromotedPurchases                      AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "promotedPurchases"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsRetentionMessages                      AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "retentionMessages"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsReviewSubmissions                      AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "reviewSubmissions"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSearchKeywords                         AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "searchKeywords"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSku                                    AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "sku"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionGracePeriod                AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "subscriptionGracePeriod"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionGroups                     AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "subscriptionGroups"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrl                  AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "subscriptionStatusUrl"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsWebhooks                               AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps enum.
+func (e AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppClips:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppEvents:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppInfos:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppPricePoints:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAppTags:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsAssetLibrary:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaGroups:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBetaTesters:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBuildUploads:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBuilds:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsBundleId:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsCiProduct:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsCustomerReviews:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsInAppPurchases:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsName:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsRetentionMessages:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSearchKeywords:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSku:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions.
+const (
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAlternativeDistributionPackage AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "alternativeDistributionPackage"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsApp                            AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "app"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppClipDefaultExperience       AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appClipDefaultExperience"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreReviewDetail           AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appStoreReviewDetail"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreState                  AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appStoreState"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperiments     AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appStoreVersionExperiments"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2   AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appStoreVersionExperimentsV2"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionLocalizations   AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appStoreVersionLocalizations"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease   AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appStoreVersionPhasedRelease"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionSubmission      AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appStoreVersionSubmission"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppVersionState                AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "appVersionState"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsBuild                          AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "build"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsCopyright                      AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "copyright"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsCreatedDate                    AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "createdDate"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsCustomerReviews                AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "customerReviews"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsDownloadable                   AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "downloadable"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsEarliestReleaseDate            AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "earliestReleaseDate"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsGameCenterAppVersion           AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "gameCenterAppVersion"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsPlatform                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "platform"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsReleaseType                    AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "releaseType"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsReviewType                     AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "reviewType"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsRoutingAppCoverage             AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "routingAppCoverage"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsUsesIdfa                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "usesIdfa"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsVersionString                  AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions = "versionString"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions enum.
+func (e AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAlternativeDistributionPackage:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsApp:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppClipDefaultExperience:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreReviewDetail:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreState:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperiments:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionLocalizations:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppStoreVersionSubmission:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsAppVersionState:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsBuild:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsCopyright:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsCreatedDate:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsCustomerReviews:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsDownloadable:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsEarliestReleaseDate:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsGameCenterAppVersion:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsPlatform:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsReleaseType:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsReviewType:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsRoutingAppCoverage:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsUsesIdfa:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionsVersionString:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments.
+const (
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon                                         AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appIcon"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName                                     AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appIconName"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment                       AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperiment"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentTreatmentLocalizations"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2                     AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "appStoreVersionExperimentV2"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsName                                            AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "name"
+	AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate                                    AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments = "promotedDate"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments enum.
+func (e AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIcon:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppIconName:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperiment:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizations:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentV2:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsName:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatmentsPromotedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionExperimentsV2GetInstanceParamsInclude.
+const (
+	AppStoreVersionExperimentsV2GetInstanceParamsIncludeApp                                 AppStoreVersionExperimentsV2GetInstanceParamsInclude = "app"
+	AppStoreVersionExperimentsV2GetInstanceParamsIncludeAppStoreVersionExperimentTreatments AppStoreVersionExperimentsV2GetInstanceParamsInclude = "appStoreVersionExperimentTreatments"
+	AppStoreVersionExperimentsV2GetInstanceParamsIncludeControlVersions                     AppStoreVersionExperimentsV2GetInstanceParamsInclude = "controlVersions"
+	AppStoreVersionExperimentsV2GetInstanceParamsIncludeLatestControlVersion                AppStoreVersionExperimentsV2GetInstanceParamsInclude = "latestControlVersion"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentsV2GetInstanceParamsInclude enum.
+func (e AppStoreVersionExperimentsV2GetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentsV2GetInstanceParamsIncludeApp:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsIncludeAppStoreVersionExperimentTreatments:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsIncludeControlVersions:
+		return true
+	case AppStoreVersionExperimentsV2GetInstanceParamsIncludeLatestControlVersion:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages.
 const (
 	InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImagesAssetDeliveryState InAppPurchaseImagesV2GetInstanceParamsFieldsInAppPurchaseImages = "assetDeliveryState"
@@ -56736,6 +58302,87 @@ type AppStoreVersionExperimentRelationshipsAppStoreVersionExperimentTreatmentsDa
 // AppStoreVersionExperimentType defines model for AppStoreVersionExperiment.Type.
 type AppStoreVersionExperimentType string
 
+// AppStoreVersionExperimentTreatment defines model for AppStoreVersionExperimentTreatment.
+type AppStoreVersionExperimentTreatment struct {
+	Attributes *struct {
+		AppIcon      *ImageAsset `json:"appIcon,omitempty"`
+		AppIconName  *string     `json:"appIconName,omitempty"`
+		Name         *string     `json:"name,omitempty"`
+		PromotedDate *DateTime   `json:"promotedDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppStoreVersionExperiment *struct {
+			Data *struct {
+				Id   string                                                                           `json:"id"`
+				Type AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersionExperiment,omitempty"`
+		AppStoreVersionExperimentTreatmentLocalizations *struct {
+			Data *[]struct {
+				Id   string                                                                                                 `json:"id"`
+				Type AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"appStoreVersionExperimentTreatmentLocalizations,omitempty"`
+		AppStoreVersionExperimentV2 *struct {
+			Data *struct {
+				Id   string                                                                             `json:"id"`
+				Type AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appStoreVersionExperimentV2,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppStoreVersionExperimentTreatmentType `json:"type"`
+}
+
+// AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataType defines model for AppStoreVersionExperimentTreatment.Relationships.AppStoreVersionExperiment.Data.Type.
+type AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentDataType string
+
+// AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataType defines model for AppStoreVersionExperimentTreatment.Relationships.AppStoreVersionExperimentTreatmentLocalizations.Data.Type.
+type AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentTreatmentLocalizationsDataType string
+
+// AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataType defines model for AppStoreVersionExperimentTreatment.Relationships.AppStoreVersionExperimentV2.Data.Type.
+type AppStoreVersionExperimentTreatmentRelationshipsAppStoreVersionExperimentV2DataType string
+
+// AppStoreVersionExperimentTreatmentType defines model for AppStoreVersionExperimentTreatment.Type.
+type AppStoreVersionExperimentTreatmentType string
+
+// AppStoreVersionExperimentTreatmentCreateRequest defines model for AppStoreVersionExperimentTreatmentCreateRequest.
+type AppStoreVersionExperimentTreatmentCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			AppIconName *string `json:"appIconName,omitempty"`
+			Name        string  `json:"name"`
+		} `json:"attributes"`
+		Relationships *struct {
+			AppStoreVersionExperiment *struct {
+				Data *struct {
+					Id   string                                                                                            `json:"id"`
+					Type AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appStoreVersionExperiment,omitempty"`
+			AppStoreVersionExperimentV2 *struct {
+				Data *struct {
+					Id   string                                                                                              `json:"id"`
+					Type AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appStoreVersionExperimentV2,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type AppStoreVersionExperimentTreatmentCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataType defines model for AppStoreVersionExperimentTreatmentCreateRequest.Data.Relationships.AppStoreVersionExperiment.Data.Type.
+type AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentDataType string
+
+// AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataType defines model for AppStoreVersionExperimentTreatmentCreateRequest.Data.Relationships.AppStoreVersionExperimentV2.Data.Type.
+type AppStoreVersionExperimentTreatmentCreateRequestDataRelationshipsAppStoreVersionExperimentV2DataType string
+
+// AppStoreVersionExperimentTreatmentCreateRequestDataType defines model for AppStoreVersionExperimentTreatmentCreateRequest.Data.Type.
+type AppStoreVersionExperimentTreatmentCreateRequestDataType string
+
 // AppStoreVersionExperimentTreatmentLocalization defines model for AppStoreVersionExperimentTreatmentLocalization.
 type AppStoreVersionExperimentTreatmentLocalization struct {
 	Attributes *struct {
@@ -56792,6 +58439,91 @@ type AppStoreVersionExperimentTreatmentLocalizationRelationshipsPlacementsDataTy
 
 // AppStoreVersionExperimentTreatmentLocalizationType defines model for AppStoreVersionExperimentTreatmentLocalization.Type.
 type AppStoreVersionExperimentTreatmentLocalizationType string
+
+// AppStoreVersionExperimentTreatmentLocalizationCreateRequest defines model for AppStoreVersionExperimentTreatmentLocalizationCreateRequest.
+type AppStoreVersionExperimentTreatmentLocalizationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Locale string `json:"locale"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppStoreVersionExperimentTreatment struct {
+				Data struct {
+					Id   string                                                                                                                 `json:"id"`
+					Type AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appStoreVersionExperimentTreatment"`
+			Placements *struct {
+				Data *[]struct {
+					Id   string                                                                                         `json:"id"`
+					Type AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"placements,omitempty"`
+		} `json:"relationships"`
+		Type AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType defines model for AppStoreVersionExperimentTreatmentLocalizationCreateRequest.Data.Relationships.AppStoreVersionExperimentTreatment.Data.Type.
+type AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType string
+
+// AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataType defines model for AppStoreVersionExperimentTreatmentLocalizationCreateRequest.Data.Relationships.Placements.Data.Type.
+type AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataRelationshipsPlacementsDataType string
+
+// AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataType defines model for AppStoreVersionExperimentTreatmentLocalizationCreateRequest.Data.Type.
+type AppStoreVersionExperimentTreatmentLocalizationCreateRequestDataType string
+
+// AppStoreVersionExperimentTreatmentLocalizationResponse defines model for AppStoreVersionExperimentTreatmentLocalizationResponse.
+type AppStoreVersionExperimentTreatmentLocalizationResponse struct {
+	Data     AppStoreVersionExperimentTreatmentLocalization                          `json:"data"`
+	Included *[]AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                                           `json:"links"`
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item defines model for AppStoreVersionExperimentTreatmentLocalizationResponse.included.Item.
+type AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsResponse defines model for AppStoreVersionExperimentTreatmentLocalizationsResponse.
+type AppStoreVersionExperimentTreatmentLocalizationsResponse struct {
+	Data     []AppStoreVersionExperimentTreatmentLocalization                         `json:"data"`
+	Included *[]AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                                       `json:"links"`
+	Meta     *PagingInformation                                                       `json:"meta,omitempty"`
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item defines model for AppStoreVersionExperimentTreatmentLocalizationsResponse.included.Item.
+type AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppStoreVersionExperimentTreatmentResponse defines model for AppStoreVersionExperimentTreatmentResponse.
+type AppStoreVersionExperimentTreatmentResponse struct {
+	Data     AppStoreVersionExperimentTreatment                          `json:"data"`
+	Included *[]AppStoreVersionExperimentTreatmentResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                               `json:"links"`
+}
+
+// AppStoreVersionExperimentTreatmentResponse_Included_Item defines model for AppStoreVersionExperimentTreatmentResponse.included.Item.
+type AppStoreVersionExperimentTreatmentResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppStoreVersionExperimentTreatmentUpdateRequest defines model for AppStoreVersionExperimentTreatmentUpdateRequest.
+type AppStoreVersionExperimentTreatmentUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			AppIconName *string `json:"appIconName,omitempty"`
+			Name        *string `json:"name,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                  `json:"id"`
+		Type AppStoreVersionExperimentTreatmentUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreVersionExperimentTreatmentUpdateRequestDataType defines model for AppStoreVersionExperimentTreatmentUpdateRequest.Data.Type.
+type AppStoreVersionExperimentTreatmentUpdateRequestDataType string
 
 // AppStoreVersionExperimentV2 defines model for AppStoreVersionExperimentV2.
 type AppStoreVersionExperimentV2 struct {
@@ -56855,6 +58587,73 @@ type AppStoreVersionExperimentV2RelationshipsLatestControlVersionDataType string
 
 // AppStoreVersionExperimentV2Type defines model for AppStoreVersionExperimentV2.Type.
 type AppStoreVersionExperimentV2Type string
+
+// AppStoreVersionExperimentV2CreateRequest defines model for AppStoreVersionExperimentV2CreateRequest.
+type AppStoreVersionExperimentV2CreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Name              string   `json:"name"`
+			Platform          Platform `json:"platform"`
+			TrafficProportion int      `json:"trafficProportion"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                               `json:"id"`
+					Type AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type AppStoreVersionExperimentV2CreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataType defines model for AppStoreVersionExperimentV2CreateRequest.Data.Relationships.App.Data.Type.
+type AppStoreVersionExperimentV2CreateRequestDataRelationshipsAppDataType string
+
+// AppStoreVersionExperimentV2CreateRequestDataType defines model for AppStoreVersionExperimentV2CreateRequest.Data.Type.
+type AppStoreVersionExperimentV2CreateRequestDataType string
+
+// AppStoreVersionExperimentV2Response defines model for AppStoreVersionExperimentV2Response.
+type AppStoreVersionExperimentV2Response struct {
+	Data     AppStoreVersionExperimentV2                          `json:"data"`
+	Included *[]AppStoreVersionExperimentV2Response_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                        `json:"links"`
+}
+
+// AppStoreVersionExperimentV2Response_Included_Item defines model for AppStoreVersionExperimentV2Response.included.Item.
+type AppStoreVersionExperimentV2Response_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppStoreVersionExperimentV2UpdateRequest defines model for AppStoreVersionExperimentV2UpdateRequest.
+type AppStoreVersionExperimentV2UpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Name              *string `json:"name,omitempty"`
+			Started           *bool   `json:"started,omitempty"`
+			TrafficProportion *int    `json:"trafficProportion,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                           `json:"id"`
+		Type AppStoreVersionExperimentV2UpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreVersionExperimentV2UpdateRequestDataType defines model for AppStoreVersionExperimentV2UpdateRequest.Data.Type.
+type AppStoreVersionExperimentV2UpdateRequestDataType string
+
+// AppStoreVersionExperimentsV2Response defines model for AppStoreVersionExperimentsV2Response.
+type AppStoreVersionExperimentsV2Response struct {
+	Data     []AppStoreVersionExperimentV2                         `json:"data"`
+	Included *[]AppStoreVersionExperimentsV2Response_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                    `json:"links"`
+	Meta     *PagingInformation                                    `json:"meta,omitempty"`
+}
+
+// AppStoreVersionExperimentsV2Response_Included_Item defines model for AppStoreVersionExperimentsV2Response.included.Item.
+type AppStoreVersionExperimentsV2Response_Included_Item struct {
+	union json.RawMessage
+}
 
 // AppStoreVersionLocalization defines model for AppStoreVersionLocalization.
 type AppStoreVersionLocalization struct {
@@ -57088,6 +58887,52 @@ type AppStoreVersionPhasedReleaseUpdateRequestDataType string
 type AppStoreVersionPhasedReleaseWithoutIncludesResponse struct {
 	Data  AppStoreVersionPhasedRelease `json:"data"`
 	Links DocumentLinks                `json:"links"`
+}
+
+// AppStoreVersionPromotion defines model for AppStoreVersionPromotion.
+type AppStoreVersionPromotion struct {
+	Id    string                       `json:"id"`
+	Links *ResourceLinks               `json:"links,omitempty"`
+	Type  AppStoreVersionPromotionType `json:"type"`
+}
+
+// AppStoreVersionPromotionType defines model for AppStoreVersionPromotion.Type.
+type AppStoreVersionPromotionType string
+
+// AppStoreVersionPromotionCreateRequest defines model for AppStoreVersionPromotionCreateRequest.
+type AppStoreVersionPromotionCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			AppStoreVersion struct {
+				Data struct {
+					Id   string                                                                        `json:"id"`
+					Type AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appStoreVersion"`
+			AppStoreVersionExperimentTreatment struct {
+				Data struct {
+					Id   string                                                                                           `json:"id"`
+					Type AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appStoreVersionExperimentTreatment"`
+		} `json:"relationships"`
+		Type AppStoreVersionPromotionCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataType defines model for AppStoreVersionPromotionCreateRequest.Data.Relationships.AppStoreVersion.Data.Type.
+type AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionDataType string
+
+// AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType defines model for AppStoreVersionPromotionCreateRequest.Data.Relationships.AppStoreVersionExperimentTreatment.Data.Type.
+type AppStoreVersionPromotionCreateRequestDataRelationshipsAppStoreVersionExperimentTreatmentDataType string
+
+// AppStoreVersionPromotionCreateRequestDataType defines model for AppStoreVersionPromotionCreateRequest.Data.Type.
+type AppStoreVersionPromotionCreateRequestDataType string
+
+// AppStoreVersionPromotionResponse defines model for AppStoreVersionPromotionResponse.
+type AppStoreVersionPromotionResponse struct {
+	Data  AppStoreVersionPromotion `json:"data"`
+	Links DocumentLinks            `json:"links"`
 }
 
 // AppStoreVersionReleaseRequest defines model for AppStoreVersionReleaseRequest.
@@ -67615,6 +69460,54 @@ type AppStoreReviewAttachmentsGetInstanceParamsFieldsAppStoreReviewDetails strin
 // AppStoreReviewAttachmentsGetInstanceParamsInclude defines parameters for AppStoreReviewAttachmentsGetInstance.
 type AppStoreReviewAttachmentsGetInstanceParamsInclude string
 
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams defines parameters for AppStoreVersionExperimentTreatmentLocalizationsGetInstance.
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams struct {
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatments the fields to include for returned resources of type appStoreVersionExperimentTreatments
+	FieldsAppStoreVersionExperimentTreatments *[]AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments `form:"fields[appStoreVersionExperimentTreatments],omitempty" json:"fields[appStoreVersionExperimentTreatments],omitempty"`
+
+	// FieldsAppScreenshotSets the fields to include for returned resources of type appScreenshotSets
+	FieldsAppScreenshotSets *[]AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets `form:"fields[appScreenshotSets],omitempty" json:"fields[appScreenshotSets],omitempty"`
+
+	// FieldsAppPreviewSets the fields to include for returned resources of type appPreviewSets
+	FieldsAppPreviewSets *[]AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets `form:"fields[appPreviewSets],omitempty" json:"fields[appPreviewSets],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppPreviewSets maximum number of related appPreviewSets returned (when they are included)
+	LimitAppPreviewSets *int `form:"limit[appPreviewSets],omitempty" json:"limit[appPreviewSets],omitempty"`
+
+	// LimitAppScreenshotSets maximum number of related appScreenshotSets returned (when they are included)
+	LimitAppScreenshotSets *int `form:"limit[appScreenshotSets],omitempty" json:"limit[appScreenshotSets],omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionExperimentTreatmentLocalizationsGetInstance.
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments defines parameters for AppStoreVersionExperimentTreatmentLocalizationsGetInstance.
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments string
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets defines parameters for AppStoreVersionExperimentTreatmentLocalizationsGetInstance.
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppScreenshotSets string
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets defines parameters for AppStoreVersionExperimentTreatmentLocalizationsGetInstance.
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppPreviewSets string
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements defines parameters for AppStoreVersionExperimentTreatmentLocalizationsGetInstance.
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements string
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude defines parameters for AppStoreVersionExperimentTreatmentLocalizationsGetInstance.
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParamsInclude string
+
 // AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
 type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams struct {
 	// FilterPlacementType filter by attribute 'placementType'
@@ -67713,6 +69606,90 @@ type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedPa
 
 // AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
 type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude string
+
+// AppStoreVersionExperimentTreatmentsGetInstanceParams defines parameters for AppStoreVersionExperimentTreatmentsGetInstance.
+type AppStoreVersionExperimentTreatmentsGetInstanceParams struct {
+	// FieldsAppStoreVersionExperimentTreatments the fields to include for returned resources of type appStoreVersionExperimentTreatments
+	FieldsAppStoreVersionExperimentTreatments *[]AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments `form:"fields[appStoreVersionExperimentTreatments],omitempty" json:"fields[appStoreVersionExperimentTreatments],omitempty"`
+
+	// FieldsAppStoreVersionExperiments the fields to include for returned resources of type appStoreVersionExperiments
+	FieldsAppStoreVersionExperiments *[]AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments `form:"fields[appStoreVersionExperiments],omitempty" json:"fields[appStoreVersionExperiments],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppStoreVersionExperimentTreatmentLocalizations maximum number of related appStoreVersionExperimentTreatmentLocalizations returned (when they are included)
+	LimitAppStoreVersionExperimentTreatmentLocalizations *int `form:"limit[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"limit[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+}
+
+// AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments defines parameters for AppStoreVersionExperimentTreatmentsGetInstance.
+type AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatments string
+
+// AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments defines parameters for AppStoreVersionExperimentTreatmentsGetInstance.
+type AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperiments string
+
+// AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionExperimentTreatmentsGetInstance.
+type AppStoreVersionExperimentTreatmentsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude defines parameters for AppStoreVersionExperimentTreatmentsGetInstance.
+type AppStoreVersionExperimentTreatmentsGetInstanceParamsInclude string
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams defines parameters for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams struct {
+	// FilterLocale filter by attribute 'locale'
+	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
+	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatments the fields to include for returned resources of type appStoreVersionExperimentTreatments
+	FieldsAppStoreVersionExperimentTreatments *[]AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments `form:"fields[appStoreVersionExperimentTreatments],omitempty" json:"fields[appStoreVersionExperimentTreatments],omitempty"`
+
+	// FieldsAppScreenshotSets the fields to include for returned resources of type appScreenshotSets
+	FieldsAppScreenshotSets *[]AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets `form:"fields[appScreenshotSets],omitempty" json:"fields[appScreenshotSets],omitempty"`
+
+	// FieldsAppPreviewSets the fields to include for returned resources of type appPreviewSets
+	FieldsAppPreviewSets *[]AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets `form:"fields[appPreviewSets],omitempty" json:"fields[appPreviewSets],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppScreenshotSets maximum number of related appScreenshotSets returned (when they are included)
+	LimitAppScreenshotSets *int `form:"limit[appScreenshotSets],omitempty" json:"limit[appScreenshotSets],omitempty"`
+
+	// LimitAppPreviewSets maximum number of related appPreviewSets returned (when they are included)
+	LimitAppPreviewSets *int `form:"limit[appPreviewSets],omitempty" json:"limit[appPreviewSets],omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments defines parameters for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments string
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets defines parameters for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets string
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets defines parameters for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets string
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParamsInclude string
 
 // AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams defines parameters for AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelated.
 type AppStoreVersionLocalizationsAppPreviewSetsGetToManyRelatedParams struct {
@@ -68875,6 +70852,54 @@ type AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppPrices string
 
 // AppsAppPriceScheduleGetToOneRelatedParamsInclude defines parameters for AppsAppPriceScheduleGetToOneRelated.
 type AppsAppPriceScheduleGetToOneRelatedParamsInclude string
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedParams defines parameters for AppsAppStoreVersionExperimentsV2GetToManyRelated.
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedParams struct {
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FieldsAppStoreVersionExperiments the fields to include for returned resources of type appStoreVersionExperiments
+	FieldsAppStoreVersionExperiments *[]AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments `form:"fields[appStoreVersionExperiments],omitempty" json:"fields[appStoreVersionExperiments],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
+	FieldsAppStoreVersions *[]AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions `form:"fields[appStoreVersions],omitempty" json:"fields[appStoreVersions],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatments the fields to include for returned resources of type appStoreVersionExperimentTreatments
+	FieldsAppStoreVersionExperimentTreatments *[]AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments `form:"fields[appStoreVersionExperimentTreatments],omitempty" json:"fields[appStoreVersionExperimentTreatments],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitControlVersions maximum number of related controlVersions returned (when they are included)
+	LimitControlVersions *int `form:"limit[controlVersions],omitempty" json:"limit[controlVersions],omitempty"`
+
+	// LimitAppStoreVersionExperimentTreatments maximum number of related appStoreVersionExperimentTreatments returned (when they are included)
+	LimitAppStoreVersionExperimentTreatments *int `form:"limit[appStoreVersionExperimentTreatments],omitempty" json:"limit[appStoreVersionExperimentTreatments],omitempty"`
+}
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState defines parameters for AppsAppStoreVersionExperimentsV2GetToManyRelated.
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFilterState string
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments defines parameters for AppsAppStoreVersionExperimentsV2GetToManyRelated.
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperiments string
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps defines parameters for AppsAppStoreVersionExperimentsV2GetToManyRelated.
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsApps string
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions defines parameters for AppsAppStoreVersionExperimentsV2GetToManyRelated.
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersions string
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments defines parameters for AppsAppStoreVersionExperimentsV2GetToManyRelated.
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatments string
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude defines parameters for AppsAppStoreVersionExperimentsV2GetToManyRelated.
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedParamsInclude string
 
 // AppsAppStoreVersionsGetToManyRelatedParams defines parameters for AppsAppStoreVersionsGetToManyRelated.
 type AppsAppStoreVersionsGetToManyRelatedParams struct {
@@ -72776,6 +74801,45 @@ type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsFieldsTerri
 // AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude defines parameters for AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated.
 type AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParamsInclude string
 
+// AppStoreVersionExperimentsV2GetInstanceParams defines parameters for AppStoreVersionExperimentsV2GetInstance.
+type AppStoreVersionExperimentsV2GetInstanceParams struct {
+	// FieldsAppStoreVersionExperiments the fields to include for returned resources of type appStoreVersionExperiments
+	FieldsAppStoreVersionExperiments *[]AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments `form:"fields[appStoreVersionExperiments],omitempty" json:"fields[appStoreVersionExperiments],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
+	FieldsAppStoreVersions *[]AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions `form:"fields[appStoreVersions],omitempty" json:"fields[appStoreVersions],omitempty"`
+
+	// FieldsAppStoreVersionExperimentTreatments the fields to include for returned resources of type appStoreVersionExperimentTreatments
+	FieldsAppStoreVersionExperimentTreatments *[]AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments `form:"fields[appStoreVersionExperimentTreatments],omitempty" json:"fields[appStoreVersionExperimentTreatments],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionExperimentsV2GetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppStoreVersionExperimentTreatments maximum number of related appStoreVersionExperimentTreatments returned (when they are included)
+	LimitAppStoreVersionExperimentTreatments *int `form:"limit[appStoreVersionExperimentTreatments],omitempty" json:"limit[appStoreVersionExperimentTreatments],omitempty"`
+
+	// LimitControlVersions maximum number of related controlVersions returned (when they are included)
+	LimitControlVersions *int `form:"limit[controlVersions],omitempty" json:"limit[controlVersions],omitempty"`
+}
+
+// AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments defines parameters for AppStoreVersionExperimentsV2GetInstance.
+type AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperiments string
+
+// AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps defines parameters for AppStoreVersionExperimentsV2GetInstance.
+type AppStoreVersionExperimentsV2GetInstanceParamsFieldsApps string
+
+// AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions defines parameters for AppStoreVersionExperimentsV2GetInstance.
+type AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersions string
+
+// AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments defines parameters for AppStoreVersionExperimentsV2GetInstance.
+type AppStoreVersionExperimentsV2GetInstanceParamsFieldsAppStoreVersionExperimentTreatments string
+
+// AppStoreVersionExperimentsV2GetInstanceParamsInclude defines parameters for AppStoreVersionExperimentsV2GetInstance.
+type AppStoreVersionExperimentsV2GetInstanceParamsInclude string
+
 // InAppPurchaseImagesV2GetInstanceParams defines parameters for InAppPurchaseImagesV2GetInstance.
 type InAppPurchaseImagesV2GetInstanceParams struct {
 	// FieldsInAppPurchaseImages the fields to include for returned resources of type inAppPurchaseImages
@@ -73208,6 +75272,15 @@ type AppStoreReviewDetailsCreateInstanceJSONRequestBody = AppStoreReviewDetailCr
 // AppStoreReviewDetailsUpdateInstanceJSONRequestBody defines body for AppStoreReviewDetailsUpdateInstance for application/json ContentType.
 type AppStoreReviewDetailsUpdateInstanceJSONRequestBody = AppStoreReviewDetailUpdateRequest
 
+// AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceJSONRequestBody defines body for AppStoreVersionExperimentTreatmentLocalizationsCreateInstance for application/json ContentType.
+type AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceJSONRequestBody = AppStoreVersionExperimentTreatmentLocalizationCreateRequest
+
+// AppStoreVersionExperimentTreatmentsCreateInstanceJSONRequestBody defines body for AppStoreVersionExperimentTreatmentsCreateInstance for application/json ContentType.
+type AppStoreVersionExperimentTreatmentsCreateInstanceJSONRequestBody = AppStoreVersionExperimentTreatmentCreateRequest
+
+// AppStoreVersionExperimentTreatmentsUpdateInstanceJSONRequestBody defines body for AppStoreVersionExperimentTreatmentsUpdateInstance for application/json ContentType.
+type AppStoreVersionExperimentTreatmentsUpdateInstanceJSONRequestBody = AppStoreVersionExperimentTreatmentUpdateRequest
+
 // AppStoreVersionLocalizationsCreateInstanceJSONRequestBody defines body for AppStoreVersionLocalizationsCreateInstance for application/json ContentType.
 type AppStoreVersionLocalizationsCreateInstanceJSONRequestBody = AppStoreVersionLocalizationCreateRequest
 
@@ -73225,6 +75298,9 @@ type AppStoreVersionPhasedReleasesCreateInstanceJSONRequestBody = AppStoreVersio
 
 // AppStoreVersionPhasedReleasesUpdateInstanceJSONRequestBody defines body for AppStoreVersionPhasedReleasesUpdateInstance for application/json ContentType.
 type AppStoreVersionPhasedReleasesUpdateInstanceJSONRequestBody = AppStoreVersionPhasedReleaseUpdateRequest
+
+// AppStoreVersionPromotionsCreateInstanceJSONRequestBody defines body for AppStoreVersionPromotionsCreateInstance for application/json ContentType.
+type AppStoreVersionPromotionsCreateInstanceJSONRequestBody = AppStoreVersionPromotionCreateRequest
 
 // AppStoreVersionReleaseRequestsCreateInstanceJSONRequestBody defines body for AppStoreVersionReleaseRequestsCreateInstance for application/json ContentType.
 type AppStoreVersionReleaseRequestsCreateInstanceJSONRequestBody = AppStoreVersionReleaseRequestCreateRequest
@@ -73573,6 +75649,12 @@ type WinBackOffersUpdateInstanceJSONRequestBody = WinBackOfferUpdateRequest
 
 // AppAvailabilitiesV2CreateInstanceJSONRequestBody defines body for AppAvailabilitiesV2CreateInstance for application/json ContentType.
 type AppAvailabilitiesV2CreateInstanceJSONRequestBody = AppAvailabilityV2CreateRequest
+
+// AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody defines body for AppStoreVersionExperimentsV2CreateInstance for application/json ContentType.
+type AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody = AppStoreVersionExperimentV2CreateRequest
+
+// AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody defines body for AppStoreVersionExperimentsV2UpdateInstance for application/json ContentType.
+type AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody = AppStoreVersionExperimentV2UpdateRequest
 
 // InAppPurchaseImagesV2CreateInstanceJSONRequestBody defines body for InAppPurchaseImagesV2CreateInstance for application/json ContentType.
 type InAppPurchaseImagesV2CreateInstanceJSONRequestBody = InAppPurchaseImageV2CreateRequest
@@ -79315,6 +81397,727 @@ func (t AppStoreReviewDetailResponse_Included_Item) MarshalJSON() ([]byte, error
 }
 
 func (t *AppStoreReviewDetailResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacement returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as a AppAssetLibraryPlacement
+func (t AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) AsAppAssetLibraryPlacement() (AppAssetLibraryPlacement, error) {
+	var body AppAssetLibraryPlacement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacement overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as the provided AppAssetLibraryPlacement
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) FromAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacement performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item, using the provided AppAssetLibraryPlacement
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) MergeAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppPreviewSet returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as a AppPreviewSet
+func (t AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) AsAppPreviewSet() (AppPreviewSet, error) {
+	var body AppPreviewSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPreviewSet overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as the provided AppPreviewSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) FromAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPreviewSet performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item, using the provided AppPreviewSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) MergeAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppScreenshotSet returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as a AppScreenshotSet
+func (t AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) AsAppScreenshotSet() (AppScreenshotSet, error) {
+	var body AppScreenshotSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppScreenshotSet overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as the provided AppScreenshotSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) FromAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppScreenshotSet performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item, using the provided AppScreenshotSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) MergeAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatment returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as a AppStoreVersionExperimentTreatment
+func (t AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) AsAppStoreVersionExperimentTreatment() (AppStoreVersionExperimentTreatment, error) {
+	var body AppStoreVersionExperimentTreatment
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatment overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item as the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) FromAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatment performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item, using the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) MergeAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryPlacements":
+		return t.AsAppAssetLibraryPlacement()
+	case "appPreviewSets":
+		return t.AsAppPreviewSet()
+	case "appScreenshotSets":
+		return t.AsAppScreenshotSet()
+	case "appStoreVersionExperimentTreatments":
+		return t.AsAppStoreVersionExperimentTreatment()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppStoreVersionExperimentTreatmentLocalizationResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacement returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as a AppAssetLibraryPlacement
+func (t AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) AsAppAssetLibraryPlacement() (AppAssetLibraryPlacement, error) {
+	var body AppAssetLibraryPlacement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacement overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as the provided AppAssetLibraryPlacement
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) FromAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacement performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item, using the provided AppAssetLibraryPlacement
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) MergeAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppPreviewSet returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as a AppPreviewSet
+func (t AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) AsAppPreviewSet() (AppPreviewSet, error) {
+	var body AppPreviewSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPreviewSet overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as the provided AppPreviewSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) FromAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPreviewSet performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item, using the provided AppPreviewSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) MergeAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppScreenshotSet returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as a AppScreenshotSet
+func (t AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) AsAppScreenshotSet() (AppScreenshotSet, error) {
+	var body AppScreenshotSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppScreenshotSet overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as the provided AppScreenshotSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) FromAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppScreenshotSet performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item, using the provided AppScreenshotSet
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) MergeAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatment returns the union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as a AppStoreVersionExperimentTreatment
+func (t AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) AsAppStoreVersionExperimentTreatment() (AppStoreVersionExperimentTreatment, error) {
+	var body AppStoreVersionExperimentTreatment
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatment overwrites any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item as the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) FromAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatment performs a merge with any union data inside the AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item, using the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) MergeAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryPlacements":
+		return t.AsAppAssetLibraryPlacement()
+	case "appPreviewSets":
+		return t.AsAppPreviewSet()
+	case "appScreenshotSets":
+		return t.AsAppScreenshotSet()
+	case "appStoreVersionExperimentTreatments":
+		return t.AsAppStoreVersionExperimentTreatment()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppStoreVersionExperimentTreatmentLocalizationsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatmentLocalization returns the union data inside the AppStoreVersionExperimentTreatmentResponse_Included_Item as a AppStoreVersionExperimentTreatmentLocalization
+func (t AppStoreVersionExperimentTreatmentResponse_Included_Item) AsAppStoreVersionExperimentTreatmentLocalization() (AppStoreVersionExperimentTreatmentLocalization, error) {
+	var body AppStoreVersionExperimentTreatmentLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatmentLocalization overwrites any union data inside the AppStoreVersionExperimentTreatmentResponse_Included_Item as the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppStoreVersionExperimentTreatmentResponse_Included_Item) FromAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatmentLocalization performs a merge with any union data inside the AppStoreVersionExperimentTreatmentResponse_Included_Item, using the provided AppStoreVersionExperimentTreatmentLocalization
+func (t *AppStoreVersionExperimentTreatmentResponse_Included_Item) MergeAppStoreVersionExperimentTreatmentLocalization(v AppStoreVersionExperimentTreatmentLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatmentLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersionExperiment returns the union data inside the AppStoreVersionExperimentTreatmentResponse_Included_Item as a AppStoreVersionExperiment
+func (t AppStoreVersionExperimentTreatmentResponse_Included_Item) AsAppStoreVersionExperiment() (AppStoreVersionExperiment, error) {
+	var body AppStoreVersionExperiment
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperiment overwrites any union data inside the AppStoreVersionExperimentTreatmentResponse_Included_Item as the provided AppStoreVersionExperiment
+func (t *AppStoreVersionExperimentTreatmentResponse_Included_Item) FromAppStoreVersionExperiment(v AppStoreVersionExperiment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperiments"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperiment performs a merge with any union data inside the AppStoreVersionExperimentTreatmentResponse_Included_Item, using the provided AppStoreVersionExperiment
+func (t *AppStoreVersionExperimentTreatmentResponse_Included_Item) MergeAppStoreVersionExperiment(v AppStoreVersionExperiment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperiments"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppStoreVersionExperimentTreatmentResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppStoreVersionExperimentTreatmentResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appStoreVersionExperimentTreatmentLocalizations":
+		return t.AsAppStoreVersionExperimentTreatmentLocalization()
+	case "appStoreVersionExperiments":
+		return t.AsAppStoreVersionExperiment()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppStoreVersionExperimentTreatmentResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppStoreVersionExperimentTreatmentResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatment returns the union data inside the AppStoreVersionExperimentV2Response_Included_Item as a AppStoreVersionExperimentTreatment
+func (t AppStoreVersionExperimentV2Response_Included_Item) AsAppStoreVersionExperimentTreatment() (AppStoreVersionExperimentTreatment, error) {
+	var body AppStoreVersionExperimentTreatment
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatment overwrites any union data inside the AppStoreVersionExperimentV2Response_Included_Item as the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentV2Response_Included_Item) FromAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatment performs a merge with any union data inside the AppStoreVersionExperimentV2Response_Included_Item, using the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentV2Response_Included_Item) MergeAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersion returns the union data inside the AppStoreVersionExperimentV2Response_Included_Item as a AppStoreVersion
+func (t AppStoreVersionExperimentV2Response_Included_Item) AsAppStoreVersion() (AppStoreVersion, error) {
+	var body AppStoreVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersion overwrites any union data inside the AppStoreVersionExperimentV2Response_Included_Item as the provided AppStoreVersion
+func (t *AppStoreVersionExperimentV2Response_Included_Item) FromAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersion performs a merge with any union data inside the AppStoreVersionExperimentV2Response_Included_Item, using the provided AppStoreVersion
+func (t *AppStoreVersionExperimentV2Response_Included_Item) MergeAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the AppStoreVersionExperimentV2Response_Included_Item as a App
+func (t AppStoreVersionExperimentV2Response_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppStoreVersionExperimentV2Response_Included_Item as the provided App
+func (t *AppStoreVersionExperimentV2Response_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppStoreVersionExperimentV2Response_Included_Item, using the provided App
+func (t *AppStoreVersionExperimentV2Response_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppStoreVersionExperimentV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppStoreVersionExperimentV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appStoreVersionExperimentTreatments":
+		return t.AsAppStoreVersionExperimentTreatment()
+	case "appStoreVersions":
+		return t.AsAppStoreVersion()
+	case "apps":
+		return t.AsApp()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppStoreVersionExperimentV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppStoreVersionExperimentV2Response_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppStoreVersionExperimentTreatment returns the union data inside the AppStoreVersionExperimentsV2Response_Included_Item as a AppStoreVersionExperimentTreatment
+func (t AppStoreVersionExperimentsV2Response_Included_Item) AsAppStoreVersionExperimentTreatment() (AppStoreVersionExperimentTreatment, error) {
+	var body AppStoreVersionExperimentTreatment
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersionExperimentTreatment overwrites any union data inside the AppStoreVersionExperimentsV2Response_Included_Item as the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentsV2Response_Included_Item) FromAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersionExperimentTreatment performs a merge with any union data inside the AppStoreVersionExperimentsV2Response_Included_Item, using the provided AppStoreVersionExperimentTreatment
+func (t *AppStoreVersionExperimentsV2Response_Included_Item) MergeAppStoreVersionExperimentTreatment(v AppStoreVersionExperimentTreatment) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersionExperimentTreatments"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppStoreVersion returns the union data inside the AppStoreVersionExperimentsV2Response_Included_Item as a AppStoreVersion
+func (t AppStoreVersionExperimentsV2Response_Included_Item) AsAppStoreVersion() (AppStoreVersion, error) {
+	var body AppStoreVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersion overwrites any union data inside the AppStoreVersionExperimentsV2Response_Included_Item as the provided AppStoreVersion
+func (t *AppStoreVersionExperimentsV2Response_Included_Item) FromAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersion performs a merge with any union data inside the AppStoreVersionExperimentsV2Response_Included_Item, using the provided AppStoreVersion
+func (t *AppStoreVersionExperimentsV2Response_Included_Item) MergeAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the AppStoreVersionExperimentsV2Response_Included_Item as a App
+func (t AppStoreVersionExperimentsV2Response_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppStoreVersionExperimentsV2Response_Included_Item as the provided App
+func (t *AppStoreVersionExperimentsV2Response_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppStoreVersionExperimentsV2Response_Included_Item, using the provided App
+func (t *AppStoreVersionExperimentsV2Response_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppStoreVersionExperimentsV2Response_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppStoreVersionExperimentsV2Response_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appStoreVersionExperimentTreatments":
+		return t.AsAppStoreVersionExperimentTreatment()
+	case "appStoreVersions":
+		return t.AsAppStoreVersion()
+	case "apps":
+		return t.AsApp()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppStoreVersionExperimentsV2Response_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppStoreVersionExperimentsV2Response_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -91720,8 +94523,47 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppStoreReviewDetailsUpdateInstance(ctx context.Context, id string, body AppStoreReviewDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBody performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentLocalizationsCreateInstance performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionExperimentTreatmentLocalizationsCreateInstance(ctx context.Context, body AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance performs a DELETE /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance` operationId) request.
+	AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentLocalizationsGetInstance performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsGetInstance` operationId) request.
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstance(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentsCreateInstanceWithBody performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionExperimentTreatmentsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentsCreateInstance performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionExperimentTreatmentsCreateInstance(ctx context.Context, body AppStoreVersionExperimentTreatmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentsDeleteInstance performs a DELETE /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsDeleteInstance` operationId) request.
+	AppStoreVersionExperimentTreatmentsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentsGetInstance performs a GET /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsGetInstance` operationId) request.
+	AppStoreVersionExperimentTreatmentsGetInstance(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentsUpdateInstanceWithBody performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionExperimentTreatmentsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentsUpdateInstance performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionExperimentTreatmentsUpdateInstance(ctx context.Context, id string, body AppStoreVersionExperimentTreatmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated performs a GET /v1/appStoreVersionExperimentTreatments/{id}/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated` operationId) request.
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppStoreVersionLocalizationsCreateInstanceWithBody performs a POST /v1/appStoreVersionLocalizations (the `AppStoreVersionLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -91788,6 +94630,14 @@ type ClientInterface interface {
 	// AppStoreVersionPhasedReleasesUpdateInstance performs a PATCH /v1/appStoreVersionPhasedReleases/{id} (the `AppStoreVersionPhasedReleasesUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	AppStoreVersionPhasedReleasesUpdateInstance(ctx context.Context, id string, body AppStoreVersionPhasedReleasesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionPromotionsCreateInstanceWithBody performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionPromotionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionPromotionsCreateInstance performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionPromotionsCreateInstance(ctx context.Context, body AppStoreVersionPromotionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppStoreVersionReleaseRequestsCreateInstanceWithBody performs a POST /v1/appStoreVersionReleaseRequests (the `AppStoreVersionReleaseRequestsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -91881,6 +94731,9 @@ type ClientInterface interface {
 
 	// AppsAppPriceScheduleGetToOneRelated performs a GET /v1/apps/{id}/appPriceSchedule (the `AppsAppPriceScheduleGetToOneRelated` operationId) request.
 	AppsAppPriceScheduleGetToOneRelated(ctx context.Context, id string, params *AppsAppPriceScheduleGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAppStoreVersionExperimentsV2GetToManyRelated performs a GET /v1/apps/{id}/appStoreVersionExperimentsV2 (the `AppsAppStoreVersionExperimentsV2GetToManyRelated` operationId) request.
+	AppsAppStoreVersionExperimentsV2GetToManyRelated(ctx context.Context, id string, params *AppsAppStoreVersionExperimentsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsAppStoreVersionsGetToManyRelated performs a GET /v1/apps/{id}/appStoreVersions (the `AppsAppStoreVersionsGetToManyRelated` operationId) request.
 	AppsAppStoreVersionsGetToManyRelated(ctx context.Context, id string, params *AppsAppStoreVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -93187,6 +96040,28 @@ type ClientInterface interface {
 
 	// AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
 	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentsV2CreateInstanceWithBody performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionExperimentsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentsV2CreateInstance performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionExperimentsV2CreateInstance(ctx context.Context, body AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentsV2DeleteInstance performs a DELETE /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2DeleteInstance` operationId) request.
+	AppStoreVersionExperimentsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentsV2GetInstance performs a GET /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2GetInstance` operationId) request.
+	AppStoreVersionExperimentsV2GetInstance(ctx context.Context, id string, params *AppStoreVersionExperimentsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentsV2UpdateInstanceWithBody performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppStoreVersionExperimentsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppStoreVersionExperimentsV2UpdateInstance performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppStoreVersionExperimentsV2UpdateInstance(ctx context.Context, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// InAppPurchaseImagesV2CreateInstanceWithBody performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -95110,9 +97985,158 @@ func (c *Client) AppStoreReviewDetailsUpdateInstance(ctx context.Context, id str
 	return c.Client.Do(req)
 }
 
+// AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBody performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsCreateInstance performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionExperimentTreatmentLocalizationsCreateInstance(ctx context.Context, body AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance performs a DELETE /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance` operationId) request.
+func (c *Client) AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstance performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsGetInstance` operationId) request.
+func (c *Client) AppStoreVersionExperimentTreatmentLocalizationsGetInstance(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentLocalizationsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
 func (c *Client) AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentsCreateInstanceWithBody performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionExperimentTreatmentsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentsCreateInstance performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionExperimentTreatmentsCreateInstance(ctx context.Context, body AppStoreVersionExperimentTreatmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentsDeleteInstance performs a DELETE /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsDeleteInstance` operationId) request.
+func (c *Client) AppStoreVersionExperimentTreatmentsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentsGetInstance performs a GET /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsGetInstance` operationId) request.
+func (c *Client) AppStoreVersionExperimentTreatmentsGetInstance(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentsUpdateInstanceWithBody performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionExperimentTreatmentsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentsUpdateInstance performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionExperimentTreatmentsUpdateInstance(ctx context.Context, id string, body AppStoreVersionExperimentTreatmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated performs a GET /v1/appStoreVersionExperimentTreatments/{id}/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated` operationId) request.
+func (c *Client) AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -95359,6 +98383,34 @@ func (c *Client) AppStoreVersionPhasedReleasesUpdateInstanceWithBody(ctx context
 // Takes a body of the `application/json` content type.
 func (c *Client) AppStoreVersionPhasedReleasesUpdateInstance(ctx context.Context, id string, body AppStoreVersionPhasedReleasesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionPhasedReleasesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionPromotionsCreateInstanceWithBody performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionPromotionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionPromotionsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionPromotionsCreateInstance performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionPromotionsCreateInstance(ctx context.Context, body AppStoreVersionPromotionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionPromotionsCreateInstanceRequest(c.Server, body)
 	if err != nil {
 		return nil, err
 	}
@@ -95722,6 +98774,19 @@ func (c *Client) AppsAppPricePointsGetToManyRelated(ctx context.Context, id stri
 // AppsAppPriceScheduleGetToOneRelated performs a GET /v1/apps/{id}/appPriceSchedule (the `AppsAppPriceScheduleGetToOneRelated` operationId) request.
 func (c *Client) AppsAppPriceScheduleGetToOneRelated(ctx context.Context, id string, params *AppsAppPriceScheduleGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsAppPriceScheduleGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelated performs a GET /v1/apps/{id}/appStoreVersionExperimentsV2 (the `AppsAppStoreVersionExperimentsV2GetToManyRelated` operationId) request.
+func (c *Client) AppsAppStoreVersionExperimentsV2GetToManyRelated(ctx context.Context, id string, params *AppsAppStoreVersionExperimentsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppStoreVersionExperimentsV2GetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -100648,6 +103713,88 @@ func (c *Client) AppAvailabilitiesV2CreateInstance(ctx context.Context, body App
 // AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated performs a GET /v2/appAvailabilities/{id}/territoryAvailabilities (the `AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated` operationId) request.
 func (c *Client) AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentsV2CreateInstanceWithBody performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionExperimentsV2CreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentsV2CreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentsV2CreateInstance performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionExperimentsV2CreateInstance(ctx context.Context, body AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentsV2CreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentsV2DeleteInstance performs a DELETE /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2DeleteInstance` operationId) request.
+func (c *Client) AppStoreVersionExperimentsV2DeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentsV2DeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentsV2GetInstance performs a GET /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2GetInstance` operationId) request.
+func (c *Client) AppStoreVersionExperimentsV2GetInstance(ctx context.Context, id string, params *AppStoreVersionExperimentsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentsV2GetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentsV2UpdateInstanceWithBody performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppStoreVersionExperimentsV2UpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentsV2UpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppStoreVersionExperimentsV2UpdateInstance performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppStoreVersionExperimentsV2UpdateInstance(ctx context.Context, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionExperimentsV2UpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -107646,6 +110793,237 @@ func NewAppStoreReviewDetailsUpdateInstanceRequestWithBody(server string, id str
 	return req, nil
 }
 
+// NewAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceRequest calls the generic AppStoreVersionExperimentTreatmentLocalizationsCreateInstance builder with application/json body
+func NewAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceRequest(server string, body AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceRequestWithBody constructs an http.Request for the AppStoreVersionExperimentTreatmentLocalizationsCreateInstance method, with any body, and a specified content type
+func NewAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatmentLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceRequest constructs an http.Request for the AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance method
+func NewAppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatmentLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentTreatmentLocalizationsGetInstanceRequest constructs an http.Request for the AppStoreVersionExperimentTreatmentLocalizationsGetInstance method
+func NewAppStoreVersionExperimentTreatmentLocalizationsGetInstanceRequest(server string, id string, params *AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatmentLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatments]", *params.FieldsAppStoreVersionExperimentTreatments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshotSets]", *params.FieldsAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviewSets]", *params.FieldsAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appPreviewSets]", *params.LimitAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appScreenshotSets]", *params.LimitAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedRequest constructs an http.Request for the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated method
 func NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedRequest(server string, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams) (*http.Request, error) {
 	var err error
@@ -107912,6 +111290,417 @@ func NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelate
 		if params.Include != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentTreatmentsCreateInstanceRequest calls the generic AppStoreVersionExperimentTreatmentsCreateInstance builder with application/json body
+func NewAppStoreVersionExperimentTreatmentsCreateInstanceRequest(server string, body AppStoreVersionExperimentTreatmentsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionExperimentTreatmentsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionExperimentTreatmentsCreateInstanceRequestWithBody constructs an http.Request for the AppStoreVersionExperimentTreatmentsCreateInstance method, with any body, and a specified content type
+func NewAppStoreVersionExperimentTreatmentsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatments")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentTreatmentsDeleteInstanceRequest constructs an http.Request for the AppStoreVersionExperimentTreatmentsDeleteInstance method
+func NewAppStoreVersionExperimentTreatmentsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentTreatmentsGetInstanceRequest constructs an http.Request for the AppStoreVersionExperimentTreatmentsGetInstance method
+func NewAppStoreVersionExperimentTreatmentsGetInstanceRequest(server string, id string, params *AppStoreVersionExperimentTreatmentsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppStoreVersionExperimentTreatments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatments]", *params.FieldsAppStoreVersionExperimentTreatments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperiments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperiments]", *params.FieldsAppStoreVersionExperiments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appStoreVersionExperimentTreatmentLocalizations]", *params.LimitAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentTreatmentsUpdateInstanceRequest calls the generic AppStoreVersionExperimentTreatmentsUpdateInstance builder with application/json body
+func NewAppStoreVersionExperimentTreatmentsUpdateInstanceRequest(server string, id string, body AppStoreVersionExperimentTreatmentsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionExperimentTreatmentsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionExperimentTreatmentsUpdateInstanceRequestWithBody constructs an http.Request for the AppStoreVersionExperimentTreatmentsUpdateInstance method, with any body, and a specified content type
+func NewAppStoreVersionExperimentTreatmentsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedRequest constructs an http.Request for the AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated method
+func NewAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedRequest(server string, id string, params *AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionExperimentTreatments/%s/appStoreVersionExperimentTreatmentLocalizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatments]", *params.FieldsAppStoreVersionExperimentTreatments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshotSets]", *params.FieldsAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviewSets]", *params.FieldsAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appScreenshotSets]", *params.LimitAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appPreviewSets]", *params.LimitAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -109010,6 +112799,46 @@ func NewAppStoreVersionPhasedReleasesUpdateInstanceRequestWithBody(server string
 	}
 
 	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionPromotionsCreateInstanceRequest calls the generic AppStoreVersionPromotionsCreateInstance builder with application/json body
+func NewAppStoreVersionPromotionsCreateInstanceRequest(server string, body AppStoreVersionPromotionsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionPromotionsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionPromotionsCreateInstanceRequestWithBody constructs an http.Request for the AppStoreVersionPromotionsCreateInstance method, with any body, and a specified content type
+func NewAppStoreVersionPromotionsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersionPromotions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
 	if err != nil {
 		return nil, err
 	}
@@ -112146,6 +115975,163 @@ func NewAppsAppPriceScheduleGetToOneRelatedRequest(server string, id string, par
 		if params.LimitAutomaticPrices != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[automaticPrices]", *params.LimitAutomaticPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsAppStoreVersionExperimentsV2GetToManyRelatedRequest constructs an http.Request for the AppsAppStoreVersionExperimentsV2GetToManyRelated method
+func NewAppsAppStoreVersionExperimentsV2GetToManyRelatedRequest(server string, id string, params *AppsAppStoreVersionExperimentsV2GetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appStoreVersionExperimentsV2", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperiments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperiments]", *params.FieldsAppStoreVersionExperiments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersions]", *params.FieldsAppStoreVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatments]", *params.FieldsAppStoreVersionExperimentTreatments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitControlVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[controlVersions]", *params.LimitControlVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppStoreVersionExperimentTreatments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appStoreVersionExperimentTreatments]", *params.LimitAppStoreVersionExperimentTreatments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -131976,6 +135962,260 @@ func NewAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedRequest(server
 	return req, nil
 }
 
+// NewAppStoreVersionExperimentsV2CreateInstanceRequest calls the generic AppStoreVersionExperimentsV2CreateInstance builder with application/json body
+func NewAppStoreVersionExperimentsV2CreateInstanceRequest(server string, body AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionExperimentsV2CreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionExperimentsV2CreateInstanceRequestWithBody constructs an http.Request for the AppStoreVersionExperimentsV2CreateInstance method, with any body, and a specified content type
+func NewAppStoreVersionExperimentsV2CreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/appStoreVersionExperiments")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentsV2DeleteInstanceRequest constructs an http.Request for the AppStoreVersionExperimentsV2DeleteInstance method
+func NewAppStoreVersionExperimentsV2DeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/appStoreVersionExperiments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentsV2GetInstanceRequest constructs an http.Request for the AppStoreVersionExperimentsV2GetInstance method
+func NewAppStoreVersionExperimentsV2GetInstanceRequest(server string, id string, params *AppStoreVersionExperimentsV2GetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/appStoreVersionExperiments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppStoreVersionExperiments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperiments]", *params.FieldsAppStoreVersionExperiments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersions]", *params.FieldsAppStoreVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersionExperimentTreatments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatments]", *params.FieldsAppStoreVersionExperimentTreatments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppStoreVersionExperimentTreatments != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appStoreVersionExperimentTreatments]", *params.LimitAppStoreVersionExperimentTreatments, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitControlVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[controlVersions]", *params.LimitControlVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppStoreVersionExperimentsV2UpdateInstanceRequest calls the generic AppStoreVersionExperimentsV2UpdateInstance builder with application/json body
+func NewAppStoreVersionExperimentsV2UpdateInstanceRequest(server string, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppStoreVersionExperimentsV2UpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppStoreVersionExperimentsV2UpdateInstanceRequestWithBody constructs an http.Request for the AppStoreVersionExperimentsV2UpdateInstance method, with any body, and a specified content type
+func NewAppStoreVersionExperimentsV2UpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v2/appStoreVersionExperiments/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewInAppPurchaseImagesV2CreateInstanceRequest calls the generic InAppPurchaseImagesV2CreateInstance builder with application/json body
 func NewInAppPurchaseImagesV2CreateInstanceRequest(server string, body InAppPurchaseImagesV2CreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -134609,10 +138849,65 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreReviewDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreReviewDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreReviewDetailsUpdateInstanceResponse, error)
 
+	// AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithResponse performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceWithResponse performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstanceWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse, error)
+
 	// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse, error)
+
+	// AppStoreVersionExperimentTreatmentsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsCreateInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentsCreateInstanceWithResponse performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentsCreateInstanceWithResponse(ctx context.Context, body AppStoreVersionExperimentTreatmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsCreateInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentsDeleteInstanceWithResponse performs a DELETE /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsDeleteInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentsGetInstanceWithResponse performs a GET /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentsGetInstanceWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsGetInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsUpdateInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentsUpdateInstanceWithResponse performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionExperimentTreatmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsUpdateInstanceResponse, error)
+
+	// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionExperimentTreatments/{id}/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse, error)
 
 	// AppStoreVersionLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionLocalizations (the `AppStoreVersionLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -134703,6 +138998,16 @@ type ClientWithResponsesInterface interface {
 	// AppStoreVersionPhasedReleasesUpdateInstanceWithResponse performs a PATCH /v1/appStoreVersionPhasedReleases/{id} (the `AppStoreVersionPhasedReleasesUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppStoreVersionPhasedReleasesUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionPhasedReleasesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionPhasedReleasesUpdateInstanceResponse, error)
+
+	// AppStoreVersionPromotionsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionPromotionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionPromotionsCreateInstanceResponse, error)
+
+	// AppStoreVersionPromotionsCreateInstanceWithResponse performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionPromotionsCreateInstanceWithResponse(ctx context.Context, body AppStoreVersionPromotionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionPromotionsCreateInstanceResponse, error)
 
 	// AppStoreVersionReleaseRequestsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionReleaseRequests (the `AppStoreVersionReleaseRequestsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -134838,6 +139143,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsAppPriceScheduleGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAppPriceScheduleGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppPriceScheduleGetToOneRelatedResponse, error)
+
+	// AppsAppStoreVersionExperimentsV2GetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appStoreVersionExperimentsV2 (the `AppsAppStoreVersionExperimentsV2GetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppStoreVersionExperimentsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppStoreVersionExperimentsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse, error)
 
 	// AppsAppStoreVersionsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appStoreVersions (the `AppsAppStoreVersionsGetToManyRelated` operationId) request.
 	//
@@ -136648,6 +140958,36 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse, error)
+
+	// AppStoreVersionExperimentsV2CreateInstanceWithBodyWithResponse performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2CreateInstanceResponse, error)
+
+	// AppStoreVersionExperimentsV2CreateInstanceWithResponse performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentsV2CreateInstanceWithResponse(ctx context.Context, body AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2CreateInstanceResponse, error)
+
+	// AppStoreVersionExperimentsV2DeleteInstanceWithResponse performs a DELETE /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2DeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2DeleteInstanceResponse, error)
+
+	// AppStoreVersionExperimentsV2GetInstanceWithResponse performs a GET /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2GetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentsV2GetInstanceWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2GetInstanceResponse, error)
+
+	// AppStoreVersionExperimentsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2UpdateInstanceResponse, error)
+
+	// AppStoreVersionExperimentsV2UpdateInstanceWithResponse performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppStoreVersionExperimentsV2UpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2UpdateInstanceResponse, error)
 
 	// InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -143776,6 +148116,234 @@ func (r AppStoreReviewDetailsUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppStoreVersionExperimentTreatmentLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetJSON201() *AppStoreVersionExperimentTreatmentLocalizationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreVersionExperimentTreatmentLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) GetJSON200() *AppStoreVersionExperimentTreatmentLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -143846,6 +148414,400 @@ func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelate
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentTreatmentsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppStoreVersionExperimentTreatmentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetJSON201() *AppStoreVersionExperimentTreatmentResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentTreatmentsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentTreatmentsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreVersionExperimentTreatmentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) GetJSON200() *AppStoreVersionExperimentTreatmentResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentTreatmentsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreVersionExperimentTreatmentResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON200() *AppStoreVersionExperimentTreatmentResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreVersionExperimentTreatmentLocalizationsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) GetJSON200() *AppStoreVersionExperimentTreatmentLocalizationsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -144800,6 +149762,89 @@ func (r AppStoreVersionPhasedReleasesUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppStoreVersionPhasedReleasesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionPromotionsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppStoreVersionPromotionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetJSON201() *AppStoreVersionPromotionResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionPromotionsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionPromotionsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionPromotionsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionPromotionsCreateInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -146445,6 +151490,82 @@ func (r AppsAppPriceScheduleGetToOneRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsAppPriceScheduleGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreVersionExperimentsV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) GetJSON200() *AppStoreVersionExperimentsV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -166310,6 +171431,324 @@ func (r AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse) Cont
 	return ""
 }
 
+type AppStoreVersionExperimentsV2CreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppStoreVersionExperimentV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetJSON201() *AppStoreVersionExperimentV2Response {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentsV2CreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentsV2DeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentsV2DeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentsV2GetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreVersionExperimentV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) GetJSON200() *AppStoreVersionExperimentV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentsV2GetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppStoreVersionExperimentsV2UpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppStoreVersionExperimentV2Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON200() *AppStoreVersionExperimentV2Response {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionExperimentsV2UpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type InAppPurchaseImagesV2CreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -170107,6 +175546,50 @@ func (c *ClientWithResponses) AppStoreReviewDetailsUpdateInstanceWithResponse(ct
 	return ParseAppStoreReviewDetailsUpdateInstanceResponse(rsp)
 }
 
+// AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithResponse performs a POST /v1/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentLocalizationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstanceWithResponse performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id} (the `AppStoreVersionExperimentTreatmentLocalizationsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentLocalizationsGetInstanceWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentLocalizationsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse(rsp)
+}
+
 // AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements (the `AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -170116,6 +175599,83 @@ func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentLocalizationsPla
 		return nil, err
 	}
 	return ParseAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentsCreateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentsCreateInstanceWithResponse performs a POST /v1/appStoreVersionExperimentTreatments (the `AppStoreVersionExperimentTreatmentsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentsCreateInstanceWithResponse(ctx context.Context, body AppStoreVersionExperimentTreatmentsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentsCreateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentsDeleteInstanceWithResponse performs a DELETE /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsDeleteInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentsDeleteInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentsGetInstanceWithResponse performs a GET /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentsGetInstanceWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsGetInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentsGetInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsUpdateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentsUpdateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentsUpdateInstanceWithResponse performs a PATCH /v1/appStoreVersionExperimentTreatments/{id} (the `AppStoreVersionExperimentTreatmentsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentsUpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionExperimentTreatmentsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsUpdateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentsUpdateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appStoreVersionExperimentTreatments/{id}/appStoreVersionExperimentTreatmentLocalizations (the `AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse(rsp)
 }
 
 // AppStoreVersionLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionLocalizations (the `AppStoreVersionLocalizationsCreateInstance` operationId) request,
@@ -170314,6 +175874,28 @@ func (c *ClientWithResponses) AppStoreVersionPhasedReleasesUpdateInstanceWithRes
 		return nil, err
 	}
 	return ParseAppStoreVersionPhasedReleasesUpdateInstanceResponse(rsp)
+}
+
+// AppStoreVersionPromotionsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionPromotionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionPromotionsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionPromotionsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionPromotionsCreateInstanceResponse(rsp)
+}
+
+// AppStoreVersionPromotionsCreateInstanceWithResponse performs a POST /v1/appStoreVersionPromotions (the `AppStoreVersionPromotionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionPromotionsCreateInstanceWithResponse(ctx context.Context, body AppStoreVersionPromotionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionPromotionsCreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionPromotionsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionPromotionsCreateInstanceResponse(rsp)
 }
 
 // AppStoreVersionReleaseRequestsCreateInstanceWithBodyWithResponse performs a POST /v1/appStoreVersionReleaseRequests (the `AppStoreVersionReleaseRequestsCreateInstance` operationId) request,
@@ -170611,6 +176193,17 @@ func (c *ClientWithResponses) AppsAppPriceScheduleGetToOneRelatedWithResponse(ct
 		return nil, err
 	}
 	return ParseAppsAppPriceScheduleGetToOneRelatedResponse(rsp)
+}
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appStoreVersionExperimentsV2 (the `AppsAppStoreVersionExperimentsV2GetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppStoreVersionExperimentsV2GetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppStoreVersionExperimentsV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse, error) {
+	rsp, err := c.AppsAppStoreVersionExperimentsV2GetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppStoreVersionExperimentsV2GetToManyRelatedResponse(rsp)
 }
 
 // AppsAppStoreVersionsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appStoreVersions (the `AppsAppStoreVersionsGetToManyRelated` operationId) request.
@@ -174593,6 +180186,72 @@ func (c *ClientWithResponses) AppAvailabilitiesV2TerritoryAvailabilitiesGetToMan
 		return nil, err
 	}
 	return ParseAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse(rsp)
+}
+
+// AppStoreVersionExperimentsV2CreateInstanceWithBodyWithResponse performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentsV2CreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2CreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentsV2CreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentsV2CreateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentsV2CreateInstanceWithResponse performs a POST /v2/appStoreVersionExperiments (the `AppStoreVersionExperimentsV2CreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentsV2CreateInstanceWithResponse(ctx context.Context, body AppStoreVersionExperimentsV2CreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2CreateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentsV2CreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentsV2CreateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentsV2DeleteInstanceWithResponse performs a DELETE /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2DeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentsV2DeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2DeleteInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentsV2DeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentsV2DeleteInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentsV2GetInstanceWithResponse performs a GET /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2GetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentsV2GetInstanceWithResponse(ctx context.Context, id string, params *AppStoreVersionExperimentsV2GetInstanceParams, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2GetInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentsV2GetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentsV2GetInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentsV2UpdateInstanceWithBodyWithResponse performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentsV2UpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2UpdateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentsV2UpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentsV2UpdateInstanceResponse(rsp)
+}
+
+// AppStoreVersionExperimentsV2UpdateInstanceWithResponse performs a PATCH /v2/appStoreVersionExperiments/{id} (the `AppStoreVersionExperimentsV2UpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionExperimentsV2UpdateInstanceWithResponse(ctx context.Context, id string, body AppStoreVersionExperimentsV2UpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppStoreVersionExperimentsV2UpdateInstanceResponse, error) {
+	rsp, err := c.AppStoreVersionExperimentsV2UpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionExperimentsV2UpdateInstanceResponse(rsp)
 }
 
 // InAppPurchaseImagesV2CreateInstanceWithBodyWithResponse performs a POST /v2/inAppPurchaseImages (the `InAppPurchaseImagesV2CreateInstance` operationId) request,
@@ -180737,6 +186396,192 @@ func ParseAppStoreReviewDetailsUpdateInstanceResponse(rsp *http.Response) (*AppS
 	return response, nil
 }
 
+// ParseAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceWithResponse call
+func ParseAppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentLocalizationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppStoreVersionExperimentTreatmentLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceWithResponse call
+func ParseAppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentLocalizationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentLocalizationsGetInstanceWithResponse call
+func ParseAppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentLocalizationsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreVersionExperimentTreatmentLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedWithResponse call
 func ParseAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -180753,6 +186598,328 @@ func ParseAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRela
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppAssetLibraryPlacementsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentTreatmentsCreateInstanceResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentsCreateInstanceWithResponse call
+func ParseAppStoreVersionExperimentTreatmentsCreateInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppStoreVersionExperimentTreatmentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentTreatmentsDeleteInstanceResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentsDeleteInstanceWithResponse call
+func ParseAppStoreVersionExperimentTreatmentsDeleteInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentTreatmentsGetInstanceResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentsGetInstanceWithResponse call
+func ParseAppStoreVersionExperimentTreatmentsGetInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreVersionExperimentTreatmentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentTreatmentsUpdateInstanceResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentsUpdateInstanceWithResponse call
+func ParseAppStoreVersionExperimentTreatmentsUpdateInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreVersionExperimentTreatmentResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse parses an HTTP response from a AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedWithResponse call
+func ParseAppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse(rsp *http.Response) (*AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreVersionExperimentTreatmentLocalizationsResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -181557,6 +187724,74 @@ func ParseAppStoreVersionPhasedReleasesUpdateInstanceResponse(rsp *http.Response
 			return nil, err
 		}
 		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionPromotionsCreateInstanceResponse parses an HTTP response from a AppStoreVersionPromotionsCreateInstanceWithResponse call
+func ParseAppStoreVersionPromotionsCreateInstanceResponse(rsp *http.Response) (*AppStoreVersionPromotionsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionPromotionsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppStoreVersionPromotionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
 		var dest ErrorResponse
@@ -182878,6 +189113,67 @@ func ParseAppsAppPriceScheduleGetToOneRelatedResponse(rsp *http.Response) (*Apps
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppPriceScheduleResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAppStoreVersionExperimentsV2GetToManyRelatedResponse parses an HTTP response from a AppsAppStoreVersionExperimentsV2GetToManyRelatedWithResponse call
+func ParseAppsAppStoreVersionExperimentsV2GetToManyRelatedResponse(rsp *http.Response) (*AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppStoreVersionExperimentsV2GetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreVersionExperimentsV2Response
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -199152,6 +205448,267 @@ func ParseAppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedResponse(rsp
 	return response, nil
 }
 
+// ParseAppStoreVersionExperimentsV2CreateInstanceResponse parses an HTTP response from a AppStoreVersionExperimentsV2CreateInstanceWithResponse call
+func ParseAppStoreVersionExperimentsV2CreateInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentsV2CreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentsV2CreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppStoreVersionExperimentV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentsV2DeleteInstanceResponse parses an HTTP response from a AppStoreVersionExperimentsV2DeleteInstanceWithResponse call
+func ParseAppStoreVersionExperimentsV2DeleteInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentsV2DeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentsV2DeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentsV2GetInstanceResponse parses an HTTP response from a AppStoreVersionExperimentsV2GetInstanceWithResponse call
+func ParseAppStoreVersionExperimentsV2GetInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentsV2GetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentsV2GetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreVersionExperimentV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppStoreVersionExperimentsV2UpdateInstanceResponse parses an HTTP response from a AppStoreVersionExperimentsV2UpdateInstanceWithResponse call
+func ParseAppStoreVersionExperimentsV2UpdateInstanceResponse(rsp *http.Response) (*AppStoreVersionExperimentsV2UpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionExperimentsV2UpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppStoreVersionExperimentV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseInAppPurchaseImagesV2CreateInstanceResponse parses an HTTP response from a InAppPurchaseImagesV2CreateInstanceWithResponse call
 func ParseInAppPurchaseImagesV2CreateInstanceResponse(rsp *http.Response) (*InAppPurchaseImagesV2CreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -201368,8 +207925,32 @@ type ServerInterface interface {
 	// (PATCH /v1/appStoreReviewDetails/{id})
 	AppStoreReviewDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (POST /v1/appStoreVersionExperimentTreatmentLocalizations)
+	AppStoreVersionExperimentTreatmentLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appStoreVersionExperimentTreatmentLocalizations/{id})
+	AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id})
+	AppStoreVersionExperimentTreatmentLocalizationsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams)
+
 	// (GET /v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements)
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParams)
+
+	// (POST /v1/appStoreVersionExperimentTreatments)
+	AppStoreVersionExperimentTreatmentsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appStoreVersionExperimentTreatments/{id})
+	AppStoreVersionExperimentTreatmentsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appStoreVersionExperimentTreatments/{id})
+	AppStoreVersionExperimentTreatmentsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionExperimentTreatmentsGetInstanceParams)
+
+	// (PATCH /v1/appStoreVersionExperimentTreatments/{id})
+	AppStoreVersionExperimentTreatmentsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appStoreVersionExperimentTreatments/{id}/appStoreVersionExperimentTreatmentLocalizations)
+	AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams)
 
 	// (POST /v1/appStoreVersionLocalizations)
 	AppStoreVersionLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -201406,6 +207987,9 @@ type ServerInterface interface {
 
 	// (PATCH /v1/appStoreVersionPhasedReleases/{id})
 	AppStoreVersionPhasedReleasesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/appStoreVersionPromotions)
+	AppStoreVersionPromotionsCreateInstance(w http.ResponseWriter, r *http.Request)
 
 	// (POST /v1/appStoreVersionReleaseRequests)
 	AppStoreVersionReleaseRequestsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -201469,6 +208053,9 @@ type ServerInterface interface {
 
 	// (GET /v1/apps/{id}/appPriceSchedule)
 	AppsAppPriceScheduleGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppPriceScheduleGetToOneRelatedParams)
+
+	// (GET /v1/apps/{id}/appStoreVersionExperimentsV2)
+	AppsAppStoreVersionExperimentsV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppStoreVersionExperimentsV2GetToManyRelatedParams)
 
 	// (GET /v1/apps/{id}/appStoreVersions)
 	AppsAppStoreVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppStoreVersionsGetToManyRelatedParams)
@@ -202225,6 +208812,18 @@ type ServerInterface interface {
 
 	// (GET /v2/appAvailabilities/{id}/territoryAvailabilities)
 	AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelatedParams)
+
+	// (POST /v2/appStoreVersionExperiments)
+	AppStoreVersionExperimentsV2CreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v2/appStoreVersionExperiments/{id})
+	AppStoreVersionExperimentsV2DeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v2/appStoreVersionExperiments/{id})
+	AppStoreVersionExperimentsV2GetInstance(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionExperimentsV2GetInstanceParams)
+
+	// (PATCH /v2/appStoreVersionExperiments/{id})
+	AppStoreVersionExperimentsV2UpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
 	// (POST /v2/inAppPurchaseImages)
 	InAppPurchaseImagesV2CreateInstance(w http.ResponseWriter, r *http.Request)
@@ -207209,6 +213808,192 @@ func (siw *ServerInterfaceWrapper) AppStoreReviewDetailsUpdateInstance(w http.Re
 	handler.ServeHTTP(w, r)
 }
 
+// AppStoreVersionExperimentTreatmentLocalizationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentLocalizationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentTreatmentLocalizationsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentLocalizationsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionExperimentTreatmentLocalizationsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatments]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshotSets]", r.URL.Query(), &params.FieldsAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviewSets]", r.URL.Query(), &params.FieldsAppPreviewSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appPreviewSets]", r.URL.Query(), &params.LimitAppPreviewSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appScreenshotSets]", r.URL.Query(), &params.LimitAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentLocalizationsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated operation middleware
 func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -207489,6 +214274,338 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentLocalizatio
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentTreatmentsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentTreatmentsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentTreatmentsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionExperimentTreatmentsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatments]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperiments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperiments]", r.URL.Query(), &params.FieldsAppStoreVersionExperiments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperiments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperiments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.LimitAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentTreatmentsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatmentLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatmentLocalizations]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatments]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshotSets]", r.URL.Query(), &params.FieldsAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviewSets]", r.URL.Query(), &params.FieldsAppPreviewSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appScreenshotSets]", r.URL.Query(), &params.LimitAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appPreviewSets]", r.URL.Query(), &params.LimitAppPreviewSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -208387,6 +215504,20 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionPhasedReleasesUpdateInstance(w
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppStoreVersionPhasedReleasesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionPromotionsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionPromotionsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionPromotionsCreateInstance(w, r)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -211305,6 +218436,152 @@ func (siw *ServerInterfaceWrapper) AppsAppPriceScheduleGetToOneRelated(w http.Re
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsAppPriceScheduleGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAppStoreVersionExperimentsV2GetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppStoreVersionExperimentsV2GetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppStoreVersionExperimentsV2GetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperiments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperiments]", r.URL.Query(), &params.FieldsAppStoreVersionExperiments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperiments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperiments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersions]", r.URL.Query(), &params.FieldsAppStoreVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatments]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[controlVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[controlVersions]", r.URL.Query(), &params.LimitControlVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[controlVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[controlVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appStoreVersionExperimentTreatments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appStoreVersionExperimentTreatments]", r.URL.Query(), &params.LimitAppStoreVersionExperimentTreatments, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appStoreVersionExperimentTreatments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appStoreVersionExperimentTreatments]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppStoreVersionExperimentsV2GetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -226796,6 +234073,192 @@ func (siw *ServerInterfaceWrapper) AppAvailabilitiesV2TerritoryAvailabilitiesGet
 	handler.ServeHTTP(w, r)
 }
 
+// AppStoreVersionExperimentsV2CreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentsV2CreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentsV2CreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentsV2DeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentsV2DeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentsV2DeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentsV2GetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentsV2GetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionExperimentsV2GetInstanceParams
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperiments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperiments]", r.URL.Query(), &params.FieldsAppStoreVersionExperiments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperiments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperiments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersions]", r.URL.Query(), &params.FieldsAppStoreVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersionExperimentTreatments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersionExperimentTreatments]", r.URL.Query(), &params.FieldsAppStoreVersionExperimentTreatments, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appStoreVersionExperimentTreatments]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appStoreVersionExperimentTreatments]", r.URL.Query(), &params.LimitAppStoreVersionExperimentTreatments, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appStoreVersionExperimentTreatments]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appStoreVersionExperimentTreatments]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[controlVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[controlVersions]", r.URL.Query(), &params.LimitControlVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[controlVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[controlVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentsV2GetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppStoreVersionExperimentsV2UpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentsV2UpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionExperimentsV2UpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // InAppPurchaseImagesV2CreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) InAppPurchaseImagesV2CreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -228422,7 +235885,15 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewAttachments/{id}", wrapper.AppStoreReviewAttachmentsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreReviewDetails", wrapper.AppStoreReviewDetailsCreateInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreReviewDetails/{id}", wrapper.AppStoreReviewDetailsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatmentLocalizations", wrapper.AppStoreVersionExperimentTreatmentLocalizationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatmentLocalizations/{id}", wrapper.AppStoreVersionExperimentTreatmentLocalizationsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatmentLocalizations/{id}", wrapper.AppStoreVersionExperimentTreatmentLocalizationsGetInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatmentLocalizations/{id}/placements", wrapper.AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatments", wrapper.AppStoreVersionExperimentTreatmentsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatments/{id}", wrapper.AppStoreVersionExperimentTreatmentsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatments/{id}", wrapper.AppStoreVersionExperimentTreatmentsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatments/{id}", wrapper.AppStoreVersionExperimentTreatmentsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersionExperimentTreatments/{id}/appStoreVersionExperimentTreatmentLocalizations", wrapper.AppStoreVersionExperimentTreatmentsAppStoreVersionExperimentTreatmentLocalizationsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionLocalizations", wrapper.AppStoreVersionLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersionLocalizations/{id}", wrapper.AppStoreVersionLocalizationsUpdateInstance)
@@ -228435,6 +235906,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionPhasedReleases", wrapper.AppStoreVersionPhasedReleasesCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersionPhasedReleases/{id}", wrapper.AppStoreVersionPhasedReleasesDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersionPhasedReleases/{id}", wrapper.AppStoreVersionPhasedReleasesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionPromotions", wrapper.AppStoreVersionPromotionsCreateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersionReleaseRequests", wrapper.AppStoreVersionReleaseRequestsCreateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appStoreVersions", wrapper.AppStoreVersionsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appStoreVersions/{id}", wrapper.AppStoreVersionsDeleteInstance)
@@ -228456,6 +235928,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appInfos", wrapper.AppsAppInfosGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPricePoints", wrapper.AppsAppPricePointsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPriceSchedule", wrapper.AppsAppPriceScheduleGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appStoreVersionExperimentsV2", wrapper.AppsAppStoreVersionExperimentsV2GetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appStoreVersions", wrapper.AppsAppStoreVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appTags", wrapper.AppsAppTagsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/assetLibrary", wrapper.AppsAssetLibraryGetToOneRelated)
@@ -228708,6 +236181,10 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/winBackOffers/{id}/prices", wrapper.WinBackOffersPricesGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/appAvailabilities", wrapper.AppAvailabilitiesV2CreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/appAvailabilities/{id}/territoryAvailabilities", wrapper.AppAvailabilitiesV2TerritoryAvailabilitiesGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/appStoreVersionExperiments", wrapper.AppStoreVersionExperimentsV2CreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/appStoreVersionExperiments/{id}", wrapper.AppStoreVersionExperimentsV2DeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/appStoreVersionExperiments/{id}", wrapper.AppStoreVersionExperimentsV2GetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v2/appStoreVersionExperiments/{id}", wrapper.AppStoreVersionExperimentsV2UpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v2/inAppPurchaseImages", wrapper.InAppPurchaseImagesV2CreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v2/inAppPurchaseImages/{id}", wrapper.InAppPurchaseImagesV2DeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v2/inAppPurchaseImages/{id}", wrapper.InAppPurchaseImagesV2GetInstance)

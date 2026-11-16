@@ -1,0 +1,1 @@
+terraform import apple_app_store_version_experiment_treatment.orange 5d7c1b2a-3e4f-4a5b-9c6d-7e8f9a0b1c2d

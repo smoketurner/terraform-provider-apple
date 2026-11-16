@@ -461,6 +461,10 @@ func (s *Server) checkTarget(w http.ResponseWriter, kind, id string) bool {
 		if _, ok := s.pages.localizations[id]; ok {
 			return true
 		}
+	case treatmentLocalizationTarget:
+		if _, ok := s.experiments.localizations[id]; ok {
+			return true
+		}
 	}
 	if s.lib.targets[id] != kind {
 		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no "+kind+"s with id '"+id+"'", "/data/relationships/"+kind)
@@ -661,7 +665,8 @@ func (s *Server) targetPlacements(w http.ResponseWriter, r *http.Request, kind, 
 	s.mu.Lock()
 	defer s.mu.Unlock()
 	_, isPage := s.pages.localizations[id]
-	if s.lib.targets[id] != kind && (kind != productPageTarget || !isPage) {
+	_, isTreatment := s.experiments.localizations[id]
+	if s.lib.targets[id] != kind && (kind != productPageTarget || !isPage) && (kind != treatmentLocalizationTarget || !isTreatment) {
 		notFound(w, kind+"s", id)
 		return
 	}

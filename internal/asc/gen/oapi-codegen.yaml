@@ -106,7 +106,19 @@ output-options:
     - appStoreReviewAttachments_updateInstance
     - appStoreReviewDetails_createInstance
     - appStoreReviewDetails_updateInstance
+    - appStoreVersionExperimentTreatmentLocalizations_createInstance
+    - appStoreVersionExperimentTreatmentLocalizations_deleteInstance
+    - appStoreVersionExperimentTreatmentLocalizations_getInstance
     - appStoreVersionExperimentTreatmentLocalizations_placements_getToManyRelated
+    - appStoreVersionExperimentTreatments_appStoreVersionExperimentTreatmentLocalizations_getToManyRelated
+    - appStoreVersionExperimentTreatments_createInstance
+    - appStoreVersionExperimentTreatments_deleteInstance
+    - appStoreVersionExperimentTreatments_getInstance
+    - appStoreVersionExperimentTreatments_updateInstance
+    - appStoreVersionExperimentsV2_createInstance
+    - appStoreVersionExperimentsV2_deleteInstance
+    - appStoreVersionExperimentsV2_getInstance
+    - appStoreVersionExperimentsV2_updateInstance
     - appStoreVersionLocalizations_appPreviewSets_getToManyRelated
     - appStoreVersionLocalizations_appScreenshotSets_getToManyRelated
     - appStoreVersionLocalizations_createInstance
@@ -119,6 +131,7 @@ output-options:
     - appStoreVersionPhasedReleases_createInstance
     - appStoreVersionPhasedReleases_deleteInstance
     - appStoreVersionPhasedReleases_updateInstance
+    - appStoreVersionPromotions_createInstance
     - appStoreVersionReleaseRequests_createInstance
     - appStoreVersions_appStoreReviewDetail_getToOneRelated
     - appStoreVersions_appStoreVersionLocalizations_getToManyRelated
@@ -137,6 +150,7 @@ output-options:
     - apps_appInfos_getToManyRelated
     - apps_appPricePoints_getToManyRelated
     - apps_appPriceSchedule_getToOneRelated
+    - apps_appStoreVersionExperimentsV2_getToManyRelated
     - apps_appStoreVersions_getToManyRelated
     - apps_appTags_getToManyRelated
     - apps_assetLibrary_getToOneRelated
