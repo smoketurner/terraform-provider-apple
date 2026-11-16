@@ -381,8 +381,8 @@ operations:
   apps_buildUploads_getToManyRelationship: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
   apps_builds_getToManyRelated: {status: out_of_scope, reason: "builds_getCollection with filter[app] (data.apple_builds) returns the same builds"}
   apps_builds_getToManyRelationship: {status: out_of_scope, reason: "builds_getCollection with filter[app] (data.apple_builds) returns the same builds"}
-  apps_ciProduct_getToOneRelated: {status: planned, issue: 8}
-  apps_ciProduct_getToOneRelationship: {status: planned, issue: 8}
+  apps_ciProduct_getToOneRelated: {status: out_of_scope, reason: "data.apple_ci_products finds an app's product with its app_id filter"}
+  apps_ciProduct_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_customerReviewSummarizations_getToManyRelated: {status: out_of_scope, reason: "customer reviews and responses are support work, not configuration"}
   apps_customerReviews_getToManyRelated: {status: out_of_scope, reason: "customer reviews and responses are support work, not configuration"}
   apps_customerReviews_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
@@ -593,53 +593,53 @@ operations:
   certificates_passTypeId_getToOneRelated: {status: out_of_scope, reason: "apple_certificate needs only the pass type ID, which the getToOneRelationship operation returns"}
   certificates_passTypeId_getToOneRelationship: {status: covered, by: [apple_certificate]}
   certificates_updateInstance: {status: covered, by: [apple_certificate]}
-  ciArtifacts_getInstance: {status: planned, issue: 8}
-  ciBuildActions_artifacts_getToManyRelated: {status: planned, issue: 8}
-  ciBuildActions_artifacts_getToManyRelationship: {status: planned, issue: 8}
-  ciBuildActions_buildRun_getToOneRelated: {status: planned, issue: 8}
-  ciBuildActions_buildRun_getToOneRelationship: {status: planned, issue: 8}
-  ciBuildActions_getInstance: {status: planned, issue: 8}
-  ciBuildActions_issues_getToManyRelated: {status: planned, issue: 8}
-  ciBuildActions_issues_getToManyRelationship: {status: planned, issue: 8}
-  ciBuildActions_testResults_getToManyRelated: {status: planned, issue: 8}
-  ciBuildActions_testResults_getToManyRelationship: {status: planned, issue: 8}
-  ciBuildRuns_actions_getToManyRelated: {status: planned, issue: 8}
-  ciBuildRuns_actions_getToManyRelationship: {status: planned, issue: 8}
-  ciBuildRuns_builds_getToManyRelated: {status: planned, issue: 8}
-  ciBuildRuns_builds_getToManyRelationship: {status: planned, issue: 8}
-  ciBuildRuns_createInstance: {status: planned, issue: 8}
-  ciBuildRuns_getInstance: {status: planned, issue: 8}
-  ciIssues_getInstance: {status: planned, issue: 8}
-  ciMacOsVersions_getCollection: {status: planned, issue: 8}
-  ciMacOsVersions_getInstance: {status: planned, issue: 8}
-  ciMacOsVersions_xcodeVersions_getToManyRelated: {status: planned, issue: 8}
-  ciMacOsVersions_xcodeVersions_getToManyRelationship: {status: planned, issue: 8}
-  ciProducts_additionalRepositories_getToManyRelated: {status: planned, issue: 8}
-  ciProducts_additionalRepositories_getToManyRelationship: {status: planned, issue: 8}
-  ciProducts_app_getToOneRelated: {status: planned, issue: 8}
-  ciProducts_app_getToOneRelationship: {status: planned, issue: 8}
-  ciProducts_buildRuns_getToManyRelated: {status: planned, issue: 8}
-  ciProducts_buildRuns_getToManyRelationship: {status: planned, issue: 8}
-  ciProducts_deleteInstance: {status: planned, issue: 8}
-  ciProducts_getCollection: {status: planned, issue: 8}
-  ciProducts_getInstance: {status: planned, issue: 8}
-  ciProducts_primaryRepositories_getToManyRelated: {status: planned, issue: 8}
-  ciProducts_primaryRepositories_getToManyRelationship: {status: planned, issue: 8}
-  ciProducts_workflows_getToManyRelated: {status: planned, issue: 8}
-  ciProducts_workflows_getToManyRelationship: {status: planned, issue: 8}
-  ciTestResults_getInstance: {status: planned, issue: 8}
-  ciWorkflows_buildRuns_getToManyRelated: {status: planned, issue: 8}
-  ciWorkflows_buildRuns_getToManyRelationship: {status: planned, issue: 8}
-  ciWorkflows_createInstance: {status: planned, issue: 8}
-  ciWorkflows_deleteInstance: {status: planned, issue: 8}
-  ciWorkflows_getInstance: {status: planned, issue: 8}
-  ciWorkflows_repository_getToOneRelated: {status: planned, issue: 8}
-  ciWorkflows_repository_getToOneRelationship: {status: planned, issue: 8}
-  ciWorkflows_updateInstance: {status: planned, issue: 8}
-  ciXcodeVersions_getCollection: {status: planned, issue: 8}
-  ciXcodeVersions_getInstance: {status: planned, issue: 8}
-  ciXcodeVersions_macOsVersions_getToManyRelated: {status: planned, issue: 8}
-  ciXcodeVersions_macOsVersions_getToManyRelationship: {status: planned, issue: 8}
+  ciArtifacts_getInstance: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciBuildActions_artifacts_getToManyRelated: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciBuildActions_artifacts_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciBuildActions_buildRun_getToOneRelated: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciBuildActions_buildRun_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciBuildActions_getInstance: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciBuildActions_issues_getToManyRelated: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciBuildActions_issues_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciBuildActions_testResults_getToManyRelated: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciBuildActions_testResults_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciBuildRuns_actions_getToManyRelated: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciBuildRuns_actions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciBuildRuns_builds_getToManyRelated: {status: out_of_scope, reason: "data.apple_builds lists an app's builds"}
+  ciBuildRuns_builds_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciBuildRuns_createInstance: {status: covered, by: [action.apple_start_ci_build_run]}
+  ciBuildRuns_getInstance: {status: out_of_scope, reason: "data.apple_ci_build_runs lists the runs of a workflow or product"}
+  ciIssues_getInstance: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciMacOsVersions_getCollection: {status: covered, by: [data.apple_ci_mac_os_versions]}
+  ciMacOsVersions_getInstance: {status: out_of_scope, reason: "data.apple_ci_mac_os_versions lists every macOS version"}
+  ciMacOsVersions_xcodeVersions_getToManyRelated: {status: out_of_scope, reason: "data.apple_ci_mac_os_versions includes each version's Xcode versions"}
+  ciMacOsVersions_xcodeVersions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciProducts_additionalRepositories_getToManyRelated: {status: covered, by: [data.apple_scm_repositories]}
+  ciProducts_additionalRepositories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciProducts_app_getToOneRelated: {status: out_of_scope, reason: "data.apple_ci_products includes each product's app"}
+  ciProducts_app_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciProducts_buildRuns_getToManyRelated: {status: covered, by: [data.apple_ci_build_runs]}
+  ciProducts_buildRuns_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciProducts_deleteInstance: {status: out_of_scope, reason: "Xcode creates products; deleting one removes Xcode Cloud from an app, a one-off done in Xcode or App Store Connect"}
+  ciProducts_getCollection: {status: covered, by: [data.apple_ci_products]}
+  ciProducts_getInstance: {status: out_of_scope, reason: "data.apple_ci_products lists every product"}
+  ciProducts_primaryRepositories_getToManyRelated: {status: covered, by: [data.apple_scm_repositories]}
+  ciProducts_primaryRepositories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciProducts_workflows_getToManyRelated: {status: covered, by: [data.apple_ci_workflows]}
+  ciProducts_workflows_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciTestResults_getInstance: {status: out_of_scope, reason: "build results are CI reporting, not configuration; data.apple_ci_build_runs reports a run's status"}
+  ciWorkflows_buildRuns_getToManyRelated: {status: covered, by: [data.apple_ci_build_runs]}
+  ciWorkflows_buildRuns_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciWorkflows_createInstance: {status: covered, by: [apple_ci_workflow]}
+  ciWorkflows_deleteInstance: {status: covered, by: [apple_ci_workflow]}
+  ciWorkflows_getInstance: {status: covered, by: [apple_ci_workflow]}
+  ciWorkflows_repository_getToOneRelated: {status: out_of_scope, reason: "apple_ci_workflow reads the repository with the workflow"}
+  ciWorkflows_repository_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  ciWorkflows_updateInstance: {status: covered, by: [apple_ci_workflow]}
+  ciXcodeVersions_getCollection: {status: covered, by: [data.apple_ci_xcode_versions]}
+  ciXcodeVersions_getInstance: {status: out_of_scope, reason: "data.apple_ci_xcode_versions lists every Xcode version"}
+  ciXcodeVersions_macOsVersions_getToManyRelated: {status: out_of_scope, reason: "data.apple_ci_xcode_versions includes each version's macOS versions"}
+  ciXcodeVersions_macOsVersions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   customerReviewResponses_createInstance: {status: out_of_scope, reason: "customer reviews and responses are support work, not configuration"}
   customerReviewResponses_deleteInstance: {status: out_of_scope, reason: "customer reviews and responses are support work, not configuration"}
   customerReviewResponses_getInstance: {status: out_of_scope, reason: "customer reviews and responses are support work, not configuration"}
@@ -1173,18 +1173,18 @@ operations:
   sandboxTestersClearPurchaseHistoryRequestV2_createInstance: {status: covered, by: [action.apple_clear_sandbox_purchase_history]}
   sandboxTestersV2_getCollection: {status: covered, by: [apple_sandbox_tester, data.apple_sandbox_testers]}
   sandboxTestersV2_updateInstance: {status: covered, by: [apple_sandbox_tester]}
-  scmGitReferences_getInstance: {status: planned, issue: 8}
-  scmProviders_getCollection: {status: planned, issue: 8}
-  scmProviders_getInstance: {status: planned, issue: 8}
-  scmProviders_repositories_getToManyRelated: {status: planned, issue: 8}
-  scmProviders_repositories_getToManyRelationship: {status: planned, issue: 8}
-  scmPullRequests_getInstance: {status: planned, issue: 8}
-  scmRepositories_getCollection: {status: planned, issue: 8}
-  scmRepositories_getInstance: {status: planned, issue: 8}
-  scmRepositories_gitReferences_getToManyRelated: {status: planned, issue: 8}
-  scmRepositories_gitReferences_getToManyRelationship: {status: planned, issue: 8}
-  scmRepositories_pullRequests_getToManyRelated: {status: planned, issue: 8}
-  scmRepositories_pullRequests_getToManyRelationship: {status: planned, issue: 8}
+  scmGitReferences_getInstance: {status: out_of_scope, reason: "data.apple_scm_git_references lists a repository's references"}
+  scmProviders_getCollection: {status: out_of_scope, reason: "data.apple_scm_repositories reports each repository's provider; providers are connected in Xcode or App Store Connect"}
+  scmProviders_getInstance: {status: out_of_scope, reason: "data.apple_scm_repositories reports each repository's provider; providers are connected in Xcode or App Store Connect"}
+  scmProviders_repositories_getToManyRelated: {status: out_of_scope, reason: "data.apple_scm_repositories lists every repository"}
+  scmProviders_repositories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  scmPullRequests_getInstance: {status: out_of_scope, reason: "data.apple_scm_pull_requests lists a repository's pull requests"}
+  scmRepositories_getCollection: {status: covered, by: [data.apple_scm_repositories]}
+  scmRepositories_getInstance: {status: out_of_scope, reason: "data.apple_scm_repositories lists every repository"}
+  scmRepositories_gitReferences_getToManyRelated: {status: covered, by: [data.apple_scm_git_references]}
+  scmRepositories_gitReferences_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  scmRepositories_pullRequests_getToManyRelated: {status: covered, by: [data.apple_scm_pull_requests]}
+  scmRepositories_pullRequests_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptionAppStoreReviewScreenshots_createInstance: {status: covered, by: [apple_subscription_review_screenshot]}
   subscriptionAppStoreReviewScreenshots_deleteInstance: {status: covered, by: [apple_subscription_review_screenshot]}
   subscriptionAppStoreReviewScreenshots_getInstance: {status: covered, by: [apple_subscription_review_screenshot]}
