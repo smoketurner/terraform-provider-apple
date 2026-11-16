@@ -7,7 +7,6 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/hashicorp/terraform-plugin-testing/plancheck"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
@@ -168,8 +167,7 @@ func TestAccSearchKeyword(t *testing.T) {
 			{
 				// A keyword removed outside Terraform is added again.
 				PreConfig: env.outside(func(ctx context.Context, c *asc.Client) error {
-					m := searchKeywordModel{KeywordID: types.StringValue(english)}
-					out, err := c.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx, localizationID, keywordLinkage(&m))
+					out, err := c.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx, localizationID, keywordLinkage(english))
 					return asc.Err(out, err)
 				}),
 				Config:           locals + searchKeywordConfig(english),

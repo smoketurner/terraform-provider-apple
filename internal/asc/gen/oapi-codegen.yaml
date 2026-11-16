@@ -45,7 +45,21 @@ output-options:
     - appAvailabilitiesV2_createInstance
     - appAvailabilitiesV2_territoryAvailabilities_getToManyRelated
     - appCategories_getCollection
+    - appCustomProductPageLocalizations_createInstance
+    - appCustomProductPageLocalizations_deleteInstance
     - appCustomProductPageLocalizations_placements_getToManyRelated
+    - appCustomProductPageLocalizations_searchKeywords_createToManyRelationship
+    - appCustomProductPageLocalizations_searchKeywords_deleteToManyRelationship
+    - appCustomProductPageLocalizations_searchKeywords_getToManyRelated
+    - appCustomProductPageLocalizations_updateInstance
+    - appCustomProductPageVersions_appCustomProductPageLocalizations_getToManyRelated
+    - appCustomProductPageVersions_createInstance
+    - appCustomProductPageVersions_updateInstance
+    - appCustomProductPages_appCustomProductPageVersions_getToManyRelated
+    - appCustomProductPages_createInstance
+    - appCustomProductPages_deleteInstance
+    - appCustomProductPages_getInstance
+    - appCustomProductPages_updateInstance
     - appEncryptionDeclarationDocuments_createInstance
     - appEncryptionDeclarationDocuments_getInstance
     - appEncryptionDeclarationDocuments_updateInstance
@@ -118,6 +132,7 @@ output-options:
     - appStoreVersions_updateInstance
     - appTags_updateInstance
     - apps_appAvailabilityV2_getToOneRelated
+    - apps_appCustomProductPages_getToManyRelated
     - apps_appEvents_getToManyRelated
     - apps_appInfos_getToManyRelated
     - apps_appPricePoints_getToManyRelated

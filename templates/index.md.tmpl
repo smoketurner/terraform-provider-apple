@@ -65,6 +65,11 @@ Manage App Store Connect as code through the [App Store Connect API](https://dev
 * **In-app purchase and subscription metadata follows the version being prepared.** The localizations and image of
   an in-app purchase, subscription or subscription group belong to a version that goes through App Review. Their resources are keyed by purchase and locale: changes go to the
   version being prepared, and once the current version has been reviewed, applying starts the next one.
+* **Custom product pages follow the version being prepared.** A custom product page's deep link and localizations
+  belong to a version that goes through App Review. `apple_app_custom_product_page` and
+  `apple_app_custom_product_page_localization` are keyed by page and locale: once the page is approved, a new deep
+  link or locale starts the next version, while promotional text changes in the current one. A localization's `id`
+  changes with each version, which replaces the placements and search keywords that refer to it.
 * **Devices are disabled, not deleted.** App Store Connect cannot delete devices. Destroying `apple_device` disables
   the device, which still counts toward the team's device limit until the membership year renews.
 

@@ -247,6 +247,8 @@ action "apple_submit_retention_message_version" "prepared" {
 			Config:      locals + actions + retentionMessageConfig("Stay with us", "", "") + triggerAction("1", "apple_submit_retention_message_version.first"),
 			ExpectError: regexp.MustCompile(`version has no localizations`),
 		},
+		// The localization is created first: the trigger doesn't depend on it.
+		resource.TestStep{Config: locals + actions + retentionMessageConfig("Stay with us", "", text)},
 		resource.TestStep{
 			// Added to a submission without submitting it, the version is
 			// ready for review.
@@ -294,6 +296,8 @@ action "apple_submit_retention_message_version" "first" {
 ` + retentionMessageConfig("Stay with us", "", retentionLocalizationConfig(`header = "Your cortado is waiting"`))
 	var versionID string
 	env.actionCase(
+		// The localization is created first: the trigger doesn't depend on it.
+		resource.TestStep{Config: config},
 		resource.TestStep{
 			Config: config + triggerAction("1", "apple_submit_retention_message_version.first"),
 			Check: resource.ComposeAggregateTestCheckFunc(

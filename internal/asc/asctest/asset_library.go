@@ -457,6 +457,10 @@ func (s *Server) checkTarget(w http.ResponseWriter, kind, id string) bool {
 		if _, ok := s.events.localizations[id]; ok {
 			return true
 		}
+	case productPageTarget:
+		if _, ok := s.pages.localizations[id]; ok {
+			return true
+		}
 	}
 	if s.lib.targets[id] != kind {
 		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no "+kind+"s with id '"+id+"'", "/data/relationships/"+kind)
@@ -656,7 +660,8 @@ func (s *Server) AppStoreVersionLocalizationsPlacementsGetToManyRelated(w http.R
 func (s *Server) targetPlacements(w http.ResponseWriter, r *http.Request, kind, id string, types []string, groups *[]string, byPosition bool, limit *int) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
-	if s.lib.targets[id] != kind {
+	_, isPage := s.pages.localizations[id]
+	if s.lib.targets[id] != kind && (kind != productPageTarget || !isPage) {
 		notFound(w, kind+"s", id)
 		return
 	}

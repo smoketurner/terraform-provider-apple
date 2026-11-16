@@ -52,6 +52,13 @@ func (k metadataVersions) find(ctx context.Context, c *asc.Client, parentID stri
 	if err != nil {
 		return nil, nil, nil, err
 	}
+	draft, current, latest = pickVersions(all)
+	return draft, current, latest, nil
+}
+
+// pickVersions returns, of a product's versions, the one being prepared, if
+// any; the one to read; and the latest.
+func pickVersions(all []versionInfo) (draft, current, latest *versionInfo) {
 	for i := range all {
 		v := &all[i]
 		if latest == nil || v.number > latest.number {
@@ -67,7 +74,7 @@ func (k metadataVersions) find(ctx context.Context, c *asc.Client, parentID stri
 	if draft != nil {
 		current = draft
 	}
-	return draft, current, latest, nil
+	return draft, current, latest
 }
 
 // versionLocks serializes starting a product's next version: a product's
@@ -150,10 +157,25 @@ type localizationAPI struct {
 	parentDesc  string
 	versions    metadataVersions
 	fields      []localizationField
-	list        func(ctx context.Context, c *asc.Client, versionID string) ([]localization, error)
-	create      func(ctx context.Context, c *asc.Client, versionID, locale string, values map[string]*string) (*localization, error)
-	update      func(ctx context.Context, c *asc.Client, id string, values map[string]*string) (*localization, error)
-	remove      func(ctx context.Context, c *asc.Client, id string) error
+	// updateInPlace is set when a localization can change in any version:
+	// a change to a locale the current version has is written there, without
+	// starting a version.
+	updateInPlace bool
+	list          func(ctx context.Context, c *asc.Client, versionID string) ([]localization, error)
+	create        func(ctx context.Context, c *asc.Client, versionID, locale string, values map[string]*string) (*localization, error)
+	update        func(ctx context.Context, c *asc.Client, id string, values map[string]*string) (*localization, error)
+	remove        func(ctx context.Context, c *asc.Client, id string) error
+}
+
+// changes describes which version a change goes to.
+func (api localizationAPI) changes() string {
+	if api.updateInPlace {
+		return "A change to a locale the current version has is made in that version; a new locale goes to the version " +
+			"being prepared, and when the current version has been reviewed, applying starts the next one. Adding a " +
+			"locale fails while a version is in review."
+	}
+	return "Changes go to the version being prepared; when the current version has been reviewed, applying starts the " +
+		"next one. Changes fail while a version is in review."
 }
 
 var (
@@ -196,8 +218,7 @@ func (r *versionedLocalizationResource) Schema(_ context.Context, _ resource.Sch
 		}
 	}
 	resp.Schema = schema.Schema{
-		MarkdownDescription: r.api.description + " Changes go to the version being prepared; when the current version " +
-			"has been reviewed, applying starts the next one. Changes fail while a version is in review. Destroying " +
+		MarkdownDescription: r.api.description + " " + r.api.changes() + " Destroying " +
 			"the resource deletes the localization from the version being prepared, and otherwise leaves it. Import " +
 			"it with `<" + r.api.parent + ">/<locale>`.",
 		Attributes: attrs,
@@ -229,6 +250,19 @@ func (r *versionedLocalizationResource) find(ctx context.Context, versionID, loc
 // new version may start with copies of the previous one's localizations, so
 // it updates the copy when there is one.
 func (r *versionedLocalizationResource) write(ctx context.Context, parentID, locale string, values map[string]*string) (*localization, error) {
+	if r.api.updateInPlace {
+		_, current, _, err := r.api.versions.find(ctx, r.client, parentID)
+		if err != nil {
+			return nil, err
+		}
+		if current != nil {
+			if existing, err := r.find(ctx, current.id, locale); err == nil {
+				return r.api.update(ctx, r.client, existing.id, values)
+			} else if !errors.Is(err, errNoMatch) {
+				return nil, err
+			}
+		}
+	}
 	versionID, err := r.api.versions.editable(ctx, r.client, parentID)
 	if err != nil {
 		return nil, err

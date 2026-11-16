@@ -2894,6 +2894,81 @@ func (e AppCustomProductPageType) Valid() bool {
 	}
 }
 
+// Defines values for AppCustomProductPageCreateRequestDataRelationshipsAppDataType.
+const (
+	AppCustomProductPageCreateRequestDataRelationshipsAppDataTypeApps AppCustomProductPageCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageCreateRequestDataRelationshipsAppDataType enum.
+func (e AppCustomProductPageCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataType.
+const (
+	AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataTypeAppCustomProductPageVersions AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataType = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataType enum.
+func (e AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataTypeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataType.
+const (
+	AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataTypeAppStoreVersions AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataType = "appStoreVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataType enum.
+func (e AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataTypeAppStoreVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataType.
+const (
+	AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataTypeAppCustomProductPages AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataType = "appCustomProductPages"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataType enum.
+func (e AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataTypeAppCustomProductPages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageCreateRequestDataType.
+const (
+	AppCustomProductPageCreateRequestDataTypeAppCustomProductPages AppCustomProductPageCreateRequestDataType = "appCustomProductPages"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageCreateRequestDataType enum.
+func (e AppCustomProductPageCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageCreateRequestDataTypeAppCustomProductPages:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType.
 const (
 	AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataTypeAppCustomProductPageVersions AppCustomProductPageLocalizationRelationshipsAppCustomProductPageVersionDataType = "appCustomProductPageVersions"
@@ -2984,6 +3059,141 @@ func (e AppCustomProductPageLocalizationType) Valid() bool {
 	}
 }
 
+// Defines values for AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataType.
+const (
+	AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataTypeAppCustomProductPageVersions AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataType = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataType enum.
+func (e AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataTypeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataType.
+const (
+	AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataType enum.
+func (e AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationCreateRequestDataType.
+const (
+	AppCustomProductPageLocalizationCreateRequestDataTypeAppCustomProductPageLocalizations AppCustomProductPageLocalizationCreateRequestDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationCreateRequestDataType enum.
+func (e AppCustomProductPageLocalizationCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationCreateRequestDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataType.
+const (
+	AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataTypeAppCustomProductPageVersions AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataType = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataType enum.
+func (e AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataTypeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataType.
+const (
+	AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataType enum.
+func (e AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationInlineCreateType.
+const (
+	AppCustomProductPageLocalizationInlineCreateTypeAppCustomProductPageLocalizations AppCustomProductPageLocalizationInlineCreateType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationInlineCreateType enum.
+func (e AppCustomProductPageLocalizationInlineCreateType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationInlineCreateTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataType.
+const (
+	AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataTypeAppKeywords AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataType = "appKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataType enum.
+func (e AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataTypeAppKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageLocalizationUpdateRequestDataType.
+const (
+	AppCustomProductPageLocalizationUpdateRequestDataTypeAppCustomProductPageLocalizations AppCustomProductPageLocalizationUpdateRequestDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationUpdateRequestDataType enum.
+func (e AppCustomProductPageLocalizationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationUpdateRequestDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageUpdateRequestDataType.
+const (
+	AppCustomProductPageUpdateRequestDataTypeAppCustomProductPages AppCustomProductPageUpdateRequestDataType = "appCustomProductPages"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageUpdateRequestDataType enum.
+func (e AppCustomProductPageUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageUpdateRequestDataTypeAppCustomProductPages:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppCustomProductPageVersionAttributesState.
 const (
 	AppCustomProductPageVersionAttributesStateACCEPTED               AppCustomProductPageVersionAttributesState = "ACCEPTED"
@@ -3059,6 +3269,111 @@ const (
 func (e AppCustomProductPageVersionType) Valid() bool {
 	switch e {
 	case AppCustomProductPageVersionTypeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataType.
+const (
+	AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataTypeAppCustomProductPages AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataType = "appCustomProductPages"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataType enum.
+func (e AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataTypeAppCustomProductPages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataType.
+const (
+	AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataTypeAppCustomProductPageLocalizations AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataType enum.
+func (e AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionCreateRequestDataType.
+const (
+	AppCustomProductPageVersionCreateRequestDataTypeAppCustomProductPageVersions AppCustomProductPageVersionCreateRequestDataType = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionCreateRequestDataType enum.
+func (e AppCustomProductPageVersionCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionCreateRequestDataTypeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataType.
+const (
+	AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataTypeAppCustomProductPages AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataType = "appCustomProductPages"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataType enum.
+func (e AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataTypeAppCustomProductPages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataType.
+const (
+	AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataTypeAppCustomProductPageLocalizations AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataType = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataType enum.
+func (e AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataTypeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionInlineCreateType.
+const (
+	AppCustomProductPageVersionInlineCreateTypeAppCustomProductPageVersions AppCustomProductPageVersionInlineCreateType = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionInlineCreateType enum.
+func (e AppCustomProductPageVersionInlineCreateType) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionInlineCreateTypeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionUpdateRequestDataType.
+const (
+	AppCustomProductPageVersionUpdateRequestDataTypeAppCustomProductPageVersions AppCustomProductPageVersionUpdateRequestDataType = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionUpdateRequestDataType enum.
+func (e AppCustomProductPageVersionUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionUpdateRequestDataTypeAppCustomProductPageVersions:
 		return true
 	default:
 		return false
@@ -21833,6 +22148,600 @@ func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude
 	}
 }
 
+// Defines values for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions.
+const (
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPage              AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "appCustomProductPage"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "appCustomProductPageLocalizations"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsDeepLink                          AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "deepLink"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsState                             AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "state"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsVersion                           AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions enum.
+func (e AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPage:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsDeepLink:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsState:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets.
+const (
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization               AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appCustomProductPageLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots                                 AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appScreenshots"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization                    AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "appStoreVersionLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType                          AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets = "screenshotDisplayType"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets enum.
+func (e AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppCustomProductPageLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppScreenshots:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsAppStoreVersionLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSetsScreenshotDisplayType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets.
+const (
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization               AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appCustomProductPageLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews                                    AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appPreviews"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionExperimentTreatmentLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization                    AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "appStoreVersionLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType                                    AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets = "previewType"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets enum.
+func (e AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppCustomProductPageLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppPreviews:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsAppStoreVersionLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSetsPreviewType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude.
+const (
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeAppCustomProductPageVersion AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude = "appCustomProductPageVersion"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeAppPreviewSets              AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude = "appPreviewSets"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeAppScreenshotSets           AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude = "appScreenshotSets"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludePlacements                  AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude = "placements"
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeSearchKeywords              AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude enum.
+func (e AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeAppCustomProductPageVersion:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeAppPreviewSets:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeAppScreenshotSets:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludePlacements:
+		return true
+	case AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsIncludeSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages.
+const (
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesApp                          AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages = "app"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesAppCustomProductPageVersions AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages = "appCustomProductPageVersions"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesName                         AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages = "name"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesUrl                          AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages = "url"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesVisible                      AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages = "visible"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages enum.
+func (e AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages) Valid() bool {
+	switch e {
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesApp:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesAppCustomProductPageVersions:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesName:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesUrl:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPagesVisible:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesGetInstanceParamsFieldsApps.
+const (
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAccessibilityDeclarations              AppCustomProductPagesGetInstanceParamsFieldsApps = "accessibilityDeclarations"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAccessibilityUrl                       AppCustomProductPagesGetInstanceParamsFieldsApps = "accessibilityUrl"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAlternativeDistributionKey             AppCustomProductPagesGetInstanceParamsFieldsApps = "alternativeDistributionKey"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAnalyticsReportRequests                AppCustomProductPagesGetInstanceParamsFieldsApps = "analyticsReportRequests"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails          AppCustomProductPagesGetInstanceParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppAvailabilityV2                      AppCustomProductPagesGetInstanceParamsFieldsApps = "appAvailabilityV2"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppClips                               AppCustomProductPagesGetInstanceParamsFieldsApps = "appClips"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppCustomProductPages                  AppCustomProductPagesGetInstanceParamsFieldsApps = "appCustomProductPages"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppEncryptionDeclarations              AppCustomProductPagesGetInstanceParamsFieldsApps = "appEncryptionDeclarations"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppEvents                              AppCustomProductPagesGetInstanceParamsFieldsApps = "appEvents"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppInfos                               AppCustomProductPagesGetInstanceParamsFieldsApps = "appInfos"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppPricePoints                         AppCustomProductPagesGetInstanceParamsFieldsApps = "appPricePoints"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppPriceSchedule                       AppCustomProductPagesGetInstanceParamsFieldsApps = "appPriceSchedule"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppStoreIcon                           AppCustomProductPagesGetInstanceParamsFieldsApps = "appStoreIcon"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2           AppCustomProductPagesGetInstanceParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppStoreVersions                       AppCustomProductPagesGetInstanceParamsFieldsApps = "appStoreVersions"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAppTags                                AppCustomProductPagesGetInstanceParamsFieldsApps = "appTags"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsAssetLibrary                           AppCustomProductPagesGetInstanceParamsFieldsApps = "assetLibrary"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBackgroundAssets                       AppCustomProductPagesGetInstanceParamsFieldsApps = "backgroundAssets"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBetaAppLocalizations                   AppCustomProductPagesGetInstanceParamsFieldsApps = "betaAppLocalizations"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBetaAppReviewDetail                    AppCustomProductPagesGetInstanceParamsFieldsApps = "betaAppReviewDetail"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions           AppCustomProductPagesGetInstanceParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppCustomProductPagesGetInstanceParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBetaGroups                             AppCustomProductPagesGetInstanceParamsFieldsApps = "betaGroups"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBetaLicenseAgreement                   AppCustomProductPagesGetInstanceParamsFieldsApps = "betaLicenseAgreement"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBetaTesters                            AppCustomProductPagesGetInstanceParamsFieldsApps = "betaTesters"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBuildUploads                           AppCustomProductPagesGetInstanceParamsFieldsApps = "buildUploads"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBuilds                                 AppCustomProductPagesGetInstanceParamsFieldsApps = "builds"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsBundleId                               AppCustomProductPagesGetInstanceParamsFieldsApps = "bundleId"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsCiProduct                              AppCustomProductPagesGetInstanceParamsFieldsApps = "ciProduct"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsContentRightsDeclaration               AppCustomProductPagesGetInstanceParamsFieldsApps = "contentRightsDeclaration"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsCustomerReviewSummarizations           AppCustomProductPagesGetInstanceParamsFieldsApps = "customerReviewSummarizations"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsCustomerReviews                        AppCustomProductPagesGetInstanceParamsFieldsApps = "customerReviews"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsEndUserLicenseAgreement                AppCustomProductPagesGetInstanceParamsFieldsApps = "endUserLicenseAgreement"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsGameCenterDetail                       AppCustomProductPagesGetInstanceParamsFieldsApps = "gameCenterDetail"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsGameCenterEnabledVersions              AppCustomProductPagesGetInstanceParamsFieldsApps = "gameCenterEnabledVersions"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsInAppPurchases                         AppCustomProductPagesGetInstanceParamsFieldsApps = "inAppPurchases"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsInAppPurchasesV2                       AppCustomProductPagesGetInstanceParamsFieldsApps = "inAppPurchasesV2"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids                 AppCustomProductPagesGetInstanceParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsMarketplaceSearchDetail                AppCustomProductPagesGetInstanceParamsFieldsApps = "marketplaceSearchDetail"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsName                                   AppCustomProductPagesGetInstanceParamsFieldsApps = "name"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsPerfPowerMetrics                       AppCustomProductPagesGetInstanceParamsFieldsApps = "perfPowerMetrics"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsPerformanceOverviews                   AppCustomProductPagesGetInstanceParamsFieldsApps = "performanceOverviews"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsPreReleaseVersions                     AppCustomProductPagesGetInstanceParamsFieldsApps = "preReleaseVersions"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsPrimaryLocale                          AppCustomProductPagesGetInstanceParamsFieldsApps = "primaryLocale"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsPromotedPurchases                      AppCustomProductPagesGetInstanceParamsFieldsApps = "promotedPurchases"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsRetentionMessages                      AppCustomProductPagesGetInstanceParamsFieldsApps = "retentionMessages"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsReviewSubmissions                      AppCustomProductPagesGetInstanceParamsFieldsApps = "reviewSubmissions"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSearchKeywords                         AppCustomProductPagesGetInstanceParamsFieldsApps = "searchKeywords"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSku                                    AppCustomProductPagesGetInstanceParamsFieldsApps = "sku"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled           AppCustomProductPagesGetInstanceParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionGracePeriod                AppCustomProductPagesGetInstanceParamsFieldsApps = "subscriptionGracePeriod"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionGroups                     AppCustomProductPagesGetInstanceParamsFieldsApps = "subscriptionGroups"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrl                  AppCustomProductPagesGetInstanceParamsFieldsApps = "subscriptionStatusUrl"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppCustomProductPagesGetInstanceParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion           AppCustomProductPagesGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppCustomProductPagesGetInstanceParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppCustomProductPagesGetInstanceParamsFieldsAppsWebhooks                               AppCustomProductPagesGetInstanceParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesGetInstanceParamsFieldsApps enum.
+func (e AppCustomProductPagesGetInstanceParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppClips:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppEvents:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppInfos:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppPricePoints:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAppTags:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsAssetLibrary:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBetaGroups:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBetaTesters:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBuildUploads:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBuilds:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsBundleId:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsCiProduct:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsCustomerReviews:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsInAppPurchases:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsName:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsRetentionMessages:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSearchKeywords:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSku:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions.
+const (
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsAppCustomProductPage              AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions = "appCustomProductPage"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions = "appCustomProductPageLocalizations"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsDeepLink                          AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions = "deepLink"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsState                             AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions = "state"
+	AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsVersion                           AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions enum.
+func (e AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions) Valid() bool {
+	switch e {
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsAppCustomProductPage:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsDeepLink:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsState:
+		return true
+	case AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesGetInstanceParamsInclude.
+const (
+	AppCustomProductPagesGetInstanceParamsIncludeApp                          AppCustomProductPagesGetInstanceParamsInclude = "app"
+	AppCustomProductPagesGetInstanceParamsIncludeAppCustomProductPageVersions AppCustomProductPagesGetInstanceParamsInclude = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesGetInstanceParamsInclude enum.
+func (e AppCustomProductPagesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppCustomProductPagesGetInstanceParamsIncludeApp:
+		return true
+	case AppCustomProductPagesGetInstanceParamsIncludeAppCustomProductPageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState.
+const (
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateACCEPTED               AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "ACCEPTED"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateAPPROVED               AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "APPROVED"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateINREVIEW               AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "IN_REVIEW"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION   AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "PREPARE_FOR_SUBMISSION"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateREADYFORREVIEW         AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "READY_FOR_REVIEW"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateREJECTED               AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "REJECTED"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateREPLACEDWITHNEWVERSION AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "REPLACED_WITH_NEW_VERSION"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateWAITINGFORREVIEW       AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState enum.
+func (e AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState) Valid() bool {
+	switch e {
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateACCEPTED:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateAPPROVED:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateINREVIEW:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStatePREPAREFORSUBMISSION:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateREADYFORREVIEW:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateREJECTED:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateREPLACEDWITHNEWVERSION:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions.
+const (
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPage              AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "appCustomProductPage"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "appCustomProductPageLocalizations"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsDeepLink                          AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "deepLink"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsState                             AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "state"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsVersion                           AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions enum.
+func (e AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions) Valid() bool {
+	switch e {
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPage:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsDeepLink:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsState:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages.
+const (
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesApp                          AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages = "app"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesAppCustomProductPageVersions AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages = "appCustomProductPageVersions"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesName                         AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages = "name"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesUrl                          AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages = "url"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesVisible                      AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages = "visible"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages enum.
+func (e AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages) Valid() bool {
+	switch e {
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesApp:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesAppCustomProductPageVersions:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesName:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesUrl:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPagesVisible:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations.
+const (
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appCustomProductPageVersion"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets              AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appPreviewSets"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets           AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "appScreenshotSets"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale                      AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "locale"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements                  AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "placements"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText             AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "promotionalText"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords              AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations = "searchKeywords"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations enum.
+func (e AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations) Valid() bool {
+	switch e {
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppCustomProductPageVersion:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppPreviewSets:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsAppScreenshotSets:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsLocale:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPlacements:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsPromotionalText:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizationsSearchKeywords:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude.
+const (
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsIncludeAppCustomProductPage              AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude = "appCustomProductPage"
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsIncludeAppCustomProductPageLocalizations AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude = "appCustomProductPageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude enum.
+func (e AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsIncludeAppCustomProductPage:
+		return true
+	case AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsIncludeAppCustomProductPageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments.
 const (
 	AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocumentsAssetDeliveryState AppEncryptionDeclarationDocumentsGetInstanceParamsFieldsAppEncryptionDeclarationDocuments = "assetDeliveryState"
@@ -29510,6 +30419,264 @@ const (
 func (e AppsAppAvailabilityV2GetToOneRelatedParamsInclude) Valid() bool {
 	switch e {
 	case AppsAppAvailabilityV2GetToOneRelatedParamsIncludeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages.
+const (
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesApp                          AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages = "app"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesAppCustomProductPageVersions AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages = "appCustomProductPageVersions"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesName                         AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages = "name"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesUrl                          AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages = "url"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesVisible                      AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages = "visible"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages enum.
+func (e AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages) Valid() bool {
+	switch e {
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesApp:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesAppCustomProductPageVersions:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesName:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesUrl:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPagesVisible:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps.
+const (
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations              AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAccessibilityUrl                       AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey             AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests                AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppAvailabilityV2                      AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppClips                               AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appClips"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppCustomProductPages                  AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppEvents                              AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appEvents"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppInfos                               AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appInfos"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppPricePoints                         AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appPricePoints"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppPriceSchedule                       AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppStoreIcon                           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appStoreIcon"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppStoreVersions                       AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appStoreVersions"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppTags                                AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "appTags"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAssetLibrary                           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "assetLibrary"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBackgroundAssets                       AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "backgroundAssets"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaAppLocalizations                   AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaGroups                             AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "betaGroups"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaTesters                            AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "betaTesters"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBuildUploads                           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "buildUploads"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBuilds                                 AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "builds"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBundleId                               AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "bundleId"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsCiProduct                              AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "ciProduct"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsContentRightsDeclaration               AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsCustomerReviews                        AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "customerReviews"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsGameCenterDetail                       AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsInAppPurchases                         AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "inAppPurchases"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsInAppPurchasesV2                       AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsName                                   AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "name"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPerfPowerMetrics                       AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPerformanceOverviews                   AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "performanceOverviews"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "primaryLocale"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsRetentionMessages                      AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "retentionMessages"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "searchKeywords"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSku                                    AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "sku"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionGroups                     AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsWebhooks                               AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps enum.
+func (e AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsName:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsRetentionMessages:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSku:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions.
+const (
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPage              AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "appCustomProductPage"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "appCustomProductPageLocalizations"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsDeepLink                          AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "deepLink"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsState                             AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "state"
+	AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsVersion                           AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions enum.
+func (e AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions) Valid() bool {
+	switch e {
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPage:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsAppCustomProductPageLocalizations:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsDeepLink:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsState:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppCustomProductPagesGetToManyRelatedParamsInclude.
+const (
+	AppsAppCustomProductPagesGetToManyRelatedParamsIncludeApp                          AppsAppCustomProductPagesGetToManyRelatedParamsInclude = "app"
+	AppsAppCustomProductPagesGetToManyRelatedParamsIncludeAppCustomProductPageVersions AppsAppCustomProductPagesGetToManyRelatedParamsInclude = "appCustomProductPageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppCustomProductPagesGetToManyRelatedParamsInclude enum.
+func (e AppsAppCustomProductPagesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppCustomProductPagesGetToManyRelatedParamsIncludeApp:
+		return true
+	case AppsAppCustomProductPagesGetToManyRelatedParamsIncludeAppCustomProductPageVersions:
 		return true
 	default:
 		return false
@@ -53076,6 +54243,63 @@ type AppCustomProductPageRelationshipsAppCustomProductPageVersionsDataType strin
 // AppCustomProductPageType defines model for AppCustomProductPage.Type.
 type AppCustomProductPageType string
 
+// AppCustomProductPageCreateRequest defines model for AppCustomProductPageCreateRequest.
+type AppCustomProductPageCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Name string `json:"name"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                        `json:"id"`
+					Type AppCustomProductPageCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+			AppCustomProductPageVersions *struct {
+				Data *[]struct {
+					Id   string                                                                                 `json:"id"`
+					Type AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appCustomProductPageVersions,omitempty"`
+			AppStoreVersionTemplate *struct {
+				Data *struct {
+					Id   string                                                                            `json:"id"`
+					Type AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appStoreVersionTemplate,omitempty"`
+			CustomProductPageTemplate *struct {
+				Data *struct {
+					Id   string                                                                              `json:"id"`
+					Type AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"customProductPageTemplate,omitempty"`
+		} `json:"relationships"`
+		Type AppCustomProductPageCreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]AppCustomProductPageCreateRequest_Included_Item `json:"included,omitempty"`
+}
+
+// AppCustomProductPageCreateRequestDataRelationshipsAppDataType defines model for AppCustomProductPageCreateRequest.Data.Relationships.App.Data.Type.
+type AppCustomProductPageCreateRequestDataRelationshipsAppDataType string
+
+// AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataType defines model for AppCustomProductPageCreateRequest.Data.Relationships.AppCustomProductPageVersions.Data.Type.
+type AppCustomProductPageCreateRequestDataRelationshipsAppCustomProductPageVersionsDataType string
+
+// AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataType defines model for AppCustomProductPageCreateRequest.Data.Relationships.AppStoreVersionTemplate.Data.Type.
+type AppCustomProductPageCreateRequestDataRelationshipsAppStoreVersionTemplateDataType string
+
+// AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataType defines model for AppCustomProductPageCreateRequest.Data.Relationships.CustomProductPageTemplate.Data.Type.
+type AppCustomProductPageCreateRequestDataRelationshipsCustomProductPageTemplateDataType string
+
+// AppCustomProductPageCreateRequestDataType defines model for AppCustomProductPageCreateRequest.Data.Type.
+type AppCustomProductPageCreateRequestDataType string
+
+// AppCustomProductPageCreateRequest_Included_Item defines model for AppCustomProductPageCreateRequest.included.Item.
+type AppCustomProductPageCreateRequest_Included_Item struct {
+	union json.RawMessage
+}
+
 // AppCustomProductPageLocalization defines model for AppCustomProductPageLocalization.
 type AppCustomProductPageLocalization struct {
 	Attributes *struct {
@@ -53145,6 +54369,150 @@ type AppCustomProductPageLocalizationRelationshipsSearchKeywordsDataType string
 // AppCustomProductPageLocalizationType defines model for AppCustomProductPageLocalization.Type.
 type AppCustomProductPageLocalizationType string
 
+// AppCustomProductPageLocalizationCreateRequest defines model for AppCustomProductPageLocalizationCreateRequest.
+type AppCustomProductPageLocalizationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Locale          string  `json:"locale"`
+			PromotionalText *string `json:"promotionalText,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppCustomProductPageVersion struct {
+				Data struct {
+					Id   string                                                                                            `json:"id"`
+					Type AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appCustomProductPageVersion"`
+			Placements *struct {
+				Data *[]struct {
+					Id   string                                                                           `json:"id"`
+					Type AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"placements,omitempty"`
+		} `json:"relationships"`
+		Type AppCustomProductPageLocalizationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataType defines model for AppCustomProductPageLocalizationCreateRequest.Data.Relationships.AppCustomProductPageVersion.Data.Type.
+type AppCustomProductPageLocalizationCreateRequestDataRelationshipsAppCustomProductPageVersionDataType string
+
+// AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataType defines model for AppCustomProductPageLocalizationCreateRequest.Data.Relationships.Placements.Data.Type.
+type AppCustomProductPageLocalizationCreateRequestDataRelationshipsPlacementsDataType string
+
+// AppCustomProductPageLocalizationCreateRequestDataType defines model for AppCustomProductPageLocalizationCreateRequest.Data.Type.
+type AppCustomProductPageLocalizationCreateRequestDataType string
+
+// AppCustomProductPageLocalizationInlineCreate defines model for AppCustomProductPageLocalizationInlineCreate.
+type AppCustomProductPageLocalizationInlineCreate struct {
+	Attributes struct {
+		Locale          string  `json:"locale"`
+		PromotionalText *string `json:"promotionalText,omitempty"`
+	} `json:"attributes"`
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		AppCustomProductPageVersion *struct {
+			Data *struct {
+				Id   string                                                                                       `json:"id"`
+				Type AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appCustomProductPageVersion,omitempty"`
+		Placements *struct {
+			Data *[]struct {
+				Id   string                                                                      `json:"id"`
+				Type AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"placements,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppCustomProductPageLocalizationInlineCreateType `json:"type"`
+}
+
+// AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataType defines model for AppCustomProductPageLocalizationInlineCreate.Relationships.AppCustomProductPageVersion.Data.Type.
+type AppCustomProductPageLocalizationInlineCreateRelationshipsAppCustomProductPageVersionDataType string
+
+// AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataType defines model for AppCustomProductPageLocalizationInlineCreate.Relationships.Placements.Data.Type.
+type AppCustomProductPageLocalizationInlineCreateRelationshipsPlacementsDataType string
+
+// AppCustomProductPageLocalizationInlineCreateType defines model for AppCustomProductPageLocalizationInlineCreate.Type.
+type AppCustomProductPageLocalizationInlineCreateType string
+
+// AppCustomProductPageLocalizationResponse defines model for AppCustomProductPageLocalizationResponse.
+type AppCustomProductPageLocalizationResponse struct {
+	Data     AppCustomProductPageLocalization                          `json:"data"`
+	Included *[]AppCustomProductPageLocalizationResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                             `json:"links"`
+}
+
+// AppCustomProductPageLocalizationResponse_Included_Item defines model for AppCustomProductPageLocalizationResponse.included.Item.
+type AppCustomProductPageLocalizationResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppCustomProductPageLocalizationSearchKeywordsLinkagesRequest defines model for AppCustomProductPageLocalizationSearchKeywordsLinkagesRequest.
+type AppCustomProductPageLocalizationSearchKeywordsLinkagesRequest struct {
+	Data []struct {
+		Id   string                                                                `json:"id"`
+		Type AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataType defines model for AppCustomProductPageLocalizationSearchKeywordsLinkagesRequest.Data.Type.
+type AppCustomProductPageLocalizationSearchKeywordsLinkagesRequestDataType string
+
+// AppCustomProductPageLocalizationUpdateRequest defines model for AppCustomProductPageLocalizationUpdateRequest.
+type AppCustomProductPageLocalizationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			PromotionalText *string `json:"promotionalText,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                `json:"id"`
+		Type AppCustomProductPageLocalizationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppCustomProductPageLocalizationUpdateRequestDataType defines model for AppCustomProductPageLocalizationUpdateRequest.Data.Type.
+type AppCustomProductPageLocalizationUpdateRequestDataType string
+
+// AppCustomProductPageLocalizationsResponse defines model for AppCustomProductPageLocalizationsResponse.
+type AppCustomProductPageLocalizationsResponse struct {
+	Data     []AppCustomProductPageLocalization                         `json:"data"`
+	Included *[]AppCustomProductPageLocalizationsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                         `json:"links"`
+	Meta     *PagingInformation                                         `json:"meta,omitempty"`
+}
+
+// AppCustomProductPageLocalizationsResponse_Included_Item defines model for AppCustomProductPageLocalizationsResponse.included.Item.
+type AppCustomProductPageLocalizationsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppCustomProductPageResponse defines model for AppCustomProductPageResponse.
+type AppCustomProductPageResponse struct {
+	Data     AppCustomProductPage                          `json:"data"`
+	Included *[]AppCustomProductPageResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                 `json:"links"`
+}
+
+// AppCustomProductPageResponse_Included_Item defines model for AppCustomProductPageResponse.included.Item.
+type AppCustomProductPageResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppCustomProductPageUpdateRequest defines model for AppCustomProductPageUpdateRequest.
+type AppCustomProductPageUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Name    *string `json:"name,omitempty"`
+			Visible *bool   `json:"visible,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                    `json:"id"`
+		Type AppCustomProductPageUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppCustomProductPageUpdateRequestDataType defines model for AppCustomProductPageUpdateRequest.Data.Type.
+type AppCustomProductPageUpdateRequestDataType string
+
 // AppCustomProductPageVersion defines model for AppCustomProductPageVersion.
 type AppCustomProductPageVersion struct {
 	Attributes *struct {
@@ -53184,6 +54552,123 @@ type AppCustomProductPageVersionRelationshipsAppCustomProductPageLocalizationsDa
 
 // AppCustomProductPageVersionType defines model for AppCustomProductPageVersion.Type.
 type AppCustomProductPageVersionType string
+
+// AppCustomProductPageVersionCreateRequest defines model for AppCustomProductPageVersionCreateRequest.
+type AppCustomProductPageVersionCreateRequest struct {
+	Data struct {
+		Attributes *struct {
+			DeepLink *string `json:"deepLink,omitempty"`
+		} `json:"attributes,omitempty"`
+		Relationships struct {
+			AppCustomProductPage struct {
+				Data struct {
+					Id   string                                                                                `json:"id"`
+					Type AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appCustomProductPage"`
+			AppCustomProductPageLocalizations *struct {
+				Data *[]struct {
+					Id   string                                                                                             `json:"id"`
+					Type AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appCustomProductPageLocalizations,omitempty"`
+		} `json:"relationships"`
+		Type AppCustomProductPageVersionCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataType defines model for AppCustomProductPageVersionCreateRequest.Data.Relationships.AppCustomProductPage.Data.Type.
+type AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageDataType string
+
+// AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataType defines model for AppCustomProductPageVersionCreateRequest.Data.Relationships.AppCustomProductPageLocalizations.Data.Type.
+type AppCustomProductPageVersionCreateRequestDataRelationshipsAppCustomProductPageLocalizationsDataType string
+
+// AppCustomProductPageVersionCreateRequestDataType defines model for AppCustomProductPageVersionCreateRequest.Data.Type.
+type AppCustomProductPageVersionCreateRequestDataType string
+
+// AppCustomProductPageVersionInlineCreate defines model for AppCustomProductPageVersionInlineCreate.
+type AppCustomProductPageVersionInlineCreate struct {
+	Attributes *struct {
+		DeepLink *string `json:"deepLink,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		AppCustomProductPage *struct {
+			Data *struct {
+				Id   string                                                                           `json:"id"`
+				Type AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appCustomProductPage,omitempty"`
+		AppCustomProductPageLocalizations *struct {
+			Data *[]struct {
+				Id   string                                                                                        `json:"id"`
+				Type AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appCustomProductPageLocalizations,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppCustomProductPageVersionInlineCreateType `json:"type"`
+}
+
+// AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataType defines model for AppCustomProductPageVersionInlineCreate.Relationships.AppCustomProductPage.Data.Type.
+type AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageDataType string
+
+// AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataType defines model for AppCustomProductPageVersionInlineCreate.Relationships.AppCustomProductPageLocalizations.Data.Type.
+type AppCustomProductPageVersionInlineCreateRelationshipsAppCustomProductPageLocalizationsDataType string
+
+// AppCustomProductPageVersionInlineCreateType defines model for AppCustomProductPageVersionInlineCreate.Type.
+type AppCustomProductPageVersionInlineCreateType string
+
+// AppCustomProductPageVersionResponse defines model for AppCustomProductPageVersionResponse.
+type AppCustomProductPageVersionResponse struct {
+	Data     AppCustomProductPageVersion                          `json:"data"`
+	Included *[]AppCustomProductPageVersionResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                        `json:"links"`
+}
+
+// AppCustomProductPageVersionResponse_Included_Item defines model for AppCustomProductPageVersionResponse.included.Item.
+type AppCustomProductPageVersionResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppCustomProductPageVersionUpdateRequest defines model for AppCustomProductPageVersionUpdateRequest.
+type AppCustomProductPageVersionUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			DeepLink *string `json:"deepLink,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                           `json:"id"`
+		Type AppCustomProductPageVersionUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppCustomProductPageVersionUpdateRequestDataType defines model for AppCustomProductPageVersionUpdateRequest.Data.Type.
+type AppCustomProductPageVersionUpdateRequestDataType string
+
+// AppCustomProductPageVersionsResponse defines model for AppCustomProductPageVersionsResponse.
+type AppCustomProductPageVersionsResponse struct {
+	Data     []AppCustomProductPageVersion                         `json:"data"`
+	Included *[]AppCustomProductPageVersionsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                                    `json:"links"`
+	Meta     *PagingInformation                                    `json:"meta,omitempty"`
+}
+
+// AppCustomProductPageVersionsResponse_Included_Item defines model for AppCustomProductPageVersionsResponse.included.Item.
+type AppCustomProductPageVersionsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppCustomProductPagesResponse defines model for AppCustomProductPagesResponse.
+type AppCustomProductPagesResponse struct {
+	Data     []AppCustomProductPage                         `json:"data"`
+	Included *[]AppCustomProductPagesResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                             `json:"links"`
+	Meta     *PagingInformation                             `json:"meta,omitempty"`
+}
+
+// AppCustomProductPagesResponse_Included_Item defines model for AppCustomProductPagesResponse.included.Item.
+type AppCustomProductPagesResponse_Included_Item struct {
+	union json.RawMessage
+}
 
 // AppEncryptionDeclaration defines model for AppEncryptionDeclaration.
 type AppEncryptionDeclaration struct {
@@ -65579,6 +67064,150 @@ type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRete
 // AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
 type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude string
 
+// AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams defines parameters for AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated.
+type AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams struct {
+	// FilterPlatform filter by platform
+	FilterPlatform *[]string `form:"filter[platform],omitempty" json:"filter[platform],omitempty"`
+
+	// FilterLocale filter by locale
+	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
+
+	// FieldsAppKeywords the fields to include for returned resources of type appKeywords
+	FieldsAppKeywords *[]string `form:"fields[appKeywords],omitempty" json:"fields[appKeywords],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams defines parameters for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated.
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams struct {
+	// FilterLocale filter by attribute 'locale'
+	FilterLocale *[]string `form:"filter[locale],omitempty" json:"filter[locale],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// FieldsAppCustomProductPageVersions the fields to include for returned resources of type appCustomProductPageVersions
+	FieldsAppCustomProductPageVersions *[]AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions `form:"fields[appCustomProductPageVersions],omitempty" json:"fields[appCustomProductPageVersions],omitempty"`
+
+	// FieldsAppScreenshotSets the fields to include for returned resources of type appScreenshotSets
+	FieldsAppScreenshotSets *[]AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets `form:"fields[appScreenshotSets],omitempty" json:"fields[appScreenshotSets],omitempty"`
+
+	// FieldsAppPreviewSets the fields to include for returned resources of type appPreviewSets
+	FieldsAppPreviewSets *[]AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets `form:"fields[appPreviewSets],omitempty" json:"fields[appPreviewSets],omitempty"`
+
+	// FieldsAppKeywords the fields to include for returned resources of type appKeywords
+	FieldsAppKeywords *[]string `form:"fields[appKeywords],omitempty" json:"fields[appKeywords],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppScreenshotSets maximum number of related appScreenshotSets returned (when they are included)
+	LimitAppScreenshotSets *int `form:"limit[appScreenshotSets],omitempty" json:"limit[appScreenshotSets],omitempty"`
+
+	// LimitAppPreviewSets maximum number of related appPreviewSets returned (when they are included)
+	LimitAppPreviewSets *int `form:"limit[appPreviewSets],omitempty" json:"limit[appPreviewSets],omitempty"`
+
+	// LimitSearchKeywords maximum number of related searchKeywords returned (when they are included)
+	LimitSearchKeywords *int `form:"limit[searchKeywords],omitempty" json:"limit[searchKeywords],omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated.
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions defines parameters for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated.
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppCustomProductPageVersions string
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets defines parameters for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated.
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppScreenshotSets string
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets defines parameters for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated.
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppPreviewSets string
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated.
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude defines parameters for AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated.
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParamsInclude string
+
+// AppCustomProductPagesGetInstanceParams defines parameters for AppCustomProductPagesGetInstance.
+type AppCustomProductPagesGetInstanceParams struct {
+	// FieldsAppCustomProductPages the fields to include for returned resources of type appCustomProductPages
+	FieldsAppCustomProductPages *[]AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages `form:"fields[appCustomProductPages],omitempty" json:"fields[appCustomProductPages],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppCustomProductPagesGetInstanceParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsAppCustomProductPageVersions the fields to include for returned resources of type appCustomProductPageVersions
+	FieldsAppCustomProductPageVersions *[]AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions `form:"fields[appCustomProductPageVersions],omitempty" json:"fields[appCustomProductPageVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppCustomProductPagesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppCustomProductPageVersions maximum number of related appCustomProductPageVersions returned (when they are included)
+	LimitAppCustomProductPageVersions *int `form:"limit[appCustomProductPageVersions],omitempty" json:"limit[appCustomProductPageVersions],omitempty"`
+}
+
+// AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages defines parameters for AppCustomProductPagesGetInstance.
+type AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPages string
+
+// AppCustomProductPagesGetInstanceParamsFieldsApps defines parameters for AppCustomProductPagesGetInstance.
+type AppCustomProductPagesGetInstanceParamsFieldsApps string
+
+// AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions defines parameters for AppCustomProductPagesGetInstance.
+type AppCustomProductPagesGetInstanceParamsFieldsAppCustomProductPageVersions string
+
+// AppCustomProductPagesGetInstanceParamsInclude defines parameters for AppCustomProductPagesGetInstance.
+type AppCustomProductPagesGetInstanceParamsInclude string
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams defines parameters for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated.
+type AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams struct {
+	// FilterState filter by attribute 'state'
+	FilterState *[]AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState `form:"filter[state],omitempty" json:"filter[state],omitempty"`
+
+	// FieldsAppCustomProductPageVersions the fields to include for returned resources of type appCustomProductPageVersions
+	FieldsAppCustomProductPageVersions *[]AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions `form:"fields[appCustomProductPageVersions],omitempty" json:"fields[appCustomProductPageVersions],omitempty"`
+
+	// FieldsAppCustomProductPages the fields to include for returned resources of type appCustomProductPages
+	FieldsAppCustomProductPages *[]AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages `form:"fields[appCustomProductPages],omitempty" json:"fields[appCustomProductPages],omitempty"`
+
+	// FieldsAppCustomProductPageLocalizations the fields to include for returned resources of type appCustomProductPageLocalizations
+	FieldsAppCustomProductPageLocalizations *[]AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations `form:"fields[appCustomProductPageLocalizations],omitempty" json:"fields[appCustomProductPageLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppCustomProductPageLocalizations maximum number of related appCustomProductPageLocalizations returned (when they are included)
+	LimitAppCustomProductPageLocalizations *int `form:"limit[appCustomProductPageLocalizations],omitempty" json:"limit[appCustomProductPageLocalizations],omitempty"`
+}
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState defines parameters for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated.
+type AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFilterState string
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions defines parameters for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated.
+type AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageVersions string
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages defines parameters for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated.
+type AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPages string
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations defines parameters for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated.
+type AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsFieldsAppCustomProductPageLocalizations string
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude defines parameters for AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated.
+type AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParamsInclude string
+
 // AppEncryptionDeclarationDocumentsGetInstanceParams defines parameters for AppEncryptionDeclarationDocumentsGetInstance.
 type AppEncryptionDeclarationDocumentsGetInstanceParams struct {
 	// FieldsAppEncryptionDeclarationDocuments the fields to include for returned resources of type appEncryptionDeclarationDocuments
@@ -67057,6 +68686,42 @@ type AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities str
 
 // AppsAppAvailabilityV2GetToOneRelatedParamsInclude defines parameters for AppsAppAvailabilityV2GetToOneRelated.
 type AppsAppAvailabilityV2GetToOneRelatedParamsInclude string
+
+// AppsAppCustomProductPagesGetToManyRelatedParams defines parameters for AppsAppCustomProductPagesGetToManyRelated.
+type AppsAppCustomProductPagesGetToManyRelatedParams struct {
+	// FilterVisible filter by attribute 'visible'
+	FilterVisible *[]string `form:"filter[visible],omitempty" json:"filter[visible],omitempty"`
+
+	// FieldsAppCustomProductPages the fields to include for returned resources of type appCustomProductPages
+	FieldsAppCustomProductPages *[]AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages `form:"fields[appCustomProductPages],omitempty" json:"fields[appCustomProductPages],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsAppCustomProductPageVersions the fields to include for returned resources of type appCustomProductPageVersions
+	FieldsAppCustomProductPageVersions *[]AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions `form:"fields[appCustomProductPageVersions],omitempty" json:"fields[appCustomProductPageVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppCustomProductPagesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppCustomProductPageVersions maximum number of related appCustomProductPageVersions returned (when they are included)
+	LimitAppCustomProductPageVersions *int `form:"limit[appCustomProductPageVersions],omitempty" json:"limit[appCustomProductPageVersions],omitempty"`
+}
+
+// AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages defines parameters for AppsAppCustomProductPagesGetToManyRelated.
+type AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPages string
+
+// AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps defines parameters for AppsAppCustomProductPagesGetToManyRelated.
+type AppsAppCustomProductPagesGetToManyRelatedParamsFieldsApps string
+
+// AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions defines parameters for AppsAppCustomProductPagesGetToManyRelated.
+type AppsAppCustomProductPagesGetToManyRelatedParamsFieldsAppCustomProductPageVersions string
+
+// AppsAppCustomProductPagesGetToManyRelatedParamsInclude defines parameters for AppsAppCustomProductPagesGetToManyRelated.
+type AppsAppCustomProductPagesGetToManyRelatedParamsInclude string
 
 // AppsAppEventsGetToManyRelatedParams defines parameters for AppsAppEventsGetToManyRelated.
 type AppsAppEventsGetToManyRelatedParams struct {
@@ -71450,6 +73115,30 @@ type AppAssetLibraryVideosCreateInstanceJSONRequestBody = AppAssetLibraryVideoCr
 // AppAssetLibraryVideosUpdateInstanceJSONRequestBody defines body for AppAssetLibraryVideosUpdateInstance for application/json ContentType.
 type AppAssetLibraryVideosUpdateInstanceJSONRequestBody = AppAssetLibraryVideoUpdateRequest
 
+// AppCustomProductPageLocalizationsCreateInstanceJSONRequestBody defines body for AppCustomProductPageLocalizationsCreateInstance for application/json ContentType.
+type AppCustomProductPageLocalizationsCreateInstanceJSONRequestBody = AppCustomProductPageLocalizationCreateRequest
+
+// AppCustomProductPageLocalizationsUpdateInstanceJSONRequestBody defines body for AppCustomProductPageLocalizationsUpdateInstance for application/json ContentType.
+type AppCustomProductPageLocalizationsUpdateInstanceJSONRequestBody = AppCustomProductPageLocalizationUpdateRequest
+
+// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody defines body for AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship for application/json ContentType.
+type AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody = AppCustomProductPageLocalizationSearchKeywordsLinkagesRequest
+
+// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody defines body for AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship for application/json ContentType.
+type AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody = AppCustomProductPageLocalizationSearchKeywordsLinkagesRequest
+
+// AppCustomProductPageVersionsCreateInstanceJSONRequestBody defines body for AppCustomProductPageVersionsCreateInstance for application/json ContentType.
+type AppCustomProductPageVersionsCreateInstanceJSONRequestBody = AppCustomProductPageVersionCreateRequest
+
+// AppCustomProductPageVersionsUpdateInstanceJSONRequestBody defines body for AppCustomProductPageVersionsUpdateInstance for application/json ContentType.
+type AppCustomProductPageVersionsUpdateInstanceJSONRequestBody = AppCustomProductPageVersionUpdateRequest
+
+// AppCustomProductPagesCreateInstanceJSONRequestBody defines body for AppCustomProductPagesCreateInstance for application/json ContentType.
+type AppCustomProductPagesCreateInstanceJSONRequestBody = AppCustomProductPageCreateRequest
+
+// AppCustomProductPagesUpdateInstanceJSONRequestBody defines body for AppCustomProductPagesUpdateInstance for application/json ContentType.
+type AppCustomProductPagesUpdateInstanceJSONRequestBody = AppCustomProductPageUpdateRequest
+
 // AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody defines body for AppEncryptionDeclarationDocumentsCreateInstance for application/json ContentType.
 type AppEncryptionDeclarationDocumentsCreateInstanceJSONRequestBody = AppEncryptionDeclarationDocumentCreateRequest
 
@@ -73718,6 +75407,962 @@ func (t AppAssetLibraryVideo_Attributes) MarshalJSON() ([]byte, error) {
 }
 
 func (t *AppAssetLibraryVideo_Attributes) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalizationInlineCreate returns the union data inside the AppCustomProductPageCreateRequest_Included_Item as a AppCustomProductPageLocalizationInlineCreate
+func (t AppCustomProductPageCreateRequest_Included_Item) AsAppCustomProductPageLocalizationInlineCreate() (AppCustomProductPageLocalizationInlineCreate, error) {
+	var body AppCustomProductPageLocalizationInlineCreate
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalizationInlineCreate overwrites any union data inside the AppCustomProductPageCreateRequest_Included_Item as the provided AppCustomProductPageLocalizationInlineCreate
+func (t *AppCustomProductPageCreateRequest_Included_Item) FromAppCustomProductPageLocalizationInlineCreate(v AppCustomProductPageLocalizationInlineCreate) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalizationInlineCreate performs a merge with any union data inside the AppCustomProductPageCreateRequest_Included_Item, using the provided AppCustomProductPageLocalizationInlineCreate
+func (t *AppCustomProductPageCreateRequest_Included_Item) MergeAppCustomProductPageLocalizationInlineCreate(v AppCustomProductPageLocalizationInlineCreate) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPageVersionInlineCreate returns the union data inside the AppCustomProductPageCreateRequest_Included_Item as a AppCustomProductPageVersionInlineCreate
+func (t AppCustomProductPageCreateRequest_Included_Item) AsAppCustomProductPageVersionInlineCreate() (AppCustomProductPageVersionInlineCreate, error) {
+	var body AppCustomProductPageVersionInlineCreate
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageVersionInlineCreate overwrites any union data inside the AppCustomProductPageCreateRequest_Included_Item as the provided AppCustomProductPageVersionInlineCreate
+func (t *AppCustomProductPageCreateRequest_Included_Item) FromAppCustomProductPageVersionInlineCreate(v AppCustomProductPageVersionInlineCreate) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageVersionInlineCreate performs a merge with any union data inside the AppCustomProductPageCreateRequest_Included_Item, using the provided AppCustomProductPageVersionInlineCreate
+func (t *AppCustomProductPageCreateRequest_Included_Item) MergeAppCustomProductPageVersionInlineCreate(v AppCustomProductPageVersionInlineCreate) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppCustomProductPageCreateRequest_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppCustomProductPageCreateRequest_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacement returns the union data inside the AppCustomProductPageLocalizationResponse_Included_Item as a AppAssetLibraryPlacement
+func (t AppCustomProductPageLocalizationResponse_Included_Item) AsAppAssetLibraryPlacement() (AppAssetLibraryPlacement, error) {
+	var body AppAssetLibraryPlacement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacement overwrites any union data inside the AppCustomProductPageLocalizationResponse_Included_Item as the provided AppAssetLibraryPlacement
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) FromAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacement performs a merge with any union data inside the AppCustomProductPageLocalizationResponse_Included_Item, using the provided AppAssetLibraryPlacement
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) MergeAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPageVersion returns the union data inside the AppCustomProductPageLocalizationResponse_Included_Item as a AppCustomProductPageVersion
+func (t AppCustomProductPageLocalizationResponse_Included_Item) AsAppCustomProductPageVersion() (AppCustomProductPageVersion, error) {
+	var body AppCustomProductPageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageVersion overwrites any union data inside the AppCustomProductPageLocalizationResponse_Included_Item as the provided AppCustomProductPageVersion
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) FromAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageVersion performs a merge with any union data inside the AppCustomProductPageLocalizationResponse_Included_Item, using the provided AppCustomProductPageVersion
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) MergeAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppKeyword returns the union data inside the AppCustomProductPageLocalizationResponse_Included_Item as a AppKeyword
+func (t AppCustomProductPageLocalizationResponse_Included_Item) AsAppKeyword() (AppKeyword, error) {
+	var body AppKeyword
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppKeyword overwrites any union data inside the AppCustomProductPageLocalizationResponse_Included_Item as the provided AppKeyword
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) FromAppKeyword(v AppKeyword) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appKeywords"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppKeyword performs a merge with any union data inside the AppCustomProductPageLocalizationResponse_Included_Item, using the provided AppKeyword
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) MergeAppKeyword(v AppKeyword) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appKeywords"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppPreviewSet returns the union data inside the AppCustomProductPageLocalizationResponse_Included_Item as a AppPreviewSet
+func (t AppCustomProductPageLocalizationResponse_Included_Item) AsAppPreviewSet() (AppPreviewSet, error) {
+	var body AppPreviewSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPreviewSet overwrites any union data inside the AppCustomProductPageLocalizationResponse_Included_Item as the provided AppPreviewSet
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) FromAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPreviewSet performs a merge with any union data inside the AppCustomProductPageLocalizationResponse_Included_Item, using the provided AppPreviewSet
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) MergeAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppScreenshotSet returns the union data inside the AppCustomProductPageLocalizationResponse_Included_Item as a AppScreenshotSet
+func (t AppCustomProductPageLocalizationResponse_Included_Item) AsAppScreenshotSet() (AppScreenshotSet, error) {
+	var body AppScreenshotSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppScreenshotSet overwrites any union data inside the AppCustomProductPageLocalizationResponse_Included_Item as the provided AppScreenshotSet
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) FromAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppScreenshotSet performs a merge with any union data inside the AppCustomProductPageLocalizationResponse_Included_Item, using the provided AppScreenshotSet
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) MergeAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppCustomProductPageLocalizationResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppCustomProductPageLocalizationResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryPlacements":
+		return t.AsAppAssetLibraryPlacement()
+	case "appCustomProductPageVersions":
+		return t.AsAppCustomProductPageVersion()
+	case "appKeywords":
+		return t.AsAppKeyword()
+	case "appPreviewSets":
+		return t.AsAppPreviewSet()
+	case "appScreenshotSets":
+		return t.AsAppScreenshotSet()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppCustomProductPageLocalizationResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppCustomProductPageLocalizationResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacement returns the union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as a AppAssetLibraryPlacement
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) AsAppAssetLibraryPlacement() (AppAssetLibraryPlacement, error) {
+	var body AppAssetLibraryPlacement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacement overwrites any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as the provided AppAssetLibraryPlacement
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) FromAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacement performs a merge with any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item, using the provided AppAssetLibraryPlacement
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) MergeAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPageVersion returns the union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as a AppCustomProductPageVersion
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) AsAppCustomProductPageVersion() (AppCustomProductPageVersion, error) {
+	var body AppCustomProductPageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageVersion overwrites any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as the provided AppCustomProductPageVersion
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) FromAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageVersion performs a merge with any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item, using the provided AppCustomProductPageVersion
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) MergeAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppKeyword returns the union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as a AppKeyword
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) AsAppKeyword() (AppKeyword, error) {
+	var body AppKeyword
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppKeyword overwrites any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as the provided AppKeyword
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) FromAppKeyword(v AppKeyword) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appKeywords"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppKeyword performs a merge with any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item, using the provided AppKeyword
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) MergeAppKeyword(v AppKeyword) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appKeywords"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppPreviewSet returns the union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as a AppPreviewSet
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) AsAppPreviewSet() (AppPreviewSet, error) {
+	var body AppPreviewSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppPreviewSet overwrites any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as the provided AppPreviewSet
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) FromAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppPreviewSet performs a merge with any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item, using the provided AppPreviewSet
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) MergeAppPreviewSet(v AppPreviewSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appPreviewSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppScreenshotSet returns the union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as a AppScreenshotSet
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) AsAppScreenshotSet() (AppScreenshotSet, error) {
+	var body AppScreenshotSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppScreenshotSet overwrites any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item as the provided AppScreenshotSet
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) FromAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppScreenshotSet performs a merge with any union data inside the AppCustomProductPageLocalizationsResponse_Included_Item, using the provided AppScreenshotSet
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) MergeAppScreenshotSet(v AppScreenshotSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appScreenshotSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryPlacements":
+		return t.AsAppAssetLibraryPlacement()
+	case "appCustomProductPageVersions":
+		return t.AsAppCustomProductPageVersion()
+	case "appKeywords":
+		return t.AsAppKeyword()
+	case "appPreviewSets":
+		return t.AsAppPreviewSet()
+	case "appScreenshotSets":
+		return t.AsAppScreenshotSet()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppCustomProductPageLocalizationsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppCustomProductPageLocalizationsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppCustomProductPageResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppCustomProductPageResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppCustomProductPageResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPageResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppCustomProductPageResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPageResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPageVersion returns the union data inside the AppCustomProductPageResponse_Included_Item as a AppCustomProductPageVersion
+func (t AppCustomProductPageResponse_Included_Item) AsAppCustomProductPageVersion() (AppCustomProductPageVersion, error) {
+	var body AppCustomProductPageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageVersion overwrites any union data inside the AppCustomProductPageResponse_Included_Item as the provided AppCustomProductPageVersion
+func (t *AppCustomProductPageResponse_Included_Item) FromAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageVersion performs a merge with any union data inside the AppCustomProductPageResponse_Included_Item, using the provided AppCustomProductPageVersion
+func (t *AppCustomProductPageResponse_Included_Item) MergeAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the AppCustomProductPageResponse_Included_Item as a App
+func (t AppCustomProductPageResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppCustomProductPageResponse_Included_Item as the provided App
+func (t *AppCustomProductPageResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppCustomProductPageResponse_Included_Item, using the provided App
+func (t *AppCustomProductPageResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppCustomProductPageResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppCustomProductPageResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appCustomProductPageVersions":
+		return t.AsAppCustomProductPageVersion()
+	case "apps":
+		return t.AsApp()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppCustomProductPageResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppCustomProductPageResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppCustomProductPageVersionResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppCustomProductPageVersionResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppCustomProductPageVersionResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPageVersionResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppCustomProductPageVersionResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPageVersionResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPage returns the union data inside the AppCustomProductPageVersionResponse_Included_Item as a AppCustomProductPage
+func (t AppCustomProductPageVersionResponse_Included_Item) AsAppCustomProductPage() (AppCustomProductPage, error) {
+	var body AppCustomProductPage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPage overwrites any union data inside the AppCustomProductPageVersionResponse_Included_Item as the provided AppCustomProductPage
+func (t *AppCustomProductPageVersionResponse_Included_Item) FromAppCustomProductPage(v AppCustomProductPage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPages"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPage performs a merge with any union data inside the AppCustomProductPageVersionResponse_Included_Item, using the provided AppCustomProductPage
+func (t *AppCustomProductPageVersionResponse_Included_Item) MergeAppCustomProductPage(v AppCustomProductPage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppCustomProductPageVersionResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppCustomProductPageVersionResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appCustomProductPages":
+		return t.AsAppCustomProductPage()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppCustomProductPageVersionResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppCustomProductPageVersionResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppCustomProductPageVersionsResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppCustomProductPageVersionsResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppCustomProductPageVersionsResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPageVersionsResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppCustomProductPageVersionsResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPageVersionsResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPage returns the union data inside the AppCustomProductPageVersionsResponse_Included_Item as a AppCustomProductPage
+func (t AppCustomProductPageVersionsResponse_Included_Item) AsAppCustomProductPage() (AppCustomProductPage, error) {
+	var body AppCustomProductPage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPage overwrites any union data inside the AppCustomProductPageVersionsResponse_Included_Item as the provided AppCustomProductPage
+func (t *AppCustomProductPageVersionsResponse_Included_Item) FromAppCustomProductPage(v AppCustomProductPage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPages"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPage performs a merge with any union data inside the AppCustomProductPageVersionsResponse_Included_Item, using the provided AppCustomProductPage
+func (t *AppCustomProductPageVersionsResponse_Included_Item) MergeAppCustomProductPage(v AppCustomProductPage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppCustomProductPageVersionsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppCustomProductPageVersionsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appCustomProductPages":
+		return t.AsAppCustomProductPage()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppCustomProductPageVersionsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppCustomProductPageVersionsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppCustomProductPageLocalization returns the union data inside the AppCustomProductPagesResponse_Included_Item as a AppCustomProductPageLocalization
+func (t AppCustomProductPagesResponse_Included_Item) AsAppCustomProductPageLocalization() (AppCustomProductPageLocalization, error) {
+	var body AppCustomProductPageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageLocalization overwrites any union data inside the AppCustomProductPagesResponse_Included_Item as the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPagesResponse_Included_Item) FromAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageLocalization performs a merge with any union data inside the AppCustomProductPagesResponse_Included_Item, using the provided AppCustomProductPageLocalization
+func (t *AppCustomProductPagesResponse_Included_Item) MergeAppCustomProductPageLocalization(v AppCustomProductPageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppCustomProductPageVersion returns the union data inside the AppCustomProductPagesResponse_Included_Item as a AppCustomProductPageVersion
+func (t AppCustomProductPagesResponse_Included_Item) AsAppCustomProductPageVersion() (AppCustomProductPageVersion, error) {
+	var body AppCustomProductPageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppCustomProductPageVersion overwrites any union data inside the AppCustomProductPagesResponse_Included_Item as the provided AppCustomProductPageVersion
+func (t *AppCustomProductPagesResponse_Included_Item) FromAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppCustomProductPageVersion performs a merge with any union data inside the AppCustomProductPagesResponse_Included_Item, using the provided AppCustomProductPageVersion
+func (t *AppCustomProductPagesResponse_Included_Item) MergeAppCustomProductPageVersion(v AppCustomProductPageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appCustomProductPageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the AppCustomProductPagesResponse_Included_Item as a App
+func (t AppCustomProductPagesResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the AppCustomProductPagesResponse_Included_Item as the provided App
+func (t *AppCustomProductPagesResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the AppCustomProductPagesResponse_Included_Item, using the provided App
+func (t *AppCustomProductPagesResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppCustomProductPagesResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppCustomProductPagesResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appCustomProductPageLocalizations":
+		return t.AsAppCustomProductPageLocalization()
+	case "appCustomProductPageVersions":
+		return t.AsAppCustomProductPageVersion()
+	case "apps":
+		return t.AsApp()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppCustomProductPagesResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppCustomProductPagesResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -88740,8 +91385,90 @@ type ClientInterface interface {
 	// AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 	AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppCustomProductPageLocalizationsCreateInstanceWithBody performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPageLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsCreateInstance performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPageLocalizationsCreateInstance(ctx context.Context, body AppCustomProductPageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsDeleteInstance performs a DELETE /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsDeleteInstance` operationId) request.
+	AppCustomProductPageLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsUpdateInstanceWithBody performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPageLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsUpdateInstance performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPageLocalizationsUpdateInstance(ctx context.Context, id string, body AppCustomProductPageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppCustomProductPageLocalizationsPlacementsGetToManyRelated performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBody performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated performs a GET /v1/appCustomProductPageLocalizations/{id}/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+	AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageVersionsCreateInstanceWithBody performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPageVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageVersionsCreateInstance performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPageVersionsCreateInstance(ctx context.Context, body AppCustomProductPageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageVersionsUpdateInstanceWithBody performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPageVersionsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageVersionsUpdateInstance performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPageVersionsUpdateInstance(ctx context.Context, id string, body AppCustomProductPageVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated performs a GET /v1/appCustomProductPageVersions/{id}/appCustomProductPageLocalizations (the `AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated` operationId) request.
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPagesCreateInstanceWithBody performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPagesCreateInstance performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPagesCreateInstance(ctx context.Context, body AppCustomProductPagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPagesDeleteInstance performs a DELETE /v1/appCustomProductPages/{id} (the `AppCustomProductPagesDeleteInstance` operationId) request.
+	AppCustomProductPagesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPagesGetInstance performs a GET /v1/appCustomProductPages/{id} (the `AppCustomProductPagesGetInstance` operationId) request.
+	AppCustomProductPagesGetInstance(ctx context.Context, id string, params *AppCustomProductPagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPagesUpdateInstanceWithBody performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppCustomProductPagesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPagesUpdateInstance performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppCustomProductPagesUpdateInstance(ctx context.Context, id string, body AppCustomProductPagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated performs a GET /v1/appCustomProductPages/{id}/appCustomProductPageVersions (the `AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated` operationId) request.
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppEncryptionDeclarationDocumentsCreateInstanceWithBody performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -89139,6 +91866,9 @@ type ClientInterface interface {
 
 	// AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 	AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAppCustomProductPagesGetToManyRelated performs a GET /v1/apps/{id}/appCustomProductPages (the `AppsAppCustomProductPagesGetToManyRelated` operationId) request.
+	AppsAppCustomProductPagesGetToManyRelated(ctx context.Context, id string, params *AppsAppCustomProductPagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsAppEventsGetToManyRelated performs a GET /v1/apps/{id}/appEvents (the `AppsAppEventsGetToManyRelated` operationId) request.
 	AppsAppEventsGetToManyRelated(ctx context.Context, id string, params *AppsAppEventsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -91135,9 +93865,311 @@ func (c *Client) AppCategoriesGetCollection(ctx context.Context, params *AppCate
 	return c.Client.Do(req)
 }
 
+// AppCustomProductPageLocalizationsCreateInstanceWithBody performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPageLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsCreateInstance performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPageLocalizationsCreateInstance(ctx context.Context, body AppCustomProductPageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsDeleteInstance performs a DELETE /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsDeleteInstance` operationId) request.
+func (c *Client) AppCustomProductPageLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsUpdateInstanceWithBody performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPageLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsUpdateInstance performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPageLocalizationsUpdateInstance(ctx context.Context, id string, body AppCustomProductPageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppCustomProductPageLocalizationsPlacementsGetToManyRelated performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
 func (c *Client) AppCustomProductPageLocalizationsPlacementsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBody performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated performs a GET /v1/appCustomProductPageLocalizations/{id}/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+func (c *Client) AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageVersionsCreateInstanceWithBody performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPageVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageVersionsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageVersionsCreateInstance performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPageVersionsCreateInstance(ctx context.Context, body AppCustomProductPageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageVersionsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageVersionsUpdateInstanceWithBody performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPageVersionsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageVersionsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageVersionsUpdateInstance performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPageVersionsUpdateInstance(ctx context.Context, id string, body AppCustomProductPageVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageVersionsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated performs a GET /v1/appCustomProductPageVersions/{id}/appCustomProductPageLocalizations (the `AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated` operationId) request.
+func (c *Client) AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPagesCreateInstanceWithBody performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPagesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPagesCreateInstance performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPagesCreateInstance(ctx context.Context, body AppCustomProductPagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPagesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPagesDeleteInstance performs a DELETE /v1/appCustomProductPages/{id} (the `AppCustomProductPagesDeleteInstance` operationId) request.
+func (c *Client) AppCustomProductPagesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPagesDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPagesGetInstance performs a GET /v1/appCustomProductPages/{id} (the `AppCustomProductPagesGetInstance` operationId) request.
+func (c *Client) AppCustomProductPagesGetInstance(ctx context.Context, id string, params *AppCustomProductPagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPagesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPagesUpdateInstanceWithBody performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppCustomProductPagesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPagesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPagesUpdateInstance performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppCustomProductPagesUpdateInstance(ctx context.Context, id string, body AppCustomProductPagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPagesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated performs a GET /v1/appCustomProductPages/{id}/appCustomProductPageVersions (the `AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated` operationId) request.
+func (c *Client) AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated(ctx context.Context, id string, params *AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -92625,6 +95657,19 @@ func (c *Client) AppsUpdateInstance(ctx context.Context, id string, body AppsUpd
 // AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 func (c *Client) AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsAppAvailabilityV2GetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAppCustomProductPagesGetToManyRelated performs a GET /v1/apps/{id}/appCustomProductPages (the `AppsAppCustomProductPagesGetToManyRelated` operationId) request.
+func (c *Client) AppsAppCustomProductPagesGetToManyRelated(ctx context.Context, id string, params *AppsAppCustomProductPagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppCustomProductPagesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -100550,6 +103595,127 @@ func NewAppCategoriesGetCollectionRequest(server string, params *AppCategoriesGe
 	return req, nil
 }
 
+// NewAppCustomProductPageLocalizationsCreateInstanceRequest calls the generic AppCustomProductPageLocalizationsCreateInstance builder with application/json body
+func NewAppCustomProductPageLocalizationsCreateInstanceRequest(server string, body AppCustomProductPageLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPageLocalizationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPageLocalizationsCreateInstanceRequestWithBody constructs an http.Request for the AppCustomProductPageLocalizationsCreateInstance method, with any body, and a specified content type
+func NewAppCustomProductPageLocalizationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCustomProductPageLocalizationsDeleteInstanceRequest constructs an http.Request for the AppCustomProductPageLocalizationsDeleteInstance method
+func NewAppCustomProductPageLocalizationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppCustomProductPageLocalizationsUpdateInstanceRequest calls the generic AppCustomProductPageLocalizationsUpdateInstance builder with application/json body
+func NewAppCustomProductPageLocalizationsUpdateInstanceRequest(server string, id string, body AppCustomProductPageLocalizationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPageLocalizationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPageLocalizationsUpdateInstanceRequestWithBody constructs an http.Request for the AppCustomProductPageLocalizationsUpdateInstance method, with any body, and a specified content type
+func NewAppCustomProductPageLocalizationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest constructs an http.Request for the AppCustomProductPageLocalizationsPlacementsGetToManyRelated method
 func NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest(server string, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams) (*http.Request, error) {
 	var err error
@@ -100816,6 +103982,852 @@ func NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest(serve
 		if params.Include != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipRequest calls the generic AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship builder with application/json body
+func NewAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipRequest(server string, id string, body AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody constructs an http.Request for the AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship method, with any body, and a specified content type
+func NewAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageLocalizations/%s/relationships/searchKeywords", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipRequest calls the generic AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship builder with application/json body
+func NewAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipRequest(server string, id string, body AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody constructs an http.Request for the AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship method, with any body, and a specified content type
+func NewAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageLocalizations/%s/relationships/searchKeywords", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedRequest constructs an http.Request for the AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated method
+func NewAppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedRequest(server string, id string, params *AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageLocalizations/%s/searchKeywords", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterPlatform != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[platform]", *params.FilterPlatform, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppKeywords != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appKeywords]", *params.FieldsAppKeywords, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppCustomProductPageVersionsCreateInstanceRequest calls the generic AppCustomProductPageVersionsCreateInstance builder with application/json body
+func NewAppCustomProductPageVersionsCreateInstanceRequest(server string, body AppCustomProductPageVersionsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPageVersionsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPageVersionsCreateInstanceRequestWithBody constructs an http.Request for the AppCustomProductPageVersionsCreateInstance method, with any body, and a specified content type
+func NewAppCustomProductPageVersionsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCustomProductPageVersionsUpdateInstanceRequest calls the generic AppCustomProductPageVersionsUpdateInstance builder with application/json body
+func NewAppCustomProductPageVersionsUpdateInstanceRequest(server string, id string, body AppCustomProductPageVersionsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPageVersionsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPageVersionsUpdateInstanceRequestWithBody constructs an http.Request for the AppCustomProductPageVersionsUpdateInstance method, with any body, and a specified content type
+func NewAppCustomProductPageVersionsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageVersions/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedRequest constructs an http.Request for the AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated method
+func NewAppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedRequest(server string, id string, params *AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPageVersions/%s/appCustomProductPageLocalizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterLocale != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[locale]", *params.FilterLocale, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageVersions]", *params.FieldsAppCustomProductPageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appScreenshotSets]", *params.FieldsAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appPreviewSets]", *params.FieldsAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppKeywords != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appKeywords]", *params.FieldsAppKeywords, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppScreenshotSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appScreenshotSets]", *params.LimitAppScreenshotSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppPreviewSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appPreviewSets]", *params.LimitAppPreviewSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitSearchKeywords != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[searchKeywords]", *params.LimitSearchKeywords, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppCustomProductPagesCreateInstanceRequest calls the generic AppCustomProductPagesCreateInstance builder with application/json body
+func NewAppCustomProductPagesCreateInstanceRequest(server string, body AppCustomProductPagesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPagesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPagesCreateInstanceRequestWithBody constructs an http.Request for the AppCustomProductPagesCreateInstance method, with any body, and a specified content type
+func NewAppCustomProductPagesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCustomProductPagesDeleteInstanceRequest constructs an http.Request for the AppCustomProductPagesDeleteInstance method
+func NewAppCustomProductPagesDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppCustomProductPagesGetInstanceRequest constructs an http.Request for the AppCustomProductPagesGetInstance method
+func NewAppCustomProductPagesGetInstanceRequest(server string, id string, params *AppCustomProductPagesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppCustomProductPages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPages]", *params.FieldsAppCustomProductPages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageVersions]", *params.FieldsAppCustomProductPageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppCustomProductPageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appCustomProductPageVersions]", *params.LimitAppCustomProductPageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppCustomProductPagesUpdateInstanceRequest calls the generic AppCustomProductPagesUpdateInstance builder with application/json body
+func NewAppCustomProductPagesUpdateInstanceRequest(server string, id string, body AppCustomProductPagesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppCustomProductPagesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppCustomProductPagesUpdateInstanceRequestWithBody constructs an http.Request for the AppCustomProductPagesUpdateInstance method, with any body, and a specified content type
+func NewAppCustomProductPagesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedRequest constructs an http.Request for the AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated method
+func NewAppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedRequest(server string, id string, params *AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appCustomProductPages/%s/appCustomProductPageVersions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[state]", *params.FilterState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageVersions]", *params.FieldsAppCustomProductPageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPages]", *params.FieldsAppCustomProductPages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageLocalizations]", *params.FieldsAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppCustomProductPageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appCustomProductPageLocalizations]", *params.LimitAppCustomProductPageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -107469,6 +111481,139 @@ func NewAppsAppAvailabilityV2GetToOneRelatedRequest(server string, id string, pa
 		if params.LimitTerritoryAvailabilities != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[territoryAvailabilities]", *params.LimitTerritoryAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsAppCustomProductPagesGetToManyRelatedRequest constructs an http.Request for the AppsAppCustomProductPagesGetToManyRelated method
+func NewAppsAppCustomProductPagesGetToManyRelatedRequest(server string, id string, params *AppsAppCustomProductPagesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appCustomProductPages", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterVisible != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[visible]", *params.FilterVisible, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPages]", *params.FieldsAppCustomProductPages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppCustomProductPageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appCustomProductPageVersions]", *params.FieldsAppCustomProductPageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppCustomProductPageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appCustomProductPageVersions]", *params.LimitAppCustomProductPageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -130009,10 +134154,120 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppCategoriesGetCollectionWithResponse(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*AppCategoriesGetCollectionResponse, error)
 
+	// AppCustomProductPageLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsCreateInstanceResponse, error)
+
+	// AppCustomProductPageLocalizationsCreateInstanceWithResponse performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppCustomProductPageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsCreateInstanceResponse, error)
+
+	// AppCustomProductPageLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsDeleteInstanceResponse, error)
+
+	// AppCustomProductPageLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsUpdateInstanceResponse, error)
+
+	// AppCustomProductPageLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppCustomProductPageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsUpdateInstanceResponse, error)
+
 	// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error)
+
+	// AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageLocalizations/{id}/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse, error)
+
+	// AppCustomProductPageVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsCreateInstanceResponse, error)
+
+	// AppCustomProductPageVersionsCreateInstanceWithResponse performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPageVersionsCreateInstanceWithResponse(ctx context.Context, body AppCustomProductPageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsCreateInstanceResponse, error)
+
+	// AppCustomProductPageVersionsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageVersionsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsUpdateInstanceResponse, error)
+
+	// AppCustomProductPageVersionsUpdateInstanceWithResponse performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPageVersionsUpdateInstanceWithResponse(ctx context.Context, id string, body AppCustomProductPageVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsUpdateInstanceResponse, error)
+
+	// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageVersions/{id}/appCustomProductPageLocalizations (the `AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse, error)
+
+	// AppCustomProductPagesCreateInstanceWithBodyWithResponse performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPagesCreateInstanceResponse, error)
+
+	// AppCustomProductPagesCreateInstanceWithResponse performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPagesCreateInstanceWithResponse(ctx context.Context, body AppCustomProductPagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPagesCreateInstanceResponse, error)
+
+	// AppCustomProductPagesDeleteInstanceWithResponse performs a DELETE /v1/appCustomProductPages/{id} (the `AppCustomProductPagesDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPagesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppCustomProductPagesDeleteInstanceResponse, error)
+
+	// AppCustomProductPagesGetInstanceWithResponse performs a GET /v1/appCustomProductPages/{id} (the `AppCustomProductPagesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPagesGetInstanceWithResponse(ctx context.Context, id string, params *AppCustomProductPagesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppCustomProductPagesGetInstanceResponse, error)
+
+	// AppCustomProductPagesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPagesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPagesUpdateInstanceResponse, error)
+
+	// AppCustomProductPagesUpdateInstanceWithResponse performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppCustomProductPagesUpdateInstanceWithResponse(ctx context.Context, id string, body AppCustomProductPagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPagesUpdateInstanceResponse, error)
+
+	// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPages/{id}/appCustomProductPageVersions (the `AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse, error)
 
 	// AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -130558,6 +134813,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsAppAvailabilityV2GetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppAvailabilityV2GetToOneRelatedResponse, error)
+
+	// AppsAppCustomProductPagesGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appCustomProductPages (the `AppsAppCustomProductPagesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppCustomProductPagesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppCustomProductPagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppCustomProductPagesGetToManyRelatedResponse, error)
 
 	// AppsAppEventsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appEvents (the `AppsAppEventsGetToManyRelated` operationId) request.
 	//
@@ -134725,6 +138985,248 @@ func (r AppCategoriesGetCollectionResponse) ContentType() string {
 	return ""
 }
 
+type AppCustomProductPageLocalizationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppCustomProductPageLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetJSON201() *AppCustomProductPageLocalizationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageLocalizationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageLocalizationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageLocalizationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageLocalizationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCustomProductPageLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON200() *AppCustomProductPageLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageLocalizationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -134795,6 +139297,891 @@ func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) Sta
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppKeywordsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON200() *AppKeywordsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageVersionsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppCustomProductPageVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetJSON201() *AppCustomProductPageVersionResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageVersionsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageVersionsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageVersionsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageVersionsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageVersionsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCustomProductPageVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON200() *AppCustomProductPageVersionResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageVersionsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCustomProductPageLocalizationsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) GetJSON200() *AppCustomProductPageLocalizationsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPagesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppCustomProductPageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppCustomProductPagesCreateInstanceResponse) GetJSON201() *AppCustomProductPageResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPagesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPagesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPagesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPagesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPagesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPagesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPagesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPagesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPagesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPagesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPagesDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPagesDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPagesDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPagesDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPagesDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPagesDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPagesDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPagesDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPagesDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPagesDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPagesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCustomProductPageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPagesGetInstanceResponse) GetJSON200() *AppCustomProductPageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPagesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPagesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPagesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPagesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPagesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPagesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPagesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPagesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPagesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPagesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCustomProductPageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON200() *AppCustomProductPageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPagesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPagesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPagesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPagesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPagesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCustomProductPageVersionsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) GetJSON200() *AppCustomProductPageVersionsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -140678,6 +146065,82 @@ func (r AppsAppAvailabilityV2GetToOneRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsAppAvailabilityV2GetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAppCustomProductPagesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppCustomProductPagesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) GetJSON200() *AppCustomProductPagesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppCustomProductPagesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -163643,6 +169106,61 @@ func (c *ClientWithResponses) AppCategoriesGetCollectionWithResponse(ctx context
 	return ParseAppCategoriesGetCollectionResponse(rsp)
 }
 
+// AppCustomProductPageLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsCreateInstanceWithResponse performs a POST /v1/appCustomProductPageLocalizations (the `AppCustomProductPageLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppCustomProductPageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsDeleteInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsDeleteInstanceResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/appCustomProductPageLocalizations/{id} (the `AppCustomProductPageLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppCustomProductPageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsUpdateInstanceResponse(rsp)
+}
+
 // AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageLocalizations/{id}/placements (the `AppCustomProductPageLocalizationsPlacementsGetToManyRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -163652,6 +169170,193 @@ func (c *ClientWithResponses) AppCustomProductPageLocalizationsPlacementsGetToMa
 		return nil, err
 	}
 	return ParseAppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse performs a DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse performs a POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse(rsp)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageLocalizations/{id}/searchKeywords (the `AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse(rsp)
+}
+
+// AppCustomProductPageVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsCreateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageVersionsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageVersionsCreateInstanceResponse(rsp)
+}
+
+// AppCustomProductPageVersionsCreateInstanceWithResponse performs a POST /v1/appCustomProductPageVersions (the `AppCustomProductPageVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageVersionsCreateInstanceWithResponse(ctx context.Context, body AppCustomProductPageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsCreateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageVersionsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageVersionsCreateInstanceResponse(rsp)
+}
+
+// AppCustomProductPageVersionsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageVersionsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsUpdateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageVersionsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageVersionsUpdateInstanceResponse(rsp)
+}
+
+// AppCustomProductPageVersionsUpdateInstanceWithResponse performs a PATCH /v1/appCustomProductPageVersions/{id} (the `AppCustomProductPageVersionsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageVersionsUpdateInstanceWithResponse(ctx context.Context, id string, body AppCustomProductPageVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsUpdateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPageVersionsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageVersionsUpdateInstanceResponse(rsp)
+}
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPageVersions/{id}/appCustomProductPageLocalizations (the `AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse(rsp)
+}
+
+// AppCustomProductPagesCreateInstanceWithBodyWithResponse performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPagesCreateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPagesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPagesCreateInstanceResponse(rsp)
+}
+
+// AppCustomProductPagesCreateInstanceWithResponse performs a POST /v1/appCustomProductPages (the `AppCustomProductPagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPagesCreateInstanceWithResponse(ctx context.Context, body AppCustomProductPagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPagesCreateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPagesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPagesCreateInstanceResponse(rsp)
+}
+
+// AppCustomProductPagesDeleteInstanceWithResponse performs a DELETE /v1/appCustomProductPages/{id} (the `AppCustomProductPagesDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPagesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppCustomProductPagesDeleteInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPagesDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPagesDeleteInstanceResponse(rsp)
+}
+
+// AppCustomProductPagesGetInstanceWithResponse performs a GET /v1/appCustomProductPages/{id} (the `AppCustomProductPagesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPagesGetInstanceWithResponse(ctx context.Context, id string, params *AppCustomProductPagesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppCustomProductPagesGetInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPagesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPagesGetInstanceResponse(rsp)
+}
+
+// AppCustomProductPagesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPagesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppCustomProductPagesUpdateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPagesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPagesUpdateInstanceResponse(rsp)
+}
+
+// AppCustomProductPagesUpdateInstanceWithResponse performs a PATCH /v1/appCustomProductPages/{id} (the `AppCustomProductPagesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPagesUpdateInstanceWithResponse(ctx context.Context, id string, body AppCustomProductPagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppCustomProductPagesUpdateInstanceResponse, error) {
+	rsp, err := c.AppCustomProductPagesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPagesUpdateInstanceResponse(rsp)
+}
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedWithResponse performs a GET /v1/appCustomProductPages/{id}/appCustomProductPageVersions (the `AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse(rsp)
 }
 
 // AppEncryptionDeclarationDocumentsCreateInstanceWithBodyWithResponse performs a POST /v1/appEncryptionDeclarationDocuments (the `AppEncryptionDeclarationDocumentsCreateInstance` operationId) request,
@@ -164851,6 +170556,17 @@ func (c *ClientWithResponses) AppsAppAvailabilityV2GetToOneRelatedWithResponse(c
 		return nil, err
 	}
 	return ParseAppsAppAvailabilityV2GetToOneRelatedResponse(rsp)
+}
+
+// AppsAppCustomProductPagesGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appCustomProductPages (the `AppsAppCustomProductPagesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppCustomProductPagesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppCustomProductPagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppCustomProductPagesGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsAppCustomProductPagesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppCustomProductPagesGetToManyRelatedResponse(rsp)
 }
 
 // AppsAppEventsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appEvents (the `AppsAppEventsGetToManyRelated` operationId) request.
@@ -171088,6 +176804,206 @@ func ParseAppCategoriesGetCollectionResponse(rsp *http.Response) (*AppCategories
 	return response, nil
 }
 
+// ParseAppCustomProductPageLocalizationsCreateInstanceResponse parses an HTTP response from a AppCustomProductPageLocalizationsCreateInstanceWithResponse call
+func ParseAppCustomProductPageLocalizationsCreateInstanceResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageLocalizationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppCustomProductPageLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageLocalizationsDeleteInstanceResponse parses an HTTP response from a AppCustomProductPageLocalizationsDeleteInstanceWithResponse call
+func ParseAppCustomProductPageLocalizationsDeleteInstanceResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageLocalizationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageLocalizationsUpdateInstanceResponse parses an HTTP response from a AppCustomProductPageLocalizationsUpdateInstanceWithResponse call
+func ParseAppCustomProductPageLocalizationsUpdateInstanceResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageLocalizationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCustomProductPageLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse parses an HTTP response from a AppCustomProductPageLocalizationsPlacementsGetToManyRelatedWithResponse call
 func ParseAppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -171104,6 +177020,735 @@ func ParseAppCustomProductPageLocalizationsPlacementsGetToManyRelatedResponse(rs
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppAssetLibraryPlacementsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse parses an HTTP response from a AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse call
+func ParseAppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse parses an HTTP response from a AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse call
+func ParseAppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse parses an HTTP response from a AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedWithResponse call
+func ParseAppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse(rsp *http.Response) (*AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppKeywordsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageVersionsCreateInstanceResponse parses an HTTP response from a AppCustomProductPageVersionsCreateInstanceWithResponse call
+func ParseAppCustomProductPageVersionsCreateInstanceResponse(rsp *http.Response) (*AppCustomProductPageVersionsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageVersionsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppCustomProductPageVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageVersionsUpdateInstanceResponse parses an HTTP response from a AppCustomProductPageVersionsUpdateInstanceWithResponse call
+func ParseAppCustomProductPageVersionsUpdateInstanceResponse(rsp *http.Response) (*AppCustomProductPageVersionsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageVersionsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCustomProductPageVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse parses an HTTP response from a AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedWithResponse call
+func ParseAppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse(rsp *http.Response) (*AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCustomProductPageLocalizationsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPagesCreateInstanceResponse parses an HTTP response from a AppCustomProductPagesCreateInstanceWithResponse call
+func ParseAppCustomProductPagesCreateInstanceResponse(rsp *http.Response) (*AppCustomProductPagesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPagesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppCustomProductPageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPagesDeleteInstanceResponse parses an HTTP response from a AppCustomProductPagesDeleteInstanceWithResponse call
+func ParseAppCustomProductPagesDeleteInstanceResponse(rsp *http.Response) (*AppCustomProductPagesDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPagesDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPagesGetInstanceResponse parses an HTTP response from a AppCustomProductPagesGetInstanceWithResponse call
+func ParseAppCustomProductPagesGetInstanceResponse(rsp *http.Response) (*AppCustomProductPagesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPagesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCustomProductPageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPagesUpdateInstanceResponse parses an HTTP response from a AppCustomProductPagesUpdateInstanceWithResponse call
+func ParseAppCustomProductPagesUpdateInstanceResponse(rsp *http.Response) (*AppCustomProductPagesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPagesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCustomProductPageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse parses an HTTP response from a AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedWithResponse call
+func ParseAppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse(rsp *http.Response) (*AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCustomProductPageVersionsResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -175925,6 +182570,67 @@ func ParseAppsAppAvailabilityV2GetToOneRelatedResponse(rsp *http.Response) (*App
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppAvailabilityV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAppCustomProductPagesGetToManyRelatedResponse parses an HTTP response from a AppsAppCustomProductPagesGetToManyRelatedWithResponse call
+func ParseAppsAppCustomProductPagesGetToManyRelatedResponse(rsp *http.Response) (*AppsAppCustomProductPagesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppCustomProductPagesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppCustomProductPagesResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -194482,8 +201188,50 @@ type ServerInterface interface {
 	// (GET /v1/appCategories)
 	AppCategoriesGetCollection(w http.ResponseWriter, r *http.Request, params AppCategoriesGetCollectionParams)
 
+	// (POST /v1/appCustomProductPageLocalizations)
+	AppCustomProductPageLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appCustomProductPageLocalizations/{id})
+	AppCustomProductPageLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/appCustomProductPageLocalizations/{id})
+	AppCustomProductPageLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (GET /v1/appCustomProductPageLocalizations/{id}/placements)
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams)
+
+	// (DELETE /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords)
+	AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords)
+	AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appCustomProductPageLocalizations/{id}/searchKeywords)
+	AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams)
+
+	// (POST /v1/appCustomProductPageVersions)
+	AppCustomProductPageVersionsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (PATCH /v1/appCustomProductPageVersions/{id})
+	AppCustomProductPageVersionsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appCustomProductPageVersions/{id}/appCustomProductPageLocalizations)
+	AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams)
+
+	// (POST /v1/appCustomProductPages)
+	AppCustomProductPagesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appCustomProductPages/{id})
+	AppCustomProductPagesDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appCustomProductPages/{id})
+	AppCustomProductPagesGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppCustomProductPagesGetInstanceParams)
+
+	// (PATCH /v1/appCustomProductPages/{id})
+	AppCustomProductPagesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appCustomProductPages/{id}/appCustomProductPageVersions)
+	AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams)
 
 	// (POST /v1/appEncryptionDeclarationDocuments)
 	AppEncryptionDeclarationDocumentsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -194706,6 +201454,9 @@ type ServerInterface interface {
 
 	// (GET /v1/apps/{id}/appAvailabilityV2)
 	AppsAppAvailabilityV2GetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppAvailabilityV2GetToOneRelatedParams)
+
+	// (GET /v1/apps/{id}/appCustomProductPages)
+	AppsAppCustomProductPagesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppCustomProductPagesGetToManyRelatedParams)
 
 	// (GET /v1/apps/{id}/appEvents)
 	AppsAppEventsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppEventsGetToManyRelatedParams)
@@ -197474,6 +204225,72 @@ func (siw *ServerInterfaceWrapper) AppCategoriesGetCollection(w http.ResponseWri
 	handler.ServeHTTP(w, r)
 }
 
+// AppCustomProductPageLocalizationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageLocalizationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageLocalizationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageLocalizationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageLocalizationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageLocalizationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppCustomProductPageLocalizationsPlacementsGetToManyRelated operation middleware
 func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsPlacementsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
 
@@ -197754,6 +204571,657 @@ func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsPlacementsGe
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppCustomProductPageLocalizationsPlacementsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[platform]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[platform]", r.URL.Query(), &params.FilterPlatform, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[platform]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[platform]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appKeywords]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appKeywords]", r.URL.Query(), &params.FieldsAppKeywords, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appKeywords]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appKeywords]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageVersionsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageVersionsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageVersionsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageVersionsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageVersionsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageVersionsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[locale]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[locale]", r.URL.Query(), &params.FilterLocale, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[locale]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[locale]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageVersions]", r.URL.Query(), &params.FieldsAppCustomProductPageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appScreenshotSets]", r.URL.Query(), &params.FieldsAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appPreviewSets]", r.URL.Query(), &params.FieldsAppPreviewSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appKeywords]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appKeywords]", r.URL.Query(), &params.FieldsAppKeywords, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appKeywords]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appKeywords]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appScreenshotSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appScreenshotSets]", r.URL.Query(), &params.LimitAppScreenshotSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appScreenshotSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appScreenshotSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appPreviewSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appPreviewSets]", r.URL.Query(), &params.LimitAppPreviewSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appPreviewSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appPreviewSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[searchKeywords]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[searchKeywords]", r.URL.Query(), &params.LimitSearchKeywords, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[searchKeywords]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[searchKeywords]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPagesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPagesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPagesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPagesDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPagesDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPagesDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPagesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPagesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppCustomProductPagesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appCustomProductPages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPages]", r.URL.Query(), &params.FieldsAppCustomProductPages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageVersions]", r.URL.Query(), &params.FieldsAppCustomProductPageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appCustomProductPageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appCustomProductPageVersions]", r.URL.Query(), &params.LimitAppCustomProductPageVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appCustomProductPageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appCustomProductPageVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPagesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPagesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPagesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPagesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[state]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[state]", r.URL.Query(), &params.FilterState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[state]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[state]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageVersions]", r.URL.Query(), &params.FieldsAppCustomProductPageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPages]", r.URL.Query(), &params.FieldsAppCustomProductPages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageLocalizations]", r.URL.Query(), &params.FieldsAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appCustomProductPageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appCustomProductPageLocalizations]", r.URL.Query(), &params.LimitAppCustomProductPageLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appCustomProductPageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appCustomProductPageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -203237,6 +210705,126 @@ func (siw *ServerInterfaceWrapper) AppsAppAvailabilityV2GetToOneRelated(w http.R
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsAppAvailabilityV2GetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAppCustomProductPagesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppCustomProductPagesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppCustomProductPagesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[visible]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[visible]", r.URL.Query(), &params.FilterVisible, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[visible]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[visible]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPages]", r.URL.Query(), &params.FieldsAppCustomProductPages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appCustomProductPageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appCustomProductPageVersions]", r.URL.Query(), &params.FieldsAppCustomProductPageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appCustomProductPageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appCustomProductPageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appCustomProductPageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appCustomProductPageVersions]", r.URL.Query(), &params.LimitAppCustomProductPageVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appCustomProductPageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appCustomProductPageVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppCustomProductPagesGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -220774,7 +228362,21 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}", wrapper.AppAssetLibraryVideosUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}/placements", wrapper.AppAssetLibraryVideosPlacementsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCategories", wrapper.AppCategoriesGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations", wrapper.AppCustomProductPageLocalizationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations/{id}", wrapper.AppCustomProductPageLocalizationsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations/{id}", wrapper.AppCustomProductPageLocalizationsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations/{id}/placements", wrapper.AppCustomProductPageLocalizationsPlacementsGetToManyRelated)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords", wrapper.AppCustomProductPageLocalizationsSearchKeywordsDeleteToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations/{id}/relationships/searchKeywords", wrapper.AppCustomProductPageLocalizationsSearchKeywordsCreateToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCustomProductPageLocalizations/{id}/searchKeywords", wrapper.AppCustomProductPageLocalizationsSearchKeywordsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appCustomProductPageVersions", wrapper.AppCustomProductPageVersionsCreateInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appCustomProductPageVersions/{id}", wrapper.AppCustomProductPageVersionsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCustomProductPageVersions/{id}/appCustomProductPageLocalizations", wrapper.AppCustomProductPageVersionsAppCustomProductPageLocalizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appCustomProductPages", wrapper.AppCustomProductPagesCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appCustomProductPages/{id}", wrapper.AppCustomProductPagesDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCustomProductPages/{id}", wrapper.AppCustomProductPagesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appCustomProductPages/{id}", wrapper.AppCustomProductPagesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCustomProductPages/{id}/appCustomProductPageVersions", wrapper.AppCustomProductPagesAppCustomProductPageVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments", wrapper.AppEncryptionDeclarationDocumentsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments/{id}", wrapper.AppEncryptionDeclarationDocumentsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments/{id}", wrapper.AppEncryptionDeclarationDocumentsUpdateInstance)
@@ -220849,6 +228451,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appAvailabilityV2", wrapper.AppsAppAvailabilityV2GetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appCustomProductPages", wrapper.AppsAppCustomProductPagesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appEvents", wrapper.AppsAppEventsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appInfos", wrapper.AppsAppInfosGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPricePoints", wrapper.AppsAppPricePointsGetToManyRelated)

@@ -42,6 +42,7 @@ custom product pages and experiments, app events, App Clips, Game Center, altern
 | Retention messaging | `apple_retention_message`, `apple_retention_message_version`, `apple_retention_message_localization`, `apple_retention_offer`, `apple_subscription_retention_message`, `apple_subscription_retention_message_offer`, `data.apple_retention_messages`, `apple_submit_retention_message_version` action (Terraform 1.14+) |
 | App Asset Library | `apple_app_asset_library_image`, `apple_app_asset_library_video`, `apple_app_asset_library_placement`, `apple_app_asset_library_placement_order`, `data.apple_app_asset_library`, `data.apple_app_asset_library_placements`, `data.apple_app_asset_library_reference_data` |
 | Background assets | `apple_background_asset`, `apple_background_asset_version`, `data.apple_background_assets`, `data.apple_background_asset_versions` |
+| Custom product pages | `apple_app_custom_product_page`, `apple_app_custom_product_page_localization`, `apple_app_custom_product_page_localization_search_keyword`, `data.apple_app_custom_product_pages`, `apple_submit_app_custom_product_page` action (Terraform 1.14+) |
 | In-app events | `apple_app_event`, `apple_app_event_localization`, `data.apple_app_events`, `apple_submit_app_event` action (Terraform 1.14+) |
 | Featuring nominations | `apple_nomination`, `data.apple_nominations` |
 | Webhooks | `apple_webhook`, `data.apple_webhooks`, `data.apple_webhook_deliveries`, `apple_ping_webhook` and `apple_redeliver_webhook` actions (Terraform 1.14+) |

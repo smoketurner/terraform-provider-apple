@@ -238,6 +238,8 @@ action "apple_submit_app_event" "prepared" {
 			Config:      locals + actions + appEventConfig(event, "") + triggerAction("1", "apple_submit_app_event.summer"),
 			ExpectError: regexp.MustCompile(`in-app event has no localizations`),
 		},
+		// The localization is created first: the trigger doesn't depend on it.
+		resource.TestStep{Config: locals + actions + appEventConfig(event, text)},
 		resource.TestStep{
 			// Added without submitting, the event is ready for review.
 			Config: locals + actions + appEventConfig(event, text) + triggerAction("2", "apple_submit_app_event.prepared"),
@@ -273,6 +275,8 @@ action "apple_submit_app_event" "summer" {
 ` + appEventConfig(`reference_name = "Summer Cup"`, appEventLocalizationConfig(`name = "Summer Cup"`))
 	var eventID string
 	env.actionCase(
+		// The localization is created first: the trigger doesn't depend on it.
+		resource.TestStep{Config: config},
 		resource.TestStep{
 			Config: config + triggerAction("1", "apple_submit_app_event.summer"),
 			Check: resource.ComposeAggregateTestCheckFunc(

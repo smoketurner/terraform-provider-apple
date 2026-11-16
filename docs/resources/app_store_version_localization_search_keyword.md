@@ -56,7 +56,7 @@ import {
 #### Required
 
 - `keyword_id` (String) App Store Connect ID of the search keyword.
-- `localization_id` (String) App Store Connect ID of the version localization.
+- `localization_id` (String) App Store Connect ID of the localization.
 
 The [`terraform import` command](https://developer.hashicorp.com/terraform/cli/commands/import) can be used, for example:
 

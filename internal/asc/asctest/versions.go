@@ -39,6 +39,8 @@ type reviewSubmission struct {
 	retentionVersions []string
 	// events holds in-app event IDs.
 	events []string
+	// pageVersions holds custom product page version IDs.
+	pageVersions []string
 }
 
 type versionsState struct {
@@ -750,6 +752,12 @@ func (s *Server) ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *h
 		}
 		return
 	}
+	if rel.AppCustomProductPageVersion != nil && rel.AppCustomProductPageVersion.Data != nil {
+		if s.addPageVersionItem(w, sub, rel.AppCustomProductPageVersion.Data.Id) {
+			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
+		}
+		return
+	}
 	if rel.AppEvent != nil && rel.AppEvent.Data != nil {
 		if s.addEventItem(w, sub, rel.AppEvent.Data.Id) {
 			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
@@ -800,7 +808,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 	in := asc.Value(req.Data.Attributes)
 	switch {
 	case asc.Value(in.Submitted):
-		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions)+len(sub.iapVersions)+len(sub.metaVersions)+len(sub.retentionVersions)+len(sub.events) == 0 {
+		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions)+len(sub.iapVersions)+len(sub.metaVersions)+len(sub.retentionVersions)+len(sub.events)+len(sub.pageVersions) == 0 {
 			stateError(w, "Only a submission with items, ready for review, can be submitted.")
 			return
 		}
@@ -813,6 +821,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		s.setMetaVersionStates(sub, "WAITING_FOR_REVIEW")
 		s.setRetentionVersionStates(sub, gen.RetentionMessageVersionAttributesStateWAITINGFORREVIEW)
 		s.setEventStates(sub, gen.AppEventAttributesEventStateWAITINGFORREVIEW)
+		s.setPageVersionStates(sub, pageVersionWaiting)
 	case asc.Value(in.Canceled):
 		if !slices.Contains(openSubmissionStates, *sub.Attributes.State) {
 			stateError(w, "The submission is not open.")
@@ -826,6 +835,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		s.setMetaVersionStates(sub, "DEVELOPER_REJECTED")
 		s.setRetentionVersionStates(sub, retentionVersionWithdrawn)
 		s.setEventStates(sub, gen.AppEventAttributesEventStateDRAFT)
+		s.setPageVersionStates(sub, pageVersionDraft)
 	}
 	writeJSON(w, http.StatusOK, gen.ReviewSubmissionResponse{Data: sub.ReviewSubmission, Links: docLinks(r)})
 }

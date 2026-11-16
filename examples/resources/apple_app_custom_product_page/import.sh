@@ -1,0 +1,1 @@
+terraform import apple_app_custom_product_page.summer eb2b3606-2fef-4aab-a54e-b2e5547c9bc3

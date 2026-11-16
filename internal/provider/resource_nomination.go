@@ -387,8 +387,19 @@ var (
 	_ resource.ResourceWithIdentity    = &searchKeywordResource{}
 )
 
+// keywordLinkAPI is the part of the API that links search keywords to one
+// kind of localization.
+type keywordLinkAPI struct {
+	typeName        string
+	description     string
+	localizationDoc string // describes the localization_id argument
+	add, remove     func(ctx context.Context, c *asc.Client, localizationID, keywordID string) error
+	list            func(ctx context.Context, c *asc.Client, localizationID string) ([]string, error)
+}
+
 type searchKeywordResource struct {
 	resourceIdentity
+	api    keywordLinkAPI
 	client *asc.Client
 }
 
@@ -397,25 +408,42 @@ type searchKeywordModel struct {
 	KeywordID      types.String `tfsdk:"keyword_id"`
 }
 
-func newSearchKeywordResource() resource.Resource {
-	return &searchKeywordResource{resourceIdentity: resourceIdentity{attrs: []identityAttribute{
-		{name: "localization_id", description: "App Store Connect ID of the version localization.", state: "localization_id"},
-		{name: "keyword_id", description: "App Store Connect ID of the search keyword.", state: "keyword_id"},
-	}}}
+func newKeywordLinkResource(api keywordLinkAPI) func() resource.Resource {
+	return func() resource.Resource {
+		return &searchKeywordResource{api: api, resourceIdentity: resourceIdentity{attrs: []identityAttribute{
+			{name: "localization_id", description: "App Store Connect ID of the localization.", state: "localization_id"},
+			{name: "keyword_id", description: "App Store Connect ID of the search keyword.", state: "keyword_id"},
+		}}}
+	}
 }
 
+var newSearchKeywordResource = newKeywordLinkResource(keywordLinkAPI{
+	typeName: "app_store_version_localization_search_keyword",
+	description: "Links one search keyword to an App Store version localization. App Store Connect offers " +
+		"the keywords for each platform and locale; list them with `data.apple_app_search_keywords`. Changes need " +
+		"the version to be editable. Destroying the resource removes the keyword. Import it with " +
+		"`<localization_id>/<keyword_id>`.",
+	localizationDoc: "App Store Connect ID of the version localization, e.g. `apple_app_store_version_localization.en_us.id`.",
+	add: func(ctx context.Context, c *asc.Client, localizationID, keywordID string) error {
+		out, err := c.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse(ctx, localizationID, keywordLinkage(keywordID))
+		return asc.Err(out, err)
+	},
+	remove: func(ctx context.Context, c *asc.Client, localizationID, keywordID string) error {
+		out, err := c.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx, localizationID, keywordLinkage(keywordID))
+		return asc.Err(out, err)
+	},
+	list: localizationKeywords,
+})
+
 func (r *searchKeywordResource) Metadata(_ context.Context, req resource.MetadataRequest, resp *resource.MetadataResponse) {
-	resp.TypeName = req.ProviderTypeName + "_app_store_version_localization_search_keyword"
+	resp.TypeName = req.ProviderTypeName + "_" + r.api.typeName
 }
 
 func (r *searchKeywordResource) Schema(_ context.Context, _ resource.SchemaRequest, resp *resource.SchemaResponse) {
 	resp.Schema = schema.Schema{
-		MarkdownDescription: "Links one search keyword to an App Store version localization. App Store Connect offers " +
-			"the keywords for each platform and locale; list them with `data.apple_app_search_keywords`. Changes need " +
-			"the version to be editable. Destroying the resource removes the keyword. Import it with " +
-			"`<localization_id>/<keyword_id>`.",
+		MarkdownDescription: r.api.description,
 		Attributes: map[string]schema.Attribute{
-			"localization_id": replacedString("App Store Connect ID of the version localization, e.g. `apple_app_store_version_localization.en_us.id`."),
+			"localization_id": replacedString(r.api.localizationDoc),
 			"keyword_id":      replacedString("App Store Connect ID of the search keyword."),
 		},
 	}
@@ -429,10 +457,10 @@ func (r *searchKeywordResource) ImportState(ctx context.Context, req resource.Im
 	r.importState(ctx, r.client, req, resp)
 }
 
-func keywordLinkage(m *searchKeywordModel) gen.AppStoreVersionLocalizationSearchKeywordsLinkagesRequest {
+func keywordLinkage(keywordID string) gen.AppStoreVersionLocalizationSearchKeywordsLinkagesRequest {
 	var body gen.AppStoreVersionLocalizationSearchKeywordsLinkagesRequest
 	e := asc.Push(&body.Data)
-	e.Id, e.Type = m.KeywordID.ValueString(), gen.AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataTypeAppKeywords
+	e.Id, e.Type = keywordID, gen.AppStoreVersionLocalizationSearchKeywordsLinkagesRequestDataTypeAppKeywords
 	return body
 }
 
@@ -460,8 +488,7 @@ func (r *searchKeywordResource) Create(ctx context.Context, req resource.CreateR
 	if resp.Diagnostics.HasError() {
 		return
 	}
-	out, err := r.client.AppStoreVersionLocalizationsSearchKeywordsCreateToManyRelationshipWithResponse(ctx, plan.LocalizationID.ValueString(), keywordLinkage(&plan))
-	if err := asc.Err(out, err); err != nil {
+	if err := r.api.add(ctx, r.client, plan.LocalizationID.ValueString(), plan.KeywordID.ValueString()); err != nil {
 		apiError(&resp.Diagnostics, "add search keyword", err)
 		return
 	}
@@ -475,7 +502,7 @@ func (r *searchKeywordResource) Read(ctx context.Context, req resource.ReadReque
 	if resp.Diagnostics.HasError() {
 		return
 	}
-	ids, err := localizationKeywords(ctx, r.client, state.LocalizationID.ValueString())
+	ids, err := r.api.list(ctx, r.client, state.LocalizationID.ValueString())
 	if asc.IsNotFound(err) || err == nil && !slices.Contains(ids, state.KeywordID.ValueString()) {
 		resp.State.RemoveResource(ctx)
 		return
@@ -491,16 +518,14 @@ func (r *searchKeywordResource) Read(ctx context.Context, req resource.ReadReque
 func (r *searchKeywordResource) Update(context.Context, resource.UpdateRequest, *resource.UpdateResponse) {
 }
 
-// Delete removes the keyword while the version is editable; a released
-// version keeps its keywords.
+// Delete removes the keyword link.
 func (r *searchKeywordResource) Delete(ctx context.Context, req resource.DeleteRequest, resp *resource.DeleteResponse) {
 	var state searchKeywordModel
 	resp.Diagnostics.Append(req.State.Get(ctx, &state)...)
 	if resp.Diagnostics.HasError() {
 		return
 	}
-	out, err := r.client.AppStoreVersionLocalizationsSearchKeywordsDeleteToManyRelationshipWithResponse(ctx, state.LocalizationID.ValueString(), keywordLinkage(&state))
-	if err := asc.Err(out, err); err != nil && !asc.IsNotFound(err) {
+	if err := r.api.remove(ctx, r.client, state.LocalizationID.ValueString(), state.KeywordID.ValueString()); err != nil && !asc.IsNotFound(err) {
 		apiError(&resp.Diagnostics, "remove search keyword", err)
 	}
 }

@@ -86,6 +86,7 @@ type Server struct {
 	lib         *assetLibraryState
 	retention   *retentionState
 	events      *eventsState
+	pages       *productPagesState
 
 	failNext map[string][]int
 	requests []string
@@ -135,6 +136,7 @@ func NewServer() *Server {
 		lib:          newAssetLibraryState(),
 		retention:    newRetentionState(),
 		events:       newEventsState(),
+		pages:        newProductPagesState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{
