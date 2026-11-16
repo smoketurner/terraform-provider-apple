@@ -288,6 +288,19 @@ output-options:
     - certificates_getInstance
     - certificates_passTypeId_getToOneRelationship
     - certificates_updateInstance
+    - ciBuildRuns_createInstance
+    - ciMacOsVersions_getCollection
+    - ciProducts_additionalRepositories_getToManyRelated
+    - ciProducts_buildRuns_getToManyRelated
+    - ciProducts_getCollection
+    - ciProducts_primaryRepositories_getToManyRelated
+    - ciProducts_workflows_getToManyRelated
+    - ciWorkflows_buildRuns_getToManyRelated
+    - ciWorkflows_createInstance
+    - ciWorkflows_deleteInstance
+    - ciWorkflows_getInstance
+    - ciWorkflows_updateInstance
+    - ciXcodeVersions_getCollection
     - devices_createInstance
     - devices_getCollection
     - devices_getInstance
@@ -395,6 +408,9 @@ output-options:
     - sandboxTestersClearPurchaseHistoryRequestV2_createInstance
     - sandboxTestersV2_getCollection
     - sandboxTestersV2_updateInstance
+    - scmRepositories_getCollection
+    - scmRepositories_gitReferences_getToManyRelated
+    - scmRepositories_pullRequests_getToManyRelated
     - subscriptionAppStoreReviewScreenshots_createInstance
     - subscriptionAppStoreReviewScreenshots_deleteInstance
     - subscriptionAppStoreReviewScreenshots_getInstance

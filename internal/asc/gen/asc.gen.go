@@ -11789,6 +11789,459 @@ func (e ChecksumsCompositeAlgorithm) Valid() bool {
 	}
 }
 
+// Defines values for CiActionDestination.
+const (
+	CiActionDestinationANYIOSDEVICE         CiActionDestination = "ANY_IOS_DEVICE"
+	CiActionDestinationANYIOSSIMULATOR      CiActionDestination = "ANY_IOS_SIMULATOR"
+	CiActionDestinationANYMAC               CiActionDestination = "ANY_MAC"
+	CiActionDestinationANYMACCATALYST       CiActionDestination = "ANY_MAC_CATALYST"
+	CiActionDestinationANYTVOSDEVICE        CiActionDestination = "ANY_TVOS_DEVICE"
+	CiActionDestinationANYTVOSSIMULATOR     CiActionDestination = "ANY_TVOS_SIMULATOR"
+	CiActionDestinationANYVISIONOSDEVICE    CiActionDestination = "ANY_VISIONOS_DEVICE"
+	CiActionDestinationANYVISIONOSSIMULATOR CiActionDestination = "ANY_VISIONOS_SIMULATOR"
+	CiActionDestinationANYWATCHOSDEVICE     CiActionDestination = "ANY_WATCHOS_DEVICE"
+	CiActionDestinationANYWATCHOSSIMULATOR  CiActionDestination = "ANY_WATCHOS_SIMULATOR"
+)
+
+// Valid indicates whether the value is a known member of the CiActionDestination enum.
+func (e CiActionDestination) Valid() bool {
+	switch e {
+	case CiActionDestinationANYIOSDEVICE:
+		return true
+	case CiActionDestinationANYIOSSIMULATOR:
+		return true
+	case CiActionDestinationANYMAC:
+		return true
+	case CiActionDestinationANYMACCATALYST:
+		return true
+	case CiActionDestinationANYTVOSDEVICE:
+		return true
+	case CiActionDestinationANYTVOSSIMULATOR:
+		return true
+	case CiActionDestinationANYVISIONOSDEVICE:
+		return true
+	case CiActionDestinationANYVISIONOSSIMULATOR:
+		return true
+	case CiActionDestinationANYWATCHOSDEVICE:
+		return true
+	case CiActionDestinationANYWATCHOSSIMULATOR:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiActionPlatform.
+const (
+	CiActionPlatformIOS      CiActionPlatform = "IOS"
+	CiActionPlatformMACOS    CiActionPlatform = "MACOS"
+	CiActionPlatformTVOS     CiActionPlatform = "TVOS"
+	CiActionPlatformVISIONOS CiActionPlatform = "VISIONOS"
+	CiActionPlatformWATCHOS  CiActionPlatform = "WATCHOS"
+)
+
+// Valid indicates whether the value is a known member of the CiActionPlatform enum.
+func (e CiActionPlatform) Valid() bool {
+	switch e {
+	case CiActionPlatformIOS:
+		return true
+	case CiActionPlatformMACOS:
+		return true
+	case CiActionPlatformTVOS:
+		return true
+	case CiActionPlatformVISIONOS:
+		return true
+	case CiActionPlatformWATCHOS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiActionTestConfigurationKind.
+const (
+	CiActionTestConfigurationKindSPECIFICTESTPLANS CiActionTestConfigurationKind = "SPECIFIC_TEST_PLANS"
+	CiActionTestConfigurationKindUSESCHEMESETTINGS CiActionTestConfigurationKind = "USE_SCHEME_SETTINGS"
+)
+
+// Valid indicates whether the value is a known member of the CiActionTestConfigurationKind enum.
+func (e CiActionTestConfigurationKind) Valid() bool {
+	switch e {
+	case CiActionTestConfigurationKindSPECIFICTESTPLANS:
+		return true
+	case CiActionTestConfigurationKindUSESCHEMESETTINGS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiActionType.
+const (
+	CiActionTypeANALYZE CiActionType = "ANALYZE"
+	CiActionTypeARCHIVE CiActionType = "ARCHIVE"
+	CiActionTypeBUILD   CiActionType = "BUILD"
+	CiActionTypeTEST    CiActionType = "TEST"
+)
+
+// Valid indicates whether the value is a known member of the CiActionType enum.
+func (e CiActionType) Valid() bool {
+	switch e {
+	case CiActionTypeANALYZE:
+		return true
+	case CiActionTypeARCHIVE:
+		return true
+	case CiActionTypeBUILD:
+		return true
+	case CiActionTypeTEST:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunAttributesCancelReason.
+const (
+	CiBuildRunAttributesCancelReasonAUTOMATICALLYBYNEWERBUILD CiBuildRunAttributesCancelReason = "AUTOMATICALLY_BY_NEWER_BUILD"
+	CiBuildRunAttributesCancelReasonMANUALLYBYUSER            CiBuildRunAttributesCancelReason = "MANUALLY_BY_USER"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunAttributesCancelReason enum.
+func (e CiBuildRunAttributesCancelReason) Valid() bool {
+	switch e {
+	case CiBuildRunAttributesCancelReasonAUTOMATICALLYBYNEWERBUILD:
+		return true
+	case CiBuildRunAttributesCancelReasonMANUALLYBYUSER:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunAttributesStartReason.
+const (
+	CiBuildRunAttributesStartReasonGITREFCHANGE      CiBuildRunAttributesStartReason = "GIT_REF_CHANGE"
+	CiBuildRunAttributesStartReasonMANUAL            CiBuildRunAttributesStartReason = "MANUAL"
+	CiBuildRunAttributesStartReasonMANUALREBUILD     CiBuildRunAttributesStartReason = "MANUAL_REBUILD"
+	CiBuildRunAttributesStartReasonPULLREQUESTOPEN   CiBuildRunAttributesStartReason = "PULL_REQUEST_OPEN"
+	CiBuildRunAttributesStartReasonPULLREQUESTUPDATE CiBuildRunAttributesStartReason = "PULL_REQUEST_UPDATE"
+	CiBuildRunAttributesStartReasonSCHEDULE          CiBuildRunAttributesStartReason = "SCHEDULE"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunAttributesStartReason enum.
+func (e CiBuildRunAttributesStartReason) Valid() bool {
+	switch e {
+	case CiBuildRunAttributesStartReasonGITREFCHANGE:
+		return true
+	case CiBuildRunAttributesStartReasonMANUAL:
+		return true
+	case CiBuildRunAttributesStartReasonMANUALREBUILD:
+		return true
+	case CiBuildRunAttributesStartReasonPULLREQUESTOPEN:
+		return true
+	case CiBuildRunAttributesStartReasonPULLREQUESTUPDATE:
+		return true
+	case CiBuildRunAttributesStartReasonSCHEDULE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunRelationshipsBuildsDataType.
+const (
+	CiBuildRunRelationshipsBuildsDataTypeBuilds CiBuildRunRelationshipsBuildsDataType = "builds"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunRelationshipsBuildsDataType enum.
+func (e CiBuildRunRelationshipsBuildsDataType) Valid() bool {
+	switch e {
+	case CiBuildRunRelationshipsBuildsDataTypeBuilds:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunRelationshipsDestinationBranchDataType.
+const (
+	CiBuildRunRelationshipsDestinationBranchDataTypeScmGitReferences CiBuildRunRelationshipsDestinationBranchDataType = "scmGitReferences"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunRelationshipsDestinationBranchDataType enum.
+func (e CiBuildRunRelationshipsDestinationBranchDataType) Valid() bool {
+	switch e {
+	case CiBuildRunRelationshipsDestinationBranchDataTypeScmGitReferences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunRelationshipsProductDataType.
+const (
+	CiBuildRunRelationshipsProductDataTypeCiProducts CiBuildRunRelationshipsProductDataType = "ciProducts"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunRelationshipsProductDataType enum.
+func (e CiBuildRunRelationshipsProductDataType) Valid() bool {
+	switch e {
+	case CiBuildRunRelationshipsProductDataTypeCiProducts:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunRelationshipsPullRequestDataType.
+const (
+	CiBuildRunRelationshipsPullRequestDataTypeScmPullRequests CiBuildRunRelationshipsPullRequestDataType = "scmPullRequests"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunRelationshipsPullRequestDataType enum.
+func (e CiBuildRunRelationshipsPullRequestDataType) Valid() bool {
+	switch e {
+	case CiBuildRunRelationshipsPullRequestDataTypeScmPullRequests:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunRelationshipsSourceBranchOrTagDataType.
+const (
+	CiBuildRunRelationshipsSourceBranchOrTagDataTypeScmGitReferences CiBuildRunRelationshipsSourceBranchOrTagDataType = "scmGitReferences"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunRelationshipsSourceBranchOrTagDataType enum.
+func (e CiBuildRunRelationshipsSourceBranchOrTagDataType) Valid() bool {
+	switch e {
+	case CiBuildRunRelationshipsSourceBranchOrTagDataTypeScmGitReferences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunRelationshipsWorkflowDataType.
+const (
+	CiBuildRunRelationshipsWorkflowDataTypeCiWorkflows CiBuildRunRelationshipsWorkflowDataType = "ciWorkflows"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunRelationshipsWorkflowDataType enum.
+func (e CiBuildRunRelationshipsWorkflowDataType) Valid() bool {
+	switch e {
+	case CiBuildRunRelationshipsWorkflowDataTypeCiWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunType.
+const (
+	CiBuildRunTypeCiBuildRuns CiBuildRunType = "ciBuildRuns"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunType enum.
+func (e CiBuildRunType) Valid() bool {
+	switch e {
+	case CiBuildRunTypeCiBuildRuns:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunCreateRequestDataRelationshipsBuildRunDataType.
+const (
+	CiBuildRunCreateRequestDataRelationshipsBuildRunDataTypeCiBuildRuns CiBuildRunCreateRequestDataRelationshipsBuildRunDataType = "ciBuildRuns"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunCreateRequestDataRelationshipsBuildRunDataType enum.
+func (e CiBuildRunCreateRequestDataRelationshipsBuildRunDataType) Valid() bool {
+	switch e {
+	case CiBuildRunCreateRequestDataRelationshipsBuildRunDataTypeCiBuildRuns:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunCreateRequestDataRelationshipsPullRequestDataType.
+const (
+	CiBuildRunCreateRequestDataRelationshipsPullRequestDataTypeScmPullRequests CiBuildRunCreateRequestDataRelationshipsPullRequestDataType = "scmPullRequests"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunCreateRequestDataRelationshipsPullRequestDataType enum.
+func (e CiBuildRunCreateRequestDataRelationshipsPullRequestDataType) Valid() bool {
+	switch e {
+	case CiBuildRunCreateRequestDataRelationshipsPullRequestDataTypeScmPullRequests:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataType.
+const (
+	CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataTypeScmGitReferences CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataType = "scmGitReferences"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataType enum.
+func (e CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataType) Valid() bool {
+	switch e {
+	case CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataTypeScmGitReferences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunCreateRequestDataRelationshipsWorkflowDataType.
+const (
+	CiBuildRunCreateRequestDataRelationshipsWorkflowDataTypeCiWorkflows CiBuildRunCreateRequestDataRelationshipsWorkflowDataType = "ciWorkflows"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunCreateRequestDataRelationshipsWorkflowDataType enum.
+func (e CiBuildRunCreateRequestDataRelationshipsWorkflowDataType) Valid() bool {
+	switch e {
+	case CiBuildRunCreateRequestDataRelationshipsWorkflowDataTypeCiWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiBuildRunCreateRequestDataType.
+const (
+	CiBuildRunCreateRequestDataTypeCiBuildRuns CiBuildRunCreateRequestDataType = "ciBuildRuns"
+)
+
+// Valid indicates whether the value is a known member of the CiBuildRunCreateRequestDataType enum.
+func (e CiBuildRunCreateRequestDataType) Valid() bool {
+	switch e {
+	case CiBuildRunCreateRequestDataTypeCiBuildRuns:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiCompletionStatus.
+const (
+	CiCompletionStatusCANCELED  CiCompletionStatus = "CANCELED"
+	CiCompletionStatusERRORED   CiCompletionStatus = "ERRORED"
+	CiCompletionStatusFAILED    CiCompletionStatus = "FAILED"
+	CiCompletionStatusSKIPPED   CiCompletionStatus = "SKIPPED"
+	CiCompletionStatusSUCCEEDED CiCompletionStatus = "SUCCEEDED"
+)
+
+// Valid indicates whether the value is a known member of the CiCompletionStatus enum.
+func (e CiCompletionStatus) Valid() bool {
+	switch e {
+	case CiCompletionStatusCANCELED:
+		return true
+	case CiCompletionStatusERRORED:
+		return true
+	case CiCompletionStatusFAILED:
+		return true
+	case CiCompletionStatusSKIPPED:
+		return true
+	case CiCompletionStatusSUCCEEDED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiExecutionProgress.
+const (
+	CiExecutionProgressCOMPLETE CiExecutionProgress = "COMPLETE"
+	CiExecutionProgressPENDING  CiExecutionProgress = "PENDING"
+	CiExecutionProgressRUNNING  CiExecutionProgress = "RUNNING"
+)
+
+// Valid indicates whether the value is a known member of the CiExecutionProgress enum.
+func (e CiExecutionProgress) Valid() bool {
+	switch e {
+	case CiExecutionProgressCOMPLETE:
+		return true
+	case CiExecutionProgressPENDING:
+		return true
+	case CiExecutionProgressRUNNING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiFilesAndFoldersRuleMode.
+const (
+	CiFilesAndFoldersRuleModeDONOTSTARTIFALLFILESMATCH CiFilesAndFoldersRuleMode = "DO_NOT_START_IF_ALL_FILES_MATCH"
+	CiFilesAndFoldersRuleModeSTARTIFANYFILEMATCHES     CiFilesAndFoldersRuleMode = "START_IF_ANY_FILE_MATCHES"
+)
+
+// Valid indicates whether the value is a known member of the CiFilesAndFoldersRuleMode enum.
+func (e CiFilesAndFoldersRuleMode) Valid() bool {
+	switch e {
+	case CiFilesAndFoldersRuleModeDONOTSTARTIFALLFILESMATCH:
+		return true
+	case CiFilesAndFoldersRuleModeSTARTIFANYFILEMATCHES:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiGitRefKind.
+const (
+	CiGitRefKindBRANCH CiGitRefKind = "BRANCH"
+	CiGitRefKindTAG    CiGitRefKind = "TAG"
+)
+
+// Valid indicates whether the value is a known member of the CiGitRefKind enum.
+func (e CiGitRefKind) Valid() bool {
+	switch e {
+	case CiGitRefKindBRANCH:
+		return true
+	case CiGitRefKindTAG:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiMacOsVersionRelationshipsXcodeVersionsDataType.
+const (
+	CiMacOsVersionRelationshipsXcodeVersionsDataTypeCiXcodeVersions CiMacOsVersionRelationshipsXcodeVersionsDataType = "ciXcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiMacOsVersionRelationshipsXcodeVersionsDataType enum.
+func (e CiMacOsVersionRelationshipsXcodeVersionsDataType) Valid() bool {
+	switch e {
+	case CiMacOsVersionRelationshipsXcodeVersionsDataTypeCiXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiMacOsVersionType.
+const (
+	CiMacOsVersionTypeCiMacOsVersions CiMacOsVersionType = "ciMacOsVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiMacOsVersionType enum.
+func (e CiMacOsVersionType) Valid() bool {
+	switch e {
+	case CiMacOsVersionTypeCiMacOsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for CiProductAttributesProductType.
 const (
 	CiProductAttributesProductTypeAPP       CiProductAttributesProductType = "APP"
@@ -11861,6 +12314,303 @@ const (
 func (e CiProductType) Valid() bool {
 	switch e {
 	case CiProductTypeCiProducts:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiScheduledStartConditionScheduleDays.
+const (
+	CiScheduledStartConditionScheduleDaysFRIDAY    CiScheduledStartConditionScheduleDays = "FRIDAY"
+	CiScheduledStartConditionScheduleDaysMONDAY    CiScheduledStartConditionScheduleDays = "MONDAY"
+	CiScheduledStartConditionScheduleDaysSATURDAY  CiScheduledStartConditionScheduleDays = "SATURDAY"
+	CiScheduledStartConditionScheduleDaysSUNDAY    CiScheduledStartConditionScheduleDays = "SUNDAY"
+	CiScheduledStartConditionScheduleDaysTHURSDAY  CiScheduledStartConditionScheduleDays = "THURSDAY"
+	CiScheduledStartConditionScheduleDaysTUESDAY   CiScheduledStartConditionScheduleDays = "TUESDAY"
+	CiScheduledStartConditionScheduleDaysWEDNESDAY CiScheduledStartConditionScheduleDays = "WEDNESDAY"
+)
+
+// Valid indicates whether the value is a known member of the CiScheduledStartConditionScheduleDays enum.
+func (e CiScheduledStartConditionScheduleDays) Valid() bool {
+	switch e {
+	case CiScheduledStartConditionScheduleDaysFRIDAY:
+		return true
+	case CiScheduledStartConditionScheduleDaysMONDAY:
+		return true
+	case CiScheduledStartConditionScheduleDaysSATURDAY:
+		return true
+	case CiScheduledStartConditionScheduleDaysSUNDAY:
+		return true
+	case CiScheduledStartConditionScheduleDaysTHURSDAY:
+		return true
+	case CiScheduledStartConditionScheduleDaysTUESDAY:
+		return true
+	case CiScheduledStartConditionScheduleDaysWEDNESDAY:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiScheduledStartConditionScheduleFrequency.
+const (
+	CiScheduledStartConditionScheduleFrequencyDAILY  CiScheduledStartConditionScheduleFrequency = "DAILY"
+	CiScheduledStartConditionScheduleFrequencyHOURLY CiScheduledStartConditionScheduleFrequency = "HOURLY"
+	CiScheduledStartConditionScheduleFrequencyWEEKLY CiScheduledStartConditionScheduleFrequency = "WEEKLY"
+)
+
+// Valid indicates whether the value is a known member of the CiScheduledStartConditionScheduleFrequency enum.
+func (e CiScheduledStartConditionScheduleFrequency) Valid() bool {
+	switch e {
+	case CiScheduledStartConditionScheduleFrequencyDAILY:
+		return true
+	case CiScheduledStartConditionScheduleFrequencyHOURLY:
+		return true
+	case CiScheduledStartConditionScheduleFrequencyWEEKLY:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiTestDestinationKind.
+const (
+	CiTestDestinationKindMAC       CiTestDestinationKind = "MAC"
+	CiTestDestinationKindSIMULATOR CiTestDestinationKind = "SIMULATOR"
+)
+
+// Valid indicates whether the value is a known member of the CiTestDestinationKind enum.
+func (e CiTestDestinationKind) Valid() bool {
+	switch e {
+	case CiTestDestinationKindMAC:
+		return true
+	case CiTestDestinationKindSIMULATOR:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowRelationshipsMacOsVersionDataType.
+const (
+	CiWorkflowRelationshipsMacOsVersionDataTypeCiMacOsVersions CiWorkflowRelationshipsMacOsVersionDataType = "ciMacOsVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowRelationshipsMacOsVersionDataType enum.
+func (e CiWorkflowRelationshipsMacOsVersionDataType) Valid() bool {
+	switch e {
+	case CiWorkflowRelationshipsMacOsVersionDataTypeCiMacOsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowRelationshipsProductDataType.
+const (
+	CiWorkflowRelationshipsProductDataTypeCiProducts CiWorkflowRelationshipsProductDataType = "ciProducts"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowRelationshipsProductDataType enum.
+func (e CiWorkflowRelationshipsProductDataType) Valid() bool {
+	switch e {
+	case CiWorkflowRelationshipsProductDataTypeCiProducts:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowRelationshipsRepositoryDataType.
+const (
+	CiWorkflowRelationshipsRepositoryDataTypeScmRepositories CiWorkflowRelationshipsRepositoryDataType = "scmRepositories"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowRelationshipsRepositoryDataType enum.
+func (e CiWorkflowRelationshipsRepositoryDataType) Valid() bool {
+	switch e {
+	case CiWorkflowRelationshipsRepositoryDataTypeScmRepositories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowRelationshipsXcodeVersionDataType.
+const (
+	CiWorkflowRelationshipsXcodeVersionDataTypeCiXcodeVersions CiWorkflowRelationshipsXcodeVersionDataType = "ciXcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowRelationshipsXcodeVersionDataType enum.
+func (e CiWorkflowRelationshipsXcodeVersionDataType) Valid() bool {
+	switch e {
+	case CiWorkflowRelationshipsXcodeVersionDataTypeCiXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowType.
+const (
+	CiWorkflowTypeCiWorkflows CiWorkflowType = "ciWorkflows"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowType enum.
+func (e CiWorkflowType) Valid() bool {
+	switch e {
+	case CiWorkflowTypeCiWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataType.
+const (
+	CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataTypeCiMacOsVersions CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataType = "ciMacOsVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataType enum.
+func (e CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataType) Valid() bool {
+	switch e {
+	case CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataTypeCiMacOsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowCreateRequestDataRelationshipsProductDataType.
+const (
+	CiWorkflowCreateRequestDataRelationshipsProductDataTypeCiProducts CiWorkflowCreateRequestDataRelationshipsProductDataType = "ciProducts"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowCreateRequestDataRelationshipsProductDataType enum.
+func (e CiWorkflowCreateRequestDataRelationshipsProductDataType) Valid() bool {
+	switch e {
+	case CiWorkflowCreateRequestDataRelationshipsProductDataTypeCiProducts:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowCreateRequestDataRelationshipsRepositoryDataType.
+const (
+	CiWorkflowCreateRequestDataRelationshipsRepositoryDataTypeScmRepositories CiWorkflowCreateRequestDataRelationshipsRepositoryDataType = "scmRepositories"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowCreateRequestDataRelationshipsRepositoryDataType enum.
+func (e CiWorkflowCreateRequestDataRelationshipsRepositoryDataType) Valid() bool {
+	switch e {
+	case CiWorkflowCreateRequestDataRelationshipsRepositoryDataTypeScmRepositories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataType.
+const (
+	CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataTypeCiXcodeVersions CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataType = "ciXcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataType enum.
+func (e CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataType) Valid() bool {
+	switch e {
+	case CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataTypeCiXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowCreateRequestDataType.
+const (
+	CiWorkflowCreateRequestDataTypeCiWorkflows CiWorkflowCreateRequestDataType = "ciWorkflows"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowCreateRequestDataType enum.
+func (e CiWorkflowCreateRequestDataType) Valid() bool {
+	switch e {
+	case CiWorkflowCreateRequestDataTypeCiWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataType.
+const (
+	CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataTypeCiMacOsVersions CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataType = "ciMacOsVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataType enum.
+func (e CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataType) Valid() bool {
+	switch e {
+	case CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataTypeCiMacOsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataType.
+const (
+	CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataTypeCiXcodeVersions CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataType = "ciXcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataType enum.
+func (e CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataType) Valid() bool {
+	switch e {
+	case CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataTypeCiXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowUpdateRequestDataType.
+const (
+	CiWorkflowUpdateRequestDataTypeCiWorkflows CiWorkflowUpdateRequestDataType = "ciWorkflows"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowUpdateRequestDataType enum.
+func (e CiWorkflowUpdateRequestDataType) Valid() bool {
+	switch e {
+	case CiWorkflowUpdateRequestDataTypeCiWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiXcodeVersionRelationshipsMacOsVersionsDataType.
+const (
+	CiXcodeVersionRelationshipsMacOsVersionsDataTypeCiMacOsVersions CiXcodeVersionRelationshipsMacOsVersionsDataType = "ciMacOsVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiXcodeVersionRelationshipsMacOsVersionsDataType enum.
+func (e CiXcodeVersionRelationshipsMacOsVersionsDataType) Valid() bool {
+	switch e {
+	case CiXcodeVersionRelationshipsMacOsVersionsDataTypeCiMacOsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiXcodeVersionType.
+const (
+	CiXcodeVersionTypeCiXcodeVersions CiXcodeVersionType = "ciXcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiXcodeVersionType enum.
+func (e CiXcodeVersionType) Valid() bool {
+	switch e {
+	case CiXcodeVersionTypeCiXcodeVersions:
 		return true
 	default:
 		return false
@@ -17225,6 +17975,156 @@ const (
 func (e SandboxTestersClearPurchaseHistoryRequestV2CreateRequestDataType) Valid() bool {
 	switch e {
 	case SandboxTestersClearPurchaseHistoryRequestV2CreateRequestDataTypeSandboxTestersClearPurchaseHistoryRequest:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmGitReferenceRelationshipsRepositoryDataType.
+const (
+	ScmGitReferenceRelationshipsRepositoryDataTypeScmRepositories ScmGitReferenceRelationshipsRepositoryDataType = "scmRepositories"
+)
+
+// Valid indicates whether the value is a known member of the ScmGitReferenceRelationshipsRepositoryDataType enum.
+func (e ScmGitReferenceRelationshipsRepositoryDataType) Valid() bool {
+	switch e {
+	case ScmGitReferenceRelationshipsRepositoryDataTypeScmRepositories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmGitReferenceType.
+const (
+	ScmGitReferenceTypeScmGitReferences ScmGitReferenceType = "scmGitReferences"
+)
+
+// Valid indicates whether the value is a known member of the ScmGitReferenceType enum.
+func (e ScmGitReferenceType) Valid() bool {
+	switch e {
+	case ScmGitReferenceTypeScmGitReferences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmProviderResourceType.
+const (
+	ScmProviderResourceTypeScmProviders ScmProviderResourceType = "scmProviders"
+)
+
+// Valid indicates whether the value is a known member of the ScmProviderResourceType enum.
+func (e ScmProviderResourceType) Valid() bool {
+	switch e {
+	case ScmProviderResourceTypeScmProviders:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmProviderTypeKind.
+const (
+	ScmProviderTypeKindBITBUCKETCLOUD    ScmProviderTypeKind = "BITBUCKET_CLOUD"
+	ScmProviderTypeKindBITBUCKETSERVER   ScmProviderTypeKind = "BITBUCKET_SERVER"
+	ScmProviderTypeKindGITHUBCLOUD       ScmProviderTypeKind = "GITHUB_CLOUD"
+	ScmProviderTypeKindGITHUBENTERPRISE  ScmProviderTypeKind = "GITHUB_ENTERPRISE"
+	ScmProviderTypeKindGITLABCLOUD       ScmProviderTypeKind = "GITLAB_CLOUD"
+	ScmProviderTypeKindGITLABSELFMANAGED ScmProviderTypeKind = "GITLAB_SELF_MANAGED"
+)
+
+// Valid indicates whether the value is a known member of the ScmProviderTypeKind enum.
+func (e ScmProviderTypeKind) Valid() bool {
+	switch e {
+	case ScmProviderTypeKindBITBUCKETCLOUD:
+		return true
+	case ScmProviderTypeKindBITBUCKETSERVER:
+		return true
+	case ScmProviderTypeKindGITHUBCLOUD:
+		return true
+	case ScmProviderTypeKindGITHUBENTERPRISE:
+		return true
+	case ScmProviderTypeKindGITLABCLOUD:
+		return true
+	case ScmProviderTypeKindGITLABSELFMANAGED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmPullRequestRelationshipsRepositoryDataType.
+const (
+	ScmPullRequestRelationshipsRepositoryDataTypeScmRepositories ScmPullRequestRelationshipsRepositoryDataType = "scmRepositories"
+)
+
+// Valid indicates whether the value is a known member of the ScmPullRequestRelationshipsRepositoryDataType enum.
+func (e ScmPullRequestRelationshipsRepositoryDataType) Valid() bool {
+	switch e {
+	case ScmPullRequestRelationshipsRepositoryDataTypeScmRepositories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmPullRequestType.
+const (
+	ScmPullRequestTypeScmPullRequests ScmPullRequestType = "scmPullRequests"
+)
+
+// Valid indicates whether the value is a known member of the ScmPullRequestType enum.
+func (e ScmPullRequestType) Valid() bool {
+	switch e {
+	case ScmPullRequestTypeScmPullRequests:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoryRelationshipsDefaultBranchDataType.
+const (
+	ScmRepositoryRelationshipsDefaultBranchDataTypeScmGitReferences ScmRepositoryRelationshipsDefaultBranchDataType = "scmGitReferences"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoryRelationshipsDefaultBranchDataType enum.
+func (e ScmRepositoryRelationshipsDefaultBranchDataType) Valid() bool {
+	switch e {
+	case ScmRepositoryRelationshipsDefaultBranchDataTypeScmGitReferences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoryRelationshipsScmProviderDataType.
+const (
+	ScmRepositoryRelationshipsScmProviderDataTypeScmProviders ScmRepositoryRelationshipsScmProviderDataType = "scmProviders"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoryRelationshipsScmProviderDataType enum.
+func (e ScmRepositoryRelationshipsScmProviderDataType) Valid() bool {
+	switch e {
+	case ScmRepositoryRelationshipsScmProviderDataTypeScmProviders:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoryType.
+const (
+	ScmRepositoryTypeScmRepositories ScmRepositoryType = "scmRepositories"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoryType enum.
+func (e ScmRepositoryType) Valid() bool {
+	switch e {
+	case ScmRepositoryTypeScmRepositories:
 		return true
 	default:
 		return false
@@ -46007,6 +46907,1896 @@ func (e CertificatesGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions.
+const (
+	CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersionsName          CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions = "name"
+	CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersionsVersion       CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions = "version"
+	CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersionsXcodeVersions CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions = "xcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions enum.
+func (e CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions) Valid() bool {
+	switch e {
+	case CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersionsName:
+		return true
+	case CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersionsVersion:
+		return true
+	case CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersionsXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions.
+const (
+	CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsMacOsVersions    CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions = "macOsVersions"
+	CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsName             CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions = "name"
+	CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsTestDestinations CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions = "testDestinations"
+	CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsVersion          CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions enum.
+func (e CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions) Valid() bool {
+	switch e {
+	case CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsMacOsVersions:
+		return true
+	case CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsName:
+		return true
+	case CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsTestDestinations:
+		return true
+	case CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiMacOsVersionsGetCollectionParamsInclude.
+const (
+	CiMacOsVersionsGetCollectionParamsIncludeXcodeVersions CiMacOsVersionsGetCollectionParamsInclude = "xcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiMacOsVersionsGetCollectionParamsInclude enum.
+func (e CiMacOsVersionsGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case CiMacOsVersionsGetCollectionParamsIncludeXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsGetCollectionParamsFilterProductType.
+const (
+	CiProductsGetCollectionParamsFilterProductTypeAPP       CiProductsGetCollectionParamsFilterProductType = "APP"
+	CiProductsGetCollectionParamsFilterProductTypeFRAMEWORK CiProductsGetCollectionParamsFilterProductType = "FRAMEWORK"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsGetCollectionParamsFilterProductType enum.
+func (e CiProductsGetCollectionParamsFilterProductType) Valid() bool {
+	switch e {
+	case CiProductsGetCollectionParamsFilterProductTypeAPP:
+		return true
+	case CiProductsGetCollectionParamsFilterProductTypeFRAMEWORK:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsGetCollectionParamsFieldsCiProducts.
+const (
+	CiProductsGetCollectionParamsFieldsCiProductsAdditionalRepositories CiProductsGetCollectionParamsFieldsCiProducts = "additionalRepositories"
+	CiProductsGetCollectionParamsFieldsCiProductsApp                    CiProductsGetCollectionParamsFieldsCiProducts = "app"
+	CiProductsGetCollectionParamsFieldsCiProductsBuildRuns              CiProductsGetCollectionParamsFieldsCiProducts = "buildRuns"
+	CiProductsGetCollectionParamsFieldsCiProductsBundleId               CiProductsGetCollectionParamsFieldsCiProducts = "bundleId"
+	CiProductsGetCollectionParamsFieldsCiProductsCreatedDate            CiProductsGetCollectionParamsFieldsCiProducts = "createdDate"
+	CiProductsGetCollectionParamsFieldsCiProductsName                   CiProductsGetCollectionParamsFieldsCiProducts = "name"
+	CiProductsGetCollectionParamsFieldsCiProductsPrimaryRepositories    CiProductsGetCollectionParamsFieldsCiProducts = "primaryRepositories"
+	CiProductsGetCollectionParamsFieldsCiProductsProductType            CiProductsGetCollectionParamsFieldsCiProducts = "productType"
+	CiProductsGetCollectionParamsFieldsCiProductsWorkflows              CiProductsGetCollectionParamsFieldsCiProducts = "workflows"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsGetCollectionParamsFieldsCiProducts enum.
+func (e CiProductsGetCollectionParamsFieldsCiProducts) Valid() bool {
+	switch e {
+	case CiProductsGetCollectionParamsFieldsCiProductsAdditionalRepositories:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsApp:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsBuildRuns:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsBundleId:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsCreatedDate:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsName:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsPrimaryRepositories:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsProductType:
+		return true
+	case CiProductsGetCollectionParamsFieldsCiProductsWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsGetCollectionParamsFieldsApps.
+const (
+	CiProductsGetCollectionParamsFieldsAppsAccessibilityDeclarations              CiProductsGetCollectionParamsFieldsApps = "accessibilityDeclarations"
+	CiProductsGetCollectionParamsFieldsAppsAccessibilityUrl                       CiProductsGetCollectionParamsFieldsApps = "accessibilityUrl"
+	CiProductsGetCollectionParamsFieldsAppsAlternativeDistributionKey             CiProductsGetCollectionParamsFieldsApps = "alternativeDistributionKey"
+	CiProductsGetCollectionParamsFieldsAppsAnalyticsReportRequests                CiProductsGetCollectionParamsFieldsApps = "analyticsReportRequests"
+	CiProductsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails          CiProductsGetCollectionParamsFieldsApps = "androidToIosAppMappingDetails"
+	CiProductsGetCollectionParamsFieldsAppsAppAvailabilityV2                      CiProductsGetCollectionParamsFieldsApps = "appAvailabilityV2"
+	CiProductsGetCollectionParamsFieldsAppsAppClips                               CiProductsGetCollectionParamsFieldsApps = "appClips"
+	CiProductsGetCollectionParamsFieldsAppsAppCustomProductPages                  CiProductsGetCollectionParamsFieldsApps = "appCustomProductPages"
+	CiProductsGetCollectionParamsFieldsAppsAppEncryptionDeclarations              CiProductsGetCollectionParamsFieldsApps = "appEncryptionDeclarations"
+	CiProductsGetCollectionParamsFieldsAppsAppEvents                              CiProductsGetCollectionParamsFieldsApps = "appEvents"
+	CiProductsGetCollectionParamsFieldsAppsAppInfos                               CiProductsGetCollectionParamsFieldsApps = "appInfos"
+	CiProductsGetCollectionParamsFieldsAppsAppPricePoints                         CiProductsGetCollectionParamsFieldsApps = "appPricePoints"
+	CiProductsGetCollectionParamsFieldsAppsAppPriceSchedule                       CiProductsGetCollectionParamsFieldsApps = "appPriceSchedule"
+	CiProductsGetCollectionParamsFieldsAppsAppStoreIcon                           CiProductsGetCollectionParamsFieldsApps = "appStoreIcon"
+	CiProductsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2           CiProductsGetCollectionParamsFieldsApps = "appStoreVersionExperimentsV2"
+	CiProductsGetCollectionParamsFieldsAppsAppStoreVersions                       CiProductsGetCollectionParamsFieldsApps = "appStoreVersions"
+	CiProductsGetCollectionParamsFieldsAppsAppTags                                CiProductsGetCollectionParamsFieldsApps = "appTags"
+	CiProductsGetCollectionParamsFieldsAppsAssetLibrary                           CiProductsGetCollectionParamsFieldsApps = "assetLibrary"
+	CiProductsGetCollectionParamsFieldsAppsBackgroundAssets                       CiProductsGetCollectionParamsFieldsApps = "backgroundAssets"
+	CiProductsGetCollectionParamsFieldsAppsBetaAppLocalizations                   CiProductsGetCollectionParamsFieldsApps = "betaAppLocalizations"
+	CiProductsGetCollectionParamsFieldsAppsBetaAppReviewDetail                    CiProductsGetCollectionParamsFieldsApps = "betaAppReviewDetail"
+	CiProductsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions           CiProductsGetCollectionParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	CiProductsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions      CiProductsGetCollectionParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	CiProductsGetCollectionParamsFieldsAppsBetaGroups                             CiProductsGetCollectionParamsFieldsApps = "betaGroups"
+	CiProductsGetCollectionParamsFieldsAppsBetaLicenseAgreement                   CiProductsGetCollectionParamsFieldsApps = "betaLicenseAgreement"
+	CiProductsGetCollectionParamsFieldsAppsBetaTesters                            CiProductsGetCollectionParamsFieldsApps = "betaTesters"
+	CiProductsGetCollectionParamsFieldsAppsBuildUploads                           CiProductsGetCollectionParamsFieldsApps = "buildUploads"
+	CiProductsGetCollectionParamsFieldsAppsBuilds                                 CiProductsGetCollectionParamsFieldsApps = "builds"
+	CiProductsGetCollectionParamsFieldsAppsBundleId                               CiProductsGetCollectionParamsFieldsApps = "bundleId"
+	CiProductsGetCollectionParamsFieldsAppsCiProduct                              CiProductsGetCollectionParamsFieldsApps = "ciProduct"
+	CiProductsGetCollectionParamsFieldsAppsContentRightsDeclaration               CiProductsGetCollectionParamsFieldsApps = "contentRightsDeclaration"
+	CiProductsGetCollectionParamsFieldsAppsCustomerReviewSummarizations           CiProductsGetCollectionParamsFieldsApps = "customerReviewSummarizations"
+	CiProductsGetCollectionParamsFieldsAppsCustomerReviews                        CiProductsGetCollectionParamsFieldsApps = "customerReviews"
+	CiProductsGetCollectionParamsFieldsAppsEndUserLicenseAgreement                CiProductsGetCollectionParamsFieldsApps = "endUserLicenseAgreement"
+	CiProductsGetCollectionParamsFieldsAppsGameCenterDetail                       CiProductsGetCollectionParamsFieldsApps = "gameCenterDetail"
+	CiProductsGetCollectionParamsFieldsAppsGameCenterEnabledVersions              CiProductsGetCollectionParamsFieldsApps = "gameCenterEnabledVersions"
+	CiProductsGetCollectionParamsFieldsAppsInAppPurchases                         CiProductsGetCollectionParamsFieldsApps = "inAppPurchases"
+	CiProductsGetCollectionParamsFieldsAppsInAppPurchasesV2                       CiProductsGetCollectionParamsFieldsApps = "inAppPurchasesV2"
+	CiProductsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids                 CiProductsGetCollectionParamsFieldsApps = "isOrEverWasMadeForKids"
+	CiProductsGetCollectionParamsFieldsAppsMarketplaceSearchDetail                CiProductsGetCollectionParamsFieldsApps = "marketplaceSearchDetail"
+	CiProductsGetCollectionParamsFieldsAppsName                                   CiProductsGetCollectionParamsFieldsApps = "name"
+	CiProductsGetCollectionParamsFieldsAppsPerfPowerMetrics                       CiProductsGetCollectionParamsFieldsApps = "perfPowerMetrics"
+	CiProductsGetCollectionParamsFieldsAppsPerformanceOverviews                   CiProductsGetCollectionParamsFieldsApps = "performanceOverviews"
+	CiProductsGetCollectionParamsFieldsAppsPreReleaseVersions                     CiProductsGetCollectionParamsFieldsApps = "preReleaseVersions"
+	CiProductsGetCollectionParamsFieldsAppsPrimaryLocale                          CiProductsGetCollectionParamsFieldsApps = "primaryLocale"
+	CiProductsGetCollectionParamsFieldsAppsPromotedPurchases                      CiProductsGetCollectionParamsFieldsApps = "promotedPurchases"
+	CiProductsGetCollectionParamsFieldsAppsRetentionMessages                      CiProductsGetCollectionParamsFieldsApps = "retentionMessages"
+	CiProductsGetCollectionParamsFieldsAppsReviewSubmissions                      CiProductsGetCollectionParamsFieldsApps = "reviewSubmissions"
+	CiProductsGetCollectionParamsFieldsAppsSearchKeywords                         CiProductsGetCollectionParamsFieldsApps = "searchKeywords"
+	CiProductsGetCollectionParamsFieldsAppsSku                                    CiProductsGetCollectionParamsFieldsApps = "sku"
+	CiProductsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled           CiProductsGetCollectionParamsFieldsApps = "streamlinedPurchasingEnabled"
+	CiProductsGetCollectionParamsFieldsAppsSubscriptionGracePeriod                CiProductsGetCollectionParamsFieldsApps = "subscriptionGracePeriod"
+	CiProductsGetCollectionParamsFieldsAppsSubscriptionGroups                     CiProductsGetCollectionParamsFieldsApps = "subscriptionGroups"
+	CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrl                  CiProductsGetCollectionParamsFieldsApps = "subscriptionStatusUrl"
+	CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox        CiProductsGetCollectionParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion           CiProductsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersion"
+	CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox CiProductsGetCollectionParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	CiProductsGetCollectionParamsFieldsAppsWebhooks                               CiProductsGetCollectionParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsGetCollectionParamsFieldsApps enum.
+func (e CiProductsGetCollectionParamsFieldsApps) Valid() bool {
+	switch e {
+	case CiProductsGetCollectionParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAccessibilityUrl:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppClips:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppCustomProductPages:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppEvents:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppInfos:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppPricePoints:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppPriceSchedule:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppStoreIcon:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppStoreVersions:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAppTags:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsAssetLibrary:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBackgroundAssets:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBetaGroups:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBetaTesters:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBuildUploads:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBuilds:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsBundleId:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsCiProduct:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsCustomerReviews:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsGameCenterDetail:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsInAppPurchases:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsName:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsPerformanceOverviews:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsPreReleaseVersions:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsPrimaryLocale:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsRetentionMessages:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsReviewSubmissions:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSearchKeywords:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSku:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSubscriptionGroups:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case CiProductsGetCollectionParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsGetCollectionParamsFieldsBundleIds.
+const (
+	CiProductsGetCollectionParamsFieldsBundleIdsApp                  CiProductsGetCollectionParamsFieldsBundleIds = "app"
+	CiProductsGetCollectionParamsFieldsBundleIdsBundleIdCapabilities CiProductsGetCollectionParamsFieldsBundleIds = "bundleIdCapabilities"
+	CiProductsGetCollectionParamsFieldsBundleIdsIdentifier           CiProductsGetCollectionParamsFieldsBundleIds = "identifier"
+	CiProductsGetCollectionParamsFieldsBundleIdsName                 CiProductsGetCollectionParamsFieldsBundleIds = "name"
+	CiProductsGetCollectionParamsFieldsBundleIdsPlatform             CiProductsGetCollectionParamsFieldsBundleIds = "platform"
+	CiProductsGetCollectionParamsFieldsBundleIdsProfiles             CiProductsGetCollectionParamsFieldsBundleIds = "profiles"
+	CiProductsGetCollectionParamsFieldsBundleIdsSeedId               CiProductsGetCollectionParamsFieldsBundleIds = "seedId"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsGetCollectionParamsFieldsBundleIds enum.
+func (e CiProductsGetCollectionParamsFieldsBundleIds) Valid() bool {
+	switch e {
+	case CiProductsGetCollectionParamsFieldsBundleIdsApp:
+		return true
+	case CiProductsGetCollectionParamsFieldsBundleIdsBundleIdCapabilities:
+		return true
+	case CiProductsGetCollectionParamsFieldsBundleIdsIdentifier:
+		return true
+	case CiProductsGetCollectionParamsFieldsBundleIdsName:
+		return true
+	case CiProductsGetCollectionParamsFieldsBundleIdsPlatform:
+		return true
+	case CiProductsGetCollectionParamsFieldsBundleIdsProfiles:
+		return true
+	case CiProductsGetCollectionParamsFieldsBundleIdsSeedId:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsGetCollectionParamsFieldsScmRepositories.
+const (
+	CiProductsGetCollectionParamsFieldsScmRepositoriesDefaultBranch    CiProductsGetCollectionParamsFieldsScmRepositories = "defaultBranch"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesGitReferences    CiProductsGetCollectionParamsFieldsScmRepositories = "gitReferences"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesHttpCloneUrl     CiProductsGetCollectionParamsFieldsScmRepositories = "httpCloneUrl"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesLastAccessedDate CiProductsGetCollectionParamsFieldsScmRepositories = "lastAccessedDate"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesOwnerName        CiProductsGetCollectionParamsFieldsScmRepositories = "ownerName"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesPullRequests     CiProductsGetCollectionParamsFieldsScmRepositories = "pullRequests"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesRepositoryName   CiProductsGetCollectionParamsFieldsScmRepositories = "repositoryName"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesScmProvider      CiProductsGetCollectionParamsFieldsScmRepositories = "scmProvider"
+	CiProductsGetCollectionParamsFieldsScmRepositoriesSshCloneUrl      CiProductsGetCollectionParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsGetCollectionParamsFieldsScmRepositories enum.
+func (e CiProductsGetCollectionParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case CiProductsGetCollectionParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsGetCollectionParamsInclude.
+const (
+	CiProductsGetCollectionParamsIncludeApp                 CiProductsGetCollectionParamsInclude = "app"
+	CiProductsGetCollectionParamsIncludeBundleId            CiProductsGetCollectionParamsInclude = "bundleId"
+	CiProductsGetCollectionParamsIncludePrimaryRepositories CiProductsGetCollectionParamsInclude = "primaryRepositories"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsGetCollectionParamsInclude enum.
+func (e CiProductsGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case CiProductsGetCollectionParamsIncludeApp:
+		return true
+	case CiProductsGetCollectionParamsIncludeBundleId:
+		return true
+	case CiProductsGetCollectionParamsIncludePrimaryRepositories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories.
+const (
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch    CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "defaultBranch"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesGitReferences    CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "gitReferences"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl     CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "httpCloneUrl"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "lastAccessedDate"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesOwnerName        CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "ownerName"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesPullRequests     CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "pullRequests"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName   CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "repositoryName"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesScmProvider      CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "scmProvider"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl      CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories enum.
+func (e CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders.
+const (
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProvidersRepositories    CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders = "repositories"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProvidersScmProviderType CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders = "scmProviderType"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProvidersUrl             CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders = "url"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders enum.
+func (e CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders) Valid() bool {
+	switch e {
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProvidersRepositories:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProvidersScmProviderType:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProvidersUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences.
+const (
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "canonicalName"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted     CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "isDeleted"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesKind          CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "kind"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesName          CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "name"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesRepository    CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "repository"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences enum.
+func (e CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences) Valid() bool {
+	switch e {
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesKind:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesName:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesRepository:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude.
+const (
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsIncludeDefaultBranch CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude = "defaultBranch"
+	CiProductsAdditionalRepositoriesGetToManyRelatedParamsIncludeScmProvider   CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude = "scmProvider"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude enum.
+func (e CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsIncludeDefaultBranch:
+		return true
+	case CiProductsAdditionalRepositoriesGetToManyRelatedParamsIncludeScmProvider:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsSort.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsSortMinusNumber CiProductsBuildRunsGetToManyRelatedParamsSort = "-number"
+	CiProductsBuildRunsGetToManyRelatedParamsSortNumber      CiProductsBuildRunsGetToManyRelatedParamsSort = "number"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsSort enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsSortMinusNumber:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsSortNumber:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsActions            CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "actions"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsBuilds             CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "builds"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCancelReason       CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "cancelReason"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCompletionStatus   CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "completionStatus"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCreatedDate        CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "createdDate"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationBranch  CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "destinationBranch"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationCommit  CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "destinationCommit"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsExecutionProgress  CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "executionProgress"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsFinishedDate       CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "finishedDate"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIsPullRequestBuild CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "isPullRequestBuild"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIssueCounts        CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "issueCounts"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsNumber             CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "number"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsProduct            CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "product"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsPullRequest        CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "pullRequest"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceBranchOrTag  CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "sourceBranchOrTag"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceCommit       CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "sourceCommit"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartReason        CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "startReason"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartedDate        CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "startedDate"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsWorkflow           CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "workflow"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsActions:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsBuilds:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCancelReason:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCompletionStatus:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCreatedDate:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationBranch:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationCommit:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsExecutionProgress:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsFinishedDate:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIsPullRequestBuild:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIssueCounts:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsNumber:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsProduct:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsPullRequest:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceBranchOrTag:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceCommit:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartReason:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartedDate:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsWorkflow:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsApp                        CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "app"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsAppEncryptionDeclaration   CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "appEncryptionDeclaration"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsAppStoreVersion            CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "appStoreVersion"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaAppReviewSubmission    CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "betaAppReviewSubmission"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaBuildLocalizations     CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "betaBuildLocalizations"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaGroups                 CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "betaGroups"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildAudienceType          CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildAudienceType"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBetaDetail            CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildBetaDetail"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBundles               CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildBundles"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildUpload                CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildUpload"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinMacOsVersion    CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "computedMinMacOsVersion"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinVisionOsVersion CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "computedMinVisionOsVersion"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsDiagnosticSignatures       CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "diagnosticSignatures"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsExpirationDate             CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "expirationDate"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsExpired                    CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "expired"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsIconAssetToken             CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "iconAssetToken"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsIcons                      CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "icons"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsIndividualTesters          CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "individualTesters"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsLsMinimumSystemVersion     CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "lsMinimumSystemVersion"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsMinOsVersion               CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "minOsVersion"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsPerfPowerMetrics           CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "perfPowerMetrics"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsPreReleaseVersion          CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "preReleaseVersion"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsProcessingState            CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "processingState"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsUploadedDate               CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "uploadedDate"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsUsesNonExemptEncryption    CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "usesNonExemptEncryption"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsVersion                    CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds = "version"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsApp:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsAppEncryptionDeclaration:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsAppStoreVersion:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaAppReviewSubmission:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaBuildLocalizations:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaGroups:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildAudienceType:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBetaDetail:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBundles:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildUpload:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinMacOsVersion:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinVisionOsVersion:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsDiagnosticSignatures:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsExpirationDate:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsExpired:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsIconAssetToken:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsIcons:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsIndividualTesters:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsLsMinimumSystemVersion:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsMinOsVersion:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsPerfPowerMetrics:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsPreReleaseVersion:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsProcessingState:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsUploadedDate:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsUsesNonExemptEncryption:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsBuildsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsActions                         CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "actions"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBranchStartCondition            CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "branchStartCondition"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBuildRuns                       CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "buildRuns"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsClean                           CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "clean"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsContainerFilePath               CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "containerFilePath"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsDescription                     CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "description"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsEnabled                       CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "isEnabled"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsLockedForEditing              CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "isLockedForEditing"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsLastModifiedDate                CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "lastModifiedDate"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsMacOsVersion                    CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "macOsVersion"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualBranchStartCondition      CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "manualBranchStartCondition"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualPullRequestStartCondition CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "manualPullRequestStartCondition"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualTagStartCondition         CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "manualTagStartCondition"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsName                            CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "name"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsProduct                         CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "product"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsPullRequestStartCondition       CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "pullRequestStartCondition"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsRepository                      CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "repository"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsScheduledStartCondition         CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "scheduledStartCondition"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsTagStartCondition               CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "tagStartCondition"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsXcodeVersion                    CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "xcodeVersion"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsActions:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBranchStartCondition:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBuildRuns:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsClean:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsContainerFilePath:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsDescription:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsEnabled:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsLockedForEditing:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsLastModifiedDate:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsMacOsVersion:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualBranchStartCondition:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualPullRequestStartCondition:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualTagStartCondition:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsProduct:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsPullRequestStartCondition:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsRepository:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsScheduledStartCondition:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsTagStartCondition:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsXcodeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsAdditionalRepositories CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "additionalRepositories"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsApp                    CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "app"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsBuildRuns              CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "buildRuns"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsBundleId               CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "bundleId"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsCreatedDate            CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "createdDate"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsName                   CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "name"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsPrimaryRepositories    CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "primaryRepositories"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsProductType            CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "productType"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsWorkflows              CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "workflows"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsAdditionalRepositories:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsApp:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsBuildRuns:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsBundleId:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsCreatedDate:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsPrimaryRepositories:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsProductType:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProductsWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "canonicalName"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted     CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "isDeleted"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesKind          CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "kind"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesName          CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "name"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesRepository    CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "repository"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesKind:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesRepository:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationBranchName      CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "destinationBranchName"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryName  CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "destinationRepositoryName"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryOwner CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "destinationRepositoryOwner"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsClosed                   CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "isClosed"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsCrossRepository          CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "isCrossRepository"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsNumber                     CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "number"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsRepository                 CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "repository"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceBranchName           CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "sourceBranchName"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryName       CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "sourceRepositoryName"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryOwner      CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "sourceRepositoryOwner"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsTitle                      CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "title"
+	CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsWebUrl                     CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "webUrl"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationBranchName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryOwner:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsClosed:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsCrossRepository:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsNumber:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsRepository:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceBranchName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryName:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryOwner:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsTitle:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsWebUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsBuildRunsGetToManyRelatedParamsInclude.
+const (
+	CiProductsBuildRunsGetToManyRelatedParamsIncludeBuilds            CiProductsBuildRunsGetToManyRelatedParamsInclude = "builds"
+	CiProductsBuildRunsGetToManyRelatedParamsIncludeDestinationBranch CiProductsBuildRunsGetToManyRelatedParamsInclude = "destinationBranch"
+	CiProductsBuildRunsGetToManyRelatedParamsIncludeProduct           CiProductsBuildRunsGetToManyRelatedParamsInclude = "product"
+	CiProductsBuildRunsGetToManyRelatedParamsIncludePullRequest       CiProductsBuildRunsGetToManyRelatedParamsInclude = "pullRequest"
+	CiProductsBuildRunsGetToManyRelatedParamsIncludeSourceBranchOrTag CiProductsBuildRunsGetToManyRelatedParamsInclude = "sourceBranchOrTag"
+	CiProductsBuildRunsGetToManyRelatedParamsIncludeWorkflow          CiProductsBuildRunsGetToManyRelatedParamsInclude = "workflow"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsBuildRunsGetToManyRelatedParamsInclude enum.
+func (e CiProductsBuildRunsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case CiProductsBuildRunsGetToManyRelatedParamsIncludeBuilds:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsIncludeDestinationBranch:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsIncludeProduct:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsIncludePullRequest:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsIncludeSourceBranchOrTag:
+		return true
+	case CiProductsBuildRunsGetToManyRelatedParamsIncludeWorkflow:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories.
+const (
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch    CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "defaultBranch"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesGitReferences    CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "gitReferences"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl     CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "httpCloneUrl"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "lastAccessedDate"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesOwnerName        CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "ownerName"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesPullRequests     CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "pullRequests"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName   CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "repositoryName"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesScmProvider      CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "scmProvider"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl      CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories enum.
+func (e CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders.
+const (
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProvidersRepositories    CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders = "repositories"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProvidersScmProviderType CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders = "scmProviderType"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProvidersUrl             CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders = "url"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders enum.
+func (e CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders) Valid() bool {
+	switch e {
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProvidersRepositories:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProvidersScmProviderType:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProvidersUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences.
+const (
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "canonicalName"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted     CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "isDeleted"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesKind          CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "kind"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesName          CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "name"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesRepository    CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences = "repository"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences enum.
+func (e CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences) Valid() bool {
+	switch e {
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesKind:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesName:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferencesRepository:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude.
+const (
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsIncludeDefaultBranch CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude = "defaultBranch"
+	CiProductsPrimaryRepositoriesGetToManyRelatedParamsIncludeScmProvider   CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude = "scmProvider"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude enum.
+func (e CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsIncludeDefaultBranch:
+		return true
+	case CiProductsPrimaryRepositoriesGetToManyRelatedParamsIncludeScmProvider:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows.
+const (
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsActions                         CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "actions"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsBranchStartCondition            CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "branchStartCondition"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsBuildRuns                       CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "buildRuns"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsClean                           CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "clean"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsContainerFilePath               CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "containerFilePath"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsDescription                     CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "description"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsIsEnabled                       CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "isEnabled"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsIsLockedForEditing              CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "isLockedForEditing"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsLastModifiedDate                CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "lastModifiedDate"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsMacOsVersion                    CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "macOsVersion"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsManualBranchStartCondition      CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "manualBranchStartCondition"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsManualPullRequestStartCondition CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "manualPullRequestStartCondition"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsManualTagStartCondition         CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "manualTagStartCondition"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsName                            CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "name"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsProduct                         CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "product"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsPullRequestStartCondition       CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "pullRequestStartCondition"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsRepository                      CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "repository"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsScheduledStartCondition         CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "scheduledStartCondition"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsTagStartCondition               CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "tagStartCondition"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsXcodeVersion                    CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows = "xcodeVersion"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows enum.
+func (e CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows) Valid() bool {
+	switch e {
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsActions:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsBranchStartCondition:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsBuildRuns:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsClean:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsContainerFilePath:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsDescription:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsIsEnabled:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsIsLockedForEditing:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsLastModifiedDate:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsMacOsVersion:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsManualBranchStartCondition:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsManualPullRequestStartCondition:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsManualTagStartCondition:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsName:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsProduct:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsPullRequestStartCondition:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsRepository:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsScheduledStartCondition:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsTagStartCondition:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflowsXcodeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts.
+const (
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsAdditionalRepositories CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "additionalRepositories"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsApp                    CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "app"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsBuildRuns              CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "buildRuns"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsBundleId               CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "bundleId"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsCreatedDate            CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "createdDate"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsName                   CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "name"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsPrimaryRepositories    CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "primaryRepositories"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsProductType            CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "productType"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsWorkflows              CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts = "workflows"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts enum.
+func (e CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts) Valid() bool {
+	switch e {
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsAdditionalRepositories:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsApp:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsBuildRuns:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsBundleId:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsCreatedDate:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsName:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsPrimaryRepositories:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsProductType:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProductsWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories.
+const (
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch    CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "defaultBranch"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesGitReferences    CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "gitReferences"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl     CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "httpCloneUrl"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "lastAccessedDate"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesOwnerName        CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "ownerName"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesPullRequests     CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "pullRequests"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName   CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "repositoryName"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesScmProvider      CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "scmProvider"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl      CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories enum.
+func (e CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions.
+const (
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsMacOsVersions    CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions = "macOsVersions"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsName             CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions = "name"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsTestDestinations CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions = "testDestinations"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsVersion          CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions enum.
+func (e CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions) Valid() bool {
+	switch e {
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsMacOsVersions:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsName:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsTestDestinations:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions.
+const (
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersionsName          CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions = "name"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersionsVersion       CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions = "version"
+	CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersionsXcodeVersions CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions = "xcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions enum.
+func (e CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions) Valid() bool {
+	switch e {
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersionsName:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersionsVersion:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersionsXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiProductsWorkflowsGetToManyRelatedParamsInclude.
+const (
+	CiProductsWorkflowsGetToManyRelatedParamsIncludeMacOsVersion CiProductsWorkflowsGetToManyRelatedParamsInclude = "macOsVersion"
+	CiProductsWorkflowsGetToManyRelatedParamsIncludeProduct      CiProductsWorkflowsGetToManyRelatedParamsInclude = "product"
+	CiProductsWorkflowsGetToManyRelatedParamsIncludeRepository   CiProductsWorkflowsGetToManyRelatedParamsInclude = "repository"
+	CiProductsWorkflowsGetToManyRelatedParamsIncludeXcodeVersion CiProductsWorkflowsGetToManyRelatedParamsInclude = "xcodeVersion"
+)
+
+// Valid indicates whether the value is a known member of the CiProductsWorkflowsGetToManyRelatedParamsInclude enum.
+func (e CiProductsWorkflowsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case CiProductsWorkflowsGetToManyRelatedParamsIncludeMacOsVersion:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsIncludeProduct:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsIncludeRepository:
+		return true
+	case CiProductsWorkflowsGetToManyRelatedParamsIncludeXcodeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsGetInstanceParamsFieldsCiWorkflows.
+const (
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsActions                         CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "actions"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsBranchStartCondition            CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "branchStartCondition"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsBuildRuns                       CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "buildRuns"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsClean                           CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "clean"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsContainerFilePath               CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "containerFilePath"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsDescription                     CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "description"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsIsEnabled                       CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "isEnabled"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsIsLockedForEditing              CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "isLockedForEditing"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsLastModifiedDate                CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "lastModifiedDate"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsMacOsVersion                    CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "macOsVersion"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsManualBranchStartCondition      CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "manualBranchStartCondition"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsManualPullRequestStartCondition CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "manualPullRequestStartCondition"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsManualTagStartCondition         CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "manualTagStartCondition"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsName                            CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "name"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsProduct                         CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "product"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsPullRequestStartCondition       CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "pullRequestStartCondition"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsRepository                      CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "repository"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsScheduledStartCondition         CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "scheduledStartCondition"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsTagStartCondition               CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "tagStartCondition"
+	CiWorkflowsGetInstanceParamsFieldsCiWorkflowsXcodeVersion                    CiWorkflowsGetInstanceParamsFieldsCiWorkflows = "xcodeVersion"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsGetInstanceParamsFieldsCiWorkflows enum.
+func (e CiWorkflowsGetInstanceParamsFieldsCiWorkflows) Valid() bool {
+	switch e {
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsActions:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsBranchStartCondition:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsBuildRuns:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsClean:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsContainerFilePath:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsDescription:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsIsEnabled:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsIsLockedForEditing:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsLastModifiedDate:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsMacOsVersion:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsManualBranchStartCondition:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsManualPullRequestStartCondition:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsManualTagStartCondition:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsName:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsProduct:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsPullRequestStartCondition:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsRepository:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsScheduledStartCondition:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsTagStartCondition:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiWorkflowsXcodeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsGetInstanceParamsFieldsCiProducts.
+const (
+	CiWorkflowsGetInstanceParamsFieldsCiProductsAdditionalRepositories CiWorkflowsGetInstanceParamsFieldsCiProducts = "additionalRepositories"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsApp                    CiWorkflowsGetInstanceParamsFieldsCiProducts = "app"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsBuildRuns              CiWorkflowsGetInstanceParamsFieldsCiProducts = "buildRuns"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsBundleId               CiWorkflowsGetInstanceParamsFieldsCiProducts = "bundleId"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsCreatedDate            CiWorkflowsGetInstanceParamsFieldsCiProducts = "createdDate"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsName                   CiWorkflowsGetInstanceParamsFieldsCiProducts = "name"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsPrimaryRepositories    CiWorkflowsGetInstanceParamsFieldsCiProducts = "primaryRepositories"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsProductType            CiWorkflowsGetInstanceParamsFieldsCiProducts = "productType"
+	CiWorkflowsGetInstanceParamsFieldsCiProductsWorkflows              CiWorkflowsGetInstanceParamsFieldsCiProducts = "workflows"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsGetInstanceParamsFieldsCiProducts enum.
+func (e CiWorkflowsGetInstanceParamsFieldsCiProducts) Valid() bool {
+	switch e {
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsAdditionalRepositories:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsApp:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsBuildRuns:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsBundleId:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsCreatedDate:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsName:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsPrimaryRepositories:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsProductType:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiProductsWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsGetInstanceParamsFieldsScmRepositories.
+const (
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesDefaultBranch    CiWorkflowsGetInstanceParamsFieldsScmRepositories = "defaultBranch"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesGitReferences    CiWorkflowsGetInstanceParamsFieldsScmRepositories = "gitReferences"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesHttpCloneUrl     CiWorkflowsGetInstanceParamsFieldsScmRepositories = "httpCloneUrl"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesLastAccessedDate CiWorkflowsGetInstanceParamsFieldsScmRepositories = "lastAccessedDate"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesOwnerName        CiWorkflowsGetInstanceParamsFieldsScmRepositories = "ownerName"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesPullRequests     CiWorkflowsGetInstanceParamsFieldsScmRepositories = "pullRequests"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesRepositoryName   CiWorkflowsGetInstanceParamsFieldsScmRepositories = "repositoryName"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesScmProvider      CiWorkflowsGetInstanceParamsFieldsScmRepositories = "scmProvider"
+	CiWorkflowsGetInstanceParamsFieldsScmRepositoriesSshCloneUrl      CiWorkflowsGetInstanceParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsGetInstanceParamsFieldsScmRepositories enum.
+func (e CiWorkflowsGetInstanceParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions.
+const (
+	CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsMacOsVersions    CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions = "macOsVersions"
+	CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsName             CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions = "name"
+	CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsTestDestinations CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions = "testDestinations"
+	CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsVersion          CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions enum.
+func (e CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions) Valid() bool {
+	switch e {
+	case CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsMacOsVersions:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsName:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsTestDestinations:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiXcodeVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions.
+const (
+	CiWorkflowsGetInstanceParamsFieldsCiMacOsVersionsName          CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions = "name"
+	CiWorkflowsGetInstanceParamsFieldsCiMacOsVersionsVersion       CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions = "version"
+	CiWorkflowsGetInstanceParamsFieldsCiMacOsVersionsXcodeVersions CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions = "xcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions enum.
+func (e CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions) Valid() bool {
+	switch e {
+	case CiWorkflowsGetInstanceParamsFieldsCiMacOsVersionsName:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiMacOsVersionsVersion:
+		return true
+	case CiWorkflowsGetInstanceParamsFieldsCiMacOsVersionsXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsGetInstanceParamsInclude.
+const (
+	CiWorkflowsGetInstanceParamsIncludeMacOsVersion CiWorkflowsGetInstanceParamsInclude = "macOsVersion"
+	CiWorkflowsGetInstanceParamsIncludeProduct      CiWorkflowsGetInstanceParamsInclude = "product"
+	CiWorkflowsGetInstanceParamsIncludeRepository   CiWorkflowsGetInstanceParamsInclude = "repository"
+	CiWorkflowsGetInstanceParamsIncludeXcodeVersion CiWorkflowsGetInstanceParamsInclude = "xcodeVersion"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsGetInstanceParamsInclude enum.
+func (e CiWorkflowsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case CiWorkflowsGetInstanceParamsIncludeMacOsVersion:
+		return true
+	case CiWorkflowsGetInstanceParamsIncludeProduct:
+		return true
+	case CiWorkflowsGetInstanceParamsIncludeRepository:
+		return true
+	case CiWorkflowsGetInstanceParamsIncludeXcodeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsSort.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsSortMinusNumber CiWorkflowsBuildRunsGetToManyRelatedParamsSort = "-number"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsSortNumber      CiWorkflowsBuildRunsGetToManyRelatedParamsSort = "number"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsSort enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsSort) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsSortMinusNumber:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsSortNumber:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsActions            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "actions"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsBuilds             CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "builds"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCancelReason       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "cancelReason"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCompletionStatus   CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "completionStatus"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCreatedDate        CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "createdDate"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationBranch  CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "destinationBranch"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationCommit  CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "destinationCommit"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsExecutionProgress  CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "executionProgress"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsFinishedDate       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "finishedDate"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIsPullRequestBuild CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "isPullRequestBuild"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIssueCounts        CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "issueCounts"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsNumber             CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "number"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsProduct            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "product"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsPullRequest        CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "pullRequest"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceBranchOrTag  CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "sourceBranchOrTag"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceCommit       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "sourceCommit"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartReason        CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "startReason"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartedDate        CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "startedDate"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsWorkflow           CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns = "workflow"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsActions:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsBuilds:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCancelReason:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCompletionStatus:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsCreatedDate:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationBranch:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsDestinationCommit:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsExecutionProgress:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsFinishedDate:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIsPullRequestBuild:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsIssueCounts:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsNumber:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsProduct:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsPullRequest:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceBranchOrTag:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsSourceCommit:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartReason:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsStartedDate:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRunsWorkflow:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsApp                        CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "app"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsAppEncryptionDeclaration   CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "appEncryptionDeclaration"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsAppStoreVersion            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "appStoreVersion"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaAppReviewSubmission    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "betaAppReviewSubmission"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaBuildLocalizations     CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "betaBuildLocalizations"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaGroups                 CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "betaGroups"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildAudienceType          CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildAudienceType"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBetaDetail            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildBetaDetail"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBundles               CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildBundles"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildUpload                CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "buildUpload"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinMacOsVersion    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "computedMinMacOsVersion"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinVisionOsVersion CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "computedMinVisionOsVersion"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsDiagnosticSignatures       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "diagnosticSignatures"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsExpirationDate             CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "expirationDate"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsExpired                    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "expired"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsIconAssetToken             CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "iconAssetToken"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsIcons                      CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "icons"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsIndividualTesters          CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "individualTesters"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsLsMinimumSystemVersion     CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "lsMinimumSystemVersion"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsMinOsVersion               CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "minOsVersion"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsPerfPowerMetrics           CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "perfPowerMetrics"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsPreReleaseVersion          CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "preReleaseVersion"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsProcessingState            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "processingState"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsUploadedDate               CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "uploadedDate"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsUsesNonExemptEncryption    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "usesNonExemptEncryption"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsVersion                    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds = "version"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsApp:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsAppEncryptionDeclaration:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsAppStoreVersion:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaAppReviewSubmission:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaBuildLocalizations:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBetaGroups:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildAudienceType:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBetaDetail:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildBundles:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsBuildUpload:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinMacOsVersion:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsComputedMinVisionOsVersion:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsDiagnosticSignatures:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsExpirationDate:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsExpired:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsIconAssetToken:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsIcons:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsIndividualTesters:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsLsMinimumSystemVersion:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsMinOsVersion:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsPerfPowerMetrics:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsPreReleaseVersion:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsProcessingState:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsUploadedDate:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsUsesNonExemptEncryption:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuildsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsActions                         CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "actions"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBranchStartCondition            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "branchStartCondition"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBuildRuns                       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "buildRuns"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsClean                           CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "clean"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsContainerFilePath               CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "containerFilePath"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsDescription                     CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "description"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsEnabled                       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "isEnabled"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsLockedForEditing              CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "isLockedForEditing"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsLastModifiedDate                CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "lastModifiedDate"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsMacOsVersion                    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "macOsVersion"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualBranchStartCondition      CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "manualBranchStartCondition"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualPullRequestStartCondition CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "manualPullRequestStartCondition"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualTagStartCondition         CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "manualTagStartCondition"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsName                            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "name"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsProduct                         CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "product"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsPullRequestStartCondition       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "pullRequestStartCondition"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsRepository                      CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "repository"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsScheduledStartCondition         CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "scheduledStartCondition"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsTagStartCondition               CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "tagStartCondition"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsXcodeVersion                    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows = "xcodeVersion"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsActions:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBranchStartCondition:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsBuildRuns:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsClean:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsContainerFilePath:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsDescription:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsEnabled:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsIsLockedForEditing:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsLastModifiedDate:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsMacOsVersion:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualBranchStartCondition:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualPullRequestStartCondition:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsManualTagStartCondition:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsProduct:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsPullRequestStartCondition:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsRepository:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsScheduledStartCondition:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsTagStartCondition:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflowsXcodeVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsAdditionalRepositories CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "additionalRepositories"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsApp                    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "app"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsBuildRuns              CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "buildRuns"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsBundleId               CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "bundleId"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsCreatedDate            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "createdDate"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsName                   CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "name"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsPrimaryRepositories    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "primaryRepositories"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsProductType            CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "productType"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsWorkflows              CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts = "workflows"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsAdditionalRepositories:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsApp:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsBuildRuns:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsBundleId:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsCreatedDate:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsPrimaryRepositories:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsProductType:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProductsWorkflows:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "canonicalName"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted     CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "isDeleted"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesKind          CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "kind"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesName          CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "name"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesRepository    CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences = "repository"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesKind:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferencesRepository:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationBranchName      CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "destinationBranchName"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryName  CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "destinationRepositoryName"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryOwner CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "destinationRepositoryOwner"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsClosed                   CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "isClosed"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsCrossRepository          CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "isCrossRepository"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsNumber                     CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "number"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsRepository                 CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "repository"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceBranchName           CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "sourceBranchName"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryName       CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "sourceRepositoryName"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryOwner      CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "sourceRepositoryOwner"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsTitle                      CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "title"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsWebUrl                     CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests = "webUrl"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationBranchName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryOwner:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsClosed:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsIsCrossRepository:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsNumber:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsRepository:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceBranchName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryName:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryOwner:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsTitle:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequestsWebUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiWorkflowsBuildRunsGetToManyRelatedParamsInclude.
+const (
+	CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeBuilds            CiWorkflowsBuildRunsGetToManyRelatedParamsInclude = "builds"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeDestinationBranch CiWorkflowsBuildRunsGetToManyRelatedParamsInclude = "destinationBranch"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeProduct           CiWorkflowsBuildRunsGetToManyRelatedParamsInclude = "product"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsIncludePullRequest       CiWorkflowsBuildRunsGetToManyRelatedParamsInclude = "pullRequest"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeSourceBranchOrTag CiWorkflowsBuildRunsGetToManyRelatedParamsInclude = "sourceBranchOrTag"
+	CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeWorkflow          CiWorkflowsBuildRunsGetToManyRelatedParamsInclude = "workflow"
+)
+
+// Valid indicates whether the value is a known member of the CiWorkflowsBuildRunsGetToManyRelatedParamsInclude enum.
+func (e CiWorkflowsBuildRunsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeBuilds:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeDestinationBranch:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeProduct:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsIncludePullRequest:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeSourceBranchOrTag:
+		return true
+	case CiWorkflowsBuildRunsGetToManyRelatedParamsIncludeWorkflow:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions.
+const (
+	CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsMacOsVersions    CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions = "macOsVersions"
+	CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsName             CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions = "name"
+	CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsTestDestinations CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions = "testDestinations"
+	CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsVersion          CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions = "version"
+)
+
+// Valid indicates whether the value is a known member of the CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions enum.
+func (e CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions) Valid() bool {
+	switch e {
+	case CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsMacOsVersions:
+		return true
+	case CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsName:
+		return true
+	case CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsTestDestinations:
+		return true
+	case CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersionsVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions.
+const (
+	CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersionsName          CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions = "name"
+	CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersionsVersion       CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions = "version"
+	CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersionsXcodeVersions CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions = "xcodeVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions enum.
+func (e CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions) Valid() bool {
+	switch e {
+	case CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersionsName:
+		return true
+	case CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersionsVersion:
+		return true
+	case CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersionsXcodeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for CiXcodeVersionsGetCollectionParamsInclude.
+const (
+	CiXcodeVersionsGetCollectionParamsIncludeMacOsVersions CiXcodeVersionsGetCollectionParamsInclude = "macOsVersions"
+)
+
+// Valid indicates whether the value is a known member of the CiXcodeVersionsGetCollectionParamsInclude enum.
+func (e CiXcodeVersionsGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case CiXcodeVersionsGetCollectionParamsIncludeMacOsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for DevicesGetCollectionParamsFilterPlatform.
 const (
 	DevicesGetCollectionParamsFilterPlatformIOS       DevicesGetCollectionParamsFilterPlatform = "IOS"
@@ -50798,6 +53588,294 @@ const (
 func (e RoutingAppCoveragesGetInstanceParamsInclude) Valid() bool {
 	switch e {
 	case RoutingAppCoveragesGetInstanceParamsIncludeAppStoreVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesGetCollectionParamsFieldsScmRepositories.
+const (
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesDefaultBranch    ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "defaultBranch"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesGitReferences    ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "gitReferences"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesHttpCloneUrl     ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "httpCloneUrl"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesLastAccessedDate ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "lastAccessedDate"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesOwnerName        ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "ownerName"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesPullRequests     ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "pullRequests"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesRepositoryName   ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "repositoryName"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesScmProvider      ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "scmProvider"
+	ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesSshCloneUrl      ScmRepositoriesGetCollectionParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesGetCollectionParamsFieldsScmRepositories enum.
+func (e ScmRepositoriesGetCollectionParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesGetCollectionParamsFieldsScmProviders.
+const (
+	ScmRepositoriesGetCollectionParamsFieldsScmProvidersRepositories    ScmRepositoriesGetCollectionParamsFieldsScmProviders = "repositories"
+	ScmRepositoriesGetCollectionParamsFieldsScmProvidersScmProviderType ScmRepositoriesGetCollectionParamsFieldsScmProviders = "scmProviderType"
+	ScmRepositoriesGetCollectionParamsFieldsScmProvidersUrl             ScmRepositoriesGetCollectionParamsFieldsScmProviders = "url"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesGetCollectionParamsFieldsScmProviders enum.
+func (e ScmRepositoriesGetCollectionParamsFieldsScmProviders) Valid() bool {
+	switch e {
+	case ScmRepositoriesGetCollectionParamsFieldsScmProvidersRepositories:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmProvidersScmProviderType:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmProvidersUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesGetCollectionParamsFieldsScmGitReferences.
+const (
+	ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesCanonicalName ScmRepositoriesGetCollectionParamsFieldsScmGitReferences = "canonicalName"
+	ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesIsDeleted     ScmRepositoriesGetCollectionParamsFieldsScmGitReferences = "isDeleted"
+	ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesKind          ScmRepositoriesGetCollectionParamsFieldsScmGitReferences = "kind"
+	ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesName          ScmRepositoriesGetCollectionParamsFieldsScmGitReferences = "name"
+	ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesRepository    ScmRepositoriesGetCollectionParamsFieldsScmGitReferences = "repository"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesGetCollectionParamsFieldsScmGitReferences enum.
+func (e ScmRepositoriesGetCollectionParamsFieldsScmGitReferences) Valid() bool {
+	switch e {
+	case ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesCanonicalName:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesIsDeleted:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesKind:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesName:
+		return true
+	case ScmRepositoriesGetCollectionParamsFieldsScmGitReferencesRepository:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesGetCollectionParamsInclude.
+const (
+	ScmRepositoriesGetCollectionParamsIncludeDefaultBranch ScmRepositoriesGetCollectionParamsInclude = "defaultBranch"
+	ScmRepositoriesGetCollectionParamsIncludeScmProvider   ScmRepositoriesGetCollectionParamsInclude = "scmProvider"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesGetCollectionParamsInclude enum.
+func (e ScmRepositoriesGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case ScmRepositoriesGetCollectionParamsIncludeDefaultBranch:
+		return true
+	case ScmRepositoriesGetCollectionParamsIncludeScmProvider:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences.
+const (
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences = "canonicalName"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted     ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences = "isDeleted"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesKind          ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences = "kind"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesName          ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences = "name"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesRepository    ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences = "repository"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences enum.
+func (e ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences) Valid() bool {
+	switch e {
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesCanonicalName:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesIsDeleted:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesKind:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesName:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferencesRepository:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories.
+const (
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch    ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "defaultBranch"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesGitReferences    ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "gitReferences"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl     ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "httpCloneUrl"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "lastAccessedDate"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesOwnerName        ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "ownerName"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesPullRequests     ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "pullRequests"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName   ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "repositoryName"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesScmProvider      ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "scmProvider"
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl      ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories enum.
+func (e ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesGitReferencesGetToManyRelatedParamsInclude.
+const (
+	ScmRepositoriesGitReferencesGetToManyRelatedParamsIncludeRepository ScmRepositoriesGitReferencesGetToManyRelatedParamsInclude = "repository"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesGitReferencesGetToManyRelatedParamsInclude enum.
+func (e ScmRepositoriesGitReferencesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case ScmRepositoriesGitReferencesGetToManyRelatedParamsIncludeRepository:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests.
+const (
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsDestinationBranchName      ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "destinationBranchName"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryName  ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "destinationRepositoryName"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryOwner ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "destinationRepositoryOwner"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsIsClosed                   ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "isClosed"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsIsCrossRepository          ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "isCrossRepository"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsNumber                     ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "number"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsRepository                 ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "repository"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsSourceBranchName           ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "sourceBranchName"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryName       ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "sourceRepositoryName"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryOwner      ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "sourceRepositoryOwner"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsTitle                      ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "title"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsWebUrl                     ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests = "webUrl"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests enum.
+func (e ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests) Valid() bool {
+	switch e {
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsDestinationBranchName:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryName:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsDestinationRepositoryOwner:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsIsClosed:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsIsCrossRepository:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsNumber:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsRepository:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsSourceBranchName:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryName:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsSourceRepositoryOwner:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsTitle:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequestsWebUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories.
+const (
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch    ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "defaultBranch"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesGitReferences    ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "gitReferences"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl     ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "httpCloneUrl"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "lastAccessedDate"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesOwnerName        ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "ownerName"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesPullRequests     ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "pullRequests"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName   ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "repositoryName"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesScmProvider      ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "scmProvider"
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl      ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories = "sshCloneUrl"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories enum.
+func (e ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories) Valid() bool {
+	switch e {
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesDefaultBranch:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesGitReferences:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesHttpCloneUrl:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesLastAccessedDate:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesOwnerName:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesPullRequests:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesRepositoryName:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesScmProvider:
+		return true
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositoriesSshCloneUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ScmRepositoriesPullRequestsGetToManyRelatedParamsInclude.
+const (
+	ScmRepositoriesPullRequestsGetToManyRelatedParamsIncludeRepository ScmRepositoriesPullRequestsGetToManyRelatedParamsInclude = "repository"
+)
+
+// Valid indicates whether the value is a known member of the ScmRepositoriesPullRequestsGetToManyRelatedParamsInclude enum.
+func (e ScmRepositoriesPullRequestsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case ScmRepositoriesPullRequestsGetToManyRelatedParamsIncludeRepository:
 		return true
 	default:
 		return false
@@ -66183,6 +69261,312 @@ type Checksums struct {
 // ChecksumsCompositeAlgorithm defines model for Checksums.Composite.Algorithm.
 type ChecksumsCompositeAlgorithm string
 
+// CiAction defines model for CiAction.
+type CiAction struct {
+	ActionType                *CiActionType        `json:"actionType,omitempty"`
+	BuildDistributionAudience *BuildAudienceType   `json:"buildDistributionAudience,omitempty"`
+	Destination               *CiActionDestination `json:"destination,omitempty"`
+	IsRequiredToPass          *bool                `json:"isRequiredToPass,omitempty"`
+	Name                      *string              `json:"name,omitempty"`
+	Platform                  *CiActionPlatform    `json:"platform,omitempty"`
+	Scheme                    *string              `json:"scheme,omitempty"`
+	TestConfiguration         *struct {
+		Kind             *CiActionTestConfigurationKind `json:"kind,omitempty"`
+		TestDestinations *[]CiTestDestination           `json:"testDestinations,omitempty"`
+		TestPlanName     *string                        `json:"testPlanName,omitempty"`
+	} `json:"testConfiguration,omitempty"`
+}
+
+// CiActionDestination defines model for CiAction.Destination.
+type CiActionDestination string
+
+// CiActionPlatform defines model for CiAction.Platform.
+type CiActionPlatform string
+
+// CiActionTestConfigurationKind defines model for CiAction.TestConfiguration.Kind.
+type CiActionTestConfigurationKind string
+
+// CiActionType defines model for CiActionType.
+type CiActionType string
+
+// CiBranchPatterns defines model for CiBranchPatterns.
+type CiBranchPatterns struct {
+	IsAllMatch *bool `json:"isAllMatch,omitempty"`
+	Patterns   *[]struct {
+		IsPrefix *bool   `json:"isPrefix,omitempty"`
+		Pattern  *string `json:"pattern,omitempty"`
+	} `json:"patterns,omitempty"`
+}
+
+// CiBranchStartCondition defines model for CiBranchStartCondition.
+type CiBranchStartCondition struct {
+	AutoCancel          *bool                  `json:"autoCancel,omitempty"`
+	FilesAndFoldersRule *CiFilesAndFoldersRule `json:"filesAndFoldersRule,omitempty"`
+	Source              *CiBranchPatterns      `json:"source,omitempty"`
+}
+
+// CiBuildRun defines model for CiBuildRun.
+type CiBuildRun struct {
+	Attributes *struct {
+		CancelReason      *CiBuildRunAttributesCancelReason `json:"cancelReason,omitempty"`
+		CompletionStatus  *CiCompletionStatus               `json:"completionStatus,omitempty"`
+		CreatedDate       *DateTime                         `json:"createdDate,omitempty"`
+		DestinationCommit *struct {
+			Author    *CiGitUser `json:"author,omitempty"`
+			CommitSha *string    `json:"commitSha,omitempty"`
+			Committer *CiGitUser `json:"committer,omitempty"`
+			Message   *string    `json:"message,omitempty"`
+			WebUrl    *string    `json:"webUrl,omitempty"`
+		} `json:"destinationCommit,omitempty"`
+		ExecutionProgress  *CiExecutionProgress `json:"executionProgress,omitempty"`
+		FinishedDate       *DateTime            `json:"finishedDate,omitempty"`
+		IsPullRequestBuild *bool                `json:"isPullRequestBuild,omitempty"`
+		IssueCounts        *CiIssueCounts       `json:"issueCounts,omitempty"`
+		Number             *int                 `json:"number,omitempty"`
+		SourceCommit       *struct {
+			Author    *CiGitUser `json:"author,omitempty"`
+			CommitSha *string    `json:"commitSha,omitempty"`
+			Committer *CiGitUser `json:"committer,omitempty"`
+			Message   *string    `json:"message,omitempty"`
+			WebUrl    *string    `json:"webUrl,omitempty"`
+		} `json:"sourceCommit,omitempty"`
+		StartReason *CiBuildRunAttributesStartReason `json:"startReason,omitempty"`
+		StartedDate *DateTime                        `json:"startedDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Actions *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"actions,omitempty"`
+		Builds *struct {
+			Data *[]struct {
+				Id   string                                `json:"id"`
+				Type CiBuildRunRelationshipsBuildsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"builds,omitempty"`
+		DestinationBranch *struct {
+			Data *struct {
+				Id   string                                           `json:"id"`
+				Type CiBuildRunRelationshipsDestinationBranchDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"destinationBranch,omitempty"`
+		Product *struct {
+			Data *struct {
+				Id   string                                 `json:"id"`
+				Type CiBuildRunRelationshipsProductDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"product,omitempty"`
+		PullRequest *struct {
+			Data *struct {
+				Id   string                                     `json:"id"`
+				Type CiBuildRunRelationshipsPullRequestDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"pullRequest,omitempty"`
+		SourceBranchOrTag *struct {
+			Data *struct {
+				Id   string                                           `json:"id"`
+				Type CiBuildRunRelationshipsSourceBranchOrTagDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"sourceBranchOrTag,omitempty"`
+		Workflow *struct {
+			Data *struct {
+				Id   string                                  `json:"id"`
+				Type CiBuildRunRelationshipsWorkflowDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"workflow,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type CiBuildRunType `json:"type"`
+}
+
+// CiBuildRunAttributesCancelReason defines model for CiBuildRun.Attributes.CancelReason.
+type CiBuildRunAttributesCancelReason string
+
+// CiBuildRunAttributesStartReason defines model for CiBuildRun.Attributes.StartReason.
+type CiBuildRunAttributesStartReason string
+
+// CiBuildRunRelationshipsBuildsDataType defines model for CiBuildRun.Relationships.Builds.Data.Type.
+type CiBuildRunRelationshipsBuildsDataType string
+
+// CiBuildRunRelationshipsDestinationBranchDataType defines model for CiBuildRun.Relationships.DestinationBranch.Data.Type.
+type CiBuildRunRelationshipsDestinationBranchDataType string
+
+// CiBuildRunRelationshipsProductDataType defines model for CiBuildRun.Relationships.Product.Data.Type.
+type CiBuildRunRelationshipsProductDataType string
+
+// CiBuildRunRelationshipsPullRequestDataType defines model for CiBuildRun.Relationships.PullRequest.Data.Type.
+type CiBuildRunRelationshipsPullRequestDataType string
+
+// CiBuildRunRelationshipsSourceBranchOrTagDataType defines model for CiBuildRun.Relationships.SourceBranchOrTag.Data.Type.
+type CiBuildRunRelationshipsSourceBranchOrTagDataType string
+
+// CiBuildRunRelationshipsWorkflowDataType defines model for CiBuildRun.Relationships.Workflow.Data.Type.
+type CiBuildRunRelationshipsWorkflowDataType string
+
+// CiBuildRunType defines model for CiBuildRun.Type.
+type CiBuildRunType string
+
+// CiBuildRunCreateRequest defines model for CiBuildRunCreateRequest.
+type CiBuildRunCreateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Clean *bool `json:"clean,omitempty"`
+		} `json:"attributes,omitempty"`
+		Relationships *struct {
+			BuildRun *struct {
+				Data *struct {
+					Id   string                                                   `json:"id"`
+					Type CiBuildRunCreateRequestDataRelationshipsBuildRunDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"buildRun,omitempty"`
+			PullRequest *struct {
+				Data *struct {
+					Id   string                                                      `json:"id"`
+					Type CiBuildRunCreateRequestDataRelationshipsPullRequestDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"pullRequest,omitempty"`
+			SourceBranchOrTag *struct {
+				Data *struct {
+					Id   string                                                            `json:"id"`
+					Type CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"sourceBranchOrTag,omitempty"`
+			Workflow *struct {
+				Data *struct {
+					Id   string                                                   `json:"id"`
+					Type CiBuildRunCreateRequestDataRelationshipsWorkflowDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"workflow,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type CiBuildRunCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// CiBuildRunCreateRequestDataRelationshipsBuildRunDataType defines model for CiBuildRunCreateRequest.Data.Relationships.BuildRun.Data.Type.
+type CiBuildRunCreateRequestDataRelationshipsBuildRunDataType string
+
+// CiBuildRunCreateRequestDataRelationshipsPullRequestDataType defines model for CiBuildRunCreateRequest.Data.Relationships.PullRequest.Data.Type.
+type CiBuildRunCreateRequestDataRelationshipsPullRequestDataType string
+
+// CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataType defines model for CiBuildRunCreateRequest.Data.Relationships.SourceBranchOrTag.Data.Type.
+type CiBuildRunCreateRequestDataRelationshipsSourceBranchOrTagDataType string
+
+// CiBuildRunCreateRequestDataRelationshipsWorkflowDataType defines model for CiBuildRunCreateRequest.Data.Relationships.Workflow.Data.Type.
+type CiBuildRunCreateRequestDataRelationshipsWorkflowDataType string
+
+// CiBuildRunCreateRequestDataType defines model for CiBuildRunCreateRequest.Data.Type.
+type CiBuildRunCreateRequestDataType string
+
+// CiBuildRunResponse defines model for CiBuildRunResponse.
+type CiBuildRunResponse struct {
+	Data     CiBuildRun                          `json:"data"`
+	Included *[]CiBuildRunResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                       `json:"links"`
+}
+
+// CiBuildRunResponse_Included_Item defines model for CiBuildRunResponse.included.Item.
+type CiBuildRunResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// CiBuildRunsResponse defines model for CiBuildRunsResponse.
+type CiBuildRunsResponse struct {
+	Data     []CiBuildRun                         `json:"data"`
+	Included *[]CiBuildRunsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                   `json:"links"`
+	Meta     *PagingInformation                   `json:"meta,omitempty"`
+}
+
+// CiBuildRunsResponse_Included_Item defines model for CiBuildRunsResponse.included.Item.
+type CiBuildRunsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// CiCompletionStatus defines model for CiCompletionStatus.
+type CiCompletionStatus string
+
+// CiExecutionProgress defines model for CiExecutionProgress.
+type CiExecutionProgress string
+
+// CiFilesAndFoldersRule defines model for CiFilesAndFoldersRule.
+type CiFilesAndFoldersRule struct {
+	Matchers *[]CiStartConditionFileMatcher `json:"matchers,omitempty"`
+	Mode     *CiFilesAndFoldersRuleMode     `json:"mode,omitempty"`
+}
+
+// CiFilesAndFoldersRuleMode defines model for CiFilesAndFoldersRule.Mode.
+type CiFilesAndFoldersRuleMode string
+
+// CiGitRefKind defines model for CiGitRefKind.
+type CiGitRefKind string
+
+// CiGitUser defines model for CiGitUser.
+type CiGitUser struct {
+	AvatarUrl   *string `json:"avatarUrl,omitempty"`
+	DisplayName *string `json:"displayName,omitempty"`
+}
+
+// CiIssueCounts defines model for CiIssueCounts.
+type CiIssueCounts struct {
+	AnalyzerWarnings *int `json:"analyzerWarnings,omitempty"`
+	Errors           *int `json:"errors,omitempty"`
+	TestFailures     *int `json:"testFailures,omitempty"`
+	Warnings         *int `json:"warnings,omitempty"`
+}
+
+// CiMacOsVersion defines model for CiMacOsVersion.
+type CiMacOsVersion struct {
+	Attributes *struct {
+		Name    *string `json:"name,omitempty"`
+		Version *string `json:"version,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		XcodeVersions *struct {
+			Data *[]struct {
+				Id   string                                           `json:"id"`
+				Type CiMacOsVersionRelationshipsXcodeVersionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"xcodeVersions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type CiMacOsVersionType `json:"type"`
+}
+
+// CiMacOsVersionRelationshipsXcodeVersionsDataType defines model for CiMacOsVersion.Relationships.XcodeVersions.Data.Type.
+type CiMacOsVersionRelationshipsXcodeVersionsDataType string
+
+// CiMacOsVersionType defines model for CiMacOsVersion.Type.
+type CiMacOsVersionType string
+
+// CiMacOsVersionsResponse defines model for CiMacOsVersionsResponse.
+type CiMacOsVersionsResponse struct {
+	Data     []CiMacOsVersion   `json:"data"`
+	Included *[]CiXcodeVersion  `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
+// CiManualBranchStartCondition defines model for CiManualBranchStartCondition.
+type CiManualBranchStartCondition struct {
+	Source *CiBranchPatterns `json:"source,omitempty"`
+}
+
+// CiManualPullRequestStartCondition defines model for CiManualPullRequestStartCondition.
+type CiManualPullRequestStartCondition struct {
+	Destination *CiBranchPatterns `json:"destination,omitempty"`
+	Source      *CiBranchPatterns `json:"source,omitempty"`
+}
+
+// CiManualTagStartCondition defines model for CiManualTagStartCondition.
+type CiManualTagStartCondition struct {
+	Source *CiTagPatterns `json:"source,omitempty"`
+}
+
 // CiProduct defines model for CiProduct.
 type CiProduct struct {
 	Attributes *struct {
@@ -66241,6 +69625,329 @@ type CiProductRelationshipsPrimaryRepositoriesDataType string
 
 // CiProductType defines model for CiProduct.Type.
 type CiProductType string
+
+// CiProductsResponse defines model for CiProductsResponse.
+type CiProductsResponse struct {
+	Data     []CiProduct                         `json:"data"`
+	Included *[]CiProductsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                  `json:"links"`
+	Meta     *PagingInformation                  `json:"meta,omitempty"`
+}
+
+// CiProductsResponse_Included_Item defines model for CiProductsResponse.included.Item.
+type CiProductsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// CiPullRequestStartCondition defines model for CiPullRequestStartCondition.
+type CiPullRequestStartCondition struct {
+	AutoCancel          *bool                  `json:"autoCancel,omitempty"`
+	Destination         *CiBranchPatterns      `json:"destination,omitempty"`
+	FilesAndFoldersRule *CiFilesAndFoldersRule `json:"filesAndFoldersRule,omitempty"`
+	Source              *CiBranchPatterns      `json:"source,omitempty"`
+}
+
+// CiScheduledStartCondition defines model for CiScheduledStartCondition.
+type CiScheduledStartCondition struct {
+	Schedule *struct {
+		Days      *[]CiScheduledStartConditionScheduleDays    `json:"days,omitempty"`
+		Frequency *CiScheduledStartConditionScheduleFrequency `json:"frequency,omitempty"`
+		Hour      *int                                        `json:"hour,omitempty"`
+		Minute    *int                                        `json:"minute,omitempty"`
+		Timezone  *string                                     `json:"timezone,omitempty"`
+	} `json:"schedule,omitempty"`
+	Source *CiBranchPatterns `json:"source,omitempty"`
+}
+
+// CiScheduledStartConditionScheduleDays defines model for CiScheduledStartCondition.Schedule.Days.
+type CiScheduledStartConditionScheduleDays string
+
+// CiScheduledStartConditionScheduleFrequency defines model for CiScheduledStartCondition.Schedule.Frequency.
+type CiScheduledStartConditionScheduleFrequency string
+
+// CiStartConditionFileMatcher defines model for CiStartConditionFileMatcher.
+type CiStartConditionFileMatcher struct {
+	Directory     *string `json:"directory,omitempty"`
+	FileExtension *string `json:"fileExtension,omitempty"`
+	FileName      *string `json:"fileName,omitempty"`
+}
+
+// CiTagPatterns defines model for CiTagPatterns.
+type CiTagPatterns struct {
+	IsAllMatch *bool `json:"isAllMatch,omitempty"`
+	Patterns   *[]struct {
+		IsPrefix *bool   `json:"isPrefix,omitempty"`
+		Pattern  *string `json:"pattern,omitempty"`
+	} `json:"patterns,omitempty"`
+}
+
+// CiTagStartCondition defines model for CiTagStartCondition.
+type CiTagStartCondition struct {
+	AutoCancel          *bool                  `json:"autoCancel,omitempty"`
+	FilesAndFoldersRule *CiFilesAndFoldersRule `json:"filesAndFoldersRule,omitempty"`
+	Source              *CiTagPatterns         `json:"source,omitempty"`
+}
+
+// CiTestDestination defines model for CiTestDestination.
+type CiTestDestination struct {
+	DeviceTypeIdentifier *string                `json:"deviceTypeIdentifier,omitempty"`
+	DeviceTypeName       *string                `json:"deviceTypeName,omitempty"`
+	Kind                 *CiTestDestinationKind `json:"kind,omitempty"`
+	RuntimeIdentifier    *string                `json:"runtimeIdentifier,omitempty"`
+	RuntimeName          *string                `json:"runtimeName,omitempty"`
+}
+
+// CiTestDestinationKind defines model for CiTestDestinationKind.
+type CiTestDestinationKind string
+
+// CiWorkflow defines model for CiWorkflow.
+type CiWorkflow struct {
+	Attributes *struct {
+		Actions                         *[]CiAction                        `json:"actions,omitempty"`
+		BranchStartCondition            *CiBranchStartCondition            `json:"branchStartCondition,omitempty"`
+		Clean                           *bool                              `json:"clean,omitempty"`
+		ContainerFilePath               *string                            `json:"containerFilePath,omitempty"`
+		Description                     *string                            `json:"description,omitempty"`
+		IsEnabled                       *bool                              `json:"isEnabled,omitempty"`
+		IsLockedForEditing              *bool                              `json:"isLockedForEditing,omitempty"`
+		LastModifiedDate                *DateTime                          `json:"lastModifiedDate,omitempty"`
+		ManualBranchStartCondition      *CiManualBranchStartCondition      `json:"manualBranchStartCondition,omitempty"`
+		ManualPullRequestStartCondition *CiManualPullRequestStartCondition `json:"manualPullRequestStartCondition,omitempty"`
+		ManualTagStartCondition         *CiManualTagStartCondition         `json:"manualTagStartCondition,omitempty"`
+		Name                            *string                            `json:"name,omitempty"`
+		PullRequestStartCondition       *CiPullRequestStartCondition       `json:"pullRequestStartCondition,omitempty"`
+		ScheduledStartCondition         *CiScheduledStartCondition         `json:"scheduledStartCondition,omitempty"`
+		TagStartCondition               *CiTagStartCondition               `json:"tagStartCondition,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		BuildRuns *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"buildRuns,omitempty"`
+		MacOsVersion *struct {
+			Data *struct {
+				Id   string                                      `json:"id"`
+				Type CiWorkflowRelationshipsMacOsVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"macOsVersion,omitempty"`
+		Product *struct {
+			Data *struct {
+				Id   string                                 `json:"id"`
+				Type CiWorkflowRelationshipsProductDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"product,omitempty"`
+		Repository *struct {
+			Data *struct {
+				Id   string                                    `json:"id"`
+				Type CiWorkflowRelationshipsRepositoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"repository,omitempty"`
+		XcodeVersion *struct {
+			Data *struct {
+				Id   string                                      `json:"id"`
+				Type CiWorkflowRelationshipsXcodeVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"xcodeVersion,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type CiWorkflowType `json:"type"`
+}
+
+// CiWorkflowRelationshipsMacOsVersionDataType defines model for CiWorkflow.Relationships.MacOsVersion.Data.Type.
+type CiWorkflowRelationshipsMacOsVersionDataType string
+
+// CiWorkflowRelationshipsProductDataType defines model for CiWorkflow.Relationships.Product.Data.Type.
+type CiWorkflowRelationshipsProductDataType string
+
+// CiWorkflowRelationshipsRepositoryDataType defines model for CiWorkflow.Relationships.Repository.Data.Type.
+type CiWorkflowRelationshipsRepositoryDataType string
+
+// CiWorkflowRelationshipsXcodeVersionDataType defines model for CiWorkflow.Relationships.XcodeVersion.Data.Type.
+type CiWorkflowRelationshipsXcodeVersionDataType string
+
+// CiWorkflowType defines model for CiWorkflow.Type.
+type CiWorkflowType string
+
+// CiWorkflowCreateRequest defines model for CiWorkflowCreateRequest.
+type CiWorkflowCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Actions                         []CiAction                         `json:"actions"`
+			BranchStartCondition            *CiBranchStartCondition            `json:"branchStartCondition,omitempty"`
+			Clean                           bool                               `json:"clean"`
+			ContainerFilePath               string                             `json:"containerFilePath"`
+			Description                     string                             `json:"description"`
+			IsEnabled                       bool                               `json:"isEnabled"`
+			IsLockedForEditing              *bool                              `json:"isLockedForEditing,omitempty"`
+			ManualBranchStartCondition      *CiManualBranchStartCondition      `json:"manualBranchStartCondition,omitempty"`
+			ManualPullRequestStartCondition *CiManualPullRequestStartCondition `json:"manualPullRequestStartCondition,omitempty"`
+			ManualTagStartCondition         *CiManualTagStartCondition         `json:"manualTagStartCondition,omitempty"`
+			Name                            string                             `json:"name"`
+			PullRequestStartCondition       *CiPullRequestStartCondition       `json:"pullRequestStartCondition,omitempty"`
+			ScheduledStartCondition         *CiScheduledStartCondition         `json:"scheduledStartCondition,omitempty"`
+			TagStartCondition               *CiTagStartCondition               `json:"tagStartCondition,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			MacOsVersion struct {
+				Data struct {
+					Id   string                                                       `json:"id"`
+					Type CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"macOsVersion"`
+			Product struct {
+				Data struct {
+					Id   string                                                  `json:"id"`
+					Type CiWorkflowCreateRequestDataRelationshipsProductDataType `json:"type"`
+				} `json:"data"`
+			} `json:"product"`
+			Repository struct {
+				Data struct {
+					Id   string                                                     `json:"id"`
+					Type CiWorkflowCreateRequestDataRelationshipsRepositoryDataType `json:"type"`
+				} `json:"data"`
+			} `json:"repository"`
+			XcodeVersion struct {
+				Data struct {
+					Id   string                                                       `json:"id"`
+					Type CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"xcodeVersion"`
+		} `json:"relationships"`
+		Type CiWorkflowCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataType defines model for CiWorkflowCreateRequest.Data.Relationships.MacOsVersion.Data.Type.
+type CiWorkflowCreateRequestDataRelationshipsMacOsVersionDataType string
+
+// CiWorkflowCreateRequestDataRelationshipsProductDataType defines model for CiWorkflowCreateRequest.Data.Relationships.Product.Data.Type.
+type CiWorkflowCreateRequestDataRelationshipsProductDataType string
+
+// CiWorkflowCreateRequestDataRelationshipsRepositoryDataType defines model for CiWorkflowCreateRequest.Data.Relationships.Repository.Data.Type.
+type CiWorkflowCreateRequestDataRelationshipsRepositoryDataType string
+
+// CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataType defines model for CiWorkflowCreateRequest.Data.Relationships.XcodeVersion.Data.Type.
+type CiWorkflowCreateRequestDataRelationshipsXcodeVersionDataType string
+
+// CiWorkflowCreateRequestDataType defines model for CiWorkflowCreateRequest.Data.Type.
+type CiWorkflowCreateRequestDataType string
+
+// CiWorkflowResponse defines model for CiWorkflowResponse.
+type CiWorkflowResponse struct {
+	Data     CiWorkflow                          `json:"data"`
+	Included *[]CiWorkflowResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                       `json:"links"`
+}
+
+// CiWorkflowResponse_Included_Item defines model for CiWorkflowResponse.included.Item.
+type CiWorkflowResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// CiWorkflowUpdateRequest defines model for CiWorkflowUpdateRequest.
+type CiWorkflowUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Actions                         *[]CiAction                        `json:"actions,omitempty"`
+			BranchStartCondition            *CiBranchStartCondition            `json:"branchStartCondition,omitempty"`
+			Clean                           *bool                              `json:"clean,omitempty"`
+			ContainerFilePath               *string                            `json:"containerFilePath,omitempty"`
+			Description                     *string                            `json:"description,omitempty"`
+			IsEnabled                       *bool                              `json:"isEnabled,omitempty"`
+			IsLockedForEditing              *bool                              `json:"isLockedForEditing,omitempty"`
+			ManualBranchStartCondition      *CiManualBranchStartCondition      `json:"manualBranchStartCondition,omitempty"`
+			ManualPullRequestStartCondition *CiManualPullRequestStartCondition `json:"manualPullRequestStartCondition,omitempty"`
+			ManualTagStartCondition         *CiManualTagStartCondition         `json:"manualTagStartCondition,omitempty"`
+			Name                            *string                            `json:"name,omitempty"`
+			PullRequestStartCondition       *CiPullRequestStartCondition       `json:"pullRequestStartCondition,omitempty"`
+			ScheduledStartCondition         *CiScheduledStartCondition         `json:"scheduledStartCondition,omitempty"`
+			TagStartCondition               *CiTagStartCondition               `json:"tagStartCondition,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			MacOsVersion *struct {
+				Data *struct {
+					Id   string                                                       `json:"id"`
+					Type CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"macOsVersion,omitempty"`
+			XcodeVersion *struct {
+				Data *struct {
+					Id   string                                                       `json:"id"`
+					Type CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"xcodeVersion,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type CiWorkflowUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataType defines model for CiWorkflowUpdateRequest.Data.Relationships.MacOsVersion.Data.Type.
+type CiWorkflowUpdateRequestDataRelationshipsMacOsVersionDataType string
+
+// CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataType defines model for CiWorkflowUpdateRequest.Data.Relationships.XcodeVersion.Data.Type.
+type CiWorkflowUpdateRequestDataRelationshipsXcodeVersionDataType string
+
+// CiWorkflowUpdateRequestDataType defines model for CiWorkflowUpdateRequest.Data.Type.
+type CiWorkflowUpdateRequestDataType string
+
+// CiWorkflowsResponse defines model for CiWorkflowsResponse.
+type CiWorkflowsResponse struct {
+	Data     []CiWorkflow                         `json:"data"`
+	Included *[]CiWorkflowsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                   `json:"links"`
+	Meta     *PagingInformation                   `json:"meta,omitempty"`
+}
+
+// CiWorkflowsResponse_Included_Item defines model for CiWorkflowsResponse.included.Item.
+type CiWorkflowsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// CiXcodeVersion defines model for CiXcodeVersion.
+type CiXcodeVersion struct {
+	Attributes *struct {
+		Name             *string `json:"name,omitempty"`
+		TestDestinations *[]struct {
+			AvailableRuntimes *[]struct {
+				RuntimeIdentifier *string `json:"runtimeIdentifier,omitempty"`
+				RuntimeName       *string `json:"runtimeName,omitempty"`
+			} `json:"availableRuntimes,omitempty"`
+			DeviceTypeIdentifier *string                `json:"deviceTypeIdentifier,omitempty"`
+			DeviceTypeName       *string                `json:"deviceTypeName,omitempty"`
+			Kind                 *CiTestDestinationKind `json:"kind,omitempty"`
+		} `json:"testDestinations,omitempty"`
+		Version *string `json:"version,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		MacOsVersions *struct {
+			Data *[]struct {
+				Id   string                                           `json:"id"`
+				Type CiXcodeVersionRelationshipsMacOsVersionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"macOsVersions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type CiXcodeVersionType `json:"type"`
+}
+
+// CiXcodeVersionRelationshipsMacOsVersionsDataType defines model for CiXcodeVersion.Relationships.MacOsVersions.Data.Type.
+type CiXcodeVersionRelationshipsMacOsVersionsDataType string
+
+// CiXcodeVersionType defines model for CiXcodeVersion.Type.
+type CiXcodeVersionType string
+
+// CiXcodeVersionsResponse defines model for CiXcodeVersionsResponse.
+type CiXcodeVersionsResponse struct {
+	Data     []CiXcodeVersion   `json:"data"`
+	Included *[]CiMacOsVersion  `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
 
 // DeliveryFileUploadOperation defines model for DeliveryFileUploadOperation.
 type DeliveryFileUploadOperation struct {
@@ -70348,6 +74055,168 @@ type SandboxTestersV2Response struct {
 	Links PagedDocumentLinks `json:"links"`
 	Meta  *PagingInformation `json:"meta,omitempty"`
 }
+
+// ScmGitReference defines model for ScmGitReference.
+type ScmGitReference struct {
+	Attributes *struct {
+		CanonicalName *string       `json:"canonicalName,omitempty"`
+		IsDeleted     *bool         `json:"isDeleted,omitempty"`
+		Kind          *CiGitRefKind `json:"kind,omitempty"`
+		Name          *string       `json:"name,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Repository *struct {
+			Data *struct {
+				Id   string                                         `json:"id"`
+				Type ScmGitReferenceRelationshipsRepositoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"repository,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type ScmGitReferenceType `json:"type"`
+}
+
+// ScmGitReferenceRelationshipsRepositoryDataType defines model for ScmGitReference.Relationships.Repository.Data.Type.
+type ScmGitReferenceRelationshipsRepositoryDataType string
+
+// ScmGitReferenceType defines model for ScmGitReference.Type.
+type ScmGitReferenceType string
+
+// ScmGitReferencesResponse defines model for ScmGitReferencesResponse.
+type ScmGitReferencesResponse struct {
+	Data     []ScmGitReference  `json:"data"`
+	Included *[]ScmRepository   `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
+// ScmProvider defines model for ScmProvider.
+type ScmProvider struct {
+	Attributes *struct {
+		ScmProviderType *ScmProviderType `json:"scmProviderType,omitempty"`
+		Url             *string          `json:"url,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Repositories *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"repositories,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type ScmProviderResourceType `json:"type"`
+}
+
+// ScmProviderResourceType defines model for ScmProvider.type.
+type ScmProviderResourceType string
+
+// ScmProviderType defines model for ScmProviderType.
+type ScmProviderType struct {
+	DisplayName *string              `json:"displayName,omitempty"`
+	IsOnPremise *bool                `json:"isOnPremise,omitempty"`
+	Kind        *ScmProviderTypeKind `json:"kind,omitempty"`
+}
+
+// ScmProviderTypeKind defines model for ScmProviderType.Kind.
+type ScmProviderTypeKind string
+
+// ScmPullRequest defines model for ScmPullRequest.
+type ScmPullRequest struct {
+	Attributes *struct {
+		DestinationBranchName      *string `json:"destinationBranchName,omitempty"`
+		DestinationRepositoryName  *string `json:"destinationRepositoryName,omitempty"`
+		DestinationRepositoryOwner *string `json:"destinationRepositoryOwner,omitempty"`
+		IsClosed                   *bool   `json:"isClosed,omitempty"`
+		IsCrossRepository          *bool   `json:"isCrossRepository,omitempty"`
+		Number                     *int    `json:"number,omitempty"`
+		SourceBranchName           *string `json:"sourceBranchName,omitempty"`
+		SourceRepositoryName       *string `json:"sourceRepositoryName,omitempty"`
+		SourceRepositoryOwner      *string `json:"sourceRepositoryOwner,omitempty"`
+		Title                      *string `json:"title,omitempty"`
+		WebUrl                     *string `json:"webUrl,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Repository *struct {
+			Data *struct {
+				Id   string                                        `json:"id"`
+				Type ScmPullRequestRelationshipsRepositoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"repository,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type ScmPullRequestType `json:"type"`
+}
+
+// ScmPullRequestRelationshipsRepositoryDataType defines model for ScmPullRequest.Relationships.Repository.Data.Type.
+type ScmPullRequestRelationshipsRepositoryDataType string
+
+// ScmPullRequestType defines model for ScmPullRequest.Type.
+type ScmPullRequestType string
+
+// ScmPullRequestsResponse defines model for ScmPullRequestsResponse.
+type ScmPullRequestsResponse struct {
+	Data     []ScmPullRequest   `json:"data"`
+	Included *[]ScmRepository   `json:"included,omitempty"`
+	Links    PagedDocumentLinks `json:"links"`
+	Meta     *PagingInformation `json:"meta,omitempty"`
+}
+
+// ScmRepositoriesResponse defines model for ScmRepositoriesResponse.
+type ScmRepositoriesResponse struct {
+	Data     []ScmRepository                          `json:"data"`
+	Included *[]ScmRepositoriesResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                       `json:"links"`
+	Meta     *PagingInformation                       `json:"meta,omitempty"`
+}
+
+// ScmRepositoriesResponse_Included_Item defines model for ScmRepositoriesResponse.included.Item.
+type ScmRepositoriesResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// ScmRepository defines model for ScmRepository.
+type ScmRepository struct {
+	Attributes *struct {
+		HttpCloneUrl     *string   `json:"httpCloneUrl,omitempty"`
+		LastAccessedDate *DateTime `json:"lastAccessedDate,omitempty"`
+		OwnerName        *string   `json:"ownerName,omitempty"`
+		RepositoryName   *string   `json:"repositoryName,omitempty"`
+		SshCloneUrl      *string   `json:"sshCloneUrl,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		DefaultBranch *struct {
+			Data *struct {
+				Id   string                                          `json:"id"`
+				Type ScmRepositoryRelationshipsDefaultBranchDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"defaultBranch,omitempty"`
+		GitReferences *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"gitReferences,omitempty"`
+		PullRequests *struct {
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"pullRequests,omitempty"`
+		ScmProvider *struct {
+			Data *struct {
+				Id   string                                        `json:"id"`
+				Type ScmRepositoryRelationshipsScmProviderDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"scmProvider,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type ScmRepositoryType `json:"type"`
+}
+
+// ScmRepositoryRelationshipsDefaultBranchDataType defines model for ScmRepository.Relationships.DefaultBranch.Data.Type.
+type ScmRepositoryRelationshipsDefaultBranchDataType string
+
+// ScmRepositoryRelationshipsScmProviderDataType defines model for ScmRepository.Relationships.ScmProvider.Data.Type.
+type ScmRepositoryRelationshipsScmProviderDataType string
+
+// ScmRepositoryType defines model for ScmRepository.Type.
+type ScmRepositoryType string
 
 // ScreenshotDisplayType defines model for ScreenshotDisplayType.
 type ScreenshotDisplayType string
@@ -78033,6 +81902,375 @@ type CertificatesGetInstanceParamsFieldsPassTypeIds string
 // CertificatesGetInstanceParamsInclude defines parameters for CertificatesGetInstance.
 type CertificatesGetInstanceParamsInclude string
 
+// CiMacOsVersionsGetCollectionParams defines parameters for CiMacOsVersionsGetCollection.
+type CiMacOsVersionsGetCollectionParams struct {
+	// FieldsCiMacOsVersions the fields to include for returned resources of type ciMacOsVersions
+	FieldsCiMacOsVersions *[]CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions `form:"fields[ciMacOsVersions],omitempty" json:"fields[ciMacOsVersions],omitempty"`
+
+	// FieldsCiXcodeVersions the fields to include for returned resources of type ciXcodeVersions
+	FieldsCiXcodeVersions *[]CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions `form:"fields[ciXcodeVersions],omitempty" json:"fields[ciXcodeVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiMacOsVersionsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitXcodeVersions maximum number of related xcodeVersions returned (when they are included)
+	LimitXcodeVersions *int `form:"limit[xcodeVersions],omitempty" json:"limit[xcodeVersions],omitempty"`
+}
+
+// CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions defines parameters for CiMacOsVersionsGetCollection.
+type CiMacOsVersionsGetCollectionParamsFieldsCiMacOsVersions string
+
+// CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions defines parameters for CiMacOsVersionsGetCollection.
+type CiMacOsVersionsGetCollectionParamsFieldsCiXcodeVersions string
+
+// CiMacOsVersionsGetCollectionParamsInclude defines parameters for CiMacOsVersionsGetCollection.
+type CiMacOsVersionsGetCollectionParamsInclude string
+
+// CiProductsGetCollectionParams defines parameters for CiProductsGetCollection.
+type CiProductsGetCollectionParams struct {
+	// FilterProductType filter by attribute 'productType'
+	FilterProductType *[]CiProductsGetCollectionParamsFilterProductType `form:"filter[productType],omitempty" json:"filter[productType],omitempty"`
+
+	// FilterApp filter by id(s) of related 'app'
+	FilterApp *[]string `form:"filter[app],omitempty" json:"filter[app],omitempty"`
+
+	// FieldsCiProducts the fields to include for returned resources of type ciProducts
+	FieldsCiProducts *[]CiProductsGetCollectionParamsFieldsCiProducts `form:"fields[ciProducts],omitempty" json:"fields[ciProducts],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]CiProductsGetCollectionParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsBundleIds the fields to include for returned resources of type bundleIds
+	FieldsBundleIds *[]CiProductsGetCollectionParamsFieldsBundleIds `form:"fields[bundleIds],omitempty" json:"fields[bundleIds],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]CiProductsGetCollectionParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiProductsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitPrimaryRepositories maximum number of related primaryRepositories returned (when they are included)
+	LimitPrimaryRepositories *int `form:"limit[primaryRepositories],omitempty" json:"limit[primaryRepositories],omitempty"`
+}
+
+// CiProductsGetCollectionParamsFilterProductType defines parameters for CiProductsGetCollection.
+type CiProductsGetCollectionParamsFilterProductType string
+
+// CiProductsGetCollectionParamsFieldsCiProducts defines parameters for CiProductsGetCollection.
+type CiProductsGetCollectionParamsFieldsCiProducts string
+
+// CiProductsGetCollectionParamsFieldsApps defines parameters for CiProductsGetCollection.
+type CiProductsGetCollectionParamsFieldsApps string
+
+// CiProductsGetCollectionParamsFieldsBundleIds defines parameters for CiProductsGetCollection.
+type CiProductsGetCollectionParamsFieldsBundleIds string
+
+// CiProductsGetCollectionParamsFieldsScmRepositories defines parameters for CiProductsGetCollection.
+type CiProductsGetCollectionParamsFieldsScmRepositories string
+
+// CiProductsGetCollectionParamsInclude defines parameters for CiProductsGetCollection.
+type CiProductsGetCollectionParamsInclude string
+
+// CiProductsAdditionalRepositoriesGetToManyRelatedParams defines parameters for CiProductsAdditionalRepositoriesGetToManyRelated.
+type CiProductsAdditionalRepositoriesGetToManyRelatedParams struct {
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// FieldsScmProviders the fields to include for returned resources of type scmProviders
+	FieldsScmProviders *[]CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders `form:"fields[scmProviders],omitempty" json:"fields[scmProviders],omitempty"`
+
+	// FieldsScmGitReferences the fields to include for returned resources of type scmGitReferences
+	FieldsScmGitReferences *[]CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences `form:"fields[scmGitReferences],omitempty" json:"fields[scmGitReferences],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories defines parameters for CiProductsAdditionalRepositoriesGetToManyRelated.
+type CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmRepositories string
+
+// CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders defines parameters for CiProductsAdditionalRepositoriesGetToManyRelated.
+type CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmProviders string
+
+// CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences defines parameters for CiProductsAdditionalRepositoriesGetToManyRelated.
+type CiProductsAdditionalRepositoriesGetToManyRelatedParamsFieldsScmGitReferences string
+
+// CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude defines parameters for CiProductsAdditionalRepositoriesGetToManyRelated.
+type CiProductsAdditionalRepositoriesGetToManyRelatedParamsInclude string
+
+// CiProductsBuildRunsGetToManyRelatedParams defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParams struct {
+	// FilterBuilds filter by id(s) of related 'builds'
+	FilterBuilds *[]string `form:"filter[builds],omitempty" json:"filter[builds],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]CiProductsBuildRunsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsCiBuildRuns the fields to include for returned resources of type ciBuildRuns
+	FieldsCiBuildRuns *[]CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns `form:"fields[ciBuildRuns],omitempty" json:"fields[ciBuildRuns],omitempty"`
+
+	// FieldsBuilds the fields to include for returned resources of type builds
+	FieldsBuilds *[]CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds `form:"fields[builds],omitempty" json:"fields[builds],omitempty"`
+
+	// FieldsCiWorkflows the fields to include for returned resources of type ciWorkflows
+	FieldsCiWorkflows *[]CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows `form:"fields[ciWorkflows],omitempty" json:"fields[ciWorkflows],omitempty"`
+
+	// FieldsCiProducts the fields to include for returned resources of type ciProducts
+	FieldsCiProducts *[]CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts `form:"fields[ciProducts],omitempty" json:"fields[ciProducts],omitempty"`
+
+	// FieldsScmGitReferences the fields to include for returned resources of type scmGitReferences
+	FieldsScmGitReferences *[]CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences `form:"fields[scmGitReferences],omitempty" json:"fields[scmGitReferences],omitempty"`
+
+	// FieldsScmPullRequests the fields to include for returned resources of type scmPullRequests
+	FieldsScmPullRequests *[]CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests `form:"fields[scmPullRequests],omitempty" json:"fields[scmPullRequests],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiProductsBuildRunsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitBuilds maximum number of related builds returned (when they are included)
+	LimitBuilds *int `form:"limit[builds],omitempty" json:"limit[builds],omitempty"`
+}
+
+// CiProductsBuildRunsGetToManyRelatedParamsSort defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsSort string
+
+// CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns string
+
+// CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsFieldsBuilds string
+
+// CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows string
+
+// CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsFieldsCiProducts string
+
+// CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences string
+
+// CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests string
+
+// CiProductsBuildRunsGetToManyRelatedParamsInclude defines parameters for CiProductsBuildRunsGetToManyRelated.
+type CiProductsBuildRunsGetToManyRelatedParamsInclude string
+
+// CiProductsPrimaryRepositoriesGetToManyRelatedParams defines parameters for CiProductsPrimaryRepositoriesGetToManyRelated.
+type CiProductsPrimaryRepositoriesGetToManyRelatedParams struct {
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// FieldsScmProviders the fields to include for returned resources of type scmProviders
+	FieldsScmProviders *[]CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders `form:"fields[scmProviders],omitempty" json:"fields[scmProviders],omitempty"`
+
+	// FieldsScmGitReferences the fields to include for returned resources of type scmGitReferences
+	FieldsScmGitReferences *[]CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences `form:"fields[scmGitReferences],omitempty" json:"fields[scmGitReferences],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories defines parameters for CiProductsPrimaryRepositoriesGetToManyRelated.
+type CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmRepositories string
+
+// CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders defines parameters for CiProductsPrimaryRepositoriesGetToManyRelated.
+type CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmProviders string
+
+// CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences defines parameters for CiProductsPrimaryRepositoriesGetToManyRelated.
+type CiProductsPrimaryRepositoriesGetToManyRelatedParamsFieldsScmGitReferences string
+
+// CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude defines parameters for CiProductsPrimaryRepositoriesGetToManyRelated.
+type CiProductsPrimaryRepositoriesGetToManyRelatedParamsInclude string
+
+// CiProductsWorkflowsGetToManyRelatedParams defines parameters for CiProductsWorkflowsGetToManyRelated.
+type CiProductsWorkflowsGetToManyRelatedParams struct {
+	// FieldsCiWorkflows the fields to include for returned resources of type ciWorkflows
+	FieldsCiWorkflows *[]CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows `form:"fields[ciWorkflows],omitempty" json:"fields[ciWorkflows],omitempty"`
+
+	// FieldsCiProducts the fields to include for returned resources of type ciProducts
+	FieldsCiProducts *[]CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts `form:"fields[ciProducts],omitempty" json:"fields[ciProducts],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// FieldsCiXcodeVersions the fields to include for returned resources of type ciXcodeVersions
+	FieldsCiXcodeVersions *[]CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions `form:"fields[ciXcodeVersions],omitempty" json:"fields[ciXcodeVersions],omitempty"`
+
+	// FieldsCiMacOsVersions the fields to include for returned resources of type ciMacOsVersions
+	FieldsCiMacOsVersions *[]CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions `form:"fields[ciMacOsVersions],omitempty" json:"fields[ciMacOsVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiProductsWorkflowsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows defines parameters for CiProductsWorkflowsGetToManyRelated.
+type CiProductsWorkflowsGetToManyRelatedParamsFieldsCiWorkflows string
+
+// CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts defines parameters for CiProductsWorkflowsGetToManyRelated.
+type CiProductsWorkflowsGetToManyRelatedParamsFieldsCiProducts string
+
+// CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories defines parameters for CiProductsWorkflowsGetToManyRelated.
+type CiProductsWorkflowsGetToManyRelatedParamsFieldsScmRepositories string
+
+// CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions defines parameters for CiProductsWorkflowsGetToManyRelated.
+type CiProductsWorkflowsGetToManyRelatedParamsFieldsCiXcodeVersions string
+
+// CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions defines parameters for CiProductsWorkflowsGetToManyRelated.
+type CiProductsWorkflowsGetToManyRelatedParamsFieldsCiMacOsVersions string
+
+// CiProductsWorkflowsGetToManyRelatedParamsInclude defines parameters for CiProductsWorkflowsGetToManyRelated.
+type CiProductsWorkflowsGetToManyRelatedParamsInclude string
+
+// CiWorkflowsGetInstanceParams defines parameters for CiWorkflowsGetInstance.
+type CiWorkflowsGetInstanceParams struct {
+	// FieldsCiWorkflows the fields to include for returned resources of type ciWorkflows
+	FieldsCiWorkflows *[]CiWorkflowsGetInstanceParamsFieldsCiWorkflows `form:"fields[ciWorkflows],omitempty" json:"fields[ciWorkflows],omitempty"`
+
+	// FieldsCiProducts the fields to include for returned resources of type ciProducts
+	FieldsCiProducts *[]CiWorkflowsGetInstanceParamsFieldsCiProducts `form:"fields[ciProducts],omitempty" json:"fields[ciProducts],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]CiWorkflowsGetInstanceParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// FieldsCiXcodeVersions the fields to include for returned resources of type ciXcodeVersions
+	FieldsCiXcodeVersions *[]CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions `form:"fields[ciXcodeVersions],omitempty" json:"fields[ciXcodeVersions],omitempty"`
+
+	// FieldsCiMacOsVersions the fields to include for returned resources of type ciMacOsVersions
+	FieldsCiMacOsVersions *[]CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions `form:"fields[ciMacOsVersions],omitempty" json:"fields[ciMacOsVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiWorkflowsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// CiWorkflowsGetInstanceParamsFieldsCiWorkflows defines parameters for CiWorkflowsGetInstance.
+type CiWorkflowsGetInstanceParamsFieldsCiWorkflows string
+
+// CiWorkflowsGetInstanceParamsFieldsCiProducts defines parameters for CiWorkflowsGetInstance.
+type CiWorkflowsGetInstanceParamsFieldsCiProducts string
+
+// CiWorkflowsGetInstanceParamsFieldsScmRepositories defines parameters for CiWorkflowsGetInstance.
+type CiWorkflowsGetInstanceParamsFieldsScmRepositories string
+
+// CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions defines parameters for CiWorkflowsGetInstance.
+type CiWorkflowsGetInstanceParamsFieldsCiXcodeVersions string
+
+// CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions defines parameters for CiWorkflowsGetInstance.
+type CiWorkflowsGetInstanceParamsFieldsCiMacOsVersions string
+
+// CiWorkflowsGetInstanceParamsInclude defines parameters for CiWorkflowsGetInstance.
+type CiWorkflowsGetInstanceParamsInclude string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParams defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParams struct {
+	// FilterBuilds filter by id(s) of related 'builds'
+	FilterBuilds *[]string `form:"filter[builds],omitempty" json:"filter[builds],omitempty"`
+
+	// Sort comma-separated list of sort expressions; resources will be sorted as specified
+	Sort *[]CiWorkflowsBuildRunsGetToManyRelatedParamsSort `form:"sort,omitempty" json:"sort,omitempty"`
+
+	// FieldsCiBuildRuns the fields to include for returned resources of type ciBuildRuns
+	FieldsCiBuildRuns *[]CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns `form:"fields[ciBuildRuns],omitempty" json:"fields[ciBuildRuns],omitempty"`
+
+	// FieldsBuilds the fields to include for returned resources of type builds
+	FieldsBuilds *[]CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds `form:"fields[builds],omitempty" json:"fields[builds],omitempty"`
+
+	// FieldsCiWorkflows the fields to include for returned resources of type ciWorkflows
+	FieldsCiWorkflows *[]CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows `form:"fields[ciWorkflows],omitempty" json:"fields[ciWorkflows],omitempty"`
+
+	// FieldsCiProducts the fields to include for returned resources of type ciProducts
+	FieldsCiProducts *[]CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts `form:"fields[ciProducts],omitempty" json:"fields[ciProducts],omitempty"`
+
+	// FieldsScmGitReferences the fields to include for returned resources of type scmGitReferences
+	FieldsScmGitReferences *[]CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences `form:"fields[scmGitReferences],omitempty" json:"fields[scmGitReferences],omitempty"`
+
+	// FieldsScmPullRequests the fields to include for returned resources of type scmPullRequests
+	FieldsScmPullRequests *[]CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests `form:"fields[scmPullRequests],omitempty" json:"fields[scmPullRequests],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiWorkflowsBuildRunsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitBuilds maximum number of related builds returned (when they are included)
+	LimitBuilds *int `form:"limit[builds],omitempty" json:"limit[builds],omitempty"`
+}
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsSort defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsSort string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiBuildRuns string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsBuilds string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiWorkflows string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsCiProducts string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmGitReferences string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsFieldsScmPullRequests string
+
+// CiWorkflowsBuildRunsGetToManyRelatedParamsInclude defines parameters for CiWorkflowsBuildRunsGetToManyRelated.
+type CiWorkflowsBuildRunsGetToManyRelatedParamsInclude string
+
+// CiXcodeVersionsGetCollectionParams defines parameters for CiXcodeVersionsGetCollection.
+type CiXcodeVersionsGetCollectionParams struct {
+	// FieldsCiXcodeVersions the fields to include for returned resources of type ciXcodeVersions
+	FieldsCiXcodeVersions *[]CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions `form:"fields[ciXcodeVersions],omitempty" json:"fields[ciXcodeVersions],omitempty"`
+
+	// FieldsCiMacOsVersions the fields to include for returned resources of type ciMacOsVersions
+	FieldsCiMacOsVersions *[]CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions `form:"fields[ciMacOsVersions],omitempty" json:"fields[ciMacOsVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]CiXcodeVersionsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitMacOsVersions maximum number of related macOsVersions returned (when they are included)
+	LimitMacOsVersions *int `form:"limit[macOsVersions],omitempty" json:"limit[macOsVersions],omitempty"`
+}
+
+// CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions defines parameters for CiXcodeVersionsGetCollection.
+type CiXcodeVersionsGetCollectionParamsFieldsCiXcodeVersions string
+
+// CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions defines parameters for CiXcodeVersionsGetCollection.
+type CiXcodeVersionsGetCollectionParamsFieldsCiMacOsVersions string
+
+// CiXcodeVersionsGetCollectionParamsInclude defines parameters for CiXcodeVersionsGetCollection.
+type CiXcodeVersionsGetCollectionParamsInclude string
+
 // DevicesGetCollectionParams defines parameters for DevicesGetCollection.
 type DevicesGetCollectionParams struct {
 	// FilterName filter by attribute 'name'
@@ -79157,6 +83395,87 @@ type RoutingAppCoveragesGetInstanceParamsFieldsAppStoreVersions string
 
 // RoutingAppCoveragesGetInstanceParamsInclude defines parameters for RoutingAppCoveragesGetInstance.
 type RoutingAppCoveragesGetInstanceParamsInclude string
+
+// ScmRepositoriesGetCollectionParams defines parameters for ScmRepositoriesGetCollection.
+type ScmRepositoriesGetCollectionParams struct {
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]ScmRepositoriesGetCollectionParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// FieldsScmProviders the fields to include for returned resources of type scmProviders
+	FieldsScmProviders *[]ScmRepositoriesGetCollectionParamsFieldsScmProviders `form:"fields[scmProviders],omitempty" json:"fields[scmProviders],omitempty"`
+
+	// FieldsScmGitReferences the fields to include for returned resources of type scmGitReferences
+	FieldsScmGitReferences *[]ScmRepositoriesGetCollectionParamsFieldsScmGitReferences `form:"fields[scmGitReferences],omitempty" json:"fields[scmGitReferences],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]ScmRepositoriesGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// ScmRepositoriesGetCollectionParamsFieldsScmRepositories defines parameters for ScmRepositoriesGetCollection.
+type ScmRepositoriesGetCollectionParamsFieldsScmRepositories string
+
+// ScmRepositoriesGetCollectionParamsFieldsScmProviders defines parameters for ScmRepositoriesGetCollection.
+type ScmRepositoriesGetCollectionParamsFieldsScmProviders string
+
+// ScmRepositoriesGetCollectionParamsFieldsScmGitReferences defines parameters for ScmRepositoriesGetCollection.
+type ScmRepositoriesGetCollectionParamsFieldsScmGitReferences string
+
+// ScmRepositoriesGetCollectionParamsInclude defines parameters for ScmRepositoriesGetCollection.
+type ScmRepositoriesGetCollectionParamsInclude string
+
+// ScmRepositoriesGitReferencesGetToManyRelatedParams defines parameters for ScmRepositoriesGitReferencesGetToManyRelated.
+type ScmRepositoriesGitReferencesGetToManyRelatedParams struct {
+	// FieldsScmGitReferences the fields to include for returned resources of type scmGitReferences
+	FieldsScmGitReferences *[]ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences `form:"fields[scmGitReferences],omitempty" json:"fields[scmGitReferences],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]ScmRepositoriesGitReferencesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences defines parameters for ScmRepositoriesGitReferencesGetToManyRelated.
+type ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmGitReferences string
+
+// ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories defines parameters for ScmRepositoriesGitReferencesGetToManyRelated.
+type ScmRepositoriesGitReferencesGetToManyRelatedParamsFieldsScmRepositories string
+
+// ScmRepositoriesGitReferencesGetToManyRelatedParamsInclude defines parameters for ScmRepositoriesGitReferencesGetToManyRelated.
+type ScmRepositoriesGitReferencesGetToManyRelatedParamsInclude string
+
+// ScmRepositoriesPullRequestsGetToManyRelatedParams defines parameters for ScmRepositoriesPullRequestsGetToManyRelated.
+type ScmRepositoriesPullRequestsGetToManyRelatedParams struct {
+	// FieldsScmPullRequests the fields to include for returned resources of type scmPullRequests
+	FieldsScmPullRequests *[]ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests `form:"fields[scmPullRequests],omitempty" json:"fields[scmPullRequests],omitempty"`
+
+	// FieldsScmRepositories the fields to include for returned resources of type scmRepositories
+	FieldsScmRepositories *[]ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories `form:"fields[scmRepositories],omitempty" json:"fields[scmRepositories],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]ScmRepositoriesPullRequestsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests defines parameters for ScmRepositoriesPullRequestsGetToManyRelated.
+type ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmPullRequests string
+
+// ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories defines parameters for ScmRepositoriesPullRequestsGetToManyRelated.
+type ScmRepositoriesPullRequestsGetToManyRelatedParamsFieldsScmRepositories string
+
+// ScmRepositoriesPullRequestsGetToManyRelatedParamsInclude defines parameters for ScmRepositoriesPullRequestsGetToManyRelated.
+type ScmRepositoriesPullRequestsGetToManyRelatedParamsInclude string
 
 // SubscriptionAppStoreReviewScreenshotsGetInstanceParams defines parameters for SubscriptionAppStoreReviewScreenshotsGetInstance.
 type SubscriptionAppStoreReviewScreenshotsGetInstanceParams struct {
@@ -81018,6 +85337,15 @@ type CertificatesCreateInstanceJSONRequestBody = CertificateCreateRequest
 
 // CertificatesUpdateInstanceJSONRequestBody defines body for CertificatesUpdateInstance for application/json ContentType.
 type CertificatesUpdateInstanceJSONRequestBody = CertificateUpdateRequest
+
+// CiBuildRunsCreateInstanceJSONRequestBody defines body for CiBuildRunsCreateInstance for application/json ContentType.
+type CiBuildRunsCreateInstanceJSONRequestBody = CiBuildRunCreateRequest
+
+// CiWorkflowsCreateInstanceJSONRequestBody defines body for CiWorkflowsCreateInstance for application/json ContentType.
+type CiWorkflowsCreateInstanceJSONRequestBody = CiWorkflowCreateRequest
+
+// CiWorkflowsUpdateInstanceJSONRequestBody defines body for CiWorkflowsUpdateInstance for application/json ContentType.
+type CiWorkflowsUpdateInstanceJSONRequestBody = CiWorkflowUpdateRequest
 
 // DevicesCreateInstanceJSONRequestBody defines body for DevicesCreateInstance for application/json ContentType.
 type DevicesCreateInstanceJSONRequestBody = DeviceCreateRequest
@@ -93239,6 +97567,907 @@ func (t *BundleIdsResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsBuild returns the union data inside the CiBuildRunResponse_Included_Item as a Build
+func (t CiBuildRunResponse_Included_Item) AsBuild() (Build, error) {
+	var body Build
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBuild overwrites any union data inside the CiBuildRunResponse_Included_Item as the provided Build
+func (t *CiBuildRunResponse_Included_Item) FromBuild(v Build) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"builds"}`))
+	t.union = b
+	return err
+}
+
+// MergeBuild performs a merge with any union data inside the CiBuildRunResponse_Included_Item, using the provided Build
+func (t *CiBuildRunResponse_Included_Item) MergeBuild(v Build) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"builds"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiProduct returns the union data inside the CiBuildRunResponse_Included_Item as a CiProduct
+func (t CiBuildRunResponse_Included_Item) AsCiProduct() (CiProduct, error) {
+	var body CiProduct
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiProduct overwrites any union data inside the CiBuildRunResponse_Included_Item as the provided CiProduct
+func (t *CiBuildRunResponse_Included_Item) FromCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiProduct performs a merge with any union data inside the CiBuildRunResponse_Included_Item, using the provided CiProduct
+func (t *CiBuildRunResponse_Included_Item) MergeCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiWorkflow returns the union data inside the CiBuildRunResponse_Included_Item as a CiWorkflow
+func (t CiBuildRunResponse_Included_Item) AsCiWorkflow() (CiWorkflow, error) {
+	var body CiWorkflow
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiWorkflow overwrites any union data inside the CiBuildRunResponse_Included_Item as the provided CiWorkflow
+func (t *CiBuildRunResponse_Included_Item) FromCiWorkflow(v CiWorkflow) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciWorkflows"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiWorkflow performs a merge with any union data inside the CiBuildRunResponse_Included_Item, using the provided CiWorkflow
+func (t *CiBuildRunResponse_Included_Item) MergeCiWorkflow(v CiWorkflow) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciWorkflows"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmGitReference returns the union data inside the CiBuildRunResponse_Included_Item as a ScmGitReference
+func (t CiBuildRunResponse_Included_Item) AsScmGitReference() (ScmGitReference, error) {
+	var body ScmGitReference
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmGitReference overwrites any union data inside the CiBuildRunResponse_Included_Item as the provided ScmGitReference
+func (t *CiBuildRunResponse_Included_Item) FromScmGitReference(v ScmGitReference) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmGitReferences"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmGitReference performs a merge with any union data inside the CiBuildRunResponse_Included_Item, using the provided ScmGitReference
+func (t *CiBuildRunResponse_Included_Item) MergeScmGitReference(v ScmGitReference) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmGitReferences"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmPullRequest returns the union data inside the CiBuildRunResponse_Included_Item as a ScmPullRequest
+func (t CiBuildRunResponse_Included_Item) AsScmPullRequest() (ScmPullRequest, error) {
+	var body ScmPullRequest
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmPullRequest overwrites any union data inside the CiBuildRunResponse_Included_Item as the provided ScmPullRequest
+func (t *CiBuildRunResponse_Included_Item) FromScmPullRequest(v ScmPullRequest) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmPullRequests"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmPullRequest performs a merge with any union data inside the CiBuildRunResponse_Included_Item, using the provided ScmPullRequest
+func (t *CiBuildRunResponse_Included_Item) MergeScmPullRequest(v ScmPullRequest) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmPullRequests"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t CiBuildRunResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t CiBuildRunResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "builds":
+		return t.AsBuild()
+	case "ciProducts":
+		return t.AsCiProduct()
+	case "ciWorkflows":
+		return t.AsCiWorkflow()
+	case "scmGitReferences":
+		return t.AsScmGitReference()
+	case "scmPullRequests":
+		return t.AsScmPullRequest()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t CiBuildRunResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *CiBuildRunResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsBuild returns the union data inside the CiBuildRunsResponse_Included_Item as a Build
+func (t CiBuildRunsResponse_Included_Item) AsBuild() (Build, error) {
+	var body Build
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBuild overwrites any union data inside the CiBuildRunsResponse_Included_Item as the provided Build
+func (t *CiBuildRunsResponse_Included_Item) FromBuild(v Build) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"builds"}`))
+	t.union = b
+	return err
+}
+
+// MergeBuild performs a merge with any union data inside the CiBuildRunsResponse_Included_Item, using the provided Build
+func (t *CiBuildRunsResponse_Included_Item) MergeBuild(v Build) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"builds"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiProduct returns the union data inside the CiBuildRunsResponse_Included_Item as a CiProduct
+func (t CiBuildRunsResponse_Included_Item) AsCiProduct() (CiProduct, error) {
+	var body CiProduct
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiProduct overwrites any union data inside the CiBuildRunsResponse_Included_Item as the provided CiProduct
+func (t *CiBuildRunsResponse_Included_Item) FromCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiProduct performs a merge with any union data inside the CiBuildRunsResponse_Included_Item, using the provided CiProduct
+func (t *CiBuildRunsResponse_Included_Item) MergeCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiWorkflow returns the union data inside the CiBuildRunsResponse_Included_Item as a CiWorkflow
+func (t CiBuildRunsResponse_Included_Item) AsCiWorkflow() (CiWorkflow, error) {
+	var body CiWorkflow
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiWorkflow overwrites any union data inside the CiBuildRunsResponse_Included_Item as the provided CiWorkflow
+func (t *CiBuildRunsResponse_Included_Item) FromCiWorkflow(v CiWorkflow) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciWorkflows"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiWorkflow performs a merge with any union data inside the CiBuildRunsResponse_Included_Item, using the provided CiWorkflow
+func (t *CiBuildRunsResponse_Included_Item) MergeCiWorkflow(v CiWorkflow) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciWorkflows"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmGitReference returns the union data inside the CiBuildRunsResponse_Included_Item as a ScmGitReference
+func (t CiBuildRunsResponse_Included_Item) AsScmGitReference() (ScmGitReference, error) {
+	var body ScmGitReference
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmGitReference overwrites any union data inside the CiBuildRunsResponse_Included_Item as the provided ScmGitReference
+func (t *CiBuildRunsResponse_Included_Item) FromScmGitReference(v ScmGitReference) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmGitReferences"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmGitReference performs a merge with any union data inside the CiBuildRunsResponse_Included_Item, using the provided ScmGitReference
+func (t *CiBuildRunsResponse_Included_Item) MergeScmGitReference(v ScmGitReference) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmGitReferences"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmPullRequest returns the union data inside the CiBuildRunsResponse_Included_Item as a ScmPullRequest
+func (t CiBuildRunsResponse_Included_Item) AsScmPullRequest() (ScmPullRequest, error) {
+	var body ScmPullRequest
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmPullRequest overwrites any union data inside the CiBuildRunsResponse_Included_Item as the provided ScmPullRequest
+func (t *CiBuildRunsResponse_Included_Item) FromScmPullRequest(v ScmPullRequest) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmPullRequests"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmPullRequest performs a merge with any union data inside the CiBuildRunsResponse_Included_Item, using the provided ScmPullRequest
+func (t *CiBuildRunsResponse_Included_Item) MergeScmPullRequest(v ScmPullRequest) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmPullRequests"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t CiBuildRunsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t CiBuildRunsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "builds":
+		return t.AsBuild()
+	case "ciProducts":
+		return t.AsCiProduct()
+	case "ciWorkflows":
+		return t.AsCiWorkflow()
+	case "scmGitReferences":
+		return t.AsScmGitReference()
+	case "scmPullRequests":
+		return t.AsScmPullRequest()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t CiBuildRunsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *CiBuildRunsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsApp returns the union data inside the CiProductsResponse_Included_Item as a App
+func (t CiProductsResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the CiProductsResponse_Included_Item as the provided App
+func (t *CiProductsResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the CiProductsResponse_Included_Item, using the provided App
+func (t *CiProductsResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsBundleId returns the union data inside the CiProductsResponse_Included_Item as a BundleId
+func (t CiProductsResponse_Included_Item) AsBundleId() (BundleId, error) {
+	var body BundleId
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromBundleId overwrites any union data inside the CiProductsResponse_Included_Item as the provided BundleId
+func (t *CiProductsResponse_Included_Item) FromBundleId(v BundleId) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"bundleIds"}`))
+	t.union = b
+	return err
+}
+
+// MergeBundleId performs a merge with any union data inside the CiProductsResponse_Included_Item, using the provided BundleId
+func (t *CiProductsResponse_Included_Item) MergeBundleId(v BundleId) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"bundleIds"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmRepository returns the union data inside the CiProductsResponse_Included_Item as a ScmRepository
+func (t CiProductsResponse_Included_Item) AsScmRepository() (ScmRepository, error) {
+	var body ScmRepository
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmRepository overwrites any union data inside the CiProductsResponse_Included_Item as the provided ScmRepository
+func (t *CiProductsResponse_Included_Item) FromScmRepository(v ScmRepository) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmRepositories"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmRepository performs a merge with any union data inside the CiProductsResponse_Included_Item, using the provided ScmRepository
+func (t *CiProductsResponse_Included_Item) MergeScmRepository(v ScmRepository) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmRepositories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t CiProductsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t CiProductsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "apps":
+		return t.AsApp()
+	case "bundleIds":
+		return t.AsBundleId()
+	case "scmRepositories":
+		return t.AsScmRepository()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t CiProductsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *CiProductsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsCiMacOsVersion returns the union data inside the CiWorkflowResponse_Included_Item as a CiMacOsVersion
+func (t CiWorkflowResponse_Included_Item) AsCiMacOsVersion() (CiMacOsVersion, error) {
+	var body CiMacOsVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiMacOsVersion overwrites any union data inside the CiWorkflowResponse_Included_Item as the provided CiMacOsVersion
+func (t *CiWorkflowResponse_Included_Item) FromCiMacOsVersion(v CiMacOsVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciMacOsVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiMacOsVersion performs a merge with any union data inside the CiWorkflowResponse_Included_Item, using the provided CiMacOsVersion
+func (t *CiWorkflowResponse_Included_Item) MergeCiMacOsVersion(v CiMacOsVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciMacOsVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiProduct returns the union data inside the CiWorkflowResponse_Included_Item as a CiProduct
+func (t CiWorkflowResponse_Included_Item) AsCiProduct() (CiProduct, error) {
+	var body CiProduct
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiProduct overwrites any union data inside the CiWorkflowResponse_Included_Item as the provided CiProduct
+func (t *CiWorkflowResponse_Included_Item) FromCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiProduct performs a merge with any union data inside the CiWorkflowResponse_Included_Item, using the provided CiProduct
+func (t *CiWorkflowResponse_Included_Item) MergeCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiXcodeVersion returns the union data inside the CiWorkflowResponse_Included_Item as a CiXcodeVersion
+func (t CiWorkflowResponse_Included_Item) AsCiXcodeVersion() (CiXcodeVersion, error) {
+	var body CiXcodeVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiXcodeVersion overwrites any union data inside the CiWorkflowResponse_Included_Item as the provided CiXcodeVersion
+func (t *CiWorkflowResponse_Included_Item) FromCiXcodeVersion(v CiXcodeVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciXcodeVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiXcodeVersion performs a merge with any union data inside the CiWorkflowResponse_Included_Item, using the provided CiXcodeVersion
+func (t *CiWorkflowResponse_Included_Item) MergeCiXcodeVersion(v CiXcodeVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciXcodeVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmRepository returns the union data inside the CiWorkflowResponse_Included_Item as a ScmRepository
+func (t CiWorkflowResponse_Included_Item) AsScmRepository() (ScmRepository, error) {
+	var body ScmRepository
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmRepository overwrites any union data inside the CiWorkflowResponse_Included_Item as the provided ScmRepository
+func (t *CiWorkflowResponse_Included_Item) FromScmRepository(v ScmRepository) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmRepositories"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmRepository performs a merge with any union data inside the CiWorkflowResponse_Included_Item, using the provided ScmRepository
+func (t *CiWorkflowResponse_Included_Item) MergeScmRepository(v ScmRepository) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmRepositories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t CiWorkflowResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t CiWorkflowResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "ciMacOsVersions":
+		return t.AsCiMacOsVersion()
+	case "ciProducts":
+		return t.AsCiProduct()
+	case "ciXcodeVersions":
+		return t.AsCiXcodeVersion()
+	case "scmRepositories":
+		return t.AsScmRepository()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t CiWorkflowResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *CiWorkflowResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsCiMacOsVersion returns the union data inside the CiWorkflowsResponse_Included_Item as a CiMacOsVersion
+func (t CiWorkflowsResponse_Included_Item) AsCiMacOsVersion() (CiMacOsVersion, error) {
+	var body CiMacOsVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiMacOsVersion overwrites any union data inside the CiWorkflowsResponse_Included_Item as the provided CiMacOsVersion
+func (t *CiWorkflowsResponse_Included_Item) FromCiMacOsVersion(v CiMacOsVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciMacOsVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiMacOsVersion performs a merge with any union data inside the CiWorkflowsResponse_Included_Item, using the provided CiMacOsVersion
+func (t *CiWorkflowsResponse_Included_Item) MergeCiMacOsVersion(v CiMacOsVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciMacOsVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiProduct returns the union data inside the CiWorkflowsResponse_Included_Item as a CiProduct
+func (t CiWorkflowsResponse_Included_Item) AsCiProduct() (CiProduct, error) {
+	var body CiProduct
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiProduct overwrites any union data inside the CiWorkflowsResponse_Included_Item as the provided CiProduct
+func (t *CiWorkflowsResponse_Included_Item) FromCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiProduct performs a merge with any union data inside the CiWorkflowsResponse_Included_Item, using the provided CiProduct
+func (t *CiWorkflowsResponse_Included_Item) MergeCiProduct(v CiProduct) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciProducts"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsCiXcodeVersion returns the union data inside the CiWorkflowsResponse_Included_Item as a CiXcodeVersion
+func (t CiWorkflowsResponse_Included_Item) AsCiXcodeVersion() (CiXcodeVersion, error) {
+	var body CiXcodeVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromCiXcodeVersion overwrites any union data inside the CiWorkflowsResponse_Included_Item as the provided CiXcodeVersion
+func (t *CiWorkflowsResponse_Included_Item) FromCiXcodeVersion(v CiXcodeVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciXcodeVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeCiXcodeVersion performs a merge with any union data inside the CiWorkflowsResponse_Included_Item, using the provided CiXcodeVersion
+func (t *CiWorkflowsResponse_Included_Item) MergeCiXcodeVersion(v CiXcodeVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"ciXcodeVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmRepository returns the union data inside the CiWorkflowsResponse_Included_Item as a ScmRepository
+func (t CiWorkflowsResponse_Included_Item) AsScmRepository() (ScmRepository, error) {
+	var body ScmRepository
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmRepository overwrites any union data inside the CiWorkflowsResponse_Included_Item as the provided ScmRepository
+func (t *CiWorkflowsResponse_Included_Item) FromScmRepository(v ScmRepository) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmRepositories"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmRepository performs a merge with any union data inside the CiWorkflowsResponse_Included_Item, using the provided ScmRepository
+func (t *CiWorkflowsResponse_Included_Item) MergeScmRepository(v ScmRepository) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmRepositories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t CiWorkflowsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t CiWorkflowsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "ciMacOsVersions":
+		return t.AsCiMacOsVersion()
+	case "ciProducts":
+		return t.AsCiProduct()
+	case "ciXcodeVersions":
+		return t.AsCiXcodeVersion()
+	case "scmRepositories":
+		return t.AsScmRepository()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t CiWorkflowsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *CiWorkflowsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsApp returns the union data inside the EndUserLicenseAgreementResponse_Included_Item as a App
 func (t EndUserLicenseAgreementResponse_Included_Item) AsApp() (App, error) {
 	var body App
@@ -97429,6 +102658,107 @@ func (t ReviewSubmissionsResponse_Included_Item) MarshalJSON() ([]byte, error) {
 }
 
 func (t *ReviewSubmissionsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsScmGitReference returns the union data inside the ScmRepositoriesResponse_Included_Item as a ScmGitReference
+func (t ScmRepositoriesResponse_Included_Item) AsScmGitReference() (ScmGitReference, error) {
+	var body ScmGitReference
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmGitReference overwrites any union data inside the ScmRepositoriesResponse_Included_Item as the provided ScmGitReference
+func (t *ScmRepositoriesResponse_Included_Item) FromScmGitReference(v ScmGitReference) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmGitReferences"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmGitReference performs a merge with any union data inside the ScmRepositoriesResponse_Included_Item, using the provided ScmGitReference
+func (t *ScmRepositoriesResponse_Included_Item) MergeScmGitReference(v ScmGitReference) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmGitReferences"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsScmProvider returns the union data inside the ScmRepositoriesResponse_Included_Item as a ScmProvider
+func (t ScmRepositoriesResponse_Included_Item) AsScmProvider() (ScmProvider, error) {
+	var body ScmProvider
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromScmProvider overwrites any union data inside the ScmRepositoriesResponse_Included_Item as the provided ScmProvider
+func (t *ScmRepositoriesResponse_Included_Item) FromScmProvider(v ScmProvider) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmProviders"}`))
+	t.union = b
+	return err
+}
+
+// MergeScmProvider performs a merge with any union data inside the ScmRepositoriesResponse_Included_Item, using the provided ScmProvider
+func (t *ScmRepositoriesResponse_Included_Item) MergeScmProvider(v ScmProvider) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"scmProviders"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t ScmRepositoriesResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t ScmRepositoriesResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "scmGitReferences":
+		return t.AsScmGitReference()
+	case "scmProviders":
+		return t.AsScmProvider()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t ScmRepositoriesResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *ScmRepositoriesResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -101896,6 +107226,60 @@ type ClientInterface interface {
 	// CertificatesPassTypeIdGetToOneRelationship performs a GET /v1/certificates/{id}/relationships/passTypeId (the `CertificatesPassTypeIdGetToOneRelationship` operationId) request.
 	CertificatesPassTypeIdGetToOneRelationship(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// CiBuildRunsCreateInstanceWithBody performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	CiBuildRunsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiBuildRunsCreateInstance performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	CiBuildRunsCreateInstance(ctx context.Context, body CiBuildRunsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiMacOsVersionsGetCollection performs a GET /v1/ciMacOsVersions (the `CiMacOsVersionsGetCollection` operationId) request.
+	CiMacOsVersionsGetCollection(ctx context.Context, params *CiMacOsVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiProductsGetCollection performs a GET /v1/ciProducts (the `CiProductsGetCollection` operationId) request.
+	CiProductsGetCollection(ctx context.Context, params *CiProductsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiProductsAdditionalRepositoriesGetToManyRelated performs a GET /v1/ciProducts/{id}/additionalRepositories (the `CiProductsAdditionalRepositoriesGetToManyRelated` operationId) request.
+	CiProductsAdditionalRepositoriesGetToManyRelated(ctx context.Context, id string, params *CiProductsAdditionalRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiProductsBuildRunsGetToManyRelated performs a GET /v1/ciProducts/{id}/buildRuns (the `CiProductsBuildRunsGetToManyRelated` operationId) request.
+	CiProductsBuildRunsGetToManyRelated(ctx context.Context, id string, params *CiProductsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiProductsPrimaryRepositoriesGetToManyRelated performs a GET /v1/ciProducts/{id}/primaryRepositories (the `CiProductsPrimaryRepositoriesGetToManyRelated` operationId) request.
+	CiProductsPrimaryRepositoriesGetToManyRelated(ctx context.Context, id string, params *CiProductsPrimaryRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiProductsWorkflowsGetToManyRelated performs a GET /v1/ciProducts/{id}/workflows (the `CiProductsWorkflowsGetToManyRelated` operationId) request.
+	CiProductsWorkflowsGetToManyRelated(ctx context.Context, id string, params *CiProductsWorkflowsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiWorkflowsCreateInstanceWithBody performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	CiWorkflowsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiWorkflowsCreateInstance performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	CiWorkflowsCreateInstance(ctx context.Context, body CiWorkflowsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiWorkflowsDeleteInstance performs a DELETE /v1/ciWorkflows/{id} (the `CiWorkflowsDeleteInstance` operationId) request.
+	CiWorkflowsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiWorkflowsGetInstance performs a GET /v1/ciWorkflows/{id} (the `CiWorkflowsGetInstance` operationId) request.
+	CiWorkflowsGetInstance(ctx context.Context, id string, params *CiWorkflowsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiWorkflowsUpdateInstanceWithBody performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	CiWorkflowsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiWorkflowsUpdateInstance performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	CiWorkflowsUpdateInstance(ctx context.Context, id string, body CiWorkflowsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiWorkflowsBuildRunsGetToManyRelated performs a GET /v1/ciWorkflows/{id}/buildRuns (the `CiWorkflowsBuildRunsGetToManyRelated` operationId) request.
+	CiWorkflowsBuildRunsGetToManyRelated(ctx context.Context, id string, params *CiWorkflowsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// CiXcodeVersionsGetCollection performs a GET /v1/ciXcodeVersions (the `CiXcodeVersionsGetCollection` operationId) request.
+	CiXcodeVersionsGetCollection(ctx context.Context, params *CiXcodeVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// DevicesGetCollection performs a GET /v1/devices (the `DevicesGetCollection` operationId) request.
 	DevicesGetCollection(ctx context.Context, params *DevicesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -102349,6 +107733,15 @@ type ClientInterface interface {
 	// RoutingAppCoveragesUpdateInstance performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	RoutingAppCoveragesUpdateInstance(ctx context.Context, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// ScmRepositoriesGetCollection performs a GET /v1/scmRepositories (the `ScmRepositoriesGetCollection` operationId) request.
+	ScmRepositoriesGetCollection(ctx context.Context, params *ScmRepositoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// ScmRepositoriesGitReferencesGetToManyRelated performs a GET /v1/scmRepositories/{id}/gitReferences (the `ScmRepositoriesGitReferencesGetToManyRelated` operationId) request.
+	ScmRepositoriesGitReferencesGetToManyRelated(ctx context.Context, id string, params *ScmRepositoriesGitReferencesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// ScmRepositoriesPullRequestsGetToManyRelated performs a GET /v1/scmRepositories/{id}/pullRequests (the `ScmRepositoriesPullRequestsGetToManyRelated` operationId) request.
+	ScmRepositoriesPullRequestsGetToManyRelated(ctx context.Context, id string, params *ScmRepositoriesPullRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// SubscriptionAppStoreReviewScreenshotsCreateInstanceWithBody performs a POST /v1/subscriptionAppStoreReviewScreenshots (the `SubscriptionAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -108112,6 +113505,220 @@ func (c *Client) CertificatesPassTypeIdGetToOneRelationship(ctx context.Context,
 	return c.Client.Do(req)
 }
 
+// CiBuildRunsCreateInstanceWithBody performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) CiBuildRunsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiBuildRunsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiBuildRunsCreateInstance performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) CiBuildRunsCreateInstance(ctx context.Context, body CiBuildRunsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiBuildRunsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiMacOsVersionsGetCollection performs a GET /v1/ciMacOsVersions (the `CiMacOsVersionsGetCollection` operationId) request.
+func (c *Client) CiMacOsVersionsGetCollection(ctx context.Context, params *CiMacOsVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiMacOsVersionsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiProductsGetCollection performs a GET /v1/ciProducts (the `CiProductsGetCollection` operationId) request.
+func (c *Client) CiProductsGetCollection(ctx context.Context, params *CiProductsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiProductsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiProductsAdditionalRepositoriesGetToManyRelated performs a GET /v1/ciProducts/{id}/additionalRepositories (the `CiProductsAdditionalRepositoriesGetToManyRelated` operationId) request.
+func (c *Client) CiProductsAdditionalRepositoriesGetToManyRelated(ctx context.Context, id string, params *CiProductsAdditionalRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiProductsAdditionalRepositoriesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiProductsBuildRunsGetToManyRelated performs a GET /v1/ciProducts/{id}/buildRuns (the `CiProductsBuildRunsGetToManyRelated` operationId) request.
+func (c *Client) CiProductsBuildRunsGetToManyRelated(ctx context.Context, id string, params *CiProductsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiProductsBuildRunsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiProductsPrimaryRepositoriesGetToManyRelated performs a GET /v1/ciProducts/{id}/primaryRepositories (the `CiProductsPrimaryRepositoriesGetToManyRelated` operationId) request.
+func (c *Client) CiProductsPrimaryRepositoriesGetToManyRelated(ctx context.Context, id string, params *CiProductsPrimaryRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiProductsPrimaryRepositoriesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiProductsWorkflowsGetToManyRelated performs a GET /v1/ciProducts/{id}/workflows (the `CiProductsWorkflowsGetToManyRelated` operationId) request.
+func (c *Client) CiProductsWorkflowsGetToManyRelated(ctx context.Context, id string, params *CiProductsWorkflowsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiProductsWorkflowsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiWorkflowsCreateInstanceWithBody performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) CiWorkflowsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiWorkflowsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiWorkflowsCreateInstance performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) CiWorkflowsCreateInstance(ctx context.Context, body CiWorkflowsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiWorkflowsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiWorkflowsDeleteInstance performs a DELETE /v1/ciWorkflows/{id} (the `CiWorkflowsDeleteInstance` operationId) request.
+func (c *Client) CiWorkflowsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiWorkflowsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiWorkflowsGetInstance performs a GET /v1/ciWorkflows/{id} (the `CiWorkflowsGetInstance` operationId) request.
+func (c *Client) CiWorkflowsGetInstance(ctx context.Context, id string, params *CiWorkflowsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiWorkflowsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiWorkflowsUpdateInstanceWithBody performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) CiWorkflowsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiWorkflowsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiWorkflowsUpdateInstance performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) CiWorkflowsUpdateInstance(ctx context.Context, id string, body CiWorkflowsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiWorkflowsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiWorkflowsBuildRunsGetToManyRelated performs a GET /v1/ciWorkflows/{id}/buildRuns (the `CiWorkflowsBuildRunsGetToManyRelated` operationId) request.
+func (c *Client) CiWorkflowsBuildRunsGetToManyRelated(ctx context.Context, id string, params *CiWorkflowsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiWorkflowsBuildRunsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// CiXcodeVersionsGetCollection performs a GET /v1/ciXcodeVersions (the `CiXcodeVersionsGetCollection` operationId) request.
+func (c *Client) CiXcodeVersionsGetCollection(ctx context.Context, params *CiXcodeVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewCiXcodeVersionsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // DevicesGetCollection performs a GET /v1/devices (the `DevicesGetCollection` operationId) request.
 func (c *Client) DevicesGetCollection(ctx context.Context, params *DevicesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewDevicesGetCollectionRequest(c.Server, params)
@@ -109816,6 +115423,45 @@ func (c *Client) RoutingAppCoveragesUpdateInstanceWithBody(ctx context.Context, 
 // Takes a body of the `application/json` content type.
 func (c *Client) RoutingAppCoveragesUpdateInstance(ctx context.Context, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewRoutingAppCoveragesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// ScmRepositoriesGetCollection performs a GET /v1/scmRepositories (the `ScmRepositoriesGetCollection` operationId) request.
+func (c *Client) ScmRepositoriesGetCollection(ctx context.Context, params *ScmRepositoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewScmRepositoriesGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// ScmRepositoriesGitReferencesGetToManyRelated performs a GET /v1/scmRepositories/{id}/gitReferences (the `ScmRepositoriesGitReferencesGetToManyRelated` operationId) request.
+func (c *Client) ScmRepositoriesGitReferencesGetToManyRelated(ctx context.Context, id string, params *ScmRepositoriesGitReferencesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewScmRepositoriesGitReferencesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// ScmRepositoriesPullRequestsGetToManyRelated performs a GET /v1/scmRepositories/{id}/pullRequests (the `ScmRepositoriesPullRequestsGetToManyRelated` operationId) request.
+func (c *Client) ScmRepositoriesPullRequestsGetToManyRelated(ctx context.Context, id string, params *ScmRepositoriesPullRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewScmRepositoriesPullRequestsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -134467,6 +140113,1379 @@ func NewCertificatesPassTypeIdGetToOneRelationshipRequest(server string, id stri
 	return req, nil
 }
 
+// NewCiBuildRunsCreateInstanceRequest calls the generic CiBuildRunsCreateInstance builder with application/json body
+func NewCiBuildRunsCreateInstanceRequest(server string, body CiBuildRunsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewCiBuildRunsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewCiBuildRunsCreateInstanceRequestWithBody constructs an http.Request for the CiBuildRunsCreateInstance method, with any body, and a specified content type
+func NewCiBuildRunsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciBuildRuns")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewCiMacOsVersionsGetCollectionRequest constructs an http.Request for the CiMacOsVersionsGetCollection method
+func NewCiMacOsVersionsGetCollectionRequest(server string, params *CiMacOsVersionsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciMacOsVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsCiMacOsVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciMacOsVersions]", *params.FieldsCiMacOsVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiXcodeVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciXcodeVersions]", *params.FieldsCiXcodeVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitXcodeVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[xcodeVersions]", *params.LimitXcodeVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiProductsGetCollectionRequest constructs an http.Request for the CiProductsGetCollection method
+func NewCiProductsGetCollectionRequest(server string, params *CiProductsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciProducts")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterProductType != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[productType]", *params.FilterProductType, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterApp != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[app]", *params.FilterApp, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiProducts != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciProducts]", *params.FieldsCiProducts, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBundleIds != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[bundleIds]", *params.FieldsBundleIds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPrimaryRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[primaryRepositories]", *params.LimitPrimaryRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiProductsAdditionalRepositoriesGetToManyRelatedRequest constructs an http.Request for the CiProductsAdditionalRepositoriesGetToManyRelated method
+func NewCiProductsAdditionalRepositoriesGetToManyRelatedRequest(server string, id string, params *CiProductsAdditionalRepositoriesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciProducts/%s/additionalRepositories", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmProviders != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmProviders]", *params.FieldsScmProviders, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmGitReferences != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmGitReferences]", *params.FieldsScmGitReferences, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiProductsBuildRunsGetToManyRelatedRequest constructs an http.Request for the CiProductsBuildRunsGetToManyRelated method
+func NewCiProductsBuildRunsGetToManyRelatedRequest(server string, id string, params *CiProductsBuildRunsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciProducts/%s/buildRuns", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterBuilds != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[builds]", *params.FilterBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiBuildRuns != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciBuildRuns]", *params.FieldsCiBuildRuns, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBuilds != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[builds]", *params.FieldsBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiWorkflows != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciWorkflows]", *params.FieldsCiWorkflows, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiProducts != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciProducts]", *params.FieldsCiProducts, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmGitReferences != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmGitReferences]", *params.FieldsScmGitReferences, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmPullRequests != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmPullRequests]", *params.FieldsScmPullRequests, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitBuilds != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[builds]", *params.LimitBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiProductsPrimaryRepositoriesGetToManyRelatedRequest constructs an http.Request for the CiProductsPrimaryRepositoriesGetToManyRelated method
+func NewCiProductsPrimaryRepositoriesGetToManyRelatedRequest(server string, id string, params *CiProductsPrimaryRepositoriesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciProducts/%s/primaryRepositories", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmProviders != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmProviders]", *params.FieldsScmProviders, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmGitReferences != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmGitReferences]", *params.FieldsScmGitReferences, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiProductsWorkflowsGetToManyRelatedRequest constructs an http.Request for the CiProductsWorkflowsGetToManyRelated method
+func NewCiProductsWorkflowsGetToManyRelatedRequest(server string, id string, params *CiProductsWorkflowsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciProducts/%s/workflows", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsCiWorkflows != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciWorkflows]", *params.FieldsCiWorkflows, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiProducts != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciProducts]", *params.FieldsCiProducts, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiXcodeVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciXcodeVersions]", *params.FieldsCiXcodeVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiMacOsVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciMacOsVersions]", *params.FieldsCiMacOsVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiWorkflowsCreateInstanceRequest calls the generic CiWorkflowsCreateInstance builder with application/json body
+func NewCiWorkflowsCreateInstanceRequest(server string, body CiWorkflowsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewCiWorkflowsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewCiWorkflowsCreateInstanceRequestWithBody constructs an http.Request for the CiWorkflowsCreateInstance method, with any body, and a specified content type
+func NewCiWorkflowsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciWorkflows")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewCiWorkflowsDeleteInstanceRequest constructs an http.Request for the CiWorkflowsDeleteInstance method
+func NewCiWorkflowsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciWorkflows/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiWorkflowsGetInstanceRequest constructs an http.Request for the CiWorkflowsGetInstance method
+func NewCiWorkflowsGetInstanceRequest(server string, id string, params *CiWorkflowsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciWorkflows/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsCiWorkflows != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciWorkflows]", *params.FieldsCiWorkflows, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiProducts != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciProducts]", *params.FieldsCiProducts, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiXcodeVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciXcodeVersions]", *params.FieldsCiXcodeVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiMacOsVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciMacOsVersions]", *params.FieldsCiMacOsVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiWorkflowsUpdateInstanceRequest calls the generic CiWorkflowsUpdateInstance builder with application/json body
+func NewCiWorkflowsUpdateInstanceRequest(server string, id string, body CiWorkflowsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewCiWorkflowsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewCiWorkflowsUpdateInstanceRequestWithBody constructs an http.Request for the CiWorkflowsUpdateInstance method, with any body, and a specified content type
+func NewCiWorkflowsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciWorkflows/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewCiWorkflowsBuildRunsGetToManyRelatedRequest constructs an http.Request for the CiWorkflowsBuildRunsGetToManyRelated method
+func NewCiWorkflowsBuildRunsGetToManyRelatedRequest(server string, id string, params *CiWorkflowsBuildRunsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciWorkflows/%s/buildRuns", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterBuilds != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[builds]", *params.FilterBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Sort != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "sort", *params.Sort, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiBuildRuns != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciBuildRuns]", *params.FieldsCiBuildRuns, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBuilds != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[builds]", *params.FieldsBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiWorkflows != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciWorkflows]", *params.FieldsCiWorkflows, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiProducts != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciProducts]", *params.FieldsCiProducts, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmGitReferences != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmGitReferences]", *params.FieldsScmGitReferences, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmPullRequests != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmPullRequests]", *params.FieldsScmPullRequests, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitBuilds != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[builds]", *params.LimitBuilds, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewCiXcodeVersionsGetCollectionRequest constructs an http.Request for the CiXcodeVersionsGetCollection method
+func NewCiXcodeVersionsGetCollectionRequest(server string, params *CiXcodeVersionsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/ciXcodeVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsCiXcodeVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciXcodeVersions]", *params.FieldsCiXcodeVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsCiMacOsVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[ciMacOsVersions]", *params.FieldsCiMacOsVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitMacOsVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[macOsVersions]", *params.LimitMacOsVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewDevicesGetCollectionRequest constructs an http.Request for the DevicesGetCollection method
 func NewDevicesGetCollectionRequest(server string, params *DevicesGetCollectionParams) (*http.Request, error) {
 	var err error
@@ -140739,6 +147758,314 @@ func NewRoutingAppCoveragesUpdateInstanceRequestWithBody(server string, id strin
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewScmRepositoriesGetCollectionRequest constructs an http.Request for the ScmRepositoriesGetCollection method
+func NewScmRepositoriesGetCollectionRequest(server string, params *ScmRepositoriesGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/scmRepositories")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmProviders != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmProviders]", *params.FieldsScmProviders, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmGitReferences != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmGitReferences]", *params.FieldsScmGitReferences, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewScmRepositoriesGitReferencesGetToManyRelatedRequest constructs an http.Request for the ScmRepositoriesGitReferencesGetToManyRelated method
+func NewScmRepositoriesGitReferencesGetToManyRelatedRequest(server string, id string, params *ScmRepositoriesGitReferencesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/scmRepositories/%s/gitReferences", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsScmGitReferences != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmGitReferences]", *params.FieldsScmGitReferences, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewScmRepositoriesPullRequestsGetToManyRelatedRequest constructs an http.Request for the ScmRepositoriesPullRequestsGetToManyRelated method
+func NewScmRepositoriesPullRequestsGetToManyRelatedRequest(server string, id string, params *ScmRepositoriesPullRequestsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/scmRepositories/%s/pullRequests", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsScmPullRequests != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmPullRequests]", *params.FieldsScmPullRequests, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsScmRepositories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[scmRepositories]", *params.FieldsScmRepositories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -151167,6 +158494,86 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	CertificatesPassTypeIdGetToOneRelationshipWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*CertificatesPassTypeIdGetToOneRelationshipResponse, error)
 
+	// CiBuildRunsCreateInstanceWithBodyWithResponse performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiBuildRunsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*CiBuildRunsCreateInstanceResponse, error)
+
+	// CiBuildRunsCreateInstanceWithResponse performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	CiBuildRunsCreateInstanceWithResponse(ctx context.Context, body CiBuildRunsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*CiBuildRunsCreateInstanceResponse, error)
+
+	// CiMacOsVersionsGetCollectionWithResponse performs a GET /v1/ciMacOsVersions (the `CiMacOsVersionsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiMacOsVersionsGetCollectionWithResponse(ctx context.Context, params *CiMacOsVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*CiMacOsVersionsGetCollectionResponse, error)
+
+	// CiProductsGetCollectionWithResponse performs a GET /v1/ciProducts (the `CiProductsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiProductsGetCollectionWithResponse(ctx context.Context, params *CiProductsGetCollectionParams, reqEditors ...RequestEditorFn) (*CiProductsGetCollectionResponse, error)
+
+	// CiProductsAdditionalRepositoriesGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/additionalRepositories (the `CiProductsAdditionalRepositoriesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiProductsAdditionalRepositoriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsAdditionalRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsAdditionalRepositoriesGetToManyRelatedResponse, error)
+
+	// CiProductsBuildRunsGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/buildRuns (the `CiProductsBuildRunsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiProductsBuildRunsGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsBuildRunsGetToManyRelatedResponse, error)
+
+	// CiProductsPrimaryRepositoriesGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/primaryRepositories (the `CiProductsPrimaryRepositoriesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiProductsPrimaryRepositoriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsPrimaryRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsPrimaryRepositoriesGetToManyRelatedResponse, error)
+
+	// CiProductsWorkflowsGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/workflows (the `CiProductsWorkflowsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiProductsWorkflowsGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsWorkflowsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsWorkflowsGetToManyRelatedResponse, error)
+
+	// CiWorkflowsCreateInstanceWithBodyWithResponse performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiWorkflowsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*CiWorkflowsCreateInstanceResponse, error)
+
+	// CiWorkflowsCreateInstanceWithResponse performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	CiWorkflowsCreateInstanceWithResponse(ctx context.Context, body CiWorkflowsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*CiWorkflowsCreateInstanceResponse, error)
+
+	// CiWorkflowsDeleteInstanceWithResponse performs a DELETE /v1/ciWorkflows/{id} (the `CiWorkflowsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiWorkflowsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*CiWorkflowsDeleteInstanceResponse, error)
+
+	// CiWorkflowsGetInstanceWithResponse performs a GET /v1/ciWorkflows/{id} (the `CiWorkflowsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiWorkflowsGetInstanceWithResponse(ctx context.Context, id string, params *CiWorkflowsGetInstanceParams, reqEditors ...RequestEditorFn) (*CiWorkflowsGetInstanceResponse, error)
+
+	// CiWorkflowsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiWorkflowsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*CiWorkflowsUpdateInstanceResponse, error)
+
+	// CiWorkflowsUpdateInstanceWithResponse performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	CiWorkflowsUpdateInstanceWithResponse(ctx context.Context, id string, body CiWorkflowsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*CiWorkflowsUpdateInstanceResponse, error)
+
+	// CiWorkflowsBuildRunsGetToManyRelatedWithResponse performs a GET /v1/ciWorkflows/{id}/buildRuns (the `CiWorkflowsBuildRunsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiWorkflowsBuildRunsGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiWorkflowsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiWorkflowsBuildRunsGetToManyRelatedResponse, error)
+
+	// CiXcodeVersionsGetCollectionWithResponse performs a GET /v1/ciXcodeVersions (the `CiXcodeVersionsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	CiXcodeVersionsGetCollectionWithResponse(ctx context.Context, params *CiXcodeVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*CiXcodeVersionsGetCollectionResponse, error)
+
 	// DevicesGetCollectionWithResponse performs a GET /v1/devices (the `DevicesGetCollection` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -151796,6 +159203,21 @@ type ClientWithResponsesInterface interface {
 	// RoutingAppCoveragesUpdateInstanceWithResponse performs a PATCH /v1/routingAppCoverages/{id} (the `RoutingAppCoveragesUpdateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	RoutingAppCoveragesUpdateInstanceWithResponse(ctx context.Context, id string, body RoutingAppCoveragesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RoutingAppCoveragesUpdateInstanceResponse, error)
+
+	// ScmRepositoriesGetCollectionWithResponse performs a GET /v1/scmRepositories (the `ScmRepositoriesGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	ScmRepositoriesGetCollectionWithResponse(ctx context.Context, params *ScmRepositoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*ScmRepositoriesGetCollectionResponse, error)
+
+	// ScmRepositoriesGitReferencesGetToManyRelatedWithResponse performs a GET /v1/scmRepositories/{id}/gitReferences (the `ScmRepositoriesGitReferencesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	ScmRepositoriesGitReferencesGetToManyRelatedWithResponse(ctx context.Context, id string, params *ScmRepositoriesGitReferencesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ScmRepositoriesGitReferencesGetToManyRelatedResponse, error)
+
+	// ScmRepositoriesPullRequestsGetToManyRelatedWithResponse performs a GET /v1/scmRepositories/{id}/pullRequests (the `ScmRepositoriesPullRequestsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	ScmRepositoriesPullRequestsGetToManyRelatedWithResponse(ctx context.Context, id string, params *ScmRepositoriesPullRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ScmRepositoriesPullRequestsGetToManyRelatedResponse, error)
 
 	// SubscriptionAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionAppStoreReviewScreenshots (the `SubscriptionAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -173549,6 +180971,994 @@ func (r CertificatesPassTypeIdGetToOneRelationshipResponse) ContentType() string
 	return ""
 }
 
+type CiBuildRunsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *CiBuildRunResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r CiBuildRunsCreateInstanceResponse) GetJSON201() *CiBuildRunResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiBuildRunsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiBuildRunsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiBuildRunsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r CiBuildRunsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r CiBuildRunsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiBuildRunsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiBuildRunsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiBuildRunsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiBuildRunsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiBuildRunsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiMacOsVersionsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiMacOsVersionsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiMacOsVersionsGetCollectionResponse) GetJSON200() *CiMacOsVersionsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiMacOsVersionsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiMacOsVersionsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiMacOsVersionsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiMacOsVersionsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiMacOsVersionsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiMacOsVersionsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiMacOsVersionsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiMacOsVersionsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiProductsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiProductsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiProductsGetCollectionResponse) GetJSON200() *CiProductsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiProductsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiProductsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiProductsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiProductsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiProductsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiProductsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiProductsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiProductsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiProductsAdditionalRepositoriesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *ScmRepositoriesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) GetJSON200() *ScmRepositoriesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiProductsAdditionalRepositoriesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiProductsBuildRunsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiBuildRunsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiProductsBuildRunsGetToManyRelatedResponse) GetJSON200() *CiBuildRunsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiProductsBuildRunsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiProductsBuildRunsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiProductsBuildRunsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiProductsBuildRunsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiProductsBuildRunsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiProductsBuildRunsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiProductsBuildRunsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiProductsBuildRunsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiProductsBuildRunsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiProductsPrimaryRepositoriesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *ScmRepositoriesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) GetJSON200() *ScmRepositoriesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiProductsPrimaryRepositoriesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiProductsWorkflowsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiWorkflowsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiProductsWorkflowsGetToManyRelatedResponse) GetJSON200() *CiWorkflowsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiProductsWorkflowsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiProductsWorkflowsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiProductsWorkflowsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiProductsWorkflowsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiProductsWorkflowsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiProductsWorkflowsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiProductsWorkflowsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiProductsWorkflowsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiProductsWorkflowsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiWorkflowsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *CiWorkflowResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r CiWorkflowsCreateInstanceResponse) GetJSON201() *CiWorkflowResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiWorkflowsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiWorkflowsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiWorkflowsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r CiWorkflowsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r CiWorkflowsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiWorkflowsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiWorkflowsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiWorkflowsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiWorkflowsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiWorkflowsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiWorkflowsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiWorkflowsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiWorkflowsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiWorkflowsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiWorkflowsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiWorkflowsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiWorkflowsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiWorkflowsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiWorkflowsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiWorkflowsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiWorkflowsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiWorkflowResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiWorkflowsGetInstanceResponse) GetJSON200() *CiWorkflowResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiWorkflowsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiWorkflowsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiWorkflowsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiWorkflowsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiWorkflowsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiWorkflowsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiWorkflowsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiWorkflowsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiWorkflowsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiWorkflowsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiWorkflowResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON200() *CiWorkflowResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiWorkflowsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiWorkflowsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiWorkflowsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiWorkflowsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiWorkflowsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiWorkflowsBuildRunsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiBuildRunsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) GetJSON200() *CiBuildRunsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiWorkflowsBuildRunsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type CiXcodeVersionsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *CiXcodeVersionsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r CiXcodeVersionsGetCollectionResponse) GetJSON200() *CiXcodeVersionsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r CiXcodeVersionsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r CiXcodeVersionsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r CiXcodeVersionsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r CiXcodeVersionsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r CiXcodeVersionsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r CiXcodeVersionsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r CiXcodeVersionsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r CiXcodeVersionsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type DevicesGetCollectionResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -180462,6 +188872,227 @@ func (r RoutingAppCoveragesUpdateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r RoutingAppCoveragesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type ScmRepositoriesGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *ScmRepositoriesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r ScmRepositoriesGetCollectionResponse) GetJSON200() *ScmRepositoriesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r ScmRepositoriesGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r ScmRepositoriesGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r ScmRepositoriesGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r ScmRepositoriesGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r ScmRepositoriesGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r ScmRepositoriesGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r ScmRepositoriesGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r ScmRepositoriesGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type ScmRepositoriesGitReferencesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *ScmGitReferencesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) GetJSON200() *ScmGitReferencesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r ScmRepositoriesGitReferencesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type ScmRepositoriesPullRequestsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *ScmPullRequestsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) GetJSON200() *ScmPullRequestsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r ScmRepositoriesPullRequestsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -193896,6 +202527,182 @@ func (c *ClientWithResponses) CertificatesPassTypeIdGetToOneRelationshipWithResp
 	return ParseCertificatesPassTypeIdGetToOneRelationshipResponse(rsp)
 }
 
+// CiBuildRunsCreateInstanceWithBodyWithResponse performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiBuildRunsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*CiBuildRunsCreateInstanceResponse, error) {
+	rsp, err := c.CiBuildRunsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiBuildRunsCreateInstanceResponse(rsp)
+}
+
+// CiBuildRunsCreateInstanceWithResponse performs a POST /v1/ciBuildRuns (the `CiBuildRunsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiBuildRunsCreateInstanceWithResponse(ctx context.Context, body CiBuildRunsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*CiBuildRunsCreateInstanceResponse, error) {
+	rsp, err := c.CiBuildRunsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiBuildRunsCreateInstanceResponse(rsp)
+}
+
+// CiMacOsVersionsGetCollectionWithResponse performs a GET /v1/ciMacOsVersions (the `CiMacOsVersionsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiMacOsVersionsGetCollectionWithResponse(ctx context.Context, params *CiMacOsVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*CiMacOsVersionsGetCollectionResponse, error) {
+	rsp, err := c.CiMacOsVersionsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiMacOsVersionsGetCollectionResponse(rsp)
+}
+
+// CiProductsGetCollectionWithResponse performs a GET /v1/ciProducts (the `CiProductsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiProductsGetCollectionWithResponse(ctx context.Context, params *CiProductsGetCollectionParams, reqEditors ...RequestEditorFn) (*CiProductsGetCollectionResponse, error) {
+	rsp, err := c.CiProductsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiProductsGetCollectionResponse(rsp)
+}
+
+// CiProductsAdditionalRepositoriesGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/additionalRepositories (the `CiProductsAdditionalRepositoriesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiProductsAdditionalRepositoriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsAdditionalRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsAdditionalRepositoriesGetToManyRelatedResponse, error) {
+	rsp, err := c.CiProductsAdditionalRepositoriesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiProductsAdditionalRepositoriesGetToManyRelatedResponse(rsp)
+}
+
+// CiProductsBuildRunsGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/buildRuns (the `CiProductsBuildRunsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiProductsBuildRunsGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsBuildRunsGetToManyRelatedResponse, error) {
+	rsp, err := c.CiProductsBuildRunsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiProductsBuildRunsGetToManyRelatedResponse(rsp)
+}
+
+// CiProductsPrimaryRepositoriesGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/primaryRepositories (the `CiProductsPrimaryRepositoriesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiProductsPrimaryRepositoriesGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsPrimaryRepositoriesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsPrimaryRepositoriesGetToManyRelatedResponse, error) {
+	rsp, err := c.CiProductsPrimaryRepositoriesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiProductsPrimaryRepositoriesGetToManyRelatedResponse(rsp)
+}
+
+// CiProductsWorkflowsGetToManyRelatedWithResponse performs a GET /v1/ciProducts/{id}/workflows (the `CiProductsWorkflowsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiProductsWorkflowsGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiProductsWorkflowsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiProductsWorkflowsGetToManyRelatedResponse, error) {
+	rsp, err := c.CiProductsWorkflowsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiProductsWorkflowsGetToManyRelatedResponse(rsp)
+}
+
+// CiWorkflowsCreateInstanceWithBodyWithResponse performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiWorkflowsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*CiWorkflowsCreateInstanceResponse, error) {
+	rsp, err := c.CiWorkflowsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiWorkflowsCreateInstanceResponse(rsp)
+}
+
+// CiWorkflowsCreateInstanceWithResponse performs a POST /v1/ciWorkflows (the `CiWorkflowsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiWorkflowsCreateInstanceWithResponse(ctx context.Context, body CiWorkflowsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*CiWorkflowsCreateInstanceResponse, error) {
+	rsp, err := c.CiWorkflowsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiWorkflowsCreateInstanceResponse(rsp)
+}
+
+// CiWorkflowsDeleteInstanceWithResponse performs a DELETE /v1/ciWorkflows/{id} (the `CiWorkflowsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiWorkflowsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*CiWorkflowsDeleteInstanceResponse, error) {
+	rsp, err := c.CiWorkflowsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiWorkflowsDeleteInstanceResponse(rsp)
+}
+
+// CiWorkflowsGetInstanceWithResponse performs a GET /v1/ciWorkflows/{id} (the `CiWorkflowsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiWorkflowsGetInstanceWithResponse(ctx context.Context, id string, params *CiWorkflowsGetInstanceParams, reqEditors ...RequestEditorFn) (*CiWorkflowsGetInstanceResponse, error) {
+	rsp, err := c.CiWorkflowsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiWorkflowsGetInstanceResponse(rsp)
+}
+
+// CiWorkflowsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiWorkflowsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*CiWorkflowsUpdateInstanceResponse, error) {
+	rsp, err := c.CiWorkflowsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiWorkflowsUpdateInstanceResponse(rsp)
+}
+
+// CiWorkflowsUpdateInstanceWithResponse performs a PATCH /v1/ciWorkflows/{id} (the `CiWorkflowsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiWorkflowsUpdateInstanceWithResponse(ctx context.Context, id string, body CiWorkflowsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*CiWorkflowsUpdateInstanceResponse, error) {
+	rsp, err := c.CiWorkflowsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiWorkflowsUpdateInstanceResponse(rsp)
+}
+
+// CiWorkflowsBuildRunsGetToManyRelatedWithResponse performs a GET /v1/ciWorkflows/{id}/buildRuns (the `CiWorkflowsBuildRunsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiWorkflowsBuildRunsGetToManyRelatedWithResponse(ctx context.Context, id string, params *CiWorkflowsBuildRunsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*CiWorkflowsBuildRunsGetToManyRelatedResponse, error) {
+	rsp, err := c.CiWorkflowsBuildRunsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiWorkflowsBuildRunsGetToManyRelatedResponse(rsp)
+}
+
+// CiXcodeVersionsGetCollectionWithResponse performs a GET /v1/ciXcodeVersions (the `CiXcodeVersionsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) CiXcodeVersionsGetCollectionWithResponse(ctx context.Context, params *CiXcodeVersionsGetCollectionParams, reqEditors ...RequestEditorFn) (*CiXcodeVersionsGetCollectionResponse, error) {
+	rsp, err := c.CiXcodeVersionsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseCiXcodeVersionsGetCollectionResponse(rsp)
+}
+
 // DevicesGetCollectionWithResponse performs a GET /v1/devices (the `DevicesGetCollection` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -195280,6 +204087,39 @@ func (c *ClientWithResponses) RoutingAppCoveragesUpdateInstanceWithResponse(ctx 
 		return nil, err
 	}
 	return ParseRoutingAppCoveragesUpdateInstanceResponse(rsp)
+}
+
+// ScmRepositoriesGetCollectionWithResponse performs a GET /v1/scmRepositories (the `ScmRepositoriesGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) ScmRepositoriesGetCollectionWithResponse(ctx context.Context, params *ScmRepositoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*ScmRepositoriesGetCollectionResponse, error) {
+	rsp, err := c.ScmRepositoriesGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseScmRepositoriesGetCollectionResponse(rsp)
+}
+
+// ScmRepositoriesGitReferencesGetToManyRelatedWithResponse performs a GET /v1/scmRepositories/{id}/gitReferences (the `ScmRepositoriesGitReferencesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) ScmRepositoriesGitReferencesGetToManyRelatedWithResponse(ctx context.Context, id string, params *ScmRepositoriesGitReferencesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ScmRepositoriesGitReferencesGetToManyRelatedResponse, error) {
+	rsp, err := c.ScmRepositoriesGitReferencesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseScmRepositoriesGitReferencesGetToManyRelatedResponse(rsp)
+}
+
+// ScmRepositoriesPullRequestsGetToManyRelatedWithResponse performs a GET /v1/scmRepositories/{id}/pullRequests (the `ScmRepositoriesPullRequestsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) ScmRepositoriesPullRequestsGetToManyRelatedWithResponse(ctx context.Context, id string, params *ScmRepositoriesPullRequestsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*ScmRepositoriesPullRequestsGetToManyRelatedResponse, error) {
+	rsp, err := c.ScmRepositoriesPullRequestsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseScmRepositoriesPullRequestsGetToManyRelatedResponse(rsp)
 }
 
 // SubscriptionAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/subscriptionAppStoreReviewScreenshots (the `SubscriptionAppStoreReviewScreenshotsCreateInstance` operationId) request,
@@ -214246,6 +223086,802 @@ func ParseCertificatesPassTypeIdGetToOneRelationshipResponse(rsp *http.Response)
 	return response, nil
 }
 
+// ParseCiBuildRunsCreateInstanceResponse parses an HTTP response from a CiBuildRunsCreateInstanceWithResponse call
+func ParseCiBuildRunsCreateInstanceResponse(rsp *http.Response) (*CiBuildRunsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiBuildRunsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest CiBuildRunResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiMacOsVersionsGetCollectionResponse parses an HTTP response from a CiMacOsVersionsGetCollectionWithResponse call
+func ParseCiMacOsVersionsGetCollectionResponse(rsp *http.Response) (*CiMacOsVersionsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiMacOsVersionsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiMacOsVersionsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiProductsGetCollectionResponse parses an HTTP response from a CiProductsGetCollectionWithResponse call
+func ParseCiProductsGetCollectionResponse(rsp *http.Response) (*CiProductsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiProductsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiProductsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiProductsAdditionalRepositoriesGetToManyRelatedResponse parses an HTTP response from a CiProductsAdditionalRepositoriesGetToManyRelatedWithResponse call
+func ParseCiProductsAdditionalRepositoriesGetToManyRelatedResponse(rsp *http.Response) (*CiProductsAdditionalRepositoriesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiProductsAdditionalRepositoriesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest ScmRepositoriesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiProductsBuildRunsGetToManyRelatedResponse parses an HTTP response from a CiProductsBuildRunsGetToManyRelatedWithResponse call
+func ParseCiProductsBuildRunsGetToManyRelatedResponse(rsp *http.Response) (*CiProductsBuildRunsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiProductsBuildRunsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiBuildRunsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiProductsPrimaryRepositoriesGetToManyRelatedResponse parses an HTTP response from a CiProductsPrimaryRepositoriesGetToManyRelatedWithResponse call
+func ParseCiProductsPrimaryRepositoriesGetToManyRelatedResponse(rsp *http.Response) (*CiProductsPrimaryRepositoriesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiProductsPrimaryRepositoriesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest ScmRepositoriesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiProductsWorkflowsGetToManyRelatedResponse parses an HTTP response from a CiProductsWorkflowsGetToManyRelatedWithResponse call
+func ParseCiProductsWorkflowsGetToManyRelatedResponse(rsp *http.Response) (*CiProductsWorkflowsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiProductsWorkflowsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiWorkflowsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiWorkflowsCreateInstanceResponse parses an HTTP response from a CiWorkflowsCreateInstanceWithResponse call
+func ParseCiWorkflowsCreateInstanceResponse(rsp *http.Response) (*CiWorkflowsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiWorkflowsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest CiWorkflowResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiWorkflowsDeleteInstanceResponse parses an HTTP response from a CiWorkflowsDeleteInstanceWithResponse call
+func ParseCiWorkflowsDeleteInstanceResponse(rsp *http.Response) (*CiWorkflowsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiWorkflowsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiWorkflowsGetInstanceResponse parses an HTTP response from a CiWorkflowsGetInstanceWithResponse call
+func ParseCiWorkflowsGetInstanceResponse(rsp *http.Response) (*CiWorkflowsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiWorkflowsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiWorkflowResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiWorkflowsUpdateInstanceResponse parses an HTTP response from a CiWorkflowsUpdateInstanceWithResponse call
+func ParseCiWorkflowsUpdateInstanceResponse(rsp *http.Response) (*CiWorkflowsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiWorkflowsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiWorkflowResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiWorkflowsBuildRunsGetToManyRelatedResponse parses an HTTP response from a CiWorkflowsBuildRunsGetToManyRelatedWithResponse call
+func ParseCiWorkflowsBuildRunsGetToManyRelatedResponse(rsp *http.Response) (*CiWorkflowsBuildRunsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiWorkflowsBuildRunsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiBuildRunsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseCiXcodeVersionsGetCollectionResponse parses an HTTP response from a CiXcodeVersionsGetCollectionWithResponse call
+func ParseCiXcodeVersionsGetCollectionResponse(rsp *http.Response) (*CiXcodeVersionsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &CiXcodeVersionsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest CiXcodeVersionsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseDevicesGetCollectionResponse parses an HTTP response from a DevicesGetCollectionWithResponse call
 func ParseDevicesGetCollectionResponse(rsp *http.Response) (*DevicesGetCollectionResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -219874,6 +229510,182 @@ func ParseRoutingAppCoveragesUpdateInstanceResponse(rsp *http.Response) (*Routin
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseScmRepositoriesGetCollectionResponse parses an HTTP response from a ScmRepositoriesGetCollectionWithResponse call
+func ParseScmRepositoriesGetCollectionResponse(rsp *http.Response) (*ScmRepositoriesGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &ScmRepositoriesGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest ScmRepositoriesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseScmRepositoriesGitReferencesGetToManyRelatedResponse parses an HTTP response from a ScmRepositoriesGitReferencesGetToManyRelatedWithResponse call
+func ParseScmRepositoriesGitReferencesGetToManyRelatedResponse(rsp *http.Response) (*ScmRepositoriesGitReferencesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &ScmRepositoriesGitReferencesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest ScmGitReferencesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseScmRepositoriesPullRequestsGetToManyRelatedResponse parses an HTTP response from a ScmRepositoriesPullRequestsGetToManyRelatedWithResponse call
+func ParseScmRepositoriesPullRequestsGetToManyRelatedResponse(rsp *http.Response) (*ScmRepositoriesPullRequestsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &ScmRepositoriesPullRequestsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest ScmPullRequestsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -228281,6 +238093,45 @@ type ServerInterface interface {
 	// (GET /v1/certificates/{id}/relationships/passTypeId)
 	CertificatesPassTypeIdGetToOneRelationship(w http.ResponseWriter, r *http.Request, id string)
 
+	// (POST /v1/ciBuildRuns)
+	CiBuildRunsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/ciMacOsVersions)
+	CiMacOsVersionsGetCollection(w http.ResponseWriter, r *http.Request, params CiMacOsVersionsGetCollectionParams)
+
+	// (GET /v1/ciProducts)
+	CiProductsGetCollection(w http.ResponseWriter, r *http.Request, params CiProductsGetCollectionParams)
+
+	// (GET /v1/ciProducts/{id}/additionalRepositories)
+	CiProductsAdditionalRepositoriesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params CiProductsAdditionalRepositoriesGetToManyRelatedParams)
+
+	// (GET /v1/ciProducts/{id}/buildRuns)
+	CiProductsBuildRunsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params CiProductsBuildRunsGetToManyRelatedParams)
+
+	// (GET /v1/ciProducts/{id}/primaryRepositories)
+	CiProductsPrimaryRepositoriesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params CiProductsPrimaryRepositoriesGetToManyRelatedParams)
+
+	// (GET /v1/ciProducts/{id}/workflows)
+	CiProductsWorkflowsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params CiProductsWorkflowsGetToManyRelatedParams)
+
+	// (POST /v1/ciWorkflows)
+	CiWorkflowsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/ciWorkflows/{id})
+	CiWorkflowsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/ciWorkflows/{id})
+	CiWorkflowsGetInstance(w http.ResponseWriter, r *http.Request, id string, params CiWorkflowsGetInstanceParams)
+
+	// (PATCH /v1/ciWorkflows/{id})
+	CiWorkflowsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/ciWorkflows/{id}/buildRuns)
+	CiWorkflowsBuildRunsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params CiWorkflowsBuildRunsGetToManyRelatedParams)
+
+	// (GET /v1/ciXcodeVersions)
+	CiXcodeVersionsGetCollection(w http.ResponseWriter, r *http.Request, params CiXcodeVersionsGetCollectionParams)
+
 	// (GET /v1/devices)
 	DevicesGetCollection(w http.ResponseWriter, r *http.Request, params DevicesGetCollectionParams)
 
@@ -228544,6 +238395,15 @@ type ServerInterface interface {
 
 	// (PATCH /v1/routingAppCoverages/{id})
 	RoutingAppCoveragesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/scmRepositories)
+	ScmRepositoriesGetCollection(w http.ResponseWriter, r *http.Request, params ScmRepositoriesGetCollectionParams)
+
+	// (GET /v1/scmRepositories/{id}/gitReferences)
+	ScmRepositoriesGitReferencesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params ScmRepositoriesGitReferencesGetToManyRelatedParams)
+
+	// (GET /v1/scmRepositories/{id}/pullRequests)
+	ScmRepositoriesPullRequestsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params ScmRepositoriesPullRequestsGetToManyRelatedParams)
 
 	// (POST /v1/subscriptionAppStoreReviewScreenshots)
 	SubscriptionAppStoreReviewScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -246825,6 +256685,1178 @@ func (siw *ServerInterfaceWrapper) CertificatesPassTypeIdGetToOneRelationship(w 
 	handler.ServeHTTP(w, r)
 }
 
+// CiBuildRunsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) CiBuildRunsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiBuildRunsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiMacOsVersionsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) CiMacOsVersionsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiMacOsVersionsGetCollectionParams
+
+	// ------------- Optional query parameter "fields[ciMacOsVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciMacOsVersions]", r.URL.Query(), &params.FieldsCiMacOsVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciMacOsVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciMacOsVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciXcodeVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciXcodeVersions]", r.URL.Query(), &params.FieldsCiXcodeVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciXcodeVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciXcodeVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[xcodeVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[xcodeVersions]", r.URL.Query(), &params.LimitXcodeVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[xcodeVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[xcodeVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiMacOsVersionsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiProductsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) CiProductsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiProductsGetCollectionParams
+
+	// ------------- Optional query parameter "filter[productType]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[productType]", r.URL.Query(), &params.FilterProductType, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[productType]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[productType]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[app]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[app]", r.URL.Query(), &params.FilterApp, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[app]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[app]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciProducts]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciProducts]", r.URL.Query(), &params.FieldsCiProducts, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciProducts]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciProducts]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[bundleIds]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[bundleIds]", r.URL.Query(), &params.FieldsBundleIds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[bundleIds]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[bundleIds]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[primaryRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[primaryRepositories]", r.URL.Query(), &params.LimitPrimaryRepositories, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[primaryRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[primaryRepositories]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiProductsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiProductsAdditionalRepositoriesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) CiProductsAdditionalRepositoriesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiProductsAdditionalRepositoriesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmProviders]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmProviders]", r.URL.Query(), &params.FieldsScmProviders, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmProviders]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmProviders]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmGitReferences]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmGitReferences]", r.URL.Query(), &params.FieldsScmGitReferences, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmGitReferences]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmGitReferences]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiProductsAdditionalRepositoriesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiProductsBuildRunsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) CiProductsBuildRunsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiProductsBuildRunsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[builds]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[builds]", r.URL.Query(), &params.FilterBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[builds]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[builds]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciBuildRuns]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciBuildRuns]", r.URL.Query(), &params.FieldsCiBuildRuns, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciBuildRuns]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciBuildRuns]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[builds]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[builds]", r.URL.Query(), &params.FieldsBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[builds]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[builds]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciWorkflows]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciWorkflows]", r.URL.Query(), &params.FieldsCiWorkflows, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciWorkflows]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciWorkflows]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciProducts]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciProducts]", r.URL.Query(), &params.FieldsCiProducts, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciProducts]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciProducts]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmGitReferences]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmGitReferences]", r.URL.Query(), &params.FieldsScmGitReferences, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmGitReferences]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmGitReferences]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmPullRequests]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmPullRequests]", r.URL.Query(), &params.FieldsScmPullRequests, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmPullRequests]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmPullRequests]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[builds]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[builds]", r.URL.Query(), &params.LimitBuilds, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[builds]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[builds]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiProductsBuildRunsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiProductsPrimaryRepositoriesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) CiProductsPrimaryRepositoriesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiProductsPrimaryRepositoriesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmProviders]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmProviders]", r.URL.Query(), &params.FieldsScmProviders, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmProviders]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmProviders]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmGitReferences]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmGitReferences]", r.URL.Query(), &params.FieldsScmGitReferences, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmGitReferences]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmGitReferences]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiProductsPrimaryRepositoriesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiProductsWorkflowsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) CiProductsWorkflowsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiProductsWorkflowsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[ciWorkflows]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciWorkflows]", r.URL.Query(), &params.FieldsCiWorkflows, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciWorkflows]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciWorkflows]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciProducts]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciProducts]", r.URL.Query(), &params.FieldsCiProducts, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciProducts]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciProducts]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciXcodeVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciXcodeVersions]", r.URL.Query(), &params.FieldsCiXcodeVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciXcodeVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciXcodeVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciMacOsVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciMacOsVersions]", r.URL.Query(), &params.FieldsCiMacOsVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciMacOsVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciMacOsVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiProductsWorkflowsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiWorkflowsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) CiWorkflowsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiWorkflowsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiWorkflowsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) CiWorkflowsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiWorkflowsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiWorkflowsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) CiWorkflowsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiWorkflowsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[ciWorkflows]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciWorkflows]", r.URL.Query(), &params.FieldsCiWorkflows, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciWorkflows]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciWorkflows]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciProducts]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciProducts]", r.URL.Query(), &params.FieldsCiProducts, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciProducts]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciProducts]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciXcodeVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciXcodeVersions]", r.URL.Query(), &params.FieldsCiXcodeVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciXcodeVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciXcodeVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciMacOsVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciMacOsVersions]", r.URL.Query(), &params.FieldsCiMacOsVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciMacOsVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciMacOsVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiWorkflowsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiWorkflowsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) CiWorkflowsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiWorkflowsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiWorkflowsBuildRunsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) CiWorkflowsBuildRunsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiWorkflowsBuildRunsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[builds]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[builds]", r.URL.Query(), &params.FilterBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[builds]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[builds]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "sort" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "sort", r.URL.Query(), &params.Sort, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "sort"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "sort", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciBuildRuns]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciBuildRuns]", r.URL.Query(), &params.FieldsCiBuildRuns, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciBuildRuns]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciBuildRuns]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[builds]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[builds]", r.URL.Query(), &params.FieldsBuilds, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[builds]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[builds]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciWorkflows]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciWorkflows]", r.URL.Query(), &params.FieldsCiWorkflows, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciWorkflows]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciWorkflows]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciProducts]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciProducts]", r.URL.Query(), &params.FieldsCiProducts, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciProducts]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciProducts]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmGitReferences]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmGitReferences]", r.URL.Query(), &params.FieldsScmGitReferences, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmGitReferences]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmGitReferences]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmPullRequests]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmPullRequests]", r.URL.Query(), &params.FieldsScmPullRequests, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmPullRequests]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmPullRequests]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[builds]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[builds]", r.URL.Query(), &params.LimitBuilds, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[builds]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[builds]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiWorkflowsBuildRunsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// CiXcodeVersionsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) CiXcodeVersionsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params CiXcodeVersionsGetCollectionParams
+
+	// ------------- Optional query parameter "fields[ciXcodeVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciXcodeVersions]", r.URL.Query(), &params.FieldsCiXcodeVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciXcodeVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciXcodeVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[ciMacOsVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[ciMacOsVersions]", r.URL.Query(), &params.FieldsCiMacOsVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[ciMacOsVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[ciMacOsVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[macOsVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[macOsVersions]", r.URL.Query(), &params.LimitMacOsVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[macOsVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[macOsVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.CiXcodeVersionsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // DevicesGetCollection operation middleware
 func (siw *ServerInterfaceWrapper) DevicesGetCollection(w http.ResponseWriter, r *http.Request) {
 
@@ -251538,6 +262570,266 @@ func (siw *ServerInterfaceWrapper) RoutingAppCoveragesUpdateInstance(w http.Resp
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.RoutingAppCoveragesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// ScmRepositoriesGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) ScmRepositoriesGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params ScmRepositoriesGetCollectionParams
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmProviders]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmProviders]", r.URL.Query(), &params.FieldsScmProviders, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmProviders]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmProviders]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmGitReferences]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmGitReferences]", r.URL.Query(), &params.FieldsScmGitReferences, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmGitReferences]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmGitReferences]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.ScmRepositoriesGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// ScmRepositoriesGitReferencesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) ScmRepositoriesGitReferencesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params ScmRepositoriesGitReferencesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[scmGitReferences]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmGitReferences]", r.URL.Query(), &params.FieldsScmGitReferences, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmGitReferences]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmGitReferences]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.ScmRepositoriesGitReferencesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// ScmRepositoriesPullRequestsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) ScmRepositoriesPullRequestsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params ScmRepositoriesPullRequestsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[scmPullRequests]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmPullRequests]", r.URL.Query(), &params.FieldsScmPullRequests, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmPullRequests]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmPullRequests]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[scmRepositories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[scmRepositories]", r.URL.Query(), &params.FieldsScmRepositories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[scmRepositories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[scmRepositories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.ScmRepositoriesPullRequestsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -258398,6 +269690,19 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/certificates/{id}", wrapper.CertificatesGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/certificates/{id}", wrapper.CertificatesUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/certificates/{id}/relationships/passTypeId", wrapper.CertificatesPassTypeIdGetToOneRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/ciBuildRuns", wrapper.CiBuildRunsCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciMacOsVersions", wrapper.CiMacOsVersionsGetCollection)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciProducts", wrapper.CiProductsGetCollection)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciProducts/{id}/additionalRepositories", wrapper.CiProductsAdditionalRepositoriesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciProducts/{id}/buildRuns", wrapper.CiProductsBuildRunsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciProducts/{id}/primaryRepositories", wrapper.CiProductsPrimaryRepositoriesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciProducts/{id}/workflows", wrapper.CiProductsWorkflowsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/ciWorkflows", wrapper.CiWorkflowsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/ciWorkflows/{id}", wrapper.CiWorkflowsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciWorkflows/{id}", wrapper.CiWorkflowsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/ciWorkflows/{id}", wrapper.CiWorkflowsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciWorkflows/{id}/buildRuns", wrapper.CiWorkflowsBuildRunsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/ciXcodeVersions", wrapper.CiXcodeVersionsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/devices", wrapper.DevicesGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/devices", wrapper.DevicesCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/devices/{id}", wrapper.DevicesGetInstance)
@@ -258486,6 +269791,9 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/routingAppCoverages/{id}", wrapper.RoutingAppCoveragesDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/routingAppCoverages/{id}", wrapper.RoutingAppCoveragesGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/routingAppCoverages/{id}", wrapper.RoutingAppCoveragesUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/scmRepositories", wrapper.ScmRepositoriesGetCollection)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/scmRepositories/{id}/gitReferences", wrapper.ScmRepositoriesGitReferencesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/scmRepositories/{id}/pullRequests", wrapper.ScmRepositoriesPullRequestsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptionAppStoreReviewScreenshots", wrapper.SubscriptionAppStoreReviewScreenshotsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/subscriptionAppStoreReviewScreenshots/{id}", wrapper.SubscriptionAppStoreReviewScreenshotsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptionAppStoreReviewScreenshots/{id}", wrapper.SubscriptionAppStoreReviewScreenshotsGetInstance)
