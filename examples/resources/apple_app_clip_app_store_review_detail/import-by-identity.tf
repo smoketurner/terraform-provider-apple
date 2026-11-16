@@ -1,0 +1,6 @@
+import {
+  to = apple_app_clip_app_store_review_detail.card
+  identity = {
+    id = "4c6e8a0b-2d4f-4a6c-9e1b-5d6e7f8a9b0c"
+  }
+}

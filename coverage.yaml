@@ -96,35 +96,35 @@ operations:
   appClipAdvancedExperiences_createInstance: {status: planned, issue: 12}
   appClipAdvancedExperiences_getInstance: {status: planned, issue: 12}
   appClipAdvancedExperiences_updateInstance: {status: planned, issue: 12}
-  appClipAppStoreReviewDetails_createInstance: {status: planned, issue: 12}
-  appClipAppStoreReviewDetails_getInstance: {status: planned, issue: 12}
-  appClipAppStoreReviewDetails_updateInstance: {status: planned, issue: 12}
-  appClipDefaultExperienceLocalizations_appClipHeaderImage_getToOneRelated: {status: planned, issue: 12}
-  appClipDefaultExperienceLocalizations_appClipHeaderImage_getToOneRelationship: {status: planned, issue: 12}
-  appClipDefaultExperienceLocalizations_createInstance: {status: planned, issue: 12}
-  appClipDefaultExperienceLocalizations_deleteInstance: {status: planned, issue: 12}
-  appClipDefaultExperienceLocalizations_getInstance: {status: planned, issue: 12}
-  appClipDefaultExperienceLocalizations_updateInstance: {status: planned, issue: 12}
-  appClipDefaultExperiences_appClipAppStoreReviewDetail_getToOneRelated: {status: planned, issue: 12}
-  appClipDefaultExperiences_appClipAppStoreReviewDetail_getToOneRelationship: {status: planned, issue: 12}
-  appClipDefaultExperiences_appClipDefaultExperienceLocalizations_getToManyRelated: {status: planned, issue: 12}
-  appClipDefaultExperiences_appClipDefaultExperienceLocalizations_getToManyRelationship: {status: planned, issue: 12}
-  appClipDefaultExperiences_createInstance: {status: planned, issue: 12}
-  appClipDefaultExperiences_deleteInstance: {status: planned, issue: 12}
-  appClipDefaultExperiences_getInstance: {status: planned, issue: 12}
-  appClipDefaultExperiences_releaseWithAppStoreVersion_getToOneRelated: {status: planned, issue: 12}
-  appClipDefaultExperiences_releaseWithAppStoreVersion_getToOneRelationship: {status: planned, issue: 12}
-  appClipDefaultExperiences_releaseWithAppStoreVersion_updateToOneRelationship: {status: planned, issue: 12}
-  appClipDefaultExperiences_updateInstance: {status: planned, issue: 12}
-  appClipHeaderImages_createInstance: {status: planned, issue: 12}
-  appClipHeaderImages_deleteInstance: {status: planned, issue: 12}
-  appClipHeaderImages_getInstance: {status: planned, issue: 12}
-  appClipHeaderImages_updateInstance: {status: planned, issue: 12}
+  appClipAppStoreReviewDetails_createInstance: {status: covered, by: [apple_app_clip_app_store_review_detail]}
+  appClipAppStoreReviewDetails_getInstance: {status: covered, by: [apple_app_clip_app_store_review_detail]}
+  appClipAppStoreReviewDetails_updateInstance: {status: covered, by: [apple_app_clip_app_store_review_detail]}
+  appClipDefaultExperienceLocalizations_appClipHeaderImage_getToOneRelated: {status: covered, by: [apple_app_clip_header_image]}
+  appClipDefaultExperienceLocalizations_appClipHeaderImage_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appClipDefaultExperienceLocalizations_createInstance: {status: covered, by: [apple_app_clip_default_experience_localization]}
+  appClipDefaultExperienceLocalizations_deleteInstance: {status: covered, by: [apple_app_clip_default_experience_localization]}
+  appClipDefaultExperienceLocalizations_getInstance: {status: covered, by: [apple_app_clip_default_experience_localization]}
+  appClipDefaultExperienceLocalizations_updateInstance: {status: covered, by: [apple_app_clip_default_experience_localization]}
+  appClipDefaultExperiences_appClipAppStoreReviewDetail_getToOneRelated: {status: covered, by: [apple_app_clip_app_store_review_detail]}
+  appClipDefaultExperiences_appClipAppStoreReviewDetail_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appClipDefaultExperiences_appClipDefaultExperienceLocalizations_getToManyRelated: {status: covered, by: [apple_app_clip_default_experience_localization]}
+  appClipDefaultExperiences_appClipDefaultExperienceLocalizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appClipDefaultExperiences_createInstance: {status: covered, by: [apple_app_clip_default_experience]}
+  appClipDefaultExperiences_deleteInstance: {status: covered, by: [apple_app_clip_default_experience]}
+  appClipDefaultExperiences_getInstance: {status: covered, by: [apple_app_clip_default_experience]}
+  appClipDefaultExperiences_releaseWithAppStoreVersion_getToOneRelated: {status: out_of_scope, reason: "apple_app_clip_default_experience reads the version from the experience's relationship"}
+  appClipDefaultExperiences_releaseWithAppStoreVersion_getToOneRelationship: {status: out_of_scope, reason: "apple_app_clip_default_experience reads the version from the experience's relationship"}
+  appClipDefaultExperiences_releaseWithAppStoreVersion_updateToOneRelationship: {status: out_of_scope, reason: "apple_app_clip_default_experience sets the version when it creates the experience"}
+  appClipDefaultExperiences_updateInstance: {status: covered, by: [apple_app_clip_default_experience]}
+  appClipHeaderImages_createInstance: {status: covered, by: [apple_app_clip_header_image]}
+  appClipHeaderImages_deleteInstance: {status: covered, by: [apple_app_clip_header_image]}
+  appClipHeaderImages_getInstance: {status: covered, by: [apple_app_clip_header_image]}
+  appClipHeaderImages_updateInstance: {status: covered, by: [apple_app_clip_header_image]}
   appClips_appClipAdvancedExperiences_getToManyRelated: {status: planned, issue: 12}
   appClips_appClipAdvancedExperiences_getToManyRelationship: {status: planned, issue: 12}
-  appClips_appClipDefaultExperiences_getToManyRelated: {status: planned, issue: 12}
-  appClips_appClipDefaultExperiences_getToManyRelationship: {status: planned, issue: 12}
-  appClips_getInstance: {status: planned, issue: 12}
+  appClips_appClipDefaultExperiences_getToManyRelated: {status: out_of_scope, reason: "apple_app_clip_default_experience reads each experience by ID"}
+  appClips_appClipDefaultExperiences_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appClips_getInstance: {status: out_of_scope, reason: "data.apple_app_clips lists an app's App Clips"}
   appCustomProductPageLocalizations_appPreviewSets_getToManyRelated: {status: out_of_scope, reason: "deprecated: custom product page media is managed with the App Asset Library and apple_app_asset_library_placement"}
   appCustomProductPageLocalizations_appPreviewSets_getToManyRelationship: {status: out_of_scope, reason: "deprecated: custom product page media is managed with the App Asset Library and apple_app_asset_library_placement"}
   appCustomProductPageLocalizations_appScreenshotSets_getToManyRelated: {status: out_of_scope, reason: "deprecated: custom product page media is managed with the App Asset Library and apple_app_asset_library_placement"}
@@ -298,9 +298,9 @@ operations:
   appStoreVersionSubmissions_deleteInstance: {status: out_of_scope, reason: "legacy submission API; review submissions replace it"}
   appStoreVersions_alternativeDistributionPackage_getToOneRelated: {status: planned, issue: 15}
   appStoreVersions_alternativeDistributionPackage_getToOneRelationship: {status: planned, issue: 15}
-  appStoreVersions_appClipDefaultExperience_getToOneRelated: {status: planned, issue: 12}
-  appStoreVersions_appClipDefaultExperience_getToOneRelationship: {status: planned, issue: 12}
-  appStoreVersions_appClipDefaultExperience_updateToOneRelationship: {status: planned, issue: 12}
+  appStoreVersions_appClipDefaultExperience_getToOneRelated: {status: out_of_scope, reason: "apple_app_clip_default_experience reads each experience by ID"}
+  appStoreVersions_appClipDefaultExperience_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appStoreVersions_appClipDefaultExperience_updateToOneRelationship: {status: out_of_scope, reason: "apple_app_clip_default_experience sets the version when it creates the experience"}
   appStoreVersions_appStoreReviewDetail_getToOneRelated: {status: covered, by: [apple_app_store_review_detail]}
   appStoreVersions_appStoreReviewDetail_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appStoreVersions_appStoreVersionExperimentsV2_getToManyRelated: {status: out_of_scope, reason: "data.apple_app_store_version_experiments lists an app's experiments"}
@@ -339,8 +339,8 @@ operations:
   apps_androidToIosAppMappingDetails_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appAvailabilityV2_getToOneRelated: {status: covered, by: [apple_app_availability, apple_app_territory_availability]}
   apps_appAvailabilityV2_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  apps_appClips_getToManyRelated: {status: planned, issue: 12}
-  apps_appClips_getToManyRelationship: {status: planned, issue: 12}
+  apps_appClips_getToManyRelated: {status: covered, by: [data.apple_app_clips]}
+  apps_appClips_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appCustomProductPages_getToManyRelated: {status: covered, by: [data.apple_app_custom_product_pages]}
   apps_appCustomProductPages_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appEncryptionDeclarations_getToManyRelated: {status: out_of_scope, reason: "apple_app_encryption_declaration reads declarations by ID"}
