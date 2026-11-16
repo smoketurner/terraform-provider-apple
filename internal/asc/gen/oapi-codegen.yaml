@@ -34,6 +34,12 @@ output-options:
     - alternativeDistributionPackageVersions_variants_getToManyRelated
     - alternativeDistributionPackages_createInstance
     - alternativeDistributionPackages_versions_getToManyRelated
+    - analyticsReportInstances_segments_getToManyRelated
+    - analyticsReportRequests_createInstance
+    - analyticsReportRequests_deleteInstance
+    - analyticsReportRequests_getInstance
+    - analyticsReportRequests_reports_getToManyRelated
+    - analyticsReports_instances_getToManyRelated
     - androidToIosAppMappingDetails_createInstance
     - androidToIosAppMappingDetails_deleteInstance
     - androidToIosAppMappingDetails_getInstance
@@ -183,6 +189,7 @@ output-options:
     - appStoreVersions_updateInstance
     - appTags_updateInstance
     - apps_alternativeDistributionKey_getToOneRelated
+    - apps_analyticsReportRequests_getToManyRelated
     - apps_appAvailabilityV2_getToOneRelated
     - apps_appClips_getToManyRelated
     - apps_appCustomProductPages_getToManyRelated
@@ -264,6 +271,7 @@ output-options:
     - buildBetaNotifications_createInstance
     - buildBundles_appClipDomainCacheStatus_getToOneRelated
     - buildBundles_appClipDomainDebugStatus_getToOneRelated
+    - buildBundles_buildBundleFileSizes_getToManyRelated
     - builds_appEncryptionDeclaration_updateToOneRelationship
     - builds_betaGroups_createToManyRelationship
     - builds_betaGroups_deleteToManyRelationship

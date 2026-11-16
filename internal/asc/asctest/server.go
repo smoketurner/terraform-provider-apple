@@ -92,6 +92,7 @@ type Server struct {
 	advanced     *advancedClipsState
 	distribution *distributionState
 	xcodeCloud   *xcodeCloudState
+	analytics    *analyticsState
 
 	failNext map[string][]int
 	requests []string
@@ -147,6 +148,7 @@ func NewServer() *Server {
 		advanced:     newAdvancedClipsState(),
 		distribution: newDistributionState(),
 		xcodeCloud:   newXcodeCloudState(),
+		analytics:    newAnalyticsState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{
