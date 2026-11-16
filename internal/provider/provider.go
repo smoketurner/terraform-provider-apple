@@ -152,6 +152,7 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 		newSubmitBetaReviewAction,
 		newSubmitForReviewAction,
 		newSubmitIAPAction,
+		newSubmitRetentionVersionAction,
 		newSubmitSubscriptionAction,
 	}
 }
@@ -200,6 +201,12 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newIntroOfferResource,
 		newPromoOfferResource,
 		newWinBackOfferResource,
+		newRetentionMessageResource,
+		newRetentionVersionResource,
+		newRetentionLocalizationResource,
+		newRetentionOfferResource,
+		newSubscriptionRetentionMessageResource,
+		newRetentionMessageOfferResource,
 		newSubscriptionOfferCodeResource,
 		newIAPOfferCodeResource,
 		newSubscriptionCustomCodeResource,
@@ -259,6 +266,7 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newSubscriptionPricePointsDataSource,
 		newSubscriptionPricePointEqualizationsDataSource,
 		newSubscriptionCodeValuesDataSource,
+		newRetentionMessagesDataSource,
 		newIAPCodeValuesDataSource,
 		newAppDataSource,
 		newAppsDataSource,

@@ -40,22 +40,72 @@ var placementTypes = enum(gen.AppAssetLibraryPlacementTypeAPPSCREENSHOT, gen.App
 // localizationAttrs returns optional, replaced localization ID attributes,
 // exactly one of which must be set.
 func localizationAttrs(names ...string) map[string]schema.Attribute {
+	paths := make([]path.Expression, len(names))
+	for i, n := range names {
+		paths[i] = path.MatchRoot(n)
+	}
+	return localizationAttrsWith(" Exactly one localization is required; changing it creates a new resource.",
+		stringvalidator.ExactlyOneOf(paths...), names...)
+}
+
+// localizationAttrsWith returns optional, replaced localization ID
+// attributes whose descriptions end with rule, which v enforces.
+func localizationAttrsWith(rule string, v validator.String, names ...string) map[string]schema.Attribute {
 	descs := map[string]string{
 		versionLocalizationAttr:     "App Store Connect ID of an App Store version localization, e.g. `apple_app_store_version_localization.en_US.id`.",
 		productPageLocalizationAttr: "App Store Connect ID of a custom product page localization.",
 		eventLocalizationAttr:       "App Store Connect ID of an in-app event localization.",
 		treatmentLocalizationAttr:   "App Store Connect ID of a product page optimization treatment localization.",
 	}
-	paths := make([]path.Expression, len(names))
-	for i, n := range names {
-		paths[i] = path.MatchRoot(n)
-	}
 	out := map[string]schema.Attribute{}
 	for _, n := range names {
-		out[n] = replacedOptionalString(descs[n]+" Exactly one localization is required; changing it creates a new resource.",
-			stringvalidator.ExactlyOneOf(paths...))
+		out[n] = replacedOptionalString(descs[n]+rule, v)
 	}
 	return out
+}
+
+// placementTargets are the localizations a placement can show on.
+var placementTargets = []string{versionLocalizationAttr, productPageLocalizationAttr, eventLocalizationAttr, treatmentLocalizationAttr}
+
+const retentionPlacementType = string(gen.AppAssetLibraryPlacementTypeRETENTIONMESSAGEASSET)
+
+// retentionOrLocalization requires a localization for every placement type
+// except a retention message's, which takes none.
+type retentionOrLocalization struct{}
+
+func (retentionOrLocalization) Description(context.Context) string {
+	return "exactly one localization is required, except for a `" + retentionPlacementType + "` placement, which takes none"
+}
+
+func (v retentionOrLocalization) MarkdownDescription(ctx context.Context) string {
+	return v.Description(ctx)
+}
+
+func (v retentionOrLocalization) ValidateResource(ctx context.Context, req resource.ValidateConfigRequest, resp *resource.ValidateConfigResponse) {
+	var placementType types.String
+	resp.Diagnostics.Append(req.Config.GetAttribute(ctx, path.Root("placement_type"), &placementType)...)
+	set := 0
+	for _, name := range placementTargets {
+		var id types.String
+		resp.Diagnostics.Append(req.Config.GetAttribute(ctx, path.Root(name), &id)...)
+		if id.IsUnknown() {
+			return
+		}
+		if !id.IsNull() {
+			set++
+		}
+	}
+	if resp.Diagnostics.HasError() || placementType.IsUnknown() {
+		return
+	}
+	switch isRetention := placementType.ValueString() == retentionPlacementType; {
+	case isRetention && set > 0:
+		resp.Diagnostics.AddAttributeError(path.Root("placement_type"), "Invalid placement",
+			"A `"+retentionPlacementType+"` placement takes no localization: `apple_retention_message_version` shows it through its `placement_id`.")
+	case !isRetention && set != 1:
+		resp.Diagnostics.AddAttributeError(path.Root("placement_type"), "Invalid placement",
+			"Exactly one of `"+strings.Join(placementTargets, "`, `")+"` is required.")
+	}
 }
 
 type placementModel struct {
@@ -72,9 +122,10 @@ type placementModel struct {
 }
 
 var (
-	_ resource.ResourceWithConfigure   = &placementResource{}
-	_ resource.ResourceWithImportState = &placementResource{}
-	_ resource.ResourceWithIdentity    = &placementResource{}
+	_ resource.ResourceWithConfigure        = &placementResource{}
+	_ resource.ResourceWithImportState      = &placementResource{}
+	_ resource.ResourceWithIdentity         = &placementResource{}
+	_ resource.ResourceWithConfigValidators = &placementResource{}
 )
 
 type placementResource struct {
@@ -92,14 +143,16 @@ func (r *placementResource) Metadata(_ context.Context, req resource.MetadataReq
 
 func (r *placementResource) Schema(_ context.Context, _ resource.SchemaRequest, resp *resource.SchemaResponse) {
 	media := []path.Expression{path.MatchRoot("image_id"), path.MatchRoot("video_id")}
-	attrs := localizationAttrs(versionLocalizationAttr, productPageLocalizationAttr, eventLocalizationAttr, treatmentLocalizationAttr)
+	attrs := localizationAttrsWith(" Exactly one localization is required, except for a `"+retentionPlacementType+
+		"` placement, which takes none; changing it creates a new resource.", stringvalidator.LengthAtLeast(1), placementTargets...)
 	attrs["id"] = idAttribute("App Store Connect ID of the placement.")
 	attrs["image_id"] = replacedOptionalString("App Store Connect ID of the image to show, e.g. `apple_app_asset_library_image.example.id`. "+
 		"Exactly one of `image_id` and `video_id` is required.", stringvalidator.ExactlyOneOf(media...))
 	attrs["video_id"] = replacedOptionalString("App Store Connect ID of the video to show, e.g. `apple_app_asset_library_video.example.id`.",
 		stringvalidator.ExactlyOneOf(media...))
 	attrs["placement_type"] = replacedString("Where the asset shows: "+docValues(placementTypes)+". Screenshots take images, "+
-		"previews take videos, and only in-app event localizations take event placements.", oneOf(placementTypes))
+		"previews take videos, only in-app event localizations take event placements, and a `"+retentionPlacementType+
+		"` placement takes an image and no localization.", oneOf(placementTypes))
 	attrs["placement_group"] = replacedString("Device family the placement targets, such as `IPHONE_DYNAMIC_ISLAND_LARGE_PROFILE`, " +
 		"or `DEFAULT_PROFILE` for placements that don't depend on the device. `data.apple_app_asset_library_reference_data` " +
 		"lists them.")
@@ -107,11 +160,17 @@ func (r *placementResource) Schema(_ context.Context, _ resource.SchemaRequest, 
 	resp.Schema = schema.Schema{
 		MarkdownDescription: "Shows an App Asset Library image or video on a localization: as a screenshot or app preview of an " +
 			"App Store version, a custom product page or a product page optimization treatment, or as the card or details " +
-			"page of an in-app event. Placements show in creation order within their placement group; " +
+			"page of an in-app event. A `" + retentionPlacementType + "` placement has no localization: pass its ID to " +
+			"`apple_retention_message_version` to show the image with a retention message. Placements show in creation " +
+			"order within their placement group; " +
 			"`apple_app_asset_library_placement_order` sets the order. A placement can't be changed, so every change " +
 			"creates a new one. Import it by ID.",
 		Attributes: attrs,
 	}
+}
+
+func (r *placementResource) ConfigValidators(context.Context) []resource.ConfigValidator {
+	return []resource.ConfigValidator{retentionOrLocalization{}}
 }
 
 func (r *placementResource) Configure(_ context.Context, req resource.ConfigureRequest, resp *resource.ConfigureResponse) {

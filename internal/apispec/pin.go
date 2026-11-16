@@ -5,6 +5,6 @@ package apispec
 // the version and checksum it prints here, update coverage.yaml until
 // `make api-coverage` passes, and run `make generate`.
 const (
-	PinnedVersion = "4.5.1"
-	PinnedSHA256  = "7518d3a94a8bd701ac25c1c601b95b8f53aad92091affb15a2a9d331713dac1a"
+	PinnedVersion = "4.6"
+	PinnedSHA256  = "74732362a91236dcb66eb1620f8be18c2b6060771269b483eab578473bb32763"
 )

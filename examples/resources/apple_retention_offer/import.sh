@@ -1,0 +1,1 @@
+terraform import apple_retention_offer.stay 7710428835

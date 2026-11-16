@@ -3,12 +3,12 @@
 page_title: "apple_app_asset_library_placement Resource - apple"
 subcategory: ""
 description: |-
-  Shows an App Asset Library image or video on a localization: as a screenshot or app preview of an App Store version, a custom product page or a product page optimization treatment, or as the card or details page of an in-app event. Placements show in creation order within their placement group; apple_app_asset_library_placement_order sets the order. A placement can't be changed, so every change creates a new one. Import it by ID.
+  Shows an App Asset Library image or video on a localization: as a screenshot or app preview of an App Store version, a custom product page or a product page optimization treatment, or as the card or details page of an in-app event. A RETENTION_MESSAGE_ASSET placement has no localization: pass its ID to apple_retention_message_version to show the image with a retention message. Placements show in creation order within their placement group; apple_app_asset_library_placement_order sets the order. A placement can't be changed, so every change creates a new one. Import it by ID.
 ---
 
 # apple_app_asset_library_placement (Resource)
 
-Shows an App Asset Library image or video on a localization: as a screenshot or app preview of an App Store version, a custom product page or a product page optimization treatment, or as the card or details page of an in-app event. Placements show in creation order within their placement group; `apple_app_asset_library_placement_order` sets the order. A placement can't be changed, so every change creates a new one. Import it by ID.
+Shows an App Asset Library image or video on a localization: as a screenshot or app preview of an App Store version, a custom product page or a product page optimization treatment, or as the card or details page of an in-app event. A `RETENTION_MESSAGE_ASSET` placement has no localization: pass its ID to `apple_retention_message_version` to show the image with a retention message. Placements show in creation order within their placement group; `apple_app_asset_library_placement_order` sets the order. A placement can't be changed, so every change creates a new one. Import it by ID.
 
 ## Example Usage
 
@@ -34,14 +34,14 @@ resource "apple_app_asset_library_placement" "tour" {
 ### Required
 
 - `placement_group` (String) Device family the placement targets, such as `IPHONE_DYNAMIC_ISLAND_LARGE_PROFILE`, or `DEFAULT_PROFILE` for placements that don't depend on the device. `data.apple_app_asset_library_reference_data` lists them.
-- `placement_type` (String) Where the asset shows: `APP_SCREENSHOT`, `IMESSAGE_APP_SCREENSHOT`, `APP_PREVIEW`, `PRODUCT_PAGE_HEADER_ASSET`, `APP_STORE_SEARCH_RESULTS_ASSET`, `SEARCH_RESULTS_ADS_ASSET`, `TODAY_TAB_ADS_ASSET`, `EVENT_CARD_ASSET`, `EVENT_DETAILS_PAGE_ASSET`, `RETENTION_MESSAGE_ASSET`. Screenshots take images, previews take videos, and only in-app event localizations take event placements.
+- `placement_type` (String) Where the asset shows: `APP_SCREENSHOT`, `IMESSAGE_APP_SCREENSHOT`, `APP_PREVIEW`, `PRODUCT_PAGE_HEADER_ASSET`, `APP_STORE_SEARCH_RESULTS_ASSET`, `SEARCH_RESULTS_ADS_ASSET`, `TODAY_TAB_ADS_ASSET`, `EVENT_CARD_ASSET`, `EVENT_DETAILS_PAGE_ASSET`, `RETENTION_MESSAGE_ASSET`. Screenshots take images, previews take videos, only in-app event localizations take event placements, and a `RETENTION_MESSAGE_ASSET` placement takes an image and no localization.
 
 ### Optional
 
-- `app_event_localization_id` (String) App Store Connect ID of an in-app event localization. Exactly one localization is required; changing it creates a new resource.
-- `app_store_version_localization_id` (String) App Store Connect ID of an App Store version localization, e.g. `apple_app_store_version_localization.en_US.id`. Exactly one localization is required; changing it creates a new resource.
-- `custom_product_page_localization_id` (String) App Store Connect ID of a custom product page localization. Exactly one localization is required; changing it creates a new resource.
-- `experiment_treatment_localization_id` (String) App Store Connect ID of a product page optimization treatment localization. Exactly one localization is required; changing it creates a new resource.
+- `app_event_localization_id` (String) App Store Connect ID of an in-app event localization. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
+- `app_store_version_localization_id` (String) App Store Connect ID of an App Store version localization, e.g. `apple_app_store_version_localization.en_US.id`. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
+- `custom_product_page_localization_id` (String) App Store Connect ID of a custom product page localization. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
+- `experiment_treatment_localization_id` (String) App Store Connect ID of a product page optimization treatment localization. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
 - `image_id` (String) App Store Connect ID of the image to show, e.g. `apple_app_asset_library_image.example.id`. Exactly one of `image_id` and `video_id` is required.
 - `video_id` (String) App Store Connect ID of the video to show, e.g. `apple_app_asset_library_video.example.id`.
 

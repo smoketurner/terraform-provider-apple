@@ -123,6 +123,7 @@ output-options:
     - apps_inAppPurchasesV2_getToManyRelated
     - apps_promotedPurchases_getToManyRelated
     - apps_promotedPurchases_replaceToManyRelationship
+    - apps_retentionMessages_getToManyRelated
     - apps_searchKeywords_getToManyRelated
     - apps_subscriptionGracePeriod_getToOneRelated
     - apps_subscriptionGroups_getToManyRelated
@@ -276,6 +277,21 @@ output-options:
     - promotedPurchases_deleteInstance
     - promotedPurchases_getInstance
     - promotedPurchases_updateInstance
+    - retentionMessageLocalizations_createInstance
+    - retentionMessageLocalizations_deleteInstance
+    - retentionMessageLocalizations_getInstance
+    - retentionMessageLocalizations_updateInstance
+    - retentionMessageVersions_createInstance
+    - retentionMessageVersions_getInstance
+    - retentionMessageVersions_localizations_getToManyRelated
+    - retentionMessages_createInstance
+    - retentionMessages_deleteInstance
+    - retentionMessages_getInstance
+    - retentionOffers_createInstance
+    - retentionOffers_deleteInstance
+    - retentionOffers_getInstance
+    - retentionOffers_prices_getToManyRelated
+    - retentionOffers_updateInstance
     - reviewSubmissionItems_createInstance
     - reviewSubmissions_createInstance
     - reviewSubmissions_getCollection
@@ -347,6 +363,11 @@ output-options:
     - subscriptions_planAvailabilities_getToManyRelated
     - subscriptions_pricePoints_getToManyRelated
     - subscriptions_prices_getToManyRelated
+    - subscriptions_retentionMessageOffers_createToManyRelationship
+    - subscriptions_retentionMessageOffers_deleteToManyRelationship
+    - subscriptions_retentionMessageOffers_getToManyRelationship
+    - subscriptions_retentionMessage_getToOneRelationship
+    - subscriptions_retentionMessage_updateToOneRelationship
     - subscriptions_updateInstance
     - subscriptions_versions_getToManyRelated
     - territories_getCollection

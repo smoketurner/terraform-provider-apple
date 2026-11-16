@@ -407,6 +407,8 @@ operations:
   apps_promotedPurchases_getToManyRelated: {status: covered, by: [apple_promoted_purchase_order]}
   apps_promotedPurchases_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_promotedPurchases_replaceToManyRelationship: {status: covered, by: [apple_promoted_purchase_order]}
+  apps_retentionMessages_getToManyRelated: {status: covered, by: [data.apple_retention_messages]}
+  apps_retentionMessages_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_reviewSubmissions_getToManyRelated: {status: out_of_scope, reason: "the review actions submit and cancel whole submissions; items are not managed separately"}
   apps_reviewSubmissions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_searchKeywords_getToManyRelated: {status: covered, by: [data.apple_app_search_keywords]}
@@ -1131,7 +1133,30 @@ operations:
   promotedPurchases_deleteInstance: {status: covered, by: [apple_promoted_purchase]}
   promotedPurchases_getInstance: {status: covered, by: [apple_promoted_purchase]}
   promotedPurchases_updateInstance: {status: covered, by: [apple_promoted_purchase]}
-  reviewSubmissionItems_createInstance: {status: covered, by: [action.apple_submit_for_review]}
+  retentionMessageLocalizations_createInstance: {status: covered, by: [apple_retention_message_localization]}
+  retentionMessageLocalizations_deleteInstance: {status: covered, by: [apple_retention_message_localization]}
+  retentionMessageLocalizations_getInstance: {status: covered, by: [apple_retention_message_localization]}
+  retentionMessageLocalizations_updateInstance: {status: covered, by: [apple_retention_message_localization]}
+  retentionMessageVersions_createInstance: {status: covered, by: [apple_retention_message_version]}
+  retentionMessageVersions_getInstance: {status: covered, by: [apple_retention_message_version, action.apple_submit_retention_message_version]}
+  retentionMessageVersions_localizations_getToManyRelated: {status: covered, by: [apple_retention_message_localization]}
+  retentionMessageVersions_localizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  retentionMessageVersions_placement_getToOneRelated: {status: out_of_scope, reason: "the version's placement relationship holds the placement ID, and apple_app_asset_library_placement reads the placement"}
+  retentionMessageVersions_placement_getToOneRelationship: {status: out_of_scope, reason: "the version's placement relationship holds the placement ID"}
+  retentionMessages_createInstance: {status: covered, by: [apple_retention_message]}
+  retentionMessages_deleteInstance: {status: covered, by: [apple_retention_message]}
+  retentionMessages_getInstance: {status: covered, by: [apple_retention_message]}
+  retentionMessages_subscriptions_getToManyRelated: {status: out_of_scope, reason: "apple_subscription_retention_message reads the message of each subscription"}
+  retentionMessages_subscriptions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  retentionMessages_versions_getToManyRelated: {status: out_of_scope, reason: "apple_retention_message_version reads each version by ID"}
+  retentionMessages_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  retentionOffers_createInstance: {status: covered, by: [apple_retention_offer]}
+  retentionOffers_deleteInstance: {status: covered, by: [apple_retention_offer]}
+  retentionOffers_getInstance: {status: covered, by: [apple_retention_offer]}
+  retentionOffers_prices_getToManyRelated: {status: covered, by: [apple_retention_offer]}
+  retentionOffers_prices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  retentionOffers_updateInstance: {status: covered, by: [apple_retention_offer]}
+  reviewSubmissionItems_createInstance: {status: covered, by: [action.apple_submit_for_review, action.apple_submit_retention_message_version]}
   reviewSubmissionItems_deleteInstance: {status: out_of_scope, reason: "the review actions submit and cancel whole submissions; items are not managed separately"}
   reviewSubmissionItems_updateInstance: {status: out_of_scope, reason: "the review actions submit and cancel whole submissions; items are not managed separately"}
   reviewSubmissions_createInstance: {status: covered, by: [action.apple_submit_for_review]}
@@ -1278,6 +1303,15 @@ operations:
   subscriptions_promotedPurchase_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_promotionalOffers_getToManyRelated: {status: out_of_scope, reason: "apple_subscription_promotional_offer reads each offer by ID"}
   subscriptions_promotionalOffers_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  subscriptions_retentionMessageOffers_createToManyRelationship: {status: covered, by: [apple_subscription_retention_message_offer]}
+  subscriptions_retentionMessageOffers_deleteToManyRelationship: {status: covered, by: [apple_subscription_retention_message_offer]}
+  subscriptions_retentionMessageOffers_getToManyRelated: {status: out_of_scope, reason: "apple_subscription_retention_message_offer reads the linkages, which is all it needs"}
+  subscriptions_retentionMessageOffers_getToManyRelationship: {status: covered, by: [apple_subscription_retention_message_offer]}
+  subscriptions_retentionMessage_getToOneRelated: {status: out_of_scope, reason: "apple_subscription_retention_message reads the linkage, which is all it needs"}
+  subscriptions_retentionMessage_getToOneRelationship: {status: covered, by: [apple_subscription_retention_message]}
+  subscriptions_retentionMessage_updateToOneRelationship: {status: covered, by: [apple_subscription_retention_message]}
+  subscriptions_retentionOffers_getToManyRelated: {status: out_of_scope, reason: "apple_retention_offer reads each offer by ID"}
+  subscriptions_retentionOffers_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_subscriptionAvailability_getToOneRelated: {status: out_of_scope, reason: "deprecated in favor of subscription plan availabilities"}
   subscriptions_subscriptionAvailability_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   subscriptions_subscriptionLocalizations_getToManyRelated: {status: out_of_scope, reason: "deprecated in App Store Connect API 4.4.1 in favor of subscription versions"}

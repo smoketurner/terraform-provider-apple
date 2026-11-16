@@ -35,6 +35,8 @@ type reviewSubmission struct {
 	versions     []string
 	iapVersions  []string
 	metaVersions []string
+	// retentionVersions holds retention message version IDs.
+	retentionVersions []string
 }
 
 type versionsState struct {
@@ -746,6 +748,12 @@ func (s *Server) ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *h
 		}
 		return
 	}
+	if rel.RetentionMessageVersion != nil && rel.RetentionMessageVersion.Data != nil {
+		if s.addRetentionVersionItem(w, sub, rel.RetentionMessageVersion.Data.Id) {
+			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
+		}
+		return
+	}
 	if rel.AppStoreVersion == nil || rel.AppStoreVersion.Data == nil {
 		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The fake supports only App Store version and in-app purchase version items.", "/data/relationships")
 		return
@@ -784,7 +792,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 	in := asc.Value(req.Data.Attributes)
 	switch {
 	case asc.Value(in.Submitted):
-		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions)+len(sub.iapVersions)+len(sub.metaVersions) == 0 {
+		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions)+len(sub.iapVersions)+len(sub.metaVersions)+len(sub.retentionVersions) == 0 {
 			stateError(w, "Only a submission with items, ready for review, can be submitted.")
 			return
 		}
@@ -795,6 +803,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		}
 		s.setIAPVersionStates(sub, gen.InAppPurchaseVersionAttributesStateWAITINGFORREVIEW)
 		s.setMetaVersionStates(sub, "WAITING_FOR_REVIEW")
+		s.setRetentionVersionStates(sub, gen.RetentionMessageVersionAttributesStateWAITINGFORREVIEW)
 	case asc.Value(in.Canceled):
 		if !slices.Contains(openSubmissionStates, *sub.Attributes.State) {
 			stateError(w, "The submission is not open.")
@@ -806,6 +815,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		}
 		s.setIAPVersionStates(sub, gen.InAppPurchaseVersionAttributesStateDEVELOPERREJECTED)
 		s.setMetaVersionStates(sub, "DEVELOPER_REJECTED")
+		s.setRetentionVersionStates(sub, retentionVersionWithdrawn)
 	}
 	writeJSON(w, http.StatusOK, gen.ReviewSubmissionResponse{Data: sub.ReviewSubmission, Links: docLinks(r)})
 }

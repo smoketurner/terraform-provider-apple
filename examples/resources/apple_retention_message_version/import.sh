@@ -1,0 +1,1 @@
+terraform import apple_retention_message_version.first 4820193376

@@ -1484,6 +1484,21 @@ func (e AppRelationshipsPromotedPurchasesDataType) Valid() bool {
 	}
 }
 
+// Defines values for AppRelationshipsRetentionMessagesDataType.
+const (
+	AppRelationshipsRetentionMessagesDataTypeRetentionMessages AppRelationshipsRetentionMessagesDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the AppRelationshipsRetentionMessagesDataType enum.
+func (e AppRelationshipsRetentionMessagesDataType) Valid() bool {
+	switch e {
+	case AppRelationshipsRetentionMessagesDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppRelationshipsReviewSubmissionsDataType.
 const (
 	AppRelationshipsReviewSubmissionsDataTypeReviewSubmissions AppRelationshipsReviewSubmissionsDataType = "reviewSubmissions"
@@ -1922,6 +1937,21 @@ func (e AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionLocalizationDa
 	}
 }
 
+// Defines values for AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataType.
+const (
+	AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataType enum.
+func (e AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType.
 const (
 	AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataTypeAppCustomProductPageLocalizations AppAssetLibraryPlacementCreateRequestDataRelationshipsAppCustomProductPageLocalizationDataType = "appCustomProductPageLocalizations"
@@ -1991,6 +2021,21 @@ const (
 func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType) Valid() bool {
 	switch e {
 	case AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataTypeAppAssetLibraryImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataType.
+const (
+	AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataType enum.
+func (e AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
 		return true
 	default:
 		return false
@@ -2096,6 +2141,21 @@ const (
 func (e AppAssetLibraryPlacementImageRelationshipsImageDataType) Valid() bool {
 	switch e {
 	case AppAssetLibraryPlacementImageRelationshipsImageDataTypeAppAssetLibraryImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataType.
+const (
+	AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataType enum.
+func (e AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
 		return true
 	default:
 		return false
@@ -2372,6 +2432,21 @@ const (
 func (e AppAssetLibraryPlacementVideoRelationshipsAppStoreVersionLocalizationDataType) Valid() bool {
 	switch e {
 	case AppAssetLibraryPlacementVideoRelationshipsAppStoreVersionLocalizationDataTypeAppStoreVersionLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataType.
+const (
+	AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataType enum.
+func (e AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
 		return true
 	default:
 		return false
@@ -12686,6 +12761,462 @@ func (e PromotedPurchaseUpdateRequestDataType) Valid() bool {
 	}
 }
 
+// Defines values for RetentionMessageRelationshipsSubscriptionsDataType.
+const (
+	RetentionMessageRelationshipsSubscriptionsDataTypeSubscriptions RetentionMessageRelationshipsSubscriptionsDataType = "subscriptions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageRelationshipsSubscriptionsDataType enum.
+func (e RetentionMessageRelationshipsSubscriptionsDataType) Valid() bool {
+	switch e {
+	case RetentionMessageRelationshipsSubscriptionsDataTypeSubscriptions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageRelationshipsVersionsDataType.
+const (
+	RetentionMessageRelationshipsVersionsDataTypeRetentionMessageVersions RetentionMessageRelationshipsVersionsDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageRelationshipsVersionsDataType enum.
+func (e RetentionMessageRelationshipsVersionsDataType) Valid() bool {
+	switch e {
+	case RetentionMessageRelationshipsVersionsDataTypeRetentionMessageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageType.
+const (
+	RetentionMessageTypeRetentionMessages RetentionMessageType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageType enum.
+func (e RetentionMessageType) Valid() bool {
+	switch e {
+	case RetentionMessageTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageCreateRequestDataRelationshipsAppDataType.
+const (
+	RetentionMessageCreateRequestDataRelationshipsAppDataTypeApps RetentionMessageCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageCreateRequestDataRelationshipsAppDataType enum.
+func (e RetentionMessageCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case RetentionMessageCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageCreateRequestDataType.
+const (
+	RetentionMessageCreateRequestDataTypeRetentionMessages RetentionMessageCreateRequestDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageCreateRequestDataType enum.
+func (e RetentionMessageCreateRequestDataType) Valid() bool {
+	switch e {
+	case RetentionMessageCreateRequestDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataType.
+const (
+	RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataType enum.
+func (e RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationType.
+const (
+	RetentionMessageLocalizationTypeRetentionMessageLocalizations RetentionMessageLocalizationType = "retentionMessageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationType enum.
+func (e RetentionMessageLocalizationType) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationTypeRetentionMessageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataType.
+const (
+	RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataType enum.
+func (e RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationCreateRequestDataType.
+const (
+	RetentionMessageLocalizationCreateRequestDataTypeRetentionMessageLocalizations RetentionMessageLocalizationCreateRequestDataType = "retentionMessageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationCreateRequestDataType enum.
+func (e RetentionMessageLocalizationCreateRequestDataType) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationCreateRequestDataTypeRetentionMessageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationUpdateRequestDataType.
+const (
+	RetentionMessageLocalizationUpdateRequestDataTypeRetentionMessageLocalizations RetentionMessageLocalizationUpdateRequestDataType = "retentionMessageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationUpdateRequestDataType enum.
+func (e RetentionMessageLocalizationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationUpdateRequestDataTypeRetentionMessageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionAttributesState.
+const (
+	RetentionMessageVersionAttributesStateACCEPTED             RetentionMessageVersionAttributesState = "ACCEPTED"
+	RetentionMessageVersionAttributesStateAPPROVED             RetentionMessageVersionAttributesState = "APPROVED"
+	RetentionMessageVersionAttributesStateDEVELOPERREJECTED    RetentionMessageVersionAttributesState = "DEVELOPER_REJECTED"
+	RetentionMessageVersionAttributesStateINREVIEW             RetentionMessageVersionAttributesState = "IN_REVIEW"
+	RetentionMessageVersionAttributesStatePREPAREFORSUBMISSION RetentionMessageVersionAttributesState = "PREPARE_FOR_SUBMISSION"
+	RetentionMessageVersionAttributesStateREADYFORREVIEW       RetentionMessageVersionAttributesState = "READY_FOR_REVIEW"
+	RetentionMessageVersionAttributesStateREJECTED             RetentionMessageVersionAttributesState = "REJECTED"
+	RetentionMessageVersionAttributesStateWAITINGFORREVIEW     RetentionMessageVersionAttributesState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionAttributesState enum.
+func (e RetentionMessageVersionAttributesState) Valid() bool {
+	switch e {
+	case RetentionMessageVersionAttributesStateACCEPTED:
+		return true
+	case RetentionMessageVersionAttributesStateAPPROVED:
+		return true
+	case RetentionMessageVersionAttributesStateDEVELOPERREJECTED:
+		return true
+	case RetentionMessageVersionAttributesStateINREVIEW:
+		return true
+	case RetentionMessageVersionAttributesStatePREPAREFORSUBMISSION:
+		return true
+	case RetentionMessageVersionAttributesStateREADYFORREVIEW:
+		return true
+	case RetentionMessageVersionAttributesStateREJECTED:
+		return true
+	case RetentionMessageVersionAttributesStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionRelationshipsLocalizationsDataType.
+const (
+	RetentionMessageVersionRelationshipsLocalizationsDataTypeRetentionMessageLocalizations RetentionMessageVersionRelationshipsLocalizationsDataType = "retentionMessageLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionRelationshipsLocalizationsDataType enum.
+func (e RetentionMessageVersionRelationshipsLocalizationsDataType) Valid() bool {
+	switch e {
+	case RetentionMessageVersionRelationshipsLocalizationsDataTypeRetentionMessageLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionRelationshipsPlacementDataType.
+const (
+	RetentionMessageVersionRelationshipsPlacementDataTypeAppAssetLibraryPlacements RetentionMessageVersionRelationshipsPlacementDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionRelationshipsPlacementDataType enum.
+func (e RetentionMessageVersionRelationshipsPlacementDataType) Valid() bool {
+	switch e {
+	case RetentionMessageVersionRelationshipsPlacementDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionRelationshipsRetentionMessageDataType.
+const (
+	RetentionMessageVersionRelationshipsRetentionMessageDataTypeRetentionMessages RetentionMessageVersionRelationshipsRetentionMessageDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionRelationshipsRetentionMessageDataType enum.
+func (e RetentionMessageVersionRelationshipsRetentionMessageDataType) Valid() bool {
+	switch e {
+	case RetentionMessageVersionRelationshipsRetentionMessageDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionType.
+const (
+	RetentionMessageVersionTypeRetentionMessageVersions RetentionMessageVersionType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionType enum.
+func (e RetentionMessageVersionType) Valid() bool {
+	switch e {
+	case RetentionMessageVersionTypeRetentionMessageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataType.
+const (
+	RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataTypeAppAssetLibraryPlacements RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataType enum.
+func (e RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataType) Valid() bool {
+	switch e {
+	case RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataType.
+const (
+	RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataTypeRetentionMessages RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataType enum.
+func (e RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataType) Valid() bool {
+	switch e {
+	case RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionCreateRequestDataType.
+const (
+	RetentionMessageVersionCreateRequestDataTypeRetentionMessageVersions RetentionMessageVersionCreateRequestDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionCreateRequestDataType enum.
+func (e RetentionMessageVersionCreateRequestDataType) Valid() bool {
+	switch e {
+	case RetentionMessageVersionCreateRequestDataTypeRetentionMessageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferRelationshipsPricesDataType.
+const (
+	RetentionOfferRelationshipsPricesDataTypeRetentionOfferPrices RetentionOfferRelationshipsPricesDataType = "retentionOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferRelationshipsPricesDataType enum.
+func (e RetentionOfferRelationshipsPricesDataType) Valid() bool {
+	switch e {
+	case RetentionOfferRelationshipsPricesDataTypeRetentionOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferRelationshipsSubscriptionDataType.
+const (
+	RetentionOfferRelationshipsSubscriptionDataTypeSubscriptions RetentionOfferRelationshipsSubscriptionDataType = "subscriptions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferRelationshipsSubscriptionDataType enum.
+func (e RetentionOfferRelationshipsSubscriptionDataType) Valid() bool {
+	switch e {
+	case RetentionOfferRelationshipsSubscriptionDataTypeSubscriptions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferType.
+const (
+	RetentionOfferTypeRetentionOffers RetentionOfferType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferType enum.
+func (e RetentionOfferType) Valid() bool {
+	switch e {
+	case RetentionOfferTypeRetentionOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferCreateRequestDataRelationshipsPricesDataType.
+const (
+	RetentionOfferCreateRequestDataRelationshipsPricesDataTypeRetentionOfferPrices RetentionOfferCreateRequestDataRelationshipsPricesDataType = "retentionOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferCreateRequestDataRelationshipsPricesDataType enum.
+func (e RetentionOfferCreateRequestDataRelationshipsPricesDataType) Valid() bool {
+	switch e {
+	case RetentionOfferCreateRequestDataRelationshipsPricesDataTypeRetentionOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferCreateRequestDataRelationshipsSubscriptionDataType.
+const (
+	RetentionOfferCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions RetentionOfferCreateRequestDataRelationshipsSubscriptionDataType = "subscriptions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferCreateRequestDataRelationshipsSubscriptionDataType enum.
+func (e RetentionOfferCreateRequestDataRelationshipsSubscriptionDataType) Valid() bool {
+	switch e {
+	case RetentionOfferCreateRequestDataRelationshipsSubscriptionDataTypeSubscriptions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferCreateRequestDataType.
+const (
+	RetentionOfferCreateRequestDataTypeRetentionOffers RetentionOfferCreateRequestDataType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferCreateRequestDataType enum.
+func (e RetentionOfferCreateRequestDataType) Valid() bool {
+	switch e {
+	case RetentionOfferCreateRequestDataTypeRetentionOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferPriceRelationshipsSubscriptionPricePointDataType.
+const (
+	RetentionOfferPriceRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints RetentionOfferPriceRelationshipsSubscriptionPricePointDataType = "subscriptionPricePoints"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferPriceRelationshipsSubscriptionPricePointDataType enum.
+func (e RetentionOfferPriceRelationshipsSubscriptionPricePointDataType) Valid() bool {
+	switch e {
+	case RetentionOfferPriceRelationshipsSubscriptionPricePointDataTypeSubscriptionPricePoints:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferPriceRelationshipsTerritoryDataType.
+const (
+	RetentionOfferPriceRelationshipsTerritoryDataTypeTerritories RetentionOfferPriceRelationshipsTerritoryDataType = "territories"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferPriceRelationshipsTerritoryDataType enum.
+func (e RetentionOfferPriceRelationshipsTerritoryDataType) Valid() bool {
+	switch e {
+	case RetentionOfferPriceRelationshipsTerritoryDataTypeTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferPriceType.
+const (
+	RetentionOfferPriceTypeRetentionOfferPrices RetentionOfferPriceType = "retentionOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferPriceType enum.
+func (e RetentionOfferPriceType) Valid() bool {
+	switch e {
+	case RetentionOfferPriceTypeRetentionOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferPriceInlineCreateType.
+const (
+	RetentionOfferPriceInlineCreateTypeRetentionOfferPrices RetentionOfferPriceInlineCreateType = "retentionOfferPrices"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferPriceInlineCreateType enum.
+func (e RetentionOfferPriceInlineCreateType) Valid() bool {
+	switch e {
+	case RetentionOfferPriceInlineCreateTypeRetentionOfferPrices:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOfferUpdateRequestDataType.
+const (
+	RetentionOfferUpdateRequestDataTypeRetentionOffers RetentionOfferUpdateRequestDataType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOfferUpdateRequestDataType enum.
+func (e RetentionOfferUpdateRequestDataType) Valid() bool {
+	switch e {
+	case RetentionOfferUpdateRequestDataTypeRetentionOffers:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for ReviewSubmissionAttributesState.
 const (
 	ReviewSubmissionAttributesStateCANCELING        ReviewSubmissionAttributesState = "CANCELING"
@@ -13076,6 +13607,21 @@ func (e ReviewSubmissionItemRelationshipsInAppPurchaseVersionDataType) Valid() b
 	}
 }
 
+// Defines values for ReviewSubmissionItemRelationshipsRetentionMessageVersionDataType.
+const (
+	ReviewSubmissionItemRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions ReviewSubmissionItemRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the ReviewSubmissionItemRelationshipsRetentionMessageVersionDataType enum.
+func (e ReviewSubmissionItemRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case ReviewSubmissionItemRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for ReviewSubmissionItemRelationshipsSubscriptionGroupVersionDataType.
 const (
 	ReviewSubmissionItemRelationshipsSubscriptionGroupVersionDataTypeSubscriptionGroupVersions ReviewSubmissionItemRelationshipsSubscriptionGroupVersionDataType = "subscriptionGroupVersions"
@@ -13325,6 +13871,21 @@ const (
 func (e ReviewSubmissionItemCreateRequestDataRelationshipsInAppPurchaseVersionDataType) Valid() bool {
 	switch e {
 	case ReviewSubmissionItemCreateRequestDataRelationshipsInAppPurchaseVersionDataTypeInAppPurchaseVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataType.
+const (
+	ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataType = "retentionMessageVersions"
+)
+
+// Valid indicates whether the value is a known member of the ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataType enum.
+func (e ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataType) Valid() bool {
+	switch e {
+	case ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataTypeRetentionMessageVersions:
 		return true
 	default:
 		return false
@@ -13961,6 +14522,51 @@ const (
 func (e SubscriptionRelationshipsPromotionalOffersDataType) Valid() bool {
 	switch e {
 	case SubscriptionRelationshipsPromotionalOffersDataTypeSubscriptionPromotionalOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionRelationshipsRetentionMessageDataType.
+const (
+	SubscriptionRelationshipsRetentionMessageDataTypeRetentionMessages SubscriptionRelationshipsRetentionMessageDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionRelationshipsRetentionMessageDataType enum.
+func (e SubscriptionRelationshipsRetentionMessageDataType) Valid() bool {
+	switch e {
+	case SubscriptionRelationshipsRetentionMessageDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionRelationshipsRetentionMessageOffersDataType.
+const (
+	SubscriptionRelationshipsRetentionMessageOffersDataTypeRetentionOffers SubscriptionRelationshipsRetentionMessageOffersDataType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionRelationshipsRetentionMessageOffersDataType enum.
+func (e SubscriptionRelationshipsRetentionMessageOffersDataType) Valid() bool {
+	switch e {
+	case SubscriptionRelationshipsRetentionMessageOffersDataTypeRetentionOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionRelationshipsRetentionOffersDataType.
+const (
+	SubscriptionRelationshipsRetentionOffersDataTypeRetentionOffers SubscriptionRelationshipsRetentionOffersDataType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionRelationshipsRetentionOffersDataType enum.
+func (e SubscriptionRelationshipsRetentionOffersDataType) Valid() bool {
+	switch e {
+	case SubscriptionRelationshipsRetentionOffersDataTypeRetentionOffers:
 		return true
 	default:
 		return false
@@ -16163,6 +16769,66 @@ func (e SubscriptionPromotionalOfferUpdateRequestDataType) Valid() bool {
 	}
 }
 
+// Defines values for SubscriptionRetentionMessageLinkageRequestDataType.
+const (
+	SubscriptionRetentionMessageLinkageRequestDataTypeRetentionMessages SubscriptionRetentionMessageLinkageRequestDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionRetentionMessageLinkageRequestDataType enum.
+func (e SubscriptionRetentionMessageLinkageRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionRetentionMessageLinkageRequestDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionRetentionMessageLinkageResponseDataType.
+const (
+	SubscriptionRetentionMessageLinkageResponseDataTypeRetentionMessages SubscriptionRetentionMessageLinkageResponseDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionRetentionMessageLinkageResponseDataType enum.
+func (e SubscriptionRetentionMessageLinkageResponseDataType) Valid() bool {
+	switch e {
+	case SubscriptionRetentionMessageLinkageResponseDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionRetentionMessageOffersLinkagesRequestDataType.
+const (
+	SubscriptionRetentionMessageOffersLinkagesRequestDataTypeRetentionOffers SubscriptionRetentionMessageOffersLinkagesRequestDataType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionRetentionMessageOffersLinkagesRequestDataType enum.
+func (e SubscriptionRetentionMessageOffersLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case SubscriptionRetentionMessageOffersLinkagesRequestDataTypeRetentionOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionRetentionMessageOffersLinkagesResponseDataType.
+const (
+	SubscriptionRetentionMessageOffersLinkagesResponseDataTypeRetentionOffers SubscriptionRetentionMessageOffersLinkagesResponseDataType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionRetentionMessageOffersLinkagesResponseDataType enum.
+func (e SubscriptionRetentionMessageOffersLinkagesResponseDataType) Valid() bool {
+	switch e {
+	case SubscriptionRetentionMessageOffersLinkagesResponseDataTypeRetentionOffers:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for SubscriptionStatusUrlVersion.
 const (
 	SubscriptionStatusUrlVersionV1 SubscriptionStatusUrlVersion = "V1"
@@ -16289,6 +16955,36 @@ const (
 func (e SubscriptionUpdateRequestDataRelationshipsPromotionalOffersDataType) Valid() bool {
 	switch e {
 	case SubscriptionUpdateRequestDataRelationshipsPromotionalOffersDataTypeSubscriptionPromotionalOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataType.
+const (
+	SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataTypeRetentionMessages SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataType = "retentionMessages"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataType enum.
+func (e SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataType) Valid() bool {
+	switch e {
+	case SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataTypeRetentionMessages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataType.
+const (
+	SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataTypeRetentionOffers SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataType = "retentionOffers"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataType enum.
+func (e SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataType) Valid() bool {
+	switch e {
+	case SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataTypeRetentionOffers:
 		return true
 	default:
 		return false
@@ -18368,6 +19064,7 @@ const (
 	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -18395,6 +19092,8 @@ func (e AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacem
 	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibrariesImagesGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -18584,6 +19283,7 @@ const (
 	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -18611,6 +19311,8 @@ func (e AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacem
 	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibrariesVideosGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -18698,6 +19400,7 @@ const (
 	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
@@ -18725,6 +19428,8 @@ func (e AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacements) V
 	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibraryImagesGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -18869,6 +19574,7 @@ const (
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -18896,6 +19602,8 @@ func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibra
 	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -19154,6 +19862,30 @@ func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersi
 	}
 }
 
+// Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions.
+const (
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "localizations"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement        AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "placement"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "retentionMessage"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState            AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions enum.
+func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude.
 const (
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
@@ -19161,6 +19893,7 @@ const (
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeImage                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "image"
+	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion                        AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "retentionMessageVersion"
 	AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeVideo                                          AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude = "video"
 )
 
@@ -19176,6 +19909,8 @@ func (e AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude) Valid() bo
 	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
 		return true
 	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion:
 		return true
 	case AppAssetLibraryImagesPlacementsGetToManyRelatedParamsIncludeVideo:
 		return true
@@ -19196,6 +19931,7 @@ const (
 	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacements = "video"
@@ -19223,6 +19959,8 @@ func (e AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAss
 	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibraryPlacementOrderingRequestsCreateInstanceParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -19277,6 +20015,7 @@ const (
 	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
@@ -19304,6 +20043,8 @@ func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacement
 	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibraryPlacementsGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -19562,6 +20303,30 @@ func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimen
 	}
 }
 
+// Defines values for AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions.
+const (
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsLocalizations    AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions = "localizations"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsPlacement        AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions = "placement"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions = "retentionMessage"
+	AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsState            AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions enum.
+func (e AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryPlacementsGetInstanceParamsInclude.
 const (
 	AppAssetLibraryPlacementsGetInstanceParamsIncludeAppCustomProductPageLocalization               AppAssetLibraryPlacementsGetInstanceParamsInclude = "appCustomProductPageLocalization"
@@ -19569,6 +20334,7 @@ const (
 	AppAssetLibraryPlacementsGetInstanceParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryPlacementsGetInstanceParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
 	AppAssetLibraryPlacementsGetInstanceParamsIncludeAppStoreVersionLocalization                    AppAssetLibraryPlacementsGetInstanceParamsInclude = "appStoreVersionLocalization"
 	AppAssetLibraryPlacementsGetInstanceParamsIncludeImage                                          AppAssetLibraryPlacementsGetInstanceParamsInclude = "image"
+	AppAssetLibraryPlacementsGetInstanceParamsIncludeRetentionMessageVersion                        AppAssetLibraryPlacementsGetInstanceParamsInclude = "retentionMessageVersion"
 	AppAssetLibraryPlacementsGetInstanceParamsIncludeVideo                                          AppAssetLibraryPlacementsGetInstanceParamsInclude = "video"
 )
 
@@ -19584,6 +20350,8 @@ func (e AppAssetLibraryPlacementsGetInstanceParamsInclude) Valid() bool {
 	case AppAssetLibraryPlacementsGetInstanceParamsIncludeAppStoreVersionLocalization:
 		return true
 	case AppAssetLibraryPlacementsGetInstanceParamsIncludeImage:
+		return true
+	case AppAssetLibraryPlacementsGetInstanceParamsIncludeRetentionMessageVersion:
 		return true
 	case AppAssetLibraryPlacementsGetInstanceParamsIncludeVideo:
 		return true
@@ -19688,6 +20456,7 @@ const (
 	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
@@ -19715,6 +20484,8 @@ func (e AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacements) V
 	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibraryVideosGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -19859,6 +20630,7 @@ const (
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -19886,6 +20658,8 @@ func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibra
 	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -20144,6 +20918,30 @@ func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersi
 	}
 }
 
+// Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions.
+const (
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "localizations"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement        AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "placement"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "retentionMessage"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState            AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions enum.
+func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude.
 const (
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
@@ -20151,6 +20949,7 @@ const (
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeImage                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "image"
+	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion                        AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "retentionMessageVersion"
 	AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeVideo                                          AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude = "video"
 )
 
@@ -20166,6 +20965,8 @@ func (e AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude) Valid() bo
 	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
 		return true
 	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion:
 		return true
 	case AppAssetLibraryVideosPlacementsGetToManyRelatedParamsIncludeVideo:
 		return true
@@ -20354,6 +21155,7 @@ const (
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -20381,6 +21183,8 @@ func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsA
 	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -20639,6 +21443,30 @@ func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsA
 	}
 }
 
+// Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions.
+const (
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "localizations"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement        AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "placement"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "retentionMessage"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState            AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions enum.
+func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude.
 const (
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
@@ -20646,6 +21474,7 @@ const (
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeImage                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "image"
+	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion                        AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "retentionMessageVersion"
 	AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo                                          AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude = "video"
 )
 
@@ -20661,6 +21490,8 @@ func (e AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude
 	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
 		return true
 	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion:
 		return true
 	case AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo:
 		return true
@@ -20813,6 +21644,7 @@ const (
 	AppEncryptionDeclarationsGetInstanceParamsFieldsAppsPreReleaseVersions                     AppEncryptionDeclarationsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	AppEncryptionDeclarationsGetInstanceParamsFieldsAppsPrimaryLocale                          AppEncryptionDeclarationsGetInstanceParamsFieldsApps = "primaryLocale"
 	AppEncryptionDeclarationsGetInstanceParamsFieldsAppsPromotedPurchases                      AppEncryptionDeclarationsGetInstanceParamsFieldsApps = "promotedPurchases"
+	AppEncryptionDeclarationsGetInstanceParamsFieldsAppsRetentionMessages                      AppEncryptionDeclarationsGetInstanceParamsFieldsApps = "retentionMessages"
 	AppEncryptionDeclarationsGetInstanceParamsFieldsAppsReviewSubmissions                      AppEncryptionDeclarationsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	AppEncryptionDeclarationsGetInstanceParamsFieldsAppsSearchKeywords                         AppEncryptionDeclarationsGetInstanceParamsFieldsApps = "searchKeywords"
 	AppEncryptionDeclarationsGetInstanceParamsFieldsAppsSku                                    AppEncryptionDeclarationsGetInstanceParamsFieldsApps = "sku"
@@ -20920,6 +21752,8 @@ func (e AppEncryptionDeclarationsGetInstanceParamsFieldsApps) Valid() bool {
 	case AppEncryptionDeclarationsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppEncryptionDeclarationsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppEncryptionDeclarationsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case AppEncryptionDeclarationsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -22190,6 +23024,7 @@ const (
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -22217,6 +23052,8 @@ func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelate
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -22475,6 +23312,30 @@ func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelate
 	}
 }
 
+// Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions.
+const (
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "localizations"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement        AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "placement"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "retentionMessage"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState            AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions enum.
+func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude.
 const (
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
@@ -22482,6 +23343,7 @@ const (
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeImage                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "image"
+	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion                        AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "retentionMessageVersion"
 	AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo                                          AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude = "video"
 )
 
@@ -22497,6 +23359,8 @@ func (e AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelate
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
 		return true
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion:
 		return true
 	case AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo:
 		return true
@@ -23198,6 +24062,7 @@ const (
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -23225,6 +24090,8 @@ func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAss
 	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -23483,6 +24350,30 @@ func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppSto
 	}
 }
 
+// Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions.
+const (
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "localizations"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement        AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "placement"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "retentionMessage"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState            AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions enum.
+func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude.
 const (
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppCustomProductPageLocalization               AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "appCustomProductPageLocalization"
@@ -23490,6 +24381,7 @@ const (
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionExperimentTreatmentLocalization AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionExperimentTreatmentLocalization"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization                    AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "appStoreVersionLocalization"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeImage                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "image"
+	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion                        AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "retentionMessageVersion"
 	AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo                                          AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude = "video"
 )
 
@@ -23505,6 +24397,8 @@ func (e AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude) Val
 	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeAppStoreVersionLocalization:
 		return true
 	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeImage:
+		return true
+	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeRetentionMessageVersion:
 		return true
 	case AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsIncludeVideo:
 		return true
@@ -23645,6 +24539,7 @@ const (
 	AppStoreVersionsGetInstanceParamsFieldsAppsPreReleaseVersions                     AppStoreVersionsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	AppStoreVersionsGetInstanceParamsFieldsAppsPrimaryLocale                          AppStoreVersionsGetInstanceParamsFieldsApps = "primaryLocale"
 	AppStoreVersionsGetInstanceParamsFieldsAppsPromotedPurchases                      AppStoreVersionsGetInstanceParamsFieldsApps = "promotedPurchases"
+	AppStoreVersionsGetInstanceParamsFieldsAppsRetentionMessages                      AppStoreVersionsGetInstanceParamsFieldsApps = "retentionMessages"
 	AppStoreVersionsGetInstanceParamsFieldsAppsReviewSubmissions                      AppStoreVersionsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	AppStoreVersionsGetInstanceParamsFieldsAppsSearchKeywords                         AppStoreVersionsGetInstanceParamsFieldsApps = "searchKeywords"
 	AppStoreVersionsGetInstanceParamsFieldsAppsSku                                    AppStoreVersionsGetInstanceParamsFieldsApps = "sku"
@@ -23752,6 +24647,8 @@ func (e AppStoreVersionsGetInstanceParamsFieldsApps) Valid() bool {
 	case AppStoreVersionsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppStoreVersionsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppStoreVersionsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case AppStoreVersionsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -24563,6 +25460,7 @@ const (
 	AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
 	AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
 	AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
 	AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
 	AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
 	AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
@@ -24590,6 +25488,8 @@ func (e AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFields
 	case AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
 		return true
 	case AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
 		return true
 	case AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
 		return true
@@ -25070,6 +25970,7 @@ const (
 	AppsGetCollectionParamsFieldsAppsPreReleaseVersions                     AppsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	AppsGetCollectionParamsFieldsAppsPrimaryLocale                          AppsGetCollectionParamsFieldsApps = "primaryLocale"
 	AppsGetCollectionParamsFieldsAppsPromotedPurchases                      AppsGetCollectionParamsFieldsApps = "promotedPurchases"
+	AppsGetCollectionParamsFieldsAppsRetentionMessages                      AppsGetCollectionParamsFieldsApps = "retentionMessages"
 	AppsGetCollectionParamsFieldsAppsReviewSubmissions                      AppsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	AppsGetCollectionParamsFieldsAppsSearchKeywords                         AppsGetCollectionParamsFieldsApps = "searchKeywords"
 	AppsGetCollectionParamsFieldsAppsSku                                    AppsGetCollectionParamsFieldsApps = "sku"
@@ -25177,6 +26078,8 @@ func (e AppsGetCollectionParamsFieldsApps) Valid() bool {
 	case AppsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -25886,6 +26789,27 @@ func (e AppsGetCollectionParamsFieldsSubscriptionGroups) Valid() bool {
 	}
 }
 
+// Defines values for AppsGetCollectionParamsFieldsRetentionMessages.
+const (
+	AppsGetCollectionParamsFieldsRetentionMessagesReferenceName AppsGetCollectionParamsFieldsRetentionMessages = "referenceName"
+	AppsGetCollectionParamsFieldsRetentionMessagesSubscriptions AppsGetCollectionParamsFieldsRetentionMessages = "subscriptions"
+	AppsGetCollectionParamsFieldsRetentionMessagesVersions      AppsGetCollectionParamsFieldsRetentionMessages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsGetCollectionParamsFieldsRetentionMessages enum.
+func (e AppsGetCollectionParamsFieldsRetentionMessages) Valid() bool {
+	switch e {
+	case AppsGetCollectionParamsFieldsRetentionMessagesReferenceName:
+		return true
+	case AppsGetCollectionParamsFieldsRetentionMessagesSubscriptions:
+		return true
+	case AppsGetCollectionParamsFieldsRetentionMessagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppsGetCollectionParamsFieldsGameCenterEnabledVersions.
 const (
 	AppsGetCollectionParamsFieldsGameCenterEnabledVersionsApp                AppsGetCollectionParamsFieldsGameCenterEnabledVersions = "app"
@@ -26243,6 +27167,7 @@ const (
 	AppsGetCollectionParamsIncludeInAppPurchasesV2              AppsGetCollectionParamsInclude = "inAppPurchasesV2"
 	AppsGetCollectionParamsIncludePreReleaseVersions            AppsGetCollectionParamsInclude = "preReleaseVersions"
 	AppsGetCollectionParamsIncludePromotedPurchases             AppsGetCollectionParamsInclude = "promotedPurchases"
+	AppsGetCollectionParamsIncludeRetentionMessages             AppsGetCollectionParamsInclude = "retentionMessages"
 	AppsGetCollectionParamsIncludeReviewSubmissions             AppsGetCollectionParamsInclude = "reviewSubmissions"
 	AppsGetCollectionParamsIncludeSubscriptionGracePeriod       AppsGetCollectionParamsInclude = "subscriptionGracePeriod"
 	AppsGetCollectionParamsIncludeSubscriptionGroups            AppsGetCollectionParamsInclude = "subscriptionGroups"
@@ -26294,6 +27219,8 @@ func (e AppsGetCollectionParamsInclude) Valid() bool {
 	case AppsGetCollectionParamsIncludePreReleaseVersions:
 		return true
 	case AppsGetCollectionParamsIncludePromotedPurchases:
+		return true
+	case AppsGetCollectionParamsIncludeRetentionMessages:
 		return true
 	case AppsGetCollectionParamsIncludeReviewSubmissions:
 		return true
@@ -26354,6 +27281,7 @@ const (
 	AppsGetInstanceParamsFieldsAppsPreReleaseVersions                     AppsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	AppsGetInstanceParamsFieldsAppsPrimaryLocale                          AppsGetInstanceParamsFieldsApps = "primaryLocale"
 	AppsGetInstanceParamsFieldsAppsPromotedPurchases                      AppsGetInstanceParamsFieldsApps = "promotedPurchases"
+	AppsGetInstanceParamsFieldsAppsRetentionMessages                      AppsGetInstanceParamsFieldsApps = "retentionMessages"
 	AppsGetInstanceParamsFieldsAppsReviewSubmissions                      AppsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	AppsGetInstanceParamsFieldsAppsSearchKeywords                         AppsGetInstanceParamsFieldsApps = "searchKeywords"
 	AppsGetInstanceParamsFieldsAppsSku                                    AppsGetInstanceParamsFieldsApps = "sku"
@@ -26461,6 +27389,8 @@ func (e AppsGetInstanceParamsFieldsApps) Valid() bool {
 	case AppsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -27170,6 +28100,27 @@ func (e AppsGetInstanceParamsFieldsSubscriptionGroups) Valid() bool {
 	}
 }
 
+// Defines values for AppsGetInstanceParamsFieldsRetentionMessages.
+const (
+	AppsGetInstanceParamsFieldsRetentionMessagesReferenceName AppsGetInstanceParamsFieldsRetentionMessages = "referenceName"
+	AppsGetInstanceParamsFieldsRetentionMessagesSubscriptions AppsGetInstanceParamsFieldsRetentionMessages = "subscriptions"
+	AppsGetInstanceParamsFieldsRetentionMessagesVersions      AppsGetInstanceParamsFieldsRetentionMessages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsGetInstanceParamsFieldsRetentionMessages enum.
+func (e AppsGetInstanceParamsFieldsRetentionMessages) Valid() bool {
+	switch e {
+	case AppsGetInstanceParamsFieldsRetentionMessagesReferenceName:
+		return true
+	case AppsGetInstanceParamsFieldsRetentionMessagesSubscriptions:
+		return true
+	case AppsGetInstanceParamsFieldsRetentionMessagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppsGetInstanceParamsFieldsGameCenterEnabledVersions.
 const (
 	AppsGetInstanceParamsFieldsGameCenterEnabledVersionsApp                AppsGetInstanceParamsFieldsGameCenterEnabledVersions = "app"
@@ -27527,6 +28478,7 @@ const (
 	AppsGetInstanceParamsIncludeInAppPurchasesV2              AppsGetInstanceParamsInclude = "inAppPurchasesV2"
 	AppsGetInstanceParamsIncludePreReleaseVersions            AppsGetInstanceParamsInclude = "preReleaseVersions"
 	AppsGetInstanceParamsIncludePromotedPurchases             AppsGetInstanceParamsInclude = "promotedPurchases"
+	AppsGetInstanceParamsIncludeRetentionMessages             AppsGetInstanceParamsInclude = "retentionMessages"
 	AppsGetInstanceParamsIncludeReviewSubmissions             AppsGetInstanceParamsInclude = "reviewSubmissions"
 	AppsGetInstanceParamsIncludeSubscriptionGracePeriod       AppsGetInstanceParamsInclude = "subscriptionGracePeriod"
 	AppsGetInstanceParamsIncludeSubscriptionGroups            AppsGetInstanceParamsInclude = "subscriptionGroups"
@@ -27578,6 +28530,8 @@ func (e AppsGetInstanceParamsInclude) Valid() bool {
 	case AppsGetInstanceParamsIncludePreReleaseVersions:
 		return true
 	case AppsGetInstanceParamsIncludePromotedPurchases:
+		return true
+	case AppsGetInstanceParamsIncludeRetentionMessages:
 		return true
 	case AppsGetInstanceParamsIncludeReviewSubmissions:
 		return true
@@ -27767,6 +28721,7 @@ const (
 	AppsAppInfosGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppInfosGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
 	AppsAppInfosGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsAppInfosGetToManyRelatedParamsFieldsApps = "primaryLocale"
 	AppsAppInfosGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsAppInfosGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppInfosGetToManyRelatedParamsFieldsAppsRetentionMessages                      AppsAppInfosGetToManyRelatedParamsFieldsApps = "retentionMessages"
 	AppsAppInfosGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsAppInfosGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
 	AppsAppInfosGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsAppInfosGetToManyRelatedParamsFieldsApps = "searchKeywords"
 	AppsAppInfosGetToManyRelatedParamsFieldsAppsSku                                    AppsAppInfosGetToManyRelatedParamsFieldsApps = "sku"
@@ -27874,6 +28829,8 @@ func (e AppsAppInfosGetToManyRelatedParamsFieldsApps) Valid() bool {
 	case AppsAppInfosGetToManyRelatedParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsAppInfosGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppInfosGetToManyRelatedParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsAppInfosGetToManyRelatedParamsFieldsAppsReviewSubmissions:
 		return true
@@ -28172,6 +29129,7 @@ const (
 	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
 	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "primaryLocale"
 	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsRetentionMessages                      AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "retentionMessages"
 	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
 	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "searchKeywords"
 	AppsAppPricePointsGetToManyRelatedParamsFieldsAppsSku                                    AppsAppPricePointsGetToManyRelatedParamsFieldsApps = "sku"
@@ -28279,6 +29237,8 @@ func (e AppsAppPricePointsGetToManyRelatedParamsFieldsApps) Valid() bool {
 	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsAppPricePointsGetToManyRelatedParamsFieldsAppsReviewSubmissions:
 		return true
@@ -28412,6 +29372,7 @@ const (
 	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "preReleaseVersions"
 	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPrimaryLocale                          AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "primaryLocale"
 	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPromotedPurchases                      AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsRetentionMessages                      AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "retentionMessages"
 	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsReviewSubmissions                      AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "reviewSubmissions"
 	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSearchKeywords                         AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "searchKeywords"
 	AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsSku                                    AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps = "sku"
@@ -28519,6 +29480,8 @@ func (e AppsAppPriceScheduleGetToOneRelatedParamsFieldsApps) Valid() bool {
 	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsAppPriceScheduleGetToOneRelatedParamsFieldsAppsReviewSubmissions:
 		return true
@@ -28898,6 +29861,7 @@ const (
 	AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
 	AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps = "primaryLocale"
 	AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsRetentionMessages                      AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps = "retentionMessages"
 	AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
 	AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps = "searchKeywords"
 	AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsSku                                    AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps = "sku"
@@ -29005,6 +29969,8 @@ func (e AppsAppStoreVersionsGetToManyRelatedParamsFieldsApps) Valid() bool {
 	case AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsAppStoreVersionsGetToManyRelatedParamsFieldsAppsReviewSubmissions:
 		return true
@@ -29666,6 +30632,7 @@ const (
 	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
 	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "primaryLocale"
 	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsRetentionMessages                      AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "retentionMessages"
 	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
 	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "searchKeywords"
 	AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsSku                                    AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps = "sku"
@@ -29773,6 +30740,8 @@ func (e AppsBackgroundAssetsGetToManyRelatedParamsFieldsApps) Valid() bool {
 	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsBackgroundAssetsGetToManyRelatedParamsFieldsAppsReviewSubmissions:
 		return true
@@ -30461,6 +31430,9 @@ const (
 	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsProductId                 AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "productId"
 	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase          AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "promotedPurchase"
 	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers         AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "promotionalOffers"
+	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage          AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "retentionMessage"
+	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers    AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "retentionMessageOffers"
+	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers           AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "retentionOffers"
 	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsReviewNote                AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "reviewNote"
 	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsState                     AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "state"
 	AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsSubscriptionAvailability  AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -30505,6 +31477,12 @@ func (e AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions) Valid() 
 		return true
 	case AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers:
 		return true
+	case AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers:
+		return true
 	case AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsReviewNote:
 		return true
 	case AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptionsState:
@@ -30536,6 +31514,159 @@ func (e AppsPromotedPurchasesGetToManyRelatedParamsInclude) Valid() bool {
 	case AppsPromotedPurchasesGetToManyRelatedParamsIncludeInAppPurchaseV2:
 		return true
 	case AppsPromotedPurchasesGetToManyRelatedParamsIncludeSubscription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages.
+const (
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessagesReferenceName AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages = "referenceName"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessagesSubscriptions AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages = "subscriptions"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessagesVersions      AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages enum.
+func (e AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages) Valid() bool {
+	switch e {
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessagesReferenceName:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessagesSubscriptions:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions.
+const (
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations    AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions = "localizations"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement        AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions = "placement"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions = "retentionMessage"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsState            AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions enum.
+func (e AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions.
+const (
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsAppStoreReviewScreenshot  AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "appStoreReviewScreenshot"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsFamilySharable            AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "familySharable"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsGroup                     AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "group"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsGroupLevel                AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "groupLevel"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsImages                    AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "images"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsIntroductoryOffers        AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "introductoryOffers"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsMarketSettings            AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "marketSettings"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsMultiSeatStatus           AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "multiSeatStatus"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsName                      AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "name"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsOfferCodes                AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "offerCodes"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPlanAvailabilities        AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "planAvailabilities"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPricePoints               AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "pricePoints"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPrices                    AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "prices"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsProductId                 AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "productId"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase          AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "promotedPurchase"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers         AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "promotionalOffers"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage          AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "retentionMessage"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers    AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "retentionMessageOffers"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers           AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "retentionOffers"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsReviewNote                AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "reviewNote"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsState                     AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "state"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsSubscriptionAvailability  AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "subscriptionAvailability"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsSubscriptionLocalizations AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "subscriptionLocalizations"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsSubscriptionPeriod        AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "subscriptionPeriod"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsVersions                  AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "versions"
+	AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsWinBackOffers             AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions = "winBackOffers"
+)
+
+// Valid indicates whether the value is a known member of the AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions enum.
+func (e AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions) Valid() bool {
+	switch e {
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsAppStoreReviewScreenshot:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsFamilySharable:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsGroup:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsGroupLevel:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsImages:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsIntroductoryOffers:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsMarketSettings:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsMultiSeatStatus:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsName:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsOfferCodes:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPlanAvailabilities:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPricePoints:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPrices:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsProductId:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsReviewNote:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsState:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsSubscriptionAvailability:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsSubscriptionLocalizations:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsSubscriptionPeriod:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsVersions:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptionsWinBackOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsRetentionMessagesGetToManyRelatedParamsInclude.
+const (
+	AppsRetentionMessagesGetToManyRelatedParamsIncludeSubscriptions AppsRetentionMessagesGetToManyRelatedParamsInclude = "subscriptions"
+	AppsRetentionMessagesGetToManyRelatedParamsIncludeVersions      AppsRetentionMessagesGetToManyRelatedParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsRetentionMessagesGetToManyRelatedParamsInclude enum.
+func (e AppsRetentionMessagesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsRetentionMessagesGetToManyRelatedParamsIncludeSubscriptions:
+		return true
+	case AppsRetentionMessagesGetToManyRelatedParamsIncludeVersions:
 		return true
 	default:
 		return false
@@ -30668,6 +31799,9 @@ const (
 	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsProductId                 AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "productId"
 	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase          AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "promotedPurchase"
 	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers         AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "promotionalOffers"
+	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage          AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "retentionMessage"
+	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers    AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "retentionMessageOffers"
+	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers           AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "retentionOffers"
 	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsReviewNote                AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "reviewNote"
 	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsState                     AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "state"
 	AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsSubscriptionAvailability  AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -30711,6 +31845,12 @@ func (e AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptions) Valid()
 	case AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case AppsSubscriptionGroupsGetToManyRelatedParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -30881,6 +32021,7 @@ const (
 	AppsWebhooksGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppsWebhooksGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
 	AppsWebhooksGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppsWebhooksGetToManyRelatedParamsFieldsApps = "primaryLocale"
 	AppsWebhooksGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppsWebhooksGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppsWebhooksGetToManyRelatedParamsFieldsAppsRetentionMessages                      AppsWebhooksGetToManyRelatedParamsFieldsApps = "retentionMessages"
 	AppsWebhooksGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppsWebhooksGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
 	AppsWebhooksGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppsWebhooksGetToManyRelatedParamsFieldsApps = "searchKeywords"
 	AppsWebhooksGetToManyRelatedParamsFieldsAppsSku                                    AppsWebhooksGetToManyRelatedParamsFieldsApps = "sku"
@@ -30988,6 +32129,8 @@ func (e AppsWebhooksGetToManyRelatedParamsFieldsApps) Valid() bool {
 	case AppsWebhooksGetToManyRelatedParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppsWebhooksGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsWebhooksGetToManyRelatedParamsFieldsAppsRetentionMessages:
 		return true
 	case AppsWebhooksGetToManyRelatedParamsFieldsAppsReviewSubmissions:
 		return true
@@ -31616,6 +32759,7 @@ const (
 	BackgroundAssetsGetInstanceParamsFieldsAppsPreReleaseVersions                     BackgroundAssetsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	BackgroundAssetsGetInstanceParamsFieldsAppsPrimaryLocale                          BackgroundAssetsGetInstanceParamsFieldsApps = "primaryLocale"
 	BackgroundAssetsGetInstanceParamsFieldsAppsPromotedPurchases                      BackgroundAssetsGetInstanceParamsFieldsApps = "promotedPurchases"
+	BackgroundAssetsGetInstanceParamsFieldsAppsRetentionMessages                      BackgroundAssetsGetInstanceParamsFieldsApps = "retentionMessages"
 	BackgroundAssetsGetInstanceParamsFieldsAppsReviewSubmissions                      BackgroundAssetsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	BackgroundAssetsGetInstanceParamsFieldsAppsSearchKeywords                         BackgroundAssetsGetInstanceParamsFieldsApps = "searchKeywords"
 	BackgroundAssetsGetInstanceParamsFieldsAppsSku                                    BackgroundAssetsGetInstanceParamsFieldsApps = "sku"
@@ -31723,6 +32867,8 @@ func (e BackgroundAssetsGetInstanceParamsFieldsApps) Valid() bool {
 	case BackgroundAssetsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case BackgroundAssetsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case BackgroundAssetsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case BackgroundAssetsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -32273,6 +33419,7 @@ const (
 	BetaAppLocalizationsGetInstanceParamsFieldsAppsPreReleaseVersions                     BetaAppLocalizationsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	BetaAppLocalizationsGetInstanceParamsFieldsAppsPrimaryLocale                          BetaAppLocalizationsGetInstanceParamsFieldsApps = "primaryLocale"
 	BetaAppLocalizationsGetInstanceParamsFieldsAppsPromotedPurchases                      BetaAppLocalizationsGetInstanceParamsFieldsApps = "promotedPurchases"
+	BetaAppLocalizationsGetInstanceParamsFieldsAppsRetentionMessages                      BetaAppLocalizationsGetInstanceParamsFieldsApps = "retentionMessages"
 	BetaAppLocalizationsGetInstanceParamsFieldsAppsReviewSubmissions                      BetaAppLocalizationsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	BetaAppLocalizationsGetInstanceParamsFieldsAppsSearchKeywords                         BetaAppLocalizationsGetInstanceParamsFieldsApps = "searchKeywords"
 	BetaAppLocalizationsGetInstanceParamsFieldsAppsSku                                    BetaAppLocalizationsGetInstanceParamsFieldsApps = "sku"
@@ -32380,6 +33527,8 @@ func (e BetaAppLocalizationsGetInstanceParamsFieldsApps) Valid() bool {
 	case BetaAppLocalizationsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case BetaAppLocalizationsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case BetaAppLocalizationsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case BetaAppLocalizationsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -32510,6 +33659,7 @@ const (
 	BetaAppReviewDetailsGetCollectionParamsFieldsAppsPreReleaseVersions                     BetaAppReviewDetailsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	BetaAppReviewDetailsGetCollectionParamsFieldsAppsPrimaryLocale                          BetaAppReviewDetailsGetCollectionParamsFieldsApps = "primaryLocale"
 	BetaAppReviewDetailsGetCollectionParamsFieldsAppsPromotedPurchases                      BetaAppReviewDetailsGetCollectionParamsFieldsApps = "promotedPurchases"
+	BetaAppReviewDetailsGetCollectionParamsFieldsAppsRetentionMessages                      BetaAppReviewDetailsGetCollectionParamsFieldsApps = "retentionMessages"
 	BetaAppReviewDetailsGetCollectionParamsFieldsAppsReviewSubmissions                      BetaAppReviewDetailsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	BetaAppReviewDetailsGetCollectionParamsFieldsAppsSearchKeywords                         BetaAppReviewDetailsGetCollectionParamsFieldsApps = "searchKeywords"
 	BetaAppReviewDetailsGetCollectionParamsFieldsAppsSku                                    BetaAppReviewDetailsGetCollectionParamsFieldsApps = "sku"
@@ -32617,6 +33767,8 @@ func (e BetaAppReviewDetailsGetCollectionParamsFieldsApps) Valid() bool {
 	case BetaAppReviewDetailsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case BetaAppReviewDetailsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case BetaAppReviewDetailsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case BetaAppReviewDetailsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -32933,6 +34085,7 @@ const (
 	BetaGroupsGetCollectionParamsFieldsAppsPreReleaseVersions                     BetaGroupsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	BetaGroupsGetCollectionParamsFieldsAppsPrimaryLocale                          BetaGroupsGetCollectionParamsFieldsApps = "primaryLocale"
 	BetaGroupsGetCollectionParamsFieldsAppsPromotedPurchases                      BetaGroupsGetCollectionParamsFieldsApps = "promotedPurchases"
+	BetaGroupsGetCollectionParamsFieldsAppsRetentionMessages                      BetaGroupsGetCollectionParamsFieldsApps = "retentionMessages"
 	BetaGroupsGetCollectionParamsFieldsAppsReviewSubmissions                      BetaGroupsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	BetaGroupsGetCollectionParamsFieldsAppsSearchKeywords                         BetaGroupsGetCollectionParamsFieldsApps = "searchKeywords"
 	BetaGroupsGetCollectionParamsFieldsAppsSku                                    BetaGroupsGetCollectionParamsFieldsApps = "sku"
@@ -33040,6 +34193,8 @@ func (e BetaGroupsGetCollectionParamsFieldsApps) Valid() bool {
 	case BetaGroupsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case BetaGroupsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case BetaGroupsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case BetaGroupsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -33350,6 +34505,7 @@ const (
 	BetaGroupsGetInstanceParamsFieldsAppsPreReleaseVersions                     BetaGroupsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	BetaGroupsGetInstanceParamsFieldsAppsPrimaryLocale                          BetaGroupsGetInstanceParamsFieldsApps = "primaryLocale"
 	BetaGroupsGetInstanceParamsFieldsAppsPromotedPurchases                      BetaGroupsGetInstanceParamsFieldsApps = "promotedPurchases"
+	BetaGroupsGetInstanceParamsFieldsAppsRetentionMessages                      BetaGroupsGetInstanceParamsFieldsApps = "retentionMessages"
 	BetaGroupsGetInstanceParamsFieldsAppsReviewSubmissions                      BetaGroupsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	BetaGroupsGetInstanceParamsFieldsAppsSearchKeywords                         BetaGroupsGetInstanceParamsFieldsApps = "searchKeywords"
 	BetaGroupsGetInstanceParamsFieldsAppsSku                                    BetaGroupsGetInstanceParamsFieldsApps = "sku"
@@ -33457,6 +34613,8 @@ func (e BetaGroupsGetInstanceParamsFieldsApps) Valid() bool {
 	case BetaGroupsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case BetaGroupsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case BetaGroupsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case BetaGroupsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -33740,6 +34898,7 @@ const (
 	BetaLicenseAgreementsGetCollectionParamsFieldsAppsPreReleaseVersions                     BetaLicenseAgreementsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	BetaLicenseAgreementsGetCollectionParamsFieldsAppsPrimaryLocale                          BetaLicenseAgreementsGetCollectionParamsFieldsApps = "primaryLocale"
 	BetaLicenseAgreementsGetCollectionParamsFieldsAppsPromotedPurchases                      BetaLicenseAgreementsGetCollectionParamsFieldsApps = "promotedPurchases"
+	BetaLicenseAgreementsGetCollectionParamsFieldsAppsRetentionMessages                      BetaLicenseAgreementsGetCollectionParamsFieldsApps = "retentionMessages"
 	BetaLicenseAgreementsGetCollectionParamsFieldsAppsReviewSubmissions                      BetaLicenseAgreementsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	BetaLicenseAgreementsGetCollectionParamsFieldsAppsSearchKeywords                         BetaLicenseAgreementsGetCollectionParamsFieldsApps = "searchKeywords"
 	BetaLicenseAgreementsGetCollectionParamsFieldsAppsSku                                    BetaLicenseAgreementsGetCollectionParamsFieldsApps = "sku"
@@ -33847,6 +35006,8 @@ func (e BetaLicenseAgreementsGetCollectionParamsFieldsApps) Valid() bool {
 	case BetaLicenseAgreementsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case BetaLicenseAgreementsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case BetaLicenseAgreementsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case BetaLicenseAgreementsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -34052,6 +35213,7 @@ const (
 	BetaTestersGetCollectionParamsFieldsAppsPreReleaseVersions                     BetaTestersGetCollectionParamsFieldsApps = "preReleaseVersions"
 	BetaTestersGetCollectionParamsFieldsAppsPrimaryLocale                          BetaTestersGetCollectionParamsFieldsApps = "primaryLocale"
 	BetaTestersGetCollectionParamsFieldsAppsPromotedPurchases                      BetaTestersGetCollectionParamsFieldsApps = "promotedPurchases"
+	BetaTestersGetCollectionParamsFieldsAppsRetentionMessages                      BetaTestersGetCollectionParamsFieldsApps = "retentionMessages"
 	BetaTestersGetCollectionParamsFieldsAppsReviewSubmissions                      BetaTestersGetCollectionParamsFieldsApps = "reviewSubmissions"
 	BetaTestersGetCollectionParamsFieldsAppsSearchKeywords                         BetaTestersGetCollectionParamsFieldsApps = "searchKeywords"
 	BetaTestersGetCollectionParamsFieldsAppsSku                                    BetaTestersGetCollectionParamsFieldsApps = "sku"
@@ -34159,6 +35321,8 @@ func (e BetaTestersGetCollectionParamsFieldsApps) Valid() bool {
 	case BetaTestersGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case BetaTestersGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case BetaTestersGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case BetaTestersGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -34448,6 +35612,7 @@ const (
 	BetaTestersGetInstanceParamsFieldsAppsPreReleaseVersions                     BetaTestersGetInstanceParamsFieldsApps = "preReleaseVersions"
 	BetaTestersGetInstanceParamsFieldsAppsPrimaryLocale                          BetaTestersGetInstanceParamsFieldsApps = "primaryLocale"
 	BetaTestersGetInstanceParamsFieldsAppsPromotedPurchases                      BetaTestersGetInstanceParamsFieldsApps = "promotedPurchases"
+	BetaTestersGetInstanceParamsFieldsAppsRetentionMessages                      BetaTestersGetInstanceParamsFieldsApps = "retentionMessages"
 	BetaTestersGetInstanceParamsFieldsAppsReviewSubmissions                      BetaTestersGetInstanceParamsFieldsApps = "reviewSubmissions"
 	BetaTestersGetInstanceParamsFieldsAppsSearchKeywords                         BetaTestersGetInstanceParamsFieldsApps = "searchKeywords"
 	BetaTestersGetInstanceParamsFieldsAppsSku                                    BetaTestersGetInstanceParamsFieldsApps = "sku"
@@ -34555,6 +35720,8 @@ func (e BetaTestersGetInstanceParamsFieldsApps) Valid() bool {
 	case BetaTestersGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case BetaTestersGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case BetaTestersGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case BetaTestersGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -35375,6 +36542,7 @@ const (
 	BuildsGetCollectionParamsFieldsAppsPreReleaseVersions                     BuildsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	BuildsGetCollectionParamsFieldsAppsPrimaryLocale                          BuildsGetCollectionParamsFieldsApps = "primaryLocale"
 	BuildsGetCollectionParamsFieldsAppsPromotedPurchases                      BuildsGetCollectionParamsFieldsApps = "promotedPurchases"
+	BuildsGetCollectionParamsFieldsAppsRetentionMessages                      BuildsGetCollectionParamsFieldsApps = "retentionMessages"
 	BuildsGetCollectionParamsFieldsAppsReviewSubmissions                      BuildsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	BuildsGetCollectionParamsFieldsAppsSearchKeywords                         BuildsGetCollectionParamsFieldsApps = "searchKeywords"
 	BuildsGetCollectionParamsFieldsAppsSku                                    BuildsGetCollectionParamsFieldsApps = "sku"
@@ -35482,6 +36650,8 @@ func (e BuildsGetCollectionParamsFieldsApps) Valid() bool {
 	case BuildsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case BuildsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case BuildsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case BuildsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -36188,6 +37358,7 @@ const (
 	BuildsGetInstanceParamsFieldsAppsPreReleaseVersions                     BuildsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	BuildsGetInstanceParamsFieldsAppsPrimaryLocale                          BuildsGetInstanceParamsFieldsApps = "primaryLocale"
 	BuildsGetInstanceParamsFieldsAppsPromotedPurchases                      BuildsGetInstanceParamsFieldsApps = "promotedPurchases"
+	BuildsGetInstanceParamsFieldsAppsRetentionMessages                      BuildsGetInstanceParamsFieldsApps = "retentionMessages"
 	BuildsGetInstanceParamsFieldsAppsReviewSubmissions                      BuildsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	BuildsGetInstanceParamsFieldsAppsSearchKeywords                         BuildsGetInstanceParamsFieldsApps = "searchKeywords"
 	BuildsGetInstanceParamsFieldsAppsSku                                    BuildsGetInstanceParamsFieldsApps = "sku"
@@ -36295,6 +37466,8 @@ func (e BuildsGetInstanceParamsFieldsApps) Valid() bool {
 	case BuildsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case BuildsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case BuildsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case BuildsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -36839,6 +38012,7 @@ const (
 	BundleIdsGetCollectionParamsFieldsAppsPreReleaseVersions                     BundleIdsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	BundleIdsGetCollectionParamsFieldsAppsPrimaryLocale                          BundleIdsGetCollectionParamsFieldsApps = "primaryLocale"
 	BundleIdsGetCollectionParamsFieldsAppsPromotedPurchases                      BundleIdsGetCollectionParamsFieldsApps = "promotedPurchases"
+	BundleIdsGetCollectionParamsFieldsAppsRetentionMessages                      BundleIdsGetCollectionParamsFieldsApps = "retentionMessages"
 	BundleIdsGetCollectionParamsFieldsAppsReviewSubmissions                      BundleIdsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	BundleIdsGetCollectionParamsFieldsAppsSearchKeywords                         BundleIdsGetCollectionParamsFieldsApps = "searchKeywords"
 	BundleIdsGetCollectionParamsFieldsAppsSku                                    BundleIdsGetCollectionParamsFieldsApps = "sku"
@@ -36946,6 +38120,8 @@ func (e BundleIdsGetCollectionParamsFieldsApps) Valid() bool {
 	case BundleIdsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case BundleIdsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case BundleIdsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case BundleIdsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -37139,6 +38315,7 @@ const (
 	BundleIdsGetInstanceParamsFieldsAppsPreReleaseVersions                     BundleIdsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	BundleIdsGetInstanceParamsFieldsAppsPrimaryLocale                          BundleIdsGetInstanceParamsFieldsApps = "primaryLocale"
 	BundleIdsGetInstanceParamsFieldsAppsPromotedPurchases                      BundleIdsGetInstanceParamsFieldsApps = "promotedPurchases"
+	BundleIdsGetInstanceParamsFieldsAppsRetentionMessages                      BundleIdsGetInstanceParamsFieldsApps = "retentionMessages"
 	BundleIdsGetInstanceParamsFieldsAppsReviewSubmissions                      BundleIdsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	BundleIdsGetInstanceParamsFieldsAppsSearchKeywords                         BundleIdsGetInstanceParamsFieldsApps = "searchKeywords"
 	BundleIdsGetInstanceParamsFieldsAppsSku                                    BundleIdsGetInstanceParamsFieldsApps = "sku"
@@ -37246,6 +38423,8 @@ func (e BundleIdsGetInstanceParamsFieldsApps) Valid() bool {
 	case BundleIdsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case BundleIdsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case BundleIdsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case BundleIdsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -39080,6 +40259,7 @@ const (
 	NominationsGetCollectionParamsFieldsAppsPreReleaseVersions                     NominationsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	NominationsGetCollectionParamsFieldsAppsPrimaryLocale                          NominationsGetCollectionParamsFieldsApps = "primaryLocale"
 	NominationsGetCollectionParamsFieldsAppsPromotedPurchases                      NominationsGetCollectionParamsFieldsApps = "promotedPurchases"
+	NominationsGetCollectionParamsFieldsAppsRetentionMessages                      NominationsGetCollectionParamsFieldsApps = "retentionMessages"
 	NominationsGetCollectionParamsFieldsAppsReviewSubmissions                      NominationsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	NominationsGetCollectionParamsFieldsAppsSearchKeywords                         NominationsGetCollectionParamsFieldsApps = "searchKeywords"
 	NominationsGetCollectionParamsFieldsAppsSku                                    NominationsGetCollectionParamsFieldsApps = "sku"
@@ -39187,6 +40367,8 @@ func (e NominationsGetCollectionParamsFieldsApps) Valid() bool {
 	case NominationsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case NominationsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case NominationsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case NominationsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -39458,6 +40640,7 @@ const (
 	NominationsGetInstanceParamsFieldsAppsPreReleaseVersions                     NominationsGetInstanceParamsFieldsApps = "preReleaseVersions"
 	NominationsGetInstanceParamsFieldsAppsPrimaryLocale                          NominationsGetInstanceParamsFieldsApps = "primaryLocale"
 	NominationsGetInstanceParamsFieldsAppsPromotedPurchases                      NominationsGetInstanceParamsFieldsApps = "promotedPurchases"
+	NominationsGetInstanceParamsFieldsAppsRetentionMessages                      NominationsGetInstanceParamsFieldsApps = "retentionMessages"
 	NominationsGetInstanceParamsFieldsAppsReviewSubmissions                      NominationsGetInstanceParamsFieldsApps = "reviewSubmissions"
 	NominationsGetInstanceParamsFieldsAppsSearchKeywords                         NominationsGetInstanceParamsFieldsApps = "searchKeywords"
 	NominationsGetInstanceParamsFieldsAppsSku                                    NominationsGetInstanceParamsFieldsApps = "sku"
@@ -39565,6 +40748,8 @@ func (e NominationsGetInstanceParamsFieldsApps) Valid() bool {
 	case NominationsGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case NominationsGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case NominationsGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case NominationsGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -40313,6 +41498,7 @@ const (
 	PreReleaseVersionsGetCollectionParamsFieldsAppsPreReleaseVersions                     PreReleaseVersionsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	PreReleaseVersionsGetCollectionParamsFieldsAppsPrimaryLocale                          PreReleaseVersionsGetCollectionParamsFieldsApps = "primaryLocale"
 	PreReleaseVersionsGetCollectionParamsFieldsAppsPromotedPurchases                      PreReleaseVersionsGetCollectionParamsFieldsApps = "promotedPurchases"
+	PreReleaseVersionsGetCollectionParamsFieldsAppsRetentionMessages                      PreReleaseVersionsGetCollectionParamsFieldsApps = "retentionMessages"
 	PreReleaseVersionsGetCollectionParamsFieldsAppsReviewSubmissions                      PreReleaseVersionsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	PreReleaseVersionsGetCollectionParamsFieldsAppsSearchKeywords                         PreReleaseVersionsGetCollectionParamsFieldsApps = "searchKeywords"
 	PreReleaseVersionsGetCollectionParamsFieldsAppsSku                                    PreReleaseVersionsGetCollectionParamsFieldsApps = "sku"
@@ -40420,6 +41606,8 @@ func (e PreReleaseVersionsGetCollectionParamsFieldsApps) Valid() bool {
 	case PreReleaseVersionsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case PreReleaseVersionsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case PreReleaseVersionsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case PreReleaseVersionsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -41024,6 +42212,9 @@ const (
 	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsProductId                 PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "productId"
 	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsPromotedPurchase          PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
 	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsPromotionalOffers         PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsRetentionMessage          PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsRetentionOffers           PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "retentionOffers"
 	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsReviewNote                PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "reviewNote"
 	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsState                     PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "state"
 	PromotedPurchasesGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  PromotedPurchasesGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -41068,6 +42259,12 @@ func (e PromotedPurchasesGetInstanceParamsFieldsSubscriptions) Valid() bool {
 		return true
 	case PromotedPurchasesGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
 		return true
+	case PromotedPurchasesGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case PromotedPurchasesGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case PromotedPurchasesGetInstanceParamsFieldsSubscriptionsRetentionOffers:
+		return true
 	case PromotedPurchasesGetInstanceParamsFieldsSubscriptionsReviewNote:
 		return true
 	case PromotedPurchasesGetInstanceParamsFieldsSubscriptionsState:
@@ -41099,6 +42296,678 @@ func (e PromotedPurchasesGetInstanceParamsInclude) Valid() bool {
 	case PromotedPurchasesGetInstanceParamsIncludeInAppPurchaseV2:
 		return true
 	case PromotedPurchasesGetInstanceParamsIncludeSubscription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations.
+const (
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsBody                    RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations = "body"
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsHeader                  RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations = "header"
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsLocale                  RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations = "locale"
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsRetentionMessageVersion RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations = "retentionMessageVersion"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations enum.
+func (e RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsBody:
+		return true
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsHeader:
+		return true
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsLocale:
+		return true
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizationsRetentionMessageVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions.
+const (
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsLocalizations    RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions = "localizations"
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsPlacement        RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions = "placement"
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions = "retentionMessage"
+	RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsState            RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions enum.
+func (e RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageLocalizationsGetInstanceParamsInclude.
+const (
+	RetentionMessageLocalizationsGetInstanceParamsIncludeRetentionMessageVersion RetentionMessageLocalizationsGetInstanceParamsInclude = "retentionMessageVersion"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageLocalizationsGetInstanceParamsInclude enum.
+func (e RetentionMessageLocalizationsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case RetentionMessageLocalizationsGetInstanceParamsIncludeRetentionMessageVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions.
+const (
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsLocalizations    RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions = "localizations"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsPlacement        RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions = "placement"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions = "retentionMessage"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsState            RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions enum.
+func (e RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages.
+const (
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessagesReferenceName RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages = "referenceName"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessagesSubscriptions RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages = "subscriptions"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessagesVersions      RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages enum.
+func (e RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessagesReferenceName:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessagesSubscriptions:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations.
+const (
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsBody                    RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations = "body"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsHeader                  RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations = "header"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsLocale                  RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations = "locale"
+	RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsRetentionMessageVersion RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations = "retentionMessageVersion"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations enum.
+func (e RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsBody:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsHeader:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsLocale:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizationsRetentionMessageVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements.
+const (
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage                                          RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "image"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements enum.
+func (e RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsGetInstanceParamsInclude.
+const (
+	RetentionMessageVersionsGetInstanceParamsIncludeLocalizations    RetentionMessageVersionsGetInstanceParamsInclude = "localizations"
+	RetentionMessageVersionsGetInstanceParamsIncludePlacement        RetentionMessageVersionsGetInstanceParamsInclude = "placement"
+	RetentionMessageVersionsGetInstanceParamsIncludeRetentionMessage RetentionMessageVersionsGetInstanceParamsInclude = "retentionMessage"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsGetInstanceParamsInclude enum.
+func (e RetentionMessageVersionsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsGetInstanceParamsIncludeLocalizations:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsIncludePlacement:
+		return true
+	case RetentionMessageVersionsGetInstanceParamsIncludeRetentionMessage:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations.
+const (
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsBody                    RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations = "body"
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsHeader                  RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations = "header"
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsLocale                  RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations = "locale"
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsRetentionMessageVersion RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations = "retentionMessageVersion"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations enum.
+func (e RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsBody:
+		return true
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsHeader:
+		return true
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsLocale:
+		return true
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizationsRetentionMessageVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions.
+const (
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations    RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions = "localizations"
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement        RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions = "placement"
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions = "retentionMessage"
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsState            RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions enum.
+func (e RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessageVersionsLocalizationsGetToManyRelatedParamsInclude.
+const (
+	RetentionMessageVersionsLocalizationsGetToManyRelatedParamsIncludeRetentionMessageVersion RetentionMessageVersionsLocalizationsGetToManyRelatedParamsInclude = "retentionMessageVersion"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessageVersionsLocalizationsGetToManyRelatedParamsInclude enum.
+func (e RetentionMessageVersionsLocalizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case RetentionMessageVersionsLocalizationsGetToManyRelatedParamsIncludeRetentionMessageVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessagesGetInstanceParamsFieldsRetentionMessages.
+const (
+	RetentionMessagesGetInstanceParamsFieldsRetentionMessagesReferenceName RetentionMessagesGetInstanceParamsFieldsRetentionMessages = "referenceName"
+	RetentionMessagesGetInstanceParamsFieldsRetentionMessagesSubscriptions RetentionMessagesGetInstanceParamsFieldsRetentionMessages = "subscriptions"
+	RetentionMessagesGetInstanceParamsFieldsRetentionMessagesVersions      RetentionMessagesGetInstanceParamsFieldsRetentionMessages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessagesGetInstanceParamsFieldsRetentionMessages enum.
+func (e RetentionMessagesGetInstanceParamsFieldsRetentionMessages) Valid() bool {
+	switch e {
+	case RetentionMessagesGetInstanceParamsFieldsRetentionMessagesReferenceName:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsRetentionMessagesSubscriptions:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsRetentionMessagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions.
+const (
+	RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsLocalizations    RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions = "localizations"
+	RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsPlacement        RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions = "placement"
+	RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions = "retentionMessage"
+	RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsState            RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions = "state"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions enum.
+func (e RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions) Valid() bool {
+	switch e {
+	case RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsLocalizations:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsPlacement:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsRetentionMessage:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersionsState:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessagesGetInstanceParamsFieldsSubscriptions.
+const (
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsAppStoreReviewScreenshot  RetentionMessagesGetInstanceParamsFieldsSubscriptions = "appStoreReviewScreenshot"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsFamilySharable            RetentionMessagesGetInstanceParamsFieldsSubscriptions = "familySharable"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsGroup                     RetentionMessagesGetInstanceParamsFieldsSubscriptions = "group"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsGroupLevel                RetentionMessagesGetInstanceParamsFieldsSubscriptions = "groupLevel"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsImages                    RetentionMessagesGetInstanceParamsFieldsSubscriptions = "images"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsIntroductoryOffers        RetentionMessagesGetInstanceParamsFieldsSubscriptions = "introductoryOffers"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsMarketSettings            RetentionMessagesGetInstanceParamsFieldsSubscriptions = "marketSettings"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsMultiSeatStatus           RetentionMessagesGetInstanceParamsFieldsSubscriptions = "multiSeatStatus"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsName                      RetentionMessagesGetInstanceParamsFieldsSubscriptions = "name"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsOfferCodes                RetentionMessagesGetInstanceParamsFieldsSubscriptions = "offerCodes"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsPlanAvailabilities        RetentionMessagesGetInstanceParamsFieldsSubscriptions = "planAvailabilities"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsPricePoints               RetentionMessagesGetInstanceParamsFieldsSubscriptions = "pricePoints"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsPrices                    RetentionMessagesGetInstanceParamsFieldsSubscriptions = "prices"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsProductId                 RetentionMessagesGetInstanceParamsFieldsSubscriptions = "productId"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsPromotedPurchase          RetentionMessagesGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsPromotionalOffers         RetentionMessagesGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsRetentionMessage          RetentionMessagesGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    RetentionMessagesGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsRetentionOffers           RetentionMessagesGetInstanceParamsFieldsSubscriptions = "retentionOffers"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsReviewNote                RetentionMessagesGetInstanceParamsFieldsSubscriptions = "reviewNote"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsState                     RetentionMessagesGetInstanceParamsFieldsSubscriptions = "state"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  RetentionMessagesGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsSubscriptionLocalizations RetentionMessagesGetInstanceParamsFieldsSubscriptions = "subscriptionLocalizations"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsSubscriptionPeriod        RetentionMessagesGetInstanceParamsFieldsSubscriptions = "subscriptionPeriod"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsVersions                  RetentionMessagesGetInstanceParamsFieldsSubscriptions = "versions"
+	RetentionMessagesGetInstanceParamsFieldsSubscriptionsWinBackOffers             RetentionMessagesGetInstanceParamsFieldsSubscriptions = "winBackOffers"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessagesGetInstanceParamsFieldsSubscriptions enum.
+func (e RetentionMessagesGetInstanceParamsFieldsSubscriptions) Valid() bool {
+	switch e {
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsAppStoreReviewScreenshot:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsFamilySharable:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsGroup:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsGroupLevel:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsImages:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsIntroductoryOffers:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsMarketSettings:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsMultiSeatStatus:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsName:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsOfferCodes:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsPlanAvailabilities:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsPricePoints:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsPrices:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsProductId:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsRetentionOffers:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsReviewNote:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsState:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsSubscriptionLocalizations:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsSubscriptionPeriod:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsVersions:
+		return true
+	case RetentionMessagesGetInstanceParamsFieldsSubscriptionsWinBackOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionMessagesGetInstanceParamsInclude.
+const (
+	RetentionMessagesGetInstanceParamsIncludeSubscriptions RetentionMessagesGetInstanceParamsInclude = "subscriptions"
+	RetentionMessagesGetInstanceParamsIncludeVersions      RetentionMessagesGetInstanceParamsInclude = "versions"
+)
+
+// Valid indicates whether the value is a known member of the RetentionMessagesGetInstanceParamsInclude enum.
+func (e RetentionMessagesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case RetentionMessagesGetInstanceParamsIncludeSubscriptions:
+		return true
+	case RetentionMessagesGetInstanceParamsIncludeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersGetInstanceParamsFieldsRetentionOffers.
+const (
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersCustomerEligibilityPaidSubscriptionDurationInMonths RetentionOffersGetInstanceParamsFieldsRetentionOffers = "customerEligibilityPaidSubscriptionDurationInMonths"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersCustomerEligibilityWaitBetweenOffersInMonths        RetentionOffersGetInstanceParamsFieldsRetentionOffers = "customerEligibilityWaitBetweenOffersInMonths"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersDuration                                            RetentionOffersGetInstanceParamsFieldsRetentionOffers = "duration"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersOfferId                                             RetentionOffersGetInstanceParamsFieldsRetentionOffers = "offerId"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersOfferMode                                           RetentionOffersGetInstanceParamsFieldsRetentionOffers = "offerMode"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersPeriodCount                                         RetentionOffersGetInstanceParamsFieldsRetentionOffers = "periodCount"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersPrices                                              RetentionOffersGetInstanceParamsFieldsRetentionOffers = "prices"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersReferenceName                                       RetentionOffersGetInstanceParamsFieldsRetentionOffers = "referenceName"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersSubscription                                        RetentionOffersGetInstanceParamsFieldsRetentionOffers = "subscription"
+	RetentionOffersGetInstanceParamsFieldsRetentionOffersTargetSubscriptionPlanType                          RetentionOffersGetInstanceParamsFieldsRetentionOffers = "targetSubscriptionPlanType"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersGetInstanceParamsFieldsRetentionOffers enum.
+func (e RetentionOffersGetInstanceParamsFieldsRetentionOffers) Valid() bool {
+	switch e {
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersCustomerEligibilityPaidSubscriptionDurationInMonths:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersCustomerEligibilityWaitBetweenOffersInMonths:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersDuration:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersOfferId:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersOfferMode:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersPeriodCount:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersPrices:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersReferenceName:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersSubscription:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOffersTargetSubscriptionPlanType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersGetInstanceParamsFieldsSubscriptions.
+const (
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsAppStoreReviewScreenshot  RetentionOffersGetInstanceParamsFieldsSubscriptions = "appStoreReviewScreenshot"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsFamilySharable            RetentionOffersGetInstanceParamsFieldsSubscriptions = "familySharable"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsGroup                     RetentionOffersGetInstanceParamsFieldsSubscriptions = "group"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsGroupLevel                RetentionOffersGetInstanceParamsFieldsSubscriptions = "groupLevel"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsImages                    RetentionOffersGetInstanceParamsFieldsSubscriptions = "images"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsIntroductoryOffers        RetentionOffersGetInstanceParamsFieldsSubscriptions = "introductoryOffers"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsMarketSettings            RetentionOffersGetInstanceParamsFieldsSubscriptions = "marketSettings"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsMultiSeatStatus           RetentionOffersGetInstanceParamsFieldsSubscriptions = "multiSeatStatus"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsName                      RetentionOffersGetInstanceParamsFieldsSubscriptions = "name"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsOfferCodes                RetentionOffersGetInstanceParamsFieldsSubscriptions = "offerCodes"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsPlanAvailabilities        RetentionOffersGetInstanceParamsFieldsSubscriptions = "planAvailabilities"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsPricePoints               RetentionOffersGetInstanceParamsFieldsSubscriptions = "pricePoints"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsPrices                    RetentionOffersGetInstanceParamsFieldsSubscriptions = "prices"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsProductId                 RetentionOffersGetInstanceParamsFieldsSubscriptions = "productId"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsPromotedPurchase          RetentionOffersGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsPromotionalOffers         RetentionOffersGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsRetentionMessage          RetentionOffersGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    RetentionOffersGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsRetentionOffers           RetentionOffersGetInstanceParamsFieldsSubscriptions = "retentionOffers"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsReviewNote                RetentionOffersGetInstanceParamsFieldsSubscriptions = "reviewNote"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsState                     RetentionOffersGetInstanceParamsFieldsSubscriptions = "state"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  RetentionOffersGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsSubscriptionLocalizations RetentionOffersGetInstanceParamsFieldsSubscriptions = "subscriptionLocalizations"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsSubscriptionPeriod        RetentionOffersGetInstanceParamsFieldsSubscriptions = "subscriptionPeriod"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsVersions                  RetentionOffersGetInstanceParamsFieldsSubscriptions = "versions"
+	RetentionOffersGetInstanceParamsFieldsSubscriptionsWinBackOffers             RetentionOffersGetInstanceParamsFieldsSubscriptions = "winBackOffers"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersGetInstanceParamsFieldsSubscriptions enum.
+func (e RetentionOffersGetInstanceParamsFieldsSubscriptions) Valid() bool {
+	switch e {
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsAppStoreReviewScreenshot:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsFamilySharable:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsGroup:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsGroupLevel:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsImages:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsIntroductoryOffers:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsMarketSettings:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsMultiSeatStatus:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsName:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsOfferCodes:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsPlanAvailabilities:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsPricePoints:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsPrices:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsProductId:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsRetentionOffers:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsReviewNote:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsState:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsSubscriptionLocalizations:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsSubscriptionPeriod:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsVersions:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsSubscriptionsWinBackOffers:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices.
+const (
+	RetentionOffersGetInstanceParamsFieldsRetentionOfferPricesSubscriptionPricePoint RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices = "subscriptionPricePoint"
+	RetentionOffersGetInstanceParamsFieldsRetentionOfferPricesTerritory              RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices enum.
+func (e RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices) Valid() bool {
+	switch e {
+	case RetentionOffersGetInstanceParamsFieldsRetentionOfferPricesSubscriptionPricePoint:
+		return true
+	case RetentionOffersGetInstanceParamsFieldsRetentionOfferPricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersGetInstanceParamsInclude.
+const (
+	RetentionOffersGetInstanceParamsIncludePrices       RetentionOffersGetInstanceParamsInclude = "prices"
+	RetentionOffersGetInstanceParamsIncludeSubscription RetentionOffersGetInstanceParamsInclude = "subscription"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersGetInstanceParamsInclude enum.
+func (e RetentionOffersGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case RetentionOffersGetInstanceParamsIncludePrices:
+		return true
+	case RetentionOffersGetInstanceParamsIncludeSubscription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices.
+const (
+	RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPricesSubscriptionPricePoint RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices = "subscriptionPricePoint"
+	RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPricesTerritory              RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices = "territory"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices enum.
+func (e RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices) Valid() bool {
+	switch e {
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPricesSubscriptionPricePoint:
+		return true
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPricesTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersPricesGetToManyRelatedParamsFieldsTerritories.
+const (
+	RetentionOffersPricesGetToManyRelatedParamsFieldsTerritoriesCurrency RetentionOffersPricesGetToManyRelatedParamsFieldsTerritories = "currency"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersPricesGetToManyRelatedParamsFieldsTerritories enum.
+func (e RetentionOffersPricesGetToManyRelatedParamsFieldsTerritories) Valid() bool {
+	switch e {
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsTerritoriesCurrency:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints.
+const (
+	RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "adjustedEqualizations"
+	RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice         RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "customerPrice"
+	RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations         RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "equalizations"
+	RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds              RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceeds"
+	RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2         RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "proceedsYear2"
+	RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory             RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints = "territory"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints enum.
+func (e RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints) Valid() bool {
+	switch e {
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsAdjustedEqualizations:
+		return true
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsCustomerPrice:
+		return true
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsEqualizations:
+		return true
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceeds:
+		return true
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsProceedsYear2:
+		return true
+	case RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePointsTerritory:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for RetentionOffersPricesGetToManyRelatedParamsInclude.
+const (
+	RetentionOffersPricesGetToManyRelatedParamsIncludeSubscriptionPricePoint RetentionOffersPricesGetToManyRelatedParamsInclude = "subscriptionPricePoint"
+	RetentionOffersPricesGetToManyRelatedParamsIncludeTerritory              RetentionOffersPricesGetToManyRelatedParamsInclude = "territory"
+)
+
+// Valid indicates whether the value is a known member of the RetentionOffersPricesGetToManyRelatedParamsInclude enum.
+func (e RetentionOffersPricesGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case RetentionOffersPricesGetToManyRelatedParamsIncludeSubscriptionPricePoint:
+		return true
+	case RetentionOffersPricesGetToManyRelatedParamsIncludeTerritory:
 		return true
 	default:
 		return false
@@ -41246,6 +43115,7 @@ const (
 	ReviewSubmissionsGetCollectionParamsFieldsAppsPreReleaseVersions                     ReviewSubmissionsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	ReviewSubmissionsGetCollectionParamsFieldsAppsPrimaryLocale                          ReviewSubmissionsGetCollectionParamsFieldsApps = "primaryLocale"
 	ReviewSubmissionsGetCollectionParamsFieldsAppsPromotedPurchases                      ReviewSubmissionsGetCollectionParamsFieldsApps = "promotedPurchases"
+	ReviewSubmissionsGetCollectionParamsFieldsAppsRetentionMessages                      ReviewSubmissionsGetCollectionParamsFieldsApps = "retentionMessages"
 	ReviewSubmissionsGetCollectionParamsFieldsAppsReviewSubmissions                      ReviewSubmissionsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	ReviewSubmissionsGetCollectionParamsFieldsAppsSearchKeywords                         ReviewSubmissionsGetCollectionParamsFieldsApps = "searchKeywords"
 	ReviewSubmissionsGetCollectionParamsFieldsAppsSku                                    ReviewSubmissionsGetCollectionParamsFieldsApps = "sku"
@@ -41354,6 +43224,8 @@ func (e ReviewSubmissionsGetCollectionParamsFieldsApps) Valid() bool {
 		return true
 	case ReviewSubmissionsGetCollectionParamsFieldsAppsPromotedPurchases:
 		return true
+	case ReviewSubmissionsGetCollectionParamsFieldsAppsRetentionMessages:
+		return true
 	case ReviewSubmissionsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
 	case ReviewSubmissionsGetCollectionParamsFieldsAppsSearchKeywords:
@@ -41397,6 +43269,7 @@ const (
 	ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsGameCenterLeaderboardSetVersion ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems = "gameCenterLeaderboardSetVersion"
 	ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsGameCenterLeaderboardVersion    ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems = "gameCenterLeaderboardVersion"
 	ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsInAppPurchaseVersion            ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems = "inAppPurchaseVersion"
+	ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsRetentionMessageVersion         ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems = "retentionMessageVersion"
 	ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsState                           ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems = "state"
 	ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsSubscriptionGroupVersion        ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems = "subscriptionGroupVersion"
 	ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsSubscriptionVersion             ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems = "subscriptionVersion"
@@ -41432,6 +43305,8 @@ func (e ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItems) Valid()
 	case ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsGameCenterLeaderboardVersion:
 		return true
 	case ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsInAppPurchaseVersion:
+		return true
+	case ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsRetentionMessageVersion:
 		return true
 	case ReviewSubmissionsGetCollectionParamsFieldsReviewSubmissionItemsState:
 		return true
@@ -41768,6 +43643,9 @@ const (
 	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsProductId                 SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "productId"
 	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsPromotedPurchase          SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsPromotionalOffers         SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsRetentionMessage          SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsRetentionOffers           SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsReviewNote                SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsState                     SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "state"
 	SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -41811,6 +43689,12 @@ func (e SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscription
 	case SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionAppStoreReviewScreenshotsGetInstanceParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -41951,6 +43835,9 @@ const (
 	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsProductId                 SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "productId"
 	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsPromotedPurchase          SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsPromotionalOffers         SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsRetentionMessage          SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsRetentionOffers           SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsReviewNote                SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsState                     SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "state"
 	SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionGroupsGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -41994,6 +43881,12 @@ func (e SubscriptionGroupsGetInstanceParamsFieldsSubscriptions) Valid() bool {
 	case SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionGroupsGetInstanceParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -42164,6 +44057,9 @@ const (
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsProductId                 SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "productId"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase          SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers         SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage          SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers           SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsReviewNote                SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsState                     SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "state"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -42207,6 +44103,12 @@ func (e SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptions
 	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -42665,6 +44567,69 @@ func (e SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionV
 	}
 }
 
+// Defines values for SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers.
+const (
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersCustomerEligibilityPaidSubscriptionDurationInMonths SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "customerEligibilityPaidSubscriptionDurationInMonths"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersCustomerEligibilityWaitBetweenOffersInMonths        SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "customerEligibilityWaitBetweenOffersInMonths"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersDuration                                            SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "duration"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersOfferId                                             SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "offerId"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersOfferMode                                           SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "offerMode"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersPeriodCount                                         SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "periodCount"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersPrices                                              SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "prices"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersReferenceName                                       SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "referenceName"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersSubscription                                        SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "subscription"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersTargetSubscriptionPlanType                          SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers = "targetSubscriptionPlanType"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers enum.
+func (e SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers) Valid() bool {
+	switch e {
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersCustomerEligibilityPaidSubscriptionDurationInMonths:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersCustomerEligibilityWaitBetweenOffersInMonths:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersDuration:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersOfferId:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersOfferMode:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersPeriodCount:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersPrices:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersReferenceName:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersSubscription:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffersTargetSubscriptionPlanType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages.
+const (
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessagesReferenceName SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages = "referenceName"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessagesSubscriptions SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages = "subscriptions"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessagesVersions      SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages enum.
+func (e SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages) Valid() bool {
+	switch e {
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessagesReferenceName:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessagesSubscriptions:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude.
 const (
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeAppStoreReviewScreenshot  SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "appStoreReviewScreenshot"
@@ -42676,6 +44641,9 @@ const (
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludePrices                    SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "prices"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludePromotedPurchase          SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "promotedPurchase"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludePromotionalOffers         SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "promotionalOffers"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeRetentionMessage          SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "retentionMessage"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeRetentionMessageOffers    SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "retentionMessageOffers"
+	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeRetentionOffers           SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "retentionOffers"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeSubscriptionAvailability  SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "subscriptionAvailability"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeSubscriptionLocalizations SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "subscriptionLocalizations"
 	SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeVersions                  SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude = "versions"
@@ -42702,6 +44670,12 @@ func (e SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude) Valid() bo
 	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludePromotedPurchase:
 		return true
 	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludePromotionalOffers:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeRetentionMessage:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeRetentionMessageOffers:
+		return true
+	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeRetentionOffers:
 		return true
 	case SubscriptionGroupsSubscriptionsGetToManyRelatedParamsIncludeSubscriptionAvailability:
 		return true
@@ -43136,6 +45110,9 @@ const (
 	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsProductId                 SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "productId"
 	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotedPurchase          SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotionalOffers         SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsRetentionMessage          SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsRetentionOffers           SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsReviewNote                SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsState                     SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "state"
 	SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -43179,6 +45156,12 @@ func (e SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptions) Valid() bool
 	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionOfferCodesGetInstanceParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -43514,6 +45497,9 @@ const (
 	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsProductId                 SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "productId"
 	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsPromotedPurchase          SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsPromotionalOffers         SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsRetentionMessage          SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsRetentionOffers           SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsReviewNote                SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsState                     SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "state"
 	SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -43557,6 +45543,12 @@ func (e SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptions) Valid
 	case SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionPromotionalOffersGetInstanceParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -43811,6 +45803,9 @@ const (
 	SubscriptionsGetInstanceParamsFieldsSubscriptionsProductId                 SubscriptionsGetInstanceParamsFieldsSubscriptions = "productId"
 	SubscriptionsGetInstanceParamsFieldsSubscriptionsPromotedPurchase          SubscriptionsGetInstanceParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionsGetInstanceParamsFieldsSubscriptionsPromotionalOffers         SubscriptionsGetInstanceParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionsGetInstanceParamsFieldsSubscriptionsRetentionMessage          SubscriptionsGetInstanceParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionsGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionsGetInstanceParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionsGetInstanceParamsFieldsSubscriptionsRetentionOffers           SubscriptionsGetInstanceParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionsGetInstanceParamsFieldsSubscriptionsReviewNote                SubscriptionsGetInstanceParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionsGetInstanceParamsFieldsSubscriptionsState                     SubscriptionsGetInstanceParamsFieldsSubscriptions = "state"
 	SubscriptionsGetInstanceParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionsGetInstanceParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -43854,6 +45849,12 @@ func (e SubscriptionsGetInstanceParamsFieldsSubscriptions) Valid() bool {
 	case SubscriptionsGetInstanceParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionsGetInstanceParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionsGetInstanceParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -44312,6 +46313,69 @@ func (e SubscriptionsGetInstanceParamsFieldsSubscriptionVersions) Valid() bool {
 	}
 }
 
+// Defines values for SubscriptionsGetInstanceParamsFieldsRetentionOffers.
+const (
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersCustomerEligibilityPaidSubscriptionDurationInMonths SubscriptionsGetInstanceParamsFieldsRetentionOffers = "customerEligibilityPaidSubscriptionDurationInMonths"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersCustomerEligibilityWaitBetweenOffersInMonths        SubscriptionsGetInstanceParamsFieldsRetentionOffers = "customerEligibilityWaitBetweenOffersInMonths"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersDuration                                            SubscriptionsGetInstanceParamsFieldsRetentionOffers = "duration"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersOfferId                                             SubscriptionsGetInstanceParamsFieldsRetentionOffers = "offerId"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersOfferMode                                           SubscriptionsGetInstanceParamsFieldsRetentionOffers = "offerMode"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersPeriodCount                                         SubscriptionsGetInstanceParamsFieldsRetentionOffers = "periodCount"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersPrices                                              SubscriptionsGetInstanceParamsFieldsRetentionOffers = "prices"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersReferenceName                                       SubscriptionsGetInstanceParamsFieldsRetentionOffers = "referenceName"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersSubscription                                        SubscriptionsGetInstanceParamsFieldsRetentionOffers = "subscription"
+	SubscriptionsGetInstanceParamsFieldsRetentionOffersTargetSubscriptionPlanType                          SubscriptionsGetInstanceParamsFieldsRetentionOffers = "targetSubscriptionPlanType"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsGetInstanceParamsFieldsRetentionOffers enum.
+func (e SubscriptionsGetInstanceParamsFieldsRetentionOffers) Valid() bool {
+	switch e {
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersCustomerEligibilityPaidSubscriptionDurationInMonths:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersCustomerEligibilityWaitBetweenOffersInMonths:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersDuration:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersOfferId:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersOfferMode:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersPeriodCount:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersPrices:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersReferenceName:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersSubscription:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionOffersTargetSubscriptionPlanType:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for SubscriptionsGetInstanceParamsFieldsRetentionMessages.
+const (
+	SubscriptionsGetInstanceParamsFieldsRetentionMessagesReferenceName SubscriptionsGetInstanceParamsFieldsRetentionMessages = "referenceName"
+	SubscriptionsGetInstanceParamsFieldsRetentionMessagesSubscriptions SubscriptionsGetInstanceParamsFieldsRetentionMessages = "subscriptions"
+	SubscriptionsGetInstanceParamsFieldsRetentionMessagesVersions      SubscriptionsGetInstanceParamsFieldsRetentionMessages = "versions"
+)
+
+// Valid indicates whether the value is a known member of the SubscriptionsGetInstanceParamsFieldsRetentionMessages enum.
+func (e SubscriptionsGetInstanceParamsFieldsRetentionMessages) Valid() bool {
+	switch e {
+	case SubscriptionsGetInstanceParamsFieldsRetentionMessagesReferenceName:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionMessagesSubscriptions:
+		return true
+	case SubscriptionsGetInstanceParamsFieldsRetentionMessagesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for SubscriptionsGetInstanceParamsInclude.
 const (
 	SubscriptionsGetInstanceParamsIncludeAppStoreReviewScreenshot  SubscriptionsGetInstanceParamsInclude = "appStoreReviewScreenshot"
@@ -44323,6 +46387,9 @@ const (
 	SubscriptionsGetInstanceParamsIncludePrices                    SubscriptionsGetInstanceParamsInclude = "prices"
 	SubscriptionsGetInstanceParamsIncludePromotedPurchase          SubscriptionsGetInstanceParamsInclude = "promotedPurchase"
 	SubscriptionsGetInstanceParamsIncludePromotionalOffers         SubscriptionsGetInstanceParamsInclude = "promotionalOffers"
+	SubscriptionsGetInstanceParamsIncludeRetentionMessage          SubscriptionsGetInstanceParamsInclude = "retentionMessage"
+	SubscriptionsGetInstanceParamsIncludeRetentionMessageOffers    SubscriptionsGetInstanceParamsInclude = "retentionMessageOffers"
+	SubscriptionsGetInstanceParamsIncludeRetentionOffers           SubscriptionsGetInstanceParamsInclude = "retentionOffers"
 	SubscriptionsGetInstanceParamsIncludeSubscriptionAvailability  SubscriptionsGetInstanceParamsInclude = "subscriptionAvailability"
 	SubscriptionsGetInstanceParamsIncludeSubscriptionLocalizations SubscriptionsGetInstanceParamsInclude = "subscriptionLocalizations"
 	SubscriptionsGetInstanceParamsIncludeVersions                  SubscriptionsGetInstanceParamsInclude = "versions"
@@ -44349,6 +46416,12 @@ func (e SubscriptionsGetInstanceParamsInclude) Valid() bool {
 	case SubscriptionsGetInstanceParamsIncludePromotedPurchase:
 		return true
 	case SubscriptionsGetInstanceParamsIncludePromotionalOffers:
+		return true
+	case SubscriptionsGetInstanceParamsIncludeRetentionMessage:
+		return true
+	case SubscriptionsGetInstanceParamsIncludeRetentionMessageOffers:
+		return true
+	case SubscriptionsGetInstanceParamsIncludeRetentionOffers:
 		return true
 	case SubscriptionsGetInstanceParamsIncludeSubscriptionAvailability:
 		return true
@@ -44420,6 +46493,9 @@ const (
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsProductId                 SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "productId"
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsPromotedPurchase          SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsPromotionalOffers         SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsRetentionMessage          SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsRetentionOffers           SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsReviewNote                SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsState                     SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "state"
 	SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -44463,6 +46539,12 @@ func (e SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscrip
 	case SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionsAppStoreReviewScreenshotGetToOneRelatedParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -44555,6 +46637,9 @@ const (
 	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsProductId                 SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "productId"
 	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase          SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers         SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage          SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers           SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsReviewNote                SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsState                     SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "state"
 	SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -44598,6 +46683,12 @@ func (e SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptions
 	case SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionsIntroductoryOffersGetToManyRelatedParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -44990,6 +47081,9 @@ const (
 	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsProductId                 SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "productId"
 	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase          SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "promotedPurchase"
 	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers         SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "promotionalOffers"
+	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage          SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "retentionMessage"
+	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers    SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "retentionMessageOffers"
+	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers           SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "retentionOffers"
 	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsReviewNote                SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "reviewNote"
 	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsState                     SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "state"
 	SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsSubscriptionAvailability  SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions = "subscriptionAvailability"
@@ -45033,6 +47127,12 @@ func (e SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptions) Valid() 
 	case SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsPromotedPurchase:
 		return true
 	case SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsPromotionalOffers:
+		return true
+	case SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessage:
+		return true
+	case SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsRetentionMessageOffers:
+		return true
+	case SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsRetentionOffers:
 		return true
 	case SubscriptionsVersionsGetToManyRelatedParamsFieldsSubscriptionsReviewNote:
 		return true
@@ -45305,6 +47405,7 @@ const (
 	UserInvitationsGetCollectionParamsFieldsAppsPreReleaseVersions                     UserInvitationsGetCollectionParamsFieldsApps = "preReleaseVersions"
 	UserInvitationsGetCollectionParamsFieldsAppsPrimaryLocale                          UserInvitationsGetCollectionParamsFieldsApps = "primaryLocale"
 	UserInvitationsGetCollectionParamsFieldsAppsPromotedPurchases                      UserInvitationsGetCollectionParamsFieldsApps = "promotedPurchases"
+	UserInvitationsGetCollectionParamsFieldsAppsRetentionMessages                      UserInvitationsGetCollectionParamsFieldsApps = "retentionMessages"
 	UserInvitationsGetCollectionParamsFieldsAppsReviewSubmissions                      UserInvitationsGetCollectionParamsFieldsApps = "reviewSubmissions"
 	UserInvitationsGetCollectionParamsFieldsAppsSearchKeywords                         UserInvitationsGetCollectionParamsFieldsApps = "searchKeywords"
 	UserInvitationsGetCollectionParamsFieldsAppsSku                                    UserInvitationsGetCollectionParamsFieldsApps = "sku"
@@ -45412,6 +47513,8 @@ func (e UserInvitationsGetCollectionParamsFieldsApps) Valid() bool {
 	case UserInvitationsGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case UserInvitationsGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case UserInvitationsGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case UserInvitationsGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -45611,6 +47714,7 @@ const (
 	UsersGetCollectionParamsFieldsAppsPreReleaseVersions                     UsersGetCollectionParamsFieldsApps = "preReleaseVersions"
 	UsersGetCollectionParamsFieldsAppsPrimaryLocale                          UsersGetCollectionParamsFieldsApps = "primaryLocale"
 	UsersGetCollectionParamsFieldsAppsPromotedPurchases                      UsersGetCollectionParamsFieldsApps = "promotedPurchases"
+	UsersGetCollectionParamsFieldsAppsRetentionMessages                      UsersGetCollectionParamsFieldsApps = "retentionMessages"
 	UsersGetCollectionParamsFieldsAppsReviewSubmissions                      UsersGetCollectionParamsFieldsApps = "reviewSubmissions"
 	UsersGetCollectionParamsFieldsAppsSearchKeywords                         UsersGetCollectionParamsFieldsApps = "searchKeywords"
 	UsersGetCollectionParamsFieldsAppsSku                                    UsersGetCollectionParamsFieldsApps = "sku"
@@ -45718,6 +47822,8 @@ func (e UsersGetCollectionParamsFieldsApps) Valid() bool {
 	case UsersGetCollectionParamsFieldsAppsPrimaryLocale:
 		return true
 	case UsersGetCollectionParamsFieldsAppsPromotedPurchases:
+		return true
+	case UsersGetCollectionParamsFieldsAppsRetentionMessages:
 		return true
 	case UsersGetCollectionParamsFieldsAppsReviewSubmissions:
 		return true
@@ -45842,6 +47948,7 @@ const (
 	UsersGetInstanceParamsFieldsAppsPreReleaseVersions                     UsersGetInstanceParamsFieldsApps = "preReleaseVersions"
 	UsersGetInstanceParamsFieldsAppsPrimaryLocale                          UsersGetInstanceParamsFieldsApps = "primaryLocale"
 	UsersGetInstanceParamsFieldsAppsPromotedPurchases                      UsersGetInstanceParamsFieldsApps = "promotedPurchases"
+	UsersGetInstanceParamsFieldsAppsRetentionMessages                      UsersGetInstanceParamsFieldsApps = "retentionMessages"
 	UsersGetInstanceParamsFieldsAppsReviewSubmissions                      UsersGetInstanceParamsFieldsApps = "reviewSubmissions"
 	UsersGetInstanceParamsFieldsAppsSearchKeywords                         UsersGetInstanceParamsFieldsApps = "searchKeywords"
 	UsersGetInstanceParamsFieldsAppsSku                                    UsersGetInstanceParamsFieldsApps = "sku"
@@ -45949,6 +48056,8 @@ func (e UsersGetInstanceParamsFieldsApps) Valid() bool {
 	case UsersGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case UsersGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case UsersGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case UsersGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -46070,6 +48179,7 @@ const (
 	WebhooksGetInstanceParamsFieldsAppsPreReleaseVersions                     WebhooksGetInstanceParamsFieldsApps = "preReleaseVersions"
 	WebhooksGetInstanceParamsFieldsAppsPrimaryLocale                          WebhooksGetInstanceParamsFieldsApps = "primaryLocale"
 	WebhooksGetInstanceParamsFieldsAppsPromotedPurchases                      WebhooksGetInstanceParamsFieldsApps = "promotedPurchases"
+	WebhooksGetInstanceParamsFieldsAppsRetentionMessages                      WebhooksGetInstanceParamsFieldsApps = "retentionMessages"
 	WebhooksGetInstanceParamsFieldsAppsReviewSubmissions                      WebhooksGetInstanceParamsFieldsApps = "reviewSubmissions"
 	WebhooksGetInstanceParamsFieldsAppsSearchKeywords                         WebhooksGetInstanceParamsFieldsApps = "searchKeywords"
 	WebhooksGetInstanceParamsFieldsAppsSku                                    WebhooksGetInstanceParamsFieldsApps = "sku"
@@ -46177,6 +48287,8 @@ func (e WebhooksGetInstanceParamsFieldsApps) Valid() bool {
 	case WebhooksGetInstanceParamsFieldsAppsPrimaryLocale:
 		return true
 	case WebhooksGetInstanceParamsFieldsAppsPromotedPurchases:
+		return true
+	case WebhooksGetInstanceParamsFieldsAppsRetentionMessages:
 		return true
 	case WebhooksGetInstanceParamsFieldsAppsReviewSubmissions:
 		return true
@@ -47615,6 +49727,7 @@ const (
 	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPreReleaseVersions                     AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "preReleaseVersions"
 	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPrimaryLocale                          AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "primaryLocale"
 	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPromotedPurchases                      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "promotedPurchases"
+	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsRetentionMessages                      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "retentionMessages"
 	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsReviewSubmissions                      AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "reviewSubmissions"
 	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSearchKeywords                         AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "searchKeywords"
 	AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsSku                                    AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps = "sku"
@@ -47722,6 +49835,8 @@ func (e AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsApps) Valid() b
 	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPrimaryLocale:
 		return true
 	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsRetentionMessages:
 		return true
 	case AppPricePointsV3EqualizationsGetToManyRelatedParamsFieldsAppsReviewSubmissions:
 		return true
@@ -48413,6 +50528,14 @@ type App struct {
 			Links *RelationshipLinks `json:"links,omitempty"`
 			Meta  *PagingInformation `json:"meta,omitempty"`
 		} `json:"promotedPurchases,omitempty"`
+		RetentionMessages *struct {
+			Data *[]struct {
+				Id   string                                    `json:"id"`
+				Type AppRelationshipsRetentionMessagesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"retentionMessages,omitempty"`
 		ReviewSubmissions *struct {
 			Data *[]struct {
 				Id   string                                    `json:"id"`
@@ -48514,6 +50637,9 @@ type AppRelationshipsPreReleaseVersionsDataType string
 
 // AppRelationshipsPromotedPurchasesDataType defines model for App.Relationships.PromotedPurchases.Data.Type.
 type AppRelationshipsPromotedPurchasesDataType string
+
+// AppRelationshipsRetentionMessagesDataType defines model for App.Relationships.RetentionMessages.Data.Type.
+type AppRelationshipsRetentionMessagesDataType string
 
 // AppRelationshipsReviewSubmissionsDataType defines model for App.Relationships.ReviewSubmissions.Data.Type.
 type AppRelationshipsReviewSubmissionsDataType string
@@ -48864,6 +50990,12 @@ type AppAssetLibraryPlacementCommonRelationships struct {
 			Type AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionLocalizationDataType `json:"type"`
 		} `json:"data,omitempty"`
 	} `json:"appStoreVersionLocalization,omitempty"`
+	RetentionMessageVersion *struct {
+		Data *struct {
+			Id   string                                                                     `json:"id"`
+			Type AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataType `json:"type"`
+		} `json:"data,omitempty"`
+	} `json:"retentionMessageVersion,omitempty"`
 }
 
 // AppAssetLibraryPlacementCommonRelationshipsAppCustomProductPageLocalizationDataType defines model for AppAssetLibraryPlacementCommonRelationships.AppCustomProductPageLocalization.Data.Type.
@@ -48877,6 +51009,9 @@ type AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionExperimentTreatme
 
 // AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionLocalizationDataType defines model for AppAssetLibraryPlacementCommonRelationships.AppStoreVersionLocalization.Data.Type.
 type AppAssetLibraryPlacementCommonRelationshipsAppStoreVersionLocalizationDataType string
+
+// AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataType defines model for AppAssetLibraryPlacementCommonRelationships.RetentionMessageVersion.Data.Type.
+type AppAssetLibraryPlacementCommonRelationshipsRetentionMessageVersionDataType string
 
 // AppAssetLibraryPlacementCreateRequest defines model for AppAssetLibraryPlacementCreateRequest.
 type AppAssetLibraryPlacementCreateRequest struct {
@@ -48897,6 +51032,9 @@ type AppAssetLibraryPlacementCreateRequestDataRelationshipsAppStoreVersionLocali
 
 // AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.Image.Data.Type.
 type AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType string
+
+// AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.RetentionMessageVersion.Data.Type.
+type AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataType string
 
 // AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType defines model for AppAssetLibraryPlacementCreateRequest.Data.Relationships.Video.Data.Type.
 type AppAssetLibraryPlacementCreateRequestDataRelationshipsVideoDataType string
@@ -48952,6 +51090,12 @@ type AppAssetLibraryPlacementCreateRequestData7 struct {
 	Relationships map[string]interface{} `json:"relationships"`
 }
 
+// AppAssetLibraryPlacementCreateRequestData8 defines model for AppAssetLibraryPlacementCreateRequest.Data.8.
+type AppAssetLibraryPlacementCreateRequestData8 struct {
+	Attributes    map[string]interface{} `json:"attributes"`
+	Relationships map[string]interface{} `json:"relationships"`
+}
+
 // AppAssetLibraryPlacementCreateRequest_Data defines model for AppAssetLibraryPlacementCreateRequest.Data.
 type AppAssetLibraryPlacementCreateRequest_Data struct {
 	Attributes *struct {
@@ -48989,6 +51133,12 @@ type AppAssetLibraryPlacementCreateRequest_Data struct {
 				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsImageDataType `json:"type"`
 			} `json:"data,omitempty"`
 		} `json:"image,omitempty"`
+		RetentionMessageVersion *struct {
+			Data *struct {
+				Id   string                                                                                `json:"id"`
+				Type AppAssetLibraryPlacementCreateRequestDataRelationshipsRetentionMessageVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"retentionMessageVersion,omitempty"`
 		Video *struct {
 			Data *struct {
 				Id   string                                                              `json:"id"`
@@ -49032,6 +51182,12 @@ type AppAssetLibraryPlacementImageRelationships struct {
 			Type AppAssetLibraryPlacementImageRelationshipsImageDataType `json:"type"`
 		} `json:"data,omitempty"`
 	} `json:"image,omitempty"`
+	RetentionMessageVersion *struct {
+		Data *struct {
+			Id   string                                                                    `json:"id"`
+			Type AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataType `json:"type"`
+		} `json:"data,omitempty"`
+	} `json:"retentionMessageVersion,omitempty"`
 }
 
 // AppAssetLibraryPlacementImageRelationshipsAppCustomProductPageLocalizationDataType defines model for AppAssetLibraryPlacementImageRelationships.AppCustomProductPageLocalization.Data.Type.
@@ -49048,6 +51204,9 @@ type AppAssetLibraryPlacementImageRelationshipsAppStoreVersionLocalizationDataTy
 
 // AppAssetLibraryPlacementImageRelationshipsImageDataType defines model for AppAssetLibraryPlacementImageRelationships.Image.Data.Type.
 type AppAssetLibraryPlacementImageRelationshipsImageDataType string
+
+// AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataType defines model for AppAssetLibraryPlacementImageRelationships.RetentionMessageVersion.Data.Type.
+type AppAssetLibraryPlacementImageRelationshipsRetentionMessageVersionDataType string
 
 // AppAssetLibraryPlacementOrderingRequest defines model for AppAssetLibraryPlacementOrderingRequest.
 type AppAssetLibraryPlacementOrderingRequest struct {
@@ -49198,6 +51357,12 @@ type AppAssetLibraryPlacementVideoRelationships struct {
 			Type AppAssetLibraryPlacementVideoRelationshipsAppStoreVersionLocalizationDataType `json:"type"`
 		} `json:"data,omitempty"`
 	} `json:"appStoreVersionLocalization,omitempty"`
+	RetentionMessageVersion *struct {
+		Data *struct {
+			Id   string                                                                    `json:"id"`
+			Type AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataType `json:"type"`
+		} `json:"data,omitempty"`
+	} `json:"retentionMessageVersion,omitempty"`
 	Video *struct {
 		Data *struct {
 			Id   string                                                  `json:"id"`
@@ -49217,6 +51382,9 @@ type AppAssetLibraryPlacementVideoRelationshipsAppStoreVersionExperimentTreatmen
 
 // AppAssetLibraryPlacementVideoRelationshipsAppStoreVersionLocalizationDataType defines model for AppAssetLibraryPlacementVideoRelationships.AppStoreVersionLocalization.Data.Type.
 type AppAssetLibraryPlacementVideoRelationshipsAppStoreVersionLocalizationDataType string
+
+// AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataType defines model for AppAssetLibraryPlacementVideoRelationships.RetentionMessageVersion.Data.Type.
+type AppAssetLibraryPlacementVideoRelationshipsRetentionMessageVersionDataType string
 
 // AppAssetLibraryPlacementVideoRelationshipsVideoDataType defines model for AppAssetLibraryPlacementVideoRelationships.Video.Data.Type.
 type AppAssetLibraryPlacementVideoRelationshipsVideoDataType string
@@ -57464,6 +59632,426 @@ type ResourceLinks struct {
 	Self *string `json:"self,omitempty"`
 }
 
+// RetentionMessage defines model for RetentionMessage.
+type RetentionMessage struct {
+	Attributes *struct {
+		ReferenceName *string `json:"referenceName,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Subscriptions *struct {
+			Data *[]struct {
+				Id   string                                             `json:"id"`
+				Type RetentionMessageRelationshipsSubscriptionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"subscriptions,omitempty"`
+		Versions *struct {
+			Data *[]struct {
+				Id   string                                        `json:"id"`
+				Type RetentionMessageRelationshipsVersionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"versions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type RetentionMessageType `json:"type"`
+}
+
+// RetentionMessageRelationshipsSubscriptionsDataType defines model for RetentionMessage.Relationships.Subscriptions.Data.Type.
+type RetentionMessageRelationshipsSubscriptionsDataType string
+
+// RetentionMessageRelationshipsVersionsDataType defines model for RetentionMessage.Relationships.Versions.Data.Type.
+type RetentionMessageRelationshipsVersionsDataType string
+
+// RetentionMessageType defines model for RetentionMessage.Type.
+type RetentionMessageType string
+
+// RetentionMessageCreateRequest defines model for RetentionMessageCreateRequest.
+type RetentionMessageCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			ReferenceName string `json:"referenceName"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                    `json:"id"`
+					Type RetentionMessageCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type RetentionMessageCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// RetentionMessageCreateRequestDataRelationshipsAppDataType defines model for RetentionMessageCreateRequest.Data.Relationships.App.Data.Type.
+type RetentionMessageCreateRequestDataRelationshipsAppDataType string
+
+// RetentionMessageCreateRequestDataType defines model for RetentionMessageCreateRequest.Data.Type.
+type RetentionMessageCreateRequestDataType string
+
+// RetentionMessageLocalization defines model for RetentionMessageLocalization.
+type RetentionMessageLocalization struct {
+	Attributes *struct {
+		Body   *string `json:"body,omitempty"`
+		Header *string `json:"header,omitempty"`
+		Locale *string `json:"locale,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		RetentionMessageVersion *struct {
+			Data *struct {
+				Id   string                                                                   `json:"id"`
+				Type RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"retentionMessageVersion,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type RetentionMessageLocalizationType `json:"type"`
+}
+
+// RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataType defines model for RetentionMessageLocalization.Relationships.RetentionMessageVersion.Data.Type.
+type RetentionMessageLocalizationRelationshipsRetentionMessageVersionDataType string
+
+// RetentionMessageLocalizationType defines model for RetentionMessageLocalization.Type.
+type RetentionMessageLocalizationType string
+
+// RetentionMessageLocalizationCreateRequest defines model for RetentionMessageLocalizationCreateRequest.
+type RetentionMessageLocalizationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Body   *string `json:"body,omitempty"`
+			Header *string `json:"header,omitempty"`
+			Locale string  `json:"locale"`
+		} `json:"attributes"`
+		Relationships struct {
+			RetentionMessageVersion struct {
+				Data struct {
+					Id   string                                                                                    `json:"id"`
+					Type RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"retentionMessageVersion"`
+		} `json:"relationships"`
+		Type RetentionMessageLocalizationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataType defines model for RetentionMessageLocalizationCreateRequest.Data.Relationships.RetentionMessageVersion.Data.Type.
+type RetentionMessageLocalizationCreateRequestDataRelationshipsRetentionMessageVersionDataType string
+
+// RetentionMessageLocalizationCreateRequestDataType defines model for RetentionMessageLocalizationCreateRequest.Data.Type.
+type RetentionMessageLocalizationCreateRequestDataType string
+
+// RetentionMessageLocalizationResponse defines model for RetentionMessageLocalizationResponse.
+type RetentionMessageLocalizationResponse struct {
+	Data     RetentionMessageLocalization `json:"data"`
+	Included *[]RetentionMessageVersion   `json:"included,omitempty"`
+	Links    DocumentLinks                `json:"links"`
+}
+
+// RetentionMessageLocalizationUpdateRequest defines model for RetentionMessageLocalizationUpdateRequest.
+type RetentionMessageLocalizationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Body   *string `json:"body,omitempty"`
+			Header *string `json:"header,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                            `json:"id"`
+		Type RetentionMessageLocalizationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// RetentionMessageLocalizationUpdateRequestDataType defines model for RetentionMessageLocalizationUpdateRequest.Data.Type.
+type RetentionMessageLocalizationUpdateRequestDataType string
+
+// RetentionMessageLocalizationsResponse defines model for RetentionMessageLocalizationsResponse.
+type RetentionMessageLocalizationsResponse struct {
+	Data     []RetentionMessageLocalization `json:"data"`
+	Included *[]RetentionMessageVersion     `json:"included,omitempty"`
+	Links    PagedDocumentLinks             `json:"links"`
+	Meta     *PagingInformation             `json:"meta,omitempty"`
+}
+
+// RetentionMessageResponse defines model for RetentionMessageResponse.
+type RetentionMessageResponse struct {
+	Data     RetentionMessage                          `json:"data"`
+	Included *[]RetentionMessageResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                             `json:"links"`
+}
+
+// RetentionMessageResponse_Included_Item defines model for RetentionMessageResponse.included.Item.
+type RetentionMessageResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// RetentionMessageVersion defines model for RetentionMessageVersion.
+type RetentionMessageVersion struct {
+	Attributes *struct {
+		State *RetentionMessageVersionAttributesState `json:"state,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Localizations *struct {
+			Data *[]struct {
+				Id   string                                                    `json:"id"`
+				Type RetentionMessageVersionRelationshipsLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"localizations,omitempty"`
+		Placement *struct {
+			Data *struct {
+				Id   string                                                `json:"id"`
+				Type RetentionMessageVersionRelationshipsPlacementDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"placement,omitempty"`
+		RetentionMessage *struct {
+			Data *struct {
+				Id   string                                                       `json:"id"`
+				Type RetentionMessageVersionRelationshipsRetentionMessageDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"retentionMessage,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type RetentionMessageVersionType `json:"type"`
+}
+
+// RetentionMessageVersionAttributesState defines model for RetentionMessageVersion.Attributes.State.
+type RetentionMessageVersionAttributesState string
+
+// RetentionMessageVersionRelationshipsLocalizationsDataType defines model for RetentionMessageVersion.Relationships.Localizations.Data.Type.
+type RetentionMessageVersionRelationshipsLocalizationsDataType string
+
+// RetentionMessageVersionRelationshipsPlacementDataType defines model for RetentionMessageVersion.Relationships.Placement.Data.Type.
+type RetentionMessageVersionRelationshipsPlacementDataType string
+
+// RetentionMessageVersionRelationshipsRetentionMessageDataType defines model for RetentionMessageVersion.Relationships.RetentionMessage.Data.Type.
+type RetentionMessageVersionRelationshipsRetentionMessageDataType string
+
+// RetentionMessageVersionType defines model for RetentionMessageVersion.Type.
+type RetentionMessageVersionType string
+
+// RetentionMessageVersionCreateRequest defines model for RetentionMessageVersionCreateRequest.
+type RetentionMessageVersionCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			Placement *struct {
+				Data *struct {
+					Id   string                                                                 `json:"id"`
+					Type RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"placement,omitempty"`
+			RetentionMessage struct {
+				Data struct {
+					Id   string                                                                        `json:"id"`
+					Type RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataType `json:"type"`
+				} `json:"data"`
+			} `json:"retentionMessage"`
+		} `json:"relationships"`
+		Type RetentionMessageVersionCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataType defines model for RetentionMessageVersionCreateRequest.Data.Relationships.Placement.Data.Type.
+type RetentionMessageVersionCreateRequestDataRelationshipsPlacementDataType string
+
+// RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataType defines model for RetentionMessageVersionCreateRequest.Data.Relationships.RetentionMessage.Data.Type.
+type RetentionMessageVersionCreateRequestDataRelationshipsRetentionMessageDataType string
+
+// RetentionMessageVersionCreateRequestDataType defines model for RetentionMessageVersionCreateRequest.Data.Type.
+type RetentionMessageVersionCreateRequestDataType string
+
+// RetentionMessageVersionResponse defines model for RetentionMessageVersionResponse.
+type RetentionMessageVersionResponse struct {
+	Data     RetentionMessageVersion                          `json:"data"`
+	Included *[]RetentionMessageVersionResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                    `json:"links"`
+}
+
+// RetentionMessageVersionResponse_Included_Item defines model for RetentionMessageVersionResponse.included.Item.
+type RetentionMessageVersionResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// RetentionMessagesResponse defines model for RetentionMessagesResponse.
+type RetentionMessagesResponse struct {
+	Data     []RetentionMessage                         `json:"data"`
+	Included *[]RetentionMessagesResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                         `json:"links"`
+	Meta     *PagingInformation                         `json:"meta,omitempty"`
+}
+
+// RetentionMessagesResponse_Included_Item defines model for RetentionMessagesResponse.included.Item.
+type RetentionMessagesResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// RetentionOffer defines model for RetentionOffer.
+type RetentionOffer struct {
+	Attributes *struct {
+		CustomerEligibilityPaidSubscriptionDurationInMonths *int                       `json:"customerEligibilityPaidSubscriptionDurationInMonths,omitempty"`
+		CustomerEligibilityWaitBetweenOffersInMonths        *int                       `json:"customerEligibilityWaitBetweenOffersInMonths,omitempty"`
+		Duration                                            *SubscriptionOfferDuration `json:"duration,omitempty"`
+		OfferId                                             *string                    `json:"offerId,omitempty"`
+		OfferMode                                           *SubscriptionOfferMode     `json:"offerMode,omitempty"`
+		PeriodCount                                         *int                       `json:"periodCount,omitempty"`
+		ReferenceName                                       *string                    `json:"referenceName,omitempty"`
+		TargetSubscriptionPlanType                          *SubscriptionPlanType      `json:"targetSubscriptionPlanType,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Prices *struct {
+			Data *[]struct {
+				Id   string                                    `json:"id"`
+				Type RetentionOfferRelationshipsPricesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"prices,omitempty"`
+		Subscription *struct {
+			Data *struct {
+				Id   string                                          `json:"id"`
+				Type RetentionOfferRelationshipsSubscriptionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"subscription,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type RetentionOfferType `json:"type"`
+}
+
+// RetentionOfferRelationshipsPricesDataType defines model for RetentionOffer.Relationships.Prices.Data.Type.
+type RetentionOfferRelationshipsPricesDataType string
+
+// RetentionOfferRelationshipsSubscriptionDataType defines model for RetentionOffer.Relationships.Subscription.Data.Type.
+type RetentionOfferRelationshipsSubscriptionDataType string
+
+// RetentionOfferType defines model for RetentionOffer.Type.
+type RetentionOfferType string
+
+// RetentionOfferCreateRequest defines model for RetentionOfferCreateRequest.
+type RetentionOfferCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			CustomerEligibilityPaidSubscriptionDurationInMonths int                       `json:"customerEligibilityPaidSubscriptionDurationInMonths"`
+			CustomerEligibilityWaitBetweenOffersInMonths        *int                      `json:"customerEligibilityWaitBetweenOffersInMonths,omitempty"`
+			Duration                                            SubscriptionOfferDuration `json:"duration"`
+			OfferId                                             string                    `json:"offerId"`
+			OfferMode                                           SubscriptionOfferMode     `json:"offerMode"`
+			PeriodCount                                         int                       `json:"periodCount"`
+			ReferenceName                                       string                    `json:"referenceName"`
+			TargetSubscriptionPlanType                          *SubscriptionPlanType     `json:"targetSubscriptionPlanType,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			Prices struct {
+				Data []struct {
+					Id   string                                                     `json:"id"`
+					Type RetentionOfferCreateRequestDataRelationshipsPricesDataType `json:"type"`
+				} `json:"data"`
+			} `json:"prices"`
+			Subscription struct {
+				Data struct {
+					Id   string                                                           `json:"id"`
+					Type RetentionOfferCreateRequestDataRelationshipsSubscriptionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"subscription"`
+		} `json:"relationships"`
+		Type RetentionOfferCreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]RetentionOfferPriceInlineCreate `json:"included,omitempty"`
+}
+
+// RetentionOfferCreateRequestDataRelationshipsPricesDataType defines model for RetentionOfferCreateRequest.Data.Relationships.Prices.Data.Type.
+type RetentionOfferCreateRequestDataRelationshipsPricesDataType string
+
+// RetentionOfferCreateRequestDataRelationshipsSubscriptionDataType defines model for RetentionOfferCreateRequest.Data.Relationships.Subscription.Data.Type.
+type RetentionOfferCreateRequestDataRelationshipsSubscriptionDataType string
+
+// RetentionOfferCreateRequestDataType defines model for RetentionOfferCreateRequest.Data.Type.
+type RetentionOfferCreateRequestDataType string
+
+// RetentionOfferPrice defines model for RetentionOfferPrice.
+type RetentionOfferPrice struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		SubscriptionPricePoint *struct {
+			Data *struct {
+				Id   string                                                         `json:"id"`
+				Type RetentionOfferPriceRelationshipsSubscriptionPricePointDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"subscriptionPricePoint,omitempty"`
+		Territory *struct {
+			Data *struct {
+				Id   string                                            `json:"id"`
+				Type RetentionOfferPriceRelationshipsTerritoryDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"territory,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type RetentionOfferPriceType `json:"type"`
+}
+
+// RetentionOfferPriceRelationshipsSubscriptionPricePointDataType defines model for RetentionOfferPrice.Relationships.SubscriptionPricePoint.Data.Type.
+type RetentionOfferPriceRelationshipsSubscriptionPricePointDataType string
+
+// RetentionOfferPriceRelationshipsTerritoryDataType defines model for RetentionOfferPrice.Relationships.Territory.Data.Type.
+type RetentionOfferPriceRelationshipsTerritoryDataType string
+
+// RetentionOfferPriceType defines model for RetentionOfferPrice.Type.
+type RetentionOfferPriceType string
+
+// RetentionOfferPriceInlineCreate defines model for RetentionOfferPriceInlineCreate.
+type RetentionOfferPriceInlineCreate struct {
+	Id   *string                             `json:"id,omitempty"`
+	Type RetentionOfferPriceInlineCreateType `json:"type"`
+}
+
+// RetentionOfferPriceInlineCreateType defines model for RetentionOfferPriceInlineCreate.Type.
+type RetentionOfferPriceInlineCreateType string
+
+// RetentionOfferPricesResponse defines model for RetentionOfferPricesResponse.
+type RetentionOfferPricesResponse struct {
+	Data     []RetentionOfferPrice                         `json:"data"`
+	Included *[]RetentionOfferPricesResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                            `json:"links"`
+	Meta     *PagingInformation                            `json:"meta,omitempty"`
+}
+
+// RetentionOfferPricesResponse_Included_Item defines model for RetentionOfferPricesResponse.included.Item.
+type RetentionOfferPricesResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// RetentionOfferResponse defines model for RetentionOfferResponse.
+type RetentionOfferResponse struct {
+	Data     RetentionOffer                          `json:"data"`
+	Included *[]RetentionOfferResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                           `json:"links"`
+}
+
+// RetentionOfferResponse_Included_Item defines model for RetentionOfferResponse.included.Item.
+type RetentionOfferResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// RetentionOfferUpdateRequest defines model for RetentionOfferUpdateRequest.
+type RetentionOfferUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			CustomerEligibilityPaidSubscriptionDurationInMonths *int `json:"customerEligibilityPaidSubscriptionDurationInMonths,omitempty"`
+			CustomerEligibilityWaitBetweenOffersInMonths        *int `json:"customerEligibilityWaitBetweenOffersInMonths,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                              `json:"id"`
+		Type RetentionOfferUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// RetentionOfferUpdateRequestDataType defines model for RetentionOfferUpdateRequest.Data.Type.
+type RetentionOfferUpdateRequestDataType string
+
 // ReviewSubmission defines model for ReviewSubmission.
 type ReviewSubmission struct {
 	Attributes *struct {
@@ -57647,6 +60235,12 @@ type ReviewSubmissionItem struct {
 				Type ReviewSubmissionItemRelationshipsInAppPurchaseVersionDataType `json:"type"`
 			} `json:"data,omitempty"`
 		} `json:"inAppPurchaseVersion,omitempty"`
+		RetentionMessageVersion *struct {
+			Data *struct {
+				Id   string                                                           `json:"id"`
+				Type ReviewSubmissionItemRelationshipsRetentionMessageVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"retentionMessageVersion,omitempty"`
 		SubscriptionGroupVersion *struct {
 			Data *struct {
 				Id   string                                                            `json:"id"`
@@ -57707,6 +60301,9 @@ type ReviewSubmissionItemRelationshipsGameCenterLeaderboardVersionDataType strin
 
 // ReviewSubmissionItemRelationshipsInAppPurchaseVersionDataType defines model for ReviewSubmissionItem.Relationships.InAppPurchaseVersion.Data.Type.
 type ReviewSubmissionItemRelationshipsInAppPurchaseVersionDataType string
+
+// ReviewSubmissionItemRelationshipsRetentionMessageVersionDataType defines model for ReviewSubmissionItem.Relationships.RetentionMessageVersion.Data.Type.
+type ReviewSubmissionItemRelationshipsRetentionMessageVersionDataType string
 
 // ReviewSubmissionItemRelationshipsSubscriptionGroupVersionDataType defines model for ReviewSubmissionItem.Relationships.SubscriptionGroupVersion.Data.Type.
 type ReviewSubmissionItemRelationshipsSubscriptionGroupVersionDataType string
@@ -57805,6 +60402,12 @@ type ReviewSubmissionItemCreateRequest struct {
 					Type ReviewSubmissionItemCreateRequestDataRelationshipsInAppPurchaseVersionDataType `json:"type"`
 				} `json:"data,omitempty"`
 			} `json:"inAppPurchaseVersion,omitempty"`
+			RetentionMessageVersion *struct {
+				Data *struct {
+					Id   string                                                                            `json:"id"`
+					Type ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"retentionMessageVersion,omitempty"`
 			ReviewSubmission struct {
 				Data struct {
 					Id   string                                                                     `json:"id"`
@@ -57869,6 +60472,9 @@ type ReviewSubmissionItemCreateRequestDataRelationshipsGameCenterLeaderboardVers
 
 // ReviewSubmissionItemCreateRequestDataRelationshipsInAppPurchaseVersionDataType defines model for ReviewSubmissionItemCreateRequest.Data.Relationships.InAppPurchaseVersion.Data.Type.
 type ReviewSubmissionItemCreateRequestDataRelationshipsInAppPurchaseVersionDataType string
+
+// ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataType defines model for ReviewSubmissionItemCreateRequest.Data.Relationships.RetentionMessageVersion.Data.Type.
+type ReviewSubmissionItemCreateRequestDataRelationshipsRetentionMessageVersionDataType string
 
 // ReviewSubmissionItemCreateRequestDataRelationshipsReviewSubmissionDataType defines model for ReviewSubmissionItemCreateRequest.Data.Relationships.ReviewSubmission.Data.Type.
 type ReviewSubmissionItemCreateRequestDataRelationshipsReviewSubmissionDataType string
@@ -58197,6 +60803,29 @@ type Subscription struct {
 			Links *RelationshipLinks `json:"links,omitempty"`
 			Meta  *PagingInformation `json:"meta,omitempty"`
 		} `json:"promotionalOffers,omitempty"`
+		RetentionMessage *struct {
+			Data *struct {
+				Id   string                                            `json:"id"`
+				Type SubscriptionRelationshipsRetentionMessageDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"retentionMessage,omitempty"`
+		RetentionMessageOffers *struct {
+			Data *[]struct {
+				Id   string                                                  `json:"id"`
+				Type SubscriptionRelationshipsRetentionMessageOffersDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"retentionMessageOffers,omitempty"`
+		RetentionOffers *struct {
+			Data *[]struct {
+				Id   string                                           `json:"id"`
+				Type SubscriptionRelationshipsRetentionOffersDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"retentionOffers,omitempty"`
 		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
 		SubscriptionAvailability *struct {
 			Data *struct {
@@ -58271,6 +60900,15 @@ type SubscriptionRelationshipsPromotedPurchaseDataType string
 
 // SubscriptionRelationshipsPromotionalOffersDataType defines model for Subscription.Relationships.PromotionalOffers.Data.Type.
 type SubscriptionRelationshipsPromotionalOffersDataType string
+
+// SubscriptionRelationshipsRetentionMessageDataType defines model for Subscription.Relationships.RetentionMessage.Data.Type.
+type SubscriptionRelationshipsRetentionMessageDataType string
+
+// SubscriptionRelationshipsRetentionMessageOffersDataType defines model for Subscription.Relationships.RetentionMessageOffers.Data.Type.
+type SubscriptionRelationshipsRetentionMessageOffersDataType string
+
+// SubscriptionRelationshipsRetentionOffersDataType defines model for Subscription.Relationships.RetentionOffers.Data.Type.
+type SubscriptionRelationshipsRetentionOffersDataType string
 
 // SubscriptionRelationshipsSubscriptionAvailabilityDataType defines model for Subscription.Relationships.SubscriptionAvailability.Data.Type.
 type SubscriptionRelationshipsSubscriptionAvailabilityDataType string
@@ -60087,6 +62725,53 @@ type SubscriptionResponse_Included_Item struct {
 	union json.RawMessage
 }
 
+// SubscriptionRetentionMessageLinkageRequest defines model for SubscriptionRetentionMessageLinkageRequest.
+type SubscriptionRetentionMessageLinkageRequest struct {
+	Data struct {
+		Id   string                                             `json:"id"`
+		Type SubscriptionRetentionMessageLinkageRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionRetentionMessageLinkageRequestDataType defines model for SubscriptionRetentionMessageLinkageRequest.Data.Type.
+type SubscriptionRetentionMessageLinkageRequestDataType string
+
+// SubscriptionRetentionMessageLinkageResponse defines model for SubscriptionRetentionMessageLinkageResponse.
+type SubscriptionRetentionMessageLinkageResponse struct {
+	Data struct {
+		Id   string                                              `json:"id"`
+		Type SubscriptionRetentionMessageLinkageResponseDataType `json:"type"`
+	} `json:"data"`
+	Links DocumentLinks `json:"links"`
+}
+
+// SubscriptionRetentionMessageLinkageResponseDataType defines model for SubscriptionRetentionMessageLinkageResponse.Data.Type.
+type SubscriptionRetentionMessageLinkageResponseDataType string
+
+// SubscriptionRetentionMessageOffersLinkagesRequest defines model for SubscriptionRetentionMessageOffersLinkagesRequest.
+type SubscriptionRetentionMessageOffersLinkagesRequest struct {
+	Data []struct {
+		Id   string                                                    `json:"id"`
+		Type SubscriptionRetentionMessageOffersLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// SubscriptionRetentionMessageOffersLinkagesRequestDataType defines model for SubscriptionRetentionMessageOffersLinkagesRequest.Data.Type.
+type SubscriptionRetentionMessageOffersLinkagesRequestDataType string
+
+// SubscriptionRetentionMessageOffersLinkagesResponse defines model for SubscriptionRetentionMessageOffersLinkagesResponse.
+type SubscriptionRetentionMessageOffersLinkagesResponse struct {
+	Data []struct {
+		Id   string                                                     `json:"id"`
+		Type SubscriptionRetentionMessageOffersLinkagesResponseDataType `json:"type"`
+	} `json:"data"`
+	Links PagedDocumentLinks `json:"links"`
+	Meta  *PagingInformation `json:"meta,omitempty"`
+}
+
+// SubscriptionRetentionMessageOffersLinkagesResponseDataType defines model for SubscriptionRetentionMessageOffersLinkagesResponse.Data.Type.
+type SubscriptionRetentionMessageOffersLinkagesResponseDataType string
+
 // SubscriptionStatusUrlVersion defines model for SubscriptionStatusUrlVersion.
 type SubscriptionStatusUrlVersion string
 
@@ -60122,6 +62807,18 @@ type SubscriptionUpdateRequest struct {
 					Type SubscriptionUpdateRequestDataRelationshipsPromotionalOffersDataType `json:"type"`
 				} `json:"data,omitempty"`
 			} `json:"promotionalOffers,omitempty"`
+			RetentionMessage *struct {
+				Data *struct {
+					Id   string                                                             `json:"id"`
+					Type SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"retentionMessage,omitempty"`
+			RetentionMessageOffers *struct {
+				Data *[]struct {
+					Id   string                                                                   `json:"id"`
+					Type SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"retentionMessageOffers,omitempty"`
 		} `json:"relationships,omitempty"`
 		Type SubscriptionUpdateRequestDataType `json:"type"`
 	} `json:"data"`
@@ -60145,6 +62842,12 @@ type SubscriptionUpdateRequestDataRelationshipsPricesDataType string
 
 // SubscriptionUpdateRequestDataRelationshipsPromotionalOffersDataType defines model for SubscriptionUpdateRequest.Data.Relationships.PromotionalOffers.Data.Type.
 type SubscriptionUpdateRequestDataRelationshipsPromotionalOffersDataType string
+
+// SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataType defines model for SubscriptionUpdateRequest.Data.Relationships.RetentionMessage.Data.Type.
+type SubscriptionUpdateRequestDataRelationshipsRetentionMessageDataType string
+
+// SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataType defines model for SubscriptionUpdateRequest.Data.Relationships.RetentionMessageOffers.Data.Type.
+type SubscriptionUpdateRequestDataRelationshipsRetentionMessageOffersDataType string
 
 // SubscriptionUpdateRequestDataType defines model for SubscriptionUpdateRequest.Data.Type.
 type SubscriptionUpdateRequestDataType string
@@ -61191,6 +63894,9 @@ type AppAssetLibraryImagesPlacementsGetToManyRelatedParams struct {
 	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
 	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
 
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 
@@ -61227,6 +63933,9 @@ type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppCustomProduct
 
 // AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
 type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
+type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions string
 
 // AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude defines parameters for AppAssetLibraryImagesPlacementsGetToManyRelated.
 type AppAssetLibraryImagesPlacementsGetToManyRelatedParamsInclude string
@@ -61278,6 +63987,9 @@ type AppAssetLibraryPlacementsGetInstanceParams struct {
 	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
 	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
 
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
 	// Include comma-separated list of relationships to include
 	Include *[]AppAssetLibraryPlacementsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
 }
@@ -61302,6 +64014,9 @@ type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppCustomProductPageLocaliz
 
 // AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppAssetLibraryPlacementsGetInstance.
 type AppAssetLibraryPlacementsGetInstanceParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions defines parameters for AppAssetLibraryPlacementsGetInstance.
+type AppAssetLibraryPlacementsGetInstanceParamsFieldsRetentionMessageVersions string
 
 // AppAssetLibraryPlacementsGetInstanceParamsInclude defines parameters for AppAssetLibraryPlacementsGetInstance.
 type AppAssetLibraryPlacementsGetInstanceParamsInclude string
@@ -61404,6 +64119,9 @@ type AppAssetLibraryVideosPlacementsGetToManyRelatedParams struct {
 	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
 	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
 
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 
@@ -61440,6 +64158,9 @@ type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppCustomProduct
 
 // AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
 type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
+type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions string
 
 // AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude defines parameters for AppAssetLibraryVideosPlacementsGetToManyRelated.
 type AppAssetLibraryVideosPlacementsGetToManyRelatedParamsInclude string
@@ -61527,6 +64248,9 @@ type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParams struct {
 	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
 	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
 
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 
@@ -61563,6 +64287,9 @@ type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppC
 
 // AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
 type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
+type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions string
 
 // AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppCustomProductPageLocalizationsPlacementsGetToManyRelated.
 type AppCustomProductPageLocalizationsPlacementsGetToManyRelatedParamsInclude string
@@ -61904,6 +64631,9 @@ type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedPa
 	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
 	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
 
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 
@@ -61940,6 +64670,9 @@ type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedPa
 
 // AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
 type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions string
 
 // AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelated.
 type AppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelatedParamsInclude string
@@ -62111,6 +64844,9 @@ type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParams struct {
 	// FieldsAppStoreVersionExperimentTreatmentLocalizations the fields to include for returned resources of type appStoreVersionExperimentTreatmentLocalizations
 	FieldsAppStoreVersionExperimentTreatmentLocalizations *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations `form:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty" json:"fields[appStoreVersionExperimentTreatmentLocalizations],omitempty"`
 
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 
@@ -62147,6 +64883,9 @@ type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppCustom
 
 // AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
 type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsAppStoreVersionExperimentTreatmentLocalizations string
+
+// AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
+type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsFieldsRetentionMessageVersions string
 
 // AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude defines parameters for AppStoreVersionLocalizationsPlacementsGetToManyRelated.
 type AppStoreVersionLocalizationsPlacementsGetToManyRelatedParamsInclude string
@@ -62466,6 +65205,9 @@ type AppsGetCollectionParams struct {
 	// FieldsSubscriptionGroups the fields to include for returned resources of type subscriptionGroups
 	FieldsSubscriptionGroups *[]AppsGetCollectionParamsFieldsSubscriptionGroups `form:"fields[subscriptionGroups],omitempty" json:"fields[subscriptionGroups],omitempty"`
 
+	// FieldsRetentionMessages the fields to include for returned resources of type retentionMessages
+	FieldsRetentionMessages *[]AppsGetCollectionParamsFieldsRetentionMessages `form:"fields[retentionMessages],omitempty" json:"fields[retentionMessages],omitempty"`
+
 	// FieldsGameCenterEnabledVersions the fields to include for returned resources of type gameCenterEnabledVersions
 	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
 	FieldsGameCenterEnabledVersions *[]AppsGetCollectionParamsFieldsGameCenterEnabledVersions `form:"fields[gameCenterEnabledVersions],omitempty" json:"fields[gameCenterEnabledVersions],omitempty"`
@@ -62550,6 +65292,9 @@ type AppsGetCollectionParams struct {
 	// LimitPromotedPurchases maximum number of related promotedPurchases returned (when they are included)
 	LimitPromotedPurchases *int `form:"limit[promotedPurchases],omitempty" json:"limit[promotedPurchases],omitempty"`
 
+	// LimitRetentionMessages maximum number of related retentionMessages returned (when they are included)
+	LimitRetentionMessages *int `form:"limit[retentionMessages],omitempty" json:"limit[retentionMessages],omitempty"`
+
 	// LimitReviewSubmissions maximum number of related reviewSubmissions returned (when they are included)
 	LimitReviewSubmissions *int `form:"limit[reviewSubmissions],omitempty" json:"limit[reviewSubmissions],omitempty"`
 
@@ -62622,6 +65367,9 @@ type AppsGetCollectionParamsFieldsInAppPurchases string
 
 // AppsGetCollectionParamsFieldsSubscriptionGroups defines parameters for AppsGetCollection.
 type AppsGetCollectionParamsFieldsSubscriptionGroups string
+
+// AppsGetCollectionParamsFieldsRetentionMessages defines parameters for AppsGetCollection.
+type AppsGetCollectionParamsFieldsRetentionMessages string
 
 // AppsGetCollectionParamsFieldsGameCenterEnabledVersions defines parameters for AppsGetCollection.
 type AppsGetCollectionParamsFieldsGameCenterEnabledVersions string
@@ -62702,6 +65450,9 @@ type AppsGetInstanceParams struct {
 
 	// FieldsSubscriptionGroups the fields to include for returned resources of type subscriptionGroups
 	FieldsSubscriptionGroups *[]AppsGetInstanceParamsFieldsSubscriptionGroups `form:"fields[subscriptionGroups],omitempty" json:"fields[subscriptionGroups],omitempty"`
+
+	// FieldsRetentionMessages the fields to include for returned resources of type retentionMessages
+	FieldsRetentionMessages *[]AppsGetInstanceParamsFieldsRetentionMessages `form:"fields[retentionMessages],omitempty" json:"fields[retentionMessages],omitempty"`
 
 	// FieldsGameCenterEnabledVersions the fields to include for returned resources of type gameCenterEnabledVersions
 	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
@@ -62784,6 +65535,9 @@ type AppsGetInstanceParams struct {
 	// LimitPromotedPurchases maximum number of related promotedPurchases returned (when they are included)
 	LimitPromotedPurchases *int `form:"limit[promotedPurchases],omitempty" json:"limit[promotedPurchases],omitempty"`
 
+	// LimitRetentionMessages maximum number of related retentionMessages returned (when they are included)
+	LimitRetentionMessages *int `form:"limit[retentionMessages],omitempty" json:"limit[retentionMessages],omitempty"`
+
 	// LimitReviewSubmissions maximum number of related reviewSubmissions returned (when they are included)
 	LimitReviewSubmissions *int `form:"limit[reviewSubmissions],omitempty" json:"limit[reviewSubmissions],omitempty"`
 
@@ -62838,6 +65592,9 @@ type AppsGetInstanceParamsFieldsInAppPurchases string
 
 // AppsGetInstanceParamsFieldsSubscriptionGroups defines parameters for AppsGetInstance.
 type AppsGetInstanceParamsFieldsSubscriptionGroups string
+
+// AppsGetInstanceParamsFieldsRetentionMessages defines parameters for AppsGetInstance.
+type AppsGetInstanceParamsFieldsRetentionMessages string
 
 // AppsGetInstanceParamsFieldsGameCenterEnabledVersions defines parameters for AppsGetInstance.
 type AppsGetInstanceParamsFieldsGameCenterEnabledVersions string
@@ -63371,6 +66128,42 @@ type AppsPromotedPurchasesGetToManyRelatedParamsFieldsSubscriptions string
 
 // AppsPromotedPurchasesGetToManyRelatedParamsInclude defines parameters for AppsPromotedPurchasesGetToManyRelated.
 type AppsPromotedPurchasesGetToManyRelatedParamsInclude string
+
+// AppsRetentionMessagesGetToManyRelatedParams defines parameters for AppsRetentionMessagesGetToManyRelated.
+type AppsRetentionMessagesGetToManyRelatedParams struct {
+	// FieldsRetentionMessages the fields to include for returned resources of type retentionMessages
+	FieldsRetentionMessages *[]AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages `form:"fields[retentionMessages],omitempty" json:"fields[retentionMessages],omitempty"`
+
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
+	// FieldsSubscriptions the fields to include for returned resources of type subscriptions
+	FieldsSubscriptions *[]AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions `form:"fields[subscriptions],omitempty" json:"fields[subscriptions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsRetentionMessagesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+
+	// LimitSubscriptions maximum number of related subscriptions returned (when they are included)
+	LimitSubscriptions *int `form:"limit[subscriptions],omitempty" json:"limit[subscriptions],omitempty"`
+}
+
+// AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages defines parameters for AppsRetentionMessagesGetToManyRelated.
+type AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessages string
+
+// AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions defines parameters for AppsRetentionMessagesGetToManyRelated.
+type AppsRetentionMessagesGetToManyRelatedParamsFieldsRetentionMessageVersions string
+
+// AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions defines parameters for AppsRetentionMessagesGetToManyRelated.
+type AppsRetentionMessagesGetToManyRelatedParamsFieldsSubscriptions string
+
+// AppsRetentionMessagesGetToManyRelatedParamsInclude defines parameters for AppsRetentionMessagesGetToManyRelated.
+type AppsRetentionMessagesGetToManyRelatedParamsInclude string
 
 // AppsSearchKeywordsGetToManyRelatedParams defines parameters for AppsSearchKeywordsGetToManyRelated.
 type AppsSearchKeywordsGetToManyRelatedParams struct {
@@ -65439,6 +68232,183 @@ type PromotedPurchasesGetInstanceParamsFieldsSubscriptions string
 // PromotedPurchasesGetInstanceParamsInclude defines parameters for PromotedPurchasesGetInstance.
 type PromotedPurchasesGetInstanceParamsInclude string
 
+// RetentionMessageLocalizationsGetInstanceParams defines parameters for RetentionMessageLocalizationsGetInstance.
+type RetentionMessageLocalizationsGetInstanceParams struct {
+	// FieldsRetentionMessageLocalizations the fields to include for returned resources of type retentionMessageLocalizations
+	FieldsRetentionMessageLocalizations *[]RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations `form:"fields[retentionMessageLocalizations],omitempty" json:"fields[retentionMessageLocalizations],omitempty"`
+
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]RetentionMessageLocalizationsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations defines parameters for RetentionMessageLocalizationsGetInstance.
+type RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageLocalizations string
+
+// RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions defines parameters for RetentionMessageLocalizationsGetInstance.
+type RetentionMessageLocalizationsGetInstanceParamsFieldsRetentionMessageVersions string
+
+// RetentionMessageLocalizationsGetInstanceParamsInclude defines parameters for RetentionMessageLocalizationsGetInstance.
+type RetentionMessageLocalizationsGetInstanceParamsInclude string
+
+// RetentionMessageVersionsGetInstanceParams defines parameters for RetentionMessageVersionsGetInstance.
+type RetentionMessageVersionsGetInstanceParams struct {
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
+	// FieldsRetentionMessages the fields to include for returned resources of type retentionMessages
+	FieldsRetentionMessages *[]RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages `form:"fields[retentionMessages],omitempty" json:"fields[retentionMessages],omitempty"`
+
+	// FieldsRetentionMessageLocalizations the fields to include for returned resources of type retentionMessageLocalizations
+	FieldsRetentionMessageLocalizations *[]RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations `form:"fields[retentionMessageLocalizations],omitempty" json:"fields[retentionMessageLocalizations],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]RetentionMessageVersionsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitLocalizations maximum number of related localizations returned (when they are included)
+	LimitLocalizations *int `form:"limit[localizations],omitempty" json:"limit[localizations],omitempty"`
+}
+
+// RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions defines parameters for RetentionMessageVersionsGetInstance.
+type RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageVersions string
+
+// RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages defines parameters for RetentionMessageVersionsGetInstance.
+type RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessages string
+
+// RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations defines parameters for RetentionMessageVersionsGetInstance.
+type RetentionMessageVersionsGetInstanceParamsFieldsRetentionMessageLocalizations string
+
+// RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements defines parameters for RetentionMessageVersionsGetInstance.
+type RetentionMessageVersionsGetInstanceParamsFieldsAppAssetLibraryPlacements string
+
+// RetentionMessageVersionsGetInstanceParamsInclude defines parameters for RetentionMessageVersionsGetInstance.
+type RetentionMessageVersionsGetInstanceParamsInclude string
+
+// RetentionMessageVersionsLocalizationsGetToManyRelatedParams defines parameters for RetentionMessageVersionsLocalizationsGetToManyRelated.
+type RetentionMessageVersionsLocalizationsGetToManyRelatedParams struct {
+	// FieldsRetentionMessageLocalizations the fields to include for returned resources of type retentionMessageLocalizations
+	FieldsRetentionMessageLocalizations *[]RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations `form:"fields[retentionMessageLocalizations],omitempty" json:"fields[retentionMessageLocalizations],omitempty"`
+
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]RetentionMessageVersionsLocalizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations defines parameters for RetentionMessageVersionsLocalizationsGetToManyRelated.
+type RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageLocalizations string
+
+// RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions defines parameters for RetentionMessageVersionsLocalizationsGetToManyRelated.
+type RetentionMessageVersionsLocalizationsGetToManyRelatedParamsFieldsRetentionMessageVersions string
+
+// RetentionMessageVersionsLocalizationsGetToManyRelatedParamsInclude defines parameters for RetentionMessageVersionsLocalizationsGetToManyRelated.
+type RetentionMessageVersionsLocalizationsGetToManyRelatedParamsInclude string
+
+// RetentionMessagesGetInstanceParams defines parameters for RetentionMessagesGetInstance.
+type RetentionMessagesGetInstanceParams struct {
+	// FieldsRetentionMessages the fields to include for returned resources of type retentionMessages
+	FieldsRetentionMessages *[]RetentionMessagesGetInstanceParamsFieldsRetentionMessages `form:"fields[retentionMessages],omitempty" json:"fields[retentionMessages],omitempty"`
+
+	// FieldsRetentionMessageVersions the fields to include for returned resources of type retentionMessageVersions
+	FieldsRetentionMessageVersions *[]RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions `form:"fields[retentionMessageVersions],omitempty" json:"fields[retentionMessageVersions],omitempty"`
+
+	// FieldsSubscriptions the fields to include for returned resources of type subscriptions
+	FieldsSubscriptions *[]RetentionMessagesGetInstanceParamsFieldsSubscriptions `form:"fields[subscriptions],omitempty" json:"fields[subscriptions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]RetentionMessagesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitSubscriptions maximum number of related subscriptions returned (when they are included)
+	LimitSubscriptions *int `form:"limit[subscriptions],omitempty" json:"limit[subscriptions],omitempty"`
+
+	// LimitVersions maximum number of related versions returned (when they are included)
+	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+}
+
+// RetentionMessagesGetInstanceParamsFieldsRetentionMessages defines parameters for RetentionMessagesGetInstance.
+type RetentionMessagesGetInstanceParamsFieldsRetentionMessages string
+
+// RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions defines parameters for RetentionMessagesGetInstance.
+type RetentionMessagesGetInstanceParamsFieldsRetentionMessageVersions string
+
+// RetentionMessagesGetInstanceParamsFieldsSubscriptions defines parameters for RetentionMessagesGetInstance.
+type RetentionMessagesGetInstanceParamsFieldsSubscriptions string
+
+// RetentionMessagesGetInstanceParamsInclude defines parameters for RetentionMessagesGetInstance.
+type RetentionMessagesGetInstanceParamsInclude string
+
+// RetentionOffersGetInstanceParams defines parameters for RetentionOffersGetInstance.
+type RetentionOffersGetInstanceParams struct {
+	// FieldsRetentionOffers the fields to include for returned resources of type retentionOffers
+	FieldsRetentionOffers *[]RetentionOffersGetInstanceParamsFieldsRetentionOffers `form:"fields[retentionOffers],omitempty" json:"fields[retentionOffers],omitempty"`
+
+	// FieldsSubscriptions the fields to include for returned resources of type subscriptions
+	FieldsSubscriptions *[]RetentionOffersGetInstanceParamsFieldsSubscriptions `form:"fields[subscriptions],omitempty" json:"fields[subscriptions],omitempty"`
+
+	// FieldsRetentionOfferPrices the fields to include for returned resources of type retentionOfferPrices
+	FieldsRetentionOfferPrices *[]RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices `form:"fields[retentionOfferPrices],omitempty" json:"fields[retentionOfferPrices],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]RetentionOffersGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitPrices maximum number of related prices returned (when they are included)
+	LimitPrices *int `form:"limit[prices],omitempty" json:"limit[prices],omitempty"`
+}
+
+// RetentionOffersGetInstanceParamsFieldsRetentionOffers defines parameters for RetentionOffersGetInstance.
+type RetentionOffersGetInstanceParamsFieldsRetentionOffers string
+
+// RetentionOffersGetInstanceParamsFieldsSubscriptions defines parameters for RetentionOffersGetInstance.
+type RetentionOffersGetInstanceParamsFieldsSubscriptions string
+
+// RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices defines parameters for RetentionOffersGetInstance.
+type RetentionOffersGetInstanceParamsFieldsRetentionOfferPrices string
+
+// RetentionOffersGetInstanceParamsInclude defines parameters for RetentionOffersGetInstance.
+type RetentionOffersGetInstanceParamsInclude string
+
+// RetentionOffersPricesGetToManyRelatedParams defines parameters for RetentionOffersPricesGetToManyRelated.
+type RetentionOffersPricesGetToManyRelatedParams struct {
+	// FilterTerritory filter by id(s) of related 'territory'
+	FilterTerritory *[]string `form:"filter[territory],omitempty" json:"filter[territory],omitempty"`
+
+	// FieldsRetentionOfferPrices the fields to include for returned resources of type retentionOfferPrices
+	FieldsRetentionOfferPrices *[]RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices `form:"fields[retentionOfferPrices],omitempty" json:"fields[retentionOfferPrices],omitempty"`
+
+	// FieldsTerritories the fields to include for returned resources of type territories
+	FieldsTerritories *[]RetentionOffersPricesGetToManyRelatedParamsFieldsTerritories `form:"fields[territories],omitempty" json:"fields[territories],omitempty"`
+
+	// FieldsSubscriptionPricePoints the fields to include for returned resources of type subscriptionPricePoints
+	FieldsSubscriptionPricePoints *[]RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints `form:"fields[subscriptionPricePoints],omitempty" json:"fields[subscriptionPricePoints],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]RetentionOffersPricesGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+}
+
+// RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices defines parameters for RetentionOffersPricesGetToManyRelated.
+type RetentionOffersPricesGetToManyRelatedParamsFieldsRetentionOfferPrices string
+
+// RetentionOffersPricesGetToManyRelatedParamsFieldsTerritories defines parameters for RetentionOffersPricesGetToManyRelated.
+type RetentionOffersPricesGetToManyRelatedParamsFieldsTerritories string
+
+// RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints defines parameters for RetentionOffersPricesGetToManyRelated.
+type RetentionOffersPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints string
+
+// RetentionOffersPricesGetToManyRelatedParamsInclude defines parameters for RetentionOffersPricesGetToManyRelated.
+type RetentionOffersPricesGetToManyRelatedParamsInclude string
+
 // ReviewSubmissionsGetCollectionParams defines parameters for ReviewSubmissionsGetCollection.
 type ReviewSubmissionsGetCollectionParams struct {
 	// FilterPlatform filter by attribute 'platform'
@@ -65663,6 +68633,12 @@ type SubscriptionGroupsSubscriptionsGetToManyRelatedParams struct {
 	// FieldsSubscriptionVersions the fields to include for returned resources of type subscriptionVersions
 	FieldsSubscriptionVersions *[]SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionVersions `form:"fields[subscriptionVersions],omitempty" json:"fields[subscriptionVersions],omitempty"`
 
+	// FieldsRetentionOffers the fields to include for returned resources of type retentionOffers
+	FieldsRetentionOffers *[]SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers `form:"fields[retentionOffers],omitempty" json:"fields[retentionOffers],omitempty"`
+
+	// FieldsRetentionMessages the fields to include for returned resources of type retentionMessages
+	FieldsRetentionMessages *[]SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages `form:"fields[retentionMessages],omitempty" json:"fields[retentionMessages],omitempty"`
+
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 
@@ -65695,6 +68671,12 @@ type SubscriptionGroupsSubscriptionsGetToManyRelatedParams struct {
 
 	// LimitVersions maximum number of related versions returned (when they are included)
 	LimitVersions *int `form:"limit[versions],omitempty" json:"limit[versions],omitempty"`
+
+	// LimitRetentionOffers maximum number of related retentionOffers returned (when they are included)
+	LimitRetentionOffers *int `form:"limit[retentionOffers],omitempty" json:"limit[retentionOffers],omitempty"`
+
+	// LimitRetentionMessageOffers maximum number of related retentionMessageOffers returned (when they are included)
+	LimitRetentionMessageOffers *int `form:"limit[retentionMessageOffers],omitempty" json:"limit[retentionMessageOffers],omitempty"`
 }
 
 // SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFilterState defines parameters for SubscriptionGroupsSubscriptionsGetToManyRelated.
@@ -65744,6 +68726,12 @@ type SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionPlan
 
 // SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionVersions defines parameters for SubscriptionGroupsSubscriptionsGetToManyRelated.
 type SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsSubscriptionVersions string
+
+// SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers defines parameters for SubscriptionGroupsSubscriptionsGetToManyRelated.
+type SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionOffers string
+
+// SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages defines parameters for SubscriptionGroupsSubscriptionsGetToManyRelated.
+type SubscriptionGroupsSubscriptionsGetToManyRelatedParamsFieldsRetentionMessages string
 
 // SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude defines parameters for SubscriptionGroupsSubscriptionsGetToManyRelated.
 type SubscriptionGroupsSubscriptionsGetToManyRelatedParamsInclude string
@@ -66099,6 +69087,12 @@ type SubscriptionsGetInstanceParams struct {
 	// FieldsSubscriptionVersions the fields to include for returned resources of type subscriptionVersions
 	FieldsSubscriptionVersions *[]SubscriptionsGetInstanceParamsFieldsSubscriptionVersions `form:"fields[subscriptionVersions],omitempty" json:"fields[subscriptionVersions],omitempty"`
 
+	// FieldsRetentionOffers the fields to include for returned resources of type retentionOffers
+	FieldsRetentionOffers *[]SubscriptionsGetInstanceParamsFieldsRetentionOffers `form:"fields[retentionOffers],omitempty" json:"fields[retentionOffers],omitempty"`
+
+	// FieldsRetentionMessages the fields to include for returned resources of type retentionMessages
+	FieldsRetentionMessages *[]SubscriptionsGetInstanceParamsFieldsRetentionMessages `form:"fields[retentionMessages],omitempty" json:"fields[retentionMessages],omitempty"`
+
 	// Include comma-separated list of relationships to include
 	Include *[]SubscriptionsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
 
@@ -66119,6 +69113,12 @@ type SubscriptionsGetInstanceParams struct {
 
 	// LimitPromotionalOffers maximum number of related promotionalOffers returned (when they are included)
 	LimitPromotionalOffers *int `form:"limit[promotionalOffers],omitempty" json:"limit[promotionalOffers],omitempty"`
+
+	// LimitRetentionMessageOffers maximum number of related retentionMessageOffers returned (when they are included)
+	LimitRetentionMessageOffers *int `form:"limit[retentionMessageOffers],omitempty" json:"limit[retentionMessageOffers],omitempty"`
+
+	// LimitRetentionOffers maximum number of related retentionOffers returned (when they are included)
+	LimitRetentionOffers *int `form:"limit[retentionOffers],omitempty" json:"limit[retentionOffers],omitempty"`
 
 	// LimitSubscriptionLocalizations maximum number of related subscriptionLocalizations returned (when they are included)
 	LimitSubscriptionLocalizations *int `form:"limit[subscriptionLocalizations],omitempty" json:"limit[subscriptionLocalizations],omitempty"`
@@ -66171,6 +69171,12 @@ type SubscriptionsGetInstanceParamsFieldsSubscriptionPlanAvailabilities string
 
 // SubscriptionsGetInstanceParamsFieldsSubscriptionVersions defines parameters for SubscriptionsGetInstance.
 type SubscriptionsGetInstanceParamsFieldsSubscriptionVersions string
+
+// SubscriptionsGetInstanceParamsFieldsRetentionOffers defines parameters for SubscriptionsGetInstance.
+type SubscriptionsGetInstanceParamsFieldsRetentionOffers string
+
+// SubscriptionsGetInstanceParamsFieldsRetentionMessages defines parameters for SubscriptionsGetInstance.
+type SubscriptionsGetInstanceParamsFieldsRetentionMessages string
 
 // SubscriptionsGetInstanceParamsInclude defines parameters for SubscriptionsGetInstance.
 type SubscriptionsGetInstanceParamsInclude string
@@ -66336,6 +69342,12 @@ type SubscriptionsPricesGetToManyRelatedParamsFieldsSubscriptionPricePoints stri
 
 // SubscriptionsPricesGetToManyRelatedParamsInclude defines parameters for SubscriptionsPricesGetToManyRelated.
 type SubscriptionsPricesGetToManyRelatedParamsInclude string
+
+// SubscriptionsRetentionMessageOffersGetToManyRelationshipParams defines parameters for SubscriptionsRetentionMessageOffersGetToManyRelationship.
+type SubscriptionsRetentionMessageOffersGetToManyRelationshipParams struct {
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
 
 // SubscriptionsVersionsGetToManyRelatedParams defines parameters for SubscriptionsVersionsGetToManyRelated.
 type SubscriptionsVersionsGetToManyRelatedParams struct {
@@ -67270,6 +70282,24 @@ type PromotedPurchasesCreateInstanceJSONRequestBody = PromotedPurchaseCreateRequ
 // PromotedPurchasesUpdateInstanceJSONRequestBody defines body for PromotedPurchasesUpdateInstance for application/json ContentType.
 type PromotedPurchasesUpdateInstanceJSONRequestBody = PromotedPurchaseUpdateRequest
 
+// RetentionMessageLocalizationsCreateInstanceJSONRequestBody defines body for RetentionMessageLocalizationsCreateInstance for application/json ContentType.
+type RetentionMessageLocalizationsCreateInstanceJSONRequestBody = RetentionMessageLocalizationCreateRequest
+
+// RetentionMessageLocalizationsUpdateInstanceJSONRequestBody defines body for RetentionMessageLocalizationsUpdateInstance for application/json ContentType.
+type RetentionMessageLocalizationsUpdateInstanceJSONRequestBody = RetentionMessageLocalizationUpdateRequest
+
+// RetentionMessageVersionsCreateInstanceJSONRequestBody defines body for RetentionMessageVersionsCreateInstance for application/json ContentType.
+type RetentionMessageVersionsCreateInstanceJSONRequestBody = RetentionMessageVersionCreateRequest
+
+// RetentionMessagesCreateInstanceJSONRequestBody defines body for RetentionMessagesCreateInstance for application/json ContentType.
+type RetentionMessagesCreateInstanceJSONRequestBody = RetentionMessageCreateRequest
+
+// RetentionOffersCreateInstanceJSONRequestBody defines body for RetentionOffersCreateInstance for application/json ContentType.
+type RetentionOffersCreateInstanceJSONRequestBody = RetentionOfferCreateRequest
+
+// RetentionOffersUpdateInstanceJSONRequestBody defines body for RetentionOffersUpdateInstance for application/json ContentType.
+type RetentionOffersUpdateInstanceJSONRequestBody = RetentionOfferUpdateRequest
+
 // ReviewSubmissionItemsCreateInstanceJSONRequestBody defines body for ReviewSubmissionItemsCreateInstance for application/json ContentType.
 type ReviewSubmissionItemsCreateInstanceJSONRequestBody = ReviewSubmissionItemCreateRequest
 
@@ -67353,6 +70383,15 @@ type SubscriptionsCreateInstanceJSONRequestBody = SubscriptionCreateRequest
 
 // SubscriptionsUpdateInstanceJSONRequestBody defines body for SubscriptionsUpdateInstance for application/json ContentType.
 type SubscriptionsUpdateInstanceJSONRequestBody = SubscriptionUpdateRequest
+
+// SubscriptionsRetentionMessageUpdateToOneRelationshipJSONRequestBody defines body for SubscriptionsRetentionMessageUpdateToOneRelationship for application/json ContentType.
+type SubscriptionsRetentionMessageUpdateToOneRelationshipJSONRequestBody = SubscriptionRetentionMessageLinkageRequest
+
+// SubscriptionsRetentionMessageOffersDeleteToManyRelationshipJSONRequestBody defines body for SubscriptionsRetentionMessageOffersDeleteToManyRelationship for application/json ContentType.
+type SubscriptionsRetentionMessageOffersDeleteToManyRelationshipJSONRequestBody = SubscriptionRetentionMessageOffersLinkagesRequest
+
+// SubscriptionsRetentionMessageOffersCreateToManyRelationshipJSONRequestBody defines body for SubscriptionsRetentionMessageOffersCreateToManyRelationship for application/json ContentType.
+type SubscriptionsRetentionMessageOffersCreateToManyRelationshipJSONRequestBody = SubscriptionRetentionMessageOffersLinkagesRequest
 
 // TerritoryAvailabilitiesUpdateInstanceJSONRequestBody defines body for TerritoryAvailabilitiesUpdateInstance for application/json ContentType.
 type TerritoryAvailabilitiesUpdateInstanceJSONRequestBody = TerritoryAvailabilityUpdateRequest
@@ -68080,6 +71119,32 @@ func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlaceme
 	return err
 }
 
+// AsAppAssetLibraryPlacementCreateRequestData8 returns the union data inside the AppAssetLibraryPlacementCreateRequest_Data as a AppAssetLibraryPlacementCreateRequestData8
+func (t AppAssetLibraryPlacementCreateRequest_Data) AsAppAssetLibraryPlacementCreateRequestData8() (AppAssetLibraryPlacementCreateRequestData8, error) {
+	var body AppAssetLibraryPlacementCreateRequestData8
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacementCreateRequestData8 overwrites any union data inside the AppAssetLibraryPlacementCreateRequest_Data as the provided AppAssetLibraryPlacementCreateRequestData8
+func (t *AppAssetLibraryPlacementCreateRequest_Data) FromAppAssetLibraryPlacementCreateRequestData8(v AppAssetLibraryPlacementCreateRequestData8) error {
+	b, err := json.Marshal(v)
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacementCreateRequestData8 performs a merge with any union data inside the AppAssetLibraryPlacementCreateRequest_Data, using the provided AppAssetLibraryPlacementCreateRequestData8
+func (t *AppAssetLibraryPlacementCreateRequest_Data) MergeAppAssetLibraryPlacementCreateRequestData8(v AppAssetLibraryPlacementCreateRequestData8) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 func (t AppAssetLibraryPlacementCreateRequest_Data) MarshalJSON() ([]byte, error) {
 	b, err := t.union.MarshalJSON()
 	if err != nil {
@@ -68504,6 +71569,40 @@ func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeAppStoreVersionLoc
 	return err
 }
 
+// AsRetentionMessageVersion returns the union data inside the AppAssetLibraryPlacementResponse_Included_Item as a RetentionMessageVersion
+func (t AppAssetLibraryPlacementResponse_Included_Item) AsRetentionMessageVersion() (RetentionMessageVersion, error) {
+	var body RetentionMessageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessageVersion overwrites any union data inside the AppAssetLibraryPlacementResponse_Included_Item as the provided RetentionMessageVersion
+func (t *AppAssetLibraryPlacementResponse_Included_Item) FromRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessageVersion performs a merge with any union data inside the AppAssetLibraryPlacementResponse_Included_Item, using the provided RetentionMessageVersion
+func (t *AppAssetLibraryPlacementResponse_Included_Item) MergeRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 func (t AppAssetLibraryPlacementResponse_Included_Item) Discriminator() (string, error) {
 	var discriminator struct {
 		Discriminator string `json:"type"`
@@ -68530,6 +71629,8 @@ func (t AppAssetLibraryPlacementResponse_Included_Item) ValueByDiscriminator() (
 		return t.AsAppStoreVersionExperimentTreatmentLocalization()
 	case "appStoreVersionLocalizations":
 		return t.AsAppStoreVersionLocalization()
+	case "retentionMessageVersions":
+		return t.AsRetentionMessageVersion()
 	default:
 		return nil, errors.New("unknown discriminator value: " + discriminator)
 	}
@@ -68749,6 +71850,40 @@ func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeAppStoreVersionLo
 	return err
 }
 
+// AsRetentionMessageVersion returns the union data inside the AppAssetLibraryPlacementsResponse_Included_Item as a RetentionMessageVersion
+func (t AppAssetLibraryPlacementsResponse_Included_Item) AsRetentionMessageVersion() (RetentionMessageVersion, error) {
+	var body RetentionMessageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessageVersion overwrites any union data inside the AppAssetLibraryPlacementsResponse_Included_Item as the provided RetentionMessageVersion
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) FromRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessageVersion performs a merge with any union data inside the AppAssetLibraryPlacementsResponse_Included_Item, using the provided RetentionMessageVersion
+func (t *AppAssetLibraryPlacementsResponse_Included_Item) MergeRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 func (t AppAssetLibraryPlacementsResponse_Included_Item) Discriminator() (string, error) {
 	var discriminator struct {
 		Discriminator string `json:"type"`
@@ -68775,6 +71910,8 @@ func (t AppAssetLibraryPlacementsResponse_Included_Item) ValueByDiscriminator() 
 		return t.AsAppStoreVersionExperimentTreatmentLocalization()
 	case "appStoreVersionLocalizations":
 		return t.AsAppStoreVersionLocalization()
+	case "retentionMessageVersions":
+		return t.AsRetentionMessageVersion()
 	default:
 		return nil, errors.New("unknown discriminator value: " + discriminator)
 	}
@@ -71073,6 +74210,40 @@ func (t *AppResponse_Included_Item) MergePromotedPurchase(v PromotedPurchase) er
 	return err
 }
 
+// AsRetentionMessage returns the union data inside the AppResponse_Included_Item as a RetentionMessage
+func (t AppResponse_Included_Item) AsRetentionMessage() (RetentionMessage, error) {
+	var body RetentionMessage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessage overwrites any union data inside the AppResponse_Included_Item as the provided RetentionMessage
+func (t *AppResponse_Included_Item) FromRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessage performs a merge with any union data inside the AppResponse_Included_Item, using the provided RetentionMessage
+func (t *AppResponse_Included_Item) MergeRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 // AsReviewSubmission returns the union data inside the AppResponse_Included_Item as a ReviewSubmission
 func (t AppResponse_Included_Item) AsReviewSubmission() (ReviewSubmission, error) {
 	var body ReviewSubmission
@@ -71231,6 +74402,8 @@ func (t AppResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
 		return t.AsPrereleaseVersion()
 	case "promotedPurchases":
 		return t.AsPromotedPurchase()
+	case "retentionMessages":
+		return t.AsRetentionMessage()
 	case "reviewSubmissions":
 		return t.AsReviewSubmission()
 	case "subscriptionGracePeriods":
@@ -73681,6 +76854,40 @@ func (t *AppsResponse_Included_Item) MergePromotedPurchase(v PromotedPurchase) e
 	return err
 }
 
+// AsRetentionMessage returns the union data inside the AppsResponse_Included_Item as a RetentionMessage
+func (t AppsResponse_Included_Item) AsRetentionMessage() (RetentionMessage, error) {
+	var body RetentionMessage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessage overwrites any union data inside the AppsResponse_Included_Item as the provided RetentionMessage
+func (t *AppsResponse_Included_Item) FromRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessage performs a merge with any union data inside the AppsResponse_Included_Item, using the provided RetentionMessage
+func (t *AppsResponse_Included_Item) MergeRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 // AsReviewSubmission returns the union data inside the AppsResponse_Included_Item as a ReviewSubmission
 func (t AppsResponse_Included_Item) AsReviewSubmission() (ReviewSubmission, error) {
 	var body ReviewSubmission
@@ -73839,6 +77046,8 @@ func (t AppsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) 
 		return t.AsPrereleaseVersion()
 	case "promotedPurchases":
 		return t.AsPromotedPurchase()
+	case "retentionMessages":
+		return t.AsRetentionMessage()
 	case "reviewSubmissions":
 		return t.AsReviewSubmission()
 	case "subscriptionGracePeriods":
@@ -78998,6 +82207,547 @@ func (t *PromotedPurchasesResponse_Included_Item) UnmarshalJSON(b []byte) error 
 	return err
 }
 
+// AsRetentionMessageVersion returns the union data inside the RetentionMessageResponse_Included_Item as a RetentionMessageVersion
+func (t RetentionMessageResponse_Included_Item) AsRetentionMessageVersion() (RetentionMessageVersion, error) {
+	var body RetentionMessageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessageVersion overwrites any union data inside the RetentionMessageResponse_Included_Item as the provided RetentionMessageVersion
+func (t *RetentionMessageResponse_Included_Item) FromRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessageVersion performs a merge with any union data inside the RetentionMessageResponse_Included_Item, using the provided RetentionMessageVersion
+func (t *RetentionMessageResponse_Included_Item) MergeRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsSubscription returns the union data inside the RetentionMessageResponse_Included_Item as a Subscription
+func (t RetentionMessageResponse_Included_Item) AsSubscription() (Subscription, error) {
+	var body Subscription
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscription overwrites any union data inside the RetentionMessageResponse_Included_Item as the provided Subscription
+func (t *RetentionMessageResponse_Included_Item) FromSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscription performs a merge with any union data inside the RetentionMessageResponse_Included_Item, using the provided Subscription
+func (t *RetentionMessageResponse_Included_Item) MergeSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t RetentionMessageResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t RetentionMessageResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "retentionMessageVersions":
+		return t.AsRetentionMessageVersion()
+	case "subscriptions":
+		return t.AsSubscription()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t RetentionMessageResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *RetentionMessageResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacement returns the union data inside the RetentionMessageVersionResponse_Included_Item as a AppAssetLibraryPlacement
+func (t RetentionMessageVersionResponse_Included_Item) AsAppAssetLibraryPlacement() (AppAssetLibraryPlacement, error) {
+	var body AppAssetLibraryPlacement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacement overwrites any union data inside the RetentionMessageVersionResponse_Included_Item as the provided AppAssetLibraryPlacement
+func (t *RetentionMessageVersionResponse_Included_Item) FromAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacement performs a merge with any union data inside the RetentionMessageVersionResponse_Included_Item, using the provided AppAssetLibraryPlacement
+func (t *RetentionMessageVersionResponse_Included_Item) MergeAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsRetentionMessageLocalization returns the union data inside the RetentionMessageVersionResponse_Included_Item as a RetentionMessageLocalization
+func (t RetentionMessageVersionResponse_Included_Item) AsRetentionMessageLocalization() (RetentionMessageLocalization, error) {
+	var body RetentionMessageLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessageLocalization overwrites any union data inside the RetentionMessageVersionResponse_Included_Item as the provided RetentionMessageLocalization
+func (t *RetentionMessageVersionResponse_Included_Item) FromRetentionMessageLocalization(v RetentionMessageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessageLocalization performs a merge with any union data inside the RetentionMessageVersionResponse_Included_Item, using the provided RetentionMessageLocalization
+func (t *RetentionMessageVersionResponse_Included_Item) MergeRetentionMessageLocalization(v RetentionMessageLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsRetentionMessage returns the union data inside the RetentionMessageVersionResponse_Included_Item as a RetentionMessage
+func (t RetentionMessageVersionResponse_Included_Item) AsRetentionMessage() (RetentionMessage, error) {
+	var body RetentionMessage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessage overwrites any union data inside the RetentionMessageVersionResponse_Included_Item as the provided RetentionMessage
+func (t *RetentionMessageVersionResponse_Included_Item) FromRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessage performs a merge with any union data inside the RetentionMessageVersionResponse_Included_Item, using the provided RetentionMessage
+func (t *RetentionMessageVersionResponse_Included_Item) MergeRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t RetentionMessageVersionResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t RetentionMessageVersionResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryPlacements":
+		return t.AsAppAssetLibraryPlacement()
+	case "retentionMessageLocalizations":
+		return t.AsRetentionMessageLocalization()
+	case "retentionMessages":
+		return t.AsRetentionMessage()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t RetentionMessageVersionResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *RetentionMessageVersionResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsRetentionMessageVersion returns the union data inside the RetentionMessagesResponse_Included_Item as a RetentionMessageVersion
+func (t RetentionMessagesResponse_Included_Item) AsRetentionMessageVersion() (RetentionMessageVersion, error) {
+	var body RetentionMessageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessageVersion overwrites any union data inside the RetentionMessagesResponse_Included_Item as the provided RetentionMessageVersion
+func (t *RetentionMessagesResponse_Included_Item) FromRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessageVersion performs a merge with any union data inside the RetentionMessagesResponse_Included_Item, using the provided RetentionMessageVersion
+func (t *RetentionMessagesResponse_Included_Item) MergeRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsSubscription returns the union data inside the RetentionMessagesResponse_Included_Item as a Subscription
+func (t RetentionMessagesResponse_Included_Item) AsSubscription() (Subscription, error) {
+	var body Subscription
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscription overwrites any union data inside the RetentionMessagesResponse_Included_Item as the provided Subscription
+func (t *RetentionMessagesResponse_Included_Item) FromSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscription performs a merge with any union data inside the RetentionMessagesResponse_Included_Item, using the provided Subscription
+func (t *RetentionMessagesResponse_Included_Item) MergeSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t RetentionMessagesResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t RetentionMessagesResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "retentionMessageVersions":
+		return t.AsRetentionMessageVersion()
+	case "subscriptions":
+		return t.AsSubscription()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t RetentionMessagesResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *RetentionMessagesResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsSubscriptionPricePoint returns the union data inside the RetentionOfferPricesResponse_Included_Item as a SubscriptionPricePoint
+func (t RetentionOfferPricesResponse_Included_Item) AsSubscriptionPricePoint() (SubscriptionPricePoint, error) {
+	var body SubscriptionPricePoint
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscriptionPricePoint overwrites any union data inside the RetentionOfferPricesResponse_Included_Item as the provided SubscriptionPricePoint
+func (t *RetentionOfferPricesResponse_Included_Item) FromSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscriptionPricePoint performs a merge with any union data inside the RetentionOfferPricesResponse_Included_Item, using the provided SubscriptionPricePoint
+func (t *RetentionOfferPricesResponse_Included_Item) MergeSubscriptionPricePoint(v SubscriptionPricePoint) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptionPricePoints"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsTerritory returns the union data inside the RetentionOfferPricesResponse_Included_Item as a Territory
+func (t RetentionOfferPricesResponse_Included_Item) AsTerritory() (Territory, error) {
+	var body Territory
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromTerritory overwrites any union data inside the RetentionOfferPricesResponse_Included_Item as the provided Territory
+func (t *RetentionOfferPricesResponse_Included_Item) FromTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	t.union = b
+	return err
+}
+
+// MergeTerritory performs a merge with any union data inside the RetentionOfferPricesResponse_Included_Item, using the provided Territory
+func (t *RetentionOfferPricesResponse_Included_Item) MergeTerritory(v Territory) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"territories"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t RetentionOfferPricesResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t RetentionOfferPricesResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "subscriptionPricePoints":
+		return t.AsSubscriptionPricePoint()
+	case "territories":
+		return t.AsTerritory()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t RetentionOfferPricesResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *RetentionOfferPricesResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsRetentionOfferPrice returns the union data inside the RetentionOfferResponse_Included_Item as a RetentionOfferPrice
+func (t RetentionOfferResponse_Included_Item) AsRetentionOfferPrice() (RetentionOfferPrice, error) {
+	var body RetentionOfferPrice
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionOfferPrice overwrites any union data inside the RetentionOfferResponse_Included_Item as the provided RetentionOfferPrice
+func (t *RetentionOfferResponse_Included_Item) FromRetentionOfferPrice(v RetentionOfferPrice) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionOfferPrices"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionOfferPrice performs a merge with any union data inside the RetentionOfferResponse_Included_Item, using the provided RetentionOfferPrice
+func (t *RetentionOfferResponse_Included_Item) MergeRetentionOfferPrice(v RetentionOfferPrice) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionOfferPrices"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsSubscription returns the union data inside the RetentionOfferResponse_Included_Item as a Subscription
+func (t RetentionOfferResponse_Included_Item) AsSubscription() (Subscription, error) {
+	var body Subscription
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromSubscription overwrites any union data inside the RetentionOfferResponse_Included_Item as the provided Subscription
+func (t *RetentionOfferResponse_Included_Item) FromSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	t.union = b
+	return err
+}
+
+// MergeSubscription performs a merge with any union data inside the RetentionOfferResponse_Included_Item, using the provided Subscription
+func (t *RetentionOfferResponse_Included_Item) MergeSubscription(v Subscription) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"subscriptions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t RetentionOfferResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t RetentionOfferResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "retentionOfferPrices":
+		return t.AsRetentionOfferPrice()
+	case "subscriptions":
+		return t.AsSubscription()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t RetentionOfferResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *RetentionOfferResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsAppAssetLibraryImage returns the union data inside the ReviewSubmissionItemResponse_Included_Item as a AppAssetLibraryImage
 func (t ReviewSubmissionItemResponse_Included_Item) AsAppAssetLibraryImage() (AppAssetLibraryImage, error) {
 	var body AppAssetLibraryImage
@@ -79440,6 +83190,40 @@ func (t *ReviewSubmissionItemResponse_Included_Item) MergeInAppPurchaseVersion(v
 	return err
 }
 
+// AsRetentionMessageVersion returns the union data inside the ReviewSubmissionItemResponse_Included_Item as a RetentionMessageVersion
+func (t ReviewSubmissionItemResponse_Included_Item) AsRetentionMessageVersion() (RetentionMessageVersion, error) {
+	var body RetentionMessageVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessageVersion overwrites any union data inside the ReviewSubmissionItemResponse_Included_Item as the provided RetentionMessageVersion
+func (t *ReviewSubmissionItemResponse_Included_Item) FromRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessageVersion performs a merge with any union data inside the ReviewSubmissionItemResponse_Included_Item, using the provided RetentionMessageVersion
+func (t *ReviewSubmissionItemResponse_Included_Item) MergeRetentionMessageVersion(v RetentionMessageVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessageVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 // AsSubscriptionGroupVersion returns the union data inside the ReviewSubmissionItemResponse_Included_Item as a SubscriptionGroupVersion
 func (t ReviewSubmissionItemResponse_Included_Item) AsSubscriptionGroupVersion() (SubscriptionGroupVersion, error) {
 	var body SubscriptionGroupVersion
@@ -79548,6 +83332,8 @@ func (t ReviewSubmissionItemResponse_Included_Item) ValueByDiscriminator() (inte
 		return t.AsGameCenterLeaderboardVersionV2()
 	case "inAppPurchaseVersions":
 		return t.AsInAppPurchaseVersion()
+	case "retentionMessageVersions":
+		return t.AsRetentionMessageVersion()
 	case "subscriptionGroupVersions":
 		return t.AsSubscriptionGroupVersion()
 	case "subscriptionVersions":
@@ -81375,6 +85161,74 @@ func (t *SubscriptionResponse_Included_Item) MergePromotedPurchase(v PromotedPur
 	return err
 }
 
+// AsRetentionMessage returns the union data inside the SubscriptionResponse_Included_Item as a RetentionMessage
+func (t SubscriptionResponse_Included_Item) AsRetentionMessage() (RetentionMessage, error) {
+	var body RetentionMessage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessage overwrites any union data inside the SubscriptionResponse_Included_Item as the provided RetentionMessage
+func (t *SubscriptionResponse_Included_Item) FromRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessage performs a merge with any union data inside the SubscriptionResponse_Included_Item, using the provided RetentionMessage
+func (t *SubscriptionResponse_Included_Item) MergeRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsRetentionOffer returns the union data inside the SubscriptionResponse_Included_Item as a RetentionOffer
+func (t SubscriptionResponse_Included_Item) AsRetentionOffer() (RetentionOffer, error) {
+	var body RetentionOffer
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionOffer overwrites any union data inside the SubscriptionResponse_Included_Item as the provided RetentionOffer
+func (t *SubscriptionResponse_Included_Item) FromRetentionOffer(v RetentionOffer) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionOffers"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionOffer performs a merge with any union data inside the SubscriptionResponse_Included_Item, using the provided RetentionOffer
+func (t *SubscriptionResponse_Included_Item) MergeRetentionOffer(v RetentionOffer) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionOffers"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 // AsSubscriptionAppStoreReviewScreenshot returns the union data inside the SubscriptionResponse_Included_Item as a SubscriptionAppStoreReviewScreenshot
 func (t SubscriptionResponse_Included_Item) AsSubscriptionAppStoreReviewScreenshot() (SubscriptionAppStoreReviewScreenshot, error) {
 	var body SubscriptionAppStoreReviewScreenshot
@@ -81799,6 +85653,10 @@ func (t SubscriptionResponse_Included_Item) ValueByDiscriminator() (interface{},
 	switch discriminator {
 	case "promotedPurchases":
 		return t.AsPromotedPurchase()
+	case "retentionMessages":
+		return t.AsRetentionMessage()
+	case "retentionOffers":
+		return t.AsRetentionOffer()
 	case "subscriptionAppStoreReviewScreenshots":
 		return t.AsSubscriptionAppStoreReviewScreenshot()
 	case "subscriptionAvailabilities":
@@ -82234,6 +86092,74 @@ func (t *SubscriptionsResponse_Included_Item) MergePromotedPurchase(v PromotedPu
 	return err
 }
 
+// AsRetentionMessage returns the union data inside the SubscriptionsResponse_Included_Item as a RetentionMessage
+func (t SubscriptionsResponse_Included_Item) AsRetentionMessage() (RetentionMessage, error) {
+	var body RetentionMessage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionMessage overwrites any union data inside the SubscriptionsResponse_Included_Item as the provided RetentionMessage
+func (t *SubscriptionsResponse_Included_Item) FromRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionMessage performs a merge with any union data inside the SubscriptionsResponse_Included_Item, using the provided RetentionMessage
+func (t *SubscriptionsResponse_Included_Item) MergeRetentionMessage(v RetentionMessage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionMessages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsRetentionOffer returns the union data inside the SubscriptionsResponse_Included_Item as a RetentionOffer
+func (t SubscriptionsResponse_Included_Item) AsRetentionOffer() (RetentionOffer, error) {
+	var body RetentionOffer
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromRetentionOffer overwrites any union data inside the SubscriptionsResponse_Included_Item as the provided RetentionOffer
+func (t *SubscriptionsResponse_Included_Item) FromRetentionOffer(v RetentionOffer) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionOffers"}`))
+	t.union = b
+	return err
+}
+
+// MergeRetentionOffer performs a merge with any union data inside the SubscriptionsResponse_Included_Item, using the provided RetentionOffer
+func (t *SubscriptionsResponse_Included_Item) MergeRetentionOffer(v RetentionOffer) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"retentionOffers"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
 // AsSubscriptionAppStoreReviewScreenshot returns the union data inside the SubscriptionsResponse_Included_Item as a SubscriptionAppStoreReviewScreenshot
 func (t SubscriptionsResponse_Included_Item) AsSubscriptionAppStoreReviewScreenshot() (SubscriptionAppStoreReviewScreenshot, error) {
 	var body SubscriptionAppStoreReviewScreenshot
@@ -82658,6 +86584,10 @@ func (t SubscriptionsResponse_Included_Item) ValueByDiscriminator() (interface{}
 	switch discriminator {
 	case "promotedPurchases":
 		return t.AsPromotedPurchase()
+	case "retentionMessages":
+		return t.AsRetentionMessage()
+	case "retentionOffers":
+		return t.AsRetentionOffer()
 	case "subscriptionAppStoreReviewScreenshots":
 		return t.AsSubscriptionAppStoreReviewScreenshot()
 	case "subscriptionAvailabilities":
@@ -83407,6 +87337,9 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	AppsPromotedPurchasesReplaceToManyRelationship(ctx context.Context, id string, body AppsPromotedPurchasesReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppsRetentionMessagesGetToManyRelated performs a GET /v1/apps/{id}/retentionMessages (the `AppsRetentionMessagesGetToManyRelated` operationId) request.
+	AppsRetentionMessagesGetToManyRelated(ctx context.Context, id string, params *AppsRetentionMessagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppsSearchKeywordsGetToManyRelated performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
 	AppsSearchKeywordsGetToManyRelated(ctx context.Context, id string, params *AppsSearchKeywordsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -84110,6 +88043,81 @@ type ClientInterface interface {
 	// Takes a body of the `application/json` content type.
 	PromotedPurchasesUpdateInstance(ctx context.Context, id string, body PromotedPurchasesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// RetentionMessageLocalizationsCreateInstanceWithBody performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RetentionMessageLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageLocalizationsCreateInstance performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RetentionMessageLocalizationsCreateInstance(ctx context.Context, body RetentionMessageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageLocalizationsDeleteInstance performs a DELETE /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsDeleteInstance` operationId) request.
+	RetentionMessageLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageLocalizationsGetInstance performs a GET /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsGetInstance` operationId) request.
+	RetentionMessageLocalizationsGetInstance(ctx context.Context, id string, params *RetentionMessageLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageLocalizationsUpdateInstanceWithBody performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RetentionMessageLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageLocalizationsUpdateInstance performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RetentionMessageLocalizationsUpdateInstance(ctx context.Context, id string, body RetentionMessageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageVersionsCreateInstanceWithBody performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RetentionMessageVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageVersionsCreateInstance performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RetentionMessageVersionsCreateInstance(ctx context.Context, body RetentionMessageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageVersionsGetInstance performs a GET /v1/retentionMessageVersions/{id} (the `RetentionMessageVersionsGetInstance` operationId) request.
+	RetentionMessageVersionsGetInstance(ctx context.Context, id string, params *RetentionMessageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessageVersionsLocalizationsGetToManyRelated performs a GET /v1/retentionMessageVersions/{id}/localizations (the `RetentionMessageVersionsLocalizationsGetToManyRelated` operationId) request.
+	RetentionMessageVersionsLocalizationsGetToManyRelated(ctx context.Context, id string, params *RetentionMessageVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessagesCreateInstanceWithBody performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RetentionMessagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessagesCreateInstance performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RetentionMessagesCreateInstance(ctx context.Context, body RetentionMessagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessagesDeleteInstance performs a DELETE /v1/retentionMessages/{id} (the `RetentionMessagesDeleteInstance` operationId) request.
+	RetentionMessagesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionMessagesGetInstance performs a GET /v1/retentionMessages/{id} (the `RetentionMessagesGetInstance` operationId) request.
+	RetentionMessagesGetInstance(ctx context.Context, id string, params *RetentionMessagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionOffersCreateInstanceWithBody performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RetentionOffersCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionOffersCreateInstance performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RetentionOffersCreateInstance(ctx context.Context, body RetentionOffersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionOffersDeleteInstance performs a DELETE /v1/retentionOffers/{id} (the `RetentionOffersDeleteInstance` operationId) request.
+	RetentionOffersDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionOffersGetInstance performs a GET /v1/retentionOffers/{id} (the `RetentionOffersGetInstance` operationId) request.
+	RetentionOffersGetInstance(ctx context.Context, id string, params *RetentionOffersGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionOffersUpdateInstanceWithBody performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	RetentionOffersUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionOffersUpdateInstance performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	RetentionOffersUpdateInstance(ctx context.Context, id string, body RetentionOffersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// RetentionOffersPricesGetToManyRelated performs a GET /v1/retentionOffers/{id}/prices (the `RetentionOffersPricesGetToManyRelated` operationId) request.
+	RetentionOffersPricesGetToManyRelated(ctx context.Context, id string, params *RetentionOffersPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// ReviewSubmissionItemsCreateInstanceWithBody performs a POST /v1/reviewSubmissionItems (the `ReviewSubmissionItemsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	ReviewSubmissionItemsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -84426,6 +88434,36 @@ type ClientInterface interface {
 
 	// SubscriptionsPricesGetToManyRelated performs a GET /v1/subscriptions/{id}/prices (the `SubscriptionsPricesGetToManyRelated` operationId) request.
 	SubscriptionsPricesGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageGetToOneRelationship performs a GET /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageGetToOneRelationship` operationId) request.
+	SubscriptionsRetentionMessageGetToOneRelationship(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageUpdateToOneRelationshipWithBody performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionsRetentionMessageUpdateToOneRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageUpdateToOneRelationship performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionsRetentionMessageUpdateToOneRelationship(ctx context.Context, id string, body SubscriptionsRetentionMessageUpdateToOneRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBody performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageOffersDeleteToManyRelationship performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionsRetentionMessageOffersDeleteToManyRelationship(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageOffersGetToManyRelationship performs a GET /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersGetToManyRelationship` operationId) request.
+	SubscriptionsRetentionMessageOffersGetToManyRelationship(ctx context.Context, id string, params *SubscriptionsRetentionMessageOffersGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBody performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// SubscriptionsRetentionMessageOffersCreateToManyRelationship performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	SubscriptionsRetentionMessageOffersCreateToManyRelationship(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// SubscriptionsVersionsGetToManyRelated performs a GET /v1/subscriptions/{id}/versions (the `SubscriptionsVersionsGetToManyRelated` operationId) request.
 	SubscriptionsVersionsGetToManyRelated(ctx context.Context, id string, params *SubscriptionsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -86744,6 +90782,19 @@ func (c *Client) AppsPromotedPurchasesReplaceToManyRelationshipWithBody(ctx cont
 // Takes a body of the `application/json` content type.
 func (c *Client) AppsPromotedPurchasesReplaceToManyRelationship(ctx context.Context, id string, body AppsPromotedPurchasesReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsPromotedPurchasesReplaceToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsRetentionMessagesGetToManyRelated performs a GET /v1/apps/{id}/retentionMessages (the `AppsRetentionMessagesGetToManyRelated` operationId) request.
+func (c *Client) AppsRetentionMessagesGetToManyRelated(ctx context.Context, id string, params *AppsRetentionMessagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsRetentionMessagesGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -89407,6 +93458,291 @@ func (c *Client) PromotedPurchasesUpdateInstance(ctx context.Context, id string,
 	return c.Client.Do(req)
 }
 
+// RetentionMessageLocalizationsCreateInstanceWithBody performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RetentionMessageLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageLocalizationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageLocalizationsCreateInstance performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RetentionMessageLocalizationsCreateInstance(ctx context.Context, body RetentionMessageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageLocalizationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageLocalizationsDeleteInstance performs a DELETE /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsDeleteInstance` operationId) request.
+func (c *Client) RetentionMessageLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageLocalizationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageLocalizationsGetInstance performs a GET /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsGetInstance` operationId) request.
+func (c *Client) RetentionMessageLocalizationsGetInstance(ctx context.Context, id string, params *RetentionMessageLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageLocalizationsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageLocalizationsUpdateInstanceWithBody performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RetentionMessageLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageLocalizationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageLocalizationsUpdateInstance performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RetentionMessageLocalizationsUpdateInstance(ctx context.Context, id string, body RetentionMessageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageLocalizationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageVersionsCreateInstanceWithBody performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RetentionMessageVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageVersionsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageVersionsCreateInstance performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RetentionMessageVersionsCreateInstance(ctx context.Context, body RetentionMessageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageVersionsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageVersionsGetInstance performs a GET /v1/retentionMessageVersions/{id} (the `RetentionMessageVersionsGetInstance` operationId) request.
+func (c *Client) RetentionMessageVersionsGetInstance(ctx context.Context, id string, params *RetentionMessageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageVersionsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessageVersionsLocalizationsGetToManyRelated performs a GET /v1/retentionMessageVersions/{id}/localizations (the `RetentionMessageVersionsLocalizationsGetToManyRelated` operationId) request.
+func (c *Client) RetentionMessageVersionsLocalizationsGetToManyRelated(ctx context.Context, id string, params *RetentionMessageVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessageVersionsLocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessagesCreateInstanceWithBody performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RetentionMessagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessagesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessagesCreateInstance performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RetentionMessagesCreateInstance(ctx context.Context, body RetentionMessagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessagesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessagesDeleteInstance performs a DELETE /v1/retentionMessages/{id} (the `RetentionMessagesDeleteInstance` operationId) request.
+func (c *Client) RetentionMessagesDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessagesDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionMessagesGetInstance performs a GET /v1/retentionMessages/{id} (the `RetentionMessagesGetInstance` operationId) request.
+func (c *Client) RetentionMessagesGetInstance(ctx context.Context, id string, params *RetentionMessagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionMessagesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionOffersCreateInstanceWithBody performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RetentionOffersCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionOffersCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionOffersCreateInstance performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RetentionOffersCreateInstance(ctx context.Context, body RetentionOffersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionOffersCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionOffersDeleteInstance performs a DELETE /v1/retentionOffers/{id} (the `RetentionOffersDeleteInstance` operationId) request.
+func (c *Client) RetentionOffersDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionOffersDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionOffersGetInstance performs a GET /v1/retentionOffers/{id} (the `RetentionOffersGetInstance` operationId) request.
+func (c *Client) RetentionOffersGetInstance(ctx context.Context, id string, params *RetentionOffersGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionOffersGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionOffersUpdateInstanceWithBody performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) RetentionOffersUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionOffersUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionOffersUpdateInstance performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) RetentionOffersUpdateInstance(ctx context.Context, id string, body RetentionOffersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionOffersUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// RetentionOffersPricesGetToManyRelated performs a GET /v1/retentionOffers/{id}/prices (the `RetentionOffersPricesGetToManyRelated` operationId) request.
+func (c *Client) RetentionOffersPricesGetToManyRelated(ctx context.Context, id string, params *RetentionOffersPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewRetentionOffersPricesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // ReviewSubmissionItemsCreateInstanceWithBody performs a POST /v1/reviewSubmissionItems (the `ReviewSubmissionItemsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) ReviewSubmissionItemsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -90584,6 +94920,116 @@ func (c *Client) SubscriptionsPricePointsGetToManyRelated(ctx context.Context, i
 // SubscriptionsPricesGetToManyRelated performs a GET /v1/subscriptions/{id}/prices (the `SubscriptionsPricesGetToManyRelated` operationId) request.
 func (c *Client) SubscriptionsPricesGetToManyRelated(ctx context.Context, id string, params *SubscriptionsPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewSubscriptionsPricesGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageGetToOneRelationship performs a GET /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageGetToOneRelationship` operationId) request.
+func (c *Client) SubscriptionsRetentionMessageGetToOneRelationship(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageGetToOneRelationshipRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageUpdateToOneRelationshipWithBody performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionsRetentionMessageUpdateToOneRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageUpdateToOneRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageUpdateToOneRelationship performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionsRetentionMessageUpdateToOneRelationship(ctx context.Context, id string, body SubscriptionsRetentionMessageUpdateToOneRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageUpdateToOneRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBody performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageOffersDeleteToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageOffersDeleteToManyRelationship performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionsRetentionMessageOffersDeleteToManyRelationship(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageOffersDeleteToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageOffersGetToManyRelationship performs a GET /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersGetToManyRelationship` operationId) request.
+func (c *Client) SubscriptionsRetentionMessageOffersGetToManyRelationship(ctx context.Context, id string, params *SubscriptionsRetentionMessageOffersGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageOffersGetToManyRelationshipRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBody performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageOffersCreateToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// SubscriptionsRetentionMessageOffersCreateToManyRelationship performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) SubscriptionsRetentionMessageOffersCreateToManyRelationship(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewSubscriptionsRetentionMessageOffersCreateToManyRelationshipRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -92955,6 +97401,18 @@ func NewAppAssetLibraryImagesPlacementsGetToManyRelatedRequest(server string, id
 
 		}
 
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
@@ -93280,6 +97738,18 @@ func NewAppAssetLibraryPlacementsGetInstanceRequest(server string, id string, pa
 		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -93874,6 +98344,18 @@ func NewAppAssetLibraryVideosPlacementsGetToManyRelatedRequest(server string, id
 
 		}
 
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
@@ -94256,6 +98738,18 @@ func NewAppCustomProductPageLocalizationsPlacementsGetToManyRelatedRequest(serve
 		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -96672,6 +101166,18 @@ func NewAppStoreVersionExperimentTreatmentLocalizationsPlacementsGetToManyRelate
 
 		}
 
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
@@ -97423,6 +101929,18 @@ func NewAppStoreVersionLocalizationsPlacementsGetToManyRelatedRequest(server str
 		if params.FieldsAppStoreVersionExperimentTreatmentLocalizations != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersionExperimentTreatmentLocalizations]", *params.FieldsAppStoreVersionExperimentTreatmentLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -99136,6 +103654,18 @@ func NewAppsGetCollectionRequest(server string, params *AppsGetCollectionParams)
 
 		}
 
+		if params.FieldsRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessages]", *params.FieldsRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
 		if params.FieldsGameCenterEnabledVersions != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterEnabledVersions]", *params.FieldsGameCenterEnabledVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
@@ -99460,6 +103990,18 @@ func NewAppsGetCollectionRequest(server string, params *AppsGetCollectionParams)
 
 		}
 
+		if params.LimitRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[retentionMessages]", *params.LimitRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
 		if params.LimitReviewSubmissions != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[reviewSubmissions]", *params.LimitReviewSubmissions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
@@ -99716,6 +104258,18 @@ func NewAppsGetInstanceRequest(server string, id string, params *AppsGetInstance
 		if params.FieldsSubscriptionGroups != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionGroups]", *params.FieldsSubscriptionGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessages]", *params.FieldsRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -100028,6 +104582,18 @@ func NewAppsGetInstanceRequest(server string, id string, params *AppsGetInstance
 		if params.LimitPromotedPurchases != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[promotedPurchases]", *params.LimitPromotedPurchases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[retentionMessages]", *params.LimitRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -101855,6 +106421,139 @@ func NewAppsPromotedPurchasesReplaceToManyRelationshipRequestWithBody(server str
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppsRetentionMessagesGetToManyRelatedRequest constructs an http.Request for the AppsRetentionMessagesGetToManyRelated method
+func NewAppsRetentionMessagesGetToManyRelatedRequest(server string, id string, params *AppsRetentionMessagesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/retentionMessages", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessages]", *params.FieldsRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptions]", *params.FieldsSubscriptions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitSubscriptions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[subscriptions]", *params.LimitSubscriptions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -112483,6 +117182,1016 @@ func NewPromotedPurchasesUpdateInstanceRequestWithBody(server string, id string,
 	return req, nil
 }
 
+// NewRetentionMessageLocalizationsCreateInstanceRequest calls the generic RetentionMessageLocalizationsCreateInstance builder with application/json body
+func NewRetentionMessageLocalizationsCreateInstanceRequest(server string, body RetentionMessageLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRetentionMessageLocalizationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewRetentionMessageLocalizationsCreateInstanceRequestWithBody constructs an http.Request for the RetentionMessageLocalizationsCreateInstance method, with any body, and a specified content type
+func NewRetentionMessageLocalizationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessageLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewRetentionMessageLocalizationsDeleteInstanceRequest constructs an http.Request for the RetentionMessageLocalizationsDeleteInstance method
+func NewRetentionMessageLocalizationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessageLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionMessageLocalizationsGetInstanceRequest constructs an http.Request for the RetentionMessageLocalizationsGetInstance method
+func NewRetentionMessageLocalizationsGetInstanceRequest(server string, id string, params *RetentionMessageLocalizationsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessageLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRetentionMessageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageLocalizations]", *params.FieldsRetentionMessageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionMessageLocalizationsUpdateInstanceRequest calls the generic RetentionMessageLocalizationsUpdateInstance builder with application/json body
+func NewRetentionMessageLocalizationsUpdateInstanceRequest(server string, id string, body RetentionMessageLocalizationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRetentionMessageLocalizationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewRetentionMessageLocalizationsUpdateInstanceRequestWithBody constructs an http.Request for the RetentionMessageLocalizationsUpdateInstance method, with any body, and a specified content type
+func NewRetentionMessageLocalizationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessageLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewRetentionMessageVersionsCreateInstanceRequest calls the generic RetentionMessageVersionsCreateInstance builder with application/json body
+func NewRetentionMessageVersionsCreateInstanceRequest(server string, body RetentionMessageVersionsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRetentionMessageVersionsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewRetentionMessageVersionsCreateInstanceRequestWithBody constructs an http.Request for the RetentionMessageVersionsCreateInstance method, with any body, and a specified content type
+func NewRetentionMessageVersionsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessageVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewRetentionMessageVersionsGetInstanceRequest constructs an http.Request for the RetentionMessageVersionsGetInstance method
+func NewRetentionMessageVersionsGetInstanceRequest(server string, id string, params *RetentionMessageVersionsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessageVersions/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessages]", *params.FieldsRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageLocalizations]", *params.FieldsRetentionMessageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[localizations]", *params.LimitLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionMessageVersionsLocalizationsGetToManyRelatedRequest constructs an http.Request for the RetentionMessageVersionsLocalizationsGetToManyRelated method
+func NewRetentionMessageVersionsLocalizationsGetToManyRelatedRequest(server string, id string, params *RetentionMessageVersionsLocalizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessageVersions/%s/localizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRetentionMessageLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageLocalizations]", *params.FieldsRetentionMessageLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionMessagesCreateInstanceRequest calls the generic RetentionMessagesCreateInstance builder with application/json body
+func NewRetentionMessagesCreateInstanceRequest(server string, body RetentionMessagesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRetentionMessagesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewRetentionMessagesCreateInstanceRequestWithBody constructs an http.Request for the RetentionMessagesCreateInstance method, with any body, and a specified content type
+func NewRetentionMessagesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewRetentionMessagesDeleteInstanceRequest constructs an http.Request for the RetentionMessagesDeleteInstance method
+func NewRetentionMessagesDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionMessagesGetInstanceRequest constructs an http.Request for the RetentionMessagesGetInstance method
+func NewRetentionMessagesGetInstanceRequest(server string, id string, params *RetentionMessagesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionMessages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessages]", *params.FieldsRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessageVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessageVersions]", *params.FieldsRetentionMessageVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptions]", *params.FieldsSubscriptions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitSubscriptions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[subscriptions]", *params.LimitSubscriptions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionOffersCreateInstanceRequest calls the generic RetentionOffersCreateInstance builder with application/json body
+func NewRetentionOffersCreateInstanceRequest(server string, body RetentionOffersCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRetentionOffersCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewRetentionOffersCreateInstanceRequestWithBody constructs an http.Request for the RetentionOffersCreateInstance method, with any body, and a specified content type
+func NewRetentionOffersCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionOffers")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewRetentionOffersDeleteInstanceRequest constructs an http.Request for the RetentionOffersDeleteInstance method
+func NewRetentionOffersDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionOffers/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionOffersGetInstanceRequest constructs an http.Request for the RetentionOffersGetInstance method
+func NewRetentionOffersGetInstanceRequest(server string, id string, params *RetentionOffersGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionOffers/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsRetentionOffers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionOffers]", *params.FieldsRetentionOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptions]", *params.FieldsSubscriptions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionOfferPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionOfferPrices]", *params.FieldsRetentionOfferPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[prices]", *params.LimitPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewRetentionOffersUpdateInstanceRequest calls the generic RetentionOffersUpdateInstance builder with application/json body
+func NewRetentionOffersUpdateInstanceRequest(server string, id string, body RetentionOffersUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewRetentionOffersUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewRetentionOffersUpdateInstanceRequestWithBody constructs an http.Request for the RetentionOffersUpdateInstance method, with any body, and a specified content type
+func NewRetentionOffersUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionOffers/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewRetentionOffersPricesGetToManyRelatedRequest constructs an http.Request for the RetentionOffersPricesGetToManyRelated method
+func NewRetentionOffersPricesGetToManyRelatedRequest(server string, id string, params *RetentionOffersPricesGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/retentionOffers/%s/prices", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterTerritory != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[territory]", *params.FilterTerritory, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionOfferPrices != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionOfferPrices]", *params.FieldsRetentionOfferPrices, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsTerritories != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[territories]", *params.FieldsTerritories, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsSubscriptionPricePoints != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[subscriptionPricePoints]", *params.FieldsSubscriptionPricePoints, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewReviewSubmissionItemsCreateInstanceRequest calls the generic ReviewSubmissionItemsCreateInstance builder with application/json body
 func NewReviewSubmissionItemsCreateInstanceRequest(server string, body ReviewSubmissionItemsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -113897,6 +119606,30 @@ func NewSubscriptionGroupsSubscriptionsGetToManyRelatedRequest(server string, id
 
 		}
 
+		if params.FieldsRetentionOffers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionOffers]", *params.FieldsRetentionOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessages]", *params.FieldsRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
 		if params.Limit != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
@@ -114020,6 +119753,30 @@ func NewSubscriptionGroupsSubscriptionsGetToManyRelatedRequest(server string, id
 		if params.LimitVersions != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[versions]", *params.LimitVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRetentionOffers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[retentionOffers]", *params.LimitRetentionOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRetentionMessageOffers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[retentionMessageOffers]", *params.LimitRetentionMessageOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -116292,6 +122049,30 @@ func NewSubscriptionsGetInstanceRequest(server string, id string, params *Subscr
 
 		}
 
+		if params.FieldsRetentionOffers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionOffers]", *params.FieldsRetentionOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsRetentionMessages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[retentionMessages]", *params.FieldsRetentionMessages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
 		if params.Include != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
@@ -116367,6 +122148,30 @@ func NewSubscriptionsGetInstanceRequest(server string, id string, params *Subscr
 		if params.LimitPromotionalOffers != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[promotionalOffers]", *params.LimitPromotionalOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRetentionMessageOffers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[retentionMessageOffers]", *params.LimitRetentionMessageOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitRetentionOffers != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[retentionOffers]", *params.LimitRetentionOffers, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -117074,6 +122879,242 @@ func NewSubscriptionsPricesGetToManyRelatedRequest(server string, id string, par
 	if err != nil {
 		return nil, err
 	}
+
+	return req, nil
+}
+
+// NewSubscriptionsRetentionMessageGetToOneRelationshipRequest constructs an http.Request for the SubscriptionsRetentionMessageGetToOneRelationship method
+func NewSubscriptionsRetentionMessageGetToOneRelationshipRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/relationships/retentionMessage", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionsRetentionMessageUpdateToOneRelationshipRequest calls the generic SubscriptionsRetentionMessageUpdateToOneRelationship builder with application/json body
+func NewSubscriptionsRetentionMessageUpdateToOneRelationshipRequest(server string, id string, body SubscriptionsRetentionMessageUpdateToOneRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionsRetentionMessageUpdateToOneRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionsRetentionMessageUpdateToOneRelationshipRequestWithBody constructs an http.Request for the SubscriptionsRetentionMessageUpdateToOneRelationship method, with any body, and a specified content type
+func NewSubscriptionsRetentionMessageUpdateToOneRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/relationships/retentionMessage", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionsRetentionMessageOffersDeleteToManyRelationshipRequest calls the generic SubscriptionsRetentionMessageOffersDeleteToManyRelationship builder with application/json body
+func NewSubscriptionsRetentionMessageOffersDeleteToManyRelationshipRequest(server string, id string, body SubscriptionsRetentionMessageOffersDeleteToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionsRetentionMessageOffersDeleteToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionsRetentionMessageOffersDeleteToManyRelationshipRequestWithBody constructs an http.Request for the SubscriptionsRetentionMessageOffersDeleteToManyRelationship method, with any body, and a specified content type
+func NewSubscriptionsRetentionMessageOffersDeleteToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/relationships/retentionMessageOffers", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewSubscriptionsRetentionMessageOffersGetToManyRelationshipRequest constructs an http.Request for the SubscriptionsRetentionMessageOffersGetToManyRelationship method
+func NewSubscriptionsRetentionMessageOffersGetToManyRelationshipRequest(server string, id string, params *SubscriptionsRetentionMessageOffersGetToManyRelationshipParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/relationships/retentionMessageOffers", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewSubscriptionsRetentionMessageOffersCreateToManyRelationshipRequest calls the generic SubscriptionsRetentionMessageOffersCreateToManyRelationship builder with application/json body
+func NewSubscriptionsRetentionMessageOffersCreateToManyRelationshipRequest(server string, id string, body SubscriptionsRetentionMessageOffersCreateToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewSubscriptionsRetentionMessageOffersCreateToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewSubscriptionsRetentionMessageOffersCreateToManyRelationshipRequestWithBody constructs an http.Request for the SubscriptionsRetentionMessageOffersCreateToManyRelationship method, with any body, and a specified content type
+func NewSubscriptionsRetentionMessageOffersCreateToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/subscriptions/%s/relationships/retentionMessageOffers", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
 
 	return req, nil
 }
@@ -121683,6 +127724,11 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	AppsPromotedPurchasesReplaceToManyRelationshipWithResponse(ctx context.Context, id string, body AppsPromotedPurchasesReplaceToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*AppsPromotedPurchasesReplaceToManyRelationshipResponse, error)
 
+	// AppsRetentionMessagesGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/retentionMessages (the `AppsRetentionMessagesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsRetentionMessagesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsRetentionMessagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsRetentionMessagesGetToManyRelatedResponse, error)
+
 	// AppsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -122658,6 +128704,111 @@ type ClientWithResponsesInterface interface {
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	PromotedPurchasesUpdateInstanceWithResponse(ctx context.Context, id string, body PromotedPurchasesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*PromotedPurchasesUpdateInstanceResponse, error)
 
+	// RetentionMessageLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessageLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsCreateInstanceResponse, error)
+
+	// RetentionMessageLocalizationsCreateInstanceWithResponse performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RetentionMessageLocalizationsCreateInstanceWithResponse(ctx context.Context, body RetentionMessageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsCreateInstanceResponse, error)
+
+	// RetentionMessageLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessageLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsDeleteInstanceResponse, error)
+
+	// RetentionMessageLocalizationsGetInstanceWithResponse performs a GET /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessageLocalizationsGetInstanceWithResponse(ctx context.Context, id string, params *RetentionMessageLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsGetInstanceResponse, error)
+
+	// RetentionMessageLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessageLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsUpdateInstanceResponse, error)
+
+	// RetentionMessageLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RetentionMessageLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body RetentionMessageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsUpdateInstanceResponse, error)
+
+	// RetentionMessageVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessageVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsCreateInstanceResponse, error)
+
+	// RetentionMessageVersionsCreateInstanceWithResponse performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RetentionMessageVersionsCreateInstanceWithResponse(ctx context.Context, body RetentionMessageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsCreateInstanceResponse, error)
+
+	// RetentionMessageVersionsGetInstanceWithResponse performs a GET /v1/retentionMessageVersions/{id} (the `RetentionMessageVersionsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessageVersionsGetInstanceWithResponse(ctx context.Context, id string, params *RetentionMessageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsGetInstanceResponse, error)
+
+	// RetentionMessageVersionsLocalizationsGetToManyRelatedWithResponse performs a GET /v1/retentionMessageVersions/{id}/localizations (the `RetentionMessageVersionsLocalizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessageVersionsLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *RetentionMessageVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsLocalizationsGetToManyRelatedResponse, error)
+
+	// RetentionMessagesCreateInstanceWithBodyWithResponse performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessagesCreateInstanceResponse, error)
+
+	// RetentionMessagesCreateInstanceWithResponse performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RetentionMessagesCreateInstanceWithResponse(ctx context.Context, body RetentionMessagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessagesCreateInstanceResponse, error)
+
+	// RetentionMessagesDeleteInstanceWithResponse performs a DELETE /v1/retentionMessages/{id} (the `RetentionMessagesDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessagesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RetentionMessagesDeleteInstanceResponse, error)
+
+	// RetentionMessagesGetInstanceWithResponse performs a GET /v1/retentionMessages/{id} (the `RetentionMessagesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionMessagesGetInstanceWithResponse(ctx context.Context, id string, params *RetentionMessagesGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionMessagesGetInstanceResponse, error)
+
+	// RetentionOffersCreateInstanceWithBodyWithResponse performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionOffersCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionOffersCreateInstanceResponse, error)
+
+	// RetentionOffersCreateInstanceWithResponse performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RetentionOffersCreateInstanceWithResponse(ctx context.Context, body RetentionOffersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionOffersCreateInstanceResponse, error)
+
+	// RetentionOffersDeleteInstanceWithResponse performs a DELETE /v1/retentionOffers/{id} (the `RetentionOffersDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionOffersDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RetentionOffersDeleteInstanceResponse, error)
+
+	// RetentionOffersGetInstanceWithResponse performs a GET /v1/retentionOffers/{id} (the `RetentionOffersGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionOffersGetInstanceWithResponse(ctx context.Context, id string, params *RetentionOffersGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionOffersGetInstanceResponse, error)
+
+	// RetentionOffersUpdateInstanceWithBodyWithResponse performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionOffersUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionOffersUpdateInstanceResponse, error)
+
+	// RetentionOffersUpdateInstanceWithResponse performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	RetentionOffersUpdateInstanceWithResponse(ctx context.Context, id string, body RetentionOffersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionOffersUpdateInstanceResponse, error)
+
+	// RetentionOffersPricesGetToManyRelatedWithResponse performs a GET /v1/retentionOffers/{id}/prices (the `RetentionOffersPricesGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	RetentionOffersPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *RetentionOffersPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*RetentionOffersPricesGetToManyRelatedResponse, error)
+
 	// ReviewSubmissionItemsCreateInstanceWithBodyWithResponse performs a POST /v1/reviewSubmissionItems (the `ReviewSubmissionItemsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -123092,6 +129243,46 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	SubscriptionsPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *SubscriptionsPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*SubscriptionsPricesGetToManyRelatedResponse, error)
+
+	// SubscriptionsRetentionMessageGetToOneRelationshipWithResponse performs a GET /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageGetToOneRelationship` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageGetToOneRelationshipWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageGetToOneRelationshipResponse, error)
+
+	// SubscriptionsRetentionMessageUpdateToOneRelationshipWithBodyWithResponse performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageUpdateToOneRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageUpdateToOneRelationshipResponse, error)
+
+	// SubscriptionsRetentionMessageUpdateToOneRelationshipWithResponse performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageUpdateToOneRelationshipWithResponse(ctx context.Context, id string, body SubscriptionsRetentionMessageUpdateToOneRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageUpdateToOneRelationshipResponse, error)
+
+	// SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse, error)
+
+	// SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithResponse performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse, error)
+
+	// SubscriptionsRetentionMessageOffersGetToManyRelationshipWithResponse performs a GET /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersGetToManyRelationship` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageOffersGetToManyRelationshipWithResponse(ctx context.Context, id string, params *SubscriptionsRetentionMessageOffersGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse, error)
+
+	// SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse, error)
+
+	// SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithResponse performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithResponse(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse, error)
 
 	// SubscriptionsVersionsGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/versions (the `SubscriptionsVersionsGetToManyRelated` operationId) request.
 	//
@@ -131791,6 +137982,82 @@ func (r AppsPromotedPurchasesReplaceToManyRelationshipResponse) StatusCode() int
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsPromotedPurchasesReplaceToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsRetentionMessagesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionMessagesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsRetentionMessagesGetToManyRelatedResponse) GetJSON200() *RetentionMessagesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsRetentionMessagesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsRetentionMessagesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsRetentionMessagesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsRetentionMessagesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsRetentionMessagesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsRetentionMessagesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsRetentionMessagesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsRetentionMessagesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsRetentionMessagesGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -142490,6 +148757,1181 @@ func (r PromotedPurchasesUpdateInstanceResponse) ContentType() string {
 	return ""
 }
 
+type RetentionMessageLocalizationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *RetentionMessageLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetJSON201() *RetentionMessageLocalizationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessageLocalizationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessageLocalizationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessageLocalizationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessageLocalizationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessageLocalizationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessageLocalizationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessageLocalizationsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionMessageLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionMessageLocalizationsGetInstanceResponse) GetJSON200() *RetentionMessageLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessageLocalizationsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessageLocalizationsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessageLocalizationsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionMessageLocalizationsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessageLocalizationsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessageLocalizationsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessageLocalizationsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessageLocalizationsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessageLocalizationsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessageLocalizationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionMessageLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON200() *RetentionMessageLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessageLocalizationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessageVersionsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *RetentionMessageVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r RetentionMessageVersionsCreateInstanceResponse) GetJSON201() *RetentionMessageVersionResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessageVersionsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessageVersionsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessageVersionsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RetentionMessageVersionsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RetentionMessageVersionsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessageVersionsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessageVersionsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessageVersionsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessageVersionsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessageVersionsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessageVersionsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionMessageVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionMessageVersionsGetInstanceResponse) GetJSON200() *RetentionMessageVersionResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessageVersionsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessageVersionsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessageVersionsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionMessageVersionsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessageVersionsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessageVersionsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessageVersionsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessageVersionsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessageVersionsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessageVersionsLocalizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionMessageLocalizationsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) GetJSON200() *RetentionMessageLocalizationsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessageVersionsLocalizationsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessagesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *RetentionMessageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r RetentionMessagesCreateInstanceResponse) GetJSON201() *RetentionMessageResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessagesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessagesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessagesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RetentionMessagesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RetentionMessagesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessagesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessagesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessagesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessagesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessagesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessagesDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessagesDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessagesDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessagesDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionMessagesDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessagesDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessagesDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessagesDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessagesDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessagesDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionMessagesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionMessageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionMessagesGetInstanceResponse) GetJSON200() *RetentionMessageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionMessagesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionMessagesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionMessagesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionMessagesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionMessagesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionMessagesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionMessagesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionMessagesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionMessagesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionOffersCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *RetentionOfferResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r RetentionOffersCreateInstanceResponse) GetJSON201() *RetentionOfferResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionOffersCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionOffersCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionOffersCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RetentionOffersCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RetentionOffersCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionOffersCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionOffersCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionOffersCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionOffersCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionOffersCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionOffersDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionOffersDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionOffersDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionOffersDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionOffersDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionOffersDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionOffersDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionOffersDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionOffersDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionOffersDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionOffersGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionOfferResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionOffersGetInstanceResponse) GetJSON200() *RetentionOfferResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionOffersGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionOffersGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionOffersGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionOffersGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionOffersGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionOffersGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionOffersGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionOffersGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionOffersGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionOffersUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionOfferResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON200() *RetentionOfferResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionOffersUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionOffersUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionOffersUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionOffersUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionOffersUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type RetentionOffersPricesGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *RetentionOfferPricesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r RetentionOffersPricesGetToManyRelatedResponse) GetJSON200() *RetentionOfferPricesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r RetentionOffersPricesGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r RetentionOffersPricesGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r RetentionOffersPricesGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r RetentionOffersPricesGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r RetentionOffersPricesGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r RetentionOffersPricesGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r RetentionOffersPricesGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r RetentionOffersPricesGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r RetentionOffersPricesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type ReviewSubmissionItemsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -147185,6 +154627,407 @@ func (r SubscriptionsPricesGetToManyRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r SubscriptionsPricesGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsRetentionMessageGetToOneRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionRetentionMessageLinkageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) GetJSON200() *SubscriptionRetentionMessageLinkageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsRetentionMessageGetToOneRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsRetentionMessageUpdateToOneRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsRetentionMessageUpdateToOneRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *SubscriptionRetentionMessageOffersLinkagesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) GetJSON200() *SubscriptionRetentionMessageOffersLinkagesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -153323,6 +161166,17 @@ func (c *ClientWithResponses) AppsPromotedPurchasesReplaceToManyRelationshipWith
 	return ParseAppsPromotedPurchasesReplaceToManyRelationshipResponse(rsp)
 }
 
+// AppsRetentionMessagesGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/retentionMessages (the `AppsRetentionMessagesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsRetentionMessagesGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsRetentionMessagesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsRetentionMessagesGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsRetentionMessagesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsRetentionMessagesGetToManyRelatedResponse(rsp)
+}
+
 // AppsSearchKeywordsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/searchKeywords (the `AppsSearchKeywordsGetToManyRelated` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -155468,6 +163322,237 @@ func (c *ClientWithResponses) PromotedPurchasesUpdateInstanceWithResponse(ctx co
 	return ParsePromotedPurchasesUpdateInstanceResponse(rsp)
 }
 
+// RetentionMessageLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.RetentionMessageLocalizationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageLocalizationsCreateInstanceResponse(rsp)
+}
+
+// RetentionMessageLocalizationsCreateInstanceWithResponse performs a POST /v1/retentionMessageLocalizations (the `RetentionMessageLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageLocalizationsCreateInstanceWithResponse(ctx context.Context, body RetentionMessageLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.RetentionMessageLocalizationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageLocalizationsCreateInstanceResponse(rsp)
+}
+
+// RetentionMessageLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsDeleteInstanceResponse, error) {
+	rsp, err := c.RetentionMessageLocalizationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageLocalizationsDeleteInstanceResponse(rsp)
+}
+
+// RetentionMessageLocalizationsGetInstanceWithResponse performs a GET /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageLocalizationsGetInstanceWithResponse(ctx context.Context, id string, params *RetentionMessageLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsGetInstanceResponse, error) {
+	rsp, err := c.RetentionMessageLocalizationsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageLocalizationsGetInstanceResponse(rsp)
+}
+
+// RetentionMessageLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.RetentionMessageLocalizationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// RetentionMessageLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/retentionMessageLocalizations/{id} (the `RetentionMessageLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body RetentionMessageLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessageLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.RetentionMessageLocalizationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// RetentionMessageVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsCreateInstanceResponse, error) {
+	rsp, err := c.RetentionMessageVersionsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageVersionsCreateInstanceResponse(rsp)
+}
+
+// RetentionMessageVersionsCreateInstanceWithResponse performs a POST /v1/retentionMessageVersions (the `RetentionMessageVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageVersionsCreateInstanceWithResponse(ctx context.Context, body RetentionMessageVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsCreateInstanceResponse, error) {
+	rsp, err := c.RetentionMessageVersionsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageVersionsCreateInstanceResponse(rsp)
+}
+
+// RetentionMessageVersionsGetInstanceWithResponse performs a GET /v1/retentionMessageVersions/{id} (the `RetentionMessageVersionsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageVersionsGetInstanceWithResponse(ctx context.Context, id string, params *RetentionMessageVersionsGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsGetInstanceResponse, error) {
+	rsp, err := c.RetentionMessageVersionsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageVersionsGetInstanceResponse(rsp)
+}
+
+// RetentionMessageVersionsLocalizationsGetToManyRelatedWithResponse performs a GET /v1/retentionMessageVersions/{id}/localizations (the `RetentionMessageVersionsLocalizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessageVersionsLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *RetentionMessageVersionsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*RetentionMessageVersionsLocalizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.RetentionMessageVersionsLocalizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessageVersionsLocalizationsGetToManyRelatedResponse(rsp)
+}
+
+// RetentionMessagesCreateInstanceWithBodyWithResponse performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionMessagesCreateInstanceResponse, error) {
+	rsp, err := c.RetentionMessagesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessagesCreateInstanceResponse(rsp)
+}
+
+// RetentionMessagesCreateInstanceWithResponse performs a POST /v1/retentionMessages (the `RetentionMessagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessagesCreateInstanceWithResponse(ctx context.Context, body RetentionMessagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionMessagesCreateInstanceResponse, error) {
+	rsp, err := c.RetentionMessagesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessagesCreateInstanceResponse(rsp)
+}
+
+// RetentionMessagesDeleteInstanceWithResponse performs a DELETE /v1/retentionMessages/{id} (the `RetentionMessagesDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessagesDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RetentionMessagesDeleteInstanceResponse, error) {
+	rsp, err := c.RetentionMessagesDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessagesDeleteInstanceResponse(rsp)
+}
+
+// RetentionMessagesGetInstanceWithResponse performs a GET /v1/retentionMessages/{id} (the `RetentionMessagesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionMessagesGetInstanceWithResponse(ctx context.Context, id string, params *RetentionMessagesGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionMessagesGetInstanceResponse, error) {
+	rsp, err := c.RetentionMessagesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionMessagesGetInstanceResponse(rsp)
+}
+
+// RetentionOffersCreateInstanceWithBodyWithResponse performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionOffersCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionOffersCreateInstanceResponse, error) {
+	rsp, err := c.RetentionOffersCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionOffersCreateInstanceResponse(rsp)
+}
+
+// RetentionOffersCreateInstanceWithResponse performs a POST /v1/retentionOffers (the `RetentionOffersCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionOffersCreateInstanceWithResponse(ctx context.Context, body RetentionOffersCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionOffersCreateInstanceResponse, error) {
+	rsp, err := c.RetentionOffersCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionOffersCreateInstanceResponse(rsp)
+}
+
+// RetentionOffersDeleteInstanceWithResponse performs a DELETE /v1/retentionOffers/{id} (the `RetentionOffersDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionOffersDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*RetentionOffersDeleteInstanceResponse, error) {
+	rsp, err := c.RetentionOffersDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionOffersDeleteInstanceResponse(rsp)
+}
+
+// RetentionOffersGetInstanceWithResponse performs a GET /v1/retentionOffers/{id} (the `RetentionOffersGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionOffersGetInstanceWithResponse(ctx context.Context, id string, params *RetentionOffersGetInstanceParams, reqEditors ...RequestEditorFn) (*RetentionOffersGetInstanceResponse, error) {
+	rsp, err := c.RetentionOffersGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionOffersGetInstanceResponse(rsp)
+}
+
+// RetentionOffersUpdateInstanceWithBodyWithResponse performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionOffersUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*RetentionOffersUpdateInstanceResponse, error) {
+	rsp, err := c.RetentionOffersUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionOffersUpdateInstanceResponse(rsp)
+}
+
+// RetentionOffersUpdateInstanceWithResponse performs a PATCH /v1/retentionOffers/{id} (the `RetentionOffersUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionOffersUpdateInstanceWithResponse(ctx context.Context, id string, body RetentionOffersUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*RetentionOffersUpdateInstanceResponse, error) {
+	rsp, err := c.RetentionOffersUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionOffersUpdateInstanceResponse(rsp)
+}
+
+// RetentionOffersPricesGetToManyRelatedWithResponse performs a GET /v1/retentionOffers/{id}/prices (the `RetentionOffersPricesGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) RetentionOffersPricesGetToManyRelatedWithResponse(ctx context.Context, id string, params *RetentionOffersPricesGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*RetentionOffersPricesGetToManyRelatedResponse, error) {
+	rsp, err := c.RetentionOffersPricesGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseRetentionOffersPricesGetToManyRelatedResponse(rsp)
+}
+
 // ReviewSubmissionItemsCreateInstanceWithBodyWithResponse performs a POST /v1/reviewSubmissionItems (the `ReviewSubmissionItemsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -156423,6 +164508,94 @@ func (c *ClientWithResponses) SubscriptionsPricesGetToManyRelatedWithResponse(ct
 		return nil, err
 	}
 	return ParseSubscriptionsPricesGetToManyRelatedResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageGetToOneRelationshipWithResponse performs a GET /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageGetToOneRelationship` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageGetToOneRelationshipWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageGetToOneRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageGetToOneRelationship(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageGetToOneRelationshipResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageUpdateToOneRelationshipWithBodyWithResponse performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageUpdateToOneRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageUpdateToOneRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageUpdateToOneRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageUpdateToOneRelationshipResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageUpdateToOneRelationshipWithResponse performs a PATCH /v1/subscriptions/{id}/relationships/retentionMessage (the `SubscriptionsRetentionMessageUpdateToOneRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageUpdateToOneRelationshipWithResponse(ctx context.Context, id string, body SubscriptionsRetentionMessageUpdateToOneRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageUpdateToOneRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageUpdateToOneRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageUpdateToOneRelationshipResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithResponse performs a DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageOffersDeleteToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageOffersGetToManyRelationshipWithResponse performs a GET /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersGetToManyRelationship` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageOffersGetToManyRelationshipWithResponse(ctx context.Context, id string, params *SubscriptionsRetentionMessageOffersGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageOffersGetToManyRelationship(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageOffersGetToManyRelationshipResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse(rsp)
+}
+
+// SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithResponse performs a POST /v1/subscriptions/{id}/relationships/retentionMessageOffers (the `SubscriptionsRetentionMessageOffersCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithResponse(ctx context.Context, id string, body SubscriptionsRetentionMessageOffersCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse, error) {
+	rsp, err := c.SubscriptionsRetentionMessageOffersCreateToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseSubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse(rsp)
 }
 
 // SubscriptionsVersionsGetToManyRelatedWithResponse performs a GET /v1/subscriptions/{id}/versions (the `SubscriptionsVersionsGetToManyRelated` operationId) request.
@@ -164107,6 +172280,67 @@ func ParseAppsPromotedPurchasesReplaceToManyRelationshipResponse(rsp *http.Respo
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsRetentionMessagesGetToManyRelatedResponse parses an HTTP response from a AppsRetentionMessagesGetToManyRelatedWithResponse call
+func ParseAppsRetentionMessagesGetToManyRelatedResponse(rsp *http.Response) (*AppsRetentionMessagesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsRetentionMessagesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionMessagesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -172848,6 +181082,965 @@ func ParsePromotedPurchasesUpdateInstanceResponse(rsp *http.Response) (*Promoted
 	return response, nil
 }
 
+// ParseRetentionMessageLocalizationsCreateInstanceResponse parses an HTTP response from a RetentionMessageLocalizationsCreateInstanceWithResponse call
+func ParseRetentionMessageLocalizationsCreateInstanceResponse(rsp *http.Response) (*RetentionMessageLocalizationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessageLocalizationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest RetentionMessageLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessageLocalizationsDeleteInstanceResponse parses an HTTP response from a RetentionMessageLocalizationsDeleteInstanceWithResponse call
+func ParseRetentionMessageLocalizationsDeleteInstanceResponse(rsp *http.Response) (*RetentionMessageLocalizationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessageLocalizationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessageLocalizationsGetInstanceResponse parses an HTTP response from a RetentionMessageLocalizationsGetInstanceWithResponse call
+func ParseRetentionMessageLocalizationsGetInstanceResponse(rsp *http.Response) (*RetentionMessageLocalizationsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessageLocalizationsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionMessageLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessageLocalizationsUpdateInstanceResponse parses an HTTP response from a RetentionMessageLocalizationsUpdateInstanceWithResponse call
+func ParseRetentionMessageLocalizationsUpdateInstanceResponse(rsp *http.Response) (*RetentionMessageLocalizationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessageLocalizationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionMessageLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessageVersionsCreateInstanceResponse parses an HTTP response from a RetentionMessageVersionsCreateInstanceWithResponse call
+func ParseRetentionMessageVersionsCreateInstanceResponse(rsp *http.Response) (*RetentionMessageVersionsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessageVersionsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest RetentionMessageVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessageVersionsGetInstanceResponse parses an HTTP response from a RetentionMessageVersionsGetInstanceWithResponse call
+func ParseRetentionMessageVersionsGetInstanceResponse(rsp *http.Response) (*RetentionMessageVersionsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessageVersionsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionMessageVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessageVersionsLocalizationsGetToManyRelatedResponse parses an HTTP response from a RetentionMessageVersionsLocalizationsGetToManyRelatedWithResponse call
+func ParseRetentionMessageVersionsLocalizationsGetToManyRelatedResponse(rsp *http.Response) (*RetentionMessageVersionsLocalizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessageVersionsLocalizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionMessageLocalizationsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessagesCreateInstanceResponse parses an HTTP response from a RetentionMessagesCreateInstanceWithResponse call
+func ParseRetentionMessagesCreateInstanceResponse(rsp *http.Response) (*RetentionMessagesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessagesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest RetentionMessageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessagesDeleteInstanceResponse parses an HTTP response from a RetentionMessagesDeleteInstanceWithResponse call
+func ParseRetentionMessagesDeleteInstanceResponse(rsp *http.Response) (*RetentionMessagesDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessagesDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionMessagesGetInstanceResponse parses an HTTP response from a RetentionMessagesGetInstanceWithResponse call
+func ParseRetentionMessagesGetInstanceResponse(rsp *http.Response) (*RetentionMessagesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionMessagesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionMessageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionOffersCreateInstanceResponse parses an HTTP response from a RetentionOffersCreateInstanceWithResponse call
+func ParseRetentionOffersCreateInstanceResponse(rsp *http.Response) (*RetentionOffersCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionOffersCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest RetentionOfferResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionOffersDeleteInstanceResponse parses an HTTP response from a RetentionOffersDeleteInstanceWithResponse call
+func ParseRetentionOffersDeleteInstanceResponse(rsp *http.Response) (*RetentionOffersDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionOffersDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionOffersGetInstanceResponse parses an HTTP response from a RetentionOffersGetInstanceWithResponse call
+func ParseRetentionOffersGetInstanceResponse(rsp *http.Response) (*RetentionOffersGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionOffersGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionOfferResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionOffersUpdateInstanceResponse parses an HTTP response from a RetentionOffersUpdateInstanceWithResponse call
+func ParseRetentionOffersUpdateInstanceResponse(rsp *http.Response) (*RetentionOffersUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionOffersUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionOfferResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseRetentionOffersPricesGetToManyRelatedResponse parses an HTTP response from a RetentionOffersPricesGetToManyRelatedWithResponse call
+func ParseRetentionOffersPricesGetToManyRelatedResponse(rsp *http.Response) (*RetentionOffersPricesGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &RetentionOffersPricesGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest RetentionOfferPricesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseReviewSubmissionItemsCreateInstanceResponse parses an HTTP response from a ReviewSubmissionItemsCreateInstanceWithResponse call
 func ParseReviewSubmissionItemsCreateInstanceResponse(rsp *http.Response) (*ReviewSubmissionItemsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -176681,6 +185874,341 @@ func ParseSubscriptionsPricesGetToManyRelatedResponse(rsp *http.Response) (*Subs
 			return nil, err
 		}
 		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsRetentionMessageGetToOneRelationshipResponse parses an HTTP response from a SubscriptionsRetentionMessageGetToOneRelationshipWithResponse call
+func ParseSubscriptionsRetentionMessageGetToOneRelationshipResponse(rsp *http.Response) (*SubscriptionsRetentionMessageGetToOneRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsRetentionMessageGetToOneRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionRetentionMessageLinkageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsRetentionMessageUpdateToOneRelationshipResponse parses an HTTP response from a SubscriptionsRetentionMessageUpdateToOneRelationshipWithResponse call
+func ParseSubscriptionsRetentionMessageUpdateToOneRelationshipResponse(rsp *http.Response) (*SubscriptionsRetentionMessageUpdateToOneRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsRetentionMessageUpdateToOneRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse parses an HTTP response from a SubscriptionsRetentionMessageOffersDeleteToManyRelationshipWithResponse call
+func ParseSubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse(rsp *http.Response) (*SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsRetentionMessageOffersDeleteToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsRetentionMessageOffersGetToManyRelationshipResponse parses an HTTP response from a SubscriptionsRetentionMessageOffersGetToManyRelationshipWithResponse call
+func ParseSubscriptionsRetentionMessageOffersGetToManyRelationshipResponse(rsp *http.Response) (*SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsRetentionMessageOffersGetToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest SubscriptionRetentionMessageOffersLinkagesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseSubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse parses an HTTP response from a SubscriptionsRetentionMessageOffersCreateToManyRelationshipWithResponse call
+func ParseSubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse(rsp *http.Response) (*SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &SubscriptionsRetentionMessageOffersCreateToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -180692,6 +190220,9 @@ type ServerInterface interface {
 	// (PATCH /v1/apps/{id}/relationships/promotedPurchases)
 	AppsPromotedPurchasesReplaceToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
 
+	// (GET /v1/apps/{id}/retentionMessages)
+	AppsRetentionMessagesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsRetentionMessagesGetToManyRelatedParams)
+
 	// (GET /v1/apps/{id}/searchKeywords)
 	AppsSearchKeywordsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsSearchKeywordsGetToManyRelatedParams)
 
@@ -181100,6 +190631,51 @@ type ServerInterface interface {
 	// (PATCH /v1/promotedPurchases/{id})
 	PromotedPurchasesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
+	// (POST /v1/retentionMessageLocalizations)
+	RetentionMessageLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/retentionMessageLocalizations/{id})
+	RetentionMessageLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/retentionMessageLocalizations/{id})
+	RetentionMessageLocalizationsGetInstance(w http.ResponseWriter, r *http.Request, id string, params RetentionMessageLocalizationsGetInstanceParams)
+
+	// (PATCH /v1/retentionMessageLocalizations/{id})
+	RetentionMessageLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/retentionMessageVersions)
+	RetentionMessageVersionsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/retentionMessageVersions/{id})
+	RetentionMessageVersionsGetInstance(w http.ResponseWriter, r *http.Request, id string, params RetentionMessageVersionsGetInstanceParams)
+
+	// (GET /v1/retentionMessageVersions/{id}/localizations)
+	RetentionMessageVersionsLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params RetentionMessageVersionsLocalizationsGetToManyRelatedParams)
+
+	// (POST /v1/retentionMessages)
+	RetentionMessagesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/retentionMessages/{id})
+	RetentionMessagesDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/retentionMessages/{id})
+	RetentionMessagesGetInstance(w http.ResponseWriter, r *http.Request, id string, params RetentionMessagesGetInstanceParams)
+
+	// (POST /v1/retentionOffers)
+	RetentionOffersCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/retentionOffers/{id})
+	RetentionOffersDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/retentionOffers/{id})
+	RetentionOffersGetInstance(w http.ResponseWriter, r *http.Request, id string, params RetentionOffersGetInstanceParams)
+
+	// (PATCH /v1/retentionOffers/{id})
+	RetentionOffersUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/retentionOffers/{id}/prices)
+	RetentionOffersPricesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params RetentionOffersPricesGetToManyRelatedParams)
+
 	// (POST /v1/reviewSubmissionItems)
 	ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -181276,6 +190852,21 @@ type ServerInterface interface {
 
 	// (GET /v1/subscriptions/{id}/prices)
 	SubscriptionsPricesGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsPricesGetToManyRelatedParams)
+
+	// (GET /v1/subscriptions/{id}/relationships/retentionMessage)
+	SubscriptionsRetentionMessageGetToOneRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/subscriptions/{id}/relationships/retentionMessage)
+	SubscriptionsRetentionMessageUpdateToOneRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (DELETE /v1/subscriptions/{id}/relationships/retentionMessageOffers)
+	SubscriptionsRetentionMessageOffersDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/subscriptions/{id}/relationships/retentionMessageOffers)
+	SubscriptionsRetentionMessageOffersGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsRetentionMessageOffersGetToManyRelationshipParams)
+
+	// (POST /v1/subscriptions/{id}/relationships/retentionMessageOffers)
+	SubscriptionsRetentionMessageOffersCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
 
 	// (GET /v1/subscriptions/{id}/versions)
 	SubscriptionsVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params SubscriptionsVersionsGetToManyRelatedParams)
@@ -182430,6 +192021,19 @@ func (siw *ServerInterfaceWrapper) AppAssetLibraryImagesPlacementsGetToManyRelat
 		return
 	}
 
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
 	// ------------- Optional query parameter "limit" -------------
 
 	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
@@ -182684,6 +192288,19 @@ func (siw *ServerInterfaceWrapper) AppAssetLibraryPlacementsGetInstance(w http.R
 			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
 		} else {
 			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
 		}
 		return
 	}
@@ -183183,6 +192800,19 @@ func (siw *ServerInterfaceWrapper) AppAssetLibraryVideosPlacementsGetToManyRelat
 		return
 	}
 
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
 	// ------------- Optional query parameter "limit" -------------
 
 	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
@@ -183553,6 +193183,19 @@ func (siw *ServerInterfaceWrapper) AppCustomProductPageLocalizationsPlacementsGe
 			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
 		} else {
 			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
 		}
 		return
 	}
@@ -185293,6 +194936,19 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionExperimentTreatmentLocalizatio
 		return
 	}
 
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
 	// ------------- Optional query parameter "limit" -------------
 
 	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
@@ -185975,6 +195631,19 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionLocalizationsPlacementsGetToMa
 			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]"})
 		} else {
 			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersionExperimentTreatmentLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
 		}
 		return
 	}
@@ -187385,6 +197054,19 @@ func (siw *ServerInterfaceWrapper) AppsGetCollection(w http.ResponseWriter, r *h
 		return
 	}
 
+	// ------------- Optional query parameter "fields[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessages]", r.URL.Query(), &params.FieldsRetentionMessages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessages]", Err: err})
+		}
+		return
+	}
+
 	// ------------- Optional query parameter "fields[gameCenterEnabledVersions]" -------------
 
 	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterEnabledVersions]", r.URL.Query(), &params.FieldsGameCenterEnabledVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
@@ -187736,6 +197418,19 @@ func (siw *ServerInterfaceWrapper) AppsGetCollection(w http.ResponseWriter, r *h
 		return
 	}
 
+	// ------------- Optional query parameter "limit[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[retentionMessages]", r.URL.Query(), &params.LimitRetentionMessages, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[retentionMessages]", Err: err})
+		}
+		return
+	}
+
 	// ------------- Optional query parameter "limit[reviewSubmissions]" -------------
 
 	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[reviewSubmissions]", r.URL.Query(), &params.LimitReviewSubmissions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
@@ -187995,6 +197690,19 @@ func (siw *ServerInterfaceWrapper) AppsGetInstance(w http.ResponseWriter, r *htt
 			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionGroups]"})
 		} else {
 			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessages]", r.URL.Query(), &params.FieldsRetentionMessages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessages]", Err: err})
 		}
 		return
 	}
@@ -188333,6 +198041,19 @@ func (siw *ServerInterfaceWrapper) AppsGetInstance(w http.ResponseWriter, r *htt
 			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[promotedPurchases]"})
 		} else {
 			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[promotedPurchases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[retentionMessages]", r.URL.Query(), &params.LimitRetentionMessages, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[retentionMessages]", Err: err})
 		}
 		return
 	}
@@ -189958,6 +199679,126 @@ func (siw *ServerInterfaceWrapper) AppsPromotedPurchasesReplaceToManyRelationshi
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsPromotedPurchasesReplaceToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsRetentionMessagesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsRetentionMessagesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsRetentionMessagesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessages]", r.URL.Query(), &params.FieldsRetentionMessages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptions]", r.URL.Query(), &params.FieldsSubscriptions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[subscriptions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[subscriptions]", r.URL.Query(), &params.LimitSubscriptions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[subscriptions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[subscriptions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsRetentionMessagesGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -198241,6 +208082,756 @@ func (siw *ServerInterfaceWrapper) PromotedPurchasesUpdateInstance(w http.Respon
 	handler.ServeHTTP(w, r)
 }
 
+// RetentionMessageLocalizationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessageLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessageLocalizationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessageLocalizationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessageLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessageLocalizationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessageLocalizationsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessageLocalizationsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params RetentionMessageLocalizationsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[retentionMessageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageLocalizations]", r.URL.Query(), &params.FieldsRetentionMessageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessageLocalizationsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessageLocalizationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessageLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessageLocalizationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessageVersionsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessageVersionsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessageVersionsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessageVersionsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessageVersionsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params RetentionMessageVersionsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessages]", r.URL.Query(), &params.FieldsRetentionMessages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageLocalizations]", r.URL.Query(), &params.FieldsRetentionMessageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[localizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[localizations]", r.URL.Query(), &params.LimitLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[localizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[localizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessageVersionsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessageVersionsLocalizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessageVersionsLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params RetentionMessageVersionsLocalizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[retentionMessageLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageLocalizations]", r.URL.Query(), &params.FieldsRetentionMessageLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessageVersionsLocalizationsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessagesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessagesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessagesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessagesDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessagesDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessagesDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionMessagesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionMessagesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params RetentionMessagesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessages]", r.URL.Query(), &params.FieldsRetentionMessages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessageVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessageVersions]", r.URL.Query(), &params.FieldsRetentionMessageVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessageVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessageVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptions]", r.URL.Query(), &params.FieldsSubscriptions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[subscriptions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[subscriptions]", r.URL.Query(), &params.LimitSubscriptions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[subscriptions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[subscriptions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[versions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[versions]", r.URL.Query(), &params.LimitVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionMessagesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionOffersCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionOffersCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionOffersCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionOffersDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionOffersDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionOffersDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionOffersGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionOffersGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params RetentionOffersGetInstanceParams
+
+	// ------------- Optional query parameter "fields[retentionOffers]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionOffers]", r.URL.Query(), &params.FieldsRetentionOffers, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionOffers]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionOffers]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptions]", r.URL.Query(), &params.FieldsSubscriptions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionOfferPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionOfferPrices]", r.URL.Query(), &params.FieldsRetentionOfferPrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionOfferPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionOfferPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[prices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[prices]", r.URL.Query(), &params.LimitPrices, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[prices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[prices]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionOffersGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionOffersUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) RetentionOffersUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionOffersUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// RetentionOffersPricesGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) RetentionOffersPricesGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params RetentionOffersPricesGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[territory]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[territory]", r.URL.Query(), &params.FilterTerritory, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[territory]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[territory]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionOfferPrices]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionOfferPrices]", r.URL.Query(), &params.FieldsRetentionOfferPrices, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionOfferPrices]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionOfferPrices]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[territories]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[territories]", r.URL.Query(), &params.FieldsTerritories, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[territories]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[territories]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[subscriptionPricePoints]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[subscriptionPricePoints]", r.URL.Query(), &params.FieldsSubscriptionPricePoints, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[subscriptionPricePoints]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[subscriptionPricePoints]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.RetentionOffersPricesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // ReviewSubmissionItemsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -199298,6 +209889,32 @@ func (siw *ServerInterfaceWrapper) SubscriptionGroupsSubscriptionsGetToManyRelat
 		return
 	}
 
+	// ------------- Optional query parameter "fields[retentionOffers]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionOffers]", r.URL.Query(), &params.FieldsRetentionOffers, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionOffers]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionOffers]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessages]", r.URL.Query(), &params.FieldsRetentionMessages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessages]", Err: err})
+		}
+		return
+	}
+
 	// ------------- Optional query parameter "limit" -------------
 
 	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
@@ -199437,6 +210054,32 @@ func (siw *ServerInterfaceWrapper) SubscriptionGroupsSubscriptionsGetToManyRelat
 			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[versions]"})
 		} else {
 			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[versions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[retentionOffers]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[retentionOffers]", r.URL.Query(), &params.LimitRetentionOffers, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[retentionOffers]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[retentionOffers]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[retentionMessageOffers]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[retentionMessageOffers]", r.URL.Query(), &params.LimitRetentionMessageOffers, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[retentionMessageOffers]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[retentionMessageOffers]", Err: err})
 		}
 		return
 	}
@@ -201111,6 +211754,32 @@ func (siw *ServerInterfaceWrapper) SubscriptionsGetInstance(w http.ResponseWrite
 		return
 	}
 
+	// ------------- Optional query parameter "fields[retentionOffers]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionOffers]", r.URL.Query(), &params.FieldsRetentionOffers, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionOffers]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionOffers]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[retentionMessages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[retentionMessages]", r.URL.Query(), &params.FieldsRetentionMessages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[retentionMessages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[retentionMessages]", Err: err})
+		}
+		return
+	}
+
 	// ------------- Optional query parameter "include" -------------
 
 	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
@@ -201198,6 +211867,32 @@ func (siw *ServerInterfaceWrapper) SubscriptionsGetInstance(w http.ResponseWrite
 			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[promotionalOffers]"})
 		} else {
 			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[promotionalOffers]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[retentionMessageOffers]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[retentionMessageOffers]", r.URL.Query(), &params.LimitRetentionMessageOffers, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[retentionMessageOffers]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[retentionMessageOffers]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[retentionOffers]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[retentionOffers]", r.URL.Query(), &params.LimitRetentionOffers, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[retentionOffers]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[retentionOffers]", Err: err})
 		}
 		return
 	}
@@ -201804,6 +212499,152 @@ func (siw *ServerInterfaceWrapper) SubscriptionsPricesGetToManyRelated(w http.Re
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.SubscriptionsPricesGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsRetentionMessageGetToOneRelationship operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsRetentionMessageGetToOneRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsRetentionMessageGetToOneRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsRetentionMessageUpdateToOneRelationship operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsRetentionMessageUpdateToOneRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsRetentionMessageUpdateToOneRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsRetentionMessageOffersDeleteToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsRetentionMessageOffersDeleteToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsRetentionMessageOffersDeleteToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsRetentionMessageOffersGetToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsRetentionMessageOffersGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params SubscriptionsRetentionMessageOffersGetToManyRelationshipParams
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsRetentionMessageOffersGetToManyRelationship(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// SubscriptionsRetentionMessageOffersCreateToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) SubscriptionsRetentionMessageOffersCreateToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.SubscriptionsRetentionMessageOffersCreateToManyRelationship(w, r, id)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -204847,6 +215688,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/promotedPurchases", wrapper.AppsPromotedPurchasesGetToManyRelated)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/apps/{id}/relationships/betaTesters", wrapper.AppsBetaTestersDeleteToManyRelationship)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}/relationships/promotedPurchases", wrapper.AppsPromotedPurchasesReplaceToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/retentionMessages", wrapper.AppsRetentionMessagesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/searchKeywords", wrapper.AppsSearchKeywordsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/subscriptionGracePeriod", wrapper.AppsSubscriptionGracePeriodGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/subscriptionGroups", wrapper.AppsSubscriptionGroupsGetToManyRelated)
@@ -204983,6 +215825,21 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/promotedPurchases/{id}", wrapper.PromotedPurchasesDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/promotedPurchases/{id}", wrapper.PromotedPurchasesGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/promotedPurchases/{id}", wrapper.PromotedPurchasesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/retentionMessageLocalizations", wrapper.RetentionMessageLocalizationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/retentionMessageLocalizations/{id}", wrapper.RetentionMessageLocalizationsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/retentionMessageLocalizations/{id}", wrapper.RetentionMessageLocalizationsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/retentionMessageLocalizations/{id}", wrapper.RetentionMessageLocalizationsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/retentionMessageVersions", wrapper.RetentionMessageVersionsCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/retentionMessageVersions/{id}", wrapper.RetentionMessageVersionsGetInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/retentionMessageVersions/{id}/localizations", wrapper.RetentionMessageVersionsLocalizationsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/retentionMessages", wrapper.RetentionMessagesCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/retentionMessages/{id}", wrapper.RetentionMessagesDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/retentionMessages/{id}", wrapper.RetentionMessagesGetInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/retentionOffers", wrapper.RetentionOffersCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/retentionOffers/{id}", wrapper.RetentionOffersDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/retentionOffers/{id}", wrapper.RetentionOffersGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/retentionOffers/{id}", wrapper.RetentionOffersUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/retentionOffers/{id}/prices", wrapper.RetentionOffersPricesGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/reviewSubmissionItems", wrapper.ReviewSubmissionItemsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/reviewSubmissions", wrapper.ReviewSubmissionsGetCollection)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/reviewSubmissions", wrapper.ReviewSubmissionsCreateInstance)
@@ -205042,6 +215899,11 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/planAvailabilities", wrapper.SubscriptionsPlanAvailabilitiesGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/pricePoints", wrapper.SubscriptionsPricePointsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/prices", wrapper.SubscriptionsPricesGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/relationships/retentionMessage", wrapper.SubscriptionsRetentionMessageGetToOneRelationship)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/subscriptions/{id}/relationships/retentionMessage", wrapper.SubscriptionsRetentionMessageUpdateToOneRelationship)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/subscriptions/{id}/relationships/retentionMessageOffers", wrapper.SubscriptionsRetentionMessageOffersDeleteToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/relationships/retentionMessageOffers", wrapper.SubscriptionsRetentionMessageOffersGetToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/subscriptions/{id}/relationships/retentionMessageOffers", wrapper.SubscriptionsRetentionMessageOffersCreateToManyRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/subscriptions/{id}/versions", wrapper.SubscriptionsVersionsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/territories", wrapper.TerritoriesGetCollection)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/territoryAvailabilities/{id}", wrapper.TerritoryAvailabilitiesUpdateInstance)

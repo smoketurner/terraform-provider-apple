@@ -16,7 +16,9 @@ import (
 // Each app has one library of images and videos, uploaded like screenshots
 // but committed without a checksum. A placement shows an asset on a
 // localization: an App Store version's, a custom product page's, an in-app
-// event's or a product page optimization treatment's. Placements display
+// event's or a product page optimization treatment's. A retention message
+// placement has no localization: the retention message version created with
+// it shows it. Placements display
 // in order within a placement group of a localization, which an ordering
 // request sets. The fake checks that images are PNG or JPEG, and keeps
 // localizations other than App Store version localizations as bare IDs,
@@ -402,13 +404,16 @@ func (s *Server) renderPlacement(r *http.Request, p *placement) gen.AppAssetLibr
 	// Both relationship variants share the localization relationships, so
 	// one marshals the image and the localization and the other the video.
 	var rel map[string]any
-	target := map[string]any{"data": map[string]string{"type": p.targetKind + "s", "id": p.targetID}}
 	if p.video {
 		a.MediaType = new(gen.AppAssetLibraryMediaTypeVIDEO)
-		rel = map[string]any{"video": map[string]any{"data": map[string]string{"type": "appAssetLibraryVideos", "id": p.assetID}}, p.targetKind: target}
+		rel = map[string]any{"video": map[string]any{"data": map[string]string{"type": "appAssetLibraryVideos", "id": p.assetID}}}
 	} else {
 		a.MediaType = new(gen.AppAssetLibraryMediaTypeIMAGE)
-		rel = map[string]any{"image": map[string]any{"data": map[string]string{"type": "appAssetLibraryImages", "id": p.assetID}}, p.targetKind: target}
+		rel = map[string]any{"image": map[string]any{"data": map[string]string{"type": "appAssetLibraryImages", "id": p.assetID}}}
+	}
+	// A retention message placement has no target until a version shows it.
+	if p.targetKind != "" {
+		rel[p.targetKind] = map[string]any{"data": map[string]string{"type": p.targetKind + "s", "id": p.targetID}}
 	}
 	b, err := json.Marshal(rel)
 	if err != nil {
@@ -438,10 +443,16 @@ func targetOf(ids map[string]string) (kind, id string, ok bool) {
 }
 
 // checkTarget writes an error and returns false unless the target exists and
-// can be changed.
+// can be changed. A placement no retention message version shows yet has no
+// target.
 func (s *Server) checkTarget(w http.ResponseWriter, kind, id string) bool {
-	if kind == versionLocalizationTarget {
+	switch kind {
+	case versionLocalizationTarget:
 		return s.editableLocalization(w, id)
+	case "":
+		return true
+	case retentionVersionTarget:
+		return true
 	}
 	if s.lib.targets[id] != kind {
 		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no "+kind+"s with id '"+id+"'", "/data/relationships/"+kind)
@@ -483,13 +494,20 @@ func (s *Server) AppAssetLibraryPlacementsCreateInstance(w http.ResponseWriter, 
 	}
 	kind, targetID, oneTarget := targetOf(targets)
 	placementType, group := string(asc.Value(in.PlacementType)), asc.Value(in.PlacementGroup)
+	// A retention message placement is created without a target; the
+	// version created with it shows it.
+	isRetention := placementType == retentionPlacementType
+	oneTarget = oneTarget != isRetention
 	isEvent := placementType == "EVENT_CARD_ASSET" || placementType == "EVENT_DETAILS_PAGE_ASSET"
 	switch {
 	case (image == "") == (video == ""):
 		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "A placement needs exactly one image or video.", "/data/relationships")
 		return
 	case !oneTarget:
-		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "A placement needs exactly one localization.", "/data/relationships")
+		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "A placement needs exactly one localization, or none for a retention message.", "/data/relationships")
+		return
+	case isRetention && image == "":
+		conflict(w, "ENTITY_ERROR.ATTRIBUTE.INVALID", "A "+placementType+" placement can't show this media type.", "/data/attributes/placementType")
 		return
 	case placementType == "" || group == "":
 		conflict(w, "ENTITY_ERROR.ATTRIBUTE.REQUIRED", "placementType and placementGroup are required.", "/data/attributes")
@@ -524,7 +542,9 @@ func (s *Server) AppAssetLibraryPlacementsCreateInstance(w http.ResponseWriter, 
 		placementType: placementType, group: group, created: s.now().UTC().Truncate(time.Second),
 	}
 	s.lib.placements[p.id] = p
-	s.lib.order[key] = append(s.lib.order[key], p.id)
+	if kind != "" {
+		s.lib.order[key] = append(s.lib.order[key], p.id)
+	}
 	writeJSON(w, http.StatusCreated, gen.AppAssetLibraryPlacementResponse{Data: s.renderPlacement(r, p), Links: docLinks(r)})
 }
 
@@ -552,6 +572,9 @@ func (s *Server) AppAssetLibraryPlacementsDeleteInstance(w http.ResponseWriter, 
 		return
 	}
 	delete(s.lib.placements, id)
+	if v, ok := s.retention.versions[p.targetID]; ok && p.targetKind == retentionVersionTarget {
+		v.placementID = ""
+	}
 	key := placementKey(p.targetID, p.group)
 	s.lib.order[key] = slices.DeleteFunc(s.lib.order[key], func(other string) bool { return other == id })
 	w.WriteHeader(http.StatusNoContent)

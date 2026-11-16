@@ -19,8 +19,8 @@ const SpecURL = "https://developer.apple.com/sample-code/app-store-connect/app-s
 // specFile is the name of the spec inside the ZIP.
 const specFile = "openapi.oas.json"
 
-// maxSpecSize bounds both the download and the unzipped spec. Spec 4.5.1 is
-// 7.5 MB uncompressed.
+// maxSpecSize bounds both the download and the unzipped spec. Spec 4.6 is
+// 7.7 MB uncompressed.
 const maxSpecSize = 64 << 20
 
 // FetchSpec downloads the spec ZIP from url and returns the unzipped spec.
