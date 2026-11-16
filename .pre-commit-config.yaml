@@ -27,9 +27,12 @@ repos:
         name: actionlint
         entry: actionlint
         language: system
-        files: ^\.github/workflows/
+        files: ^\.github/workflows/.*\.ya?ml$
+      # Audits the whole directory, so a change to actions.lock is checked
+      # together with the workflows it locks.
       - id: zizmor
         name: zizmor
-        entry: zizmor --offline
+        entry: zizmor --offline .github/workflows
         language: system
         files: ^\.github/workflows/
+        pass_filenames: false

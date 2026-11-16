@@ -91,10 +91,15 @@ func (r *certificateResource) Schema(_ context.Context, _ resource.SchemaRequest
 		MarkdownDescription: "Creates a signing certificate from a certificate signing request (CSR). Destroying it revokes the " +
 			"certificate, which invalidates the provisioning profiles that use it. Certificates cannot be renewed in place; " +
 			"use `early_renewal_hours` with `create_before_destroy` to replace one before it expires. Import it by its App " +
-			"Store Connect ID or serial number.",
+			"Store Connect ID or serial number.\n\n" +
+			"The API key needs a team key's Admin role, or the App Manager role with access to Certificates, Identifiers & " +
+			"Profiles; the Developer role with that access can create only development certificates, and individual API " +
+			"keys can't manage certificates. Developer ID certificates can't be created through the API: only the Account " +
+			"Holder can create them, on the Apple Developer website or in Xcode.",
 		Attributes: map[string]schema.Attribute{
 			"id": idAttribute("App Store Connect ID of the certificate."),
-			"certificate_type": replacedString("Certificate type: "+docValues(certificateTypes)+". Changing it creates a new certificate.",
+			"certificate_type": replacedString("Certificate type: "+docValues(certificateTypes)+". App Store Connect doesn't create the "+
+				"`DEVELOPER_ID_*` types through the API. Changing it creates a new certificate.",
 				oneOf(certificateTypes)),
 			"csr_content": schema.StringAttribute{
 				MarkdownDescription: "PEM-encoded certificate signing request, e.g. `tls_cert_request.signing.cert_request_pem`. " +

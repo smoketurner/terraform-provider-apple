@@ -58,6 +58,13 @@ parameter on a `covered` or `in_progress` operation. To move to a newer spec, ru
 `go run ./internal/apispec/cmd/apispec fetch -o api/openapi.oas.json`, copy the version and checksum it prints into
 `internal/apispec/pin.go`, update `coverage.yaml` until `make api-coverage` passes, and run `make generate`.
 
+## Workflows
+
+Actions in `.github/workflows` are referenced by version tag and locked to commits in
+`.github/workflows/actions.lock`. After adding or changing an action, run `gh actions-lock` (from the
+[gh-actions-lock](https://github.com/github/gh-actions-lock) extension) and commit the updated lockfile. CI fails
+when the lockfile is out of date.
+
 ## Tests
 
 `make test` runs every test, including the Terraform acceptance tests, against an in-memory fake of the App Store
