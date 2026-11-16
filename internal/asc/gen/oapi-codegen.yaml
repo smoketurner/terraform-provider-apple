@@ -320,16 +320,32 @@ output-options:
     - endUserLicenseAgreements_deleteInstance
     - endUserLicenseAgreements_territories_getToManyRelationship
     - endUserLicenseAgreements_updateInstance
+    - gameCenterAchievementImagesV2_createInstance
+    - gameCenterAchievementImagesV2_deleteInstance
+    - gameCenterAchievementImagesV2_updateInstance
+    - gameCenterAchievementLocalizationsV2_createInstance
+    - gameCenterAchievementLocalizationsV2_deleteInstance
+    - gameCenterAchievementLocalizationsV2_image_getToOneRelated
+    - gameCenterAchievementLocalizationsV2_updateInstance
+    - gameCenterAchievementVersionsV2_createInstance
+    - gameCenterAchievementVersionsV2_localizations_getToManyRelated
+    - gameCenterAchievementsV2_createInstance
+    - gameCenterAchievementsV2_deleteInstance
+    - gameCenterAchievementsV2_getInstance
+    - gameCenterAchievementsV2_updateInstance
+    - gameCenterAchievementsV2_versions_getToManyRelated
     - gameCenterAppVersions_compatibilityVersions_createToManyRelationship
     - gameCenterAppVersions_compatibilityVersions_deleteToManyRelationship
     - gameCenterAppVersions_compatibilityVersions_getToManyRelationship
     - gameCenterAppVersions_createInstance
     - gameCenterAppVersions_updateInstance
     - gameCenterDetails_createInstance
+    - gameCenterDetails_gameCenterAchievementsV2_getToManyRelated
     - gameCenterDetails_gameCenterAppVersions_getToManyRelated
     - gameCenterDetails_updateInstance
     - gameCenterGroups_createInstance
     - gameCenterGroups_deleteInstance
+    - gameCenterGroups_gameCenterAchievementsV2_getToManyRelated
     - gameCenterGroups_getCollection
     - gameCenterGroups_getInstance
     - gameCenterGroups_updateInstance

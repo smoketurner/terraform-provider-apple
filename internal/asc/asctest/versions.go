@@ -43,6 +43,8 @@ type reviewSubmission struct {
 	pageVersions []string
 	// experiments holds product page optimization experiment IDs.
 	experiments []string
+	// gcVersions holds versions of Game Center items.
+	gcVersions []string
 }
 
 type versionsState struct {
@@ -778,6 +780,12 @@ func (s *Server) ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *h
 		}
 		return
 	}
+	if rel.GameCenterAchievementVersion != nil && rel.GameCenterAchievementVersion.Data != nil {
+		if s.addGCVersionItem(w, sub, gcAchievements, rel.GameCenterAchievementVersion.Data.Id) {
+			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
+		}
+		return
+	}
 	if rel.RetentionMessageVersion != nil && rel.RetentionMessageVersion.Data != nil {
 		if s.addRetentionVersionItem(w, sub, rel.RetentionMessageVersion.Data.Id) {
 			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
@@ -822,7 +830,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 	in := asc.Value(req.Data.Attributes)
 	switch {
 	case asc.Value(in.Submitted):
-		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions)+len(sub.iapVersions)+len(sub.metaVersions)+len(sub.retentionVersions)+len(sub.events)+len(sub.pageVersions)+len(sub.experiments) == 0 {
+		if *sub.Attributes.State != gen.ReviewSubmissionAttributesStateREADYFORREVIEW || len(sub.versions)+len(sub.iapVersions)+len(sub.metaVersions)+len(sub.retentionVersions)+len(sub.events)+len(sub.pageVersions)+len(sub.experiments)+len(sub.gcVersions) == 0 {
 			stateError(w, "Only a submission with items, ready for review, can be submitted.")
 			return
 		}
@@ -837,6 +845,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		s.setEventStates(sub, gen.AppEventAttributesEventStateWAITINGFORREVIEW)
 		s.setPageVersionStates(sub, pageVersionWaiting)
 		s.setExperimentStates(sub, experimentWaiting)
+		s.setGCVersionStates(sub, gcWaiting)
 	case asc.Value(in.Canceled):
 		if !slices.Contains(openSubmissionStates, *sub.Attributes.State) {
 			stateError(w, "The submission is not open.")
@@ -852,6 +861,7 @@ func (s *Server) ReviewSubmissionsUpdateInstance(w http.ResponseWriter, r *http.
 		s.setEventStates(sub, gen.AppEventAttributesEventStateDRAFT)
 		s.setPageVersionStates(sub, pageVersionDraft)
 		s.setExperimentStates(sub, experimentDraft)
+		s.setGCVersionStates(sub, gcRejected)
 	}
 	writeJSON(w, http.StatusOK, gen.ReviewSubmissionResponse{Data: sub.ReviewSubmission, Links: docLinks(r)})
 }

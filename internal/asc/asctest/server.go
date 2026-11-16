@@ -94,6 +94,7 @@ type Server struct {
 	xcodeCloud   *xcodeCloudState
 	analytics    *analyticsState
 	gameCenter   *gameCenterState
+	gcItems      *gcItemsState
 
 	failNext map[string][]int
 	requests []string
@@ -151,6 +152,7 @@ func NewServer() *Server {
 		xcodeCloud:   newXcodeCloudState(),
 		analytics:    newAnalyticsState(),
 		gameCenter:   newGameCenterState(),
+		gcItems:      newGCItemsState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{
