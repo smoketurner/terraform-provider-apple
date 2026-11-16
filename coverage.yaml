@@ -161,30 +161,30 @@ operations:
   appEncryptionDeclarations_createInstance: {status: covered, by: [apple_app_encryption_declaration]}
   appEncryptionDeclarations_getCollection: {status: out_of_scope, reason: "apple_app_encryption_declaration reads declarations by ID"}
   appEncryptionDeclarations_getInstance: {status: covered, by: [apple_app_encryption_declaration]}
-  appEventLocalizations_appEventScreenshots_getToManyRelated: {status: planned, issue: 11}
-  appEventLocalizations_appEventScreenshots_getToManyRelationship: {status: planned, issue: 11}
-  appEventLocalizations_appEventVideoClips_getToManyRelated: {status: planned, issue: 11}
-  appEventLocalizations_appEventVideoClips_getToManyRelationship: {status: planned, issue: 11}
-  appEventLocalizations_createInstance: {status: planned, issue: 11}
-  appEventLocalizations_deleteInstance: {status: planned, issue: 11}
-  appEventLocalizations_getInstance: {status: planned, issue: 11}
-  appEventLocalizations_placements_getToManyRelated: {status: planned, issue: 11}
-  appEventLocalizations_placements_getToManyRelationship: {status: planned, issue: 11}
-  appEventLocalizations_updateInstance: {status: planned, issue: 11}
-  appEventScreenshots_createInstance: {status: planned, issue: 11}
-  appEventScreenshots_deleteInstance: {status: planned, issue: 11}
-  appEventScreenshots_getInstance: {status: planned, issue: 11}
-  appEventScreenshots_updateInstance: {status: planned, issue: 11}
-  appEventVideoClips_createInstance: {status: planned, issue: 11}
-  appEventVideoClips_deleteInstance: {status: planned, issue: 11}
-  appEventVideoClips_getInstance: {status: planned, issue: 11}
-  appEventVideoClips_updateInstance: {status: planned, issue: 11}
-  appEvents_createInstance: {status: planned, issue: 11}
-  appEvents_deleteInstance: {status: planned, issue: 11}
-  appEvents_getInstance: {status: planned, issue: 11}
-  appEvents_localizations_getToManyRelated: {status: planned, issue: 11}
-  appEvents_localizations_getToManyRelationship: {status: planned, issue: 11}
-  appEvents_updateInstance: {status: planned, issue: 11}
+  appEventLocalizations_appEventScreenshots_getToManyRelated: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventLocalizations_appEventScreenshots_getToManyRelationship: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventLocalizations_appEventVideoClips_getToManyRelated: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventLocalizations_appEventVideoClips_getToManyRelationship: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventLocalizations_createInstance: {status: covered, by: [apple_app_event_localization]}
+  appEventLocalizations_deleteInstance: {status: covered, by: [apple_app_event_localization]}
+  appEventLocalizations_getInstance: {status: covered, by: [apple_app_event_localization]}
+  appEventLocalizations_placements_getToManyRelated: {status: out_of_scope, reason: "apple_app_asset_library_placement reads each placement by ID, and in-app event placements have no order to manage"}
+  appEventLocalizations_placements_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appEventLocalizations_updateInstance: {status: covered, by: [apple_app_event_localization]}
+  appEventScreenshots_createInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventScreenshots_deleteInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventScreenshots_getInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventScreenshots_updateInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventVideoClips_createInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventVideoClips_deleteInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventVideoClips_getInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEventVideoClips_updateInstance: {status: out_of_scope, reason: "deprecated: in-app event media is managed with the App Asset Library and apple_app_asset_library_placement"}
+  appEvents_createInstance: {status: covered, by: [apple_app_event]}
+  appEvents_deleteInstance: {status: covered, by: [apple_app_event]}
+  appEvents_getInstance: {status: covered, by: [apple_app_event, action.apple_submit_app_event]}
+  appEvents_localizations_getToManyRelated: {status: covered, by: [apple_app_event_localization]}
+  appEvents_localizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  appEvents_updateInstance: {status: covered, by: [apple_app_event]}
   appInfoLocalizations_createInstance: {status: covered, by: [apple_app_info_localization]}
   appInfoLocalizations_deleteInstance: {status: covered, by: [apple_app_info_localization]}
   appInfoLocalizations_getInstance: {status: out_of_scope, reason: "the resources read these objects through their app or version"}
@@ -345,8 +345,8 @@ operations:
   apps_appCustomProductPages_getToManyRelationship: {status: planned, issue: 10}
   apps_appEncryptionDeclarations_getToManyRelated: {status: out_of_scope, reason: "apple_app_encryption_declaration reads declarations by ID"}
   apps_appEncryptionDeclarations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  apps_appEvents_getToManyRelated: {status: planned, issue: 11}
-  apps_appEvents_getToManyRelationship: {status: planned, issue: 11}
+  apps_appEvents_getToManyRelated: {status: covered, by: [data.apple_app_events]}
+  apps_appEvents_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appInfos_getToManyRelated: {status: covered, by: [apple_age_rating_declaration, apple_app_info, apple_app_info_localization]}
   apps_appInfos_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   apps_appPricePoints_getToManyRelated: {status: covered, by: [data.apple_app_price_points]}
@@ -1156,7 +1156,7 @@ operations:
   retentionOffers_prices_getToManyRelated: {status: covered, by: [apple_retention_offer]}
   retentionOffers_prices_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   retentionOffers_updateInstance: {status: covered, by: [apple_retention_offer]}
-  reviewSubmissionItems_createInstance: {status: covered, by: [action.apple_submit_for_review, action.apple_submit_retention_message_version]}
+  reviewSubmissionItems_createInstance: {status: covered, by: [action.apple_submit_for_review, action.apple_submit_retention_message_version, action.apple_submit_app_event]}
   reviewSubmissionItems_deleteInstance: {status: out_of_scope, reason: "the review actions submit and cancel whole submissions; items are not managed separately"}
   reviewSubmissionItems_updateInstance: {status: out_of_scope, reason: "the review actions submit and cancel whole submissions; items are not managed separately"}
   reviewSubmissions_createInstance: {status: covered, by: [action.apple_submit_for_review]}

@@ -3392,6 +3392,129 @@ func (e AppEventType) Valid() bool {
 	}
 }
 
+// Defines values for AppEventAssetType.
+const (
+	AppEventAssetTypeEVENTCARD        AppEventAssetType = "EVENT_CARD"
+	AppEventAssetTypeEVENTDETAILSPAGE AppEventAssetType = "EVENT_DETAILS_PAGE"
+)
+
+// Valid indicates whether the value is a known member of the AppEventAssetType enum.
+func (e AppEventAssetType) Valid() bool {
+	switch e {
+	case AppEventAssetTypeEVENTCARD:
+		return true
+	case AppEventAssetTypeEVENTDETAILSPAGE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventCreateRequestDataAttributesBadge.
+const (
+	AppEventCreateRequestDataAttributesBadgeCHALLENGE    AppEventCreateRequestDataAttributesBadge = "CHALLENGE"
+	AppEventCreateRequestDataAttributesBadgeCOMPETITION  AppEventCreateRequestDataAttributesBadge = "COMPETITION"
+	AppEventCreateRequestDataAttributesBadgeLIVEEVENT    AppEventCreateRequestDataAttributesBadge = "LIVE_EVENT"
+	AppEventCreateRequestDataAttributesBadgeMAJORUPDATE  AppEventCreateRequestDataAttributesBadge = "MAJOR_UPDATE"
+	AppEventCreateRequestDataAttributesBadgeNEWSEASON    AppEventCreateRequestDataAttributesBadge = "NEW_SEASON"
+	AppEventCreateRequestDataAttributesBadgePREMIERE     AppEventCreateRequestDataAttributesBadge = "PREMIERE"
+	AppEventCreateRequestDataAttributesBadgeSPECIALEVENT AppEventCreateRequestDataAttributesBadge = "SPECIAL_EVENT"
+)
+
+// Valid indicates whether the value is a known member of the AppEventCreateRequestDataAttributesBadge enum.
+func (e AppEventCreateRequestDataAttributesBadge) Valid() bool {
+	switch e {
+	case AppEventCreateRequestDataAttributesBadgeCHALLENGE:
+		return true
+	case AppEventCreateRequestDataAttributesBadgeCOMPETITION:
+		return true
+	case AppEventCreateRequestDataAttributesBadgeLIVEEVENT:
+		return true
+	case AppEventCreateRequestDataAttributesBadgeMAJORUPDATE:
+		return true
+	case AppEventCreateRequestDataAttributesBadgeNEWSEASON:
+		return true
+	case AppEventCreateRequestDataAttributesBadgePREMIERE:
+		return true
+	case AppEventCreateRequestDataAttributesBadgeSPECIALEVENT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventCreateRequestDataAttributesPriority.
+const (
+	AppEventCreateRequestDataAttributesPriorityHIGH   AppEventCreateRequestDataAttributesPriority = "HIGH"
+	AppEventCreateRequestDataAttributesPriorityNORMAL AppEventCreateRequestDataAttributesPriority = "NORMAL"
+)
+
+// Valid indicates whether the value is a known member of the AppEventCreateRequestDataAttributesPriority enum.
+func (e AppEventCreateRequestDataAttributesPriority) Valid() bool {
+	switch e {
+	case AppEventCreateRequestDataAttributesPriorityHIGH:
+		return true
+	case AppEventCreateRequestDataAttributesPriorityNORMAL:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventCreateRequestDataAttributesPurpose.
+const (
+	AppEventCreateRequestDataAttributesPurposeAPPROPRIATEFORALLUSERS  AppEventCreateRequestDataAttributesPurpose = "APPROPRIATE_FOR_ALL_USERS"
+	AppEventCreateRequestDataAttributesPurposeATTRACTNEWUSERS         AppEventCreateRequestDataAttributesPurpose = "ATTRACT_NEW_USERS"
+	AppEventCreateRequestDataAttributesPurposeBRINGBACKLAPSEDUSERS    AppEventCreateRequestDataAttributesPurpose = "BRING_BACK_LAPSED_USERS"
+	AppEventCreateRequestDataAttributesPurposeKEEPACTIVEUSERSINFORMED AppEventCreateRequestDataAttributesPurpose = "KEEP_ACTIVE_USERS_INFORMED"
+)
+
+// Valid indicates whether the value is a known member of the AppEventCreateRequestDataAttributesPurpose enum.
+func (e AppEventCreateRequestDataAttributesPurpose) Valid() bool {
+	switch e {
+	case AppEventCreateRequestDataAttributesPurposeAPPROPRIATEFORALLUSERS:
+		return true
+	case AppEventCreateRequestDataAttributesPurposeATTRACTNEWUSERS:
+		return true
+	case AppEventCreateRequestDataAttributesPurposeBRINGBACKLAPSEDUSERS:
+		return true
+	case AppEventCreateRequestDataAttributesPurposeKEEPACTIVEUSERSINFORMED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventCreateRequestDataRelationshipsAppDataType.
+const (
+	AppEventCreateRequestDataRelationshipsAppDataTypeApps AppEventCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the AppEventCreateRequestDataRelationshipsAppDataType enum.
+func (e AppEventCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case AppEventCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventCreateRequestDataType.
+const (
+	AppEventCreateRequestDataTypeAppEvents AppEventCreateRequestDataType = "appEvents"
+)
+
+// Valid indicates whether the value is a known member of the AppEventCreateRequestDataType enum.
+func (e AppEventCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppEventCreateRequestDataTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppEventLocalizationRelationshipsAppEventDataType.
 const (
 	AppEventLocalizationRelationshipsAppEventDataTypeAppEvents AppEventLocalizationRelationshipsAppEventDataType = "appEvents"
@@ -3461,6 +3584,216 @@ const (
 func (e AppEventLocalizationType) Valid() bool {
 	switch e {
 	case AppEventLocalizationTypeAppEventLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationCreateRequestDataRelationshipsAppEventDataType.
+const (
+	AppEventLocalizationCreateRequestDataRelationshipsAppEventDataTypeAppEvents AppEventLocalizationCreateRequestDataRelationshipsAppEventDataType = "appEvents"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationCreateRequestDataRelationshipsAppEventDataType enum.
+func (e AppEventLocalizationCreateRequestDataRelationshipsAppEventDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationCreateRequestDataRelationshipsAppEventDataTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataType.
+const (
+	AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataType = "appAssetLibraryPlacements"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataType enum.
+func (e AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataTypeAppAssetLibraryPlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationCreateRequestDataType.
+const (
+	AppEventLocalizationCreateRequestDataTypeAppEventLocalizations AppEventLocalizationCreateRequestDataType = "appEventLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationCreateRequestDataType enum.
+func (e AppEventLocalizationCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationCreateRequestDataTypeAppEventLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationUpdateRequestDataType.
+const (
+	AppEventLocalizationUpdateRequestDataTypeAppEventLocalizations AppEventLocalizationUpdateRequestDataType = "appEventLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationUpdateRequestDataType enum.
+func (e AppEventLocalizationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppEventLocalizationUpdateRequestDataTypeAppEventLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventScreenshotRelationshipsAppEventLocalizationDataType.
+const (
+	AppEventScreenshotRelationshipsAppEventLocalizationDataTypeAppEventLocalizations AppEventScreenshotRelationshipsAppEventLocalizationDataType = "appEventLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventScreenshotRelationshipsAppEventLocalizationDataType enum.
+func (e AppEventScreenshotRelationshipsAppEventLocalizationDataType) Valid() bool {
+	switch e {
+	case AppEventScreenshotRelationshipsAppEventLocalizationDataTypeAppEventLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventScreenshotType.
+const (
+	AppEventScreenshotTypeAppEventScreenshots AppEventScreenshotType = "appEventScreenshots"
+)
+
+// Valid indicates whether the value is a known member of the AppEventScreenshotType enum.
+func (e AppEventScreenshotType) Valid() bool {
+	switch e {
+	case AppEventScreenshotTypeAppEventScreenshots:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventUpdateRequestDataAttributesBadge.
+const (
+	AppEventUpdateRequestDataAttributesBadgeCHALLENGE    AppEventUpdateRequestDataAttributesBadge = "CHALLENGE"
+	AppEventUpdateRequestDataAttributesBadgeCOMPETITION  AppEventUpdateRequestDataAttributesBadge = "COMPETITION"
+	AppEventUpdateRequestDataAttributesBadgeLIVEEVENT    AppEventUpdateRequestDataAttributesBadge = "LIVE_EVENT"
+	AppEventUpdateRequestDataAttributesBadgeMAJORUPDATE  AppEventUpdateRequestDataAttributesBadge = "MAJOR_UPDATE"
+	AppEventUpdateRequestDataAttributesBadgeNEWSEASON    AppEventUpdateRequestDataAttributesBadge = "NEW_SEASON"
+	AppEventUpdateRequestDataAttributesBadgePREMIERE     AppEventUpdateRequestDataAttributesBadge = "PREMIERE"
+	AppEventUpdateRequestDataAttributesBadgeSPECIALEVENT AppEventUpdateRequestDataAttributesBadge = "SPECIAL_EVENT"
+)
+
+// Valid indicates whether the value is a known member of the AppEventUpdateRequestDataAttributesBadge enum.
+func (e AppEventUpdateRequestDataAttributesBadge) Valid() bool {
+	switch e {
+	case AppEventUpdateRequestDataAttributesBadgeCHALLENGE:
+		return true
+	case AppEventUpdateRequestDataAttributesBadgeCOMPETITION:
+		return true
+	case AppEventUpdateRequestDataAttributesBadgeLIVEEVENT:
+		return true
+	case AppEventUpdateRequestDataAttributesBadgeMAJORUPDATE:
+		return true
+	case AppEventUpdateRequestDataAttributesBadgeNEWSEASON:
+		return true
+	case AppEventUpdateRequestDataAttributesBadgePREMIERE:
+		return true
+	case AppEventUpdateRequestDataAttributesBadgeSPECIALEVENT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventUpdateRequestDataAttributesPriority.
+const (
+	AppEventUpdateRequestDataAttributesPriorityHIGH   AppEventUpdateRequestDataAttributesPriority = "HIGH"
+	AppEventUpdateRequestDataAttributesPriorityNORMAL AppEventUpdateRequestDataAttributesPriority = "NORMAL"
+)
+
+// Valid indicates whether the value is a known member of the AppEventUpdateRequestDataAttributesPriority enum.
+func (e AppEventUpdateRequestDataAttributesPriority) Valid() bool {
+	switch e {
+	case AppEventUpdateRequestDataAttributesPriorityHIGH:
+		return true
+	case AppEventUpdateRequestDataAttributesPriorityNORMAL:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventUpdateRequestDataAttributesPurpose.
+const (
+	AppEventUpdateRequestDataAttributesPurposeAPPROPRIATEFORALLUSERS  AppEventUpdateRequestDataAttributesPurpose = "APPROPRIATE_FOR_ALL_USERS"
+	AppEventUpdateRequestDataAttributesPurposeATTRACTNEWUSERS         AppEventUpdateRequestDataAttributesPurpose = "ATTRACT_NEW_USERS"
+	AppEventUpdateRequestDataAttributesPurposeBRINGBACKLAPSEDUSERS    AppEventUpdateRequestDataAttributesPurpose = "BRING_BACK_LAPSED_USERS"
+	AppEventUpdateRequestDataAttributesPurposeKEEPACTIVEUSERSINFORMED AppEventUpdateRequestDataAttributesPurpose = "KEEP_ACTIVE_USERS_INFORMED"
+)
+
+// Valid indicates whether the value is a known member of the AppEventUpdateRequestDataAttributesPurpose enum.
+func (e AppEventUpdateRequestDataAttributesPurpose) Valid() bool {
+	switch e {
+	case AppEventUpdateRequestDataAttributesPurposeAPPROPRIATEFORALLUSERS:
+		return true
+	case AppEventUpdateRequestDataAttributesPurposeATTRACTNEWUSERS:
+		return true
+	case AppEventUpdateRequestDataAttributesPurposeBRINGBACKLAPSEDUSERS:
+		return true
+	case AppEventUpdateRequestDataAttributesPurposeKEEPACTIVEUSERSINFORMED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventUpdateRequestDataType.
+const (
+	AppEventUpdateRequestDataTypeAppEvents AppEventUpdateRequestDataType = "appEvents"
+)
+
+// Valid indicates whether the value is a known member of the AppEventUpdateRequestDataType enum.
+func (e AppEventUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppEventUpdateRequestDataTypeAppEvents:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventVideoClipRelationshipsAppEventLocalizationDataType.
+const (
+	AppEventVideoClipRelationshipsAppEventLocalizationDataTypeAppEventLocalizations AppEventVideoClipRelationshipsAppEventLocalizationDataType = "appEventLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventVideoClipRelationshipsAppEventLocalizationDataType enum.
+func (e AppEventVideoClipRelationshipsAppEventLocalizationDataType) Valid() bool {
+	switch e {
+	case AppEventVideoClipRelationshipsAppEventLocalizationDataTypeAppEventLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventVideoClipType.
+const (
+	AppEventVideoClipTypeAppEventVideoClips AppEventVideoClipType = "appEventVideoClips"
+)
+
+// Valid indicates whether the value is a known member of the AppEventVideoClipType enum.
+func (e AppEventVideoClipType) Valid() bool {
+	switch e {
+	case AppEventVideoClipTypeAppEventVideoClips:
 		return true
 	default:
 		return false
@@ -21926,6 +22259,582 @@ func (e AppEncryptionDeclarationsGetInstanceParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations.
+const (
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsAppEvent            AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "appEvent"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsAppEventScreenshots AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsAppEventVideoClips  AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsLocale              AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "locale"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsLongDescription     AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "longDescription"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsName                AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "name"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsPlacements          AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "placements"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsShortDescription    AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations enum.
+func (e AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationsGetInstanceParamsFieldsAppEvents.
+const (
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsArchivedTerritorySchedules AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "archivedTerritorySchedules"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsBadge                      AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "badge"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsDeepLink                   AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "deepLink"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsEventState                 AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "eventState"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsLocalizations              AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "localizations"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsPrimaryLocale              AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "primaryLocale"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsPriority                   AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "priority"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsPurchaseRequirement        AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "purchaseRequirement"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsPurpose                    AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "purpose"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsReferenceName              AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "referenceName"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventsTerritorySchedules         AppEventLocalizationsGetInstanceParamsFieldsAppEvents = "territorySchedules"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationsGetInstanceParamsFieldsAppEvents enum.
+func (e AppEventLocalizationsGetInstanceParamsFieldsAppEvents) Valid() bool {
+	switch e {
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsArchivedTerritorySchedules:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsBadge:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsDeepLink:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsEventState:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsLocalizations:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsPrimaryLocale:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsPriority:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsPurchaseRequirement:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsPurpose:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsReferenceName:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventsTerritorySchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots.
+const (
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAppEventAssetType    AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "appEventAssetType"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAppEventLocalization AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "appEventLocalization"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAssetDeliveryState   AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "assetDeliveryState"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAssetToken           AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "assetToken"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsFileName             AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "fileName"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsFileSize             AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "fileSize"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsImageAsset           AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "imageAsset"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsUploadOperations     AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots enum.
+func (e AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots) Valid() bool {
+	switch e {
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAppEventAssetType:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAppEventLocalization:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAssetDeliveryState:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsAssetToken:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsFileName:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsFileSize:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsImageAsset:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips.
+const (
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsAppEventAssetType    AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "appEventAssetType"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsAppEventLocalization AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "appEventLocalization"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsAssetDeliveryState   AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "assetDeliveryState"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsFileName             AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "fileName"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsFileSize             AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "fileSize"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsPreviewFrameImage    AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "previewFrameImage"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsPreviewFrameTimeCode AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "previewFrameTimeCode"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsPreviewImage         AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "previewImage"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsUploadOperations     AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "uploadOperations"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsVideoDeliveryState   AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "videoDeliveryState"
+	AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsVideoUrl             AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips = "videoUrl"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips enum.
+func (e AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips) Valid() bool {
+	switch e {
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsAppEventAssetType:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsAppEventLocalization:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsAssetDeliveryState:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsFileName:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsFileSize:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsPreviewFrameImage:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsPreviewFrameTimeCode:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsPreviewImage:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsUploadOperations:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsVideoDeliveryState:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClipsVideoUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage                                          AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "image"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsState                                          AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "state"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo                                          AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventLocalizationsGetInstanceParamsInclude.
+const (
+	AppEventLocalizationsGetInstanceParamsIncludeAppEvent            AppEventLocalizationsGetInstanceParamsInclude = "appEvent"
+	AppEventLocalizationsGetInstanceParamsIncludeAppEventScreenshots AppEventLocalizationsGetInstanceParamsInclude = "appEventScreenshots"
+	AppEventLocalizationsGetInstanceParamsIncludeAppEventVideoClips  AppEventLocalizationsGetInstanceParamsInclude = "appEventVideoClips"
+	AppEventLocalizationsGetInstanceParamsIncludePlacements          AppEventLocalizationsGetInstanceParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppEventLocalizationsGetInstanceParamsInclude enum.
+func (e AppEventLocalizationsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppEventLocalizationsGetInstanceParamsIncludeAppEvent:
+		return true
+	case AppEventLocalizationsGetInstanceParamsIncludeAppEventScreenshots:
+		return true
+	case AppEventLocalizationsGetInstanceParamsIncludeAppEventVideoClips:
+		return true
+	case AppEventLocalizationsGetInstanceParamsIncludePlacements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsGetInstanceParamsFieldsAppEvents.
+const (
+	AppEventsGetInstanceParamsFieldsAppEventsArchivedTerritorySchedules AppEventsGetInstanceParamsFieldsAppEvents = "archivedTerritorySchedules"
+	AppEventsGetInstanceParamsFieldsAppEventsBadge                      AppEventsGetInstanceParamsFieldsAppEvents = "badge"
+	AppEventsGetInstanceParamsFieldsAppEventsDeepLink                   AppEventsGetInstanceParamsFieldsAppEvents = "deepLink"
+	AppEventsGetInstanceParamsFieldsAppEventsEventState                 AppEventsGetInstanceParamsFieldsAppEvents = "eventState"
+	AppEventsGetInstanceParamsFieldsAppEventsLocalizations              AppEventsGetInstanceParamsFieldsAppEvents = "localizations"
+	AppEventsGetInstanceParamsFieldsAppEventsPrimaryLocale              AppEventsGetInstanceParamsFieldsAppEvents = "primaryLocale"
+	AppEventsGetInstanceParamsFieldsAppEventsPriority                   AppEventsGetInstanceParamsFieldsAppEvents = "priority"
+	AppEventsGetInstanceParamsFieldsAppEventsPurchaseRequirement        AppEventsGetInstanceParamsFieldsAppEvents = "purchaseRequirement"
+	AppEventsGetInstanceParamsFieldsAppEventsPurpose                    AppEventsGetInstanceParamsFieldsAppEvents = "purpose"
+	AppEventsGetInstanceParamsFieldsAppEventsReferenceName              AppEventsGetInstanceParamsFieldsAppEvents = "referenceName"
+	AppEventsGetInstanceParamsFieldsAppEventsTerritorySchedules         AppEventsGetInstanceParamsFieldsAppEvents = "territorySchedules"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsGetInstanceParamsFieldsAppEvents enum.
+func (e AppEventsGetInstanceParamsFieldsAppEvents) Valid() bool {
+	switch e {
+	case AppEventsGetInstanceParamsFieldsAppEventsArchivedTerritorySchedules:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsBadge:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsDeepLink:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsEventState:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsLocalizations:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsPrimaryLocale:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsPriority:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsPurchaseRequirement:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsPurpose:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsReferenceName:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventsTerritorySchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsGetInstanceParamsFieldsAppEventLocalizations.
+const (
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsAppEvent            AppEventsGetInstanceParamsFieldsAppEventLocalizations = "appEvent"
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsAppEventScreenshots AppEventsGetInstanceParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsAppEventVideoClips  AppEventsGetInstanceParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsLocale              AppEventsGetInstanceParamsFieldsAppEventLocalizations = "locale"
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsLongDescription     AppEventsGetInstanceParamsFieldsAppEventLocalizations = "longDescription"
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsName                AppEventsGetInstanceParamsFieldsAppEventLocalizations = "name"
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsPlacements          AppEventsGetInstanceParamsFieldsAppEventLocalizations = "placements"
+	AppEventsGetInstanceParamsFieldsAppEventLocalizationsShortDescription    AppEventsGetInstanceParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsGetInstanceParamsFieldsAppEventLocalizations enum.
+func (e AppEventsGetInstanceParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppEventsGetInstanceParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsGetInstanceParamsInclude.
+const (
+	AppEventsGetInstanceParamsIncludeLocalizations AppEventsGetInstanceParamsInclude = "localizations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsGetInstanceParamsInclude enum.
+func (e AppEventsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppEventsGetInstanceParamsIncludeLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations.
+const (
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent            AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEvent"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips  AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale              AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "locale"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription     AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "longDescription"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsName                AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "name"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements          AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "placements"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription    AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations enum.
+func (e AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents.
+const (
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsArchivedTerritorySchedules AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "archivedTerritorySchedules"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsBadge                      AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "badge"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsDeepLink                   AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "deepLink"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsEventState                 AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "eventState"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsLocalizations              AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "localizations"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPrimaryLocale              AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "primaryLocale"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPriority                   AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "priority"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPurchaseRequirement        AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "purchaseRequirement"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPurpose                    AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "purpose"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsReferenceName              AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "referenceName"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsTerritorySchedules         AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents = "territorySchedules"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents enum.
+func (e AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents) Valid() bool {
+	switch e {
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsArchivedTerritorySchedules:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsBadge:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsDeepLink:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsEventState:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsLocalizations:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPrimaryLocale:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPriority:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPurchaseRequirement:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsPurpose:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsReferenceName:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventsTerritorySchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots.
+const (
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAppEventAssetType    AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "appEventAssetType"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAppEventLocalization AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "appEventLocalization"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAssetDeliveryState   AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "assetDeliveryState"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAssetToken           AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "assetToken"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsFileName             AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "fileName"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsFileSize             AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "fileSize"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsImageAsset           AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "imageAsset"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsUploadOperations     AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots enum.
+func (e AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots) Valid() bool {
+	switch e {
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAppEventAssetType:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAppEventLocalization:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAssetDeliveryState:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsAssetToken:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsFileName:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsFileSize:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsImageAsset:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshotsUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips.
+const (
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsAppEventAssetType    AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "appEventAssetType"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsAppEventLocalization AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "appEventLocalization"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsAssetDeliveryState   AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "assetDeliveryState"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsFileName             AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "fileName"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsFileSize             AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "fileSize"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsPreviewFrameImage    AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "previewFrameImage"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsPreviewFrameTimeCode AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "previewFrameTimeCode"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsPreviewImage         AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "previewImage"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsUploadOperations     AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "uploadOperations"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsVideoDeliveryState   AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "videoDeliveryState"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsVideoUrl             AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips = "videoUrl"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips enum.
+func (e AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips) Valid() bool {
+	switch e {
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsAppEventAssetType:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsAppEventLocalization:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsAssetDeliveryState:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsFileName:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsFileSize:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsPreviewFrameImage:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsPreviewFrameTimeCode:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsPreviewImage:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsUploadOperations:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsVideoDeliveryState:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClipsVideoUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements.
+const (
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization               AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appCustomProductPageLocalization"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization                           AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appEventLocalization"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionExperimentTreatmentLocalization"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization                    AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "appStoreVersionLocalization"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate                                    AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "createdDate"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage                                          AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "image"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate                               AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "lastModifiedDate"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType                                      AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "mediaType"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup                                 AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementGroup"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType                                  AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "placementType"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion                        AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "retentionMessageVersion"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState                                          AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "state"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails                                   AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "stateDetails"
+	AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo                                          AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements = "video"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements enum.
+func (e AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements) Valid() bool {
+	switch e {
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppCustomProductPageLocalization:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppEventLocalization:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionExperimentTreatmentLocalization:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsAppStoreVersionLocalization:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsCreatedDate:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsImage:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsLastModifiedDate:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsMediaType:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementGroup:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsPlacementType:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsRetentionMessageVersion:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsState:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsStateDetails:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacementsVideo:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppEventsLocalizationsGetToManyRelatedParamsInclude.
+const (
+	AppEventsLocalizationsGetToManyRelatedParamsIncludeAppEvent            AppEventsLocalizationsGetToManyRelatedParamsInclude = "appEvent"
+	AppEventsLocalizationsGetToManyRelatedParamsIncludeAppEventScreenshots AppEventsLocalizationsGetToManyRelatedParamsInclude = "appEventScreenshots"
+	AppEventsLocalizationsGetToManyRelatedParamsIncludeAppEventVideoClips  AppEventsLocalizationsGetToManyRelatedParamsInclude = "appEventVideoClips"
+	AppEventsLocalizationsGetToManyRelatedParamsIncludePlacements          AppEventsLocalizationsGetToManyRelatedParamsInclude = "placements"
+)
+
+// Valid indicates whether the value is a known member of the AppEventsLocalizationsGetToManyRelatedParamsInclude enum.
+func (e AppEventsLocalizationsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppEventsLocalizationsGetToManyRelatedParamsIncludeAppEvent:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsIncludeAppEventScreenshots:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsIncludeAppEventVideoClips:
+		return true
+	case AppEventsLocalizationsGetToManyRelatedParamsIncludePlacements:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations.
 const (
 	AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarationsAdvertising                                 AppInfosAgeRatingDeclarationGetToOneRelatedParamsFieldsAgeRatingDeclarations = "advertising"
@@ -28601,6 +29510,144 @@ const (
 func (e AppsAppAvailabilityV2GetToOneRelatedParamsInclude) Valid() bool {
 	switch e {
 	case AppsAppAvailabilityV2GetToOneRelatedParamsIncludeTerritoryAvailabilities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppEventsGetToManyRelatedParamsFilterEventState.
+const (
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateACCEPTED         AppsAppEventsGetToManyRelatedParamsFilterEventState = "ACCEPTED"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateAPPROVED         AppsAppEventsGetToManyRelatedParamsFilterEventState = "APPROVED"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateARCHIVED         AppsAppEventsGetToManyRelatedParamsFilterEventState = "ARCHIVED"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateDRAFT            AppsAppEventsGetToManyRelatedParamsFilterEventState = "DRAFT"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateINREVIEW         AppsAppEventsGetToManyRelatedParamsFilterEventState = "IN_REVIEW"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStatePAST             AppsAppEventsGetToManyRelatedParamsFilterEventState = "PAST"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStatePUBLISHED        AppsAppEventsGetToManyRelatedParamsFilterEventState = "PUBLISHED"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateREADYFORREVIEW   AppsAppEventsGetToManyRelatedParamsFilterEventState = "READY_FOR_REVIEW"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateREJECTED         AppsAppEventsGetToManyRelatedParamsFilterEventState = "REJECTED"
+	AppsAppEventsGetToManyRelatedParamsFilterEventStateWAITINGFORREVIEW AppsAppEventsGetToManyRelatedParamsFilterEventState = "WAITING_FOR_REVIEW"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppEventsGetToManyRelatedParamsFilterEventState enum.
+func (e AppsAppEventsGetToManyRelatedParamsFilterEventState) Valid() bool {
+	switch e {
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateACCEPTED:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateAPPROVED:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateARCHIVED:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateDRAFT:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateINREVIEW:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStatePAST:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStatePUBLISHED:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateREADYFORREVIEW:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateREJECTED:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFilterEventStateWAITINGFORREVIEW:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppEventsGetToManyRelatedParamsFieldsAppEvents.
+const (
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsArchivedTerritorySchedules AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "archivedTerritorySchedules"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsBadge                      AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "badge"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsDeepLink                   AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "deepLink"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsEventState                 AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "eventState"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsLocalizations              AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "localizations"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPrimaryLocale              AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "primaryLocale"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPriority                   AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "priority"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPurchaseRequirement        AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "purchaseRequirement"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPurpose                    AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "purpose"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsReferenceName              AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "referenceName"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventsTerritorySchedules         AppsAppEventsGetToManyRelatedParamsFieldsAppEvents = "territorySchedules"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppEventsGetToManyRelatedParamsFieldsAppEvents enum.
+func (e AppsAppEventsGetToManyRelatedParamsFieldsAppEvents) Valid() bool {
+	switch e {
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsArchivedTerritorySchedules:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsBadge:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsDeepLink:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsEventState:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsLocalizations:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPrimaryLocale:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPriority:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPurchaseRequirement:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsPurpose:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsReferenceName:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventsTerritorySchedules:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations.
+const (
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent            AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEvent"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventScreenshots"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips  AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "appEventVideoClips"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale              AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "locale"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription     AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "longDescription"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsName                AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "name"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements          AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "placements"
+	AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription    AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations = "shortDescription"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations enum.
+func (e AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations) Valid() bool {
+	switch e {
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEvent:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventScreenshots:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsAppEventVideoClips:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsLocale:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsLongDescription:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsName:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsPlacements:
+		return true
+	case AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizationsShortDescription:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsAppEventsGetToManyRelatedParamsInclude.
+const (
+	AppsAppEventsGetToManyRelatedParamsIncludeLocalizations AppsAppEventsGetToManyRelatedParamsInclude = "localizations"
+)
+
+// Valid indicates whether the value is a known member of the AppsAppEventsGetToManyRelatedParamsInclude enum.
+func (e AppsAppEventsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsAppEventsGetToManyRelatedParamsIncludeLocalizations:
 		return true
 	default:
 		return false
@@ -52369,6 +53416,54 @@ type AppEventRelationshipsLocalizationsDataType string
 // AppEventType defines model for AppEvent.Type.
 type AppEventType string
 
+// AppEventAssetType defines model for AppEventAssetType.
+type AppEventAssetType string
+
+// AppEventCreateRequest defines model for AppEventCreateRequest.
+type AppEventCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Badge               *AppEventCreateRequestDataAttributesBadge    `json:"badge,omitempty"`
+			DeepLink            *string                                      `json:"deepLink,omitempty"`
+			PrimaryLocale       *string                                      `json:"primaryLocale,omitempty"`
+			Priority            *AppEventCreateRequestDataAttributesPriority `json:"priority,omitempty"`
+			PurchaseRequirement *string                                      `json:"purchaseRequirement,omitempty"`
+			Purpose             *AppEventCreateRequestDataAttributesPurpose  `json:"purpose,omitempty"`
+			ReferenceName       string                                       `json:"referenceName"`
+			TerritorySchedules  *[]struct {
+				EventEnd     *DateTime `json:"eventEnd,omitempty"`
+				EventStart   *DateTime `json:"eventStart,omitempty"`
+				PublishStart *DateTime `json:"publishStart,omitempty"`
+				Territories  *[]string `json:"territories,omitempty"`
+			} `json:"territorySchedules,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                            `json:"id"`
+					Type AppEventCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type AppEventCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppEventCreateRequestDataAttributesBadge defines model for AppEventCreateRequest.Data.Attributes.Badge.
+type AppEventCreateRequestDataAttributesBadge string
+
+// AppEventCreateRequestDataAttributesPriority defines model for AppEventCreateRequest.Data.Attributes.Priority.
+type AppEventCreateRequestDataAttributesPriority string
+
+// AppEventCreateRequestDataAttributesPurpose defines model for AppEventCreateRequest.Data.Attributes.Purpose.
+type AppEventCreateRequestDataAttributesPurpose string
+
+// AppEventCreateRequestDataRelationshipsAppDataType defines model for AppEventCreateRequest.Data.Relationships.App.Data.Type.
+type AppEventCreateRequestDataRelationshipsAppDataType string
+
+// AppEventCreateRequestDataType defines model for AppEventCreateRequest.Data.Type.
+type AppEventCreateRequestDataType string
+
 // AppEventLocalization defines model for AppEventLocalization.
 type AppEventLocalization struct {
 	Attributes *struct {
@@ -52428,6 +53523,196 @@ type AppEventLocalizationRelationshipsPlacementsDataType string
 
 // AppEventLocalizationType defines model for AppEventLocalization.Type.
 type AppEventLocalizationType string
+
+// AppEventLocalizationCreateRequest defines model for AppEventLocalizationCreateRequest.
+type AppEventLocalizationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Locale           string  `json:"locale"`
+			LongDescription  *string `json:"longDescription,omitempty"`
+			Name             *string `json:"name,omitempty"`
+			ShortDescription *string `json:"shortDescription,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppEvent struct {
+				Data struct {
+					Id   string                                                             `json:"id"`
+					Type AppEventLocalizationCreateRequestDataRelationshipsAppEventDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appEvent"`
+			Placements *struct {
+				Data *[]struct {
+					Id   string                                                               `json:"id"`
+					Type AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"placements,omitempty"`
+		} `json:"relationships"`
+		Type AppEventLocalizationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppEventLocalizationCreateRequestDataRelationshipsAppEventDataType defines model for AppEventLocalizationCreateRequest.Data.Relationships.AppEvent.Data.Type.
+type AppEventLocalizationCreateRequestDataRelationshipsAppEventDataType string
+
+// AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataType defines model for AppEventLocalizationCreateRequest.Data.Relationships.Placements.Data.Type.
+type AppEventLocalizationCreateRequestDataRelationshipsPlacementsDataType string
+
+// AppEventLocalizationCreateRequestDataType defines model for AppEventLocalizationCreateRequest.Data.Type.
+type AppEventLocalizationCreateRequestDataType string
+
+// AppEventLocalizationResponse defines model for AppEventLocalizationResponse.
+type AppEventLocalizationResponse struct {
+	Data     AppEventLocalization                          `json:"data"`
+	Included *[]AppEventLocalizationResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                 `json:"links"`
+}
+
+// AppEventLocalizationResponse_Included_Item defines model for AppEventLocalizationResponse.included.Item.
+type AppEventLocalizationResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppEventLocalizationUpdateRequest defines model for AppEventLocalizationUpdateRequest.
+type AppEventLocalizationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			LongDescription  *string `json:"longDescription,omitempty"`
+			Name             *string `json:"name,omitempty"`
+			ShortDescription *string `json:"shortDescription,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                    `json:"id"`
+		Type AppEventLocalizationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppEventLocalizationUpdateRequestDataType defines model for AppEventLocalizationUpdateRequest.Data.Type.
+type AppEventLocalizationUpdateRequestDataType string
+
+// AppEventLocalizationsResponse defines model for AppEventLocalizationsResponse.
+type AppEventLocalizationsResponse struct {
+	Data     []AppEventLocalization                         `json:"data"`
+	Included *[]AppEventLocalizationsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                             `json:"links"`
+	Meta     *PagingInformation                             `json:"meta,omitempty"`
+}
+
+// AppEventLocalizationsResponse_Included_Item defines model for AppEventLocalizationsResponse.included.Item.
+type AppEventLocalizationsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppEventResponse defines model for AppEventResponse.
+type AppEventResponse struct {
+	Data     AppEvent                `json:"data"`
+	Included *[]AppEventLocalization `json:"included,omitempty"`
+	Links    DocumentLinks           `json:"links"`
+}
+
+// AppEventScreenshot defines model for AppEventScreenshot.
+type AppEventScreenshot struct {
+	Attributes *struct {
+		AppEventAssetType  *AppEventAssetType  `json:"appEventAssetType,omitempty"`
+		AssetDeliveryState *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		AssetToken         *string             `json:"assetToken,omitempty"`
+		FileName           *string             `json:"fileName,omitempty"`
+		FileSize           *int                `json:"fileSize,omitempty"`
+		ImageAsset         *ImageAsset         `json:"imageAsset,omitempty"`
+		UploadOperations   *[]UploadOperation  `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppEventLocalization *struct {
+			Data *struct {
+				Id   string                                                      `json:"id"`
+				Type AppEventScreenshotRelationshipsAppEventLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appEventLocalization,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppEventScreenshotType `json:"type"`
+}
+
+// AppEventScreenshotRelationshipsAppEventLocalizationDataType defines model for AppEventScreenshot.Relationships.AppEventLocalization.Data.Type.
+type AppEventScreenshotRelationshipsAppEventLocalizationDataType string
+
+// AppEventScreenshotType defines model for AppEventScreenshot.Type.
+type AppEventScreenshotType string
+
+// AppEventUpdateRequest defines model for AppEventUpdateRequest.
+type AppEventUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Badge               *AppEventUpdateRequestDataAttributesBadge    `json:"badge,omitempty"`
+			DeepLink            *string                                      `json:"deepLink,omitempty"`
+			PrimaryLocale       *string                                      `json:"primaryLocale,omitempty"`
+			Priority            *AppEventUpdateRequestDataAttributesPriority `json:"priority,omitempty"`
+			PurchaseRequirement *string                                      `json:"purchaseRequirement,omitempty"`
+			Purpose             *AppEventUpdateRequestDataAttributesPurpose  `json:"purpose,omitempty"`
+			ReferenceName       *string                                      `json:"referenceName,omitempty"`
+			TerritorySchedules  *[]struct {
+				EventEnd     *DateTime `json:"eventEnd,omitempty"`
+				EventStart   *DateTime `json:"eventStart,omitempty"`
+				PublishStart *DateTime `json:"publishStart,omitempty"`
+				Territories  *[]string `json:"territories,omitempty"`
+			} `json:"territorySchedules,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                        `json:"id"`
+		Type AppEventUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppEventUpdateRequestDataAttributesBadge defines model for AppEventUpdateRequest.Data.Attributes.Badge.
+type AppEventUpdateRequestDataAttributesBadge string
+
+// AppEventUpdateRequestDataAttributesPriority defines model for AppEventUpdateRequest.Data.Attributes.Priority.
+type AppEventUpdateRequestDataAttributesPriority string
+
+// AppEventUpdateRequestDataAttributesPurpose defines model for AppEventUpdateRequest.Data.Attributes.Purpose.
+type AppEventUpdateRequestDataAttributesPurpose string
+
+// AppEventUpdateRequestDataType defines model for AppEventUpdateRequest.Data.Type.
+type AppEventUpdateRequestDataType string
+
+// AppEventVideoClip defines model for AppEventVideoClip.
+type AppEventVideoClip struct {
+	Attributes *struct {
+		AppEventAssetType    *AppEventAssetType  `json:"appEventAssetType,omitempty"`
+		AssetDeliveryState   *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		FileName             *string             `json:"fileName,omitempty"`
+		FileSize             *int                `json:"fileSize,omitempty"`
+		PreviewFrameImage    *PreviewFrameImage  `json:"previewFrameImage,omitempty"`
+		PreviewFrameTimeCode *string             `json:"previewFrameTimeCode,omitempty"`
+		PreviewImage         *ImageAsset         `json:"previewImage,omitempty"`
+		UploadOperations     *[]UploadOperation  `json:"uploadOperations,omitempty"`
+		VideoDeliveryState   *AppMediaVideoState `json:"videoDeliveryState,omitempty"`
+		VideoUrl             *string             `json:"videoUrl,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppEventLocalization *struct {
+			Data *struct {
+				Id   string                                                     `json:"id"`
+				Type AppEventVideoClipRelationshipsAppEventLocalizationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appEventLocalization,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppEventVideoClipType `json:"type"`
+}
+
+// AppEventVideoClipRelationshipsAppEventLocalizationDataType defines model for AppEventVideoClip.Relationships.AppEventLocalization.Data.Type.
+type AppEventVideoClipRelationshipsAppEventLocalizationDataType string
+
+// AppEventVideoClipType defines model for AppEventVideoClip.Type.
+type AppEventVideoClipType string
+
+// AppEventsResponse defines model for AppEventsResponse.
+type AppEventsResponse struct {
+	Data     []AppEvent              `json:"data"`
+	Included *[]AppEventLocalization `json:"included,omitempty"`
+	Links    PagedDocumentLinks      `json:"links"`
+	Meta     *PagingInformation      `json:"meta,omitempty"`
+}
 
 // AppInfo defines model for AppInfo.
 type AppInfo struct {
@@ -64341,6 +65626,129 @@ type AppEncryptionDeclarationsGetInstanceParamsFieldsAppEncryptionDeclarationDoc
 // AppEncryptionDeclarationsGetInstanceParamsInclude defines parameters for AppEncryptionDeclarationsGetInstance.
 type AppEncryptionDeclarationsGetInstanceParamsInclude string
 
+// AppEventLocalizationsGetInstanceParams defines parameters for AppEventLocalizationsGetInstance.
+type AppEventLocalizationsGetInstanceParams struct {
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppEvents the fields to include for returned resources of type appEvents
+	FieldsAppEvents *[]AppEventLocalizationsGetInstanceParamsFieldsAppEvents `form:"fields[appEvents],omitempty" json:"fields[appEvents],omitempty"`
+
+	// FieldsAppEventScreenshots the fields to include for returned resources of type appEventScreenshots
+	FieldsAppEventScreenshots *[]AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots `form:"fields[appEventScreenshots],omitempty" json:"fields[appEventScreenshots],omitempty"`
+
+	// FieldsAppEventVideoClips the fields to include for returned resources of type appEventVideoClips
+	FieldsAppEventVideoClips *[]AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips `form:"fields[appEventVideoClips],omitempty" json:"fields[appEventVideoClips],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppEventLocalizationsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppEventScreenshots maximum number of related appEventScreenshots returned (when they are included)
+	LimitAppEventScreenshots *int `form:"limit[appEventScreenshots],omitempty" json:"limit[appEventScreenshots],omitempty"`
+
+	// LimitAppEventVideoClips maximum number of related appEventVideoClips returned (when they are included)
+	LimitAppEventVideoClips *int `form:"limit[appEventVideoClips],omitempty" json:"limit[appEventVideoClips],omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations defines parameters for AppEventLocalizationsGetInstance.
+type AppEventLocalizationsGetInstanceParamsFieldsAppEventLocalizations string
+
+// AppEventLocalizationsGetInstanceParamsFieldsAppEvents defines parameters for AppEventLocalizationsGetInstance.
+type AppEventLocalizationsGetInstanceParamsFieldsAppEvents string
+
+// AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots defines parameters for AppEventLocalizationsGetInstance.
+type AppEventLocalizationsGetInstanceParamsFieldsAppEventScreenshots string
+
+// AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips defines parameters for AppEventLocalizationsGetInstance.
+type AppEventLocalizationsGetInstanceParamsFieldsAppEventVideoClips string
+
+// AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements defines parameters for AppEventLocalizationsGetInstance.
+type AppEventLocalizationsGetInstanceParamsFieldsAppAssetLibraryPlacements string
+
+// AppEventLocalizationsGetInstanceParamsInclude defines parameters for AppEventLocalizationsGetInstance.
+type AppEventLocalizationsGetInstanceParamsInclude string
+
+// AppEventsGetInstanceParams defines parameters for AppEventsGetInstance.
+type AppEventsGetInstanceParams struct {
+	// FieldsAppEvents the fields to include for returned resources of type appEvents
+	FieldsAppEvents *[]AppEventsGetInstanceParamsFieldsAppEvents `form:"fields[appEvents],omitempty" json:"fields[appEvents],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppEventsGetInstanceParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppEventsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitLocalizations maximum number of related localizations returned (when they are included)
+	LimitLocalizations *int `form:"limit[localizations],omitempty" json:"limit[localizations],omitempty"`
+}
+
+// AppEventsGetInstanceParamsFieldsAppEvents defines parameters for AppEventsGetInstance.
+type AppEventsGetInstanceParamsFieldsAppEvents string
+
+// AppEventsGetInstanceParamsFieldsAppEventLocalizations defines parameters for AppEventsGetInstance.
+type AppEventsGetInstanceParamsFieldsAppEventLocalizations string
+
+// AppEventsGetInstanceParamsInclude defines parameters for AppEventsGetInstance.
+type AppEventsGetInstanceParamsInclude string
+
+// AppEventsLocalizationsGetToManyRelatedParams defines parameters for AppEventsLocalizationsGetToManyRelated.
+type AppEventsLocalizationsGetToManyRelatedParams struct {
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// FieldsAppEvents the fields to include for returned resources of type appEvents
+	FieldsAppEvents *[]AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents `form:"fields[appEvents],omitempty" json:"fields[appEvents],omitempty"`
+
+	// FieldsAppEventScreenshots the fields to include for returned resources of type appEventScreenshots
+	FieldsAppEventScreenshots *[]AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots `form:"fields[appEventScreenshots],omitempty" json:"fields[appEventScreenshots],omitempty"`
+
+	// FieldsAppEventVideoClips the fields to include for returned resources of type appEventVideoClips
+	FieldsAppEventVideoClips *[]AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips `form:"fields[appEventVideoClips],omitempty" json:"fields[appEventVideoClips],omitempty"`
+
+	// FieldsAppAssetLibraryPlacements the fields to include for returned resources of type appAssetLibraryPlacements
+	FieldsAppAssetLibraryPlacements *[]AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements `form:"fields[appAssetLibraryPlacements],omitempty" json:"fields[appAssetLibraryPlacements],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppEventsLocalizationsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitAppEventScreenshots maximum number of related appEventScreenshots returned (when they are included)
+	LimitAppEventScreenshots *int `form:"limit[appEventScreenshots],omitempty" json:"limit[appEventScreenshots],omitempty"`
+
+	// LimitAppEventVideoClips maximum number of related appEventVideoClips returned (when they are included)
+	LimitAppEventVideoClips *int `form:"limit[appEventVideoClips],omitempty" json:"limit[appEventVideoClips],omitempty"`
+
+	// LimitPlacements maximum number of related placements returned (when they are included)
+	LimitPlacements *int `form:"limit[placements],omitempty" json:"limit[placements],omitempty"`
+}
+
+// AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations defines parameters for AppEventsLocalizationsGetToManyRelated.
+type AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventLocalizations string
+
+// AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents defines parameters for AppEventsLocalizationsGetToManyRelated.
+type AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEvents string
+
+// AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots defines parameters for AppEventsLocalizationsGetToManyRelated.
+type AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventScreenshots string
+
+// AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips defines parameters for AppEventsLocalizationsGetToManyRelated.
+type AppEventsLocalizationsGetToManyRelatedParamsFieldsAppEventVideoClips string
+
+// AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements defines parameters for AppEventsLocalizationsGetToManyRelated.
+type AppEventsLocalizationsGetToManyRelatedParamsFieldsAppAssetLibraryPlacements string
+
+// AppEventsLocalizationsGetToManyRelatedParamsInclude defines parameters for AppEventsLocalizationsGetToManyRelated.
+type AppEventsLocalizationsGetToManyRelatedParamsInclude string
+
 // AppInfosAgeRatingDeclarationGetToOneRelatedParams defines parameters for AppInfosAgeRatingDeclarationGetToOneRelated.
 type AppInfosAgeRatingDeclarationGetToOneRelatedParams struct {
 	// FieldsAgeRatingDeclarations the fields to include for returned resources of type ageRatingDeclarations
@@ -65649,6 +67057,42 @@ type AppsAppAvailabilityV2GetToOneRelatedParamsFieldsTerritoryAvailabilities str
 
 // AppsAppAvailabilityV2GetToOneRelatedParamsInclude defines parameters for AppsAppAvailabilityV2GetToOneRelated.
 type AppsAppAvailabilityV2GetToOneRelatedParamsInclude string
+
+// AppsAppEventsGetToManyRelatedParams defines parameters for AppsAppEventsGetToManyRelated.
+type AppsAppEventsGetToManyRelatedParams struct {
+	// FilterEventState filter by attribute 'eventState'
+	FilterEventState *[]AppsAppEventsGetToManyRelatedParamsFilterEventState `form:"filter[eventState],omitempty" json:"filter[eventState],omitempty"`
+
+	// FilterId filter by id(s)
+	FilterId *[]string `form:"filter[id],omitempty" json:"filter[id],omitempty"`
+
+	// FieldsAppEvents the fields to include for returned resources of type appEvents
+	FieldsAppEvents *[]AppsAppEventsGetToManyRelatedParamsFieldsAppEvents `form:"fields[appEvents],omitempty" json:"fields[appEvents],omitempty"`
+
+	// FieldsAppEventLocalizations the fields to include for returned resources of type appEventLocalizations
+	FieldsAppEventLocalizations *[]AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations `form:"fields[appEventLocalizations],omitempty" json:"fields[appEventLocalizations],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsAppEventsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitLocalizations maximum number of related localizations returned (when they are included)
+	LimitLocalizations *int `form:"limit[localizations],omitempty" json:"limit[localizations],omitempty"`
+}
+
+// AppsAppEventsGetToManyRelatedParamsFilterEventState defines parameters for AppsAppEventsGetToManyRelated.
+type AppsAppEventsGetToManyRelatedParamsFilterEventState string
+
+// AppsAppEventsGetToManyRelatedParamsFieldsAppEvents defines parameters for AppsAppEventsGetToManyRelated.
+type AppsAppEventsGetToManyRelatedParamsFieldsAppEvents string
+
+// AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations defines parameters for AppsAppEventsGetToManyRelated.
+type AppsAppEventsGetToManyRelatedParamsFieldsAppEventLocalizations string
+
+// AppsAppEventsGetToManyRelatedParamsInclude defines parameters for AppsAppEventsGetToManyRelated.
+type AppsAppEventsGetToManyRelatedParamsInclude string
 
 // AppsAppInfosGetToManyRelatedParams defines parameters for AppsAppInfosGetToManyRelated.
 type AppsAppInfosGetToManyRelatedParams struct {
@@ -70015,6 +71459,18 @@ type AppEncryptionDeclarationDocumentsUpdateInstanceJSONRequestBody = AppEncrypt
 // AppEncryptionDeclarationsCreateInstanceJSONRequestBody defines body for AppEncryptionDeclarationsCreateInstance for application/json ContentType.
 type AppEncryptionDeclarationsCreateInstanceJSONRequestBody = AppEncryptionDeclarationCreateRequest
 
+// AppEventLocalizationsCreateInstanceJSONRequestBody defines body for AppEventLocalizationsCreateInstance for application/json ContentType.
+type AppEventLocalizationsCreateInstanceJSONRequestBody = AppEventLocalizationCreateRequest
+
+// AppEventLocalizationsUpdateInstanceJSONRequestBody defines body for AppEventLocalizationsUpdateInstance for application/json ContentType.
+type AppEventLocalizationsUpdateInstanceJSONRequestBody = AppEventLocalizationUpdateRequest
+
+// AppEventsCreateInstanceJSONRequestBody defines body for AppEventsCreateInstance for application/json ContentType.
+type AppEventsCreateInstanceJSONRequestBody = AppEventCreateRequest
+
+// AppEventsUpdateInstanceJSONRequestBody defines body for AppEventsUpdateInstance for application/json ContentType.
+type AppEventsUpdateInstanceJSONRequestBody = AppEventUpdateRequest
+
 // AppInfoLocalizationsCreateInstanceJSONRequestBody defines body for AppInfoLocalizationsCreateInstance for application/json ContentType.
 type AppInfoLocalizationsCreateInstanceJSONRequestBody = AppInfoLocalizationCreateRequest
 
@@ -72399,6 +73855,352 @@ func (t AppEncryptionDeclarationResponse_Included_Item) MarshalJSON() ([]byte, e
 }
 
 func (t *AppEncryptionDeclarationResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacement returns the union data inside the AppEventLocalizationResponse_Included_Item as a AppAssetLibraryPlacement
+func (t AppEventLocalizationResponse_Included_Item) AsAppAssetLibraryPlacement() (AppAssetLibraryPlacement, error) {
+	var body AppAssetLibraryPlacement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacement overwrites any union data inside the AppEventLocalizationResponse_Included_Item as the provided AppAssetLibraryPlacement
+func (t *AppEventLocalizationResponse_Included_Item) FromAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacement performs a merge with any union data inside the AppEventLocalizationResponse_Included_Item, using the provided AppAssetLibraryPlacement
+func (t *AppEventLocalizationResponse_Included_Item) MergeAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEventScreenshot returns the union data inside the AppEventLocalizationResponse_Included_Item as a AppEventScreenshot
+func (t AppEventLocalizationResponse_Included_Item) AsAppEventScreenshot() (AppEventScreenshot, error) {
+	var body AppEventScreenshot
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEventScreenshot overwrites any union data inside the AppEventLocalizationResponse_Included_Item as the provided AppEventScreenshot
+func (t *AppEventLocalizationResponse_Included_Item) FromAppEventScreenshot(v AppEventScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventScreenshots"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEventScreenshot performs a merge with any union data inside the AppEventLocalizationResponse_Included_Item, using the provided AppEventScreenshot
+func (t *AppEventLocalizationResponse_Included_Item) MergeAppEventScreenshot(v AppEventScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventScreenshots"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEventVideoClip returns the union data inside the AppEventLocalizationResponse_Included_Item as a AppEventVideoClip
+func (t AppEventLocalizationResponse_Included_Item) AsAppEventVideoClip() (AppEventVideoClip, error) {
+	var body AppEventVideoClip
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEventVideoClip overwrites any union data inside the AppEventLocalizationResponse_Included_Item as the provided AppEventVideoClip
+func (t *AppEventLocalizationResponse_Included_Item) FromAppEventVideoClip(v AppEventVideoClip) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventVideoClips"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEventVideoClip performs a merge with any union data inside the AppEventLocalizationResponse_Included_Item, using the provided AppEventVideoClip
+func (t *AppEventLocalizationResponse_Included_Item) MergeAppEventVideoClip(v AppEventVideoClip) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventVideoClips"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEvent returns the union data inside the AppEventLocalizationResponse_Included_Item as a AppEvent
+func (t AppEventLocalizationResponse_Included_Item) AsAppEvent() (AppEvent, error) {
+	var body AppEvent
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEvent overwrites any union data inside the AppEventLocalizationResponse_Included_Item as the provided AppEvent
+func (t *AppEventLocalizationResponse_Included_Item) FromAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEvent performs a merge with any union data inside the AppEventLocalizationResponse_Included_Item, using the provided AppEvent
+func (t *AppEventLocalizationResponse_Included_Item) MergeAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppEventLocalizationResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppEventLocalizationResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryPlacements":
+		return t.AsAppAssetLibraryPlacement()
+	case "appEventScreenshots":
+		return t.AsAppEventScreenshot()
+	case "appEventVideoClips":
+		return t.AsAppEventVideoClip()
+	case "appEvents":
+		return t.AsAppEvent()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppEventLocalizationResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppEventLocalizationResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppAssetLibraryPlacement returns the union data inside the AppEventLocalizationsResponse_Included_Item as a AppAssetLibraryPlacement
+func (t AppEventLocalizationsResponse_Included_Item) AsAppAssetLibraryPlacement() (AppAssetLibraryPlacement, error) {
+	var body AppAssetLibraryPlacement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppAssetLibraryPlacement overwrites any union data inside the AppEventLocalizationsResponse_Included_Item as the provided AppAssetLibraryPlacement
+func (t *AppEventLocalizationsResponse_Included_Item) FromAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppAssetLibraryPlacement performs a merge with any union data inside the AppEventLocalizationsResponse_Included_Item, using the provided AppAssetLibraryPlacement
+func (t *AppEventLocalizationsResponse_Included_Item) MergeAppAssetLibraryPlacement(v AppAssetLibraryPlacement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appAssetLibraryPlacements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEventScreenshot returns the union data inside the AppEventLocalizationsResponse_Included_Item as a AppEventScreenshot
+func (t AppEventLocalizationsResponse_Included_Item) AsAppEventScreenshot() (AppEventScreenshot, error) {
+	var body AppEventScreenshot
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEventScreenshot overwrites any union data inside the AppEventLocalizationsResponse_Included_Item as the provided AppEventScreenshot
+func (t *AppEventLocalizationsResponse_Included_Item) FromAppEventScreenshot(v AppEventScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventScreenshots"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEventScreenshot performs a merge with any union data inside the AppEventLocalizationsResponse_Included_Item, using the provided AppEventScreenshot
+func (t *AppEventLocalizationsResponse_Included_Item) MergeAppEventScreenshot(v AppEventScreenshot) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventScreenshots"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEventVideoClip returns the union data inside the AppEventLocalizationsResponse_Included_Item as a AppEventVideoClip
+func (t AppEventLocalizationsResponse_Included_Item) AsAppEventVideoClip() (AppEventVideoClip, error) {
+	var body AppEventVideoClip
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEventVideoClip overwrites any union data inside the AppEventLocalizationsResponse_Included_Item as the provided AppEventVideoClip
+func (t *AppEventLocalizationsResponse_Included_Item) FromAppEventVideoClip(v AppEventVideoClip) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventVideoClips"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEventVideoClip performs a merge with any union data inside the AppEventLocalizationsResponse_Included_Item, using the provided AppEventVideoClip
+func (t *AppEventLocalizationsResponse_Included_Item) MergeAppEventVideoClip(v AppEventVideoClip) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEventVideoClips"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppEvent returns the union data inside the AppEventLocalizationsResponse_Included_Item as a AppEvent
+func (t AppEventLocalizationsResponse_Included_Item) AsAppEvent() (AppEvent, error) {
+	var body AppEvent
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppEvent overwrites any union data inside the AppEventLocalizationsResponse_Included_Item as the provided AppEvent
+func (t *AppEventLocalizationsResponse_Included_Item) FromAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppEvent performs a merge with any union data inside the AppEventLocalizationsResponse_Included_Item, using the provided AppEvent
+func (t *AppEventLocalizationsResponse_Included_Item) MergeAppEvent(v AppEvent) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appEvents"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppEventLocalizationsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppEventLocalizationsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appAssetLibraryPlacements":
+		return t.AsAppAssetLibraryPlacement()
+	case "appEventScreenshots":
+		return t.AsAppEventScreenshot()
+	case "appEventVideoClips":
+		return t.AsAppEventVideoClip()
+	case "appEvents":
+		return t.AsAppEvent()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppEventLocalizationsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppEventLocalizationsResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -86971,6 +88773,53 @@ type ClientInterface interface {
 	// AppEncryptionDeclarationsGetInstance performs a GET /v1/appEncryptionDeclarations/{id} (the `AppEncryptionDeclarationsGetInstance` operationId) request.
 	AppEncryptionDeclarationsGetInstance(ctx context.Context, id string, params *AppEncryptionDeclarationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppEventLocalizationsCreateInstanceWithBody performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppEventLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventLocalizationsCreateInstance performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppEventLocalizationsCreateInstance(ctx context.Context, body AppEventLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventLocalizationsDeleteInstance performs a DELETE /v1/appEventLocalizations/{id} (the `AppEventLocalizationsDeleteInstance` operationId) request.
+	AppEventLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventLocalizationsGetInstance performs a GET /v1/appEventLocalizations/{id} (the `AppEventLocalizationsGetInstance` operationId) request.
+	AppEventLocalizationsGetInstance(ctx context.Context, id string, params *AppEventLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventLocalizationsUpdateInstanceWithBody performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppEventLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventLocalizationsUpdateInstance performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppEventLocalizationsUpdateInstance(ctx context.Context, id string, body AppEventLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventsCreateInstanceWithBody performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppEventsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventsCreateInstance performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppEventsCreateInstance(ctx context.Context, body AppEventsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventsDeleteInstance performs a DELETE /v1/appEvents/{id} (the `AppEventsDeleteInstance` operationId) request.
+	AppEventsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventsGetInstance performs a GET /v1/appEvents/{id} (the `AppEventsGetInstance` operationId) request.
+	AppEventsGetInstance(ctx context.Context, id string, params *AppEventsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventsUpdateInstanceWithBody performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppEventsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventsUpdateInstance performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppEventsUpdateInstance(ctx context.Context, id string, body AppEventsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppEventsLocalizationsGetToManyRelated performs a GET /v1/appEvents/{id}/localizations (the `AppEventsLocalizationsGetToManyRelated` operationId) request.
+	AppEventsLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppEventsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppInfoLocalizationsCreateInstanceWithBody performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppInfoLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -87290,6 +89139,9 @@ type ClientInterface interface {
 
 	// AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 	AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsAppEventsGetToManyRelated performs a GET /v1/apps/{id}/appEvents (the `AppsAppEventsGetToManyRelated` operationId) request.
+	AppsAppEventsGetToManyRelated(ctx context.Context, id string, params *AppsAppEventsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsAppInfosGetToManyRelated performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
 	AppsAppInfosGetToManyRelated(ctx context.Context, id string, params *AppsAppInfosGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -89406,6 +91258,183 @@ func (c *Client) AppEncryptionDeclarationsGetInstance(ctx context.Context, id st
 	return c.Client.Do(req)
 }
 
+// AppEventLocalizationsCreateInstanceWithBody performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppEventLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventLocalizationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventLocalizationsCreateInstance performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppEventLocalizationsCreateInstance(ctx context.Context, body AppEventLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventLocalizationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventLocalizationsDeleteInstance performs a DELETE /v1/appEventLocalizations/{id} (the `AppEventLocalizationsDeleteInstance` operationId) request.
+func (c *Client) AppEventLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventLocalizationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventLocalizationsGetInstance performs a GET /v1/appEventLocalizations/{id} (the `AppEventLocalizationsGetInstance` operationId) request.
+func (c *Client) AppEventLocalizationsGetInstance(ctx context.Context, id string, params *AppEventLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventLocalizationsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventLocalizationsUpdateInstanceWithBody performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppEventLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventLocalizationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventLocalizationsUpdateInstance performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppEventLocalizationsUpdateInstance(ctx context.Context, id string, body AppEventLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventLocalizationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventsCreateInstanceWithBody performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppEventsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventsCreateInstance performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppEventsCreateInstance(ctx context.Context, body AppEventsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventsDeleteInstance performs a DELETE /v1/appEvents/{id} (the `AppEventsDeleteInstance` operationId) request.
+func (c *Client) AppEventsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventsGetInstance performs a GET /v1/appEvents/{id} (the `AppEventsGetInstance` operationId) request.
+func (c *Client) AppEventsGetInstance(ctx context.Context, id string, params *AppEventsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventsUpdateInstanceWithBody performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppEventsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventsUpdateInstance performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppEventsUpdateInstance(ctx context.Context, id string, body AppEventsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppEventsLocalizationsGetToManyRelated performs a GET /v1/appEvents/{id}/localizations (the `AppEventsLocalizationsGetToManyRelated` operationId) request.
+func (c *Client) AppEventsLocalizationsGetToManyRelated(ctx context.Context, id string, params *AppEventsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppEventsLocalizationsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppInfoLocalizationsCreateInstanceWithBody performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) AppInfoLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -90596,6 +92625,19 @@ func (c *Client) AppsUpdateInstance(ctx context.Context, id string, body AppsUpd
 // AppsAppAvailabilityV2GetToOneRelated performs a GET /v1/apps/{id}/appAvailabilityV2 (the `AppsAppAvailabilityV2GetToOneRelated` operationId) request.
 func (c *Client) AppsAppAvailabilityV2GetToOneRelated(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsAppAvailabilityV2GetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsAppEventsGetToManyRelated performs a GET /v1/apps/{id}/appEvents (the `AppsAppEventsGetToManyRelated` operationId) request.
+func (c *Client) AppsAppEventsGetToManyRelated(ctx context.Context, id string, params *AppsAppEventsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsAppEventsGetToManyRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -99106,6 +101148,671 @@ func NewAppEncryptionDeclarationsGetInstanceRequest(server string, id string, pa
 	return req, nil
 }
 
+// NewAppEventLocalizationsCreateInstanceRequest calls the generic AppEventLocalizationsCreateInstance builder with application/json body
+func NewAppEventLocalizationsCreateInstanceRequest(server string, body AppEventLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppEventLocalizationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppEventLocalizationsCreateInstanceRequestWithBody constructs an http.Request for the AppEventLocalizationsCreateInstance method, with any body, and a specified content type
+func NewAppEventLocalizationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEventLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppEventLocalizationsDeleteInstanceRequest constructs an http.Request for the AppEventLocalizationsDeleteInstance method
+func NewAppEventLocalizationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEventLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppEventLocalizationsGetInstanceRequest constructs an http.Request for the AppEventLocalizationsGetInstance method
+func NewAppEventLocalizationsGetInstanceRequest(server string, id string, params *AppEventLocalizationsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEventLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEvents]", *params.FieldsAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventScreenshots]", *params.FieldsAppEventScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventVideoClips != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventVideoClips]", *params.FieldsAppEventVideoClips, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppEventScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appEventScreenshots]", *params.LimitAppEventScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppEventVideoClips != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appEventVideoClips]", *params.LimitAppEventVideoClips, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppEventLocalizationsUpdateInstanceRequest calls the generic AppEventLocalizationsUpdateInstance builder with application/json body
+func NewAppEventLocalizationsUpdateInstanceRequest(server string, id string, body AppEventLocalizationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppEventLocalizationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppEventLocalizationsUpdateInstanceRequestWithBody constructs an http.Request for the AppEventLocalizationsUpdateInstance method, with any body, and a specified content type
+func NewAppEventLocalizationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEventLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppEventsCreateInstanceRequest calls the generic AppEventsCreateInstance builder with application/json body
+func NewAppEventsCreateInstanceRequest(server string, body AppEventsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppEventsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppEventsCreateInstanceRequestWithBody constructs an http.Request for the AppEventsCreateInstance method, with any body, and a specified content type
+func NewAppEventsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEvents")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppEventsDeleteInstanceRequest constructs an http.Request for the AppEventsDeleteInstance method
+func NewAppEventsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEvents/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppEventsGetInstanceRequest constructs an http.Request for the AppEventsGetInstance method
+func NewAppEventsGetInstanceRequest(server string, id string, params *AppEventsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEvents/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEvents]", *params.FieldsAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[localizations]", *params.LimitLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppEventsUpdateInstanceRequest calls the generic AppEventsUpdateInstance builder with application/json body
+func NewAppEventsUpdateInstanceRequest(server string, id string, body AppEventsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppEventsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppEventsUpdateInstanceRequestWithBody constructs an http.Request for the AppEventsUpdateInstance method, with any body, and a specified content type
+func NewAppEventsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEvents/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppEventsLocalizationsGetToManyRelatedRequest constructs an http.Request for the AppEventsLocalizationsGetToManyRelated method
+func NewAppEventsLocalizationsGetToManyRelatedRequest(server string, id string, params *AppEventsLocalizationsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appEvents/%s/localizations", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEvents]", *params.FieldsAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventScreenshots]", *params.FieldsAppEventScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventVideoClips != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventVideoClips]", *params.FieldsAppEventVideoClips, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppAssetLibraryPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appAssetLibraryPlacements]", *params.FieldsAppAssetLibraryPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppEventScreenshots != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appEventScreenshots]", *params.LimitAppEventScreenshots, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAppEventVideoClips != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[appEventVideoClips]", *params.LimitAppEventVideoClips, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitPlacements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[placements]", *params.LimitPlacements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppInfoLocalizationsCreateInstanceRequest calls the generic AppInfoLocalizationsCreateInstance builder with application/json body
 func NewAppInfoLocalizationsCreateInstanceRequest(server string, body AppInfoLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -104762,6 +107469,139 @@ func NewAppsAppAvailabilityV2GetToOneRelatedRequest(server string, id string, pa
 		if params.LimitTerritoryAvailabilities != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[territoryAvailabilities]", *params.LimitTerritoryAvailabilities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsAppEventsGetToManyRelatedRequest constructs an http.Request for the AppsAppEventsGetToManyRelated method
+func NewAppsAppEventsGetToManyRelatedRequest(server string, id string, params *AppsAppEventsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/appEvents", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterEventState != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[eventState]", *params.FilterEventState, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FilterId != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[id]", *params.FilterId, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEvents != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEvents]", *params.FieldsAppEvents, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppEventLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appEventLocalizations]", *params.FieldsAppEventLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[localizations]", *params.LimitLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -127214,6 +130054,71 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppEncryptionDeclarationsGetInstanceWithResponse(ctx context.Context, id string, params *AppEncryptionDeclarationsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppEncryptionDeclarationsGetInstanceResponse, error)
 
+	// AppEventLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventLocalizationsCreateInstanceResponse, error)
+
+	// AppEventLocalizationsCreateInstanceWithResponse performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppEventLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppEventLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventLocalizationsCreateInstanceResponse, error)
+
+	// AppEventLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appEventLocalizations/{id} (the `AppEventLocalizationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppEventLocalizationsDeleteInstanceResponse, error)
+
+	// AppEventLocalizationsGetInstanceWithResponse performs a GET /v1/appEventLocalizations/{id} (the `AppEventLocalizationsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventLocalizationsGetInstanceWithResponse(ctx context.Context, id string, params *AppEventLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppEventLocalizationsGetInstanceResponse, error)
+
+	// AppEventLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventLocalizationsUpdateInstanceResponse, error)
+
+	// AppEventLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppEventLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppEventLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventLocalizationsUpdateInstanceResponse, error)
+
+	// AppEventsCreateInstanceWithBodyWithResponse performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventsCreateInstanceResponse, error)
+
+	// AppEventsCreateInstanceWithResponse performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppEventsCreateInstanceWithResponse(ctx context.Context, body AppEventsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventsCreateInstanceResponse, error)
+
+	// AppEventsDeleteInstanceWithResponse performs a DELETE /v1/appEvents/{id} (the `AppEventsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppEventsDeleteInstanceResponse, error)
+
+	// AppEventsGetInstanceWithResponse performs a GET /v1/appEvents/{id} (the `AppEventsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventsGetInstanceWithResponse(ctx context.Context, id string, params *AppEventsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppEventsGetInstanceResponse, error)
+
+	// AppEventsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventsUpdateInstanceResponse, error)
+
+	// AppEventsUpdateInstanceWithResponse performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppEventsUpdateInstanceWithResponse(ctx context.Context, id string, body AppEventsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventsUpdateInstanceResponse, error)
+
+	// AppEventsLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appEvents/{id}/localizations (the `AppEventsLocalizationsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppEventsLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppEventsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppEventsLocalizationsGetToManyRelatedResponse, error)
+
 	// AppInfoLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -127653,6 +130558,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsAppAvailabilityV2GetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsAppAvailabilityV2GetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppAvailabilityV2GetToOneRelatedResponse, error)
+
+	// AppsAppEventsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appEvents (the `AppsAppEventsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsAppEventsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppEventsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppEventsGetToManyRelatedResponse, error)
 
 	// AppsAppInfosGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
 	//
@@ -132293,6 +135203,718 @@ func (r AppEncryptionDeclarationsGetInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppEncryptionDeclarationsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventLocalizationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppEventLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppEventLocalizationsCreateInstanceResponse) GetJSON201() *AppEventLocalizationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventLocalizationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventLocalizationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventLocalizationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppEventLocalizationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppEventLocalizationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventLocalizationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventLocalizationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventLocalizationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventLocalizationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventLocalizationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventLocalizationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventLocalizationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventLocalizationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventLocalizationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEventLocalizationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventLocalizationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventLocalizationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventLocalizationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventLocalizationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventLocalizationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventLocalizationsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEventLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppEventLocalizationsGetInstanceResponse) GetJSON200() *AppEventLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventLocalizationsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventLocalizationsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventLocalizationsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEventLocalizationsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventLocalizationsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventLocalizationsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventLocalizationsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventLocalizationsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventLocalizationsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventLocalizationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEventLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON200() *AppEventLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventLocalizationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventLocalizationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventLocalizationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventLocalizationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventLocalizationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppEventResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppEventsCreateInstanceResponse) GetJSON201() *AppEventResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppEventsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppEventsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEventsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEventResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppEventsGetInstanceResponse) GetJSON200() *AppEventResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEventsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEventResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON200() *AppEventResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppEventsLocalizationsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEventLocalizationsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppEventsLocalizationsGetToManyRelatedResponse) GetJSON200() *AppEventLocalizationsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppEventsLocalizationsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppEventsLocalizationsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppEventsLocalizationsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppEventsLocalizationsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppEventsLocalizationsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppEventsLocalizationsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppEventsLocalizationsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppEventsLocalizationsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppEventsLocalizationsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -137056,6 +140678,82 @@ func (r AppsAppAvailabilityV2GetToOneRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsAppAvailabilityV2GetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsAppEventsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppEventsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsAppEventsGetToManyRelatedResponse) GetJSON200() *AppEventsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsAppEventsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsAppEventsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsAppEventsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsAppEventsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsAppEventsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsAppEventsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsAppEventsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsAppEventsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsAppEventsGetToManyRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -160044,6 +163742,149 @@ func (c *ClientWithResponses) AppEncryptionDeclarationsGetInstanceWithResponse(c
 	return ParseAppEncryptionDeclarationsGetInstanceResponse(rsp)
 }
 
+// AppEventLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppEventLocalizationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppEventLocalizationsCreateInstanceWithResponse performs a POST /v1/appEventLocalizations (the `AppEventLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventLocalizationsCreateInstanceWithResponse(ctx context.Context, body AppEventLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.AppEventLocalizationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventLocalizationsCreateInstanceResponse(rsp)
+}
+
+// AppEventLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/appEventLocalizations/{id} (the `AppEventLocalizationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppEventLocalizationsDeleteInstanceResponse, error) {
+	rsp, err := c.AppEventLocalizationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventLocalizationsDeleteInstanceResponse(rsp)
+}
+
+// AppEventLocalizationsGetInstanceWithResponse performs a GET /v1/appEventLocalizations/{id} (the `AppEventLocalizationsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventLocalizationsGetInstanceWithResponse(ctx context.Context, id string, params *AppEventLocalizationsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppEventLocalizationsGetInstanceResponse, error) {
+	rsp, err := c.AppEventLocalizationsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventLocalizationsGetInstanceResponse(rsp)
+}
+
+// AppEventLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.AppEventLocalizationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// AppEventLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/appEventLocalizations/{id} (the `AppEventLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body AppEventLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.AppEventLocalizationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// AppEventsCreateInstanceWithBodyWithResponse performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventsCreateInstanceResponse, error) {
+	rsp, err := c.AppEventsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventsCreateInstanceResponse(rsp)
+}
+
+// AppEventsCreateInstanceWithResponse performs a POST /v1/appEvents (the `AppEventsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventsCreateInstanceWithResponse(ctx context.Context, body AppEventsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventsCreateInstanceResponse, error) {
+	rsp, err := c.AppEventsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventsCreateInstanceResponse(rsp)
+}
+
+// AppEventsDeleteInstanceWithResponse performs a DELETE /v1/appEvents/{id} (the `AppEventsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*AppEventsDeleteInstanceResponse, error) {
+	rsp, err := c.AppEventsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventsDeleteInstanceResponse(rsp)
+}
+
+// AppEventsGetInstanceWithResponse performs a GET /v1/appEvents/{id} (the `AppEventsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventsGetInstanceWithResponse(ctx context.Context, id string, params *AppEventsGetInstanceParams, reqEditors ...RequestEditorFn) (*AppEventsGetInstanceResponse, error) {
+	rsp, err := c.AppEventsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventsGetInstanceResponse(rsp)
+}
+
+// AppEventsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppEventsUpdateInstanceResponse, error) {
+	rsp, err := c.AppEventsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventsUpdateInstanceResponse(rsp)
+}
+
+// AppEventsUpdateInstanceWithResponse performs a PATCH /v1/appEvents/{id} (the `AppEventsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventsUpdateInstanceWithResponse(ctx context.Context, id string, body AppEventsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppEventsUpdateInstanceResponse, error) {
+	rsp, err := c.AppEventsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventsUpdateInstanceResponse(rsp)
+}
+
+// AppEventsLocalizationsGetToManyRelatedWithResponse performs a GET /v1/appEvents/{id}/localizations (the `AppEventsLocalizationsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppEventsLocalizationsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppEventsLocalizationsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppEventsLocalizationsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppEventsLocalizationsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppEventsLocalizationsGetToManyRelatedResponse(rsp)
+}
+
 // AppInfoLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/appInfoLocalizations (the `AppInfoLocalizationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -161010,6 +164851,17 @@ func (c *ClientWithResponses) AppsAppAvailabilityV2GetToOneRelatedWithResponse(c
 		return nil, err
 	}
 	return ParseAppsAppAvailabilityV2GetToOneRelatedResponse(rsp)
+}
+
+// AppsAppEventsGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appEvents (the `AppsAppEventsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsAppEventsGetToManyRelatedWithResponse(ctx context.Context, id string, params *AppsAppEventsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*AppsAppEventsGetToManyRelatedResponse, error) {
+	rsp, err := c.AppsAppEventsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsAppEventsGetToManyRelatedResponse(rsp)
 }
 
 // AppsAppInfosGetToManyRelatedWithResponse performs a GET /v1/apps/{id}/appInfos (the `AppsAppInfosGetToManyRelated` operationId) request.
@@ -167630,6 +171482,589 @@ func ParseAppEncryptionDeclarationsGetInstanceResponse(rsp *http.Response) (*App
 	return response, nil
 }
 
+// ParseAppEventLocalizationsCreateInstanceResponse parses an HTTP response from a AppEventLocalizationsCreateInstanceWithResponse call
+func ParseAppEventLocalizationsCreateInstanceResponse(rsp *http.Response) (*AppEventLocalizationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventLocalizationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppEventLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventLocalizationsDeleteInstanceResponse parses an HTTP response from a AppEventLocalizationsDeleteInstanceWithResponse call
+func ParseAppEventLocalizationsDeleteInstanceResponse(rsp *http.Response) (*AppEventLocalizationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventLocalizationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventLocalizationsGetInstanceResponse parses an HTTP response from a AppEventLocalizationsGetInstanceWithResponse call
+func ParseAppEventLocalizationsGetInstanceResponse(rsp *http.Response) (*AppEventLocalizationsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventLocalizationsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEventLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventLocalizationsUpdateInstanceResponse parses an HTTP response from a AppEventLocalizationsUpdateInstanceWithResponse call
+func ParseAppEventLocalizationsUpdateInstanceResponse(rsp *http.Response) (*AppEventLocalizationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventLocalizationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEventLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventsCreateInstanceResponse parses an HTTP response from a AppEventsCreateInstanceWithResponse call
+func ParseAppEventsCreateInstanceResponse(rsp *http.Response) (*AppEventsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppEventResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventsDeleteInstanceResponse parses an HTTP response from a AppEventsDeleteInstanceWithResponse call
+func ParseAppEventsDeleteInstanceResponse(rsp *http.Response) (*AppEventsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventsGetInstanceResponse parses an HTTP response from a AppEventsGetInstanceWithResponse call
+func ParseAppEventsGetInstanceResponse(rsp *http.Response) (*AppEventsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEventResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventsUpdateInstanceResponse parses an HTTP response from a AppEventsUpdateInstanceWithResponse call
+func ParseAppEventsUpdateInstanceResponse(rsp *http.Response) (*AppEventsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEventResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppEventsLocalizationsGetToManyRelatedResponse parses an HTTP response from a AppEventsLocalizationsGetToManyRelatedWithResponse call
+func ParseAppEventsLocalizationsGetToManyRelatedResponse(rsp *http.Response) (*AppEventsLocalizationsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppEventsLocalizationsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEventLocalizationsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppInfoLocalizationsCreateInstanceResponse parses an HTTP response from a AppInfoLocalizationsCreateInstanceWithResponse call
 func ParseAppInfoLocalizationsCreateInstanceResponse(rsp *http.Response) (*AppInfoLocalizationsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -171490,6 +175925,67 @@ func ParseAppsAppAvailabilityV2GetToOneRelatedResponse(rsp *http.Response) (*App
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest AppAvailabilityV2Response
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsAppEventsGetToManyRelatedResponse parses an HTTP response from a AppsAppEventsGetToManyRelatedWithResponse call
+func ParseAppsAppEventsGetToManyRelatedResponse(rsp *http.Response) (*AppsAppEventsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsAppEventsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppEventsResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -190004,6 +194500,33 @@ type ServerInterface interface {
 	// (GET /v1/appEncryptionDeclarations/{id})
 	AppEncryptionDeclarationsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppEncryptionDeclarationsGetInstanceParams)
 
+	// (POST /v1/appEventLocalizations)
+	AppEventLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appEventLocalizations/{id})
+	AppEventLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appEventLocalizations/{id})
+	AppEventLocalizationsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppEventLocalizationsGetInstanceParams)
+
+	// (PATCH /v1/appEventLocalizations/{id})
+	AppEventLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/appEvents)
+	AppEventsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/appEvents/{id})
+	AppEventsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appEvents/{id})
+	AppEventsGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppEventsGetInstanceParams)
+
+	// (PATCH /v1/appEvents/{id})
+	AppEventsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/appEvents/{id}/localizations)
+	AppEventsLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppEventsLocalizationsGetToManyRelatedParams)
+
 	// (POST /v1/appInfoLocalizations)
 	AppInfoLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -190183,6 +194706,9 @@ type ServerInterface interface {
 
 	// (GET /v1/apps/{id}/appAvailabilityV2)
 	AppsAppAvailabilityV2GetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppAvailabilityV2GetToOneRelatedParams)
+
+	// (GET /v1/apps/{id}/appEvents)
+	AppsAppEventsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppEventsGetToManyRelatedParams)
 
 	// (GET /v1/apps/{id}/appInfos)
 	AppsAppInfosGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsAppInfosGetToManyRelatedParams)
@@ -193431,6 +197957,524 @@ func (siw *ServerInterfaceWrapper) AppEncryptionDeclarationsGetInstance(w http.R
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppEncryptionDeclarationsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventLocalizationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventLocalizationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventLocalizationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventLocalizationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventLocalizationsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventLocalizationsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppEventLocalizationsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEvents]", r.URL.Query(), &params.FieldsAppEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventScreenshots]", r.URL.Query(), &params.FieldsAppEventScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventVideoClips]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventVideoClips]", r.URL.Query(), &params.FieldsAppEventVideoClips, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventVideoClips]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventVideoClips]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appEventScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appEventScreenshots]", r.URL.Query(), &params.LimitAppEventScreenshots, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appEventScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appEventScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appEventVideoClips]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appEventVideoClips]", r.URL.Query(), &params.LimitAppEventVideoClips, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appEventVideoClips]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appEventVideoClips]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventLocalizationsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventLocalizationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventLocalizationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppEventsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEvents]", r.URL.Query(), &params.FieldsAppEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[localizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[localizations]", r.URL.Query(), &params.LimitLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[localizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[localizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppEventsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppEventsLocalizationsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppEventsLocalizationsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppEventsLocalizationsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEvents]", r.URL.Query(), &params.FieldsAppEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventScreenshots]", r.URL.Query(), &params.FieldsAppEventScreenshots, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventVideoClips]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventVideoClips]", r.URL.Query(), &params.FieldsAppEventVideoClips, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventVideoClips]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventVideoClips]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appAssetLibraryPlacements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appAssetLibraryPlacements]", r.URL.Query(), &params.FieldsAppAssetLibraryPlacements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appAssetLibraryPlacements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appAssetLibraryPlacements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appEventScreenshots]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appEventScreenshots]", r.URL.Query(), &params.LimitAppEventScreenshots, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appEventScreenshots]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appEventScreenshots]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[appEventVideoClips]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[appEventVideoClips]", r.URL.Query(), &params.LimitAppEventVideoClips, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[appEventVideoClips]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[appEventVideoClips]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[placements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[placements]", r.URL.Query(), &params.LimitPlacements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[placements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[placements]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppEventsLocalizationsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -198193,6 +203237,126 @@ func (siw *ServerInterfaceWrapper) AppsAppAvailabilityV2GetToOneRelated(w http.R
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsAppAvailabilityV2GetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsAppEventsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsAppEventsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsAppEventsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[eventState]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[eventState]", r.URL.Query(), &params.FilterEventState, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[eventState]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[eventState]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "filter[id]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[id]", r.URL.Query(), &params.FilterId, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[id]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[id]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEvents]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEvents]", r.URL.Query(), &params.FieldsAppEvents, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEvents]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEvents]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appEventLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appEventLocalizations]", r.URL.Query(), &params.FieldsAppEventLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appEventLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appEventLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[localizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[localizations]", r.URL.Query(), &params.LimitLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[localizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[localizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsAppEventsGetToManyRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -215616,6 +220780,15 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appEncryptionDeclarationDocuments/{id}", wrapper.AppEncryptionDeclarationDocumentsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appEncryptionDeclarations", wrapper.AppEncryptionDeclarationsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEncryptionDeclarations/{id}", wrapper.AppEncryptionDeclarationsGetInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appEventLocalizations", wrapper.AppEventLocalizationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appEventLocalizations/{id}", wrapper.AppEventLocalizationsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEventLocalizations/{id}", wrapper.AppEventLocalizationsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appEventLocalizations/{id}", wrapper.AppEventLocalizationsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appEvents", wrapper.AppEventsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appEvents/{id}", wrapper.AppEventsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEvents/{id}", wrapper.AppEventsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appEvents/{id}", wrapper.AppEventsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appEvents/{id}/localizations", wrapper.AppEventsLocalizationsGetToManyRelated)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appInfoLocalizations", wrapper.AppInfoLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/appInfoLocalizations/{id}", wrapper.AppInfoLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appInfoLocalizations/{id}", wrapper.AppInfoLocalizationsUpdateInstance)
@@ -215676,6 +220849,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/apps/{id}", wrapper.AppsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appAvailabilityV2", wrapper.AppsAppAvailabilityV2GetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appEvents", wrapper.AppsAppEventsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appInfos", wrapper.AppsAppInfosGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPricePoints", wrapper.AppsAppPricePointsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/appPriceSchedule", wrapper.AppsAppPriceScheduleGetToOneRelated)

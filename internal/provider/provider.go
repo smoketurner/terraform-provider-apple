@@ -153,6 +153,7 @@ func (p *appleProvider) Actions(_ context.Context) []func() action.Action {
 		newSubmitForReviewAction,
 		newSubmitIAPAction,
 		newSubmitRetentionVersionAction,
+		newSubmitAppEventAction,
 		newSubmitSubscriptionAction,
 	}
 }
@@ -213,6 +214,8 @@ func (p *appleProvider) Resources(_ context.Context) []func() resource.Resource 
 		newSubscriptionOneTimeCodesResource,
 		newIAPCustomCodeResource,
 		newIAPOneTimeCodesResource,
+		newAppEventResource,
+		newAppEventLocalizationResource,
 		newNominationResource,
 		newWebhookResource,
 		newSearchKeywordResource,
@@ -249,6 +252,7 @@ func (p *appleProvider) DataSources(_ context.Context) []func() datasource.DataS
 		newPricePointEqualizationsDataSource,
 		newTerritoriesDataSource,
 		newNominationsDataSource,
+		newAppEventsDataSource,
 		newSearchKeywordsDataSource,
 		newWebhooksDataSource,
 		newWebhookDeliveriesDataSource,

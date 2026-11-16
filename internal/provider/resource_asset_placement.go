@@ -54,7 +54,7 @@ func localizationAttrsWith(rule string, v validator.String, names ...string) map
 	descs := map[string]string{
 		versionLocalizationAttr:     "App Store Connect ID of an App Store version localization, e.g. `apple_app_store_version_localization.en_US.id`.",
 		productPageLocalizationAttr: "App Store Connect ID of a custom product page localization.",
-		eventLocalizationAttr:       "App Store Connect ID of an in-app event localization.",
+		eventLocalizationAttr:       "App Store Connect ID of an in-app event localization, e.g. `apple_app_event_localization.en_US.id`.",
 		treatmentLocalizationAttr:   "App Store Connect ID of a product page optimization treatment localization.",
 	}
 	out := map[string]schema.Attribute{}

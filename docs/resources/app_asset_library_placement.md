@@ -38,7 +38,7 @@ resource "apple_app_asset_library_placement" "tour" {
 
 ### Optional
 
-- `app_event_localization_id` (String) App Store Connect ID of an in-app event localization. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
+- `app_event_localization_id` (String) App Store Connect ID of an in-app event localization, e.g. `apple_app_event_localization.en_US.id`. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
 - `app_store_version_localization_id` (String) App Store Connect ID of an App Store version localization, e.g. `apple_app_store_version_localization.en_US.id`. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
 - `custom_product_page_localization_id` (String) App Store Connect ID of a custom product page localization. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.
 - `experiment_treatment_localization_id` (String) App Store Connect ID of a product page optimization treatment localization. Exactly one localization is required, except for a `RETENTION_MESSAGE_ASSET` placement, which takes none; changing it creates a new resource.

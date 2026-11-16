@@ -453,6 +453,10 @@ func (s *Server) checkTarget(w http.ResponseWriter, kind, id string) bool {
 		return true
 	case retentionVersionTarget:
 		return true
+	case eventTarget:
+		if _, ok := s.events.localizations[id]; ok {
+			return true
+		}
 	}
 	if s.lib.targets[id] != kind {
 		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no "+kind+"s with id '"+id+"'", "/data/relationships/"+kind)

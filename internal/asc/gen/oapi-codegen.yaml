@@ -51,6 +51,15 @@ output-options:
     - appEncryptionDeclarationDocuments_updateInstance
     - appEncryptionDeclarations_createInstance
     - appEncryptionDeclarations_getInstance
+    - appEventLocalizations_createInstance
+    - appEventLocalizations_deleteInstance
+    - appEventLocalizations_getInstance
+    - appEventLocalizations_updateInstance
+    - appEvents_createInstance
+    - appEvents_deleteInstance
+    - appEvents_getInstance
+    - appEvents_localizations_getToManyRelated
+    - appEvents_updateInstance
     - appInfoLocalizations_createInstance
     - appInfoLocalizations_deleteInstance
     - appInfoLocalizations_updateInstance
@@ -109,6 +118,7 @@ output-options:
     - appStoreVersions_updateInstance
     - appTags_updateInstance
     - apps_appAvailabilityV2_getToOneRelated
+    - apps_appEvents_getToManyRelated
     - apps_appInfos_getToManyRelated
     - apps_appPricePoints_getToManyRelated
     - apps_appPriceSchedule_getToOneRelated
