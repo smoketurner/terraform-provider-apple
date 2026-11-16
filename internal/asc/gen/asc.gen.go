@@ -13196,6 +13196,156 @@ func (e ExternalBetaState) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterAchievementRelationshipsActivityDataType.
+const (
+	GameCenterAchievementRelationshipsActivityDataTypeGameCenterActivities GameCenterAchievementRelationshipsActivityDataType = "gameCenterActivities"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementRelationshipsActivityDataType enum.
+func (e GameCenterAchievementRelationshipsActivityDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementRelationshipsActivityDataTypeGameCenterActivities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterAchievementRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterAchievementRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterAchievementRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementRelationshipsGameCenterGroupDataType.
+const (
+	GameCenterAchievementRelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterAchievementRelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementRelationshipsGameCenterGroupDataType enum.
+func (e GameCenterAchievementRelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementRelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementRelationshipsGroupAchievementDataType.
+const (
+	GameCenterAchievementRelationshipsGroupAchievementDataTypeGameCenterAchievements GameCenterAchievementRelationshipsGroupAchievementDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementRelationshipsGroupAchievementDataType enum.
+func (e GameCenterAchievementRelationshipsGroupAchievementDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementRelationshipsGroupAchievementDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementRelationshipsLocalizationsDataType.
+const (
+	GameCenterAchievementRelationshipsLocalizationsDataTypeGameCenterAchievementLocalizations GameCenterAchievementRelationshipsLocalizationsDataType = "gameCenterAchievementLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementRelationshipsLocalizationsDataType enum.
+func (e GameCenterAchievementRelationshipsLocalizationsDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementRelationshipsLocalizationsDataTypeGameCenterAchievementLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementRelationshipsReleasesDataType.
+const (
+	GameCenterAchievementRelationshipsReleasesDataTypeGameCenterAchievementReleases GameCenterAchievementRelationshipsReleasesDataType = "gameCenterAchievementReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementRelationshipsReleasesDataType enum.
+func (e GameCenterAchievementRelationshipsReleasesDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementRelationshipsReleasesDataTypeGameCenterAchievementReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementType.
+const (
+	GameCenterAchievementTypeGameCenterAchievements GameCenterAchievementType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementType enum.
+func (e GameCenterAchievementType) Valid() bool {
+	switch e {
+	case GameCenterAchievementTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType.
+const (
+	GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataTypeGameCenterAchievements GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType enum.
+func (e GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterAchievementReleaseRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterAchievementReleaseRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAchievementReleaseType.
+const (
+	GameCenterAchievementReleaseTypeGameCenterAchievementReleases GameCenterAchievementReleaseType = "gameCenterAchievementReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAchievementReleaseType enum.
+func (e GameCenterAchievementReleaseType) Valid() bool {
+	switch e {
+	case GameCenterAchievementReleaseTypeGameCenterAchievementReleases:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterAchievementVersionV2RelationshipsAchievementDataType.
 const (
 	GameCenterAchievementVersionV2RelationshipsAchievementDataTypeGameCenterAchievements GameCenterAchievementVersionV2RelationshipsAchievementDataType = "gameCenterAchievements"
@@ -13235,6 +13385,144 @@ const (
 func (e GameCenterAchievementVersionV2Type) Valid() bool {
 	switch e {
 	case GameCenterAchievementVersionV2TypeGameCenterAchievementVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityAttributesPlayStyle.
+const (
+	GameCenterActivityAttributesPlayStyleASYNCHRONOUS GameCenterActivityAttributesPlayStyle = "ASYNCHRONOUS"
+	GameCenterActivityAttributesPlayStyleSYNCHRONOUS  GameCenterActivityAttributesPlayStyle = "SYNCHRONOUS"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityAttributesPlayStyle enum.
+func (e GameCenterActivityAttributesPlayStyle) Valid() bool {
+	switch e {
+	case GameCenterActivityAttributesPlayStyleASYNCHRONOUS:
+		return true
+	case GameCenterActivityAttributesPlayStyleSYNCHRONOUS:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityRelationshipsAchievementsDataType.
+const (
+	GameCenterActivityRelationshipsAchievementsDataTypeGameCenterAchievements GameCenterActivityRelationshipsAchievementsDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityRelationshipsAchievementsDataType enum.
+func (e GameCenterActivityRelationshipsAchievementsDataType) Valid() bool {
+	switch e {
+	case GameCenterActivityRelationshipsAchievementsDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityRelationshipsAchievementsV2DataType.
+const (
+	GameCenterActivityRelationshipsAchievementsV2DataTypeGameCenterAchievements GameCenterActivityRelationshipsAchievementsV2DataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityRelationshipsAchievementsV2DataType enum.
+func (e GameCenterActivityRelationshipsAchievementsV2DataType) Valid() bool {
+	switch e {
+	case GameCenterActivityRelationshipsAchievementsV2DataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterActivityRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterActivityRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterActivityRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterActivityRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityRelationshipsGameCenterGroupDataType.
+const (
+	GameCenterActivityRelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterActivityRelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityRelationshipsGameCenterGroupDataType enum.
+func (e GameCenterActivityRelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterActivityRelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityRelationshipsLeaderboardsDataType.
+const (
+	GameCenterActivityRelationshipsLeaderboardsDataTypeGameCenterLeaderboards GameCenterActivityRelationshipsLeaderboardsDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityRelationshipsLeaderboardsDataType enum.
+func (e GameCenterActivityRelationshipsLeaderboardsDataType) Valid() bool {
+	switch e {
+	case GameCenterActivityRelationshipsLeaderboardsDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityRelationshipsLeaderboardsV2DataType.
+const (
+	GameCenterActivityRelationshipsLeaderboardsV2DataTypeGameCenterLeaderboards GameCenterActivityRelationshipsLeaderboardsV2DataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityRelationshipsLeaderboardsV2DataType enum.
+func (e GameCenterActivityRelationshipsLeaderboardsV2DataType) Valid() bool {
+	switch e {
+	case GameCenterActivityRelationshipsLeaderboardsV2DataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityRelationshipsVersionsDataType.
+const (
+	GameCenterActivityRelationshipsVersionsDataTypeGameCenterActivityVersions GameCenterActivityRelationshipsVersionsDataType = "gameCenterActivityVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityRelationshipsVersionsDataType enum.
+func (e GameCenterActivityRelationshipsVersionsDataType) Valid() bool {
+	switch e {
+	case GameCenterActivityRelationshipsVersionsDataTypeGameCenterActivityVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityType.
+const (
+	GameCenterActivityTypeGameCenterActivities GameCenterActivityType = "gameCenterActivities"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityType enum.
+func (e GameCenterActivityType) Valid() bool {
+	switch e {
+	case GameCenterActivityTypeGameCenterActivities:
 		return true
 	default:
 		return false
@@ -13316,6 +13604,36 @@ func (e GameCenterActivityVersionType) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterActivityVersionReleaseRelationshipsVersionDataType.
+const (
+	GameCenterActivityVersionReleaseRelationshipsVersionDataTypeGameCenterActivityVersions GameCenterActivityVersionReleaseRelationshipsVersionDataType = "gameCenterActivityVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityVersionReleaseRelationshipsVersionDataType enum.
+func (e GameCenterActivityVersionReleaseRelationshipsVersionDataType) Valid() bool {
+	switch e {
+	case GameCenterActivityVersionReleaseRelationshipsVersionDataTypeGameCenterActivityVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterActivityVersionReleaseType.
+const (
+	GameCenterActivityVersionReleaseTypeGameCenterActivityVersionReleases GameCenterActivityVersionReleaseType = "gameCenterActivityVersionReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterActivityVersionReleaseType enum.
+func (e GameCenterActivityVersionReleaseType) Valid() bool {
+	switch e {
+	case GameCenterActivityVersionReleaseTypeGameCenterActivityVersionReleases:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterAppVersionRelationshipsAppStoreVersionDataType.
 const (
 	GameCenterAppVersionRelationshipsAppStoreVersionDataTypeAppStoreVersions GameCenterAppVersionRelationshipsAppStoreVersionDataType = "appStoreVersions"
@@ -13355,6 +13673,186 @@ const (
 func (e GameCenterAppVersionType) Valid() bool {
 	switch e {
 	case GameCenterAppVersionTypeGameCenterAppVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataType.
+const (
+	GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataTypeGameCenterAppVersions GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataType = "gameCenterAppVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataType enum.
+func (e GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataTypeGameCenterAppVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataType.
+const (
+	GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataTypeGameCenterAppVersions GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataType = "gameCenterAppVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataType enum.
+func (e GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataType) Valid() bool {
+	switch e {
+	case GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataTypeGameCenterAppVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataType.
+const (
+	GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataType = "appStoreVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataType enum.
+func (e GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataType) Valid() bool {
+	switch e {
+	case GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataTypeAppStoreVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAppVersionCreateRequestDataType.
+const (
+	GameCenterAppVersionCreateRequestDataTypeGameCenterAppVersions GameCenterAppVersionCreateRequestDataType = "gameCenterAppVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAppVersionCreateRequestDataType enum.
+func (e GameCenterAppVersionCreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAppVersionCreateRequestDataTypeGameCenterAppVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterAppVersionUpdateRequestDataType.
+const (
+	GameCenterAppVersionUpdateRequestDataTypeGameCenterAppVersions GameCenterAppVersionUpdateRequestDataType = "gameCenterAppVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterAppVersionUpdateRequestDataType enum.
+func (e GameCenterAppVersionUpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterAppVersionUpdateRequestDataTypeGameCenterAppVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeAttributesChallengeType.
+const (
+	GameCenterChallengeAttributesChallengeTypeLEADERBOARD GameCenterChallengeAttributesChallengeType = "LEADERBOARD"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeAttributesChallengeType enum.
+func (e GameCenterChallengeAttributesChallengeType) Valid() bool {
+	switch e {
+	case GameCenterChallengeAttributesChallengeTypeLEADERBOARD:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterChallengeRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterChallengeRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterChallengeRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterChallengeRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeRelationshipsGameCenterGroupDataType.
+const (
+	GameCenterChallengeRelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterChallengeRelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeRelationshipsGameCenterGroupDataType enum.
+func (e GameCenterChallengeRelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterChallengeRelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeRelationshipsLeaderboardDataType.
+const (
+	GameCenterChallengeRelationshipsLeaderboardDataTypeGameCenterLeaderboards GameCenterChallengeRelationshipsLeaderboardDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeRelationshipsLeaderboardDataType enum.
+func (e GameCenterChallengeRelationshipsLeaderboardDataType) Valid() bool {
+	switch e {
+	case GameCenterChallengeRelationshipsLeaderboardDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeRelationshipsLeaderboardV2DataType.
+const (
+	GameCenterChallengeRelationshipsLeaderboardV2DataTypeGameCenterLeaderboards GameCenterChallengeRelationshipsLeaderboardV2DataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeRelationshipsLeaderboardV2DataType enum.
+func (e GameCenterChallengeRelationshipsLeaderboardV2DataType) Valid() bool {
+	switch e {
+	case GameCenterChallengeRelationshipsLeaderboardV2DataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeRelationshipsVersionsDataType.
+const (
+	GameCenterChallengeRelationshipsVersionsDataTypeGameCenterChallengeVersions GameCenterChallengeRelationshipsVersionsDataType = "gameCenterChallengeVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeRelationshipsVersionsDataType enum.
+func (e GameCenterChallengeRelationshipsVersionsDataType) Valid() bool {
+	switch e {
+	case GameCenterChallengeRelationshipsVersionsDataTypeGameCenterChallengeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeType.
+const (
+	GameCenterChallengeTypeGameCenterChallenges GameCenterChallengeType = "gameCenterChallenges"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeType enum.
+func (e GameCenterChallengeType) Valid() bool {
+	switch e {
+	case GameCenterChallengeTypeGameCenterChallenges:
 		return true
 	default:
 		return false
@@ -13430,6 +13928,36 @@ const (
 func (e GameCenterChallengeVersionType) Valid() bool {
 	switch e {
 	case GameCenterChallengeVersionTypeGameCenterChallengeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeVersionReleaseRelationshipsVersionDataType.
+const (
+	GameCenterChallengeVersionReleaseRelationshipsVersionDataTypeGameCenterChallengeVersions GameCenterChallengeVersionReleaseRelationshipsVersionDataType = "gameCenterChallengeVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeVersionReleaseRelationshipsVersionDataType enum.
+func (e GameCenterChallengeVersionReleaseRelationshipsVersionDataType) Valid() bool {
+	switch e {
+	case GameCenterChallengeVersionReleaseRelationshipsVersionDataTypeGameCenterChallengeVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterChallengeVersionReleaseType.
+const (
+	GameCenterChallengeVersionReleaseTypeGameCenterChallengeVersionReleases GameCenterChallengeVersionReleaseType = "gameCenterChallengeVersionReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterChallengeVersionReleaseType enum.
+func (e GameCenterChallengeVersionReleaseType) Valid() bool {
+	switch e {
+	case GameCenterChallengeVersionReleaseTypeGameCenterChallengeVersionReleases:
 		return true
 	default:
 		return false
@@ -13766,6 +14294,126 @@ func (e GameCenterDetailType) Valid() bool {
 	}
 }
 
+// Defines values for GameCenterDetailCreateRequestDataRelationshipsAppDataType.
+const (
+	GameCenterDetailCreateRequestDataRelationshipsAppDataTypeApps GameCenterDetailCreateRequestDataRelationshipsAppDataType = "apps"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailCreateRequestDataRelationshipsAppDataType enum.
+func (e GameCenterDetailCreateRequestDataRelationshipsAppDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailCreateRequestDataRelationshipsAppDataTypeApps:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailCreateRequestDataType.
+const (
+	GameCenterDetailCreateRequestDataTypeGameCenterDetails GameCenterDetailCreateRequestDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailCreateRequestDataType enum.
+func (e GameCenterDetailCreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailCreateRequestDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataType.
+const (
+	GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataTypeGameCenterLeaderboards GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataType enum.
+func (e GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataType.
+const (
+	GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataTypeGameCenterLeaderboards GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataType enum.
+func (e GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataType) Valid() bool {
+	switch e {
+	case GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataType.
+const (
+	GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataTypeGameCenterLeaderboards GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataType enum.
+func (e GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataType.
+const (
+	GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataTypeGameCenterLeaderboards GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataType enum.
+func (e GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataType) Valid() bool {
+	switch e {
+	case GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataType.
+const (
+	GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataType enum.
+func (e GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailUpdateRequestDataType.
+const (
+	GameCenterDetailUpdateRequestDataTypeGameCenterDetails GameCenterDetailUpdateRequestDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailUpdateRequestDataType enum.
+func (e GameCenterDetailUpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterDetailUpdateRequestDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for GameCenterEnabledVersionRelationshipsAppDataType.
 const (
 	GameCenterEnabledVersionRelationshipsAppDataTypeApps GameCenterEnabledVersionRelationshipsAppDataType = "apps"
@@ -13805,6 +14453,636 @@ const (
 func (e GameCenterEnabledVersionType) Valid() bool {
 	switch e {
 	case GameCenterEnabledVersionTypeGameCenterEnabledVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterAchievementsDataType.
+const (
+	GameCenterGroupRelationshipsGameCenterAchievementsDataTypeGameCenterAchievements GameCenterGroupRelationshipsGameCenterAchievementsDataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterAchievementsDataType enum.
+func (e GameCenterGroupRelationshipsGameCenterAchievementsDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterAchievementsDataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterAchievementsV2DataType.
+const (
+	GameCenterGroupRelationshipsGameCenterAchievementsV2DataTypeGameCenterAchievements GameCenterGroupRelationshipsGameCenterAchievementsV2DataType = "gameCenterAchievements"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterAchievementsV2DataType enum.
+func (e GameCenterGroupRelationshipsGameCenterAchievementsV2DataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterAchievementsV2DataTypeGameCenterAchievements:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterActivitiesDataType.
+const (
+	GameCenterGroupRelationshipsGameCenterActivitiesDataTypeGameCenterActivities GameCenterGroupRelationshipsGameCenterActivitiesDataType = "gameCenterActivities"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterActivitiesDataType enum.
+func (e GameCenterGroupRelationshipsGameCenterActivitiesDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterActivitiesDataTypeGameCenterActivities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterChallengesDataType.
+const (
+	GameCenterGroupRelationshipsGameCenterChallengesDataTypeGameCenterChallenges GameCenterGroupRelationshipsGameCenterChallengesDataType = "gameCenterChallenges"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterChallengesDataType enum.
+func (e GameCenterGroupRelationshipsGameCenterChallengesDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterChallengesDataTypeGameCenterChallenges:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterDetailsDataType.
+const (
+	GameCenterGroupRelationshipsGameCenterDetailsDataTypeGameCenterDetails GameCenterGroupRelationshipsGameCenterDetailsDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterDetailsDataType enum.
+func (e GameCenterGroupRelationshipsGameCenterDetailsDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterDetailsDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataType.
+const (
+	GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataTypeGameCenterLeaderboardSets GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataType enum.
+func (e GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataType.
+const (
+	GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataTypeGameCenterLeaderboardSets GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataType enum.
+func (e GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterLeaderboardsDataType.
+const (
+	GameCenterGroupRelationshipsGameCenterLeaderboardsDataTypeGameCenterLeaderboards GameCenterGroupRelationshipsGameCenterLeaderboardsDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterLeaderboardsDataType enum.
+func (e GameCenterGroupRelationshipsGameCenterLeaderboardsDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterLeaderboardsDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataType.
+const (
+	GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataTypeGameCenterLeaderboards GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataType enum.
+func (e GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataType) Valid() bool {
+	switch e {
+	case GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupType.
+const (
+	GameCenterGroupTypeGameCenterGroups GameCenterGroupType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupType enum.
+func (e GameCenterGroupType) Valid() bool {
+	switch e {
+	case GameCenterGroupTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupCreateRequestDataType.
+const (
+	GameCenterGroupCreateRequestDataTypeGameCenterGroups GameCenterGroupCreateRequestDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupCreateRequestDataType enum.
+func (e GameCenterGroupCreateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupCreateRequestDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupUpdateRequestDataType.
+const (
+	GameCenterGroupUpdateRequestDataTypeGameCenterGroups GameCenterGroupUpdateRequestDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupUpdateRequestDataType enum.
+func (e GameCenterGroupUpdateRequestDataType) Valid() bool {
+	switch e {
+	case GameCenterGroupUpdateRequestDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardAttributesScoreSortType.
+const (
+	GameCenterLeaderboardAttributesScoreSortTypeASC  GameCenterLeaderboardAttributesScoreSortType = "ASC"
+	GameCenterLeaderboardAttributesScoreSortTypeDESC GameCenterLeaderboardAttributesScoreSortType = "DESC"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardAttributesScoreSortType enum.
+func (e GameCenterLeaderboardAttributesScoreSortType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardAttributesScoreSortTypeASC:
+		return true
+	case GameCenterLeaderboardAttributesScoreSortTypeDESC:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardAttributesSubmissionType.
+const (
+	GameCenterLeaderboardAttributesSubmissionTypeBESTSCORE       GameCenterLeaderboardAttributesSubmissionType = "BEST_SCORE"
+	GameCenterLeaderboardAttributesSubmissionTypeMOSTRECENTSCORE GameCenterLeaderboardAttributesSubmissionType = "MOST_RECENT_SCORE"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardAttributesSubmissionType enum.
+func (e GameCenterLeaderboardAttributesSubmissionType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardAttributesSubmissionTypeBESTSCORE:
+		return true
+	case GameCenterLeaderboardAttributesSubmissionTypeMOSTRECENTSCORE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardAttributesVisibility.
+const (
+	GameCenterLeaderboardAttributesVisibilityHIDEFORALL GameCenterLeaderboardAttributesVisibility = "HIDE_FOR_ALL"
+	GameCenterLeaderboardAttributesVisibilitySHOWFORALL GameCenterLeaderboardAttributesVisibility = "SHOW_FOR_ALL"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardAttributesVisibility enum.
+func (e GameCenterLeaderboardAttributesVisibility) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardAttributesVisibilityHIDEFORALL:
+		return true
+	case GameCenterLeaderboardAttributesVisibilitySHOWFORALL:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsActivityDataType.
+const (
+	GameCenterLeaderboardRelationshipsActivityDataTypeGameCenterActivities GameCenterLeaderboardRelationshipsActivityDataType = "gameCenterActivities"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsActivityDataType enum.
+func (e GameCenterLeaderboardRelationshipsActivityDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsActivityDataTypeGameCenterActivities:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsChallengeDataType.
+const (
+	GameCenterLeaderboardRelationshipsChallengeDataTypeGameCenterChallenges GameCenterLeaderboardRelationshipsChallengeDataType = "gameCenterChallenges"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsChallengeDataType enum.
+func (e GameCenterLeaderboardRelationshipsChallengeDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsChallengeDataTypeGameCenterChallenges:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterLeaderboardRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterLeaderboardRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterLeaderboardRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsGameCenterGroupDataType.
+const (
+	GameCenterLeaderboardRelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterLeaderboardRelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsGameCenterGroupDataType enum.
+func (e GameCenterLeaderboardRelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataType.
+const (
+	GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataTypeGameCenterLeaderboardSets GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataType enum.
+func (e GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsGroupLeaderboardDataType.
+const (
+	GameCenterLeaderboardRelationshipsGroupLeaderboardDataTypeGameCenterLeaderboards GameCenterLeaderboardRelationshipsGroupLeaderboardDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsGroupLeaderboardDataType enum.
+func (e GameCenterLeaderboardRelationshipsGroupLeaderboardDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsGroupLeaderboardDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsLocalizationsDataType.
+const (
+	GameCenterLeaderboardRelationshipsLocalizationsDataTypeGameCenterLeaderboardLocalizations GameCenterLeaderboardRelationshipsLocalizationsDataType = "gameCenterLeaderboardLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsLocalizationsDataType enum.
+func (e GameCenterLeaderboardRelationshipsLocalizationsDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsLocalizationsDataTypeGameCenterLeaderboardLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardRelationshipsReleasesDataType.
+const (
+	GameCenterLeaderboardRelationshipsReleasesDataTypeGameCenterLeaderboardReleases GameCenterLeaderboardRelationshipsReleasesDataType = "gameCenterLeaderboardReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardRelationshipsReleasesDataType enum.
+func (e GameCenterLeaderboardRelationshipsReleasesDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardRelationshipsReleasesDataTypeGameCenterLeaderboardReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardType.
+const (
+	GameCenterLeaderboardTypeGameCenterLeaderboards GameCenterLeaderboardType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardType enum.
+func (e GameCenterLeaderboardType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardFormatter.
+const (
+	GameCenterLeaderboardFormatterDECIMALPOINT1PLACE     GameCenterLeaderboardFormatter = "DECIMAL_POINT_1_PLACE"
+	GameCenterLeaderboardFormatterDECIMALPOINT2PLACE     GameCenterLeaderboardFormatter = "DECIMAL_POINT_2_PLACE"
+	GameCenterLeaderboardFormatterDECIMALPOINT3PLACE     GameCenterLeaderboardFormatter = "DECIMAL_POINT_3_PLACE"
+	GameCenterLeaderboardFormatterELAPSEDTIMECENTISECOND GameCenterLeaderboardFormatter = "ELAPSED_TIME_CENTISECOND"
+	GameCenterLeaderboardFormatterELAPSEDTIMEMINUTE      GameCenterLeaderboardFormatter = "ELAPSED_TIME_MINUTE"
+	GameCenterLeaderboardFormatterELAPSEDTIMESECOND      GameCenterLeaderboardFormatter = "ELAPSED_TIME_SECOND"
+	GameCenterLeaderboardFormatterINTEGER                GameCenterLeaderboardFormatter = "INTEGER"
+	GameCenterLeaderboardFormatterMONEYDOLLAR            GameCenterLeaderboardFormatter = "MONEY_DOLLAR"
+	GameCenterLeaderboardFormatterMONEYDOLLARDECIMAL     GameCenterLeaderboardFormatter = "MONEY_DOLLAR_DECIMAL"
+	GameCenterLeaderboardFormatterMONEYEURO              GameCenterLeaderboardFormatter = "MONEY_EURO"
+	GameCenterLeaderboardFormatterMONEYEURODECIMAL       GameCenterLeaderboardFormatter = "MONEY_EURO_DECIMAL"
+	GameCenterLeaderboardFormatterMONEYFRANC             GameCenterLeaderboardFormatter = "MONEY_FRANC"
+	GameCenterLeaderboardFormatterMONEYFRANCDECIMAL      GameCenterLeaderboardFormatter = "MONEY_FRANC_DECIMAL"
+	GameCenterLeaderboardFormatterMONEYKRONER            GameCenterLeaderboardFormatter = "MONEY_KRONER"
+	GameCenterLeaderboardFormatterMONEYKRONERDECIMAL     GameCenterLeaderboardFormatter = "MONEY_KRONER_DECIMAL"
+	GameCenterLeaderboardFormatterMONEYPOUND             GameCenterLeaderboardFormatter = "MONEY_POUND"
+	GameCenterLeaderboardFormatterMONEYPOUNDDECIMAL      GameCenterLeaderboardFormatter = "MONEY_POUND_DECIMAL"
+	GameCenterLeaderboardFormatterMONEYYEN               GameCenterLeaderboardFormatter = "MONEY_YEN"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardFormatter enum.
+func (e GameCenterLeaderboardFormatter) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardFormatterDECIMALPOINT1PLACE:
+		return true
+	case GameCenterLeaderboardFormatterDECIMALPOINT2PLACE:
+		return true
+	case GameCenterLeaderboardFormatterDECIMALPOINT3PLACE:
+		return true
+	case GameCenterLeaderboardFormatterELAPSEDTIMECENTISECOND:
+		return true
+	case GameCenterLeaderboardFormatterELAPSEDTIMEMINUTE:
+		return true
+	case GameCenterLeaderboardFormatterELAPSEDTIMESECOND:
+		return true
+	case GameCenterLeaderboardFormatterINTEGER:
+		return true
+	case GameCenterLeaderboardFormatterMONEYDOLLAR:
+		return true
+	case GameCenterLeaderboardFormatterMONEYDOLLARDECIMAL:
+		return true
+	case GameCenterLeaderboardFormatterMONEYEURO:
+		return true
+	case GameCenterLeaderboardFormatterMONEYEURODECIMAL:
+		return true
+	case GameCenterLeaderboardFormatterMONEYFRANC:
+		return true
+	case GameCenterLeaderboardFormatterMONEYFRANCDECIMAL:
+		return true
+	case GameCenterLeaderboardFormatterMONEYKRONER:
+		return true
+	case GameCenterLeaderboardFormatterMONEYKRONERDECIMAL:
+		return true
+	case GameCenterLeaderboardFormatterMONEYPOUND:
+		return true
+	case GameCenterLeaderboardFormatterMONEYPOUNDDECIMAL:
+		return true
+	case GameCenterLeaderboardFormatterMONEYYEN:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataType.
+const (
+	GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataTypeGameCenterLeaderboards GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataType enum.
+func (e GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardReleaseType.
+const (
+	GameCenterLeaderboardReleaseTypeGameCenterLeaderboardReleases GameCenterLeaderboardReleaseType = "gameCenterLeaderboardReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardReleaseType enum.
+func (e GameCenterLeaderboardReleaseType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardReleaseTypeGameCenterLeaderboardReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterLeaderboardSetRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterLeaderboardSetRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterLeaderboardSetRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetRelationshipsGameCenterGroupDataType.
+const (
+	GameCenterLeaderboardSetRelationshipsGameCenterGroupDataTypeGameCenterGroups GameCenterLeaderboardSetRelationshipsGameCenterGroupDataType = "gameCenterGroups"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetRelationshipsGameCenterGroupDataType enum.
+func (e GameCenterLeaderboardSetRelationshipsGameCenterGroupDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetRelationshipsGameCenterGroupDataTypeGameCenterGroups:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataType.
+const (
+	GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataTypeGameCenterLeaderboards GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataType = "gameCenterLeaderboards"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataType enum.
+func (e GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataTypeGameCenterLeaderboards:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataType.
+const (
+	GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataTypeGameCenterLeaderboardSets GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataType enum.
+func (e GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetRelationshipsLocalizationsDataType.
+const (
+	GameCenterLeaderboardSetRelationshipsLocalizationsDataTypeGameCenterLeaderboardSetLocalizations GameCenterLeaderboardSetRelationshipsLocalizationsDataType = "gameCenterLeaderboardSetLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetRelationshipsLocalizationsDataType enum.
+func (e GameCenterLeaderboardSetRelationshipsLocalizationsDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetRelationshipsLocalizationsDataTypeGameCenterLeaderboardSetLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetRelationshipsReleasesDataType.
+const (
+	GameCenterLeaderboardSetRelationshipsReleasesDataTypeGameCenterLeaderboardSetReleases GameCenterLeaderboardSetRelationshipsReleasesDataType = "gameCenterLeaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetRelationshipsReleasesDataType enum.
+func (e GameCenterLeaderboardSetRelationshipsReleasesDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetRelationshipsReleasesDataTypeGameCenterLeaderboardSetReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetType.
+const (
+	GameCenterLeaderboardSetTypeGameCenterLeaderboardSets GameCenterLeaderboardSetType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetType enum.
+func (e GameCenterLeaderboardSetType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataType.
+const (
+	GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataTypeGameCenterDetails GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataType = "gameCenterDetails"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataType enum.
+func (e GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataTypeGameCenterDetails:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataType.
+const (
+	GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataTypeGameCenterLeaderboardSets GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataType = "gameCenterLeaderboardSets"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataType enum.
+func (e GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataTypeGameCenterLeaderboardSets:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterLeaderboardSetReleaseType.
+const (
+	GameCenterLeaderboardSetReleaseTypeGameCenterLeaderboardSetReleases GameCenterLeaderboardSetReleaseType = "gameCenterLeaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterLeaderboardSetReleaseType enum.
+func (e GameCenterLeaderboardSetReleaseType) Valid() bool {
+	switch e {
+	case GameCenterLeaderboardSetReleaseTypeGameCenterLeaderboardSetReleases:
 		return true
 	default:
 		return false
@@ -32864,6 +34142,129 @@ func (e AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsA
 	}
 }
 
+// Defines values for AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions.
+const (
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersionsAppStoreVersion       AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions = "appStoreVersion"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersionsCompatibilityVersions AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions = "compatibilityVersions"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersionsEnabled               AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions = "enabled"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions enum.
+func (e AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions) Valid() bool {
+	switch e {
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersionsAppStoreVersion:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersionsCompatibilityVersions:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersionsEnabled:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions.
+const (
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "alternativeDistributionPackage"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsApp                            AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "app"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience       AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appClipDefaultExperience"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail           AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreReviewDetail"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreState                  AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreState"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments     AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperiments"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2   AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperimentsV2"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations   AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionLocalizations"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease   AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionPhasedRelease"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission      AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionSubmission"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppVersionState                AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "appVersionState"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsBuild                          AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "build"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsCopyright                      AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "copyright"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsCreatedDate                    AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "createdDate"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsCustomerReviews                AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "customerReviews"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsDownloadable                   AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "downloadable"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate            AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "earliestReleaseDate"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion           AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "gameCenterAppVersion"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsPlatform                       AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "platform"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsReleaseType                    AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "releaseType"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsReviewType                     AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "reviewType"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage             AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "routingAppCoverage"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsUsesIdfa                       AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "usesIdfa"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsVersionString                  AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions = "versionString"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions enum.
+func (e AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions) Valid() bool {
+	switch e {
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsApp:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreState:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsAppVersionState:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsBuild:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsCopyright:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsCreatedDate:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsCustomerReviews:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsDownloadable:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsPlatform:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsReleaseType:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsReviewType:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsUsesIdfa:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersionsVersionString:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude.
+const (
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsIncludeAppStoreVersion       AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude = "appStoreVersion"
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsIncludeCompatibilityVersions AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude = "compatibilityVersions"
+)
+
+// Valid indicates whether the value is a known member of the AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude enum.
+func (e AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsIncludeAppStoreVersion:
+		return true
+	case AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsIncludeCompatibilityVersions:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages.
 const (
 	AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoveragesAppStoreVersion    AppStoreVersionsRoutingAppCoverageGetToOneRelatedParamsFieldsRoutingAppCoverages = "appStoreVersion"
@@ -39323,6 +40724,864 @@ func (e AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgre
 	case AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsApp:
 		return true
 	case AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreementsTerritories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsAchievementReleases               AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "achievementReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsActivityReleases                  AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "activityReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsApp                               AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "app"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsArcadeEnabled                     AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "arcadeEnabled"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsBlockedPlayers                    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "blockedPlayers"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsChallengeEnabled                  AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "challengeEnabled"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsChallengeReleases                 AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "challengeReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "challengesMinimumPlatformVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboard           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "defaultGroupLeaderboard"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "defaultGroupLeaderboardV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultLeaderboard                AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "defaultLeaderboard"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultLeaderboardV2              AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "defaultLeaderboardV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterAchievements            AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterAchievements"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterAchievementsV2          AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterAchievementsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterActivities              AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterActivities"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterAppVersions             AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterAppVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterChallenges              AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterChallenges"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterGroup                   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterGroup"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSets         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardSets"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2       AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardSetsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboards            AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboards"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2          AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "gameCenterLeaderboardsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsLeaderboardReleases               AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "leaderboardReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsLeaderboardSetReleases            AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails = "leaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsAchievementReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsActivityReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsApp:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsArcadeEnabled:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsBlockedPlayers:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsChallengeEnabled:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsChallengeReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboard:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultLeaderboard:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsDefaultLeaderboardV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterAchievements:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterAchievementsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterActivities:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterAppVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterChallenges:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterGroup:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSets:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboards:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsLeaderboardReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetailsLeaderboardSetReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsApps.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAccessibilityDeclarations              AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "accessibilityDeclarations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAccessibilityUrl                       AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "accessibilityUrl"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAlternativeDistributionKey             AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "alternativeDistributionKey"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAnalyticsReportRequests                AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "analyticsReportRequests"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAndroidToIosAppMappingDetails          AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "androidToIosAppMappingDetails"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppAvailabilityV2                      AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appAvailabilityV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppClips                               AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appClips"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppCustomProductPages                  AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appCustomProductPages"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppEncryptionDeclarations              AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appEncryptionDeclarations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppEvents                              AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appEvents"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppInfos                               AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appInfos"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppPricePoints                         AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appPricePoints"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppPriceSchedule                       AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appPriceSchedule"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppStoreIcon                           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appStoreIcon"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppStoreVersionExperimentsV2           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appStoreVersionExperimentsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppStoreVersions                       AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appStoreVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppTags                                AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "appTags"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAssetLibrary                           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "assetLibrary"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBackgroundAssets                       AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "backgroundAssets"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaAppLocalizations                   AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "betaAppLocalizations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaAppReviewDetail                    AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "betaAppReviewDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "betaFeedbackCrashSubmissions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions      AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "betaFeedbackScreenshotSubmissions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaGroups                             AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "betaGroups"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaLicenseAgreement                   AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "betaLicenseAgreement"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaTesters                            AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "betaTesters"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBuildUploads                           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "buildUploads"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBuilds                                 AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "builds"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBundleId                               AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "bundleId"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsCiProduct                              AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "ciProduct"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsContentRightsDeclaration               AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "contentRightsDeclaration"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsCustomerReviewSummarizations           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "customerReviewSummarizations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsCustomerReviews                        AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "customerReviews"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsEndUserLicenseAgreement                AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "endUserLicenseAgreement"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsGameCenterDetail                       AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsGameCenterEnabledVersions              AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "gameCenterEnabledVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsInAppPurchases                         AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "inAppPurchases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsInAppPurchasesV2                       AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "inAppPurchasesV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsIsOrEverWasMadeForKids                 AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "isOrEverWasMadeForKids"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsMarketplaceSearchDetail                AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "marketplaceSearchDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsName                                   AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "name"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPerfPowerMetrics                       AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "perfPowerMetrics"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPerformanceOverviews                   AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "performanceOverviews"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPreReleaseVersions                     AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "preReleaseVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPrimaryLocale                          AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "primaryLocale"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPromotedPurchases                      AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "promotedPurchases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsRetentionMessages                      AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "retentionMessages"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsReviewSubmissions                      AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "reviewSubmissions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSearchKeywords                         AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "searchKeywords"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSku                                    AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "sku"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsStreamlinedPurchasingEnabled           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "streamlinedPurchasingEnabled"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionGracePeriod                AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "subscriptionGracePeriod"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionGroups                     AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "subscriptionGroups"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrl                  AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrl"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox        AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrlForSandbox"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersion           AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrlVersion"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "subscriptionStatusUrlVersionForSandbox"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsWebhooks                               AppsGameCenterDetailGetToOneRelatedParamsFieldsApps = "webhooks"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsApps enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsApps) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAccessibilityDeclarations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAccessibilityUrl:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAlternativeDistributionKey:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAnalyticsReportRequests:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAndroidToIosAppMappingDetails:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppAvailabilityV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppClips:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppCustomProductPages:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppEncryptionDeclarations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppEvents:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppInfos:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppPricePoints:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppPriceSchedule:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppStoreIcon:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppStoreVersionExperimentsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppStoreVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAppTags:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsAssetLibrary:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBackgroundAssets:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaAppLocalizations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaAppReviewDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaFeedbackCrashSubmissions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaFeedbackScreenshotSubmissions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaGroups:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaLicenseAgreement:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBetaTesters:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBuildUploads:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBuilds:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsBundleId:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsCiProduct:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsContentRightsDeclaration:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsCustomerReviewSummarizations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsCustomerReviews:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsEndUserLicenseAgreement:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsGameCenterEnabledVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsInAppPurchases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsInAppPurchasesV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsIsOrEverWasMadeForKids:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsMarketplaceSearchDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsName:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPerfPowerMetrics:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPerformanceOverviews:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPreReleaseVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPrimaryLocale:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsPromotedPurchases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsRetentionMessages:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsReviewSubmissions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSearchKeywords:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSku:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsStreamlinedPurchasingEnabled:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionGracePeriod:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionGroups:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrl:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlForSandbox:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersion:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsSubscriptionStatusUrlVersionForSandbox:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppsWebhooks:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersionsAppStoreVersion       AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions = "appStoreVersion"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersionsCompatibilityVersions AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions = "compatibilityVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersionsEnabled               AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions = "enabled"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersionsAppStoreVersion:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersionsCompatibilityVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersionsEnabled:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterAchievements      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterAchievements"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterAchievementsV2    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterAchievementsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterActivities        AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterActivities"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterChallenges        AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterChallenges"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterDetails           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterDetails"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSets   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardSets"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2 AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardSetsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboards      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboards"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "gameCenterLeaderboardsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsReferenceName               AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterAchievements:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterAchievementsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterActivities:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterChallenges:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterDetails:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSets:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboards:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroupsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsActivity                   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "activity"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsActivityProperties         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "activityProperties"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsArchived                   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "archived"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsChallenge                  AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "challenge"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsDefaultFormatter           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "defaultFormatter"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterDetail           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterGroup            AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "gameCenterGroup"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterLeaderboardSets  AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "gameCenterLeaderboardSets"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterScoreModerations AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "gameCenterScoreModerations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGroupLeaderboard           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "groupLeaderboard"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsLocalizations              AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "localizations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsRecurrenceDuration         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "recurrenceDuration"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsRecurrenceRule             AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "recurrenceRule"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsRecurrenceStartDate        AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "recurrenceStartDate"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsReferenceName              AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "referenceName"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsReleases                   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "releases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsScoreRangeEnd              AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "scoreRangeEnd"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsScoreRangeStart            AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "scoreRangeStart"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsScoreSortType              AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "scoreSortType"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsSubmissionType             AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "submissionType"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsVendorIdentifier           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "vendorIdentifier"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsVersions                   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "versions"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsVisibility                 AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards = "visibility"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsActivity:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsActivityProperties:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsArchived:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsChallenge:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsDefaultFormatter:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterGroup:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterLeaderboardSets:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGameCenterScoreModerations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsGroupLeaderboard:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsLocalizations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsRecurrenceDuration:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsRecurrenceRule:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsRecurrenceStartDate:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsReferenceName:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsScoreRangeEnd:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsScoreRangeStart:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsScoreSortType:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsSubmissionType:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsVendorIdentifier:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardsVisibility:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGameCenterDetail       AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGameCenterGroup        AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "gameCenterGroup"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGameCenterLeaderboards AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "gameCenterLeaderboards"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGroupLeaderboardSet    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "groupLeaderboardSet"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsLocalizations          AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "localizations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsReferenceName          AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "referenceName"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsReleases               AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "releases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsVendorIdentifier       AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "vendorIdentifier"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsVersions               AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGameCenterGroup:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGameCenterLeaderboards:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsGroupLeaderboardSet:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsLocalizations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsReferenceName:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsVendorIdentifier:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsActivity           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "activity"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsActivityProperties AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "activityProperties"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsArchived           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "archived"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsGameCenterDetail   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsGameCenterGroup    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "gameCenterGroup"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsGroupAchievement   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "groupAchievement"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsLocalizations      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "localizations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsPoints             AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "points"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsReferenceName      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "referenceName"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsReleases           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "releases"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsRepeatable         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "repeatable"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "showBeforeEarned"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsVendorIdentifier   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "vendorIdentifier"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsVersions           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsActivity:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsActivityProperties:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsArchived:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsGameCenterGroup:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsGroupAchievement:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsLocalizations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsPoints:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsReferenceName:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsRepeatable:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsShowBeforeEarned:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsVendorIdentifier:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesAchievements        AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "achievements"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesAchievementsV2      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "achievementsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesArchived            AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "archived"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesGameCenterDetail    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesGameCenterGroup     AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "gameCenterGroup"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesLeaderboards        AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "leaderboards"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesLeaderboardsV2      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "leaderboardsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesMaximumPlayersCount AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "maximumPlayersCount"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesMinimumPlayersCount AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "minimumPlayersCount"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesPlayStyle           AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "playStyle"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesProperties          AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "properties"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesReferenceName       AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "referenceName"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesSupportsPartyCode   AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "supportsPartyCode"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesVendorIdentifier    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "vendorIdentifier"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesVersions            AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesAchievements:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesAchievementsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesArchived:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesGameCenterGroup:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesLeaderboards:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesLeaderboardsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesMaximumPlayersCount:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesMinimumPlayersCount:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesPlayStyle:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesProperties:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesReferenceName:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesSupportsPartyCode:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesVendorIdentifier:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivitiesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesArchived         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "archived"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesChallengeType    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "challengeType"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesGameCenterDetail AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesGameCenterGroup  AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "gameCenterGroup"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesLeaderboard      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "leaderboard"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesLeaderboardV2    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "leaderboardV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesReferenceName    AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "referenceName"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesRepeatable       AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "repeatable"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesVendorIdentifier AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "vendorIdentifier"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesVersions         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges = "versions"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesArchived:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesChallengeType:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesGameCenterGroup:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesLeaderboard:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesLeaderboardV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesReferenceName:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesRepeatable:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesVendorIdentifier:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleasesGameCenterAchievement AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases = "gameCenterAchievement"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleasesGameCenterDetail      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleasesLive                  AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases = "live"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleasesGameCenterAchievement:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleasesGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleasesLive:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleases.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleasesVersion AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleases = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleases enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleases) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleasesVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleases.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleasesVersion AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleases = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleases enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleases) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleasesVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleasesGameCenterDetail      AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleasesGameCenterLeaderboard AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases = "gameCenterLeaderboard"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleasesLive                  AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases = "live"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleasesGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleasesGameCenterLeaderboard:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleasesLive:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleasesGameCenterDetail         AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases = "gameCenterDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleasesGameCenterLeaderboardSet AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases = "gameCenterLeaderboardSet"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleasesLive                     AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases = "live"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleasesGameCenterDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleasesGameCenterLeaderboardSet:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleasesLive:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "alternativeDistributionPackage"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsApp                            AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "app"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience       AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appClipDefaultExperience"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail           AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreReviewDetail"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreState                  AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreState"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments     AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperiments"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2   AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperimentsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations   AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionLocalizations"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease   AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionPhasedRelease"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission      AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appStoreVersionSubmission"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppVersionState                AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "appVersionState"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsBuild                          AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "build"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsCopyright                      AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "copyright"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsCreatedDate                    AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "createdDate"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsCustomerReviews                AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "customerReviews"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsDownloadable                   AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "downloadable"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate            AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "earliestReleaseDate"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion           AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "gameCenterAppVersion"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsPlatform                       AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "platform"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsReleaseType                    AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "releaseType"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsReviewType                     AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "reviewType"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage             AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "routingAppCoverage"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsUsesIdfa                       AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "usesIdfa"
+	AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsVersionString                  AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions = "versionString"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsApp:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreState:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsAppVersionState:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsBuild:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsCopyright:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsCreatedDate:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsCustomerReviews:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsDownloadable:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsPlatform:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsReleaseType:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsReviewType:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsUsesIdfa:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersionsVersionString:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppsGameCenterDetailGetToOneRelatedParamsInclude.
+const (
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeAchievementReleases               AppsGameCenterDetailGetToOneRelatedParamsInclude = "achievementReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeActivityReleases                  AppsGameCenterDetailGetToOneRelatedParamsInclude = "activityReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeApp                               AppsGameCenterDetailGetToOneRelatedParamsInclude = "app"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeChallengeReleases                 AppsGameCenterDetailGetToOneRelatedParamsInclude = "challengeReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeChallengesMinimumPlatformVersions AppsGameCenterDetailGetToOneRelatedParamsInclude = "challengesMinimumPlatformVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultGroupLeaderboard           AppsGameCenterDetailGetToOneRelatedParamsInclude = "defaultGroupLeaderboard"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultGroupLeaderboardV2         AppsGameCenterDetailGetToOneRelatedParamsInclude = "defaultGroupLeaderboardV2"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultLeaderboard                AppsGameCenterDetailGetToOneRelatedParamsInclude = "defaultLeaderboard"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultLeaderboardV2              AppsGameCenterDetailGetToOneRelatedParamsInclude = "defaultLeaderboardV2"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterAchievements            AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterAchievements"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterAchievementsV2          AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterAchievementsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterActivities              AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterActivities"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterAppVersions             AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterAppVersions"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterChallenges              AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterChallenges"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterGroup                   AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterGroup"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboardSets         AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterLeaderboardSets"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboardSetsV2       AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterLeaderboardSetsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboards            AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterLeaderboards"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboardsV2          AppsGameCenterDetailGetToOneRelatedParamsInclude = "gameCenterLeaderboardsV2"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeLeaderboardReleases               AppsGameCenterDetailGetToOneRelatedParamsInclude = "leaderboardReleases"
+	AppsGameCenterDetailGetToOneRelatedParamsIncludeLeaderboardSetReleases            AppsGameCenterDetailGetToOneRelatedParamsInclude = "leaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the AppsGameCenterDetailGetToOneRelatedParamsInclude enum.
+func (e AppsGameCenterDetailGetToOneRelatedParamsInclude) Valid() bool {
+	switch e {
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeAchievementReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeActivityReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeApp:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeChallengeReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeChallengesMinimumPlatformVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultGroupLeaderboard:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultGroupLeaderboardV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultLeaderboard:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeDefaultLeaderboardV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterAchievements:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterAchievementsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterActivities:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterAppVersions:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterChallenges:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterGroup:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboardSets:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboardSetsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboards:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeGameCenterLeaderboardsV2:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeLeaderboardReleases:
+		return true
+	case AppsGameCenterDetailGetToOneRelatedParamsIncludeLeaderboardSetReleases:
 		return true
 	default:
 		return false
@@ -49409,6 +51668,1005 @@ func (e DevicesGetInstanceParamsFieldsDevices) Valid() bool {
 	case DevicesGetInstanceParamsFieldsDevicesStatus:
 		return true
 	case DevicesGetInstanceParamsFieldsDevicesUdid:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions.
+const (
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersionsAppStoreVersion       GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions = "appStoreVersion"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersionsCompatibilityVersions GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions = "compatibilityVersions"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersionsEnabled               GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions = "enabled"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions enum.
+func (e GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersionsAppStoreVersion:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersionsCompatibilityVersions:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersionsEnabled:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions.
+const (
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "alternativeDistributionPackage"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsApp                            GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "app"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience       GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appClipDefaultExperience"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail           GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appStoreReviewDetail"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreState                  GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appStoreState"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments     GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperiments"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2   GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionExperimentsV2"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations   GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionLocalizations"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease   GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionPhasedRelease"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission      GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appStoreVersionSubmission"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppVersionState                GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "appVersionState"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsBuild                          GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "build"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsCopyright                      GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "copyright"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsCreatedDate                    GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "createdDate"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsCustomerReviews                GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "customerReviews"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsDownloadable                   GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "downloadable"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate            GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "earliestReleaseDate"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion           GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "gameCenterAppVersion"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsPlatform                       GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "platform"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsReleaseType                    GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "releaseType"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsReviewType                     GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "reviewType"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage             GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "routingAppCoverage"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsUsesIdfa                       GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "usesIdfa"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsVersionString                  GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions = "versionString"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions enum.
+func (e GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAlternativeDistributionPackage:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsApp:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppClipDefaultExperience:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreReviewDetail:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreState:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperiments:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionExperimentsV2:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionLocalizations:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionPhasedRelease:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppStoreVersionSubmission:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsAppVersionState:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsBuild:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsCopyright:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsCreatedDate:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsCustomerReviews:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsDownloadable:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsEarliestReleaseDate:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsGameCenterAppVersion:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsPlatform:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsReleaseType:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsReviewType:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsRoutingAppCoverage:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsUsesIdfa:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersionsVersionString:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude.
+const (
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsIncludeAppStoreVersion       GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude = "appStoreVersion"
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsIncludeCompatibilityVersions GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude = "compatibilityVersions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude enum.
+func (e GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsIncludeAppStoreVersion:
+		return true
+	case GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsIncludeCompatibilityVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups.
+const (
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterAchievements      GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterAchievements"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterAchievementsV2    GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterAchievementsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterActivities        GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterActivities"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterChallenges        GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterChallenges"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterDetails           GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterDetails"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboardSets   GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2 GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboards      GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterLeaderboards"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2    GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "gameCenterLeaderboardsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsReferenceName               GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups enum.
+func (e GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterAchievements:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterActivities:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterChallenges:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterDetails:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterGroupsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails.
+const (
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsAchievementReleases               GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "achievementReleases"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsActivityReleases                  GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "activityReleases"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsApp                               GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "app"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsArcadeEnabled                     GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "arcadeEnabled"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsBlockedPlayers                    GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "blockedPlayers"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsChallengeEnabled                  GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "challengeEnabled"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsChallengeReleases                 GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "challengeReleases"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "challengesMinimumPlatformVersions"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultGroupLeaderboard           GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "defaultGroupLeaderboard"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2         GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "defaultGroupLeaderboardV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultLeaderboard                GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "defaultLeaderboard"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultLeaderboardV2              GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "defaultLeaderboardV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterAchievements            GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterAchievements"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterAchievementsV2          GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterAchievementsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterActivities              GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterActivities"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterAppVersions             GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterAppVersions"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterChallenges              GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterChallenges"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterGroup                   GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterGroup"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboardSets         GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2       GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboards            GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterLeaderboards"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2          GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "gameCenterLeaderboardsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsLeaderboardReleases               GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "leaderboardReleases"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsLeaderboardSetReleases            GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails = "leaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails enum.
+func (e GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsAchievementReleases:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsActivityReleases:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsApp:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsArcadeEnabled:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsBlockedPlayers:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsChallengeEnabled:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsChallengeReleases:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultGroupLeaderboard:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultLeaderboard:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsDefaultLeaderboardV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterAchievements:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterActivities:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterAppVersions:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterChallenges:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsLeaderboardReleases:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterDetailsLeaderboardSetReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards.
+const (
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsActivity                   GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "activity"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsActivityProperties         GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "activityProperties"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsArchived                   GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "archived"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsChallenge                  GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "challenge"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsDefaultFormatter           GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "defaultFormatter"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterDetail           GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "gameCenterDetail"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterGroup            GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "gameCenterGroup"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterLeaderboardSets  GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterScoreModerations GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "gameCenterScoreModerations"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGroupLeaderboard           GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "groupLeaderboard"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsLocalizations              GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "localizations"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsRecurrenceDuration         GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "recurrenceDuration"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsRecurrenceRule             GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "recurrenceRule"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsRecurrenceStartDate        GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "recurrenceStartDate"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsReferenceName              GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "referenceName"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsReleases                   GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "releases"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsScoreRangeEnd              GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "scoreRangeEnd"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsScoreRangeStart            GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "scoreRangeStart"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsScoreSortType              GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "scoreSortType"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsSubmissionType             GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "submissionType"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsVendorIdentifier           GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "vendorIdentifier"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsVersions                   GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "versions"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsVisibility                 GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards = "visibility"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards enum.
+func (e GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsActivity:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsActivityProperties:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsArchived:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsChallenge:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsDefaultFormatter:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterDetail:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGameCenterScoreModerations:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsGroupLeaderboard:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsLocalizations:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsRecurrenceDuration:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsRecurrenceRule:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsRecurrenceStartDate:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsReferenceName:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsReleases:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsScoreRangeEnd:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsScoreRangeStart:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsScoreSortType:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsSubmissionType:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsVendorIdentifier:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsVersions:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardsVisibility:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets.
+const (
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGameCenterDetail       GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "gameCenterDetail"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGameCenterGroup        GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "gameCenterGroup"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGameCenterLeaderboards GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "gameCenterLeaderboards"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGroupLeaderboardSet    GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "groupLeaderboardSet"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsLocalizations          GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "localizations"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsReferenceName          GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "referenceName"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsReleases               GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "releases"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsVendorIdentifier       GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "vendorIdentifier"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsVersions               GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets enum.
+func (e GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGameCenterDetail:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsGroupLeaderboardSet:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsLocalizations:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsReferenceName:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsReleases:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsVendorIdentifier:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSetsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements.
+const (
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsActivity           GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "activity"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsActivityProperties GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "activityProperties"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsArchived           GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "archived"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsGameCenterDetail   GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "gameCenterDetail"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsGameCenterGroup    GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "gameCenterGroup"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsGroupAchievement   GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "groupAchievement"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsLocalizations      GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "localizations"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsPoints             GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "points"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsReferenceName      GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "referenceName"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsReleases           GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "releases"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsRepeatable         GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "repeatable"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsShowBeforeEarned   GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "showBeforeEarned"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsVendorIdentifier   GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "vendorIdentifier"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsVersions           GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements enum.
+func (e GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsActivity:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsActivityProperties:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsArchived:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsGameCenterDetail:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsGroupAchievement:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsLocalizations:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsPoints:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsReferenceName:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsReleases:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsRepeatable:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsShowBeforeEarned:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsVendorIdentifier:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievementsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities.
+const (
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesAchievements        GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "achievements"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesAchievementsV2      GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "achievementsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesArchived            GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "archived"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesGameCenterDetail    GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "gameCenterDetail"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesGameCenterGroup     GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "gameCenterGroup"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesLeaderboards        GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "leaderboards"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesLeaderboardsV2      GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "leaderboardsV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesMaximumPlayersCount GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "maximumPlayersCount"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesMinimumPlayersCount GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "minimumPlayersCount"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesPlayStyle           GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "playStyle"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesProperties          GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "properties"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesReferenceName       GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "referenceName"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesSupportsPartyCode   GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "supportsPartyCode"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesVendorIdentifier    GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "vendorIdentifier"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesVersions            GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities enum.
+func (e GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesAchievements:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesAchievementsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesArchived:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesGameCenterDetail:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesGameCenterGroup:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesLeaderboards:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesLeaderboardsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesMaximumPlayersCount:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesMinimumPlayersCount:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesPlayStyle:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesProperties:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesReferenceName:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesSupportsPartyCode:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesVendorIdentifier:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterActivitiesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges.
+const (
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesArchived         GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "archived"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesChallengeType    GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "challengeType"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesGameCenterDetail GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "gameCenterDetail"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesGameCenterGroup  GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "gameCenterGroup"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesLeaderboard      GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "leaderboard"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesLeaderboardV2    GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "leaderboardV2"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesReferenceName    GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "referenceName"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesRepeatable       GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "repeatable"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesVendorIdentifier GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "vendorIdentifier"
+	GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesVersions         GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges enum.
+func (e GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesArchived:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesChallengeType:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesGameCenterDetail:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesGameCenterGroup:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesLeaderboard:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesLeaderboardV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesReferenceName:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesRepeatable:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesVendorIdentifier:
+		return true
+	case GameCenterGroupsGetCollectionParamsFieldsGameCenterChallengesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetCollectionParamsInclude.
+const (
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterAchievements      GameCenterGroupsGetCollectionParamsInclude = "gameCenterAchievements"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterAchievementsV2    GameCenterGroupsGetCollectionParamsInclude = "gameCenterAchievementsV2"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterActivities        GameCenterGroupsGetCollectionParamsInclude = "gameCenterActivities"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterChallenges        GameCenterGroupsGetCollectionParamsInclude = "gameCenterChallenges"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterDetails           GameCenterGroupsGetCollectionParamsInclude = "gameCenterDetails"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboardSets   GameCenterGroupsGetCollectionParamsInclude = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboardSetsV2 GameCenterGroupsGetCollectionParamsInclude = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboards      GameCenterGroupsGetCollectionParamsInclude = "gameCenterLeaderboards"
+	GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboardsV2    GameCenterGroupsGetCollectionParamsInclude = "gameCenterLeaderboardsV2"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetCollectionParamsInclude enum.
+func (e GameCenterGroupsGetCollectionParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterAchievements:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterActivities:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterChallenges:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterDetails:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetCollectionParamsIncludeGameCenterLeaderboardsV2:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups.
+const (
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterAchievements      GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterAchievements"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterAchievementsV2    GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterAchievementsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterActivities        GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterActivities"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterChallenges        GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterChallenges"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterDetails           GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterDetails"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSets   GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2 GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboards      GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboards"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2    GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "gameCenterLeaderboardsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsReferenceName               GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups = "referenceName"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups enum.
+func (e GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterAchievements:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterActivities:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterChallenges:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterDetails:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterGroupsReferenceName:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails.
+const (
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsAchievementReleases               GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "achievementReleases"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsActivityReleases                  GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "activityReleases"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsApp                               GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "app"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsArcadeEnabled                     GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "arcadeEnabled"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsBlockedPlayers                    GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "blockedPlayers"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsChallengeEnabled                  GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "challengeEnabled"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsChallengeReleases                 GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "challengeReleases"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "challengesMinimumPlatformVersions"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboard           GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "defaultGroupLeaderboard"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2         GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "defaultGroupLeaderboardV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboard                GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "defaultLeaderboard"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboardV2              GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "defaultLeaderboardV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterAchievements            GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterAchievements"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterAchievementsV2          GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterAchievementsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterActivities              GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterActivities"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterAppVersions             GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterAppVersions"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterChallenges              GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterChallenges"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterGroup                   GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterGroup"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSets         GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2       GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboards            GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboards"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2          GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "gameCenterLeaderboardsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsLeaderboardReleases               GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "leaderboardReleases"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsLeaderboardSetReleases            GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails = "leaderboardSetReleases"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails enum.
+func (e GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsAchievementReleases:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsActivityReleases:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsApp:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsArcadeEnabled:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsBlockedPlayers:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsChallengeEnabled:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsChallengeReleases:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsChallengesMinimumPlatformVersions:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboard:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultGroupLeaderboardV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboard:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsDefaultLeaderboardV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterAchievements:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterActivities:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterAppVersions:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterChallenges:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsGameCenterLeaderboardsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsLeaderboardReleases:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterDetailsLeaderboardSetReleases:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards.
+const (
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsActivity                   GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "activity"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsActivityProperties         GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "activityProperties"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsArchived                   GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "archived"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsChallenge                  GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "challenge"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsDefaultFormatter           GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "defaultFormatter"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterDetail           GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "gameCenterDetail"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterGroup            GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "gameCenterGroup"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterLeaderboardSets  GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterScoreModerations GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "gameCenterScoreModerations"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGroupLeaderboard           GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "groupLeaderboard"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsLocalizations              GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "localizations"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsRecurrenceDuration         GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "recurrenceDuration"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsRecurrenceRule             GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "recurrenceRule"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsRecurrenceStartDate        GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "recurrenceStartDate"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsReferenceName              GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "referenceName"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsReleases                   GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "releases"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsScoreRangeEnd              GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "scoreRangeEnd"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsScoreRangeStart            GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "scoreRangeStart"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsScoreSortType              GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "scoreSortType"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsSubmissionType             GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "submissionType"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsVendorIdentifier           GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "vendorIdentifier"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsVersions                   GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "versions"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsVisibility                 GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards = "visibility"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards enum.
+func (e GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsActivity:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsActivityProperties:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsArchived:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsChallenge:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsDefaultFormatter:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterDetail:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGameCenterScoreModerations:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsGroupLeaderboard:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsLocalizations:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsRecurrenceDuration:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsRecurrenceRule:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsRecurrenceStartDate:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsReferenceName:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsReleases:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsScoreRangeEnd:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsScoreRangeStart:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsScoreSortType:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsSubmissionType:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsVendorIdentifier:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsVersions:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardsVisibility:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets.
+const (
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGameCenterDetail       GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "gameCenterDetail"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGameCenterGroup        GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "gameCenterGroup"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGameCenterLeaderboards GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "gameCenterLeaderboards"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGroupLeaderboardSet    GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "groupLeaderboardSet"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsLocalizations          GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "localizations"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsReferenceName          GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "referenceName"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsReleases               GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "releases"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsVendorIdentifier       GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "vendorIdentifier"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsVersions               GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets enum.
+func (e GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGameCenterDetail:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsGroupLeaderboardSet:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsLocalizations:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsReferenceName:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsReleases:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsVendorIdentifier:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSetsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements.
+const (
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsActivity           GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "activity"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsActivityProperties GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "activityProperties"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsArchived           GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "archived"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsGameCenterDetail   GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "gameCenterDetail"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsGameCenterGroup    GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "gameCenterGroup"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsGroupAchievement   GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "groupAchievement"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsLocalizations      GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "localizations"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsPoints             GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "points"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsReferenceName      GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "referenceName"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsReleases           GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "releases"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsRepeatable         GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "repeatable"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsShowBeforeEarned   GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "showBeforeEarned"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsVendorIdentifier   GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "vendorIdentifier"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsVersions           GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements enum.
+func (e GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsActivity:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsActivityProperties:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsArchived:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsGameCenterDetail:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsGameCenterGroup:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsGroupAchievement:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsLocalizations:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsPoints:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsReferenceName:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsReleases:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsRepeatable:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsShowBeforeEarned:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsVendorIdentifier:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievementsVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities.
+const (
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesAchievements        GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "achievements"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesAchievementsV2      GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "achievementsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesArchived            GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "archived"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesGameCenterDetail    GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "gameCenterDetail"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesGameCenterGroup     GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "gameCenterGroup"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesLeaderboards        GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "leaderboards"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesLeaderboardsV2      GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "leaderboardsV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesMaximumPlayersCount GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "maximumPlayersCount"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesMinimumPlayersCount GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "minimumPlayersCount"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesPlayStyle           GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "playStyle"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesProperties          GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "properties"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesReferenceName       GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "referenceName"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesSupportsPartyCode   GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "supportsPartyCode"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesVendorIdentifier    GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "vendorIdentifier"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesVersions            GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities enum.
+func (e GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesAchievements:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesAchievementsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesArchived:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesGameCenterDetail:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesGameCenterGroup:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesLeaderboards:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesLeaderboardsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesMaximumPlayersCount:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesMinimumPlayersCount:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesPlayStyle:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesProperties:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesReferenceName:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesSupportsPartyCode:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesVendorIdentifier:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterActivitiesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges.
+const (
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesArchived         GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "archived"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesChallengeType    GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "challengeType"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesGameCenterDetail GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "gameCenterDetail"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesGameCenterGroup  GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "gameCenterGroup"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesLeaderboard      GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "leaderboard"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesLeaderboardV2    GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "leaderboardV2"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesReferenceName    GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "referenceName"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesRepeatable       GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "repeatable"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesVendorIdentifier GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "vendorIdentifier"
+	GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesVersions         GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges = "versions"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges enum.
+func (e GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesArchived:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesChallengeType:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesGameCenterDetail:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesGameCenterGroup:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesLeaderboard:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesLeaderboardV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesReferenceName:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesRepeatable:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesVendorIdentifier:
+		return true
+	case GameCenterGroupsGetInstanceParamsFieldsGameCenterChallengesVersions:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for GameCenterGroupsGetInstanceParamsInclude.
+const (
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterAchievements      GameCenterGroupsGetInstanceParamsInclude = "gameCenterAchievements"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterAchievementsV2    GameCenterGroupsGetInstanceParamsInclude = "gameCenterAchievementsV2"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterActivities        GameCenterGroupsGetInstanceParamsInclude = "gameCenterActivities"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterChallenges        GameCenterGroupsGetInstanceParamsInclude = "gameCenterChallenges"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterDetails           GameCenterGroupsGetInstanceParamsInclude = "gameCenterDetails"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboardSets   GameCenterGroupsGetInstanceParamsInclude = "gameCenterLeaderboardSets"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboardSetsV2 GameCenterGroupsGetInstanceParamsInclude = "gameCenterLeaderboardSetsV2"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboards      GameCenterGroupsGetInstanceParamsInclude = "gameCenterLeaderboards"
+	GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboardsV2    GameCenterGroupsGetInstanceParamsInclude = "gameCenterLeaderboardsV2"
+)
+
+// Valid indicates whether the value is a known member of the GameCenterGroupsGetInstanceParamsInclude enum.
+func (e GameCenterGroupsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterAchievements:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterAchievementsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterActivities:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterChallenges:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterDetails:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboardSets:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboardSetsV2:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboards:
+		return true
+	case GameCenterGroupsGetInstanceParamsIncludeGameCenterLeaderboardsV2:
 		return true
 	default:
 		return false
@@ -70925,6 +74183,125 @@ type ErrorSourcePointer struct {
 // ExternalBetaState defines model for ExternalBetaState.
 type ExternalBetaState string
 
+// GameCenterAchievement defines model for GameCenterAchievement.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterAchievement struct {
+	Attributes *struct {
+		ActivityProperties *StringToStringMap `json:"activityProperties,omitempty"`
+		Archived           *bool              `json:"archived,omitempty"`
+		Points             *int               `json:"points,omitempty"`
+		ReferenceName      *string            `json:"referenceName,omitempty"`
+		Repeatable         *bool              `json:"repeatable,omitempty"`
+		ShowBeforeEarned   *bool              `json:"showBeforeEarned,omitempty"`
+		VendorIdentifier   *string            `json:"vendorIdentifier,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Activity *struct {
+			Data *struct {
+				Id   string                                             `json:"id"`
+				Type GameCenterAchievementRelationshipsActivityDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"activity,omitempty"`
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                     `json:"id"`
+				Type GameCenterAchievementRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterGroup *struct {
+			Data *struct {
+				Id   string                                                    `json:"id"`
+				Type GameCenterAchievementRelationshipsGameCenterGroupDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterGroup,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		GroupAchievement *struct {
+			Data *struct {
+				Id   string                                                     `json:"id"`
+				Type GameCenterAchievementRelationshipsGroupAchievementDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"groupAchievement,omitempty"`
+		Localizations *struct {
+			Data *[]struct {
+				Id   string                                                  `json:"id"`
+				Type GameCenterAchievementRelationshipsLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"localizations,omitempty"`
+		Releases *struct {
+			Data *[]struct {
+				Id   string                                             `json:"id"`
+				Type GameCenterAchievementRelationshipsReleasesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"releases,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterAchievementType `json:"type"`
+}
+
+// GameCenterAchievementRelationshipsActivityDataType defines model for GameCenterAchievement.Relationships.Activity.Data.Type.
+type GameCenterAchievementRelationshipsActivityDataType string
+
+// GameCenterAchievementRelationshipsGameCenterDetailDataType defines model for GameCenterAchievement.Relationships.GameCenterDetail.Data.Type.
+type GameCenterAchievementRelationshipsGameCenterDetailDataType string
+
+// GameCenterAchievementRelationshipsGameCenterGroupDataType defines model for GameCenterAchievement.Relationships.GameCenterGroup.Data.Type.
+type GameCenterAchievementRelationshipsGameCenterGroupDataType string
+
+// GameCenterAchievementRelationshipsGroupAchievementDataType defines model for GameCenterAchievement.Relationships.GroupAchievement.Data.Type.
+type GameCenterAchievementRelationshipsGroupAchievementDataType string
+
+// GameCenterAchievementRelationshipsLocalizationsDataType defines model for GameCenterAchievement.Relationships.Localizations.Data.Type.
+type GameCenterAchievementRelationshipsLocalizationsDataType string
+
+// GameCenterAchievementRelationshipsReleasesDataType defines model for GameCenterAchievement.Relationships.Releases.Data.Type.
+type GameCenterAchievementRelationshipsReleasesDataType string
+
+// GameCenterAchievementType defines model for GameCenterAchievement.Type.
+type GameCenterAchievementType string
+
+// GameCenterAchievementRelease defines model for GameCenterAchievementRelease.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterAchievementRelease struct {
+	Attributes *struct {
+		Live *bool `json:"live,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		GameCenterAchievement *struct {
+			Data *struct {
+				Id   string                                                                 `json:"id"`
+				Type GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterAchievement,omitempty"`
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                            `json:"id"`
+				Type GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterAchievementReleaseType `json:"type"`
+}
+
+// GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType defines model for GameCenterAchievementRelease.Relationships.GameCenterAchievement.Data.Type.
+type GameCenterAchievementReleaseRelationshipsGameCenterAchievementDataType string
+
+// GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType defines model for GameCenterAchievementRelease.Relationships.GameCenterDetail.Data.Type.
+type GameCenterAchievementReleaseRelationshipsGameCenterDetailDataType string
+
+// GameCenterAchievementReleaseType defines model for GameCenterAchievementRelease.Type.
+type GameCenterAchievementReleaseType string
+
 // GameCenterAchievementVersionV2 defines model for GameCenterAchievementVersionV2.
 type GameCenterAchievementVersionV2 struct {
 	Attributes *struct {
@@ -70960,6 +74337,106 @@ type GameCenterAchievementVersionV2RelationshipsLocalizationsDataType string
 
 // GameCenterAchievementVersionV2Type defines model for GameCenterAchievementVersionV2.Type.
 type GameCenterAchievementVersionV2Type string
+
+// GameCenterActivity defines model for GameCenterActivity.
+type GameCenterActivity struct {
+	Attributes *struct {
+		Archived            *bool                                  `json:"archived,omitempty"`
+		MaximumPlayersCount *int                                   `json:"maximumPlayersCount,omitempty"`
+		MinimumPlayersCount *int                                   `json:"minimumPlayersCount,omitempty"`
+		PlayStyle           *GameCenterActivityAttributesPlayStyle `json:"playStyle,omitempty"`
+		Properties          *StringToStringMap                     `json:"properties,omitempty"`
+		ReferenceName       *string                                `json:"referenceName,omitempty"`
+		SupportsPartyCode   *bool                                  `json:"supportsPartyCode,omitempty"`
+		VendorIdentifier    *string                                `json:"vendorIdentifier,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		Achievements *struct {
+			Data *[]struct {
+				Id   string                                              `json:"id"`
+				Type GameCenterActivityRelationshipsAchievementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"achievements,omitempty"`
+		AchievementsV2 *struct {
+			Data *[]struct {
+				Id   string                                                `json:"id"`
+				Type GameCenterActivityRelationshipsAchievementsV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"achievementsV2,omitempty"`
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                  `json:"id"`
+				Type GameCenterActivityRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterGroup *struct {
+			Data *struct {
+				Id   string                                                 `json:"id"`
+				Type GameCenterActivityRelationshipsGameCenterGroupDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterGroup,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		Leaderboards *struct {
+			Data *[]struct {
+				Id   string                                              `json:"id"`
+				Type GameCenterActivityRelationshipsLeaderboardsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"leaderboards,omitempty"`
+		LeaderboardsV2 *struct {
+			Data *[]struct {
+				Id   string                                                `json:"id"`
+				Type GameCenterActivityRelationshipsLeaderboardsV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"leaderboardsV2,omitempty"`
+		Versions *struct {
+			Data *[]struct {
+				Id   string                                          `json:"id"`
+				Type GameCenterActivityRelationshipsVersionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"versions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterActivityType `json:"type"`
+}
+
+// GameCenterActivityAttributesPlayStyle defines model for GameCenterActivity.Attributes.PlayStyle.
+type GameCenterActivityAttributesPlayStyle string
+
+// GameCenterActivityRelationshipsAchievementsDataType defines model for GameCenterActivity.Relationships.Achievements.Data.Type.
+type GameCenterActivityRelationshipsAchievementsDataType string
+
+// GameCenterActivityRelationshipsAchievementsV2DataType defines model for GameCenterActivity.Relationships.AchievementsV2.Data.Type.
+type GameCenterActivityRelationshipsAchievementsV2DataType string
+
+// GameCenterActivityRelationshipsGameCenterDetailDataType defines model for GameCenterActivity.Relationships.GameCenterDetail.Data.Type.
+type GameCenterActivityRelationshipsGameCenterDetailDataType string
+
+// GameCenterActivityRelationshipsGameCenterGroupDataType defines model for GameCenterActivity.Relationships.GameCenterGroup.Data.Type.
+type GameCenterActivityRelationshipsGameCenterGroupDataType string
+
+// GameCenterActivityRelationshipsLeaderboardsDataType defines model for GameCenterActivity.Relationships.Leaderboards.Data.Type.
+type GameCenterActivityRelationshipsLeaderboardsDataType string
+
+// GameCenterActivityRelationshipsLeaderboardsV2DataType defines model for GameCenterActivity.Relationships.LeaderboardsV2.Data.Type.
+type GameCenterActivityRelationshipsLeaderboardsV2DataType string
+
+// GameCenterActivityRelationshipsVersionsDataType defines model for GameCenterActivity.Relationships.Versions.Data.Type.
+type GameCenterActivityRelationshipsVersionsDataType string
+
+// GameCenterActivityType defines model for GameCenterActivity.Type.
+type GameCenterActivityType string
 
 // GameCenterActivityVersion defines model for GameCenterActivityVersion.
 type GameCenterActivityVersion struct {
@@ -71018,6 +74495,29 @@ type GameCenterActivityVersionRelationshipsReleasesDataType string
 // GameCenterActivityVersionType defines model for GameCenterActivityVersion.Type.
 type GameCenterActivityVersionType string
 
+// GameCenterActivityVersionRelease defines model for GameCenterActivityVersionRelease.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterActivityVersionRelease struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Version *struct {
+			Data *struct {
+				Id   string                                                       `json:"id"`
+				Type GameCenterActivityVersionReleaseRelationshipsVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"version,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterActivityVersionReleaseType `json:"type"`
+}
+
+// GameCenterActivityVersionReleaseRelationshipsVersionDataType defines model for GameCenterActivityVersionRelease.Relationships.Version.Data.Type.
+type GameCenterActivityVersionReleaseRelationshipsVersionDataType string
+
+// GameCenterActivityVersionReleaseType defines model for GameCenterActivityVersionRelease.Type.
+type GameCenterActivityVersionReleaseType string
+
 // GameCenterAppVersion defines model for GameCenterAppVersion.
 type GameCenterAppVersion struct {
 	Attributes *struct {
@@ -71053,6 +74553,162 @@ type GameCenterAppVersionRelationshipsCompatibilityVersionsDataType string
 
 // GameCenterAppVersionType defines model for GameCenterAppVersion.Type.
 type GameCenterAppVersionType string
+
+// GameCenterAppVersionCompatibilityVersionsLinkagesRequest defines model for GameCenterAppVersionCompatibilityVersionsLinkagesRequest.
+type GameCenterAppVersionCompatibilityVersionsLinkagesRequest struct {
+	Data []struct {
+		Id   string                                                           `json:"id"`
+		Type GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataType defines model for GameCenterAppVersionCompatibilityVersionsLinkagesRequest.Data.Type.
+type GameCenterAppVersionCompatibilityVersionsLinkagesRequestDataType string
+
+// GameCenterAppVersionCompatibilityVersionsLinkagesResponse defines model for GameCenterAppVersionCompatibilityVersionsLinkagesResponse.
+type GameCenterAppVersionCompatibilityVersionsLinkagesResponse struct {
+	Data []struct {
+		Id   string                                                            `json:"id"`
+		Type GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataType `json:"type"`
+	} `json:"data"`
+	Links PagedDocumentLinks `json:"links"`
+	Meta  *PagingInformation `json:"meta,omitempty"`
+}
+
+// GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataType defines model for GameCenterAppVersionCompatibilityVersionsLinkagesResponse.Data.Type.
+type GameCenterAppVersionCompatibilityVersionsLinkagesResponseDataType string
+
+// GameCenterAppVersionCreateRequest defines model for GameCenterAppVersionCreateRequest.
+type GameCenterAppVersionCreateRequest struct {
+	Data struct {
+		Relationships struct {
+			AppStoreVersion struct {
+				Data struct {
+					Id   string                                                                    `json:"id"`
+					Type GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appStoreVersion"`
+		} `json:"relationships"`
+		Type GameCenterAppVersionCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataType defines model for GameCenterAppVersionCreateRequest.Data.Relationships.AppStoreVersion.Data.Type.
+type GameCenterAppVersionCreateRequestDataRelationshipsAppStoreVersionDataType string
+
+// GameCenterAppVersionCreateRequestDataType defines model for GameCenterAppVersionCreateRequest.Data.Type.
+type GameCenterAppVersionCreateRequestDataType string
+
+// GameCenterAppVersionResponse defines model for GameCenterAppVersionResponse.
+type GameCenterAppVersionResponse struct {
+	Data     GameCenterAppVersion                          `json:"data"`
+	Included *[]GameCenterAppVersionResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                 `json:"links"`
+}
+
+// GameCenterAppVersionResponse_Included_Item defines model for GameCenterAppVersionResponse.included.Item.
+type GameCenterAppVersionResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterAppVersionUpdateRequest defines model for GameCenterAppVersionUpdateRequest.
+type GameCenterAppVersionUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Enabled *bool `json:"enabled,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                    `json:"id"`
+		Type GameCenterAppVersionUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterAppVersionUpdateRequestDataType defines model for GameCenterAppVersionUpdateRequest.Data.Type.
+type GameCenterAppVersionUpdateRequestDataType string
+
+// GameCenterAppVersionsResponse defines model for GameCenterAppVersionsResponse.
+type GameCenterAppVersionsResponse struct {
+	Data     []GameCenterAppVersion                         `json:"data"`
+	Included *[]GameCenterAppVersionsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                             `json:"links"`
+	Meta     *PagingInformation                             `json:"meta,omitempty"`
+}
+
+// GameCenterAppVersionsResponse_Included_Item defines model for GameCenterAppVersionsResponse.included.Item.
+type GameCenterAppVersionsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterChallenge defines model for GameCenterChallenge.
+type GameCenterChallenge struct {
+	Attributes *struct {
+		Archived         *bool                                       `json:"archived,omitempty"`
+		ChallengeType    *GameCenterChallengeAttributesChallengeType `json:"challengeType,omitempty"`
+		ReferenceName    *string                                     `json:"referenceName,omitempty"`
+		Repeatable       *bool                                       `json:"repeatable,omitempty"`
+		VendorIdentifier *string                                     `json:"vendorIdentifier,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                   `json:"id"`
+				Type GameCenterChallengeRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterGroup *struct {
+			Data *struct {
+				Id   string                                                  `json:"id"`
+				Type GameCenterChallengeRelationshipsGameCenterGroupDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterGroup,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		Leaderboard *struct {
+			Data *struct {
+				Id   string                                              `json:"id"`
+				Type GameCenterChallengeRelationshipsLeaderboardDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"leaderboard,omitempty"`
+		LeaderboardV2 *struct {
+			Data *struct {
+				Id   string                                                `json:"id"`
+				Type GameCenterChallengeRelationshipsLeaderboardV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"leaderboardV2,omitempty"`
+		Versions *struct {
+			Data *[]struct {
+				Id   string                                           `json:"id"`
+				Type GameCenterChallengeRelationshipsVersionsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"versions,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterChallengeType `json:"type"`
+}
+
+// GameCenterChallengeAttributesChallengeType defines model for GameCenterChallenge.Attributes.ChallengeType.
+type GameCenterChallengeAttributesChallengeType string
+
+// GameCenterChallengeRelationshipsGameCenterDetailDataType defines model for GameCenterChallenge.Relationships.GameCenterDetail.Data.Type.
+type GameCenterChallengeRelationshipsGameCenterDetailDataType string
+
+// GameCenterChallengeRelationshipsGameCenterGroupDataType defines model for GameCenterChallenge.Relationships.GameCenterGroup.Data.Type.
+type GameCenterChallengeRelationshipsGameCenterGroupDataType string
+
+// GameCenterChallengeRelationshipsLeaderboardDataType defines model for GameCenterChallenge.Relationships.Leaderboard.Data.Type.
+type GameCenterChallengeRelationshipsLeaderboardDataType string
+
+// GameCenterChallengeRelationshipsLeaderboardV2DataType defines model for GameCenterChallenge.Relationships.LeaderboardV2.Data.Type.
+type GameCenterChallengeRelationshipsLeaderboardV2DataType string
+
+// GameCenterChallengeRelationshipsVersionsDataType defines model for GameCenterChallenge.Relationships.Versions.Data.Type.
+type GameCenterChallengeRelationshipsVersionsDataType string
+
+// GameCenterChallengeType defines model for GameCenterChallenge.Type.
+type GameCenterChallengeType string
 
 // GameCenterChallengeVersion defines model for GameCenterChallengeVersion.
 type GameCenterChallengeVersion struct {
@@ -71109,6 +74765,29 @@ type GameCenterChallengeVersionRelationshipsReleasesDataType string
 
 // GameCenterChallengeVersionType defines model for GameCenterChallengeVersion.Type.
 type GameCenterChallengeVersionType string
+
+// GameCenterChallengeVersionRelease defines model for GameCenterChallengeVersionRelease.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterChallengeVersionRelease struct {
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Version *struct {
+			Data *struct {
+				Id   string                                                        `json:"id"`
+				Type GameCenterChallengeVersionReleaseRelationshipsVersionDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"version,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterChallengeVersionReleaseType `json:"type"`
+}
+
+// GameCenterChallengeVersionReleaseRelationshipsVersionDataType defines model for GameCenterChallengeVersionRelease.Relationships.Version.Data.Type.
+type GameCenterChallengeVersionReleaseRelationshipsVersionDataType string
+
+// GameCenterChallengeVersionReleaseType defines model for GameCenterChallengeVersionRelease.Type.
+type GameCenterChallengeVersionReleaseType string
 
 // GameCenterDetail defines model for GameCenterDetail.
 type GameCenterDetail struct {
@@ -71360,6 +75039,107 @@ type GameCenterDetailRelationshipsLeaderboardSetReleasesDataType string
 // GameCenterDetailType defines model for GameCenterDetail.Type.
 type GameCenterDetailType string
 
+// GameCenterDetailCreateRequest defines model for GameCenterDetailCreateRequest.
+type GameCenterDetailCreateRequest struct {
+	Data struct {
+		Attributes *struct {
+			// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+			ChallengeEnabled *bool `json:"challengeEnabled,omitempty"`
+		} `json:"attributes,omitempty"`
+		Relationships struct {
+			App struct {
+				Data struct {
+					Id   string                                                    `json:"id"`
+					Type GameCenterDetailCreateRequestDataRelationshipsAppDataType `json:"type"`
+				} `json:"data"`
+			} `json:"app"`
+		} `json:"relationships"`
+		Type GameCenterDetailCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterDetailCreateRequestDataRelationshipsAppDataType defines model for GameCenterDetailCreateRequest.Data.Relationships.App.Data.Type.
+type GameCenterDetailCreateRequestDataRelationshipsAppDataType string
+
+// GameCenterDetailCreateRequestDataType defines model for GameCenterDetailCreateRequest.Data.Type.
+type GameCenterDetailCreateRequestDataType string
+
+// GameCenterDetailResponse defines model for GameCenterDetailResponse.
+type GameCenterDetailResponse struct {
+	Data     GameCenterDetail                          `json:"data"`
+	Included *[]GameCenterDetailResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                             `json:"links"`
+}
+
+// GameCenterDetailResponse_Included_Item defines model for GameCenterDetailResponse.included.Item.
+type GameCenterDetailResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterDetailUpdateRequest defines model for GameCenterDetailUpdateRequest.
+type GameCenterDetailUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+			ChallengeEnabled *bool `json:"challengeEnabled,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+			DefaultGroupLeaderboard *struct {
+				Data *struct {
+					Id   string                                                                        `json:"id"`
+					Type GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"defaultGroupLeaderboard,omitempty"`
+			DefaultGroupLeaderboardV2 *struct {
+				Data *struct {
+					Id   string                                                                          `json:"id"`
+					Type GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"defaultGroupLeaderboardV2,omitempty"`
+			// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+			DefaultLeaderboard *struct {
+				Data *struct {
+					Id   string                                                                   `json:"id"`
+					Type GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"defaultLeaderboard,omitempty"`
+			DefaultLeaderboardV2 *struct {
+				Data *struct {
+					Id   string                                                                     `json:"id"`
+					Type GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"defaultLeaderboardV2,omitempty"`
+			GameCenterGroup *struct {
+				Data *struct {
+					Id   string                                                                `json:"id"`
+					Type GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"gameCenterGroup,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type GameCenterDetailUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataType defines model for GameCenterDetailUpdateRequest.Data.Relationships.DefaultGroupLeaderboard.Data.Type.
+type GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardDataType string
+
+// GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataType defines model for GameCenterDetailUpdateRequest.Data.Relationships.DefaultGroupLeaderboardV2.Data.Type.
+type GameCenterDetailUpdateRequestDataRelationshipsDefaultGroupLeaderboardV2DataType string
+
+// GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataType defines model for GameCenterDetailUpdateRequest.Data.Relationships.DefaultLeaderboard.Data.Type.
+type GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardDataType string
+
+// GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataType defines model for GameCenterDetailUpdateRequest.Data.Relationships.DefaultLeaderboardV2.Data.Type.
+type GameCenterDetailUpdateRequestDataRelationshipsDefaultLeaderboardV2DataType string
+
+// GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataType defines model for GameCenterDetailUpdateRequest.Data.Relationships.GameCenterGroup.Data.Type.
+type GameCenterDetailUpdateRequestDataRelationshipsGameCenterGroupDataType string
+
+// GameCenterDetailUpdateRequestDataType defines model for GameCenterDetailUpdateRequest.Data.Type.
+type GameCenterDetailUpdateRequestDataType string
+
 // GameCenterEnabledVersion defines model for GameCenterEnabledVersion.
 //
 // Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
@@ -71398,6 +75178,447 @@ type GameCenterEnabledVersionRelationshipsCompatibleVersionsDataType string
 
 // GameCenterEnabledVersionType defines model for GameCenterEnabledVersion.Type.
 type GameCenterEnabledVersionType string
+
+// GameCenterGroup defines model for GameCenterGroup.
+type GameCenterGroup struct {
+	Attributes *struct {
+		ReferenceName *string `json:"referenceName,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		GameCenterAchievements *struct {
+			Data *[]struct {
+				Id   string                                                     `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterAchievementsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterAchievements,omitempty"`
+		GameCenterAchievementsV2 *struct {
+			Data *[]struct {
+				Id   string                                                       `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterAchievementsV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterAchievementsV2,omitempty"`
+		GameCenterActivities *struct {
+			Data *[]struct {
+				Id   string                                                   `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterActivitiesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterActivities,omitempty"`
+		GameCenterChallenges *struct {
+			Data *[]struct {
+				Id   string                                                   `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterChallengesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterChallenges,omitempty"`
+		GameCenterDetails *struct {
+			Data *[]struct {
+				Id   string                                                `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterDetailsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterDetails,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		GameCenterLeaderboardSets *struct {
+			Data *[]struct {
+				Id   string                                                        `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterLeaderboardSets,omitempty"`
+		GameCenterLeaderboardSetsV2 *struct {
+			Data *[]struct {
+				Id   string                                                          `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterLeaderboardSetsV2,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		GameCenterLeaderboards *struct {
+			Data *[]struct {
+				Id   string                                                     `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterLeaderboardsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterLeaderboards,omitempty"`
+		GameCenterLeaderboardsV2 *struct {
+			Data *[]struct {
+				Id   string                                                       `json:"id"`
+				Type GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterLeaderboardsV2,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterGroupType `json:"type"`
+}
+
+// GameCenterGroupRelationshipsGameCenterAchievementsDataType defines model for GameCenterGroup.Relationships.GameCenterAchievements.Data.Type.
+type GameCenterGroupRelationshipsGameCenterAchievementsDataType string
+
+// GameCenterGroupRelationshipsGameCenterAchievementsV2DataType defines model for GameCenterGroup.Relationships.GameCenterAchievementsV2.Data.Type.
+type GameCenterGroupRelationshipsGameCenterAchievementsV2DataType string
+
+// GameCenterGroupRelationshipsGameCenterActivitiesDataType defines model for GameCenterGroup.Relationships.GameCenterActivities.Data.Type.
+type GameCenterGroupRelationshipsGameCenterActivitiesDataType string
+
+// GameCenterGroupRelationshipsGameCenterChallengesDataType defines model for GameCenterGroup.Relationships.GameCenterChallenges.Data.Type.
+type GameCenterGroupRelationshipsGameCenterChallengesDataType string
+
+// GameCenterGroupRelationshipsGameCenterDetailsDataType defines model for GameCenterGroup.Relationships.GameCenterDetails.Data.Type.
+type GameCenterGroupRelationshipsGameCenterDetailsDataType string
+
+// GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataType defines model for GameCenterGroup.Relationships.GameCenterLeaderboardSets.Data.Type.
+type GameCenterGroupRelationshipsGameCenterLeaderboardSetsDataType string
+
+// GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataType defines model for GameCenterGroup.Relationships.GameCenterLeaderboardSetsV2.Data.Type.
+type GameCenterGroupRelationshipsGameCenterLeaderboardSetsV2DataType string
+
+// GameCenterGroupRelationshipsGameCenterLeaderboardsDataType defines model for GameCenterGroup.Relationships.GameCenterLeaderboards.Data.Type.
+type GameCenterGroupRelationshipsGameCenterLeaderboardsDataType string
+
+// GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataType defines model for GameCenterGroup.Relationships.GameCenterLeaderboardsV2.Data.Type.
+type GameCenterGroupRelationshipsGameCenterLeaderboardsV2DataType string
+
+// GameCenterGroupType defines model for GameCenterGroup.Type.
+type GameCenterGroupType string
+
+// GameCenterGroupCreateRequest defines model for GameCenterGroupCreateRequest.
+type GameCenterGroupCreateRequest struct {
+	Data struct {
+		Attributes *struct {
+			ReferenceName *string `json:"referenceName,omitempty"`
+		} `json:"attributes,omitempty"`
+		Type GameCenterGroupCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterGroupCreateRequestDataType defines model for GameCenterGroupCreateRequest.Data.Type.
+type GameCenterGroupCreateRequestDataType string
+
+// GameCenterGroupResponse defines model for GameCenterGroupResponse.
+type GameCenterGroupResponse struct {
+	Data     GameCenterGroup                          `json:"data"`
+	Included *[]GameCenterGroupResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                            `json:"links"`
+}
+
+// GameCenterGroupResponse_Included_Item defines model for GameCenterGroupResponse.included.Item.
+type GameCenterGroupResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterGroupUpdateRequest defines model for GameCenterGroupUpdateRequest.
+type GameCenterGroupUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			ReferenceName *string `json:"referenceName,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                               `json:"id"`
+		Type GameCenterGroupUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// GameCenterGroupUpdateRequestDataType defines model for GameCenterGroupUpdateRequest.Data.Type.
+type GameCenterGroupUpdateRequestDataType string
+
+// GameCenterGroupsResponse defines model for GameCenterGroupsResponse.
+type GameCenterGroupsResponse struct {
+	Data     []GameCenterGroup                         `json:"data"`
+	Included *[]GameCenterGroupsResponse_Included_Item `json:"included,omitempty"`
+	Links    PagedDocumentLinks                        `json:"links"`
+	Meta     *PagingInformation                        `json:"meta,omitempty"`
+}
+
+// GameCenterGroupsResponse_Included_Item defines model for GameCenterGroupsResponse.included.Item.
+type GameCenterGroupsResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// GameCenterLeaderboard defines model for GameCenterLeaderboard.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterLeaderboard struct {
+	Attributes *struct {
+		ActivityProperties  *StringToStringMap                             `json:"activityProperties,omitempty"`
+		Archived            *bool                                          `json:"archived,omitempty"`
+		DefaultFormatter    *GameCenterLeaderboardFormatter                `json:"defaultFormatter,omitempty"`
+		RecurrenceDuration  *openapi_types.Duration                        `json:"recurrenceDuration,omitempty"`
+		RecurrenceRule      *string                                        `json:"recurrenceRule,omitempty"`
+		RecurrenceStartDate *DateTime                                      `json:"recurrenceStartDate,omitempty"`
+		ReferenceName       *string                                        `json:"referenceName,omitempty"`
+		ScoreRangeEnd       *string                                        `json:"scoreRangeEnd,omitempty"`
+		ScoreRangeStart     *string                                        `json:"scoreRangeStart,omitempty"`
+		ScoreSortType       *GameCenterLeaderboardAttributesScoreSortType  `json:"scoreSortType,omitempty"`
+		SubmissionType      *GameCenterLeaderboardAttributesSubmissionType `json:"submissionType,omitempty"`
+		VendorIdentifier    *string                                        `json:"vendorIdentifier,omitempty"`
+		Visibility          *GameCenterLeaderboardAttributesVisibility     `json:"visibility,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		Activity *struct {
+			Data *struct {
+				Id   string                                             `json:"id"`
+				Type GameCenterLeaderboardRelationshipsActivityDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"activity,omitempty"`
+		Challenge *struct {
+			Data *struct {
+				Id   string                                              `json:"id"`
+				Type GameCenterLeaderboardRelationshipsChallengeDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"challenge,omitempty"`
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                     `json:"id"`
+				Type GameCenterLeaderboardRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterGroup *struct {
+			Data *struct {
+				Id   string                                                    `json:"id"`
+				Type GameCenterLeaderboardRelationshipsGameCenterGroupDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterGroup,omitempty"`
+		GameCenterLeaderboardSets *struct {
+			Data *[]struct {
+				Id   string                                                              `json:"id"`
+				Type GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Meta *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterLeaderboardSets,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		GroupLeaderboard *struct {
+			Data *struct {
+				Id   string                                                     `json:"id"`
+				Type GameCenterLeaderboardRelationshipsGroupLeaderboardDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"groupLeaderboard,omitempty"`
+		Localizations *struct {
+			Data *[]struct {
+				Id   string                                                  `json:"id"`
+				Type GameCenterLeaderboardRelationshipsLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"localizations,omitempty"`
+		Releases *struct {
+			Data *[]struct {
+				Id   string                                             `json:"id"`
+				Type GameCenterLeaderboardRelationshipsReleasesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"releases,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterLeaderboardType `json:"type"`
+}
+
+// GameCenterLeaderboardAttributesScoreSortType defines model for GameCenterLeaderboard.Attributes.ScoreSortType.
+type GameCenterLeaderboardAttributesScoreSortType string
+
+// GameCenterLeaderboardAttributesSubmissionType defines model for GameCenterLeaderboard.Attributes.SubmissionType.
+type GameCenterLeaderboardAttributesSubmissionType string
+
+// GameCenterLeaderboardAttributesVisibility defines model for GameCenterLeaderboard.Attributes.Visibility.
+type GameCenterLeaderboardAttributesVisibility string
+
+// GameCenterLeaderboardRelationshipsActivityDataType defines model for GameCenterLeaderboard.Relationships.Activity.Data.Type.
+type GameCenterLeaderboardRelationshipsActivityDataType string
+
+// GameCenterLeaderboardRelationshipsChallengeDataType defines model for GameCenterLeaderboard.Relationships.Challenge.Data.Type.
+type GameCenterLeaderboardRelationshipsChallengeDataType string
+
+// GameCenterLeaderboardRelationshipsGameCenterDetailDataType defines model for GameCenterLeaderboard.Relationships.GameCenterDetail.Data.Type.
+type GameCenterLeaderboardRelationshipsGameCenterDetailDataType string
+
+// GameCenterLeaderboardRelationshipsGameCenterGroupDataType defines model for GameCenterLeaderboard.Relationships.GameCenterGroup.Data.Type.
+type GameCenterLeaderboardRelationshipsGameCenterGroupDataType string
+
+// GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataType defines model for GameCenterLeaderboard.Relationships.GameCenterLeaderboardSets.Data.Type.
+type GameCenterLeaderboardRelationshipsGameCenterLeaderboardSetsDataType string
+
+// GameCenterLeaderboardRelationshipsGroupLeaderboardDataType defines model for GameCenterLeaderboard.Relationships.GroupLeaderboard.Data.Type.
+type GameCenterLeaderboardRelationshipsGroupLeaderboardDataType string
+
+// GameCenterLeaderboardRelationshipsLocalizationsDataType defines model for GameCenterLeaderboard.Relationships.Localizations.Data.Type.
+type GameCenterLeaderboardRelationshipsLocalizationsDataType string
+
+// GameCenterLeaderboardRelationshipsReleasesDataType defines model for GameCenterLeaderboard.Relationships.Releases.Data.Type.
+type GameCenterLeaderboardRelationshipsReleasesDataType string
+
+// GameCenterLeaderboardType defines model for GameCenterLeaderboard.Type.
+type GameCenterLeaderboardType string
+
+// GameCenterLeaderboardFormatter defines model for GameCenterLeaderboardFormatter.
+type GameCenterLeaderboardFormatter string
+
+// GameCenterLeaderboardRelease defines model for GameCenterLeaderboardRelease.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterLeaderboardRelease struct {
+	Attributes *struct {
+		Live *bool `json:"live,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                            `json:"id"`
+				Type GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterLeaderboard *struct {
+			Data *struct {
+				Id   string                                                                 `json:"id"`
+				Type GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterLeaderboard,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterLeaderboardReleaseType `json:"type"`
+}
+
+// GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataType defines model for GameCenterLeaderboardRelease.Relationships.GameCenterDetail.Data.Type.
+type GameCenterLeaderboardReleaseRelationshipsGameCenterDetailDataType string
+
+// GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataType defines model for GameCenterLeaderboardRelease.Relationships.GameCenterLeaderboard.Data.Type.
+type GameCenterLeaderboardReleaseRelationshipsGameCenterLeaderboardDataType string
+
+// GameCenterLeaderboardReleaseType defines model for GameCenterLeaderboardRelease.Type.
+type GameCenterLeaderboardReleaseType string
+
+// GameCenterLeaderboardSet defines model for GameCenterLeaderboardSet.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterLeaderboardSet struct {
+	Attributes *struct {
+		ReferenceName    *string `json:"referenceName,omitempty"`
+		VendorIdentifier *string `json:"vendorIdentifier,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                        `json:"id"`
+				Type GameCenterLeaderboardSetRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterGroup *struct {
+			Data *struct {
+				Id   string                                                       `json:"id"`
+				Type GameCenterLeaderboardSetRelationshipsGameCenterGroupDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterGroup,omitempty"`
+		GameCenterLeaderboards *struct {
+			Data *[]struct {
+				Id   string                                                              `json:"id"`
+				Type GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"gameCenterLeaderboards,omitempty"`
+		// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+		GroupLeaderboardSet *struct {
+			Data *struct {
+				Id   string                                                           `json:"id"`
+				Type GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+		} `json:"groupLeaderboardSet,omitempty"`
+		Localizations *struct {
+			Data *[]struct {
+				Id   string                                                     `json:"id"`
+				Type GameCenterLeaderboardSetRelationshipsLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"localizations,omitempty"`
+		Releases *struct {
+			Data *[]struct {
+				Id   string                                                `json:"id"`
+				Type GameCenterLeaderboardSetRelationshipsReleasesDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Links *RelationshipLinks `json:"links,omitempty"`
+			Meta  *PagingInformation `json:"meta,omitempty"`
+		} `json:"releases,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterLeaderboardSetType `json:"type"`
+}
+
+// GameCenterLeaderboardSetRelationshipsGameCenterDetailDataType defines model for GameCenterLeaderboardSet.Relationships.GameCenterDetail.Data.Type.
+type GameCenterLeaderboardSetRelationshipsGameCenterDetailDataType string
+
+// GameCenterLeaderboardSetRelationshipsGameCenterGroupDataType defines model for GameCenterLeaderboardSet.Relationships.GameCenterGroup.Data.Type.
+type GameCenterLeaderboardSetRelationshipsGameCenterGroupDataType string
+
+// GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataType defines model for GameCenterLeaderboardSet.Relationships.GameCenterLeaderboards.Data.Type.
+type GameCenterLeaderboardSetRelationshipsGameCenterLeaderboardsDataType string
+
+// GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataType defines model for GameCenterLeaderboardSet.Relationships.GroupLeaderboardSet.Data.Type.
+type GameCenterLeaderboardSetRelationshipsGroupLeaderboardSetDataType string
+
+// GameCenterLeaderboardSetRelationshipsLocalizationsDataType defines model for GameCenterLeaderboardSet.Relationships.Localizations.Data.Type.
+type GameCenterLeaderboardSetRelationshipsLocalizationsDataType string
+
+// GameCenterLeaderboardSetRelationshipsReleasesDataType defines model for GameCenterLeaderboardSet.Relationships.Releases.Data.Type.
+type GameCenterLeaderboardSetRelationshipsReleasesDataType string
+
+// GameCenterLeaderboardSetType defines model for GameCenterLeaderboardSet.Type.
+type GameCenterLeaderboardSetType string
+
+// GameCenterLeaderboardSetRelease defines model for GameCenterLeaderboardSetRelease.
+//
+// Deprecated: this type has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+type GameCenterLeaderboardSetRelease struct {
+	Attributes *struct {
+		Live *bool `json:"live,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		GameCenterDetail *struct {
+			Data *struct {
+				Id   string                                                               `json:"id"`
+				Type GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterDetail,omitempty"`
+		GameCenterLeaderboardSet *struct {
+			Data *struct {
+				Id   string                                                                       `json:"id"`
+				Type GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"gameCenterLeaderboardSet,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type GameCenterLeaderboardSetReleaseType `json:"type"`
+}
+
+// GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataType defines model for GameCenterLeaderboardSetRelease.Relationships.GameCenterDetail.Data.Type.
+type GameCenterLeaderboardSetReleaseRelationshipsGameCenterDetailDataType string
+
+// GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataType defines model for GameCenterLeaderboardSetRelease.Relationships.GameCenterLeaderboardSet.Data.Type.
+type GameCenterLeaderboardSetReleaseRelationshipsGameCenterLeaderboardSetDataType string
+
+// GameCenterLeaderboardSetReleaseType defines model for GameCenterLeaderboardSetRelease.Type.
+type GameCenterLeaderboardSetReleaseType string
 
 // GameCenterLeaderboardSetVersionV2 defines model for GameCenterLeaderboardSetVersionV2.
 type GameCenterLeaderboardSetVersionV2 struct {
@@ -74872,6 +79093,9 @@ type StateDetail struct {
 	Code        *string `json:"code,omitempty"`
 	Description *string `json:"description,omitempty"`
 }
+
+// StringToStringMap defines model for StringToStringMap.
+type StringToStringMap map[string]string
 
 // Subscription defines model for Subscription.
 type Subscription struct {
@@ -80141,6 +84365,30 @@ type AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParams struct {
 // AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsAppStoreVersionPhasedReleases defines parameters for AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated.
 type AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParamsFieldsAppStoreVersionPhasedReleases string
 
+// AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams defines parameters for AppStoreVersionsGameCenterAppVersionGetToOneRelated.
+type AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams struct {
+	// FieldsGameCenterAppVersions the fields to include for returned resources of type gameCenterAppVersions
+	FieldsGameCenterAppVersions *[]AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions `form:"fields[gameCenterAppVersions],omitempty" json:"fields[gameCenterAppVersions],omitempty"`
+
+	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
+	FieldsAppStoreVersions *[]AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions `form:"fields[appStoreVersions],omitempty" json:"fields[appStoreVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitCompatibilityVersions maximum number of related compatibilityVersions returned (when they are included)
+	LimitCompatibilityVersions *int `form:"limit[compatibilityVersions],omitempty" json:"limit[compatibilityVersions],omitempty"`
+}
+
+// AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions defines parameters for AppStoreVersionsGameCenterAppVersionGetToOneRelated.
+type AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsGameCenterAppVersions string
+
+// AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions defines parameters for AppStoreVersionsGameCenterAppVersionGetToOneRelated.
+type AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsFieldsAppStoreVersions string
+
+// AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude defines parameters for AppStoreVersionsGameCenterAppVersionGetToOneRelated.
+type AppStoreVersionsGameCenterAppVersionGetToOneRelatedParamsInclude string
+
 // AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams defines parameters for AppStoreVersionsRoutingAppCoverageGetToOneRelated.
 type AppStoreVersionsRoutingAppCoverageGetToOneRelatedParams struct {
 	// FieldsRoutingAppCoverages the fields to include for returned resources of type routingAppCoverages
@@ -81233,6 +85481,158 @@ type AppsEndUserLicenseAgreementGetToOneRelatedParams struct {
 
 // AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements defines parameters for AppsEndUserLicenseAgreementGetToOneRelated.
 type AppsEndUserLicenseAgreementGetToOneRelatedParamsFieldsEndUserLicenseAgreements string
+
+// AppsGameCenterDetailGetToOneRelatedParams defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParams struct {
+	// FieldsGameCenterDetails the fields to include for returned resources of type gameCenterDetails
+	FieldsGameCenterDetails *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails `form:"fields[gameCenterDetails],omitempty" json:"fields[gameCenterDetails],omitempty"`
+
+	// FieldsApps the fields to include for returned resources of type apps
+	FieldsApps *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsApps `form:"fields[apps],omitempty" json:"fields[apps],omitempty"`
+
+	// FieldsGameCenterAppVersions the fields to include for returned resources of type gameCenterAppVersions
+	FieldsGameCenterAppVersions *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions `form:"fields[gameCenterAppVersions],omitempty" json:"fields[gameCenterAppVersions],omitempty"`
+
+	// FieldsGameCenterGroups the fields to include for returned resources of type gameCenterGroups
+	FieldsGameCenterGroups *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups `form:"fields[gameCenterGroups],omitempty" json:"fields[gameCenterGroups],omitempty"`
+
+	// FieldsGameCenterLeaderboards the fields to include for returned resources of type gameCenterLeaderboards
+	FieldsGameCenterLeaderboards *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards `form:"fields[gameCenterLeaderboards],omitempty" json:"fields[gameCenterLeaderboards],omitempty"`
+
+	// FieldsGameCenterLeaderboardSets the fields to include for returned resources of type gameCenterLeaderboardSets
+	FieldsGameCenterLeaderboardSets *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets `form:"fields[gameCenterLeaderboardSets],omitempty" json:"fields[gameCenterLeaderboardSets],omitempty"`
+
+	// FieldsGameCenterAchievements the fields to include for returned resources of type gameCenterAchievements
+	FieldsGameCenterAchievements *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements `form:"fields[gameCenterAchievements],omitempty" json:"fields[gameCenterAchievements],omitempty"`
+
+	// FieldsGameCenterActivities the fields to include for returned resources of type gameCenterActivities
+	FieldsGameCenterActivities *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities `form:"fields[gameCenterActivities],omitempty" json:"fields[gameCenterActivities],omitempty"`
+
+	// FieldsGameCenterChallenges the fields to include for returned resources of type gameCenterChallenges
+	FieldsGameCenterChallenges *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges `form:"fields[gameCenterChallenges],omitempty" json:"fields[gameCenterChallenges],omitempty"`
+
+	// FieldsGameCenterAchievementReleases the fields to include for returned resources of type gameCenterAchievementReleases
+	FieldsGameCenterAchievementReleases *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases `form:"fields[gameCenterAchievementReleases],omitempty" json:"fields[gameCenterAchievementReleases],omitempty"`
+
+	// FieldsGameCenterActivityVersionReleases the fields to include for returned resources of type gameCenterActivityVersionReleases
+	FieldsGameCenterActivityVersionReleases *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleases `form:"fields[gameCenterActivityVersionReleases],omitempty" json:"fields[gameCenterActivityVersionReleases],omitempty"`
+
+	// FieldsGameCenterChallengeVersionReleases the fields to include for returned resources of type gameCenterChallengeVersionReleases
+	FieldsGameCenterChallengeVersionReleases *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleases `form:"fields[gameCenterChallengeVersionReleases],omitempty" json:"fields[gameCenterChallengeVersionReleases],omitempty"`
+
+	// FieldsGameCenterLeaderboardReleases the fields to include for returned resources of type gameCenterLeaderboardReleases
+	FieldsGameCenterLeaderboardReleases *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases `form:"fields[gameCenterLeaderboardReleases],omitempty" json:"fields[gameCenterLeaderboardReleases],omitempty"`
+
+	// FieldsGameCenterLeaderboardSetReleases the fields to include for returned resources of type gameCenterLeaderboardSetReleases
+	FieldsGameCenterLeaderboardSetReleases *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases `form:"fields[gameCenterLeaderboardSetReleases],omitempty" json:"fields[gameCenterLeaderboardSetReleases],omitempty"`
+
+	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
+	FieldsAppStoreVersions *[]AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions `form:"fields[appStoreVersions],omitempty" json:"fields[appStoreVersions],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppsGameCenterDetailGetToOneRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitGameCenterAppVersions maximum number of related gameCenterAppVersions returned (when they are included)
+	LimitGameCenterAppVersions *int `form:"limit[gameCenterAppVersions],omitempty" json:"limit[gameCenterAppVersions],omitempty"`
+
+	// LimitGameCenterLeaderboards maximum number of related gameCenterLeaderboards returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterLeaderboards *int `form:"limit[gameCenterLeaderboards],omitempty" json:"limit[gameCenterLeaderboards],omitempty"`
+
+	// LimitGameCenterLeaderboardsV2 maximum number of related gameCenterLeaderboardsV2 returned (when they are included)
+	LimitGameCenterLeaderboardsV2 *int `form:"limit[gameCenterLeaderboardsV2],omitempty" json:"limit[gameCenterLeaderboardsV2],omitempty"`
+
+	// LimitGameCenterLeaderboardSets maximum number of related gameCenterLeaderboardSets returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterLeaderboardSets *int `form:"limit[gameCenterLeaderboardSets],omitempty" json:"limit[gameCenterLeaderboardSets],omitempty"`
+
+	// LimitGameCenterLeaderboardSetsV2 maximum number of related gameCenterLeaderboardSetsV2 returned (when they are included)
+	LimitGameCenterLeaderboardSetsV2 *int `form:"limit[gameCenterLeaderboardSetsV2],omitempty" json:"limit[gameCenterLeaderboardSetsV2],omitempty"`
+
+	// LimitGameCenterAchievements maximum number of related gameCenterAchievements returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterAchievements *int `form:"limit[gameCenterAchievements],omitempty" json:"limit[gameCenterAchievements],omitempty"`
+
+	// LimitGameCenterAchievementsV2 maximum number of related gameCenterAchievementsV2 returned (when they are included)
+	LimitGameCenterAchievementsV2 *int `form:"limit[gameCenterAchievementsV2],omitempty" json:"limit[gameCenterAchievementsV2],omitempty"`
+
+	// LimitGameCenterActivities maximum number of related gameCenterActivities returned (when they are included)
+	LimitGameCenterActivities *int `form:"limit[gameCenterActivities],omitempty" json:"limit[gameCenterActivities],omitempty"`
+
+	// LimitGameCenterChallenges maximum number of related gameCenterChallenges returned (when they are included)
+	LimitGameCenterChallenges *int `form:"limit[gameCenterChallenges],omitempty" json:"limit[gameCenterChallenges],omitempty"`
+
+	// LimitAchievementReleases maximum number of related achievementReleases returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitAchievementReleases *int `form:"limit[achievementReleases],omitempty" json:"limit[achievementReleases],omitempty"`
+
+	// LimitActivityReleases maximum number of related activityReleases returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitActivityReleases *int `form:"limit[activityReleases],omitempty" json:"limit[activityReleases],omitempty"`
+
+	// LimitChallengeReleases maximum number of related challengeReleases returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitChallengeReleases *int `form:"limit[challengeReleases],omitempty" json:"limit[challengeReleases],omitempty"`
+
+	// LimitLeaderboardReleases maximum number of related leaderboardReleases returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitLeaderboardReleases *int `form:"limit[leaderboardReleases],omitempty" json:"limit[leaderboardReleases],omitempty"`
+
+	// LimitLeaderboardSetReleases maximum number of related leaderboardSetReleases returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitLeaderboardSetReleases *int `form:"limit[leaderboardSetReleases],omitempty" json:"limit[leaderboardSetReleases],omitempty"`
+
+	// LimitChallengesMinimumPlatformVersions maximum number of related challengesMinimumPlatformVersions returned (when they are included)
+	LimitChallengesMinimumPlatformVersions *int `form:"limit[challengesMinimumPlatformVersions],omitempty" json:"limit[challengesMinimumPlatformVersions],omitempty"`
+}
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterDetails string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsApps defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsApps string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAppVersions string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterGroups string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboards string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSets string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievements string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivities string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallenges string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterAchievementReleases string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleases defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterActivityVersionReleases string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleases defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterChallengeVersionReleases string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardReleases string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsGameCenterLeaderboardSetReleases string
+
+// AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsFieldsAppStoreVersions string
+
+// AppsGameCenterDetailGetToOneRelatedParamsInclude defines parameters for AppsGameCenterDetailGetToOneRelated.
+type AppsGameCenterDetailGetToOneRelatedParamsInclude string
 
 // AppsInAppPurchasesV2GetToManyRelatedParams defines parameters for AppsInAppPurchasesV2GetToManyRelated.
 type AppsInAppPurchasesV2GetToManyRelatedParams struct {
@@ -83093,6 +87493,210 @@ type EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams struct {
 	// Limit maximum resources per page
 	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
 }
+
+// GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams defines parameters for GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship.
+type GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams struct {
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+}
+
+// GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams defines parameters for GameCenterDetailsGameCenterAppVersionsGetToManyRelated.
+type GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams struct {
+	// FilterEnabled filter by attribute 'enabled'
+	FilterEnabled *[]string `form:"filter[enabled],omitempty" json:"filter[enabled],omitempty"`
+
+	// FieldsGameCenterAppVersions the fields to include for returned resources of type gameCenterAppVersions
+	FieldsGameCenterAppVersions *[]GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions `form:"fields[gameCenterAppVersions],omitempty" json:"fields[gameCenterAppVersions],omitempty"`
+
+	// FieldsAppStoreVersions the fields to include for returned resources of type appStoreVersions
+	FieldsAppStoreVersions *[]GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions `form:"fields[appStoreVersions],omitempty" json:"fields[appStoreVersions],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitCompatibilityVersions maximum number of related compatibilityVersions returned (when they are included)
+	LimitCompatibilityVersions *int `form:"limit[compatibilityVersions],omitempty" json:"limit[compatibilityVersions],omitempty"`
+}
+
+// GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions defines parameters for GameCenterDetailsGameCenterAppVersionsGetToManyRelated.
+type GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsGameCenterAppVersions string
+
+// GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions defines parameters for GameCenterDetailsGameCenterAppVersionsGetToManyRelated.
+type GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsFieldsAppStoreVersions string
+
+// GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude defines parameters for GameCenterDetailsGameCenterAppVersionsGetToManyRelated.
+type GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParamsInclude string
+
+// GameCenterGroupsGetCollectionParams defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParams struct {
+	// FilterGameCenterDetails filter by id(s) of related 'gameCenterDetails'
+	FilterGameCenterDetails *[]string `form:"filter[gameCenterDetails],omitempty" json:"filter[gameCenterDetails],omitempty"`
+
+	// FieldsGameCenterGroups the fields to include for returned resources of type gameCenterGroups
+	FieldsGameCenterGroups *[]GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups `form:"fields[gameCenterGroups],omitempty" json:"fields[gameCenterGroups],omitempty"`
+
+	// FieldsGameCenterDetails the fields to include for returned resources of type gameCenterDetails
+	FieldsGameCenterDetails *[]GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails `form:"fields[gameCenterDetails],omitempty" json:"fields[gameCenterDetails],omitempty"`
+
+	// FieldsGameCenterLeaderboards the fields to include for returned resources of type gameCenterLeaderboards
+	FieldsGameCenterLeaderboards *[]GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards `form:"fields[gameCenterLeaderboards],omitempty" json:"fields[gameCenterLeaderboards],omitempty"`
+
+	// FieldsGameCenterLeaderboardSets the fields to include for returned resources of type gameCenterLeaderboardSets
+	FieldsGameCenterLeaderboardSets *[]GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets `form:"fields[gameCenterLeaderboardSets],omitempty" json:"fields[gameCenterLeaderboardSets],omitempty"`
+
+	// FieldsGameCenterAchievements the fields to include for returned resources of type gameCenterAchievements
+	FieldsGameCenterAchievements *[]GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements `form:"fields[gameCenterAchievements],omitempty" json:"fields[gameCenterAchievements],omitempty"`
+
+	// FieldsGameCenterActivities the fields to include for returned resources of type gameCenterActivities
+	FieldsGameCenterActivities *[]GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities `form:"fields[gameCenterActivities],omitempty" json:"fields[gameCenterActivities],omitempty"`
+
+	// FieldsGameCenterChallenges the fields to include for returned resources of type gameCenterChallenges
+	FieldsGameCenterChallenges *[]GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges `form:"fields[gameCenterChallenges],omitempty" json:"fields[gameCenterChallenges],omitempty"`
+
+	// Limit maximum resources per page
+	Limit *int `form:"limit,omitempty" json:"limit,omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterGroupsGetCollectionParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitGameCenterAchievements maximum number of related gameCenterAchievements returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterAchievements *int `form:"limit[gameCenterAchievements],omitempty" json:"limit[gameCenterAchievements],omitempty"`
+
+	// LimitGameCenterAchievementsV2 maximum number of related gameCenterAchievementsV2 returned (when they are included)
+	LimitGameCenterAchievementsV2 *int `form:"limit[gameCenterAchievementsV2],omitempty" json:"limit[gameCenterAchievementsV2],omitempty"`
+
+	// LimitGameCenterActivities maximum number of related gameCenterActivities returned (when they are included)
+	LimitGameCenterActivities *int `form:"limit[gameCenterActivities],omitempty" json:"limit[gameCenterActivities],omitempty"`
+
+	// LimitGameCenterChallenges maximum number of related gameCenterChallenges returned (when they are included)
+	LimitGameCenterChallenges *int `form:"limit[gameCenterChallenges],omitempty" json:"limit[gameCenterChallenges],omitempty"`
+
+	// LimitGameCenterDetails maximum number of related gameCenterDetails returned (when they are included)
+	LimitGameCenterDetails *int `form:"limit[gameCenterDetails],omitempty" json:"limit[gameCenterDetails],omitempty"`
+
+	// LimitGameCenterLeaderboardSets maximum number of related gameCenterLeaderboardSets returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterLeaderboardSets *int `form:"limit[gameCenterLeaderboardSets],omitempty" json:"limit[gameCenterLeaderboardSets],omitempty"`
+
+	// LimitGameCenterLeaderboardSetsV2 maximum number of related gameCenterLeaderboardSetsV2 returned (when they are included)
+	LimitGameCenterLeaderboardSetsV2 *int `form:"limit[gameCenterLeaderboardSetsV2],omitempty" json:"limit[gameCenterLeaderboardSetsV2],omitempty"`
+
+	// LimitGameCenterLeaderboards maximum number of related gameCenterLeaderboards returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterLeaderboards *int `form:"limit[gameCenterLeaderboards],omitempty" json:"limit[gameCenterLeaderboards],omitempty"`
+
+	// LimitGameCenterLeaderboardsV2 maximum number of related gameCenterLeaderboardsV2 returned (when they are included)
+	LimitGameCenterLeaderboardsV2 *int `form:"limit[gameCenterLeaderboardsV2],omitempty" json:"limit[gameCenterLeaderboardsV2],omitempty"`
+}
+
+// GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsFieldsGameCenterGroups string
+
+// GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsFieldsGameCenterDetails string
+
+// GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboards string
+
+// GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsFieldsGameCenterLeaderboardSets string
+
+// GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsFieldsGameCenterAchievements string
+
+// GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsFieldsGameCenterActivities string
+
+// GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsFieldsGameCenterChallenges string
+
+// GameCenterGroupsGetCollectionParamsInclude defines parameters for GameCenterGroupsGetCollection.
+type GameCenterGroupsGetCollectionParamsInclude string
+
+// GameCenterGroupsGetInstanceParams defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParams struct {
+	// FieldsGameCenterGroups the fields to include for returned resources of type gameCenterGroups
+	FieldsGameCenterGroups *[]GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups `form:"fields[gameCenterGroups],omitempty" json:"fields[gameCenterGroups],omitempty"`
+
+	// FieldsGameCenterDetails the fields to include for returned resources of type gameCenterDetails
+	FieldsGameCenterDetails *[]GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails `form:"fields[gameCenterDetails],omitempty" json:"fields[gameCenterDetails],omitempty"`
+
+	// FieldsGameCenterLeaderboards the fields to include for returned resources of type gameCenterLeaderboards
+	FieldsGameCenterLeaderboards *[]GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards `form:"fields[gameCenterLeaderboards],omitempty" json:"fields[gameCenterLeaderboards],omitempty"`
+
+	// FieldsGameCenterLeaderboardSets the fields to include for returned resources of type gameCenterLeaderboardSets
+	FieldsGameCenterLeaderboardSets *[]GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets `form:"fields[gameCenterLeaderboardSets],omitempty" json:"fields[gameCenterLeaderboardSets],omitempty"`
+
+	// FieldsGameCenterAchievements the fields to include for returned resources of type gameCenterAchievements
+	FieldsGameCenterAchievements *[]GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements `form:"fields[gameCenterAchievements],omitempty" json:"fields[gameCenterAchievements],omitempty"`
+
+	// FieldsGameCenterActivities the fields to include for returned resources of type gameCenterActivities
+	FieldsGameCenterActivities *[]GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities `form:"fields[gameCenterActivities],omitempty" json:"fields[gameCenterActivities],omitempty"`
+
+	// FieldsGameCenterChallenges the fields to include for returned resources of type gameCenterChallenges
+	FieldsGameCenterChallenges *[]GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges `form:"fields[gameCenterChallenges],omitempty" json:"fields[gameCenterChallenges],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]GameCenterGroupsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitGameCenterAchievements maximum number of related gameCenterAchievements returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterAchievements *int `form:"limit[gameCenterAchievements],omitempty" json:"limit[gameCenterAchievements],omitempty"`
+
+	// LimitGameCenterAchievementsV2 maximum number of related gameCenterAchievementsV2 returned (when they are included)
+	LimitGameCenterAchievementsV2 *int `form:"limit[gameCenterAchievementsV2],omitempty" json:"limit[gameCenterAchievementsV2],omitempty"`
+
+	// LimitGameCenterActivities maximum number of related gameCenterActivities returned (when they are included)
+	LimitGameCenterActivities *int `form:"limit[gameCenterActivities],omitempty" json:"limit[gameCenterActivities],omitempty"`
+
+	// LimitGameCenterChallenges maximum number of related gameCenterChallenges returned (when they are included)
+	LimitGameCenterChallenges *int `form:"limit[gameCenterChallenges],omitempty" json:"limit[gameCenterChallenges],omitempty"`
+
+	// LimitGameCenterDetails maximum number of related gameCenterDetails returned (when they are included)
+	LimitGameCenterDetails *int `form:"limit[gameCenterDetails],omitempty" json:"limit[gameCenterDetails],omitempty"`
+
+	// LimitGameCenterLeaderboardSets maximum number of related gameCenterLeaderboardSets returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterLeaderboardSets *int `form:"limit[gameCenterLeaderboardSets],omitempty" json:"limit[gameCenterLeaderboardSets],omitempty"`
+
+	// LimitGameCenterLeaderboardSetsV2 maximum number of related gameCenterLeaderboardSetsV2 returned (when they are included)
+	LimitGameCenterLeaderboardSetsV2 *int `form:"limit[gameCenterLeaderboardSetsV2],omitempty" json:"limit[gameCenterLeaderboardSetsV2],omitempty"`
+
+	// LimitGameCenterLeaderboards maximum number of related gameCenterLeaderboards returned (when they are included)
+	// Deprecated: this property has been marked as deprecated upstream, but no `x-deprecated-reason` was set
+	LimitGameCenterLeaderboards *int `form:"limit[gameCenterLeaderboards],omitempty" json:"limit[gameCenterLeaderboards],omitempty"`
+
+	// LimitGameCenterLeaderboardsV2 maximum number of related gameCenterLeaderboardsV2 returned (when they are included)
+	LimitGameCenterLeaderboardsV2 *int `form:"limit[gameCenterLeaderboardsV2],omitempty" json:"limit[gameCenterLeaderboardsV2],omitempty"`
+}
+
+// GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsFieldsGameCenterGroups string
+
+// GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsFieldsGameCenterDetails string
+
+// GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboards string
+
+// GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsFieldsGameCenterLeaderboardSets string
+
+// GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsFieldsGameCenterAchievements string
+
+// GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsFieldsGameCenterActivities string
+
+// GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsFieldsGameCenterChallenges string
+
+// GameCenterGroupsGetInstanceParamsInclude defines parameters for GameCenterGroupsGetInstance.
+type GameCenterGroupsGetInstanceParamsInclude string
 
 // InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams defines parameters for InAppPurchaseAppStoreReviewScreenshotsGetInstance.
 type InAppPurchaseAppStoreReviewScreenshotsGetInstanceParams struct {
@@ -86133,6 +90737,30 @@ type EndUserLicenseAgreementsCreateInstanceJSONRequestBody = EndUserLicenseAgree
 
 // EndUserLicenseAgreementsUpdateInstanceJSONRequestBody defines body for EndUserLicenseAgreementsUpdateInstance for application/json ContentType.
 type EndUserLicenseAgreementsUpdateInstanceJSONRequestBody = EndUserLicenseAgreementUpdateRequest
+
+// GameCenterAppVersionsCreateInstanceJSONRequestBody defines body for GameCenterAppVersionsCreateInstance for application/json ContentType.
+type GameCenterAppVersionsCreateInstanceJSONRequestBody = GameCenterAppVersionCreateRequest
+
+// GameCenterAppVersionsUpdateInstanceJSONRequestBody defines body for GameCenterAppVersionsUpdateInstance for application/json ContentType.
+type GameCenterAppVersionsUpdateInstanceJSONRequestBody = GameCenterAppVersionUpdateRequest
+
+// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipJSONRequestBody defines body for GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship for application/json ContentType.
+type GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipJSONRequestBody = GameCenterAppVersionCompatibilityVersionsLinkagesRequest
+
+// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipJSONRequestBody defines body for GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship for application/json ContentType.
+type GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipJSONRequestBody = GameCenterAppVersionCompatibilityVersionsLinkagesRequest
+
+// GameCenterDetailsCreateInstanceJSONRequestBody defines body for GameCenterDetailsCreateInstance for application/json ContentType.
+type GameCenterDetailsCreateInstanceJSONRequestBody = GameCenterDetailCreateRequest
+
+// GameCenterDetailsUpdateInstanceJSONRequestBody defines body for GameCenterDetailsUpdateInstance for application/json ContentType.
+type GameCenterDetailsUpdateInstanceJSONRequestBody = GameCenterDetailUpdateRequest
+
+// GameCenterGroupsCreateInstanceJSONRequestBody defines body for GameCenterGroupsCreateInstance for application/json ContentType.
+type GameCenterGroupsCreateInstanceJSONRequestBody = GameCenterGroupCreateRequest
+
+// GameCenterGroupsUpdateInstanceJSONRequestBody defines body for GameCenterGroupsUpdateInstance for application/json ContentType.
+type GameCenterGroupsUpdateInstanceJSONRequestBody = GameCenterGroupUpdateRequest
 
 // InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody defines body for InAppPurchaseAppStoreReviewScreenshotsCreateInstance for application/json ContentType.
 type InAppPurchaseAppStoreReviewScreenshotsCreateInstanceJSONRequestBody = InAppPurchaseAppStoreReviewScreenshotCreateRequest
@@ -99465,6 +104093,1231 @@ func (t *ErrorResponse_Errors_Source) UnmarshalJSON(b []byte) error {
 	return err
 }
 
+// AsAppStoreVersion returns the union data inside the GameCenterAppVersionResponse_Included_Item as a AppStoreVersion
+func (t GameCenterAppVersionResponse_Included_Item) AsAppStoreVersion() (AppStoreVersion, error) {
+	var body AppStoreVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersion overwrites any union data inside the GameCenterAppVersionResponse_Included_Item as the provided AppStoreVersion
+func (t *GameCenterAppVersionResponse_Included_Item) FromAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersion performs a merge with any union data inside the GameCenterAppVersionResponse_Included_Item, using the provided AppStoreVersion
+func (t *GameCenterAppVersionResponse_Included_Item) MergeAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAppVersion returns the union data inside the GameCenterAppVersionResponse_Included_Item as a GameCenterAppVersion
+func (t GameCenterAppVersionResponse_Included_Item) AsGameCenterAppVersion() (GameCenterAppVersion, error) {
+	var body GameCenterAppVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAppVersion overwrites any union data inside the GameCenterAppVersionResponse_Included_Item as the provided GameCenterAppVersion
+func (t *GameCenterAppVersionResponse_Included_Item) FromGameCenterAppVersion(v GameCenterAppVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAppVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAppVersion performs a merge with any union data inside the GameCenterAppVersionResponse_Included_Item, using the provided GameCenterAppVersion
+func (t *GameCenterAppVersionResponse_Included_Item) MergeGameCenterAppVersion(v GameCenterAppVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAppVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAppVersionResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAppVersionResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appStoreVersions":
+		return t.AsAppStoreVersion()
+	case "gameCenterAppVersions":
+		return t.AsGameCenterAppVersion()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAppVersionResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAppVersionResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppStoreVersion returns the union data inside the GameCenterAppVersionsResponse_Included_Item as a AppStoreVersion
+func (t GameCenterAppVersionsResponse_Included_Item) AsAppStoreVersion() (AppStoreVersion, error) {
+	var body AppStoreVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersion overwrites any union data inside the GameCenterAppVersionsResponse_Included_Item as the provided AppStoreVersion
+func (t *GameCenterAppVersionsResponse_Included_Item) FromAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersion performs a merge with any union data inside the GameCenterAppVersionsResponse_Included_Item, using the provided AppStoreVersion
+func (t *GameCenterAppVersionsResponse_Included_Item) MergeAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAppVersion returns the union data inside the GameCenterAppVersionsResponse_Included_Item as a GameCenterAppVersion
+func (t GameCenterAppVersionsResponse_Included_Item) AsGameCenterAppVersion() (GameCenterAppVersion, error) {
+	var body GameCenterAppVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAppVersion overwrites any union data inside the GameCenterAppVersionsResponse_Included_Item as the provided GameCenterAppVersion
+func (t *GameCenterAppVersionsResponse_Included_Item) FromGameCenterAppVersion(v GameCenterAppVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAppVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAppVersion performs a merge with any union data inside the GameCenterAppVersionsResponse_Included_Item, using the provided GameCenterAppVersion
+func (t *GameCenterAppVersionsResponse_Included_Item) MergeGameCenterAppVersion(v GameCenterAppVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAppVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterAppVersionsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterAppVersionsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appStoreVersions":
+		return t.AsAppStoreVersion()
+	case "gameCenterAppVersions":
+		return t.AsGameCenterAppVersion()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterAppVersionsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterAppVersionsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppStoreVersion returns the union data inside the GameCenterDetailResponse_Included_Item as a AppStoreVersion
+func (t GameCenterDetailResponse_Included_Item) AsAppStoreVersion() (AppStoreVersion, error) {
+	var body AppStoreVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppStoreVersion overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided AppStoreVersion
+func (t *GameCenterDetailResponse_Included_Item) FromAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppStoreVersion performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided AppStoreVersion
+func (t *GameCenterDetailResponse_Included_Item) MergeAppStoreVersion(v AppStoreVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appStoreVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsApp returns the union data inside the GameCenterDetailResponse_Included_Item as a App
+func (t GameCenterDetailResponse_Included_Item) AsApp() (App, error) {
+	var body App
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromApp overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided App
+func (t *GameCenterDetailResponse_Included_Item) FromApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	t.union = b
+	return err
+}
+
+// MergeApp performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided App
+func (t *GameCenterDetailResponse_Included_Item) MergeApp(v App) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"apps"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAchievementRelease returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterAchievementRelease
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterAchievementRelease() (GameCenterAchievementRelease, error) {
+	var body GameCenterAchievementRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievementRelease overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterAchievementRelease
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterAchievementRelease(v GameCenterAchievementRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievementRelease performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterAchievementRelease
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterAchievementRelease(v GameCenterAchievementRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievementReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAchievement returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterAchievement
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterAchievement() (GameCenterAchievement, error) {
+	var body GameCenterAchievement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievement overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterAchievement
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterAchievement(v GameCenterAchievement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievement performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterAchievement
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterAchievement(v GameCenterAchievement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterActivity returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterActivity
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterActivity() (GameCenterActivity, error) {
+	var body GameCenterActivity
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterActivity overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterActivity
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterActivity performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterActivity
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterActivityVersionRelease returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterActivityVersionRelease
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterActivityVersionRelease() (GameCenterActivityVersionRelease, error) {
+	var body GameCenterActivityVersionRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterActivityVersionRelease overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterActivityVersionRelease
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterActivityVersionRelease(v GameCenterActivityVersionRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivityVersionReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterActivityVersionRelease performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterActivityVersionRelease
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterActivityVersionRelease(v GameCenterActivityVersionRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivityVersionReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterAppVersion returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterAppVersion
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterAppVersion() (GameCenterAppVersion, error) {
+	var body GameCenterAppVersion
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAppVersion overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterAppVersion
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterAppVersion(v GameCenterAppVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAppVersions"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAppVersion performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterAppVersion
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterAppVersion(v GameCenterAppVersion) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAppVersions"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterChallengeVersionRelease returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterChallengeVersionRelease
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterChallengeVersionRelease() (GameCenterChallengeVersionRelease, error) {
+	var body GameCenterChallengeVersionRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterChallengeVersionRelease overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterChallengeVersionRelease
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterChallengeVersionRelease(v GameCenterChallengeVersionRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallengeVersionReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterChallengeVersionRelease performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterChallengeVersionRelease
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterChallengeVersionRelease(v GameCenterChallengeVersionRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallengeVersionReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterChallenge returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterChallenge
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterChallenge() (GameCenterChallenge, error) {
+	var body GameCenterChallenge
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterChallenge overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterChallenge
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterChallenge(v GameCenterChallenge) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallenges"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterChallenge performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterChallenge
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterChallenge(v GameCenterChallenge) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallenges"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterGroup returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterGroup
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterGroup() (GameCenterGroup, error) {
+	var body GameCenterGroup
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterGroup overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterGroup
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterGroup(v GameCenterGroup) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterGroups"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterGroup performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterGroup
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterGroup(v GameCenterGroup) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterGroups"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboardRelease returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterLeaderboardRelease
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterLeaderboardRelease() (GameCenterLeaderboardRelease, error) {
+	var body GameCenterLeaderboardRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboardRelease overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterLeaderboardRelease
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterLeaderboardRelease(v GameCenterLeaderboardRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboardRelease performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterLeaderboardRelease
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterLeaderboardRelease(v GameCenterLeaderboardRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboardSetRelease returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterLeaderboardSetRelease
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterLeaderboardSetRelease() (GameCenterLeaderboardSetRelease, error) {
+	var body GameCenterLeaderboardSetRelease
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboardSetRelease overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterLeaderboardSetRelease
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterLeaderboardSetRelease(v GameCenterLeaderboardSetRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSetReleases"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboardSetRelease performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterLeaderboardSetRelease
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterLeaderboardSetRelease(v GameCenterLeaderboardSetRelease) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSetReleases"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboardSet returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterLeaderboardSet
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterLeaderboardSet() (GameCenterLeaderboardSet, error) {
+	var body GameCenterLeaderboardSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboardSet overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterLeaderboardSet
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterLeaderboardSet(v GameCenterLeaderboardSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboardSet performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterLeaderboardSet
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterLeaderboardSet(v GameCenterLeaderboardSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboard returns the union data inside the GameCenterDetailResponse_Included_Item as a GameCenterLeaderboard
+func (t GameCenterDetailResponse_Included_Item) AsGameCenterLeaderboard() (GameCenterLeaderboard, error) {
+	var body GameCenterLeaderboard
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboard overwrites any union data inside the GameCenterDetailResponse_Included_Item as the provided GameCenterLeaderboard
+func (t *GameCenterDetailResponse_Included_Item) FromGameCenterLeaderboard(v GameCenterLeaderboard) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboards"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboard performs a merge with any union data inside the GameCenterDetailResponse_Included_Item, using the provided GameCenterLeaderboard
+func (t *GameCenterDetailResponse_Included_Item) MergeGameCenterLeaderboard(v GameCenterLeaderboard) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboards"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterDetailResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterDetailResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appStoreVersions":
+		return t.AsAppStoreVersion()
+	case "apps":
+		return t.AsApp()
+	case "gameCenterAchievementReleases":
+		return t.AsGameCenterAchievementRelease()
+	case "gameCenterAchievements":
+		return t.AsGameCenterAchievement()
+	case "gameCenterActivities":
+		return t.AsGameCenterActivity()
+	case "gameCenterActivityVersionReleases":
+		return t.AsGameCenterActivityVersionRelease()
+	case "gameCenterAppVersions":
+		return t.AsGameCenterAppVersion()
+	case "gameCenterChallengeVersionReleases":
+		return t.AsGameCenterChallengeVersionRelease()
+	case "gameCenterChallenges":
+		return t.AsGameCenterChallenge()
+	case "gameCenterGroups":
+		return t.AsGameCenterGroup()
+	case "gameCenterLeaderboardReleases":
+		return t.AsGameCenterLeaderboardRelease()
+	case "gameCenterLeaderboardSetReleases":
+		return t.AsGameCenterLeaderboardSetRelease()
+	case "gameCenterLeaderboardSets":
+		return t.AsGameCenterLeaderboardSet()
+	case "gameCenterLeaderboards":
+		return t.AsGameCenterLeaderboard()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterDetailResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterDetailResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterAchievement returns the union data inside the GameCenterGroupResponse_Included_Item as a GameCenterAchievement
+func (t GameCenterGroupResponse_Included_Item) AsGameCenterAchievement() (GameCenterAchievement, error) {
+	var body GameCenterAchievement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievement overwrites any union data inside the GameCenterGroupResponse_Included_Item as the provided GameCenterAchievement
+func (t *GameCenterGroupResponse_Included_Item) FromGameCenterAchievement(v GameCenterAchievement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievement performs a merge with any union data inside the GameCenterGroupResponse_Included_Item, using the provided GameCenterAchievement
+func (t *GameCenterGroupResponse_Included_Item) MergeGameCenterAchievement(v GameCenterAchievement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterActivity returns the union data inside the GameCenterGroupResponse_Included_Item as a GameCenterActivity
+func (t GameCenterGroupResponse_Included_Item) AsGameCenterActivity() (GameCenterActivity, error) {
+	var body GameCenterActivity
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterActivity overwrites any union data inside the GameCenterGroupResponse_Included_Item as the provided GameCenterActivity
+func (t *GameCenterGroupResponse_Included_Item) FromGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterActivity performs a merge with any union data inside the GameCenterGroupResponse_Included_Item, using the provided GameCenterActivity
+func (t *GameCenterGroupResponse_Included_Item) MergeGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterChallenge returns the union data inside the GameCenterGroupResponse_Included_Item as a GameCenterChallenge
+func (t GameCenterGroupResponse_Included_Item) AsGameCenterChallenge() (GameCenterChallenge, error) {
+	var body GameCenterChallenge
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterChallenge overwrites any union data inside the GameCenterGroupResponse_Included_Item as the provided GameCenterChallenge
+func (t *GameCenterGroupResponse_Included_Item) FromGameCenterChallenge(v GameCenterChallenge) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallenges"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterChallenge performs a merge with any union data inside the GameCenterGroupResponse_Included_Item, using the provided GameCenterChallenge
+func (t *GameCenterGroupResponse_Included_Item) MergeGameCenterChallenge(v GameCenterChallenge) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallenges"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterDetail returns the union data inside the GameCenterGroupResponse_Included_Item as a GameCenterDetail
+func (t GameCenterGroupResponse_Included_Item) AsGameCenterDetail() (GameCenterDetail, error) {
+	var body GameCenterDetail
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterDetail overwrites any union data inside the GameCenterGroupResponse_Included_Item as the provided GameCenterDetail
+func (t *GameCenterGroupResponse_Included_Item) FromGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterDetail performs a merge with any union data inside the GameCenterGroupResponse_Included_Item, using the provided GameCenterDetail
+func (t *GameCenterGroupResponse_Included_Item) MergeGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboardSet returns the union data inside the GameCenterGroupResponse_Included_Item as a GameCenterLeaderboardSet
+func (t GameCenterGroupResponse_Included_Item) AsGameCenterLeaderboardSet() (GameCenterLeaderboardSet, error) {
+	var body GameCenterLeaderboardSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboardSet overwrites any union data inside the GameCenterGroupResponse_Included_Item as the provided GameCenterLeaderboardSet
+func (t *GameCenterGroupResponse_Included_Item) FromGameCenterLeaderboardSet(v GameCenterLeaderboardSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboardSet performs a merge with any union data inside the GameCenterGroupResponse_Included_Item, using the provided GameCenterLeaderboardSet
+func (t *GameCenterGroupResponse_Included_Item) MergeGameCenterLeaderboardSet(v GameCenterLeaderboardSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboard returns the union data inside the GameCenterGroupResponse_Included_Item as a GameCenterLeaderboard
+func (t GameCenterGroupResponse_Included_Item) AsGameCenterLeaderboard() (GameCenterLeaderboard, error) {
+	var body GameCenterLeaderboard
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboard overwrites any union data inside the GameCenterGroupResponse_Included_Item as the provided GameCenterLeaderboard
+func (t *GameCenterGroupResponse_Included_Item) FromGameCenterLeaderboard(v GameCenterLeaderboard) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboards"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboard performs a merge with any union data inside the GameCenterGroupResponse_Included_Item, using the provided GameCenterLeaderboard
+func (t *GameCenterGroupResponse_Included_Item) MergeGameCenterLeaderboard(v GameCenterLeaderboard) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboards"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterGroupResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterGroupResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievements":
+		return t.AsGameCenterAchievement()
+	case "gameCenterActivities":
+		return t.AsGameCenterActivity()
+	case "gameCenterChallenges":
+		return t.AsGameCenterChallenge()
+	case "gameCenterDetails":
+		return t.AsGameCenterDetail()
+	case "gameCenterLeaderboardSets":
+		return t.AsGameCenterLeaderboardSet()
+	case "gameCenterLeaderboards":
+		return t.AsGameCenterLeaderboard()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterGroupResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterGroupResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsGameCenterAchievement returns the union data inside the GameCenterGroupsResponse_Included_Item as a GameCenterAchievement
+func (t GameCenterGroupsResponse_Included_Item) AsGameCenterAchievement() (GameCenterAchievement, error) {
+	var body GameCenterAchievement
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterAchievement overwrites any union data inside the GameCenterGroupsResponse_Included_Item as the provided GameCenterAchievement
+func (t *GameCenterGroupsResponse_Included_Item) FromGameCenterAchievement(v GameCenterAchievement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterAchievement performs a merge with any union data inside the GameCenterGroupsResponse_Included_Item, using the provided GameCenterAchievement
+func (t *GameCenterGroupsResponse_Included_Item) MergeGameCenterAchievement(v GameCenterAchievement) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterAchievements"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterActivity returns the union data inside the GameCenterGroupsResponse_Included_Item as a GameCenterActivity
+func (t GameCenterGroupsResponse_Included_Item) AsGameCenterActivity() (GameCenterActivity, error) {
+	var body GameCenterActivity
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterActivity overwrites any union data inside the GameCenterGroupsResponse_Included_Item as the provided GameCenterActivity
+func (t *GameCenterGroupsResponse_Included_Item) FromGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterActivity performs a merge with any union data inside the GameCenterGroupsResponse_Included_Item, using the provided GameCenterActivity
+func (t *GameCenterGroupsResponse_Included_Item) MergeGameCenterActivity(v GameCenterActivity) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterActivities"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterChallenge returns the union data inside the GameCenterGroupsResponse_Included_Item as a GameCenterChallenge
+func (t GameCenterGroupsResponse_Included_Item) AsGameCenterChallenge() (GameCenterChallenge, error) {
+	var body GameCenterChallenge
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterChallenge overwrites any union data inside the GameCenterGroupsResponse_Included_Item as the provided GameCenterChallenge
+func (t *GameCenterGroupsResponse_Included_Item) FromGameCenterChallenge(v GameCenterChallenge) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallenges"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterChallenge performs a merge with any union data inside the GameCenterGroupsResponse_Included_Item, using the provided GameCenterChallenge
+func (t *GameCenterGroupsResponse_Included_Item) MergeGameCenterChallenge(v GameCenterChallenge) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterChallenges"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterDetail returns the union data inside the GameCenterGroupsResponse_Included_Item as a GameCenterDetail
+func (t GameCenterGroupsResponse_Included_Item) AsGameCenterDetail() (GameCenterDetail, error) {
+	var body GameCenterDetail
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterDetail overwrites any union data inside the GameCenterGroupsResponse_Included_Item as the provided GameCenterDetail
+func (t *GameCenterGroupsResponse_Included_Item) FromGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterDetail performs a merge with any union data inside the GameCenterGroupsResponse_Included_Item, using the provided GameCenterDetail
+func (t *GameCenterGroupsResponse_Included_Item) MergeGameCenterDetail(v GameCenterDetail) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterDetails"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboardSet returns the union data inside the GameCenterGroupsResponse_Included_Item as a GameCenterLeaderboardSet
+func (t GameCenterGroupsResponse_Included_Item) AsGameCenterLeaderboardSet() (GameCenterLeaderboardSet, error) {
+	var body GameCenterLeaderboardSet
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboardSet overwrites any union data inside the GameCenterGroupsResponse_Included_Item as the provided GameCenterLeaderboardSet
+func (t *GameCenterGroupsResponse_Included_Item) FromGameCenterLeaderboardSet(v GameCenterLeaderboardSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSets"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboardSet performs a merge with any union data inside the GameCenterGroupsResponse_Included_Item, using the provided GameCenterLeaderboardSet
+func (t *GameCenterGroupsResponse_Included_Item) MergeGameCenterLeaderboardSet(v GameCenterLeaderboardSet) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboardSets"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsGameCenterLeaderboard returns the union data inside the GameCenterGroupsResponse_Included_Item as a GameCenterLeaderboard
+func (t GameCenterGroupsResponse_Included_Item) AsGameCenterLeaderboard() (GameCenterLeaderboard, error) {
+	var body GameCenterLeaderboard
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromGameCenterLeaderboard overwrites any union data inside the GameCenterGroupsResponse_Included_Item as the provided GameCenterLeaderboard
+func (t *GameCenterGroupsResponse_Included_Item) FromGameCenterLeaderboard(v GameCenterLeaderboard) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboards"}`))
+	t.union = b
+	return err
+}
+
+// MergeGameCenterLeaderboard performs a merge with any union data inside the GameCenterGroupsResponse_Included_Item, using the provided GameCenterLeaderboard
+func (t *GameCenterGroupsResponse_Included_Item) MergeGameCenterLeaderboard(v GameCenterLeaderboard) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"gameCenterLeaderboards"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t GameCenterGroupsResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t GameCenterGroupsResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "gameCenterAchievements":
+		return t.AsGameCenterAchievement()
+	case "gameCenterActivities":
+		return t.AsGameCenterActivity()
+	case "gameCenterChallenges":
+		return t.AsGameCenterChallenge()
+	case "gameCenterDetails":
+		return t.AsGameCenterDetail()
+	case "gameCenterLeaderboardSets":
+		return t.AsGameCenterLeaderboardSet()
+	case "gameCenterLeaderboards":
+		return t.AsGameCenterLeaderboard()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t GameCenterGroupsResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *GameCenterGroupsResponse_Included_Item) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
 // AsInAppPurchaseOfferCodeCustomCode returns the union data inside the InAppPurchaseOfferCodeResponse_Included_Item as a InAppPurchaseOfferCodeCustomCode
 func (t InAppPurchaseOfferCodeResponse_Included_Item) AsInAppPurchaseOfferCodeCustomCode() (InAppPurchaseOfferCodeCustomCode, error) {
 	var body InAppPurchaseOfferCodeCustomCode
@@ -107476,6 +113329,9 @@ type ClientInterface interface {
 	// AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated performs a GET /v1/appStoreVersions/{id}/appStoreVersionPhasedRelease (the `AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated` operationId) request.
 	AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppStoreVersionsGameCenterAppVersionGetToOneRelated performs a GET /v1/appStoreVersions/{id}/gameCenterAppVersion (the `AppStoreVersionsGameCenterAppVersionGetToOneRelated` operationId) request.
+	AppStoreVersionsGameCenterAppVersionGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppStoreVersionsBuildGetToOneRelationship performs a GET /v1/appStoreVersions/{id}/relationships/build (the `AppStoreVersionsBuildGetToOneRelationship` operationId) request.
 	AppStoreVersionsBuildGetToOneRelationship(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
 
@@ -107556,6 +113412,9 @@ type ClientInterface interface {
 
 	// AppsEndUserLicenseAgreementGetToOneRelated performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
 	AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppsGameCenterDetailGetToOneRelated performs a GET /v1/apps/{id}/gameCenterDetail (the `AppsGameCenterDetailGetToOneRelated` operationId) request.
+	AppsGameCenterDetailGetToOneRelated(ctx context.Context, id string, params *AppsGameCenterDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// AppsInAppPurchasesV2GetToManyRelated performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
 	AppsInAppPurchasesV2GetToManyRelated(ctx context.Context, id string, params *AppsInAppPurchasesV2GetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -108132,6 +113991,85 @@ type ClientInterface interface {
 
 	// EndUserLicenseAgreementsTerritoriesGetToManyRelationship performs a GET /v1/endUserLicenseAgreements/{id}/relationships/territories (the `EndUserLicenseAgreementsTerritoriesGetToManyRelationship` operationId) request.
 	EndUserLicenseAgreementsTerritoriesGetToManyRelationship(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsCreateInstanceWithBody performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAppVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsCreateInstance performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAppVersionsCreateInstance(ctx context.Context, body GameCenterAppVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsUpdateInstanceWithBody performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAppVersionsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsUpdateInstance performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAppVersionsUpdateInstance(ctx context.Context, id string, body GameCenterAppVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBody performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship performs a GET /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship` operationId) request.
+	GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship(ctx context.Context, id string, params *GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBody performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsCreateInstanceWithBody performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsCreateInstance performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterDetailsCreateInstance(ctx context.Context, body GameCenterDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsUpdateInstanceWithBody performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsUpdateInstance performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterDetailsUpdateInstance(ctx context.Context, id string, body GameCenterDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterDetailsGameCenterAppVersionsGetToManyRelated performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelated(ctx context.Context, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGetCollection performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
+	GameCenterGroupsGetCollection(ctx context.Context, params *GameCenterGroupsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsCreateInstanceWithBody performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterGroupsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsCreateInstance performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterGroupsCreateInstance(ctx context.Context, body GameCenterGroupsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsDeleteInstance performs a DELETE /v1/gameCenterGroups/{id} (the `GameCenterGroupsDeleteInstance` operationId) request.
+	GameCenterGroupsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsGetInstance performs a GET /v1/gameCenterGroups/{id} (the `GameCenterGroupsGetInstance` operationId) request.
+	GameCenterGroupsGetInstance(ctx context.Context, id string, params *GameCenterGroupsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsUpdateInstanceWithBody performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	GameCenterGroupsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// GameCenterGroupsUpdateInstance performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	GameCenterGroupsUpdateInstance(ctx context.Context, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBody performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -112324,6 +118262,19 @@ func (c *Client) AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated(ctx
 	return c.Client.Do(req)
 }
 
+// AppStoreVersionsGameCenterAppVersionGetToOneRelated performs a GET /v1/appStoreVersions/{id}/gameCenterAppVersion (the `AppStoreVersionsGameCenterAppVersionGetToOneRelated` operationId) request.
+func (c *Client) AppStoreVersionsGameCenterAppVersionGetToOneRelated(ctx context.Context, id string, params *AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppStoreVersionsGameCenterAppVersionGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // AppStoreVersionsBuildGetToOneRelationship performs a GET /v1/appStoreVersions/{id}/relationships/build (the `AppStoreVersionsBuildGetToOneRelationship` operationId) request.
 func (c *Client) AppStoreVersionsBuildGetToOneRelationship(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppStoreVersionsBuildGetToOneRelationshipRequest(c.Server, id)
@@ -112645,6 +118596,19 @@ func (c *Client) AppsBackgroundAssetsGetToManyRelated(ctx context.Context, id st
 // AppsEndUserLicenseAgreementGetToOneRelated performs a GET /v1/apps/{id}/endUserLicenseAgreement (the `AppsEndUserLicenseAgreementGetToOneRelated` operationId) request.
 func (c *Client) AppsEndUserLicenseAgreementGetToOneRelated(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppsEndUserLicenseAgreementGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppsGameCenterDetailGetToOneRelated performs a GET /v1/apps/{id}/gameCenterDetail (the `AppsGameCenterDetailGetToOneRelated` operationId) request.
+func (c *Client) AppsGameCenterDetailGetToOneRelated(ctx context.Context, id string, params *AppsGameCenterDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppsGameCenterDetailGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -114821,6 +120785,295 @@ func (c *Client) EndUserLicenseAgreementsUpdateInstance(ctx context.Context, id 
 // EndUserLicenseAgreementsTerritoriesGetToManyRelationship performs a GET /v1/endUserLicenseAgreements/{id}/relationships/territories (the `EndUserLicenseAgreementsTerritoriesGetToManyRelationship` operationId) request.
 func (c *Client) EndUserLicenseAgreementsTerritoriesGetToManyRelationship(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewEndUserLicenseAgreementsTerritoriesGetToManyRelationshipRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsCreateInstanceWithBody performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAppVersionsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsCreateInstance performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAppVersionsCreateInstance(ctx context.Context, body GameCenterAppVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsUpdateInstanceWithBody performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAppVersionsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsUpdateInstance performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAppVersionsUpdateInstance(ctx context.Context, id string, body GameCenterAppVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBody performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship performs a GET /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship` operationId) request.
+func (c *Client) GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship(ctx context.Context, id string, params *GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBody performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsCreateInstanceWithBody performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsCreateInstance performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterDetailsCreateInstance(ctx context.Context, body GameCenterDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsUpdateInstanceWithBody performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterDetailsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsUpdateInstance performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterDetailsUpdateInstance(ctx context.Context, id string, body GameCenterDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterDetailsGameCenterAppVersionsGetToManyRelated performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
+func (c *Client) GameCenterDetailsGameCenterAppVersionsGetToManyRelated(ctx context.Context, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterDetailsGameCenterAppVersionsGetToManyRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGetCollection performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
+func (c *Client) GameCenterGroupsGetCollection(ctx context.Context, params *GameCenterGroupsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsCreateInstanceWithBody performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterGroupsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsCreateInstance performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterGroupsCreateInstance(ctx context.Context, body GameCenterGroupsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsDeleteInstance performs a DELETE /v1/gameCenterGroups/{id} (the `GameCenterGroupsDeleteInstance` operationId) request.
+func (c *Client) GameCenterGroupsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsGetInstance performs a GET /v1/gameCenterGroups/{id} (the `GameCenterGroupsGetInstance` operationId) request.
+func (c *Client) GameCenterGroupsGetInstance(ctx context.Context, id string, params *GameCenterGroupsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsUpdateInstanceWithBody performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) GameCenterGroupsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// GameCenterGroupsUpdateInstance performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) GameCenterGroupsUpdateInstance(ctx context.Context, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewGameCenterGroupsUpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -130865,6 +137118,103 @@ func NewAppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedRequest(serve
 	return req, nil
 }
 
+// NewAppStoreVersionsGameCenterAppVersionGetToOneRelatedRequest constructs an http.Request for the AppStoreVersionsGameCenterAppVersionGetToOneRelated method
+func NewAppStoreVersionsGameCenterAppVersionGetToOneRelatedRequest(server string, id string, params *AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appStoreVersions/%s/gameCenterAppVersion", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterAppVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAppVersions]", *params.FieldsGameCenterAppVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersions]", *params.FieldsAppStoreVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitCompatibilityVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[compatibilityVersions]", *params.LimitCompatibilityVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
 // NewAppStoreVersionsBuildGetToOneRelationshipRequest constructs an http.Request for the AppStoreVersionsBuildGetToOneRelationship method
 func NewAppStoreVersionsBuildGetToOneRelationshipRequest(server string, id string) (*http.Request, error) {
 	var err error
@@ -134424,6 +140774,427 @@ func NewAppsEndUserLicenseAgreementGetToOneRelatedRequest(server string, id stri
 		if params.FieldsEndUserLicenseAgreements != nil {
 
 			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[endUserLicenseAgreements]", *params.FieldsEndUserLicenseAgreements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppsGameCenterDetailGetToOneRelatedRequest constructs an http.Request for the AppsGameCenterDetailGetToOneRelated method
+func NewAppsGameCenterDetailGetToOneRelatedRequest(server string, id string, params *AppsGameCenterDetailGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/apps/%s/gameCenterDetail", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterDetails]", *params.FieldsGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsApps != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[apps]", *params.FieldsApps, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAppVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAppVersions]", *params.FieldsGameCenterAppVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterGroups != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterGroups]", *params.FieldsGameCenterGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboards != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboards]", *params.FieldsGameCenterLeaderboards, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboardSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboardSets]", *params.FieldsGameCenterLeaderboardSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievements]", *params.FieldsGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterActivities]", *params.FieldsGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterChallenges != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterChallenges]", *params.FieldsGameCenterChallenges, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievementReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievementReleases]", *params.FieldsGameCenterAchievementReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterActivityVersionReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterActivityVersionReleases]", *params.FieldsGameCenterActivityVersionReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterChallengeVersionReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterChallengeVersionReleases]", *params.FieldsGameCenterChallengeVersionReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboardReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboardReleases]", *params.FieldsGameCenterLeaderboardReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboardSetReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboardSetReleases]", *params.FieldsGameCenterLeaderboardSetReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersions]", *params.FieldsAppStoreVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterAppVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterAppVersions]", *params.LimitGameCenterAppVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboards != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboards]", *params.LimitGameCenterLeaderboards, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardsV2]", *params.LimitGameCenterLeaderboardsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardSets]", *params.LimitGameCenterLeaderboardSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardSetsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardSetsV2]", *params.LimitGameCenterLeaderboardSetsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterAchievements]", *params.LimitGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterAchievementsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterAchievementsV2]", *params.LimitGameCenterAchievementsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterActivities]", *params.LimitGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterChallenges != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterChallenges]", *params.LimitGameCenterChallenges, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitAchievementReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[achievementReleases]", *params.LimitAchievementReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitActivityReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[activityReleases]", *params.LimitActivityReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitChallengeReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[challengeReleases]", *params.LimitChallengeReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLeaderboardReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[leaderboardReleases]", *params.LimitLeaderboardReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLeaderboardSetReleases != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[leaderboardSetReleases]", *params.LimitLeaderboardSetReleases, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitChallengesMinimumPlatformVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[challengesMinimumPlatformVersions]", *params.LimitChallengesMinimumPlatformVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
 				return nil, err
 			} else {
 				for _, qp := range strings.Split(queryFrag, "&") {
@@ -143542,6 +150313,1100 @@ func NewEndUserLicenseAgreementsTerritoriesGetToManyRelationshipRequest(server s
 	if err != nil {
 		return nil, err
 	}
+
+	return req, nil
+}
+
+// NewGameCenterAppVersionsCreateInstanceRequest calls the generic GameCenterAppVersionsCreateInstance builder with application/json body
+func NewGameCenterAppVersionsCreateInstanceRequest(server string, body GameCenterAppVersionsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAppVersionsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterAppVersionsCreateInstanceRequestWithBody constructs an http.Request for the GameCenterAppVersionsCreateInstance method, with any body, and a specified content type
+func NewGameCenterAppVersionsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterAppVersions")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAppVersionsUpdateInstanceRequest calls the generic GameCenterAppVersionsUpdateInstance builder with application/json body
+func NewGameCenterAppVersionsUpdateInstanceRequest(server string, id string, body GameCenterAppVersionsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAppVersionsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterAppVersionsUpdateInstanceRequestWithBody constructs an http.Request for the GameCenterAppVersionsUpdateInstance method, with any body, and a specified content type
+func NewGameCenterAppVersionsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterAppVersions/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipRequest calls the generic GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship builder with application/json body
+func NewGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipRequest(server string, id string, body GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship method, with any body, and a specified content type
+func NewGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterAppVersions/%s/relationships/compatibilityVersions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipRequest constructs an http.Request for the GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship method
+func NewGameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipRequest(server string, id string, params *GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterAppVersions/%s/relationships/compatibilityVersions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipRequest calls the generic GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship builder with application/json body
+func NewGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipRequest(server string, id string, body GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipRequestWithBody constructs an http.Request for the GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship method, with any body, and a specified content type
+func NewGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterAppVersions/%s/relationships/compatibilityVersions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterDetailsCreateInstanceRequest calls the generic GameCenterDetailsCreateInstance builder with application/json body
+func NewGameCenterDetailsCreateInstanceRequest(server string, body GameCenterDetailsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterDetailsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterDetailsCreateInstanceRequestWithBody constructs an http.Request for the GameCenterDetailsCreateInstance method, with any body, and a specified content type
+func NewGameCenterDetailsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterDetailsUpdateInstanceRequest calls the generic GameCenterDetailsUpdateInstance builder with application/json body
+func NewGameCenterDetailsUpdateInstanceRequest(server string, id string, body GameCenterDetailsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterDetailsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterDetailsUpdateInstanceRequestWithBody constructs an http.Request for the GameCenterDetailsUpdateInstance method, with any body, and a specified content type
+func NewGameCenterDetailsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterDetailsGameCenterAppVersionsGetToManyRelatedRequest constructs an http.Request for the GameCenterDetailsGameCenterAppVersionsGetToManyRelated method
+func NewGameCenterDetailsGameCenterAppVersionsGetToManyRelatedRequest(server string, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterDetails/%s/gameCenterAppVersions", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterEnabled != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[enabled]", *params.FilterEnabled, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAppVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAppVersions]", *params.FieldsGameCenterAppVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppStoreVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appStoreVersions]", *params.FieldsAppStoreVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitCompatibilityVersions != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[compatibilityVersions]", *params.LimitCompatibilityVersions, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterGroupsGetCollectionRequest constructs an http.Request for the GameCenterGroupsGetCollection method
+func NewGameCenterGroupsGetCollectionRequest(server string, params *GameCenterGroupsGetCollectionParams) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FilterGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "filter[gameCenterDetails]", *params.FilterGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterGroups != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterGroups]", *params.FieldsGameCenterGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterDetails]", *params.FieldsGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboards != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboards]", *params.FieldsGameCenterLeaderboards, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboardSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboardSets]", *params.FieldsGameCenterLeaderboardSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievements]", *params.FieldsGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterActivities]", *params.FieldsGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterChallenges != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterChallenges]", *params.FieldsGameCenterChallenges, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Limit != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit", *params.Limit, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterAchievements]", *params.LimitGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterAchievementsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterAchievementsV2]", *params.LimitGameCenterAchievementsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterActivities]", *params.LimitGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterChallenges != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterChallenges]", *params.LimitGameCenterChallenges, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterDetails]", *params.LimitGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardSets]", *params.LimitGameCenterLeaderboardSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardSetsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardSetsV2]", *params.LimitGameCenterLeaderboardSetsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboards != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboards]", *params.LimitGameCenterLeaderboards, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardsV2]", *params.LimitGameCenterLeaderboardsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterGroupsCreateInstanceRequest calls the generic GameCenterGroupsCreateInstance builder with application/json body
+func NewGameCenterGroupsCreateInstanceRequest(server string, body GameCenterGroupsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterGroupsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewGameCenterGroupsCreateInstanceRequestWithBody constructs an http.Request for the GameCenterGroupsCreateInstance method, with any body, and a specified content type
+func NewGameCenterGroupsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewGameCenterGroupsDeleteInstanceRequest constructs an http.Request for the GameCenterGroupsDeleteInstance method
+func NewGameCenterGroupsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterGroupsGetInstanceRequest constructs an http.Request for the GameCenterGroupsGetInstance method
+func NewGameCenterGroupsGetInstanceRequest(server string, id string, params *GameCenterGroupsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsGameCenterGroups != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterGroups]", *params.FieldsGameCenterGroups, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterDetails]", *params.FieldsGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboards != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboards]", *params.FieldsGameCenterLeaderboards, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterLeaderboardSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterLeaderboardSets]", *params.FieldsGameCenterLeaderboardSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterAchievements]", *params.FieldsGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterActivities]", *params.FieldsGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsGameCenterChallenges != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[gameCenterChallenges]", *params.FieldsGameCenterChallenges, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterAchievements != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterAchievements]", *params.LimitGameCenterAchievements, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterAchievementsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterAchievementsV2]", *params.LimitGameCenterAchievementsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterActivities != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterActivities]", *params.LimitGameCenterActivities, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterChallenges != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterChallenges]", *params.LimitGameCenterChallenges, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterDetails != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterDetails]", *params.LimitGameCenterDetails, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardSets != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardSets]", *params.LimitGameCenterLeaderboardSets, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardSetsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardSetsV2]", *params.LimitGameCenterLeaderboardSetsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboards != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboards]", *params.LimitGameCenterLeaderboards, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitGameCenterLeaderboardsV2 != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[gameCenterLeaderboardsV2]", *params.LimitGameCenterLeaderboardsV2, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewGameCenterGroupsUpdateInstanceRequest calls the generic GameCenterGroupsUpdateInstance builder with application/json body
+func NewGameCenterGroupsUpdateInstanceRequest(server string, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewGameCenterGroupsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewGameCenterGroupsUpdateInstanceRequestWithBody constructs an http.Request for the GameCenterGroupsUpdateInstance method, with any body, and a specified content type
+func NewGameCenterGroupsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/gameCenterGroups/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
 
 	return req, nil
 }
@@ -159316,6 +167181,11 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedResponse, error)
 
+	// AppStoreVersionsGameCenterAppVersionGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/gameCenterAppVersion (the `AppStoreVersionsGameCenterAppVersionGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppStoreVersionsGameCenterAppVersionGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse, error)
+
 	// AppStoreVersionsBuildGetToOneRelationshipWithResponse performs a GET /v1/appStoreVersions/{id}/relationships/build (the `AppStoreVersionsBuildGetToOneRelationship` operationId) request.
 	//
 	// Returns a wrapper object for the known response body format(s).
@@ -159440,6 +167310,11 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	AppsEndUserLicenseAgreementGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsEndUserLicenseAgreementGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsEndUserLicenseAgreementGetToOneRelatedResponse, error)
+
+	// AppsGameCenterDetailGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/gameCenterDetail (the `AppsGameCenterDetailGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppsGameCenterDetailGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsGameCenterDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsGameCenterDetailGetToOneRelatedResponse, error)
 
 	// AppsInAppPurchasesV2GetToManyRelatedWithResponse performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
 	//
@@ -160240,6 +168115,111 @@ type ClientWithResponsesInterface interface {
 	//
 	// Returns a wrapper object for the known response body format(s).
 	EndUserLicenseAgreementsTerritoriesGetToManyRelationshipWithResponse(ctx context.Context, id string, params *EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse, error)
+
+	// GameCenterAppVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCreateInstanceResponse, error)
+
+	// GameCenterAppVersionsCreateInstanceWithResponse performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsCreateInstanceWithResponse(ctx context.Context, body GameCenterAppVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCreateInstanceResponse, error)
+
+	// GameCenterAppVersionsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsUpdateInstanceResponse, error)
+
+	// GameCenterAppVersionsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAppVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsUpdateInstanceResponse, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithResponse performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipWithResponse performs a GET /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipWithResponse(ctx context.Context, id string, params *GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse, error)
+
+	// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithResponse performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse, error)
+
+	// GameCenterDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsCreateInstanceResponse, error)
+
+	// GameCenterDetailsCreateInstanceWithResponse performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterDetailsCreateInstanceWithResponse(ctx context.Context, body GameCenterDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsCreateInstanceResponse, error)
+
+	// GameCenterDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsUpdateInstanceResponse, error)
+
+	// GameCenterDetailsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsUpdateInstanceResponse, error)
+
+	// GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse, error)
+
+	// GameCenterGroupsGetCollectionWithResponse performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGetCollectionWithResponse(ctx context.Context, params *GameCenterGroupsGetCollectionParams, reqEditors ...RequestEditorFn) (*GameCenterGroupsGetCollectionResponse, error)
+
+	// GameCenterGroupsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsCreateInstanceResponse, error)
+
+	// GameCenterGroupsCreateInstanceWithResponse performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterGroupsCreateInstanceWithResponse(ctx context.Context, body GameCenterGroupsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsCreateInstanceResponse, error)
+
+	// GameCenterGroupsDeleteInstanceWithResponse performs a DELETE /v1/gameCenterGroups/{id} (the `GameCenterGroupsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterGroupsDeleteInstanceResponse, error)
+
+	// GameCenterGroupsGetInstanceWithResponse performs a GET /v1/gameCenterGroups/{id} (the `GameCenterGroupsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsGetInstanceWithResponse(ctx context.Context, id string, params *GameCenterGroupsGetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterGroupsGetInstanceResponse, error)
+
+	// GameCenterGroupsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	GameCenterGroupsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsUpdateInstanceResponse, error)
+
+	// GameCenterGroupsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	GameCenterGroupsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsUpdateInstanceResponse, error)
 
 	// InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
@@ -174384,6 +182364,82 @@ func (r AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedResponse) Con
 	return ""
 }
 
+type AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAppVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) GetJSON200() *GameCenterAppVersionResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type AppStoreVersionsBuildGetToOneRelationshipResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -176078,6 +184134,82 @@ func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppsEndUserLicenseAgreementGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppsGameCenterDetailGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppsGameCenterDetailGetToOneRelatedResponse) GetJSON200() *GameCenterDetailResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppsGameCenterDetailGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppsGameCenterDetailGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppsGameCenterDetailGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppsGameCenterDetailGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppsGameCenterDetailGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppsGameCenterDetailGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppsGameCenterDetailGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppsGameCenterDetailGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppsGameCenterDetailGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -184877,6 +193009,1057 @@ func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) Status
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r EndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAppVersionsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterAppVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterAppVersionsCreateInstanceResponse) GetJSON201() *GameCenterAppVersionResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAppVersionsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAppVersionsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAppVersionsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAppVersionsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAppVersionsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAppVersionsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAppVersionsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAppVersionsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAppVersionsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAppVersionsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAppVersionsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAppVersionResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON200() *GameCenterAppVersionResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAppVersionsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAppVersionsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAppVersionsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAppVersionsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAppVersionCompatibilityVersionsLinkagesResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) GetJSON200() *GameCenterAppVersionCompatibilityVersionsLinkagesResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterDetailsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterDetailsCreateInstanceResponse) GetJSON201() *GameCenterDetailResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterDetailsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterDetailsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterDetailsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterDetailResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON200() *GameCenterDetailResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterAppVersionsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) GetJSON200() *GameCenterAppVersionsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsGetCollectionResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterGroupsResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterGroupsGetCollectionResponse) GetJSON200() *GameCenterGroupsResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsGetCollectionResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsGetCollectionResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsGetCollectionResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsGetCollectionResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsGetCollectionResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsGetCollectionResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsGetCollectionResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *GameCenterGroupResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r GameCenterGroupsCreateInstanceResponse) GetJSON201() *GameCenterGroupResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterGroupsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterGroupsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterGroupsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterGroupResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterGroupsGetInstanceResponse) GetJSON200() *GameCenterGroupResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterGroupsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type GameCenterGroupsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *GameCenterGroupResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON200() *GameCenterGroupResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r GameCenterGroupsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r GameCenterGroupsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r GameCenterGroupsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r GameCenterGroupsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r GameCenterGroupsUpdateInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -203126,6 +212309,17 @@ func (c *ClientWithResponses) AppStoreVersionsAppStoreVersionPhasedReleaseGetToO
 	return ParseAppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedResponse(rsp)
 }
 
+// AppStoreVersionsGameCenterAppVersionGetToOneRelatedWithResponse performs a GET /v1/appStoreVersions/{id}/gameCenterAppVersion (the `AppStoreVersionsGameCenterAppVersionGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppStoreVersionsGameCenterAppVersionGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse, error) {
+	rsp, err := c.AppStoreVersionsGameCenterAppVersionGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse(rsp)
+}
+
 // AppStoreVersionsBuildGetToOneRelationshipWithResponse performs a GET /v1/appStoreVersions/{id}/relationships/build (the `AppStoreVersionsBuildGetToOneRelationship` operationId) request.
 //
 // Returns a wrapper object for the known response body format(s).
@@ -203399,6 +212593,17 @@ func (c *ClientWithResponses) AppsEndUserLicenseAgreementGetToOneRelatedWithResp
 		return nil, err
 	}
 	return ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse(rsp)
+}
+
+// AppsGameCenterDetailGetToOneRelatedWithResponse performs a GET /v1/apps/{id}/gameCenterDetail (the `AppsGameCenterDetailGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppsGameCenterDetailGetToOneRelatedWithResponse(ctx context.Context, id string, params *AppsGameCenterDetailGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*AppsGameCenterDetailGetToOneRelatedResponse, error) {
+	rsp, err := c.AppsGameCenterDetailGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppsGameCenterDetailGetToOneRelatedResponse(rsp)
 }
 
 // AppsInAppPurchasesV2GetToManyRelatedWithResponse performs a GET /v1/apps/{id}/inAppPurchasesV2 (the `AppsInAppPurchasesV2GetToManyRelated` operationId) request.
@@ -205159,6 +214364,237 @@ func (c *ClientWithResponses) EndUserLicenseAgreementsTerritoriesGetToManyRelati
 		return nil, err
 	}
 	return ParseEndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse(rsp)
+}
+
+// GameCenterAppVersionsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAppVersionsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsCreateInstanceResponse(rsp)
+}
+
+// GameCenterAppVersionsCreateInstanceWithResponse performs a POST /v1/gameCenterAppVersions (the `GameCenterAppVersionsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsCreateInstanceWithResponse(ctx context.Context, body GameCenterAppVersionsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterAppVersionsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsCreateInstanceResponse(rsp)
+}
+
+// GameCenterAppVersionsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAppVersionsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterAppVersionsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterAppVersions/{id} (the `GameCenterAppVersionsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterAppVersionsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterAppVersionsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBodyWithResponse performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse(rsp)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithResponse performs a DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse(rsp)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipWithResponse performs a GET /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipWithResponse(ctx context.Context, id string, params *GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse(rsp)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBodyWithResponse performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse(rsp)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithResponse performs a POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions (the `GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithResponse(ctx context.Context, id string, body GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse, error) {
+	rsp, err := c.GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse(rsp)
+}
+
+// GameCenterDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterDetailsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsCreateInstanceResponse(rsp)
+}
+
+// GameCenterDetailsCreateInstanceWithResponse performs a POST /v1/gameCenterDetails (the `GameCenterDetailsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsCreateInstanceWithResponse(ctx context.Context, body GameCenterDetailsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterDetailsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsCreateInstanceResponse(rsp)
+}
+
+// GameCenterDetailsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterDetailsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterDetailsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterDetailsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterDetails/{id} (the `GameCenterDetailsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterDetailsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterDetailsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterDetailsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse performs a GET /v1/gameCenterDetails/{id}/gameCenterAppVersions (the `GameCenterDetailsGameCenterAppVersionsGetToManyRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse, error) {
+	rsp, err := c.GameCenterDetailsGameCenterAppVersionsGetToManyRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse(rsp)
+}
+
+// GameCenterGroupsGetCollectionWithResponse performs a GET /v1/gameCenterGroups (the `GameCenterGroupsGetCollection` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGetCollectionWithResponse(ctx context.Context, params *GameCenterGroupsGetCollectionParams, reqEditors ...RequestEditorFn) (*GameCenterGroupsGetCollectionResponse, error) {
+	rsp, err := c.GameCenterGroupsGetCollection(ctx, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGetCollectionResponse(rsp)
+}
+
+// GameCenterGroupsCreateInstanceWithBodyWithResponse performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterGroupsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsCreateInstanceResponse(rsp)
+}
+
+// GameCenterGroupsCreateInstanceWithResponse performs a POST /v1/gameCenterGroups (the `GameCenterGroupsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsCreateInstanceWithResponse(ctx context.Context, body GameCenterGroupsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsCreateInstanceResponse, error) {
+	rsp, err := c.GameCenterGroupsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsCreateInstanceResponse(rsp)
+}
+
+// GameCenterGroupsDeleteInstanceWithResponse performs a DELETE /v1/gameCenterGroups/{id} (the `GameCenterGroupsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*GameCenterGroupsDeleteInstanceResponse, error) {
+	rsp, err := c.GameCenterGroupsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsDeleteInstanceResponse(rsp)
+}
+
+// GameCenterGroupsGetInstanceWithResponse performs a GET /v1/gameCenterGroups/{id} (the `GameCenterGroupsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsGetInstanceWithResponse(ctx context.Context, id string, params *GameCenterGroupsGetInstanceParams, reqEditors ...RequestEditorFn) (*GameCenterGroupsGetInstanceResponse, error) {
+	rsp, err := c.GameCenterGroupsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsGetInstanceResponse(rsp)
+}
+
+// GameCenterGroupsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*GameCenterGroupsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterGroupsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsUpdateInstanceResponse(rsp)
+}
+
+// GameCenterGroupsUpdateInstanceWithResponse performs a PATCH /v1/gameCenterGroups/{id} (the `GameCenterGroupsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) GameCenterGroupsUpdateInstanceWithResponse(ctx context.Context, id string, body GameCenterGroupsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*GameCenterGroupsUpdateInstanceResponse, error) {
+	rsp, err := c.GameCenterGroupsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseGameCenterGroupsUpdateInstanceResponse(rsp)
 }
 
 // InAppPurchaseAppStoreReviewScreenshotsCreateInstanceWithBodyWithResponse performs a POST /v1/inAppPurchaseAppStoreReviewScreenshots (the `InAppPurchaseAppStoreReviewScreenshotsCreateInstance` operationId) request,
@@ -218700,6 +228136,67 @@ func ParseAppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedResponse(rs
 	return response, nil
 }
 
+// ParseAppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse parses an HTTP response from a AppStoreVersionsGameCenterAppVersionGetToOneRelatedWithResponse call
+func ParseAppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse(rsp *http.Response) (*AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppStoreVersionsGameCenterAppVersionGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAppVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseAppStoreVersionsBuildGetToOneRelationshipResponse parses an HTTP response from a AppStoreVersionsBuildGetToOneRelationshipWithResponse call
 func ParseAppStoreVersionsBuildGetToOneRelationshipResponse(rsp *http.Response) (*AppStoreVersionsBuildGetToOneRelationshipResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -220031,6 +229528,67 @@ func ParseAppsEndUserLicenseAgreementGetToOneRelatedResponse(rsp *http.Response)
 	switch {
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
 		var dest EndUserLicenseAgreementWithoutIncludesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppsGameCenterDetailGetToOneRelatedResponse parses an HTTP response from a AppsGameCenterDetailGetToOneRelatedWithResponse call
+func ParseAppsGameCenterDetailGetToOneRelatedResponse(rsp *http.Response) (*AppsGameCenterDetailGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppsGameCenterDetailGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterDetailResponse
 		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
 			return nil, err
 		}
@@ -227251,6 +236809,871 @@ func ParseEndUserLicenseAgreementsTerritoriesGetToManyRelationshipResponse(rsp *
 			return nil, err
 		}
 		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAppVersionsCreateInstanceResponse parses an HTTP response from a GameCenterAppVersionsCreateInstanceWithResponse call
+func ParseGameCenterAppVersionsCreateInstanceResponse(rsp *http.Response) (*GameCenterAppVersionsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAppVersionsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterAppVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAppVersionsUpdateInstanceResponse parses an HTTP response from a GameCenterAppVersionsUpdateInstanceWithResponse call
+func ParseGameCenterAppVersionsUpdateInstanceResponse(rsp *http.Response) (*GameCenterAppVersionsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAppVersionsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAppVersionResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse parses an HTTP response from a GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipWithResponse call
+func ParseGameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse(rsp *http.Response) (*GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse parses an HTTP response from a GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipWithResponse call
+func ParseGameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse(rsp *http.Response) (*GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAppVersionCompatibilityVersionsLinkagesResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse parses an HTTP response from a GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipWithResponse call
+func ParseGameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse(rsp *http.Response) (*GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationshipResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterDetailsCreateInstanceResponse parses an HTTP response from a GameCenterDetailsCreateInstanceWithResponse call
+func ParseGameCenterDetailsCreateInstanceResponse(rsp *http.Response) (*GameCenterDetailsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterDetailResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterDetailsUpdateInstanceResponse parses an HTTP response from a GameCenterDetailsUpdateInstanceWithResponse call
+func ParseGameCenterDetailsUpdateInstanceResponse(rsp *http.Response) (*GameCenterDetailsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterDetailResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse parses an HTTP response from a GameCenterDetailsGameCenterAppVersionsGetToManyRelatedWithResponse call
+func ParseGameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse(rsp *http.Response) (*GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterDetailsGameCenterAppVersionsGetToManyRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterAppVersionsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsGetCollectionResponse parses an HTTP response from a GameCenterGroupsGetCollectionWithResponse call
+func ParseGameCenterGroupsGetCollectionResponse(rsp *http.Response) (*GameCenterGroupsGetCollectionResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsGetCollectionResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterGroupsResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsCreateInstanceResponse parses an HTTP response from a GameCenterGroupsCreateInstanceWithResponse call
+func ParseGameCenterGroupsCreateInstanceResponse(rsp *http.Response) (*GameCenterGroupsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest GameCenterGroupResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsDeleteInstanceResponse parses an HTTP response from a GameCenterGroupsDeleteInstanceWithResponse call
+func ParseGameCenterGroupsDeleteInstanceResponse(rsp *http.Response) (*GameCenterGroupsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsGetInstanceResponse parses an HTTP response from a GameCenterGroupsGetInstanceWithResponse call
+func ParseGameCenterGroupsGetInstanceResponse(rsp *http.Response) (*GameCenterGroupsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterGroupResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseGameCenterGroupsUpdateInstanceResponse parses an HTTP response from a GameCenterGroupsUpdateInstanceWithResponse call
+func ParseGameCenterGroupsUpdateInstanceResponse(rsp *http.Response) (*GameCenterGroupsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &GameCenterGroupsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest GameCenterGroupResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -240576,6 +250999,9 @@ type ServerInterface interface {
 	// (GET /v1/appStoreVersions/{id}/appStoreVersionPhasedRelease)
 	AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelatedParams)
 
+	// (GET /v1/appStoreVersions/{id}/gameCenterAppVersion)
+	AppStoreVersionsGameCenterAppVersionGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams)
+
 	// (GET /v1/appStoreVersions/{id}/relationships/build)
 	AppStoreVersionsBuildGetToOneRelationship(w http.ResponseWriter, r *http.Request, id string)
 
@@ -240641,6 +251067,9 @@ type ServerInterface interface {
 
 	// (GET /v1/apps/{id}/endUserLicenseAgreement)
 	AppsEndUserLicenseAgreementGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsEndUserLicenseAgreementGetToOneRelatedParams)
+
+	// (GET /v1/apps/{id}/gameCenterDetail)
+	AppsGameCenterDetailGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params AppsGameCenterDetailGetToOneRelatedParams)
 
 	// (GET /v1/apps/{id}/inAppPurchasesV2)
 	AppsInAppPurchasesV2GetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params AppsInAppPurchasesV2GetToManyRelatedParams)
@@ -240977,6 +251406,45 @@ type ServerInterface interface {
 
 	// (GET /v1/endUserLicenseAgreements/{id}/relationships/territories)
 	EndUserLicenseAgreementsTerritoriesGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params EndUserLicenseAgreementsTerritoriesGetToManyRelationshipParams)
+
+	// (POST /v1/gameCenterAppVersions)
+	GameCenterAppVersionsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (PATCH /v1/gameCenterAppVersions/{id})
+	GameCenterAppVersionsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (DELETE /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions)
+	GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions)
+	GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship(w http.ResponseWriter, r *http.Request, id string, params GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams)
+
+	// (POST /v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions)
+	GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/gameCenterDetails)
+	GameCenterDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (PATCH /v1/gameCenterDetails/{id})
+	GameCenterDetailsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterDetails/{id}/gameCenterAppVersions)
+	GameCenterDetailsGameCenterAppVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams)
+
+	// (GET /v1/gameCenterGroups)
+	GameCenterGroupsGetCollection(w http.ResponseWriter, r *http.Request, params GameCenterGroupsGetCollectionParams)
+
+	// (POST /v1/gameCenterGroups)
+	GameCenterGroupsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/gameCenterGroups/{id})
+	GameCenterGroupsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/gameCenterGroups/{id})
+	GameCenterGroupsGetInstance(w http.ResponseWriter, r *http.Request, id string, params GameCenterGroupsGetInstanceParams)
+
+	// (PATCH /v1/gameCenterGroups/{id})
+	GameCenterGroupsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
 
 	// (POST /v1/inAppPurchaseAppStoreReviewScreenshots)
 	InAppPurchaseAppStoreReviewScreenshotsCreateInstance(w http.ResponseWriter, r *http.Request)
@@ -250963,6 +261431,87 @@ func (siw *ServerInterfaceWrapper) AppStoreVersionsAppStoreVersionPhasedReleaseG
 	handler.ServeHTTP(w, r)
 }
 
+// AppStoreVersionsGameCenterAppVersionGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppStoreVersionsGameCenterAppVersionGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppStoreVersionsGameCenterAppVersionGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[gameCenterAppVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAppVersions]", r.URL.Query(), &params.FieldsGameCenterAppVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAppVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAppVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersions]", r.URL.Query(), &params.FieldsAppStoreVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[compatibilityVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[compatibilityVersions]", r.URL.Query(), &params.LimitCompatibilityVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[compatibilityVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[compatibilityVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppStoreVersionsGameCenterAppVersionGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // AppStoreVersionsBuildGetToOneRelationship operation middleware
 func (siw *ServerInterfaceWrapper) AppStoreVersionsBuildGetToOneRelationship(w http.ResponseWriter, r *http.Request) {
 
@@ -254314,6 +264863,438 @@ func (siw *ServerInterfaceWrapper) AppsEndUserLicenseAgreementGetToOneRelated(w 
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppsEndUserLicenseAgreementGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppsGameCenterDetailGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) AppsGameCenterDetailGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppsGameCenterDetailGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterDetails]", r.URL.Query(), &params.FieldsGameCenterDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[apps]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[apps]", r.URL.Query(), &params.FieldsApps, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[apps]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[apps]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAppVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAppVersions]", r.URL.Query(), &params.FieldsGameCenterAppVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAppVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAppVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterGroups]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterGroups]", r.URL.Query(), &params.FieldsGameCenterGroups, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterGroups]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboards]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboards]", r.URL.Query(), &params.FieldsGameCenterLeaderboards, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboards]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboards]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboardSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboardSets]", r.URL.Query(), &params.FieldsGameCenterLeaderboardSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboardSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboardSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievements]", r.URL.Query(), &params.FieldsGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterActivities]", r.URL.Query(), &params.FieldsGameCenterActivities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterChallenges]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterChallenges]", r.URL.Query(), &params.FieldsGameCenterChallenges, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterChallenges]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterChallenges]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievementReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievementReleases]", r.URL.Query(), &params.FieldsGameCenterAchievementReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievementReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievementReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterActivityVersionReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterActivityVersionReleases]", r.URL.Query(), &params.FieldsGameCenterActivityVersionReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterActivityVersionReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterActivityVersionReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterChallengeVersionReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterChallengeVersionReleases]", r.URL.Query(), &params.FieldsGameCenterChallengeVersionReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterChallengeVersionReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterChallengeVersionReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboardReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboardReleases]", r.URL.Query(), &params.FieldsGameCenterLeaderboardReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboardReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboardReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboardSetReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboardSetReleases]", r.URL.Query(), &params.FieldsGameCenterLeaderboardSetReleases, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboardSetReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboardSetReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersions]", r.URL.Query(), &params.FieldsAppStoreVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterAppVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterAppVersions]", r.URL.Query(), &params.LimitGameCenterAppVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterAppVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterAppVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboards]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboards]", r.URL.Query(), &params.LimitGameCenterLeaderboards, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboards]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboards]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardsV2]", r.URL.Query(), &params.LimitGameCenterLeaderboardsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardsV2]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardSets]", r.URL.Query(), &params.LimitGameCenterLeaderboardSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardSetsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardSetsV2]", r.URL.Query(), &params.LimitGameCenterLeaderboardSetsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardSetsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardSetsV2]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterAchievements]", r.URL.Query(), &params.LimitGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterAchievementsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterAchievementsV2]", r.URL.Query(), &params.LimitGameCenterAchievementsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterAchievementsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterAchievementsV2]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterActivities]", r.URL.Query(), &params.LimitGameCenterActivities, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterChallenges]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterChallenges]", r.URL.Query(), &params.LimitGameCenterChallenges, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterChallenges]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterChallenges]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[achievementReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[achievementReleases]", r.URL.Query(), &params.LimitAchievementReleases, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[achievementReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[achievementReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[activityReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[activityReleases]", r.URL.Query(), &params.LimitActivityReleases, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[activityReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[activityReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[challengeReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[challengeReleases]", r.URL.Query(), &params.LimitChallengeReleases, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[challengeReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[challengeReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[leaderboardReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[leaderboardReleases]", r.URL.Query(), &params.LimitLeaderboardReleases, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[leaderboardReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[leaderboardReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[leaderboardSetReleases]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[leaderboardSetReleases]", r.URL.Query(), &params.LimitLeaderboardSetReleases, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[leaderboardSetReleases]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[leaderboardSetReleases]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[challengesMinimumPlatformVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[challengesMinimumPlatformVersions]", r.URL.Query(), &params.LimitChallengesMinimumPlatformVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[challengesMinimumPlatformVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[challengesMinimumPlatformVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppsGameCenterDetailGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -261495,6 +272476,870 @@ func (siw *ServerInterfaceWrapper) EndUserLicenseAgreementsTerritoriesGetToManyR
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.EndUserLicenseAgreementsTerritoriesGetToManyRelationship(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAppVersionsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAppVersionsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAppVersionsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAppVersionsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAppVersionsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAppVersionsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterAppVersionsCompatibilityVersionsGetToManyRelationshipParams
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterDetailsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterDetailsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterDetailsGameCenterAppVersionsGetToManyRelated operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterDetailsGameCenterAppVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterDetailsGameCenterAppVersionsGetToManyRelatedParams
+
+	// ------------- Optional query parameter "filter[enabled]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[enabled]", r.URL.Query(), &params.FilterEnabled, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[enabled]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[enabled]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAppVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAppVersions]", r.URL.Query(), &params.FieldsGameCenterAppVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAppVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAppVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appStoreVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appStoreVersions]", r.URL.Query(), &params.FieldsAppStoreVersions, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appStoreVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appStoreVersions]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[compatibilityVersions]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[compatibilityVersions]", r.URL.Query(), &params.LimitCompatibilityVersions, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[compatibilityVersions]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[compatibilityVersions]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterDetailsGameCenterAppVersionsGetToManyRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsGetCollection operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsGetCollection(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterGroupsGetCollectionParams
+
+	// ------------- Optional query parameter "filter[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "filter[gameCenterDetails]", r.URL.Query(), &params.FilterGameCenterDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "filter[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "filter[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterGroups]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterGroups]", r.URL.Query(), &params.FieldsGameCenterGroups, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterGroups]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterDetails]", r.URL.Query(), &params.FieldsGameCenterDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboards]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboards]", r.URL.Query(), &params.FieldsGameCenterLeaderboards, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboards]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboards]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboardSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboardSets]", r.URL.Query(), &params.FieldsGameCenterLeaderboardSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboardSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboardSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievements]", r.URL.Query(), &params.FieldsGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterActivities]", r.URL.Query(), &params.FieldsGameCenterActivities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterChallenges]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterChallenges]", r.URL.Query(), &params.FieldsGameCenterChallenges, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterChallenges]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterChallenges]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit", r.URL.Query(), &params.Limit, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterAchievements]", r.URL.Query(), &params.LimitGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterAchievementsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterAchievementsV2]", r.URL.Query(), &params.LimitGameCenterAchievementsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterAchievementsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterAchievementsV2]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterActivities]", r.URL.Query(), &params.LimitGameCenterActivities, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterChallenges]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterChallenges]", r.URL.Query(), &params.LimitGameCenterChallenges, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterChallenges]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterChallenges]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterDetails]", r.URL.Query(), &params.LimitGameCenterDetails, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardSets]", r.URL.Query(), &params.LimitGameCenterLeaderboardSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardSetsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardSetsV2]", r.URL.Query(), &params.LimitGameCenterLeaderboardSetsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardSetsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardSetsV2]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboards]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboards]", r.URL.Query(), &params.LimitGameCenterLeaderboards, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboards]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboards]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardsV2]", r.URL.Query(), &params.LimitGameCenterLeaderboardsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardsV2]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params GameCenterGroupsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[gameCenterGroups]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterGroups]", r.URL.Query(), &params.FieldsGameCenterGroups, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterGroups]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterGroups]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterDetails]", r.URL.Query(), &params.FieldsGameCenterDetails, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboards]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboards]", r.URL.Query(), &params.FieldsGameCenterLeaderboards, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboards]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboards]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterLeaderboardSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterLeaderboardSets]", r.URL.Query(), &params.FieldsGameCenterLeaderboardSets, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterLeaderboardSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterLeaderboardSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterAchievements]", r.URL.Query(), &params.FieldsGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterActivities]", r.URL.Query(), &params.FieldsGameCenterActivities, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[gameCenterChallenges]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[gameCenterChallenges]", r.URL.Query(), &params.FieldsGameCenterChallenges, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[gameCenterChallenges]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[gameCenterChallenges]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterAchievements]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterAchievements]", r.URL.Query(), &params.LimitGameCenterAchievements, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterAchievements]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterAchievements]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterAchievementsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterAchievementsV2]", r.URL.Query(), &params.LimitGameCenterAchievementsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterAchievementsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterAchievementsV2]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterActivities]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterActivities]", r.URL.Query(), &params.LimitGameCenterActivities, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterActivities]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterActivities]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterChallenges]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterChallenges]", r.URL.Query(), &params.LimitGameCenterChallenges, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterChallenges]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterChallenges]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterDetails]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterDetails]", r.URL.Query(), &params.LimitGameCenterDetails, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterDetails]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterDetails]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardSets]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardSets]", r.URL.Query(), &params.LimitGameCenterLeaderboardSets, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardSets]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardSets]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardSetsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardSetsV2]", r.URL.Query(), &params.LimitGameCenterLeaderboardSetsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardSetsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardSetsV2]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboards]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboards]", r.URL.Query(), &params.LimitGameCenterLeaderboards, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboards]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboards]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[gameCenterLeaderboardsV2]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[gameCenterLeaderboardsV2]", r.URL.Query(), &params.LimitGameCenterLeaderboardsV2, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[gameCenterLeaderboardsV2]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[gameCenterLeaderboardsV2]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// GameCenterGroupsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) GameCenterGroupsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.GameCenterGroupsUpdateInstance(w, r, id)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -272905,6 +284750,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/appStoreReviewDetail", wrapper.AppStoreVersionsAppStoreReviewDetailGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/appStoreVersionLocalizations", wrapper.AppStoreVersionsAppStoreVersionLocalizationsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/appStoreVersionPhasedRelease", wrapper.AppStoreVersionsAppStoreVersionPhasedReleaseGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/gameCenterAppVersion", wrapper.AppStoreVersionsGameCenterAppVersionGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/relationships/build", wrapper.AppStoreVersionsBuildGetToOneRelationship)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appStoreVersions/{id}/relationships/build", wrapper.AppStoreVersionsBuildUpdateToOneRelationship)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appStoreVersions/{id}/routingAppCoverage", wrapper.AppStoreVersionsRoutingAppCoverageGetToOneRelated)
@@ -272927,6 +284773,7 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/assetLibrary", wrapper.AppsAssetLibraryGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/backgroundAssets", wrapper.AppsBackgroundAssetsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/endUserLicenseAgreement", wrapper.AppsEndUserLicenseAgreementGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/gameCenterDetail", wrapper.AppsGameCenterDetailGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/inAppPurchasesV2", wrapper.AppsInAppPurchasesV2GetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/marketplaceSearchDetail", wrapper.AppsMarketplaceSearchDetailGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/apps/{id}/promotedPurchases", wrapper.AppsPromotedPurchasesGetToManyRelated)
@@ -273039,6 +284886,19 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsDeleteInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}", wrapper.EndUserLicenseAgreementsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/endUserLicenseAgreements/{id}/relationships/territories", wrapper.EndUserLicenseAgreementsTerritoriesGetToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterAppVersions", wrapper.GameCenterAppVersionsCreateInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterAppVersions/{id}", wrapper.GameCenterAppVersionsUpdateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions", wrapper.GameCenterAppVersionsCompatibilityVersionsDeleteToManyRelationship)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions", wrapper.GameCenterAppVersionsCompatibilityVersionsGetToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterAppVersions/{id}/relationships/compatibilityVersions", wrapper.GameCenterAppVersionsCompatibilityVersionsCreateToManyRelationship)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterDetails", wrapper.GameCenterDetailsCreateInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterDetails/{id}", wrapper.GameCenterDetailsUpdateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterDetails/{id}/gameCenterAppVersions", wrapper.GameCenterDetailsGameCenterAppVersionsGetToManyRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups", wrapper.GameCenterGroupsGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/gameCenterGroups", wrapper.GameCenterGroupsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/gameCenterGroups/{id}", wrapper.GameCenterGroupsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/gameCenterGroups/{id}", wrapper.GameCenterGroupsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/gameCenterGroups/{id}", wrapper.GameCenterGroupsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots", wrapper.InAppPurchaseAppStoreReviewScreenshotsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/inAppPurchaseAppStoreReviewScreenshots/{id}", wrapper.InAppPurchaseAppStoreReviewScreenshotsGetInstance)

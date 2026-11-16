@@ -1,0 +1,1 @@
+terraform import apple_game_center_detail.example 1234567890
