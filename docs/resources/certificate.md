@@ -4,11 +4,14 @@ page_title: "apple_certificate Resource - apple"
 subcategory: ""
 description: |-
   Creates a signing certificate from a certificate signing request (CSR). Destroying it revokes the certificate, which invalidates the provisioning profiles that use it. Certificates cannot be renewed in place; use early_renewal_hours with create_before_destroy to replace one before it expires. Import it by its App Store Connect ID or serial number.
+  The API key needs a team key's Admin role, or the App Manager role with access to Certificates, Identifiers & Profiles; the Developer role with that access can create only development certificates, and individual API keys can't manage certificates. Developer ID certificates can't be created through the API: only the Account Holder can create them, on the Apple Developer website or in Xcode.
 ---
 
 # apple_certificate (Resource)
 
 Creates a signing certificate from a certificate signing request (CSR). Destroying it revokes the certificate, which invalidates the provisioning profiles that use it. Certificates cannot be renewed in place; use `early_renewal_hours` with `create_before_destroy` to replace one before it expires. Import it by its App Store Connect ID or serial number.
+
+The API key needs a team key's Admin role, or the App Manager role with access to Certificates, Identifiers & Profiles; the Developer role with that access can create only development certificates, and individual API keys can't manage certificates. Developer ID certificates can't be created through the API: only the Account Holder can create them, on the Apple Developer website or in Xcode.
 
 ## Example Usage
 
@@ -53,7 +56,7 @@ resource "apple_certificate" "development" {
 
 ### Required
 
-- `certificate_type` (String) Certificate type: `APPLE_PAY`, `APPLE_PAY_MERCHANT_IDENTITY`, `APPLE_PAY_PSP_IDENTITY`, `APPLE_PAY_RSA`, `DEVELOPER_ID_APPLICATION`, `DEVELOPER_ID_APPLICATION_G2`, `DEVELOPER_ID_KEXT`, `DEVELOPER_ID_KEXT_G2`, `DEVELOPMENT`, `DISTRIBUTION`, `IDENTITY_ACCESS`, `IOS_DEVELOPMENT`, `IOS_DISTRIBUTION`, `MAC_APP_DEVELOPMENT`, `MAC_APP_DISTRIBUTION`, `MAC_INSTALLER_DISTRIBUTION`, `PASS_TYPE_ID`, `PASS_TYPE_ID_WITH_NFC`. Changing it creates a new certificate.
+- `certificate_type` (String) Certificate type: `APPLE_PAY`, `APPLE_PAY_MERCHANT_IDENTITY`, `APPLE_PAY_PSP_IDENTITY`, `APPLE_PAY_RSA`, `DEVELOPER_ID_APPLICATION`, `DEVELOPER_ID_APPLICATION_G2`, `DEVELOPER_ID_KEXT`, `DEVELOPER_ID_KEXT_G2`, `DEVELOPMENT`, `DISTRIBUTION`, `IDENTITY_ACCESS`, `IOS_DEVELOPMENT`, `IOS_DISTRIBUTION`, `MAC_APP_DEVELOPMENT`, `MAC_APP_DISTRIBUTION`, `MAC_INSTALLER_DISTRIBUTION`, `PASS_TYPE_ID`, `PASS_TYPE_ID_WITH_NFC`. App Store Connect doesn't create the `DEVELOPER_ID_*` types through the API. Changing it creates a new certificate.
 - `csr_content` (String) PEM-encoded certificate signing request, e.g. `tls_cert_request.signing.cert_request_pem`. Changing it creates a new certificate.
 
 ### Optional

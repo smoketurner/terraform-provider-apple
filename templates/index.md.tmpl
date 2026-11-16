@@ -15,9 +15,48 @@ Manage App Store Connect as code through the [App Store Connect API](https://dev
    download the `.p8` private key, which App Store Connect lets you download only once.
 2. Pass the issuer ID, key ID and the contents of the `.p8` file as `issuer_id`, `key_id` and `private_key`, or set
    `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_ID` and `APP_STORE_CONNECT_PRIVATE_KEY`.
-3. To use an individual API key from your user profile instead, leave `issuer_id` unset.
+3. To use an individual API key from your user profile instead, leave `issuer_id` unset. An individual key has its
+   user's access, and can't manage certificates, bundle IDs, devices or provisioning profiles; see below.
 
 {{ tffile "examples/provider/provider.tf" }}
+
+## Roles and permissions
+
+App Store Connect decides what a request may do from the API key: the role chosen for a team key, or the roles of
+the user an individual key belongs to. A change the key isn't allowed to make fails at apply with a 403 error. The
+[roles and access](https://developer.apple.com/help/account/access/roles/) page lists every permission; these are the
+limits that most often affect this provider.
+
+Some things need the Account Holder, the person who enrolled the team, and no API key can do them:
+
+* **Developer ID certificates.** Only the Account Holder can create them, and only on the Apple Developer website or
+  in Xcode: the API [can't create them](https://developer.apple.com/documentation/appstoreconnectapi/certificates)
+  with any key. `apple_certificate` can't create the `DEVELOPER_ID_*` types. Create the certificate by hand, then
+  read it with `data.apple_certificate`.
+* **Agreements.** Only the Account Holder can accept an updated Apple Developer Program License Agreement or sign the
+  Paid Applications Agreement, which paid apps and in-app purchases need. App Store Connect limits access to the
+  API and to Certificates, Identifiers & Profiles until an updated agreement is accepted, whatever the key's role.
+* **Membership renewal.** Only the Account Holder can renew the team's membership.
+
+For signing resources, the key's role sets what it can manage:
+
+| Change | Admin | App Manager | Developer |
+|--------|-------|-------------|-----------|
+| Create and revoke development certificates | Yes | With access to Certificates, Identifiers & Profiles | With access to Certificates, Identifiers & Profiles |
+| Create and revoke distribution, Apple Pay and pass type ID certificates | Yes | With access to Certificates, Identifiers & Profiles | No |
+| Register bundle IDs and devices | Yes | With access to Certificates, Identifiers & Profiles | No (only through Xcode automatic signing) |
+| Delete bundle IDs and disable devices | Yes | With access to Certificates, Identifiers & Profiles | No |
+| Create development provisioning profiles | Yes | With access to Certificates, Identifiers & Profiles | No (only through Xcode automatic signing) |
+| Create and delete distribution provisioning profiles | Yes | With access to Certificates, Identifiers & Profiles | No |
+
+Two more limits apply to the key itself:
+
+* **Individual keys can't use the provisioning endpoints.** `apple_certificate`, `apple_bundle_id`,
+  `apple_bundle_id_capability`, `apple_device`, `apple_profile`, `apple_merchant_id`, `apple_pass_type_id` and their
+  data sources need a team key. This holds even for the Account Holder's own individual key.
+* **Managing users needs Admin.** An App Manager key can add only Developer and Marketing users, and can grant
+  access only to apps it can see; every other change to `apple_user` and `apple_user_visible_app` needs an Admin key.
+  Only an Admin or the Account Holder can generate team keys.
 
 ## Behavior
 
