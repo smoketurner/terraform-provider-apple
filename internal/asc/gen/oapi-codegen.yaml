@@ -45,6 +45,12 @@ output-options:
     - appAvailabilitiesV2_createInstance
     - appAvailabilitiesV2_territoryAvailabilities_getToManyRelated
     - appCategories_getCollection
+    - appClipAdvancedExperienceImages_createInstance
+    - appClipAdvancedExperienceImages_getInstance
+    - appClipAdvancedExperienceImages_updateInstance
+    - appClipAdvancedExperiences_createInstance
+    - appClipAdvancedExperiences_getInstance
+    - appClipAdvancedExperiences_updateInstance
     - appClipAppStoreReviewDetails_createInstance
     - appClipAppStoreReviewDetails_getInstance
     - appClipAppStoreReviewDetails_updateInstance
@@ -199,6 +205,13 @@ output-options:
     - backgroundAssets_getInstance
     - backgroundAssets_updateInstance
     - backgroundAssets_versions_getToManyRelated
+    - betaAppClipInvocationLocalizations_createInstance
+    - betaAppClipInvocationLocalizations_deleteInstance
+    - betaAppClipInvocationLocalizations_updateInstance
+    - betaAppClipInvocations_createInstance
+    - betaAppClipInvocations_deleteInstance
+    - betaAppClipInvocations_getInstance
+    - betaAppClipInvocations_updateInstance
     - betaAppLocalizations_createInstance
     - betaAppLocalizations_deleteInstance
     - betaAppLocalizations_getInstance
@@ -233,6 +246,8 @@ output-options:
     - buildBetaDetails_getCollection
     - buildBetaDetails_updateInstance
     - buildBetaNotifications_createInstance
+    - buildBundles_appClipDomainCacheStatus_getToOneRelated
+    - buildBundles_appClipDomainDebugStatus_getToOneRelated
     - builds_appEncryptionDeclaration_updateToOneRelationship
     - builds_betaGroups_createToManyRelationship
     - builds_betaGroups_deleteToManyRelationship

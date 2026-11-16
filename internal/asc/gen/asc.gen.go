@@ -2774,6 +2774,1284 @@ func (e AppClipAction) Valid() bool {
 	}
 }
 
+// Defines values for AppClipAdvancedExperienceAttributesBusinessCategory.
+const (
+	AppClipAdvancedExperienceAttributesBusinessCategoryAUTOMOTIVE           AppClipAdvancedExperienceAttributesBusinessCategory = "AUTOMOTIVE"
+	AppClipAdvancedExperienceAttributesBusinessCategoryBEAUTY               AppClipAdvancedExperienceAttributesBusinessCategory = "BEAUTY"
+	AppClipAdvancedExperienceAttributesBusinessCategoryBIKES                AppClipAdvancedExperienceAttributesBusinessCategory = "BIKES"
+	AppClipAdvancedExperienceAttributesBusinessCategoryBOOKS                AppClipAdvancedExperienceAttributesBusinessCategory = "BOOKS"
+	AppClipAdvancedExperienceAttributesBusinessCategoryCASINO               AppClipAdvancedExperienceAttributesBusinessCategory = "CASINO"
+	AppClipAdvancedExperienceAttributesBusinessCategoryEDUCATION            AppClipAdvancedExperienceAttributesBusinessCategory = "EDUCATION"
+	AppClipAdvancedExperienceAttributesBusinessCategoryEDUCATIONJAPAN       AppClipAdvancedExperienceAttributesBusinessCategory = "EDUCATION_JAPAN"
+	AppClipAdvancedExperienceAttributesBusinessCategoryENTERTAINMENT        AppClipAdvancedExperienceAttributesBusinessCategory = "ENTERTAINMENT"
+	AppClipAdvancedExperienceAttributesBusinessCategoryEVCHARGER            AppClipAdvancedExperienceAttributesBusinessCategory = "EV_CHARGER"
+	AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALCNY         AppClipAdvancedExperienceAttributesBusinessCategory = "FINANCIAL_CNY"
+	AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALEUR         AppClipAdvancedExperienceAttributesBusinessCategory = "FINANCIAL_EUR"
+	AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALGBP         AppClipAdvancedExperienceAttributesBusinessCategory = "FINANCIAL_GBP"
+	AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALJPY         AppClipAdvancedExperienceAttributesBusinessCategory = "FINANCIAL_JPY"
+	AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALUSD         AppClipAdvancedExperienceAttributesBusinessCategory = "FINANCIAL_USD"
+	AppClipAdvancedExperienceAttributesBusinessCategoryFITNESS              AppClipAdvancedExperienceAttributesBusinessCategory = "FITNESS"
+	AppClipAdvancedExperienceAttributesBusinessCategoryFOODANDDRINK         AppClipAdvancedExperienceAttributesBusinessCategory = "FOOD_AND_DRINK"
+	AppClipAdvancedExperienceAttributesBusinessCategoryGAS                  AppClipAdvancedExperienceAttributesBusinessCategory = "GAS"
+	AppClipAdvancedExperienceAttributesBusinessCategoryGROCERY              AppClipAdvancedExperienceAttributesBusinessCategory = "GROCERY"
+	AppClipAdvancedExperienceAttributesBusinessCategoryHEALTHANDMEDICAL     AppClipAdvancedExperienceAttributesBusinessCategory = "HEALTH_AND_MEDICAL"
+	AppClipAdvancedExperienceAttributesBusinessCategoryHOTELANDTRAVEL       AppClipAdvancedExperienceAttributesBusinessCategory = "HOTEL_AND_TRAVEL"
+	AppClipAdvancedExperienceAttributesBusinessCategoryMUSIC                AppClipAdvancedExperienceAttributesBusinessCategory = "MUSIC"
+	AppClipAdvancedExperienceAttributesBusinessCategoryPARKING              AppClipAdvancedExperienceAttributesBusinessCategory = "PARKING"
+	AppClipAdvancedExperienceAttributesBusinessCategoryPETSERVICES          AppClipAdvancedExperienceAttributesBusinessCategory = "PET_SERVICES"
+	AppClipAdvancedExperienceAttributesBusinessCategoryPROFESSIONALSERVICES AppClipAdvancedExperienceAttributesBusinessCategory = "PROFESSIONAL_SERVICES"
+	AppClipAdvancedExperienceAttributesBusinessCategorySHOPPING             AppClipAdvancedExperienceAttributesBusinessCategory = "SHOPPING"
+	AppClipAdvancedExperienceAttributesBusinessCategoryTICKETING            AppClipAdvancedExperienceAttributesBusinessCategory = "TICKETING"
+	AppClipAdvancedExperienceAttributesBusinessCategoryTRANSIT              AppClipAdvancedExperienceAttributesBusinessCategory = "TRANSIT"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceAttributesBusinessCategory enum.
+func (e AppClipAdvancedExperienceAttributesBusinessCategory) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceAttributesBusinessCategoryAUTOMOTIVE:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryBEAUTY:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryBIKES:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryBOOKS:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryCASINO:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryEDUCATION:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryEDUCATIONJAPAN:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryENTERTAINMENT:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryEVCHARGER:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALCNY:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALEUR:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALGBP:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALJPY:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryFINANCIALUSD:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryFITNESS:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryFOODANDDRINK:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryGAS:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryGROCERY:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryHEALTHANDMEDICAL:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryHOTELANDTRAVEL:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryMUSIC:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryPARKING:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryPETSERVICES:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryPROFESSIONALSERVICES:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategorySHOPPING:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryTICKETING:
+		return true
+	case AppClipAdvancedExperienceAttributesBusinessCategoryTRANSIT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceAttributesPlaceDisplayPointSource.
+const (
+	AppClipAdvancedExperienceAttributesPlaceDisplayPointSourceCALCULATED     AppClipAdvancedExperienceAttributesPlaceDisplayPointSource = "CALCULATED"
+	AppClipAdvancedExperienceAttributesPlaceDisplayPointSourceMANUALLYPLACED AppClipAdvancedExperienceAttributesPlaceDisplayPointSource = "MANUALLY_PLACED"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceAttributesPlaceDisplayPointSource enum.
+func (e AppClipAdvancedExperienceAttributesPlaceDisplayPointSource) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceAttributesPlaceDisplayPointSourceCALCULATED:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceDisplayPointSourceMANUALLYPLACED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceAttributesPlaceMapAction.
+const (
+	AppClipAdvancedExperienceAttributesPlaceMapActionAIRLINEBOOKTRAVEL       AppClipAdvancedExperienceAttributesPlaceMapAction = "AIRLINE_BOOK_TRAVEL"
+	AppClipAdvancedExperienceAttributesPlaceMapActionAIRLINECHECKIN          AppClipAdvancedExperienceAttributesPlaceMapAction = "AIRLINE_CHECK_IN"
+	AppClipAdvancedExperienceAttributesPlaceMapActionAIRLINEFLIGHTSTATUS     AppClipAdvancedExperienceAttributesPlaceMapAction = "AIRLINE_FLIGHT_STATUS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionAPPLY                   AppClipAdvancedExperienceAttributesPlaceMapAction = "APPLY"
+	AppClipAdvancedExperienceAttributesPlaceMapActionBOOK                    AppClipAdvancedExperienceAttributesPlaceMapAction = "BOOK"
+	AppClipAdvancedExperienceAttributesPlaceMapActionBOOKACTIVITIES          AppClipAdvancedExperienceAttributesPlaceMapAction = "BOOK_ACTIVITIES"
+	AppClipAdvancedExperienceAttributesPlaceMapActionBOOKRIDES               AppClipAdvancedExperienceAttributesPlaceMapAction = "BOOK_RIDES"
+	AppClipAdvancedExperienceAttributesPlaceMapActionBOOKTEETIMES            AppClipAdvancedExperienceAttributesPlaceMapAction = "BOOK_TEETIMES"
+	AppClipAdvancedExperienceAttributesPlaceMapActionBOOKTOURS               AppClipAdvancedExperienceAttributesPlaceMapAction = "BOOK_TOURS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionBUYTICKETS              AppClipAdvancedExperienceAttributesPlaceMapAction = "BUY_TICKETS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionCAREERS                 AppClipAdvancedExperienceAttributesPlaceMapAction = "CAREERS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionCHARGEEV                AppClipAdvancedExperienceAttributesPlaceMapAction = "CHARGE_EV"
+	AppClipAdvancedExperienceAttributesPlaceMapActionCOUPONS                 AppClipAdvancedExperienceAttributesPlaceMapAction = "COUPONS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionDONATE                  AppClipAdvancedExperienceAttributesPlaceMapAction = "DONATE"
+	AppClipAdvancedExperienceAttributesPlaceMapActionEVENTS                  AppClipAdvancedExperienceAttributesPlaceMapAction = "EVENTS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionEVENTSSHOWS             AppClipAdvancedExperienceAttributesPlaceMapAction = "EVENTS_SHOWS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionEVENTSSPORTS            AppClipAdvancedExperienceAttributesPlaceMapAction = "EVENTS_SPORTS"
+	AppClipAdvancedExperienceAttributesPlaceMapActionGIFTCARD                AppClipAdvancedExperienceAttributesPlaceMapAction = "GIFT_CARD"
+	AppClipAdvancedExperienceAttributesPlaceMapActionHOTELAMENITIES          AppClipAdvancedExperienceAttributesPlaceMapAction = "HOTEL_AMENITIES"
+	AppClipAdvancedExperienceAttributesPlaceMapActionHOTELBOOKROOM           AppClipAdvancedExperienceAttributesPlaceMapAction = "HOTEL_BOOK_ROOM"
+	AppClipAdvancedExperienceAttributesPlaceMapActionJOIN                    AppClipAdvancedExperienceAttributesPlaceMapAction = "JOIN"
+	AppClipAdvancedExperienceAttributesPlaceMapActionPARKINGAVAILABLE        AppClipAdvancedExperienceAttributesPlaceMapAction = "PARKING_AVAILABLE"
+	AppClipAdvancedExperienceAttributesPlaceMapActionPARKINGRESERVEPARKING   AppClipAdvancedExperienceAttributesPlaceMapAction = "PARKING_RESERVE_PARKING"
+	AppClipAdvancedExperienceAttributesPlaceMapActionPAYTOPARK               AppClipAdvancedExperienceAttributesPlaceMapAction = "PAY_TO_PARK"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTJOINWAITLIST  AppClipAdvancedExperienceAttributesPlaceMapAction = "RESTAURANT_JOIN_WAITLIST"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTORDERDELIVERY AppClipAdvancedExperienceAttributesPlaceMapAction = "RESTAURANT_ORDER_DELIVERY"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTORDERFOOD     AppClipAdvancedExperienceAttributesPlaceMapAction = "RESTAURANT_ORDER_FOOD"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTORDERTAKEOUT  AppClipAdvancedExperienceAttributesPlaceMapAction = "RESTAURANT_ORDER_TAKEOUT"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTPICKUP        AppClipAdvancedExperienceAttributesPlaceMapAction = "RESTAURANT_PICKUP"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTRESERVATION   AppClipAdvancedExperienceAttributesPlaceMapAction = "RESTAURANT_RESERVATION"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTVIEWMENU      AppClipAdvancedExperienceAttributesPlaceMapAction = "RESTAURANT_VIEW_MENU"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSERVICEQUOTE      AppClipAdvancedExperienceAttributesPlaceMapAction = "RETAIL_SERVICE_QUOTE"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSTOREDELIVERY     AppClipAdvancedExperienceAttributesPlaceMapAction = "RETAIL_STORE_DELIVERY"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSTOREPICKUP       AppClipAdvancedExperienceAttributesPlaceMapAction = "RETAIL_STORE_PICKUP"
+	AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSTORESHOP         AppClipAdvancedExperienceAttributesPlaceMapAction = "RETAIL_STORE_SHOP"
+	AppClipAdvancedExperienceAttributesPlaceMapActionSCHEDULEAPPOINTMENT     AppClipAdvancedExperienceAttributesPlaceMapAction = "SCHEDULE_APPOINTMENT"
+	AppClipAdvancedExperienceAttributesPlaceMapActionSERVICES                AppClipAdvancedExperienceAttributesPlaceMapAction = "SERVICES"
+	AppClipAdvancedExperienceAttributesPlaceMapActionSUPPORT                 AppClipAdvancedExperienceAttributesPlaceMapAction = "SUPPORT"
+	AppClipAdvancedExperienceAttributesPlaceMapActionTHEATERNOWPLAYING       AppClipAdvancedExperienceAttributesPlaceMapAction = "THEATER_NOW_PLAYING"
+	AppClipAdvancedExperienceAttributesPlaceMapActionVIEWAVAILABILITY        AppClipAdvancedExperienceAttributesPlaceMapAction = "VIEW_AVAILABILITY"
+	AppClipAdvancedExperienceAttributesPlaceMapActionVIEWPRICING             AppClipAdvancedExperienceAttributesPlaceMapAction = "VIEW_PRICING"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceAttributesPlaceMapAction enum.
+func (e AppClipAdvancedExperienceAttributesPlaceMapAction) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceAttributesPlaceMapActionAIRLINEBOOKTRAVEL:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionAIRLINECHECKIN:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionAIRLINEFLIGHTSTATUS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionAPPLY:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionBOOK:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionBOOKACTIVITIES:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionBOOKRIDES:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionBOOKTEETIMES:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionBOOKTOURS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionBUYTICKETS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionCAREERS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionCHARGEEV:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionCOUPONS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionDONATE:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionEVENTS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionEVENTSSHOWS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionEVENTSSPORTS:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionGIFTCARD:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionHOTELAMENITIES:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionHOTELBOOKROOM:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionJOIN:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionPARKINGAVAILABLE:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionPARKINGRESERVEPARKING:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionPAYTOPARK:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTJOINWAITLIST:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTORDERDELIVERY:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTORDERFOOD:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTORDERTAKEOUT:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTPICKUP:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTRESERVATION:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRESTAURANTVIEWMENU:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSERVICEQUOTE:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSTOREDELIVERY:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSTOREPICKUP:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionRETAILSTORESHOP:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionSCHEDULEAPPOINTMENT:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionSERVICES:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionSUPPORT:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionTHEATERNOWPLAYING:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionVIEWAVAILABILITY:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceMapActionVIEWPRICING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceAttributesPlacePhoneNumberType.
+const (
+	AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeFAX      AppClipAdvancedExperienceAttributesPlacePhoneNumberType = "FAX"
+	AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeLANDLINE AppClipAdvancedExperienceAttributesPlacePhoneNumberType = "LANDLINE"
+	AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeMOBILE   AppClipAdvancedExperienceAttributesPlacePhoneNumberType = "MOBILE"
+	AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeTOLLFREE AppClipAdvancedExperienceAttributesPlacePhoneNumberType = "TOLLFREE"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceAttributesPlacePhoneNumberType enum.
+func (e AppClipAdvancedExperienceAttributesPlacePhoneNumberType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeFAX:
+		return true
+	case AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeLANDLINE:
+		return true
+	case AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeMOBILE:
+		return true
+	case AppClipAdvancedExperienceAttributesPlacePhoneNumberTypeTOLLFREE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceAttributesPlaceRelationship.
+const (
+	AppClipAdvancedExperienceAttributesPlaceRelationshipAUTHORIZED AppClipAdvancedExperienceAttributesPlaceRelationship = "AUTHORIZED"
+	AppClipAdvancedExperienceAttributesPlaceRelationshipOTHER      AppClipAdvancedExperienceAttributesPlaceRelationship = "OTHER"
+	AppClipAdvancedExperienceAttributesPlaceRelationshipOWNER      AppClipAdvancedExperienceAttributesPlaceRelationship = "OWNER"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceAttributesPlaceRelationship enum.
+func (e AppClipAdvancedExperienceAttributesPlaceRelationship) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceAttributesPlaceRelationshipAUTHORIZED:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceRelationshipOTHER:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceRelationshipOWNER:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceAttributesPlaceStatus.
+const (
+	AppClipAdvancedExperienceAttributesPlaceStatusMATCHED AppClipAdvancedExperienceAttributesPlaceStatus = "MATCHED"
+	AppClipAdvancedExperienceAttributesPlaceStatusNOMATCH AppClipAdvancedExperienceAttributesPlaceStatus = "NO_MATCH"
+	AppClipAdvancedExperienceAttributesPlaceStatusPENDING AppClipAdvancedExperienceAttributesPlaceStatus = "PENDING"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceAttributesPlaceStatus enum.
+func (e AppClipAdvancedExperienceAttributesPlaceStatus) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceAttributesPlaceStatusMATCHED:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceStatusNOMATCH:
+		return true
+	case AppClipAdvancedExperienceAttributesPlaceStatusPENDING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceAttributesStatus.
+const (
+	AppClipAdvancedExperienceAttributesStatusAPPTRANSFERINPROGRESS AppClipAdvancedExperienceAttributesStatus = "APP_TRANSFER_IN_PROGRESS"
+	AppClipAdvancedExperienceAttributesStatusDEACTIVATED           AppClipAdvancedExperienceAttributesStatus = "DEACTIVATED"
+	AppClipAdvancedExperienceAttributesStatusRECEIVED              AppClipAdvancedExperienceAttributesStatus = "RECEIVED"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceAttributesStatus enum.
+func (e AppClipAdvancedExperienceAttributesStatus) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceAttributesStatusAPPTRANSFERINPROGRESS:
+		return true
+	case AppClipAdvancedExperienceAttributesStatusDEACTIVATED:
+		return true
+	case AppClipAdvancedExperienceAttributesStatusRECEIVED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceRelationshipsAppClipDataType.
+const (
+	AppClipAdvancedExperienceRelationshipsAppClipDataTypeAppClips AppClipAdvancedExperienceRelationshipsAppClipDataType = "appClips"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceRelationshipsAppClipDataType enum.
+func (e AppClipAdvancedExperienceRelationshipsAppClipDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceRelationshipsAppClipDataTypeAppClips:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceRelationshipsHeaderImageDataType.
+const (
+	AppClipAdvancedExperienceRelationshipsHeaderImageDataTypeAppClipAdvancedExperienceImages AppClipAdvancedExperienceRelationshipsHeaderImageDataType = "appClipAdvancedExperienceImages"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceRelationshipsHeaderImageDataType enum.
+func (e AppClipAdvancedExperienceRelationshipsHeaderImageDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceRelationshipsHeaderImageDataTypeAppClipAdvancedExperienceImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceRelationshipsLocalizationsDataType.
+const (
+	AppClipAdvancedExperienceRelationshipsLocalizationsDataTypeAppClipAdvancedExperienceLocalizations AppClipAdvancedExperienceRelationshipsLocalizationsDataType = "appClipAdvancedExperienceLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceRelationshipsLocalizationsDataType enum.
+func (e AppClipAdvancedExperienceRelationshipsLocalizationsDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceRelationshipsLocalizationsDataTypeAppClipAdvancedExperienceLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceType.
+const (
+	AppClipAdvancedExperienceTypeAppClipAdvancedExperiences AppClipAdvancedExperienceType = "appClipAdvancedExperiences"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceType enum.
+func (e AppClipAdvancedExperienceType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceTypeAppClipAdvancedExperiences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory.
+const (
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryAUTOMOTIVE           AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "AUTOMOTIVE"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryBEAUTY               AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "BEAUTY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryBIKES                AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "BIKES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryBOOKS                AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "BOOKS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryCASINO               AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "CASINO"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryEDUCATION            AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "EDUCATION"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryEDUCATIONJAPAN       AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "EDUCATION_JAPAN"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryENTERTAINMENT        AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "ENTERTAINMENT"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryEVCHARGER            AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "EV_CHARGER"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALCNY         AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "FINANCIAL_CNY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALEUR         AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "FINANCIAL_EUR"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALGBP         AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "FINANCIAL_GBP"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALJPY         AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "FINANCIAL_JPY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALUSD         AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "FINANCIAL_USD"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFITNESS              AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "FITNESS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFOODANDDRINK         AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "FOOD_AND_DRINK"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryGAS                  AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "GAS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryGROCERY              AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "GROCERY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryHEALTHANDMEDICAL     AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "HEALTH_AND_MEDICAL"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryHOTELANDTRAVEL       AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "HOTEL_AND_TRAVEL"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryMUSIC                AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "MUSIC"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryPARKING              AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "PARKING"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryPETSERVICES          AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "PET_SERVICES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryPROFESSIONALSERVICES AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "PROFESSIONAL_SERVICES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategorySHOPPING             AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "SHOPPING"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryTICKETING            AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "TICKETING"
+	AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryTRANSIT              AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory = "TRANSIT"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory enum.
+func (e AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryAUTOMOTIVE:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryBEAUTY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryBIKES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryBOOKS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryCASINO:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryEDUCATION:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryEDUCATIONJAPAN:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryENTERTAINMENT:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryEVCHARGER:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALCNY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALEUR:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALGBP:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALJPY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFINANCIALUSD:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFITNESS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryFOODANDDRINK:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryGAS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryGROCERY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryHEALTHANDMEDICAL:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryHOTELANDTRAVEL:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryMUSIC:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryPARKING:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryPETSERVICES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryPROFESSIONALSERVICES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategorySHOPPING:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryTICKETING:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategoryTRANSIT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource.
+const (
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSourceCALCULATED     AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource = "CALCULATED"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSourceMANUALLYPLACED AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource = "MANUALLY_PLACED"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource enum.
+func (e AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSourceCALCULATED:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSourceMANUALLYPLACED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction.
+const (
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAIRLINEBOOKTRAVEL       AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "AIRLINE_BOOK_TRAVEL"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAIRLINECHECKIN          AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "AIRLINE_CHECK_IN"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAIRLINEFLIGHTSTATUS     AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "AIRLINE_FLIGHT_STATUS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAPPLY                   AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "APPLY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOK                    AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "BOOK"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKACTIVITIES          AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "BOOK_ACTIVITIES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKRIDES               AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "BOOK_RIDES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKTEETIMES            AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "BOOK_TEETIMES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKTOURS               AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "BOOK_TOURS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBUYTICKETS              AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "BUY_TICKETS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionCAREERS                 AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "CAREERS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionCHARGEEV                AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "CHARGE_EV"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionCOUPONS                 AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "COUPONS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionDONATE                  AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "DONATE"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionEVENTS                  AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "EVENTS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionEVENTSSHOWS             AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "EVENTS_SHOWS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionEVENTSSPORTS            AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "EVENTS_SPORTS"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionGIFTCARD                AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "GIFT_CARD"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionHOTELAMENITIES          AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "HOTEL_AMENITIES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionHOTELBOOKROOM           AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "HOTEL_BOOK_ROOM"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionJOIN                    AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "JOIN"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionPARKINGAVAILABLE        AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "PARKING_AVAILABLE"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionPARKINGRESERVEPARKING   AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "PARKING_RESERVE_PARKING"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionPAYTOPARK               AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "PAY_TO_PARK"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTJOINWAITLIST  AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RESTAURANT_JOIN_WAITLIST"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTORDERDELIVERY AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RESTAURANT_ORDER_DELIVERY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTORDERFOOD     AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RESTAURANT_ORDER_FOOD"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTORDERTAKEOUT  AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RESTAURANT_ORDER_TAKEOUT"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTPICKUP        AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RESTAURANT_PICKUP"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTRESERVATION   AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RESTAURANT_RESERVATION"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTVIEWMENU      AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RESTAURANT_VIEW_MENU"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSERVICEQUOTE      AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RETAIL_SERVICE_QUOTE"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSTOREDELIVERY     AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RETAIL_STORE_DELIVERY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSTOREPICKUP       AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RETAIL_STORE_PICKUP"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSTORESHOP         AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "RETAIL_STORE_SHOP"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionSCHEDULEAPPOINTMENT     AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "SCHEDULE_APPOINTMENT"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionSERVICES                AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "SERVICES"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionSUPPORT                 AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "SUPPORT"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionTHEATERNOWPLAYING       AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "THEATER_NOW_PLAYING"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionVIEWAVAILABILITY        AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "VIEW_AVAILABILITY"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionVIEWPRICING             AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction = "VIEW_PRICING"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction enum.
+func (e AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAIRLINEBOOKTRAVEL:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAIRLINECHECKIN:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAIRLINEFLIGHTSTATUS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionAPPLY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOK:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKACTIVITIES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKRIDES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKTEETIMES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBOOKTOURS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionBUYTICKETS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionCAREERS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionCHARGEEV:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionCOUPONS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionDONATE:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionEVENTS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionEVENTSSHOWS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionEVENTSSPORTS:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionGIFTCARD:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionHOTELAMENITIES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionHOTELBOOKROOM:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionJOIN:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionPARKINGAVAILABLE:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionPARKINGRESERVEPARKING:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionPAYTOPARK:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTJOINWAITLIST:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTORDERDELIVERY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTORDERFOOD:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTORDERTAKEOUT:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTPICKUP:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTRESERVATION:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRESTAURANTVIEWMENU:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSERVICEQUOTE:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSTOREDELIVERY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSTOREPICKUP:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionRETAILSTORESHOP:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionSCHEDULEAPPOINTMENT:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionSERVICES:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionSUPPORT:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionTHEATERNOWPLAYING:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionVIEWAVAILABILITY:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapActionVIEWPRICING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType.
+const (
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeFAX      AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType = "FAX"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeLANDLINE AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType = "LANDLINE"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeMOBILE   AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType = "MOBILE"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeTOLLFREE AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType = "TOLLFREE"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType enum.
+func (e AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeFAX:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeLANDLINE:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeMOBILE:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberTypeTOLLFREE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship.
+const (
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationshipAUTHORIZED AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship = "AUTHORIZED"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationshipOTHER      AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship = "OTHER"
+	AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationshipOWNER      AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship = "OWNER"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship enum.
+func (e AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationshipAUTHORIZED:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationshipOTHER:
+		return true
+	case AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationshipOWNER:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataType.
+const (
+	AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataTypeAppClips AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataType = "appClips"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataType enum.
+func (e AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataTypeAppClips:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataType.
+const (
+	AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataTypeAppClipAdvancedExperienceImages AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataType = "appClipAdvancedExperienceImages"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataType enum.
+func (e AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataTypeAppClipAdvancedExperienceImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataType.
+const (
+	AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataTypeAppClipAdvancedExperienceLocalizations AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataType = "appClipAdvancedExperienceLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataType enum.
+func (e AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataTypeAppClipAdvancedExperienceLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceCreateRequestDataType.
+const (
+	AppClipAdvancedExperienceCreateRequestDataTypeAppClipAdvancedExperiences AppClipAdvancedExperienceCreateRequestDataType = "appClipAdvancedExperiences"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceCreateRequestDataType enum.
+func (e AppClipAdvancedExperienceCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceCreateRequestDataTypeAppClipAdvancedExperiences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceImageType.
+const (
+	AppClipAdvancedExperienceImageTypeAppClipAdvancedExperienceImages AppClipAdvancedExperienceImageType = "appClipAdvancedExperienceImages"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceImageType enum.
+func (e AppClipAdvancedExperienceImageType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceImageTypeAppClipAdvancedExperienceImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceImageCreateRequestDataType.
+const (
+	AppClipAdvancedExperienceImageCreateRequestDataTypeAppClipAdvancedExperienceImages AppClipAdvancedExperienceImageCreateRequestDataType = "appClipAdvancedExperienceImages"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceImageCreateRequestDataType enum.
+func (e AppClipAdvancedExperienceImageCreateRequestDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceImageCreateRequestDataTypeAppClipAdvancedExperienceImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceImageUpdateRequestDataType.
+const (
+	AppClipAdvancedExperienceImageUpdateRequestDataTypeAppClipAdvancedExperienceImages AppClipAdvancedExperienceImageUpdateRequestDataType = "appClipAdvancedExperienceImages"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceImageUpdateRequestDataType enum.
+func (e AppClipAdvancedExperienceImageUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceImageUpdateRequestDataTypeAppClipAdvancedExperienceImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceLanguage.
+const (
+	AppClipAdvancedExperienceLanguageAR AppClipAdvancedExperienceLanguage = "AR"
+	AppClipAdvancedExperienceLanguageCA AppClipAdvancedExperienceLanguage = "CA"
+	AppClipAdvancedExperienceLanguageCS AppClipAdvancedExperienceLanguage = "CS"
+	AppClipAdvancedExperienceLanguageDA AppClipAdvancedExperienceLanguage = "DA"
+	AppClipAdvancedExperienceLanguageDE AppClipAdvancedExperienceLanguage = "DE"
+	AppClipAdvancedExperienceLanguageEL AppClipAdvancedExperienceLanguage = "EL"
+	AppClipAdvancedExperienceLanguageEN AppClipAdvancedExperienceLanguage = "EN"
+	AppClipAdvancedExperienceLanguageES AppClipAdvancedExperienceLanguage = "ES"
+	AppClipAdvancedExperienceLanguageFI AppClipAdvancedExperienceLanguage = "FI"
+	AppClipAdvancedExperienceLanguageFR AppClipAdvancedExperienceLanguage = "FR"
+	AppClipAdvancedExperienceLanguageHE AppClipAdvancedExperienceLanguage = "HE"
+	AppClipAdvancedExperienceLanguageHI AppClipAdvancedExperienceLanguage = "HI"
+	AppClipAdvancedExperienceLanguageHR AppClipAdvancedExperienceLanguage = "HR"
+	AppClipAdvancedExperienceLanguageHU AppClipAdvancedExperienceLanguage = "HU"
+	AppClipAdvancedExperienceLanguageID AppClipAdvancedExperienceLanguage = "ID"
+	AppClipAdvancedExperienceLanguageIT AppClipAdvancedExperienceLanguage = "IT"
+	AppClipAdvancedExperienceLanguageJA AppClipAdvancedExperienceLanguage = "JA"
+	AppClipAdvancedExperienceLanguageKO AppClipAdvancedExperienceLanguage = "KO"
+	AppClipAdvancedExperienceLanguageMS AppClipAdvancedExperienceLanguage = "MS"
+	AppClipAdvancedExperienceLanguageNL AppClipAdvancedExperienceLanguage = "NL"
+	AppClipAdvancedExperienceLanguageNO AppClipAdvancedExperienceLanguage = "NO"
+	AppClipAdvancedExperienceLanguagePL AppClipAdvancedExperienceLanguage = "PL"
+	AppClipAdvancedExperienceLanguagePT AppClipAdvancedExperienceLanguage = "PT"
+	AppClipAdvancedExperienceLanguageRO AppClipAdvancedExperienceLanguage = "RO"
+	AppClipAdvancedExperienceLanguageRU AppClipAdvancedExperienceLanguage = "RU"
+	AppClipAdvancedExperienceLanguageSK AppClipAdvancedExperienceLanguage = "SK"
+	AppClipAdvancedExperienceLanguageSV AppClipAdvancedExperienceLanguage = "SV"
+	AppClipAdvancedExperienceLanguageTH AppClipAdvancedExperienceLanguage = "TH"
+	AppClipAdvancedExperienceLanguageTR AppClipAdvancedExperienceLanguage = "TR"
+	AppClipAdvancedExperienceLanguageUK AppClipAdvancedExperienceLanguage = "UK"
+	AppClipAdvancedExperienceLanguageVI AppClipAdvancedExperienceLanguage = "VI"
+	AppClipAdvancedExperienceLanguageZH AppClipAdvancedExperienceLanguage = "ZH"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceLanguage enum.
+func (e AppClipAdvancedExperienceLanguage) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceLanguageAR:
+		return true
+	case AppClipAdvancedExperienceLanguageCA:
+		return true
+	case AppClipAdvancedExperienceLanguageCS:
+		return true
+	case AppClipAdvancedExperienceLanguageDA:
+		return true
+	case AppClipAdvancedExperienceLanguageDE:
+		return true
+	case AppClipAdvancedExperienceLanguageEL:
+		return true
+	case AppClipAdvancedExperienceLanguageEN:
+		return true
+	case AppClipAdvancedExperienceLanguageES:
+		return true
+	case AppClipAdvancedExperienceLanguageFI:
+		return true
+	case AppClipAdvancedExperienceLanguageFR:
+		return true
+	case AppClipAdvancedExperienceLanguageHE:
+		return true
+	case AppClipAdvancedExperienceLanguageHI:
+		return true
+	case AppClipAdvancedExperienceLanguageHR:
+		return true
+	case AppClipAdvancedExperienceLanguageHU:
+		return true
+	case AppClipAdvancedExperienceLanguageID:
+		return true
+	case AppClipAdvancedExperienceLanguageIT:
+		return true
+	case AppClipAdvancedExperienceLanguageJA:
+		return true
+	case AppClipAdvancedExperienceLanguageKO:
+		return true
+	case AppClipAdvancedExperienceLanguageMS:
+		return true
+	case AppClipAdvancedExperienceLanguageNL:
+		return true
+	case AppClipAdvancedExperienceLanguageNO:
+		return true
+	case AppClipAdvancedExperienceLanguagePL:
+		return true
+	case AppClipAdvancedExperienceLanguagePT:
+		return true
+	case AppClipAdvancedExperienceLanguageRO:
+		return true
+	case AppClipAdvancedExperienceLanguageRU:
+		return true
+	case AppClipAdvancedExperienceLanguageSK:
+		return true
+	case AppClipAdvancedExperienceLanguageSV:
+		return true
+	case AppClipAdvancedExperienceLanguageTH:
+		return true
+	case AppClipAdvancedExperienceLanguageTR:
+		return true
+	case AppClipAdvancedExperienceLanguageUK:
+		return true
+	case AppClipAdvancedExperienceLanguageVI:
+		return true
+	case AppClipAdvancedExperienceLanguageZH:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceLocalizationType.
+const (
+	AppClipAdvancedExperienceLocalizationTypeAppClipAdvancedExperienceLocalizations AppClipAdvancedExperienceLocalizationType = "appClipAdvancedExperienceLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceLocalizationType enum.
+func (e AppClipAdvancedExperienceLocalizationType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceLocalizationTypeAppClipAdvancedExperienceLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceLocalizationInlineCreateType.
+const (
+	AppClipAdvancedExperienceLocalizationInlineCreateTypeAppClipAdvancedExperienceLocalizations AppClipAdvancedExperienceLocalizationInlineCreateType = "appClipAdvancedExperienceLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceLocalizationInlineCreateType enum.
+func (e AppClipAdvancedExperienceLocalizationInlineCreateType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceLocalizationInlineCreateTypeAppClipAdvancedExperienceLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryAUTOMOTIVE           AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "AUTOMOTIVE"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryBEAUTY               AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "BEAUTY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryBIKES                AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "BIKES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryBOOKS                AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "BOOKS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryCASINO               AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "CASINO"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryEDUCATION            AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "EDUCATION"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryEDUCATIONJAPAN       AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "EDUCATION_JAPAN"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryENTERTAINMENT        AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "ENTERTAINMENT"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryEVCHARGER            AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "EV_CHARGER"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALCNY         AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "FINANCIAL_CNY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALEUR         AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "FINANCIAL_EUR"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALGBP         AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "FINANCIAL_GBP"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALJPY         AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "FINANCIAL_JPY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALUSD         AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "FINANCIAL_USD"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFITNESS              AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "FITNESS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFOODANDDRINK         AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "FOOD_AND_DRINK"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryGAS                  AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "GAS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryGROCERY              AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "GROCERY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryHEALTHANDMEDICAL     AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "HEALTH_AND_MEDICAL"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryHOTELANDTRAVEL       AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "HOTEL_AND_TRAVEL"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryMUSIC                AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "MUSIC"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryPARKING              AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "PARKING"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryPETSERVICES          AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "PET_SERVICES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryPROFESSIONALSERVICES AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "PROFESSIONAL_SERVICES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategorySHOPPING             AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "SHOPPING"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryTICKETING            AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "TICKETING"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryTRANSIT              AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory = "TRANSIT"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryAUTOMOTIVE:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryBEAUTY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryBIKES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryBOOKS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryCASINO:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryEDUCATION:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryEDUCATIONJAPAN:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryENTERTAINMENT:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryEVCHARGER:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALCNY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALEUR:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALGBP:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALJPY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFINANCIALUSD:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFITNESS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryFOODANDDRINK:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryGAS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryGROCERY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryHEALTHANDMEDICAL:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryHOTELANDTRAVEL:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryMUSIC:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryPARKING:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryPETSERVICES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryPROFESSIONALSERVICES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategorySHOPPING:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryTICKETING:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategoryTRANSIT:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSourceCALCULATED     AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource = "CALCULATED"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSourceMANUALLYPLACED AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource = "MANUALLY_PLACED"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSourceCALCULATED:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSourceMANUALLYPLACED:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAIRLINEBOOKTRAVEL       AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "AIRLINE_BOOK_TRAVEL"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAIRLINECHECKIN          AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "AIRLINE_CHECK_IN"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAIRLINEFLIGHTSTATUS     AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "AIRLINE_FLIGHT_STATUS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAPPLY                   AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "APPLY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOK                    AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "BOOK"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKACTIVITIES          AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "BOOK_ACTIVITIES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKRIDES               AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "BOOK_RIDES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKTEETIMES            AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "BOOK_TEETIMES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKTOURS               AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "BOOK_TOURS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBUYTICKETS              AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "BUY_TICKETS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionCAREERS                 AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "CAREERS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionCHARGEEV                AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "CHARGE_EV"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionCOUPONS                 AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "COUPONS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionDONATE                  AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "DONATE"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionEVENTS                  AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "EVENTS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionEVENTSSHOWS             AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "EVENTS_SHOWS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionEVENTSSPORTS            AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "EVENTS_SPORTS"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionGIFTCARD                AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "GIFT_CARD"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionHOTELAMENITIES          AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "HOTEL_AMENITIES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionHOTELBOOKROOM           AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "HOTEL_BOOK_ROOM"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionJOIN                    AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "JOIN"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionPARKINGAVAILABLE        AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "PARKING_AVAILABLE"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionPARKINGRESERVEPARKING   AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "PARKING_RESERVE_PARKING"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionPAYTOPARK               AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "PAY_TO_PARK"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTJOINWAITLIST  AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RESTAURANT_JOIN_WAITLIST"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTORDERDELIVERY AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RESTAURANT_ORDER_DELIVERY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTORDERFOOD     AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RESTAURANT_ORDER_FOOD"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTORDERTAKEOUT  AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RESTAURANT_ORDER_TAKEOUT"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTPICKUP        AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RESTAURANT_PICKUP"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTRESERVATION   AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RESTAURANT_RESERVATION"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTVIEWMENU      AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RESTAURANT_VIEW_MENU"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSERVICEQUOTE      AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RETAIL_SERVICE_QUOTE"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSTOREDELIVERY     AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RETAIL_STORE_DELIVERY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSTOREPICKUP       AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RETAIL_STORE_PICKUP"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSTORESHOP         AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "RETAIL_STORE_SHOP"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionSCHEDULEAPPOINTMENT     AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "SCHEDULE_APPOINTMENT"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionSERVICES                AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "SERVICES"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionSUPPORT                 AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "SUPPORT"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionTHEATERNOWPLAYING       AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "THEATER_NOW_PLAYING"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionVIEWAVAILABILITY        AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "VIEW_AVAILABILITY"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionVIEWPRICING             AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction = "VIEW_PRICING"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAIRLINEBOOKTRAVEL:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAIRLINECHECKIN:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAIRLINEFLIGHTSTATUS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionAPPLY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOK:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKACTIVITIES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKRIDES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKTEETIMES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBOOKTOURS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionBUYTICKETS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionCAREERS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionCHARGEEV:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionCOUPONS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionDONATE:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionEVENTS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionEVENTSSHOWS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionEVENTSSPORTS:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionGIFTCARD:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionHOTELAMENITIES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionHOTELBOOKROOM:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionJOIN:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionPARKINGAVAILABLE:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionPARKINGRESERVEPARKING:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionPAYTOPARK:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTJOINWAITLIST:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTORDERDELIVERY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTORDERFOOD:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTORDERTAKEOUT:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTPICKUP:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTRESERVATION:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRESTAURANTVIEWMENU:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSERVICEQUOTE:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSTOREDELIVERY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSTOREPICKUP:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionRETAILSTORESHOP:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionSCHEDULEAPPOINTMENT:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionSERVICES:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionSUPPORT:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionTHEATERNOWPLAYING:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionVIEWAVAILABILITY:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapActionVIEWPRICING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeFAX      AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType = "FAX"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeLANDLINE AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType = "LANDLINE"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeMOBILE   AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType = "MOBILE"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeTOLLFREE AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType = "TOLLFREE"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeFAX:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeLANDLINE:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeMOBILE:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberTypeTOLLFREE:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationshipAUTHORIZED AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship = "AUTHORIZED"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationshipOTHER      AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship = "OTHER"
+	AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationshipOWNER      AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship = "OWNER"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationshipAUTHORIZED:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationshipOTHER:
+		return true
+	case AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationshipOWNER:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataType.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataTypeAppClips AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataType = "appClips"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataType enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataTypeAppClips:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataType.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataTypeAppClipAdvancedExperienceImages AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataType = "appClipAdvancedExperienceImages"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataType enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataTypeAppClipAdvancedExperienceImages:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataType.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataTypeAppClipAdvancedExperienceLocalizations AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataType = "appClipAdvancedExperienceLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataType enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataTypeAppClipAdvancedExperienceLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceUpdateRequestDataType.
+const (
+	AppClipAdvancedExperienceUpdateRequestDataTypeAppClipAdvancedExperiences AppClipAdvancedExperienceUpdateRequestDataType = "appClipAdvancedExperiences"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceUpdateRequestDataType enum.
+func (e AppClipAdvancedExperienceUpdateRequestDataType) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceUpdateRequestDataTypeAppClipAdvancedExperiences:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for AppClipAppStoreReviewDetailRelationshipsAppClipDefaultExperienceDataType.
 const (
 	AppClipAppStoreReviewDetailRelationshipsAppClipDefaultExperienceDataTypeAppClipDefaultExperiences AppClipAppStoreReviewDetailRelationshipsAppClipDefaultExperienceDataType = "appClipDefaultExperiences"
@@ -3098,6 +4376,87 @@ const (
 func (e AppClipDefaultExperienceUpdateRequestDataType) Valid() bool {
 	switch e {
 	case AppClipDefaultExperienceUpdateRequestDataTypeAppClipDefaultExperiences:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipDomainStatusAttributesDomainsErrorCode.
+const (
+	AppClipDomainStatusAttributesDomainsErrorCodeBADHTTPRESPONSE                    AppClipDomainStatusAttributesDomainsErrorCode = "BAD_HTTP_RESPONSE"
+	AppClipDomainStatusAttributesDomainsErrorCodeBADJSONCONTENT                     AppClipDomainStatusAttributesDomainsErrorCode = "BAD_JSON_CONTENT"
+	AppClipDomainStatusAttributesDomainsErrorCodeBADPKCS7SIGNATURE                  AppClipDomainStatusAttributesDomainsErrorCode = "BAD_PKCS7_SIGNATURE"
+	AppClipDomainStatusAttributesDomainsErrorCodeCANNOTREACHAASAFILE                AppClipDomainStatusAttributesDomainsErrorCode = "CANNOT_REACH_AASA_FILE"
+	AppClipDomainStatusAttributesDomainsErrorCodeCROSSSITEREDIRECTSFORBIDDEN        AppClipDomainStatusAttributesDomainsErrorCode = "CROSS_SITE_REDIRECTS_FORBIDDEN"
+	AppClipDomainStatusAttributesDomainsErrorCodeDNSERROR                           AppClipDomainStatusAttributesDomainsErrorCode = "DNS_ERROR"
+	AppClipDomainStatusAttributesDomainsErrorCodeINSECUREREDIRECTSFORBIDDEN         AppClipDomainStatusAttributesDomainsErrorCode = "INSECURE_REDIRECTS_FORBIDDEN"
+	AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTMISSINGSECTION   AppClipDomainStatusAttributesDomainsErrorCode = "INVALID_ENTITLEMENT_MISSING_SECTION"
+	AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTSYNTAXERROR      AppClipDomainStatusAttributesDomainsErrorCode = "INVALID_ENTITLEMENT_SYNTAX_ERROR"
+	AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTUNHANDLEDSECTION AppClipDomainStatusAttributesDomainsErrorCode = "INVALID_ENTITLEMENT_UNHANDLED_SECTION"
+	AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTUNKNOWNID        AppClipDomainStatusAttributesDomainsErrorCode = "INVALID_ENTITLEMENT_UNKNOWN_ID"
+	AppClipDomainStatusAttributesDomainsErrorCodeNETWORKERROR                       AppClipDomainStatusAttributesDomainsErrorCode = "NETWORK_ERROR"
+	AppClipDomainStatusAttributesDomainsErrorCodeNETWORKERRORTEMPORARY              AppClipDomainStatusAttributesDomainsErrorCode = "NETWORK_ERROR_TEMPORARY"
+	AppClipDomainStatusAttributesDomainsErrorCodeOTHERERROR                         AppClipDomainStatusAttributesDomainsErrorCode = "OTHER_ERROR"
+	AppClipDomainStatusAttributesDomainsErrorCodeTIMEOUT                            AppClipDomainStatusAttributesDomainsErrorCode = "TIMEOUT"
+	AppClipDomainStatusAttributesDomainsErrorCodeTLSERROR                           AppClipDomainStatusAttributesDomainsErrorCode = "TLS_ERROR"
+	AppClipDomainStatusAttributesDomainsErrorCodeTOOMANYREDIRECTS                   AppClipDomainStatusAttributesDomainsErrorCode = "TOO_MANY_REDIRECTS"
+	AppClipDomainStatusAttributesDomainsErrorCodeUNEXPECTEDERROR                    AppClipDomainStatusAttributesDomainsErrorCode = "UNEXPECTED_ERROR"
+)
+
+// Valid indicates whether the value is a known member of the AppClipDomainStatusAttributesDomainsErrorCode enum.
+func (e AppClipDomainStatusAttributesDomainsErrorCode) Valid() bool {
+	switch e {
+	case AppClipDomainStatusAttributesDomainsErrorCodeBADHTTPRESPONSE:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeBADJSONCONTENT:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeBADPKCS7SIGNATURE:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeCANNOTREACHAASAFILE:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeCROSSSITEREDIRECTSFORBIDDEN:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeDNSERROR:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeINSECUREREDIRECTSFORBIDDEN:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTMISSINGSECTION:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTSYNTAXERROR:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTUNHANDLEDSECTION:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeINVALIDENTITLEMENTUNKNOWNID:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeNETWORKERROR:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeNETWORKERRORTEMPORARY:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeOTHERERROR:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeTIMEOUT:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeTLSERROR:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeTOOMANYREDIRECTS:
+		return true
+	case AppClipDomainStatusAttributesDomainsErrorCodeUNEXPECTEDERROR:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipDomainStatusType.
+const (
+	AppClipDomainStatusTypeAppClipDomainStatuses AppClipDomainStatusType = "appClipDomainStatuses"
+)
+
+// Valid indicates whether the value is a known member of the AppClipDomainStatusType enum.
+func (e AppClipDomainStatusType) Valid() bool {
+	switch e {
+	case AppClipDomainStatusTypeAppClipDomainStatuses:
 		return true
 	default:
 		return false
@@ -8030,6 +9389,186 @@ func (e BackgroundAssetVersionState) Valid() bool {
 	case BackgroundAssetVersionStateFAILED:
 		return true
 	case BackgroundAssetVersionStatePROCESSING:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataType.
+const (
+	BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataTypeBetaAppClipInvocationLocalizations BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataType = "betaAppClipInvocationLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataType enum.
+func (e BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataTypeBetaAppClipInvocationLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationType.
+const (
+	BetaAppClipInvocationTypeBetaAppClipInvocations BetaAppClipInvocationType = "betaAppClipInvocations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationType enum.
+func (e BetaAppClipInvocationType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationTypeBetaAppClipInvocations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataType.
+const (
+	BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataTypeBetaAppClipInvocationLocalizations BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataType = "betaAppClipInvocationLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataType enum.
+func (e BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataTypeBetaAppClipInvocationLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataType.
+const (
+	BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataTypeBuildBundles BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataType = "buildBundles"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataType enum.
+func (e BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataTypeBuildBundles:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationCreateRequestDataType.
+const (
+	BetaAppClipInvocationCreateRequestDataTypeBetaAppClipInvocations BetaAppClipInvocationCreateRequestDataType = "betaAppClipInvocations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationCreateRequestDataType enum.
+func (e BetaAppClipInvocationCreateRequestDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationCreateRequestDataTypeBetaAppClipInvocations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationLocalizationType.
+const (
+	BetaAppClipInvocationLocalizationTypeBetaAppClipInvocationLocalizations BetaAppClipInvocationLocalizationType = "betaAppClipInvocationLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationLocalizationType enum.
+func (e BetaAppClipInvocationLocalizationType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationLocalizationTypeBetaAppClipInvocationLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataType.
+const (
+	BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataTypeBetaAppClipInvocations BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataType = "betaAppClipInvocations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataType enum.
+func (e BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataTypeBetaAppClipInvocations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationLocalizationCreateRequestDataType.
+const (
+	BetaAppClipInvocationLocalizationCreateRequestDataTypeBetaAppClipInvocationLocalizations BetaAppClipInvocationLocalizationCreateRequestDataType = "betaAppClipInvocationLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationLocalizationCreateRequestDataType enum.
+func (e BetaAppClipInvocationLocalizationCreateRequestDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationLocalizationCreateRequestDataTypeBetaAppClipInvocationLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataType.
+const (
+	BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataTypeBetaAppClipInvocations BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataType = "betaAppClipInvocations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataType enum.
+func (e BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataTypeBetaAppClipInvocations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationLocalizationInlineCreateType.
+const (
+	BetaAppClipInvocationLocalizationInlineCreateTypeBetaAppClipInvocationLocalizations BetaAppClipInvocationLocalizationInlineCreateType = "betaAppClipInvocationLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationLocalizationInlineCreateType enum.
+func (e BetaAppClipInvocationLocalizationInlineCreateType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationLocalizationInlineCreateTypeBetaAppClipInvocationLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationLocalizationUpdateRequestDataType.
+const (
+	BetaAppClipInvocationLocalizationUpdateRequestDataTypeBetaAppClipInvocationLocalizations BetaAppClipInvocationLocalizationUpdateRequestDataType = "betaAppClipInvocationLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationLocalizationUpdateRequestDataType enum.
+func (e BetaAppClipInvocationLocalizationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationLocalizationUpdateRequestDataTypeBetaAppClipInvocationLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationUpdateRequestDataType.
+const (
+	BetaAppClipInvocationUpdateRequestDataTypeBetaAppClipInvocations BetaAppClipInvocationUpdateRequestDataType = "betaAppClipInvocations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationUpdateRequestDataType enum.
+func (e BetaAppClipInvocationUpdateRequestDataType) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationUpdateRequestDataTypeBetaAppClipInvocations:
 		return true
 	default:
 		return false
@@ -22280,6 +23819,180 @@ func (e AppCategoriesGetCollectionParamsInclude) Valid() bool {
 	case AppCategoriesGetCollectionParamsIncludeParent:
 		return true
 	case AppCategoriesGetCollectionParamsIncludeSubcategories:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages.
+const (
+	AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesAssetDeliveryState AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "assetDeliveryState"
+	AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileName           AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "fileName"
+	AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileSize           AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "fileSize"
+	AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesImageAsset         AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "imageAsset"
+	AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesSourceFileChecksum AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "sourceFileChecksum"
+	AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesUploadOperations   AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages enum.
+func (e AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesAssetDeliveryState:
+		return true
+	case AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileName:
+		return true
+	case AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileSize:
+		return true
+	case AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesImageAsset:
+		return true
+	case AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesSourceFileChecksum:
+		return true
+	case AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences.
+const (
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesAction           AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "action"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesAppClip          AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "appClip"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesBusinessCategory AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "businessCategory"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesDefaultLanguage  AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "defaultLanguage"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesHeaderImage      AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "headerImage"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesIsPoweredBy      AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "isPoweredBy"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesLink             AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "link"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesLocalizations    AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "localizations"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesPlace            AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "place"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesPlaceStatus      AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "placeStatus"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesStatus           AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "status"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesVersion          AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences = "version"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences enum.
+func (e AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesAction:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesAppClip:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesBusinessCategory:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesDefaultLanguage:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesHeaderImage:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesIsPoweredBy:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesLink:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesLocalizations:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesPlace:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesPlaceStatus:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesStatus:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiencesVersion:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips.
+const (
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsApp                        AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips = "app"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsAppClipAdvancedExperiences AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips = "appClipAdvancedExperiences"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsAppClipDefaultExperiences  AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips = "appClipDefaultExperiences"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsBundleId                   AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips = "bundleId"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips enum.
+func (e AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsApp:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsAppClipAdvancedExperiences:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsAppClipDefaultExperiences:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipsBundleId:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages.
+const (
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesAssetDeliveryState AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "assetDeliveryState"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileName           AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "fileName"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileSize           AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "fileSize"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesImageAsset         AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "imageAsset"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesSourceFileChecksum AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "sourceFileChecksum"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesUploadOperations   AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages = "uploadOperations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages enum.
+func (e AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesAssetDeliveryState:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileName:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesFileSize:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesImageAsset:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesSourceFileChecksum:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImagesUploadOperations:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations.
+const (
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizationsLanguage AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations = "language"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizationsSubtitle AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations = "subtitle"
+	AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizationsTitle    AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations = "title"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations enum.
+func (e AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizationsLanguage:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizationsSubtitle:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizationsTitle:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for AppClipAdvancedExperiencesGetInstanceParamsInclude.
+const (
+	AppClipAdvancedExperiencesGetInstanceParamsIncludeAppClip       AppClipAdvancedExperiencesGetInstanceParamsInclude = "appClip"
+	AppClipAdvancedExperiencesGetInstanceParamsIncludeHeaderImage   AppClipAdvancedExperiencesGetInstanceParamsInclude = "headerImage"
+	AppClipAdvancedExperiencesGetInstanceParamsIncludeLocalizations AppClipAdvancedExperiencesGetInstanceParamsInclude = "localizations"
+)
+
+// Valid indicates whether the value is a known member of the AppClipAdvancedExperiencesGetInstanceParamsInclude enum.
+func (e AppClipAdvancedExperiencesGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case AppClipAdvancedExperiencesGetInstanceParamsIncludeAppClip:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsIncludeHeaderImage:
+		return true
+	case AppClipAdvancedExperiencesGetInstanceParamsIncludeLocalizations:
 		return true
 	default:
 		return false
@@ -38000,6 +39713,57 @@ func (e BackgroundAssetsVersionsGetToManyRelatedParamsInclude) Valid() bool {
 	}
 }
 
+// Defines values for BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations.
+const (
+	BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationsBetaAppClipInvocationLocalizations BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations = "betaAppClipInvocationLocalizations"
+	BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationsUrl                                BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations = "url"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations enum.
+func (e BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationsBetaAppClipInvocationLocalizations:
+		return true
+	case BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationsUrl:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations.
+const (
+	BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizationsLocale BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations = "locale"
+	BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizationsTitle  BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations = "title"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations enum.
+func (e BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizationsLocale:
+		return true
+	case BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizationsTitle:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BetaAppClipInvocationsGetInstanceParamsInclude.
+const (
+	BetaAppClipInvocationsGetInstanceParamsIncludeBetaAppClipInvocationLocalizations BetaAppClipInvocationsGetInstanceParamsInclude = "betaAppClipInvocationLocalizations"
+)
+
+// Valid indicates whether the value is a known member of the BetaAppClipInvocationsGetInstanceParamsInclude enum.
+func (e BetaAppClipInvocationsGetInstanceParamsInclude) Valid() bool {
+	switch e {
+	case BetaAppClipInvocationsGetInstanceParamsIncludeBetaAppClipInvocationLocalizations:
+		return true
+	default:
+		return false
+	}
+}
+
 // Defines values for BetaAppLocalizationsGetInstanceParamsFieldsBetaAppLocalizations.
 const (
 	BetaAppLocalizationsGetInstanceParamsFieldsBetaAppLocalizationsApp               BetaAppLocalizationsGetInstanceParamsFieldsBetaAppLocalizations = "app"
@@ -40709,6 +42473,42 @@ const (
 func (e BuildBetaDetailsGetCollectionParamsInclude) Valid() bool {
 	switch e {
 	case BuildBetaDetailsGetCollectionParamsIncludeBuild:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses.
+const (
+	BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesDomains         BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses = "domains"
+	BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesLastUpdatedDate BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses = "lastUpdatedDate"
+)
+
+// Valid indicates whether the value is a known member of the BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses enum.
+func (e BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses) Valid() bool {
+	switch e {
+	case BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesDomains:
+		return true
+	case BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesLastUpdatedDate:
+		return true
+	default:
+		return false
+	}
+}
+
+// Defines values for BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses.
+const (
+	BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesDomains         BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses = "domains"
+	BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesLastUpdatedDate BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses = "lastUpdatedDate"
+)
+
+// Valid indicates whether the value is a known member of the BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses enum.
+func (e BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses) Valid() bool {
+	switch e {
+	case BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesDomains:
+		return true
+	case BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatusesLastUpdatedDate:
 		return true
 	default:
 		return false
@@ -56971,6 +58771,395 @@ type AppClipType string
 // AppClipAction defines model for AppClipAction.
 type AppClipAction string
 
+// AppClipAdvancedExperience defines model for AppClipAdvancedExperience.
+type AppClipAdvancedExperience struct {
+	Attributes *struct {
+		Action           *AppClipAction                                       `json:"action,omitempty"`
+		BusinessCategory *AppClipAdvancedExperienceAttributesBusinessCategory `json:"businessCategory,omitempty"`
+		DefaultLanguage  *AppClipAdvancedExperienceLanguage                   `json:"defaultLanguage,omitempty"`
+		IsPoweredBy      *bool                                                `json:"isPoweredBy,omitempty"`
+		Link             *string                                              `json:"link,omitempty"`
+		Place            *struct {
+			Categories   *[]string `json:"categories,omitempty"`
+			DisplayPoint *struct {
+				Coordinates *struct {
+					Latitude  *float32 `json:"latitude,omitempty"`
+					Longitude *float32 `json:"longitude,omitempty"`
+				} `json:"coordinates,omitempty"`
+				Source *AppClipAdvancedExperienceAttributesPlaceDisplayPointSource `json:"source,omitempty"`
+			} `json:"displayPoint,omitempty"`
+			HomePage    *string `json:"homePage,omitempty"`
+			MainAddress *struct {
+				FullAddress       *string `json:"fullAddress,omitempty"`
+				StructuredAddress *struct {
+					CountryCode   *string   `json:"countryCode,omitempty"`
+					Floor         *string   `json:"floor,omitempty"`
+					Locality      *string   `json:"locality,omitempty"`
+					Neighborhood  *string   `json:"neighborhood,omitempty"`
+					PostalCode    *string   `json:"postalCode,omitempty"`
+					StateProvince *string   `json:"stateProvince,omitempty"`
+					StreetAddress *[]string `json:"streetAddress,omitempty"`
+				} `json:"structuredAddress,omitempty"`
+			} `json:"mainAddress,omitempty"`
+			MapAction   *AppClipAdvancedExperienceAttributesPlaceMapAction `json:"mapAction,omitempty"`
+			Names       *[]string                                          `json:"names,omitempty"`
+			PhoneNumber *struct {
+				Intent *string                                                  `json:"intent,omitempty"`
+				Number *string                                                  `json:"number,omitempty"`
+				Type   *AppClipAdvancedExperienceAttributesPlacePhoneNumberType `json:"type,omitempty"`
+			} `json:"phoneNumber,omitempty"`
+			PlaceId      *string                                               `json:"placeId,omitempty"`
+			Relationship *AppClipAdvancedExperienceAttributesPlaceRelationship `json:"relationship,omitempty"`
+		} `json:"place,omitempty"`
+		PlaceStatus *AppClipAdvancedExperienceAttributesPlaceStatus `json:"placeStatus,omitempty"`
+		Status      *AppClipAdvancedExperienceAttributesStatus      `json:"status,omitempty"`
+		Version     *int                                            `json:"version,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		AppClip *struct {
+			Data *struct {
+				Id   string                                                `json:"id"`
+				Type AppClipAdvancedExperienceRelationshipsAppClipDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"appClip,omitempty"`
+		HeaderImage *struct {
+			Data *struct {
+				Id   string                                                    `json:"id"`
+				Type AppClipAdvancedExperienceRelationshipsHeaderImageDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"headerImage,omitempty"`
+		Localizations *struct {
+			Data *[]struct {
+				Id   string                                                      `json:"id"`
+				Type AppClipAdvancedExperienceRelationshipsLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Meta *PagingInformation `json:"meta,omitempty"`
+		} `json:"localizations,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type AppClipAdvancedExperienceType `json:"type"`
+}
+
+// AppClipAdvancedExperienceAttributesBusinessCategory defines model for AppClipAdvancedExperience.Attributes.BusinessCategory.
+type AppClipAdvancedExperienceAttributesBusinessCategory string
+
+// AppClipAdvancedExperienceAttributesPlaceDisplayPointSource defines model for AppClipAdvancedExperience.Attributes.Place.DisplayPoint.Source.
+type AppClipAdvancedExperienceAttributesPlaceDisplayPointSource string
+
+// AppClipAdvancedExperienceAttributesPlaceMapAction defines model for AppClipAdvancedExperience.Attributes.Place.MapAction.
+type AppClipAdvancedExperienceAttributesPlaceMapAction string
+
+// AppClipAdvancedExperienceAttributesPlacePhoneNumberType defines model for AppClipAdvancedExperience.Attributes.Place.PhoneNumber.Type.
+type AppClipAdvancedExperienceAttributesPlacePhoneNumberType string
+
+// AppClipAdvancedExperienceAttributesPlaceRelationship defines model for AppClipAdvancedExperience.Attributes.Place.Relationship.
+type AppClipAdvancedExperienceAttributesPlaceRelationship string
+
+// AppClipAdvancedExperienceAttributesPlaceStatus defines model for AppClipAdvancedExperience.Attributes.PlaceStatus.
+type AppClipAdvancedExperienceAttributesPlaceStatus string
+
+// AppClipAdvancedExperienceAttributesStatus defines model for AppClipAdvancedExperience.Attributes.Status.
+type AppClipAdvancedExperienceAttributesStatus string
+
+// AppClipAdvancedExperienceRelationshipsAppClipDataType defines model for AppClipAdvancedExperience.Relationships.AppClip.Data.Type.
+type AppClipAdvancedExperienceRelationshipsAppClipDataType string
+
+// AppClipAdvancedExperienceRelationshipsHeaderImageDataType defines model for AppClipAdvancedExperience.Relationships.HeaderImage.Data.Type.
+type AppClipAdvancedExperienceRelationshipsHeaderImageDataType string
+
+// AppClipAdvancedExperienceRelationshipsLocalizationsDataType defines model for AppClipAdvancedExperience.Relationships.Localizations.Data.Type.
+type AppClipAdvancedExperienceRelationshipsLocalizationsDataType string
+
+// AppClipAdvancedExperienceType defines model for AppClipAdvancedExperience.Type.
+type AppClipAdvancedExperienceType string
+
+// AppClipAdvancedExperienceCreateRequest defines model for AppClipAdvancedExperienceCreateRequest.
+type AppClipAdvancedExperienceCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Action           *AppClipAction                                                        `json:"action,omitempty"`
+			BusinessCategory *AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory `json:"businessCategory,omitempty"`
+			DefaultLanguage  AppClipAdvancedExperienceLanguage                                     `json:"defaultLanguage"`
+			IsPoweredBy      bool                                                                  `json:"isPoweredBy"`
+			Link             string                                                                `json:"link"`
+			Place            *struct {
+				Categories   *[]string `json:"categories,omitempty"`
+				DisplayPoint *struct {
+					Coordinates *struct {
+						Latitude  *float32 `json:"latitude,omitempty"`
+						Longitude *float32 `json:"longitude,omitempty"`
+					} `json:"coordinates,omitempty"`
+					Source *AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource `json:"source,omitempty"`
+				} `json:"displayPoint,omitempty"`
+				HomePage    *string `json:"homePage,omitempty"`
+				MainAddress *struct {
+					FullAddress       *string `json:"fullAddress,omitempty"`
+					StructuredAddress *struct {
+						CountryCode   *string   `json:"countryCode,omitempty"`
+						Floor         *string   `json:"floor,omitempty"`
+						Locality      *string   `json:"locality,omitempty"`
+						Neighborhood  *string   `json:"neighborhood,omitempty"`
+						PostalCode    *string   `json:"postalCode,omitempty"`
+						StateProvince *string   `json:"stateProvince,omitempty"`
+						StreetAddress *[]string `json:"streetAddress,omitempty"`
+					} `json:"structuredAddress,omitempty"`
+				} `json:"mainAddress,omitempty"`
+				MapAction   *AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction `json:"mapAction,omitempty"`
+				Names       *[]string                                                           `json:"names,omitempty"`
+				PhoneNumber *struct {
+					Intent *string                                                                   `json:"intent,omitempty"`
+					Number *string                                                                   `json:"number,omitempty"`
+					Type   *AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType `json:"type,omitempty"`
+				} `json:"phoneNumber,omitempty"`
+				PlaceId      *string                                                                `json:"placeId,omitempty"`
+				Relationship *AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship `json:"relationship,omitempty"`
+			} `json:"place,omitempty"`
+		} `json:"attributes"`
+		Relationships struct {
+			AppClip struct {
+				Data struct {
+					Id   string                                                                 `json:"id"`
+					Type AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataType `json:"type"`
+				} `json:"data"`
+			} `json:"appClip"`
+			HeaderImage struct {
+				Data struct {
+					Id   string                                                                     `json:"id"`
+					Type AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataType `json:"type"`
+				} `json:"data"`
+			} `json:"headerImage"`
+			Localizations struct {
+				Data []struct {
+					Id   string                                                                       `json:"id"`
+					Type AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataType `json:"type"`
+				} `json:"data"`
+			} `json:"localizations"`
+		} `json:"relationships"`
+		Type AppClipAdvancedExperienceCreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]AppClipAdvancedExperienceLocalizationInlineCreate `json:"included,omitempty"`
+}
+
+// AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory defines model for AppClipAdvancedExperienceCreateRequest.Data.Attributes.BusinessCategory.
+type AppClipAdvancedExperienceCreateRequestDataAttributesBusinessCategory string
+
+// AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource defines model for AppClipAdvancedExperienceCreateRequest.Data.Attributes.Place.DisplayPoint.Source.
+type AppClipAdvancedExperienceCreateRequestDataAttributesPlaceDisplayPointSource string
+
+// AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction defines model for AppClipAdvancedExperienceCreateRequest.Data.Attributes.Place.MapAction.
+type AppClipAdvancedExperienceCreateRequestDataAttributesPlaceMapAction string
+
+// AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType defines model for AppClipAdvancedExperienceCreateRequest.Data.Attributes.Place.PhoneNumber.Type.
+type AppClipAdvancedExperienceCreateRequestDataAttributesPlacePhoneNumberType string
+
+// AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship defines model for AppClipAdvancedExperienceCreateRequest.Data.Attributes.Place.Relationship.
+type AppClipAdvancedExperienceCreateRequestDataAttributesPlaceRelationship string
+
+// AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataType defines model for AppClipAdvancedExperienceCreateRequest.Data.Relationships.AppClip.Data.Type.
+type AppClipAdvancedExperienceCreateRequestDataRelationshipsAppClipDataType string
+
+// AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataType defines model for AppClipAdvancedExperienceCreateRequest.Data.Relationships.HeaderImage.Data.Type.
+type AppClipAdvancedExperienceCreateRequestDataRelationshipsHeaderImageDataType string
+
+// AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataType defines model for AppClipAdvancedExperienceCreateRequest.Data.Relationships.Localizations.Data.Type.
+type AppClipAdvancedExperienceCreateRequestDataRelationshipsLocalizationsDataType string
+
+// AppClipAdvancedExperienceCreateRequestDataType defines model for AppClipAdvancedExperienceCreateRequest.Data.Type.
+type AppClipAdvancedExperienceCreateRequestDataType string
+
+// AppClipAdvancedExperienceImage defines model for AppClipAdvancedExperienceImage.
+type AppClipAdvancedExperienceImage struct {
+	Attributes *struct {
+		AssetDeliveryState *AppMediaAssetState `json:"assetDeliveryState,omitempty"`
+		FileName           *string             `json:"fileName,omitempty"`
+		FileSize           *int                `json:"fileSize,omitempty"`
+		ImageAsset         *ImageAsset         `json:"imageAsset,omitempty"`
+		SourceFileChecksum *string             `json:"sourceFileChecksum,omitempty"`
+		UploadOperations   *[]UploadOperation  `json:"uploadOperations,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                             `json:"id"`
+	Links *ResourceLinks                     `json:"links,omitempty"`
+	Type  AppClipAdvancedExperienceImageType `json:"type"`
+}
+
+// AppClipAdvancedExperienceImageType defines model for AppClipAdvancedExperienceImage.Type.
+type AppClipAdvancedExperienceImageType string
+
+// AppClipAdvancedExperienceImageCreateRequest defines model for AppClipAdvancedExperienceImageCreateRequest.
+type AppClipAdvancedExperienceImageCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			FileName string `json:"fileName"`
+			FileSize int    `json:"fileSize"`
+		} `json:"attributes"`
+		Type AppClipAdvancedExperienceImageCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppClipAdvancedExperienceImageCreateRequestDataType defines model for AppClipAdvancedExperienceImageCreateRequest.Data.Type.
+type AppClipAdvancedExperienceImageCreateRequestDataType string
+
+// AppClipAdvancedExperienceImageResponse defines model for AppClipAdvancedExperienceImageResponse.
+type AppClipAdvancedExperienceImageResponse struct {
+	Data  AppClipAdvancedExperienceImage `json:"data"`
+	Links DocumentLinks                  `json:"links"`
+}
+
+// AppClipAdvancedExperienceImageUpdateRequest defines model for AppClipAdvancedExperienceImageUpdateRequest.
+type AppClipAdvancedExperienceImageUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			SourceFileChecksum *string `json:"sourceFileChecksum,omitempty"`
+			Uploaded           *bool   `json:"uploaded,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                              `json:"id"`
+		Type AppClipAdvancedExperienceImageUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// AppClipAdvancedExperienceImageUpdateRequestDataType defines model for AppClipAdvancedExperienceImageUpdateRequest.Data.Type.
+type AppClipAdvancedExperienceImageUpdateRequestDataType string
+
+// AppClipAdvancedExperienceLanguage defines model for AppClipAdvancedExperienceLanguage.
+type AppClipAdvancedExperienceLanguage string
+
+// AppClipAdvancedExperienceLocalization defines model for AppClipAdvancedExperienceLocalization.
+type AppClipAdvancedExperienceLocalization struct {
+	Attributes *struct {
+		Language *AppClipAdvancedExperienceLanguage `json:"language,omitempty"`
+		Subtitle *string                            `json:"subtitle,omitempty"`
+		Title    *string                            `json:"title,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                                    `json:"id"`
+	Links *ResourceLinks                            `json:"links,omitempty"`
+	Type  AppClipAdvancedExperienceLocalizationType `json:"type"`
+}
+
+// AppClipAdvancedExperienceLocalizationType defines model for AppClipAdvancedExperienceLocalization.Type.
+type AppClipAdvancedExperienceLocalizationType string
+
+// AppClipAdvancedExperienceLocalizationInlineCreate defines model for AppClipAdvancedExperienceLocalizationInlineCreate.
+type AppClipAdvancedExperienceLocalizationInlineCreate struct {
+	Attributes *struct {
+		Language *AppClipAdvancedExperienceLanguage `json:"language,omitempty"`
+		Subtitle *string                            `json:"subtitle,omitempty"`
+		Title    *string                            `json:"title,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id   *string                                               `json:"id,omitempty"`
+	Type AppClipAdvancedExperienceLocalizationInlineCreateType `json:"type"`
+}
+
+// AppClipAdvancedExperienceLocalizationInlineCreateType defines model for AppClipAdvancedExperienceLocalizationInlineCreate.Type.
+type AppClipAdvancedExperienceLocalizationInlineCreateType string
+
+// AppClipAdvancedExperienceResponse defines model for AppClipAdvancedExperienceResponse.
+type AppClipAdvancedExperienceResponse struct {
+	Data     AppClipAdvancedExperience                          `json:"data"`
+	Included *[]AppClipAdvancedExperienceResponse_Included_Item `json:"included,omitempty"`
+	Links    DocumentLinks                                      `json:"links"`
+}
+
+// AppClipAdvancedExperienceResponse_Included_Item defines model for AppClipAdvancedExperienceResponse.included.Item.
+type AppClipAdvancedExperienceResponse_Included_Item struct {
+	union json.RawMessage
+}
+
+// AppClipAdvancedExperienceUpdateRequest defines model for AppClipAdvancedExperienceUpdateRequest.
+type AppClipAdvancedExperienceUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Action           *AppClipAction                                                        `json:"action,omitempty"`
+			BusinessCategory *AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory `json:"businessCategory,omitempty"`
+			DefaultLanguage  *AppClipAdvancedExperienceLanguage                                    `json:"defaultLanguage,omitempty"`
+			IsPoweredBy      *bool                                                                 `json:"isPoweredBy,omitempty"`
+			Place            *struct {
+				Categories   *[]string `json:"categories,omitempty"`
+				DisplayPoint *struct {
+					Coordinates *struct {
+						Latitude  *float32 `json:"latitude,omitempty"`
+						Longitude *float32 `json:"longitude,omitempty"`
+					} `json:"coordinates,omitempty"`
+					Source *AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource `json:"source,omitempty"`
+				} `json:"displayPoint,omitempty"`
+				HomePage    *string `json:"homePage,omitempty"`
+				MainAddress *struct {
+					FullAddress       *string `json:"fullAddress,omitempty"`
+					StructuredAddress *struct {
+						CountryCode   *string   `json:"countryCode,omitempty"`
+						Floor         *string   `json:"floor,omitempty"`
+						Locality      *string   `json:"locality,omitempty"`
+						Neighborhood  *string   `json:"neighborhood,omitempty"`
+						PostalCode    *string   `json:"postalCode,omitempty"`
+						StateProvince *string   `json:"stateProvince,omitempty"`
+						StreetAddress *[]string `json:"streetAddress,omitempty"`
+					} `json:"structuredAddress,omitempty"`
+				} `json:"mainAddress,omitempty"`
+				MapAction   *AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction `json:"mapAction,omitempty"`
+				Names       *[]string                                                           `json:"names,omitempty"`
+				PhoneNumber *struct {
+					Intent *string                                                                   `json:"intent,omitempty"`
+					Number *string                                                                   `json:"number,omitempty"`
+					Type   *AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType `json:"type,omitempty"`
+				} `json:"phoneNumber,omitempty"`
+				PlaceId      *string                                                                `json:"placeId,omitempty"`
+				Relationship *AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship `json:"relationship,omitempty"`
+			} `json:"place,omitempty"`
+			Removed *bool `json:"removed,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id            string `json:"id"`
+		Relationships *struct {
+			AppClip *struct {
+				Data *struct {
+					Id   string                                                                 `json:"id"`
+					Type AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"appClip,omitempty"`
+			HeaderImage *struct {
+				Data *struct {
+					Id   string                                                                     `json:"id"`
+					Type AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"headerImage,omitempty"`
+			Localizations *struct {
+				Data *[]struct {
+					Id   string                                                                       `json:"id"`
+					Type AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataType `json:"type"`
+				} `json:"data,omitempty"`
+			} `json:"localizations,omitempty"`
+		} `json:"relationships,omitempty"`
+		Type AppClipAdvancedExperienceUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]AppClipAdvancedExperienceLocalizationInlineCreate `json:"included,omitempty"`
+}
+
+// AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory defines model for AppClipAdvancedExperienceUpdateRequest.Data.Attributes.BusinessCategory.
+type AppClipAdvancedExperienceUpdateRequestDataAttributesBusinessCategory string
+
+// AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource defines model for AppClipAdvancedExperienceUpdateRequest.Data.Attributes.Place.DisplayPoint.Source.
+type AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceDisplayPointSource string
+
+// AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction defines model for AppClipAdvancedExperienceUpdateRequest.Data.Attributes.Place.MapAction.
+type AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceMapAction string
+
+// AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType defines model for AppClipAdvancedExperienceUpdateRequest.Data.Attributes.Place.PhoneNumber.Type.
+type AppClipAdvancedExperienceUpdateRequestDataAttributesPlacePhoneNumberType string
+
+// AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship defines model for AppClipAdvancedExperienceUpdateRequest.Data.Attributes.Place.Relationship.
+type AppClipAdvancedExperienceUpdateRequestDataAttributesPlaceRelationship string
+
+// AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataType defines model for AppClipAdvancedExperienceUpdateRequest.Data.Relationships.AppClip.Data.Type.
+type AppClipAdvancedExperienceUpdateRequestDataRelationshipsAppClipDataType string
+
+// AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataType defines model for AppClipAdvancedExperienceUpdateRequest.Data.Relationships.HeaderImage.Data.Type.
+type AppClipAdvancedExperienceUpdateRequestDataRelationshipsHeaderImageDataType string
+
+// AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataType defines model for AppClipAdvancedExperienceUpdateRequest.Data.Relationships.Localizations.Data.Type.
+type AppClipAdvancedExperienceUpdateRequestDataRelationshipsLocalizationsDataType string
+
+// AppClipAdvancedExperienceUpdateRequestDataType defines model for AppClipAdvancedExperienceUpdateRequest.Data.Type.
+type AppClipAdvancedExperienceUpdateRequestDataType string
+
 // AppClipAppStoreReviewDetail defines model for AppClipAppStoreReviewDetail.
 type AppClipAppStoreReviewDetail struct {
 	Attributes *struct {
@@ -57272,6 +59461,34 @@ type AppClipDefaultExperienceUpdateRequestDataRelationshipsReleaseWithAppStoreVe
 
 // AppClipDefaultExperienceUpdateRequestDataType defines model for AppClipDefaultExperienceUpdateRequest.Data.Type.
 type AppClipDefaultExperienceUpdateRequestDataType string
+
+// AppClipDomainStatus defines model for AppClipDomainStatus.
+type AppClipDomainStatus struct {
+	Attributes *struct {
+		Domains *[]struct {
+			Domain          *string                                        `json:"domain,omitempty"`
+			ErrorCode       *AppClipDomainStatusAttributesDomainsErrorCode `json:"errorCode,omitempty"`
+			IsValid         *bool                                          `json:"isValid,omitempty"`
+			LastUpdatedDate *DateTime                                      `json:"lastUpdatedDate,omitempty"`
+		} `json:"domains,omitempty"`
+		LastUpdatedDate *DateTime `json:"lastUpdatedDate,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                  `json:"id"`
+	Links *ResourceLinks          `json:"links,omitempty"`
+	Type  AppClipDomainStatusType `json:"type"`
+}
+
+// AppClipDomainStatusAttributesDomainsErrorCode defines model for AppClipDomainStatus.Attributes.Domains.ErrorCode.
+type AppClipDomainStatusAttributesDomainsErrorCode string
+
+// AppClipDomainStatusType defines model for AppClipDomainStatus.Type.
+type AppClipDomainStatusType string
+
+// AppClipDomainStatusResponse defines model for AppClipDomainStatusResponse.
+type AppClipDomainStatusResponse struct {
+	Data  AppClipDomainStatus `json:"data"`
+	Links DocumentLinks       `json:"links"`
+}
 
 // AppClipHeaderImage defines model for AppClipHeaderImage.
 type AppClipHeaderImage struct {
@@ -61184,6 +63401,169 @@ type BackgroundAssetsResponse struct {
 type BackgroundAssetsResponse_Included_Item struct {
 	union json.RawMessage
 }
+
+// BetaAppClipInvocation defines model for BetaAppClipInvocation.
+type BetaAppClipInvocation struct {
+	Attributes *struct {
+		Url *string `json:"url,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id            string         `json:"id"`
+	Links         *ResourceLinks `json:"links,omitempty"`
+	Relationships *struct {
+		BetaAppClipInvocationLocalizations *struct {
+			Data *[]struct {
+				Id   string                                                                       `json:"id"`
+				Type BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataType `json:"type"`
+			} `json:"data,omitempty"`
+			Meta *PagingInformation `json:"meta,omitempty"`
+		} `json:"betaAppClipInvocationLocalizations,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type BetaAppClipInvocationType `json:"type"`
+}
+
+// BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataType defines model for BetaAppClipInvocation.Relationships.BetaAppClipInvocationLocalizations.Data.Type.
+type BetaAppClipInvocationRelationshipsBetaAppClipInvocationLocalizationsDataType string
+
+// BetaAppClipInvocationType defines model for BetaAppClipInvocation.Type.
+type BetaAppClipInvocationType string
+
+// BetaAppClipInvocationCreateRequest defines model for BetaAppClipInvocationCreateRequest.
+type BetaAppClipInvocationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Url string `json:"url"`
+		} `json:"attributes"`
+		Relationships struct {
+			BetaAppClipInvocationLocalizations struct {
+				Data []struct {
+					Id   string                                                                                        `json:"id"`
+					Type BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataType `json:"type"`
+				} `json:"data"`
+			} `json:"betaAppClipInvocationLocalizations"`
+			BuildBundle struct {
+				Data struct {
+					Id   string                                                                 `json:"id"`
+					Type BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataType `json:"type"`
+				} `json:"data"`
+			} `json:"buildBundle"`
+		} `json:"relationships"`
+		Type BetaAppClipInvocationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+	Included *[]BetaAppClipInvocationLocalizationInlineCreate `json:"included,omitempty"`
+}
+
+// BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataType defines model for BetaAppClipInvocationCreateRequest.Data.Relationships.BetaAppClipInvocationLocalizations.Data.Type.
+type BetaAppClipInvocationCreateRequestDataRelationshipsBetaAppClipInvocationLocalizationsDataType string
+
+// BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataType defines model for BetaAppClipInvocationCreateRequest.Data.Relationships.BuildBundle.Data.Type.
+type BetaAppClipInvocationCreateRequestDataRelationshipsBuildBundleDataType string
+
+// BetaAppClipInvocationCreateRequestDataType defines model for BetaAppClipInvocationCreateRequest.Data.Type.
+type BetaAppClipInvocationCreateRequestDataType string
+
+// BetaAppClipInvocationLocalization defines model for BetaAppClipInvocationLocalization.
+type BetaAppClipInvocationLocalization struct {
+	Attributes *struct {
+		Locale *string `json:"locale,omitempty"`
+		Title  *string `json:"title,omitempty"`
+	} `json:"attributes,omitempty"`
+	Id    string                                `json:"id"`
+	Links *ResourceLinks                        `json:"links,omitempty"`
+	Type  BetaAppClipInvocationLocalizationType `json:"type"`
+}
+
+// BetaAppClipInvocationLocalizationType defines model for BetaAppClipInvocationLocalization.Type.
+type BetaAppClipInvocationLocalizationType string
+
+// BetaAppClipInvocationLocalizationCreateRequest defines model for BetaAppClipInvocationLocalizationCreateRequest.
+type BetaAppClipInvocationLocalizationCreateRequest struct {
+	Data struct {
+		Attributes struct {
+			Locale string `json:"locale"`
+			Title  string `json:"title"`
+		} `json:"attributes"`
+		Relationships struct {
+			BetaAppClipInvocation struct {
+				Data struct {
+					Id   string                                                                                       `json:"id"`
+					Type BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataType `json:"type"`
+				} `json:"data"`
+			} `json:"betaAppClipInvocation"`
+		} `json:"relationships"`
+		Type BetaAppClipInvocationLocalizationCreateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataType defines model for BetaAppClipInvocationLocalizationCreateRequest.Data.Relationships.BetaAppClipInvocation.Data.Type.
+type BetaAppClipInvocationLocalizationCreateRequestDataRelationshipsBetaAppClipInvocationDataType string
+
+// BetaAppClipInvocationLocalizationCreateRequestDataType defines model for BetaAppClipInvocationLocalizationCreateRequest.Data.Type.
+type BetaAppClipInvocationLocalizationCreateRequestDataType string
+
+// BetaAppClipInvocationLocalizationInlineCreate defines model for BetaAppClipInvocationLocalizationInlineCreate.
+type BetaAppClipInvocationLocalizationInlineCreate struct {
+	Attributes struct {
+		Locale string `json:"locale"`
+		Title  string `json:"title"`
+	} `json:"attributes"`
+	Id            *string `json:"id,omitempty"`
+	Relationships *struct {
+		BetaAppClipInvocation *struct {
+			Data *struct {
+				Id   string                                                                                  `json:"id"`
+				Type BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataType `json:"type"`
+			} `json:"data,omitempty"`
+		} `json:"betaAppClipInvocation,omitempty"`
+	} `json:"relationships,omitempty"`
+	Type BetaAppClipInvocationLocalizationInlineCreateType `json:"type"`
+}
+
+// BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataType defines model for BetaAppClipInvocationLocalizationInlineCreate.Relationships.BetaAppClipInvocation.Data.Type.
+type BetaAppClipInvocationLocalizationInlineCreateRelationshipsBetaAppClipInvocationDataType string
+
+// BetaAppClipInvocationLocalizationInlineCreateType defines model for BetaAppClipInvocationLocalizationInlineCreate.Type.
+type BetaAppClipInvocationLocalizationInlineCreateType string
+
+// BetaAppClipInvocationLocalizationResponse defines model for BetaAppClipInvocationLocalizationResponse.
+type BetaAppClipInvocationLocalizationResponse struct {
+	Data  BetaAppClipInvocationLocalization `json:"data"`
+	Links DocumentLinks                     `json:"links"`
+}
+
+// BetaAppClipInvocationLocalizationUpdateRequest defines model for BetaAppClipInvocationLocalizationUpdateRequest.
+type BetaAppClipInvocationLocalizationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Title *string `json:"title,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                                 `json:"id"`
+		Type BetaAppClipInvocationLocalizationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BetaAppClipInvocationLocalizationUpdateRequestDataType defines model for BetaAppClipInvocationLocalizationUpdateRequest.Data.Type.
+type BetaAppClipInvocationLocalizationUpdateRequestDataType string
+
+// BetaAppClipInvocationResponse defines model for BetaAppClipInvocationResponse.
+type BetaAppClipInvocationResponse struct {
+	Data     BetaAppClipInvocation                `json:"data"`
+	Included *[]BetaAppClipInvocationLocalization `json:"included,omitempty"`
+	Links    DocumentLinks                        `json:"links"`
+}
+
+// BetaAppClipInvocationUpdateRequest defines model for BetaAppClipInvocationUpdateRequest.
+type BetaAppClipInvocationUpdateRequest struct {
+	Data struct {
+		Attributes *struct {
+			Url *string `json:"url,omitempty"`
+		} `json:"attributes,omitempty"`
+		Id   string                                     `json:"id"`
+		Type BetaAppClipInvocationUpdateRequestDataType `json:"type"`
+	} `json:"data"`
+}
+
+// BetaAppClipInvocationUpdateRequestDataType defines model for BetaAppClipInvocationUpdateRequest.Data.Type.
+type BetaAppClipInvocationUpdateRequestDataType string
 
 // BetaAppLocalization defines model for BetaAppLocalization.
 type BetaAppLocalization struct {
@@ -70400,6 +72780,51 @@ type AppCategoriesGetCollectionParamsFieldsAppCategories string
 // AppCategoriesGetCollectionParamsInclude defines parameters for AppCategoriesGetCollection.
 type AppCategoriesGetCollectionParamsInclude string
 
+// AppClipAdvancedExperienceImagesGetInstanceParams defines parameters for AppClipAdvancedExperienceImagesGetInstance.
+type AppClipAdvancedExperienceImagesGetInstanceParams struct {
+	// FieldsAppClipAdvancedExperienceImages the fields to include for returned resources of type appClipAdvancedExperienceImages
+	FieldsAppClipAdvancedExperienceImages *[]AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages `form:"fields[appClipAdvancedExperienceImages],omitempty" json:"fields[appClipAdvancedExperienceImages],omitempty"`
+}
+
+// AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages defines parameters for AppClipAdvancedExperienceImagesGetInstance.
+type AppClipAdvancedExperienceImagesGetInstanceParamsFieldsAppClipAdvancedExperienceImages string
+
+// AppClipAdvancedExperiencesGetInstanceParams defines parameters for AppClipAdvancedExperiencesGetInstance.
+type AppClipAdvancedExperiencesGetInstanceParams struct {
+	// FieldsAppClipAdvancedExperiences the fields to include for returned resources of type appClipAdvancedExperiences
+	FieldsAppClipAdvancedExperiences *[]AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences `form:"fields[appClipAdvancedExperiences],omitempty" json:"fields[appClipAdvancedExperiences],omitempty"`
+
+	// FieldsAppClips the fields to include for returned resources of type appClips
+	FieldsAppClips *[]AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips `form:"fields[appClips],omitempty" json:"fields[appClips],omitempty"`
+
+	// FieldsAppClipAdvancedExperienceImages the fields to include for returned resources of type appClipAdvancedExperienceImages
+	FieldsAppClipAdvancedExperienceImages *[]AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages `form:"fields[appClipAdvancedExperienceImages],omitempty" json:"fields[appClipAdvancedExperienceImages],omitempty"`
+
+	// FieldsAppClipAdvancedExperienceLocalizations the fields to include for returned resources of type appClipAdvancedExperienceLocalizations
+	FieldsAppClipAdvancedExperienceLocalizations *[]AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations `form:"fields[appClipAdvancedExperienceLocalizations],omitempty" json:"fields[appClipAdvancedExperienceLocalizations],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]AppClipAdvancedExperiencesGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitLocalizations maximum number of related localizations returned (when they are included)
+	LimitLocalizations *int `form:"limit[localizations],omitempty" json:"limit[localizations],omitempty"`
+}
+
+// AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences defines parameters for AppClipAdvancedExperiencesGetInstance.
+type AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperiences string
+
+// AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips defines parameters for AppClipAdvancedExperiencesGetInstance.
+type AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClips string
+
+// AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages defines parameters for AppClipAdvancedExperiencesGetInstance.
+type AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceImages string
+
+// AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations defines parameters for AppClipAdvancedExperiencesGetInstance.
+type AppClipAdvancedExperiencesGetInstanceParamsFieldsAppClipAdvancedExperienceLocalizations string
+
+// AppClipAdvancedExperiencesGetInstanceParamsInclude defines parameters for AppClipAdvancedExperiencesGetInstance.
+type AppClipAdvancedExperiencesGetInstanceParamsInclude string
+
 // AppClipAppStoreReviewDetailsGetInstanceParams defines parameters for AppClipAppStoreReviewDetailsGetInstance.
 type AppClipAppStoreReviewDetailsGetInstanceParams struct {
 	// FieldsAppClipAppStoreReviewDetails the fields to include for returned resources of type appClipAppStoreReviewDetails
@@ -73453,6 +75878,30 @@ type BackgroundAssetsVersionsGetToManyRelatedParamsFieldsBackgroundAssetUploadFi
 // BackgroundAssetsVersionsGetToManyRelatedParamsInclude defines parameters for BackgroundAssetsVersionsGetToManyRelated.
 type BackgroundAssetsVersionsGetToManyRelatedParamsInclude string
 
+// BetaAppClipInvocationsGetInstanceParams defines parameters for BetaAppClipInvocationsGetInstance.
+type BetaAppClipInvocationsGetInstanceParams struct {
+	// FieldsBetaAppClipInvocations the fields to include for returned resources of type betaAppClipInvocations
+	FieldsBetaAppClipInvocations *[]BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations `form:"fields[betaAppClipInvocations],omitempty" json:"fields[betaAppClipInvocations],omitempty"`
+
+	// FieldsBetaAppClipInvocationLocalizations the fields to include for returned resources of type betaAppClipInvocationLocalizations
+	FieldsBetaAppClipInvocationLocalizations *[]BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations `form:"fields[betaAppClipInvocationLocalizations],omitempty" json:"fields[betaAppClipInvocationLocalizations],omitempty"`
+
+	// Include comma-separated list of relationships to include
+	Include *[]BetaAppClipInvocationsGetInstanceParamsInclude `form:"include,omitempty" json:"include,omitempty"`
+
+	// LimitBetaAppClipInvocationLocalizations maximum number of related betaAppClipInvocationLocalizations returned (when they are included)
+	LimitBetaAppClipInvocationLocalizations *int `form:"limit[betaAppClipInvocationLocalizations],omitempty" json:"limit[betaAppClipInvocationLocalizations],omitempty"`
+}
+
+// BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations defines parameters for BetaAppClipInvocationsGetInstance.
+type BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocations string
+
+// BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations defines parameters for BetaAppClipInvocationsGetInstance.
+type BetaAppClipInvocationsGetInstanceParamsFieldsBetaAppClipInvocationLocalizations string
+
+// BetaAppClipInvocationsGetInstanceParamsInclude defines parameters for BetaAppClipInvocationsGetInstance.
+type BetaAppClipInvocationsGetInstanceParamsInclude string
+
 // BetaAppLocalizationsGetInstanceParams defines parameters for BetaAppLocalizationsGetInstance.
 type BetaAppLocalizationsGetInstanceParams struct {
 	// FieldsBetaAppLocalizations the fields to include for returned resources of type betaAppLocalizations
@@ -73848,6 +76297,24 @@ type BuildBetaDetailsGetCollectionParamsFieldsBuilds string
 
 // BuildBetaDetailsGetCollectionParamsInclude defines parameters for BuildBetaDetailsGetCollection.
 type BuildBetaDetailsGetCollectionParamsInclude string
+
+// BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams defines parameters for BuildBundlesAppClipDomainCacheStatusGetToOneRelated.
+type BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams struct {
+	// FieldsAppClipDomainStatuses the fields to include for returned resources of type appClipDomainStatuses
+	FieldsAppClipDomainStatuses *[]BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses `form:"fields[appClipDomainStatuses],omitempty" json:"fields[appClipDomainStatuses],omitempty"`
+}
+
+// BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses defines parameters for BuildBundlesAppClipDomainCacheStatusGetToOneRelated.
+type BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses string
+
+// BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams defines parameters for BuildBundlesAppClipDomainDebugStatusGetToOneRelated.
+type BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams struct {
+	// FieldsAppClipDomainStatuses the fields to include for returned resources of type appClipDomainStatuses
+	FieldsAppClipDomainStatuses *[]BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses `form:"fields[appClipDomainStatuses],omitempty" json:"fields[appClipDomainStatuses],omitempty"`
+}
+
+// BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses defines parameters for BuildBundlesAppClipDomainDebugStatusGetToOneRelated.
+type BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParamsFieldsAppClipDomainStatuses string
 
 // BuildsGetCollectionParams defines parameters for BuildsGetCollection.
 type BuildsGetCollectionParams struct {
@@ -76991,6 +79458,18 @@ type AppAssetLibraryVideosCreateInstanceJSONRequestBody = AppAssetLibraryVideoCr
 // AppAssetLibraryVideosUpdateInstanceJSONRequestBody defines body for AppAssetLibraryVideosUpdateInstance for application/json ContentType.
 type AppAssetLibraryVideosUpdateInstanceJSONRequestBody = AppAssetLibraryVideoUpdateRequest
 
+// AppClipAdvancedExperienceImagesCreateInstanceJSONRequestBody defines body for AppClipAdvancedExperienceImagesCreateInstance for application/json ContentType.
+type AppClipAdvancedExperienceImagesCreateInstanceJSONRequestBody = AppClipAdvancedExperienceImageCreateRequest
+
+// AppClipAdvancedExperienceImagesUpdateInstanceJSONRequestBody defines body for AppClipAdvancedExperienceImagesUpdateInstance for application/json ContentType.
+type AppClipAdvancedExperienceImagesUpdateInstanceJSONRequestBody = AppClipAdvancedExperienceImageUpdateRequest
+
+// AppClipAdvancedExperiencesCreateInstanceJSONRequestBody defines body for AppClipAdvancedExperiencesCreateInstance for application/json ContentType.
+type AppClipAdvancedExperiencesCreateInstanceJSONRequestBody = AppClipAdvancedExperienceCreateRequest
+
+// AppClipAdvancedExperiencesUpdateInstanceJSONRequestBody defines body for AppClipAdvancedExperiencesUpdateInstance for application/json ContentType.
+type AppClipAdvancedExperiencesUpdateInstanceJSONRequestBody = AppClipAdvancedExperienceUpdateRequest
+
 // AppClipAppStoreReviewDetailsCreateInstanceJSONRequestBody defines body for AppClipAppStoreReviewDetailsCreateInstance for application/json ContentType.
 type AppClipAppStoreReviewDetailsCreateInstanceJSONRequestBody = AppClipAppStoreReviewDetailCreateRequest
 
@@ -77176,6 +79655,18 @@ type BackgroundAssetsCreateInstanceJSONRequestBody = BackgroundAssetCreateReques
 
 // BackgroundAssetsUpdateInstanceJSONRequestBody defines body for BackgroundAssetsUpdateInstance for application/json ContentType.
 type BackgroundAssetsUpdateInstanceJSONRequestBody = BackgroundAssetUpdateRequest
+
+// BetaAppClipInvocationLocalizationsCreateInstanceJSONRequestBody defines body for BetaAppClipInvocationLocalizationsCreateInstance for application/json ContentType.
+type BetaAppClipInvocationLocalizationsCreateInstanceJSONRequestBody = BetaAppClipInvocationLocalizationCreateRequest
+
+// BetaAppClipInvocationLocalizationsUpdateInstanceJSONRequestBody defines body for BetaAppClipInvocationLocalizationsUpdateInstance for application/json ContentType.
+type BetaAppClipInvocationLocalizationsUpdateInstanceJSONRequestBody = BetaAppClipInvocationLocalizationUpdateRequest
+
+// BetaAppClipInvocationsCreateInstanceJSONRequestBody defines body for BetaAppClipInvocationsCreateInstance for application/json ContentType.
+type BetaAppClipInvocationsCreateInstanceJSONRequestBody = BetaAppClipInvocationCreateRequest
+
+// BetaAppClipInvocationsUpdateInstanceJSONRequestBody defines body for BetaAppClipInvocationsUpdateInstance for application/json ContentType.
+type BetaAppClipInvocationsUpdateInstanceJSONRequestBody = BetaAppClipInvocationUpdateRequest
 
 // BetaAppLocalizationsCreateInstanceJSONRequestBody defines body for BetaAppLocalizationsCreateInstance for application/json ContentType.
 type BetaAppLocalizationsCreateInstanceJSONRequestBody = BetaAppLocalizationCreateRequest
@@ -79325,6 +81816,143 @@ func (t AppAssetLibraryVideo_Attributes) MarshalJSON() ([]byte, error) {
 }
 
 func (t *AppAssetLibraryVideo_Attributes) UnmarshalJSON(b []byte) error {
+	err := t.union.UnmarshalJSON(b)
+	return err
+}
+
+// AsAppClipAdvancedExperienceImage returns the union data inside the AppClipAdvancedExperienceResponse_Included_Item as a AppClipAdvancedExperienceImage
+func (t AppClipAdvancedExperienceResponse_Included_Item) AsAppClipAdvancedExperienceImage() (AppClipAdvancedExperienceImage, error) {
+	var body AppClipAdvancedExperienceImage
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppClipAdvancedExperienceImage overwrites any union data inside the AppClipAdvancedExperienceResponse_Included_Item as the provided AppClipAdvancedExperienceImage
+func (t *AppClipAdvancedExperienceResponse_Included_Item) FromAppClipAdvancedExperienceImage(v AppClipAdvancedExperienceImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appClipAdvancedExperienceImages"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppClipAdvancedExperienceImage performs a merge with any union data inside the AppClipAdvancedExperienceResponse_Included_Item, using the provided AppClipAdvancedExperienceImage
+func (t *AppClipAdvancedExperienceResponse_Included_Item) MergeAppClipAdvancedExperienceImage(v AppClipAdvancedExperienceImage) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appClipAdvancedExperienceImages"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppClipAdvancedExperienceLocalization returns the union data inside the AppClipAdvancedExperienceResponse_Included_Item as a AppClipAdvancedExperienceLocalization
+func (t AppClipAdvancedExperienceResponse_Included_Item) AsAppClipAdvancedExperienceLocalization() (AppClipAdvancedExperienceLocalization, error) {
+	var body AppClipAdvancedExperienceLocalization
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppClipAdvancedExperienceLocalization overwrites any union data inside the AppClipAdvancedExperienceResponse_Included_Item as the provided AppClipAdvancedExperienceLocalization
+func (t *AppClipAdvancedExperienceResponse_Included_Item) FromAppClipAdvancedExperienceLocalization(v AppClipAdvancedExperienceLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appClipAdvancedExperienceLocalizations"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppClipAdvancedExperienceLocalization performs a merge with any union data inside the AppClipAdvancedExperienceResponse_Included_Item, using the provided AppClipAdvancedExperienceLocalization
+func (t *AppClipAdvancedExperienceResponse_Included_Item) MergeAppClipAdvancedExperienceLocalization(v AppClipAdvancedExperienceLocalization) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appClipAdvancedExperienceLocalizations"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+// AsAppClip returns the union data inside the AppClipAdvancedExperienceResponse_Included_Item as a AppClip
+func (t AppClipAdvancedExperienceResponse_Included_Item) AsAppClip() (AppClip, error) {
+	var body AppClip
+	err := json.Unmarshal(t.union, &body)
+	return body, err
+}
+
+// FromAppClip overwrites any union data inside the AppClipAdvancedExperienceResponse_Included_Item as the provided AppClip
+func (t *AppClipAdvancedExperienceResponse_Included_Item) FromAppClip(v AppClip) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appClips"}`))
+	t.union = b
+	return err
+}
+
+// MergeAppClip performs a merge with any union data inside the AppClipAdvancedExperienceResponse_Included_Item, using the provided AppClip
+func (t *AppClipAdvancedExperienceResponse_Included_Item) MergeAppClip(v AppClip) error {
+	b, err := json.Marshal(v)
+	if err != nil {
+		return err
+	}
+	b, err = runtime.JSONMerge(b, []byte(`{"type":"appClips"}`))
+	if err != nil {
+		return err
+	}
+
+	merged, err := runtime.JSONMerge(t.union, b)
+	t.union = merged
+	return err
+}
+
+func (t AppClipAdvancedExperienceResponse_Included_Item) Discriminator() (string, error) {
+	var discriminator struct {
+		Discriminator string `json:"type"`
+	}
+	err := json.Unmarshal(t.union, &discriminator)
+	return discriminator.Discriminator, err
+}
+
+func (t AppClipAdvancedExperienceResponse_Included_Item) ValueByDiscriminator() (interface{}, error) {
+	discriminator, err := t.Discriminator()
+	if err != nil {
+		return nil, err
+	}
+	switch discriminator {
+	case "appClipAdvancedExperienceImages":
+		return t.AsAppClipAdvancedExperienceImage()
+	case "appClipAdvancedExperienceLocalizations":
+		return t.AsAppClipAdvancedExperienceLocalization()
+	case "appClips":
+		return t.AsAppClip()
+	default:
+		return nil, errors.New("unknown discriminator value: " + discriminator)
+	}
+}
+
+func (t AppClipAdvancedExperienceResponse_Included_Item) MarshalJSON() ([]byte, error) {
+	b, err := t.union.MarshalJSON()
+	return b, err
+}
+
+func (t *AppClipAdvancedExperienceResponse_Included_Item) UnmarshalJSON(b []byte) error {
 	err := t.union.UnmarshalJSON(b)
 	return err
 }
@@ -96500,6 +99128,44 @@ type ClientInterface interface {
 	// AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 	AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// AppClipAdvancedExperienceImagesCreateInstanceWithBody performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppClipAdvancedExperienceImagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperienceImagesCreateInstance performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppClipAdvancedExperienceImagesCreateInstance(ctx context.Context, body AppClipAdvancedExperienceImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperienceImagesGetInstance performs a GET /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesGetInstance` operationId) request.
+	AppClipAdvancedExperienceImagesGetInstance(ctx context.Context, id string, params *AppClipAdvancedExperienceImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperienceImagesUpdateInstanceWithBody performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppClipAdvancedExperienceImagesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperienceImagesUpdateInstance performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppClipAdvancedExperienceImagesUpdateInstance(ctx context.Context, id string, body AppClipAdvancedExperienceImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperiencesCreateInstanceWithBody performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppClipAdvancedExperiencesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperiencesCreateInstance performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppClipAdvancedExperiencesCreateInstance(ctx context.Context, body AppClipAdvancedExperiencesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperiencesGetInstance performs a GET /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesGetInstance` operationId) request.
+	AppClipAdvancedExperiencesGetInstance(ctx context.Context, id string, params *AppClipAdvancedExperiencesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperiencesUpdateInstanceWithBody performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	AppClipAdvancedExperiencesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// AppClipAdvancedExperiencesUpdateInstance performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	AppClipAdvancedExperiencesUpdateInstance(ctx context.Context, id string, body AppClipAdvancedExperiencesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// AppClipAppStoreReviewDetailsCreateInstanceWithBody performs a POST /v1/appClipAppStoreReviewDetails (the `AppClipAppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	AppClipAppStoreReviewDetailsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -97257,6 +99923,47 @@ type ClientInterface interface {
 	// BackgroundAssetsVersionsGetToManyRelated performs a GET /v1/backgroundAssets/{id}/versions (the `BackgroundAssetsVersionsGetToManyRelated` operationId) request.
 	BackgroundAssetsVersionsGetToManyRelated(ctx context.Context, id string, params *BackgroundAssetsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
+	// BetaAppClipInvocationLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BetaAppClipInvocationLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationLocalizationsCreateInstance performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BetaAppClipInvocationLocalizationsCreateInstance(ctx context.Context, body BetaAppClipInvocationLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationLocalizationsDeleteInstance performs a DELETE /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsDeleteInstance` operationId) request.
+	BetaAppClipInvocationLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationLocalizationsUpdateInstanceWithBody performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BetaAppClipInvocationLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationLocalizationsUpdateInstance performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BetaAppClipInvocationLocalizationsUpdateInstance(ctx context.Context, id string, body BetaAppClipInvocationLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationsCreateInstanceWithBody performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BetaAppClipInvocationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationsCreateInstance performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BetaAppClipInvocationsCreateInstance(ctx context.Context, body BetaAppClipInvocationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationsDeleteInstance performs a DELETE /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsDeleteInstance` operationId) request.
+	BetaAppClipInvocationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationsGetInstance performs a GET /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsGetInstance` operationId) request.
+	BetaAppClipInvocationsGetInstance(ctx context.Context, id string, params *BetaAppClipInvocationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationsUpdateInstanceWithBody performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	BetaAppClipInvocationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BetaAppClipInvocationsUpdateInstance performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type.
+	BetaAppClipInvocationsUpdateInstance(ctx context.Context, id string, body BetaAppClipInvocationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
 	// BetaAppLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	BetaAppLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -97443,6 +100150,12 @@ type ClientInterface interface {
 	// BuildBetaNotificationsCreateInstance performs a POST /v1/buildBetaNotifications (the `BuildBetaNotificationsCreateInstance` operationId) request.
 	// Takes a body of the `application/json` content type.
 	BuildBetaNotificationsCreateInstance(ctx context.Context, body BuildBetaNotificationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BuildBundlesAppClipDomainCacheStatusGetToOneRelated performs a GET /v1/buildBundles/{id}/appClipDomainCacheStatus (the `BuildBundlesAppClipDomainCacheStatusGetToOneRelated` operationId) request.
+	BuildBundlesAppClipDomainCacheStatusGetToOneRelated(ctx context.Context, id string, params *BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
+
+	// BuildBundlesAppClipDomainDebugStatusGetToOneRelated performs a GET /v1/buildBundles/{id}/appClipDomainDebugStatus (the `BuildBundlesAppClipDomainDebugStatusGetToOneRelated` operationId) request.
+	BuildBundlesAppClipDomainDebugStatusGetToOneRelated(ctx context.Context, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error)
 
 	// BuildsGetCollection performs a GET /v1/builds (the `BuildsGetCollection` operationId) request.
 	BuildsGetCollection(ctx context.Context, params *BuildsGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error)
@@ -99139,6 +101852,144 @@ func (c *Client) AppAssetLibraryVideosPlacementsGetToManyRelated(ctx context.Con
 // AppCategoriesGetCollection performs a GET /v1/appCategories (the `AppCategoriesGetCollection` operationId) request.
 func (c *Client) AppCategoriesGetCollection(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewAppCategoriesGetCollectionRequest(c.Server, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperienceImagesCreateInstanceWithBody performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppClipAdvancedExperienceImagesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperienceImagesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperienceImagesCreateInstance performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppClipAdvancedExperienceImagesCreateInstance(ctx context.Context, body AppClipAdvancedExperienceImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperienceImagesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperienceImagesGetInstance performs a GET /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesGetInstance` operationId) request.
+func (c *Client) AppClipAdvancedExperienceImagesGetInstance(ctx context.Context, id string, params *AppClipAdvancedExperienceImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperienceImagesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperienceImagesUpdateInstanceWithBody performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppClipAdvancedExperienceImagesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperienceImagesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperienceImagesUpdateInstance performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppClipAdvancedExperienceImagesUpdateInstance(ctx context.Context, id string, body AppClipAdvancedExperienceImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperienceImagesUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperiencesCreateInstanceWithBody performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppClipAdvancedExperiencesCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperiencesCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperiencesCreateInstance performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppClipAdvancedExperiencesCreateInstance(ctx context.Context, body AppClipAdvancedExperiencesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperiencesCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperiencesGetInstance performs a GET /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesGetInstance` operationId) request.
+func (c *Client) AppClipAdvancedExperiencesGetInstance(ctx context.Context, id string, params *AppClipAdvancedExperiencesGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperiencesGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperiencesUpdateInstanceWithBody performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) AppClipAdvancedExperiencesUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperiencesUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// AppClipAdvancedExperiencesUpdateInstance performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) AppClipAdvancedExperiencesUpdateInstance(ctx context.Context, id string, body AppClipAdvancedExperiencesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewAppClipAdvancedExperiencesUpdateInstanceRequest(c.Server, id, body)
 	if err != nil {
 		return nil, err
 	}
@@ -102016,6 +104867,157 @@ func (c *Client) BackgroundAssetsVersionsGetToManyRelated(ctx context.Context, i
 	return c.Client.Do(req)
 }
 
+// BetaAppClipInvocationLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BetaAppClipInvocationLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationLocalizationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationLocalizationsCreateInstance performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BetaAppClipInvocationLocalizationsCreateInstance(ctx context.Context, body BetaAppClipInvocationLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationLocalizationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationLocalizationsDeleteInstance performs a DELETE /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsDeleteInstance` operationId) request.
+func (c *Client) BetaAppClipInvocationLocalizationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationLocalizationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationLocalizationsUpdateInstanceWithBody performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BetaAppClipInvocationLocalizationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationLocalizationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationLocalizationsUpdateInstance performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BetaAppClipInvocationLocalizationsUpdateInstance(ctx context.Context, id string, body BetaAppClipInvocationLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationLocalizationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationsCreateInstanceWithBody performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BetaAppClipInvocationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationsCreateInstanceRequestWithBody(c.Server, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationsCreateInstance performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BetaAppClipInvocationsCreateInstance(ctx context.Context, body BetaAppClipInvocationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationsDeleteInstance performs a DELETE /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsDeleteInstance` operationId) request.
+func (c *Client) BetaAppClipInvocationsDeleteInstance(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationsDeleteInstanceRequest(c.Server, id)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationsGetInstance performs a GET /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsGetInstance` operationId) request.
+func (c *Client) BetaAppClipInvocationsGetInstance(ctx context.Context, id string, params *BetaAppClipInvocationsGetInstanceParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationsGetInstanceRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationsUpdateInstanceWithBody performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+func (c *Client) BetaAppClipInvocationsUpdateInstanceWithBody(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationsUpdateInstanceRequestWithBody(c.Server, id, contentType, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BetaAppClipInvocationsUpdateInstance performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type.
+func (c *Client) BetaAppClipInvocationsUpdateInstance(ctx context.Context, id string, body BetaAppClipInvocationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBetaAppClipInvocationsUpdateInstanceRequest(c.Server, id, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
 // BetaAppLocalizationsCreateInstanceWithBody performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 func (c *Client) BetaAppLocalizationsCreateInstanceWithBody(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*http.Response, error) {
@@ -102703,6 +105705,32 @@ func (c *Client) BuildBetaNotificationsCreateInstanceWithBody(ctx context.Contex
 // Takes a body of the `application/json` content type.
 func (c *Client) BuildBetaNotificationsCreateInstance(ctx context.Context, body BuildBetaNotificationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*http.Response, error) {
 	req, err := NewBuildBetaNotificationsCreateInstanceRequest(c.Server, body)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BuildBundlesAppClipDomainCacheStatusGetToOneRelated performs a GET /v1/buildBundles/{id}/appClipDomainCacheStatus (the `BuildBundlesAppClipDomainCacheStatusGetToOneRelated` operationId) request.
+func (c *Client) BuildBundlesAppClipDomainCacheStatusGetToOneRelated(ctx context.Context, id string, params *BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBuildBundlesAppClipDomainCacheStatusGetToOneRelatedRequest(c.Server, id, params)
+	if err != nil {
+		return nil, err
+	}
+	req = req.WithContext(ctx)
+	if err := c.applyEditors(ctx, req, reqEditors); err != nil {
+		return nil, err
+	}
+	return c.Client.Do(req)
+}
+
+// BuildBundlesAppClipDomainDebugStatusGetToOneRelated performs a GET /v1/buildBundles/{id}/appClipDomainDebugStatus (the `BuildBundlesAppClipDomainDebugStatusGetToOneRelated` operationId) request.
+func (c *Client) BuildBundlesAppClipDomainDebugStatusGetToOneRelated(ctx context.Context, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*http.Response, error) {
+	req, err := NewBuildBundlesAppClipDomainDebugStatusGetToOneRelatedRequest(c.Server, id, params)
 	if err != nil {
 		return nil, err
 	}
@@ -109514,6 +112542,362 @@ func NewAppCategoriesGetCollectionRequest(server string, params *AppCategoriesGe
 	if err != nil {
 		return nil, err
 	}
+
+	return req, nil
+}
+
+// NewAppClipAdvancedExperienceImagesCreateInstanceRequest calls the generic AppClipAdvancedExperienceImagesCreateInstance builder with application/json body
+func NewAppClipAdvancedExperienceImagesCreateInstanceRequest(server string, body AppClipAdvancedExperienceImagesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppClipAdvancedExperienceImagesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppClipAdvancedExperienceImagesCreateInstanceRequestWithBody constructs an http.Request for the AppClipAdvancedExperienceImagesCreateInstance method, with any body, and a specified content type
+func NewAppClipAdvancedExperienceImagesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appClipAdvancedExperienceImages")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppClipAdvancedExperienceImagesGetInstanceRequest constructs an http.Request for the AppClipAdvancedExperienceImagesGetInstance method
+func NewAppClipAdvancedExperienceImagesGetInstanceRequest(server string, id string, params *AppClipAdvancedExperienceImagesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appClipAdvancedExperienceImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppClipAdvancedExperienceImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClipAdvancedExperienceImages]", *params.FieldsAppClipAdvancedExperienceImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppClipAdvancedExperienceImagesUpdateInstanceRequest calls the generic AppClipAdvancedExperienceImagesUpdateInstance builder with application/json body
+func NewAppClipAdvancedExperienceImagesUpdateInstanceRequest(server string, id string, body AppClipAdvancedExperienceImagesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppClipAdvancedExperienceImagesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppClipAdvancedExperienceImagesUpdateInstanceRequestWithBody constructs an http.Request for the AppClipAdvancedExperienceImagesUpdateInstance method, with any body, and a specified content type
+func NewAppClipAdvancedExperienceImagesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appClipAdvancedExperienceImages/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppClipAdvancedExperiencesCreateInstanceRequest calls the generic AppClipAdvancedExperiencesCreateInstance builder with application/json body
+func NewAppClipAdvancedExperiencesCreateInstanceRequest(server string, body AppClipAdvancedExperiencesCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppClipAdvancedExperiencesCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewAppClipAdvancedExperiencesCreateInstanceRequestWithBody constructs an http.Request for the AppClipAdvancedExperiencesCreateInstance method, with any body, and a specified content type
+func NewAppClipAdvancedExperiencesCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appClipAdvancedExperiences")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewAppClipAdvancedExperiencesGetInstanceRequest constructs an http.Request for the AppClipAdvancedExperiencesGetInstance method
+func NewAppClipAdvancedExperiencesGetInstanceRequest(server string, id string, params *AppClipAdvancedExperiencesGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appClipAdvancedExperiences/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppClipAdvancedExperiences != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClipAdvancedExperiences]", *params.FieldsAppClipAdvancedExperiences, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppClips != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClips]", *params.FieldsAppClips, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppClipAdvancedExperienceImages != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClipAdvancedExperienceImages]", *params.FieldsAppClipAdvancedExperienceImages, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsAppClipAdvancedExperienceLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClipAdvancedExperienceLocalizations]", *params.FieldsAppClipAdvancedExperienceLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[localizations]", *params.LimitLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewAppClipAdvancedExperiencesUpdateInstanceRequest calls the generic AppClipAdvancedExperiencesUpdateInstance builder with application/json body
+func NewAppClipAdvancedExperiencesUpdateInstanceRequest(server string, id string, body AppClipAdvancedExperiencesUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewAppClipAdvancedExperiencesUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewAppClipAdvancedExperiencesUpdateInstanceRequestWithBody constructs an http.Request for the AppClipAdvancedExperiencesUpdateInstance method, with any body, and a specified content type
+func NewAppClipAdvancedExperiencesUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/appClipAdvancedExperiences/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
 
 	return req, nil
 }
@@ -123028,6 +126412,345 @@ func NewBackgroundAssetsVersionsGetToManyRelatedRequest(server string, id string
 	return req, nil
 }
 
+// NewBetaAppClipInvocationLocalizationsCreateInstanceRequest calls the generic BetaAppClipInvocationLocalizationsCreateInstance builder with application/json body
+func NewBetaAppClipInvocationLocalizationsCreateInstanceRequest(server string, body BetaAppClipInvocationLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBetaAppClipInvocationLocalizationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewBetaAppClipInvocationLocalizationsCreateInstanceRequestWithBody constructs an http.Request for the BetaAppClipInvocationLocalizationsCreateInstance method, with any body, and a specified content type
+func NewBetaAppClipInvocationLocalizationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/betaAppClipInvocationLocalizations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBetaAppClipInvocationLocalizationsDeleteInstanceRequest constructs an http.Request for the BetaAppClipInvocationLocalizationsDeleteInstance method
+func NewBetaAppClipInvocationLocalizationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/betaAppClipInvocationLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBetaAppClipInvocationLocalizationsUpdateInstanceRequest calls the generic BetaAppClipInvocationLocalizationsUpdateInstance builder with application/json body
+func NewBetaAppClipInvocationLocalizationsUpdateInstanceRequest(server string, id string, body BetaAppClipInvocationLocalizationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBetaAppClipInvocationLocalizationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewBetaAppClipInvocationLocalizationsUpdateInstanceRequestWithBody constructs an http.Request for the BetaAppClipInvocationLocalizationsUpdateInstance method, with any body, and a specified content type
+func NewBetaAppClipInvocationLocalizationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/betaAppClipInvocationLocalizations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBetaAppClipInvocationsCreateInstanceRequest calls the generic BetaAppClipInvocationsCreateInstance builder with application/json body
+func NewBetaAppClipInvocationsCreateInstanceRequest(server string, body BetaAppClipInvocationsCreateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBetaAppClipInvocationsCreateInstanceRequestWithBody(server, "application/json", bodyReader)
+}
+
+// NewBetaAppClipInvocationsCreateInstanceRequestWithBody constructs an http.Request for the BetaAppClipInvocationsCreateInstance method, with any body, and a specified content type
+func NewBetaAppClipInvocationsCreateInstanceRequestWithBody(server string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/betaAppClipInvocations")
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPost, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBetaAppClipInvocationsDeleteInstanceRequest constructs an http.Request for the BetaAppClipInvocationsDeleteInstance method
+func NewBetaAppClipInvocationsDeleteInstanceRequest(server string, id string) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/betaAppClipInvocations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodDelete, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBetaAppClipInvocationsGetInstanceRequest constructs an http.Request for the BetaAppClipInvocationsGetInstance method
+func NewBetaAppClipInvocationsGetInstanceRequest(server string, id string, params *BetaAppClipInvocationsGetInstanceParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/betaAppClipInvocations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsBetaAppClipInvocations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaAppClipInvocations]", *params.FieldsBetaAppClipInvocations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.FieldsBetaAppClipInvocationLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[betaAppClipInvocationLocalizations]", *params.FieldsBetaAppClipInvocationLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.Include != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "include", *params.Include, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if params.LimitBetaAppClipInvocationLocalizations != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", true, "limit[betaAppClipInvocationLocalizations]", *params.LimitBetaAppClipInvocationLocalizations, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "integer", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBetaAppClipInvocationsUpdateInstanceRequest calls the generic BetaAppClipInvocationsUpdateInstance builder with application/json body
+func NewBetaAppClipInvocationsUpdateInstanceRequest(server string, id string, body BetaAppClipInvocationsUpdateInstanceJSONRequestBody) (*http.Request, error) {
+	var bodyReader io.Reader
+	buf, err := json.Marshal(body)
+	if err != nil {
+		return nil, err
+	}
+	bodyReader = bytes.NewReader(buf)
+	return NewBetaAppClipInvocationsUpdateInstanceRequestWithBody(server, id, "application/json", bodyReader)
+}
+
+// NewBetaAppClipInvocationsUpdateInstanceRequestWithBody constructs an http.Request for the BetaAppClipInvocationsUpdateInstance method, with any body, and a specified content type
+func NewBetaAppClipInvocationsUpdateInstanceRequestWithBody(server string, id string, contentType string, body io.Reader) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/betaAppClipInvocations/%s", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	req, err := http.NewRequest(http.MethodPatch, queryURL.String(), body)
+	if err != nil {
+		return nil, err
+	}
+
+	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
 // NewBetaAppLocalizationsCreateInstanceRequest calls the generic BetaAppLocalizationsCreateInstance builder with application/json body
 func NewBetaAppLocalizationsCreateInstanceRequest(server string, body BetaAppLocalizationsCreateInstanceJSONRequestBody) (*http.Request, error) {
 	var bodyReader io.Reader
@@ -125419,6 +129142,128 @@ func NewBuildBetaNotificationsCreateInstanceRequestWithBody(server string, conte
 	}
 
 	req.Header.Add("Content-Type", contentType)
+
+	return req, nil
+}
+
+// NewBuildBundlesAppClipDomainCacheStatusGetToOneRelatedRequest constructs an http.Request for the BuildBundlesAppClipDomainCacheStatusGetToOneRelated method
+func NewBuildBundlesAppClipDomainCacheStatusGetToOneRelatedRequest(server string, id string, params *BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/buildBundles/%s/appClipDomainCacheStatus", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppClipDomainStatuses != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClipDomainStatuses]", *params.FieldsAppClipDomainStatuses, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
+
+	return req, nil
+}
+
+// NewBuildBundlesAppClipDomainDebugStatusGetToOneRelatedRequest constructs an http.Request for the BuildBundlesAppClipDomainDebugStatusGetToOneRelated method
+func NewBuildBundlesAppClipDomainDebugStatusGetToOneRelatedRequest(server string, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams) (*http.Request, error) {
+	var err error
+
+	var pathParam0 string
+
+	pathParam0, err = runtime.StyleParamWithOptions("simple", false, "id", id, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationPath, Type: "string", Format: ""})
+	if err != nil {
+		return nil, err
+	}
+
+	serverURL, err := url.Parse(server)
+	if err != nil {
+		return nil, err
+	}
+
+	operationPath := fmt.Sprintf("/v1/buildBundles/%s/appClipDomainDebugStatus", pathParam0)
+	if operationPath[0] == '/' {
+		operationPath = "." + operationPath
+	}
+
+	queryURL, err := serverURL.Parse(operationPath)
+	if err != nil {
+		return nil, err
+	}
+
+	if params != nil {
+		// queryValues collects non-styled parameters (passthrough, JSON)
+		// that are safe to round-trip through url.Values.Encode().
+		queryValues := queryURL.Query()
+		// rawQueryFragments collects pre-encoded query fragments from
+		// styled parameters, preserving literal commas as delimiters
+		// per the OpenAPI spec (e.g. "color=blue,black,brown").
+		var rawQueryFragments []string
+
+		if params.FieldsAppClipDomainStatuses != nil {
+
+			if queryFrag, err := runtime.StyleParamWithOptions("form", false, "fields[appClipDomainStatuses]", *params.FieldsAppClipDomainStatuses, runtime.StyleParamOptions{ParamLocation: runtime.ParamLocationQuery, Type: "array", Format: ""}); err != nil {
+				return nil, err
+			} else {
+				for _, qp := range strings.Split(queryFrag, "&") {
+					rawQueryFragments = append(rawQueryFragments, qp)
+				}
+			}
+
+		}
+
+		if encoded := queryValues.Encode(); encoded != "" {
+			rawQueryFragments = append(rawQueryFragments, encoded)
+		}
+		queryURL.RawQuery = strings.Join(rawQueryFragments, "&")
+	}
+
+	req, err := http.NewRequest(http.MethodGet, queryURL.String(), nil)
+	if err != nil {
+		return nil, err
+	}
 
 	return req, nil
 }
@@ -142444,6 +146289,56 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	AppCategoriesGetCollectionWithResponse(ctx context.Context, params *AppCategoriesGetCollectionParams, reqEditors ...RequestEditorFn) (*AppCategoriesGetCollectionResponse, error)
 
+	// AppClipAdvancedExperienceImagesCreateInstanceWithBodyWithResponse performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperienceImagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesCreateInstanceResponse, error)
+
+	// AppClipAdvancedExperienceImagesCreateInstanceWithResponse performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperienceImagesCreateInstanceWithResponse(ctx context.Context, body AppClipAdvancedExperienceImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesCreateInstanceResponse, error)
+
+	// AppClipAdvancedExperienceImagesGetInstanceWithResponse performs a GET /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperienceImagesGetInstanceWithResponse(ctx context.Context, id string, params *AppClipAdvancedExperienceImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesGetInstanceResponse, error)
+
+	// AppClipAdvancedExperienceImagesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperienceImagesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesUpdateInstanceResponse, error)
+
+	// AppClipAdvancedExperienceImagesUpdateInstanceWithResponse performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperienceImagesUpdateInstanceWithResponse(ctx context.Context, id string, body AppClipAdvancedExperienceImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesUpdateInstanceResponse, error)
+
+	// AppClipAdvancedExperiencesCreateInstanceWithBodyWithResponse performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperiencesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesCreateInstanceResponse, error)
+
+	// AppClipAdvancedExperiencesCreateInstanceWithResponse performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperiencesCreateInstanceWithResponse(ctx context.Context, body AppClipAdvancedExperiencesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesCreateInstanceResponse, error)
+
+	// AppClipAdvancedExperiencesGetInstanceWithResponse performs a GET /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperiencesGetInstanceWithResponse(ctx context.Context, id string, params *AppClipAdvancedExperiencesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesGetInstanceResponse, error)
+
+	// AppClipAdvancedExperiencesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperiencesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesUpdateInstanceResponse, error)
+
+	// AppClipAdvancedExperiencesUpdateInstanceWithResponse performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	AppClipAdvancedExperiencesUpdateInstanceWithResponse(ctx context.Context, id string, body AppClipAdvancedExperiencesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesUpdateInstanceResponse, error)
+
 	// AppClipAppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appClipAppStoreReviewDetails (the `AppClipAppStoreReviewDetailsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -143499,6 +147394,61 @@ type ClientWithResponsesInterface interface {
 	// Returns a wrapper object for the known response body format(s).
 	BackgroundAssetsVersionsGetToManyRelatedWithResponse(ctx context.Context, id string, params *BackgroundAssetsVersionsGetToManyRelatedParams, reqEditors ...RequestEditorFn) (*BackgroundAssetsVersionsGetToManyRelatedResponse, error)
 
+	// BetaAppClipInvocationLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsCreateInstanceResponse, error)
+
+	// BetaAppClipInvocationLocalizationsCreateInstanceWithResponse performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationLocalizationsCreateInstanceWithResponse(ctx context.Context, body BetaAppClipInvocationLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsCreateInstanceResponse, error)
+
+	// BetaAppClipInvocationLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsDeleteInstanceResponse, error)
+
+	// BetaAppClipInvocationLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsUpdateInstanceResponse, error)
+
+	// BetaAppClipInvocationLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body BetaAppClipInvocationLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsUpdateInstanceResponse, error)
+
+	// BetaAppClipInvocationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsCreateInstanceResponse, error)
+
+	// BetaAppClipInvocationsCreateInstanceWithResponse performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationsCreateInstanceWithResponse(ctx context.Context, body BetaAppClipInvocationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsCreateInstanceResponse, error)
+
+	// BetaAppClipInvocationsDeleteInstanceWithResponse performs a DELETE /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsDeleteInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsDeleteInstanceResponse, error)
+
+	// BetaAppClipInvocationsGetInstanceWithResponse performs a GET /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsGetInstance` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationsGetInstanceWithResponse(ctx context.Context, id string, params *BetaAppClipInvocationsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsGetInstanceResponse, error)
+
+	// BetaAppClipInvocationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request,
+	// with any type of body and a specified content type.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsUpdateInstanceResponse, error)
+
+	// BetaAppClipInvocationsUpdateInstanceWithResponse performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request.
+	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+	BetaAppClipInvocationsUpdateInstanceWithResponse(ctx context.Context, id string, body BetaAppClipInvocationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsUpdateInstanceResponse, error)
+
 	// BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 	// with any type of body and a specified content type.
 	//
@@ -143753,6 +147703,16 @@ type ClientWithResponsesInterface interface {
 	// BuildBetaNotificationsCreateInstanceWithResponse performs a POST /v1/buildBetaNotifications (the `BuildBetaNotificationsCreateInstance` operationId) request.
 	// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
 	BuildBetaNotificationsCreateInstanceWithResponse(ctx context.Context, body BuildBetaNotificationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BuildBetaNotificationsCreateInstanceResponse, error)
+
+	// BuildBundlesAppClipDomainCacheStatusGetToOneRelatedWithResponse performs a GET /v1/buildBundles/{id}/appClipDomainCacheStatus (the `BuildBundlesAppClipDomainCacheStatusGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BuildBundlesAppClipDomainCacheStatusGetToOneRelatedWithResponse(ctx context.Context, id string, params *BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse, error)
+
+	// BuildBundlesAppClipDomainDebugStatusGetToOneRelatedWithResponse performs a GET /v1/buildBundles/{id}/appClipDomainDebugStatus (the `BuildBundlesAppClipDomainDebugStatusGetToOneRelated` operationId) request.
+	//
+	// Returns a wrapper object for the known response body format(s).
+	BuildBundlesAppClipDomainDebugStatusGetToOneRelatedWithResponse(ctx context.Context, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse, error)
 
 	// BuildsGetCollectionWithResponse performs a GET /v1/builds (the `BuildsGetCollection` operationId) request.
 	//
@@ -147504,6 +151464,504 @@ func (r AppCategoriesGetCollectionResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r AppCategoriesGetCollectionResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppClipAdvancedExperienceImagesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppClipAdvancedExperienceImageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetJSON201() *AppClipAdvancedExperienceImageResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppClipAdvancedExperienceImagesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppClipAdvancedExperienceImagesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppClipAdvancedExperienceImageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) GetJSON200() *AppClipAdvancedExperienceImageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppClipAdvancedExperienceImagesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppClipAdvancedExperienceImagesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppClipAdvancedExperienceImageResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON200() *AppClipAdvancedExperienceImageResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppClipAdvancedExperienceImagesUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppClipAdvancedExperiencesCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *AppClipAdvancedExperienceResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetJSON201() *AppClipAdvancedExperienceResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppClipAdvancedExperiencesCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppClipAdvancedExperiencesGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppClipAdvancedExperienceResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppClipAdvancedExperiencesGetInstanceResponse) GetJSON200() *AppClipAdvancedExperienceResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppClipAdvancedExperiencesGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppClipAdvancedExperiencesGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppClipAdvancedExperiencesGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppClipAdvancedExperiencesGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppClipAdvancedExperiencesGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppClipAdvancedExperiencesGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppClipAdvancedExperiencesGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppClipAdvancedExperiencesGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppClipAdvancedExperiencesGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type AppClipAdvancedExperiencesUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppClipAdvancedExperienceResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON200() *AppClipAdvancedExperienceResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r AppClipAdvancedExperiencesUpdateInstanceResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -159303,6 +163761,566 @@ func (r BackgroundAssetsVersionsGetToManyRelatedResponse) ContentType() string {
 	return ""
 }
 
+type BetaAppClipInvocationLocalizationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *BetaAppClipInvocationLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetJSON201() *BetaAppClipInvocationLocalizationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BetaAppClipInvocationLocalizationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BetaAppClipInvocationLocalizationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BetaAppClipInvocationLocalizationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BetaAppClipInvocationLocalizationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BetaAppClipInvocationLocalizationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON200() *BetaAppClipInvocationLocalizationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BetaAppClipInvocationLocalizationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BetaAppClipInvocationsCreateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON201 the response for an HTTP 201 `application/json` response
+	JSON201 *BetaAppClipInvocationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON201 returns the response for an HTTP 201 `application/json` response
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetJSON201() *BetaAppClipInvocationResponse {
+	return r.JSON201
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BetaAppClipInvocationsCreateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BetaAppClipInvocationsCreateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BetaAppClipInvocationsCreateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BetaAppClipInvocationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BetaAppClipInvocationsDeleteInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BetaAppClipInvocationsDeleteInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BetaAppClipInvocationsDeleteInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BetaAppClipInvocationsDeleteInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BetaAppClipInvocationsDeleteInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BetaAppClipInvocationsDeleteInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BetaAppClipInvocationsDeleteInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BetaAppClipInvocationsDeleteInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BetaAppClipInvocationsDeleteInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BetaAppClipInvocationsDeleteInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BetaAppClipInvocationsGetInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BetaAppClipInvocationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BetaAppClipInvocationsGetInstanceResponse) GetJSON200() *BetaAppClipInvocationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BetaAppClipInvocationsGetInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BetaAppClipInvocationsGetInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BetaAppClipInvocationsGetInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BetaAppClipInvocationsGetInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BetaAppClipInvocationsGetInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BetaAppClipInvocationsGetInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BetaAppClipInvocationsGetInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BetaAppClipInvocationsGetInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BetaAppClipInvocationsGetInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BetaAppClipInvocationsUpdateInstanceResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *BetaAppClipInvocationResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON409 the response for an HTTP 409 `application/json` response
+	JSON409 *ErrorResponse
+	// JSON422 the response for an HTTP 422 `application/json` response
+	JSON422 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON200() *BetaAppClipInvocationResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON409 returns the response for an HTTP 409 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON409() *ErrorResponse {
+	return r.JSON409
+}
+
+// GetJSON422 returns the response for an HTTP 422 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON422() *ErrorResponse {
+	return r.JSON422
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BetaAppClipInvocationsUpdateInstanceResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BetaAppClipInvocationsUpdateInstanceResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BetaAppClipInvocationsUpdateInstanceResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BetaAppClipInvocationsUpdateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
 type BetaAppLocalizationsCreateInstanceResponse struct {
 	Body         []byte
 	HTTPResponse *http.Response
@@ -161972,6 +166990,158 @@ func (r BuildBetaNotificationsCreateInstanceResponse) StatusCode() int {
 
 // ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
 func (r BuildBetaNotificationsCreateInstanceResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppClipDomainStatusResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) GetJSON200() *AppClipDomainStatusResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse) ContentType() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Header.Get("Content-Type")
+	}
+	return ""
+}
+
+type BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse struct {
+	Body         []byte
+	HTTPResponse *http.Response
+	// JSON200 the response for an HTTP 200 `application/json` response
+	JSON200 *AppClipDomainStatusResponse
+	// JSON400 the response for an HTTP 400 `application/json` response
+	JSON400 *ErrorResponse
+	// JSON401 the response for an HTTP 401 `application/json` response
+	JSON401 *ErrorResponse
+	// JSON403 the response for an HTTP 403 `application/json` response
+	JSON403 *ErrorResponse
+	// JSON404 the response for an HTTP 404 `application/json` response
+	JSON404 *ErrorResponse
+	// JSON429 the response for an HTTP 429 `application/json` response
+	JSON429 *ErrorResponse
+}
+
+// GetJSON200 returns the response for an HTTP 200 `application/json` response
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) GetJSON200() *AppClipDomainStatusResponse {
+	return r.JSON200
+}
+
+// GetJSON400 returns the response for an HTTP 400 `application/json` response
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) GetJSON400() *ErrorResponse {
+	return r.JSON400
+}
+
+// GetJSON401 returns the response for an HTTP 401 `application/json` response
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) GetJSON401() *ErrorResponse {
+	return r.JSON401
+}
+
+// GetJSON403 returns the response for an HTTP 403 `application/json` response
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) GetJSON403() *ErrorResponse {
+	return r.JSON403
+}
+
+// GetJSON404 returns the response for an HTTP 404 `application/json` response
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) GetJSON404() *ErrorResponse {
+	return r.JSON404
+}
+
+// GetJSON429 returns the response for an HTTP 429 `application/json` response
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) GetJSON429() *ErrorResponse {
+	return r.JSON429
+}
+
+// GetBody returns the raw response body bytes
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) GetBody() []byte {
+	return r.Body
+}
+
+// Status returns HTTPResponse.Status
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) Status() string {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.Status
+	}
+	return http.StatusText(0)
+}
+
+// StatusCode returns HTTPResponse.StatusCode
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) StatusCode() int {
+	if r.HTTPResponse != nil {
+		return r.HTTPResponse.StatusCode
+	}
+	return 0
+}
+
+// ContentType is a convenience method to retrieve the Content-Type value from the HTTP response headers
+func (r BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse) ContentType() string {
 	if r.HTTPResponse != nil {
 		return r.HTTPResponse.Header.Get("Content-Type")
 	}
@@ -180237,6 +185407,116 @@ func (c *ClientWithResponses) AppCategoriesGetCollectionWithResponse(ctx context
 	return ParseAppCategoriesGetCollectionResponse(rsp)
 }
 
+// AppClipAdvancedExperienceImagesCreateInstanceWithBodyWithResponse performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperienceImagesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesCreateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperienceImagesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperienceImagesCreateInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperienceImagesCreateInstanceWithResponse performs a POST /v1/appClipAdvancedExperienceImages (the `AppClipAdvancedExperienceImagesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperienceImagesCreateInstanceWithResponse(ctx context.Context, body AppClipAdvancedExperienceImagesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesCreateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperienceImagesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperienceImagesCreateInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperienceImagesGetInstanceWithResponse performs a GET /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperienceImagesGetInstanceWithResponse(ctx context.Context, id string, params *AppClipAdvancedExperienceImagesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesGetInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperienceImagesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperienceImagesGetInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperienceImagesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperienceImagesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesUpdateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperienceImagesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperienceImagesUpdateInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperienceImagesUpdateInstanceWithResponse performs a PATCH /v1/appClipAdvancedExperienceImages/{id} (the `AppClipAdvancedExperienceImagesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperienceImagesUpdateInstanceWithResponse(ctx context.Context, id string, body AppClipAdvancedExperienceImagesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperienceImagesUpdateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperienceImagesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperienceImagesUpdateInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperiencesCreateInstanceWithBodyWithResponse performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperiencesCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesCreateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperiencesCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperiencesCreateInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperiencesCreateInstanceWithResponse performs a POST /v1/appClipAdvancedExperiences (the `AppClipAdvancedExperiencesCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperiencesCreateInstanceWithResponse(ctx context.Context, body AppClipAdvancedExperiencesCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesCreateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperiencesCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperiencesCreateInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperiencesGetInstanceWithResponse performs a GET /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperiencesGetInstanceWithResponse(ctx context.Context, id string, params *AppClipAdvancedExperiencesGetInstanceParams, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesGetInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperiencesGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperiencesGetInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperiencesUpdateInstanceWithBodyWithResponse performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperiencesUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesUpdateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperiencesUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperiencesUpdateInstanceResponse(rsp)
+}
+
+// AppClipAdvancedExperiencesUpdateInstanceWithResponse performs a PATCH /v1/appClipAdvancedExperiences/{id} (the `AppClipAdvancedExperiencesUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) AppClipAdvancedExperiencesUpdateInstanceWithResponse(ctx context.Context, id string, body AppClipAdvancedExperiencesUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*AppClipAdvancedExperiencesUpdateInstanceResponse, error) {
+	rsp, err := c.AppClipAdvancedExperiencesUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseAppClipAdvancedExperiencesUpdateInstanceResponse(rsp)
+}
+
 // AppClipAppStoreReviewDetailsCreateInstanceWithBodyWithResponse performs a POST /v1/appClipAppStoreReviewDetails (the `AppClipAppStoreReviewDetailsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -182558,6 +187838,127 @@ func (c *ClientWithResponses) BackgroundAssetsVersionsGetToManyRelatedWithRespon
 	return ParseBackgroundAssetsVersionsGetToManyRelatedResponse(rsp)
 }
 
+// BetaAppClipInvocationLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationLocalizationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationLocalizationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationLocalizationsCreateInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationLocalizationsCreateInstanceWithResponse performs a POST /v1/betaAppClipInvocationLocalizations (the `BetaAppClipInvocationLocalizationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationLocalizationsCreateInstanceWithResponse(ctx context.Context, body BetaAppClipInvocationLocalizationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsCreateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationLocalizationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationLocalizationsCreateInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationLocalizationsDeleteInstanceWithResponse performs a DELETE /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationLocalizationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsDeleteInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationLocalizationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationLocalizationsDeleteInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationLocalizationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationLocalizationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationLocalizationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationLocalizationsUpdateInstanceWithResponse performs a PATCH /v1/betaAppClipInvocationLocalizations/{id} (the `BetaAppClipInvocationLocalizationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationLocalizationsUpdateInstanceWithResponse(ctx context.Context, id string, body BetaAppClipInvocationLocalizationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationLocalizationsUpdateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationLocalizationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationLocalizationsUpdateInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationsCreateInstanceWithBodyWithResponse(ctx context.Context, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsCreateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationsCreateInstanceWithBody(ctx, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationsCreateInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationsCreateInstanceWithResponse performs a POST /v1/betaAppClipInvocations (the `BetaAppClipInvocationsCreateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationsCreateInstanceWithResponse(ctx context.Context, body BetaAppClipInvocationsCreateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsCreateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationsCreateInstance(ctx, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationsCreateInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationsDeleteInstanceWithResponse performs a DELETE /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsDeleteInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationsDeleteInstanceWithResponse(ctx context.Context, id string, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsDeleteInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationsDeleteInstance(ctx, id, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationsDeleteInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationsGetInstanceWithResponse performs a GET /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsGetInstance` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationsGetInstanceWithResponse(ctx context.Context, id string, params *BetaAppClipInvocationsGetInstanceParams, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsGetInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationsGetInstance(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationsGetInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationsUpdateInstanceWithBodyWithResponse performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request,
+// with any type of body and a specified content type.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationsUpdateInstanceWithBodyWithResponse(ctx context.Context, id string, contentType string, body io.Reader, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsUpdateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationsUpdateInstanceWithBody(ctx, id, contentType, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationsUpdateInstanceResponse(rsp)
+}
+
+// BetaAppClipInvocationsUpdateInstanceWithResponse performs a PATCH /v1/betaAppClipInvocations/{id} (the `BetaAppClipInvocationsUpdateInstance` operationId) request.
+// Takes a body of the `application/json` content type, and returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BetaAppClipInvocationsUpdateInstanceWithResponse(ctx context.Context, id string, body BetaAppClipInvocationsUpdateInstanceJSONRequestBody, reqEditors ...RequestEditorFn) (*BetaAppClipInvocationsUpdateInstanceResponse, error) {
+	rsp, err := c.BetaAppClipInvocationsUpdateInstance(ctx, id, body, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBetaAppClipInvocationsUpdateInstanceResponse(rsp)
+}
+
 // BetaAppLocalizationsCreateInstanceWithBodyWithResponse performs a POST /v1/betaAppLocalizations (the `BetaAppLocalizationsCreateInstance` operationId) request,
 // with any type of body and a specified content type.
 //
@@ -183117,6 +188518,28 @@ func (c *ClientWithResponses) BuildBetaNotificationsCreateInstanceWithResponse(c
 		return nil, err
 	}
 	return ParseBuildBetaNotificationsCreateInstanceResponse(rsp)
+}
+
+// BuildBundlesAppClipDomainCacheStatusGetToOneRelatedWithResponse performs a GET /v1/buildBundles/{id}/appClipDomainCacheStatus (the `BuildBundlesAppClipDomainCacheStatusGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BuildBundlesAppClipDomainCacheStatusGetToOneRelatedWithResponse(ctx context.Context, id string, params *BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse, error) {
+	rsp, err := c.BuildBundlesAppClipDomainCacheStatusGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse(rsp)
+}
+
+// BuildBundlesAppClipDomainDebugStatusGetToOneRelatedWithResponse performs a GET /v1/buildBundles/{id}/appClipDomainDebugStatus (the `BuildBundlesAppClipDomainDebugStatusGetToOneRelated` operationId) request.
+//
+// Returns a wrapper object for the known response body format(s).
+func (c *ClientWithResponses) BuildBundlesAppClipDomainDebugStatusGetToOneRelatedWithResponse(ctx context.Context, id string, params *BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams, reqEditors ...RequestEditorFn) (*BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse, error) {
+	rsp, err := c.BuildBundlesAppClipDomainDebugStatusGetToOneRelated(ctx, id, params, reqEditors...)
+	if err != nil {
+		return nil, err
+	}
+	return ParseBuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse(rsp)
 }
 
 // BuildsGetCollectionWithResponse performs a GET /v1/builds (the `BuildsGetCollection` operationId) request.
@@ -188439,6 +193862,414 @@ func ParseAppCategoriesGetCollectionResponse(rsp *http.Response) (*AppCategories
 			return nil, err
 		}
 		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppClipAdvancedExperienceImagesCreateInstanceResponse parses an HTTP response from a AppClipAdvancedExperienceImagesCreateInstanceWithResponse call
+func ParseAppClipAdvancedExperienceImagesCreateInstanceResponse(rsp *http.Response) (*AppClipAdvancedExperienceImagesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppClipAdvancedExperienceImagesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppClipAdvancedExperienceImageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppClipAdvancedExperienceImagesGetInstanceResponse parses an HTTP response from a AppClipAdvancedExperienceImagesGetInstanceWithResponse call
+func ParseAppClipAdvancedExperienceImagesGetInstanceResponse(rsp *http.Response) (*AppClipAdvancedExperienceImagesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppClipAdvancedExperienceImagesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppClipAdvancedExperienceImageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppClipAdvancedExperienceImagesUpdateInstanceResponse parses an HTTP response from a AppClipAdvancedExperienceImagesUpdateInstanceWithResponse call
+func ParseAppClipAdvancedExperienceImagesUpdateInstanceResponse(rsp *http.Response) (*AppClipAdvancedExperienceImagesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppClipAdvancedExperienceImagesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppClipAdvancedExperienceImageResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppClipAdvancedExperiencesCreateInstanceResponse parses an HTTP response from a AppClipAdvancedExperiencesCreateInstanceWithResponse call
+func ParseAppClipAdvancedExperiencesCreateInstanceResponse(rsp *http.Response) (*AppClipAdvancedExperiencesCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppClipAdvancedExperiencesCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest AppClipAdvancedExperienceResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppClipAdvancedExperiencesGetInstanceResponse parses an HTTP response from a AppClipAdvancedExperiencesGetInstanceWithResponse call
+func ParseAppClipAdvancedExperiencesGetInstanceResponse(rsp *http.Response) (*AppClipAdvancedExperiencesGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppClipAdvancedExperiencesGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppClipAdvancedExperienceResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseAppClipAdvancedExperiencesUpdateInstanceResponse parses an HTTP response from a AppClipAdvancedExperiencesUpdateInstanceWithResponse call
+func ParseAppClipAdvancedExperiencesUpdateInstanceResponse(rsp *http.Response) (*AppClipAdvancedExperiencesUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &AppClipAdvancedExperiencesUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppClipAdvancedExperienceResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -198097,6 +203928,467 @@ func ParseBackgroundAssetsVersionsGetToManyRelatedResponse(rsp *http.Response) (
 	return response, nil
 }
 
+// ParseBetaAppClipInvocationLocalizationsCreateInstanceResponse parses an HTTP response from a BetaAppClipInvocationLocalizationsCreateInstanceWithResponse call
+func ParseBetaAppClipInvocationLocalizationsCreateInstanceResponse(rsp *http.Response) (*BetaAppClipInvocationLocalizationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BetaAppClipInvocationLocalizationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest BetaAppClipInvocationLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBetaAppClipInvocationLocalizationsDeleteInstanceResponse parses an HTTP response from a BetaAppClipInvocationLocalizationsDeleteInstanceWithResponse call
+func ParseBetaAppClipInvocationLocalizationsDeleteInstanceResponse(rsp *http.Response) (*BetaAppClipInvocationLocalizationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BetaAppClipInvocationLocalizationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBetaAppClipInvocationLocalizationsUpdateInstanceResponse parses an HTTP response from a BetaAppClipInvocationLocalizationsUpdateInstanceWithResponse call
+func ParseBetaAppClipInvocationLocalizationsUpdateInstanceResponse(rsp *http.Response) (*BetaAppClipInvocationLocalizationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BetaAppClipInvocationLocalizationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BetaAppClipInvocationLocalizationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBetaAppClipInvocationsCreateInstanceResponse parses an HTTP response from a BetaAppClipInvocationsCreateInstanceWithResponse call
+func ParseBetaAppClipInvocationsCreateInstanceResponse(rsp *http.Response) (*BetaAppClipInvocationsCreateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BetaAppClipInvocationsCreateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 201:
+		var dest BetaAppClipInvocationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON201 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBetaAppClipInvocationsDeleteInstanceResponse parses an HTTP response from a BetaAppClipInvocationsDeleteInstanceWithResponse call
+func ParseBetaAppClipInvocationsDeleteInstanceResponse(rsp *http.Response) (*BetaAppClipInvocationsDeleteInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BetaAppClipInvocationsDeleteInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case rsp.StatusCode == 204:
+		break // No content-type
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBetaAppClipInvocationsGetInstanceResponse parses an HTTP response from a BetaAppClipInvocationsGetInstanceWithResponse call
+func ParseBetaAppClipInvocationsGetInstanceResponse(rsp *http.Response) (*BetaAppClipInvocationsGetInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BetaAppClipInvocationsGetInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BetaAppClipInvocationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBetaAppClipInvocationsUpdateInstanceResponse parses an HTTP response from a BetaAppClipInvocationsUpdateInstanceWithResponse call
+func ParseBetaAppClipInvocationsUpdateInstanceResponse(rsp *http.Response) (*BetaAppClipInvocationsUpdateInstanceResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BetaAppClipInvocationsUpdateInstanceResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest BetaAppClipInvocationResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 409:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON409 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 422:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
 // ParseBetaAppLocalizationsCreateInstanceResponse parses an HTTP response from a BetaAppLocalizationsCreateInstanceWithResponse call
 func ParseBetaAppLocalizationsCreateInstanceResponse(rsp *http.Response) (*BetaAppLocalizationsCreateInstanceResponse, error) {
 	bodyBytes, err := io.ReadAll(rsp.Body)
@@ -200273,6 +206565,128 @@ func ParseBuildBetaNotificationsCreateInstanceResponse(rsp *http.Response) (*Bui
 			return nil, err
 		}
 		response.JSON422 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse parses an HTTP response from a BuildBundlesAppClipDomainCacheStatusGetToOneRelatedWithResponse call
+func ParseBuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse(rsp *http.Response) (*BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BuildBundlesAppClipDomainCacheStatusGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppClipDomainStatusResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON429 = &dest
+
+	}
+
+	return response, nil
+}
+
+// ParseBuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse parses an HTTP response from a BuildBundlesAppClipDomainDebugStatusGetToOneRelatedWithResponse call
+func ParseBuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse(rsp *http.Response) (*BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse, error) {
+	bodyBytes, err := io.ReadAll(rsp.Body)
+	defer func() { _ = rsp.Body.Close() }()
+	if err != nil {
+		return nil, err
+	}
+
+	response := &BuildBundlesAppClipDomainDebugStatusGetToOneRelatedResponse{
+		Body:         bodyBytes,
+		HTTPResponse: rsp,
+	}
+
+	switch {
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 200:
+		var dest AppClipDomainStatusResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON200 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 400:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON400 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 401:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON401 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 403:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON403 = &dest
+
+	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 404:
+		var dest ErrorResponse
+		if err := json.Unmarshal(bodyBytes, &dest); err != nil {
+			return nil, err
+		}
+		response.JSON404 = &dest
 
 	case strings.Contains(rsp.Header.Get("Content-Type"), "json") && rsp.StatusCode == 429:
 		var dest ErrorResponse
@@ -214965,6 +221379,24 @@ type ServerInterface interface {
 	// (GET /v1/appCategories)
 	AppCategoriesGetCollection(w http.ResponseWriter, r *http.Request, params AppCategoriesGetCollectionParams)
 
+	// (POST /v1/appClipAdvancedExperienceImages)
+	AppClipAdvancedExperienceImagesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/appClipAdvancedExperienceImages/{id})
+	AppClipAdvancedExperienceImagesGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppClipAdvancedExperienceImagesGetInstanceParams)
+
+	// (PATCH /v1/appClipAdvancedExperienceImages/{id})
+	AppClipAdvancedExperienceImagesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/appClipAdvancedExperiences)
+	AppClipAdvancedExperiencesCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/appClipAdvancedExperiences/{id})
+	AppClipAdvancedExperiencesGetInstance(w http.ResponseWriter, r *http.Request, id string, params AppClipAdvancedExperiencesGetInstanceParams)
+
+	// (PATCH /v1/appClipAdvancedExperiences/{id})
+	AppClipAdvancedExperiencesUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (POST /v1/appClipAppStoreReviewDetails)
 	AppClipAppStoreReviewDetailsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -215412,6 +221844,27 @@ type ServerInterface interface {
 	// (GET /v1/backgroundAssets/{id}/versions)
 	BackgroundAssetsVersionsGetToManyRelated(w http.ResponseWriter, r *http.Request, id string, params BackgroundAssetsVersionsGetToManyRelatedParams)
 
+	// (POST /v1/betaAppClipInvocationLocalizations)
+	BetaAppClipInvocationLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/betaAppClipInvocationLocalizations/{id})
+	BetaAppClipInvocationLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (PATCH /v1/betaAppClipInvocationLocalizations/{id})
+	BetaAppClipInvocationLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (POST /v1/betaAppClipInvocations)
+	BetaAppClipInvocationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (DELETE /v1/betaAppClipInvocations/{id})
+	BetaAppClipInvocationsDeleteInstance(w http.ResponseWriter, r *http.Request, id string)
+
+	// (GET /v1/betaAppClipInvocations/{id})
+	BetaAppClipInvocationsGetInstance(w http.ResponseWriter, r *http.Request, id string, params BetaAppClipInvocationsGetInstanceParams)
+
+	// (PATCH /v1/betaAppClipInvocations/{id})
+	BetaAppClipInvocationsUpdateInstance(w http.ResponseWriter, r *http.Request, id string)
+
 	// (POST /v1/betaAppLocalizations)
 	BetaAppLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request)
 
@@ -215513,6 +221966,12 @@ type ServerInterface interface {
 
 	// (POST /v1/buildBetaNotifications)
 	BuildBetaNotificationsCreateInstance(w http.ResponseWriter, r *http.Request)
+
+	// (GET /v1/buildBundles/{id}/appClipDomainCacheStatus)
+	BuildBundlesAppClipDomainCacheStatusGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams)
+
+	// (GET /v1/buildBundles/{id}/appClipDomainDebugStatus)
+	BuildBundlesAppClipDomainDebugStatusGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, params BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams)
 
 	// (GET /v1/builds)
 	BuildsGetCollection(w http.ResponseWriter, r *http.Request, params BuildsGetCollectionParams)
@@ -218092,6 +224551,235 @@ func (siw *ServerInterfaceWrapper) AppCategoriesGetCollection(w http.ResponseWri
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.AppCategoriesGetCollection(w, r, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppClipAdvancedExperienceImagesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppClipAdvancedExperienceImagesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppClipAdvancedExperienceImagesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppClipAdvancedExperienceImagesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppClipAdvancedExperienceImagesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppClipAdvancedExperienceImagesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appClipAdvancedExperienceImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appClipAdvancedExperienceImages]", r.URL.Query(), &params.FieldsAppClipAdvancedExperienceImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appClipAdvancedExperienceImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appClipAdvancedExperienceImages]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppClipAdvancedExperienceImagesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppClipAdvancedExperienceImagesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppClipAdvancedExperienceImagesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppClipAdvancedExperienceImagesUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppClipAdvancedExperiencesCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppClipAdvancedExperiencesCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppClipAdvancedExperiencesCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppClipAdvancedExperiencesGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppClipAdvancedExperiencesGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params AppClipAdvancedExperiencesGetInstanceParams
+
+	// ------------- Optional query parameter "fields[appClipAdvancedExperiences]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appClipAdvancedExperiences]", r.URL.Query(), &params.FieldsAppClipAdvancedExperiences, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appClipAdvancedExperiences]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appClipAdvancedExperiences]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appClips]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appClips]", r.URL.Query(), &params.FieldsAppClips, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appClips]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appClips]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appClipAdvancedExperienceImages]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appClipAdvancedExperienceImages]", r.URL.Query(), &params.FieldsAppClipAdvancedExperienceImages, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appClipAdvancedExperienceImages]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appClipAdvancedExperienceImages]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[appClipAdvancedExperienceLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appClipAdvancedExperienceLocalizations]", r.URL.Query(), &params.FieldsAppClipAdvancedExperienceLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appClipAdvancedExperienceLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appClipAdvancedExperienceLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[localizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[localizations]", r.URL.Query(), &params.LimitLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[localizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[localizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppClipAdvancedExperiencesGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// AppClipAdvancedExperiencesUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) AppClipAdvancedExperiencesUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.AppClipAdvancedExperiencesUpdateInstance(w, r, id)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -229219,6 +235907,219 @@ func (siw *ServerInterfaceWrapper) BackgroundAssetsVersionsGetToManyRelated(w ht
 	handler.ServeHTTP(w, r)
 }
 
+// BetaAppClipInvocationLocalizationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BetaAppClipInvocationLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BetaAppClipInvocationLocalizationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BetaAppClipInvocationLocalizationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) BetaAppClipInvocationLocalizationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BetaAppClipInvocationLocalizationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BetaAppClipInvocationLocalizationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BetaAppClipInvocationLocalizationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BetaAppClipInvocationLocalizationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BetaAppClipInvocationsCreateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BetaAppClipInvocationsCreateInstance(w http.ResponseWriter, r *http.Request) {
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BetaAppClipInvocationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BetaAppClipInvocationsDeleteInstance operation middleware
+func (siw *ServerInterfaceWrapper) BetaAppClipInvocationsDeleteInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BetaAppClipInvocationsDeleteInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BetaAppClipInvocationsGetInstance operation middleware
+func (siw *ServerInterfaceWrapper) BetaAppClipInvocationsGetInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BetaAppClipInvocationsGetInstanceParams
+
+	// ------------- Optional query parameter "fields[betaAppClipInvocations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaAppClipInvocations]", r.URL.Query(), &params.FieldsBetaAppClipInvocations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaAppClipInvocations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaAppClipInvocations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "fields[betaAppClipInvocationLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[betaAppClipInvocationLocalizations]", r.URL.Query(), &params.FieldsBetaAppClipInvocationLocalizations, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[betaAppClipInvocationLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[betaAppClipInvocationLocalizations]", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "include" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "include", r.URL.Query(), &params.Include, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "include"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "include", Err: err})
+		}
+		return
+	}
+
+	// ------------- Optional query parameter "limit[betaAppClipInvocationLocalizations]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", true, false, "limit[betaAppClipInvocationLocalizations]", r.URL.Query(), &params.LimitBetaAppClipInvocationLocalizations, runtime.BindQueryParameterOptions{Type: "integer", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "limit[betaAppClipInvocationLocalizations]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "limit[betaAppClipInvocationLocalizations]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BetaAppClipInvocationsGetInstance(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BetaAppClipInvocationsUpdateInstance operation middleware
+func (siw *ServerInterfaceWrapper) BetaAppClipInvocationsUpdateInstance(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BetaAppClipInvocationsUpdateInstance(w, r, id)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
 // BetaAppLocalizationsCreateInstance operation middleware
 func (siw *ServerInterfaceWrapper) BetaAppLocalizationsCreateInstance(w http.ResponseWriter, r *http.Request) {
 
@@ -230994,6 +237895,90 @@ func (siw *ServerInterfaceWrapper) BuildBetaNotificationsCreateInstance(w http.R
 
 	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		siw.Handler.BuildBetaNotificationsCreateInstance(w, r)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BuildBundlesAppClipDomainCacheStatusGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) BuildBundlesAppClipDomainCacheStatusGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BuildBundlesAppClipDomainCacheStatusGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[appClipDomainStatuses]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appClipDomainStatuses]", r.URL.Query(), &params.FieldsAppClipDomainStatuses, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appClipDomainStatuses]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appClipDomainStatuses]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BuildBundlesAppClipDomainCacheStatusGetToOneRelated(w, r, id, params)
+	}))
+
+	for _, middleware := range siw.HandlerMiddlewares {
+		handler = middleware(handler)
+	}
+
+	handler.ServeHTTP(w, r)
+}
+
+// BuildBundlesAppClipDomainDebugStatusGetToOneRelated operation middleware
+func (siw *ServerInterfaceWrapper) BuildBundlesAppClipDomainDebugStatusGetToOneRelated(w http.ResponseWriter, r *http.Request) {
+
+	var err error
+	_ = err
+
+	// ------------- Path parameter "id" -------------
+	var id string
+
+	err = runtime.BindStyledParameterWithOptions("simple", "id", r.PathValue("id"), &id, runtime.BindStyledParameterOptions{ParamLocation: runtime.ParamLocationPath, Explode: false, Required: true, Type: "string", Format: "", ValueIsUnescaped: true})
+	if err != nil {
+		siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "id", Err: err})
+		return
+	}
+
+	// Parameter object where we will unmarshal all parameters from the context
+	var params BuildBundlesAppClipDomainDebugStatusGetToOneRelatedParams
+
+	// ------------- Optional query parameter "fields[appClipDomainStatuses]" -------------
+
+	err = runtime.BindQueryParameterWithOptions("form", false, false, "fields[appClipDomainStatuses]", r.URL.Query(), &params.FieldsAppClipDomainStatuses, runtime.BindQueryParameterOptions{Type: "array", Format: ""})
+	if err != nil {
+		var requiredError *runtime.RequiredParameterError
+		if errors.As(err, &requiredError) {
+			siw.ErrorHandlerFunc(w, r, &RequiredParamError{ParamName: "fields[appClipDomainStatuses]"})
+		} else {
+			siw.ErrorHandlerFunc(w, r, &InvalidParamFormatError{ParamName: "fields[appClipDomainStatuses]", Err: err})
+		}
+		return
+	}
+
+	handler := http.Handler(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		siw.Handler.BuildBundlesAppClipDomainDebugStatusGetToOneRelated(w, r, id, params)
 	}))
 
 	for _, middleware := range siw.HandlerMiddlewares {
@@ -244040,6 +251025,12 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}", wrapper.AppAssetLibraryVideosUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appAssetLibraryVideos/{id}/placements", wrapper.AppAssetLibraryVideosPlacementsGetToManyRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appCategories", wrapper.AppCategoriesGetCollection)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appClipAdvancedExperienceImages", wrapper.AppClipAdvancedExperienceImagesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appClipAdvancedExperienceImages/{id}", wrapper.AppClipAdvancedExperienceImagesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appClipAdvancedExperienceImages/{id}", wrapper.AppClipAdvancedExperienceImagesUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appClipAdvancedExperiences", wrapper.AppClipAdvancedExperiencesCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appClipAdvancedExperiences/{id}", wrapper.AppClipAdvancedExperiencesGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appClipAdvancedExperiences/{id}", wrapper.AppClipAdvancedExperiencesUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/appClipAppStoreReviewDetails", wrapper.AppClipAppStoreReviewDetailsCreateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/appClipAppStoreReviewDetails/{id}", wrapper.AppClipAppStoreReviewDetailsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/appClipAppStoreReviewDetails/{id}", wrapper.AppClipAppStoreReviewDetailsUpdateInstance)
@@ -244189,6 +251180,13 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssets/{id}", wrapper.BackgroundAssetsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/backgroundAssets/{id}", wrapper.BackgroundAssetsUpdateInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/backgroundAssets/{id}/versions", wrapper.BackgroundAssetsVersionsGetToManyRelated)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppClipInvocationLocalizations", wrapper.BetaAppClipInvocationLocalizationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppClipInvocationLocalizations/{id}", wrapper.BetaAppClipInvocationLocalizationsDeleteInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/betaAppClipInvocationLocalizations/{id}", wrapper.BetaAppClipInvocationLocalizationsUpdateInstance)
+	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppClipInvocations", wrapper.BetaAppClipInvocationsCreateInstance)
+	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppClipInvocations/{id}", wrapper.BetaAppClipInvocationsDeleteInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppClipInvocations/{id}", wrapper.BetaAppClipInvocationsGetInstance)
+	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/betaAppClipInvocations/{id}", wrapper.BetaAppClipInvocationsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/betaAppLocalizations", wrapper.BetaAppLocalizationsCreateInstance)
 	m.HandleFunc(http.MethodDelete+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsDeleteInstance)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/betaAppLocalizations/{id}", wrapper.BetaAppLocalizationsGetInstance)
@@ -244223,6 +251221,8 @@ func HandlerWithOptions(si ServerInterface, options StdHTTPServerOptions) http.H
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBetaDetails", wrapper.BuildBetaDetailsGetCollection)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/buildBetaDetails/{id}", wrapper.BuildBetaDetailsUpdateInstance)
 	m.HandleFunc(http.MethodPost+" "+options.BaseURL+"/v1/buildBetaNotifications", wrapper.BuildBetaNotificationsCreateInstance)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBundles/{id}/appClipDomainCacheStatus", wrapper.BuildBundlesAppClipDomainCacheStatusGetToOneRelated)
+	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/buildBundles/{id}/appClipDomainDebugStatus", wrapper.BuildBundlesAppClipDomainDebugStatusGetToOneRelated)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/builds", wrapper.BuildsGetCollection)
 	m.HandleFunc(http.MethodGet+" "+options.BaseURL+"/v1/builds/{id}", wrapper.BuildsGetInstance)
 	m.HandleFunc(http.MethodPatch+" "+options.BaseURL+"/v1/builds/{id}", wrapper.BuildsUpdateInstance)

@@ -89,6 +89,7 @@ type Server struct {
 	pages       *productPagesState
 	experiments *experimentsState
 	clips       *appClipsState
+	advanced    *advancedClipsState
 
 	failNext map[string][]int
 	requests []string
@@ -141,6 +142,7 @@ func NewServer() *Server {
 		pages:        newProductPagesState(),
 		experiments:  newExperimentsState(),
 		clips:        newAppClipsState(),
+		advanced:     newAdvancedClipsState(),
 		failNext:     map[string][]int{},
 	}
 	handler := gen.HandlerWithOptions(s, gen.StdHTTPServerOptions{

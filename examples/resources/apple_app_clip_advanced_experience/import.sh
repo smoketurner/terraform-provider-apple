@@ -1,0 +1,1 @@
+terraform import apple_app_clip_advanced_experience.cafe 5a7c9e1b-3d2f-4b6a-8c0e-1f2a3b4c5d6e

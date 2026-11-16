@@ -10,10 +10,13 @@ import (
 )
 
 // buildIncludes are the relationships a build response can include.
-type buildIncludes struct{ app, preRelease, detail bool }
+type buildIncludes struct{ app, preRelease, detail, bundles bool }
 
 func buildIncludesOf[T ~string](include *[]T) buildIncludes {
-	return buildIncludes{app: includes(include, "app"), preRelease: includes(include, "preReleaseVersion"), detail: includes(include, "buildBetaDetail")}
+	return buildIncludes{
+		app: includes(include, "app"), preRelease: includes(include, "preReleaseVersion"), detail: includes(include, "buildBetaDetail"),
+		bundles: includes(include, "buildBundles"),
+	}
 }
 
 // renderBuild returns the build with the requested relationships, and the
@@ -39,6 +42,14 @@ func (s *Server) renderBuild(r *http.Request, b *build, inc buildIncludes) (gen.
 		d.Id, d.Type = b.detail.Id, "buildBetaDetails"
 		included = append(included, b.detail)
 	}
+	if inc.bundles {
+		data := alloc(&alloc(&alloc(&out.Relationships).BuildBundles).Data)
+		for _, id := range s.advanced.buildBundles[b.Id] {
+			d := push(data)
+			d.Id, d.Type = id, "buildBundles"
+			included = append(included, *s.advanced.bundles[id])
+		}
+	}
 	return out, included
 }
 
@@ -58,6 +69,8 @@ func includedItems[I any](objects []any, from func(*I, any) error) *[]I {
 
 func buildIncluded(item *gen.BuildResponse_Included_Item, o any) error {
 	switch v := o.(type) {
+	case gen.BuildBundle:
+		return item.FromBuildBundle(v)
 	case gen.PrereleaseVersion:
 		return item.FromPrereleaseVersion(v)
 	case gen.BuildBetaDetail:
@@ -68,6 +81,8 @@ func buildIncluded(item *gen.BuildResponse_Included_Item, o any) error {
 
 func buildsIncluded(item *gen.BuildsResponse_Included_Item, o any) error {
 	switch v := o.(type) {
+	case gen.BuildBundle:
+		return item.FromBuildBundle(v)
 	case gen.PrereleaseVersion:
 		return item.FromPrereleaseVersion(v)
 	case gen.BuildBetaDetail:
@@ -102,6 +117,8 @@ func (s *Server) BuildsGetCollection(w http.ResponseWriter, r *http.Request, par
 				id = "v" + v.Id
 			case gen.BuildBetaDetail:
 				id = "d" + v.Id
+			case gen.BuildBundle:
+				id = "b" + v.Id
 			}
 			if !seen[id] {
 				seen[id] = true

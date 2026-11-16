@@ -90,12 +90,12 @@ operations:
   appCategories_parent_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appCategories_subcategories_getToManyRelated: {status: out_of_scope, reason: "data.apple_app_categories lists every category with its parent"}
   appCategories_subcategories_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  appClipAdvancedExperienceImages_createInstance: {status: planned, issue: 12}
-  appClipAdvancedExperienceImages_getInstance: {status: planned, issue: 12}
-  appClipAdvancedExperienceImages_updateInstance: {status: planned, issue: 12}
-  appClipAdvancedExperiences_createInstance: {status: planned, issue: 12}
-  appClipAdvancedExperiences_getInstance: {status: planned, issue: 12}
-  appClipAdvancedExperiences_updateInstance: {status: planned, issue: 12}
+  appClipAdvancedExperienceImages_createInstance: {status: covered, by: [apple_app_clip_advanced_experience]}
+  appClipAdvancedExperienceImages_getInstance: {status: covered, by: [apple_app_clip_advanced_experience]}
+  appClipAdvancedExperienceImages_updateInstance: {status: covered, by: [apple_app_clip_advanced_experience]}
+  appClipAdvancedExperiences_createInstance: {status: covered, by: [apple_app_clip_advanced_experience]}
+  appClipAdvancedExperiences_getInstance: {status: covered, by: [apple_app_clip_advanced_experience]}
+  appClipAdvancedExperiences_updateInstance: {status: covered, by: [apple_app_clip_advanced_experience]}
   appClipAppStoreReviewDetails_createInstance: {status: covered, by: [apple_app_clip_app_store_review_detail]}
   appClipAppStoreReviewDetails_getInstance: {status: covered, by: [apple_app_clip_app_store_review_detail]}
   appClipAppStoreReviewDetails_updateInstance: {status: covered, by: [apple_app_clip_app_store_review_detail]}
@@ -120,8 +120,8 @@ operations:
   appClipHeaderImages_deleteInstance: {status: covered, by: [apple_app_clip_header_image]}
   appClipHeaderImages_getInstance: {status: covered, by: [apple_app_clip_header_image]}
   appClipHeaderImages_updateInstance: {status: covered, by: [apple_app_clip_header_image]}
-  appClips_appClipAdvancedExperiences_getToManyRelated: {status: planned, issue: 12}
-  appClips_appClipAdvancedExperiences_getToManyRelationship: {status: planned, issue: 12}
+  appClips_appClipAdvancedExperiences_getToManyRelated: {status: out_of_scope, reason: "apple_app_clip_advanced_experience reads each experience by ID"}
+  appClips_appClipAdvancedExperiences_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appClips_appClipDefaultExperiences_getToManyRelated: {status: out_of_scope, reason: "apple_app_clip_default_experience reads each experience by ID"}
   appClips_appClipDefaultExperiences_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   appClips_getInstance: {status: out_of_scope, reason: "data.apple_app_clips lists an app's App Clips"}
@@ -435,13 +435,13 @@ operations:
   backgroundAssets_updateInstance: {status: covered, by: [apple_background_asset]}
   backgroundAssets_versions_getToManyRelated: {status: covered, by: [data.apple_background_asset_versions]}
   backgroundAssets_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  betaAppClipInvocationLocalizations_createInstance: {status: planned, issue: 12}
-  betaAppClipInvocationLocalizations_deleteInstance: {status: planned, issue: 12}
-  betaAppClipInvocationLocalizations_updateInstance: {status: planned, issue: 12}
-  betaAppClipInvocations_createInstance: {status: planned, issue: 12}
-  betaAppClipInvocations_deleteInstance: {status: planned, issue: 12}
-  betaAppClipInvocations_getInstance: {status: planned, issue: 12}
-  betaAppClipInvocations_updateInstance: {status: planned, issue: 12}
+  betaAppClipInvocationLocalizations_createInstance: {status: covered, by: [apple_beta_app_clip_invocation]}
+  betaAppClipInvocationLocalizations_deleteInstance: {status: covered, by: [apple_beta_app_clip_invocation]}
+  betaAppClipInvocationLocalizations_updateInstance: {status: covered, by: [apple_beta_app_clip_invocation]}
+  betaAppClipInvocations_createInstance: {status: covered, by: [apple_beta_app_clip_invocation]}
+  betaAppClipInvocations_deleteInstance: {status: covered, by: [apple_beta_app_clip_invocation]}
+  betaAppClipInvocations_getInstance: {status: covered, by: [apple_beta_app_clip_invocation]}
+  betaAppClipInvocations_updateInstance: {status: covered, by: [apple_beta_app_clip_invocation]}
   betaAppLocalizations_app_getToOneRelated: {status: out_of_scope, reason: "the provider's resources and data sources already know the app they belong to"}
   betaAppLocalizations_app_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   betaAppLocalizations_createInstance: {status: covered, by: [apple_beta_app_localization]}
@@ -526,12 +526,12 @@ operations:
   buildBetaDetails_getInstance: {status: out_of_scope, reason: "apple_build_beta_detail finds the detail through buildBetaDetails_getCollection with filter[build]"}
   buildBetaDetails_updateInstance: {status: covered, by: [apple_build_beta_detail]}
   buildBetaNotifications_createInstance: {status: covered, by: [action.apple_notify_beta_testers]}
-  buildBundles_appClipDomainCacheStatus_getToOneRelated: {status: planned, issue: 12}
-  buildBundles_appClipDomainCacheStatus_getToOneRelationship: {status: planned, issue: 12}
-  buildBundles_appClipDomainDebugStatus_getToOneRelated: {status: planned, issue: 12}
-  buildBundles_appClipDomainDebugStatus_getToOneRelationship: {status: planned, issue: 12}
-  buildBundles_betaAppClipInvocations_getToManyRelated: {status: planned, issue: 12}
-  buildBundles_betaAppClipInvocations_getToManyRelationship: {status: planned, issue: 12}
+  buildBundles_appClipDomainCacheStatus_getToOneRelated: {status: covered, by: [data.apple_app_clip_domain_status]}
+  buildBundles_appClipDomainCacheStatus_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  buildBundles_appClipDomainDebugStatus_getToOneRelated: {status: covered, by: [data.apple_app_clip_domain_status]}
+  buildBundles_appClipDomainDebugStatus_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
+  buildBundles_betaAppClipInvocations_getToManyRelated: {status: out_of_scope, reason: "apple_beta_app_clip_invocation reads each invocation by ID"}
+  buildBundles_betaAppClipInvocations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   buildBundles_buildBundleFileSizes_getToManyRelated: {status: planned, issue: 16}
   buildBundles_buildBundleFileSizes_getToManyRelationship: {status: planned, issue: 16}
   buildUploadFiles_createInstance: {status: out_of_scope, reason: "uploading build binaries belongs in the CI pipeline (xcrun altool or Transporter), not in Terraform state"}
@@ -561,7 +561,7 @@ operations:
   builds_diagnosticSignatures_getToManyRelated: {status: planned, issue: 16}
   builds_diagnosticSignatures_getToManyRelationship: {status: planned, issue: 16}
   builds_getCollection: {status: covered, by: [data.apple_build, data.apple_builds]}
-  builds_getInstance: {status: covered, by: [data.apple_build]}
+  builds_getInstance: {status: covered, by: [data.apple_build, data.apple_build_bundles]}
   builds_icons_getToManyRelated: {status: out_of_scope, reason: "build icons are extracted by Apple from the uploaded build"}
   builds_icons_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   builds_individualTesters_createToManyRelationship: {status: covered, by: [action.apple_add_build_testers]}
