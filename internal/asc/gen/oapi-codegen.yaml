@@ -342,11 +342,13 @@ output-options:
     - gameCenterDetails_createInstance
     - gameCenterDetails_gameCenterAchievementsV2_getToManyRelated
     - gameCenterDetails_gameCenterAppVersions_getToManyRelated
+    - gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelated
     - gameCenterDetails_gameCenterLeaderboardsV2_getToManyRelated
     - gameCenterDetails_updateInstance
     - gameCenterGroups_createInstance
     - gameCenterGroups_deleteInstance
     - gameCenterGroups_gameCenterAchievementsV2_getToManyRelated
+    - gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelated
     - gameCenterGroups_gameCenterLeaderboardsV2_getToManyRelated
     - gameCenterGroups_getCollection
     - gameCenterGroups_getInstance
@@ -358,6 +360,27 @@ output-options:
     - gameCenterLeaderboardLocalizationsV2_deleteInstance
     - gameCenterLeaderboardLocalizationsV2_image_getToOneRelated
     - gameCenterLeaderboardLocalizationsV2_updateInstance
+    - gameCenterLeaderboardSetImagesV2_createInstance
+    - gameCenterLeaderboardSetImagesV2_deleteInstance
+    - gameCenterLeaderboardSetImagesV2_updateInstance
+    - gameCenterLeaderboardSetLocalizationsV2_createInstance
+    - gameCenterLeaderboardSetLocalizationsV2_deleteInstance
+    - gameCenterLeaderboardSetLocalizationsV2_image_getToOneRelated
+    - gameCenterLeaderboardSetLocalizationsV2_updateInstance
+    - gameCenterLeaderboardSetMemberLocalizations_createInstance
+    - gameCenterLeaderboardSetMemberLocalizations_deleteInstance
+    - gameCenterLeaderboardSetMemberLocalizations_getCollection
+    - gameCenterLeaderboardSetMemberLocalizations_updateInstance
+    - gameCenterLeaderboardSetVersionsV2_createInstance
+    - gameCenterLeaderboardSetVersionsV2_localizations_getToManyRelated
+    - gameCenterLeaderboardSetsV2_createInstance
+    - gameCenterLeaderboardSetsV2_deleteInstance
+    - gameCenterLeaderboardSetsV2_gameCenterLeaderboards_createToManyRelationship
+    - gameCenterLeaderboardSetsV2_gameCenterLeaderboards_deleteToManyRelationship
+    - gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelated
+    - gameCenterLeaderboardSetsV2_getInstance
+    - gameCenterLeaderboardSetsV2_updateInstance
+    - gameCenterLeaderboardSetsV2_versions_getToManyRelated
     - gameCenterLeaderboardVersionsV2_createInstance
     - gameCenterLeaderboardVersionsV2_localizations_getToManyRelated
     - gameCenterLeaderboardsV2_createInstance

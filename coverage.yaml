@@ -803,7 +803,7 @@ operations:
   gameCenterDetails_gameCenterChallenges_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterDetails_gameCenterGroup_getToOneRelated: {status: out_of_scope, reason: "apple_game_center_detail reads the group with the detail"}
   gameCenterDetails_gameCenterGroup_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelated: {status: planned, issue: 13}
+  gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboard_sets]}
   gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterDetails_gameCenterLeaderboardSetsV2_replaceToManyRelationship: {status: planned, issue: 13}
   gameCenterDetails_gameCenterLeaderboardSets_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -841,7 +841,7 @@ operations:
   gameCenterGroups_gameCenterChallenges_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterGroups_gameCenterDetails_getToManyRelated: {status: out_of_scope, reason: "apple_game_center_detail records each app's group"}
   gameCenterGroups_gameCenterDetails_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelated: {status: planned, issue: 13}
+  gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelated: {status: covered, by: [data.apple_game_center_leaderboard_sets]}
   gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterGroups_gameCenterLeaderboardSetsV2_replaceToManyRelationship: {status: planned, issue: 13}
   gameCenterGroups_gameCenterLeaderboardSets_getToManyRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
@@ -880,51 +880,51 @@ operations:
   gameCenterLeaderboardReleases_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardReleases_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardReleases_getInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterLeaderboardSetImagesV2_createInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetImagesV2_deleteInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetImagesV2_getInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetImagesV2_updateInstance: {status: planned, issue: 13}
+  gameCenterLeaderboardSetImagesV2_createInstance: {status: covered, by: [apple_game_center_leaderboard_set_image]}
+  gameCenterLeaderboardSetImagesV2_deleteInstance: {status: covered, by: [apple_game_center_leaderboard_set_image]}
+  gameCenterLeaderboardSetImagesV2_getInstance: {status: out_of_scope, reason: "apple_game_center_leaderboard_set_image reads the image through its localization"}
+  gameCenterLeaderboardSetImagesV2_updateInstance: {status: covered, by: [apple_game_center_leaderboard_set_image]}
   gameCenterLeaderboardSetImages_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetImages_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetImages_getInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetImages_updateInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterLeaderboardSetLocalizationsV2_createInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetLocalizationsV2_deleteInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetLocalizationsV2_getInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetLocalizationsV2_image_getToOneRelated: {status: planned, issue: 13}
+  gameCenterLeaderboardSetLocalizationsV2_createInstance: {status: covered, by: [apple_game_center_leaderboard_set_localization]}
+  gameCenterLeaderboardSetLocalizationsV2_deleteInstance: {status: covered, by: [apple_game_center_leaderboard_set_localization]}
+  gameCenterLeaderboardSetLocalizationsV2_getInstance: {status: out_of_scope, reason: "apple_game_center_leaderboard_set_localization lists a version's localizations"}
+  gameCenterLeaderboardSetLocalizationsV2_image_getToOneRelated: {status: covered, by: [apple_game_center_leaderboard_set_image]}
   gameCenterLeaderboardSetLocalizationsV2_image_getToOneRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterLeaderboardSetLocalizationsV2_updateInstance: {status: planned, issue: 13}
+  gameCenterLeaderboardSetLocalizationsV2_updateInstance: {status: covered, by: [apple_game_center_leaderboard_set_localization]}
   gameCenterLeaderboardSetLocalizations_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetLocalizations_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetLocalizations_gameCenterLeaderboardSetImage_getToOneRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetLocalizations_gameCenterLeaderboardSetImage_getToOneRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetLocalizations_getInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetLocalizations_updateInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterLeaderboardSetMemberLocalizations_createInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetMemberLocalizations_deleteInstance: {status: planned, issue: 13}
+  gameCenterLeaderboardSetMemberLocalizations_createInstance: {status: covered, by: [apple_game_center_leaderboard_set_member_localization]}
+  gameCenterLeaderboardSetMemberLocalizations_deleteInstance: {status: covered, by: [apple_game_center_leaderboard_set_member_localization]}
   gameCenterLeaderboardSetMemberLocalizations_gameCenterLeaderboardSet_getToOneRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetMemberLocalizations_gameCenterLeaderboardSet_getToOneRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetMemberLocalizations_gameCenterLeaderboard_getToOneRelated: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetMemberLocalizations_gameCenterLeaderboard_getToOneRelationship: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterLeaderboardSetMemberLocalizations_getCollection: {status: planned, issue: 13}
-  gameCenterLeaderboardSetMemberLocalizations_updateInstance: {status: planned, issue: 13}
+  gameCenterLeaderboardSetMemberLocalizations_getCollection: {status: covered, by: [apple_game_center_leaderboard_set_member_localization]}
+  gameCenterLeaderboardSetMemberLocalizations_updateInstance: {status: covered, by: [apple_game_center_leaderboard_set_member_localization]}
   gameCenterLeaderboardSetReleases_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetReleases_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSetReleases_getInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
-  gameCenterLeaderboardSetVersionsV2_createInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetVersionsV2_getInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetVersionsV2_localizations_getToManyRelated: {status: planned, issue: 13}
+  gameCenterLeaderboardSetVersionsV2_createInstance: {status: covered, by: [apple_game_center_leaderboard_set_localization, apple_game_center_leaderboard_set_image]}
+  gameCenterLeaderboardSetVersionsV2_getInstance: {status: out_of_scope, reason: "the leaderboard set's resources list its versions"}
+  gameCenterLeaderboardSetVersionsV2_localizations_getToManyRelated: {status: covered, by: [apple_game_center_leaderboard_set_localization, apple_game_center_leaderboard_set_image]}
   gameCenterLeaderboardSetVersionsV2_localizations_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
-  gameCenterLeaderboardSetsV2_createInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetsV2_deleteInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_createToManyRelationship: {status: planned, issue: 13}
-  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_deleteToManyRelationship: {status: planned, issue: 13}
-  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelated: {status: planned, issue: 13}
+  gameCenterLeaderboardSetsV2_createInstance: {status: covered, by: [apple_game_center_leaderboard_set]}
+  gameCenterLeaderboardSetsV2_deleteInstance: {status: covered, by: [apple_game_center_leaderboard_set]}
+  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_createToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_set_member]}
+  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_deleteToManyRelationship: {status: covered, by: [apple_game_center_leaderboard_set_member]}
+  gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelated: {status: covered, by: [apple_game_center_leaderboard_set_member]}
   gameCenterLeaderboardSetsV2_gameCenterLeaderboards_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterLeaderboardSetsV2_gameCenterLeaderboards_replaceToManyRelationship: {status: planned, issue: 13}
-  gameCenterLeaderboardSetsV2_getInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetsV2_updateInstance: {status: planned, issue: 13}
-  gameCenterLeaderboardSetsV2_versions_getToManyRelated: {status: planned, issue: 13}
+  gameCenterLeaderboardSetsV2_getInstance: {status: covered, by: [apple_game_center_leaderboard_set]}
+  gameCenterLeaderboardSetsV2_updateInstance: {status: covered, by: [apple_game_center_leaderboard_set]}
+  gameCenterLeaderboardSetsV2_versions_getToManyRelated: {status: covered, by: [apple_game_center_leaderboard_set_localization, apple_game_center_leaderboard_set_image, action.apple_submit_game_center_leaderboard_set]}
   gameCenterLeaderboardSetsV2_versions_getToManyRelationship: {status: out_of_scope, reason: "returns only linkages; the related endpoint returns the objects"}
   gameCenterLeaderboardSets_createInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}
   gameCenterLeaderboardSets_deleteInstance: {status: out_of_scope, reason: "deprecated in the API spec; the Game Center V2 resources and version resources replace it"}

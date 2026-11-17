@@ -20,8 +20,8 @@ import (
 // (https://developer.apple.com/documentation/appstoreconnectapi/game-center).
 // The fake creates an item with its first version, starts a version with
 // copies of the latest one's localizations and images, allows changes only
-// to the version being prepared, and refuses to delete an item that has
-// been live.
+// to the version being prepared, refuses to delete an item that has been
+// live, and removes a deleted leaderboard or set from its memberships.
 
 const (
 	gcDraft    = "PREPARE_FOR_SUBMISSION"
@@ -49,6 +49,11 @@ var gcLeaderboards = gcKind{
 	images: "gameCenterLeaderboardImages", parent: "leaderboard",
 }
 
+var gcSets = gcKind{
+	items: "gameCenterLeaderboardSets", versions: "gameCenterLeaderboardSetVersions", localizations: "gameCenterLeaderboardSetLocalizations",
+	images: "gameCenterLeaderboardSetImages", parent: "leaderboardSet",
+}
+
 type gcItem struct {
 	id, kind          string
 	detailID, groupID string
@@ -70,10 +75,16 @@ type gcItemsState struct {
 	items         map[string]*gcItem
 	versions      map[string]*gcVersion
 	localizations map[string]*gcLocalization
+	// setMembers maps a leaderboard set's ID to its leaderboards, in order.
+	setMembers          map[string][]string
+	memberLocalizations map[string]*setMemberLocalization
 }
 
 func newGCItemsState() *gcItemsState {
-	return &gcItemsState{items: map[string]*gcItem{}, versions: map[string]*gcVersion{}, localizations: map[string]*gcLocalization{}}
+	return &gcItemsState{
+		items: map[string]*gcItem{}, versions: map[string]*gcVersion{}, localizations: map[string]*gcLocalization{},
+		setMembers: map[string][]string{}, memberLocalizations: map[string]*setMemberLocalization{},
+	}
 }
 
 // gcRequest is a JSON:API request body read without its generated type.
@@ -215,6 +226,15 @@ func (s *Server) gcDeleteItem(w http.ResponseWriter, kind gcKind, id string) {
 		delete(s.gcItems.versions, v.id)
 	}
 	delete(s.gcItems.items, id)
+	delete(s.gcItems.setMembers, id)
+	for setID, members := range s.gcItems.setMembers {
+		s.gcItems.setMembers[setID] = slices.DeleteFunc(members, func(member string) bool { return member == id })
+	}
+	for localizationID, l := range s.gcItems.memberLocalizations {
+		if l.setID == id || l.leaderboardID == id {
+			delete(s.gcItems.memberLocalizations, localizationID)
+		}
+	}
 	w.WriteHeader(http.StatusNoContent)
 }
 

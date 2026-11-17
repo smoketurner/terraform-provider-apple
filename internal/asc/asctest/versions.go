@@ -792,6 +792,12 @@ func (s *Server) ReviewSubmissionItemsCreateInstance(w http.ResponseWriter, r *h
 		}
 		return
 	}
+	if rel.GameCenterLeaderboardSetVersion != nil && rel.GameCenterLeaderboardSetVersion.Data != nil {
+		if s.addGCVersionItem(w, sub, gcSets, rel.GameCenterLeaderboardSetVersion.Data.Id) {
+			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})
+		}
+		return
+	}
 	if rel.RetentionMessageVersion != nil && rel.RetentionMessageVersion.Data != nil {
 		if s.addRetentionVersionItem(w, sub, rel.RetentionMessageVersion.Data.Id) {
 			writeJSON(w, http.StatusCreated, map[string]any{"data": item, "links": docLinks(r)})

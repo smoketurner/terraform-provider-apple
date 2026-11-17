@@ -1,0 +1,1 @@
+terraform import apple_game_center_leaderboard_set_member_localization.en_US 6b8d0f2a-4c1e-4a3b-8d5f-9e0a1b2c3d4f/4f6a8c0e-2b1d-4e3f-9a5c-8d0e1f2a3b4c/en-US
