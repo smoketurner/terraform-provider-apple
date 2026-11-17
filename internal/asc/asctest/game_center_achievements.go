@@ -61,7 +61,7 @@ func (s *Server) GameCenterAchievementLocalizationsV2DeleteInstance(w http.Respo
 }
 
 func (s *Server) GameCenterAchievementLocalizationsV2ImageGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, _ gen.GameCenterAchievementLocalizationsV2ImageGetToOneRelatedParams) {
-	s.gcLocalizationImage(w, r, gcAchievements, id)
+	s.gcOwnerImage(w, r, gcAchievements, id)
 }
 
 func (s *Server) GameCenterAchievementImagesV2CreateInstance(w http.ResponseWriter, r *http.Request) {

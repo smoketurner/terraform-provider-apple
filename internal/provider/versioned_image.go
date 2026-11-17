@@ -4,7 +4,9 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"maps"
 	"path/filepath"
+	"strings"
 
 	"github.com/hashicorp/terraform-plugin-framework/action"
 	actionschema "github.com/hashicorp/terraform-plugin-framework/action/schema"
@@ -33,9 +35,14 @@ type localizationImageAPI struct {
 	noun          string // e.g. "Game Center achievement image"
 	description   string
 	localizations localizationAPI
-	// existing returns the ID of a localization's image.
-	existing func(ctx context.Context, c *asc.Client, localizationID string) (string, error)
-	reserve  func(ctx context.Context, c *asc.Client, localizationID, name string, size int) (string, []gen.UploadOperation, error)
+	// versionLevel is set for a version's default image, which belongs to
+	// the version instead of one of its localizations: the resource then
+	// has no locale, and the owner below is the version.
+	versionLevel bool
+	// existing returns the ID of the image of a localization, or of a
+	// version for a version-level image.
+	existing func(ctx context.Context, c *asc.Client, ownerID string) (string, error)
+	reserve  func(ctx context.Context, c *asc.Client, ownerID, name string, size int) (string, []gen.UploadOperation, error)
 	commit   func(ctx context.Context, c *asc.Client, id string) (failure string, err error)
 	remove   func(ctx context.Context, c *asc.Client, id string) error
 }
@@ -55,11 +62,12 @@ type localizationImageResource struct {
 
 func newLocalizationImageResource(api localizationImageAPI) func() resource.Resource {
 	parent := api.localizations.parent
+	identity := []identityAttribute{{name: parent, description: api.localizations.parentDesc, state: parent}}
+	if !api.versionLevel {
+		identity = append(identity, identityAttribute{name: "locale", description: "Locale, e.g. `en-US`.", state: "locale"})
+	}
 	return func() resource.Resource {
-		return &localizationImageResource{api: api, resourceIdentity: resourceIdentity{attrs: []identityAttribute{
-			{name: parent, description: api.localizations.parentDesc, state: parent},
-			{name: "locale", description: "Locale, e.g. `en-US`.", state: "locale"},
-		}}}
+		return &localizationImageResource{api: api, resourceIdentity: resourceIdentity{attrs: identity}}
 	}
 }
 
@@ -69,22 +77,35 @@ func (r *localizationImageResource) Metadata(_ context.Context, req resource.Met
 
 func (r *localizationImageResource) Schema(_ context.Context, _ resource.SchemaRequest, resp *resource.SchemaResponse) {
 	parent := r.api.localizations.parent
+	needs, key := " The locale needs its localization first, so refer to the localization resource's `locale`.", "`<"+parent+">/<locale>`"
+	if r.api.versionLevel {
+		needs, key = "", "the "+strings.TrimSuffix(strings.ReplaceAll(parent, "_", " "), " id")+"'s ID"
+	}
+	attributes := map[string]schema.Attribute{
+		parent:   replacedString(r.api.localizations.parentDesc),
+		"locale": replacedString("Locale of the localization the image is for, e.g. `en-US`.", localeValidator),
+	}
+	if r.api.versionLevel {
+		delete(attributes, "locale")
+	}
+	maps.Copy(attributes, r.imageAttributes())
 	resp.Schema = schema.Schema{
-		MarkdownDescription: r.api.description + " The locale needs its localization first, so refer to the localization " +
-			"resource's `locale`. The image goes to the version being prepared; when the current version has been " +
-			"reviewed, applying a changed file starts the next one, and a change fails while a version is in review. " +
-			"Destroying the resource deletes the image from the version being prepared, and otherwise leaves it. " +
-			"Import it with `<" + parent + ">/<locale>`; the next apply then uploads the configured file.",
-		Attributes: map[string]schema.Attribute{
-			parent:   replacedString(r.api.localizations.parentDesc),
-			"locale": replacedString("Locale of the localization the image is for, e.g. `en-US`.", localeValidator),
-			"file": schema.StringAttribute{
-				MarkdownDescription: "Path of the image. Relative paths are relative to where Terraform runs, so use `\"${path.module}/...\"`.",
-				Required:            true,
-			},
-			"checksum": schema.StringAttribute{MarkdownDescription: "MD5 checksum of the uploaded file.", Computed: true},
-			"id":       schema.StringAttribute{MarkdownDescription: "App Store Connect ID of the image, which changes with each version and upload.", Computed: true},
+		MarkdownDescription: r.api.description + needs + " The image goes to the version being prepared; when the current " +
+			"version has been reviewed, applying a changed file starts the next one, and a change fails while a version " +
+			"is in review. Destroying the resource deletes the image from the version being prepared, and otherwise " +
+			"leaves it. Import it with " + key + "; the next apply then uploads the configured file.",
+		Attributes: attributes,
+	}
+}
+
+func (r *localizationImageResource) imageAttributes() map[string]schema.Attribute {
+	return map[string]schema.Attribute{
+		"file": schema.StringAttribute{
+			MarkdownDescription: "Path of the image. Relative paths are relative to where Terraform runs, so use `\"${path.module}/...\"`.",
+			Required:            true,
 		},
+		"checksum": schema.StringAttribute{MarkdownDescription: "MD5 checksum of the uploaded file.", Computed: true},
+		"id":       schema.StringAttribute{MarkdownDescription: "App Store Connect ID of the image, which changes with each version and upload.", Computed: true},
 	}
 }
 
@@ -123,8 +144,12 @@ func (r *localizationImageResource) ModifyPlan(ctx context.Context, req resource
 	}
 }
 
-// localization returns the ID of the locale's localization in a version.
+// localization returns the ID of the image's owner in a version: the
+// locale's localization, or the version itself for a version-level image.
 func (r *localizationImageResource) localization(ctx context.Context, versionID, locale string) (string, error) {
+	if r.api.versionLevel {
+		return versionID, nil
+	}
 	all, err := r.api.localizations.list(ctx, r.client, versionID)
 	if err != nil {
 		return "", err
@@ -183,7 +208,9 @@ func (r *localizationImageResource) upload(ctx context.Context, parentID, locale
 func (r *localizationImageResource) key(ctx context.Context, get func(context.Context, path.Path, any) diag.Diagnostics, diags *diag.Diagnostics) (parent, locale string) {
 	var p, l types.String
 	diags.Append(get(ctx, path.Root(r.api.localizations.parent), &p)...)
-	diags.Append(get(ctx, path.Root("locale"), &l)...)
+	if !r.api.versionLevel {
+		diags.Append(get(ctx, path.Root("locale"), &l)...)
+	}
 	return p.ValueString(), l.ValueString()
 }
 

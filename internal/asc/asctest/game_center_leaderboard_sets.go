@@ -65,7 +65,7 @@ func (s *Server) GameCenterLeaderboardSetLocalizationsV2DeleteInstance(w http.Re
 }
 
 func (s *Server) GameCenterLeaderboardSetLocalizationsV2ImageGetToOneRelated(w http.ResponseWriter, r *http.Request, id string, _ gen.GameCenterLeaderboardSetLocalizationsV2ImageGetToOneRelatedParams) {
-	s.gcLocalizationImage(w, r, gcSets, id)
+	s.gcOwnerImage(w, r, gcSets, id)
 }
 
 func (s *Server) GameCenterLeaderboardSetImagesV2CreateInstance(w http.ResponseWriter, r *http.Request) {

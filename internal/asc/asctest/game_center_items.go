@@ -54,16 +54,40 @@ var gcSets = gcKind{
 	images: "gameCenterLeaderboardSetImages", parent: "leaderboardSet",
 }
 
+var (
+	gcActivities = gcKind{
+		items: "gameCenterActivities", versions: "gameCenterActivityVersions", localizations: "gameCenterActivityLocalizations",
+		images: "gameCenterActivityImages", parent: "activity",
+	}
+	gcChallenges = gcKind{
+		items: "gameCenterChallenges", versions: "gameCenterChallengeVersions", localizations: "gameCenterChallengeLocalizations",
+		images: "gameCenterChallengeImages", parent: "challenge",
+	}
+	gcKinds = map[string]gcKind{
+		gcAchievements.items: gcAchievements, gcLeaderboards.items: gcLeaderboards, gcSets.items: gcSets,
+		gcActivities.items: gcActivities, gcChallenges.items: gcChallenges,
+	}
+	// gcLinkTypes maps a relationship from an item to other items to their
+	// type: an activity's achievements and leaderboards, and a challenge's
+	// leaderboard.
+	gcLinkTypes = map[string]gcKind{"achievementsV2": gcAchievements, "leaderboardsV2": gcLeaderboards, "leaderboardV2": gcLeaderboards}
+)
+
 type gcItem struct {
 	id, kind          string
 	detailID, groupID string
 	attributes        map[string]any
+	// links holds the IDs of the items each relationship names.
+	links map[string][]string
 }
 
 type gcVersion struct {
 	id, kind, itemID string
 	number           int
 	state            string
+	// attributes holds what a version has besides its number and state,
+	// such as an activity's fallback URL.
+	attributes map[string]any
 }
 
 type gcLocalization struct {
@@ -130,7 +154,14 @@ func (s *Server) renderGCItem(i *gcItem) map[string]any {
 	for _, v := range s.gcItemVersions(i.id) {
 		versions = append(versions, v.id)
 	}
-	relationships := map[string]any{"versions": linkageData(i.kind+"Versions", versions...)}
+	relationships := map[string]any{"versions": linkageData(gcKinds[i.kind].versions, versions...)}
+	for name, ids := range i.links {
+		if name == "leaderboardV2" {
+			relationships[name] = oneLinkage(gcLinkTypes[name].items, ids[0])
+		} else {
+			relationships[name] = linkageData(gcLinkTypes[name].items, ids...)
+		}
+	}
 	if i.detailID != "" {
 		relationships["gameCenterDetail"] = oneLinkage("gameCenterDetails", i.detailID)
 	} else {
@@ -170,12 +201,71 @@ func (s *Server) gcCreateItem(w http.ResponseWriter, r *http.Request, kind gcKin
 			return
 		}
 	}
+	if !s.setGCLeaderboard(w, i, &req) {
+		return
+	}
 	i.id = s.newID("GI")
 	i.attributes["archived"] = false
 	s.gcItems.items[i.id] = i
-	v := &gcVersion{id: s.newID("GN"), kind: kind.versions, itemID: i.id, number: 1, state: gcDraft}
+	v := &gcVersion{id: s.newID("GN"), kind: kind.versions, itemID: i.id, number: 1, state: gcDraft, attributes: map[string]any{}}
 	s.gcItems.versions[v.id] = v
 	writeDoc(w, r, http.StatusCreated, s.renderGCItem(i))
+}
+
+// setGCLeaderboard records the leaderboard a challenge's request names,
+// which belongs to the challenge's app or group.
+func (s *Server) setGCLeaderboard(w http.ResponseWriter, i *gcItem, req *gcRequest) bool {
+	id := req.related("leaderboardV2")
+	if id == "" {
+		return true
+	}
+	if !s.gcLinkable(i, gcLeaderboards, id) {
+		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The item's app or group has no gameCenterLeaderboards with id '"+id+"'", "/data/relationships/leaderboardV2")
+		return false
+	}
+	i.links = map[string][]string{"leaderboardV2": {id}}
+	return true
+}
+
+// gcLinkable reports whether an item of a kind exists and belongs to the
+// same app or group as i.
+func (s *Server) gcLinkable(i *gcItem, kind gcKind, id string) bool {
+	other, ok := s.gcItems.items[id]
+	return ok && other.kind == kind.items && other.detailID == i.detailID && other.groupID == i.groupID
+}
+
+// gcSetLinks adds items to a to-many relationship of an item, or removes
+// them.
+func (s *Server) gcSetLinks(w http.ResponseWriter, r *http.Request, kind gcKind, id, name string, add bool) {
+	var req struct {
+		Data []struct {
+			ID string `json:"id"`
+		} `json:"data"`
+	}
+	if !decode(w, r, &req) {
+		return
+	}
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	i := s.findGCItem(w, kind, id)
+	if i == nil {
+		return
+	}
+	if i.links == nil {
+		i.links = map[string][]string{}
+	}
+	for _, d := range req.Data {
+		if !s.gcLinkable(i, gcLinkTypes[name], d.ID) {
+			conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The item's app or group has no "+gcLinkTypes[name].items+" with id '"+d.ID+"'", "/data")
+			return
+		}
+		links := slices.DeleteFunc(i.links[name], func(linked string) bool { return linked == d.ID })
+		if add {
+			links = append(links, d.ID)
+		}
+		i.links[name] = links
+	}
+	w.WriteHeader(http.StatusNoContent)
 }
 
 func (s *Server) gcGetItem(w http.ResponseWriter, r *http.Request, kind gcKind, id string) {
@@ -196,6 +286,9 @@ func (s *Server) gcUpdateItem(w http.ResponseWriter, r *http.Request, kind gcKin
 	defer s.mu.Unlock()
 	i := s.findGCItem(w, kind, id)
 	if i == nil {
+		return
+	}
+	if !s.setGCLeaderboard(w, i, &req) {
 		return
 	}
 	for name, value := range req.Data.Attributes {
@@ -223,7 +316,19 @@ func (s *Server) gcDeleteItem(w http.ResponseWriter, kind gcKind, id string) {
 		for _, l := range s.gcVersionLocalizations(v.id) {
 			s.removeGCLocalization(kind, l.id)
 		}
+		if image := s.gcImage(kind, v.id); image != nil {
+			s.removeFile(image)
+		}
 		delete(s.gcItems.versions, v.id)
+	}
+	for _, other := range s.gcItems.items {
+		for name, ids := range other.links {
+			if ids = slices.DeleteFunc(ids, func(linked string) bool { return linked == id }); len(ids) == 0 {
+				delete(other.links, name)
+			} else {
+				other.links[name] = ids
+			}
+		}
 	}
 	delete(s.gcItems.items, id)
 	delete(s.gcItems.setMembers, id)
@@ -278,8 +383,10 @@ func (s *Server) renderGCVersion(kind gcKind, v *gcVersion) map[string]any {
 	for _, l := range s.gcVersionLocalizations(v.id) {
 		localizations = append(localizations, l.id)
 	}
+	attributes := maps.Clone(v.attributes)
+	attributes["version"], attributes["state"] = v.number, v.state
 	return map[string]any{
-		"type": kind.versions, "id": v.id, "attributes": map[string]any{"version": v.number, "state": v.state},
+		"type": kind.versions, "id": v.id, "attributes": attributes,
 		"relationships": map[string]any{kind.parent: oneLinkage(kind.items, v.itemID), "localizations": linkageData(kind.localizations, localizations...)},
 	}
 }
@@ -318,17 +425,51 @@ func (s *Server) gcCreateVersion(w http.ResponseWriter, r *http.Request, kind gc
 		stateError(w, "The item has a version that is being prepared or reviewed.")
 		return
 	}
-	v := &gcVersion{id: s.newID("GN"), kind: kind.versions, itemID: itemID, number: latest.number + 1, state: gcDraft}
+	v := &gcVersion{id: s.newID("GN"), kind: kind.versions, itemID: itemID, number: latest.number + 1, state: gcDraft, attributes: maps.Clone(latest.attributes)}
+	maps.Copy(v.attributes, req.Data.Attributes)
 	s.gcItems.versions[v.id] = v
+	s.copyGCImage(kind, latest.id, v.id)
 	for _, l := range s.gcVersionLocalizations(latest.id) {
 		c := &gcLocalization{id: s.newID("GL"), kind: l.kind, versionID: v.id, attributes: maps.Clone(l.attributes)}
 		s.gcItems.localizations[c.id] = c
-		if image := s.gcImage(kind, l.id); image != nil {
-			copied := s.newFile(fileKind(kind.images), c.id, image.fileName, image.size)
-			copied.state = image.state
-		}
+		s.copyGCImage(kind, l.id, c.id)
 	}
 	writeDoc(w, r, http.StatusCreated, s.renderGCVersion(kind, v))
+}
+
+// copyGCImage gives an owner a copy of another owner's image, if any.
+func (s *Server) copyGCImage(kind gcKind, from, to string) {
+	if image := s.gcImage(kind, from); image != nil {
+		copied := s.newFile(fileKind(kind.images), to, image.fileName, image.size)
+		copied.state = image.state
+	}
+}
+
+// gcUpdateVersion changes the attributes of a version being prepared; a
+// null removes one.
+func (s *Server) gcUpdateVersion(w http.ResponseWriter, r *http.Request, kind gcKind, id string) {
+	var req gcRequest
+	if !decode(w, r, &req) {
+		return
+	}
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	if v, ok := s.gcItems.versions[id]; !ok || v.kind != kind.versions {
+		notFound(w, kind.versions, id)
+		return
+	}
+	v := s.draftGCVersion(w, kind, id, "")
+	if v == nil {
+		return
+	}
+	for name, value := range req.Data.Attributes {
+		if value == nil {
+			delete(v.attributes, name)
+		} else {
+			v.attributes[name] = value
+		}
+	}
+	writeDoc(w, r, http.StatusOK, s.renderGCVersion(kind, v))
 }
 
 // ---- localizations ----
@@ -456,10 +597,11 @@ func (s *Server) gcDeleteLocalization(w http.ResponseWriter, kind gcKind, id str
 
 // ---- images ----
 
-// gcImage returns a localization's image, or nil.
-func (s *Server) gcImage(kind gcKind, localizationID string) *uploadedFile {
+// gcImage returns the image of a localization, or the default image of a
+// version, or nil.
+func (s *Server) gcImage(kind gcKind, ownerID string) *uploadedFile {
 	for _, f := range s.files {
-		if f.kind == fileKind(kind.images) && f.parentID == localizationID {
+		if f.kind == fileKind(kind.images) && f.parentID == ownerID {
 			return f
 		}
 	}
@@ -468,14 +610,27 @@ func (s *Server) gcImage(kind gcKind, localizationID string) *uploadedFile {
 
 func (s *Server) renderGCImage(r *http.Request, kind gcKind, f *uploadedFile) map[string]any {
 	state, operations, _ := s.fileAttributes(r, f)
-	return map[string]any{
+	image := map[string]any{
 		"type": kind.images, "id": f.id,
-		"attributes":    map[string]any{"fileName": f.fileName, "fileSize": f.size, "assetDeliveryState": state, "uploadOperations": operations},
-		"relationships": map[string]any{"localization": oneLinkage(kind.localizations, f.parentID)},
+		"attributes": map[string]any{"fileName": f.fileName, "fileSize": f.size, "assetDeliveryState": state, "uploadOperations": operations},
 	}
+	if _, ok := s.gcItems.localizations[f.parentID]; ok {
+		image["relationships"] = map[string]any{"localization": oneLinkage(kind.localizations, f.parentID)}
+	}
+	return image
 }
 
-// gcCreateImage reserves the image of a localization, which has one.
+// draftGCImageOwner writes an error and returns false unless the owner is a
+// localization of a version being prepared, or such a version.
+func (s *Server) draftGCImageOwner(w http.ResponseWriter, kind gcKind, ownerID string) bool {
+	if _, ok := s.gcItems.localizations[ownerID]; ok {
+		return s.draftGCLocalization(w, kind, ownerID) != nil
+	}
+	return s.draftGCVersion(w, kind, ownerID, "/data/relationships/version") != nil
+}
+
+// gcCreateImage reserves the image of a localization, or the default image
+// of a version; each has one.
 func (s *Server) gcCreateImage(w http.ResponseWriter, r *http.Request, kind gcKind) {
 	var req gcRequest
 	if !decode(w, r, &req) {
@@ -483,21 +638,25 @@ func (s *Server) gcCreateImage(w http.ResponseWriter, r *http.Request, kind gcKi
 	}
 	s.mu.Lock()
 	defer s.mu.Unlock()
-	localizationID := req.related("localization")
-	if l, ok := s.gcItems.localizations[localizationID]; !ok || l.kind != kind.localizations {
-		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no "+kind.localizations+" with id '"+localizationID+"'", "/data/relationships/localization")
+	ownerID := req.related("localization")
+	if ownerID != "" {
+		if l, ok := s.gcItems.localizations[ownerID]; !ok || l.kind != kind.localizations {
+			conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "There is no "+kind.localizations+" with id '"+ownerID+"'", "/data/relationships/localization")
+			return
+		}
+	} else {
+		ownerID = req.related("version")
+	}
+	if !s.draftGCImageOwner(w, kind, ownerID) {
 		return
 	}
-	if s.draftGCLocalization(w, kind, localizationID) == nil {
-		return
-	}
-	if s.gcImage(kind, localizationID) != nil {
-		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The localization already has an image.", "/data/relationships/localization")
+	if s.gcImage(kind, ownerID) != nil {
+		conflict(w, "ENTITY_ERROR.RELATIONSHIP.INVALID", "The localization or version already has an image.", "/data/relationships")
 		return
 	}
 	name, _ := req.Data.Attributes["fileName"].(string)
 	size, _ := req.Data.Attributes["fileSize"].(float64)
-	writeDoc(w, r, http.StatusCreated, s.renderGCImage(r, kind, s.newFile(fileKind(kind.images), localizationID, name, int(size))))
+	writeDoc(w, r, http.StatusCreated, s.renderGCImage(r, kind, s.newFile(fileKind(kind.images), ownerID, name, int(size))))
 }
 
 func (s *Server) gcUpdateImage(w http.ResponseWriter, r *http.Request, kind gcKind, id string) {
@@ -522,19 +681,21 @@ func (s *Server) gcDeleteImage(w http.ResponseWriter, kind gcKind, id string) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
 	f := s.findFile(w, fileKind(kind.images), id)
-	if f == nil || s.draftGCLocalization(w, kind, f.parentID) == nil {
+	if f == nil || !s.draftGCImageOwner(w, kind, f.parentID) {
 		return
 	}
 	s.removeFile(f)
 	w.WriteHeader(http.StatusNoContent)
 }
 
-func (s *Server) gcLocalizationImage(w http.ResponseWriter, r *http.Request, kind gcKind, localizationID string) {
+// gcOwnerImage writes the image of a localization or the default image of a
+// version.
+func (s *Server) gcOwnerImage(w http.ResponseWriter, r *http.Request, kind gcKind, ownerID string) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
-	f := s.gcImage(kind, localizationID)
+	f := s.gcImage(kind, ownerID)
 	if f == nil {
-		notFound(w, kind.localizations, localizationID)
+		notFound(w, kind.images, ownerID)
 		return
 	}
 	writeDoc(w, r, http.StatusOK, s.renderGCImage(r, kind, f))

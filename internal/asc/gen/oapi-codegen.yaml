@@ -334,20 +334,59 @@ output-options:
     - gameCenterAchievementsV2_getInstance
     - gameCenterAchievementsV2_updateInstance
     - gameCenterAchievementsV2_versions_getToManyRelated
+    - gameCenterActivities_achievementsV2_createToManyRelationship
+    - gameCenterActivities_achievementsV2_deleteToManyRelationship
+    - gameCenterActivities_createInstance
+    - gameCenterActivities_deleteInstance
+    - gameCenterActivities_getInstance
+    - gameCenterActivities_leaderboardsV2_createToManyRelationship
+    - gameCenterActivities_leaderboardsV2_deleteToManyRelationship
+    - gameCenterActivities_updateInstance
+    - gameCenterActivities_versions_getToManyRelated
+    - gameCenterActivityImages_createInstance
+    - gameCenterActivityImages_deleteInstance
+    - gameCenterActivityImages_updateInstance
+    - gameCenterActivityLocalizations_createInstance
+    - gameCenterActivityLocalizations_deleteInstance
+    - gameCenterActivityLocalizations_image_getToOneRelated
+    - gameCenterActivityLocalizations_updateInstance
+    - gameCenterActivityVersions_createInstance
+    - gameCenterActivityVersions_defaultImage_getToOneRelated
+    - gameCenterActivityVersions_localizations_getToManyRelated
+    - gameCenterActivityVersions_updateInstance
     - gameCenterAppVersions_compatibilityVersions_createToManyRelationship
     - gameCenterAppVersions_compatibilityVersions_deleteToManyRelationship
     - gameCenterAppVersions_compatibilityVersions_getToManyRelationship
     - gameCenterAppVersions_createInstance
     - gameCenterAppVersions_updateInstance
+    - gameCenterChallengeImages_createInstance
+    - gameCenterChallengeImages_deleteInstance
+    - gameCenterChallengeImages_updateInstance
+    - gameCenterChallengeLocalizations_createInstance
+    - gameCenterChallengeLocalizations_deleteInstance
+    - gameCenterChallengeLocalizations_image_getToOneRelated
+    - gameCenterChallengeLocalizations_updateInstance
+    - gameCenterChallengeVersions_createInstance
+    - gameCenterChallengeVersions_defaultImage_getToOneRelated
+    - gameCenterChallengeVersions_localizations_getToManyRelated
+    - gameCenterChallenges_createInstance
+    - gameCenterChallenges_deleteInstance
+    - gameCenterChallenges_getInstance
+    - gameCenterChallenges_updateInstance
+    - gameCenterChallenges_versions_getToManyRelated
     - gameCenterDetails_createInstance
     - gameCenterDetails_gameCenterAchievementsV2_getToManyRelated
+    - gameCenterDetails_gameCenterActivities_getToManyRelated
     - gameCenterDetails_gameCenterAppVersions_getToManyRelated
+    - gameCenterDetails_gameCenterChallenges_getToManyRelated
     - gameCenterDetails_gameCenterLeaderboardSetsV2_getToManyRelated
     - gameCenterDetails_gameCenterLeaderboardsV2_getToManyRelated
     - gameCenterDetails_updateInstance
     - gameCenterGroups_createInstance
     - gameCenterGroups_deleteInstance
     - gameCenterGroups_gameCenterAchievementsV2_getToManyRelated
+    - gameCenterGroups_gameCenterActivities_getToManyRelated
+    - gameCenterGroups_gameCenterChallenges_getToManyRelated
     - gameCenterGroups_gameCenterLeaderboardSetsV2_getToManyRelated
     - gameCenterGroups_gameCenterLeaderboardsV2_getToManyRelated
     - gameCenterGroups_getCollection
