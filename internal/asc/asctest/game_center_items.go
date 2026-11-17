@@ -44,6 +44,11 @@ var gcAchievements = gcKind{
 	images: "gameCenterAchievementImages", parent: "achievement",
 }
 
+var gcLeaderboards = gcKind{
+	items: "gameCenterLeaderboards", versions: "gameCenterLeaderboardVersions", localizations: "gameCenterLeaderboardLocalizations",
+	images: "gameCenterLeaderboardImages", parent: "leaderboard",
+}
+
 type gcItem struct {
 	id, kind          string
 	detailID, groupID string

@@ -342,13 +342,29 @@ output-options:
     - gameCenterDetails_createInstance
     - gameCenterDetails_gameCenterAchievementsV2_getToManyRelated
     - gameCenterDetails_gameCenterAppVersions_getToManyRelated
+    - gameCenterDetails_gameCenterLeaderboardsV2_getToManyRelated
     - gameCenterDetails_updateInstance
     - gameCenterGroups_createInstance
     - gameCenterGroups_deleteInstance
     - gameCenterGroups_gameCenterAchievementsV2_getToManyRelated
+    - gameCenterGroups_gameCenterLeaderboardsV2_getToManyRelated
     - gameCenterGroups_getCollection
     - gameCenterGroups_getInstance
     - gameCenterGroups_updateInstance
+    - gameCenterLeaderboardImagesV2_createInstance
+    - gameCenterLeaderboardImagesV2_deleteInstance
+    - gameCenterLeaderboardImagesV2_updateInstance
+    - gameCenterLeaderboardLocalizationsV2_createInstance
+    - gameCenterLeaderboardLocalizationsV2_deleteInstance
+    - gameCenterLeaderboardLocalizationsV2_image_getToOneRelated
+    - gameCenterLeaderboardLocalizationsV2_updateInstance
+    - gameCenterLeaderboardVersionsV2_createInstance
+    - gameCenterLeaderboardVersionsV2_localizations_getToManyRelated
+    - gameCenterLeaderboardsV2_createInstance
+    - gameCenterLeaderboardsV2_deleteInstance
+    - gameCenterLeaderboardsV2_getInstance
+    - gameCenterLeaderboardsV2_updateInstance
+    - gameCenterLeaderboardsV2_versions_getToManyRelated
     - inAppPurchaseAppStoreReviewScreenshots_createInstance
     - inAppPurchaseAppStoreReviewScreenshots_deleteInstance
     - inAppPurchaseAppStoreReviewScreenshots_getInstance
